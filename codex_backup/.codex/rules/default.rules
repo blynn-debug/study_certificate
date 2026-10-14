@@ -1,0 +1,2 @@
+prefix_rule(pattern=["Get-Content", "-LiteralPath", "C:/Users/djliz/.codex/skills/.system/openai-docs/SKILL.md"], decision="allow")
+prefix_rule(pattern=["codex", "--help"], decision="allow")

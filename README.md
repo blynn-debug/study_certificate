@@ -12,6 +12,7 @@
 
 ## 주요 자료
 
+- [3장 기억의 지도 게임](study_algorithm/output/3장_기억의_지도_게임.html) — Windows에서 다운로드 후 더블클릭으로 실행하는 오프라인 암기 게임 ([사용법](study_algorithm/game/README.md)).
 - [3과목 목차 암기 HTML](study_algorithm/output/3과목_목차암기_공부법과_반복학습_문제집.html)
 - [3과목 목차 암기 PDF](study_algorithm/output/3과목_목차암기_공부법과_반복학습_문제집.pdf)
 - 원문 학습자료: study_algorithm/src/
@@ -29,3 +30,7 @@ git lfs pull
 ```
 
 HTML 인쇄 시 A4, 배경 그래픽 켜기, 크롬 여백 ‘없음’을 사용합니다.
+
+## Codex 공개용 백업
+
+설정·메모리·대화 기록·스킬·플러그인·실행 파일의 공개용 스냅샷은 [codex_backup](codex_backup/README.md)에 있습니다. 인증정보와 임시 실행 상태는 제외했습니다. 세부 처리 내역은 [Codex 백업 매니페스트](codex_backup/BACKUP_MANIFEST.json)를 확인하세요.

@@ -1,0 +1,56 @@
+[2m2026-10-12T11:01:49.203786Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:56938/mcp) [3msession_id[0m[2m=[0m"633e87c7-5f48-4d55-93c1-e74f976d2b63"
+[2m2026-10-12T11:01:49.203993Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:63471/mcp) [3msession_id[0m[2m=[0m"e0617165-e6c6-4120-b7b4-c8d8dfdd65b7"
+[2m2026-10-12T11:01:49.203979Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:63236/mcp) [3msession_id[0m[2m=[0m"07af2c2f-d943-4ad9-9b7e-c95926e6cc4b"
+[2m2026-10-12T11:10:08.848880Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:58713/mcp) [3msession_id[0m[2m=[0m"6e2e6bdf-740f-47f3-ab73-df8f0ec8dbe1"
+[2m2026-10-12T11:14:42.144382Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:56330/mcp) [3msession_id[0m[2m=[0m"d13efacf-2b47-48be-9e1f-90a7d946cdc7"
+[2m2026-10-12T11:14:42.145057Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:56330/mcp) [3msession_id[0m[2m=[0m"4aa575e5-7d8a-4200-8d33-35401c5e6149"
+[2m2026-10-12T11:58:52.136585Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:60394/mcp) [3msession_id[0m[2m=[0m"a7d5afc2-cbee-42ac-855d-3d18a79fe635"
+[2m2026-10-12T12:40:13.397065Z[0m [31mERROR[0m [2mcodex_models_manager::manager[0m[2m:[0m failed to refresh available models: request timed out
+[2m2026-10-12T15:36:31.720261Z[0m [31mERROR[0m [2mcodex_models_manager::manager[0m[2m:[0m failed to refresh available models: request timed out
+[2m2026-10-12T16:29:17.524976Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: invalid hunk at line 21, '가-힣A-Za-z0-9①②③④]{0,12}|(?:정답|답)[ :：]*)[①②③④][ \t]*$", re.MULTILINE)' is not a valid hunk header. Valid hunk headers: '*** Add File: {path}', '*** Delete File: {path}', '*** Update File: {path}'
+[2m2026-10-13T00:33:55.414786Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\eval\semantic_grader.py:
+    result = grade(corpus, provider, item_id=request["item_id"], response=request["response"],
+                   mode=request.get("mode", "explain"), review_provider=review,
+                   history=request.get("history"))
+[2m2026-10-13T01:00:16.229189Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\eval\verify_eval.py:
+            "自然语" 
+[2m2026-10-13T01:14:17.714976Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\claim_reviews.py:
+claim(
+    "L112", "S3C2T21",
+[2m2026-10-13T01:32:59.776943Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\claim_reviews.py:
+    "income:제62조", "S1C1-ISSUE-03",
+[2m2026-10-13T02:34:22.688075Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\claim_reviews.py:
+    "capital:제56조 kofia_terms:제3조 kofia_terms:제4조 kofia_terms:제5조 kofia_terms:제6조",
+    caveat="외국 집합투자증권 매매거래 표준약관은 원칙적 수정금지이나 외국환거래규정 제7-2조제4항 투자자만 대상인 판매는 예외다. 협회의 변경필요 통지와 금융위의 변경명령을 구분한다. 일반 사후보고 7일과 사전신고 10영업일을 혼동하지 않는다.",
+    effect="textbook_option_correction",
+)
+[2m2026-10-13T03:28:21.567107Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\eval\semantic_grader.py:
+math 근거는 명시한 조건의 재계산이다. 예시 세율을 현행 세법으로 해석하지 않는다.
+[2m2026-10-13T14:20:32.576156Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:62784/mcp) [3msession_id[0m[2m=[0m"bb5daac0-8001-485b-9081-215ce8f6cad3"
+[2m2026-10-13T14:20:32.576156Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:63233/mcp) [3msession_id[0m[2m=[0m"7f9e7e99-ff79-4aaa-98d0-65ac77619798"
+[2m2026-10-13T14:24:13.552526Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:58109/mcp) [3msession_id[0m[2m=[0m"b19a6ae6-fb72-4a5f-9678-17f4ec6aeb2b"
+[2m2026-10-13T14:24:13.552575Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:56534/mcp) [3msession_id[0m[2m=[0m"465e29a7-8162-483c-9b7f-107140512818"
+[2m2026-10-13T15:38:53.815427Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L018",
+[2m2026-10-13T15:59:53.527907Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L047",
+[2m2026-10-13T16:19:27.687260Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L071",
+[2m2026-10-13T16:19:48.445866Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_reviews.py:
+def concept(
+[2m2026-10-13T16:47:31.810788Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L106",
+[2m2026-10-13T17:04:32.991241Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\fund_remaining_claims.py:
+claim("S1L060", "S1C2T01",
+[2m2026-10-13T17:32:54.295349Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_reviews.py:
+concept("S3C5T09-SUP-01",
+[2m2026-10-14T00:00:17.197790Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L128",
+[2m2026-10-14T00:02:41.583511Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0munable to locate image at `C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\diagram_review\MOCK_53.png`: 지정된 파일을 찾을 수 없습니다. (os error 2)
+[2m2026-10-14T00:02:41.583622Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0munable to locate image at `C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\diagram_review\MOCK_27.png`: 지정된 파일을 찾을 수 없습니다. (os error 2)
+[2m2026-10-14T00:02:41.584125Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0munable to locate image at `C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\diagram_review\MOCK_54.png`: 지정된 파일을 찾을 수 없습니다. (os error 2)
+[2m2026-10-14T00:18:00.601465Z[0m [31mERROR[0m [2mcodex_core::tools::router[0m[2m:[0m [3merror[0m[2m=[0mapply_patch verification failed: Failed to find expected lines in C:\Users\djliz\study_certificate\study_algorithm\preparation\verification_20261013\subject3_claims.py:
+claim("S3L146",
+[2m2026-10-14T09:08:58.821036Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:60079/mcp) [3msession_id[0m[2m=[0m"f41e5de6-3d9e-4605-aa63-57f2eab82e9b"
+[2m2026-10-14T09:08:58.821046Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:60079/mcp) [3msession_id[0m[2m=[0m"573bcbf7-c654-425b-8724-b7c71e6ecdb5"
+[2m2026-10-14T09:09:02.027059Z[0m [31mERROR[0m [2mrmcp::transport::streamable_http_client[0m[2m:[0m fail to delete session: Client error: HTTP request failed: http/request failed: error sending request for url (http://127.0.0.1:49682/mcp) [3msession_id[0m[2m=[0m"eff807b8-a6ba-4440-9434-ac4c4274a6ec"

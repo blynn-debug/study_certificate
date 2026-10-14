@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "developmentOnly": false,
+  "target": "aarch64-pc-windows-msvc",
+  "sourceCommit": "b412ff32c417f855c2b2d1581b77058eed87c84b",
+  "sourceManifestSha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937",
+  "inventorySha256": "9930a510348fea460f843eb7db55604d22b2fa73cb36e079b8a317837718227d",
+  "libraries": [
+    {
+      "path": "bin/gio-2.0-0.dll",
+      "sourcePath": "bin/gio-2.0-0.dll",
+      "sourceSha256": "ae725d48303ca4e6f1523d2a5bf1e50f7a64e1eafa8e28228a0f253b70621057",
+      "sha256": "7e5190936349cc44c35caa086c9bb9dbc8cb307e7b648a8da14ba07a7256ab48",
+      "imports": [
+        "glib-2.0-0.dll",
+        "gobject-2.0-0.dll",
+        "gmodule-2.0-0.dll",
+        "z.dll",
+        "intl-8.dll",
+        "shlwapi.dll",
+        "dnsapi.dll",
+        "iphlpapi.dll",
+        "ws2_32.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-conio-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/glib-2.0-0.dll",
+      "sourcePath": "bin/glib-2.0-0.dll",
+      "sourceSha256": "a1c1bff0e0f1247777e4e27c03075c86fd4fa77319c1d3f6663ab97636aedf39",
+      "sha256": "2d33213fced92848e2d9fe35002ebd9c58d36e7191bc413658de16bd7852925a",
+      "imports": [
+        "intl-8.dll",
+        "pcre2-8.dll",
+        "ws2_32.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-process-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gmodule-2.0-0.dll",
+      "sourcePath": "bin/gmodule-2.0-0.dll",
+      "sourceSha256": "da2e6e1b3b958c1f05a59f5bf7e0acfee69732ba4cac5f59511dcd8f725eea05",
+      "sha256": "357860a3a0baac61e378b8c23a784446402fc0e262ec2bc183be219cf1ac063a",
+      "imports": [
+        "glib-2.0-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gobject-2.0-0.dll",
+      "sourcePath": "bin/gobject-2.0-0.dll",
+      "sourceSha256": "94b09abf6f4a0bd6d9de3a314be75bbeefd5d65323301ef00e46a8afb11f017a",
+      "sha256": "d144e464504d6e85747ce5e7a2783834a300cf60e7e964191498bc80f489826d",
+      "imports": [
+        "glib-2.0-0.dll",
+        "libffi-8.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstapp-1.0-0.dll",
+      "sourcePath": "bin/gstapp-1.0-0.dll",
+      "sourceSha256": "4a41a5f3e1e2e382832b2bc3a1673132d16021ea79b8d77c9668738707c9a96b",
+      "sha256": "80679b7b6e151223576a75b782083b04a6d590e0c9762ac30d34e7bf16295f30",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstaudio-1.0-0.dll",
+      "sourcePath": "bin/gstaudio-1.0-0.dll",
+      "sourceSha256": "2101b4c159fe4d45a02fff4a6243f71b082a1341b2b59b883421ec24216e0ba8",
+      "sha256": "91a34c0e7a64fd77720ad18cdbea414383c96166c449322dd486e65f03c3ca97",
+      "imports": [
+        "gsttag-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gstbase-1.0-0.dll",
+      "sourcePath": "bin/gstbase-1.0-0.dll",
+      "sourceSha256": "1069f18f700de69d40d6c98abe1f6abcefc3d169d3a4c9349566d57186c3a86f",
+      "sha256": "2835f782cacb184228b2381c648106eab5035450296e47f8447ab7e26eebdac1",
+      "imports": [
+        "gstreamer-1.0-0.dll",
+        "glib-2.0-0.dll",
+        "gobject-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstnet-1.0-0.dll",
+      "sourcePath": "bin/gstnet-1.0-0.dll",
+      "sourceSha256": "db6d855fe72e6ba335d3eb6e9f856e129434b4037ad0b7cd1a91c95458d86b68",
+      "sha256": "e704ea649df08acf1606fb6d398d094ecdc5aebeaaf734801dd224ab6d6fc96f",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gio-2.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gstpbutils-1.0-0.dll",
+      "sourcePath": "bin/gstpbutils-1.0-0.dll",
+      "sourceSha256": "b06aeb15b35dffd4f646e308708e66747c4f3d2342f127d70ef7bd1f971cb904",
+      "sha256": "8cd37c78b885f44a07cd8f02d8225e148e4f8af5336ae525aac3f55ec2aab56e",
+      "imports": [
+        "gstvideo-1.0-0.dll",
+        "gstaudio-1.0-0.dll",
+        "gsttag-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gstreamer-1.0-0.dll",
+      "sourcePath": "bin/gstreamer-1.0-0.dll",
+      "sourceSha256": "cc6624eed57cd5d02045f50b4301121bf2ec759fcea9ebec54dfb2bf589203a4",
+      "sha256": "0fd4babd778359ebf52d1ade2e6491db57069f93f1774ebfdf137bf86425b8c3",
+      "imports": [
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gmodule-2.0-0.dll",
+        "ws2_32.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gstrtp-1.0-0.dll",
+      "sourcePath": "bin/gstrtp-1.0-0.dll",
+      "sourceSha256": "06cd9ae052a7ae3820d16cdb7dc5255ecda0622aeb260be370ec3149a6604683",
+      "sha256": "acc25c6001df80d74a13480831732226fdf91235292f24c138c58748711703a9",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gsttag-1.0-0.dll",
+      "sourcePath": "bin/gsttag-1.0-0.dll",
+      "sourceSha256": "a0ff42474fb9c82382f96375ea50f422a68793bdc2bc9d2413d2363e395f6118",
+      "sha256": "64e953df17d406f7fe8406ca55181652a48801e2b3a3624680edf8162ce0cc7f",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "z.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstvideo-1.0-0.dll",
+      "sourcePath": "bin/gstvideo-1.0-0.dll",
+      "sourceSha256": "05cfde644a2ecdcdc79b94be14510e8bd58f57478149c9ac7673861a57d14724",
+      "sha256": "06db44bb79aec3734303eca969d5981338c0252ddba1b58a3fc63888a1fecb64",
+      "imports": [
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/intl-8.dll",
+      "sourcePath": "bin/intl-8.dll",
+      "sourceSha256": "c6577d55541e995542dcc21ef167c94f0803097c094578489f7260aac364e136",
+      "sha256": "86e8e218bc5062b554995af6a6aaf962d0eb0b1763aa9d920ed97cedef908feb",
+      "imports": [
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/opus.dll",
+      "sourcePath": "bin/opus.dll",
+      "sourceSha256": "92a855c2488174615934229fcee5e94e572611847cd2e479646392080f25e770",
+      "sha256": "f9ba4e6ec55b22cc338c30bd088a6fb0a7a62d36d745ba26c48e9aa132edba0a",
+      "imports": [
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/pcre2-8.dll",
+      "sourcePath": "bin/pcre2-8.dll",
+      "sourceSha256": "80e484b24913c64e25a524a821be924b64ea5246ec555aedcfa8d0e80e274129",
+      "sha256": "638c909b238755770273bf0dfb8777041fe7bcfbee38864d42439b0038399493",
+      "imports": [
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/z.dll",
+      "sourcePath": "bin/z.dll",
+      "sourceSha256": "5d7aaed3ae52894b88cd36c06ff2f63ab9892565c5d5cc46ba26309e94066c20",
+      "sha256": "3c073eef968b6e2dc6ab9d2497318d85e120f30a6243bb4c7aef78ec450a4301",
+      "imports": [
+        "vcruntime140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstapp.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstapp.dll",
+      "sourceSha256": "93ba797495e0a751722bc45aeb4e10f68a1e4db260550c165dc6bbc4b102081b",
+      "sha256": "5fa5a27e6d52eed957ae543daa03c9662799b436c09f25a11a3941f34dbfdfc1",
+      "imports": [
+        "gstapp-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstaudioconvert.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstaudioconvert.dll",
+      "sourceSha256": "c62845b9b1639845ece32c4bac24763bd8b481a5d27cbaad7fe3857493c2be83",
+      "sha256": "a58d53844c2168155f7e26ee00b54bc41fe68fd864f87c4c41c340b74cf4e61c",
+      "imports": [
+        "gstaudio-1.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstaudioresample.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstaudioresample.dll",
+      "sourceSha256": "7caffdcdbf11865c5c49f4d2492070be42a0042d3b6cfda010c660ccb3b159c4",
+      "sha256": "2ec9196dd87364e0af25ab4453c85a479c47759892f616b2a1e6fd630655662d",
+      "imports": [
+        "gstaudio-1.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstcoreelements.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstcoreelements.dll",
+      "sourceSha256": "9677bb71f3f72f200b7246dcec05cb1a3d7a6af30e3634b7845a4ada1c660d4d",
+      "sha256": "d9f1eec6eb02592602d7cc254538600513b5aa4327ab9291c9ad31264213f12a",
+      "imports": [
+        "gstreamer-1.0-0.dll",
+        "gstbase-1.0-0.dll",
+        "glib-2.0-0.dll",
+        "gobject-2.0-0.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/gstopus.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstopus.dll",
+      "sourceSha256": "dadf56725ac217224f53dd3b575c0166d2e30c1a6317bfa0da1a0d03f419f807",
+      "sha256": "603ab96ea1c47d18202db955e07f992b84e882e1b528e725f092b68833f8a68b",
+      "imports": [
+        "gstpbutils-1.0-0.dll",
+        "gstaudio-1.0-0.dll",
+        "gsttag-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "opus.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstrtp.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstrtp.dll",
+      "sourceSha256": "986e47e2c690346bc3908ed6eb0d5fac0108a174e42373938b44e19161ce6f1d",
+      "sha256": "90ff035f5a7f0958fbab1ad845a99cb88f121be4a886dadc0b9cd0c0efb8c4bf",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gstaudio-1.0-0.dll",
+        "gstvideo-1.0-0.dll",
+        "gsttag-1.0-0.dll",
+        "gstrtp-1.0-0.dll",
+        "gstpbutils-1.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/gstrtpmanager.dll",
+      "sourcePath": "lib/gstreamer-1.0/gstrtpmanager.dll",
+      "sourceSha256": "9e2bd7a4b0ac6bf96d7425502ac5588d83c9ebc246eefe893447ee64cadb6a35",
+      "sha256": "10e0c724e39e9cf82a08f4dd2022893347c7487352cf70363f34466cde26d67e",
+      "imports": [
+        "gstbase-1.0-0.dll",
+        "gstreamer-1.0-0.dll",
+        "gobject-2.0-0.dll",
+        "glib-2.0-0.dll",
+        "gstnet-1.0-0.dll",
+        "gstrtp-1.0-0.dll",
+        "gstaudio-1.0-0.dll",
+        "gio-2.0-0.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "kernel32.dll"
+      ]
+    },
+    {
+      "path": "bin/libffi-8.dll",
+      "sourcePath": "lib/libffi-8.dll",
+      "sourceSha256": "2a0afe282078eab29b0eb521ccd9dcb90d3f5bf0326e697d2fab9ae39d8d227f",
+      "sha256": "ec75a9d1113050865746e1f01504f8ab5e5e3793de07ba82dde28fdef480b4cb",
+      "imports": [
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll"
+      ]
+    },
+    {
+      "path": "bin/vcruntime140.dll",
+      "sha256": "6d987d8cb2a47cff9c29c1fcbb853e7ef273c545f7d822728f7d2d448ca18758"
+    }
+  ],
+  "plugins": [
+    "bin/gstapp.dll",
+    "bin/gstaudioconvert.dll",
+    "bin/gstaudioresample.dll",
+    "bin/gstcoreelements.dll",
+    "bin/gstopus.dll",
+    "bin/gstrtp.dll",
+    "bin/gstrtpmanager.dll"
+  ],
+  "distribution": "publicRelease"
+}

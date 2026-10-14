@@ -1,0 +1,34 @@
+model = "gpt-6-astra"
+model_reasoning_effort = "medium"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[projects.'c:\users\djliz']
+trust_level = "trusted"
+
+[projects.'c:\users\djliz\insane-search']
+trust_level = "trusted"
+
+[projects.'c:\users\djliz\side-job-ecommerce']
+trust_level = "trusted"
+
+[projects.'c:\users\djliz\cpk']
+trust_level = "trusted"
+
+[projects.'c:\users\djliz\video']
+trust_level = "trusted"
+
+[projects.'c:\users\djliz\study_certificate']
+trust_level = "trusted"
+
+[tui]
+screen_reader_detection_done = true
+
+[tui.model_availability_nux]
+gpt-6-astra = 4
+
+[windows]
+sandbox = "unelevated"
+
+[features]
+unified_exec = true

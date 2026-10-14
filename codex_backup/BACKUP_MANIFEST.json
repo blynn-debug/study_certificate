@@ -1,0 +1,4749 @@
+{
+  "snapshot_utc": "2026-10-14T15:08:46.823084+00:00",
+  "source": "C:\\Users\\djliz\\.codex",
+  "destination": "codex_backup/.codex",
+  "public_sanitized_snapshot": true,
+  "excluded": [
+    {
+      "path": ".tmp/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": "app-server-control/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": "cache/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": "thread-writer-locks/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": "tmp/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": "tui-thread-reference-capabilities/",
+      "reason": "transient_cache_or_runtime_control"
+    },
+    {
+      "path": ".sqlite-maintenance.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "auth.json",
+      "reason": "authentication_or_live_instance_identifier"
+    },
+    {
+      "path": "cap_sid",
+      "reason": "authentication_or_live_instance_identifier"
+    },
+    {
+      "path": "goals_1.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "goals_1.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "installation_id",
+      "reason": "authentication_or_live_instance_identifier"
+    },
+    {
+      "path": "logs_2.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "logs_2.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "memories_1.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "memories_1.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "queue_1.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "queue_1.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "state_5.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "state_5.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "thread_history_1.sqlite-shm",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "thread_history_1.sqlite-wal",
+      "reason": "incorporated_into_consistent_sqlite_snapshot"
+    },
+    {
+      "path": "app-server-daemon/daemon-updater.pid",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "app-server-daemon/daemon-updater.pid.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "app-server-daemon/daemon-updater.sock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "app-server-daemon/daemon.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "app-server-daemon/daemon.pid",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "app-server-daemon/daemon.pid.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "packages/app-server-daemon/install.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "packages/standalone/install.lock",
+      "reason": "live_lock_socket_or_process_id"
+    },
+    {
+      "path": "plugins/.remote-plugin-install-staging/",
+      "reason": "temporary_plugin_checkout"
+    }
+  ],
+  "junctions_recorded_not_followed": [
+    {
+      "path": "packages/app-server-daemon/current",
+      "target": "C:\\Users\\djliz\\.codex\\packages\\app-server-daemon\\releases\\0.162.1-aarch64-pc-windows-msvc"
+    },
+    {
+      "path": "packages/standalone/current",
+      "target": "C:\\Users\\djliz\\.codex\\packages\\standalone\\releases\\0.162.1-aarch64-pc-windows-msvc"
+    }
+  ],
+  "files": [
+    {
+      "path": ".sandbox_migration",
+      "bytes": 3,
+      "sha256": "2d27fbdf4e8ca207afbfa388ca9172fbcc6c70e534af2476b3b704f87debadcf",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 774,
+      "sha256": "5afb6b3619780bb207ca4f1367b789880dc9549b8fc6d1fef2bc5f5251311704",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "config.toml",
+      "bytes": 652,
+      "sha256": "78dda1f49bcde8c0d6d57eff971ccf2e32b10d6c66b784fc4e85ce1addb6f82c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "goals_1.sqlite",
+      "bytes": 32768,
+      "sha256": "14fa7ebc5080a0837a2775203debc3d244745d63ebac3a2c38db6adccefd1b0a",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 2,
+          "thread_goals": 0,
+          "thread_goal_continuation_deferrals": 0
+        },
+        "changed_cells": 0,
+        "integrity_check": "ok"
+      },
+      "redactions": 0
+    },
+    {
+      "path": "history.jsonl",
+      "bytes": 1451792,
+      "sha256": "daf009070763a0c120e7db6dd88a21c868e92ec0100cde6a61f2be541966db87",
+      "mode": "jsonl_snapshot",
+      "records": 258,
+      "omitted_incomplete_tail": 0,
+      "redactions": 26
+    },
+    {
+      "path": "logs_2.sqlite",
+      "bytes": 34480128,
+      "sha256": "1ff5dfa4b2067c0231a3d73b33f4f5a316b390ce5fa3d783b6eb35532d40613d",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 2,
+          "logs": 16235
+        },
+        "changed_cells": 40,
+        "integrity_check": "ok"
+      },
+      "redactions": 56
+    },
+    {
+      "path": "memories_1.sqlite",
+      "bytes": 45056,
+      "sha256": "8ade12d81f62f041f9504438a989143831c238a5f7029b866fa59c196314304b",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 2,
+          "stage1_outputs": 0,
+          "jobs": 0,
+          "consolidation_progress": 1
+        },
+        "changed_cells": 0,
+        "integrity_check": "ok"
+      },
+      "redactions": 0
+    },
+    {
+      "path": "models_cache.json",
+      "bytes": 333014,
+      "sha256": "f7a90c0eb6c40882f398dcffd0a93514f0d076175977723a758349ffe8d14489",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "queue_1.sqlite",
+      "bytes": 40960,
+      "sha256": "62da6fd4ef5c8229beff6d5cb4ea8b609ea4cd6c829ef50d151c78b4574fe553",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 2,
+          "queued_items": 0,
+          "queued_thread_revisions": 0
+        },
+        "changed_cells": 0,
+        "integrity_check": "ok"
+      },
+      "redactions": 0
+    },
+    {
+      "path": "sandbox.2026-09-13.log",
+      "bytes": 190,
+      "sha256": "f66f5a330ba26e18af4d5456ea2ed91d79504c9b6cc6d8ca4de2fa81ee263514",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "session_index.jsonl",
+      "bytes": 4425,
+      "sha256": "7565c45aad138d36e56669318ae844120c9cbc263994549bf803a1936dcac673",
+      "mode": "jsonl_snapshot",
+      "records": 31,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "state_5.sqlite",
+      "bytes": 827392,
+      "sha256": "79643b7eaff02e6b1a7908b93ddf50f1e6ddaf10c42afc8499938e46fa7f881f",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 59,
+          "threads": 34,
+          "thread_dynamic_tools": 0,
+          "backfill_state": 1,
+          "thread_spawn_edges": 3,
+          "remote_control_enrollments": 0,
+          "external_agent_config_imports": 0,
+          "thread_sections": 1,
+          "rollout_migration_state": 0,
+          "rollout_migration_skipped_rollouts": 0,
+          "projects": 0,
+          "project_roots": 0,
+          "project_idempotency_keys": 0,
+          "thread_attachments": 0
+        },
+        "changed_cells": 6,
+        "integrity_check": "ok"
+      },
+      "redactions": 21
+    },
+    {
+      "path": "thread_history_1.sqlite",
+      "bytes": 69558272,
+      "sha256": "4d13d659fddda84c9c16251da4516c1eeaf3b71d93511e437bd634eae8b277f2",
+      "mode": "sqlite_backup_and_redaction",
+      "database": {
+        "tables": {
+          "_sqlx_migrations": 6,
+          "thread_turns": 162,
+          "thread_items": 11419,
+          "thread_history_projection_state": 34,
+          "thread_realtime_items": 0
+        },
+        "changed_cells": 62,
+        "integrity_check": "ok"
+      },
+      "redactions": 301
+    },
+    {
+      "path": "version.json",
+      "bytes": 118,
+      "sha256": "f39dd503fd5ca4e147990c8c1818e5fe9cfdd5512101199f51f3494b3bf390d9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "app-server-daemon/daemon-updater.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "app-server-daemon/daemon.stderr.log",
+      "bytes": 11325,
+      "sha256": "67ccd402cbb13acb6ca98af96945c259e669418a12cfdd8edbdb9966a0f44af1",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/auto-update-version",
+      "bytes": 31,
+      "sha256": "7302fc869fc9947e49e90fd381da76e190ad56bbc1578aab1d73299f511e9d78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "ee65148ba1ad6c85a6c403ee8f355e54482ede5a09d45fa93872b196bd9caa2d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 67655472,
+      "sha256": "1aac957f7973fbb75885fdb3779584769f060b954e3fabc2aea15fd7a382fbae",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 272101680,
+      "sha256": "91307bba889f5bf6238267f148651dfc4cc980fee966aafb48eb5f7f8a3ab61a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7337264,
+      "sha256": "9e9ec4a10f5d9b2e40b8a473579f0a85695a8f260121ecb50d1e0d7095caada1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 13721904,
+      "sha256": "cde4449c7360fb6155ff281fb869c3405b420856743d9be2c7e027ae3e487792",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/manifest.json",
+      "bytes": 4727,
+      "sha256": "2b3031ab1c697623dfca9fc6d6dccc93490b9123f42b227a0ca65f1ebe7f8b11",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/NOTICE.md",
+      "bytes": 2403,
+      "sha256": "40097a1799441051aa0b6645cdc819cceb19be73cdd265eb602aa2b15e0b1f48",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/runtime.json",
+      "bytes": 16423,
+      "sha256": "eff29011313b86c589e2cfb9373b821639fd7a505c60aa52d8a69d6b72ad00e0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/sources.json",
+      "bytes": 4911,
+      "sha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/windows-crt.json",
+      "bytes": 1367,
+      "sha256": "c4e298d921e92583559cbe6624fd592994cb068ab8e0761ebeb96299ffcd0fea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/codex-voice-host.exe",
+      "bytes": 7257904,
+      "sha256": "7fcd3f1ea9b6c8ce9733101219679858057243279ee0a8ec27bcfda619c5fbce",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gio-2.0-0.dll",
+      "bytes": 1842992,
+      "sha256": "7e5190936349cc44c35caa086c9bb9dbc8cb307e7b648a8da14ba07a7256ab48",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/glib-2.0-0.dll",
+      "bytes": 1363760,
+      "sha256": "2d33213fced92848e2d9fe35002ebd9c58d36e7191bc413658de16bd7852925a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gmodule-2.0-0.dll",
+      "bytes": 36656,
+      "sha256": "357860a3a0baac61e378b8c23a784446402fc0e262ec2bc183be219cf1ac063a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gobject-2.0-0.dll",
+      "bytes": 364848,
+      "sha256": "d144e464504d6e85747ce5e7a2783834a300cf60e7e964191498bc80f489826d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp-1.0-0.dll",
+      "bytes": 104752,
+      "sha256": "80679b7b6e151223576a75b782083b04a6d590e0c9762ac30d34e7bf16295f30",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp.dll",
+      "bytes": 26416,
+      "sha256": "5fa5a27e6d52eed957ae543daa03c9662799b436c09f25a11a3941f34dbfdfc1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudio-1.0-0.dll",
+      "bytes": 456496,
+      "sha256": "91a34c0e7a64fd77720ad18cdbea414383c96166c449322dd486e65f03c3ca97",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioconvert.dll",
+      "bytes": 49456,
+      "sha256": "a58d53844c2168155f7e26ee00b54bc41fe68fd864f87c4c41c340b74cf4e61c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioresample.dll",
+      "bytes": 45360,
+      "sha256": "2ec9196dd87364e0af25ab4453c85a479c47759892f616b2a1e6fd630655662d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstbase-1.0-0.dll",
+      "bytes": 468272,
+      "sha256": "2835f782cacb184228b2381c648106eab5035450296e47f8447ab7e26eebdac1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstcoreelements.dll",
+      "bytes": 413488,
+      "sha256": "d9f1eec6eb02592602d7cc254538600513b5aa4327ab9291c9ad31264213f12a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstnet-1.0-0.dll",
+      "bytes": 117040,
+      "sha256": "e704ea649df08acf1606fb6d398d094ecdc5aebeaaf734801dd224ab6d6fc96f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstopus.dll",
+      "bytes": 69936,
+      "sha256": "603ab96ea1c47d18202db955e07f992b84e882e1b528e725f092b68833f8a68b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstpbutils-1.0-0.dll",
+      "bytes": 278832,
+      "sha256": "8cd37c78b885f44a07cd8f02d8225e148e4f8af5336ae525aac3f55ec2aab56e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstreamer-1.0-0.dll",
+      "bytes": 1301808,
+      "sha256": "0fd4babd778359ebf52d1ade2e6491db57069f93f1774ebfdf137bf86425b8c3",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp-1.0-0.dll",
+      "bytes": 173872,
+      "sha256": "acc25c6001df80d74a13480831732226fdf91235292f24c138c58748711703a9",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp.dll",
+      "bytes": 622384,
+      "sha256": "90ff035f5a7f0958fbab1ad845a99cb88f121be4a886dadc0b9cd0c0efb8c4bf",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtpmanager.dll",
+      "bytes": 494384,
+      "sha256": "10e0c724e39e9cf82a08f4dd2022893347c7487352cf70363f34466cde26d67e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gsttag-1.0-0.dll",
+      "bytes": 265520,
+      "sha256": "64e953df17d406f7fe8406ca55181652a48801e2b3a3624680edf8162ce0cc7f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstvideo-1.0-0.dll",
+      "bytes": 731440,
+      "sha256": "06db44bb79aec3734303eca969d5981338c0252ddba1b58a3fc63888a1fecb64",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/intl-8.dll",
+      "bytes": 27440,
+      "sha256": "86e8e218bc5062b554995af6a6aaf962d0eb0b1763aa9d920ed97cedef908feb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/libffi-8.dll",
+      "bytes": 46896,
+      "sha256": "ec75a9d1113050865746e1f01504f8ab5e5e3793de07ba82dde28fdef480b4cb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/opus.dll",
+      "bytes": 373040,
+      "sha256": "f9ba4e6ec55b22cc338c30bd088a6fb0a7a62d36d745ba26c48e9aa132edba0a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/pcre2-8.dll",
+      "bytes": 386864,
+      "sha256": "638c909b238755770273bf0dfb8777041fe7bcfbee38864d42439b0038399493",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/vcruntime140.dll",
+      "bytes": 203336,
+      "sha256": "6d987d8cb2a47cff9c29c1fcbb853e7ef273c545f7d822728f7d2d448ca18758",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/z.dll",
+      "bytes": 106288,
+      "sha256": "3c073eef968b6e2dc6ab9d2497318d85e120f30a6243bb4c7aef78ec450a4301",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/LGPL-2.1.txt",
+      "bytes": 26431,
+      "sha256": "ad2eec519ebd4b5df86ea84dff24ae3bfa2edea846a703b58902dd221ae375db",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/libffi.txt",
+      "bytes": 1132,
+      "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/Opus.txt",
+      "bytes": 1945,
+      "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/PCRE2.md",
+      "bytes": 4011,
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/proxy-libintl.txt",
+      "bytes": 25292,
+      "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/sljit.txt",
+      "bytes": 1444,
+      "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/zlib.txt",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "62486e864219f554dbff3656e153d16d4ab9251eb1f01e9cbaa9a4d0cc202ad9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 69820208,
+      "sha256": "25e03439ec1bad9e4a400ceb6ab58aba34e73ff1f7f034fc5fbf438f746345e5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 282434864,
+      "sha256": "3afc6a5195ce3fc08ee69b99521773b1542f129ee5b68dd4f0bb10cf7930c6ef",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7353136,
+      "sha256": "19b50227d019b87c4c2fb628c57050622de19de48251458c295275406b08f914",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 15825712,
+      "sha256": "c2265eaf61846f10ee847216e24df954871c8e56a98256985c391589b44fa0f7",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/manifest.json",
+      "bytes": 4727,
+      "sha256": "5a0267148089956a1e10cc1ebfacd4293e5b6d9c5d3b8b3e17150670087a87ca",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/NOTICE.md",
+      "bytes": 2403,
+      "sha256": "40097a1799441051aa0b6645cdc819cceb19be73cdd265eb602aa2b15e0b1f48",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/runtime.json",
+      "bytes": 16423,
+      "sha256": "7f76773146b9ddf74b74d93e4d4042304eeb8bd81767ca5d905ba4945bdc621c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/sources.json",
+      "bytes": 4911,
+      "sha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/windows-crt.json",
+      "bytes": 1367,
+      "sha256": "c4e298d921e92583559cbe6624fd592994cb068ab8e0761ebeb96299ffcd0fea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/codex-voice-host.exe",
+      "bytes": 7342896,
+      "sha256": "0d3288b67224661cd611cd86c215e499e37ff1da2cee177f1d5bfc7ca4b317f8",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gio-2.0-0.dll",
+      "bytes": 1842992,
+      "sha256": "421a438fcf330f7088f2920dd42870d95b347f2b1e3a1ceeef2848d2de907eb0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/glib-2.0-0.dll",
+      "bytes": 1363760,
+      "sha256": "a48adbf5db4605d7e77109531604a0877afa634281ce11e1177ef4e6ce1f2c1c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gmodule-2.0-0.dll",
+      "bytes": 36656,
+      "sha256": "43342bdb22f1a7190c7ec970b3fc2020f54efca0044ef228835259c1e9d852ce",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gobject-2.0-0.dll",
+      "bytes": 364848,
+      "sha256": "2196929a53c0a462898aa927e33622dcb34a3aad5222ef678f656ae5692fe009",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp-1.0-0.dll",
+      "bytes": 104752,
+      "sha256": "073325d7275cb7eac796f4d2ec93d01ca0133534f24129448673aa73c78b4d2c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp.dll",
+      "bytes": 26416,
+      "sha256": "cf1bf63e7d659737428d4a6abbb401ae63c05b219f1910cec1b308ca063209c5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudio-1.0-0.dll",
+      "bytes": 456496,
+      "sha256": "1c9083a9f8f13d961267bff3744391ca940871ad1209505aa793c66f607c462e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioconvert.dll",
+      "bytes": 49456,
+      "sha256": "5699c717563305c338740a15dc108e10a082b1774031997339c03d3d209a116e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioresample.dll",
+      "bytes": 45360,
+      "sha256": "87545e73249972b92aef085a11320c5cb3f5f4bf164cc3b7eb7c613185272936",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstbase-1.0-0.dll",
+      "bytes": 468272,
+      "sha256": "3203986ee2ec73e53033542d290102c8b5fa8df227c25e6e4a37a3ce6d994e7f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstcoreelements.dll",
+      "bytes": 413488,
+      "sha256": "e96edd96f20f0c6bfac0d517313fc38d4bc0151b065c0a65ecd2929603a75a20",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstnet-1.0-0.dll",
+      "bytes": 117040,
+      "sha256": "2d6ed9304a67c210b9425544b12b68f64dee8c2b37dd8af9b1fbc515eb9cd452",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstopus.dll",
+      "bytes": 69936,
+      "sha256": "1593119a0af424387de6a9fcb7e5ab969d86d30955522c517145a05273fb833e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstpbutils-1.0-0.dll",
+      "bytes": 278832,
+      "sha256": "8f6e344bf5756c524b5775280e1827559034d7b5c173e99641719ab99f9d97e2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstreamer-1.0-0.dll",
+      "bytes": 1301808,
+      "sha256": "25723ffa28f42ea813abb39c89b8137ec4b0f97e29400bc735187237adb0fa19",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp-1.0-0.dll",
+      "bytes": 173872,
+      "sha256": "235fc48ee89f1448100be25f7e7f1d78aa0faf805f642fa0868a8da465ceffbf",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp.dll",
+      "bytes": 622384,
+      "sha256": "de762120791355afbeecbfe34c0648f3f39b5b7efed7aca362b175194299d23f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtpmanager.dll",
+      "bytes": 494384,
+      "sha256": "0d5bca13acc5fdb1fcc21e62bffd3a0aae3a5880f81ef02a4b908612d3936e71",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gsttag-1.0-0.dll",
+      "bytes": 265520,
+      "sha256": "0deedeab4e2f8058e132200eb8c25b6a9541ccdc5d5116823d13923e889be9f2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstvideo-1.0-0.dll",
+      "bytes": 731440,
+      "sha256": "2affb1813f4db9114c426318d7d9a22a9e459584009d351edd13eef1c0b7469b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/intl-8.dll",
+      "bytes": 27440,
+      "sha256": "2e2833e81625633d5bbbba77a94334b47b9db9b3d26bbf10b777acd80aadf1a5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/libffi-8.dll",
+      "bytes": 46888,
+      "sha256": "0c5edaf9656eb3445b0b68c13fda69caff2fe63ad6c29cbb7fd487e8ba8a4acb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/opus.dll",
+      "bytes": 373040,
+      "sha256": "f95faf5dbf692de56242b653b000a36a93c645c4f3c67125a94ba7e6365f86c4",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/pcre2-8.dll",
+      "bytes": 386864,
+      "sha256": "aff7015711a3c45003ba89d292b548b4862bb99e492659dcdeea0e2003ea79f0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/vcruntime140.dll",
+      "bytes": 203336,
+      "sha256": "6d987d8cb2a47cff9c29c1fcbb853e7ef273c545f7d822728f7d2d448ca18758",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/z.dll",
+      "bytes": 106288,
+      "sha256": "7810d30c97daf460ef8de561e7be64a40c6b987d4c2ef74ff374c45bfd166f0d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/LGPL-2.1.txt",
+      "bytes": 26431,
+      "sha256": "ad2eec519ebd4b5df86ea84dff24ae3bfa2edea846a703b58902dd221ae375db",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/libffi.txt",
+      "bytes": 1132,
+      "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/Opus.txt",
+      "bytes": 1945,
+      "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/PCRE2.md",
+      "bytes": 4011,
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/proxy-libintl.txt",
+      "bytes": 25292,
+      "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/sljit.txt",
+      "bytes": 1444,
+      "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/app-server-daemon/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/zlib.txt",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/auto-update-version",
+      "bytes": 31,
+      "sha256": "7302fc869fc9947e49e90fd381da76e190ad56bbc1578aab1d73299f511e9d78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "601bd110ecbb8fd278dd8fe50f76cd7d8ca0e7ea20b63139d6ea97159000511e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 67593520,
+      "sha256": "1f33d0eaf0522bf067cdf1899c789194411c70fd1cc22eda4a46025c0835193f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 252148528,
+      "sha256": "dc6d744d747a50f8caf7f08817e0ccc9b09781f6269dec3609e2f9fbe036233d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7341360,
+      "sha256": "463a1a872e61bb8d9576338833d4e5036d86e3c3914a9dfa3c0f36b48e0399a0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.154.0-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 13694256,
+      "sha256": "0b53b105094c3cdaa0bf984556f964a362120292830ed8e78480c734e60ae77c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "15f27df6750e46672d821a60028e0a4da6f295bf9935a1152cb1835a5646feee",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 67646256,
+      "sha256": "e6ad0719748f70e4c68413c02fe2b6dd5d2338e800e1f5c67678df202edb97d2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 258754352,
+      "sha256": "30bbe48875b79f8c4715d079812e9ca82176870e948992324abb941c15e4d5f6",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7345968,
+      "sha256": "6f48172ea2c8f72470fb5ce6271426aac725c80297e9c15c489d6f67a66257f0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.155.1-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 13723952,
+      "sha256": "344868f36a6b1785fb6cac96173a4c74ada5ffbc0b5dd6693550032887508793",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "ee65148ba1ad6c85a6c403ee8f355e54482ede5a09d45fa93872b196bd9caa2d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 67655472,
+      "sha256": "1aac957f7973fbb75885fdb3779584769f060b954e3fabc2aea15fd7a382fbae",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 272101680,
+      "sha256": "91307bba889f5bf6238267f148651dfc4cc980fee966aafb48eb5f7f8a3ab61a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7337264,
+      "sha256": "9e9ec4a10f5d9b2e40b8a473579f0a85695a8f260121ecb50d1e0d7095caada1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 13721904,
+      "sha256": "cde4449c7360fb6155ff281fb869c3405b420856743d9be2c7e027ae3e487792",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/manifest.json",
+      "bytes": 4727,
+      "sha256": "2b3031ab1c697623dfca9fc6d6dccc93490b9123f42b227a0ca65f1ebe7f8b11",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/NOTICE.md",
+      "bytes": 2403,
+      "sha256": "40097a1799441051aa0b6645cdc819cceb19be73cdd265eb602aa2b15e0b1f48",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/runtime.json",
+      "bytes": 16423,
+      "sha256": "eff29011313b86c589e2cfb9373b821639fd7a505c60aa52d8a69d6b72ad00e0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/sources.json",
+      "bytes": 4911,
+      "sha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/windows-crt.json",
+      "bytes": 1367,
+      "sha256": "c4e298d921e92583559cbe6624fd592994cb068ab8e0761ebeb96299ffcd0fea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/codex-voice-host.exe",
+      "bytes": 7257904,
+      "sha256": "7fcd3f1ea9b6c8ce9733101219679858057243279ee0a8ec27bcfda619c5fbce",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gio-2.0-0.dll",
+      "bytes": 1842992,
+      "sha256": "7e5190936349cc44c35caa086c9bb9dbc8cb307e7b648a8da14ba07a7256ab48",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/glib-2.0-0.dll",
+      "bytes": 1363760,
+      "sha256": "2d33213fced92848e2d9fe35002ebd9c58d36e7191bc413658de16bd7852925a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gmodule-2.0-0.dll",
+      "bytes": 36656,
+      "sha256": "357860a3a0baac61e378b8c23a784446402fc0e262ec2bc183be219cf1ac063a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gobject-2.0-0.dll",
+      "bytes": 364848,
+      "sha256": "d144e464504d6e85747ce5e7a2783834a300cf60e7e964191498bc80f489826d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp-1.0-0.dll",
+      "bytes": 104752,
+      "sha256": "80679b7b6e151223576a75b782083b04a6d590e0c9762ac30d34e7bf16295f30",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp.dll",
+      "bytes": 26416,
+      "sha256": "5fa5a27e6d52eed957ae543daa03c9662799b436c09f25a11a3941f34dbfdfc1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudio-1.0-0.dll",
+      "bytes": 456496,
+      "sha256": "91a34c0e7a64fd77720ad18cdbea414383c96166c449322dd486e65f03c3ca97",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioconvert.dll",
+      "bytes": 49456,
+      "sha256": "a58d53844c2168155f7e26ee00b54bc41fe68fd864f87c4c41c340b74cf4e61c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioresample.dll",
+      "bytes": 45360,
+      "sha256": "2ec9196dd87364e0af25ab4453c85a479c47759892f616b2a1e6fd630655662d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstbase-1.0-0.dll",
+      "bytes": 468272,
+      "sha256": "2835f782cacb184228b2381c648106eab5035450296e47f8447ab7e26eebdac1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstcoreelements.dll",
+      "bytes": 413488,
+      "sha256": "d9f1eec6eb02592602d7cc254538600513b5aa4327ab9291c9ad31264213f12a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstnet-1.0-0.dll",
+      "bytes": 117040,
+      "sha256": "e704ea649df08acf1606fb6d398d094ecdc5aebeaaf734801dd224ab6d6fc96f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstopus.dll",
+      "bytes": 69936,
+      "sha256": "603ab96ea1c47d18202db955e07f992b84e882e1b528e725f092b68833f8a68b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstpbutils-1.0-0.dll",
+      "bytes": 278832,
+      "sha256": "8cd37c78b885f44a07cd8f02d8225e148e4f8af5336ae525aac3f55ec2aab56e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstreamer-1.0-0.dll",
+      "bytes": 1301808,
+      "sha256": "0fd4babd778359ebf52d1ade2e6491db57069f93f1774ebfdf137bf86425b8c3",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp-1.0-0.dll",
+      "bytes": 173872,
+      "sha256": "acc25c6001df80d74a13480831732226fdf91235292f24c138c58748711703a9",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp.dll",
+      "bytes": 622384,
+      "sha256": "90ff035f5a7f0958fbab1ad845a99cb88f121be4a886dadc0b9cd0c0efb8c4bf",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtpmanager.dll",
+      "bytes": 494384,
+      "sha256": "10e0c724e39e9cf82a08f4dd2022893347c7487352cf70363f34466cde26d67e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gsttag-1.0-0.dll",
+      "bytes": 265520,
+      "sha256": "64e953df17d406f7fe8406ca55181652a48801e2b3a3624680edf8162ce0cc7f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstvideo-1.0-0.dll",
+      "bytes": 731440,
+      "sha256": "06db44bb79aec3734303eca969d5981338c0252ddba1b58a3fc63888a1fecb64",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/intl-8.dll",
+      "bytes": 27440,
+      "sha256": "86e8e218bc5062b554995af6a6aaf962d0eb0b1763aa9d920ed97cedef908feb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/libffi-8.dll",
+      "bytes": 46896,
+      "sha256": "ec75a9d1113050865746e1f01504f8ab5e5e3793de07ba82dde28fdef480b4cb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/opus.dll",
+      "bytes": 373040,
+      "sha256": "f9ba4e6ec55b22cc338c30bd088a6fb0a7a62d36d745ba26c48e9aa132edba0a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/pcre2-8.dll",
+      "bytes": 386864,
+      "sha256": "638c909b238755770273bf0dfb8777041fe7bcfbee38864d42439b0038399493",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/vcruntime140.dll",
+      "bytes": 203336,
+      "sha256": "6d987d8cb2a47cff9c29c1fcbb853e7ef273c545f7d822728f7d2d448ca18758",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/z.dll",
+      "bytes": 106288,
+      "sha256": "3c073eef968b6e2dc6ab9d2497318d85e120f30a6243bb4c7aef78ec450a4301",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/LGPL-2.1.txt",
+      "bytes": 26431,
+      "sha256": "ad2eec519ebd4b5df86ea84dff24ae3bfa2edea846a703b58902dd221ae375db",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/libffi.txt",
+      "bytes": 1132,
+      "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/Opus.txt",
+      "bytes": 1945,
+      "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/PCRE2.md",
+      "bytes": 4011,
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/proxy-libintl.txt",
+      "bytes": 25292,
+      "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/sljit.txt",
+      "bytes": 1444,
+      "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.156.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/zlib.txt",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-package.json",
+      "bytes": 207,
+      "sha256": "62486e864219f554dbff3656e153d16d4ab9251eb1f01e9cbaa9a4d0cc202ad9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/bin/codex-code-mode-host.exe",
+      "bytes": 69820208,
+      "sha256": "25e03439ec1bad9e4a400ceb6ab58aba34e73ff1f7f034fc5fbf438f746345e5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/bin/codex.exe",
+      "bytes": 282434864,
+      "sha256": "3afc6a5195ce3fc08ee69b99521773b1542f129ee5b68dd4f0bb10cf7930c6ef",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-path/rg.exe",
+      "bytes": 3859456,
+      "sha256": "d33a29a9ef03c9f4c03be9e8d88498e6e2d2e566d64cdbdef97f9afc8f13120c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/codex-command-runner.exe",
+      "bytes": 7353136,
+      "sha256": "19b50227d019b87c4c2fb628c57050622de19de48251458c295275406b08f914",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/codex-windows-sandbox-setup.exe",
+      "bytes": 15825712,
+      "sha256": "c2265eaf61846f10ee847216e24df954871c8e56a98256985c391589b44fa0f7",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/manifest.json",
+      "bytes": 4727,
+      "sha256": "5a0267148089956a1e10cc1ebfacd4293e5b6d9c5d3b8b3e17150670087a87ca",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/NOTICE.md",
+      "bytes": 2403,
+      "sha256": "40097a1799441051aa0b6645cdc819cceb19be73cdd265eb602aa2b15e0b1f48",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/runtime.json",
+      "bytes": 16423,
+      "sha256": "7f76773146b9ddf74b74d93e4d4042304eeb8bd81767ca5d905ba4945bdc621c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/sources.json",
+      "bytes": 4911,
+      "sha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/windows-crt.json",
+      "bytes": 1367,
+      "sha256": "c4e298d921e92583559cbe6624fd592994cb068ab8e0761ebeb96299ffcd0fea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/codex-voice-host.exe",
+      "bytes": 7342896,
+      "sha256": "0d3288b67224661cd611cd86c215e499e37ff1da2cee177f1d5bfc7ca4b317f8",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gio-2.0-0.dll",
+      "bytes": 1842992,
+      "sha256": "421a438fcf330f7088f2920dd42870d95b347f2b1e3a1ceeef2848d2de907eb0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/glib-2.0-0.dll",
+      "bytes": 1363760,
+      "sha256": "a48adbf5db4605d7e77109531604a0877afa634281ce11e1177ef4e6ce1f2c1c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gmodule-2.0-0.dll",
+      "bytes": 36656,
+      "sha256": "43342bdb22f1a7190c7ec970b3fc2020f54efca0044ef228835259c1e9d852ce",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gobject-2.0-0.dll",
+      "bytes": 364848,
+      "sha256": "2196929a53c0a462898aa927e33622dcb34a3aad5222ef678f656ae5692fe009",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp-1.0-0.dll",
+      "bytes": 104752,
+      "sha256": "073325d7275cb7eac796f4d2ec93d01ca0133534f24129448673aa73c78b4d2c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstapp.dll",
+      "bytes": 26416,
+      "sha256": "cf1bf63e7d659737428d4a6abbb401ae63c05b219f1910cec1b308ca063209c5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudio-1.0-0.dll",
+      "bytes": 456496,
+      "sha256": "1c9083a9f8f13d961267bff3744391ca940871ad1209505aa793c66f607c462e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioconvert.dll",
+      "bytes": 49456,
+      "sha256": "5699c717563305c338740a15dc108e10a082b1774031997339c03d3d209a116e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstaudioresample.dll",
+      "bytes": 45360,
+      "sha256": "87545e73249972b92aef085a11320c5cb3f5f4bf164cc3b7eb7c613185272936",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstbase-1.0-0.dll",
+      "bytes": 468272,
+      "sha256": "3203986ee2ec73e53033542d290102c8b5fa8df227c25e6e4a37a3ce6d994e7f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstcoreelements.dll",
+      "bytes": 413488,
+      "sha256": "e96edd96f20f0c6bfac0d517313fc38d4bc0151b065c0a65ecd2929603a75a20",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstnet-1.0-0.dll",
+      "bytes": 117040,
+      "sha256": "2d6ed9304a67c210b9425544b12b68f64dee8c2b37dd8af9b1fbc515eb9cd452",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstopus.dll",
+      "bytes": 69936,
+      "sha256": "1593119a0af424387de6a9fcb7e5ab969d86d30955522c517145a05273fb833e",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstpbutils-1.0-0.dll",
+      "bytes": 278832,
+      "sha256": "8f6e344bf5756c524b5775280e1827559034d7b5c173e99641719ab99f9d97e2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstreamer-1.0-0.dll",
+      "bytes": 1301808,
+      "sha256": "25723ffa28f42ea813abb39c89b8137ec4b0f97e29400bc735187237adb0fa19",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp-1.0-0.dll",
+      "bytes": 173872,
+      "sha256": "235fc48ee89f1448100be25f7e7f1d78aa0faf805f642fa0868a8da465ceffbf",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtp.dll",
+      "bytes": 622384,
+      "sha256": "de762120791355afbeecbfe34c0648f3f39b5b7efed7aca362b175194299d23f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstrtpmanager.dll",
+      "bytes": 494384,
+      "sha256": "0d5bca13acc5fdb1fcc21e62bffd3a0aae3a5880f81ef02a4b908612d3936e71",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gsttag-1.0-0.dll",
+      "bytes": 265520,
+      "sha256": "0deedeab4e2f8058e132200eb8c25b6a9541ccdc5d5116823d13923e889be9f2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/gstvideo-1.0-0.dll",
+      "bytes": 731440,
+      "sha256": "2affb1813f4db9114c426318d7d9a22a9e459584009d351edd13eef1c0b7469b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/intl-8.dll",
+      "bytes": 27440,
+      "sha256": "2e2833e81625633d5bbbba77a94334b47b9db9b3d26bbf10b777acd80aadf1a5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/libffi-8.dll",
+      "bytes": 46888,
+      "sha256": "0c5edaf9656eb3445b0b68c13fda69caff2fe63ad6c29cbb7fd487e8ba8a4acb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/opus.dll",
+      "bytes": 373040,
+      "sha256": "f95faf5dbf692de56242b653b000a36a93c645c4f3c67125a94ba7e6365f86c4",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/pcre2-8.dll",
+      "bytes": 386864,
+      "sha256": "aff7015711a3c45003ba89d292b548b4862bb99e492659dcdeea0e2003ea79f0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/vcruntime140.dll",
+      "bytes": 203336,
+      "sha256": "6d987d8cb2a47cff9c29c1fcbb853e7ef273c545f7d822728f7d2d448ca18758",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/bin/z.dll",
+      "bytes": 106288,
+      "sha256": "7810d30c97daf460ef8de561e7be64a40c6b987d4c2ef74ff374c45bfd166f0d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/LGPL-2.1.txt",
+      "bytes": 26431,
+      "sha256": "ad2eec519ebd4b5df86ea84dff24ae3bfa2edea846a703b58902dd221ae375db",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/libffi.txt",
+      "bytes": 1132,
+      "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/Opus.txt",
+      "bytes": 1945,
+      "sha256": "01e1167d54a096d123cf6dfbbeb19587278845c6481d2d66d545669846079551",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/PCRE2.md",
+      "bytes": 4011,
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/proxy-libintl.txt",
+      "bytes": 25292,
+      "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/sljit.txt",
+      "bytes": 1444,
+      "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "packages/standalone/releases/0.162.1-aarch64-pc-windows-msvc/codex-resources/voice/licenses/zlib.txt",
+      "bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "6bc0d612503ff06c0c3181972a723c632dcd94fe77b3fb347a4f394788e8e310",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/.app.json",
+      "bytes": 124,
+      "sha256": "2884848aa01f55f75bcf0a2c478dcbc6761cf2751171427a790bf5fbce7e58dd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/.codex-plugin/plugin.json",
+      "bytes": 2027,
+      "sha256": "c7a102ea4c7c06e49976dfc2f150a4fe2ce46b0e66f9b03883dda5d5cc9cb0ad",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/assets/github-dark.png",
+      "bytes": 27648,
+      "sha256": "9352c02c11e4b5c63e8990f6d8b973f551d25284186d3faeb8d7d0186d89c919",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/assets/github-small.svg",
+      "bytes": 853,
+      "sha256": "ee05e92d373d4d84f4612af3c1090ef67698d421bbe30896a4ed5a00cb86a069",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/github/0.1.12-5f7cd798dc99/assets/github.png",
+      "bytes": 9380,
+      "sha256": "07e4d8c81c906dc6fffa42f2686f446724c86c2079b23aa6c77ab9dab782fdea",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "19277971b3d9154d117a44a5c461bb655164aee1777f86a44f90cf8d4fc073ac",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/.app.json",
+      "bytes": 126,
+      "sha256": "99b8ba5f9f9ec198071ef338d2d0f621c91593ea5fa1fe324648e2a0533dfafc",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/README.md",
+      "bytes": 1190,
+      "sha256": "3a742d5e415c2c3570463cd81a65fdc7edb0602dda8c6ca454a797bdb42fde10",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/.codex-plugin/plugin.json",
+      "bytes": 1610,
+      "sha256": "d2cbbd434a5c8123a9e1612663f0598cdd13ba71bfb55e172e8132ed9e5d4474",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/assets/icon.svg",
+      "bytes": 1049,
+      "sha256": "dbeb0de8f84fea16c89a9d00f83a71eef4a7062392d741ac5ba56b557e7649c3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/SKILL.md",
+      "bytes": 1497,
+      "sha256": "cf5360fd8b197673bb237c52c603c97fa319c875c3dfa2cd8efff52d4422f513",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/agents/openai.yaml",
+      "bytes": 275,
+      "sha256": "392f620a50c2a39bb3b3e80e376a27385d312ba7a8abf14cfabb7f02f761a273",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/assets/preview.png",
+      "bytes": 63062,
+      "sha256": "b5c458e744d46ef4211d167d3451864148853aa73708323068504da956ce03b3",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-analytics-dashboard/assets/reference.xlsx",
+      "bytes": 26606,
+      "sha256": "ab655c867ea1c9eed617ec0eeec643946c1e49e9d5227e9db740c95daba26e46",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/SKILL.md",
+      "bytes": 1475,
+      "sha256": "27721fc1d67d1b41949caa75ac8f94f81952ff124406878af6524047929e60d2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "cde1beac06ca33c9a0a12c1cbf2b5834dd208a5f732069fd790d7bf9483bcbdd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/assets/preview.png",
+      "bytes": 30573,
+      "sha256": "af6b092987472013920bb251e0e9d60b97fdb02cc1fd3109abf2b0951bc6aa3c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-business-review/assets/reference.pptx",
+      "bytes": 2035231,
+      "sha256": "595b9a314c7e8e9b5f22180e7c7db167afba2437c8623d57e3f9dbc20af392c1",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/SKILL.md",
+      "bytes": 1437,
+      "sha256": "563722f53854e606f8a9f87e37e72d7ef70a22d46d5836b8e4d6abfb1b79e9e0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "bd8e8ba79937d8fc087ced20bab5f25fa9a160303762f7567ef2bdcb739d3f9a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/assets/preview.png",
+      "bytes": 202622,
+      "sha256": "19cd1f36fbc8d7efbf27a674004f2c22145514e77bee3459fb8cc4a89caf870d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-design-report/assets/reference.docx",
+      "bytes": 2920999,
+      "sha256": "ba1e11258ff52659318a321462a5e598c7bed33cf991329eb91150788fcd1a7b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/SKILL.md",
+      "bytes": 1456,
+      "sha256": "0b05effc47df0a14f8e0c3e3597e6722224747435546385d38a2cae279bd20b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "861a34c68d0d899bb17029316ca8a3d3951a20c206cb8c1890652c2ff06ca626",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/assets/preview.png",
+      "bytes": 15138,
+      "sha256": "847743ae181c5547e9244823c236408765cff5038e2264e3d72c9e958d30929c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-experiment-analysis/assets/reference.docx",
+      "bytes": 204643,
+      "sha256": "d823cd0115186b34c01c6e4b4da3be28b64ee73cac849dbd62d6f4bb6385b0fb",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/SKILL.md",
+      "bytes": 1486,
+      "sha256": "c0b6b7a62a15597aaf2b1ec679e21da48f533b756127f0aef957cdfe9f3da738",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "ac5c29e75dc2e335aa4cab9999d291c081cb07b3eaab6eaaae7f6e6068aba2a4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/assets/preview.png",
+      "bytes": 39032,
+      "sha256": "ed0298a7e15051887ad2e9ca775314de1dfae41de33f7f82fee89f39cdcf20e3",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-financial-budget/assets/reference.xlsx",
+      "bytes": 38153,
+      "sha256": "b15aecd03ee94fc3e29fb5c6de33c6090b75287845ab337afe0376cc0330e052",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/SKILL.md",
+      "bytes": 1496,
+      "sha256": "68abd08cfe5e073e3c446a3f675f44c5bf98f57434dba679e8acd8a763379a8b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/agents/openai.yaml",
+      "bytes": 281,
+      "sha256": "0264537a7b51ef28e41907d34bd09c3e0259045a84f0591e13fd2efd44a3ac69",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/assets/preview.png",
+      "bytes": 30330,
+      "sha256": "4f5efed31db5f4468e8619e6ca579be1c57d84d4a023fe9a7c5ec0deafb0812a",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-investment-committee-memo/assets/reference.docx",
+      "bytes": 285035,
+      "sha256": "0a8a4c5b8b1d8c055e19c9eadcc7eac898899f067cbbd20602c4e7c078e545de",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/SKILL.md",
+      "bytes": 1434,
+      "sha256": "51fb9d21baf6119c4ccb1903638a6bac0e859210de63460fffa7025d52e997e0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/agents/openai.yaml",
+      "bytes": 263,
+      "sha256": "bfd77de2f34d5222e9db4b469aab576426c73b0850f5c3a628e4a5e8f8587887",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/assets/preview.png",
+      "bytes": 64126,
+      "sha256": "362e4d26521d6eadc5be3c0dec37d7000ef8c967883485e94db60149e4f28660",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-legal-memorandum/assets/reference.docx",
+      "bytes": 593894,
+      "sha256": "d3006f9074e46823d103fe283be19901f55f75c19811558455d7a16c61797355",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/SKILL.md",
+      "bytes": 1498,
+      "sha256": "d58d019b89cb6f292ac3ab991d561489eef477ff53ce05fb024a0c936f5af26a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/agents/openai.yaml",
+      "bytes": 279,
+      "sha256": "fe84725e0c898778a5ed33bfab12a99beb171b08e98a834ebdc55860ac0d4efd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/assets/preview.png",
+      "bytes": 19232,
+      "sha256": "a27d80525678a8b0b4e2242dd13aca95f7920ac790b1a66e96d8b39cc4a74e8f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-market-trends-report/assets/reference.pptx",
+      "bytes": 1972113,
+      "sha256": "52396c3a70dc11d35989bb4e3f9a96d2c728c5eba8a1aad96920cfe24cff59fa",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/SKILL.md",
+      "bytes": 1470,
+      "sha256": "880ef094d4d0c89a7bde5ce9bbe4086625c186651e9e6efc8ba8bdd7cc77f9d5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/agents/openai.yaml",
+      "bytes": 267,
+      "sha256": "f5b9311a53150e4d19c5c90664942a1537a73cec687b128dc6c6301261b803ad",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/assets/preview.png",
+      "bytes": 59454,
+      "sha256": "827df9ab20cdcf07a62955c568343c27f1c597336444c84ad98d7c0ca7983b6b",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-minimal-letterhead/assets/reference.docx",
+      "bytes": 10301,
+      "sha256": "5dd55e0f5bbdb603d98db5b8560b8babc6005cbb7f31ce8ed63569417c5cae86",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/SKILL.md",
+      "bytes": 1500,
+      "sha256": "33bb660791a0b9a21628a42c34934932220203b6aabd84e98cb1b45327d0384c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/agents/openai.yaml",
+      "bytes": 273,
+      "sha256": "cd41437c7fd39159b21d5decedcb3b53c9737e3854b7f9e46efcddfb73f610d5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/assets/preview.png",
+      "bytes": 91416,
+      "sha256": "9511212decb870cdded2c5ef0388c1bf4b3ee1747020a61f1c3a7078b2cfa6f2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-calendar/assets/reference.xlsx",
+      "bytes": 46268,
+      "sha256": "fef758154889db179aa701a3916d6e6d30c61935b92ad259dd603322888e7f5f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/SKILL.md",
+      "bytes": 1483,
+      "sha256": "6d63c5cd025ffe936e7bab5db3023672bbaec26af55c2bb8b057d38c202c9c32",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/agents/openai.yaml",
+      "bytes": 271,
+      "sha256": "871a705a344c2461bb3fa43495ac9fb9724ee583649cafce9b97a054702b6cae",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/assets/preview.png",
+      "bytes": 37218,
+      "sha256": "e8f1dd91d1258c3bb06d2b1d0c52a49fce454e6682732e2e8f43b37c494e3c19",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-operating-review/assets/reference.pptx",
+      "bytes": 306716,
+      "sha256": "ec2084d143a4d52857cc06c24129abbb45c45d04b90cca06e319ac26d3cadd4f",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/SKILL.md",
+      "bytes": 1463,
+      "sha256": "aa893ebd89e7c8d1db4261d01cc2b1add35d78d00785871ccaaa5fc8db783ec9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "3f62c61df6cd23f81c6f412994f40ff176b006d40b913b3c423480279eb4aff5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/assets/preview.png",
+      "bytes": 25166,
+      "sha256": "02823427c2552cc894d333fb96fd2fb3e3ac04503904ab6f73643ca877362df5",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-kickoff/assets/reference.pptx",
+      "bytes": 2082300,
+      "sha256": "b1b15cb0c23ad524f9832749ec31b775719bae2bdba897de9c9d8556ca00a44c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/SKILL.md",
+      "bytes": 1484,
+      "sha256": "d97d5be20189b7f53dd269b6e1c5f694eaf53e5a72f6559fcb1578911b7cda82",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/agents/openai.yaml",
+      "bytes": 267,
+      "sha256": "e858f66b2cd5a17a12ce7059be560d47c429faf34c1665b716c62e67b6b10496",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/assets/preview.png",
+      "bytes": 40120,
+      "sha256": "02811cec6d9b7d493342e03e08b6b56719af1eb6087a50dc6696c600ada90381",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-project-tracker/assets/reference.xlsx",
+      "bytes": 14846,
+      "sha256": "dd8bd283784a189061a328040e845a6d26807e2ee1005a9a195e6dc7baeefe80",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/SKILL.md",
+      "bytes": 1482,
+      "sha256": "15cfeeedf440021f16ed3f3ad8c7c1ef6d48898b9447741e223d2fb41cfc9800",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/agents/openai.yaml",
+      "bytes": 265,
+      "sha256": "ea4d9150379ec34447137c436a7459c5f8863e7532a6a87ef1d0871412ee4410",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/assets/preview.png",
+      "bytes": 53355,
+      "sha256": "3208ad8051412202774cfe3f34de468d89a6c1e27cf00166933085f6a167cabe",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-sales-pipeline/assets/reference.xlsx",
+      "bytes": 16979,
+      "sha256": "a6ac1045a0602cbb4d90878949c2970d0e815dd9f98fe34d0ff92b69ebbb4db3",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/SKILL.md",
+      "bytes": 1478,
+      "sha256": "b7c8d0c05f75878b9bc21e56a57c41ec1aa29700aca0a24822be0f9f1bd53207",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/agents/openai.yaml",
+      "bytes": 271,
+      "sha256": "a5c3103290b5e28efec73cf5ad7af7c5a9212ff422256e2e831f11b456e995b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/assets/preview.png",
+      "bytes": 115324,
+      "sha256": "2082897b4e30c9a2ed137e51fa32503b1e85afb53c8555521ba374b75df622ec",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-dark-mode/assets/reference.pptx",
+      "bytes": 3244996,
+      "sha256": "042ef2fcb8726524a1e773e3c73bf8b8c10b98f67ae675eb01c4501b9365a897",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/SKILL.md",
+      "bytes": 1487,
+      "sha256": "7c68430c6cf57b55b457d4735dbd1a46b889bef135a32222902dd0848b6e1752",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/agents/openai.yaml",
+      "bytes": 273,
+      "sha256": "82d2ce0edb52134049718151db345ad1748a358ae1d20c2efe9e274404a1d029",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/assets/preview.png",
+      "bytes": 28676,
+      "sha256": "9c12751105bbdea9e74df059b0b86c6eef22b3af34ba38c090edb7e2e4acf3ac",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-simple-light-mode/assets/reference.pptx",
+      "bytes": 1519451,
+      "sha256": "2ae8105571f68403f438458cd51e6ad14f0d989c7af64239e280437a4ac2a633",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/SKILL.md",
+      "bytes": 1446,
+      "sha256": "51d7882ac94e8e57b323394825728c33925af878806e37277217c2dc12a912e5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "1a277cd3a6fd6be41fee1546183f5ea1119ea7c661e1cf156c6cce9b55c65bd3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/assets/preview.png",
+      "bytes": 16294,
+      "sha256": "2a615bd6c983a2a747b8cb5ea82e47e92ff3b1736a1d94742c57a9ce42aa1d55",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-strategy-memorandum/assets/reference.docx",
+      "bytes": 2686019,
+      "sha256": "13bd3ae7aef4b3ae76c5d65200acd654c922782974dac18672e973fad93bd453",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/artifact-template.json",
+      "bytes": 122,
+      "sha256": "54586c722449d873eb16ed211e8591a179f31da5e245dcc82800df649380b127",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/SKILL.md",
+      "bytes": 1445,
+      "sha256": "87f7b7ed1b0d8410f5e5971cd7f7db9a4165e2f37069e97e52dbfb469b75a57c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/agents/openai.yaml",
+      "bytes": 257,
+      "sha256": "fe728562ab2857373f460a25b5954ef532034ab21e10c38b36c739bc5c5ffd77",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/assets/preview.png",
+      "bytes": 23946,
+      "sha256": "703c8a85a22ebaaa129dc99f82e530532b5b46ad862d7cb253716e9759d5dfe0",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-system-design/assets/reference.docx",
+      "bytes": 501311,
+      "sha256": "13504f6c221a42c1726460a9e865e563355539ff97d702d6c9b2267b4b261d76",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/artifact-template.json",
+      "bytes": 126,
+      "sha256": "809c64b42be1f603434873698306295e5344a7871d8a173d6665b89470f62b78",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/SKILL.md",
+      "bytes": 1473,
+      "sha256": "26d7cafdcd1899a937b325c5d02ac57c162d45002153be33a934d35f81eb6110",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/agents/openai.yaml",
+      "bytes": 267,
+      "sha256": "dea3d32230b1e7e62d3f4844d3b1ddceb5f2855cd5fbe31e0849e51e1aa11c1d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/assets/preview.png",
+      "bytes": 66065,
+      "sha256": "8b91c66156be4dec9eca517ca330c246ca8e863ee9b97b3b93cc159eee362c2d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-team-alignment/assets/reference.pptx",
+      "bytes": 7330920,
+      "sha256": "72b9f23a07bfd679cde36757acb11ec99900b4be0f5d393a5b4e8c6fdce4286d",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/artifact-template.json",
+      "bytes": 125,
+      "sha256": "7aea630ddafb1add3869c6c046e2b8c83464771a29f7e47a59d482480d13d0be",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/SKILL.md",
+      "bytes": 1552,
+      "sha256": "74f4a5cccec0107b861548b157e04c51d9b58ec13a990c86394b4c529b8ecf41",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/agents/openai.yaml",
+      "bytes": 285,
+      "sha256": "240d75e1e7b2f33a16a10538e125342ee6c701637e12c0fbe0d8aad5919b48eb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/assets/preview.png",
+      "bytes": 53375,
+      "sha256": "2fb61600384025e1266d5f8b9c641cba4b535b78a03173b5d051662f4df48e68",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/skills/artifact-template-three-statement-forecast/assets/reference.xlsx",
+      "bytes": 136927,
+      "sha256": "4a4709ff9b860f762f4c3bb224c5084e9820d9a8d8085395aa121728c899d0c2",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/tests/test_openai_templates_plugin.py",
+      "bytes": 9266,
+      "sha256": "e2250e07a0e9f24e011a578eef4f801cf87cf5210c295ae31da0741e626044c2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/openai-templates/0.1.1/tests/__pycache__/test_openai_templates_plugin.cpython-312-pytest-9.0.3.pyc",
+      "bytes": 31707,
+      "sha256": "291fdbce57a5836481ae303e51cea26ba116e37a69691f2d0b53c1019b55d22c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "15ddc5e25edb3291a9d469a262a426399779b146340237a053cbbdf064b302ea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/.app.json",
+      "bytes": 102,
+      "sha256": "e65e95ae0ce0680547a5ed0d125b381b6b84315e956c5b5d8a3295ad62c748d9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/OWNERS",
+      "bytes": 34,
+      "sha256": "2906faa39a61a19282209cd92c0e387d86de33866aceb37b827d0085f2bf4c50",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/.codex-plugin/plugin.json",
+      "bytes": 926,
+      "sha256": "eb0382228e8202a25bfd691e2bfc82e82653f659a38a204ad04a79e89d2b5be6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/assets/composer-icon.svg",
+      "bytes": 1549,
+      "sha256": "57bef949ed7df636c4a5a87f4bfcbc96491ac851ec52323e18f95c0ba3cf3c3d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/assets/composer.svg",
+      "bytes": 1549,
+      "sha256": "57bef949ed7df636c4a5a87f4bfcbc96491ac851ec52323e18f95c0ba3cf3c3d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/assets/logo-dark.svg",
+      "bytes": 1546,
+      "sha256": "78f7eb94927109ecf10af6fca0da1358b4753521e277e5c9b131665b8a07ee88",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/assets/logo.svg",
+      "bytes": 1546,
+      "sha256": "5192460b8512158aa91a42f302eacb21e716462cdb5c6675232068d3e9a8e8a9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/maintain-space/SKILL.md",
+      "bytes": 6600,
+      "sha256": "53570e6cb8663d370dce15ed0d67208876c3b13015832c352daa759213e7378e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/maintain-space/agents/openai.yaml",
+      "bytes": 239,
+      "sha256": "3c7b43e378888955e9be6f02133b7522a0614f94f86d7066d72322ce2dc71325",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/manage-schedules/SKILL.md",
+      "bytes": 7719,
+      "sha256": "e0a464a83f15a6e896c5536cab775f667ebd0dd61eb64fe3c877a41935d64bd9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/manage-schedules/agents/openai.yaml",
+      "bytes": 201,
+      "sha256": "502b266f394596a35919f7d77948e803fecc8f0ab7044893918b87a6fa8e45f6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/organize-space/SKILL.md",
+      "bytes": 6605,
+      "sha256": "dfa8bfae86785a98e43b1ca0af67a9c89b90c658eee7fc7ad4ccfe8cc84a267b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/organize-space/agents/openai.yaml",
+      "bytes": 235,
+      "sha256": "a6e28b204d44f1312cdf715a73c9dacfda8b3d742ed5a57ef926bf4a15219f8f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/write-page/SKILL.md",
+      "bytes": 10051,
+      "sha256": "7a997ccee8cc3214cb1e9af4a5569bddb74499796aff808e94561109e148a658",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/write-page/writing_quality.md",
+      "bytes": 7719,
+      "sha256": "13923774ee99756b3cce6ee94b7378f6db94fc5f632bb814ff4cba82c73eee8a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/write-page/agents/openai.yaml",
+      "bytes": 252,
+      "sha256": "b33464c83ab6cf5506a5097fb96ff13a0e3956a4ddf852b5c538b46580fa27a0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/write-page/references/edit-requests.md",
+      "bytes": 11486,
+      "sha256": "b57bcdede9f3ebd132949a0171f0506e5dafa32c6a2b44d67618e35aef7bf2e9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/pages/0.1.23/skills/write-page/references/page-content.md",
+      "bytes": 18048,
+      "sha256": "20382aa580597801cc4dc2484cd5bab27a04453c15730624bbc266d70be0ee8d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/plugin-management/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "d076184ddee9188e7fc19a074b8e07f7a60ca6a4b038daaebd0c9f40f8eda1da",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/plugin-management/0.1.0/.app.json",
+      "bytes": 126,
+      "sha256": "8392e042417a3de2db3a9f2e2385f4bd80f462c98ed2d8a6ef60dff002e2f06c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/plugin-management/0.1.0/.codex-plugin/plugin.json",
+      "bytes": 1538,
+      "sha256": "5deb3b2f943fff03a928e1faed2b040bad7dabcf71c11f183fc67dcc0793e3c3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/plugin-management/0.1.0/assets/plugin-management.svg",
+      "bytes": 455,
+      "sha256": "6776a53774519dab5c8e338a6e9fa058932e0ef4dfcc053735f10683081d30ef",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/plugin-management/0.1.0/skills/plugin-management/SKILL.md",
+      "bytes": 2983,
+      "sha256": "653841cc21205269f08b0ce135891e1518dac616a766bcfb0b57d788d3f68b10",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "c2c9c499458f2f28a333e0105dee0d391b7f61db7573d37ed1b197b4f6e76942",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/.app.json",
+      "bytes": 122,
+      "sha256": "425123d445ae9f373a9a45a2774e253f7890b7f0da88ee90ec25fd8baf68f25a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/analytics.yaml",
+      "bytes": 2754,
+      "sha256": "540e3f5b7cfeb9ef3bcdae41951c380a7e8c790b960064da1b64e89f047b3eca",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/OWNERS",
+      "bytes": 32,
+      "sha256": "78e88f2201239b5e82d421b2192efa820af325483e2ebc7e9db84e634a4ab2d4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/README.md",
+      "bytes": 2516,
+      "sha256": "76fa269b870020d72092869e48d55a28b866d0878a20c5a4b01f918057e3c9fd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/.codex-plugin/plugin.json",
+      "bytes": 1889,
+      "sha256": "5a72665e0b28bdc4f711e991c20acdfc242df19c97d14a9103f8d0351cc4c878",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/icon.svg",
+      "bytes": 742,
+      "sha256": "31b17163cf931c8bec6f89cc4b8f2e0bd9714e2876f1207816b54bf7f7119947",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/logo.svg",
+      "bytes": 742,
+      "sha256": "31b17163cf931c8bec6f89cc4b8f2e0bd9714e2876f1207816b54bf7f7119947",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/pnpm/README.md",
+      "bytes": 7045,
+      "sha256": "2b704526a6f44d96095baab9729976b5231290385bab07df038ab6908b4e7b33",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/pnpm/vinext/bootstrap.json",
+      "bytes": 514,
+      "sha256": "d9d776e4d3a8af7ef9f32b54c2496a11b845ae8450df1e14ebf25c5a7b75d115",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/pnpm/vinext/pnpm-lock.yaml",
+      "bytes": 345021,
+      "sha256": "095ba6f301ba3997da2c251dfc4b805c220624bdf0921d905eaceee0d1fb29c9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/assets/pnpm/vinext/pnpm-workspace.yaml",
+      "bytes": 680,
+      "sha256": "0d97e98adfc0ff79222d15602031ed6581e44becf49474a8e138f79a392e7df4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/build-site.mjs",
+      "bytes": 817,
+      "sha256": "051765bcef22b331b394ff71ea464c9f8bebaafce877855fad6cbee31c56cb1b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/configure-execution-profile.mjs",
+      "bytes": 2335,
+      "sha256": "c4cb280899b966a7df0ad64b050d2b5f24c1ca4b2f39fd9606a984d7f96ec5bb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/install-dependencies.mjs",
+      "bytes": 3629,
+      "sha256": "7c2634d14a6db9fabd63ef79885722e9567b88e805589860ad29704c39a04765",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/install-report.mjs",
+      "bytes": 5961,
+      "sha256": "237093a759fc0860253492f6c1d962b78bb54735e5f3ca9187a236e06c71a304",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/package-manager.mjs",
+      "bytes": 5877,
+      "sha256": "dab8d51745054944afc4b1685f9a4ff180f87c9722c7aa4ab2364006693c0c1d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/package-site.mjs",
+      "bytes": 330,
+      "sha256": "655cc75ffa43c3791a3763ad28183a3f47a1f38e39bc0c6483ed12d98e86f261",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/pnpm-bootstrap.mjs",
+      "bytes": 17198,
+      "sha256": "efe947171526942444ae15979b223dee562847d5576a8e1d2b430999ba553236",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/project-setup.mjs",
+      "bytes": 5478,
+      "sha256": "96ae5b1d5415c352aa2e8e0be02cff609e3d4259ed964ccf12048bff0c586731",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/set-project-id.mjs",
+      "bytes": 2804,
+      "sha256": "cae200389097f47630314f2d4e10fea503436dee5a2e833cf9c72861d002c91a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/site-workflow.mjs",
+      "bytes": 17583,
+      "sha256": "34c3408f93a12684c993adf0256d7fe138f2baa43ead46a63921c87e36935acd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/validate-pnpm.mjs",
+      "bytes": 5610,
+      "sha256": "cde7d4a4ebbf489bd2f247a457303d87462c53c54ddb25d1508f46740ffff3df",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/scripts/workflow-metrics.mjs",
+      "bytes": 5553,
+      "sha256": "33ddaf60a96ab73c9c9673b5acf7015b2e84025454544d5869554b2b3e94ee17",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/SKILL.md",
+      "bytes": 12273,
+      "sha256": "da795bd399da0efac328149d12d4d80e1224eada9b4e84f13b7f5bcd9a3d5abd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/app-integrations.md",
+      "bytes": 9153,
+      "sha256": "83686660a66b56c4f6cb6db7ced98e2ec05e4f7eb142e091a13f1f121c5e57f1",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/browser-agent-support.md",
+      "bytes": 3505,
+      "sha256": "02aed5c7077d24745de1aefba14039873acb6a3920a82af4c3a8cde5fe1c8c7e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/identity-and-secrets.md",
+      "bytes": 3714,
+      "sha256": "0ade4af1dad4cef94ba104781bfdbd466a26f6a0227d366ec02c6447453d108f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/recurring-updates.md",
+      "bytes": 3411,
+      "sha256": "08bd1618634109053e1316519a220c14b06333ff04acd2334e12f42f8ea00b01",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/site-mcp-server.md",
+      "bytes": 2375,
+      "sha256": "b1d304a65d7cdffab4a0b2234cebcddd44c6af52a84f8ee9ca360b1b2403999e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/storage.md",
+      "bytes": 1885,
+      "sha256": "608efea142e68b80e88a466bd4b1523a19c6c4c74af6662aff9718caa605ce16",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/troubleshooting.md",
+      "bytes": 1965,
+      "sha256": "7945af4e5678ee5a07715cf97c62bccc61df8fda80fbdd63ab9058f11b4dd2ed",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/design/presentation-led.md",
+      "bytes": 985,
+      "sha256": "e5ba3863c71d0397e90d7adee8424eb37feb10aab0245f46c3934f7f1cd2c00f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/preview/local.md",
+      "bytes": 848,
+      "sha256": "af6b2dc6d586233e43820194848522df4dd56fa4c411b7a25d1f2b47fa726545",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/references/preview/managed.md",
+      "bytes": 1175,
+      "sha256": "3534d3056a3c8917ce02964b500883c0e1eb466215731f912cdac9fe936085a3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/scripts/package-site.sh",
+      "bytes": 1971,
+      "sha256": "dc2fe55adac180885d0b9469fd09d5ea7b1824fcea9019fea27ccfda241968e7",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/scripts/prepare-site-build.cjs",
+      "bytes": 6809,
+      "sha256": "32496143dcc6f7e7c5410444e319469e2525c1d2eda0d2ed7c65e7c67995dbe3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/.gitignore",
+      "bytes": 824,
+      "sha256": "65c950beefe57952cd630bb6ae071b0302279c9b97d9ee8517ea6d2f4cd0b4f2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/.npmrc",
+      "bytes": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/cloudflare-env.d.ts",
+      "bytes": 99,
+      "sha256": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components.json",
+      "bytes": 420,
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/drizzle.config.ts",
+      "bytes": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/eslint.config.mjs",
+      "bytes": 846,
+      "sha256": "f22a254df7d934bbf9be499d3c969a13abb7f7f64c03f5967d0095cad81dfe06",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/next.config.ts",
+      "bytes": 133,
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/package-lock.json",
+      "bytes": 504174,
+      "sha256": "7c15b0325e2b5b53b15d879e56ad5bdb47dcda68c15d829c4d0553f8cbdd322d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 1
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/package.json",
+      "bytes": 2102,
+      "sha256": "eb7b53ec5bdce1db5a8576b2ffc3b63ddd8c5fdee0f97dcb341674abbf69843a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/README.md",
+      "bytes": 10120,
+      "sha256": "b670ba0eff3b6b1598f619278ca1f61eb609bebc1f80f68c56829905d715dac7",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/tsconfig.json",
+      "bytes": 800,
+      "sha256": "7199c6e4e400921e8049729840165a39f1476fa97901bed00239e7697bfe8da4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/vite.config.ts",
+      "bytes": 3115,
+      "sha256": "6f6d890794fbe23f3e35cceb327f49d5977432a5aaf715e040a6408932da395b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/.openai/hosting.json",
+      "bytes": 31,
+      "sha256": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/app/chatgpt-auth.ts",
+      "bytes": 2550,
+      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/app/globals.css",
+      "bytes": 3928,
+      "sha256": "8546d9b115f0addd582f7ceaaa6b1c069310bcc77c43ee7b8acfe0020be3afd7",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/app/layout.tsx",
+      "bytes": 523,
+      "sha256": "fb20da0ae67bb49128afe28c32dba4ff1588e70d6c913a64ef8a0b95f94d63da",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/app/page.tsx",
+      "bytes": 4466,
+      "sha256": "c2293d77b0cff0d149cc153eae96eb6f807f0967b12a177b387f8d9b695f6d7f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/build/connector-preview-plugin.mjs",
+      "bytes": 7211,
+      "sha256": "a6a9fe2086e302f94a3f91e3c1a68a45bb3aa07d4a79faf01b14732191eb4e80",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/build/connector-preview-worker.mjs",
+      "bytes": 594,
+      "sha256": "c1b6b2c420cb67d9e28f8f4ae440f578c0dfd4cb840a12cfe4b58076629a17ba",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/build/sites-vite-plugin.LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/build/sites-vite-plugin.ts",
+      "bytes": 7185,
+      "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/build/sites-worker.ts",
+      "bytes": 1279,
+      "sha256": "28a75f74adfc226a773d1c00d5779c26412eea40a104da5c77f7d0f0fc30f0e8",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/connector-error.tsx",
+      "bytes": 1082,
+      "sha256": "2d0d04559952ce9c9a327cca499f4b99f35d885cccfce375230e116695d3f155",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/accordion.tsx",
+      "bytes": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/alert-dialog.tsx",
+      "bytes": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/alert.tsx",
+      "bytes": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/aspect-ratio.tsx",
+      "bytes": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/attachment.tsx",
+      "bytes": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/avatar.tsx",
+      "bytes": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/badge.tsx",
+      "bytes": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/breadcrumb.tsx",
+      "bytes": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/bubble.tsx",
+      "bytes": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/button-group.tsx",
+      "bytes": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/button.tsx",
+      "bytes": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/calendar.tsx",
+      "bytes": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/card.tsx",
+      "bytes": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/carousel.tsx",
+      "bytes": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/chart.tsx",
+      "bytes": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/checkbox.tsx",
+      "bytes": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/collapsible.tsx",
+      "bytes": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/combobox.tsx",
+      "bytes": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/command.tsx",
+      "bytes": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/context-menu.tsx",
+      "bytes": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/dialog.tsx",
+      "bytes": 4303,
+      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/direction.tsx",
+      "bytes": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/drawer.tsx",
+      "bytes": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/dropdown-menu.tsx",
+      "bytes": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/empty.tsx",
+      "bytes": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/field.tsx",
+      "bytes": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/form.tsx",
+      "bytes": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/hover-card.tsx",
+      "bytes": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/input-group.tsx",
+      "bytes": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/input-otp.tsx",
+      "bytes": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/input.tsx",
+      "bytes": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/item.tsx",
+      "bytes": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/kbd.tsx",
+      "bytes": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/label.tsx",
+      "bytes": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/marker.tsx",
+      "bytes": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/menubar.tsx",
+      "bytes": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/message-scroller.tsx",
+      "bytes": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/message.tsx",
+      "bytes": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/native-select.tsx",
+      "bytes": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/navigation-menu.tsx",
+      "bytes": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/pagination.tsx",
+      "bytes": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/popover.tsx",
+      "bytes": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/progress.tsx",
+      "bytes": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/radio-group.tsx",
+      "bytes": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/resizable.tsx",
+      "bytes": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/scroll-area.tsx",
+      "bytes": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/select.tsx",
+      "bytes": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/separator.tsx",
+      "bytes": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/sheet.tsx",
+      "bytes": 4188,
+      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/sidebar.tsx",
+      "bytes": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/skeleton.tsx",
+      "bytes": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/slider.tsx",
+      "bytes": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/sonner.tsx",
+      "bytes": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/spinner.tsx",
+      "bytes": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/switch.tsx",
+      "bytes": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/table.tsx",
+      "bytes": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/tabs.tsx",
+      "bytes": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/textarea.tsx",
+      "bytes": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/toggle-group.tsx",
+      "bytes": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/toggle.tsx",
+      "bytes": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/components/ui/tooltip.tsx",
+      "bytes": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/db/index.ts",
+      "bytes": 423,
+      "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/db/schema.ts",
+      "bytes": 169,
+      "sha256": "13ddacbf0be50e054d450a6c642b7fdc1aa943fd6b99084711e07e58b600390d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/drizzle/meta/_journal.json",
+      "bytes": 61,
+      "sha256": "90cb374e093894d0efce6f1830d873a42aadd8ba49d2f024495e5cb2e1c8c303",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/examples/d1/app/api/notes/route.ts",
+      "bytes": 1700,
+      "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/examples/d1/db/schema.ts",
+      "bytes": 370,
+      "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/hooks/use-mobile.ts",
+      "bytes": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/connector-context.ts",
+      "bytes": 612,
+      "sha256": "bbddff68689cb0f6926fecd4b8b96f12f2054277c296e97b0df07d4ad5ece24e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/connector-contract.mts",
+      "bytes": 5362,
+      "sha256": "e1a7b24a8793af34b595690d9b1300c897c7321c14f215cedf58ad95799d7c3e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/connector-errors.mts",
+      "bytes": 2717,
+      "sha256": "a22edf13d6873ae832c4a2a0d579fc666c73ec996ef0722d39172649d38f0871",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/connector-preview.d.ts",
+      "bytes": 433,
+      "sha256": "abd69a94f7f61f1359063bb557574faae35e8ff5a028cc4c04b9ee248ef52642",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/connectors.ts",
+      "bytes": 416,
+      "sha256": "1c93d747e384c8e17e3e3dd5361b24412babf5eba2a11d2ae7a75f4e0924112c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/lib/utils.ts",
+      "bytes": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/public/favicon.svg",
+      "bytes": 712,
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/public/file.svg",
+      "bytes": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/public/globe.svg",
+      "bytes": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/public/window.svg",
+      "bytes": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/build-verified.sh",
+      "bytes": 661,
+      "sha256": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/execution-profile.mjs",
+      "bytes": 624,
+      "sha256": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/install-ci.mjs",
+      "bytes": 1685,
+      "sha256": "4a5a92d60a08d0ba54effd8373da2da06284312c55b767287c68a0bec7200da7",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/install-ci.sh",
+      "bytes": 6783,
+      "sha256": "10d8764a61be50351dc3496e13588270de7956f0aa5f1189c49cabb2d89fe5c0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/install-pnpm.sh",
+      "bytes": 9015,
+      "sha256": "a684c02c2b493dfbf262a66252a5cd36f81ca995a4024761728662ae63aa40c0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/npm-install.mjs",
+      "bytes": 7025,
+      "sha256": "9715c6a32d1d4a0289ef6376a0e819c3b6a6416b8a9877733d9fb4339ce626b6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/pnpm-install.mjs",
+      "bytes": 10633,
+      "sha256": "a83164e344c1947053def83b546be8115deaa827314bbaead7afe6b6451c5cdf",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/run-framework.mjs",
+      "bytes": 993,
+      "sha256": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/sites-env.mjs",
+      "bytes": 906,
+      "sha256": "5de99d6806b01f0ee0b941af3684d75dcf1afbbcff22cb95bfa2e584c5dafa88",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/sites-env.sh",
+      "bytes": 1530,
+      "sha256": "df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/connector-preview/connector-preview-session.mjs",
+      "bytes": 6855,
+      "sha256": "57224ad185a25115a14fccc68d3217e55b199260c3dd98a2c807beffec1a0a9b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/connector-preview/host-binding.mjs",
+      "bytes": 7793,
+      "sha256": "9e44ab6864133a5c82f834a5904ebb7d6104cb783c24efba3c0fe1a161182cea",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/scripts/connector-preview/protocol.mjs",
+      "bytes": 1781,
+      "sha256": "111e062ebf08d3f180130f5bc3dcb3c1414c1d7be3c032c9d675a61c0c7513a8",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.css",
+      "bytes": 16041,
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/vinext-starter/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "bytes": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/.gitignore",
+      "bytes": 18,
+      "sha256": "d0fc69648a6324ef66f032712b68ae1f0f24a2a954daa8308da38a45c6a6057b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/package.json",
+      "bytes": 191,
+      "sha256": "5314513e9a77e1bf5602ae4db24ef674bbaf6e6dbc9a006eccd852b33b66f5a5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/README.md",
+      "bytes": 954,
+      "sha256": "a96449d81e90c01df1eb3a51e1178df813577712d00ca3695b77bd9a81714e99",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/.openai/hosting.json",
+      "bytes": 31,
+      "sha256": "d532abb65cf9ae20634b464d954cb4a08a0de9f3cd3cdf7f9c3ec8948826d947",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/scripts/build.sh",
+      "bytes": 366,
+      "sha256": "76bddebeb2accb38b37de0673778d7bf3119bc7da7ed5ae4c1d4c9884969848f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/scripts/validate-artifact.mjs",
+      "bytes": 953,
+      "sha256": "39d9df53ac2461962466d5965c5f4d06f08024ceca40605952d8b753b88d41fd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites/templates/worker-esm-starter/worker/index.js",
+      "bytes": 1346,
+      "sha256": "2917434bd856c428f5ea636148dfd0161804c14a2f81e019980d573af28ef883",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/sites/1.0.2-remix-b.1/skills/sites-remix/SKILL.md",
+      "bytes": 7342,
+      "sha256": "f7bf8b40d115ea0ab01e44c1ec6856774365b93ac9eba5a33afe53a036aa2ea5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/.codex-remote-plugin-install.json",
+      "bytes": 104,
+      "sha256": "85162fb01074ce886c40546d6afd973e78736e8f1f9bfbfab9cd5496f9a9e117",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/.app.json",
+      "bytes": 116,
+      "sha256": "05d6956723a574eabf56e6018311930f4ddca56ba59ceb685fb95a3c36535477",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/.codex-plugin/plugin.json",
+      "bytes": 1837,
+      "sha256": "c1f27c0864bec7c88e14d3369da870202e98cff4df4ee786747bd22cc93ac29a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/assets/egg.svg",
+      "bytes": 1440,
+      "sha256": "6385c8fa77bfb72903af49e8a5c2b9db42a864e4fd49e17465236f935822e9f0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/references/sprite-sheet-contract.md",
+      "bytes": 22252,
+      "sha256": "88d05bfbc76c3a2a64d128cafe5792cc43f78170fee85496d50cb3925934d093",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/references/upload-session.md",
+      "bytes": 1215,
+      "sha256": "59afd4f37755ce5cda6a49ec2f31c6f8c5f3df271c18f6c4073012b70d37e6e6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/SKILL.md",
+      "bytes": 17353,
+      "sha256": "841354fb8116f8fdfd3b643b30828f5180196c594d3fed9b669b948b88892af1",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/agents/openai.yaml",
+      "bytes": 219,
+      "sha256": "16690f3d631222d7479bd052c7fda536b4553224a61109fe663f414605d3e27a",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/references/animation-rows.md",
+      "bytes": 2583,
+      "sha256": "d27b08d599e73cf6a65a03d2b8ad49e9ad408e18292636164e7b2d2f1815615f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/assemble_extended_atlas.py",
+      "bytes": 21681,
+      "sha256": "a8684c22e9409f1add388688218c8fa7e267b88b91fcb3edc3280dc87ebf1c3e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/combine_direction_blind_verdicts.py",
+      "bytes": 1962,
+      "sha256": "4dad56adaad032a4e6d070494b0ab2ca316429cf69363450f9fbf7135d1c2d42",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/compose_atlas.py",
+      "bytes": 5756,
+      "sha256": "d690f42252746b3306007b269168e62cff08b36d58e9aef246b78d986b6a10d5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/compose_cardinal_anchor_strip.py",
+      "bytes": 1401,
+      "sha256": "e67ac9816a909cad136189bf23eddf8b16e0fcb430ade2262556bbd12db2bca5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/derive_running_left_from_running_right.py",
+      "bytes": 5183,
+      "sha256": "ae42859720220fe8a407fc0dfff06e8344e535c6c8019220b1f63db7714baa77",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/despill_chroma_edges.py",
+      "bytes": 10839,
+      "sha256": "dc93a5e752f4100e55010205462a8e7272bac451ee7e29b525abd6157a7fe309",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/extract_cardinal_anchors.py",
+      "bytes": 5006,
+      "sha256": "55434d06bc328b1879d98c821f2586963910f89926f4dcbe92682b25555a8cde",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/extract_strip_frames.py",
+      "bytes": 14090,
+      "sha256": "af2cfea385189df30674c91f4658a49e5b51e58471057fbca0b3319cf932c75e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/inspect_frames.py",
+      "bytes": 9456,
+      "sha256": "d8a43f01970c511c74f77d256c2c81d41e70cfb7ec234f5bbd76b60b3ebbdfe4",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/make_contact_sheet.py",
+      "bytes": 3450,
+      "sha256": "721399a805ae58d91a85a4d27e8bb3503eb20f4132fe4261e83acc166adc6a56",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/make_direction_blind_qa_sheet.py",
+      "bytes": 5370,
+      "sha256": "52f2a29251872449fed51c7744c3f9f503274ee288eb23efc29a2c568b0d52bd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/make_direction_qa_sheet.py",
+      "bytes": 4929,
+      "sha256": "ed09a31b3bc9b68f929a7a85be367c5b7d5639215260f98af6c97df896197908",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/measure_direction_continuity.py",
+      "bytes": 6706,
+      "sha256": "e24b7065af82eab5638f1fcdeb627d497391a2f1e9ba19801827d1db3a6d8c2d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/prepare_pet_run.py",
+      "bytes": 51327,
+      "sha256": "cf806ef4bed67b6ca0a568fdc3a47b178272a82d1ce5949ebc2b3c59e4f253d9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/render_animation_previews.py",
+      "bytes": 2549,
+      "sha256": "5fe50707052f815964cc5bfc35addc79b2d55f3331fc7562645e56835211a400",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/validate_atlas.py",
+      "bytes": 10678,
+      "sha256": "cd28f7e3ed4fc7d879239cbf4d4a5ae1fb603f457b14560ef2c8e15899507b6b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/validate_direction_blind_verdicts.py",
+      "bytes": 3836,
+      "sha256": "7871667432918e0ffcdbb9beaf88a01c0af4b9e2809c5000f7b533a9ddc6e13d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/validate_pet_quality.py",
+      "bytes": 12965,
+      "sha256": "2e83db1c5a2a16d4ddc3ef22c4c9856310c438a8426bad99f962f99e9597e555",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets/SKILL.md",
+      "bytes": 3552,
+      "sha256": "1bf5d45fd6a6390aab777229293fb05cef7cf898aac882f8955e40c378e52fcd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/pets/agents/openai.yaml",
+      "bytes": 204,
+      "sha256": "2570b140c41a0080edcdb323235690ae8f18b0e3c40dbe08a7dc57ce006b8cf2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet/SKILL.md",
+      "bytes": 4272,
+      "sha256": "c63c98d67b6ad781a72a8f9837ba1fb5e2d2a8054a2562e4025890a97d8a0e67",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/update-pet/agents/openai.yaml",
+      "bytes": 220,
+      "sha256": "b031edf7b860302fc56ff938ee90906dd09e9d6c3e44447847a068417eaf80b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "rules/default.rules",
+      "bytes": 191,
+      "sha256": "612de4e608275f01fc3ec303b3767da78cd718968bdd2ebe9fe2b66c07cac663",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/13/rollout-2026-09-13T19-31-20-01a09a52-4f88-7bf1-bc93-9570363ff6d7.jsonl",
+      "bytes": 114156,
+      "sha256": "e136703c8707e134272f21b61f247dcb5b7ae8da83cd41cb97d4142d01d12d4c",
+      "mode": "jsonl_snapshot",
+      "records": 35,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/13/rollout-2026-09-13T19-40-43-01a09a5a-e4b2-7941-aa0c-17d35be7d1c8.jsonl",
+      "bytes": 2000883,
+      "sha256": "ee0daa905d6fb26734d81a849503998920d641f67000f370b10a9eaeac31a064",
+      "mode": "jsonl_snapshot",
+      "records": 576,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/13/rollout-2026-09-13T19-55-14-01a09a68-2faa-73e3-82dc-80bdcf1891d4.jsonl",
+      "bytes": 1854408,
+      "sha256": "5b16bf8feee0d6758d3500a43c525a27a28f21c4ed539dcb88da497e692198d0",
+      "mode": "jsonl_snapshot",
+      "records": 474,
+      "omitted_incomplete_tail": 0,
+      "redactions": 22
+    },
+    {
+      "path": "sessions/2026/09/13/rollout-2026-09-13T20-18-19-01a09a7d-5268-7fd1-acda-0657481784be.jsonl",
+      "bytes": 139261,
+      "sha256": "cf6551f762e8b3985c36a6908a173b45f060317e78df3143d643e85180490fcb",
+      "mode": "jsonl_snapshot",
+      "records": 35,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/14/rollout-2026-09-14T11-41-39-01a09dca-a916-79f1-83e2-373083844aa9.jsonl",
+      "bytes": 3154013,
+      "sha256": "463f836e5337c34fbdff3999708f9b408c1dc6ff118c1661145ba29f5f844ae9",
+      "mode": "jsonl_snapshot",
+      "records": 718,
+      "omitted_incomplete_tail": 0,
+      "redactions": 8
+    },
+    {
+      "path": "sessions/2026/09/14/rollout-2026-09-14T19-14-18-01a09f69-1204-7e61-beca-c30790b80556.jsonl",
+      "bytes": 24463273,
+      "sha256": "d11a5f0902afb36d192edcadbdb954c1f343c13894e83d82e10228e0eb4bdc08",
+      "mode": "jsonl_snapshot",
+      "records": 406,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/14/rollout-2026-09-14T19-23-55-01a09f71-df85-76d1-9d78-db31303725eb.jsonl",
+      "bytes": 22031607,
+      "sha256": "11d3dca0e9bfd9eca8d4b40da459f1ef9208cbde16a0f59205e13c6522f188b6",
+      "mode": "jsonl_snapshot",
+      "records": 509,
+      "omitted_incomplete_tail": 0,
+      "redactions": 5
+    },
+    {
+      "path": "sessions/2026/09/14/rollout-2026-09-14T19-28-45-01a09f76-4bf7-7bc2-aaad-b3e6d30dbf8f.jsonl",
+      "bytes": 236510,
+      "sha256": "0fe0dd4ea51da29e57667981854ac72ff4f7b0010c131481dd963f996e29e949",
+      "mode": "jsonl_snapshot",
+      "records": 82,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/16/rollout-2026-09-16T11-01-38-01a0a7f2-bf63-7580-8188-2e6cd31b531d.jsonl",
+      "bytes": 340551,
+      "sha256": "b8e38279b3d2cab722d949f52dafab6ea0414b03b30ab21eb3d497ac51ce0e74",
+      "mode": "jsonl_snapshot",
+      "records": 79,
+      "omitted_incomplete_tail": 0,
+      "redactions": 1
+    },
+    {
+      "path": "sessions/2026/09/16/rollout-2026-09-16T12-25-44-01a0a83f-bd1d-7d23-af97-5f6414eb6fdf.jsonl",
+      "bytes": 7981677,
+      "sha256": "71728797a54953ab3a824cc0c6d0e264cacfd8bb23fb31392692898138310a7a",
+      "mode": "jsonl_snapshot",
+      "records": 957,
+      "omitted_incomplete_tail": 0,
+      "redactions": 5
+    },
+    {
+      "path": "sessions/2026/09/17/rollout-2026-09-17T15-00-48-01a0adf4-0f0b-7203-9be3-eae52a4bba7c.jsonl",
+      "bytes": 1682664,
+      "sha256": "888ca8dc462efd844b63a52010d8bebcd86bd085dde8094697f0e4432b5d090f",
+      "mode": "jsonl_snapshot",
+      "records": 359,
+      "omitted_incomplete_tail": 0,
+      "redactions": 4
+    },
+    {
+      "path": "sessions/2026/09/21/rollout-2026-09-21T00-34-32-01a0bf74-67ca-7cd2-b54b-c8071233102c.jsonl",
+      "bytes": 771562,
+      "sha256": "c5f242e07e23c6880416cc3f660bdde02c369fcfe86cc6725716f9aafb4bbec1",
+      "mode": "jsonl_snapshot",
+      "records": 106,
+      "omitted_incomplete_tail": 0,
+      "redactions": 4
+    },
+    {
+      "path": "sessions/2026/09/22/rollout-2026-09-22T00-32-46-01a0c499-25c1-7783-9ebc-5e533d78106b.jsonl",
+      "bytes": 20556324,
+      "sha256": "cb4445a8eed106a94a18973136a05ea40e0d46d7c30f58c7d8267e97e03ca81c",
+      "mode": "jsonl_snapshot",
+      "records": 1605,
+      "omitted_incomplete_tail": 0,
+      "redactions": 8
+    },
+    {
+      "path": "sessions/2026/09/22/rollout-2026-09-22T20-22-15-01a0c8da-2965-7523-9267-9be03c767324.jsonl",
+      "bytes": 55325,
+      "sha256": "51a8b79e1cd3bb785fad6d4455effa8a4ec6585ec41a2242983e3cf2e9d7d1db",
+      "mode": "jsonl_snapshot",
+      "records": 15,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/22/rollout-2026-09-22T20-39-55-01a0c8ea-5687-7633-9c0a-ecae3b62f1e2.jsonl",
+      "bytes": 1605184,
+      "sha256": "884cb2a13ad93e6620a5d7854240fbba9c435cde3e077e977e2f88cef87795b0",
+      "mode": "jsonl_snapshot",
+      "records": 371,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/24/rollout-2026-09-24T16-23-28-01a0d24c-423d-7603-b486-6a25af4234b4.jsonl",
+      "bytes": 80748741,
+      "sha256": "9d7288102b8c64e02cc93248ca23b966a4c098ee2369ca99db31b5a6c236d16a",
+      "mode": "jsonl_snapshot",
+      "records": 745,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/24/rollout-2026-09-24T17-10-33-01a0d277-6043-71d1-a58a-e22a350b0a0c.jsonl",
+      "bytes": 871242,
+      "sha256": "021092d3d9f68154d625387afda020c09521e983b5746db62e21c15e201f22f3",
+      "mode": "jsonl_snapshot",
+      "records": 228,
+      "omitted_incomplete_tail": 0,
+      "redactions": 4
+    },
+    {
+      "path": "sessions/2026/09/24/rollout-2026-09-24T21-28-20-01a0d363-60a0-70a2-a5fe-65b54dd33b12.jsonl",
+      "bytes": 9909109,
+      "sha256": "45e15a8fd693fc230aeb270fa37d8a90942529dafe4a2519bbf0abdf4f9aeccb",
+      "mode": "jsonl_snapshot",
+      "records": 1076,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/09/24/rollout-2026-09-24T21-43-32-01a0d371-493a-7fa1-b34e-d9c845d4d121.jsonl",
+      "bytes": 2061108,
+      "sha256": "d633b4bae92a84b2e11035704ee255af250b35d0ba1ee32c34c8c15ca9102f52",
+      "mode": "jsonl_snapshot",
+      "records": 242,
+      "omitted_incomplete_tail": 0,
+      "redactions": 8
+    },
+    {
+      "path": "sessions/2026/09/24/rollout-2026-09-24T23-31-03-01a0d3d3-ba93-7863-b2f8-ad8d5805071d.jsonl",
+      "bytes": 29515295,
+      "sha256": "74326ea65b25ffd5b21f2e87755abfe077277560b2678666490d49b9e27acae2",
+      "mode": "jsonl_snapshot",
+      "records": 1932,
+      "omitted_incomplete_tail": 0,
+      "redactions": 210
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T19-49-07-01a12fbb-03a4-7d50-ae58-5354417227b6.jsonl",
+      "bytes": 250671,
+      "sha256": "502ec069cc19a5a331cf5470095fd8826fdc3087b18092f324db0e7eebd09735",
+      "mode": "jsonl_snapshot",
+      "records": 17,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T19-51-58-01a12fbd-9f16-7f71-8e20-4031bd33b33d.jsonl",
+      "bytes": 3556775,
+      "sha256": "d9af9402b8bc1334f947851aca89853bc89cfe58899ec1ff71dcd851a368a7fc",
+      "mode": "jsonl_snapshot",
+      "records": 133,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T19-55-03-01a12fc0-72ce-7921-a4c0-3680a64bb4a6.jsonl",
+      "bytes": 836274,
+      "sha256": "fd5069d8dd518463e0759e2600ed908e5accd5c36cc048ba865fc76869e45661",
+      "mode": "jsonl_snapshot",
+      "records": 158,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T20-01-15-01a12fc6-1f7c-7e50-b84c-5e1634d8e31e.jsonl",
+      "bytes": 1425358,
+      "sha256": "450c84dd2662720c13c79c326af649e0a0e94a4c6594ade74b145c6252d4184e",
+      "mode": "jsonl_snapshot",
+      "records": 391,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T20-09-20-01a12fcd-84ef-7552-bf4e-2dc1a8ae256a.jsonl",
+      "bytes": 1698498,
+      "sha256": "592b89ec2301021ee4cd60cf1a7ad99f43988be1940b7ce69f9af76f4a20e665",
+      "mode": "jsonl_snapshot",
+      "records": 113,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T20-16-23-01a12fd3-f817-7db1-905c-aa5446768d5e.jsonl",
+      "bytes": 280195621,
+      "sha256": "73e727e4eb5aee7aa35964644e002477e5ea8efef2ac6239a888462656c1bac5",
+      "mode": "jsonl_snapshot",
+      "records": 9147,
+      "omitted_incomplete_tail": 0,
+      "redactions": 234
+    },
+    {
+      "path": "sessions/2026/10/12/rollout-2026-10-12T21-37-52-01a1301e-9405-7df3-a089-8639c5fb69a2.jsonl",
+      "bytes": 58660,
+      "sha256": "0b17c577464b6e2a2c0e4b31c8bd44bce57eebdf3df419597f776eb6ae050f0b",
+      "mode": "jsonl_snapshot",
+      "records": 17,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/13/rollout-2026-10-13T23-20-46-01a135a3-24f6-7d30-abbd-43e7361dead7.jsonl",
+      "bytes": 739202,
+      "sha256": "425d2312c7e739fbce413c5ffc541565c3551e27ab808aff422f172afc754724",
+      "mode": "jsonl_snapshot",
+      "records": 66,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/13/rollout-2026-10-13T23-23-15-01a135a5-687e-7c13-8e75-7eac609977dc.jsonl",
+      "bytes": 30581202,
+      "sha256": "663e90052cb690cd603a28d59dcf12fa21477ebe7e679bb15335efbaf6b6cdef",
+      "mode": "jsonl_snapshot",
+      "records": 3639,
+      "omitted_incomplete_tail": 0,
+      "redactions": 26
+    },
+    {
+      "path": "sessions/2026/10/14/rollout-2026-10-14T00-13-20-01a135d3-429f-77f2-bb9a-e4aff6a00a53.jsonl",
+      "bytes": 53018541,
+      "sha256": "a54f6c7e3828fbf0ff768a43cb79e4ffff5267cd3251c467c7afd9065bb16058",
+      "mode": "jsonl_snapshot",
+      "records": 4063,
+      "omitted_incomplete_tail": 0,
+      "redactions": 62
+    },
+    {
+      "path": "sessions/2026/10/14/rollout-2026-10-14T00-13-41-01a135d3-96cc-73f3-8cf5-dfcbb1c8a3df.jsonl",
+      "bytes": 39536207,
+      "sha256": "52c569cfe1a6c9d6de1b1b2e15203bb8f05bc1536fd46ca6b2142b842e26f31e",
+      "mode": "jsonl_snapshot",
+      "records": 3479,
+      "omitted_incomplete_tail": 0,
+      "redactions": 9
+    },
+    {
+      "path": "sessions/2026/10/14/rollout-2026-10-14T00-13-56-01a135d3-d04c-7853-9f9b-70a7b1687220.jsonl",
+      "bytes": 47438382,
+      "sha256": "cdfd6dc0b294a4ce9bbd26e8766729e38d2357e1cc4ddc5d08d701cdf3f18879",
+      "mode": "jsonl_snapshot",
+      "records": 4872,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/14/rollout-2026-10-14T18-08-25-01a139ab-8a94-7f22-89c1-8aed3e4423d0.jsonl",
+      "bytes": 5221568,
+      "sha256": "1ee38cafae18611a94fe3d7ea0cae795355fb8e3824dce4c7d0dff83587bf3b1",
+      "mode": "jsonl_snapshot",
+      "records": 592,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "sessions/2026/10/15/rollout-2026-10-15T00-00-26-01a13aed-cfa8-7250-ac51-8efde47bf2d5.jsonl",
+      "bytes": 1710581,
+      "sha256": "07d170509ade83c1d106b043c2830384905a1a0c920706c92e33a06284b86dbc",
+      "mode": "jsonl_snapshot",
+      "records": 167,
+      "omitted_incomplete_tail": 0,
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/.codex-system-skills.marker",
+      "bytes": 17,
+      "sha256": "0e86b9abaaf548d9a0560c2c0e10c9b985571f2c714a92a97a1e0ad0cce8cd96",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/LICENSE.txt",
+      "bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/SKILL.md",
+      "bytes": 19201,
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/agents/openai.yaml",
+      "bytes": 275,
+      "sha256": "9ca574af14580dc7a2a3dc37a1796d17f93cb8850be66501f0799ef8603e9dc0",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/assets/imagegen-small.svg",
+      "bytes": 2889,
+      "sha256": "cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/assets/imagegen.png",
+      "bytes": 1711,
+      "sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/references/cli.md",
+      "bytes": 9655,
+      "sha256": "ecfc2e09261a0feb3482517a5fa0ff410cb7d1958e3cbd2ac6b61586f5b81405",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/references/codex-network.md",
+      "bytes": 1779,
+      "sha256": "c88298ca4481f6116a16fa7987434fc977f8b311c1bbc0c3d862ffd0c5981148",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/references/image-api.md",
+      "bytes": 6072,
+      "sha256": "dc975d7af8a4888967251a0276014b4a71ea30455294944b762256373ce3e569",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/references/prompting.md",
+      "bytes": 8282,
+      "sha256": "b210b051c775860267080941eba968212bf0ac7fce581d75c5dcc217d8293f8b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/references/sample-prompts.md",
+      "bytes": 17617,
+      "sha256": "70474177d151855b175c6133de2aae1d90b7f146b0dab50ec830972c47d72183",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/scripts/image_gen.py",
+      "bytes": 34667,
+      "sha256": "b4345cf835e5b593b97df6bb2b70bda493b8a97eee4cabbc99b2fa57dba9b448",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/imagegen/scripts/remove_chroma_key.py",
+      "bytes": 13905,
+      "sha256": "a5893c4bd04b21abced33731ea89d2ac428e81d92a0368eb18ffbe4fda5253e2",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/LICENSE.txt",
+      "bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/SKILL.md",
+      "bytes": 5437,
+      "sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/agents/openai.yaml",
+      "bytes": 370,
+      "sha256": "44b9efac6be1bae32d869aa2942fecbe4dcae82682ee03e4120f2f9b7d4658ec",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/assets/openai-small.svg",
+      "bytes": 1091,
+      "sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/assets/openai.png",
+      "bytes": 1429,
+      "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/codex-self-knowledge.md",
+      "bytes": 7417,
+      "sha256": "8c8fb00e6e5cb1977924f5164684a6095427fa828bbc765225f17d9aeb79a912",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/latest-model.md",
+      "bytes": 2147,
+      "sha256": "bdf241d505eb071b1c7b0b732f842b701348cf6eab95d1c36fd97edac64dd158",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/mcp-diagnostics.md",
+      "bytes": 2318,
+      "sha256": "49bbd2f73df7bbd7f86c80425dea4da2d301c22046080399a36bfc0ca49509e9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/model-migration.md",
+      "bytes": 5094,
+      "sha256": "bef46671036c8e483b7f65df931171217d55a8d26098851c2f89784db8edca2f",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/model-selection.md",
+      "bytes": 1344,
+      "sha256": "ba2d164abbca30435a460a0bc3a7d82398dce2bdf092705c98ba55b3f3af38a8",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/official-docs.md",
+      "bytes": 3337,
+      "sha256": "7962f2dce55089b93bde4115bb89fd42f20993c1597a2b13edd4956f463875b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/prompting-guide.md",
+      "bytes": 10166,
+      "sha256": "548d4ca73a34cd4b0041ef05a899592e8c50772b8f3a76c579ec941e403e19f6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/upgrade-guide.md",
+      "bytes": 1027,
+      "sha256": "ecac89155f910f064fd306e89c74585cabdb2142aba4f2acc0cead092ae1d1a5",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/references/upgrading-to-gpt-6-astra.md",
+      "bytes": 18993,
+      "sha256": "62ef6d22684662a019d203834fe1205a07e4ca4c65dddcbabe1bb51efe1aa840",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/scripts/fetch-codex-manual.mjs",
+      "bytes": 16085,
+      "sha256": "f53eb6d2f286e9efcc397e8bee93a938e37296c90953e4e06e94899ef1b6c363",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/scripts/resolve-latest-model-info",
+      "bytes": 1038,
+      "sha256": "7354dbb030ca0736dd633a7ca1b930cf640abd40370725dea3a458cb51d49523",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/openai-docs/scripts/resolve-latest-model-info.cjs",
+      "bytes": 3937,
+      "sha256": "eeb1bb486018e16b37edfc06b1a37179dbc672982d501040d4f7142f29dd2e64",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/SKILL.md",
+      "bytes": 11467,
+      "sha256": "71b95b8219644f95d633721e7f7cd3c469edfc8fe50f8415d400dfb2d74bc7b9",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/agents/openai.yaml",
+      "bytes": 339,
+      "sha256": "fecaf35d692bd3d33d1a065648258d12e393afa9055d78adf6e57b42f4142f6d",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/assets/plugin-creator-small.svg",
+      "bytes": 1319,
+      "sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/assets/plugin-creator.png",
+      "bytes": 1563,
+      "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/references/installing-and-updating.md",
+      "bytes": 6000,
+      "sha256": "91c4781d48568fcc708b45566b08fb610ad1c88672720ae512f9525a1cf9cb20",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/references/plugin-json-spec.md",
+      "bytes": 9179,
+      "sha256": "eeb640130f69636affaa299d4170d5a7ae6a0ff978296ddf75c409ce6dd87b91",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/scripts/create_basic_plugin.py",
+      "bytes": 11731,
+      "sha256": "272cb14e02ad7c76ac40777443c49cfecfa333ee28ab7f6214210b72c8fd02ae",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/scripts/identifier_validation.py",
+      "bytes": 784,
+      "sha256": "a6d51ce4a9a7e8f85626ff5808a467a67574e7f8cdf1167ffb467c5f67e57223",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/scripts/read_marketplace_name.py",
+      "bytes": 1644,
+      "sha256": "ba24e6d91eed6f778bde022a967be335c6253983b5ecd1c5e30c8483385887fd",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/scripts/update_plugin_cachebuster.py",
+      "bytes": 3045,
+      "sha256": "6a630dfbdc2bca6952580da9c2c7ece08030926819ccd81d9deb518c24c1b0ed",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/plugin-creator/scripts/validate_plugin.py",
+      "bytes": 21739,
+      "sha256": "f4eeadb733b28b0c3e714de263a76d6542866a672f3e99bdffcf4dbcdf85e944",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/review-agent/SKILL.md",
+      "bytes": 2661,
+      "sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/review-agent/agents/openai.yaml",
+      "bytes": 252,
+      "sha256": "4d867a46d15e36ac880176484aae160f59855340c6059b2ea6ab9fbc9af084de",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/SKILL.md",
+      "bytes": 15311,
+      "sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/agents/openai.yaml",
+      "bytes": 183,
+      "sha256": "d07d21b93fcf3d4dc8d9a3399c05fc226a49a333a96d3e1c68b451b8dd9eade6",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/assets/skill-creator-small.svg",
+      "bytes": 1319,
+      "sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/assets/skill-creator.png",
+      "bytes": 1563,
+      "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/references/openai_yaml.md",
+      "bytes": 2356,
+      "sha256": "ffac39318e408108141d40f820968e59f70434a891694f9bf1d25be8237b150c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/scripts/generate_openai_yaml.py",
+      "bytes": 6669,
+      "sha256": "816df12072d74faf924d802a6599a139997e1441e90bfe4869ec304f2e5e2851",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/scripts/init_skill.py",
+      "bytes": 10314,
+      "sha256": "bf0656a5f9d8d8cdecf0245eaf27e1df8e0e9b6d40ccdda814eb8e3d5f6992c8",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-creator/scripts/quick_validate.py",
+      "bytes": 4249,
+      "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/SKILL.md",
+      "bytes": 3367,
+      "sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/agents/openai.yaml",
+      "bytes": 221,
+      "sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/assets/skill-installer-small.svg",
+      "bytes": 923,
+      "sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/assets/skill-installer.png",
+      "bytes": 1086,
+      "sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+      "mode": "binary_copy",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/scripts/github_utils.py",
+      "bytes": 659,
+      "sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/scripts/install-skill-from-github.py",
+      "bytes": 11917,
+      "sha256": "38f311b75664bb063808f982c600271ebc4b560830f491705190f88a94e3e781",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    },
+    {
+      "path": "skills/.system/skill-installer/scripts/list-skills.py",
+      "bytes": 2948,
+      "sha256": "9d6dfb2abf3afeee7f027a89fb1626b918a973da18f4eb6c25681286301beb41",
+      "mode": "text_copy_and_redaction",
+      "redactions": 0
+    }
+  ],
+  "file_count": 634,
+  "total_bytes": 3067320195,
+  "redaction_counts": {
+    "github_token": 0,
+    "openai_key": 0,
+    "aws_key": 25,
+    "slack_token": 0,
+    "jwt": 281,
+    "private_key": 0,
+    "bearer": 0,
+    "url_credential": 0,
+    "credential_assignment": 65,
+    "signed_url_credential": 306,
+    "credential_field": 1
+  },
+  "files_redacted": 20,
+  "additional_public_audit": {
+    "checked_text_or_database_files": 448,
+    "changed_files": 341,
+    "jsonl_records_validated": true,
+    "database_integrity": "ok"
+  },
+  "text_validation": {
+    "config_toml_valid": true,
+    "json_files_valid": 71,
+    "line_endings": "LF",
+    "normalized_files": 403
+  }
+}
