@@ -1,0 +1,64 @@
+{
+  "data_origin": "synthetic_boundary_example_not_user_score",
+  "scope": "practice_session_only; officially_cross_checked_70_and_40_rule_and_20_30_50_format",
+  "threshold_status": "pass",
+  "timed_independent_status": "pass",
+  "original_total": 100,
+  "lower_correct": 70,
+  "upper_correct": 70,
+  "overall_minimum": 70,
+  "overall_deficit": 0,
+  "held_count": 0,
+  "subjects": {
+    "S1": {
+      "correct": 8,
+      "incorrect": 12,
+      "unanswered": 0,
+      "held": 0,
+      "total": 20,
+      "pending_slots": 0,
+      "minimum": 8,
+      "lower_correct": 8,
+      "upper_correct": 8,
+      "lower_percent": 40.0,
+      "upper_percent": 40.0,
+      "minimum_deficit": 0
+    },
+    "S2": {
+      "correct": 12,
+      "incorrect": 18,
+      "unanswered": 0,
+      "held": 0,
+      "total": 30,
+      "pending_slots": 0,
+      "minimum": 12,
+      "lower_correct": 12,
+      "upper_correct": 12,
+      "lower_percent": 40.0,
+      "upper_percent": 40.0,
+      "minimum_deficit": 0
+    },
+    "S3": {
+      "correct": 50,
+      "incorrect": 0,
+      "unanswered": 0,
+      "held": 0,
+      "total": 50,
+      "pending_slots": 0,
+      "minimum": 20,
+      "lower_correct": 50,
+      "upper_correct": 50,
+      "lower_percent": 100.0,
+      "upper_percent": 100.0,
+      "minimum_deficit": 0
+    }
+  },
+  "qualification_notes": [],
+  "bounds": {
+    "all_unknown_wrong_passes": true,
+    "all_unknown_correct_passes": true
+  },
+  "priority_subjects": [],
+  "familiar_items": 0,
+  "generalization": "Familiar-item performance does not establish unseen-item transfer or pass probability."
+}

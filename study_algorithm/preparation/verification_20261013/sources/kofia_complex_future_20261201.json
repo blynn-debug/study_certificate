@@ -1,0 +1,18 @@
+{
+  "id": "kofia_complex",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1812&seq=339",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1812&seq=339",
+  "retrieved_at": "2026-10-13T00:01:47.538504+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 16768,
+  "content_sha256": "a5cb350da7fe46af4c8224ae5ec4a67a757d898cb3dc741cfc3ba50dc9345d65",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "고난도 금융투자상품 제조 및 판매에 관한 표준영업행위준칙",
+  "kofia_seq": "339",
+  "history_seq": "1812",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

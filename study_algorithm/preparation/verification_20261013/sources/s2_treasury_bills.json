@@ -1,0 +1,11 @@
+{
+  "id": "s2_treasury_bills",
+  "requested_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+  "retrieved_url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+  "retrieved_at": "2026-10-13T16:09:37.611947+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "f8ea8aa9af2412d5abd77ff2e2a38f14606f5d9980a45a77cac80b9dc3f00fb3",
+  "text_sha256": "9276de39621176c16acfcabc02a4635be5d360e53c1dfc30d55520838a19f6dc",
+  "status": "retrieved_not_claim_verified"
+}

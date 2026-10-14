@@ -1,0 +1,18 @@
+{
+  "id": "securities_disclosure_rule",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000283270&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000283270&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T01:52:44.562636+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 92278,
+  "content_sha256": "0716793676c449c1233541913fad09ca2fc786522040cac656ff4ead1901ef62",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "28"
+    ]
+  ]
+}

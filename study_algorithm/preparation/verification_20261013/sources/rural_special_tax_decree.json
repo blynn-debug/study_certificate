@@ -1,0 +1,18 @@
+{
+  "id": "rural_special_tax_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280835&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280835&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T01:48:29.895674+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 28287,
+  "content_sha256": "2f5b6cb49938c71b309d3cf7c124aa45488785d7ce661bf2209158ea38bb7724",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

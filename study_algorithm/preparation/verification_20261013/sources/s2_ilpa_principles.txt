@@ -1,0 +1,2945 @@
+[PDF page 1]
+1
+ILPA Principles 3.0
+ILPA Principles 3.0:
+ 
+Fostering Transparency, Governance 
+and Alignment of Interests for 
+General and Limited Partners
+2019
+
+
+[PDF page 2]
+2
+Overview	
+5
+Principles in Summary	
+9
+GP and Fund Economics	
+10
+	
+Waterfall Structure
+	
+Calculation of Carried Interest
+	
+Recycling of Distributions
+	
+Clawback
+	
+Management Fees
+	
+Fee Income Beyond the Management Fee
+	
+Reasonable Organization and Partnership Expenses
+Fund Term and Structure	
+17
+	
+GP Commitment and Ownership
+	
+Fund Term Extensions
+	
+Vehicles Investing Alongside the Fund
+Key Person	
+19
+ 
+Identification and Changes to Key Person(s)
+	
+Time and Attention
+	
+Key Person Triggers and Process to Resolve
+	
+GP Removal and Replacement
+Contents
+
+
+[PDF page 3]
+3
+Fund Governance	
+21
+	
+Fiduciary Duty
+	
+Investment Management Considerations
+	
+Changes to the Fund
+	
+GP-led Secondary Transactions
+	
+Cross-Fund Investments
+	
+Co-Investment Allocations
+	
+LPAC Best Practices
+	
+Auditor Independence and Scope of the Fund Audit
+Financial Disclosures	
+33	
+	
+Fees and Expenses
+	
+Other Financial Information, Quarterly 
+	
+Financial Disclosures, Annual
+	
+Capital Calls and Distributions
+	
+Subscription Lines of Credit
+	
+Portfolio Company Information
+	
+Financial and Performance Reporting
+	
+Fund Marketing Materials
+	
+Information Access and Fund Audits
+Notifications and Policy Disclosures 
+38
+	
+ESG Policies and Reporting
+ 
+Other Policy Disclosures and Notifications
+LP Disclosures	
+40
+Definitions 
+41
+Acknowledgements	
+43
+
+
+[PDF page 4]
+4
+About the ILPA
+The Institutional Limited Partners Association (ILPA) engages, empowers and connects 
+limited partners (LPs) to maximize their performance on an individual, institutional and 
+collective basis. Serving more than 515 member institutions representing over $2 trillion 
+USD of private equity assets under management (AUM), ILPA is the only global organiza­
+tion dedicated exclusively to advancing the interests of LPs and their beneficiaries through 
+best-in-class education, content, advocacy and networking. 
+ILPA takes seriously its role in facilitating the growth and sustainability of this industry. It is 
+imperative to the health of the private equity ecosystem that market actors adhere to the 
+highest ethical and professional standards, deal fairly and honestly, invest responsibly and 
+act with integrity and transparency. This guidance is intended to engender and sustain trust 
+and a sense of long-term partnership in the industry.
+
+
+[PDF page 5]
+5
+ILPA Principles 3.0
+Overview
+ Background
+The Institutional Limited Partners Association (“ILPA”) produces industry best practices aimed at improving the 
+private equity industry for the long-term benefit of all industry participants and beneficiaries. The ILPA Principles 
+(the “Principles”) were first published in September 2009 to encourage discussion between Limited Partners 
+(“LPs”) and General Partners (“GPs”) regarding the alignment of interests in private equity fund partnerships. 
+In the year following the Principles’ initial release, ILPA solicited additional feedback from the LP and GP 
+communities and subsequently released an updated version in 2011 to address certain issues requiring addi­
+tional focus, clarification or consideration of practical implications. This third edition of the Principles builds on 
+prior versions by addressing an expanded array of issues, taking into consideration evolving industry and policy 
+dynamics impacting private equity fund partnerships. 
+As in prior editions, this version incorporates ideas and suggestions accumulated via extensive dialogue with a 
+range of constituencies across the private equity industry. 
+ILPA continues to assert that three guiding principles form the essence of an effective private equity partnership: 
+alignment of interest, governance and transparency. 
+With these guiding principles in mind, this third edition of the ILPA Principles includes expanded, clarifying 
+guidance on:
+•	 Fund Economics
+•	 Key Person Provisions
+•	 LPAC Responsibilities
+•	 Fiduciary Duty
+The third edition also addresses new and emerging issues including: 
+•	 Fee and Expense Reporting
+•	 LPA Compliance and Assurance 
+•	 Subscription Lines of Credit
+•	 Co-Investments
+•	 Non-Financial Disclosures: Incident Reporting, Regulatory Compliance
+•	 ESG Integration
+•	 GP Ownership and Succession Issues
+•	 GP-led Secondaries Transactions
+•	 Conflicts of Interest Arising from Parallel Vehicles and Cross-Fund Investments
+OVERVIEW
+
+
+[PDF page 6]
+6
+Intended Scope 
+and Application
+The preferred private equity terms and best practices 
+herein serve to inform discussions between each GP 
+and its current and prospective LPs in the develop­
+ment of partnership agreements and in the manage­
+ment of funds. 
+ILPA does not seek the commitment of any LP or GP 
+to any specific terms, nor should the Principles be 
+applied as a checklist, as each partnership should be 
+considered separately and holistically. A single set of 
+preferred terms and practices cannot provide for the 
+broad variability of products, strategies and investor 
+preferences across the market at any given time, nor 
+account for every individual circumstance. 
+This guidance is put forth as a road map for GPs and 
+LPs to develop the same set of expectations when 
+entering into any partnership, and to frame a more 
+precise and specific dialogue between the GP and 
+the partnership’s existing and prospective investors 
+during the fundraising process and over the life of the 
+partnership. We put forth that careful consideration of 
+each of these preferred private equity terms and best 
+practices will result in better investment returns and a 
+healthier private equity industry.
+ILPA encourages all stakeholders—LPs, GPs and their 
+advisers—to be transparent in their consideration and 
+intended application of these Principles and the level 
+of accountability. LPs are advised to clearly commu­
+nicate the extent to which adherence to particular 
+ideas contained in this guidance are factored into 
+their investment approvals process and/or their insti­
+tution’s investment policies. While ILPA is not seeking 
+endorsements for this third edition of the Principles, 
+expressions of support by GPs for the ideas herein are 
+welcomed, and GPs are encouraged to notify their LPs 
+of their progress in adopting elements of Principles 
+3.0. It is incumbent upon all partners to seek shared 
+and mutual understanding of expectations related to 
+adherence to this guidance and any assurances re­
+quired by either party.
+For the avoidance of doubt, while this guidance was 
+crafted primarily for the use of practitioners in private 
+equity, ILPA encourages stakeholders in other private 
+markets to consider the adoption of relevant sections 
+of Principles 3.0.
+OVERVIEW
+
+
+[PDF page 7]
+7
+ILPA Principles 3.0
+Underlying Themes
+STEWARDSHIP: Private equity firms invest capital entrusted to them by fiduciaries, who in turn have delegated 
+to GPs the solemn responsibility to manage the savings and capital of individuals and organizations that rely on 
+the returns generated by those assets. Accordingly, this edition of the Principles reflects a synthesized view of 
+exemplary and adoptable practices, rather than behaviors dictated by the market conditions of any particular 
+point in time.
+EVOLUTION OF THE PRIVATE EQUITY INDUSTRY: The volume of both institutions and capital flowing into pri­
+vate equity has swelled significantly over the last decade, as has the range of means by which investors allocate 
+that capital. The industry has diversified meaningfully beyond blind closed-end pools, to encompass co-invest­
+ment, direct investment, separately managed accounts and other bespoke and semi-bespoke vehicles, often 
+with different risk-return profiles, adding complexity to legal structures as well as fund governance and disclo­
+sures.
+MARKET CONTEXT: Against a backdrop of historic levels of fundraising, record distributions to LPs and rising 
+competition for allocation, alignment between GPs and LPs, and among LPs, is exceedingly challenged at pres­
+ent, even as the industry more openly embraces ethical behavior and responsible investment. Since the last 
+edition of the Principles, the industry has become regulated for the first time in both the US and Europe, ushering 
+in an era of unprecedented expectations around transparency.
+SHARED RESPONSIBILITY: Private equity is unique in that it is rooted in a sense of long-term partnership. The 
+recommendations herein are intended to address both LP and GP behaviors that will promote stronger align­
+ment both among business partners, as well as across different entities investing alongside one another in a 
+common market.
+The guidance in this third edition reflect considerable input from market leaders in the LP and GP community as 
+well as industry bodies and the service provider community, led by contributions from ILPA’s Principles working 
+group, ILPA’s Industry Affairs and Standards Committee, and the ILPA Board of Directors. We are grateful for the 
+thoughtful contributions received. 
+Several elements within Principles 3.0 are addressed through previously published ILPA standards and guidance 
+available online at ilpa.org. These include:
+	
+Quarterly Reporting Standards 	
+2011
+	
+Capital Call & Distribution Notice Template	
+ 2011
+	
+Reporting Template for Fees, Expenses and Carried Interest 	
+2016
+	
+Model Subscription Agreement 	
+2017
+	
+Guidance on Subscription Lines of Credit 	
+2017
+	
+Due Diligence Questionnaire 	
+2018
+	
+Industry Code of Conduct Guidelines on Harassment, Discrimination and Workplace Violence	
+ 2018
+	
+Portfolio Company Metrics Template 	
+2019
+	
+Guidance on GP-led Secondary Fund Restructurings 	
+2019
+	
+	
+Model Limited Partnership Agreement	
+Forthcoming
+Suggestions for topics worthy of future inclusion in ILPA Principles, or to be addressed through ILPA’s 
+educational and best practices platforms, can be submitted to ILPA via email to principles@ilpa.org.
+OVERVIEW
+
+
+[PDF page 8]
+About the ILPA
+The Institutional Limited Partners Association (ILPA) engages, empowers and connects limited partners (LPs) to 
+maximize their performance on an individual, institutional and collective basis. Serving more than 500 mem­
+ber institutions representing over $2 trillion USD of private equity assets under management (AUM), ILPA the 
+only global organization dedicated exclusively to advancing the interests of LPs and their beneficiaries through 
+best-in-class education, content, advocacy and networking. 
+ILPA takes seriously its role in facilitating the growth and sustainability of this industry. It is imperative to health 
+of the private equity ecosystem that market actors adhere to the highest ethical and professional standards, 
+deal fairly and honestly, invest responsibly and act with integrity and transparency. This guidance is intended to 
+engender and sustain trust and a sense of long-term partnership in the industry.
+8
+
+
+[PDF page 9]
+9
+ILPA Principles 3.0
+Alignment of Interest
+•	 Alignment of interest is best achieved when
+	
+the GP’s wealth creation is primarily derived from 
+	
+a percentage of the profits generated from the GP’s
+	
+substantial equity commitment to the partnership, 
+	
+after LP return requirements have been met.
+•	 Decisions made by the GP, including management 
+	
+of conflicts of interest, should take into account the 
+	
+benefit to the partnership as a whole rather than to
+	
+the sole or disproportionate benefit of the GP, 
+	
+affiliates or a subset of investors in the partnership.
+•	 GPs should establish and disclose written policies 
+	
+and procedures to identify, monitor and appropri-
+	
+ately mitigate conflicts of interest. 
+•	 The source and value of any material benefit 
+	
+accruing to the GP as a consequence of being the
+	
+investment manager to the partnership should be
+	
+disclosed at least on an annual basis.
+Transparency  
+•	 LPs should have timely access to and notifications
+	
+on relevant information pertaining to the GP and
+	
+management of the partnership’s investments, 
+	
+including changes in GP ownership; material 
+	
+decisions and actions involving affiliates and relat-
+	
+ed parties; arrangements between the GP and
+	
+underlying portfolio companies; non-routine inter-
+	
+actions with the regulator of record; material ESG
+	
+matters pertaining to the portfolio; and policy 
+	
+violations.
+•	 All disclosures provided to investors, including
+ 	 those on costs and charges, should be clear, 
+	
+complete, fair and not misleading.
+•	 Fees and expenses charged to individual LPs and 
+	
+the partnership as a whole as well as carried 
+	
+interest calculations should be regularly and 
+	
+consistently disclosed and subject to periodic 
+	
+review by the Limited Partner Advisory Committee 
+	
+(LPAC) and certiﬁcation by an independent auditor.
+•	 Fees should be reasonable and based on the
+	
+normal operating costs of the fund; the partnership
+	
+should not incur expenses that could rationally be
+	
+expected to be covered by the management fee as 
+	
+a cost of operating the fund.
+Governance 
+•	 GPs should neither undertake nor seek to 
+	
+“pre-clear” actions through overly broad disclo-
+	
+sures that constitute or could potentially constitute 
+	
+a conflict of interest between the fund, a portfolio 
+	
+investment, and/or a portfolio manager on one 
+	
+hand and the GP, key persons, affiliates, etc. on the 
+	
+other without the approval of the LPAC.
+•	 GPs should make an affirmative statement of the
+	
+standard of care owed to the fund and should avoid 
+	
+language allowing for the disclaiming of fiduciary 
+	
+duty to the fullest extent of the law.
+•	 LPACs 
+should 
+be 
+thoughtfully 
+constructed, 
+	
+mandated and managed as an important adviser to
+	
+the fund, particularly around conflicts of interest, 
+	
+without obligating LPAC members to serve as 
+	
+fiduciaries of the fund themselves. 
+•	 LPAC members should be held to minimum 
+	
+participation standards.
+•	 LPAC meetings should be followed by an in camera
+ 	 session organized by the GP.
+Principles in Summary
+PRINCIPLES IN SUMMARY
+
+
+[PDF page 10]
+10
+ 
+GP and Fund Economics
+Waterfall Structure
+A standard all-contributions-plus-preferred-return-
+back-ﬁrst, i.e., whole of fund, model is best practice.
+For models other than whole of fund distribution of 
+profits:
+•	 Distributions should be based on return of all 
+	
+realized cost for a given investment with continuous 
+	
+makeup of partial unrealized impairments and
+ 	 write-offs, and return of all fees and expenses to
+ 	 date (as opposed to solely the pro rata fees and 
+	
+expenses related to any single realization).
+•	 For the purposes of a deal-by-deal waterfall, all 
+	
+unrealized investments should be valued at the 
+	
+lower of cost or market.
+•	 Accrued carried interest should be held in escrow
+	
+accounts with signiﬁcant reserves (e.g., 30% of carry 
+	
+distributions or more) and require additional 
+	
+reserves to cover potential clawback liabilities.
+Calculation of Carried Interest
+With respect to the treatment of carried interest in a 
+private equity fund, the following guidelines should 
+be considered:
+•	 Carried interest should be calculated based on net 
+	
+proﬁts (not gross proﬁts), factoring in the impact of
+	
+fund-level expenses. 
+•	 Carried interest should be calculated on an after-tax 
+	
+basis, i.e., foreign or other taxes imposed on the 
+	
+fund should not be treated as distributions to the 
+	
+partners.
+•	 No carry should be taken on current income distri-
+	
+butions.
+•	 Amendments in the calculation of carried interest 
+	
+linked to changes in tax policy personally 
+	
+impacting members of a GP should be limited, 
+	
+reasonable and not triggered automatically; 
+	
+such amendments should be subject to LPAC 
+	
+consideration and approval.
+•	 Carried interest should only be paid on recapital-
+	
+izations once the full amount of invested capital is
+	
+realized on each investment that was recapitalized.
+•	 The preferred return should be calculated from the 
+	
+date capital is called from LPs to the point of 
+	
+distribution; in cases where capital is drawn from a
+	
+bridging or other short-term financing facility 
+	
+collateralized by uncalled LP capital commitments, 
+	
+the preferred return should be calculated from the 
+	
+date capital is at risk, i.e., the date on which the 
+	
+facility is drawn, rather than the date at which the 
+	
+capital is ultimately called from LPs.
+•	 Subscription lines of credit should be used 
+	
+primarily for the benefit of the partnership as a 
+	
+whole, i.e., administrative ease or serving as bridge
+	
+financing, rather than chiefly for the purpose of 
+	
+enhancing reported IRR in order to accelerate the 
+	
+accrual and distribution of carried interest. Such
+ 	 lines should be of short duration, e.g., outstanding
+ 	 for no more than 180 days, and limited to a 
+	
+maximum percentage of fund commitments, 
+	
+e.g., 20%. The line should not be used to fund 
+	
+early distributions.
+•	 Calculation of preferred return should be made on 
+	
+the basis of the partnership’s cumulative invest-
+	
+ment history starting at the point an investor’s 
+	
+capital is put at risk via the partnership’s initial 
+	
+investment, i.e., when the investor’s liability to 
+	
+contribute capital to the initial deal is recorded, 
+	
+until such time that the amount representing the
+	
+preferred return for the partnership’s last exited 
+	
+investment is fully distributed to the investor. 
+	
+Whatever accrual method is used to calculate the
+	
+preferred 
+return 
+and 
+carried 
+interest, 
+that 
+	
+methodology should be fully transparent and 
+	
+consistent over the life of the fund.
+•	 To mitigate investor risks, the carried interest 
+	
+calculation should ideally utilize a “hard hurdle”
+	
+whereby the GP’s carried interest is based only on
+ 	 the portion of profits that exceed the LPs’ preferred
+	
+return. A GP may consider using a hard hurdle to 
+	
+foster a greater alignment of interest.
+GP AND FUND ECONOMICS
+
+
+[PDF page 11]
+11
+ILPA Principles 3.0
+•	 Provisions related to the functioning of the waterfall
+	
+should be drafted in terms that are readily compre-
+	
+hensible to a non-legal professional. Preferably, 
+	
+investors are provided with a model for how fees,
+	
+expenses and carried interest will be calculated 
+	
+over the life of the fund.
+Recycling of Distributions
+The amount of total distributions that are subject to 
+recycling provisions should have either a mutually 
+agreed cap, or a monitoring threshold such that LPs 
+can more accurately project their cash requirements. 
+The amount of the cap or monitoring threshold should 
+be established based on factors such as the GP’s track 
+record and the strategy of the fund. Furthermore, 
+recycling provisions, including the classification of any 
+unused, recallable distributions, should expire at the 
+end of the fund’s investment period.
+Clawback
+Carry clawback situations present one of the more 
+challenging circumstances for the GP/LP relationship 
+and, as such, should be avoided whenever possible. 
+The best approach to minimize clawback liabilities is 
+an “all capital back” waterfall structure. However, in 
+the event of a clawback situation, the following guid­
+ance should be considered:
+•	 Actual and potential clawback liabilities should be
+	
+determined and clearly disclosed to the LPs as of
+ 	 the end of every reporting period. At minimum, 
+	
+annual audited financial statements should include 
+	
+such disclosures along with a plan by the GP to 
+	
+resolve the clawback.
+•	 All clawback amounts should be gross of taxes 
+	
+paid and paid back no later than two years follow-
+	
+ing recognition of the liability. 
+•	 Where it is excessively burdensome or impractical
+	
+to require clawback gross of tax, the hypothetical 
+	
+marginal tax rates applied should reflect the actual
+	
+marginal rate that would apply to the individual
+	
+members of the GP impacted and account for: 
+	
+n 	 Loss carryforwards and carrybacks; 
+	
+n 	 The character of the fund income and deductions
+	
+	
+attributable to state tax payments; 
+	
+n	
+Any ordinary deduction or loss as a result of 
+	
+	
+any clawback contribution or related capital 
+	
+	
+account shift. 
+•	 Where the clawback formula is calculated net of
+	
+tax, the tax amount should not be simply 
+	
+subtracted from the amount owed and should take
+	
+the preferred return into account.
+•	 Repayment obligations should directly track carry
+	
+distributions impacted by the clawback. 
+•	 The clawback period must extend beyond the term
+	
+of the fund, including liquidation and any provision
+	
+for LP giveback of distributions.
+•	 ILPA strongly encourages joint and several liability
+	
+of individual GP members as a best practice. 
+	
+In cases where joint and several liability is not 
+	
+provided, a potential substitution would be a 
+	
+creditworthy guarantee of the entire clawback 
+	
+repayment by a substantial parent company, an 
+	
+individual GP member, or a subset of GP members.
+ 	 Where practicable, the clawback should be guaran-
+	
+teed by the parent company’s balance sheet.
+•	 The conditions triggering interim clawbacks should
+ 	 be well defined in fund documents, e.g., at defined
+	
+intervals and upon specific events such as key 
+	
+person, removal notice date or insufficient 
+	
+NAV coverage.
+•	 The NAV coverage test should be established to
+	
+ensure a sufficient margin of error on valuations,
+	
+e.g., at last 125% of NAV. Note that an escrow 
+	
+account of at least 30% may provide a sufficient
+	
+mechanism for the clawback guarantee. 
+•	 LPs should have robust enforcement powers, 
+	
+including the ability to directly enforce the 
+	
+clawback against individual GPs.
+•	 The cost of enforcing clawback guarantees should 
+	
+be a GP, not a partnership, expense. 
+GP AND FUND ECONOMICS
+
+
+[PDF page 12]
+12
+Management Fees
+The management fee should be based on reasonable 
+expenses related to the normal operating costs of the 
+fund. The rationale for the management fee should be 
+apparent to LPs, as excessive fees create a misalign­
+ment of interests. 
+During the formation of a new fund, GPs should 
+provide LPs considering an investment in the fund 
+with a fee model to guide how management fees will 
+be calculated over the life of the fund. Management 
+fees paid or payable to the fund should be disclosed 
+together with the basis of the calculation. In some 
+cases, such as with first time funds or funds with a 
+higher than average management fee, the GP should 
+provide a budget that lays out the rationale for the 
+management fee proposed.
+Overhead costs, salaries of the GP’s employees and 
+any relevant advisers or affiliates, travel and other 
+costs related to the investment activities of manager
+on behalf of the partnership should be borne by the 
+manager under the management fee, rather than 
+allocated to the fund. Examples include:
+•	 Industry conferences, cost of research and informa-
+	
+tion services, computer software and subscriptions,
+	
+travel, entertainment, lodging/accommodations,
+	
+investment consultants;
+•	 Costs and expenses associated with maintenance
+	
+of required books and records, expenses incurred
+	
+in fulfilling regulatory compliance requirements,
+	
+e.g., registration or maintenance of registration;
+•	 Costs and expenses associated with any remedial 
+	
+actions required as the result of a regulatory exam
+	
+(e.g.; SEC audit);
+•	 Office space, furniture, computers, telephones, 
+	
+facilities, utilities, and communications.
+For multiple-product firms, carried interest and fees 
+generated by the GP of a fund should be directed 
+predominantly to the professional staff and expenses 
+related to the success of that fund.
+Management fees should take into account the low­
+er levels of expenses incidental to the formation of a 
+follow-on fund, at the end of the investment period, 
+or if a fund’s term is extended. Management fees 
+should step down significantly in each of the circum­
+stances noted above. 
+Where a GP has agreed to a fee cap for a single 
+investor or group of investors, any amount above the 
+agreed upon cap must be absorbed by the GP and 
+not included in the calculation of the management fee 
+as a percentage of assets allocated to the remaining 
+investors.
+Basis for the Management Fee
+When considering the basis for the calculation of the 
+management fee, the following guidelines should be 
+considered: 
+•	 During 
+the 
+investment 
+period, 
+GPs 
+should 
+	
+determine the appropriateness of a commitment-
+	
+based fee relative to operating costs and external
+	
+market dynamics. GPs and LPs may wish to 
+	
+consider the relative merits of a bifurcated fee
+ 	 during the investment period, reflecting an 
+	
+appropriate blended percentage of the amount of
+	
+capital committed and invested.
+•	 Following the end of the investment period, the
+ 	 management fee should step down to a percent-
+	
+age of unrealized cost.
+•	 To ensure that fee streams closely mirror the actual
+ 	 allocation of resources, GPs managing one or more
+ 	 predecessor funds should consider basing the 
+	
+initial management fees for any follow-on fund on
+	
+invested rather than committed capital. 
+•	 For GPs utilizing subscription lines of credit to fund
+	
+management fees, fund expenses and initial invest-
+	
+ments early in the life of the fund, the methodology
+	
+by which amounts drawn from the facility but not
+	
+yet called from investors will be accounted for in
+	
+calculating the basis for management fees should
+	
+be transparent and consistent.
+•	 The term of the investment period should be 
+	
+clearly and appropriately defined in the fund 
+	
+documents, 
+to 
+avoid 
+ambiguities 
+that 
+may 
+	
+unnecessarily prolong the investment period and
+	
+result in excessive management fees being charged
+	
+to the partnership.
+•	 During a fund extension, no fees should be charged
+ 	 unless and until LPs agree to such fees on the basis
+	
+of the facts and circumstances related to maximiz-
+	
+ing the value of and liquidating any remaining 
+	
+assets.
+GP AND FUND ECONOMICS
+
+
+[PDF page 13]
+13
+ILPA Principles 3.0
+Fee Income Beyond 
+the Management Fee
+Fund documentation should adequately detail the 
+policies regarding the calculation, assessment, and 
+reporting of any fees and expenses allocable to port­
+folio companies that have a significant impact on the 
+LP’s commitment to the fund and/or net investment 
+return. 
+No fees should be charged to portfolio companies. 
+Any portfolio company fees that are charged should 
+be 100% offset against the management fee and 
+subject to standard disclosure. Fees exempt from the 
+offset provisions should be rare, but clearly defined 
+in the LPA. Where such fees are not fully offset, the 
+GP should disclose the amount of fees received by 
+the GP, including those that fall outside of any offset 
+provision.
+Any disclosure of transaction fees that are likely to be 
+collected, but not subject to offset, should be based 
+on a standard that exceeds the prevailing definition of 
+a Related Party. 
+Portfolio company fees that cannot be offset should 
+be distributed to LPs eligible to receive residual re­
+bates at the end of the fund’s life. 
+Any fees generated by an affiliate of the GP, such as 
+an advisory firm or in-house consultancy, whether
+charged to the Fund or an underlying portfolio 
+company, should be reviewed and approved by a 
+majority of the LPAC.
+The application of offsets to any fee income paid in-
+kind should account for the fair market value of such 
+payment. Where a fair market value is unavailable, the 
+payment should be offset against the management 
+fee as soon as the security becomes marketable or at 
+the end of the life of the fund, whichever is first.
+Fee Offsets Related to Co-Investments
+Unless prohibited by the LPA, a GP may charge man­
+agement and other fees, such as transaction fees, on 
+co-investments. 
+Where such fees are collected, the firm should clearly 
+disclose the implication for allocation of transaction 
+or other fees collected from the portfolio company 
+between the fund and co-investors, as well as the 
+application of offsets for any such fees applied.
+The approach to allocating broken-deal expenses 
+for co-investments should align with the approach to 
+allocating and offsetting any co-investment related 
+fees collected between the GP and co-investors. 
+GP AND FUND ECONOMICS
+
+
+[PDF page 14]
+14
+Reasonable Organization 
+and Partnership Expenses
+Expenses allocable to the partnership as a whole 
+should be reasonable, clearly disclosed prior to the 
+initiation of the fund and at regular intervals to all LPs, 
+e.g., clarified in capital call notices. The allocation of 
+such agreed expenses to the partnership should be 
+consistent and subject to periodic LP and indepen­
+dent auditor review and certification. 
+Organization Costs­—Costs related to the formation 
+of the fund should be reasonable and capped at an 
+amount appropriate to the size of the fund. Increases in 
+organization cost caps for successor funds should 
+not necessarily be linear with growth in fund sizes but 
+rather clearly aligned with specific cost factors not 
+otherwise rationally covered under the management 
+fee, e.g., placement agent expenses or compliance 
+with a new regulatory regime. Should the agreed 
+cap on organizational costs be exceeded, any excess 
+should be offset against the management fee. Any 
+agreed cap on organizational costs should take into 
+account the costs associated with negotiating side 
+letters. Organizational costs that are specific to 
+an alternative vehicle, parallel vehicle, co-invest 
+vehicle, etc. should be borne solely by that vehicle. 
+This includes organization expenses of the GP 
+specific to the GP’s commitment to the fund.
+Side Letters—The cost of negotiating and complying 
+with side letters can be sizeable. In order to minimize 
+the cost and complexity of side letter compliance, GPs 
+should seek whenever possible to include those pro­
+visions common across the majority of a fund’s side 
+letters into the LPA itself. The costs of negotiating the 
+side letters should be considered an organizational 
+expense and subject to any agreed cap in place. Any 
+costs associated with negotiating side letters not sub­
+ject to the agreed cap should be fully disclosed to LPs. 
+To minimize the cost and complexity of negotiations, 
+LPs should endeavor to limit the substance of side let­
+ters to essential statutory or other institution-specific 
+requirements. 
+Expenses Shared Between the 
+GP and the Partnership 
+The specific circumstances surrounding the following, 
+and the LPA’s treatment thereof, should determine 
+how the following expenses are shared between the 
+GP and the fund: 
+Broken Deal Expenses­—Broken deal expenses should 
+be charged to the fund. To the extent that other ve­
+hicles participated in the broken deal, including but 
+not limited to special purpose vehicles, co-investment 
+vehicles, and parallel investment vehicles, in most 
+cases it is appropriate to share broken deal expenses 
+across these entities with the fund on a pro rata basis. 
+Expenses incurred through preliminary due diligence 
+and sourcing, i.e., including related travel, should not 
+be considered broken deal expenses. 
+LPs should be made aware of any parallel co-invest­
+ment vehicles that are not allocated a pro rata share 
+of broken deal expenses and the treatment of any 
+fee income related to such parallel or co-investment 
+vehicles.
+Any reverse termination fees collected by the fund 
+should be used to reimburse LPs to offset previously 
+incurred broken deal expenses. 
+The allocation of broken deal and co-investment ex­
+penses should be clearly and consistently disclosed 
+across all fund documents, including the PPM, the 
+LPA, marketing materials, and regulatory filings, e.g., 
+Form ADV Part 2 filed with the SEC. 
+Technology, Cyber Security and Software Upgrades—
+To the extent that a technology implementation or an 
+upgrade to the GP’s existing system solely or chiefly 
+benefits the GP, and can be utilized across multiple 
+funds over time, the GP should pay the associated 
+costs. 
+Expenses Specific to Individual LPs—An individual
+LP or subset of LPs may require the engagement of 
+a third party with respect to organization costs or 
+expenses pertaining to a specific transaction, e.g., 
+jurisdiction-specific or institution-specific matters. 
+Such expenses should be allocated to the parties with 
+the specialized requirements rather than to all LPs in 
+the fund.
+GP AND FUND ECONOMICS
+
+
+[PDF page 15]
+15
+ILPA Principles 3.0
+Expenses Allocable to the Partnership 
+In most circumstances, the following expenses should 
+be allocable in full to the partnership:
+LPAC 
+Meetings/Annual 
+Investor 
+Meetings—The 
+partnership should pay for costs related to hosting 
+LPAC meetings and annual/special meetings of the 
+investors, 
+including 
+expenses 
+associated 
+with 
+meeting venue, meeting materials, and meeting 
+supplies. The costs of entertainment, including 
+speaker fees, should not be charged to LPs.
+Third Party Administration—Third party administra­
+tor costs should only be allocated to the partnership 
+when the GP has the approval of LPs to utilize a third 
+party administrator. The GP should be able to justify
+and monitor quality and costs related to the use of 
+outsourced resources. Allocation of a portion of 
+the GP’s full-time staff time to administer the fund is 
+deemed not reasonably charged to the fund, as such 
+costs are to be covered under the management fee. 
+Travel—Travel related to sourcing deals, networking, 
+and preliminary due diligence should be paid by 
+the manager out of the management fee. When a 
+potential investment advances past the initial term 
+sheet, then travel related to the investment should be 
+treated as a transaction cost borne by the fund. LPs 
+should be vigilant for excessive travel expenses and 
+should request the GP’s travel policy, which should 
+include parameters addressing use of non-commer­
+cial travel, i.e., private planes, and entertainment 
+expenses.
+Interest Expenses and Fees—Costs associated with 
+the use of subscription lines of credit and similar 
+credit facilities drawn for the benefit of the fund 
+should be paid by the partnership. The use of credit
+facilities with terms longer than one year should be 
+subject to LPAC approval. LPs should review the terms 
+of any credit facilities used.
+Audits—The partnership should bear the cost of 
+annual fund audits as well as audits related to the 
+Partnership or GP conducted by regulatory bodies 
+to that specific fund, including but not limited to the 
+cost of completing IRS audits and fees incurred for 
+assistance in responding to such audits. 
+Legal Expenses—Third party legal expenses incurred 
+specifically in connection with fund matters are 
+allocable to the partnership. In cases where the GP 
+elects to allocate a charge for a portion of the GP’s 
+internal legal staff’s time to the partnership, the 
+rationale for utilizing internal resources, and the 
+market basis applied in calculating any such 
+charges should be provided to LPs. Legal costs 
+associated with an investigation of the GP or any 
+of its partners, e.g., following an examination by a 
+regulator or government authority of the adviser
+to the fund, should be borne by the GP as covered
+by the management fee, and not allocated to the 
+Partnership.
+Indemnification, Insurance, and Litigation Expenses—
+LPs should ensure proper standard of care limitations 
+and confirm the GP is required to pursue alternative 
+sources of indemnification. LPs should ensure internal 
+disputes among GPs are excluded from coverage paid 
+for by the partnership and ensure that obligations only 
+extend to fund matters and not general indemnifica­
+tion for the manager for all manager actions.
+Regulatory Expenses—The cost of satisfying regulato­
+ry requirements and communicating with regulators 
+at the level of the firm should be borne by the GP out 
+of the management fee. Fund specific costs tied to 
+transactions by the fund (e.g., regulator approval for 
+certain deals) should be a fund expense. 
+GP AND FUND ECONOMICS
+
+
+[PDF page 16]
+16
+Expenses Fully Offset or Covered Under the 
+Management Fee
+As a general rule, any third-party expenses incurred 
+in the provision of services that typically would be 
+provided by the GP to similar funds should be offset 
+against the management fee. In most circumstances, 
+the following expenses, if charged to the partnership, 
+should be fully offset:
+Consultants’ Fees—Only costs related to specialized
+consulting services should be borne by the fund. 
+Due diligence consulting costs are expected to be 
+charged to the portfolio company or covered by
+the management fee. Any work performed by 
+consultants affiliated with the GP should be 
+disclosed to LPs and subject to any agreed cap on 
+fees. In most cases, the cost of specialized 
+consultants hired at the request of one or more 
+LPs should be paid by the requesting LPs, e.g., for a 
+jurisdiction- or institution-specific matter.
+ESG-related 
+Expenses—Consultant 
+costs 
+related 
+to ESG due diligence, management and reporting 
+should be regarded in the same way as general
+due 
+diligence 
+consulting 
+costs. 
+If 
+specialized 
+consultants are required to fulfill specific LP 
+requirements, resulting fees should be paid by the
+requesting LPs. 
+Placement Agent Fees—The economic arrange-
+ment of the GP and its placement agents should 
+be fully disclosed as part of the due diligence 
+materials provided to prospective LPs. Placement 
+agent fees should be borne by the fund manager
+while placement expenses should be borne by the 
+fund. Where placement agent fees are allocated to
+the fund, the management fee should be fully offset 
+for such amounts. The LPAC should review placement 
+agent expenses to ensure they are reasonable and not 
+excessive.
+Operating Partners/Consultants—Increasingly, GPs 
+are engaging Operating Partners with specialized 
+expertise to execute on specific strategic growth
+plans, paid for by the portfolio company. Where
+such partners are presented to LPs as members of 
+the GP’s team, LPs should understand how they are
+compensated, i.e., directly by the GP or by the
+portfolio company. Any fees paid by the portfolio 
+company for services performed by Operating
+Partners deemed to be affiliates of the GP should 
+be fully offset against the management fee.
+Unforeseen Expenses—During the life of a fund, 
+expenses will arise that may not have been 
+considered at the initiation of the fund and are 
+therefore are not covered in the fund documents. 
+GPs should create with their LPs decision frame-
+works that will allow for making consistent, rational, 
+and defensible expense allocations over time. GPs
+should 
+engage 
+LPs 
+in 
+their 
+decision-making 
+process regarding the allocation of such expenses 
+and ensure that the LPAC is apprised and support-
+ive of expense allocation policies and evolving 
+interpretations of existing policies.
+The LPAC should review the application of fee offsets 
+and partnership expenses annually. 
+GP AND FUND ECONOMICS
+
+
+[PDF page 17]
+17
+ILPA Principles 3.0
+Fund Term and Structure
+ 
+GP Commitment 
+and Ownership
+The GP should have a substantial equity interest in the 
+fund. The GP commitment should be contributed in 
+cash as opposed to contributed through the waiver 
+of management fees or via specialized financing fa­
+cilities.
+The GP should not be allowed to co-invest in select 
+underlying deals, i.e., “cherry picking”, but rather its 
+whole equity interest shall be via a pooled fund vehi­
+cle, whose sharing percentage may not decrease. An 
+annual election to increase the co-invest percentage 
+may be permitted. 
+GPs should proactively disclose the ownership of the 
+management company. GPs should notify all LPs if 
+the ownership of the management company changes 
+over the life of the fund. 
+The GP should be restricted from transferring their 
+real or economic interest in the GP in order to ensure 
+continuing alignment with the LPs. LPs should be no­
+tified of any intent to transfer GP interests to a third 
+party, however small, but in particular where such a 
+transfer may pose a conflict of interest for either the 
+GP or any LP in the partnership. 
+In notifying LPs of the intention to transfer GP 
+interests to a third party, the GP should make clear: 
+1) the goals and rationale for the transaction, 
+2) the impact on any distributable and long term cash 
+flows; and 3) how fund- and GP-level economics will 
+change post-transaction, in particular the impact on 
+carried interest distribution among remaining mem­
+bers of the GP not participating in the transaction. 
+Fund Term Extensions
+Fund term extensions should be permitted only in 
+one-year increments and limited to a maximum of 
+two extensions. Fund term extensions should first be 
+approved by the LPAC and then proceed only with 
+approval of a super majority of LP interests in the fund. 
+Absent LP consent following expiration of the fund 
+term, the GP should fully liquidate the fund within a 
+one-year period.
+No fees should be charged after the original term of 
+the fund has ended.  If circumstances warrant a fee 
+to incentivize the manager to liquidate any remaining 
+assets, the GP should seek an amendment to the LPA 
+to allow such a fee.  Any fee agreed during a fund 
+term extension should take into account the lower 
+expense burden during extension, notably where a 
+GP has raised successor funds.
+The LPAC, and preferably all LPs in the fund, should 
+be provided notice of a GP’s intention to request an 
+extension as early as possible and at minimum of 
+1-2 quarters in advance of the fund’s expiration to 
+give LPs/LPACS adequate time to consider what is 
+most appropriate for the portfolio.
+FUND TERM AND STRUCTURE
+
+
+[PDF page 18]
+18
+Vehicles Investing 
+Alongside the Fund
+To accommodate legal, tax, regulatory or other con­
+siderations of certain investors, GPs should be able 
+to form pooled investment vehicles, parallel or alter­
+native investment vehicles as necessary. Alternative 
+vehicles should be managed by the GP or an affiliate 
+and should be governed by documents containing 
+substantially the same terms and provisions as the 
+original fund. 
+Alternative vehicles should not provide GPs with ad­
+ditional economic benefits that are disproportionate 
+to the additional economic benefits received by LPs. 
+GPs should provide LPs participating in alternative ve­
+hicles a copy of documents governing the alternative 
+vehicles at least 10 business days before signing. 
+Investments by such additional vehicles should be 
+made at the same time as the fund. Any investment 
+expenses and fee income related to the investment 
+should be shared between the fund and any parallel 
+or alternative investment vehicles in proportion to 
+capital committed. 
+The fund and parallel vehicles should sell their inter­
+ests in the portfolio company at the same time and on 
+the same terms as the investment by the fund, save for 
+legal, tax, regulatory or other considerations. 
+Investment results of any alternative vehicles should 
+be aggregated with the investment results from the 
+fund for the purpose of determining distributions, un­
+less the GP determines with the consent of the LPAC 
+that such aggregation increases the risk of adverse 
+tax, legal or regulatory consequences. 
+The fundraising period should terminate within a rea­
+sonable period of time following the initial close, e.g., 
+12 months. In the interval between initial and final 
+close, interest should be charged on subsequent LPs 
+committing to the fund. Such interest should be cred­
+ited to the investors in the initial close on a pro rata 
+basis and not treated as an asset of the fund.
+FUND TERM AND STRUCTURE
+
+
+[PDF page 19]
+19
+ILPA Principles 3.0
+Key Person
+Identification and 
+Changes to Key Person(s)
+The investment team is a critical consideration in 
+making a commitment to a fund. Accordingly, any 
+significant change in that team should allow LPs to 
+reconsider their decision to commit, through the 
+operation of the key person provisions.
+Key persons should be the individuals that will deter­
+mine the investment outcomes of the fund—not solely 
+the founders, regardless of the title they have.
+Sound succession planning and smooth transitions in 
+firm ownership are critical to the long-term success of 
+the manager and GP-LP alignment; GPs should work 
+to ensure orderly planned and unplanned transitions 
+of key persons and make transparent to LPs once 
+successor candidates have been identified.
+LPs should be notified in a timely manner of any 
+personnel changes, not solely key person, with the 
+potential to impact fund performance, and immedi­
+ately notified when key person provisions are tripped. 
+Changes to key person provisions should be 
+approved by majority of interest of LPs.
+The key person should not be so broadly drafted such 
+that departures of individuals reasonably believed to 
+be key people would not trigger the provision. When 
+departures of individuals listed as key people do 
+occur, whether or not it triggers a suspension, the 
+ramifications should be discussed in full with LPs, or at 
+minimum the LPAC.
+Time and Attention
+Key persons should devote substantially all their busi­
+ness time to the fund, its predecessors and successors 
+within a defined strategy, and its parallel vehicles. 
+Situations impacting a principal’s ability to meet the 
+specified “time and attention” standard as delineated 
+within the LPA should be disclosed in a timely manner 
+to all LPs and discussed with, at a minimum, the LPAC. 
+Key persons for the fund, as identified in the LPA, 
+must not act as a GP for a separate fund managed 
+by the same firm with substantially equivalent invest­
+ment objectives and policies until after the investment 
+period ends, or the fund is invested, expended, 
+committed or reserved for investments and expenses. 
+LPs should consider how the key person provisions 
+would operate, if at all, following the end of the in­
+vestment period, as the harvest period may present 
+the most critical time for continuity of key persons in 
+order to maximize the value of unrealized assets and 
+managing dispositions.
+ 
+Key Person Triggers 
+and Process to Resolve
+A “key person” or “for cause” event, e.g., fraud, 
+material breach of fiduciary duties, material breach of 
+agreement, bad faith, gross negligence, illegal activi­
+ties etc., should result in an automatic suspension of 
+the investment period, to become permanent within 
+180 days, unless and until a defined super majority of 
+LPs affirmatively vote to reinstate.
+In the event of an investment period suspension trig­
+gered by the key person provision, the GP should 
+not otherwise use fund assets, including recycling of 
+capital or borrowing against fund assets or uncalled 
+commitments, to make new investments or other 
+expenditures, unless expressly permitted to do so by 
+the LPA. The decision to close a deal committed to 
+prior to a key person event should made in consulta­
+tion with the LPAC. 
+Any such vote to reinstate the investment period or to 
+remove the GP should exclude the LP interests held 
+by the GP or its affiliates.
+As a matter of course, on the occurrence of a key 
+person event, an interim clawback test should be 
+performed and satisfied if there is a deficiency.
+KEY PERSON
+
+
+[PDF page 20]
+20
+GP Removal and Replacement
+As fiduciaries themselves, it is critical that limited part­
+ners preserve the ability to activate a remedy in the 
+event of material breach of fiduciary duties or material 
+breach of agreement, fraud, bad faith or gross negli­
+gence. 
+In the event of a cause event, the termination of the 
+individual responsible for such actions should not be 
+deemed an automatic cure or remedy.
+When a cause event occurs, a majority in interest vote 
+of LPs should be sufficient to trigger a no-fault suspen­
+sion or termination of the commitment period. A sim­
+ple majority in interest vote of LPs should be sufficient 
+for the removal of the GP or dissolution of the fund. 
+A super majority, i.e., a vote of two-thirds in interest of 
+LPs, should be sufficient for the no fault removal of the 
+GP or dissolution of the fund.
+In the event of the no fault removal of the GP, a major­
+ity vote in interest of limited partners should be suffi­
+cient to appoint a liquidator.
+In the case of removal—whether no fault or for cause—
+the GP should see a meaningful forfeit of or reduction 
+to carried interest, to ensure sufficient economics re­
+main to incentivize a new manager. 
+KEY PERSON
+
+
+[PDF page 21]
+21
+ILPA Principles 3.0
+Fund Governance
+Fiduciary Duty
+Limited Partnership Agreements should reinforce 
+rather than dilute the fiduciary duties of GPs to LPs. 
+The “gross negligence, fraud, and willful misconduct” 
+or breach of the agreement should be the minimum 
+in terms of the exculpation standard agreed by LPs 
+without any qualifiers with respect to prior knowl­
+edge or material and adverse effect. GPs should not 
+acquiesce to counsel recommendations to lessen the 
+fiduciary duty owed LPs.
+Within the partnership agreement and the PPM, GPs 
+should clearly, affirmatively and prominently disclose 
+the standard of care they owe to the private fund 
+as a whole and the individual LPs within that fund, 
+including both any standard owed under statute as 
+well as any conflicting standard owed under the laws 
+of where the fund is domiciled. 
+LPs should reject provisions allowing the GP to 
+reduce all fiduciary duties to the fullest extent 
+allowable by law, as well as any waivers of broad 
+categories of conﬂicts of interest. Provisions award­
+ing the GP sole discretion should be permissible 
+only where the LP has sufficient comfort and an at­
+testation that the interests of LPs and the partnership 
+as a whole will not be adversely affected. LPs should 
+note that such disclaiming language may appear in 
+unanticipated sections of the LPA or in documents 
+other than the LPA.
+GP breach of the agreement or behavior constituting 
+“gross negligence, fraud or willful misconduct” should 
+be excluded from the protections of indemnification 
+and exculpation clauses, even if the governing law 
+would permit it. 
+Individuals that have committed such behavior, in 
+breach of contract or of relevant securities or other 
+laws, and are subsequently removed from the fund or 
+separated from the firm should not be eligible to 
+receive carried interest or retain other residual 
+economic interests in the fund.
+GPs should endeavor to provide an equivalent 
+standard of care to all partners in the fund and ensure 
+that arrangements with any one or subset of LPs do 
+not disadvantage other LPs in the fund or dispropor­
+tionately advantage the GP. 
+LPs should reject provisions within the LPA that allow 
+the GP or its affiliates to be indemnified for conduct 
+constituting a material breach of the partnership 
+agreement, breach of fiduciary duties or other “for 
+cause” events.
+Indemnification expenses should be capped as a 
+percentage of total fund size.
+As a general rule, GPs shouldn’t undertake action that 
+constitutes or could potentially constitute a conflict 
+of interest between the fund, a portfolio investment, 
+and/or a portfolio manager on one hand and the GP, 
+key persons, affiliates, etc. on the other, without prior 
+written approval from the LPAC. Conflicts of interest 
+disclosed in the fund’s offering documents should 
+not be deemed permissible conduct and should not 
+reduce or eliminate the requirement of prior written 
+approval from the LPAC, nor should failure of the 
+LPAC to act be deemed to clear the conflict on behalf 
+of the GP.
+FUND GOVERNANCE
+
+
+[PDF page 22]
+22
+Investment Management 
+Considerations
+The GP should recognize the importance of time 
+diversiﬁcation during the stated investment period as 
+well as industry diversiﬁcation within the portfolio and 
+should seek to avoid over-concentration in short time 
+periods by considering limitations on the amount 
+of capital that can be called on an annual basis from 
+LPs. Funds should have appropriate limits on invest­
+ment and industry concentration (excluding sector-
+focused funds). 
+The GP should also accommodate an LP’s exclusions 
+policy, which may proscribe the use of its capital in 
+certain sectors and/or jurisdictions, while taking 
+into account any increased concentration effects on 
+remaining LPs. It is recommended to provide full 
+FUND GOVERNANCE
+transparency around the process and policies for 
+honoring LPs’ exclusion requests in the event of a 
+non-ratable allocation.
+The GP should commit to directing all appropriate 
+investment opportunities to the fund during the 
+investment period. For multi-product firms, the GP 
+should affirmatively state an investment allocation 
+policy that has been reasonably designed to fairly 
+allocate opportunities between the fund and any 
+other investment vehicles. The GP’s policy for 
+allocating opportunities should be provided to LPs 
+upon request. The GP’s investment limitation policy 
+should apply to each LP on an individual basis.
+
+
+[PDF page 23]
+23
+ILPA Principles 3.0
+Changes to the Fund
+For any change to the fund requiring an LP vote, “no 
+responses” should be treated as abstentions, and 
+excluded from both the numerator and denominator. 
+LPA Amendments 
+Except for removals or issues requiring specified 
+consent, any amendment to the LPA should require 
+the consent of the GP and the approval of a super 
+majority in interest of the LPs, and should be 
+disclosed to all LPs, even if the LPA allows the LPAC 
+to approve the amendment. Subsequent and contin­
+uous amendments made to the LPA, as fundraising 
+negotiations advance, should be disclosed to all LPs, 
+and GPs should confirm that all LPs have acknowledged 
+receipt of all final documents prior to closing. The 
+LPAC should reserve the right to express an opinion on 
+the matter to other LPs. Amendments that negatively 
+impact the economics of a single LP should require 
+that LP’s consent. Notice of any amendments to the 
+LPA should be distributed to all LPs.
+LPA Amendments	
+Super Majority of Interest
+Dissolving Fund 	
+Super Majority of Interest
+Without Cause, 
+GP Removal
+Investment Period 	
+Simple Majority of Interest
+Suspension
+(e.g., Key Person Trigger)	
+ 
+Reinstatement of 	
+ Super Majority of Interest
+the Investment Period	
+GP Removal
+A super majority in interest of the LPs should have the 
+ability to elect to dissolve the fund or remove the GP 
+without cause. LPs should have the ability to remove a 
+GP for bad acts upon preliminary determination, rath­
+er than a final court decision not subject to appeal. 
+The termination of the individual responsible for such 
+actions should not be deemed to be a cure or remedy.
+Suspension of Commitment/
+Investment Period
+A simple majority in interest of the LPs should have 
+the ability to elect to effectuate an early termination or 
+suspension of the commitment period or the invest­
+ment period without cause.
+A key person or cause event, e.g., fraud, material 
+breach of fiduciary duties, material breach of agree­
+ment, bad faith, gross negligence, etc., should result 
+in an automatic suspension of the investment period, 
+to become permanent within 90 days, unless and until 
+a super majority of LPs in interest affirmatively vote to 
+reinstate.
+Stated Investment Strategy
+The stated investment strategy is an important di­
+mension that LPs rely on when making a decision to 
+commit to a fund. Most LPs commit to PE funds with­
+in the context of a broad and diversified portfolio of 
+investments and select each fund for the specific 
+strategy and value proposition it presents. The fund’s 
+strategy must be well-defined and investments made 
+by the GP should be consistent with the investment 
+strategy that was described when the fund was raised. 
+In addition to concentration limits for particular 
+sectors that may be contractually set, the GP should 
+consider limitations on the amount of capital that 
+can be called on an annual basis to avoid over-
+concentration in short time periods. Any changes to 
+the fund’s investment strategy should be disclosed 
+and approved by a super majority in interest of the 
+LPs. 
+Recommended Thresholds for 
+Key Changes to the Fund
+FUND GOVERNANCE
+
+
+[PDF page 24]
+24
+GP-led Secondary 
+Transactions
+LP Engagement and Role of the LPAC
+GPs should engage the LPAC at the earliest opport-
+unity around the objectives and logic for the 
+transaction, process of the transaction, and terms and 
+framing of the deal. In presenting the rationale, GPs 
+should provide information on the quality and outlook 
+for the remaining investments, the amount of (new) 
+capital required, the projected time to realization, 
+and the reasoning for a GP-led transaction with 
+the addition of new capital rather than a fund term 
+extension or other alternative.
+Before the terms of the deal are presented to all LPs, 
+any conflicts related to the transaction should be 
+disclosed, mitigated where possible, and approved 
+by the LPAC.
+GPs should disclose to the LPAC, and to electing LPs 
+upon request:
+•	 Number, range, and content of bids received;
+•	 LPAC member participation as acquirers, if any;
+•	 Management fee and carried interest amount for
+	
+LPs in the continuation fund;
+•	 Management fee and carried interest for LPs 
+	
+allocating primary capital (i.e., staple), if any;
+•	 Any other meaningful changes in the terms versus 
+	
+the original fund, e.g., approvals, key persons, 
+	
+related to either the continuation vehicle or the 
+	
+stapled primary capital.
+For a more detailed list of expected disclosures, and 
+the expected timing around these disclosures, both 
+LPs and GPs should refer to ILPA’s GP-led Secondary 
+Fund Restructurings: Considerations for General and 
+Limited Partners.
+Structure of the Process
+GPs should ensure processes are fair and transparent. 
+GPs should ensure that LPs are afforded sufficient time 
+to evaluate the transaction and that transaction fees 
+and expenses are allocated according to existing fund 
+documents and/or in relation to which parties benefit 
+from the transaction.
+LPs electing to roll their interests rather than sell 
+should be provided the option to participate in the 
+new structure with no change in economic terms, i.e., 
+a “status quo” option. 
+Any process should conform with the LPA, which 
+should include high-level anticipatory language 
+around the process, such as disclosures, notice peri­
+ods, conflict approval protocols and voting processes, 
+and expense allocations.
+Advisors to the Transaction
+GPs should engage an experienced advisor to so­
+licit bids at the cost of the GP and not the fund. The 
+LPAC should review the GP’s selection of the advisor 
+including the advisor’s role, scope of services, and fee 
+arrangement. The LPAC should have the right to hire 
+its own advisor to offer counsel on the process, sepa­
+rate from the GP-selected advisor. 
+In certain instances, particularly in complex transac­
+tions, selling LPs may benefit from an independent 
+fairness opinion. 
+FUND GOVERNANCE
+
+
+[PDF page 25]
+25
+ILPA Principles 3.0
+Cross-Fund Investments
+GPs should seek to limit the number of overlapping 
+investments between funds; the LPA should stipulate 
+a maximum threshold, either by number of deals or 
+by investment size, and a  contribution agreement be­
+tween related partnerships should conform with any 
+stated parameters.
+The treatment of carried interest and application of 
+any relevant fee offsets should be consistent to both 
+fund’s investments, even where the funds have differ­
+ent terms.
+The annual notes to the financials should disclose 
+information about all overlapping investments, e.g., 
+name of investment, investment size by each fund, 
+expected termination date/number of extensions/
+remaining dry powder of each fund, etc.
+The fees received by the GP from any overlapping po­
+sitions should be disclosed to LPs, e.g., in the “Affiliat­
+ed Positions” section of the ILPA Reporting Template.
+As a general principle, GPs should seek to avoid trans­
+fers of assets between funds. In cases where the GP 
+seeks to transfer assets from one fund to a successor 
+fund, the GP should provide to LPs evidence of a com­
+petitive and transparent process for the valuation of 
+said assets and carried interest should be rolled in 
+kind. LPAC approval should be requested for any 
+such transfers, and the LPAC members should be 
+provided with a compelling business rationale for the 
+transaction. 
+
+FUND GOVERNANCE
+
+
+[PDF page 26]
+26
+Co-Investment Allocations
+GPs should disclose to all LPs in advance, through 
+both the PPM and LPA as well as any regulatory filings, 
+a framework for how co-investment opportunities, 
+interests and expenses will be allocated among the 
+fund and any participating co-investors, including 
+whether any prioritization will be applied to how such 
+opportunities will be allocated. Such a framework may 
+make reference to certain factors that may influence 
+GP discretion in allocating opportunities as they occur.
+Policies should describe how GPs will disclose and/or 
+mitigate potential conflict of interest issues as well as 
+any risks tied to a specific transaction due to the co-
+investment tranche, e.g., concentration limits. Policies 
+should be disclosed in writing. Such policies should 
+not be excessively prescriptive, but sufficiently clear as 
+to be verifiable ex post.
+Where rights to evaluate or participate pro-rata in 
+co-investment opportunities have been granted via 
+side letters, GPs should disclose the existence of such 
+arrangements to all LPs. GPs should also disclose 
+whether differentiated economics have been offered 
+to LPs participating in co-investments, as well as the 
+allocation of any follow-on investments related to co-
+investments. Any fees payable to the co-investment 
+vehicle should accrue to the underwriting fund to be 
+offset against management fees.
+During the fundraising process, where GPs have 
+granted 
+preferential 
+access 
+to 
+co-investment 
+opportunities to LPs participating in subsequent 
+closes, GPs should carefully consider how to balance 
+interests across different investors and classes of LPs. 
+GPs should have the option but not the obligation to 
+provide co-investment opportunities to any electing 
+LPs or third parties.
+GPs should ensure that all suitable investment 
+opportunities received by the GP, fund manager, key 
+persons, or affiliates will first be allocated to the fund, 
+if the opportunity fits the fund’s investment strategy 
+and the fund has available remaining commitments. 
+In presenting a co-investment opportunity to LPs, 
+GPs should provide prospective co-investors with the 
+strategic reasoning for including the co-investment 
+tranche rather than allocating the entire amount to 
+the fund. 
+Any parallel vehicles or any affiliates of the GP 
+should be permitted to participate in co-investment 
+opportunities, but only in the same securities and on 
+the same terms as the LPs in the fund. Any related fees 
+or expenses should be allocated on a pro rata basis 
+across all classes of investors. 
+Where co-investments have been offered to any other 
+vehicle managed by the GP or an entity beyond the 
+commingled fund, GPs should disclose to the LPAC, 
+particularly where there may be a conflict of interest, 
+including an explanation as to why it has been offered 
+to more than one vehicle or an entity beyond the fund, 
+especially if the deal does not broach a fund’s agreed 
+concentration limits. 
+GPs should disclose any and all syndication fees and 
+who benefits from them.
+GPs could consider employing a pre-qualifying 
+assessment or other process, during fundraising and 
+at appropriate intervals over the investment period, to 
+confirm LPs’ interest and ability to execute on a co-
+investment opportunity. 
+FUND GOVERNANCE
+
+
+[PDF page 27]
+27
+ILPA Principles 3.0
+LPAC Best Practices
+The private equity industry has made meaningful 
+strides in instituting standardized approaches to 
+Limited 
+Partner 
+Advisory 
+Committees 
+(LPACs), 
+including their constitution, role in the partnership 
+and meeting protocol. The LPAC plays a critical role 
+in fund governance, by providing a sounding board 
+for the GP, and serves as an important source of input 
+on critical governance determinations, conflicts of 
+interest in particular. 
+Still, more can be done to ensure that the LPAC is 
+optimally situated to fulfill its role. LPs and GPs should 
+explicitly establish the duties of the LPAC through the 
+LPA and mutually adopt a preferred meeting protocol 
+upon establishment of the LPAC. Further, the process 
+or rationale by which GPs select LPAC members 
+should be affirmatively and clearly disclosed to all LPs 
+in the fund.
+While individual LPs serving on the LPAC act in 
+their own interests in good faith, the LPAC should 
+seek to operate as a committee with its roles and 
+responsibilities clearly outlined in the LPA. To 
+this end, standards in the composition, meeting 
+processes, participation requirements, mandates and 
+procedures for Limited Partner Advisory Committees 
+should be adopted across the industry to maximize 
+the effectiveness of these bodies for the benefit 
+of the partnership. These best practices include 
+representational diversity reflecting the LP base at 
+large and/or disclosures of LPAC meeting agendas 
+and minutes; the appointment of a Committee chair; 
+in camera meetings without the GP present; and in 
+camera meetings between the LPAC and the auditor.
+Common objectives of every LPAC should include: 
+facilitating the performance of the advisory board 
+without undue burden to the GP, creating an open 
+forum for discussion of matters of interest and concern 
+to the partnership while preserving confidentiality 
+and trust, and providing sufficient information to LPs 
+so they can fulfill these responsibilities.
+LPACs: Guidance for GPs 
+Mandate
+The mandate of the LPAC should be clearly disclosed 
+and should generally include matters specific to eval­
+uating conflicts of interest as presented by the GP, 
+and other matters that would require a change to or 
+interpretation of certain provisions within the LPA, 
+including: 
+•	 Conflicts of interest such as cross-fund investments
+	
+and GP investment in portfolio companies outside
+ 	 of the fund’s interest or that violates the stated 
+	
+exclusions policy; 
+•	 Review of valuation methodologies and any
+ 	 changes thereto as reported by the GP to the 
+	
+partnership and auditors;
+•	 Matters related to key person time and attention,
+ 	 changes to the key person provision or departures 
+	
+of key staff; 
+•	 Fund term extensions; 
+•	 Matters concerning tests of investment strategy,
+	
+geographic, allocation or concentration limitations;
+ 
+•	 Use of leverage; 
+•	 Affiliated transactions; 
+•	 Reviews of any material ESG incidents and/or risks
+	
+to the fund’s portfolio;
+•	 LP defaults; reduction or expansions in fund size;
+	
+performance considerations such as clawbacks or
+	
+true-ups; 
+•	 Reviews of the costs of operational advisors; 
+•	 Discussions around fees and expenses.
+The GP should not be an LPAC member, actual or 
+perceived. In cases where voting members of the 
+LPAC have an interest in the GP, such as a minority 
+ownership stake in the management company, the 
+GP should disclose the existence of those relation-
+ships to the LPAC.
+FUND GOVERNANCE
+
+
+[PDF page 28]
+28
+As materiality is a subjective criterion, it is best to 
+consult the LPAC in all instances of any conflicts and/
+or non-arm’s length transactions. No GP should clear 
+its own conflicts under any circumstances. 
+GPs should not seek waivers for actions taken in 
+accordance with LPAC approval, where it could be 
+reasonably understood that the full partnership should 
+take a view; there should be no “deemed consent” 
+provisions related to LPAC voting.
+Composition and Structure
+GPs should be able to articulate the rationale for 
+how LPAC members are selected, even when LPAC 
+composition is solely at the GP’s discretion. GPs are 
+encouraged to consider the diversity of institutions 
+and opinions when selecting LPAC members. 
+To ensure the LPAC is optimally constituted to fulfill 
+its main objective to advise the GP on conflicts of 
+interest, the LPAC should be limited in size to a 
+workable number, comprised of a representational 
+cross-section of investors by commitment size, type, 
+tax status and quality of relationship with the GP. 
+Smaller LPACs are better situated to decisively advise 
+on conflicts and matters testing the parameters within 
+the partnership agreement. Whereas larger and 
+more inclusive LPACs may afford the GP a sounding 
+board on strategic decisions for the fund or the 
+platform, a larger body—such as one that includes 
+several non-voting observers—presents challenges in 
+LPAC member participation around critical decisions 
+requiring a vote. 
+An LPAC composed entirely of the fund’s largest LPs 
+may lack the representational diversity of perspective 
+on certain matters. GPs should strive to include on 
+LPACs those LPs without co-investment or secondaries 
+programs, or otherwise likely to be conflicted due to 
+interests in specific decisions taken by the GP, such 
+as due to a minority interest in the management 
+company, strategic partnership or co-investment 
+activity.  
+Voting arrangements for Limited Partner Advisory 
+Boards (LPACs) should be structured such that no 
+single organization has de facto or de jure veto power. 
+After the initial constitution of the LPAC, any 
+replacements of LPAC members should be determined 
+by the GP with any additional or eliminated seats to be 
+approved by mutual consent of a majority of the LPAC 
+and the GP.
+LPAC members should have one vote per institution, 
+i.e., no super vote. 
+Meetings, Materials, and Agendas 
+LPACs should meet regularly on a pre-agreed cadence, 
+with the option to attend remotely via telephone or 
+video.
+GPs are encouraged to convene the LPAC more 
+frequently to discuss time-sensitive matters (e.g. 
+conflicts); in these cases, LPAC members should be 
+flexible and responsive. 
+LPAC meeting agendas and materials should be 
+provided to LPAC members in advance. LPAC 
+members should be notified prior to the meeting of 
+any plans to call a vote, and any materials to inform 
+an LPAC vote should be provided in advance with 
+adequate time for review and internal consultation, 
+particularly around more complex matters.
+LPAC meetings can be called at anytime by a pre-
+agreed percentage of members of the LPAC, as 
+outlined in the LPA.
+Each meeting should include an in camera session. 
+Votes should not be taken without a prior in camera 
+meeting among LPAC members. 
+LPAC members should receive no remuneration, 
+however the costs of attending LPAC meetings should 
+be reimbursable by the partnership and treated as a 
+fund expense.
+FUND GOVERNANCE
+
+
+[PDF page 29]
+29
+ILPA Principles 3.0
+LPA Provisions
+To ensure fulsome and consistent participation by 
+LPAC members, the cost of LPAC participation in 
+LPAC meetings should be borne by the fund.
+The LPA should establish clear voting thresholds 
+including requiring a quorum of 50% of LPAC 
+members to conduct a vote.
+LPAC members should be indemnified. 
+GP Disclosures
+Simultaneously with each closing, the list of LPAC 
+members should be disclosed to all LPs in the fund, 
+including their contact information. An updated 
+list should be provided to all LPs if and when any 
+information is changed. 
+Either the GP or the LPAC member in question 
+should disclose when an individual LPAC member 
+has a conflict of interest that relates to the matter 
+under consideration, e.g., the LPAC member being a 
+potential lender to a portfolio company, co-investment 
+or secondary investment activity alongside the fund, 
+investments in prior funds, ownership of an interest 
+in the management company, etc. GPs should remind 
+LPAC members of relevant conflicts of interest prior to 
+votes being held. 
+Minutes should be made available to all LPs 
+upon request. However, GPs should not include 
+commercially 
+sensitive 
+information 
+in 
+meeting 
+minutes and LPs should be aware of their institution’s 
+responsibilities regarding confidential information 
+and public disclosures, i.e., public records acts. 
+Ultimately, the contents of the minutes should be up 
+to the GP’s discretion. 
+GPs should provide notice to the full partnership 
+when the LPAC has engaged counsel or third parties 
+to provide specialized advice, e.g., valuations experts.
+GPs should notify the full partnership upon certain 
+decisions taken or approved by the LPAC, such as 
+related party transactions, settlements of claims 
+that will lead to indemnification, indemnification 
+payments in excess of a prescribed limit, change in 
+the fund auditor, “cure” of a cause event by removal of 
+offending GP individual; replacement of a key person.
+The GP should disclose to the LPAC on an annual 
+basis all fee income paid or payable and the yearly 
+calculations and list of the management fee, carried 
+interest, fund expenses and organizational expenses.
+The GP should record all votes taken and maintain a 
+copy of all consents obtained. Detailed voting records 
+should promptly be made available by the GP to any 
+LPAC member upon request.
+FUND GOVERNANCE
+
+
+[PDF page 30]
+30
+Recommended Elements of 
+an LPAC Meeting Agenda
+The following is a set of recommended elements that 
+could comprise an LPAC meeting agenda. This list 
+is not intended to cover all potential topics at LPAC 
+meetings. Ultimately, LPAC agendas are up to the GP’s 
+discretion.
+ 
+•	 Overall GP (firm) update (not to the exclusion of the
+ 	 other items on the list);
+•	 Overall 
+PE 
+market 
+update, 
+i.e., 
+investment 
+	
+conditions that fund is observing and the effect 
+	
+on strategy;
+•	 Regulatory & legal (if any litigation) update;
+•	 Fund compliance with LPA provisions, e.g., con-
+	
+centration limits, key person, etc.;
+•	 Disclosure of any potential amendment, waiver,
+	
+vote or matter which may be requested or present-
+	
+ed to LPs or the LPAC before the next scheduled
+	
+LPAC meeting;
+•	 Team changes, e.g., departures, additions, promo-
+	
+tions, expected changes;
+•	 Review of new deals / realizations;  
+•	 Pipeline update;
+•	 Fund overview / dashboard on performance per
+	
+company relative to original plan;
+•	 Portfolio company snapshot of each unrealized 
+	
+investment (financial and qualitative with initial 
+	
+investment highlights);
+•	 Portfolio company valuations, methodology used
+	
+over last four quarters (to highlight changes);
+•	 Discussion of potential exits­—timing and amounts 
+	
+(preferably in writing);
+•	 Detailed fund expenses including payments to 
+	
+affiliates, broken deal, administrative, etc. and 
+	
+offsets;
+•	 Disclosure of any conflicts or investments complet-
+	
+ed in similar strategies and why they weren’t a fit for
+	
+the fund;
+•	 Disclosure of capital call line usage, fund 
+	
+performance excluding the capital call line and 
+	
+the terms of line;
+•	 ESG reporting;
+•	 Annual in camera discussion with the auditor 
+	
+regarding financial statements, valuations, carried
+	
+interest, fees, etc.;
+•	 In camera (LP only) session.
+FUND GOVERNANCE
+
+
+[PDF page 31]
+31
+ILPA Principles 3.0
+LPACs: Guidance for LPAC members
+Structure and Processes
+The GP or the LPAC should appoint a rotating chair, 
+e.g., with one to two-year terms, to chair LPAC meet­
+ings and to serve as an additional point of interface 
+between the LPAC and the GP.
+All LPAC meetings should include an in camera ses­
+sion that does not include the GP, and LPAC members 
+should provide feedback to the GP post in camera.
+For critical governance matters, the LPA should iden­
+tify clearly which issues require communication with 
+or a vote among the full partnership, e.g., LPA amend­
+ments, strategy changes, key person replacements, 
+extension of the fund’s offering period, investment 
+period and term. Areas of confidentiality should also 
+be identified.
+LPAC members should disclose potential conflicts of 
+interest specific to a matter under the LPAC’s consid­
+eration to the entire LPAC in advance of a vote, such 
+as co-investments in underlying portfolio companies, 
+exposures to the GP in other funds, minority owner­
+ship of the GP, etc. 
+Responsibilities and Powers
+LPAC members should be generally understood not 
+to have a fiduciary duty to the fund beyond the duty to 
+act in good faith. LPAC members should ensure that 
+they are appropriately indemnified and not implicat­
+ed as fiduciaries acting on behalf of other LPs in the 
+fund.
+Any LP that seeks and accepts an LPAC seat should 
+be expected to participate and vote. Abstentions 
+should be reserved only for LPAC members who may 
+be conflicted on the issue under consideration and 
+not as a general response.
+Participating individuals should have delegated au­
+thority to vote on behalf of their organizations; LPAC 
+members should actively participate in meeting dis­
+cussions. However, in advance of votes, GPs should 
+provide a reasonable amount of time based on the 
+complexity of the issue for LPAC members to review 
+materials and discuss the matter internally prior to 
+the vote being held.
+LPAC members should be able to add an item to the 
+meeting agenda subject to a reasonable and agreed 
+upon notice requirement to the GP. 
+LPAC members should ensure they have a contrac­
+tual right to call for external counsel or expertise, at 
+the fund’s expense, and should exercise such rights 
+as needed. 
+LPAC members should study materials and prepare 
+opinions and questions in advance of each meeting.
+LPAC members should have in camera access to the 
+auditor.
+The partnership agreement should clearly state ex­
+pectations for LPAC participation including penalties 
+for failure to uphold such expectations, e.g., revoca­
+tion of an LPAC member’s seat for repeated failure to 
+attend meetings or vote on matters presented.
+FUND GOVERNANCE
+
+
+[PDF page 32]
+32
+Auditor Independence 
+and Scope of the Fund Audit
+The auditor of a private equity fund should be 
+independent and focused on the best interests of the 
+partnership as a whole, rather than the interests of 
+the GP. The client of the fund audit should be the 
+partnership as a whole, rather than the GP alone. 
+The GP should form an audit committee comprised of 
+representatives from all LPs in the fund and not solely 
+LPAC members. The mandate for such a committee 
+could include the approval of the firm selected to 
+perform the fund audit, the scope of agreed upon 
+procedures as well as the performance of any services 
+by the same firm beyond the fund audit. 
+Auditors hired to conduct the fund audit should be 
+requested to provide a statement to LPAC members 
+detailing other work performed for the fund.
+LPAC members should be provided the opportunity 
+to review the scope of work for the fund audit, with 
+sufficient detail as to the agreed upon procedures that 
+will be performed.
+The GP should notify the LPs of any changes to the 
+appointed auditor.
+The scope of the audit should include the examination 
+of a sampling of Capital Account Statements, fees 
+and expenses captured through the ILPA Reporting 
+Template (2016). Waterfall calculation formulas 
+and the calculation’s constituent inputs should 
+be examined by the fund auditor. In addition, the 
+scope of agreed upon procedures could include: an 
+examination of management’s assertion relating to its 
+compliance with these key terms; certain procedures 
+in connection with the financial statements as a whole 
+on a supplemental schedule of changes in partners’ 
+capital; an internal controls review covering control 
+objectives related to capital. 
+In cases where the LPAC of a fund or an individual 
+LP has reason to engage a third party audit of LPA 
+compliance, fund document language should allow 
+for the access of this third party to any information 
+necessary to the engagement as determined by the 
+LP. 
+The findings of an audit in summary form should be 
+available to all investors in the fund. LPAC members 
+should have access to the management letter 
+provided by the fund auditor and the ability to pose 
+questions to the auditor directly. A discussion of the 
+annual audit findings should be a standing item on 
+LPAC meeting agendas.
+FUND GOVERNANCE
+
+
+[PDF page 33]
+33
+ILPA Principles 3.0
+In order to act as effective partners and investors in 
+a fund, as well as to fulfill their own fiduciary duties, 
+LPs must have access to a wide range of information 
+regarding the management of a fund. While the 
+specific needs and requests will vary depending 
+on the relationship, the LP should at minimum be 
+notified of any fee or expense assessed, either to the 
+partnership or to any portfolio companies, as outlined 
+in the ILPA Reporting Template for Fees, Expenses and 
+Carried Interest (2016).
+Fees and expenses charged to individual LPs and the 
+fund as a whole and carried interest calculations should 
+regularly and consistently be disclosed and subject 
+to periodic review by the Limited Partner Advisory 
+Committee and certiﬁcation by an independent 
+auditor. 
+Fees and Expenses 
+Fund documentation should adequately detail the 
+definition, calculation, assessment and reporting of 
+any fees and expenses allocable to the partnership or 
+to portfolio companies that impact on the LP’s com­
+mitment to the fund and/or the net investment return. 
+Fee and expense policies should be appropriate, rea­
+sonable, arm’s length and fully disclosed to investors.
+All fees charged to portfolio companies should be 
+100% offset against the management fee and accrue 
+to the benefit of the fund regardless of the application 
+of tax burdens or claw backs. Any management fees 
+allocated on a pro rata basis to co-invest vehicles 
+should accrue to the fund and be offset.
+The types of fees and expenses to be assessed to 
+the LP, to the partnership and to portfolio companies 
+should be disclosed to investors prior to the initiation 
+of the fund. 
+GPs and LPs should assure there is a shared and 
+adequate common understanding of how the 
+language in the Limited Partnership Agreement affects 
+key fund terms, in particular provisions relating to 
+the calculation and application of fees and expenses 
+charged to individual investors in the fund and to the 
+partnership.
+GPs should disclose each LP’s commitment per­
+centage in order to assist reconciliation of fees and 
+expenses. 
+Fees and expenses charged to the portfolio companies, 
+to the investors in the fund, or to the partnership, and 
+any fees charged by captive operations providing 
+services to the GP, should be consistently disclosed on 
+a quarterly basis to all LPs, following the data points 
+and definitions as expressed in the ILPA reporting 
+standards including the Reporting Template for Fees, 
+Expenses and Carried Interest (2016).
+These quarterly disclosures should be provided with 
+sufficient detail to enable investors to evaluate and 
+validate the calculation of management fees and 
+partnership expenses, offsets to management fees 
+and partnership expenses, as well as accrued and 
+paid carried interest and other features as detailed in 
+the ILPA Reporting Template (2016).
+GPs should provide the models used for calculations 
+of fees, expenses, carried interest and net IRR 
+calculations and be responsive to requests to provide 
+or explain their models.
+All fees not subject to offset should be disclosed to 
+investors.
+Fund documentation should outline clear definitions 
+used for related parties and list the related parties that 
+will be involved in the management or operations of 
+the fund, with subsequent notifications to investors 
+as necessary over the life of the fund. Fees received 
+by related parties, whether charged to investors or 
+to portfolio companies, should be appropriately 
+noted as in the ILPA Reporting Template (2016). If an 
+operating partner or other affiliate acting in support of 
+the fund’s operations is participating in the economics 
+of the GP, this should also be disclosed.
+Fee and expense reporting should be included within 
+the scope of the fund’s annual audit, which should 
+also include testing of a representative sample of LP-
+level expense allocations and waterfall calculations.
+The presentation of allocable and charged fees and 
+expenses should be consistent with provisions in the 
+limited partnership agreement and side letters and 
+should be presented such that it can be referenced 
+within that pre-agreed language.
+Financial Disclosures 
+FINANCIAL DISCLOSURES
+
+
+[PDF page 34]
+34
+Other Financial 
+Information, Quarterly
+In addition to quarterly disclosures on fees and 
+expenses, LPs should receive quarterly:
+•	 Unaudited quarterly profit and loss statements also
+	
+showing year-to-date results;
+•	 Information on material changes in investments 
+	
+and expenses;
+•	 Summary of all capital calls and distribution notices
+	
+including balances on uncalled capital commit-
+	
+ments;
+•	 Management comments about changes during the
+	
+quarter;
+•	 An explanation of any quarter-to-quarter valuation
+	
+changes, including any changes in the valuations 
+	
+methodology applied.
+Financial Disclosures, Annual
+GP annual reporting should include portfolio com­
+pany and fund information on material risks and how 
+they are managed. These should include:
+•	 Concentration risk at fund level;
+•	 Foreign exchange risk at fund level;
+•	 Leverage risk at the fund and portfolio company
+	
+levels;
+•	 Realization risk (i.e. change in exit environment) 
+	
+at the fund and portfolio company levels;
+•	 Strategy risk (i.e. change in, or divergence from, 
+	
+investment strategy) at the portfolio company level;
+•	 Reputation risk at the portfolio company level;
+•	 Environmental, social and governance risks, at the
+	
+fund and portfolio company levels;
+•	 Portfolio company information consistent with 
+	
+the ILPA Standardized Reporting for Portfolio 
+	
+Companies.
+
+Annual Reports—Funds should provide the following 
+information at the end of each year (within 90 days of 
+year-end) to investors:
+•	 Management letter describing the activities of
+	
+the fund directed to the LPAC but distributed to
+	
+all investors;
+•	 Audited financial statements (including a clean
+	
+opinion letter from auditors and a statement from
+ 	 the auditor detailing other work performed for the
+	
+fund);
+•	 Internal Rate of Return (“IRR”) calculations prepared
+ 	 by the fund manager that clearly set forth the 
+	
+methodology for determining the IRR. Best 
+	
+practice is to disclose the net IRR on both a levered
+	
+and unlevered basis, taking into account any 
+	
+impact from capital call credit facilities.
+•	 Schedule of aggregate carried interest received;
+•	 Political contributions made by the manager or any
+	
+associated individuals to trustees or elected 
+	
+officials on investor boards.
+More immediate reporting may be required for 
+material events.
+GPs should also provide, during due diligence or on a 
+pre-agreed cadence with LPs, information on salaries, 
+bonuses and dividends paid, particularly the com­
+mitment and carry split by individual partner, and the 
+same split between current and previous funds. LPs 
+should have an understanding of the carry/ownership 
+percentages in the management company held by 
+the partners in the GP. 
+FINANCIAL DISCLOSURES
+
+
+[PDF page 35]
+35
+ILPA Principles 3.0
+Capital Calls and 
+Distributions
+Capital calls and distributions should provide 
+information consistent with the ILPA Standardized 
+Reporting format, including the exact amount 
+of carried interest and provide build-up to carry 
+calculation, percentages for each limited partner and 
+detail in calculation (including offsets) of management 
+fees. The GP should also provide estimates of quarterly 
+projections on capital calls and distributions.
+Subscription Lines of Credit
+Quarterly and annual reporting should include a 
+schedule of fund-level leverage, including commit­
+ments and outstanding balances on subscription 
+financing lines or any other credit facilities in use by 
+the fund.
+During fundraising, and included in regular reporting 
+over the life of the fund, LPs should be provided with 
+performance information, i.e., IRR and TVPI or MOIC 
+figures, with and without the use of such facilities 
+in order to inform performance comparisons on a 
+vintage year basis and relative to other funds.
+The terms for any such subscription facilities should 
+be disclosed or available to LPs on request. Any 
+subscription line facility used should be reasonable in 
+both size as a percentage of the total fund as well as 
+duration.
+LPs should be offered the option to opt out of a facility 
+at the onset of the fund. There should be a reasonable 
+window of at least 10 business days for LPs to respond 
+to capital call requests. 
+At the time of the fund close, or on the occurrence of 
+initiating such a facility, GPs should disclose to all LPs: 
+•	 The anticipated size of any facilities contemplated;
+•	 Proposed limits on duration (both cleanup and
+	
+term);
+•	 Parameters around the intended use of proceeds;
+•	 Protocols for regular disclosure of the total amount 
+	
+outstanding and any costs incurred by the fund 
+	
+related to the use of such facilities including 
+	
+estimated basis points on the front end, unused
+	
+fees, and interest rates. Current rates should be 
+	
+explicit; 
+•	 How commitment-secured facilities or NAV-secured
+	
+facilities will be treated in the context of overall 
+	
+leverage limitations on the fund (e.g., facilities to
+	
+increase investment capacity of the fund versus
+	
+bridging facilities).
+FINANCIAL DISCLOSURES
+
+
+[PDF page 36]
+36
+Portfolio Company 
+Information
+Commercially sensitive portfolio company informa­
+tion should be provided separately and distinctly from 
+fund-level reporting. 
+Valuation information related to the portfolio compa­
+nies should be disclosed on a quarterly basis, consis­
+tent with the ILPA Portfolio Company Metrics Report­
+ing Template. 
+Financial and 
+Performance Reporting
+Performance 
+information 
+provided 
+to 
+LPs 
+on 
+both a quarterly and annual basis should include 
+figures that are both gross and net of accrued carried 
+interest, as well as the methodology used to compute 
+performance. Historical performance figures provided 
+during fundraising should include detail on the 
+assumptions used to calculate unrealized gains, 
+including EBITDA adjustments. Should a GP elect to 
+report performance net of accrued carry, the amount 
+of accrued carried interest should be disclosed to LPs.
+In order to verify performance and ensure (at a min­
+imum) the reasonability of waterfall/fee calculations, 
+an LP needs access to detailed fund cash flows. 
+At the end of the fund’s life, LPs should be provided 
+with a detailed breakdown of each historical cash 
+flow, expressed in appropriate accounting categories 
+to complete a reconciliation against their internal 
+ledgers. It is recommended that GP-provided cash 
+flows mirror the categories used within the ILPA 
+Capital Call and Distribution Notice Template. 
+Specific checks against the GP-reported numbers can 
+include: 
+•	 Performance (net/gross IRR, MOIC); 
+•	 Carry and clawback obligations; 
+•	 Preferred return calculations (proper catch-up); 
+•	 Return of capital and fees; 
+•	 Fee calculations including offsets.
+Fund Marketing 
+Materials 
+Marketing materials with respect to a fund should 
+include the following information:
+•	 Values for each unrealized portfolio company in
+	
+prior funds based on most recent audited 
+	
+ﬁnancials;
+•	 Explanation by the GP of those values that deviate
+	
+from the audited statements;
+•	 Description 
+of 
+any 
+pending 
+or 
+threatened 
+	
+litigation;
+•	 Performance information for prior funds on a gross
+	
+and net basis, including IRR, multiple of capital and
+ 	 distributed to paid-in capital metrics, as well as the
+	
+explanation for the derivation of IRR;
+•	 Description 
+of 
+any 
+pending 
+or 
+threatened 
+	
+litigation;
+•	 Disclosure of agents and sub-agents used;
+•	 Political contributions made by the manager or any
+	
+associated individuals to trustees or elected 
+	
+officials on investor boards;
+•	 Valuation policy; 
+•	 Policy for subscription line usage.
+FINANCIAL DISCLOSURES
+
+
+[PDF page 37]
+37
+ILPA Principles 3.0
+Information Access 
+and Fund Audits
+Investors or their designated proxies should consider 
+the following as it relates to access to fund auditors 
+and fund auditor-generated reports as well as find­
+ings from any third party engaged by an individual LP 
+or the LPAC to review compliance of the GP’s report­
+ing and policies with the LPA:
+• The fund auditor has an ultimate responsibility to
+ensure that financial reports are free from fraud or
+misstatement for the benefit of all partners in a fund
+including limited partners.
+• The findings of the fund audit, in summary form,
+should be available to all investors in a fund.
+• Limited Partners Advisory Committee (LPAC)
+members should additionally have access to the
+management letter provided by the fund auditor
+and the ability to pose questions to the auditor
+directly. A discussion of the annual fund audit find-
+	
+ings should be a standing item on LPAC meeting
+	
+agendas.
+• A sampling of Capital Account Statements, Fees
+and expenses captured through the ILPA Reporting
+Template (2016) and waterfall calculation formulas
+and the calculation’s constituent inputs should be
+examined by the fund auditor. The results of this
+examination should be disclosed to investors upon
+request.
+• In cases where the LPAC of a fund or an individual
+LP has reason to engage in a third-party audit of LPA
+compliance, fund documentation language should
+allow for the access of this third party to any
+information necessary to the engagement as
+determined by the LP.
+FINANCIAL DISCLOSURES
+
+
+[PDF page 38]
+38
+Notifications and Policy Disclosures
+In addition to robust financial reporting that is 
+consistent with both ILPA guidance and industry best 
+practice, GPs should provide to investors disclosures 
+relating to policies and specific events that impact 
+the fund, including material developments related to 
+ESG factors, regulatory compliance or that present 
+legal, reputational or business risk to the GP that may 
+impact the fund. In general these disclosures should 
+act as assurances that all investors are able to access 
+relevant information surrounding potential conflicts of 
+interest and any events that may impact the fund or 
+any individual LP. 
+ESG Policies and Reporting
+Among such disclosures, GPs should consider 
+maintaining and periodically updating an ESG policy, 
+provided to all LPs or to potential LPs on request. 
+The policy should include information sufficient to 
+enable an LP to assess the degree to which the GP’s 
+investment strategy and operations are aligned with 
+an individual LP institution’s ESG policies, including 
+how ESG is factored into due diligence as well as 
+incident disclosures and performance reporting. The 
+policy should identify procedures and protocols that 
+can be verified and/or documented, rather than a 
+vague commitment of behavior.
+Responsible investment, or ESG investing, is an 
+approach to investment that incorporates ESG factors 
+into investment decisions, to better manage risk 
+and generate sustainable, long-term returns. As a 
+fiduciary and steward of capital, the LP expects that 
+all potentially material risks and opportunities for the 
+fund are identified and managed by the GP. 
+GPs can demonstrate their commitment to ESG as 
+an investment philosophy through a responsible 
+investment policy, or by adhering to industry standards 
+such as the Principles for Responsible Investment 
+or the AIC Guidelines for Responsible Investment. 
+Reporting frameworks have been established to help 
+LPs understand, verify and assess GP processes for 
+ESG integration, including:
+• ESG Disclosure Framework for Private Equity;
+• PRI Limited Partners’ Responsible Investment
+Due Diligence Questionnaire;
+• ILPA Portfolio Company Metrics Template voluntary
+ESG reporting section to support portfolio
+company-level reporting on ESG factors;
+• IFC Toolkit for Disclosure and Transparency;
+• PRI ESG Reporting Framework.
+NOTIFICATIONS AND POLICY DISCLOSURES
+To the extent that a GP claims to pursue an impact 
+investing strategy specifically, a framework to 
+measure, audit and report on the impacts achieved 
+by the fund should be adopted.
+LPs should take into account the ability of the GP to 
+deliver on more bespoke or detailed ESG-related 
+disclosure requirements when formulating such 
+requests. Conversely, GPs should take into account 
+that LPs may have limited flexibility to change their 
+ESG disclosure requests due to institutional policies 
+or other requirements. 
+Both the LP and the GP will benefit from a clear 
+understanding of mutually agreed outputs/outcomes 
+at the start of a fund. LPs may wish to affirm this 
+understanding in the fund terms through a side letter, 
+if their requirements are not already covered by any 
+generally applicable representations made by the 
+GP in the LPA. However, the LP understands that the 
+GP’s approach to ESG will evolve over the lifetime of 
+the fund or that there may be instances of confusion 
+over LP requirements. Therefore while expectations 
+should be made clear, there should be flexibility for 
+adaptation and dialogue.
+
+
+[PDF page 39]
+39
+ILPA Principles 3.0
+Other Policy Disclosures 
+and Notifications
+Any policy or event with a significant effect on the 
+fund or its investors should be proactively and explic­
+itly disclosed to all LPs upon their issuance, modifica­
+tion or occurrence, including policies governing:
+• Allocation of co-investments, and the fees assessed
+to co-investors including broken or dead deal
+expense;
+• Separate accounts or commercial relationships that
+impact the economics of the fund;
+• Secondary sales and any secondary transactions as
+they occur;
+• Approval and/or required notification to LPs of
+transfers of minority ownership interest in the GP;
+• Risk management policies including ESG, currency,
+and reputational risk;
+• Compliance policies on conflicts of interest gener-
+	
+ally, including policies relating to parallel vehicles
+that invest alongside the fund, as well as the use of
+third parties and consultants;
+• Organizational 
+code 
+of 
+conduct 
+governing
+policies and protocols as relates to harassment,
+discrimination and workplace violence.
+Notifications
+The following is an indicative list of notifications that 
+should be provided to LPs on occurrence, or disclosed 
+upon request:
+Amendments or Breaches to LPA
+• The event of a modification of the LPA even in
+cases where the modification is expressly beneficial
+to investors;
+• Any breach of a provision of the LPA or other fund
+documents.
+Regulatory Examinations and Disclosures
+• On occurrence, the event of any legal or regula-
+	
+tory inquiry or examination into the fund, including
+the type of examination that occurred and a 
+summary of the resulting findings or actions;
+• Upon request, full access to the results of any
+regulatory investigation or examination;
+• Changes to a manager’s obligatory disclosures
+under regulation.
+Co-Investments
+• Co-investments as they occur, preferably in the
+context of regular capital call notices.
+Changes in Economic Ownership or Control
+• Changes in the actual or beneficial economic
+ownership, voting control of the GP, or changes or
+transfers to legal entities who are a party to any
+related document of the fund.
+Economic and Risk Management Notifications
+• Disclosures in the event that a hurdle rate is
+exceeded;
+• The collection of revenues from portfolio comp-
+	
+anies’ use of group purchasing organizations;
+• Any material contingency or liability arising during
+the fund’s life.
+Incidents Presenting Potential Breach of ESG Policy 
+or Code of Conduct
+• Disclosures of any incident that presents a potential
+violation of the GP’s stated ESG policy;
+• Disclosures of any incident representing a potential
+breach of a GP’s organizational code of conduct.
+Acknowledgement of the receipt of any of the above­
+mentioned disclosures should not be interpreted to 
+imply acceptance of the substance of the disclosures 
+by an LP unless otherwise indicated. 
+NOTIFICATIONS AND POLICY DISCLOSURES
+
+
+[PDF page 40]
+40
+LP Disclosures
+To exercise their obligations as fiduciaries, and in 
+particular the governance rights accorded to them 
+in the partnership agreement, LPs require sufficient 
+understanding as to the nature and identity of the 
+other LPs in the fund.
+For critical governance matters, the confidentiality 
+provisions of the LPA should allow investors within the 
+same fund to discuss these issues. 
+GPs should provide, subsequent to the closing of 
+the fund, a list of other LPs in the fund including a list 
+of LPAC members as well as contact information. At 
+regular intervals over the life of the fund, the GP should 
+provide updated lists of LPs in the fund to reflect any 
+subsequent transfers of LP interest or changes to LP 
+contact information.
+LPs acknowledge the important responsibility they 
+bear with higher transparency in the form of confiden­
+tiality. All proprietary information provided by the GP 
+to the LP, as covered within any confidentiality provi­
+sions agreed within fund documentation, should be 
+protected from public disclosure.
+LP DISCLOSURES
+
+
+[PDF page 41]
+41
+ILPA Principles 3.0
+Definitions
+Affiliates and Related Parties | With respect to any spec­
+ified Person, an Affiliate is a Person that directly or indirectly, 
+through one or more intermediaries, controls, is controlled by, 
+or is under common control with, the Person specified.  Port­
+folio Companies, Fund Vehicles and Feeder Entities are ex­
+empted from the Affiliate designation. Each Key Person, the 
+General Partner and the Fund Manager are generally considered to 
+be an Affiliate of the others.
+Break Up Fee (Broken Deal) | Requires the party responsible 
+for a break-up in an acquisition to pay the other party a negotiated 
+amount of liquidated damages.
+Bridge Financing | In the context of subscription lines of credit, 
+short-term fund-level financing secured by uncalled LP commit­
+ments and intended primarily to temporarily finance investments or 
+expenses in advance of calling capital from LPs. See also: Subscrip­
+tion Lines of Credit.
+Capital Call | (Also known as a draw down) Capital that LPs have 
+pledged to the fund that is requested and transferred from LPs to 
+GP to finance an investment or fund expenses.
+Carried Interest | (Also known as carry) An agreed share of the 
+profits resulting from the realization of an investment, accruing to 
+the GP. Calculation of carried interest is stipulated within the fund’s 
+legal documents and becomes payable once investors have re­
+couped their original investment in the fund, plus a defined hurdle 
+rate, if applicable.
+Change of Control Provision | A clause in a business contract 
+which stipulates that if ownership of a majority of the equity of the 
+management company changes hands, then the other party to the 
+contract has a right to cancel, usually without liability for paying any 
+compensation.
+Clawback | A limitation on the GP’s ability to collect a greater share 
+of the fund’s cumulative profits over the life of the fund than the 
+specified percentage stipulated by the LPA. When triggered, the 
+clawback provision requires that the GP return to the fund’s LPs an 
+amount equal to what is determined to be “excess” distributions.
+Closing (Fund) | The first closing is the date on which the first LPs 
+have made their commitments and are admitted to the fund. The 
+final closing date is the date on which the last LP is admitted to the 
+fund and the fund is closed to any further subscriptions from inter­
+ested LPs. 
+Co-investment | The syndication of a private equity financing 
+round or an investment by individuals (usually general partners) 
+alongside a private equity fund in a financing round. Two or more 
+investors in a given transaction. Also known as syndication. The 
+average rate of co-investment is the total number of investments 
+made in the total number of deals in a given period.
+Commitment (Fund) | An LP’s contractual obligation to provide 
+capital to a fund, in response to capital calls from the GP for fund in­
+vestments, to up to the amount specified in the subscription agree­
+ments.
+Cross-fund Investing | Where a firm invests in the same company 
+at different times from different funds, i.e., uses their current fund 
+towards a financing round in a company which forms part of the 
+portfolio of one of their earlier funds.
+Distributions | Cash and/or securities, i.e. payments “in-kind”, 
+delivered to LPs, excluding amounts returned in relation to tem­
+porary, bridging or aborted investments and net of any distributed 
+amounts which have subsequently been clawed back, e.g. for war­
+ranty claims.
+ESG | Environmental, social and governance factors that can impact 
+the performance of a portfolio company, the investment portfolio 
+as a whole, or the GP itself. It is a phrase commonly used alongside 
+and in the context of responsible investment.
+Fiduciary Duty | The legal or ethical relationship of confidence 
+or trust between two or more parties, most commonly a fiduciary 
+and a principal. In the fund context, it is the obligation of the GP to 
+put the interests of the fund as a whole before that of a subset of 
+investors or of the GP itself.
+Fund | A designated pool of capital targeted at private equity in­
+vestment, established with the intent to exit investments within a 
+stated timeframe.
+Fund Formation Documents | All legal documents pertaining to 
+the obligations and rights of the GP and LP, including the Limited 
+Partnership Agreement (LPA), any side letters agreed by the LP and 
+GP, and subscription documents binding the LP to the fund. 
+General Partner Commitment | (Also known as the GP Contri­
+bution) The amount of capital that the GP contributes to the fund, 
+alongside LPs in the partnership. The GP commitment is a critical 
+aspect of alignment of interest with the LPs in the fund. Standard 
+practice is that the GP commit 2-5 percent of the capital of the fund 
+as a whole. 
+GP-Led Secondary | A secondary transaction in which the GP, on 
+behalf of the fund, enters into an agreement with an acquirer to 
+purchase a significant portion of the assets of the fund. Existing LPs 
+of the fund are provided with the option to: (a) sell and receive a pro 
+rata portion of the cash purchase price, (b) “roll” their pro rata share 
+of the LP interests in the fund into a special purpose vehicle (SPV) 
+established to purchase the assets of the target fund or (c) in some 
+cases, to receive a combination of options (a) and (b).
+Indemnification | Typically included within the LPA along with the 
+exculpation provision, an indemnity clause protects the GP from 
+third party claims related to the underlying transactions within the 
+fund. The exculpatory clause addresses exemptions to the indemni­
+ty that would bar the LP or third parties from pursuing a legal claim 
+against the GP in particular circumstances as stated in the LPA.
+DEFINITIONS
+
+
+[PDF page 42]
+42
+DEFINITIONS
+Internal Rate of Return (IRR) | The discount rate at which the 
+present value of future cash flows of an investment equals the cost 
+of the investment. It is determined when the net present value of 
+the cash outflows (the cost of the investment) and the cash inflows 
+(returns on the investment) equal zero, with the discount rate equal 
+to the IRR. IRR is typically used as a measure of performance for 
+private equity funds relative to other asset classes, and for the pur­
+poses of performance benchmarking.
+Investment Period | The time from the initial closing of the fund 
+to the end date as specified in the LPA, or the date of an early termi­
+nation of the Investment Period, during which capital can be called 
+from LPs to fund investments.
+ 
+Key Person Clause | If a specified number of key named execu­
+tives cease to devote a specified amount of time to the Partnership, 
+which may include time spent on other funds managed by the man­
+ager, during the commitment period, the “key person” clause pro­
+vides that the manager of the fund is prohibited from making any 
+further new investments (either automatically or if so determined 
+by investors) until such a time that new replacement key executives 
+are appointed. The manager will, however, usually be permitted to 
+make any investments that had already been agreed to be made 
+prior to such date.
+Limited Partner Advisory Committee (LPAC) | A committee of 
+LPs within the fund comprising a cross-section of LPs, mandated to 
+consider conflicts of interest and provide the GP with guidance on 
+any material situations impacting the fund.
+Limited Partnership Agreement (LPA) | Legally binding docu­
+ment that articulates the operating rules for a fund together with the 
+rights and responsibilities of the parties subscribing to it; see Fund 
+formation documents.
+Management Fee | The management fee is used to provide the 
+partnership with resources such as investment and administrative 
+personnel, office space and administrative services required by the 
+partnership. Typically, the management fee is charged as a percent­
+age, e.g., 1-2%, of committed or invested capital, or some combi­
+nation thereof.
+Management Fee Offsets | The extent to which monitoring, 
+transaction, and other fees charged directly to portfolio companies 
+and paid to the GP are offset against management fees paid by the 
+LP to the GP, typically 60-100%, with 100% offset preferred by LPs.
+MOIC	| The return to LPs on the investment expressed as a multiple 
+of the individual LP’s investment determined by dividing the aggre­
+gate amount of distributions received by the LP by the aggregate 
+amount of capital invested by the LP. 
+NAV (Net Asset Value) | The amount by which the value of all of 
+the assets of a fund exceeds all debt and liabilities of the fund, as 
+determined in accordance with GAAP or other accounting or valu­
+ation metrics. 
+No Fault GP Removal | A clause in the LPA that permits investors, 
+after the final closing date, to remove the GP and either terminate 
+the Partnership or appoint a new general partner, such as in circum­
+stance where there has been no finding of breach of contract. 
+Partnership Expenses | Expenses borne by the partnership in­
+cluding costs associated with the organization of the partnership, 
+the purchase, holding or sale of securities, and legal and auditing 
+expenses.
+Preferred Return (Hurdle Rate) | The internal rate of return that 
+a fund must achieve before the GP or managers may receive an in­
+creased interest in the proceeds of the fund. Often, if the expected 
+rate of return on an investment is below the hurdle rate, the project 
+is not undertaken.
+Private Placement Memorandum (PPM) | (Also known as an 
+Offering Memorandum or “PPM”) A document that outlines the 
+terms of securities to be offered in a private placement including 
+a formal description of the investment opportunity drafted in com­
+pliance with securities regulations and addresses the terms of the 
+sale, fees, capital structure and historical financial statements; a de­
+scription of the business; summary biographies of the management 
+team; and the numerous risk factors associated with the investment. 
+Recycling | A provision in the LPA allowing the GP to recycle the 
+proceeds from an exit back into the fund, within a defined period 
+of time. Recycled capital is added back to the LP’s undrawn capital 
+commitment and available for draw down for further investments 
+during the investment period.
+Standard of Care | The degree of care or competence that the 
+GP is expected to exercise in its investment decisions and control 
+of the fund, typically framed as a good faith standard subject to the 
+care that an ordinarily prudent person would exercise under similar 
+circumstances. 
+Subscription Lines of Credit | Often referred to as bridge financ­
+ing, typically a short-term revolving line of credit secured by the un­
+called commitments to the fund, collateralized by awarding capital 
+call rights to the lender.
+Syndication | A number of investors offering capital together as 
+a group on a particular deal. A lead investor may coordinate such 
+deals and represents the group’s members. Also see: Co-invest­
+ment.
+Total Value to Paid In (TVPI) | The ratio of the current value of 
+remaining investments within a fund, plus the total value of all dis­
+tributions to date, relative to the total amount of capital paid into 
+the fund to date. TVPI is considered to be preferable measure of 
+performance before the end of a fund’s life.
+Vintage Year | Either the year of first closing, or the year in which 
+management fees commence.
+Waterfall | Delineates the method by which capital gains are al­
+located between the participants in an investment, by defining the 
+order in which distributions are allocated to LPs and the GP.  The 
+preferred waterfall structure distributes all committed capital back 
+to LPs before the GP begins to accrue carried interest, also known 
+as a whole of fund waterfall structure.
+
+
+[PDF page 43]
+43
+ILPA Principles 3.0
+ACKNOWLEDGEMENTS
+Acknowledgements
+ILPA would like to thank the following contributors who provided meaningful guidance and input on the  
+development of ILPA Principles 3.0:
+Kevin McDowell, Alberta Teachers’ Retirement Fund
+Kimberly Woods, District of Columbia Retirement Board
+Maggie Radford, Fikes Family Office
+Lauren Evert and Emily Holden, Harvard Management Company
+Louis Flamand, MetLife Investments
+Marek Herchel, MLC Private Equity
+Dennis Montz, Sentinel Trust
+Shelby Wanstrath, Teacher Retirement System of Texas
+Kathryn Gernert, Texas Permanent School Fund
+Ian Oldham, Texas Tech University System Office of Investments
+George Long, Vestcor
+Fabrizio Natale, Washington State Investment Board
+Dennis Knueven
+
+
+[PDF page 44]
+44
+JUNE 2019
+Questions and comments: principles@ilpa.org

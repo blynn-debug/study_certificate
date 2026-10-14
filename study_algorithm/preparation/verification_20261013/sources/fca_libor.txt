@@ -1,0 +1,326 @@
+About LIBOR transition | FCA
+Skip to main content
+Skip to search box
+Search
+Search
+Main menu
+Main navigation
+About us
+Contact us
+Get in touch by phone, via our online form, or by post:
+Financial Conduct Authority
+12 Endeavour Square
+London E20 1JN
+Contact us
+What we do
+About the FCA
+Enhancing market integrity
+Promoting competition
+Protecting consumers
+How we regulate
+Authorisation
+Enforcement
+Handbook of rules and guidance
+International standards and regulations
+Supervision
+How we operate
+Complain about us, the PRA or the Bank of England (the regulators)
+Corporate responsibility
+Diversity, equity and inclusion: our progress
+Environmental sustainability
+Who we work with
+Who we are
+Chair
+Chief Executive
+Committees
+Executive committees
+FCA Board
+Join us
+Careers home
+Early careers
+Our strategy 2025 to 2030
+Our vision and priorities for the next 5 years.
+How we work
+Close menu
+Firms
+Firms overview
+Go to our dedicated section to see support for firms and our latest policy updates.
+Find out more
+Firm authorisation
+Authorisation
+Cancelling an authorisation or registration
+Check if a firm is authorised
+How to apply for authorisation or registration
+Regulated firms
+All firms
+Claims management companies
+Consumer credit firms
+Electronic money and payment institutions
+Funeral plan providers and intermediaries
+Innovation Hub
+Mutual societies
+Close menu
+Tasks for firms
+Approved persons
+Change in control
+Fees and levies
+Keeping your firm's information up to date
+Principals and appointed representatives
+Focus areas
+AI: artificial intelligence in financial services
+Consumer Duty
+Cryptoassets
+FCA support services for firms
+Financial crime
+Open banking and open finance
+Senior Managers and Certification Regime
+Regulatory Priorities reports
+Our annual Regulatory Priorities reports provide specific key priorities for each sector.
+Find out more
+Close menu
+Markets
+Primary markets
+Forms and checklists
+Knowledge Base
+Listing applications, amendments, suspensions and cancellations
+Regulatory Disclosures
+The sponsor regime
+Markets policy
+About LIBOR transition
+Data reporting services providers
+Securitisation
+UK EMIR
+UK Securities Financing Transactions Regulation (UK SFTR)
+Regulated markets
+Benchmarks
+Central securities depositories
+Market abuse
+How to report suspected market abuse as a firm or trading venue
+How to report suspected market abuse as an individual
+Market Abuse Regulation
+Short selling
+Exemptions from short-selling requirements
+Notification and disclosure of net short positions
+Short selling
+Transaction reporting
+Instrument reference data
+Transaction reporting
+Close menu
+Consumers
+Our Consumer section
+See our dedicated section to help you stay up-to-date with financial services in the UK.
+Find out more
+Your rights
+Considering a defined benefit pension transfer
+FCA Firm Checker
+High risk investments
+How to check a firm or individual is authorised
+Information for victims of financial crime
+Your rights with financial services
+Complaints
+Car finance claims
+Complain about a regulator
+How to claim compensation if a firm fails
+How to complain
+Using claims management companies
+Scams
+Crypto investment scams
+Fake FCA communications
+Loan fee fraud
+Pension scams
+Protect yourself from scams
+Report a firm
+Misleading financial promotions
+Report a payment services or e-money firm
+Report a scam
+Unfair contracts
+FCA Warning List
+Find our most up-to-date warnings of firms and individuals running scams or operating without authorisation.
+Read more
+Close menu
+News
+Sign up to receive daily alerts on the warnings we issue
+Receive new and updated warnings in a daily email.
+Sign up
+News
+News stories
+Press releases
+Statements
+Warnings
+Insights
+Blogs
+Speeches
+Media library
+Images
+Infographics
+Podcasts
+Video
+Annual Public Meeting 2026
+Tuesday 6 October 2026, Edinburgh and online
+Watch the recording
+Close menu
+Publications
+Policy and guidance
+Corporate documents
+Notices and decisions
+Data
+Research
+Forms
+Open consultations
+See our current open consultations and the deadlines for giving feedback.
+Respond to our consultations
+Close menu
+Home
+Markets
+About LIBOR transition
+About LIBOR transition
+First published: 						02/09/2019
+Last updated: 09/03/2026
+See all updates
+The interest rate benchmark LIBOR has permanently ceased.
+On this page
+Background to LIBOR being wound down
+Transition to alternative risk-free rates
+International coordination on benchmark reform
+Before end-2021, LIBOR was produced in 7 tenors (overnight/spot next, 1 week, 1-month, 2-month, 3-month, 6-month and 12-month) across 5 currencies. Each of these LIBOR settings was based on submissions provided by a panel of banks.
+These submissions were intended to reflect the interest rate at which banks could borrow money on unsecured terms in wholesale markets. All LIBOR panels have ended and all 35 LIBOR settings have now permanently ceased.
+Following the final publication of the 3-month synthetic sterling LIBOR setting on 28 March 2024, all sterling LIBOR settings permanently ceased.
+The overnight and 12-month US dollar LIBOR settings permanently ceased at the end of June 2023.
+The 1-month, 3-month and 6-month synthetic US dollar LIBOR settings were the final remaining LIBOR settings. These settings were published for the final time on 30 September 2024. This marked the end of LIBOR overall.
+Background to LIBOR being wound down
+In 2017, the FCA and the Financial Policy Committee (FPC) noted that it had become increasingly apparent that the absence of active underlying markets and the scarcity of term unsecured deposit transactions raised serious questions about the future sustainability of the LIBOR benchmarks.
+The LIBOR panel banks agreed to continue submitting to LIBOR until end-2021 (later extended to end-June 2023 for US dollar LIBOR only), to enable time for the market to move away from LIBOR.
+In March 2021, the FCA and ICE Benchmark Administration  (the administrator of LIBOR) announced that sterling, euro, Swiss franc and Japanese yen LIBOR panels, as well as panels for 1-week and 2-month US dollar LIBOR, will cease at end-2021, with the remaining US dollar LIBOR panels ceasing at end-June 2023.
+We confirmed our decision to use powers to use powers, which the Government granted us under the Benchmarks Regulation, to require continued publication on a changed methodology (also known as a 'synthetic') basis for the 1-month, 3-month and 6-month sterling LIBOR settings and, until end-2022, the same Japanese yen LIBOR settings. These synthetic LIBOR rates were not intended for use in new contracts, but were available for some holders of 'legacy' LIBOR-referencing contracts.
+In September 2022, we confirmed that publication of 1-month and 6-month synthetic sterling LIBOR would be required until end-March 2023, after which these settings would cease permanently.
+In November 2022, we announced that we intended to compel the publication of 3-month synthetic sterling LIBOR until end-March 2024, after which it would cease permanently. We also published a consultation  on our proposals to use our powers to require continued publication of the 1-month, 3-month, and 6-month US dollar LIBOR settings under a synthetic methodology for a temporary period until end-September 2024.
+In April 2023, we announced that we intended to compel the publication of the 1-month, 3-month and 6-month US dollar LIBOR settings under a synthetic methodology until end-September 2024 for use in all legacy contracts other than cleared derivatives. In May 2023, we published a detailed Feedback Statement setting out our response to the feedback received to our November consultation.
+We have previously asked parties to contracts that were referencing LIBOR to transition to robust, appropriate reference rates, re-negotiating with counterparties where necessary. As we said previously, we did not want to see transition to so-called 'credit sensitive' rates (CSRs) which have the potential to reintroduce many of the financial stability risks associated with LIBOR. We ask that any UK regulated market participants looking to use CSRs in UK-based business consider the risks carefully and raise with their FCA supervisors before doing so. We also expect UK regulated benchmark administrators to continue to notify us in advance if they intend to administer CSRs and make them available for use in the UK.
+Transition to alternative risk-free rates
+More on transition work with market participants and the RFR Working Group
+Alongside the Bank of England, we have worked closely with market participants to support the move away from LIBOR in sterling markets, particularly through the Working Group on Sterling Risk-Free Reference Rates (RFR Working Group).
+In April 2017, the RFR Working Group recommended a reformed version of the Sterling Overnight Index Average (SONIA) benchmark as its preferred near Risk-Free Rate (RFR) for sterling markets. This rate is administered by the Bank of England. Following its recommendation, the RFR Working Group led a broad-based transition to SONIA in sterling bond, loan and derivatives markets. The RFR Working Group published a roadmap for completion of the transition away from sterling LIBOR.
+SONIA offers a robust alternative to LIBOR. The rate is based on overnight interest rates in wholesale markets, so is close to a risk-free measure of borrowing costs. The rate is robust and anchored to an active and liquid underlying market. It can be compounded over a lending period to produce a term interest rate. There are a number of advantages to borrowers and other market participants from using near RFRs, compounded as appropriate.
+International coordination on benchmark reform
+Global work and LIBOR alternatives by jurisdiction
+The Financial Stability Board’s (FSB) Official Sector Steering Group (OSSG) coordinates international efforts on benchmark reform and the transition from LIBOR to RFRs. The OSSG is co-chaired by Nikhil Rathi, Chief Executive of the FCA, and John Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York.
+The FSB published a global transition roadmap for LIBOR with actions for financial and non-financial sector firms to take to ensure a smooth LIBOR transition.
+RFRs recommended as alternatives to LIBOR
+Jurisdiction
+Working Group
+Alternative Ref Rate Name
+Administrator
+Collateralisations
+Description
+United States of America
+Alternative Reference Rates Committee
+Secured Overnight Financing Rate (SOFR)
+Federal Reserve Bank of New York
+Secured
+Secured rate that covers multiple overnight repo market segments
+United Kingdom
+Working Group on Sterling Risk-Free Reference Rates
+Sterling Overnight Index Average (SONIA)
+Bank of England
+Unsecured
+Unsecured rate that covers overnight wholesale deposit transactions
+Switzerland
+The National Working Group on CHF Reference Rates
+Swiss Average Rate Overnight (SARON)
+SIX Exchange
+Secured
+Secured rate that reflects interest paid on interbank overnight repo rate
+Japan
+Study Group on Risk-Free Reference Rates
+Tokyo Overnight Average Rate (TONAR)
+Bank of Japan
+Unsecured
+Unsecured rate that captures overnight call rate market
+Euro area
+Working Group on Euro Risk-Free Rates
+Euro short-term rate (€STR)
+European Central Bank
+Unsecured
+Unsecured rate that captures overnight wholesale deposit transactions
+Page updates
+09/03/2026
+: Link changed Global working groups links
+01/08/2025
+: Link changed fixed broken link
+01/10/2024
+: Information changed following the end of LIBOR.
+02/04/2024
+: Information added 3-month Synthetic Sterling LIBOR has ceased.
+09/01/2023
+: Editorial amendment page update as part of the website refresh
+25/02/2022
+: Editorial amendment
+04/01/2022
+: Information added majority of LIBOR panels have ended and their settings ceased or are permanently unrepresentative
+10/12/2021
+: Information added following FS21/12 publication
+29/09/2021
+: Information added confirmed our decision to use new powers for certain legacy contracts
+26/03/2021
+: Information added
+Was this page useful?
+Yes
+No
+What can we do to improve pages like this?
+What did you find helpful?
+Submit Feedback
+Leave this field blank
+Print Page
+Linkedin
+Twitter
+Share page
+On this page
+Background to LIBOR being wound down
+Transition to alternative risk-free rates
+International coordination on benchmark reform
+In this section
+LIBOR resources
+Benchmarks Regulation: our powers, policy and decision-making
+More on LIBOR
+FCA announces decision on cessation of 1- and 6-month synthetic sterling LIBOR at end-March 2023
+Announcements on the end of LIBOR
+Our announcement on future cessation and loss of representativeness of the LIBOR benchmarks
+Our latest LIBOR publications
+Accessibility
+Complain about us
+Copyright notice
+Corporate responsibility
+Cymraeg
+Freedom of information
+Modern Slavery and Human Trafficking Statement
+Privacy
+Sitemap
+Social
+RSS Feed
+LinkedIn
+Twitter
+Instagram
+Registers and Systems
+Registers and Systems
+My FCA
+Financial Services Register
+FCA Handbook
+Connect
+RegData
+Online Invoicing System
+Careers
+Careers
+Careers home
+Early careers
+Contact
+Contact
+FCA Head Office
+12 Endeavour Square
+London E20 1JN
+Contact us
+Plain Numbers Working Together
+Copyright © 2026 Financial Conduct Authority (FCA)
+All rights reserved.
+Back to top
+Registered in England and Wales
+(Company No. 01920623)

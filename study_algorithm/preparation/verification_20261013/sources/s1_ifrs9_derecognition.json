@@ -1,0 +1,12 @@
+{
+  "id": "s1_ifrs9_derecognition",
+  "requested_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-39-financial-instruments-recognition-and-measurement/",
+  "retrieved_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-39-financial-instruments-recognition-and-measurement/",
+  "retrieved_at": "2026-10-13T17:06:36.311009+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 17624,
+  "content_sha256": "f12d01c1f6d02ec779c3aad84cd68256ccae0b49af55adef72123490453d35e2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

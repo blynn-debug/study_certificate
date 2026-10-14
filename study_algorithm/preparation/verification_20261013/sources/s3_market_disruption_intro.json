@@ -1,0 +1,14 @@
+{
+  "id": "s3_market_disruption_intro",
+  "requested_url": "https://www.fsc.go.kr/po010106/72504",
+  "retrieved_url": "https://www.fsc.go.kr/po010106/72504",
+  "retrieved_at": "2026-10-14T00:30:37.889014+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 4534,
+  "content_sha256": "f79de2f93c32e2cb4e5aeb9452350a91e034bab39b03bbec4da88af6e1295629",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "evidence_unit": "Release2016",
+  "version_selection": "Historical official enforcement release confirms 2015-07-01 introduction; current rules separately verified under capital article178-2."
+}

@@ -1,0 +1,30 @@
+{
+  "source_id": "fsc_financial_map",
+  "source_metadata": {
+    "id": "fsc_financial_map",
+    "requested_url": "https://www.fsc.go.kr/no010101/76968",
+    "retrieved_url": "https://www.fsc.go.kr/no010101/76968",
+    "retrieved_at": "2026-10-13T03:45:33.624547+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 6086,
+    "content_sha256": "f98f53d6ca31f5f177de1e2c750efbf828e2a17f54080144273a75eac21349f3",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fsc_financial_map:기관분류",
+      "source_id": "fsc_financial_map",
+      "article": "기관분류",
+      "heading": "기관분류",
+      "text": "◦ 금융맵은 은행, 비은행예금취급기관(우체국, 저축은행, 상호금융 등), 증권사, 자동화기기 사업자 등 범 금융권의 지점‧ATM 관련 최신 정보를 통합 제공하고,",
+      "start": 2483,
+      "end": 2574,
+      "sha256": "feb571e73018c35d9ea9dc04c35d8c40415dad7e460fe0517e9919bbb819cc0f"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,32 @@
+{
+  "source_id": "lo_active_management2008",
+  "source_metadata": {
+    "id": "lo_active_management2008",
+    "requested_url": "https://web.mit.edu/Alo/www/Papers/active_pub.pdf",
+    "retrieved_url": "https://web.mit.edu/Alo/www/Papers/active_pub.pdf",
+    "retrieved_at": "2026-10-13T15:56:42.281001+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "d4567f596bbc35755f2be529084e937364f72b2db3ca00bdd32e532c410518fa",
+    "binary_sha256": "d4567f596bbc35755f2be529084e937364f72b2db3ca00bdd32e532c410518fa",
+    "text_sha256": "6979f3a7a10f4d9ed62b0bf26642475a5a7493e365ca0eb9bb99deab55de57a1",
+    "pages": 29,
+    "characters": 83431,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "lo_active_management2008:이차타이밍모형",
+      "source_id": "lo_active_management2008",
+      "article": "이차타이밍모형",
+      "heading": "이차타이밍모형",
+      "text": "In contrast to these static measures, Treynor and\nMazuy (1966) were among the ﬁrst to propose a\ndynamic measure of active management. To pick\nup market-timing skills, Treynor and Mazuy (1966)\naugmented the linear framework of (1) with a\nquadratic term (Rmt −Rf )2. Formally, this is still a\ncontemporaneous regression, hence its parameters\ndo not involve any time-series properties, but the\nmotivation—to detect asymmetries in up and down\nmarkets—is distinctly dynamic.\nIn a recent comment on the fundamental index-\nation approach of Arnott et al. (2005), Treynor\n(2005) does focus on the covariance between port-\nfolio weights and returns, but only in the speciﬁc\ncontext of explaining the potential improvements of\nfundamental indexation over market-capitalization\nweights. The AP decomposition described in this\npaper provides a considerably more general frame-\nwork for thinking about the beneﬁts and costs of\nany indexation algorithm.\nA more explicit measure of market-timing skill is\ngiven by Merton (1981), Henriksson and Merton\n(1981), and Henriksson (1984), who showed that\nperfect market-timing is equivalent to a buy-and-\nhold investment in the market that is fully protected\nby put options on the market with a riskless-rate\nstrike. Imperfect market-timing skill may then be\nmodeled as a partially insured investment in the\nmarket. Although this measure may also seem like\na static one because it involves parameters at a\nsingle point in time of the multivariate distribution\nof market returns and corresponding put-option\nprices, it is, in fact, dynamic due to the multi-\nperiod nature of options prices.2 In other words, the\ndynamics of market-timing have been compressed\ninto the put-option price, which is then used as\nthe “numeraire” for market-timing skill in Merton’s\n(1981) framework.\nTwo other related studies are by Brinson et al.\n(1986) and Brinson et al. (1991), in which they\ndecompose the realized return of a portfolio into\nthree components: a benchmark return, the return\nfrom asset allocation (measured by the product\nof returns and the deviations of the portfolio’s\nasset-class weights from the benchmark’s asset-\nclass weights), and the return of security selection\n(measured by the product of returns and the devi-\nations of individual portfolio weights from the\nbenchmark’s portfolio weights within each asset\nclass):\nRpt = Rbt + Rat + Rst.\n(6)\nAlthough this decomposition seems to be simi-\nlar in spirit to the one proposed in this paper,\nthere is an important difference: the deﬁnitions of\n“security selection” and “asset allocation” in Brin-\nson et al. (1986) are measures deﬁned with respect\nto a benchmark, not time-series measures of a\nmanager’s forecast power in each of these cate-\ngories. However, by taking expectations of (6) and\nusing the decomposition described in Section 3,\nit is possible to extend the framework of Brinson\net al. (1986) to yield measures of forecast power\nfor security-selection and asset-allocation decisions\nseparately. Another difference between (6) and\nthe approach described in this paper is the criti-\ncal dependence of (6) on the benchmark, which\nmay be appropriate for managers whose invest-\nment mandates specify such benchmarks explicitly,\nJOURNAL OF INVESTMENT MANAGEMENT\nTHIRD QUARTER 2008",
+      "start": 10832,
+      "end": 14102,
+      "sha256": "7b05dc18473dac9b8971607ec43c0f086c14d5f2db3bec20134d2e2f034a86c6"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

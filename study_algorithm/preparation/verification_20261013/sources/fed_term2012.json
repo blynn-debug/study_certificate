@@ -1,0 +1,12 @@
+{
+  "id": "fed_term2012",
+  "requested_url": "https://www.federalreserve.gov/pubs/feds/2012/201285/",
+  "retrieved_url": "https://www.federalreserve.gov/pubs/feds/2012/201285/",
+  "retrieved_at": "2026-10-13T16:17:50.690078+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 123376,
+  "content_sha256": "d5d566791a09e31483ef8991bf3857d293db2114cb257c7f93f36cab8af32d22",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

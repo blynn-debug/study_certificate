@@ -1,0 +1,1623 @@
+{
+  "status": "pass_with_documented_scope",
+  "date": "2026-10-13",
+  "findings_and_repairs": [
+    {
+      "id": "O01",
+      "issue": "기존 검사는 작성된 분석 목록 내부의 합계·참조 검사가 중심이었다.",
+      "repair": "원문 1179쪽에서 질문 기호를 별도로 추출해 목록과 대조하고 차이가 나는 페이지의 원인을 기록한다."
+    },
+    {
+      "id": "O02",
+      "issue": "기존 주제별 본문 예제·확인사항 기록 354개가 HTML 보고서에 표시되지 않았다.",
+      "repair": "별도 보조 학습요소 목록으로 정규화하고 각 주제와 보고서에서 원본 페이지를 열 수 있게 한다."
+    },
+    {
+      "id": "O03",
+      "issue": "세제 단원의 장 단위 본문 확인사항 2묶음·16쪽이 개별 주제 경로에 전달되지 않았다.",
+      "repair": "각 페이지의 실제 소속 주제에 연결하고 기존 요약은 여러 페이지를 묶은 설명임을 표시한다."
+    },
+    {
+      "id": "O04",
+      "issue": "교재 앞부분의 시험 구성·학습전략·문제 중요도 의미와 CALC 표지의 화폐유통속도 예시가 별도 학습 근거로 연결되지 않았다.",
+      "repair": "교재 주장과 공식 확인을 구별한 시험 구성 자료를 추가하고 모든 페이지의 역할을 지정한다."
+    },
+    {
+      "id": "O05",
+      "issue": "일부 본문 속 계산·이유 질문은 페이지 읽기에 포함됐지만 보조 학습요소 목록에 독립 위치가 없었다.",
+      "repair": "아래 추가 기록에 원본 위치·주제·설명 포인트·기존 문항과의 관계를 보강한다."
+    },
+    {
+      "id": "O06",
+      "issue": "OCR에서 핵심문제 문장·그림 조건 일부가 빠진 3쪽을 확인했다. 3문항 자체는 기존 목록에 있다.",
+      "repair": "원본 이미지로 문제 문장과 필요한 조건을 복원하고 해당 문항에 연결한다."
+    },
+    {
+      "id": "O07",
+      "issue": "일부 문항의 answer_page가 비어 있어 '해설 없음'으로 오해할 수 있다.",
+      "repair": "해설 페이지 미지정과 해설 부재를 구별하고, 원문 문제·해설·검토사항을 확인하기 전 자동 채점하지 않는 검색 절차를 명시한다. 미확인 위치를 임의로 채우지 않는다."
+    }
+  ],
+  "counts": {
+    "source_pages_accounted": 1179,
+    "unassigned_pages": 0,
+    "raw_signal_candidate_pages_reviewed": 99,
+    "OCR_stems_restored": 3,
+    "standalone_items": 2292,
+    "new_standalone_items_found_in_this_recheck": 0,
+    "existing_topic_embedded_records_exposed": 354,
+    "chapter_embedded_pages_routed": 16,
+    "new_explicit_embedded_records": 13,
+    "supplemental_records_total": 383
+  },
+  "candidate_resolutions": [
+    {
+      "document": "P12",
+      "page": 3,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "frontmatter_or_repeated_illustration",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": []
+    },
+    {
+      "document": "P12",
+      "page": 8,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "frontmatter_or_repeated_illustration",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": []
+    },
+    {
+      "document": "P12",
+      "page": 9,
+      "raw_question_marks": 5,
+      "natural_language_question_marks": 5,
+      "indexed_standalone_items": 0,
+      "resolution": "frontmatter_or_repeated_illustration",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": []
+    },
+    {
+      "document": "P12",
+      "page": 12,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "frontmatter_or_repeated_illustration",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": []
+    },
+    {
+      "document": "P12",
+      "page": 45,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S1C1-INLINE-P045"
+      ],
+      "topic_ids": [
+        "S1C1T10"
+      ],
+      "chapter_ids": [
+        "S1C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 94,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 4,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-001"
+      ],
+      "topic_ids": [
+        "S1C2T09"
+      ],
+      "chapter_ids": [
+        "S1C2"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 200,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S1C3T10-INLINE-001"
+      ],
+      "topic_ids": [
+        "S1C3T10"
+      ],
+      "chapter_ids": [
+        "S1C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 220,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S1C3T19-INLINE-001",
+        "S1C3T19-INLINE-002"
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "chapter_ids": [
+        "S1C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 222,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S1C3T19-INLINE-004"
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "chapter_ids": [
+        "S1C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 234,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S2C1T01-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C1T01"
+      ],
+      "chapter_ids": [
+        "S2C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 237,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S2C1T02-INLINE-002"
+      ],
+      "topic_ids": [
+        "S2C1T02"
+      ],
+      "chapter_ids": [
+        "S2C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 258,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C1T11-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C1T11"
+      ],
+      "chapter_ids": [
+        "S2C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 260,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C1T12"
+      ],
+      "chapter_ids": [
+        "S2C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 271,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C1T14"
+      ],
+      "chapter_ids": [
+        "S2C1"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 278,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C2T01-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C2T01"
+      ],
+      "chapter_ids": [
+        "S2C2"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 284,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S2C2T03-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C2T03"
+      ],
+      "chapter_ids": [
+        "S2C2"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 285,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C2T03"
+      ],
+      "chapter_ids": [
+        "S2C2"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 292,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C2T07-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C2T07"
+      ],
+      "chapter_ids": [
+        "S2C2"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 313,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T04-INLINE-001",
+        "S2C3T04-INLINE-002"
+      ],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 315,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 3,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 317,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 319,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S2C3T05-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 322,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T05-INLINE-003"
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 331,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 333,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T09-INLINE-003"
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 335,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T09-INLINE-004"
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 355,
+      "raw_question_marks": 5,
+      "natural_language_question_marks": 5,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T16-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C3T16"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 392,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C3T30-INLINE-002"
+      ],
+      "topic_ids": [
+        "S2C3T30"
+      ],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 397,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 429,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C4T11-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C4T11"
+      ],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 430,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C4T11-INLINE-002"
+      ],
+      "topic_ids": [
+        "S2C4T11"
+      ],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "P12",
+      "page": 434,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S2C4T13-INLINE-001"
+      ],
+      "topic_ids": [
+        "S2C4T13"
+      ],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 100,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C2T16"
+      ],
+      "chapter_ids": [
+        "S3C2"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 238,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-003"
+      ],
+      "topic_ids": [
+        "S3C4T17"
+      ],
+      "chapter_ids": [
+        "S3C4"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 254,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T02-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T02"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 255,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T02-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C5T02"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 261,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T04-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T04"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 270,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T08-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T08"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 271,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T08-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C5T08"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 273,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-004"
+      ],
+      "topic_ids": [
+        "S3C5T09"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 277,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-005"
+      ],
+      "topic_ids": [
+        "S3C5T11"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 279,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T12-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T12"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 280,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-006"
+      ],
+      "topic_ids": [
+        "S3C5T12"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 284,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T13-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C5T13"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 285,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T13-INLINE-003"
+      ],
+      "topic_ids": [
+        "S3C5T13"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 291,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T15-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T15"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 294,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T16-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C5T16"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 303,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C5T18-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C5T18"
+      ],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 313,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T02-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 314,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T03-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 323,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T06-INLINE-003"
+      ],
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 328,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T08-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 342,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T11-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 344,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T12-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 360,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C6T19-INLINE-003"
+      ],
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "chapter_ids": [
+        "S3C6"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 383,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C7T06-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 385,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 4,
+      "indexed_standalone_items": 3,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-007"
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 386,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C7T07-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C7T07"
+      ],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 387,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C7T07-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C7T07"
+      ],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 403,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C8T01-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C8T01"
+      ],
+      "chapter_ids": [
+        "S3C8"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 420,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C8T08-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C8T08"
+      ],
+      "chapter_ids": [
+        "S3C8"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 423,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C8T09-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C8T09"
+      ],
+      "chapter_ids": [
+        "S3C8"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 438,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T02-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T02"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 439,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T02-INLINE-003"
+      ],
+      "topic_ids": [
+        "S3C9T02"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 441,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T03-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T03"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 445,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C9T04-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T04"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 448,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T05-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C9T05"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 449,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C9T05-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T05"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 454,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 3,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T06-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T06"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 456,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [
+        "S3C9T07-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T07"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 461,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T09-INLINE-001"
+      ],
+      "topic_ids": [
+        "S3C9T09"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 462,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "S3C9T09-INLINE-002"
+      ],
+      "topic_ids": [
+        "S3C9T09"
+      ],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "P3",
+      "page": 467,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 1,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 0,
+      "resolution": "frontmatter_or_repeated_illustration",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-008"
+      ],
+      "topic_ids": [],
+      "chapter_ids": []
+    },
+    {
+      "document": "CALC",
+      "page": 8,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-009"
+      ],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S1C2"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 25,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 27,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 32,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C3"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 33,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C3",
+        "S2C4"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 35,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 36,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 37,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 4,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-010",
+        "OMISSION-INLINE-011"
+      ],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S2C4"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 49,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-012"
+      ],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 58,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C5"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 74,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C6",
+        "S3C7"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 77,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 78,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 81,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 1,
+      "resolution": "inline_example_or_explanatory_question; source location now connected",
+      "supplemental_evidence_ids": [
+        "OMISSION-INLINE-013"
+      ],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 82,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C7"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 84,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C8"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 92,
+      "raw_question_marks": 3,
+      "natural_language_question_marks": 2,
+      "indexed_standalone_items": 2,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 93,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 95,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 96,
+      "raw_question_marks": 2,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 102,
+      "raw_question_marks": 13,
+      "natural_language_question_marks": 1,
+      "indexed_standalone_items": 1,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "CALC",
+      "page": 103,
+      "raw_question_marks": 4,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C9"
+      ]
+    },
+    {
+      "document": "MOCK",
+      "page": 64,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C5",
+        "S3C6",
+        "S3C7"
+      ]
+    },
+    {
+      "document": "MOCK",
+      "page": 74,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C4",
+        "S3C5",
+        "S3C6"
+      ]
+    },
+    {
+      "document": "MOCK",
+      "page": 76,
+      "raw_question_marks": 1,
+      "natural_language_question_marks": 0,
+      "indexed_standalone_items": 0,
+      "resolution": "OCR_question_mark_substitution_in_formula_heading_or_note",
+      "supplemental_evidence_ids": [],
+      "topic_ids": [],
+      "chapter_ids": [
+        "S3C8",
+        "S3C9"
+      ]
+    }
+  ],
+  "remaining_unresolved_scanned_candidates": [],
+  "new_calculations": {
+    "bond_price": 10555.018206645425,
+    "duration": 2.8381262970649273,
+    "effective_yield": 0.08243215999999998
+  },
+  "not_claimed": [
+    "Every sentence independently proven correct",
+    "Every page image re-inspected",
+    "All inline micro-prompts individually numbered",
+    "All current laws or official exam rules verified",
+    "Ten complete rereads",
+    "285 fully written lessons or a running application"
+  ],
+  "scope": "Raw text signals independently identify candidate pages; visual recovery resolves three missing stems. Signals are not a complete OCR-independent census of all printed symbols. Supplemental records are page/description groups, not an additional exam-question count."
+}

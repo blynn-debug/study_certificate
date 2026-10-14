@@ -1,0 +1,19 @@
+{
+  "id": "governance_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290289&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290289&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:32.731174+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 58062,
+  "content_sha256": "34e4d527858afa79881cc77fd3e2457b3022ea61a8faf86144925ad4c144a6a7",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

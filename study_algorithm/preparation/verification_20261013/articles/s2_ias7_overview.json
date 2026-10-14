@@ -1,0 +1,27 @@
+{
+  "source_id": "s2_ias7_overview",
+  "source_metadata": {
+    "id": "s2_ias7_overview",
+    "requested_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+    "retrieved_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+    "retrieved_at": "2026-10-13T16:20:53.426644+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "e9e968f064fe08374d447f75544163fd141fba0680a7dcfbdee2bb78dcc6652b",
+    "text_sha256": "db85a4a7429436fc645dd018e1abb1b072030c39ae8d7bfe94eece08fe62e9f2",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_text_extract",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_ias7_overview:Overview",
+      "source_id": "s2_ias7_overview",
+      "article": "Overview",
+      "heading": "IAS 7 prescribes",
+      "text": "IAS 7 prescribes how to present information in a statement of cash flows about how an entity’s cash and cash equivalents changed during the period. Cash comprises cash on hand and demand deposits. Cash equivalents are short-term, highly liquid investments that are readily convertible to known amounts of cash and that are subject to an insignificant risk of changes in value. The statement classifies cash flows during a period into cash flows from operating, investing and financing activities: operating activities are the principal revenue-producing activities of the entity and other activities that are not investing or financing activities. An entity reports cash flows from operating activities using either: the direct method, whereby major classes of gross cash receipts and gross cash payments are disclosed; or the indirect method, whereby profit or loss is adjusted for the effects of transactions of a non-cash nature, any deferrals or accruals of past or future operating cash receipts or payments and items of income or expense associated with investing or financing cash flows. investing activities are the acquisition and disposal of long-term assets and other investments not included in cash equivalents. The aggregate cash flows arising from obtaining and losing control of subsidiaries or other businesses are presented as investing activities. financing activities are activities that result in changes in the size and composition of the contributed equity and borrowings of the entity. Investing and financing transactions that do not require the use of cash or cash equivalents are excluded from a statement of cash flows but separately disclosed. IAS 7 requires an entity to disclose the components of cash and cash equivalents and to present a reconciliation of the amounts in its statement of cash flows with the equivalent items reported in the statement of financial position. ",
+      "sha256": "acc480dbdbc21652871fa2c57ea021713460648ca89f5afcc4d87985dc662688"
+    }
+  ],
+  "warning": "Only the extracted propositions have been independently reviewed."
+}

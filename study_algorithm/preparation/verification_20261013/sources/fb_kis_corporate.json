@@ -1,0 +1,12 @@
+{
+  "id": "fb_kis_corporate",
+  "requested_url": "https://www.kisrating.com/business/companystock.do",
+  "retrieved_url": "https://www.kisrating.com/business/companystock.do",
+  "retrieved_at": "2026-10-14T00:08:04.350822+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 8710,
+  "content_sha256": "b35c130daf314c2f3ce574f3b0c35c1862b12aa9d254bc3f96e58ea6ac45a882",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

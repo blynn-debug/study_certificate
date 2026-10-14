@@ -1,0 +1,30 @@
+{
+  "source_id": "index_go_1080",
+  "source_metadata": {
+    "id": "index_go_1080",
+    "requested_url": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1080",
+    "retrieved_url": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1080",
+    "retrieved_at": "2026-10-13T16:07:25.467607+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 4711,
+    "content_sha256": "493e2ce99def534edccedc9d6814f73aef77f41815597ae9a87e6aede04b0dd1",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "index_go_1080:종합지수정의",
+      "source_id": "index_go_1080",
+      "article": "종합지수정의",
+      "heading": "종합지수정의",
+      "text": "■ 주가지수 및 코스닥종합지수 개념 및 의의\nㅇ 주가지수 및 코스닥 종합지수란 한국거래소에 상장 및 등록되어 있는 주식의 시장가격을 토대로 작성되며, 전반적인 주가의 동향을 가장 잘 나타내주는 대표적인 지수\nㅇ 지수의 산출은 기준시점의 주가수준을 주가지수의 경우 100,코스닥 종합지수의 경우 1,000으로 하여 비교시점의 주가변동을 시가총액 방식으로 측정하게 되는데 현재의 주가지수 및 코스닥 종합지수는 각각 1980년 1월 4일, 1996년 7월1일을 기준시점으로 하여 산출\n※  시가총액방식 주가지수 = 비교시점의 주식 시가총액 / 기준시점의 주식 시가총액 x 100\n■ 주가지수 및 코스닥종합지수 지표의의 및 활용도\nㅇ 전반적인 주가의 동향을 신속하게 파악할 수 있는 합리적인 투자분석지표로서, 수치해석방법은 1980년 1월 4일 이후 특정시점의 주가지수가 1,000이었다고 한다면 당시 주식시장의 시가총액은 1980년 1월 4일의 10배가 됨을 의미\n유의사항\no 시가총액의 규모가 큰 일부 대형주의 등락이 전체 주가지수의 변동에 영향을 미쳐 시장의 전반적인 흐름을 반영하지 못하는 경우가 있음\n관련용어\n코스피지수 : 유가증권시장에 상장된 보통주를 기준으로 산출하는 시가총액식 주가지수- 1980년 1월 4일을 100으로 하여 산출\n코스닥지수 : 코스닥시장에 상장된 보통주를 기준으로 산출하는 시가총액식 주가지수- 1996년 7월 1일을 1,000으로 하여 산출",
+      "start": 2915,
+      "end": 3626,
+      "sha256": "28250bc5878a1b1aa0543f334d34542207d9ba581ac428d281b5a93a88287cc3"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fb_kcie_ratings",
+  "requested_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=1048",
+  "retrieved_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=1048",
+  "retrieved_at": "2026-10-14T00:07:30.057363+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 5808,
+  "content_sha256": "a7775897f04c5cc0aeb648fadc2c8c0e2341d6024ef8c2fe19257b9fe3f19845",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "s1_krx_elw_trading",
+  "requested_url": "https://regulation.krx.co.kr/contents/RGL/03/03060300/RGL03060300.jsp",
+  "retrieved_url": "https://regulation.krx.co.kr/contents/RGL/03/03060300/RGL03060300.jsp",
+  "retrieved_at": "2026-10-13T15:30:44.017608+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "8e876f241adc8d7c0f182e7ad476168c228bc94a28695ea26cc76e787cda26fc",
+  "text_sha256": "3dad0f9c9e51dfe6168b80f7f6d41b0a8b9480e0bb7e474d5d92a8efb65e19c4",
+  "characters": 10835,
+  "status": "retrieved_not_claim_verified"
+}

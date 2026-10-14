@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_ktb_history",
+  "source_metadata": {
+    "id": "fb_ktb_history",
+    "requested_url": "https://ktb.mofe.go.kr/ntndbtHist.do",
+    "retrieved_url": "https://ktb.mofe.go.kr/ntndbtHist.do",
+    "retrieved_at": "2026-10-14T00:07:04.790515+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 3680,
+    "content_sha256": "8eaac6a99607b3644512f0d012d52603ce884631f526e676a87fc6f4fc5cb700",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_ktb_history:2000년",
+      "source_id": "fb_ktb_history",
+      "article": "2000년",
+      "heading": "2000년",
+      "text": "2000\n12월\n국채환매(Buy-back)제도 도입\n10월\n10년 만기 장기국채 발행\n8월\n국채입찰방식 변경(복수금리결정방식→단일금리결정방식)\n7월\n1년 만기 국채 발행 중단\n채권시가평가제도 실시\n5월\n국고채 통합발행(Fungible Issue) 제도 도입\n4월\n국채관리기금을 공공자금관리기금으로 통합\n7월\n양곡관리기금채권을 국고채권에 통합",
+      "start": 2966,
+      "end": 3156,
+      "sha256": "a6c128147f772129cd380d8c2893fe50ef2a95ef9239a21be0cacd706ed779e6"
+    }
+  ]
+}

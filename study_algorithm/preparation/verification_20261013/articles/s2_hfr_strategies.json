@@ -1,0 +1,39 @@
+{
+  "source_id": "s2_hfr_strategies",
+  "source_metadata": {
+    "id": "s2_hfr_strategies",
+    "requested_url": "https://www.hfr.com/hfr-indices/hfr-hedge-fund-strategy-classifications/",
+    "retrieved_url": "https://www.hfr.com/hfr-indices/hfr-hedge-fund-strategy-classifications/",
+    "retrieved_at": "2026-10-13T16:57:35.568847+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "2612319aee64d2232757fff6898402737f118f7b15399aa95ab8b0e472038ebd",
+    "text_sha256": "86c1ddd1423ac226062c48cb8ec7522ee0c435652ed6839332fb8f2ee3d608f1",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "s2_hfr_strategies:DistressedMerger",
+      "source_id": "s2_hfr_strategies",
+      "article": "DistressedMerger",
+      "heading": "DistressedMerger",
+      "text": "ED: Distressed Restructuring Strategies which employ an investment process focused on corporate fixed income instruments, primarily on corporate credit instruments of companies trading at significant discounts to their value at issuance or obliged (par value) at maturity as a result of either formal bankruptcy proceeding or financial market perception of near term proceedings. Managers are typically actively involved with the management of these companies, frequently involved on creditors’ committees in negotiating the exchange of securities for alternative obligations, either swaps of debt, equity or hybrid securities. Managers employ fundamental credit processes focused on valuation and asset coverage of securities of distressed firms; in most cases portfolio exposures are concentrated in instruments which are publicly traded, in some cases actively and in others under reduced liquidity but in general for which a reasonable public market exists. In contrast to Special Situations, Distressed Strategies employ primarily debt (greater than 60%) but also may maintain related equity exposure. Merger Arbitrage ED: Merger Arbitrage strategies which employ an investment process primarily focused on opportunities in equity and equity related instruments of companies which are currently engaged in a corporate transaction. Merger Arbitrage involves primarily announced transactions, typically with limited or no exposure to situations which pre-, post-date or situations in which no formal announcement is expected to occur. Opportunities are frequently presented in cross border, collared and international transactions which incorporate multiple geographic regulatory institutions, with typically involve minimal exposure to corporate credits. Merger Arbitrage strategies typically have over 75% of positions in announced transactions over a given market cycle.",
+      "start": 19198,
+      "end": 21075,
+      "sha256": "2f94892259e0bbe916476e52dcec700053d2e7d0de085821eb2522cac66cfcfa"
+    },
+    {
+      "id": "s2_hfr_strategies:MacroThesis",
+      "source_id": "s2_hfr_strategies",
+      "article": "MacroThesis",
+      "heading": "MacroThesis",
+      "text": "Macro strategies are distinct from RV strategies in that the primary investment thesis is predicated on predicted or future movements in the underlying instruments, rather than realization of a valuation discrepancy between securities. In a similar way, while both Macro and equity hedge managers may hold equity securities, the overriding investment thesis is predicated on the impact movements in underlying macroeconomic variables may have on security prices, as opposed to EH, in which the fundamental characteristics of the company are the most significant and integral to investment thesis.",
+      "start": 24727,
+      "end": 25324,
+      "sha256": "7699c40673ae039615c8c5169018b6093bdf036d1e79fd972e16cd9f4dc5582d"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

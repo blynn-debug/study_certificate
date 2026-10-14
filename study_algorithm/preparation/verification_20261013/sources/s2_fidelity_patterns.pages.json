@@ -1,0 +1,538 @@
+[
+  {
+    "page": 1,
+    "text": "BROKERAGE: TECHNICAL ANALYSIS\nGetting Started with\nTechnical Analysis\nA Fidelity Investments Webinar Series\n"
+  },
+  {
+    "page": 2,
+    "text": "2\nUpcoming \nWebinars\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading.\nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators including, trend, \nmomentum, volume, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 3,
+    "text": "3\nAbout Our \nCo-Author\nCharles D. Kirkpatrick II, CMT\nCharles D. Kirkpatrick II, CMT, is president of Kirkpatrick & Company, Inc., a technical \nanalysis research firm that publishes the Market Strategist investment newsletter.  \nA past instructor in finance at the School of Business Administration, Fort Lewis \nCollege and Adjunct Professor of Finance at Brandeis University International Business \nSchool, he is a two-time winner of the Market Technicians Association’s prestigious \nCharles H. Dow Award for research in technical analysis, winner of the MTA Annual \nAward in 2008 for “outstanding contributions to the field \nof technical analysis,” and winner in 2012 of the Mike Epstein Award from the MTA \nEducational Foundation for “long-term sponsorship of Technical Analysis in \nAcademia.”   \nHe is a Chartered Market Technician, a past member of the board of directors of the \nMarket Technicians Association, past editor of the Journal of Technical Analysis, past \nboard member and vice-president of the \nMarket Technicians Association Educational Foundation and a member \nof the American Association of Professional Technicians (AAPTA).  He co-authored \nTechnical Analysis: The Complete Source for Financial Market Technicians, the primary \ntextbook for the CMT program and for university graduate courses on technical \nanalysis, authored Beat the Market, and most recently, Time the Markets: Using \nTechnical Analysis to Interpret Economic Data.  \nHe is a graduate of Phillips Exeter Academy, Harvard College (AB) and the Wharton \nSchool (MBA) and lives with his wife in Maine. \n"
+  },
+  {
+    "page": 4,
+    "text": "4\nBROKERAGE: TECHNICAL ANALYSIS\nDefining \nTechnical Analysis\nBest Practices \nfor Trend Traders\nCharts, Chart \nTypes, and Chart \nConstruction\nBasics of Trend \nAnalysis \nAgenda\n"
+  },
+  {
+    "page": 5,
+    "text": "Defining Technical \nAnalysis\n"
+  },
+  {
+    "page": 6,
+    "text": "6\nBROKERAGE: TECHNICAL ANALYSIS\nFundamental Analysis  &Technical Analysis \nTwo Common Types of Analysis \nFundamental Analysis\nTechnical Analysis\n"
+  },
+  {
+    "page": 7,
+    "text": "7\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Fundamental Analysis\nDefinition\nFundamental analysts study companies \nusing measures such as:\n• Quality of management\n• Labor relations \n• Inventory control\n• PE ratio and EPS growth rates \n• Return on equity and assets \n"
+  },
+  {
+    "page": 8,
+    "text": "8\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Fundamental Analysis\nLimits\nFundamental analysis does not help you \nwith:\n• Timing of the investment \n• Making the selling decision\n• Quantifying the risk vs. reward\n"
+  },
+  {
+    "page": 9,
+    "text": "9\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Technical Analysis\nDefinition\nTechnical analysis primarily studies historical \nmarket data. It also:\n• Focuses on the supply-and-demand dynamic \nexpressed via stock prices\n• Visualizes shifts in supply-and-demand which can be \nseen in chart patterns \n• Accounts for the emotional aspects of the marketplace \n• Quantifies the capital risk of trading and \ninvestment decisions\n• Does not try to predict the future\n"
+  },
+  {
+    "page": 10,
+    "text": "10\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Technical Analysis\nLimits\nTechnical analysis is still not a perfect \ninvestment method and has limits:\n• Patterns, trends, and indicators are never precise, \nand charts require human interpretation\n• Technical traders are susceptible to the same \nemotions and cognitive biases as all other investors\n"
+  },
+  {
+    "page": 11,
+    "text": "11\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Technical Analysis\nAssumptions\n• Prices in freely traded markets are determined by \nthe economic principles of supply-and-demand\n• Price discounts everything\n• Prices are nonrandom but not necessarily \npredictable\n• Prices have direction and tend to travel in \nobservable trends\n• Behavior and history in the marketplace will \nrepeat itself\n• Price patterns summarizing behavior are “fractal”\n"
+  },
+  {
+    "page": 12,
+    "text": "Charts, Chart Types, \nand Chart Construction\n"
+  },
+  {
+    "page": 13,
+    "text": "13\nBROKERAGE: TECHNICAL ANALYSIS\nCharts, Chart Types, & Chart Construction\nOverview\nAnalyze price \nbehavior\nEasily visualize \nthe patterns and \ntrends within data \n"
+  },
+  {
+    "page": 14,
+    "text": "14\nBROKERAGE: TECHNICAL ANALYSIS\nCharts, Chart Types, & Chart Construction\nOverview\nLine\nChart\nBar\nChart\nCandlestick\nChart\nPoint & Figure\nChart\n"
+  },
+  {
+    "page": 15,
+    "text": "15\nBROKERAGE: TECHNICAL ANALYSIS\nChart Types\nBar Charts\nVisualizes\n• Open, High, Low, Close\n• Volume for a specific time interval\nAdvantages\n• Most common\n• Easy to read\n• Provides full range of trading for time interval \n"
+  },
+  {
+    "page": 16,
+    "text": "16\nBROKERAGE: TECHNICAL ANALYSIS\nChart Types\nCandlestick Charts\nVisualizes\n• Open, High, Low, Close\n• Volume for a specific time interval\nAdvantages\n• Gaining popularity\n• More visual than a bar chart\n• Uses color to show differences between \nopen and close prices \n"
+  },
+  {
+    "page": 17,
+    "text": "17\nBROKERAGE: TECHNICAL ANALYSIS\nChart Construction\nReversal Points\nWhen a price is rising, stops, and then \ndeclines, the price at which the rise \nhalted is a “reversal point.”  \n• In this situation, the reversal point is called a “peak” \nand is important because it is where buyers were \novercome by sellers.\n• When a price is declining, stops, and then rises, the \nprice at which the decline halted is a reversal point \ncalled a “trough.”  It is the price at which sellers were \novercome by buyers.\n• Reversal points are the foundations of trends, trend \nlines, channels, patterns, and support and resistance. \n"
+  },
+  {
+    "page": 18,
+    "text": "18\nBROKERAGE: TECHNICAL ANALYSIS\nBreakout \nAbove \nPeak A\nPeak A\nPeak B\nPeak C\nBreakout \nAbove \nPeak B\nBreakout \nAbove \nPeak C\nThe Value of Reversal Points \nThe longer the trend, \nthe more important \nthe reversal point\nReversal point importance is \ndetermined by the length of \nthe trend before and after the \npeak or trough.\n"
+  },
+  {
+    "page": 19,
+    "text": "Basics of Trend \nAnalysis \n"
+  },
+  {
+    "page": 20,
+    "text": "20\nBROKERAGE: TECHNICAL ANALYSIS\nThe Value of Trends\nTechnical analysis is based on the \nprinciples of trends\nProfit is made from a trend in prices \nA trend’s direction is described by the relative \nlocation of peaks and troughs\nTrends arise from the interaction \nof buyers and sellers\n"
+  },
+  {
+    "page": 21,
+    "text": "21\nBROKERAGE: TECHNICAL ANALYSIS\nAssumptions about Trends\nTrends continue rather than reverse\nTrends are fractal, meaning that \nalthough they occur over different time \nperiods, their behavior is the same\nTrends are not mechanical methods that can \neasily be programmed and tested on computers\nTrends are influenced by the next longer \nand the next shorter trend \n"
+  },
+  {
+    "page": 22,
+    "text": "22\nBROKERAGE: TECHNICAL ANALYSIS\nUptrend\nAn uptrend has \nsuccessively higher \npeaks and higher \ntroughs.\n"
+  },
+  {
+    "page": 23,
+    "text": "23\nBROKERAGE: TECHNICAL ANALYSIS\nDowntrend\nA downward trend \nhas successively \nlower peaks and \nlower troughs.\n"
+  },
+  {
+    "page": 24,
+    "text": "24\nBROKERAGE: TECHNICAL ANALYSIS\nSideways Trend\nA sideways trend \nis a period with \nno clear direction \nin prices.\n"
+  },
+  {
+    "page": 25,
+    "text": "25\nBROKERAGE: TECHNICAL ANALYSIS\nTrend Influence\nKeep time frame in \nmind while \nconsidering the \nimportance of a \ntrend. \n"
+  },
+  {
+    "page": 26,
+    "text": "26\nBROKERAGE: TECHNICAL ANALYSIS\nFrom Trend to Trend Line\nDefinition\nA trend is a direction; a trend line is an attempt to define and use that \ndirection.\nHow do we draw trend lines?\n• From peak to peak\n• From trough to trough \n"
+  },
+  {
+    "page": 27,
+    "text": "27\nBROKERAGE: TECHNICAL ANALYSIS\nTypes of Trend Lines\nOverview\nUpward\nSloping\nDownward\nSloping\nSupport and\nResistance\n"
+  },
+  {
+    "page": 28,
+    "text": "28\nBROKERAGE: TECHNICAL ANALYSIS\nUpward Sloping\nA line connecting \ntrough to higher \ntrough\n"
+  },
+  {
+    "page": 29,
+    "text": "29\nBROKERAGE: TECHNICAL ANALYSIS\nDownward Sloping\nA line connecting \npeak to lower peak\n"
+  },
+  {
+    "page": 30,
+    "text": "30\nBROKERAGE: TECHNICAL ANALYSIS\nSupport and Resistance\nSupport\nHorizontal line drawn \nthrough troughs at the \nsame price level\nResistance\nHorizontal line \ndrawn through peaks at \nthe same price level\n"
+  },
+  {
+    "page": 31,
+    "text": "31\nBROKERAGE: TECHNICAL ANALYSIS\nProfiting from a Trading Range \nGreen points \nare candles that \nhit support and \nresistance levels \non close.\nRed are intraday \nand do not close \nat support and \nresistance. \n"
+  },
+  {
+    "page": 32,
+    "text": "32\nBROKERAGE: TECHNICAL ANALYSIS\nWhen Support Becomes Resistance\nOnce the price breaks \nthrough support, that \nsupport becomes \nfuture resistance.\nWhen the price \neventually rallies back \nto that level, it hits \nselling pressure \nand reverses back \ndown again.\n"
+  },
+  {
+    "page": 33,
+    "text": "33\nBROKERAGE: TECHNICAL ANALYSIS\nWhen Resistance Becomes Support\nWhen resistance \nis penetrated, it \ncan become \nsupport \n"
+  },
+  {
+    "page": 34,
+    "text": "Best Practices \nfor Trend Traders\n"
+  },
+  {
+    "page": 35,
+    "text": "35\nBROKERAGE: TECHNICAL ANALYSIS\nTrend Trading\nBest Practices\nDetermine:\n• Strategy and conditions for entering/exiting trade\n• Need of confirmation\n• Triggers that will cause the entry to be executed\n• Specific risk involved\n"
+  },
+  {
+    "page": 36,
+    "text": "36\nBROKERAGE: TECHNICAL ANALYSIS\nStrategies for Trend Investors \nEntry and Exit Strategies\nEntry strategy\n• Consider buying when chart patterns demonstrate a \nnew trend\nExit strategy\n• Consider selling when the trend reverses or \nappears to have ended \nWhen investors using technical analysis \nexecute these two strategies successfully, \nthey may make a profit. \nENTER\nEXIT\nUPTREND\n"
+  },
+  {
+    "page": 37,
+    "text": "37\nBROKERAGE: TECHNICAL ANALYSIS\nEntry Strategy\n"
+  },
+  {
+    "page": 38,
+    "text": "38\nBROKERAGE: TECHNICAL ANALYSIS\nExit Strategy\nThe trend line \ncrosses previous \ntroughs.\nA trigger could \nbe a breakout \nbelow the rising \ntrend line.\n"
+  },
+  {
+    "page": 39,
+    "text": "39\nTechnical \nAnalysis \nWebinar \nSeries\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading.\nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators including, trend, \nmomentum, volume, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 40,
+    "text": "40\nVisit the Fidelity \nLearning Center\nLearn more about \nputting technical \nanalysis to work \nfor you\nRead: Access the Technical Indicator Guide \nWatch: Check out videos that define core \ntechnical concepts\nAttend: Register for monthly webinars\n"
+  },
+  {
+    "page": 41,
+    "text": "41\nThank\nYou\nPlease join us for our\nupcoming webinars \nFidelity.com/webinars\nDownload Active Trader Pro for free at\nFidelity.com/ATP\nQuestions? Call a trading specialist at \n877-907-4429\n"
+  },
+  {
+    "page": 42,
+    "text": "42\nBROKERAGE: TECHNICAL ANALYSIS\nImportant Information\nAny screenshots, charts, or company trading symbols mentioned, are provided for illustrative purposes \nonly and should not be considered an offer to sell, a solicitation of an offer to buy, or a recommendation \nfor the security.\nInvesting involves risk, including risk of loss.\nTechnical analysis focuses on market action – specifically, volume and price. Technical analysis is only one \napproach to analyzing stocks. When considering what stocks to buy or sell, you should use the approach \nthat you're most comfortable with. As with all your investments, you must make your own determination \nwhether an investment in any particular security or securities is right for you based on your investment \nobjectives, risk tolerance, and financial situation. Past performance is no guarantee of future results.\n© 2019 FMR LLC. All rights reserved.\nFidelity Brokerage Services, Member NYSE, SIPC, 900 Salem Street, Smithfield, RI 02917\n910805.1.0\n"
+  },
+  {
+    "page": 43,
+    "text": "BROKERAGE: TECHNICAL ANALYSIS\nUnderstanding Indicators in \nTechnical Analysis\nA Fidelity Investments Webinar Series\n"
+  },
+  {
+    "page": 44,
+    "text": "2\nTechnical \nAnalysis \nWebinar \nSeries\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading. \nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators, including trend, \nmomentum, volume, volatility, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 45,
+    "text": "3\nAbout Our \nCoauthor\nCharles D. Kirkpatrick II, CMT\nCharles D. Kirkpatrick II, CMT, is president of Kirkpatrick & Company, Inc., a technical \nanalysis research firm that publishes the Market Strategist investment newsletter. A \npast instructor in finance at the School of Business Administration at Fort Lewis College \nand adjunct professor of finance at Brandeis University International Business School, \nhe is a two-time winner of the Chartered Market Technicians Association’s prestigious \nCharles H. Dow Award for research in technical analysis, winner of the MTA Annual \nAward in 2008 for “Outstanding Contributions to the Field of Technical Analysis,” and \nwinner in 2012 of the Mike Epstein Award from the MTA Educational Foundation for \n“Long-Term sponsorship of Technical Analysis in Academia.”   \nHe is a Chartered Market Technician, a past member of the board of directors of the \nMarket Technicians Association, past editor of the Journal of Technical Analysis, past \nboard member and vice president of the CMT Association Educational Foundation and \na member of the American Association of Professional Technicians (AAPTA).  He \ncoauthored Technical Analysis: The Complete Source for Financial Market Technicians, \nthe primary textbook for the CMT program and for university graduate courses on \ntechnical analysis, authored Beat the Market and, most recently, Time the Markets: \nUsing Technical Analysis to Interpret Economic Data.\nHe is a graduate of Phillips Exeter Academy, Harvard College (AB), and the Wharton \nSchool (MBA) and lives with his wife in Maine. \n"
+  },
+  {
+    "page": 46,
+    "text": "4\nBROKERAGE: TECHNICAL ANALYSIS\nTechnical \nIndicators Basics \nVolatility \nIndicators\nTechnical Indicators Basics\nTrend\nIndicators\nVolume\nIndicators \nAgenda\nMomentum \nIndicators \nSupport & \nResistance Indicators\n"
+  },
+  {
+    "page": 47,
+    "text": "Technical \nIndicator Basics\n"
+  },
+  {
+    "page": 48,
+    "text": "6\nBROKERAGE: TECHNICAL ANALYSIS\nWhat Is a Technical Indicator?\nA technical indicator is a mathematical \ncalculation based on historic price or volume.\n"
+  },
+  {
+    "page": 49,
+    "text": "7\nTrend Indicators\nSimple Moving Average (SMA), Exponential Moving \nAverage (EMA), Moving Average Convergence/Divergence \n(MACD), Average Directional Movement Index (ADX)\nMomentum Indicators\nStochastic Oscillator, Relative Strength Index (RSI)\nVolume Indicators\nOn Balance Volume (OBV), Money Flow Index (MFI), \nAccumulation/Distribution\nVolatility Indicators\nBollinger Bands®, Average True Range (ATR)\nSupport and Resistance Indicator\nFibonacci Retracements \nTypes of \nTechnical \nIndicators\n"
+  },
+  {
+    "page": 50,
+    "text": "Trend \nIndicators\n"
+  },
+  {
+    "page": 51,
+    "text": "9\nBROKERAGE: TECHNICAL ANALYSIS\nSimple Moving Average\nHow It Works\nDetermine trend direction\n• If the SMA is positively sloping, the trend is up.\n• If the SMA is negatively sloping, the trend is down.\nDetermine trend duration\n• 200-bar SMAs are common proxies for long-term trends.\n• 50-bar SMAs are typically used to gauge intermediate trends.\n• Shorter-period SMAs can be used to determine short-term trends.\nDetermine trading signals via price crosses\n• When prices cross above the SMA, you may want to go long \nor cover short.\n• When prices cross below the SMA, you may want to go short \nor exit long.\nSimple Moving \nAverage (SMA)\nThis is the easiest moving \naverage to construct. It is \ncalculated as the average price \nover the specified period. The \naverage is called “moving” \nbecause it is plotted on the \nchart bar by bar, forming a line \nthat moves along the chart as \nthe average value changes. \nTREND INDICATOR\n"
+  },
+  {
+    "page": 52,
+    "text": "10\nBROKERAGE: TECHNICAL ANALYSIS\nSimple Moving Average\nUsing moving \naverage crossovers \nto generate trading \nsignals\nWhen a more sensitive \n(faster) SMA crosses \nabove a less sensitive \n(slower) SMA from below, \nit is considered bullish.\nWhen a more sensitive \n(faster) SMA crosses \nbelow a less sensitive \n(slower) SMA from above, \nit is considered bearish.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 53,
+    "text": "11\nBROKERAGE: TECHNICAL ANALYSIS\nExponential Moving Average\nHow It Works\nIdentify trends earlier\n• Use the same rules that apply to SMAs when interpreting EMAs. \nKeep in mind that EMAs are generally more sensitive to nearer-term \nprice movement.\nDetermine trend direction \n• When the EMA rises, you may want to consider buying when prices \ndip near or just below the EMA. When the EMA falls, you may \nconsider selling when prices rally toward or just above the EMA.\nIndicate support and resistance areas\n• A rising EMA tends to support the price action, while a falling EMA \ntends to provide resistance to price action.\nExponential \nMoving Average \n(EMA)\nThe EMA measures trend \ndirection over a period of time. \nIt applies more weight to data \nthat is more current. Because of \nits unique calculation, EMA will \nfollow prices more closely than \na corresponding SMA.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 54,
+    "text": "12\nBROKERAGE: TECHNICAL ANALYSIS\nExponential Moving Average\nBoth the EMA and the \nSMA here represent 30 \ndays.\nEMA reacts faster \nto the first pullback and \nthe subsequent rally.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 55,
+    "text": "13\nBROKERAGE: TECHNICAL ANALYSIS\nMoving Average Convergence/Divergence\nHow It Works\nDetermine bullish or bearish \n• MACD crossing above the zero line is considered bullish, while \ncrossing below the zero line is bearish. When MACD turns up from \nbelow the zero line, it is considered bullish. When it turns down from \nabove the zero line, it is considered bearish.\n• When the MACD line crosses from below to above the signal line, \nthe indicator is considered bullish. The further below the zero line \nthis cross occurs, the stronger the signal.\n• When the MACD line crosses from above to below the signal line, \nthe indicator is considered bearish. The further above the zero line \nthis cross occurs, the stronger the signal.\nMoving Average \nConvergence/\nDivergence \n(MACD)\nMACD is a momentum \noscillator primarily used to \ntrade trends.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 56,
+    "text": "14\nBROKERAGE: TECHNICAL ANALYSIS\nMoving Average Convergence/Divergence\nA.\nBullish \nB.\nBullish \nC. Bearish \nD. Bearish \nTREND INDICATOR\n"
+  },
+  {
+    "page": 57,
+    "text": "15\nBROKERAGE: TECHNICAL ANALYSIS\nAverage Directional Movement Index\nHow It Works\nMeasure strength of trend\n• A strong trend is present when ADX is above 25; \nno trend is present when ADX is below 20.\n• If the ADX is declining, it could indicate that the current trend \nis weakening.\n• If the ADX is rising, it could indicate a strengthening trend.\n• The ADX indicator incorporates two different components in its \nconstruction which are commonly plotted along with the ADX.\n‐ Positive Directional Indicator (+DMI) shows the difference between today’s \nhigh price and yesterday’s high price. These values are then added up from \nthe past 14 periods and then plotted.\n‐ Negative Directional Indicator (–DMI) shows the difference between today’s \nlow price and yesterday’s low price. These values are then summed up from \nthe past 14 periods and plotted.\nAverage \nDirectional \nMovement Index \n(ADX)\nADX can be used to help \nmeasure the overall strength \nof a trend.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 58,
+    "text": "16\nBROKERAGE: TECHNICAL ANALYSIS\nAverage Directional Movement Index\nADX is less then 25 on \nthe left side of the chart.\n+DM is greater than -DMI \nthroughout the \nuptrend, though this \nis not a requirement.\nADX has fallen below \n25 on the right side of \nthe chart and -DM has \ncrossed up above +DM.\nRemember that ADX \nshows trend show trend \nstrength – not direction.\nTREND INDICATOR\n"
+  },
+  {
+    "page": 59,
+    "text": "Momentum\nIndicators\n"
+  },
+  {
+    "page": 60,
+    "text": "18\nBROKERAGE: TECHNICAL ANALYSIS\nOverbought/Oversold in Oscillators \n• In bounded indicators, also called “oscillators,” \na limit exists as to how high or low they can reach.\n• When the oscillator reaches a zone close to its \nhighest bound, it is called “overbought.”\n• When it reaches a zone close to its lowest bound, \nit is called “oversold.”\n• An oscillator value in these zones indicate that \nthe market is vulnerable to reversal. A signal \noften occurs when the oscillator exits one of \nthese zones.\n• In some cases, the reaching of extreme levels \nindicates that a new trend has begun. In these \ninstances, the oscillator will remain in a zone for \nthe period of the trend and will give many false \nsignals on corrections to the trend.\n• The interpretation of oscillator oversold \nand overbought is thus dependent on the \nunderlying trend.\n• They don’t work when a trend is strong, but excel \nin trading range markets.\n"
+  },
+  {
+    "page": 61,
+    "text": "19\nBROKERAGE: TECHNICAL ANALYSIS\nStochastic Oscillator\nMOMENTUM INDICATOR\nHow It Works\nDetermine exit and entry\n• Generally, the area above 80 indicates an overbought region, while \nthe area below 20 is considered an oversold region. \n• A sell signal is given when the oscillator is above the 80 level and \nthen crosses back below 80. Conversely, a buy signal is given when \nthe oscillator is below 20 and then crosses back above 20.\n• A crossover signal occurs when the two lines cross in the overbought \nor oversold region.\n• Divergences form when a new high or low in price is not confirmed \nby the Stochastic Oscillator.\nStochastic \nOscillator\nThe Stochastic Oscillator is a \nmomentum indicator that \nshows the location of the close \nrelative to the high-low range \nover a set number of periods. \nThe indicator can range from 0 \nto 100. Stochastic Oscillators \nare most effective in broad \ntrading ranges or slow moving \ntrends. \n"
+  },
+  {
+    "page": 62,
+    "text": "20\nBROKERAGE: TECHNICAL ANALYSIS\nStochastic Oscillator\nThis example is using a \nSlow Stochastic; note the \neffectiveness of \nthe signals during the \nsideways trend.\nDivergences between \nprice and oscillators can \nalso generate signals.\nMOMENTUM INDICATOR\n"
+  },
+  {
+    "page": 63,
+    "text": "21\nBROKERAGE: TECHNICAL ANALYSIS\nRelative Strength Index\nHow It Works\nDetermine the speed and change of price \n• The RSI oscillates from zero and 100. Traditionally, the RSI is \nconsidered overbought when above 70 and oversold when below 30.\n• In an uptrend or bull market, the RSI tends to remain in the 40-90 \nrange with the 40-50 zone acting as support.\n• During a downtrend or bear market, the RSI tends to stay in the \n10-60 range with the 50-60 zone acting as resistance.\n• If underlying prices make a new high or low that isn't confirmed by \nthe RSI, this divergence can signal a price reversal.\nRelative Strength \nIndex (RSI) \nRSI measures the speed and \nchange of price movements.\nMOMENTUM INDICATOR\n"
+  },
+  {
+    "page": 64,
+    "text": "22\nBROKERAGE: TECHNICAL ANALYSIS\nRelative Strength Index\nOverbought and \noversold signals on the \nchart indicate price \nmovement in the \nshort term.\nMOMENTUM INDICATOR\n"
+  },
+  {
+    "page": 65,
+    "text": "Volume\nIndicators\n"
+  },
+  {
+    "page": 66,
+    "text": "24\nGeneral \nRules of \nVolume \nTheory \nIncreasing volume reinforces the \ntrend direction.\nDeclining volume diminishes the \ntrend direction.\nA price peak or trough on ultrahigh \nvolume is often an important reversal \npoint in a trend.\nVolume indicators should be considered \nwarnings but not signals of change in \ntrend direction.\n"
+  },
+  {
+    "page": 67,
+    "text": "25\nBROKERAGE: TECHNICAL ANALYSIS\nOn Balance Volume\nVOLUME INDICATOR\nHow It Works\n• The actual value of the OBV is unimportant; concentrate on its \ndirection.\n• When price continues to make higher peaks and OBV fails to make \nhigher peaks, the upward trend is likely to stall or fail. This is called a \nnegative divergence.\n• When price continues to make lower troughs and OBV fails to make \nlower troughs, the downward trend is likely to stall or fail. This is \ncalled a positive divergence.\nOn Balance \nVolume (OBV)\nOBV measures buying and \nselling pressure as a cumulative \nindicator that adds volume on \nup days and subtracts volume \non down days.\n"
+  },
+  {
+    "page": 68,
+    "text": "26\nBROKERAGE: TECHNICAL ANALYSIS\nOn Balance Volume\nBearish divergence: \nOBV is not confirming \nthe higher peaks in \nprice, which preceded \nthe selloff.\nVOLUME INDICATOR\n"
+  },
+  {
+    "page": 69,
+    "text": "27\nBROKERAGE: TECHNICAL ANALYSIS\nMoney Flow Index\nHow It Works\n• Oversold levels typically occur below 20 and overbought levels \ntypically occur above 80. These levels may change depending on \nmarket conditions. \n• Oversold or overbought levels are generally not reason enough to \nbuy or sell and traders should consider additional technical analysis \nor research to confirm the security's turning point. \n• If the underlying price makes a new high or low that isn't confirmed \nby the MFI, this divergence can signal a price reversal.\nMoney Flow \nIndex (MFI)\nMFI is a volume indicator that \nmeasures the flow of money \ninto and out of a security over a \nspecified period of time. It is \nrelated to the Relative Strength \nIndex (RSI) but incorporates \nvolume, whereas the RSI only \nconsiders price.\nVOLUME INDICATOR\n"
+  },
+  {
+    "page": 70,
+    "text": "28\nBROKERAGE: TECHNICAL ANALYSIS\nMoney Flow Index\nBearish divergence: \nPrice peak not \nconfirmed by MFI.\nBullish divergence: \nPrice trough is not \nconfirmed by MFI. \nBearish Divergence\nBullish Divergence\nVOLUME INDICATOR\n"
+  },
+  {
+    "page": 71,
+    "text": "29\nBROKERAGE: TECHNICAL ANALYSIS\nAccumulation/Distribution\nHow It Works\nDetermine the direction of a trend\n• When both price and Accumulation/Distribution are making higher \npeaks and higher troughs, the uptrend is likely to continue.\n• When both price and Accumulation/Distribution are making lower \npeaks and lower troughs, the downtrend is likely to continue.\n• When price continues to make higher peaks but \nAccumulation/Distribution fails to make higher peak, the uptrend is \nlikely to stall or fail. This is known as a negative divergence.\n• When price continues to make lower troughs and \nAccumulation/Distribution fails to make lower troughs, the \ndowntrend is likely to stall or fail. This is known as a positive \ndivergence.\nAccumulation/ \nDistribution\nAccumulation/Distribution \nlooks at the proximity of closing \nprices to their highs and lows to \ndetermine if accumulation or \ndistribution is occurring in \nthe market. \nVOLUME INDICATOR\n"
+  },
+  {
+    "page": 72,
+    "text": "30\nBROKERAGE: TECHNICAL ANALYSIS\nAccumulation/Distribution\nNegative divergence \nbetween price \nand Accumulation \nDistribution\nNegative Divergence \nbetween Price and \nAccumulation/Distribution\nVOLUME INDICATOR\n"
+  },
+  {
+    "page": 73,
+    "text": "Volatility\nIndicators\n"
+  },
+  {
+    "page": 74,
+    "text": "32\nBROKERAGE: TECHNICAL ANALYSIS\nBollinger Bands®\nVOLATILITY INDICATOR\nHow It Works\nDetermine relative price\n• When the bands tighten during a period of low volatility, it raises the \nlikelihood of a sharp price move in either direction. \n• When the bands separate by an unusually large amount, volatility \nincreases and any existing trend may be ending.\n• Use swings within the band’s envelopes to help identify potential \nprofit targets.\nBollinger Bands\nBollinger Bands are a type of \nprice envelope plotted at a \nstandard deviation level above \nand below a Simple Moving \nAverage of the price. Bollinger \nBands help determine whether \nprices are high or low on a \nrelative basis. \n"
+  },
+  {
+    "page": 75,
+    "text": "33\nBROKERAGE: TECHNICAL ANALYSIS\nBollinger Bands®\nRiding Upper Band \nOscillating between Bands\nBands Narrowing\nRiding Upper Band\nOscillating between Bands\nBands Narrowing\nVOLATILITY INDICATOR\n"
+  },
+  {
+    "page": 76,
+    "text": "34\nBROKERAGE: TECHNICAL ANALYSIS\nAverage True Range\nHow It Works\nDetermine market volatility \n• An expanding ATR indicates increased volatility, whether that’s \nselling or buying pressure.\n• A low ATR value indicates decreased volatility, a series of periods \nwith small ranges.\n• ATR is useful for stops or entry triggers, signaling changes in \nvolatility.\nAverage True \nRange (ATR) \nATR is the average of true \nranges over a specified period. \nATR measures volatility, taking \ninto account any gaps in the \nprice movement.\nVOLATILITY INDICATOR\n"
+  },
+  {
+    "page": 77,
+    "text": "35\nBROKERAGE: TECHNICAL ANALYSIS\nAverage True Range\nPeriods of increased \nvolatility are clearly \nidentified by ATR.\nIncreasing \nVolatility\nVOLATILITY INDICATOR\n"
+  },
+  {
+    "page": 78,
+    "text": "Support and \nResistance\nIndicators\n"
+  },
+  {
+    "page": 79,
+    "text": "37\nBROKERAGE: TECHNICAL ANALYSIS\nFibonacci Retracements \nSUPPORT AND RESISTANCE\nHow It Works\nProvide support and resistance levels \n• Applying these percentages to the difference between the high and \nlow price for the period selected creates a set of price objectives.\n• Depending on the direction of the market, up or down, prices will \noften retrace a significant portion of the previous trend before \nresuming the move in the original direction.\n• These countertrend moves tend to fall into certain parameters, which \nare often the Fibonacci Retracement levels.\nFibonacci \nRetracements\nPlot percentage retracement \nlines based on the \nmathematical relationship \nwithin the Fibonacci sequence. \nThese retracement levels \nprovide support and resistance \nlevels that can be used to target \nprice objectives.\n"
+  },
+  {
+    "page": 80,
+    "text": "38\nBROKERAGE: TECHNICAL ANALYSIS\nFibonacci Retracements \nHere, we have drawn a \ndown sloping Fibonacci \nRetracement line from \nthe absolute peak to \nthe absolute trough \nto determine levels of \nresistance we may meet.\nIn this example, the first \nmajor correction occurred \nat 61.8% retracement.\nSUPPORT AND RESISTANCE\n"
+  },
+  {
+    "page": 81,
+    "text": "39\nBROKERAGE: TECHNICAL ANALYSIS\nFibonacci Retracements\nIn this example, we have \ndrawn a Fibonacci \nRetracement line from \nthe trough to the peak of \nthe price move for which \nwe’re trying to determine \nretracement levels.\nIn this instance, we \nfound support at \n38.2% retracement.\nSUPPORT AND RESISTANCE\n"
+  },
+  {
+    "page": 82,
+    "text": "40\nTechnical \nAnalysis \nWebinar \nSeries\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading.\nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators including, trend, \nmomentum, volume, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 83,
+    "text": "41\nVisit the Fidelity \nLearning Center\nLearn more \nabout putting \ntechnical analysis \nto work for you\nRead: Access the Technical Indicator Guide \nWatch: Check out videos that define core \ntechnical concepts\nAttend: Register for monthly webinars\n"
+  },
+  {
+    "page": 84,
+    "text": "42\nThank\nYou\nPlease join us for our\nupcoming webinars \nFidelity.com/webinars\nDownload Active Trader Pro for free at\nFidelity.com/ATP\nQuestions? Call a trading specialist at \n877-907-4429\n"
+  },
+  {
+    "page": 85,
+    "text": "43\nBROKERAGE: TECHNICAL ANALYSIS\nImportant Information\nAny screenshots, charts, or company trading symbols mentioned are provided for illustrative purposes \nonly and should not be considered an offer to sell, a solicitation of an offer to buy, or a recommendation \nfor the security.\nInvesting involves risk, including risk of loss.\nTechnical analysis focuses on market action – specifically, volume and price. Technical analysis is only one \napproach to analyzing stocks. When considering which stocks to buy or sell, you should use the approach \nthat you're most comfortable with. As with all your investments, you must make your own determination \nas to whether an investment in any particular security or securities is right for you based on your \ninvestment objectives, risk tolerance, and financial situation. Past performance is no guarantee of future \nresults.\nFidelity Brokerage Services LLC, Member NYSE, SIPC, 900 Salem Street, Smithfield, RI 02917\n© 2020 FMR LLC. All rights reserved.\n916551.1.0\n"
+  },
+  {
+    "page": 86,
+    "text": "BROKERAGE: TECHNICAL ANALYSIS\nIdentifying Chart Patterns \nwith Technical Analysis\nA Fidelity Investments Webinar Series\n"
+  },
+  {
+    "page": 87,
+    "text": "1\nTechnical \nAnalysis \nWebinar \nSeries\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading.\nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators, including trend, \nmomentum, volume, volatility, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 88,
+    "text": "2\nAbout Our \nCoauthor\nCharles D. Kirkpatrick II, CMT\nCharles D. Kirkpatrick II, CMT, is president of Kirkpatrick & Company, Inc., a technical \nanalysis research firm that publishes the Market Strategist investment newsletter. A \npast instructor in finance at the School of Business Administration at Fort Lewis College \nand adjunct professor of finance at Brandeis University International Business School, \nhe is a two-time winner of the Chartered Market Technicians Association’s prestigious \nCharles H. Dow Award for research in technical analysis, winner of the MTA Annual \nAward in 2008 for “Outstanding Contributions to the Field of Technical Analysis,” and \nwinner in 2012 of the Mike Epstein Award from the MTA Educational Foundation for \n“Long-Term sponsorship of Technical Analysis in Academia.”   \nHe is a Chartered Market Technician, a past member of the board of directors of the \nMarket Technicians Association, past editor of the Journal of Technical Analysis, past \nboard member and vice president of the CMT Association Educational Foundation and \na member of the American Association of Professional Technicians (AAPTA).  He \ncoauthored Technical Analysis: The Complete Source for Financial Market Technicians, \nthe primary textbook for the CMT program and for university graduate courses on \ntechnical analysis, authored Beat the Market and, most recently, Time the Markets: \nUsing Technical Analysis to Interpret Economic Data.\nHe is a graduate of Phillips Exeter Academy, Harvard College (AB), and the Wharton \nSchool (MBA) and lives with his wife in Maine. \n"
+  },
+  {
+    "page": 89,
+    "text": "3\nBROKERAGE: TECHNICAL ANALYSIS\nConstruction \nof Common\nChart Patterns\nUnderstanding \nPatterns and \nTheir Limits\nTechniques for \nTrading Patterns \nAgenda\n"
+  },
+  {
+    "page": 90,
+    "text": "Understanding \nPatterns and \nTheir Limits\n"
+  },
+  {
+    "page": 91,
+    "text": "5\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Patterns\n• A pattern is bounded by at least two trend lines (straight or curved)\n• All patterns have a combination of entry and exit points\n• Patterns can be continuation patterns or reversal patterns\n• Patterns are fractal, meaning that they can be seen in any charting \nperiod (weekly, daily, minute, etc.)\n• A pattern is not complete or activated until an actual breakout occurs\n"
+  },
+  {
+    "page": 92,
+    "text": "6\nBROKERAGE: TECHNICAL ANALYSIS\nThe Limits of Patterns\nKeep in Mind\nSome of our human tendencies can be \ndangerous for investors.\n• See patterns where there aren’t any\n• Believe “market lore,” technical and fundamental, without evidence\n• Look backwards rather than forward\n• Stick with original price targets of patterns after conditions have \nchanged\n"
+  },
+  {
+    "page": 93,
+    "text": "Techniques for \nTrading Patterns\n"
+  },
+  {
+    "page": 94,
+    "text": "8\nBROKERAGE: TECHNICAL ANALYSIS\nTechniques for Trading Patterns\n• Breakouts\n• Entry Stops\n• Protective Stops\n• Retracements\n"
+  },
+  {
+    "page": 95,
+    "text": "9\nBROKERAGE: TECHNICAL ANALYSIS\nBreakouts\nViolation of Trend Line, \nSupport or Resistance, or \nprevious reversal point\nIt signifies that a change \nin buyer and seller \nbehavior and signals \nthe beginning or end \nof a trend.\nResistance\nBreakout\nPrice\n"
+  },
+  {
+    "page": 96,
+    "text": "10\nBROKERAGE: TECHNICAL ANALYSIS\nConfirmation Filters\nTypes of Filters\n• Intrabar\n• Multiple closes\n• Time\n• Percentage or point\n• Money\nConfirmation \nFilters\nApply a confirmation filter to \ndetermine whether a breakout \nhas taken place.\n"
+  },
+  {
+    "page": 97,
+    "text": "11\nBROKERAGE: TECHNICAL ANALYSIS\nEntry Stops\nEntry Stops\nBuy stop orders are used to \nenter trades once the price \nbreaks out.\nResistance Breakout\nTrend Line Breakout\n"
+  },
+  {
+    "page": 98,
+    "text": "12\nBROKERAGE: TECHNICAL ANALYSIS\nFalse and Failed Breakouts\nFalse Breakout\nPrice breaks out but almost \nimmediately returns back \nthrough its breakout price.\nFailed Breakout \n(Trap) \nFalse breakout occurs and \nthe price then breaks out in \nthe opposite direction.\nResistance \nLine\nBreakout\nFalse Breakout (return \nthrough breakout level)\nFailed Breakout\nTrend Line\n"
+  },
+  {
+    "page": 99,
+    "text": "13\nBROKERAGE: TECHNICAL ANALYSIS\nProtective Stops\nProtects Capital\nDetermines the amount of \ncapital risk before entry\nTypes of \nplacement\n•\nFilters, such as percent, \npoints, or money\n•\nTrend line, support or \nresistance level with filter\nResistance Line\nProtective Stop\nBreakout\n"
+  },
+  {
+    "page": 100,
+    "text": "14\nBROKERAGE: TECHNICAL ANALYSIS\nTrading False Breakouts Using Protective Stops\nExample\n•\nEnter on breakout\n•\nPlace protective stop \noutside breakout bar \nopposite from breakout \ndirection\n•\nPlace entry stop at same \nlevel (called a “stop and \nreverse” order)\n•\nIf price continues in \ndirection of breakout, profit \nfrom breakout entry\n•\nIf breakout is false, profit \nfrom stop and reverse\nFalse Breakout\nFailure\nProtective sell stop and sell \nshort entry stop\n"
+  },
+  {
+    "page": 101,
+    "text": "15\nBROKERAGE: TECHNICAL ANALYSIS\nRetracements\nCounter Trend \nCorrection\nTypes\n•\nPullback (on breakout down)\n•\nThrowback (on breakout up)\nWaiting for\n•\nDon’t always occur\n•\nPerformance can suffer \nwhen they do\nRetracement (pullback)\nTrend Line Breakout\n"
+  },
+  {
+    "page": 102,
+    "text": "Construction of \nCommon Chart \nPatterns\n"
+  },
+  {
+    "page": 103,
+    "text": "17\nBROKERAGE: TECHNICAL ANALYSIS\nCommon Chart Patterns\nMulti-Bar \nPatterns\nHorizontal Congestion\n•\nDouble and Triple \nTops/Bottoms\n•\nRectangles\nTriangles\n•\nSymmetrical\n•\nAscending and Descending\n•\nWedges\nOther\n•\nHead and Shoulders\n•\nCup and Handle\nCandlestick \nPatterns\n•\nDoji\n•\nHarami\n•\nHanging Man/Hammer\n•\nShooting Star/Inverted \nHammer\n•\nEngulfing\n•\nDark Cloud/Piercing\nShort-Term \nPatterns\n•\nPennant/Flag\n•\nGaps\n•\nPipe Bottom\n•\nNarrow Range\n"
+  },
+  {
+    "page": 104,
+    "text": "18\nBROKERAGE: TECHNICAL ANALYSIS\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \nHorizontal Congestion: Double Top\nCharacteristics:\n•\nTwo successive peaks separated \nby an opposite reversal point\n•\nEither rounded or pointed peaks \nthat are usually at roughly the same \nprice (resistance level)\n•\nPrice must break out of middle \nreversal point\nDouble Top\nBreakout\nResistance Line\nSupport \nLine\nBreakout\nPullback\nEntry\nPrice\nDouble Top\n(breakout down)\nCalculate target price:\nTaking the height from the highest peak to the trough and \nthen subtracting the amount from the breakout price to the \ndownside.\n"
+  },
+  {
+    "page": 105,
+    "text": "19\nBROKERAGE: TECHNICAL ANALYSIS\nHorizontal Congestion: Double Bottom\nCharacteristics:\n•\nTwo successive troughs separated \nby a peak\n•\nEither rounded or pointed troughs \nthat are usually at roughly the same \nprice (support level)\n•\nPrice must break out of \nmiddle peak\nDouble Bottom\nBreakout\nResistance line\nSupport line\nBreakout\nThrowback\nEntry\nPrice\nDouble Bottom\n(breakout up)\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \nCalculate target price:\nTaking the distance from the troughs to the peak and then \nadding that amount from the breakout price to the upside.\n"
+  },
+  {
+    "page": 106,
+    "text": "20\nBROKERAGE: TECHNICAL ANALYSIS\nCharacteristics:\n•\nThree distinct peaks at roughly the \nsame price level separated by two \nintermittent troughs\n•\nBreakout occurs when price exceeds \nthe extreme of the intermittent \ntrough or a trend line connecting \nthose points\nHorizontal Congestion: Triple Top\nResistance line\nSupport line\nBreakout\nPullback\nEntry\nPrice\nTriple Top\n(breakout down)\nTriple \nTop\nBreakout\nCalculate target price:\nTake the height from the highest peak to the lowest trough \nin the pattern. Then subtract that amount from the lowest \ntrough in the pattern to generate a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 107,
+    "text": "21\nBROKERAGE: TECHNICAL ANALYSIS\nHorizontal Congestion: Triple Bottom\nCharacteristics:\n•\nThree distinct troughs at roughly the \nsame price level separated by two \nintermittent peaks at any level\n•\nBreakout occurs when price exceeds \nthe extreme of the intermittent peaks \nor a trend line connecting those \npoints\n•\nBest performance may be after a \nsustained decline*\n•\nAn average performance, but watch \nfor failures*\nResistance line\nSupport line\nBreakout\nThrowback\nEntry\nPrice\nTriple Bottom\n(breakout up)\nTriple \nBottom\nBreakout\nCalculate target price:\nTake the height from the highest peak to the lowest trough \nin the pattern. Then add that amount to the highest peak in \nthe pattern to generate a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 108,
+    "text": "22\nBROKERAGE: TECHNICAL ANALYSIS\nCharacteristics:\n•\nTrading range with support and \nresistance levels bounding price \naction \n•\nSlight tilt, similar to horizontal \nchannel\n•\nOften has many false breakouts*\n•\nThings to consider:\n‐\nConfirm a breakout\n‐\n“Shortfall” often indicator of eventual \nbreakout direction\n•\nBest occurrence may be bottom \nbreaking upward*\nHorizontal Congestion: Rectangles\nResistance line\nSupport line\nBreakout\nThrowback\nEntry\nPrice\nRectangle\n(entry up, breakout up)\nResistance Zone\nBreakout\nShortfall\nSupport Zone\nCalculate target price:\nTake the height from the resistance line to the support line. Then \neither add that amount to the resistance line to generate a price \ntarget for an upside breakout, OR subtract that amount from the \nsupport line to generate a price target for a downside breakout.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 109,
+    "text": "23\nBROKERAGE: TECHNICAL ANALYSIS\nCharacteristics:\n•\nBounded by a downward sloping \nupper trend line and an upward \nsloping lower trend line. Each bound \nis a straight trend line\n•\nPrices must touch each bound at \nleast twice. Many false breakouts.  \nModerately successful in \nperformance\n•\nThings to consider:\n‐ Confirm a breakout\n•\nBest occurrence may be upward \nbreaking out – above average for \nall patterns*\nTriangle: Symmetrical\nBreakout\nThrowback\nEntry\nPrice\nSymmetrical Triangle\n(breakout up)\nTarget Line\nCradle\nCalculate target price:\nTake the height from the highest peak in the pattern to the \nlowest trough in the pattern. Then either add it (for upward \nbreakouts) to the breakout price or subtract it (for downward \nbreakouts) from the breakout price to generate a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 110,
+    "text": "24\nBROKERAGE: TECHNICAL ANALYSIS\nCharacteristics:\n•\nBounded by a horizontal upper trend \nline and an upward sloping lower \ntrend line. Each bound is a straight \ntrend line\n•\nPrices can break in either direction, \nbut more commonly upward*\n•\nBreakout usually occurs in pattern. \nAbout average failure rates but many \nsmall false breakouts*\n•\nPost breakout performance average \non upside but above average on \ndownside*\nTriangle: Ascending\nPullback\nEntry\nPrice\nAscending Triangle\n(breakout down)\nTarget \nLine\nBreakout\nUptrend Line\nResistance line\nSupport line\nCalculate target price:\nTake the height from the highest peak in the pattern to the \nlowest trough in the pattern. Then either add it (for upward \nbreakouts) to the breakout price or subtract it (for downward \nbreakouts) from the breakout price to generate a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 111,
+    "text": "25\nBROKERAGE: TECHNICAL ANALYSIS\nCharacteristics:\n•\nBounded by two trend lines; the \nlower is horizontal and the upper \nslopes downward\n•\nPrices can break in either direction \nbut most commonly downward*\n•\nAbove-average performance on \nupside break; retracements occur \noften*\nTriangle: Descending\nPullback\nEntry\nPrice\nDescending Triangle\n(breakout down)\nBreakout Down\nBreakout\nDowntrend \nLine\nResistance line\nSupport line\nCalculate target price:\nTake the height from the highest peak in the pattern to the \nlowest trough in the pattern. Then either add it (for upward \nbreakouts) to the breakout price or subtract it (for downward \nbreakouts) from the breakout price to generate a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 112,
+    "text": "26\nBROKERAGE: TECHNICAL ANALYSIS\nTriangle: Wedge\nCharacteristics:\n•\nBounded by two trend lines, each \nheaded in the same direction; Price \nmust touch a trend line at least five \ntimes (3 times on one and 2 times on \nthe other) before a breakout\n•\nOften occur following a panic \n(declining wedge) or bubble \n(rising wedge)\n•\nPerformance in both types is below \naverage, and retracements are \nvery common*\nPullback\nClimax\nPrice\nRising Wedge\n(breakout down from climax peak)\nBreakout\nEntry\nCalculate target price:\nFor downward breakout, the lowest trough in the pattern is the \nprice target. For upward breakouts, take the height from the \nhighest peak in the pattern to the lowest trough in the pattern \nand add that amount to the breakout price for a price target.\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 113,
+    "text": "27\nBROKERAGE: TECHNICAL ANALYSIS\nHead and Shoulders: Top\nCharacteristics:\n•\nThree peaks with center peak higher \nthan the other two\n•\nShoulders should be at approximately \nthe same level and the head higher\n•\nLine connecting the two throughs \nbetween the peaks is called \nthe “neckline”\n•\nPattern is only complete on breaking \nthe neckline\n•\nTarget is the distance from the head to \nthe neckline projected from the neckline \n•\nThis is a standard pattern for tops and \nhas one of the lowest failure rates\nNeckline\nTarget\nLeft Shoulder\nHead\nRight Shoulder\nBreakout\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 114,
+    "text": "28\nBROKERAGE: TECHNICAL ANALYSIS\nHead and Shoulders: Bottom (Inverse)\nCharacteristics:\n•\nInverted but otherwise \nidentical to a top pattern \nexcept not as profitable*\nNeckline\nLeft Shoulder\nHead\nEntry\nPrice\nHead and Shoulders Bottom\n(breakout up)\nNeckline\nBreakout\nBreakout\nRight Shoulder\nThrowback\nLeft Shoulder\nRight \nShoulder\nHead\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 115,
+    "text": "29\nBROKERAGE: TECHNICAL ANALYSIS\nCup and Handle (also “Saucer”)\nCharacteristics:\n•\nPattern consists of a rounded bottom \n(not a “V” bottom), two “lips” at each \nend, and a “handle” (similar to a flag \npattern) from the handle\n•\nPattern is complete with breakout \nabove both lips\n•\nOften have a throwback\n•\nThe pattern’s performance ranks \nabout average for bottom patterns*\nCalculate target price:\nTake the height of the right cup lip to the bottom of the \ncup, then add that amount to the breakout price.\nPrice\nRounding Bottom\n(breakout up)\nBreakout \nDown\nEntry\nLip\nHandle\nThrowback\nBreakout\nCup or Bowl\nBreakout\nLip\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 116,
+    "text": "30\nBROKERAGE: TECHNICAL ANALYSIS\nTrading with Patterns\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n= Buy\n= Stop\n= Exit\nRectangle\nTriangle\nTriangle\nWedge\nWedge\n"
+  },
+  {
+    "page": 117,
+    "text": "31\nBROKERAGE: TECHNICAL ANALYSIS\nBest Multi-Bar Patterns\nUpward Signals\n• Descending \nTriangle\n• Rectangle\n• Pipe Bottom\nDownward Signals\n• Flag\n• Head and \nShoulders top\n• Island Reversal\n"
+  },
+  {
+    "page": 118,
+    "text": "32\nBROKERAGE: TECHNICAL ANALYSIS\nGeneral Information about a Candlestick\nCharacteristics:\n•\nTraditionally, candlestick patterns are reversal patterns, meaning they \nare used to identify when a trend is ending\n•\nCandlestick patterns are often used with longer-term trends, thus, \nupward reversal patterns after a correction in a longer upward trend \nshow the best performance, and vice versa for downward reversal \npatterns in a long downward trend\n•\nBe careful not to act on a perceived candle pattern until the pattern \nhas formed and is activated by a breakout in a certain direction\n"
+  },
+  {
+    "page": 119,
+    "text": "33\nBROKERAGE: TECHNICAL ANALYSIS\nDoji\nCharacteristics:\n•\nA one-candle pattern formed when the open \nand close are the same price, and the high \nand low are roughly equidistant from the open \nand close\n•\nExtremely common\n•\nIndicates indecision in the marketplace and \nthus is a possible warning of price change\nDoji\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 120,
+    "text": "34\nBROKERAGE: TECHNICAL ANALYSIS\nHarami\nCharacteristics:\n•\nA two-candle pattern of a large body of either \ncolor followed by a small body of the opposite \ncolor; The second body is completely within \nthe body of the large body and is called a \n“spinning top”\n•\nAlthough common belief is that the harami is \na reversal pattern, many report that is has the \npotential of breaking either way\n•\nA variation that has a doji instead of a spinning \ntop as the second candle has equally average \nperformance and random breakout*\nHarami\nTop\nBottom\nCandle body can \nbe Black or White\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 121,
+    "text": "35\nBROKERAGE: TECHNICAL ANALYSIS\nHanging Man and Hammer\nCharacteristics:\n•\nOne-candle patterns differentiated by the color \nof the body. Each pattern has a high that \ncoincides with either the opening  or closing \nprice\n•\nHanging man, thought to be a continuation \npattern, actually breaks in either direction \nrandomly with a slight upward bias. Its overall \nperformance is below average*\n•\nHammers occur relatively frequently but have \nbelow-average performance*\nHanging Man — Hammer\nTop\nBottom\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 122,
+    "text": "36\nBROKERAGE: TECHNICAL ANALYSIS\nShooting Star and Inverted Hammer\nCharacteristics:\n•\nA one-candle inverted hanging man or hammer \npattern. Hammers by themselves have white \nbodies and shooting stars have black bodies \n•\nAs a one-candle pattern, the shooting star has \naverage performance. The same is true for the \nsingle inverted hammer*\nShooting Star and \nInverted Hammer\nTop\nBottom\nEither Can Be \nBlack or White\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 123,
+    "text": "37\nBROKERAGE: TECHNICAL ANALYSIS\nEngulfing\nCharacteristics:\n•\nA two-bar pattern in which the second bar \nbody completely engulfs the first bar body*\n•\nA bottom engulfing pattern, with a short black \nbody followed by a tall white body, is thought \nto be an upward reversal pattern and actually \nhas very good  performance on a downward \nbreakout in a downward trend*\nEngulfing\nTop\nBottom\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 124,
+    "text": "38\nBROKERAGE: TECHNICAL ANALYSIS\nDark Cloud Cover and Piercing Line\nCharacteristics:\n•\nThe dark cloud cover is a two-bar pattern where \nthe second bar closes higher than the first and \nis black versus white in the first bar \n•\nThe piercing line is the opposite of the dark \ncloud cover in that the second bar is white and \nlower than the first bar which is black\n•\nThe dark cloud is thought to be a downward \nreversing pattern \n•\nThe piercing line pattern is thought to be an \nupward reversing pattern*\nDark Cloud Cover \nand Piercing Line\nTop\nBottom\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 125,
+    "text": "39\nBROKERAGE: TECHNICAL ANALYSIS\nPennant/Flag\nCharacteristics:\n•\nPennant and flag patterns are \nvariations of the same pattern\n•\nThese patterns are often preceded by \na steep, sharp price change, up or \ndown, and form a short consolidation \nthat appears like a triangle or flag.  \nGenerally, the pattern slopes slightly \nin the direction opposite from the \ntrend\n•\nThe breakout in either direction is \noften followed by a move that equals \nthe earlier steep, sharp price change \ninto the pattern\nCalculate target price:\nTake the height from the start of the \"flag pole” to the \nhighest peak in the pennant. Add that amount to the \nbottom of the pennant for an upward price target.\nPrice\nFlag and Pennant\nin upward trend\nFlag\nPennant\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 126,
+    "text": "40\nBROKERAGE: TECHNICAL ANALYSIS\nGaps\nGap Up\nCharacteristics\n•\nDefinition – no trading (gap) \nat specific prices \n•\nGaps can be considered \n“up” or “down”\n•\nGaps are caused by \nappreciable changes \nin supply and demand \nfrom one close to the \nfollowing open\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 127,
+    "text": "41\nBROKERAGE: TECHNICAL ANALYSIS\nGaps\nCharacteristics\n•\nGaps are generally profitable on \nbreakouts from patterns, trends, \nsupport or resistance\n•\nA method of trading a gap is the \n“explosion gap pivot.” It assures \nthat the gap is valid \n•\nAfter the gap, wait for \n“throwback.” If throwback “covers” \nthe gap, no action. If the \nthrowback stops, this is called the \n“pivot low.” Place buy entry above \nhigh of the gap bar\n•\n“Pivot” is the lowest level of the \npost-gap breakout\n•\nProtective stops initially placed at \ngap low and then below pivot low\nGap\nPivot Low\nBreakout\nPivot Low\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 128,
+    "text": "42\nBROKERAGE: TECHNICAL ANALYSIS\nTwo-Bar Reversal Button or Pipe Bottom\nCharacteristics:\n•\nTwo bars and occurs at the end of a large \ntrend, up or down trend. Ideally, the first bar, \nin a bottom pattern, closes at the low, and the \nsecond bar closes in the upper half of the range. \nIt is more reliable in weekly data\n•\nBar ranges are larger than preceding \nbar ranges \n•\nAction occurs on breakout through second bar\nCalculate target price:\nTake the height from the taller of the two bars to the lower \nof the two bars. Add that amount to the taller of the two \nbars to get a price target.\nTwo-Day Reversal Bottom\n(or Pipe Bottom)\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 129,
+    "text": "43\nBROKERAGE: TECHNICAL ANALYSIS\nVolatility Patterns\nCharacteristics:\n•\nDull activity is known as “low volatility.” New \ntrends often begin from periods of low volatility \n•\nOne way to look at volatility is to observe the \nrelationship between price bars \n•\n“Range” is the spread between high and low in \na price bar \n•\nIf a bar is followed by a bar with less range, \nvolatility is declining; the second bar is called a \n“narrow range” bar \n•\nWhen this second bar’s range is contained \nwithin the range of its preceding bar, it is called \nan “inside bar.”\nInside Bar\nBuy next bar\nat opening \nabove inside \nbar close\nSell next bar\nat opening \nbelow inside \nbar close\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 130,
+    "text": "44\nBROKERAGE: TECHNICAL ANALYSIS\nNarrow Range\nCharacteristics:\n•\nOne low volatility pattern is called a “Narrow \nRange” pattern and consists of a bar with a \nrange narrower than its preceding bars\n•\nThe graph shows a four-bar, Narrow Range \npattern (NR4) with four bars, the fourth bar \nhaving a narrower range than the preceding \nthree bars\n•\nThe breakout occurs on a break above or below \nthe high or low of the narrow range\nNR4\nRange on day 4 less \nthan days 1-3\nBuy\nSell\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \n"
+  },
+  {
+    "page": 131,
+    "text": "45\nTechnical \nAnalysis \nWebinar \nSeries\nGetting Started with Technical Analysis \nLearn the assumptions that guide technical analysis, and get to \nknow the basics of trend trading.\nUnderstanding Indicators in Technical Analysis\nIdentify the various types of technical indicators including, trend, \nmomentum, volume, and support and resistance.\nIdentifying Chart Patterns with Technical Analysis\nUse charts and learn chart patterns through specific examples of \nimportant patterns in bar and candlestick charts.\nManaging Risk with Technical Analysis\nManage your trading risk with a range of confirmation methods.\n"
+  },
+  {
+    "page": 132,
+    "text": "46\nVisit the Fidelity \nLearning Center\nLearn more about \nputting technical \nanalysis to work \nfor you\nRead: Access the Technical Indicator Guide \nWatch: Check out videos that define core \ntechnical concepts\nAttend: Register for monthly webinars\n"
+  },
+  {
+    "page": 133,
+    "text": "47\nThank\nYou\nPlease join us for our upcoming webinars \nFidelity.com/webinars\nDownload Active Trader Pro for free at\nFidelity.com/ATP\nQuestions? Call a trading specialist at \n877-907-4429\n"
+  },
+  {
+    "page": 134,
+    "text": "48\nBROKERAGE: TECHNICAL ANALYSIS\nImportant Information\nAny screenshots, charts, or company trading symbols mentioned are provided for illustrative purposes only and should not be considered \nan offer to sell, a solicitation of an offer to buy, or a recommendation for the security.\nInvesting involves risk, including risk of loss.\nPast performance is no guarantee of future results\nStop loss orders do not guarantee the execution price you will receive and have additional risks that may be compounded in periods of \nmarket volatility. Stop loss orders could be triggered by price swings and could result in an execution well below your trigg er price.\nTrailing stop orders may have increased risks due to their reliance on trigger pricing, which may be compounded in periods of market \nvolatility, as well as market data and other internal and external system factors. Trailing stop orders are held on a separat e, internal order \nfile, place on a \"not held\" basis and only monitored between 9:30 AM and 4:00 PM Eastern.\nTechnical analysis focuses on market action – specifically, volume and price. Technical analysis is only one approach to analyzing stocks. \nWhen considering which stocks to buy or sell, you should use the approach that you're most comfortable with. As with all your investments, \nyou must make your own determination as to whether an investment in any particular security or securities is right for you based on your \ninvestment objectives, risk tolerance, and financial situation. Past performance is no guarantee of future results.\nFidelity Brokerage Services LLC, Member NYSE, SIPC, 900 Salem Street, Smithfield, RI 02917\n© 2020 FMR LLC. All rights reserved.\n919638.1.0\n"
+  }
+]

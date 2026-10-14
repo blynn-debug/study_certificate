@@ -1,0 +1,72 @@
+{
+  "source_id": "s2_fidelity_patterns",
+  "source_metadata": {
+    "id": "s2_fidelity_patterns",
+    "requested_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/documents/atp-classroom/slides/investments-webinar-getting-started-technical-analysis.pdf",
+    "retrieved_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/documents/atp-classroom/slides/investments-webinar-getting-started-technical-analysis.pdf",
+    "retrieved_at": "2026-10-13T16:44:20.650097+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "3b640d8efff22a60bf2732577de81f65356d4df3551082dbf4af928ced48afd3",
+    "binary_sha256": "3b640d8efff22a60bf2732577de81f65356d4df3551082dbf4af928ced48afd3",
+    "text_sha256": "1ee2de25b1cec9f081d1d875025188d94a1d5c0d05f633417dae88a119bfb35c",
+    "pages": 134,
+    "characters": 58892,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 5,
+  "items": [
+    {
+      "id": "s2_fidelity_patterns:page28",
+      "source_id": "s2_fidelity_patterns",
+      "article": "page28",
+      "heading": "page28",
+      "text": "[PDF page 28]\n28\nBROKERAGE: TECHNICAL ANALYSIS\nUpward Sloping\nA line connecting \ntrough to higher \ntrough",
+      "start": 8017,
+      "end": 8125,
+      "sha256": "d20fe849d893b8d3212f4b8cac3373d6a6941fb0486cd1c28fc65f18d70ffdf4"
+    },
+    {
+      "id": "s2_fidelity_patterns:page30",
+      "source_id": "s2_fidelity_patterns",
+      "article": "page30",
+      "heading": "page30",
+      "text": "[PDF page 30]\n30\nBROKERAGE: TECHNICAL ANALYSIS\nSupport and Resistance\nSupport\nHorizontal line drawn \nthrough troughs at the \nsame price level\nResistance\nHorizontal line \ndrawn through peaks at \nthe same price level",
+      "start": 8229,
+      "end": 8446,
+      "sha256": "d0630d7cc23548cf5a6886724870b00c6fb850326f0b3f792d4f9d222114a2fc"
+    },
+    {
+      "id": "s2_fidelity_patterns:page61",
+      "source_id": "s2_fidelity_patterns",
+      "article": "page61",
+      "heading": "page61",
+      "text": "[PDF page 61]\n19\nBROKERAGE: TECHNICAL ANALYSIS\nStochastic Oscillator\nMOMENTUM INDICATOR\nHow It Works\nDetermine exit and entry\n• Generally, the area above 80 indicates an overbought region, while \nthe area below 20 is considered an oversold region. \n• A sell signal is given when the oscillator is above the 80 level and \nthen crosses back below 80. Conversely, a buy signal is given when \nthe oscillator is below 20 and then crosses back above 20.\n• A crossover signal occurs when the two lines cross in the overbought \nor oversold region.\n• Divergences form when a new high or low in price is not confirmed \nby the Stochastic Oscillator.\nStochastic \nOscillator\nThe Stochastic Oscillator is a \nmomentum indicator that \nshows the location of the close \nrelative to the high-low range \nover a set number of periods. \nThe indicator can range from 0 \nto 100. Stochastic Oscillators \nare most effective in broad \ntrading ranges or slow moving \ntrends.",
+      "start": 21293,
+      "end": 22243,
+      "sha256": "01a74c0ca7afd7d541d5c2b97532c82d1bd4185686124b4e070feac54f6aaf9c"
+    },
+    {
+      "id": "s2_fidelity_patterns:page104",
+      "source_id": "s2_fidelity_patterns",
+      "article": "page104",
+      "heading": "page104",
+      "text": "[PDF page 104]\n18\nBROKERAGE: TECHNICAL ANALYSIS\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed. \nHorizontal Congestion: Double Top\nCharacteristics:\n•\nTwo successive peaks separated \nby an opposite reversal point\n•\nEither rounded or pointed peaks \nthat are usually at roughly the same \nprice (resistance level)\n•\nPrice must break out of middle \nreversal point\nDouble Top\nBreakout\nResistance Line\nSupport \nLine\nBreakout\nPullback\nEntry\nPrice\nDouble Top\n(breakout down)\nCalculate target price:\nTaking the height from the highest peak to the trough and \nthen subtracting the amount from the breakout price to the \ndownside.",
+      "start": 38487,
+      "end": 39153,
+      "sha256": "9d2378571d8aa1dcc30441d9007c028ee7cca6f7affb00a7cdeb4fac0a6f6104"
+    },
+    {
+      "id": "s2_fidelity_patterns:page113",
+      "source_id": "s2_fidelity_patterns",
+      "article": "page113",
+      "heading": "page113",
+      "text": "[PDF page 113]\n27\nBROKERAGE: TECHNICAL ANALYSIS\nHead and Shoulders: Top\nCharacteristics:\n•\nThree peaks with center peak higher \nthan the other two\n•\nShoulders should be at approximately \nthe same level and the head higher\n•\nLine connecting the two throughs \nbetween the peaks is called \nthe “neckline”\n•\nPattern is only complete on breaking \nthe neckline\n•\nTarget is the distance from the head to \nthe neckline projected from the neckline \n•\nThis is a standard pattern for tops and \nhas one of the lowest failure rates\nNeckline\nTarget\nLeft Shoulder\nHead\nRight Shoulder\nBreakout\n*Source: Technical Analysis: the Complete Resource for Financial Market Technicians, 2nd ed.",
+      "start": 45784,
+      "end": 46458,
+      "sha256": "c52afef427841aeb9fc0e8ea97221d453c297b8b7fac813e86093066b25d1e40"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tax_framework",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289999&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289999&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:23.868829+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 154263,
+  "content_sha256": "33644840f34b875e15696c428b8fb1703fbe1374fd20545b1609cce9eccc3b88",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "2"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

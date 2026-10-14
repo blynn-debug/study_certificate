@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_fsc_securitization2020",
+  "source_metadata": {
+    "id": "s1_fsc_securitization2020",
+    "requested_url": "https://www.fsc.go.kr/po010106/74333",
+    "retrieved_url": "https://www.fsc.go.kr/po010106/74333",
+    "retrieved_at": "2026-10-13T15:59:04.350471+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 9666,
+    "content_sha256": "926bfe9c7245c6e63cf2073b865faeeb0515f24541dd3d1937e3f6a1c8e6dca3",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_fsc_securitization2020:비등록유동화",
+      "source_id": "s1_fsc_securitization2020",
+      "article": "비등록유동화",
+      "heading": "비등록유동화",
+      "text": "[5] 비등록유동화 증권 만기불일치 문제 개선\nㅇ 부동산PF ABCP 등의 경우, 단기로 자금을 조달하여 차환을 통해 장기사업에 운용하고 있는데, Duration을 일치시키는 방향으로 개선해 나갈 필요가 있습니다.\nㅇ 시장상황을 충분히 고려하고 업계 의견을 수렴하여 추가검토 후 개선방안을 마련하겠습니다.",
+      "start": 5639,
+      "end": 5809,
+      "sha256": "10591635030c3b38d9d1b228d8c17ad99c6982b08feaee19baeb1893aae57318"
+    }
+  ]
+}

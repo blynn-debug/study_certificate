@@ -1,0 +1,14 @@
+{
+  "id": "pigou_richmond1998",
+  "requested_url": "https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/annual_report/1998/pdf/ar.pdf",
+  "retrieved_url": "https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/annual_report/1998/pdf/ar.pdf",
+  "retrieved_at": "2026-10-13T16:14:08.153347+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "508200b2f74242ac20230cdbca5e001508859635d5df8e8edbe0f264a609b822",
+  "binary_sha256": "508200b2f74242ac20230cdbca5e001508859635d5df8e8edbe0f264a609b822",
+  "text_sha256": "866b7b9616d7317a948f8873442429460df40e7a3731bb505f25cb591f79b2e5",
+  "pages": 54,
+  "characters": 164791,
+  "status": "retrieved_not_claim_verified"
+}

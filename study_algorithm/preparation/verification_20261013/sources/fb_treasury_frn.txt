@@ -1,0 +1,163 @@
+Floating Rate Notes — TreasuryDirect
+Skip Navigation
+An official website of the United States government
+Here’s how you know
+U.S. Department of the Treasury
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Menu
+Log In
+Savings Bonds
+About U.S. Savings Bonds
+Buy a Bond
+Gift a Savings Bond
+Cash In a Bond
+Savings Bond Value Calculator
+Manage Bonds
+Forms for Savings Bonds
+Treasury Hunt
+Treasury Marketable Securities
+About Treasury Marketable Securities
+Treasury Bills
+Treasury Bonds
+Treasury Notes
+TIPS
+Floating Rate Notes (FRNs)
+STRIPS
+Forms for Treasury Marketable Securities
+Treasury Hunt
+Auctions
+About Auctions
+How Auctions Work (Participating)
+When Auctions Happen (Schedules)
+Reopenings
+Announcements, Data & Results
+Buyback Announcements and Results
+Upcoming Auctions
+Recent Auction Results
+Auction Search (Query)
+Auction Press Releases
+Auction Regulations (UOC)
+Laws and Regulations
+About Laws and Regulations
+Auction Regulations (UOC)
+Collateral Programs
+Commercial Book-Entry Regulations (TRADES)
+Frauds, Phonies, & Scams
+Government Securities Act (GSA) Regulations
+Large Position Reporting (LPR)
+Redemption (Buyback) Operations Regulations
+Treasury Marketable Securities Regulations
+Savings Bond Regulations
+TreasuryDirect Regulations
+Research Center
+Government Users
+For Government Users
+Federal Investments Program
+SLGS & SLGSafe
+Security Liquidation & Proceeds
+Federal Borrowings Program
+Treasury Managed Accounts
+Funds Management Program Reports
+History of the Debt
+Public Debt Reports
+Interest Rates and Prices
+Mailing Lists
+News
+About
+Forms
+Help Center
+Contact Us
+Treasury Marketable Securities
+Floating Rate Notes
+Floating Rate Notes (FRNs)
+Floating Rate Notes (FRNs) are relatively short-term investments that:
+mature in two years
+pay interest four times each year
+have an interest rate that may change or "float" over time
+You can hold an FRN until it matures or sell it before it matures.
+FRNs at a Glance
+Issued in
+Electronic form only
+Matures in
+Two years
+Interest rate
+The rate varies. See How we calculate the floating interest rate further down this page.
+Interest paid
+Every three months until maturity
+Minimum purchase
+$100
+In increments of
+$100
+Max. purchase amount
+$10 million (non-competitive bid)
+35% of offering amount (competitive bid)
+(See Buying a Treasury marketable security for information on types of bids.)
+Auction dates
+Original issue: Jan., April, July, Oct.
+Reopenings: All other months
+See the Auction Calendar for specific dates.
+Taxes
+Federal tax due each year on interest earned. No state or local taxes
+Eligible for STRIPS?
+No
+Latest Rates
+2-Year FRN
+See All Rates
+How we calculate the floating interest rate
+The interest rate of an FRN is the sum of two components: an index rate and a spread.
+Index rate. This rate is tied to the highest accepted discount rate of the most recent 13-week Treasury bill. We auction the 13-week Treasury bill every week, so the index rate of an FRN is reset every week.
+Spread. The spread is a rate we apply to the index rate. The spread stays the same for the life of an FRN. The spread is determined at the auction when the FRN is first offered. The spread is the highest accepted discount margin in that auction.
+The index rate plus the spread equals the interest rate.
+We apply the interest rate to an FRN's par value every day. Thus, the FRN accumulates interest earned every day.
+You can see the index rates and spread for current FRNs. Also, see "How to use the FRN daily indexes database".
+How do I ...
+for an FRN
+Buy a Treasury marketable security
+Find out about tax forms and tax withholding
+Get my money when my security matures (redeem the security)
+Reinvest my money in the same type of security
+Sell my security before it matures
+Transfer from one system to another
+Understand pricing and interest rates
+Related topics:
+About Treasury Marketable Securities
+About Auctions
+Treasury Bills
+Treasury Bonds
+Treasury Notes
+TIPS
+We're Here to Help
+We welcome your questions and comments.
+Write Us
+If you write to us and want a response, please put your address in your letter (not just on the envelope).
+Department of the Treasury
+Bureau of the Fiscal Service
+Attention: Auctions
+3201 Pennsy Drive, Building E
+Landover, MD 20785
+Call Us
+For general inquiries, please call us at 844-284-2676 (toll free)
+E-mail Us
+Connect With Us
+X (formerly Twitter)
+Facebook
+YouTube
+RSS Feeds
+Legal Information
+Freedom of Information Act
+Privacy
+Terms & Conditions
+Data Quality
+For Web Developers
+Accessibility
+Related Sites
+treasury.gov
+fiscaldata.treasury.gov
+USAspending.gov
+Bureau of the Fiscal Service
+USA.gov
+Data.gov
+Regulations.gov

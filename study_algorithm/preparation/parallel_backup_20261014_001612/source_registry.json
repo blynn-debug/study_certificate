@@ -1,0 +1,1284 @@
+{
+  "as_of": "2026-10-13",
+  "unit": "retrieved source, not verified claim",
+  "count": 60,
+  "items": [
+    {
+      "id": "tax_framework",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289999&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289999&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:23.868829+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 154263,
+      "content_sha256": "33644840f34b875e15696c428b8fb1703fbe1374fd20545b1609cce9eccc3b88",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "국세기본법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "tax_framework_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283623&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283623&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:23.254588+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 108464,
+      "content_sha256": "5c47f12b2fe12f38539acc90fcf86383f43b12f6e48014f9d50846ebe4be87eb",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "국세기본법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "income",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:23.798942+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 334014,
+      "content_sha256": "5912d8f08aae4d6ae7e7507402bc2887d7b20c4631ae047556106d9b4f0fb66d",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "소득세법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "income_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290841&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290841&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:30.008230+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 579233,
+      "content_sha256": "7495151024705e11b59188e3485f2e8d63aff2982cf1a6d43d9d9d7850c1a2d2",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "소득세법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "tax_special",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:25.941017+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 797932,
+      "content_sha256": "28716fabc83c2629e220fba3cd5159fa7a0ee2cbd1e80f57ec1e1f512b6c90b0",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "18"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "조세특례제한법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "tax_special_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288915&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288915&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:30.986532+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 872260,
+      "content_sha256": "80ff33cad9b37f66fa0da0f639f9e2406c85bb60f3ddab2cb5c78db49dd6383f",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "18"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "조세특례제한법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "securities_tax",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=239245&chrClsCd=010202&urlMode=lsInfoP&efYd=20220701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=239245&chrClsCd=010202&urlMode=lsInfoP&efYd=20220701&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:24.834739+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 10992,
+      "content_sha256": "28906824d543553438f32ae597c5e478a4c251afad9b864ffadc700f72a48579",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2022",
+          "7",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "증권거래세법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "securities_tax_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280901&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280901&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:25.955973+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 14101,
+      "content_sha256": "4f9671e42acae17d967750f518d83407e80242494125074e3dd5f75b63fd1662",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "증권거래세법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "local_tax",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282559&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:27.802723+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 220516,
+      "content_sha256": "366165ef1317c826eebfdedc6eeea59054b86c66cb3d7bfa699638eb4353f916",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "지방세법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "deposit_protection",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277269&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277269&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:27.162438+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 55867,
+      "content_sha256": "400a724a049391ff11048cb073d697e15019315160026d4154951adda246d2e3",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "예금자보호법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "deposit_protection_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273001&chrClsCd=010202&urlMode=lsInfoP&efYd=20250901&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273001&chrClsCd=010202&urlMode=lsInfoP&efYd=20250901&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:28.475141+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 39060,
+      "content_sha256": "b07b8069c7e0c4c834c4b2292fa99e7edc205634b9646b0e55df8a93ea5c1c8c",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "9",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "예금자보호법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "capital",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288615&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288615&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:30.241003+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 524398,
+      "content_sha256": "7a6ec913b55e53598a77bacb42ac0303c7e384417db2010edede624153c0cc7b",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "자본시장과금융투자업에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "capital_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=291081&chrClsCd=010202&urlMode=lsInfoP&efYd=20261013&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=291081&chrClsCd=010202&urlMode=lsInfoP&efYd=20261013&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:35.138222+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 615032,
+      "content_sha256": "92a2ee6018eeaae24999b405a519711b047ac704e3c5d663f78cae741f1bc09f",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "13"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "자본시장과금융투자업에관한법률시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "consumer",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277247&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277247&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:31.404898+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 59115,
+      "content_sha256": "4a500fca51f2adadf20af1a55bf912ee82af22a046ea372b234aea7370c552aa",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융소비자보호에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "consumer_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285715&chrClsCd=010202&urlMode=lsInfoP&efYd=20260428&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285715&chrClsCd=010202&urlMode=lsInfoP&efYd=20260428&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:31.475040+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 54830,
+      "content_sha256": "6680e8eba3e2991fb4f6e2c7a1a546d308d09adf5233fce7b3c093172828fd50",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "4",
+          "28"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융소비자보호에관한법률시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "governance",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277253&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277253&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:32.056294+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 50726,
+      "content_sha256": "533a3ab41e3770ece4a1cf7265ca75cdd1839abb26cbc27c10ffc78d613e3402",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융회사의지배구조에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "governance_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290289&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290289&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:32.731174+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 58062,
+      "content_sha256": "34e4d527858afa79881cc77fd3e2457b3022ea61a8faf86144925ad4c144a6a7",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융회사의지배구조에관한법률시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "fsc_establishment",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290241&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290241&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:32.698549+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 85962,
+      "content_sha256": "037f9f5f9f0d4acbe483efa0654896a5545e207650ce9cd3a82f8a4a0c392fbb",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융위원회의설치등에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "civil",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284415&chrClsCd=010202&urlMode=lsInfoP&efYd=20260317&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284415&chrClsCd=010202&urlMode=lsInfoP&efYd=20260317&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:33.955591+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 179066,
+      "content_sha256": "5e83d006c73b142dbc37fa35582e6bb6896d41243a448935f70ef6faa8abc147",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "3",
+          "17"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "민법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "commercial",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273629&chrClsCd=010202&urlMode=lsInfoP&efYd=20260910&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273629&chrClsCd=010202&urlMode=lsInfoP&efYd=20260910&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:35.455040+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 273727,
+      "content_sha256": "c0eafb520141c23f30e0693fe10b8ce79614146e5ed20484c3721e1a4932db7a",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "10"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "상법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "real_estate_registration",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265377&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265377&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:33.687280+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 42539,
+      "content_sha256": "65aa6cc58977c8a7abbfea2b26c44ed86223bee42bf3343b2932699f70876f6a",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "1",
+          "31"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "부동산등기법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "national_land",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284013&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284013&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:35.249810+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 199596,
+      "content_sha256": "01672b9a68cff72e9c84687aa69813ccce459b5b5e8176c2145ebc70fa2052f1",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "국토의계획및이용에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "national_land_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288857&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=288857&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:35.657015+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 261412,
+      "content_sha256": "c6ed900bb51c9d87bb7a9af59c4f5a36e1992e3baf330c285fb3e3eb6ce65a35",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "18"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "국토의계획및이용에관한법률시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "building",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273437&chrClsCd=010202&urlMode=lsInfoP&efYd=20260227&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273437&chrClsCd=010202&urlMode=lsInfoP&efYd=20260227&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:36.840107+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 131045,
+      "content_sha256": "7a8a277763dbbd4f422c17b0165396a8776aa2db301f06fe19914ffe2065cf46",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "2",
+          "27"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "건축법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "building_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290833&chrClsCd=010202&urlMode=lsInfoP&efYd=20261006&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290833&chrClsCd=010202&urlMode=lsInfoP&efYd=20261006&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:36.728472+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 239401,
+      "content_sha256": "0b823a9b896491b45b627427b38816c01aae435d6265680489e2c73a741f58bd",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "6"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "건축법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "reits",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=271275&chrClsCd=010202&urlMode=lsInfoP&efYd=20251128&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=271275&chrClsCd=010202&urlMode=lsInfoP&efYd=20251128&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:36.767875+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 73676,
+      "content_sha256": "1d217e95ff6df6669550b94c09106db36742551a26f12b1553f7fa736f81138d",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "11",
+          "28"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "부동산투자회사법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "reits_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=291181&chrClsCd=010202&urlMode=lsInfoP&efYd=20261013&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=291181&chrClsCd=010202&urlMode=lsInfoP&efYd=20261013&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:37.009487+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 74189,
+      "content_sha256": "dd2a367965310382797b121cafa987cf24e19db185226f3855a861e8942494e3",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "13"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "부동산투자회사법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "securitization",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=252411&chrClsCd=010202&urlMode=lsInfoP&efYd=20240112&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=252411&chrClsCd=010202&urlMode=lsInfoP&efYd=20240112&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:38.006255+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 26340,
+      "content_sha256": "1bcc4ed442491dd22876faaaec0cdb1e74e609d98cfb225fa719fed2ffcb13b5",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2024",
+          "1",
+          "12"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "자산유동화에관한법률",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "retirement",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284455&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284455&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:37.704174+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 35763,
+      "content_sha256": "bd6ecab620fd422ebfbaf37cc6e4f3e75d301ee11a2f8012e8a499defa741d2f",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "18"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "근로자퇴직급여보장법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "retirement_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284693&chrClsCd=010202&urlMode=lsInfoP&efYd=20260324&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284693&chrClsCd=010202&urlMode=lsInfoP&efYd=20260324&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:37.846784+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 45945,
+      "content_sha256": "c1f019f09c8ca37884f9e214e12d19a311d6ef196c7c275fe5998c88da03ceb8",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "3",
+          "24"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "근로자퇴직급여보장법시행령",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "insurance",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265389&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265389&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:38.490052+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 114773,
+      "content_sha256": "8135e2acfc0894f948c4146f0f8b1a3b6a558f6b75a11b7cbb83a7a556d76192",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "1",
+          "31"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "보험업법",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "real_estate_appraisal",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=254883&chrClsCd=010202&urlMode=lsInfoP&efYd=20230914&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=254883&chrClsCd=010202&urlMode=lsInfoP&efYd=20230914&ancYnChk=0",
+      "retrieved_at": "2026-10-12T23:55:38.380316+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 13626,
+      "content_sha256": "92a2704cb7cdb7b0783fdb6ef183feb713b23cd375d44593056865f354f01912",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2023",
+          "9",
+          "14"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "감정평가에관한규칙",
+      "source_kind": "법령",
+      "cache": true
+    },
+    {
+      "id": "local_tax_framework",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290139&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290139&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:40.725443+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 106043,
+      "content_sha256": "55e48b8876746418d89b0b3efe978b2a9cffe32768ec630566b5eb485b27cdc5",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "source_name": "지방세기본법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "inheritance_gift",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:40.896805+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 133048,
+      "content_sha256": "f4bf04ff9f30e949ea415819ad767e4d9f61516f03fed20d54074c1545203f81",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "상속세및증여세법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "inheritance_gift_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290845&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290845&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:40.897860+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 219766,
+      "content_sha256": "a9ef26f65ecb8465361b94ab6af6608721b6ab22d6e59fd810e0cefa14a6cded",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "1"
+        ]
+      ],
+      "source_name": "상속세및증여세법시행령",
+      "source_kind": "법령"
+    },
+    {
+      "id": "corporate_tax",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280349&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280349&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:41.455835+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 235943,
+      "content_sha256": "09faf0db52e516697a14ec58a69f06edd32d5f41a9877a64d2af56bc208ff665",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "1"
+        ]
+      ],
+      "source_name": "법인세법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "rural_special_tax",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285905&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285905&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:41.680651+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 25893,
+      "content_sha256": "def75c64ce5bd9f8ea608e51b83f857b7b169a0de38ff89351d2fc5332482ef7",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "5",
+          "12"
+        ]
+      ],
+      "source_name": "농어촌특별세법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "real_name",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=270423&chrClsCd=010202&urlMode=lsInfoP&efYd=20250401&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=270423&chrClsCd=010202&urlMode=lsInfoP&efYd=20250401&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:41.722725+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 25170,
+      "content_sha256": "39b1c83695ba4a5cfa21e4d51c29ba7ad374f392c667e96eda3674cf83da0434",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "4",
+          "1"
+        ]
+      ],
+      "source_name": "금융실명거래및비밀보장에관한법률",
+      "source_kind": "법령"
+    },
+    {
+      "id": "real_name_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=266785&chrClsCd=010202&urlMode=lsInfoP&efYd=20241227&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=266785&chrClsCd=010202&urlMode=lsInfoP&efYd=20241227&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:41.755615+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 20826,
+      "content_sha256": "583c5e44dc5fc0b76f3cd98e607d8075d8b1eb4a364dd198ae7adaa09beda84e",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2024",
+          "12",
+          "27"
+        ]
+      ],
+      "source_name": "금융실명거래및비밀보장에관한법률시행령",
+      "source_kind": "법령"
+    },
+    {
+      "id": "trust",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=198564&chrClsCd=010202&urlMode=lsInfoP&efYd=20181101&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=198564&chrClsCd=010202&urlMode=lsInfoP&efYd=20181101&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:42.936206+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 44002,
+      "content_sha256": "542e18b165325efca3e68bd3a857fe8293891d88741496df5fa2c70c2361c28e",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2018",
+          "11",
+          "1"
+        ]
+      ],
+      "source_name": "신탁법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "foreign_exchange",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276137&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276137&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:42.871635+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 31405,
+      "content_sha256": "f6db65fa2490e193ee822fd74a908d232631dc47c5ea7ee591c514fa350d4d12",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "외국환거래법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "motor_liability",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290659&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290659&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:42.962763+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 44362,
+      "content_sha256": "01f6c18201fb94c35b336abfe204b1fc5fc11fbf3d31dd2f846a2fd813f52e82",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "source_name": "자동차손해배상보장법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "housing_lease",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:42.835813+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 23609,
+      "content_sha256": "b266c63127c4bc269300870e496a4a151222cce8de8214acb9c273b22a244e70",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "주택임대차보호법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "commercial_lease",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=279651&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=279651&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:43.766853+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 17901,
+      "content_sha256": "b7d4b25e6f56c1af2d523aa4298152791c2cd89aca161ab821b35675ffa7f427",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "5",
+          "12"
+        ]
+      ],
+      "source_name": "상가건물임대차보호법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "housing_city_fund",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286599&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286599&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:43.998220+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 27916,
+      "content_sha256": "77e83f926c4155b40ef1f57820f043ac6877fbeb633c62dcb455ad38ce90d54e",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "6",
+          "2"
+        ]
+      ],
+      "source_name": "주택도시기금법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "housing_city_fund_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:44.238130+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 32582,
+      "content_sha256": "4cd6edc5c4690237e1fa496a6265daa55bc1bfbb87085827e124dcd8728fc687",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "15"
+        ]
+      ],
+      "source_name": "주택도시기금법시행령",
+      "source_kind": "법령"
+    },
+    {
+      "id": "treasury_bond",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276093&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276093&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:43.703928+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 6344,
+      "content_sha256": "f7f2cd745de285eff8b162efe108c6f92d87781b4fe0b97ae8d44d75321f1dd3",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "국채법",
+      "source_kind": "법령"
+    },
+    {
+      "id": "treasury_bond_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280829&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280829&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T00:17:44.679706+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 10266,
+      "content_sha256": "bb3f167efd21303c9728e6d26d42da8d901e83c17731aca3c3fd005a79942117",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "국채법시행령",
+      "source_kind": "법령"
+    },
+    {
+      "id": "financial_investment_rule",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285020&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285020&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:00:12.591003+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 397482,
+      "content_sha256": "30c79fd08c3e3e479b352962c52401103d3895d1732a3a52c88cf276a07cc43f",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "15"
+        ],
+        [
+          "2015",
+          "1",
+          "1"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융투자업규정",
+      "source_kind": "행정규칙",
+      "cache": true
+    },
+    {
+      "id": "consumer_supervision",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285608&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285608&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:00:11.185064+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 43360,
+      "content_sha256": "502b76d93522072dba19a776a9cc6863c18ace05946916c7e34b69ed0546c1f2",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융소비자보호에관한감독규정",
+      "source_kind": "행정규칙",
+      "cache": true
+    },
+    {
+      "id": "inspection_sanctions",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000282508&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000282508&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:00:11.136583+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 38338,
+      "content_sha256": "e4aaec9c5196e0d10e6b71586fba6336ed9278bef31195180ae7e040ce79c104",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "6",
+          "17"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융기관검사및제재에관한규정",
+      "source_kind": "행정규칙",
+      "cache": true
+    },
+    {
+      "id": "capital_investigation",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000286744&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000286744&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:00:11.116284+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 26172,
+      "content_sha256": "67f1ed989c6e60da10503e2e5b45b253553b291a43f9c7e26fb56be2dcc181cd",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "7"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "자본시장조사업무규정",
+      "source_kind": "행정규칙",
+      "cache": true
+    },
+    {
+      "id": "governance_supervision",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285614&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285614&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:00:13.559178+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 20625,
+      "content_sha256": "7c5398b205dad7ba6c93be39d51edf48e4fcfdf946f2240c994f71dde7e5ef35",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "10",
+          "2"
+        ]
+      ],
+      "text_extractor_version": "2_preserve_statutory_image_alt",
+      "source_name": "금융회사지배구조감독규정",
+      "source_kind": "행정규칙",
+      "cache": true
+    },
+    {
+      "id": "foreign_exchange_rule",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285140&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285140&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:17:46.610816+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 194659,
+      "content_sha256": "13c5d99ee6f332e293e27c9430845f2a5929aaebcaf8b1ee868d85041aec82e1",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "16"
+        ]
+      ],
+      "source_name": "외국환거래규정",
+      "source_kind": "행정규칙"
+    },
+    {
+      "id": "treasury_issuance_rule",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000274858&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000274858&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:17:46.400779+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 28878,
+      "content_sha256": "edcd20fb4b296fa6ababfb0761fa8298ae2b92445ba59908b93a8af62232a853",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "2",
+          "23"
+        ]
+      ],
+      "source_name": "국고채권의발행및국고채전문딜러운영에관한규정",
+      "source_kind": "행정규칙"
+    },
+    {
+      "id": "financial_investment_details",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108855&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108855&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T00:37:13.746739+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 60761,
+      "content_sha256": "f69ae300ebf53de1c777bc9eac65cb2d82c194369839ecb3db5c0ca01280d874",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "8"
+        ]
+      ],
+      "source_name": "금융투자업규정시행세칙",
+      "source_kind": "행정규칙"
+    },
+    {
+      "id": "rural_special_tax_decree",
+      "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280835&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280835&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+      "retrieved_at": "2026-10-13T01:48:29.895674+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 28287,
+      "content_sha256": "2f5b6cb49938c71b309d3cf7c124aa45488785d7ce661bf2209158ea38bb7724",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "1",
+          "2"
+        ]
+      ],
+      "source_name": "농어촌특별세법시행령",
+      "source_kind": "법령"
+    },
+    {
+      "id": "securities_disclosure_rule",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000283270&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000283270&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T01:52:44.562636+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 92278,
+      "content_sha256": "0716793676c449c1233541913fad09ca2fc786522040cac656ff4ead1901ef62",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "7",
+          "28"
+        ]
+      ],
+      "source_name": "증권의 발행 및 공시 등에 관한 규정",
+      "source_kind": "행정규칙"
+    },
+    {
+      "id": "securities_disclosure_details",
+      "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000107389&chrClsCd=010201",
+      "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000107389&chrClsCd=010201",
+      "retrieved_at": "2026-10-13T01:52:44.167919+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 9476,
+      "content_sha256": "dd8c7555400696c44bef46bc8d2bc1a46b093c5de8378beec04e815503ce1d01",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2025",
+          "6",
+          "2"
+        ]
+      ],
+      "source_name": "증권의 발행 및 공시 등에 관한 규정 시행세칙",
+      "source_kind": "행정규칙"
+    },
+    {
+      "id": "motor_liability_decree",
+      "requested_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289683&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+      "retrieved_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=289683&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+      "retrieved_at": "2026-10-13T14:35:58.831790+00:00",
+      "as_of": "2026-10-13",
+      "http_complete": true,
+      "characters": 51068,
+      "content_sha256": "43bd496fc2128e3d769224ed973073e0b9e4ee5eacb30030f199717ce73fafec",
+      "status": "retrieved_not_claim_verified",
+      "effective_date_candidates": [
+        [
+          "2026",
+          "9",
+          "15"
+        ]
+      ]
+    }
+  ]
+}

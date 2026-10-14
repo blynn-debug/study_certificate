@@ -1,0 +1,12 @@
+{
+  "id": "sharpe_ratio_1994",
+  "requested_url": "https://stanford.edu/~wfsharpe/art/sr/sr.htm",
+  "retrieved_url": "https://stanford.edu/~wfsharpe/art/sr/sr.htm",
+  "retrieved_at": "2026-10-13T15:45:22.205236+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 36128,
+  "content_sha256": "42c66fd4f17a2cbc75ca00d6cfeb91c3c1d1580ab09db79b91b346da4ec3d7c7",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

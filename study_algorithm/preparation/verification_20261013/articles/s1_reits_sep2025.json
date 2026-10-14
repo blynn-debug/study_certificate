@@ -1,0 +1,37 @@
+{
+  "source_id": "s1_reits_sep2025",
+  "source_metadata": {
+    "id": "s1_reits_sep2025",
+    "requested_url": "https://reits.molit.go.kr/pub/chart/searchChart01_1",
+    "retrieved_url": "https://reits.molit.go.kr/pub/chart/searchChart01_1",
+    "http_status": 200,
+    "http_complete": true,
+    "downloaded_bytes": 4724,
+    "http_content_length": null,
+    "request_method": "POST",
+    "request_parameters": {
+      "toYearMt": "20250901"
+    },
+    "as_of": "2026-10-13",
+    "retrieved_at": "2026-10-13T23:49:10.672238+00:00",
+    "content_sha256": "642379607b255f2d8472b4d4a3440215aef51eef3049980f00ffbc6252e238be",
+    "title": "국토교통부 리츠정보시스템 유형별 리츠 수 및 자산총계: 검색년도2025년9월",
+    "scope": "공개현황통계의2025년9월 선택 결과. 2026년10월 현재규모로 일반화하지 않음.",
+    "request_mapping_evidence": "s1_reits_chart_live.html fn_search1: selected toYearMt=YYYYMM에01을 덧붙여 searchChart01_1 POST; fn_print1 제목은 선택연월",
+    "characters": 4536
+  },
+  "items": [
+    {
+      "id": "s1_reits_sep2025:유형별통계",
+      "source_id": "s1_reits_sep2025",
+      "article": "유형별통계",
+      "heading": "2025년9월 선택값 유형별통계 원응답",
+      "text": "{\"code\":\"SCC\",\"msg\":\"정상적으로 처리되었습니다.\",\"data\":[{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":1.0,\"dataGubun\":\"위탁관리리츠\",\"dataGubun2\":\"인가\",\"reitsTyCode\":\"RT00100001\",\"cnfmAtCode\":\"RT07200001\",\"dataCnt\":\"331\",\"dataFullCost\":null,\"dataCost\":\"90.82\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":1.0,\"dataGubun\":\"위탁관리리츠\",\"dataGubun2\":\"등록\",\"reitsTyCode\":\"RT00100001\",\"cnfmAtCode\":\"RT07200002\",\"dataCnt\":\"75\",\"dataFullCost\":null,\"dataCost\":\"19.44\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":1.0,\"dataGubun\":\"소계\",\"dataGubun2\":\"위탁관리리츠\",\"reitsTyCode\":\"RT00100001\",\"cnfmAtCode\":null,\"dataCnt\":\"406\",\"dataFullCost\":null,\"dataCost\":\"110.25\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":2.0,\"dataGubun\":\"자기관리리츠\",\"dataGubun2\":\"인가\",\"reitsTyCode\":\"RT00100002\",\"cnfmAtCode\":\"RT07200001\",\"dataCnt\":\"4\",\"dataFullCost\":null,\"dataCost\":\"0.47\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":2.0,\"dataGubun\":\"소계\",\"dataGubun2\":\"자기관리리츠\",\"reitsTyCode\":\"RT00100002\",\"cnfmAtCode\":null,\"dataCnt\":\"4\",\"dataFullCost\":null,\"dataCost\":\"0.47\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":3.0,\"dataGubun\":\"기업구조조정리츠\",\"dataGubun2\":\"인가\",\"reitsTyCode\":\"RT00100003\",\"cnfmAtCode\":\"RT07200001\",\"dataCnt\":\"10\",\"dataFullCost\":null,\"dataCost\":\"1.76\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":3.0,\"dataGubun\":\"기업구조조정리츠\",\"dataGubun2\":\"등록\",\"reitsTyCode\":\"RT00100003\",\"cnfmAtCode\":\"RT07200002\",\"dataCnt\":\"11\",\"dataFullCost\":null,\"dataCost\":\"1.47\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":3.0,\"dataGubun\":\"소계\",\"dataGubun2\":\"기업구조조정리츠\",\"reitsTyCode\":\"RT00100003\",\"cnfmAtCode\":null,\"dataCnt\":\"21\",\"dataFullCost\":null,\"dataCost\":\"3.23\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":4.0,\"dataGubun\":\"상장리츠\",\"dataGubun2\":\"상장리츠\",\"reitsTyCode\":\"RT00100999\",\"cnfmAtCode\":\"RT07200999\",\"dataCnt\":\"25\",\"dataFullCost\":null,\"dataCost\":\"19.02\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null},{\"frstRegistPnttm\":null,\"frstRegisterNo\":null,\"lastUpdtPnttm\":null,\"lastUpdusrNo\":null,\"authorCode\":null,\"rnum\":0.0,\"dataGubun\":\"합계\",\"dataGubun2\":\"합계\",\"reitsTyCode\":null,\"cnfmAtCode\":null,\"dataCnt\":\"431\",\"dataFullCost\":null,\"dataCost\":\"113.95\",\"fromYear\":null,\"toYear\":null,\"toYearMt\":null,\"toYearMtTxt\":null,\"artclCode\":null,\"artclNm\":null,\"reitsCnt\":null,\"etlwrInclsCnt\":null,\"lawCnt\":null,\"cmpnyTotAssets\":null,\"cmpnyTotCapl\":null}]}",
+      "start": 0,
+      "end": 4536,
+      "sha256": "642379607b255f2d8472b4d4a3440215aef51eef3049980f00ffbc6252e238be",
+      "evidence_kind": "official_json_response",
+      "exact_span_verified": true
+    }
+  ]
+}

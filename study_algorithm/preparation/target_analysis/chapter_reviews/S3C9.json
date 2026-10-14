@@ -1,0 +1,1265 @@
+{
+  "chapter_id": "S3C9",
+  "title": "분산투자기법",
+  "status": "semantic_review_complete_within_identified_chapter_ranges",
+  "global_cross_reference_audit": "pass; completion_audit.json",
+  "current_law_validation": "수학·모형조건 중심. 실제 투자추천이 아니며 공식 시험범위 인증 아님.",
+  "reviewed_pages": {
+    "P3": [
+      [
+        433,
+        468
+      ]
+    ],
+    "CALC": [
+      [
+        89,
+        104
+      ]
+    ],
+    "NOTE": [
+      [
+        84,
+        87
+      ]
+    ],
+    "MOCK_questions": [
+      [
+        26,
+        27
+      ],
+      [
+        53,
+        54
+      ]
+    ],
+    "MOCK_answers": [
+      [
+        66,
+        66
+      ],
+      [
+        76,
+        76
+      ]
+    ]
+  },
+  "standalone_question_counts": {
+    "core": 9,
+    "supplement": 22,
+    "additional": 11,
+    "calculation_including_unnumbered_variant": 20,
+    "mock": 10,
+    "warmup": 31,
+    "total": 103
+  },
+  "count_policy": "독립번호 계수; 본문예시·그래프·OX는주제에별도기록. 공식기출인증아님.",
+  "chapter_demand": "확률·비중·공분산→효율적/최적→CAL/CML/SML/SCL의축→베타·위험프리미엄→요인중립→성과. 각조건을계산전명시.",
+  "topics": [
+    {
+      "number": 1,
+      "title": "기대수익률과 위험",
+      "pages": [
+        434,
+        436
+      ],
+      "core": [
+        434,
+        "시나리오후비중6%"
+      ],
+      "supplement": [
+        [
+          436,
+          "Q1 상관범위"
+        ],
+        [
+          436,
+          "Q2 상관.7"
+        ]
+      ],
+      "demand": "시나리오 확률과 자산비중을 두 단계로 가중하고 공분산을 구한다.",
+      "assistant_delivery": "먼저 한 주식의 호황·불황별 수익에 확률을 곱해 평균을 낸다. 그다음 두 주식 평균에 편입비중을 곱한다. 위험은 평균에서 얼마나 벗어나는지의 제곱평균이며, 두 자산이 함께 움직이는 항도 들어간다.",
+      "memory": "E(Rp)=ΣwE(R); Var=ΣΣwiwjCovij; Corr=Cov/(σiσj)",
+      "trap": "표준편차나 분산을 그냥 가중평균; 시나리오와 상충하는 상관계수",
+      "check": "σX.2·σY.1·공분산.014이면 상관.7. 분산은 표준편차와 단위가 같은가? 아니다.",
+      "repair": "수익·평균·편차·편차제곱·확률곱을 한 행씩 제공한다.",
+      "embedded_examples": [
+        [
+          434,
+          "개별기대·분산"
+        ],
+        [
+          435,
+          "상관.6 가정과원표충돌·분산식"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "title": "위험분산·최소분산",
+      "pages": [
+        437,
+        439
+      ],
+      "core": [
+        437,
+        "상관0분산효과"
+      ],
+      "supplement": [
+        [
+          439,
+          "Q1 최소분산.6452"
+        ]
+      ],
+      "demand": "상관과 투자비중을 분리해 포트폴리오 위험을 계산한다.",
+      "assistant_delivery": "같은 방향으로 완전히 움직이면 흔들림을 나눠도 상쇄되지 않는다. 완전히 반대로 움직이고 σX.2·σY.3이면 X60%·Y40%에서 .6×.2와 .4×.3이 상쇄된다. 상관0은 무관한 모든 관계가 아니라 선형공분산0이다.",
+      "memory": "wX*=(σY²−Cov)/(σX²+σY²−2Cov); ρ−1일 때 σY/(σX+σY)",
+      "trap": "공매도 제약 무시; ρ−1이면 어떤 비중이나 위험0",
+      "check": "σX.1·σY.2·ρ0이면 wX=.8. 분자는 누구의 분산인가? 상대자산Y.",
+      "repair": "두 자산 비중을 바꿔 다시 구하고 합이1인지 확인한다.",
+      "embedded_examples": [
+        [
+          437,
+          "상관3개특수경우"
+        ],
+        [
+          438,
+          "GMVP60%·종목수"
+        ],
+        [
+          439,
+          "ρ0·w61% 추가예시·시장위험OX"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "title": "효율적·최적 포트폴리오",
+      "pages": [
+        440,
+        443
+      ],
+      "core": [
+        440,
+        "보수적성향"
+      ],
+      "supplement": [
+        [
+          443,
+          "Q1 효용공간"
+        ],
+        [
+          443,
+          "Q2 오목효용"
+        ]
+      ],
+      "demand": "지배원리로 후보를 줄인 뒤 효용으로 선택한다.",
+      "assistant_delivery": "같은 위험에 수익이 높은 후보, 같은 수익에 위험이 낮은 후보를 남긴다. 서로 장단점이 다른 후보 사이에서는 위험회피 정도가 필요하다. U=E−.5Cσ²에서 C가 클수록 위험에 더 큰 벌점을 준다.",
+      "memory": "효율적=지배되지 않음; 최적=개인효용 최대; w*=(EA−Rf)/(CσA²)",
+      "trap": "효율적이면 모든 사람에게 최적; 분산축에서도 무차별곡선은 굽음",
+      "check": "C8·EA18%·Rf4%·σ20%이면 w=.4375.",
+      "repair": "수익 증가분 .14를 위험벌점계수 .32로 나누는 과정을 보여준다.",
+      "embedded_examples": [
+        [
+          440,
+          "지배예시2개"
+        ],
+        [
+          441,
+          "w69.84%·효용곡선"
+        ],
+        [
+          442,
+          "Pd Pe접점"
+        ],
+        [
+          443,
+          "sqrt와제곱함수"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "title": "무위험자산·CAL·CML",
+      "pages": [
+        444,
+        447
+      ],
+      "core": [
+        444,
+        "CML효율적투자"
+      ],
+      "supplement": [
+        [
+          446,
+          "Q1 샤프1.5"
+        ],
+        [
+          447,
+          "Q2 CAL/CML"
+        ],
+        [
+          447,
+          "Q3 차입"
+        ]
+      ],
+      "demand": "축과 위험자산 비중으로 수익·위험·차입을 해석한다.",
+      "assistant_delivery": "위험자산60%와 무위험40%이면 위험자산의 흔들림도60%만 받는다. 위험자산150%라면 무위험비중은−50%로 차입이다. 여러 CAL 중 최대 샤프비율의 접선을 찾고, CAPM 균형 가정에서 그 접점이 시장포트폴리오가 된다.",
+      "memory": "Ep=Rf+w(EA−Rf); σp=|w|σA; CML은 특별한CAL",
+      "trap": "시장포트폴리오=최소분산; CML은 CAL이 아니다; KOSPI=모든자산",
+      "check": "EA20·Rf4·σ12·w.6이면 E13.6%·σ7.2%.",
+      "repair": "100만원을 자기자본·차입·위험·무위험 네 금액으로 분해한다.",
+      "embedded_examples": [
+        [
+          444,
+          "CML.7143"
+        ],
+        [
+          445,
+          "총위험분해오류"
+        ],
+        [
+          446,
+          "대출·차입OX"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "title": "CAPM·SML",
+      "pages": [
+        448,
+        451
+      ],
+      "core": [
+        448,
+        "CAPM가정"
+      ],
+      "supplement": [
+        [
+          450,
+          "Q1 CML/SML"
+        ],
+        [
+          450,
+          "Q2 CAPM13%"
+        ],
+        [
+          451,
+          "Q3 SML위가"
+        ],
+        [
+          451,
+          "Q4 9%저평가"
+        ],
+        [
+          451,
+          "Q5 β.8·11%"
+        ]
+      ],
+      "demand": "베타를 먼저 구하고 요구수익률과 예상수익률을 비교한다.",
+      "assistant_delivery": "시장분산으로 시장과 자산의 공분산을 나누면 베타다. 무위험3%, 시장13%, 베타.8이면 요구수익률11%다. 예상수익률이 이보다 높으면 해당 모형과 추정값 아래 저평가라고 판단한다. 실제 이익이 보장되는 뜻은 아니다.",
+      "memory": "β=Cov(i,m)/Var(m)=ρσi/σm; k=Rf+β(Em−Rf)",
+      "trap": "시장수익과 시장프리미엄 혼합; 표준편차를 분모에 그대로 사용",
+      "check": "시장σ.4·공분산.2이면 β1.25; Rf2·Em6이면 k7%.",
+      "repair": "σ→분산→β→시장프리미엄→k 순서로 한 칸씩 계산한다.",
+      "embedded_examples": [
+        [
+          448,
+          "CAPM동질기대OX"
+        ],
+        [
+          449,
+          "서로다른축의 CML/SML"
+        ],
+        [
+          450,
+          "저평가수직차"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "title": "샤프 단일지표모형",
+      "pages": [
+        452,
+        454
+      ],
+      "core": [
+        452,
+        "β민감도"
+      ],
+      "supplement": [
+        [
+          454,
+          "Q1 SCL"
+        ],
+        [
+          454,
+          "Q2 β1·1.8·공분산.018"
+        ]
+      ],
+      "demand": "회귀 민감도·잔차 가정·분산의 합을 구분한다.",
+      "assistant_delivery": "Ri=ai+βiRm+ei에서 β는 시장이 움직일 때 함께 움직이는 정도다. 서로 다른 잔차가 무상관이라는 가정이면 두 주식 공분산은 βiβjVar(m)이다. 주식 수익률끼리의 공분산이0이라는 뜻이 아니다.",
+      "memory": "βp=Σwiβi; σp²=βp²σm²+Σwi²σεi²",
+      "trap": "β=최적위험보상률; 잔차무상관=주식무상관; 회귀절편=항상젠센알파",
+      "check": "βJ1·βK1.8·시장σ.1이면 공분산.018; 60/40 βp1.32.",
+      "repair": "시장공통 부분과 각자 잔차 부분을 따로 더한다.",
+      "embedded_examples": [
+        [
+          453,
+          "회귀분산·정보수"
+        ],
+        [
+          454,
+          "동일비중β.8"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "title": "APT·요인과 차익",
+      "pages": [
+        455,
+        457
+      ],
+      "core": [
+        455,
+        "CAPM/APT요인"
+      ],
+      "supplement": [
+        [
+          457,
+          "Q1 요인중립600만원"
+        ],
+        [
+          457,
+          "Q2 요인모형식"
+        ]
+      ],
+      "demand": "초기금액과 모든 요인노출을 맞춰 차익을 계산한다.",
+      "assistant_delivery": "베타1.8인 A를1억 공매도하고 무위험2억을 빌려 베타.6인 B3억을 사면 초기 순투자0, 요인노출도−1.8+.6×3=0이다. 기대수익24·12%, 무위험3%이면 순수익600만원이다. 잔차가 남으면 요인중립만으로 무위험은 아니다.",
+      "memory": "E=Rf+Σβλ; 요인충격F와 프리미엄λ 별개",
+      "trap": "같은 투자금액이면 위험일치; 모든 요인은 원래무상관; F=λ",
+      "check": "Rf3·요인수익8,10·β.4,.6이면3+.4×5+.6×7=9.2%.",
+      "repair": "기대이익보다 먼저 초기현금합0과 각요인노출합0을 검산한다.",
+      "embedded_examples": [
+        [
+          455,
+          "1요인수익·분산"
+        ],
+        [
+          456,
+          "2요인·β동일차익300만원"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "title": "투자전략·리밸런싱",
+      "pages": [
+        458,
+        460
+      ],
+      "core": [
+        458,
+        "포뮬러와예측"
+      ],
+      "supplement": [
+        [
+          459,
+          "Q1 액티브TB"
+        ],
+        [
+          459,
+          "Q2 타이밍·종목"
+        ],
+        [
+          460,
+          "Q3 TB점수"
+        ]
+      ],
+      "demand": "정해진 비중규칙과 예측전략·종목선택을 구별한다.",
+      "assistant_delivery": "주식비중 목표50%가 하락 뒤40%가 되면 목표복원 리밸런싱은 주식을 산다. 이것이 미래 주가를 맞혔다는 뜻은 아니다. 트레이너-블랙의 기본 종목점수는 알파를 잔차분산으로 나누어 산출하며 공매도 제약도 따져야 한다.",
+      "memory": "규칙·예측·종목선택 구별; TB점수=α/σε²",
+      "trap": "불변비율인데 비중을 계속줄임; TB에α/σε사용; buy-hold는무작위만",
+      "check": "알파같고 잔차σ가.1·.2면 TB점수비4:1. 평가비율α/σ는2:1로 다름.",
+      "repair": "자산배분 비중과 개별종목 점수, 분산과 표준편차를 분리한다.",
+      "embedded_examples": [
+        [
+          459,
+          "50/30/20 비중복원"
+        ],
+        [
+          460,
+          "TB0.8/−.5/.3 점수와OX"
+        ]
+      ]
+    },
+    {
+      "number": 9,
+      "title": "수익률·성과평가",
+      "pages": [
+        461,
+        463
+      ],
+      "core": [
+        461,
+        "TWR·MWR통제권"
+      ],
+      "supplement": [
+        [
+          462,
+          "Q1 알파5.2%"
+        ],
+        [
+          463,
+          "Q2 TWR/IRR"
+        ]
+      ],
+      "demand": "배당·외부현금흐름·복리와 위험지표를 맞춘다.",
+      "assistant_delivery": "1만원 주식을1기말1.2만원으로 평가하고 배당1천원을 받으면 첫 기간30%다. 그 시점1주를 더 사서2기말2주를2.8만원에 팔고 총배당2천원을 받으면 둘째 기간25%다. TWR은 두 기간을 연결하고 IRR은 실제 입출금−10000,−11000,+30000을 쓴다.",
+      "memory": "산술27.5%; 연TWR√1.625−1; IRR은현금흐름의할인율",
+      "trap": "운용자가 입출금 통제못함=입출금없음; 중도흐름무시; 평가비율분모혼합",
+      "check": "위 예시 연TWR약27.4755%, IRR약26.73%; 왜 다른가? 돈의 투입시점이 다르다.",
+      "repair": "입출금이벤트와 자산 자체 배당수익을 시간선에 따로 표시한다.",
+      "embedded_examples": [
+        [
+          461,
+          "보유기간15%"
+        ],
+        [
+          462,
+          "산술30·기하28.4523%"
+        ],
+        [
+          463,
+          "2주·1주 수익률동일 검산"
+        ]
+      ]
+    }
+  ],
+  "additional_questions": [
+    {
+      "number": 1,
+      "page": 464,
+      "answer_page": 465,
+      "topics": [
+        1
+      ],
+      "test": "상관0산점도"
+    },
+    {
+      "number": 2,
+      "page": 464,
+      "answer_page": 465,
+      "topics": [
+        2
+      ],
+      "test": "상관0표준편차"
+    },
+    {
+      "number": 3,
+      "page": 464,
+      "answer_page": 465,
+      "topics": [
+        2
+      ],
+      "test": "상관−1절대값"
+    },
+    {
+      "number": 4,
+      "page": 465,
+      "answer_page": 465,
+      "topics": [
+        3,
+        4
+      ],
+      "test": "효율/최적/시장포트폴리오 단계혼합"
+    },
+    {
+      "number": 5,
+      "page": 465,
+      "answer_page": 465,
+      "topics": [
+        3
+      ],
+      "test": "효용.05/.02/.03/.01"
+    },
+    {
+      "number": 6,
+      "page": 466,
+      "answer_page": 467,
+      "topics": [
+        4
+      ],
+      "test": "차입 e"
+    },
+    {
+      "number": 7,
+      "page": 466,
+      "answer_page": 467,
+      "topics": [
+        5
+      ],
+      "test": "요구9%"
+    },
+    {
+      "number": 8,
+      "page": 466,
+      "answer_page": 467,
+      "topics": [
+        7
+      ],
+      "test": "2요인21.4%"
+    },
+    {
+      "number": 9,
+      "page": 468,
+      "answer_page": 468,
+      "topics": [
+        6
+      ],
+      "test": "공분산.009"
+    },
+    {
+      "number": 10,
+      "page": 468,
+      "answer_page": 468,
+      "topics": [
+        5,
+        6
+      ],
+      "test": "SML/SCL"
+    },
+    {
+      "number": 11,
+      "page": 468,
+      "answer_page": 468,
+      "topics": [
+        8
+      ],
+      "test": "포뮬러플랜"
+    }
+  ],
+  "calculation_questions": [
+    {
+      "number": "61",
+      "page": 89,
+      "answer_page": 89,
+      "topics": [
+        1
+      ],
+      "test": "기대5.9%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "62",
+      "page": 89,
+      "answer_page": 89,
+      "topics": [
+        3
+      ],
+      "test": "수익7·위험3",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "62-1",
+      "page": 90,
+      "answer_page": 90,
+      "topics": [
+        1,
+        3
+      ],
+      "test": "제시위험기준B·시나리오모순",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "63",
+      "page": 91,
+      "answer_page": 91,
+      "topics": [
+        2
+      ],
+      "test": "GMVP.6",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "63-1",
+      "page": 92,
+      "answer_page": 92,
+      "topics": [
+        2
+      ],
+      "test": "GMVP.8·해설60오기",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "63-2",
+      "page": 92,
+      "answer_page": 92,
+      "topics": [
+        2
+      ],
+      "test": "B비중.36",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "64",
+      "page": 93,
+      "answer_page": 93,
+      "topics": [
+        4
+      ],
+      "test": "13.6·7.2%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "64-1",
+      "page": 94,
+      "answer_page": 94,
+      "topics": [
+        4
+      ],
+      "test": "위험8%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "65",
+      "page": 94,
+      "answer_page": 94,
+      "topics": [
+        4
+      ],
+      "test": "샤프.75",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "65-1",
+      "page": 95,
+      "answer_page": 95,
+      "topics": [
+        4
+      ],
+      "test": "샤프1.5",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "66",
+      "page": 96,
+      "answer_page": 96,
+      "topics": [
+        5
+      ],
+      "test": "β.4",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "66-1",
+      "page": 97,
+      "answer_page": 97,
+      "topics": [
+        5
+      ],
+      "test": "β.125",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "67",
+      "page": 97,
+      "answer_page": 97,
+      "topics": [
+        5
+      ],
+      "test": "요구6%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "67-1",
+      "page": 98,
+      "answer_page": 98,
+      "topics": [
+        5
+      ],
+      "test": "요구7%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "67-2",
+      "page": 98,
+      "answer_page": 98,
+      "topics": [
+        5
+      ],
+      "test": "요구11%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "68",
+      "page": 99,
+      "answer_page": 99,
+      "topics": [
+        5
+      ],
+      "test": "A저·B고",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "68-1",
+      "page": 100,
+      "answer_page": 100,
+      "topics": [
+        5
+      ],
+      "test": "둘다저평가",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "69",
+      "page": 100,
+      "answer_page": 100,
+      "topics": [
+        6
+      ],
+      "test": "β1",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "69-1",
+      "page": 101,
+      "answer_page": 101,
+      "topics": [
+        6
+      ],
+      "test": "β1.04",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    },
+    {
+      "number": "70",
+      "page": 102,
+      "answer_page": 103,
+      "topics": [
+        7
+      ],
+      "test": "2요인9.2%",
+      "source_claim": "출판사 기출/동일유형표시; 공식인증아님"
+    }
+  ],
+  "mock_questions": [
+    {
+      "set": 1,
+      "number": 96,
+      "page": 26,
+      "answer_page": 66,
+      "topics": [
+        3
+      ],
+      "test": "위험회피·곡선"
+    },
+    {
+      "set": 1,
+      "number": 97,
+      "page": 26,
+      "answer_page": 66,
+      "topics": [
+        4
+      ],
+      "test": "위험4%"
+    },
+    {
+      "set": 1,
+      "number": 98,
+      "page": 27,
+      "answer_page": 66,
+      "topics": [
+        5
+      ],
+      "test": "CAPM20%·D1가격10000"
+    },
+    {
+      "set": 1,
+      "number": 99,
+      "page": 27,
+      "answer_page": 66,
+      "topics": [
+        5
+      ],
+      "test": "차입/대출금리동일"
+    },
+    {
+      "set": 1,
+      "number": 100,
+      "page": 27,
+      "answer_page": 66,
+      "topics": [
+        2
+      ],
+      "test": "BC상관−.3"
+    },
+    {
+      "set": 2,
+      "number": 96,
+      "page": 53,
+      "answer_page": 76,
+      "topics": [
+        3
+      ],
+      "test": "최적비중.4375"
+    },
+    {
+      "set": 2,
+      "number": 97,
+      "page": 53,
+      "answer_page": 76,
+      "topics": [
+        4
+      ],
+      "test": "CML도CAL인포함관계"
+    },
+    {
+      "set": 2,
+      "number": 98,
+      "page": 53,
+      "answer_page": 76,
+      "topics": [
+        5
+      ],
+      "test": "β2.15·14.6%"
+    },
+    {
+      "set": 2,
+      "number": 99,
+      "page": 54,
+      "answer_page": 76,
+      "topics": [
+        5,
+        6
+      ],
+      "test": "β.2·βp1"
+    },
+    {
+      "set": 2,
+      "number": 100,
+      "page": 54,
+      "answer_page": 76,
+      "topics": [
+        7
+      ],
+      "test": "β중립차익600만원"
+    }
+  ],
+  "warmup_mapping": [
+    {
+      "page": 84,
+      "numbers": [
+        1,
+        2,
+        3
+      ],
+      "topics": [
+        1
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 84,
+      "numbers": [
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        2
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 84,
+      "numbers": [
+        7
+      ],
+      "topics": [
+        3
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 85,
+      "numbers": [
+        8
+      ],
+      "topics": [
+        2
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 85,
+      "numbers": [
+        9,
+        10
+      ],
+      "topics": [
+        3
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 85,
+      "numbers": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "topics": [
+        4
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 86,
+      "numbers": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "topics": [
+        5
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 87,
+      "numbers": [
+        24,
+        26
+      ],
+      "topics": [
+        6
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 87,
+      "numbers": [
+        25
+      ],
+      "topics": [
+        7
+      ],
+      "test": "빈칸·OX·해설대조"
+    },
+    {
+      "page": 87,
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "topics": [
+        8
+      ],
+      "test": "빈칸·OX·해설대조"
+    }
+  ],
+  "cross_chapter_links": [
+    {
+      "source_topic_ids": [
+        "S3C9T04",
+        "S3C9T05",
+        "S3C9T08",
+        "S3C9T09"
+      ],
+      "target_topic_ids": [
+        "S3C7T03",
+        "S3C7T04",
+        "S3C7T06",
+        "S3C7T07"
+      ],
+      "reason": "성과지표·TWR·MWR·정보비율",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "source_topic_ids": [
+        "S3C9T05",
+        "S3C9T08"
+      ],
+      "target_topic_ids": [
+        "S3C4T05",
+        "S3C4T06",
+        "S3C4T08",
+        "S3C4T12",
+        "S3C4T18"
+      ],
+      "reason": "주식평가·전략",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "source_topic_ids": [
+        "S3C9T01",
+        "S3C9T02",
+        "S3C9T06",
+        "S3C9T07"
+      ],
+      "target_topic_ids": [
+        "S2C4T01",
+        "S2C4T03",
+        "S2C4T05",
+        "S2C4T12"
+      ],
+      "reason": "분산·VaR·요인노출",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    }
+  ],
+  "quality_flags": [
+    {
+      "refs": [
+        "P3:434-435"
+      ],
+      "issue": "분산을수익률%와동일표현·기대값에정규성필수",
+      "resolution": "분산은 수익률제곱단위; 기대값·분산계산에정규성불필요"
+    },
+    {
+      "refs": [
+        "P3:434-435"
+      ],
+      "issue": "예시 시나리오가완전상관인데ρ.6별도가정",
+      "resolution": "원표Y−.1=.4(X−.1)이므로ρ1·공분산.08·50/50분산.098. ρ.6별도입력의.082와동일자료인척혼합금지"
+    },
+    {
+      "refs": [
+        "P3:435",
+        "P3:437:core",
+        "P3:453"
+      ],
+      "issue": "일반분산을(가중표준편차합)²와등치: 원본확인",
+      "resolution": "그등식은ρ1일때. 일반식은교차항ρ를포함하며분산저감기준도명시"
+    },
+    {
+      "refs": [
+        "P3:436",
+        "P3:465:additional1"
+      ],
+      "issue": "공분산부호=매번같은방향·상관0=모든관계없음",
+      "resolution": "선형관련성이다. 예X대칭,Y=X²이면상관0이지만종속. 고정σ이면|Cov|≤σXσY"
+    },
+    {
+      "refs": [
+        "P3:437-439"
+      ],
+      "issue": "ρ<1효과를공매도에도그대로·종목수만늘리면잔차0",
+      "resolution": "양의비중 등조건. GMVP분모0퇴화와공매도금지시경계해처리. 평균공분산수렴은분산된비중·유계위험등조건"
+    },
+    {
+      "refs": [
+        "P3:440-443"
+      ],
+      "issue": "분산축σ²에굽은무차별곡선: 원본441확인",
+      "resolution": "U=E−.5Cσ²이면분산축직선·표준편차축곡선. 유일최적도목적함수·제약조건에의존"
+    },
+    {
+      "refs": [
+        "P3:441"
+      ],
+      "issue": "사람간C가작으면효용절대수준높다는비교",
+      "resolution": "개인효용척도는서로직접비교하지않음; 같은식의점수산술과선호해석구분"
+    },
+    {
+      "refs": [
+        "P3:444-446",
+        "CALC:93-95"
+      ],
+      "issue": "무위험정기예금등일괄·σp=wσ·w0에서도샤프동일",
+      "resolution": "기간·통화·신용·실질구매력조건 명시. 일반σp=|w|σ, w0은샤프0/0미정의"
+    },
+    {
+      "refs": [
+        "P3:445"
+      ],
+      "issue": "시장포트폴리오가총위험최소·σ=β+ε",
+      "resolution": "GMVP와접점별개. 정확분해는Var=β²Var(m)+Var(e)(직교조건). β와σ는단위다름"
+    },
+    {
+      "refs": [
+        "P3:445-449",
+        "MOCK:53:97"
+      ],
+      "issue": "CAL영문Asset Line·CML을CAL과배타구분·KOSPI를전체시장",
+      "resolution": "Capital Allocation Line. CML은특수CAL이므로모의2-97③을틀렸다고단정불가. 시장은전체위험자산, 주가지수는대용치"
+    },
+    {
+      "refs": [
+        "P3:449-450",
+        "NOTE:86:18"
+      ],
+      "issue": "CML에는M만·CML=SML",
+      "resolution": "CML은M과무위험조합전체. SML은β축·CML은σ축. 동일식/위치라고혼동금지"
+    },
+    {
+      "refs": [
+        "P3:449",
+        "CALC:96-97",
+        "MOCK:76:99"
+      ],
+      "issue": "모든자산위험프리미엄동일",
+      "resolution": "CAPM조건에서베타당기대초과수익동일. β0은나누지말고원식사용"
+    },
+    {
+      "refs": [
+        "P3:450-451",
+        "CALC:99-100"
+      ],
+      "issue": "SML위면초과수익실현확정",
+      "resolution": "해당모형·예상수익추정에대한상대평가; 현실매수명령이나수익보장으로사용금지"
+    },
+    {
+      "refs": [
+        "P3:452:core"
+      ],
+      "issue": "β를최적위험보상비율로정의·β작으면둔감",
+      "resolution": "민감도계수이고 절댓값/부호분리. β−2는강한역방향. core③도부정확하여고정채점격리"
+    },
+    {
+      "refs": [
+        "P3:452-453"
+      ],
+      "issue": "실현수익률식을기대수익률이라부름·잔차공분산을주식공분산이라설명",
+      "resolution": "E(e)=0이면E(Ri)=ai+βiE(Rm). 잔차직교와잔차쌍별무상관구분"
+    },
+    {
+      "refs": [
+        "P3:453"
+      ],
+      "issue": "잔차분산합내부첨자ep·βp²앞불필요Σ",
+      "resolution": "σεp²=Σwi²σεi²; σp²=βp²σm²+σεp². 원본오기수정"
+    },
+    {
+      "refs": [
+        "P3:453-454"
+      ],
+      "issue": "단일지표공분산과일반공분산이서로다른물리량",
+      "resolution": "같은공분산에구조가정적용. 3n+1은기대수익n개직접입력관례; 절편+시장평균방식은입력목록달라짐"
+    },
+    {
+      "refs": [
+        "P3:455-457"
+      ],
+      "issue": "CAPM실증불가원인을엄격가정만으로·APT는모든요인무상관",
+      "resolution": "대용시장과공동가설문제분리. 요인직교는계산편의가정이며일반분산식에는공분산항존재"
+    },
+    {
+      "refs": [
+        "P3:456-457",
+        "MOCK:54:100"
+      ],
+      "issue": "베타만맞추면언제나무위험차익",
+      "resolution": "충분분산·잔차제거·공매도/차입/비용 등조건. 초기순투자0·요인노출0을검산"
+    },
+    {
+      "refs": [
+        "P3:466-467",
+        "CALC:102-103"
+      ],
+      "issue": "F를평균0인충격과양의위험프리미엄에동시사용",
+      "resolution": "실현모형R=E(R)+βF+e와가격식E(R)=Rf+Σβλ로기호분리. 계산21.4·9.2%는후자의λ"
+    },
+    {
+      "refs": [
+        "P3:458-459"
+      ],
+      "issue": "buy-hold는무작위·불변비율은목표비중계속감소·포뮬러도예측필수",
+      "resolution": "초기선택가능; 주가상승후매도로목표비중복원. 고정규칙과예측을분리. 리밸런싱은이익보장아님"
+    },
+    {
+      "refs": [
+        "P3:460",
+        "P3:462",
+        "NOTE:87:30"
+      ],
+      "issue": "TB가중치를α/잔차표준편차로정규화·평가비율분모불일치",
+      "resolution": "기본TB개별점수α/잔차분산. appraisal ratio α/잔차표준편차와구분. 제시점수의정의불명확하면수정전채점격리"
+    },
+    {
+      "refs": [
+        "P3:461-463"
+      ],
+      "issue": "입출금통제없음=입출금없음·투입금같으면항상단일기간",
+      "resolution": "투자자외부흐름은통제불가해도존재. 평가기간은시간·흐름에의해설정. TWR은외부흐름조정후기하연결"
+    },
+    {
+      "refs": [
+        "P3:462-463"
+      ],
+      "issue": "기하평균28.5%·IRR26.8%의근사정밀도",
+      "resolution": "√1.65−1=28.4523%; −10000,−11000,30000 IRR≈26.7278%. 끝에서반올림"
+    },
+    {
+      "refs": [
+        "P3:465:additional3"
+      ],
+      "issue": "VaR도상관−1이면차의절대값·위험음수불가",
+      "resolution": "표준편차성질을일반VaR에전이금지. 정규/선형·동일신뢰기간·평균처리조건 필요"
+    },
+    {
+      "refs": [
+        "P3:465:additional4"
+      ],
+      "issue": "위험자산최적선택후시장+무위험조합을단순후속단계",
+      "resolution": "무위험포함하면가능집합과최적점재계산. 교재절차는마코위츠와CAPM단계혼합"
+    },
+    {
+      "refs": [
+        "CALC:90:62-1"
+      ],
+      "issue": "시나리오수익률에서계산한위험과제시σ충돌",
+      "resolution": "지정σ10/5/10/5%만쓸때B. 시나리오직접위험은다르므로동일분포로취급금지"
+    },
+    {
+      "refs": [
+        "CALC:92:63-1"
+      ],
+      "issue": "X비중60%라는첫해설: 원본확인",
+      "resolution": "식과정답은80%. 첫문장오타"
+    },
+    {
+      "refs": [
+        "CALC:92:63-2"
+      ],
+      "issue": "공분산=ρσAσB 설명부분곱셈기호누락",
+      "resolution": "본식계산은.36으로정상. 분산·표준편차단위를유지"
+    }
+  ],
+  "math_checks": "review_updates/s3c9_math_checks.json",
+  "primary_source_checks": [
+    {
+      "url": "https://web.stanford.edu/~wfsharpe/mia/rr/mia_rr5.htm",
+      "scope": "두자산과샤프비율의선택조건 검색본문",
+      "findings": "상관·위험·최소분산과최대샤프선택의조건구분"
+    },
+    {
+      "url": "https://web.stanford.edu/~wfsharpe/mia/rr/mia_rr2.htm",
+      "scope": "평균분산선택 정의 검색본문",
+      "findings": "효율적과개인효용의최적선택 구분"
+    }
+  ],
+  "algorithm_rules": [
+    "R02",
+    "R04",
+    "R24"
+  ],
+  "algorithm_effect": [
+    "분산·표준편차·베타의단위를분리하고계산전공식을선택한다.",
+    "문제표의확률·공분산·σ가양립하는지조수가검산한다.",
+    "공식이름보다그림의두축과고정조건을먼저확인한다.",
+    "차익거래는현금과요인노출검산을통과한조건에서만설명한다."
+  ]
+}

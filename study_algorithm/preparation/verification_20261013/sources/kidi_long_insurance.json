@@ -1,0 +1,12 @@
+{
+  "id": "kidi_long_insurance",
+  "requested_url": "https://www.kidi.or.kr/user/nd38806.do?menuCode=engsite",
+  "retrieved_url": "https://www.kidi.or.kr/user/nd38806.do?menuCode=engsite",
+  "retrieved_at": "2026-10-13T04:06:26.373421+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 2301,
+  "content_sha256": "56a8ae1a2e2a55ca35bb4eb4df7e5f42e94156e2153c95d01056db397ee55a6f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

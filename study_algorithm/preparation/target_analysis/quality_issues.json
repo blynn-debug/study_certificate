@@ -1,0 +1,4142 @@
+{
+  "count": 357,
+  "note": "Not a count of confirmed publisher errors. Page links are candidates; read the resolution.",
+  "items": [
+    {
+      "id": "S1C1-ISSUE-01",
+      "chapter_id": "S1C1",
+      "refs": [
+        "P12:23",
+        "P12:48",
+        "P12:52"
+      ],
+      "issue": "납부지연 관련 과거 수치와 현행이라고 적은 주석이 함께 있다. 출판사가 표준교재 기술을 따랐다고 밝힌 부분도 있다.",
+      "resolution": "서로 다른 수치를 자동 병합하지 않고 시험 적용 기준·정오표·현행 규정 확인 대상으로 둔다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C1-ISSUE-02",
+      "chapter_id": "S1C1",
+      "refs": [
+        "P12:35-36",
+        "MOCK:67"
+      ],
+      "issue": "배당가산율은 소득 귀속연도에 따른 변경 주석이 있다.",
+      "resolution": "단일 숫자 카드 대신 적용연도→율 카드로 준비하고 실제 시험 기준일 확인 후 확정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C1-ISSUE-03",
+      "chapter_id": "S1C1",
+      "refs": [
+        "P12:43 보충03"
+      ],
+      "issue": "발문은 납부세액, 해설은 산출세액이라는 표현을 사용한다.",
+      "resolution": "원천징수 전 총세액과 추가 납부액을 구분하고 문항 표현상 모호성을 남긴다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C1-ISSUE-04",
+      "chapter_id": "S1C1",
+      "refs": [
+        "P12:47-49",
+        "P12:57 추가08",
+        "P12:58 추가11"
+      ],
+      "issue": "부동산 공제 예외·부담부증여 등 일반화하면 오해할 수 있는 법규 설명.",
+      "resolution": "교재 답을 현행 법률의 보편 사실로 확정하지 않는다. 예외·개정과 함께 별도 검증.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C1-ISSUE-05",
+      "chapter_id": "S1C1",
+      "refs": [
+        "MOCK:29 문항07",
+        "MOCK:68 해설07"
+      ],
+      "issue": "신고하지 않아도 된다는 표현과 신고하는 것이 바람직하다는 해설은 의무/권장의 층위가 다르다.",
+      "resolution": "정답 이유를 법적 의무로 확대하지 않고 교재의 전략적 판단 문항으로 기록.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C1-ISSUE-06",
+      "chapter_id": "S1C1",
+      "refs": [
+        "CALC:2-3"
+      ],
+      "issue": "70제라는 표제 아래 01번 뒤에 번호 없는 별도 문제가 있다.",
+      "resolution": "01-추가사례로 별도 기록하여 번호만 세었을 때의 누락을 방지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-01",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:74"
+      ],
+      "issue": "RP 중도환매 식의 분모를 OCR이 300으로 추출함.",
+      "resolution": "원본 이미지 확인: 365. 만기30일, 중도25일, 만기후9일의 구간을 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-02",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:88 보충07"
+      ],
+      "issue": "질문에 필수인 수익구조 그래프가 텍스트 추출에서 빠짐.",
+      "resolution": "원본 확인: 참여율50%, 장벽140%, 최고수익20%, 리베이트5%. 130% 시점 15% 계산은 이전 장벽 도달이 없는 경로를 전제로 해석.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-03",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:66-67",
+        "P12:75",
+        "P12:80-82",
+        "P12:90",
+        "P12:97-99"
+      ],
+      "issue": "가입요건·세율·규제·보호한도 등 시점 의존 정보.",
+      "resolution": "교재 기준 요구 행동만 도출하고 실제 학습 숫자는 적용연도·공식 자료 확인 후 확정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-04",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:71-75",
+        "P12:84",
+        "P12:95-96"
+      ],
+      "issue": "원금 이상 보장, 원금보장형 구조, 이해상충 없음 등 단순화한 설명.",
+      "resolution": "발행자 신용위험·만기조건·계약과 모형 가정을 생략한 일반 규칙으로 옮기지 않는다. 95% 투자에 5% 수익이면 합계99.75%이므로 ELS 예시의 비율 표현도 정확한 금액과 구분.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-05",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:109 보충07"
+      ],
+      "issue": "비재고자산 비례보상 공식의 OCR 분수 누락",
+      "resolution": "원본 시각 확인 완료. 손해액과 제거비용 각각에 5/(10×0.8) 적용, 합계 6,750만 원.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-06",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:117",
+        "P12:126",
+        "NOTE:11 Q48"
+      ],
+      "issue": "2026 기업성장집합투자기구 추가로 6종이라고 설명한 곳과 5종 체계를 유지한 곳 공존",
+      "resolution": "유형 수와 신설 범위는 공식 적용일·출제기준·정오표 확인 후 확정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-07",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:126-128"
+      ],
+      "issue": "MMF 금융회사 단기대출의 30일과 3개월 표현이 불일치",
+      "resolution": "둘 중 하나를 임의로 정답화하지 않고 공식 규정 확인 대상으로 분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-08",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:147 이론(3)②",
+        "P12:147 보충01"
+      ],
+      "issue": "일반투자자 포함 일반사모의 운용보고서 제공의무가 면제되지 않는다는 이론과 ④만 정답이라는 해설 충돌",
+      "resolution": "원본 이미지에서도 충돌 확인. 해당 문항의 유일정답 채점을 보류하고 공식 규정·정오표 확인 필요.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-09",
+      "chapter_id": "S1C2",
+      "refs": [
+        "NOTE:12 Q50",
+        "P12:126-127"
+      ],
+      "issue": "노트는 국채 편입 만기를 1년 이상 5년 이내로 한정하고 O 처리; 본문은 5년 이내 및 1년 이상분 별도 비중제한",
+      "resolution": "편입가능 전체 범위와 장기분 비중제한을 구별. 노트 선지의 하한 1년은 오류 후보.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-10",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:165 추가04 해설",
+        "P12:74"
+      ],
+      "issue": "생계형저축 외에는 만기 후 추가이자가 없다는 일반화와 RP 계약별 설명이 맞지 않음",
+      "resolution": "CD 자체의 만기 이후 처리와 모든 상품에 대한 일반화를 분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-11",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:166 추가11",
+        "NOTE:10 Q33"
+      ],
+      "issue": "모든 옵션매수 이익이 무한대라는 문구 및 만기 접근 시 풋가격의 일률적 하락 표현",
+      "resolution": "풋의 이익상한과 모형·가정 의존성을 무시하지 않는다. 문항의 요구 행동과 경제적으로 정확한 설명을 분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-12",
+      "chapter_id": "S1C2",
+      "refs": [
+        "MOCK:6 1회Q15",
+        "MOCK:57 Q15"
+      ],
+      "issue": "임금상승률이 높은 기업에 DB가 유리하다는 선지의 주체와 조건이 모호",
+      "resolution": "DB/DC 부담 구조는 설명하되 기업·근로자에게 유리한지의 단정을 피하고 별도 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-13",
+      "chapter_id": "S1C2",
+      "refs": [
+        "MOCK:56 1회Q08 해설"
+      ],
+      "issue": "직전 3개년 중 1회 이상 종합과세 대상이 아닌 자라는 이중부정 표현",
+      "resolution": "가입 제외 조건을 긍정문으로 바꾸되 공식 기준 확인 후 사용.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-14",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:153-159"
+      ],
+      "issue": "ABS/MBS 신용도·수익률·부외효과가 구조와 비교대상 조건 없이 일반화된 부분",
+      "resolution": "기초자산·보강·트랜치·양도요건을 명시하고 무조건 높은 신용/수익이라는 규칙으로 만들지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-15",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:164 추가06",
+        "P12:167 추가14 해설"
+      ],
+      "issue": "병합표와 연금수령한도 분수가 텍스트만으로 불명확",
+      "resolution": "원본 이미지 확인 완료. 수익결정방법 표의 ELS/ELF 묶음이 오답 지점, 수령한도 식의 분모는 11-연금수령연차.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C2-ISSUE-16",
+      "chapter_id": "S1C2",
+      "refs": [
+        "P12:93-94"
+      ],
+      "issue": "자본지지점의 정의는 기초자산 상승률인데 해설에서는 ELW가 6%만 상승한다고 바뀜",
+      "resolution": "기초자산의 연간 상승률에 관한 비교 기준으로 정정한다. 현재 ELW 가격 6% 상승과 구별하고 수익 보장으로 설명하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-01",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:184 보충03"
+      ],
+      "issue": "질권을 부동산 물권 선지에 포함한 문제의 범위 오류를 교재도 인정",
+      "resolution": "정답 선택 행동과 엄밀한 분류를 분리하고 모든 물권이 등기로 성립한다는 해설 일반화 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-02",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:182",
+        "P12:185-186",
+        "MOCK:32 Q16"
+      ],
+      "issue": "전세권 기간·처분 제한의 예외, 가등기 기재 위치 등 법적 조건이 요약에서 생략",
+      "resolution": "목적 권리·건물/토지·특약을 확인하고 공식 조문에 근거해 설명할 때 보완.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-03",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:195 보충03"
+      ],
+      "issue": "OCR이 정답 표시를 ③처럼 추출",
+      "resolution": "원본 확인: 정답 ①, NPV는 현금유입 현재가치-현금유출 현재가치.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-04",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:195 보충05",
+        "MOCK:32 Q17"
+      ],
+      "issue": "복수 투자안의 우선순위를 언제나 PI 또는 IRR 순으로 결정한다는 일반화",
+      "resolution": "단일 투자안 채택기준과 상호배타·규모·현금흐름이 다른 투자안 순위결정을 분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-05",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:200 보충04 예시"
+      ],
+      "issue": "지상층 연면적800㎡에 별도 주차면적100㎡가 포함되는지 불명확한데 400% 계산",
+      "resolution": "원본에서도 동일. 800이 용적률 산정용 면적이면400%, 주차 포함 총연면적이면 제외 후350% 가능. 학습 예제에는 포함 여부 명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-06",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:200 보충04 해설"
+      ],
+      "issue": "건축면적을 가장 넓은 한 층으로 단순화",
+      "resolution": "돌출·기둥·수평투영 등 법적 세부가 필요한 사례로 무조건 확대하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-07",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:198-201",
+        "P12:208-209",
+        "NOTE:17"
+      ],
+      "issue": "지역·지구·구역 수, 리츠 종류·인가·배당·자본 및 가장 활성화된 유형 등 시점 민감 정보",
+      "resolution": "교재 요구 행동만 도출. 신설제도·예외·공식 적용시점 확인 전 현재 사실로 확정하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-08",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:211 보충01 및 OX"
+      ],
+      "issue": "차주에게도 상환청구권이 없다는 선지와 차주 시행법인 자산에 청구할 수 있다는 해설 충돌",
+      "resolution": "출자자와 차주를 분리. 비소구는 누구에게 추가청구가 제한되는지 명시해야 하며 문항 원문을 법률적 정의로 사용하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-09",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:213-214"
+      ],
+      "issue": "분산 공식·그래프가 OCR에서 누락; 체계적 위험 표의 전체위험 문구가 총위험과 혼동 가능",
+      "resolution": "이미지 확인. 분산은 비중 제곱 항+공분산 항, A는 비체계적·B는 체계적. 체계적 위험≠총위험으로 설명.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-10",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:220"
+      ],
+      "issue": "사정보정 예시에서 OCR이 ㎡당 가격이라는 단위를 누락",
+      "resolution": "원본은 8,000,000원/㎡. 100㎡ 매각총액8억, 정상가격10억. 단위 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-11",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:225 보충07",
+        "NOTE:18 Q40"
+      ],
+      "issue": "임대료를 비용·공실 조건 없이 순영업소득으로 직접 사용",
+      "resolution": "교재 계산의 생략 가정을 표시하고 실제 예제에서는 비용 없음 또는 NOI 제공을 명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-12",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:219",
+        "P12:225",
+        "MOCK:58 Q20 해설"
+      ],
+      "issue": "토지 원가방식 불가의 절대 표현과 조성지·매립지 예외 공존",
+      "resolution": "원칙과 예외를 함께 기록하며 같은 평가방식의 이름을 단서만으로 기계적으로 선택하지 않도록 함.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S1C3-ISSUE-13",
+      "chapter_id": "S1C3",
+      "refs": [
+        "P12:231 추가12 해설"
+      ],
+      "issue": "PI 풀이 윗부분이 텍스트에서 누락",
+      "resolution": "이미지 전체 확인. PI=1300/1000=1.30, 정답③.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-01",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:235"
+      ],
+      "issue": "MMF가 주식에 투자한다는 해설 문구",
+      "resolution": "다른 장의 MMF 투자대상과 충돌. 분류 문제의 정답과 부정확한 설명을 분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-02",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:236-237",
+        "S1C3T08"
+      ],
+      "issue": "투자분석의 전체자산·자기자본 관점이 문항마다 다름",
+      "resolution": "PI·NPV의 현금흐름과 최초투자액을 같은 관점으로 정규화.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-03",
+      "chapter_id": "S2C1",
+      "refs": [
+        "NOTE:19 Q03",
+        "P12:211"
+      ],
+      "issue": "PF는 차주에게도 청구권이 없다는 과도한 표현",
+      "resolution": "프로젝트 차주와 스폰서를 분리. 해당 OX를 엄밀한 계약 정의로 채점하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-04",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:241-245",
+        "MOCK:7 Q22",
+        "NOTE:19"
+      ],
+      "issue": "개편 후 일반사모·기관전용 제도와 구 PEF 표현 혼용 가능",
+      "resolution": "100/49, 지분·차입·등기 규정은 대상 기구와 시행일 공식 확인 전 교재 주장으로 유지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-05",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:247"
+      ],
+      "issue": "우선주의 메자닌 제외를 일반 정의로 확대할 위험",
+      "resolution": "교재의 출제 분류와 금융구조상 넓은 용례를 구별; 검증 전 절대 정의 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-06",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:248-249"
+      ],
+      "issue": "헤지펀드 저위험·고수익, 공모 운용자 자기투자 금지 등 절대 표현",
+      "resolution": "모든 펀드의 성질·현행 법적 금지로 단정하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-07",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:250-252"
+      ],
+      "issue": "시장중립·총노출 정의와 비율만으로 수익 우열 결정",
+      "resolution": "이미지 확인. 교재 Gross=(L+S)/(L-S) 분모를 명시하고 다른 정의와 분리. 동일 순노출·동일 수익률 가정이면 단순 롱숏비율만으로 우열을 못 정하므로 보충02 확정채점 보류. 순노출20%를20억으로 적은 단위 오류도 표시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-08",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:251"
+      ],
+      "issue": "하락 후 가치가 -82억/-78억으로 인쇄된 표",
+      "resolution": "주가 -18%/-22%이면 100의 잔존가치는 +82/+78. 손익 -18/+22와 잔존가치를 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-09",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:253-254"
+      ],
+      "issue": "현금합병의 무위험 인상 및 소문=미공개정보 위법 일반화",
+      "resolution": "합병 완료·비용 조건과 실패위험 명시. 위법성은 정보의 성격과 법적 요건 없이 단정하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-10",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:255-256",
+        "MOCK:33 Q22",
+        "MOCK:58 Q23 해설"
+      ],
+      "issue": "CB 시장가격을 전환 기준금액처럼 사용; 낮은 내재변동성이 미래 상승을 보장한다는 해설",
+      "resolution": "전환 가능한 액면·수량·델타 단위 명시. 낮은 가격과 미래 변동성 실현은 다른 주장.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-11",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:257-259",
+        "P12:273-274"
+      ],
+      "issue": "버터플라이 명칭 관례 차이, 금리전략을 옵션 변동성 매수·매도와 동일시",
+      "resolution": "원본 그래프 확인 완료. 금리 방향·만기별 포지션을 우선 설명하고 변동성 동치에는 모형 조건 필요.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-12",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:258-259",
+        "NOTE:21 Q20"
+      ],
+      "issue": "BEI 사례는 채권가격 변동을 생략; 무상증자 주가상승은 가정·경향",
+      "resolution": "310만원은 제시한 단순 현금흐름의 차이로만 사용. 보너스 발행이 가치나 수익을 보장한다고 가르치지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-13",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:261",
+        "MOCK:33 Q23"
+      ],
+      "issue": "기대현물-선물 관계와 선물 만기구조 혼용, 연계채권은 위험·오차가 없다는 인상",
+      "resolution": "원본 롤 도식 확인. 롱/숏과 만기 조건 명시; 발행사 신용·비용·추적대상은 별도 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-14",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:262-265"
+      ],
+      "issue": "CLN이 Commodity Linked와 Credit Linked 두 뜻으로 쓰임",
+      "resolution": "약어만으로 라우팅하지 않고 문맥과 전체 이름을 저장.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C1-ISSUE-15",
+      "chapter_id": "S2C1",
+      "refs": [
+        "P12:267-271",
+        "MOCK:58 Q25",
+        "NOTE:21 Q27"
+      ],
+      "issue": "트랜치의 선급수익·메자닌 전환·상관민감도를 모든 CDO의 속성으로 제시",
+      "resolution": "원본 도식 확인. 손실구간 계산은 명시 가정으로 설명. 계약별 현금흐름과 모형 의존 민감도는 별도 검증 전 범용 법칙으로 채점하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-01",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:278-280",
+        "MOCK:69 Q26"
+      ],
+      "issue": "장기 환위험 미미·분산으로 위험 제거라는 절대 표현",
+      "resolution": "교재 실증사례/단순모형의 주장으로 제한. 투자기간만으로 환위험 소멸을 보장하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-02",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:278-279"
+      ],
+      "issue": "도식의 높이 α+β를 통계적 표준편차 합으로 읽을 위험",
+      "resolution": "이미지 확인. 그림상 높이 표시와 분산분해 공식을 분리. 이후 단일지표모형의 분산 분해와 연결.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-03",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:281-282",
+        "P12:299-300"
+      ],
+      "issue": "MSCI는 시가총액 방식이 아니라는 이분법, 통화 버전 일반화, 국가분류·WGBI 편입·2026/2024 날짜 혼재",
+      "resolution": "공식 2026년 자료로 MSCI 한국 EM·FTSE 주식 한국 DM, MSCI World의 DM 범위와 유동시가총액 가중을 확인했다. KRW·USD 버전 모두 존재한다. WGBI는 4~11월 단계편입이므로 10월13일 진행 중이다. L121·L122·L125 참조. 핵심문제의 배타적 가중법 해설은 C024로 보류.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-04",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:283-285"
+      ],
+      "issue": "정확 수익식과 근사식 혼용; Var를 VaR로 표기; 통화가치와 환율 표시방향 혼합",
+      "resolution": "원본 수식 확인. 정확식은 곱, 합산식과 두 분산+2공분산은 해당 근사 조건 표시. 분산과 손실분위수 VaR 구별; 원/달러 등 단위 고정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-05",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:286-287",
+        "P12:300-302"
+      ],
+      "issue": "내재적헤지를 미국인·달러상승기에만 제한, 롤위험을 장내로 한정, 2022 증거금률 사례",
+      "resolution": "국적이 아니라 기준통화와 상관관계로 일반화한다. 교재가 의도한 예시와 일반 원리를 분리하고 추가04·10 확정채점 보류. 비용·유동성·증거금 수치는 계약·시점 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-06",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:288-289"
+      ],
+      "issue": "ADR이면 환위험이 없다는 설명",
+      "resolution": "SEC 국제투자 안내 및 SEC에 제출된 펀드 원문상 ADR 환위험과 충돌. 달러 거래 편의와 경제적 환노출을 분리해 바로잡음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-07",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:288",
+        "MOCK:9 Q28"
+      ],
+      "issue": "EDR/GDR 정의가 2026 범위에서 제외되었다는 본문과 모의고사 수록 불일치",
+      "resolution": "보조 문항으로 보존하되 출제범위 포함 여부는 공식 범위와 별도 대조.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-08",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:290-291",
+        "MOCK:9 Q28-29",
+        "MOCK:35 Q29"
+      ],
+      "issue": "유로채 무규제·항상 무기명·무과세, 양키 외국인 전원 면세의 과잉 일반화; AIBD·Cedel 등 역사적 명칭",
+      "resolution": "분류 원리와 역사적 관행·현행 규제를 분리. 투자자 자격·포트폴리오이자 예외·거래조건 검증 전 법적 확정 설명 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-09",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:292-294",
+        "CALC:12",
+        "NOTE:23 Q18"
+      ],
+      "issue": "해외주식 배당 무조건 종합과세라는 조건 생략, ETF 과세표준의 단순화",
+      "resolution": "국내 원천징수·수령경로 등 조건을 확인해야 한다. S1C1의 조건부/무조건 종합과세 구분과 교차 검증. 공식 세법 검증 전 Q18 등 확정채점 보류.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-10",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:295-296"
+      ],
+      "issue": "미국국채 위험 없음, T-Bond 주석에10년 포함, 브라질 6%세금 폐지를 인정하면서 현재형 선지 사용",
+      "resolution": "미국국채의 기준역할과 금리·환위험 구별. 10년은 표의 T-Note 범주. 브라질 보충01은 단일정답 자료로 쓰지 않고 구자료로 격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C2-ISSUE-11",
+      "chapter_id": "S2C2",
+      "refs": [
+        "P12:296-298"
+      ],
+      "issue": "딤섬은 모두 저금리·우량·단기, 적극운용이 더 많음, 소극수익의 절대 상한 등 시점·계약 의존 주장",
+      "resolution": "범주 정의와 교재가 든 시장경향을 구별하고 실제 예제에는 조건 명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-01",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:309 보충02",
+        "CALC:13"
+      ],
+      "issue": "분산과 표준편차 모두 n-1로 나누면 불편추정치라는 설명",
+      "resolution": "표본분산은 편차제곱합/(n-1); 표본표준편차는 그 제곱근이며 일반적으로 불편추정량이 아니다. 문구를 그대로 정답 근거로 쓰지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-02",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:310-313"
+      ],
+      "issue": "모든 자산은 직접 DCF 가능·모든 우선주 영구라는 생략, 무한기간이므로 D/k라는 잘못된 일반도출",
+      "resolution": "예측 현금흐름과 계약 가정 명시. D/k는 고정 영구현금흐름; 일반 배당할인은 각 미래배당의 현가합.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-03",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:313-314",
+        "CALC:14-17"
+      ],
+      "issue": "terminal value 표기 P3/이후배당 및 현재시점 혼동 가능",
+      "resolution": "이미지 확인. 마지막 고성장 시점의 가치와 해당시점 배당을 분리하고 둘 다 필요한 기간만 할인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-04",
+      "chapter_id": "S2C3",
+      "refs": [
+        "CALC:15"
+      ],
+      "issue": "해설 첫 문장 요구15%·성장5%, 실제 문항4%·계산24%",
+      "resolution": "이미지에서도 동일 오기. D1=2080, k=2080/10400+0.04=24%, 정답③.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-05",
+      "chapter_id": "S2C3",
+      "refs": [
+        "CALC:17"
+      ],
+      "issue": "15120을 구하는 분모에0.01-0.05로 인쇄",
+      "resolution": "이미지 확인. 조건의 요구10%에 따라0.10-0.05 사용; 계산 결과15120과 일치.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-06",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:315 보충01"
+      ],
+      "issue": "배당평가모형에서는 무위험수익률을 사용하지 않는다는 절대 표현",
+      "resolution": "이 문제는 요구수익률이 이미 주어져 미사용. CAPM으로 k를 추정할 때는 무위험수익률을 사용.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-07",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:319-323",
+        "MOCK:10 Q31",
+        "MOCK:59 Q31"
+      ],
+      "issue": "부채비율 분모 혼용, 높은 수익·회전율의 단일원인 해석, 회전율 하락도 부실 신호일 수 있는데 틀린 것으로 처리",
+      "resolution": "D/A와 D/E를 구분. 상승·하락 모두 맥락과 자산 처분·수익성을 확인. Q31의 다 선지는 확정채점 보류.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-08",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:319-320"
+      ],
+      "issue": "재고회전율 순매출/재고의 교재 관례와 다른 원가/평균재고 정의; 자산 평균·기말 기준 생략",
+      "resolution": "문항에서 주어진 정의를 명시하고 서로 다른 기준을 섞지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-09",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:323"
+      ],
+      "issue": "ROE 분해의 자기자본배수를 재무레버리지도 DFL과 혼동 가능",
+      "resolution": "원본 확인. A/E와 EBIT/(EBIT-I)는 다른 지표. 각각 이름·분모 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-10",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:324",
+        "CALC:21"
+      ],
+      "issue": "고정비용만 있으면 항상 레버리지도1초과라는 조건 누락",
+      "resolution": "양의 영업·세전이익 등 분석구간 명시. 분모0·음수이면 단순 대소관계 확장 금지. 1단위 변화와1% 변화도 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-11",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:327-330",
+        "NOTE:26"
+      ],
+      "issue": "매입채무 감소를 현금유입 감소로 표현, 매출채권·재고를 비유동자산으로 표기, 매입채무 증가를 운전자본 증가로 표현",
+      "resolution": "채무 상환은 현금유출. 영업유동자산·순운전자본 기준을 명시. 미지급금이 어떤 활동인지 없이 전부 영업으로 처리하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-12",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:329"
+      ],
+      "issue": "FCF 잔여가치를 할인 없이 더하고 최근3~5년 평균만으로 일반화",
+      "resolution": "말기가치는 적정 다음기CF와 성장률의 가정으로 구하고 현재로 할인. FCFF/WACC·FCFE/자기자본비용 대응 유지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-13",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:331-334"
+      ],
+      "issue": "PER 상승은 좋은 현상·EPS 하락이면 지속상승 불가, PBR은1불가, Tobin Q를 자기자본 시가로 단순화",
+      "resolution": "분자·분모 변화와 모형범위 분리. PBR=1도 가능. 대체원가와 장부/시장가 구별하되 교재의 Q 축약을 전체 정의로 확대하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-14",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:332"
+      ],
+      "issue": "PBR 식에(1+g) 유무와 E1/E0·BV시점이 혼재",
+      "resolution": "이미지 확인. 동일 시점의 이익/자기자본과 PER를 사용해야 PBR=ROE×PER 항등관계 유지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-15",
+      "chapter_id": "S2C3",
+      "refs": [
+        "CALC:28"
+      ],
+      "issue": "주당가치500만 원이라는 해설 문장과0자리 오기",
+      "resolution": "이미지에서 확인. (150000000-100000000)/100000=500원. 아래 풀이와 정답④가 맞음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-16",
+      "chapter_id": "S2C3",
+      "refs": [
+        "CALC:29"
+      ],
+      "issue": "약식풀이 마지막에 EVA=500억이라고 표시",
+      "resolution": "이미지 확인. EVA는30억, MVA300억, 기업가치500억. 지표명 오기 교정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-17",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:339"
+      ],
+      "issue": "법인세율30% 문제인데 WACC 중간식에1-0.03 반복 인쇄",
+      "resolution": "이미지 확인.1-0.3 사용해야 WACC7.6/8.2/8.8/9.4%와 해설 결과 일치.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-18",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:337-340",
+        "CALC:29-30",
+        "NOTE:27"
+      ],
+      "issue": "MVA=EVA/k·기업가치=NOPLAT/k를 일반식처럼 사용, 부채증가가 항상 유리하다는 인상",
+      "resolution": "일정한 영구EVA·할인율·투하자본 등의 가정 명시. 부채비중 비교는 자본비용이 고정된 문제 내 조건으로 한정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-19",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:341-373"
+      ],
+      "issue": "기술적 분석의 분류·경향·신호가 필연적 수익과 미래예측으로 오해될 위험",
+      "resolution": "교재 모형의 인식 과제로 제한. 실제 데이터에 대한 성공률·미래 수익은 검증한 바 없음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-20",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:348",
+        "P12:352-353"
+      ],
+      "issue": "상승MA 하향돌파의 일반 서술과 그랜빌 매수2의 조건 차이; 주가-MA를 데드크로스로 부름",
+      "resolution": "지표체계·이평 방향·일시성·괴리 조건을 함께 기록. 두 이평선 교차와 주가-이평선 교차 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-21",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:354",
+        "P12:373"
+      ],
+      "issue": "OCR에서 핵심문제 지문·그래프 선택지 누락",
+      "resolution": "원본 확인 완료. 급진갭②, %K/%D하향교차②를 위치 근거와 함께 복원.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-22",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:356-361",
+        "NOTE:28 Q42"
+      ],
+      "issue": "이중바닥 두 번째 저점 반드시 높음·확대형 천장만 발생·다이아몬드 반드시 지속 등 단정",
+      "resolution": "교재의 특정 전형과 범용 패턴 정의를 구별. 분류가 다른 자료와 충돌하면 모형 출처를 표시하고 무조건 정답으로 일반화하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-23",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:362-363"
+      ],
+      "issue": "좋고 나쁜 어감만으로 캔들 해석 유도",
+      "resolution": "암기 보조로만 사용. 앞선 추세·캔들수·몸통과꼬리로 먼저 설명.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-24",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:364-366"
+      ],
+      "issue": "A파 반드시5개·조정파 반드시3개·겹침 불가를 모든 변형에 일반화",
+      "resolution": "교재의 기본 충격파·지그재그 도식 범위에서 설명하고 예외형태는 모형 검증 후 보완.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-25",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:367"
+      ],
+      "issue": "OBV 기산일만으로 다이버전스 시점 변화·하락에너지 축소, VR정상150의 일반성",
+      "resolution": "누적 기준값을 상수 이동하는 것과 관측기간을 바꾸는 것을 구별. 임계값은 교재 관례로 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-26",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:369-372"
+      ],
+      "issue": "MAO/MACD 차이를 막대/선만으로 설명, RSI를 종목·업종 간 상대강도로 정의, %D와Slow Stochastic 동일시",
+      "resolution": "교재 질문의 구별 기준과 지표의 실제 계산 정의를 분리. 공식 산식을 확인하기 전 잘못된 확장 설명 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-27",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:371-373"
+      ],
+      "issue": "과열권 진입/이탈과 매매신호 기준 혼재",
+      "resolution": "20/80 또는30/70 중 사용 기준과 진입·이탈·교차 조건을 각 문제에 명시. 서로 다른 조건의 채점 근거 혼용 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-28",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:374-380"
+      ],
+      "issue": "산업 경기 선후행·공급측면 최우선·5단계 발전을 보편 법칙처럼 표현",
+      "resolution": "교재의 분류 모형으로 보존하고 모든 산업·국가의 필연적 경로로 확장하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-29",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:382"
+      ],
+      "issue": "전방연쇄효과 표제에 특정→모든 산업이라고 인쇄되어 아래 정의와 충돌",
+      "resolution": "이미지 확인. 아래 문장과 추가28·NOTE63의 모든 산업 수요→특정 산업 생산 정의로 구별. 표제 화살표는 오류로 격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-30",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:381-383"
+      ],
+      "issue": "중간생산물이 국민소득통계에서 제외된다는 표현, 수입만 빼는 항등식과 실제 표의 잔폐물 조정 차이",
+      "resolution": "GDP의 중복계산 방지와 중간거래 통계의 존재를 구별. 실제 표는 평가기준·세금·잔폐물도 읽고 단순항등식 적용 범위를 명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-31",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:383"
+      ],
+      "issue": "고용유발계수를 일정금액 이상 증가라고 표현",
+      "resolution": "정해진 단위 최종수요당 유발 인원이라는 비율로 설명; 문턱 초과 개념으로 가르치지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-32",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:384-385",
+        "MOCK:12 Q41"
+      ],
+      "issue": "성장기/성숙기의 이익률 하락 문구 중첩, 성숙기 R&D 최대라는 단정",
+      "resolution": "이익률 정점에 처음 도달하는 단계와 그 이후 상태를 구별. 연구개발 지출의 보편 최대치로 확대하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-33",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:387-388"
+      ],
+      "issue": "이미 산업성과 낮음인데 단기 높은 성과라고 하는 시간기준 불명확한 피드백 설명",
+      "resolution": "현 시점 경쟁자산·관측 성과·미래 재투자 구분. 교재가 묻는 조합은 보존하되 확정 예측으로 제시하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-34",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:389-391"
+      ],
+      "issue": "통화/재정정책은 오직 수요, 산업조직은 오직 공급, 시장실패면 무조건 정부개입이라는 과도한 단순화",
+      "resolution": "교재의 대비축으로 한정. 정책의 모든 효과나 정부개입의 충분조건으로 일반화하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-35",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:392",
+        "CALC:31-33"
+      ],
+      "issue": "단일기업 점유율이 곧 HHI, 역수가 기업수라는 조건 생략",
+      "resolution": "모든 기업의 점유율이 동등하고 소수 단위라는 조건을 붙인다. 일반 분포의 역수는 동등규모 환산기업수.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-36",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:394-395 추가04"
+      ],
+      "issue": "차기의 적정주가라는 지문에 현재가치 P0=28000을 정답으로 제시",
+      "resolution": "D0=1000,g12%,k16%로 현재P0=28000, 한 기 뒤P1=31360. 시점 모호성으로 채점 보류하고 시간축 설명 예제로 사용.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-37",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:395-397"
+      ],
+      "issue": "부채가 있으면 항상ROE>ROA, 비현금비용=현금유입, 비현금이익=현금유출이라는 설명",
+      "resolution": "양의 순이익·양의 자기자본 가정 명시. 간접법의 가감조정과 실제 현금 입출을 분리. 자산/부채 변화도 현금흐름표 한 활동에 전부 귀속하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-38",
+      "chapter_id": "S2C3",
+      "refs": [
+        "P12:398-401",
+        "MOCK:37 Q38"
+      ],
+      "issue": "패턴의 항상·무조건·절대 표현과 RSI신호 최강·MACD 선행성의 단정",
+      "resolution": "교재 모형·특정 설정에서의 분류로 기록하고 미래가격 보장이나 검증된 신호 우열로 가르치지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-39",
+      "chapter_id": "S2C3",
+      "refs": [
+        "MOCK:70 Q35"
+      ],
+      "issue": "해설 첫 문장 ROA는10%인데 문제는ROE를 물음",
+      "resolution": "이미지 확인. ROE=30/(500×0.6)=10%, ROA=30/500=6%. 이름 오기 수정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C3-ISSUE-40",
+      "chapter_id": "S2C3",
+      "refs": [
+        "MOCK:71 Q41"
+      ],
+      "issue": "추출문에 HHI의 제곱이 빠짐",
+      "resolution": "원본에는0.05² 합계가 정확히 인쇄됨. 원문오류가 아닌 추출손실로 구분.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-01",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:406"
+      ],
+      "issue": "운영/유동성/법적 위험을 모두 재무적위험에 넣는 교재 분류",
+      "resolution": "분류체계 의존임을 표시. 다른 공식 체계의 운영위험 포함범위와 혼용 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-02",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:408-409",
+        "NOTE:32 Q04",
+        "MOCK:61 Q43"
+      ],
+      "issue": "Metallgesellschaft 모회사 파산이라고 반복 서술",
+      "resolution": "연준 연구 초록은 모회사 긴급자본확충·구제라고 설명. 실패사례 명칭과 실제파산을 구별해 정정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-03",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:407-410"
+      ],
+      "issue": "RP/Reverse RP관점·Normal Backwardation과선물곡선형태 혼용; 가격×듀레이션 단위 생략",
+      "resolution": "차입자관점RP매도/대여자관점 구별. 기대미래현물과 선물만기곡선 구별. 듀레이션식이 가격변화율인지금액인지 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-04",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:412-413",
+        "P12:429"
+      ],
+      "issue": "VaR=절대최대손실, 합산보다항상작음, 20일당한번의 확정주기 인상",
+      "resolution": "손실분위수와 꼬리초과를 설명. 분산부등식은 해당정규/선형모형 조건이며 일반VaR의 보편성으로 확장하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-05",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:414-417",
+        "MOCK:71 Q43"
+      ],
+      "issue": "유한Taylor합=완전평가·고차항항상작음·듀레이션=가격1차미분·모형전혀불필요",
+      "resolution": "완전평가는가격재평가. 수정듀레이션은-(1/P)dP/dy,델타는dV/dS. 근사항크기는노출·충격에달림.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-06",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:418",
+        "P12:438 추가06",
+        "MOCK:13 Q46",
+        "MOCK:61 Q46"
+      ],
+      "issue": "자체수익률표준편차에 베타를다시곱함",
+      "resolution": "원전은자체σ와시장σ×β를구별. 추가06은지문대로66억,모의1Q46은13.2억. 주식자체σ사용이β=1을뜻하지않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-07",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:417-419",
+        "NOTE:32-33"
+      ],
+      "issue": "z비율·√기간·두VaR상관공식을무조건적용",
+      "resolution": "동일기간/신뢰수준·선형정규손익·안정적독립증분·드리프트생략등가정명시. 옵션δ는절댓값/수량·통화승수확인. ρ0은독립과구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-08",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:420-421"
+      ],
+      "issue": "옵션매수분산의감마제곱항을빼고매도는더하는공식;델타가항상과소평가",
+      "resolution": "원본에서마이너스인쇄확인. Var(-X)=Var(X)와충돌하며원전의제곱항도플러스. 교재롱공식은폐기·정확VaR과z×표준편차근사구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-09",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:423-424"
+      ],
+      "issue": "과거데이터때문에완전평가라는인과·분위수순서관례·200-160.51=38.49오기",
+      "resolution": "재평가방식과충격자료구별. 원본오기확인,정확계산200-161.51=38.49. 100개표본의6/2번째규칙은교재관례임을명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-10",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:425",
+        "MOCK:39 Q47",
+        "MOCK:71 Q47"
+      ],
+      "issue": "정규분포가정불필요하므로모수추정도불필요라는오류",
+      "resolution": "Monte Carlo의선택모형에변동성·상관등필요. 해당모의는교재④대신가선지제외한②가타당;확정채점시정정표시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-11",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:425-428"
+      ],
+      "issue": "시뮬레이션은항상완전평가·모든위험반영;stress단일요인/20%한정;값이가장크면완전평가",
+      "resolution": "교재관례와일반방법구별. Monte Carlo에도근사평가조합가능. stress손실에확률을자동부여하지않고복수충격도허용. 값대소만으로정확성판단금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-12",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:429-430",
+        "CALC:38-40",
+        "NOTE:34 Q19"
+      ],
+      "issue": "유한편입VaR차이를Marginal VaR로명명·수익조건없이낮은값이면우수",
+      "resolution": "교재용어와일반적Incremental VaR를나란히표기. 미분민감도와유한차이구별. 비교시금액·기대수익·기간동일조건확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-13",
+      "chapter_id": "S2C4",
+      "refs": [
+        "CALC:39 Q27"
+      ],
+      "issue": "수익률%/금액VaR의비례값을그대로RAROC라명명",
+      "resolution": "투자금동일시순위는유지되나정확한비율은수익금액필요. CALC40사례와MOCK1Q48로단위복원.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-14",
+      "chapter_id": "S2C4",
+      "refs": [
+        "CALC:36",
+        "CALC:38"
+      ],
+      "issue": "추출문14.73→11.73,√4→4 손실",
+      "resolution": "원본둘다정확. 교재오기와OCR오독을분리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-15",
+      "chapter_id": "S2C4",
+      "refs": [
+        "CALC:37 Q24-1"
+      ],
+      "issue": "15²을중간식255로인쇄",
+      "resolution": "이미지확인.225로수정,√(64+225)=17은기존정답과일치.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-16",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:433-436",
+        "NOTE:34",
+        "CALC:43-44"
+      ],
+      "issue": "비정규분포는모수모형불가·PD자체가Bernoulli·고정EL의변동성이라는부정확한표현",
+      "resolution": "비정규모수모형도가능. 확률변수는부도여부I,PD는그확률p. L=EAD×LGD×I의기대값과표준편차를구분. 정규자산가치DD는문제의단순화모형.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-17",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:435 보충02",
+        "CALC:41"
+      ],
+      "issue": "DD3의정규하단확률을0.5%로서술;표의음수z와양수DD혼동",
+      "resolution": "원본확인.표준정규하단Φ(-3)=약0.135%;CALC근사0.15%와달리0.5%는오류. DD양수와부도경계z=-DD구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-18",
+      "chapter_id": "S2C4",
+      "refs": [
+        "CALC:44 Q31"
+      ],
+      "issue": "p=√p(1-p)를p로나눠0해누락",
+      "resolution": "p=0또는0.5.제시된보기는0.5만포함하므로선택답유지하되양의부도율조건설명.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S2C4-ISSUE-19",
+      "chapter_id": "S2C4",
+      "refs": [
+        "P12:434-436"
+      ],
+      "issue": "MTM만집중위험관리,Default에는신용등급이전혀안쓰임이라는확장가능성",
+      "resolution": "교재의측정범위차이로한정. Default포트폴리오에도집중/상관모형가능하고등급은PD추정에활용될수있음. 현행자본/충당금규정의상세적용은별도검증.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-01",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:5",
+        "P3:50"
+      ],
+      "issue": "윤리위반=강행법위반이라는 일반화·법윤리교집합을 회색지대로 표시",
+      "resolution": "법적 책임은 해당 구성요건에 따름. 그림은 보조 설명으로만 사용.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-02",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:10"
+      ],
+      "issue": "고객우선 의무를 해설에서 제3조로 표기, 같은 페이지 본문 제2조",
+      "resolution": "원본 대조 확인. 해당 교재 체계상 제2조로 정정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-03",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:12"
+      ],
+      "issue": "Fiduciary Duty는 법률상 의무가 아니라고 단정",
+      "resolution": "관계·법체계에 따라 법적 의무가 될 수 있음. 추상원칙과 구체화 설명을 법적 효력 부정으로 확장하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-04",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:15",
+        "NOTE:35 Q06"
+      ],
+      "issue": "거래소/ATS에서 회사가 고객 상대방이 될 수 없으므로 예외라는 설명",
+      "resolution": "원본 확인. 불특정시장 예외와 실제 체결상대방 가능성은 별개; 이해상충이나 위해가 절대 없다는 보장으로 암기 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-05",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:15-17"
+      ],
+      "issue": "자기회사 조사자료 금지·사적업무/공적업무·과당매매/과잉권유 범위",
+      "resolution": "private/public은 정보·업무 구분이며 개인취미/회사일 뜻 아님. 위반유형은 중첩 가능. 조사자료 제한의 예외·현행조항은 확인 전 보류.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-06",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:19",
+        "NOTE:35 Q07"
+      ],
+      "issue": "소비자위원회 위원장 없음이라는 단정",
+      "resolution": "확인한 협회 표준기준 제9조에는 대표이사 주재 회의, 반기1회·기록5년 규정이 있음. 위원장이라는 직함 미기재와 주재자 부재를 구별. 전사위원회와 별도 비교.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-07",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:22"
+      ],
+      "issue": "ELB/DLB를 원금보장형 파생결합증권이라 표현·금소법 의무 모두 일반대상 인상",
+      "resolution": "채무증권/파생결합사채의 법적분류·발행사 신용위험을 분리. 적합/적정/설명과 전문고객에게도 적용되는 부당권유·불공정영업을 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-08",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:23-32",
+        "P3:54-55"
+      ],
+      "issue": "판매의무·철회/해지·예외상품·기한·과징금/과태료의 시점 민감성",
+      "resolution": "판매자·소비자·상품·권유·예외·기산점·일/영업일 포함 검증 대기. 모든투자상품 철회로 확대 금지. 위법해지 두 기간 AND 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-09",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:34-36",
+        "MOCK:41 Q52",
+        "MOCK:72 Q52"
+      ],
+      "issue": "상품권 예외와 금액·기록공시 기준 적용범위",
+      "resolution": "신유형상품권·문화상품권·백화점상품권 구별; 각 예외의 현행 근거 확인 전 허용 권유 및 확정 채점 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-10",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:37-41"
+      ],
+      "issue": "모든중간책임자 사용자책임·모든퇴직저작물회사귀속·3년초과경업금지무효 일반화",
+      "resolution": "감독관계·행위요건·약정·이익형량 등 조건 확인이 필요. 교재의 단정은 사례의 전제 없는 법률명제로 암기하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-11",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:41",
+        "P3:55 추가07",
+        "MOCK:15 Q54"
+      ],
+      "issue": "대외활동은 무조건 사전승인·모든 기술적분석도 사전절차라는 일반화",
+      "resolution": "본문의 불가피한 사후승인과 추가07의 출처명시 인용·기술분석 예외를 함께 연결. 무승인 활동 전면허용과도 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-12",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:42-43",
+        "NOTE:39 Q33"
+      ],
+      "issue": "정보 수령·전달만으로 항상처벌 및 시장질서교란 과징금 배수",
+      "resolution": "대상범위 확대와 구체적 금지행위·인지요건·행정/형사제재를 분리. 배수·상한은 법령 확인 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-13",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:47 보충03"
+      ],
+      "issue": "비교 설명에서 일반 이사 임기3년 이상이라고 서술",
+      "resolution": "일반 이사 임기 상한과 준법감시인 최소임기를 혼동할 소지. 상법·특별법 적용 확인 전 비교문장 채점 제외.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-14",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:44-49",
+        "NOTE:39 Q37",
+        "MOCK:16 Q55"
+      ],
+      "issue": "이사회와 내부통제위원회 의결 동일시·2026개정의 적용시점·5조/20조 경계 표현",
+      "resolution": "기구별 법정 권한·시행일·대상회사 확인 필요. 이상과 초과 혼합 문구는 경계값으로 검증.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-15",
+      "chapter_id": "S3C1",
+      "refs": [
+        "NOTE:40 Q43",
+        "P3:49 보충07",
+        "MOCK:40 Q51",
+        "MOCK:72 Q51"
+      ],
+      "issue": "준법감시인 임면 미보고 과태료 NOTE2천만원 vs 본문/모의3천만원",
+      "resolution": "내부 자료 충돌. 현행법 검증 전 해당 수치 확정 암기·채점 격리. 보고대상 금융위와7영업일은 별도 항목으로 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-16",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:50-52",
+        "NOTE:40 Q48"
+      ],
+      "issue": "불복기산점 본문 고지받은날 vs NOTE처분있던날",
+      "resolution": "단순30일암기보다 통지·기산점 확인이 우선. 법조항 검증 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C1-ISSUE-17",
+      "chapter_id": "S3C1",
+      "refs": [
+        "P3:51-52"
+      ],
+      "issue": "무효/취소를 중대한/가벼운 하자로만 구별·양벌은 법인자동처벌처럼 표현",
+      "resolution": "법정사유·효력발생·취소행사·책임면제 요건 확인 필요. 해제/해지는 소급/장래 원칙과 해당 계약의 조건을 함께 가르침.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-01",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:62-64"
+      ],
+      "issue": "감독기관 구성·직위 및 조사/검사의 과도한 배타적 구분",
+      "resolution": "금융위 공식안내는 금감원·거래소의 불공정거래 조사참여를 명시. 주된 법정권한 분류와 위임·실무수행 구별. 현행직제·직위는검증대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-02",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:65-67",
+        "NOTE:41 Q06"
+      ],
+      "issue": "원본초과손실만으로 모든파생상품 분류·채무증권원금보장·사적채권손실없음",
+      "resolution": "추가지급의무 정의의 법정예외와 옵션매수손실한도 구별. 지급약정과 확정회수 구별. 일반대출채권도 신용손실가능; 증권범위와 위험부재는 다른 판단.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-03",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:69",
+        "MOCK:16 Q57"
+      ],
+      "issue": "온라인중개를 타인의 명의로 정의",
+      "resolution": "같은자료모의는 누구명의든 타인계산으로 정의. 명의와 계산 분리하여 원문오류 표시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-04",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:69-76"
+      ],
+      "issue": "온라인투자한도 상대방단위·전문투자자 신고수신자·자본과 인력요건의 시점민감성",
+      "resolution": "발행인/중개업자·개인/법인 절차·세부업무단위별 현행표 대조 대기. 보편적금액으로 확장 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-05",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:78"
+      ],
+      "issue": "NPL을 Non Performing Loss로 인쇄",
+      "resolution": "Non-performing loan(s)를 가리키는 문맥. 원본 오기 확인; 손실률과 부실여신 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-06",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:79-80"
+      ],
+      "issue": "새 순자본비율 문맥에 옛NCR공식·후순위채권/차입금·이익준비금가산 혼재",
+      "resolution": "원본확인. 신구공식명확히분리. 가산항목은 공식감독규정 확인 전 확정채점 보류·이미자본인항목 이중가산 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-07",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:81-83"
+      ],
+      "issue": "등급 이상/이하의 방향과 단계조건의 중첩",
+      "resolution": "1등급우수→5등급위험 순서 표시. 3등급이상은 양호방향으로 읽음. 표의 구간표현과 법정발동조건 구별, 가장강한해당단계 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-08",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:84-85"
+      ],
+      "issue": "외화자산이 부채를 초과하는 비율90%·부채가자산을10%초과 표현",
+      "resolution": "2026-10-13 공식 금융투자업규정시행세칙 별표15 확인: 만기불일치비율=(기간별 외화자산−기간별 외화부채)/총외화자산. 1개월 기준은 −10% 이상. 교재와 이전 분석의 A/B≥0.9 동일시를 철회한다. L069 및 원본 PDF 이미지 근거 참조.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-09",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:88-90"
+      ],
+      "issue": "겸영/부수 언제든위탁가능·업무위탁은겸영부수라는 보충설명",
+      "resolution": "본질적업무 조건부위탁도본문존재. 언제든은절차면제아님. 내부통제 외부위탁의법정예외도현행확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-10",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:94 핵심②",
+        "P3:94 본문"
+      ],
+      "issue": "핵심선지에서는 모든회사에 신탁선택 가능처럼 제시",
+      "resolution": "원본확인. 본문의 법정겸영업자 예외조건을 함께 표시하고 일반업자까지 확대하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-11",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:96 보충02"
+      ],
+      "issue": "보기에는 가나다만 있는데 선택지에 라 등장",
+      "resolution": "선택지오류로보존. 내용판단은 나다, 결손선지는검증용변형에서제외.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-12",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:60-96"
+      ],
+      "issue": "금액·비율·기간·제재·기관조직·신용공여 및 예외는 시점의존",
+      "resolution": "교재분석과현행법확정분리. 원문+시험기준일+시행일+검증자료가갖춰져야수치암기/자동채점활성화.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-13",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:97"
+      ],
+      "issue": "핵심지문 투자회사 취득명의를 집합투자업자 명의로 인쇄",
+      "resolution": "원본확인. 같은페이지 해설·표의 집합투자기구 명의와 충돌. 명의혼동 정정.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-14",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:99-104"
+      ],
+      "issue": "다양한10/20/50/100%에서 분모생략·공모/사모·부동산대여조건 축약",
+      "resolution": "자산총액·순자산·보유증권총액·발행지분총수·취득가액을 각각 보존. 적용펀드/예외확인 전 전면적규칙으로 확대 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-15",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:101"
+      ],
+      "issue": "장내거래 신용위험없음·FOF투자절대금지 설명",
+      "resolution": "청산의 위험완화와 위험제거를 구별. 재간접제한 법정예외 확인 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-16",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:106"
+      ],
+      "issue": "통보는종료후·보고는진행중이라는 정의",
+      "resolution": "보편적 법률용어 정의가 아님. 각 규정이 정한 대상·수신자·시점으로 학습.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-17",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:108"
+      ],
+      "issue": "집합투자증권의 의결권이라는 제목과 펀드보유주식 의결권 내용 혼합",
+      "resolution": "수익자총회와 편입주식발행회사총회 구별. 중립투표 적용범위·예외 현행확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-18",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:115 핵심④"
+      ],
+      "issue": "신고수리=기재사항정확성인정이라는 선지를 정답④로 제시",
+      "resolution": "이미지로 원문확인. 자본시장법120조3항은 진실성/정확성인정 및 가치보증효력 모두 부정. 제시4선지에서 타당한 정답 없음으로 격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-19",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:116"
+      ],
+      "issue": "일괄신고서 대상에 주권·주식관련사채 포함, 특수채안전·모든매출IPO분산목적처럼 설명",
+      "resolution": "공식시행령121조1항에서 주권·주식관련사채 포함은 확인하여 그자체오류의심 해소. 파생결합상품조건·발행인자격은별도검증. 공시제외를원금무위험보장으로해석하지않고 매출을IPO로한정하지않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-20",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:117-118"
+      ],
+      "issue": "간주모집을 향후양수자 합산이라고 설명·50인즉시신고의무 단정·권리행사/합병은 소유권이전없다는 이유",
+      "resolution": "미래 전매가능성의 법정판정과 과거권유 합산은 별도. 금액/증권종류 면제도 확인. 예외는 해당법정사유로 기억하고 모든 권리변동 부재라고 일반화하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-21",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:120 보충02"
+      ],
+      "issue": "①②③모두교부예외인데④정답없음으로 선택지구성",
+      "resolution": "뜻은 모두예외라는 출제의도. 단일정답 연습으로 사용하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-22",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:123-124"
+      ],
+      "issue": "사업보고서 대상의 공모/외감/500인 조건 축약·기업집단결합재무제표·연도내제출 표현",
+      "resolution": "각 대상의 OR/AND와 현행서식·면제연도 확인 필요. 사업연도보고를 같은연도중제출로 암기 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-23",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:123",
+        "P3:126"
+      ],
+      "issue": "수시공시를 자율공시라 명명·모든시장공시 다음날·자율공시의 의무성 단정",
+      "resolution": "거래소자율규제와 발행인선택공시 구별. 시장별·항목별 당일/익일기한은 공식규정으로 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-24",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:129 보충01"
+      ],
+      "issue": "교환사채를 BW로 표기",
+      "resolution": "EB로 정정. BW는 신주인수권부사채이며 전환/교환/신주인수의 권리도 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-25",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:130",
+        "P3:132 보충01"
+      ],
+      "issue": "5%보고를 장내거래만의 제도로 설명",
+      "resolution": "금감원 공식 안내에서 장외거래 후5%보유 신규보고 사례 확인. 공개매수와5%보고는 중복 적용 검토 가능.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-26",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:133"
+      ],
+      "issue": "2026한전유일·내외국인소유한도 시점의존",
+      "resolution": "공공적법인 지정 고시·정관·현행법 대조 전 교재주장으로만 보존.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-27",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:135-136"
+      ],
+      "issue": "장외거래는 모두가격일치·장외파생항상가장위험이라는 단정",
+      "resolution": "특정시장 거래방식과 상품노출의 실제위험 구별; 레버리지·담보·상계·거래상대방 조건 필요.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-28",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:137-139",
+        "NOTE:52 Q98"
+      ],
+      "issue": "주요주주10%만 정의·인터넷일반공개3시간·신문기산점축약·6개월후반대매매도반환이라는오기",
+      "resolution": "주요주주 사실상영향력 요건·법정공개매체와 기산점 확인. P3:139보충02 해설의6개월후는6개월이내로 정정. 거래에이용하는요건을모든정보사용으로확장금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-29",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:140-141",
+        "MOCK:45 Q66",
+        "MOCK:73 Q66"
+      ],
+      "issue": "포괄규제는목적/고의없이자동처벌·프로그램매매정상명칭·시장교란전면형사면제",
+      "resolution": "조문별행위·인지·목적·시장영향·다른범죄중첩을구별. 형사벌/행정과징금 배수는시행일확인대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-30",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:144-145",
+        "NOTE:53 Q108"
+      ],
+      "issue": "익명제보 조사면제를 자동적미조사로 해석할 위험",
+      "resolution": "생략가능재량과자동면제구별; 최신익명신고제도 및 조사규정 대조 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-31",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:146-150"
+      ],
+      "issue": "전문소비자보호전면제외·중도상환수수료예외누락·철회무조건반환·위법해지안날1년누락",
+      "resolution": "S3C1의조건·예외와통합. 보장철회연령특례·상품범위·금전반환조건·일/영업일을확인하기전암기보류.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-32",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:154 추가14",
+        "P3:155 해설14"
+      ],
+      "issue": "수리후효력전간이설명서사용이라는 옳은 문장을 틀린③으로 정답처리",
+      "resolution": "효력전에도가능·후에도가능은양립. 문항에 '전만'이라는제한없으므로교재논리로도정답없음. 채점격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-33",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:155 추가16"
+      ],
+      "issue": "공개매수대상 채무증권전부제외라는설명과CB/BW/EB포함 혼재·새취득5%조건처럼표현",
+      "resolution": "일반채무증권과주식관련채권구별. 기준은기존보유포함합산결과5%와다른법정조건.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-34",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:158 추가23"
+      ],
+      "issue": "콜옵션부사채는주가동향과아무연관없다는배제이유",
+      "resolution": "이자율/신용상태/주가와의경제적연관 유무와 법정특정증권 범위는 별개. 배제이유를 무상관명제로 암기금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-35",
+      "chapter_id": "S3C2",
+      "refs": [
+        "NOTE:43 Q22",
+        "MOCK:43 Q59"
+      ],
+      "issue": "자산 및 부채를 건전성5단계로 분류한다는 문구",
+      "resolution": "대출채권 등 보유자산의 회수가능성 분류와 부채측정 구별. 부채전체를 정상/고정여신으로 분류하는 학습금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-36",
+      "chapter_id": "S3C2",
+      "refs": [
+        "NOTE:48 Q61"
+      ],
+      "issue": "동일법인 기초자산 위험제한을 단일파생상품10%로 해설",
+      "resolution": "동일법인위험 합산과 거래한건을 구별. 여러계약 분산으로 한도회피한다고 가르치지않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-37",
+      "chapter_id": "S3C2",
+      "refs": [
+        "NOTE:52 Q98"
+      ],
+      "issue": "일간신문 공개후6시간으로 기산점 축약·시행령제20조 표기",
+      "resolution": "본문의 게재다음날0시부터6시간과 구별. 조문번호/법정매체는현행확인대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-38",
+      "chapter_id": "S3C2",
+      "refs": [
+        "MOCK:17 Q61"
+      ],
+      "issue": "집합투자증권 평가를 모두기준가로 표현",
+      "resolution": "ETF는 당일종가 예외를 본문P3:93과 연결.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C2-ISSUE-39",
+      "chapter_id": "S3C2",
+      "refs": [
+        "P3:154 추가14"
+      ],
+      "issue": "효력전 간이설명서 가능이라는 선지③의 정답오류",
+      "resolution": "원문/해설 논리상 모두가능이므로 원문단일정답으로채점하지않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-01",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:162"
+      ],
+      "issue": "규정통합35→8·시험대상3개 역사/교재범위",
+      "resolution": "현재 규정수나 공식출제범위 확인으로 오인하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-02",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:163-166",
+        "P3:198 추가02",
+        "NOTE:54"
+      ],
+      "issue": "고난도·교육·해피콜 대상 일반화",
+      "resolution": "손실20%가능성만으로 고난도 확정 금지. 상품·권유·투자자·예외 조건 및 현행교육범위 확인 필요. 비레버리지 ETN 전체 교육의무로 확장하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-03",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:165 보충03"
+      ],
+      "issue": "규정상 일중매매 대상 제외를 장외파생 일중거래 불가능으로 설명",
+      "resolution": "규정 적용범위와 실제 거래가능성을 분리;불가능 단정 학습 제외.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-04",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:173-174"
+      ],
+      "issue": "M&A규모 자산총액 및 주식총수 표현",
+      "resolution": "조회한 협회 조항은 또는. 각 법인의 기준과 5%초과 요건으로 읽으며 연혁과 현행 적용은 별도 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-05",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:175",
+        "NOTE:55 Q14"
+      ],
+      "issue": "1년에2회라는 본문 표현은 영구 연간의무로 오인 가능",
+      "resolution": "최초 거래일부터1년간2회로 범위를 제한해 설명. 적용 예외 별도 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-06",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:178"
+      ],
+      "issue": "24시간 경과=미공개중요정보 아님/매수의견이면 매수해야 한다",
+      "resolution": "리서치 거래제한과 내부정보 공개요건은 별개. 같은방향 거래만 허용은 거래의무가 아님. 원본 그림 확인.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-07",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:177-178",
+        "P3:199 추가04"
+      ],
+      "issue": "300만원이하 고지예외의 상품범위 및 최근개정",
+      "resolution": "주식선물·옵션·ELW 예외를 함께 학습.2026단일종목ETF/ETN 관련개정 검색 확인되므로 현행 전체범위 확정 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-08",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:181",
+        "P3:201 추가06해설",
+        "NOTE:56 Q21"
+      ],
+      "issue": "실적광고100억 일반규칙만 제시;추가해설 세제펀드50억",
+      "resolution": "예외를 교차연결하고 현행근거 확인 전 모든펀드100억 단정 금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-09",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:183-185",
+        "NOTE:56 Q22"
+      ],
+      "issue": "재산상이익 허용·규제제외·가치없음 표현 혼재",
+      "resolution": "경제적 가치 존재와 특정규정 적용제외를 구별.5만원2026개정·상품권예외·공시수치 현행확인 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-10",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:187",
+        "NOTE:56 Q25"
+      ],
+      "issue": "레버리지10배이상·거래단위미화10만",
+      "resolution": "원본표도10배이상으로 오기.같은통화기준 명목/증거금=1/증거금률이므로10%이상→10배이하.기준통화10만과USD증거금 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-11",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:189-192"
+      ],
+      "issue": "전문인력을 시험취득만으로 법정업무허용이라고 요약",
+      "resolution": "등록·교육·경력대체·업무자산범위 별도.펀드관계회사인력3종의 경력요건도 각업무에 대응.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-12",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:194-195",
+        "NOTE:57 Q28",
+        "P3:201 추가10해설"
+      ],
+      "issue": "공동주관 합산10% 경계 및 기업유형예외 누락",
+      "resolution": "일반형 금지10%이상, 공동구간5%이상10%미만이며 본인5%금지가 우선.2026조항은 일부기업 본인10%/합산15% 예외를 명시. NOTE28의10%초과하지않음 O는 확정채점 격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-13",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:194-195"
+      ],
+      "issue": "코스닥벤처배정25%·기관 잔여배정 요약이2026조항과 차이",
+      "resolution": "2026-03-12표시 제9조는 조건충족 벤처펀드30%이상,일반기관 잠재물량40%이상 확약선배정(2025최초신고분30%)과 SPAC별도규칙.교재25%를 현행암기로 사용 금지.시행·경과규정 및 시험기준일 추가확인 필요.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-14",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:195-196",
+        "NOTE:57 Q31-32"
+      ],
+      "issue": "불성실참여24개월·벤처펀드해지기간 등 적용버전",
+      "resolution": "제재종류와 병과 이해는 보존,기간·유형 세부는 현행 조항 검증 대기.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-15",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:197",
+        "NOTE:57 Q34"
+      ],
+      "issue": "제정변경후와 시행후 혼용;수정약관/개별약관변경 정의 중첩",
+      "resolution": "보고 기산사건과 수정범위의 법정정의를 확인.7일을 영업일로 바꾸지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-16",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:199 추가01해설"
+      ],
+      "issue": "핵심설명서 제외대상을 ELS·ETN으로 오기",
+      "resolution": "원본도ELS표기 확인.동일교재 본문163/165와 모의67의ELW·ETN과 충돌;ELS 제외를 암기하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C3-ISSUE-17",
+      "chapter_id": "S3C3",
+      "refs": [
+        "P3:200-201 추가07"
+      ],
+      "issue": "판매사변경 때 환매수수료면제와 이후환매기간 기산 혼합",
+      "resolution": "변경행위의 비용금지와 이후 환매에 적용할 최초가입일을 구별.90일은 모든펀드 공통 면제기간으로 고정하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-01",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:204-206",
+        "P3:228-231"
+      ],
+      "issue": "현재 국내외운용비중·주식위험최대·상관0·장기성과 단정",
+      "resolution": "교재의 전통적자산 가정·서술시점을 표시.국가·기간·자산·비용에 따른 실증값은 최신검증 없이 불변사실로 암기하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-02",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:204-205",
+        "P3:228",
+        "NOTE:58 Q1"
+      ],
+      "issue": "스타일선택은 모두액티브·전략적=패시브·액티브=단기",
+      "resolution": "교재 분류와 실무전략을 구별.기준지수에 대한 재량적 베팅 여부가 필요하고 스타일지수추종·장기액티브도 가능.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-03",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:207 보충02",
+        "MOCK:19 Q70"
+      ],
+      "issue": "준강형이면 공개정보로 이익불가능·종목선정도움없음",
+      "resolution": "지속적 위험조정초과수익과 정상적투자이익을 구별.포트폴리오제약·위험평가에 정보가 쓸모없다는 뜻이 아님.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-04",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:218"
+      ],
+      "issue": "랜덤워크를 전일/금일 가격수준 무연관으로 설명·EMH와동일시",
+      "resolution": "가격수준과 가격변화/수익률을 구별.랜덤워크는추가가정이며 효율성만으로 모든형태의예측불가를 결론내리지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-05",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:209"
+      ],
+      "issue": "상하10%와10%p 혼동가능",
+      "resolution": "문제의 상대변화 가정이면36~44%;명세가10%p이면30~50%.조건을 명시.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-06",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:210-211"
+      ],
+      "issue": "샤프공식 곱셈점 추출오류·포괄성의 자동개선 단정",
+      "resolution": "원본은SRc>SRp×ρ.투자대상확대는최적화가능집합을 약하게 확대할뿐 엄격개선은 조건필요.통계적독립과 낮은상관 구별.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-07",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:212"
+      ],
+      "issue": "실질+물가 정확합산·PER역수=기대수익 보편식",
+      "resolution": "Fisher근사임을 표시.정확명목은(1+실질)(1+물가)−1.PER역수는이익수익률이며 배당·성장·위험 가정없이 투자기대수익과 동일시하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-08",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:214-216",
+        "P3:245 추가03"
+      ],
+      "issue": "전략배분 검토와 빈번한변경 혼동·특정지수=CML",
+      "resolution": "장기정책비중 유지도 주기검토·리밸런싱과 양립.특정주가지수와 전체자산 시장포트폴리오/CML은 일반적으로 동일하지 않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-09",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:217-221",
+        "NOTE:60 Q17-19"
+      ],
+      "issue": "모든TAA가 역행·포뮬러플랜 금액/비율 기준불명확",
+      "resolution": "교재의 가치평가·역행형으로 범위를 제한.실행규칙은 목표금액/목표비율·변경기준·거래시점을 명시해야 계산가능.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-10",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:221"
+      ],
+      "issue": "수익률-가격 기울기=주식비중이라고 표현",
+      "resolution": "원본축은펀드수익률/주가이므로 그대로비중단위가아님.민감도와 금액·비중의 변환을 설명하며 곡선은교재 개념도로 사용.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-11",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:222-223"
+      ],
+      "issue": "보험투자자 비정상·Floor를 금액/수익률 혼용",
+      "resolution": "손실하한 선호로 설명하고 인격평가 용어 제거.보장금액과 보장수익률,자금조달 가능조건 구분.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-12",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:224",
+        "P3:247 추가08",
+        "NOTE:60 Q22",
+        "MOCK:20 Q73"
+      ],
+      "issue": "1−|풋델타|를 전체자금비중으로 단순화",
+      "resolution": "예시V100,S96,p4,Δp−.3→주식67.2·채권32.8.델타0.7과포트폴리오주식비중67.2%는다름.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-13",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:224-225"
+      ],
+      "issue": "변동성=과거+내재·내재변동성=관측불가미래값",
+      "resolution": "원본의합산설명은오류.역사변동성은과거수익추정,내재변동성은옵션가격에서모형으로역산;미래실현변동성과다름.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-14",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:224-225",
+        "NOTE:60 Q23"
+      ],
+      "issue": "변동성증가→위험자산감소를 보편법칙으로 단정",
+      "resolution": "BlackScholes콜델타의변동성민감도는상태에따라달라진다.고정S/K/r/T 수치반례를math_checks에기록.교재조건부사례로보존하고 무조건채점격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-15",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:224-227"
+      ],
+      "issue": "모든보험전략이 콜매수와완전히동일·항상Floor보장",
+      "resolution": "같은조건의주식+풋과채권+콜 패리티,옵션복제,CPPI를구별.유사한하방보호형태가동일만기지급을뜻하지않음.거래단절·갭위험은별도.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-16",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:225"
+      ],
+      "issue": "만기전100%편입이빈번이라는 일반화",
+      "resolution": "만기·제약·모형·비용조건없는빈도명제로암기하지않음;0/100%한도와cash-lock사례는별도.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-17",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:226-227",
+        "MOCK:20 Q73",
+        "MOCK:63 Q73"
+      ],
+      "issue": "Floor증가는CPPI만·기간은불필요·수익률항상낮음",
+      "resolution": "고정만기보호금액의현재가치는옵션보험에도적용가능.할인에는만기필요하며CPPI규칙자체의만기유연성과구별.보장기준이양의금리면상승,음의금리면하락.상승장비레버리지성과비교의조건을복원.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-18",
+      "chapter_id": "S3C4",
+      "refs": [
+        "CALC:45 Q32",
+        "CALC:45 번호없는예시"
+      ],
+      "issue": "현재Floor를1년후Floor라고오표기·조기절사오차",
+      "resolution": "100/1.02=98.0392는현재값.추가예시E=26.9231억,B=73.0769억;교재26.94/73.06은중간절사.최종반올림권장.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-19",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:229-230",
+        "P3:236-237",
+        "MOCK:63 Q74"
+      ],
+      "issue": "비용→TE반드시양수·초과수익0과실제−수익혼용·IR고정순위",
+      "resolution": "목표초과수익·실제평균차이·차이의표준편차를분리.매기간고정차이−1%p이면TE0반례.0/0인IR는0으로정의하지않음.준액티브IR가항상최고아님.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-20",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:231-232",
+        "P3:243"
+      ],
+      "issue": "ETF는항상가장분산된패시브·시총가중과대평가",
+      "resolution": "ETF는상품형태이며액티브·집중형도있음.시총가중집중과가격의내재가치대비고평가는구별.지수공식은기준지수·조정분모가필요.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-21",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:233-235",
+        "NOTE:62 Q40",
+        "MOCK:74 Q74"
+      ],
+      "issue": "가치투자 수요공급무시·이익낮으면PER낮고이익회복하면PER높음",
+      "resolution": "가치함정·재평가불발의위험으로설명.가격고정이면이익하락시PER상승이므로주가변화조건없는해설은오류.스타일별베타·SRI규모편향도필연아님.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-22",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:236-237"
+      ],
+      "issue": "계량운용=기술적분석·고베타=알파·대부분KOSPI200인핸스드",
+      "resolution": "계량모형은재무·가격·위험등다양한입력가능.시장노출보상과알파구별.현재상품구성비율은검증전단정제외.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-23",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:238-239"
+      ],
+      "issue": "유니버스·종목수 무제한·이상현상은효율성의직접반증",
+      "resolution": "유동성·규약·비용·분석능력의제약반영.위험모형·비용·표본외검증없이항상수익기회로확정하지않음.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-24",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:240-241",
+        "MOCK:21 Q75"
+      ],
+      "issue": "제약조건이있으면선형계획·이차최적화불사용",
+      "resolution": "선형제약은이차최적화에도있다.목적함수·제약의형태로분류;산업50~150%만으로유일분류불가능.원문답은출판사답으로보존하고엄밀채점격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-25",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:242-243",
+        "MOCK:47 Q72",
+        "MOCK:73 Q72"
+      ],
+      "issue": "총σ=β+잔차σ·낮은총σ일수록패시브",
+      "resolution": "분산분해는σp²=β²σb²+σε²(직교잔차).TE²=(β−1)²σb²+σε².벤치마크공분산/TE없는모의72는A와B의추종우열을확정불가.출판사답A를격리.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C4-ISSUE-26",
+      "chapter_id": "S3C4",
+      "refs": [
+        "P3:242-243",
+        "NOTE:63 Q47-48"
+      ],
+      "issue": "TE=비체계적위험·액티브상하대등분포·소형항상최대TE",
+      "resolution": "TE는공통요인노출차이도포함.도표의대등분포는개념예시이며실증법칙아님.특정벤치마크와보유내역없이펀드명만으로위험순위확정금지.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-01",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:253",
+        "P3:257"
+      ],
+      "issue": "중기 만기 경계가5년/10년으로 충돌",
+      "resolution": "분류 관행·문항 정의 명시, 단일 수치 강제암기 금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-02",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:253",
+        "P3:258"
+      ],
+      "issue": "신고면제·국민주택2종·등급 척도·LIBOR의 현행성 및 적용범위 미확인",
+      "resolution": "금융법규·상품 단원과 연결하여 시험 기준일 자료 확인 후 확정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-03",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:254-255"
+      ],
+      "issue": "복리채가 가장 일반적이라는 단정 및 할인발행률/YTM 혼동",
+      "resolution": "발행할인율과 투자수익률의 서로 다른 분모 설명; 만기보유 조건 명시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-04",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:260-261"
+      ],
+      "issue": "CB·BW·EB 재무변화와 금리 순서를 무조건화",
+      "resolution": "EB의 교환대상·자기주식 여부와 옵션 조건 명시; 패리티130%=30% 초과",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-05",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:264"
+      ],
+      "issue": "callable이 금리하락시 유리하다는 해설에 당사자 생략",
+      "resolution": "발행자 이익/투자자 조기상환 위험 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-06",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:265-269"
+      ],
+      "issue": "공모·사모·입찰·PD 규정과 기관명은 시점 의존",
+      "resolution": "최신 규정 전체 확인 전 교재 주장으로 유지; 낙찰선정과 가격배정 구별",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-07",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:268"
+      ],
+      "issue": "일반채권1000원과 과거 주식관련10만원 표기",
+      "resolution": "KRX 일반채권시장 공식 안내 현재 표시값은 주식관련·일반채 모두 액면1만원. 다른 KRX 오래된 일반 안내에는10만원도 남아 있으므로 시행일과 시험기준은 추가 확인",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-08",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:271"
+      ],
+      "issue": "연금현가계수 설명에서 할인율을 표면금리라고 기재",
+      "resolution": "쿠폰 생성에는 표면금리, 할인에는 요구수익률 사용",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-09",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:272-273"
+      ],
+      "issue": "YTM 정의와 실현수익 조건·근사식을 혼용",
+      "resolution": "정확 IRR/근사YTM/재투자 실현조건 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-10",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:275",
+        "P3:278"
+      ],
+      "issue": "가격변동률을 금리변화/표면금리로 계산하는50%·25% 예시: 원본 확인",
+      "resolution": "해당 숫자는 잘못. 가격현가와 듀레이션으로 대체하며 채점에서 제외",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-11",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:274-280",
+        "NOTE:67"
+      ],
+      "issue": "만기와 민감도의 일반 경향을 모든 채권의 법칙으로 확대",
+      "resolution": "고정 양의 현금흐름·동일조건 명시, 장기 할인채/옵션채 예외 유의",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-12",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:279"
+      ],
+      "issue": "명목금액×맥컬레이D 비율을 모든 선물헤지에 적용",
+      "resolution": "헤지대상·선물1계약 DV01 비교. 인도형 국채선물은CTD·전환계수 등이 추가; 모든 한국 상품에 미국 구조 강제하지 않음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-13",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:284"
+      ],
+      "issue": "볼록성 예제 분모9305.78은 앞의 채권가격9502.63과 불일치; .0002를.002로 기재: 원본 확인",
+      "resolution": "C=84951.96/9502.63≈8.94, 역산C42. t3의129600은 원본 정상으로 OCR 오류와 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-14",
+      "chapter_id": "S3C5",
+      "refs": [
+        "CALC:57"
+      ],
+      "issue": "C 계산 상단 분모9308.78 오기, 본문 하단9305.78 정상: 원본 확인",
+      "resolution": "44341.24/9305.78≈4.76491로 통일",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-15",
+      "chapter_id": "S3C5",
+      "refs": [
+        "CALC:58"
+      ],
+      "issue": "상단.0000238을.0238%로 표기; 하단 예제−3×.1와 제곱항.01 오기: 원본 확인",
+      "resolution": ".5×4.76×.01²=.000238=.0238%; 총변화−3×.01+.5×20×.01²=−.029",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-16",
+      "chapter_id": "S3C5",
+      "refs": [
+        "CALC:55",
+        "P3:307"
+      ],
+      "issue": "볼록성 약식 역산의 퍼센트·bp 단위 혼동 가능",
+      "resolution": "일반식 C=2(actual+Dmod×dy)/dy²로 소수 단위 검산 후 약식 허용",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-17",
+      "chapter_id": "S3C5",
+      "refs": [
+        "CALC:52:38-1"
+      ],
+      "issue": "쿠폰6%·YTM5%·가격9500의 할인채 상태가 일관되지 않음",
+      "resolution": "경상수익률600/9500만 별도 평가; 일관된 채권 예제로 재작성",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-18",
+      "chapter_id": "S3C5",
+      "refs": [
+        "MOCK:48:79"
+      ],
+      "issue": "수정듀레이션2.6%라고 기재",
+      "resolution": "D는 시간 차원의 민감도 계수이며 해당 문항은2.6으로 계산",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-19",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:281-286",
+        "NOTE:68:38"
+      ],
+      "issue": "같은D라는 이유만으로 볼록성이 큰 채권의 가격이 언제나 더 높다고 단정",
+      "resolution": "동일 출발가격·수익률 이동·위험 등을 통제한 비교로 제한; 양의 볼록성의 비용과 옵션 예외 설명",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-20",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:287-289",
+        "NOTE:68:40"
+      ],
+      "issue": "스프레드를 부도위험만으로 설명하고 부도를 순수 비체계적 위험으로 단정",
+      "resolution": "유동성·옵션 등 분해, 경기 공통위험도 인정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-21",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:290-291"
+      ],
+      "issue": "YTM은 이표채만 해당한다는 서술과 Par yield 그래프/YTM 혼용",
+      "resolution": "제로채도YTM 존재. 동일 만기·동일조건의 곡선 비교이며 par yield의 정의 구별",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-22",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:296:Q5"
+      ],
+      "issue": "입력6%·7%를 선도금리라 부른 뒤 프리미엄을 또 더함",
+      "resolution": "입력이 기대 단기금리라는 조건으로 수정해야 계산 성립; 이미 시장 선도면 중복가산 금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-23",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:293-297"
+      ],
+      "issue": "기하평균과 등차 산술평균의 수치 일치를 일반화",
+      "resolution": "총수익배수1+r를 곱한 정확식과 금리 가중평균 근사식을 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-24",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:298-301",
+        "MOCK:64:81"
+      ],
+      "issue": "곡선타기 금리상승 항상손실·바벨 항상고수익·Pick Up 해설의 저수익률 표현",
+      "resolution": "총수익은캐리와가격변화 합; 조건별손익 계산. 스프레드축소는 회사채매수 방향",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-25",
+      "chapter_id": "S3C5",
+      "refs": [
+        "NOTE:69:49"
+      ],
+      "issue": "채권 잔존만기와 듀레이션을 일치시키면 면역이라는 잘못된 문장: 원본 확인",
+      "resolution": "투자자의 목표 보유기간과D를 일치. 제로채 D=T라는 별개 항등식과 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-26",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:302-303"
+      ],
+      "issue": "DGAP의 금액단위/시간단위 혼용, ALM을 현금흐름 일치로 한정",
+      "resolution": "A×DA−L×DL와DA−(L/A)DL 구별. PV·민감도·재조정·곡선변형 조건 명시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C5-ISSUE-27",
+      "chapter_id": "S3C5",
+      "refs": [
+        "P3:277"
+      ],
+      "issue": "듀레이션 예시 그림의 초기지급액10600원과 주어진 YTM·현금흐름의 가격 불일치",
+      "resolution": "원본 이미지 확인. 액면10000·쿠폰600·YTM4%·3년의 가격은10555.0182원, PV 가중평균은2.838126년이다. 2.83은 절삭값이고 반올림시2.84. 쿠폰400이면2.886095년. 그림의 가격을 그대로 분모로 사용하지 않는다.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-01",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:310-311",
+        "NOTE:70"
+      ],
+      "issue": "상장상품·시장규모·스왑 장외만 존재 등의 설명은 시장과 시점 의존",
+      "resolution": "과거 유로달러·돈육 등 예시를 현행 목록으로 암기하지 않음. 파생상품 자체 가치가 없다는 정의 수정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-02",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:312-316",
+        "MOCK:64:82"
+      ],
+      "issue": "사후적 제로섬은 선도에만 존재하며 곧 신용위험이라는 오류",
+      "resolution": "계약손익 합계0은 선물에도 성립(비용 전). 중앙청산은 상대방 위험 관리장치이며 위험을 절대0으로 만들지 않음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-03",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:313:Q1",
+        "NOTE:70:6"
+      ],
+      "issue": "선도는 반드시 실물인수도·NDF만 예외라는 부정확한 구분",
+      "resolution": "현금결제 여부는 계약조건. 현금정산선도 등을 제외하는 고정 채점 금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-04",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:314-316",
+        "CALC:62"
+      ],
+      "issue": "언제든청산·마음껏거래·OI감소면가격하락 단정, 추가증거금과 variation margin 동의어 처리",
+      "resolution": "유동성·거래제약·증거금규칙 조건 명시. 일일평가손익 정산과 교재의 margin call 보충액 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-05",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:318:Q1"
+      ],
+      "issue": "파생거래는 만기에만 자금이동하고 주석 부외처리가 일반적이라는④",
+      "resolution": "일일정산과도 충돌. IFRS9 계약당사자 인식·공정가치 개념으로 수정, 현행 기준에서는 단일오답 채점 불가",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-06",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:319-320",
+        "CALC:63-64",
+        "NOTE:71:9"
+      ],
+      "issue": "금리차 선도식과 금리비율 정확식을 동일시",
+      "resolution": "FX단리 F=S(1+rdT)/(1+rfT), 금리차식은근사. 연속복리는S exp((rd−rf)T). 문항 요구 관행 표기",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-07",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:321"
+      ],
+      "issue": "청산매매 표의 매수 열에전매도·매도 열에환매수: 원본 확인",
+      "resolution": "전매도는 기존롱을 파는행위, 환매수는 기존숏을 사는행위로 수정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-08",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:322-324",
+        "MOCK:23:83"
+      ],
+      "issue": "베이시스헤지 손익을 선물 leg만으로 설명하고 최소분산비율=계약수로 단정",
+      "resolution": "현물+선물 손익 합산. h*에 수량·금액환산 필요. 만기수렴은 동일기초·정산 등 조건",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-09",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:325:core",
+        "P3:364:additional5",
+        "NOTE:71:14"
+      ],
+      "issue": "F>S·양의보유비용·콘탱고를 F>F*와 동일시",
+      "resolution": "S100,F*102,F101 반례; F*98,F99이면 음의보유비용에서도 매수차익 가능. 원문 고정정답 격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-10",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:325-326"
+      ],
+      "issue": "시장베이시스 거래도 무위험·금리+α+β가 최대이익·국내배당 무시·합성채권 절세 단정",
+      "resolution": "조기청산의 베이시스 베팅과 만기 고정차익 분리. 자금조달·배당·세금·거래비용 조건 확인",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-11",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:328"
+      ],
+      "issue": "선물스프레드를 처음 가격차 전액 지출/수취로 설명",
+      "resolution": "통상 선물은 증거금·정산 방식; 옵션 프리미엄과 구분. 스프레드 부호 정의를 먼저 제시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-12",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:331-336",
+        "CALC:66"
+      ],
+      "issue": "옵션이 매수자에게 일방적으로 유리·내재가치와 순이익 혼용·max 생략",
+      "resolution": "권리의 대가는 프리미엄. 최대가능수익과 기대수익 분리. 내재가치0 하한, 콜가격≠S−K",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-13",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:334-336"
+      ],
+      "issue": "ATM 시간가치 최대 및 모든 옵션 시간가치 양수의 무조건화",
+      "resolution": "비교만기·금리·배당·변동성 조건 명시. 유럽형 깊은ITM풋에는 음의외재가치 가능",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-14",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:337"
+      ],
+      "issue": "핵심문제 해설이 스트랭글매도까지 변동성매수로 표기",
+      "resolution": "숏스트랭글은 변동성매도",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-15",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:338-339",
+        "P3:343",
+        "NOTE:74:41",
+        "MOCK:23:84"
+      ],
+      "issue": "스프레드는 시간가치 감소가 없고 변동성과 무관하다는 설명",
+      "resolution": "각 leg의 theta·vega를 합산하면0이 아닐 수 있음. 같은 교재360쪽에서도 조건별+/−를 제시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-16",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:341-342"
+      ],
+      "issue": "행사가를 옵션 매수가격으로 표현; OCR의최대손실7.5",
+      "resolution": "원본 최대손실은−1.5로 정상. 행사가와 프리미엄·기초자산 매입가격 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-17",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:343-345:Q1"
+      ],
+      "issue": "스트래들만 변동성 증가에 유리하고 풋매수는 아니라고 해설",
+      "resolution": "롱스트랭글도 양의vega, 단순롱풋도 동일조건 양의vega. 최종손익과 수익률은 프리미엄·실현경로에 의존하여 복수정답 문제 격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-18",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:344"
+      ],
+      "issue": "2019버터플라이·콘도르 범위제외를 현행 적용 단정, 숏의프리미엄을 지불이라 표현",
+      "resolution": "제공도표는 분석에 포함하되 시험범위 검증 별도; 숏스트래들 초기 수취. Straddle은항상ATM일 필요없음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-19",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:346",
+        "CALC:71"
+      ],
+      "issue": "풋콜패리티에 S=K 필수조건을 추가",
+      "resolution": "같은K·만기의 콜/풋과 무배당·유럽형 등 조건이 핵심, S=K 불필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-20",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:349-350",
+        "P3:366-367:additional12",
+        "NOTE:73:33"
+      ],
+      "issue": "CB·ELS 일반적floor, 델타=주식비중, 보호적풋=콜매수라는 잘못된 등식",
+      "resolution": "신용·구조별조건 확인. Δ는주식수, w=ΔS/V. S+P=C+B. 동적보험의 갭위험 보존",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-21",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:351"
+      ],
+      "issue": "C200을 미래가격으로 구하고 할인한다는 중간 설명",
+      "resolution": "시점 혼합. 정확식은500−C=300/1.1이며 결과227.2727. 이항모형은 다기간도 가능",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-22",
+      "chapter_id": "S3C6",
+      "refs": [
+        "CALC:72:50"
+      ],
+      "issue": "S100→110/90,r2%면p.6인데문제p.4; 행사가 누락: 원본 확인",
+      "resolution": "K100가정시 일관된가격5.88235. 제시p만적용3.92157은 별도 조건부 산술; 일관된무차익모형 정답으로 채점금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-23",
+      "chapter_id": "S3C6",
+      "refs": [
+        "CALC:72:example"
+      ],
+      "issue": "본문 주가100또는150과그림50또는150 불일치: 원본 확인",
+      "resolution": "그림과식 기준하락50일때p.51,C25.2475. 본문100그대로면p.02,C.9901로 달라짐",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-24",
+      "chapter_id": "S3C6",
+      "refs": [
+        "CALC:73:50-1"
+      ],
+      "issue": "S110→120/100,r1%의p.555와제시C3의p.303충돌; 행사가누락",
+      "resolution": "K110가정의정확C5.49505; 역산p.303은 주식가격조건과양립불가. 원문을 성취도 채점에서격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-25",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:354",
+        "P3:358",
+        "MOCK:74:85"
+      ],
+      "issue": "풋델타를 N(−d1)로 양수기재",
+      "resolution": "Δput=−N(−d1)=N(d1)−1. N(d2)는 위험중립확률, 배당존재시델타차e^(−qT)",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-26",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:356-357",
+        "NOTE:74:36"
+      ],
+      "issue": "K/S축의 상승스큐를1987후주가지수전형으로설명: 원본확인",
+      "resolution": "Cboe주가지수설명은낮은행사가OTM풋의IV가높은하방스큐. 교재그림자체독해와실증주장분리; 모든자산의고정모양아님",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-27",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:356"
+      ],
+      "issue": "내재변동성=미래실현값, 과거변동성은 현재가격에 반영되지 않는다는 단정",
+      "resolution": "내재변동성은현재가격의모형역산값. 과거자료는참가자의예측과가격형성에영향가능",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-28",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:358-362",
+        "MOCK:50:87",
+        "MOCK:75:87",
+        "NOTE:74"
+      ],
+      "issue": "ATMΔ정확.5·모든옵션만기접근감마증가·모든풋theta음수",
+      "resolution": "근사와조건명시. 원본359그림은ATM증가·ITM/OTM감소를보여모의해설과충돌. 직접BS수치반례저장",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-29",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:361:Q3"
+      ],
+      "issue": "Γ+Θ가일정하므로절대값항상정관계라는설명",
+      "resolution": "무배당PDE Θ+.5σ²S²Γ+rSΔ−rV=0. 단순합상수아님. 계수·다른변수고정없는일반명제격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-30",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:362:Q6"
+      ],
+      "issue": "숏스트래들 설명에서매도콜델타+.5·풋−.5로기재",
+      "resolution": "매도콜은−Δcall, 매도풋은−Δput. 대략상쇄되지만부호는반대",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-31",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:365:additional4",
+        "P3:367:additional10"
+      ],
+      "issue": "r4%문제를해설5%로표기; 강세콜최대이익도프리미엄차이라고설명",
+      "resolution": "r4%사용시F100.49863. 강세콜최대손실=순프리미엄, 최대이익=K차−순프리미엄",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C6-ISSUE-32",
+      "chapter_id": "S3C6",
+      "refs": [
+        "P3:358",
+        "P3:361",
+        "CALC:73-74"
+      ],
+      "issue": "유한가격변화의차분을항상정확한미분델타로취급; 델타중립=모든위험없음",
+      "resolution": "다른변수고정의구간근사로설명. 국소1차중립과연속재조정·감마·vega위험구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-01",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:370"
+      ],
+      "issue": "5~7단계를 모두 정성으로 분류",
+      "resolution": "교재 단계구분은 보존하되 성과요인·스타일에 수량모형 사용도 설명",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-02",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:371-372"
+      ],
+      "issue": "공정가치=시장가격, 기준가단위·평가기관 일반화",
+      "resolution": "비관측 공정가치 기법과 국내상품별 규정 구분; 현행 전체검증 아님",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-03",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:374",
+        "CALC:75-76"
+      ],
+      "issue": "후기수익만으로 MWR/TWR 순서 단정",
+      "resolution": "추가입금·출금 방향과 시점 필요; 기간별 원금 재구성",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-04",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:374-375"
+      ],
+      "issue": "복합펀드 자산비와 기간평균 공식 조건 누락",
+      "resolution": "외부흐름 조정 및 누적/연평균 구별; 선별편향과 생존편향 별개",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-05",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:376-378",
+        "NOTE:76-77"
+      ],
+      "issue": "TE=잔차위험·상대VaR 동일시",
+      "resolution": "TE²=(β−1)²σb²+σε²(잔차 직교조건). β1 등에서만 잔차와 일치. VaR는 신뢰수준·기간 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-06",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:378:Q4"
+      ],
+      "issue": "하방편차를 하방 관측치만의 표준편차로 설명",
+      "resolution": "원본은 min함수의 제곱합/(n−1); 전체n과 표본n−1 관례를 명시하고 하방표본 자체평균으로 중심화하지 않음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-07",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:377",
+        "NOTE:77:20"
+      ],
+      "issue": "정규성·첨도·연율화 무조건 일반화",
+      "resolution": "Pearson첨도3/excess0; 꼬리4차모멘트. √시간에는 자기상관 등 가정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-08",
+      "chapter_id": "S3C7",
+      "refs": [
+        "NOTE:76:16-17"
+      ],
+      "issue": "β1·시장−10% 설명에서 −2% 기재",
+      "resolution": "모형의 다른항0이면 −10%; β2와 혼합 금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-09",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:379:core"
+      ],
+      "issue": "벤치마크비교를 상대평가라 하면 오답",
+      "resolution": "교재의 고정기준/동료집단 평가용어와 투자론 상대성과 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-10",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:399:additional7"
+      ],
+      "issue": "S&P500·TOPIX를 유동주식 조정하지 않는 지수로 대비",
+      "resolution": "공식 지수제공자에 따르면 둘 다 유동주식 시가총액 가중. 현행 고정채점 격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-11",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:382-383",
+        "P3:384:Q2",
+        "CALC:82-83",
+        "MOCK:52:91"
+      ],
+      "issue": "σ와β를 직접 비교하고 완전분산이면 샤프=트레이너",
+      "resolution": "σp=|β|σm이며 단위 다름; 같은 양의β시장모형에서 순위 유사 조건 설명. β에% 부여 금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-12",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:382-383",
+        "MOCK:24:91"
+      ],
+      "issue": "30개 관측/3년이면 정규성 보장·알파면실력",
+      "resolution": "표본수는 분포 보장 아님. 유의성·모형누락·비용·운 검토",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-13",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:386-388",
+        "CALC:79",
+        "MOCK:24:91"
+      ],
+      "issue": "IR와 alpha/잔차 비율 동일시",
+      "resolution": "active return/TE와 appraisal ratio를 정의별로 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-14",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:388:Q2"
+      ],
+      "issue": "높은 소티노가 큰 손실확률 감소 보장",
+      "resolution": "분자·분모가 함께 변하므로 보장 불가; 원문 선택지의 절대표현 격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-15",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:389:core",
+        "NOTE:78:30",
+        "MOCK:51:90"
+      ],
+      "issue": "패시브S=A0 및 S0일 때 S+A분해 불가",
+      "resolution": "M5 B5 P6의 반례. 모든 패시브가 시장전체 복제 아님. 모의2-90 교재③과 항등식상② 충돌 격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-16",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:390"
+      ],
+      "issue": "TM/HM은 기여도 크기를 측정할 수 없다는 단정",
+      "resolution": "회귀계수·적합기여의 모형상 수량평가 가능; 인과적 능력의 독립 측정과 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-17",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:392"
+      ],
+      "issue": "샤프 RBSA 설명이 보유기반 표 열에 배치",
+      "resolution": "원본 확인; 입력은 펀드·스타일지수 수익률. 열 위치로 외우지 않음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-18",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:391-394"
+      ],
+      "issue": "주식비중·회전율에서 전망·위험·실력 단정",
+      "resolution": "운용제약·전략·거래목적 조건을 확인",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-19",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:395-396"
+      ],
+      "issue": "GIPS 비수수료 계정 의무편입·추정 거래비용 전면 금지 및 연환산 대상 구분",
+      "resolution": "교재 핵심문제의 1년 미만 투자수익률 연환산 금지 해설은 맞다. 추정비용은 실제비용 미상 때 허용되고 비수수료 재량계정은 원칙적으로 편입 가능이다. 보충1 및 NOTE34는 교정 전 고정채점 보류. L114~L120 참조.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-20",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:396"
+      ],
+      "issue": "TWR·검증·3년SD 일괄요구와 옛 조항 혼용",
+      "resolution": "적용보고형식·MWR허용조건·36월관측과 예외를 별도 확인. 독립검증은 준수주장의 필수와 구별",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-21",
+      "chapter_id": "S3C7",
+      "refs": [
+        "CALC:82:56"
+      ],
+      "issue": "잔차위험을 TE로 쓰며 σ·β·잔차가 동일시장모형과 불일치",
+      "resolution": "A로 계산한 시장분산.03과 B의.0075가 다름. 표 자체의 교재산술순위와 모형해석 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-22",
+      "chapter_id": "S3C7",
+      "refs": [
+        "MOCK:51:89"
+      ],
+      "issue": "중간표준편차 .69282를 .69로 반올림하여 연샤프1.74",
+      "resolution": "마지막에 반올림하면 √3=1.73205. 선택지근사와 정확값 구별",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-23",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:398:additional8"
+      ],
+      "issue": "수익률 범위만으로 표준편차 대소 확정",
+      "resolution": "분포·확률·관측빈도 없는 범위만으로 확정 불가",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C7-ISSUE-24",
+      "chapter_id": "S3C7",
+      "refs": [
+        "P3:382"
+      ],
+      "issue": "효율적곡선 두 자산을 위험조정지표만으로 보편순위",
+      "resolution": "지배가 없으면 선호·제약 또는 정한 지표의 기준 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-01",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:402-403"
+      ],
+      "issue": "선진국 항상수요부족·경쟁이면 항상안정·화폐이자0 일반화",
+      "resolution": "선택 모형 가정. 안정성은 수요공급의 기울기·조정조건에 의존. 현대통화는 이자지급 예금도 포함",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-02",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:403"
+      ],
+      "issue": "왈라스법칙 조건 생략",
+      "resolution": "예산제약에 따른 가치합 제약 아래 양의가격 등 조건을 전제로 설명",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-03",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:404-406",
+        "NOTE:79:4"
+      ],
+      "issue": "내생변수가 기울기 결정·외생증가면 모두우측",
+      "resolution": "곡선상 이동과 기울기 변화 분리; 구조계수가 기울기결정. T·P증가는 반대방향",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-04",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:405-406"
+      ],
+      "issue": "폐쇄경제식과 수출입식의 M기호 혼합",
+      "resolution": "M통화와 IM수입을 구별. T는 세액·t는 세율로 표시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-05",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:407-410",
+        "MOCK:25:92"
+      ],
+      "issue": "정책효과를 LM기울기와 공급제약 없이 보편화",
+      "resolution": "기본 고정물가모형 내 결과. 수평/수직/정상LM 분기 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-06",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:409-411"
+      ],
+      "issue": "통화정책 전부무효·디플레이션 자동탈출·정책무용성 혼합",
+      "resolution": "전통 금리경로와 비전통정책 구분. 실질부채·기대·경직성 조건 보존; 리카도등가는 제약가정 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-07",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:411",
+        "P3:418"
+      ],
+      "issue": "깁슨의 물가수준 상관을 물가상승률 피셔효과와 동일시",
+      "resolution": "역사적 가격수준-금리 관계와 기대인플레이션-명목금리 관계 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-08",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:413-414"
+      ],
+      "issue": "피셔 덧셈을 정확식·0.6~0.8을 보편계수",
+      "resolution": "확정 단순기간 정확식은1+i=(1+r)(1+π); 기대의 확률조건 구분. 경험계수는 표본의존",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-09",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:415-416",
+        "NOTE:81:23"
+      ],
+      "issue": "불편기대는 우상향 불가능·시장분할은 이동 불가능",
+      "resolution": "기대단기금리 상승으로 우상향 가능. 만기시장별 수급변화로 곡선 이동가능; 평균형태·동행 설명력과 구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-10",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:415"
+      ],
+      "issue": "위험중립 투자자=위험없음",
+      "resolution": "위험 존재와 위험프리미엄 요구 여부 별개",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-11",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:417-418",
+        "NOTE:81:24"
+      ],
+      "issue": "3~4개월·1년·1.5년의 시차·최종금리상승 단정",
+      "resolution": "교재 경로예시로만 표시. 기대·통화수요·정책반응에 따라 달라짐",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-12",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:418",
+        "NOTE:81:25",
+        "MOCK:52:94"
+      ],
+      "issue": "경상수지와 금리의 강한 음상관을 필연으로 처리",
+      "resolution": "환율제도·중화정책·자본이동·금리목표 조건 명시. 환율자본유입 인과도 조건부",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-13",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:419-420",
+        "NOTE:81:27"
+      ],
+      "issue": "국적과 거주성 혼용·분배식에 세금/감가상각 생략",
+      "resolution": "국민계정은 거주성 기준. 시장가격 총액의 소득접근에는 고정자본소모와 순생산수입세 등 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-14",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:419-420",
+        "P3:429:additional8",
+        "NOTE:82:30",
+        "MOCK:26:95"
+      ],
+      "issue": "한국은 국외순수취음수·GNI<GDP라는 오래된 단정",
+      "resolution": "2026-06-09 개정 발표의 2025년 명목 국외순수취요소소득은 +40.4조원. 3월 잠정 +45.8조원에서 개정되었다. 실질 GNI 2323.7은 실질 GDP 2326.3조원보다 작으므로 명목·실질을 구분한다. 연도·가격기준 없는 고정정답은 격리. L124 참조.",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-15",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:420-421",
+        "NOTE:82:32-33"
+      ],
+      "issue": "학생·장애인 등은 항상비경제활동, 실업자 가용성·일시휴직 누락",
+      "resolution": "취업/구직/취업가능성으로 판정. 조사대상 제외범위는 해당 통계 정의에 따름",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-16",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:422",
+        "MOCK:53:95"
+      ],
+      "issue": "선행지표 외에는 예측에 쓸수없음·주가항상선행 금리항상후행",
+      "resolution": "공식 분류문제로 한정; 다른지표의예측정보 배제불가. 장단기금리차는 선행",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-17",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:422"
+      ],
+      "issue": "생산자물가지수는 서비스제외",
+      "resolution": "한국은행 정의는 국내출하 상품과 서비스 포함. 품목수·기관명·지수구성은 기준연도 확인",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-18",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:423",
+        "NOTE:83:38"
+      ],
+      "issue": "V=명목GDP/M에×100 기재: 원본확인",
+      "resolution": "회전수이므로×100삭제. P배율1.6과 기준100지수160 구별",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-19",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:423"
+      ],
+      "issue": "모든실물거래는 자금거래·사후지표는 예측불가",
+      "resolution": "물물교환·외상 등 존재. 사후측정 자체는 예측정보 부재를 뜻하지 않음",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-20",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:423"
+      ],
+      "issue": "통화증가율 덧셈을 정확한 유한증가식으로 표시",
+      "resolution": "로그차분/미소변화 또는 근사. 유한값은(1+gM)(1+gV)=(1+gP)(1+gY)",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-21",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:424-426"
+      ],
+      "issue": "순환기간 평균·CSI수축예측력·3연속 신호를 보편법칙",
+      "resolution": "자료기간·모형검증 필요; 경기전환일은 종합판단. 표7개와 예시2+7의 구판혼합",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-22",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:425-426",
+        "NOTE:83:44"
+      ],
+      "issue": "BSI100미만이면 개선 불가·100은실제전환점",
+      "resolution": "부정우세와 전월보다 심리개선 동시가능. 실물경기국면과 심리지표 구별; 교재고정채점격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-23",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:425-426"
+      ],
+      "issue": "특정 ARIMA(0,1,1)식을 일반모형으로·시계열은외생변수불가",
+      "resolution": "AR=자기회귀·I=차분누적·MA=오차항이동평균. ARIMAX 등 확장 존재",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-24",
+      "chapter_id": "S3C8",
+      "refs": [
+        "CALC:85"
+      ],
+      "issue": "1.2+1.8+2.7=5.8 기재 및 기하/산술 혼합",
+      "resolution": "합5.7. 제시LP덧셈 모형에서 근사1.8%; 정확복리 역산 약1.8055%",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-25",
+      "chapter_id": "S3C8",
+      "refs": [
+        "CALC:88:60"
+      ],
+      "issue": "BSI약식=긍정/전체×200 조건 누락",
+      "resolution": "중립0일 때만 가능. 중립 있으면 본식 사용",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C8-ISSUE-26",
+      "chapter_id": "S3C8",
+      "refs": [
+        "P3:421:Q2"
+      ],
+      "issue": "OCR 중간값0.25·25%처럼 보임",
+      "resolution": "원본확인 결과0.125·12.5%로 정상. 원본오류와 추출오류 분리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-01",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:434-435"
+      ],
+      "issue": "분산을수익률%와동일표현·기대값에정규성필수",
+      "resolution": "분산은 수익률제곱단위; 기대값·분산계산에정규성불필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-02",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:434-435"
+      ],
+      "issue": "예시 시나리오가완전상관인데ρ.6별도가정",
+      "resolution": "원표Y−.1=.4(X−.1)이므로ρ1·공분산.08·50/50분산.098. ρ.6별도입력의.082와동일자료인척혼합금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-03",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:435",
+        "P3:437:core",
+        "P3:453"
+      ],
+      "issue": "일반분산을(가중표준편차합)²와등치: 원본확인",
+      "resolution": "그등식은ρ1일때. 일반식은교차항ρ를포함하며분산저감기준도명시",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-04",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:436",
+        "P3:465:additional1"
+      ],
+      "issue": "공분산부호=매번같은방향·상관0=모든관계없음",
+      "resolution": "선형관련성이다. 예X대칭,Y=X²이면상관0이지만종속. 고정σ이면|Cov|≤σXσY",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-05",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:437-439"
+      ],
+      "issue": "ρ<1효과를공매도에도그대로·종목수만늘리면잔차0",
+      "resolution": "양의비중 등조건. GMVP분모0퇴화와공매도금지시경계해처리. 평균공분산수렴은분산된비중·유계위험등조건",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-06",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:440-443"
+      ],
+      "issue": "분산축σ²에굽은무차별곡선: 원본441확인",
+      "resolution": "U=E−.5Cσ²이면분산축직선·표준편차축곡선. 유일최적도목적함수·제약조건에의존",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-07",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:441"
+      ],
+      "issue": "사람간C가작으면효용절대수준높다는비교",
+      "resolution": "개인효용척도는서로직접비교하지않음; 같은식의점수산술과선호해석구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-08",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:444-446",
+        "CALC:93-95"
+      ],
+      "issue": "무위험정기예금등일괄·σp=wσ·w0에서도샤프동일",
+      "resolution": "기간·통화·신용·실질구매력조건 명시. 일반σp=|w|σ, w0은샤프0/0미정의",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-09",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:445"
+      ],
+      "issue": "시장포트폴리오가총위험최소·σ=β+ε",
+      "resolution": "GMVP와접점별개. 정확분해는Var=β²Var(m)+Var(e)(직교조건). β와σ는단위다름",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-10",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:445-449",
+        "MOCK:53:97"
+      ],
+      "issue": "CAL영문Asset Line·CML을CAL과배타구분·KOSPI를전체시장",
+      "resolution": "Capital Allocation Line. CML은특수CAL이므로모의2-97③을틀렸다고단정불가. 시장은전체위험자산, 주가지수는대용치",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-11",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:449-450",
+        "NOTE:86:18"
+      ],
+      "issue": "CML에는M만·CML=SML",
+      "resolution": "CML은M과무위험조합전체. SML은β축·CML은σ축. 동일식/위치라고혼동금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-12",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:449",
+        "CALC:96-97",
+        "MOCK:76:99"
+      ],
+      "issue": "모든자산위험프리미엄동일",
+      "resolution": "CAPM조건에서베타당기대초과수익동일. β0은나누지말고원식사용",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-13",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:450-451",
+        "CALC:99-100"
+      ],
+      "issue": "SML위면초과수익실현확정",
+      "resolution": "해당모형·예상수익추정에대한상대평가; 현실매수명령이나수익보장으로사용금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-14",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:452:core"
+      ],
+      "issue": "β를최적위험보상비율로정의·β작으면둔감",
+      "resolution": "민감도계수이고 절댓값/부호분리. β−2는강한역방향. core③도부정확하여고정채점격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-15",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:452-453"
+      ],
+      "issue": "실현수익률식을기대수익률이라부름·잔차공분산을주식공분산이라설명",
+      "resolution": "E(e)=0이면E(Ri)=ai+βiE(Rm). 잔차직교와잔차쌍별무상관구분",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-16",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:453"
+      ],
+      "issue": "잔차분산합내부첨자ep·βp²앞불필요Σ",
+      "resolution": "σεp²=Σwi²σεi²; σp²=βp²σm²+σεp². 원본오기수정",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-17",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:453-454"
+      ],
+      "issue": "단일지표공분산과일반공분산이서로다른물리량",
+      "resolution": "같은공분산에구조가정적용. 3n+1은기대수익n개직접입력관례; 절편+시장평균방식은입력목록달라짐",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-18",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:455-457"
+      ],
+      "issue": "CAPM실증불가원인을엄격가정만으로·APT는모든요인무상관",
+      "resolution": "대용시장과공동가설문제분리. 요인직교는계산편의가정이며일반분산식에는공분산항존재",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-19",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:456-457",
+        "MOCK:54:100"
+      ],
+      "issue": "베타만맞추면언제나무위험차익",
+      "resolution": "충분분산·잔차제거·공매도/차입/비용 등조건. 초기순투자0·요인노출0을검산",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-20",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:466-467",
+        "CALC:102-103"
+      ],
+      "issue": "F를평균0인충격과양의위험프리미엄에동시사용",
+      "resolution": "실현모형R=E(R)+βF+e와가격식E(R)=Rf+Σβλ로기호분리. 계산21.4·9.2%는후자의λ",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-21",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:458-459"
+      ],
+      "issue": "buy-hold는무작위·불변비율은목표비중계속감소·포뮬러도예측필수",
+      "resolution": "초기선택가능; 주가상승후매도로목표비중복원. 고정규칙과예측을분리. 리밸런싱은이익보장아님",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-22",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:460",
+        "P3:462",
+        "NOTE:87:30"
+      ],
+      "issue": "TB가중치를α/잔차표준편차로정규화·평가비율분모불일치",
+      "resolution": "기본TB개별점수α/잔차분산. appraisal ratio α/잔차표준편차와구분. 제시점수의정의불명확하면수정전채점격리",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-23",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:461-463"
+      ],
+      "issue": "입출금통제없음=입출금없음·투입금같으면항상단일기간",
+      "resolution": "투자자외부흐름은통제불가해도존재. 평가기간은시간·흐름에의해설정. TWR은외부흐름조정후기하연결",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-24",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:462-463"
+      ],
+      "issue": "기하평균28.5%·IRR26.8%의근사정밀도",
+      "resolution": "√1.65−1=28.4523%; −10000,−11000,30000 IRR≈26.7278%. 끝에서반올림",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-25",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:465:additional3"
+      ],
+      "issue": "VaR도상관−1이면차의절대값·위험음수불가",
+      "resolution": "표준편차성질을일반VaR에전이금지. 정규/선형·동일신뢰기간·평균처리조건 필요",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-26",
+      "chapter_id": "S3C9",
+      "refs": [
+        "P3:465:additional4"
+      ],
+      "issue": "위험자산최적선택후시장+무위험조합을단순후속단계",
+      "resolution": "무위험포함하면가능집합과최적점재계산. 교재절차는마코위츠와CAPM단계혼합",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-27",
+      "chapter_id": "S3C9",
+      "refs": [
+        "CALC:90:62-1"
+      ],
+      "issue": "시나리오수익률에서계산한위험과제시σ충돌",
+      "resolution": "지정σ10/5/10/5%만쓸때B. 시나리오직접위험은다르므로동일분포로취급금지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-28",
+      "chapter_id": "S3C9",
+      "refs": [
+        "CALC:92:63-1"
+      ],
+      "issue": "X비중60%라는첫해설: 원본확인",
+      "resolution": "식과정답은80%. 첫문장오타",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    },
+    {
+      "id": "S3C9-ISSUE-29",
+      "chapter_id": "S3C9",
+      "refs": [
+        "CALC:92:63-2"
+      ],
+      "issue": "공분산=ρσAσB 설명부분곱셈기호누락",
+      "resolution": "본식계산은.36으로정상. 분산·표준편차단위를유지",
+      "status": "review_note; resolution text determines scope",
+      "is_publisher_erratum": false
+    }
+  ]
+}

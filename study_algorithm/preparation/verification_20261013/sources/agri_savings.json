@@ -1,0 +1,18 @@
+{
+  "id": "agri_savings",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=248925&chrClsCd=010202&urlMode=lsInfoP&efYd=20230922&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=248925&chrClsCd=010202&urlMode=lsInfoP&efYd=20230922&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:18.331648+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7902,
+  "content_sha256": "ab5f28fa633c1ddca8869caf3efe0f2ed6c446e91e613070ca2f65b10ed70071",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2023",
+      "9",
+      "22"
+    ]
+  ]
+}

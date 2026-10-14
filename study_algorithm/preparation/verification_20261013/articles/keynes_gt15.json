@@ -1,0 +1,30 @@
+{
+  "source_id": "keynes_gt15",
+  "source_metadata": {
+    "id": "keynes_gt15",
+    "requested_url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
+    "retrieved_url": "https://www.hetwebsite.net/het/texts/keynes/gt/chap15.htm",
+    "retrieved_at": "2026-10-13T16:26:53.413695+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 30073,
+    "content_sha256": "8570ad279ba8ea2ffe2fd625fd373f9cef39562c2e19a24d5bffd376da191b26",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "keynes_gt15:세동기함수",
+      "source_id": "keynes_gt15",
+      "article": "세동기함수",
+      "heading": "세동기함수",
+      "text": "Let the amount of cash held to satisfy the transactions- and\nprecautionary-motives be M1, and the amount held to satisfy\nthe speculative-motive be M2. Corresponding to these two\ncompartments of cash, we then have two liquidity functions L1\nand L2.  L1 mainly depends on the level\nof income, whilst L2 mainly depends on the relation between\nthe current rate of interest and the state of expectation. Thus\nM  =  M1 + M2  =  L1(Y) + L2(r),\nwhere L1 is the liquidity function corresponding to [p.200]\nin income Y, which determines M1, and L2\nis the liquidity function of the rate of interest r, which determines M2.",
+      "start": 10580,
+      "end": 11192,
+      "sha256": "dbb140d584b8871d6d9bbd6de45a293990bde78cc8c37d7155ab0d73c7161f54"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

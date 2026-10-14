@@ -1,0 +1,14 @@
+{
+  "id": "s1_ots_cmo2004",
+  "requested_url": "https://www.occ.treas.gov/static/ots/quarterly-review-irr/11420.pdf",
+  "retrieved_url": "https://www.occ.treas.gov/static/ots/quarterly-review-irr/11420.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "342410",
+  "downloaded_bytes": 342410,
+  "retrieved_at": "2026-10-13T23:55:55.059747+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "e5527fa0a3fa944cd41efb0ffffad797ac30f9e9663e1973cfa4124b689c1e0f",
+  "content_sha256": "2776378d7b498dce9e2925dce3a15b85559640eb4e66f886963ae04684ae779a",
+  "characters": 38141
+}

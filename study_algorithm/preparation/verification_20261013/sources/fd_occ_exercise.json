@@ -1,0 +1,11 @@
+{
+  "id": "fd_occ_exercise",
+  "requested_url": "https://www.optionseducation.org/optionsoverview/exercising-options",
+  "retrieved_url": "https://www.optionseducation.org/optionsoverview/exercising-options",
+  "retrieved_at": "2026-10-14T00:07:17.394219+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "83b296d15036eac9e292dfe8a932df3b98b32eb0afecb673b62fc7f8680b25e9",
+  "text_sha256": "b7415c8a19a0a2e156f5f48af4d6c743e727bd912f56f6d4531c9bca5fa77abf",
+  "status": "retrieved_not_claim_verified"
+}

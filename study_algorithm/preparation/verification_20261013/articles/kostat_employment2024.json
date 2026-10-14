@@ -1,0 +1,32 @@
+{
+  "source_id": "kostat_employment2024",
+  "source_metadata": {
+    "id": "kostat_employment2024",
+    "requested_url": "https://kostat.go.kr/boardDownload.es?bid=67&list_no=434306&seq=1",
+    "retrieved_url": "https://mods.go.kr/boardDownload.es?bid=67&list_no=434306&seq=1",
+    "retrieved_at": "2026-10-13T16:31:57.449073+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "253c43123248022b081b910064bb6bb6562452962bb75e6d0ae0366ccc336396",
+    "binary_sha256": "253c43123248022b081b910064bb6bb6562452962bb75e6d0ae0366ccc336396",
+    "text_sha256": "03bc5447f1877fba2884b8decf22a2da4ad85a856077bf05de58b55e295027f6",
+    "pages": 54,
+    "characters": 40317,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kostat_employment2024:조사대상",
+      "source_id": "kostat_employment2024",
+      "article": "조사대상",
+      "heading": "조사대상",
+      "text": "[PDF page 12]\n제1장 진단대상통계 개요\n- 4 -\n일\n반\n특\n성\n조사주기\n∙월\n조사대상범위\n∙전국표본가구내상주하는만15세이상가구원\n- 조사대상에포함: 전입자, 비혈연가구원, 병역특례자\n(산업기능요원, 공중보건의사, 공익법무관등)\n- 조사대상에제외: 군인(직업군인, 상근예비역포함),\n사회복무요원, 해외상주취업(학)자, 형이확정된교도소\n수감자, 요양소, 기도원수용자\n조사대상지역\n∙전국\n조사항목\n∙총54개항목\n- 기본정보: 5개\n- 일: 23개\n- 구직: ４개\n- 기타활동: 5개\n- 이전직장: 6개\n- 추가무급가족일: 11개\n자료수집방법\n∙면접조사및전자조사, 조사표, CAPI, CASI\n조사체계(위탁,용역포함)\n∙조사원(면접조사) →지방통계청(사무소) →통계청\n조사대상기간/\n조사기준시점\n∙매월15일이포함된1주7일간\n조사실시기간\n∙15일포함된다음주1주간\n결\n과\n공\n표\n공표주기\n∙월\n공표시기\n∙조사기준월익월\n공표범위\n∙시도\n공표방법\n∙전국고용동향보도자료작성및공표, KOSIS를통한\nDB자료, 간행물경제활동인구연보, MDIS\n조\n사\n통\n계\n특\n성\n전수/표본구분\n∙표본조사\n모집단\n∙대한민국에상주하는만15세이상인구\n표본추출틀\n∙’21년기준등록센서스조사구중에서아파트(A), 보통(1)\n및섬(2) 조사구를대상으로구축되며\n조사모집단\n내비중이낮고현장조사가어려운기숙/사회시설과\n인구및가구가없는빈집조사구304개제외, 총\n389,510개조사구\n추출단위\n∙층화2단집락추출\n- 1단(조사구) : 일반조사구를대상으로확률비례계통\n추출(가구수크기비례)\n- 2단(가구) : 추출된일반조사구내가구단순임의추출",
+      "start": 7261,
+      "end": 8042,
+      "sha256": "9c232d96d45efc2d83bca2fce78d2660b2d12acd051cd4c69bc354136ec1ba40"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

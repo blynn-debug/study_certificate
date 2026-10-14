@@ -1,0 +1,12 @@
+{
+  "id": "s3_cfa_ethics_scope",
+  "requested_url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+  "retrieved_url": "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+  "retrieved_at": "2026-10-14T09:21:12.640821+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7282,
+  "content_sha256": "f0d701e6a4d2393ef570290aeb09b74dc50799da62eb599c96e7d8f0192d90b8",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

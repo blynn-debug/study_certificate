@@ -1,0 +1,742 @@
+General Valuation Concepts and Principles
+Introduction
+31
+Land and Property Concepts
+31
+Real Estate, Property, and Asset Concepts
+33
+Price, Cost, Market, and Value
+35
+Market Value
+38
+Highest and Best Use
+39
+Utility
+40
+Other Important Concepts
+43
+Valuation Approaches
+44
+Summary
+47
+General Valuation Concepts and Principles
+International Valuation Standards Committee
+
+30
+
+International Valuation Standards, Sixth Edition 
+Concepts & Principles/Introduction
+31
+International Valuation Standards Committee
+General Valuation Concepts and Principles
+1.0
+Introduction
+1.1
+The experience of Professional Property Valuers and dialogue among
+nations through the International Valuation Standards Committee
+(IVSC) have demonstrated that, with few exceptions, there is com-
+mon worldwide agreement regarding fundamentals that underpin the
+valuation discipline. Local laws and economic circumstances may,
+on occasion, require special (and sometimes limited) applications,
+but fundamentals of valuation methods and techniques are generally
+similar throughout the world. It is an objective of the International
+Valuation Standards Committee to avow and promote these funda-
+mentals.
+1.2
+IVSC’s Standards, Applications, and Guidance Notes (GNs) are
+based on these fundamentals, but it is the position of the Committee
+that it is inappropriate to attempt to articulate all appropriate funda-
+mentals within the body of each Standard. Instead, this section sup-
+plements each Standard and provides an overview of fundamentals
+that are particularly important to understanding the valuation profes-
+sion and to applying the Standards.
+2.0 Land and Property Concepts
+2.1
+Land is essential to our lives and our existence. Its importance brings
+land into focus for consideration by lawyers, geographers, sociolo-
+gists, and economists. As each of these disciplines relates to land and
+to uses of land, the societies and nations of our world are affected.
+2.2
+Valuation of land as if vacant or of land and improvements to or on
+the land, is an economic concept. Whether vacant or improved, land
+is also referred to as real estate. Value is created by real estate’s util-
+ity, or capacity to satisfy the needs and wants of human societies.
+Contributing to value are real estate’s general uniqueness, durability,
+fixity of location, relatively limited supply, and the specific utility of
+a given site.
+
+International Valuation Standards, Sixth Edition
+32
+Concepts & Principles/Land & Property  
+32
+Concepts & Principles/Land & Property  
+2.3
+Property is a legal concept encompassing all the interests, rights, and
+benefits related to ownership. Property consists of the rights of owner-
+ship, which entitle the owner to a specific interest or interests in what
+is owned. To distinguish between real estate, which is a physical enti-
+ty, and its ownership, which is a legal concept, the ownership of real
+estate is called real property. The combination of rights associated
+with the ownership of real property is, in some States, referred to as the
+bundle of rights. The bundle-of-rights concept likens property owner-
+ship to a bundle of sticks with each stick representing a distinct and
+separate right of the property owner, e.g., the right to use, to sell, to
+lease, to give away, or to choose to exercise all or none of these rights. 
+2.4
+Ownership of an interest in items other than real estate is referred to as
+personal property. The word property, used without further qualifica-
+tion or identification, may refer to real property, personal property, or
+other types of property such as businesses and financial interests, or a
+combination thereof. (See Section 3 below and Property Types.) 
+2.5
+Property Valuers, Asset Valuers, and Appraisers are those who deal
+with the special discipline of economics associated with preparing
+and reporting valuations. As professionals, Valuers must meet rigor-
+ous tests of education, training, competence, and demonstrated skills.
+They must also exhibit and maintain a Code of Conduct (ethics and
+competency) and Standards of professional practice and follow
+Generally Accepted Valuation Principles (GAVP).
+2.6
+Price changes over time result from specific and general effects of
+economic and social forces. General forces may cause changes in
+price levels and in the relative purchasing power of money.
+Operating on their own momentum, specific forces such as techno-
+logical change may generate shifts in supply and demand, and can
+create significant price changes.
+2.7
+Many recognised principles are applied in valuing real estate. They
+include the principles of supply and demand; competition; substitu-
+tion; anticipation, or expectation; change; and others. Common to all
+these principles is their direct or indirect effect on the degree of util-
+ity and productivity of a property. Consequently, it may be stated that
+the utility of real estate reflects the combined influence of all market
+forces that come to bear upon the value of property.
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Real Estate, Property & Asset
+33
+3.0 Real Estate, Property, and Asset Concepts
+3.1
+Real estate is defined as the physical land and those human-made
+items which attach to the land. It is the physical, tangible “thing”
+which can be seen and touched, together with all additions on, above,
+or below the ground. Local laws within each State prescribe the basis
+for distinguishing real estate from personal property. Although these
+legal concepts may not be recognised in all States, they are adopted
+here to distinguish important terms and concepts.
+3.2
+Real property includes all the rights, interests, and benefits related to
+the ownership of real estate. An interest or interests in real property
+is normally demonstrated by some evidence of ownership (e.g., a
+title deed) separate from the physical real estate. Real property is a
+non-physical concept.
+3.3
+Personal property includes interests in tangible and intangible items
+which are not real estate. Items of tangible personal property are not
+permanently affixed to real estate and are generally characterized by
+their moveability.
+3.4
+In accounting terminology, assets are resources controlled by an
+enterprise as a result of past events and from which some future eco-
+nomic benefits are expected to flow to the enterprise. Ownership of
+an asset is itself an intangible. However, the asset owned may be
+either tangible or intangible.
+3.4.1
+The future economic benefits embodied in an asset may flow
+to the enterprise in a number of ways, e.g., through its use
+either singly or in combination with other assets to produce
+goods or services to be sold by the enterprise, through its
+exchange for other assets, through its use to settle a liability,
+or through distribution to the owners of the enterprise
+(International Accounting Standards [IAS], F55).
+3.4.2
+An asset is recognized in the balance sheet when it is proba-
+ble that the future economic benefits will flow to the enter-
+prise and the asset has a cost or value that can be reliably
+measured (IAS, F89).
+
+International Valuation Standards, Sixth Edition
+34
+Concepts & Principles/Real Estate, Property & Asset
+3.5
+International Accounting Standards for financial reporting distin-
+guish among tangible and intangible assets. Of particular importance
+are the following terms and concepts:
+3.5.1
+Current assets. Assets not intended for use on a continuing
+basis in the activities of an enterprise. Examples include
+stocks, obligations owed to the enterprise, short-term invest-
+ments, and cash in bank and in hand. In certain circum-
+stances real estate, normally treated as a fixed asset, may be
+treated as a current asset. Examples include land or improved
+real estate held in inventory for sale.
+3.5.2
+Non-current assets (fixed, or long-term, assets). These are
+tangible and intangible assets which fall into the following
+two broad categories:
+3.5.2.1 Property, plant, and equipment. Assets intended for
+use on a continuing basis in the activities of an enter-
+prise including land and buildings; plant and equip-
+ment; and other categories of assets, suitably identi-
+fied; less accumulated depreciation. Property, plant,
+and equipment are tangible, or physical, assets.
+3.5.2.2 Other non-current assets. Assets not intended for use
+on a continuing basis in the activities of an enter-
+prise, but expected to be held in long-term ownership
+including long-term investments; long-term receiv-
+ables; goodwill; expenditures carried forward; and
+patents, trademarks, and similar assets. This asset
+category includes both tangible, or physical, assets
+and intangible, or non-physical, assets. Intangible
+assets are considered items of intangible personal
+property, and may include management and market-
+ing skill, credit rating, goodwill, and various legal
+rights or instruments (patents, trademarks, copy-
+rights, franchises, and contracts). 
+3.5.3
+Where either historic or current cost accounting conventions
+are upheld, a distinction is drawn between operational and
+investment assets. Operational assets are considered requisite
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Price, Cost, Market & Value
+35
+to the operations of the going concern or corporation.
+Investment assets that are owned by a corporation are con-
+sidered extraneous to the operational requirements of the
+corporate owner.
+3.6
+Accounting terminology differs somewhat from terms more common
+to Valuers. Within the classifications discussed in para. 3, Valuers are
+principally involved with fixed assets. Technically it is the ownership
+of the asset, or the right of ownership, that is valued rather than the
+tangible or intangible asset itself. This concept distinguishes the eco-
+nomic concept of valuing an asset objectively based upon its ability
+to be purchased and sold in a marketplace from some subjective con-
+cept such as assuming an intrinsic or other non-Market Value basis.
+The objective market concept does, however, have special applica-
+tions for limited or non-market property valuation as discussed in
+International Valuation Standard 2.
+3.7
+The term depreciation is used in valuation and in accounting, and can
+lead to confusion. To avoid misunderstanding, Valuers may use
+either the term depreciation or the term accrued depreciation in
+Reproduction or Replacement Cost methods to refer to any loss in
+value from the estimate of total cost new. Such losses may be cate-
+gorised as attributable to physical deterioration, functional (techni-
+cal) obsolescence, or economic (external) obsolescence. The term
+accruals for depreciation denotes allowances made by accountants
+as offsets to the original cost of assets under the historical cost con-
+vention of some States, regardless of the basis for such allowances.
+Importantly to Valuers, accrued depreciation is a function of the mar-
+ket. Accruals for depreciation are a function of an accounting con-
+vention and do not necessarily reflect the market.
+4.0 Price, Cost, Market, and Value
+4.1
+Imprecision of language, particularly in an international community,
+can and does lead to misinterpretations and misunderstandings. This
+is particularly a problem where words commonly used in a language
+also have specific meanings within a given discipline. That is the
+case with the terms price, cost, market, and value as they are used in
+the valuation discipline.
+
+International Valuation Standards, Sixth Edition 
+36
+Concepts & Principles/Price, Cost, Market & Value  
+4.2
+Price is a term used for the amount asked, offered, or paid for a good
+or service. Sale price is an historical fact, whether it is publicly dis-
+closed or kept confidential. Because of the financial capabilities,
+motivations, or special interests of a given buyer and/or seller, the
+price paid for goods or services may or may not have any relation to
+the value which might be ascribed to the goods or services by others.
+Price is, however, generally an indication of a relative value placed
+upon the goods or services by the particular buyer and/or seller under
+particular circumstances.
+4.3
+Cost is the price paid for goods or services or the amount required to
+create or produce the good or service. When that good or service has
+been completed, its cost is an historical fact. The price paid for a
+good or service becomes its cost to the buyer.
+4.4
+A market is the environment in which goods and services trade
+between buyers and sellers through a price mechanism. The concept
+of a market implies that goods and/or services may be traded among
+buyers and sellers without undue restriction on their activities. Each
+party will respond to supply-demand relationships and other price-
+setting factors as well as to the party’s own capacities and knowl-
+edge, understanding of the relative utility of the goods and/or servic-
+es, and individual needs and desires. A market can be local, region-
+al, national, or international.
+4.5
+Value is an economic concept referring to the price most likely to be
+concluded by the buyers and sellers of a good or service that is avail-
+able for purchase. Value is not a fact, but an estimate of the likely
+price to be paid for goods and services at a given time in accordance
+with a particular definition of value. The economic concept of value
+reflects a market’s view of the benefits that accrue to one who owns
+the goods or receives the services as of the effective date of valuation.
+4.6
+There are many types and associated definitions of value (for exam-
+ples see IVSC Standard 2). Some defined values are commonly used
+in valuations. Others are used in special situations under carefully
+identified and disclosed circumstances. It is of paramount impor-
+tance to the use and understanding of valuations that the type and
+definition of value be clearly disclosed, and that they be appropriate
+to the particular valuation assignment. A change in the definition of
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Price, Cost, Market & Value
+37
+value can have material effect on the values that would be assigned
+to properties.
+4.7
+Professional Valuers, who possess intimate knowledge of a property
+market; understand the interaction of participants in the market; and are,
+thereby, able to judge the most likely prices to be concluded between
+buyers and sellers of property in that market avoid the unqualified term
+value by preceding the term with some adjective describing the partic-
+ular type of value involved. Market Value or in some States Open
+Market Value is the most common type of value associated with prop-
+erty valuations and is discussed in International Valuation Standard 1.
+Although common usage possibly dictates an understanding that
+Market Value is intended in the absence of a statement to the contrary,
+it is especially important that Market Value, or whichever basis of value
+is used, be clearly identified and defined in each such assignment.
+4.8
+The value concept contemplates a monetary sum associated with a
+transaction. However, sale of the property valued is not a condition
+requisite to estimating the price for which property should sell if it
+were sold on the date of valuation under conditions prescribed in the
+definition of Market Value.
+4.9
+The Market Value of real estate is a representation of its market-
+recognised utility rather than its purely physical status. The utility of
+assets to a given enterprise or individual may differ from that which
+would be recognised by the market or by a particular industry.
+Therefore, it is necessary that asset valuation and reporting for
+accounting, under the convention, which reflects the effects of
+changing prices, distinguish between values recognised in the mar-
+ket, which should be reflected in financial reporting, and non-market
+types of values. Depreciated Replacement Cost (DRC) as defined in
+International Valuation Standard 2 and as applied to specialised prop-
+erties, can be considered an acceptable method used to arrive at a sur-
+rogate for Market Value.
+4.9.1
+Considerations similar to those expressed above are applied to
+the valuation of property other than real estate. Except where
+DRC is appropriately applied, financial reporting will require
+application of Market Value methods and a clear distinction
+between such methods and Non-Market Value methods.
+
+International Valuation Standards, Sixth Edition
+38
+Concepts & Principles/Market Value  
+4.10 The total cost of a property includes all direct and indirect costs of its
+production. If supplemental capital costs are incurred by a purchaser
+subsequent to acquisition, they will be added to the historical acqui-
+sition cost for cost accounting purposes. Depending upon how the
+utility of such costs is perceived by the market, they may or may not
+be fully reflected in the property’s Market Value.
+4.11 A cost estimate for a property may be based on either an estimate of
+reproduction cost or replacement cost. Reproduction cost is the cost
+to create a virtual replica of the existing structure, employing the
+same design and similar building materials. A replacement cost esti-
+mate envisions constructing a structure of comparable utility,
+employing the design and materials that are currently used in the
+market. (In some States, the term modern equivalent asset is used to
+describe a structure whose cost is estimated on a replacement basis.) 
+5.0 Market Value
+5.1
+The concept of Market Value reflects the collective perceptions and
+actions of a market and is the basis for valuing most resources in
+market-based economies. Although precise definitions may vary, the
+Market Value concept is commonly understood and applied.
+5.2
+Market Value is defined as:
+The estimated amount for which a property should exchange
+on the date of valuation between a willing buyer and a will-
+ing seller in an arm’s-length transaction after proper market-
+ing wherein the parties had each acted knowledgeably, pru-
+dently, and without compulsion.
+5.3
+It is important to stress that the professionally derived Market Value
+estimate is an objective valuation of identified ownership rights to
+specific property as of a given date. Implicit within this definition is
+the concept of a general market comprising the activity and motiva-
+tion of many participants rather than the preconceived view or vest-
+ed interest of a particular individual. Market Value is a market-sup-
+ported estimate developed in accordance with these Standards.
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Highest & Best Use
+39
+5.4
+Real property is distinguished from most goods and services because
+of the relatively longer period required to market what is a relative-
+ly illiquid commodity in order to achieve a price that represents its
+Market Value. This characteristically longer exposure time, the
+absence of a ‘spot market’ (a market in which commodities are avail-
+able for immediate sale), and the nature and diversity of properties
+and property markets give rise to the need for Professional Valuers
+and Valuation Standards.
+5.5
+In some States, the legal term Fair Market Value is used synony-
+mously with the term Market Value. Fair Market Value should not be
+confused with the accounting term, Fair Value. (See para. 8.1 below.)
+The IVSC position is that the term Market Value never requires fur-
+ther qualification and that all States should move toward compliance
+with this usage.
+6.0 Highest and Best Use
+6.1
+Land is regarded as a permanent asset, but improvements upon or to
+the land have a finite life. Because of the immobility of land, each
+real estate parcel possesses a unique location. Land’s permanence
+also means that it will normally be expected to outlast uses and
+improvements, which have a finite life.
+6.1.1
+The unique characteristics of land determine its optimal util-
+ity. When improved land is valued separately from improve-
+ments to or upon the land, economic principles require that
+improvements to or on the land be valued as they contribute
+to or detract from the total value of the property. Thus, the
+Market Value of land based upon the “highest and best use”
+concept reflects the utility and the permanence of land in the
+context of a market, with improvements constituting the dif-
+ference between land value alone and total Market Value as
+improved.
+6.2
+Most properties are valued as a combination of land and improve-
+ments. In such cases, the Valuer will normally estimate Market Value
+by considering the highest and best use of the property as improved.
+
+International Valuation Standards, Sixth Edition
+40
+Concepts & Principles/Utility  
+6.3
+Highest and best use is defined as:
+The most probable use of a property which is physically pos-
+sible, appropriately justified, legally permissible, financially
+feasible, and which results in the highest value of the prop-
+erty being valued.
+6.4
+A use that is not legally permissible or physically possible cannot be
+considered a highest and best use. A use that is both legally permis-
+sible and physically possible may nevertheless require an explana-
+tion by the Valuer justifying why that use is reasonably probable.
+Once analysis establishes that one or more uses are reasonably prob-
+able uses, they are then tested for financial feasibility. The use that
+results in the highest value, in keeping with the other tests, is the
+highest and best use.
+6.5
+Application of this definition permits Valuers to assess the effects of
+deterioration and obsolescence in buildings, the most appropriate
+improvements for land, the feasibility of rehabilitation and renova-
+tion projects, and many other valuation situations.
+6.6
+In markets characterized by extreme volatility or severe disequilibri-
+um between supply and demand, the highest and best use of a prop-
+erty may be a holding for future use. In other situations, where sev-
+eral types of potential highest and best use are identifiable, the Valuer
+should discuss such alternative uses and anticipated future income
+and expense levels. Where land use and zoning are in a state of
+change, the immediate highest and best use of a property may be an
+interim use. 
+6.7
+The concept of highest and best use is a fundamental and integral
+part of Market Value estimates. 
+7.0 Utility
+7.1
+The key criterion in the valuation of any real or personal property is
+its utility. Procedures employed in the valuation process have the
+common objective of defining and quantifying the degree of utility
+or usefulness of the property valued. This process calls for interpre-
+tation of the utility concept.
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Utility
+41
+7.2
+Utility is a relative, or comparative term, rather than an absolute con-
+dition. For example, the utility of agricultural land is ordinarily
+measured by its productive capacity. Its value is a function of the
+quantity and quality of produce, which the land will yield in an agri-
+cultural sense, or of the quantity and quality of buildings essential to
+the agricultural operation. If the land has development potential,
+however, its productivity is measured by how productively it will
+support a residential, commercial, industrial, or mixed use.
+Consequently, land value is established by evaluating its utility in
+terms of the legal, physical, functional, economic, and environmen-
+tal factors that govern its productive capacity.
+7.3
+Fundamentally, property valuation is governed by the way specific
+property is used and/or how it would ordinarily be traded in the mar-
+ket. For some property, optimum utility is achieved if the property in
+question is operated on an individual basis. Other property has greater
+utility if operated as part of a group of properties, e.g., properties
+owned and managed by a business enterprise such as a chain of mul-
+tiple retail outlets, fast food restaurants, or hotels. Therefore, a dis-
+tinction must be made between a property’s utility viewed individual-
+ly and when considered as a part of a group. A Valuer will regard the
+property as the market views it, whether as a discrete entity or as part
+of an aggregate or portfolio. Typically, the Valuer estimates and
+reports the value of the property as an individual entity. If the value of
+the property, taken as part of an aggregate or portfolio, is other than
+its individual value, such value should be considered and reported.
+7.4
+Free-standing properties that are self-contained, independent opera-
+tions normally change hands on an individual basis and are valued as
+such. Should such properties possess greater (or lesser) value arising
+from a functional or economic association with other properties, such
+additional, or special, value may be addressed in the valuation
+process and reported accordingly, pursuant to either the Valuer’s own
+observations or in accordance with disclosed instructions from a
+client. Any such value estimate should not, however, be referred to
+as Market Value without a supporting explanatory statement. 
+7.5
+An individual property may possess an additional, or special, value
+above its value as a separate entity by reason of its physical or func-
+
+International Valuation Standards, Sixth Edition
+42
+Concepts & Principles/Utility  
+tional association with an adjoining property owned by others or its
+attractiveness to a purchaser with other special interests. The extent
+or amount of such additional, or special, value is generally reported
+separately from Market Value.
+7.6
+Utility is measured from a long-term perspective, ordinarily over the
+normal useful life of a particular property or group of properties.
+However, there are times when particular property may become tem-
+porarily redundant, otherwise removed from production, adapted to
+an alternative use or function, or perhaps simply idled for a pre-
+scribed period of time. In other instances, external market circum-
+stances, economic or political, may dictate the curtailment of pro-
+duction for an indefinite period of time. Valuations in such situations
+require special expertise and training, and reporting should be done
+in accordance with International Valuation Standards. Of particular
+importance is that the Valuer should ensure that full explanation and
+disclosure is made of the definition of value, data upon which the
+valuation is based, and the extent of special assumptions or limita-
+tions (if any) upon which the valuation is made.
+7.7
+Similarly, property may not have a readily discernible degree of util-
+ity at the date of valuation because of external or economic factors,
+e.g., property situated in remote regions, in States experiencing
+volatile market conditions, in States not having a market economy, or
+in States experiencing a change in economic systems. The reporting
+requirements under International Valuation Standards for valuations
+under these circumstances call for full disclosure of the definition of
+value, the data which supports the valuation, and the extent to which
+special assumptions or limitations (if any) govern the valuation.
+7.8
+A common effect of political or economic uncertainty is a change in
+utility, whether in terms of capacity or efficiency. The Valuer’s
+responsibility in such situations is to assess the market expectancy of
+the time span for such events. Temporary shut-downs or closures
+may have little or no impact on property or asset values, whereas
+prospects for long-term cessation of activities may result in a perma-
+nent diminution in value. The property or asset valued must be
+viewed in the light of all internal and external factors bearing on its
+operating performance.
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Other Important Concepts
+43
+8.0 Other Important Concepts
+8.1
+The expression Market Value and the term Fair Value as it common-
+ly appears in accounting standards are generally compatible, if not in
+every instance exactly equivalent concepts. Fair Value, an account-
+ing concept, is defined in International Accounting Standards and
+other accounting standards as the amount for which an asset could be
+exchanged, or a liability settled, between knowledgeable, willing
+parties in an arm’s-length transaction. Fair Value is generally used
+for reporting both Market and Non-Market Values in financial state-
+ments. Where the Market Value of an asset can be established, this
+value will equate to Fair Value. Where the Market Value of an asset
+cannot be established, its value is arrived at using a surrogate such as
+Depreciated Replacement Cost (DRC).
+8.2
+Specialised assets are those which rarely, if ever, sell in the (open)
+market except as part of the business of which they are a part (the
+business in occupation). Such assets may also be referred to as lim-
+ited, or non-market, assets depending upon their degree of spe-
+cialised design, configuration, or application. Where there is limited
+or no directly comparable market information for Valuers to consid-
+er, the valuation process may become more complex. However, it is
+the Valuer’s responsibility to develop data and reasoning from the
+market to support and/or explain the value conclusion. Although
+each of the valuation methods may be applied, and all applicable
+methods should be considered, the Depreciated Replacement Cost
+(DRC) method is commonly applied to specialised assets. Where
+possible, the Valuer develops land value, cost, and accumulated
+depreciation estimates from market information, and explains the
+basis for the value estimate.
+8.3
+Where normal market conditions are disrupted or suspended, or
+where supply and demand imbalances lead to market prices that do
+not meet the Market Value definition, the Valuer may face a difficult
+valuation problem. By using the Market Value concept and defini-
+tion, and by applying market data and reasoning to the valuation
+process, Valuers ensure the relevance and usefulness of asset values
+reported in financial statements. As availability and/or applicability
+of market data decrease, the valuation assignment may require a
+
+International Valuation Standards, Sixth Edition
+44
+Concepts & Principles/Valuation Approaches  
+higher degree of professional Valuer vigilance, experience, and
+judgement.
+8.4
+A Valuer may be required to apply a particular definition of Market
+Value to meet legal or statutory requirements. If so required, the
+Valuer must make specific disclosure of the fact and describe the
+impact of any differences upon the value estimated. Where an assign-
+ment is undertaken in accordance with International Valuation
+Standards, the term Market Value will always conform to the IVS
+definition.
+8.5
+All valuation reports should make clear the purpose and intended use
+of the valuation. In addition to other reporting requirements, where
+financial reporting is involved the report should specifically identify
+the asset class into which each asset is placed and the basis for such
+placement. Each asset class should be explicitly explained.
+8.6
+The estimation and reporting of property and asset values, and relat-
+ed guidance, are the scope of these International Valuation Standards,
+Applications, and related Guidance Notes. How the results of valua-
+tions are to be compiled, conveyed, and incorporated with the find-
+ings of other professionals is of crucial importance to Valuers. Proper
+understanding of terminology is essential for Valuers and those who
+read their reports. The sound use of experience and expertise and cor-
+rect application of methodology are also essential. These Standards
+are intended to serve the common objectives of those who prepare
+property and asset valuations and those who must rely on their
+results.
+9.0 Valuation Approaches
+9.1
+Valuations of any type, whether undertaken to estimate market value
+or a defined non-market value, require that the Valuer apply one or
+more valuation approaches. The term valuation approach refers to
+generally accepted analytical methodologies that are in common use.
+In various States these approaches may be referred to as valuation
+methods. 
+9.2
+Market-based valuations normally employ one or more of the valua-
+tion approaches by applying the principle of substitution, using mar-
+
+International Valuation Standards, Sixth Edition
+Concepts & Principles/Valuation Approaches
+45
+ket-derived data. This principle holds that a prudent person would
+not pay more for a good or service than the cost of acquiring an
+equally satisfactory substitute good or service, in the absence of the
+complicating factors of time, greater risk, or inconvenience. The
+lowest cost of the best alternative, whether a substitute or the origi-
+nal, tends to establish Market Value.
+9.2.1
+Market-based valuation approaches include:
+9.2.1.1 Cost Approach. This comparative approach consid-
+ers the possibility that, as a substitute for the pur-
+chase of a given property, one could construct anoth-
+er property that is either a replica of the original or
+one that could furnish equal utility. In a real estate
+context, one would normally not be justified in pay-
+ing more for a given property than the cost of acquir-
+ing equivalent land and constructing an alternative
+structure, unless undue time, inconvenience, and risk
+are involved. In practice, the approach also involves
+an estimate of depreciation for older and/or less
+functional properties where an estimate of cost new
+unreasonably exceeds the likely price that would be
+paid for the appraised property.
+9.2.1.2 Sales Comparison Approach. This comparative
+approach considers the sales of similar or substitute
+properties and related market data, and establishes a
+value estimate by processes involving comparison.
+In general, a property being valued (a subject prop-
+erty) is compared with sales of similar properties that
+have been transacted in the open market. Listings
+and offerings may also be considered.
+9.2.1.3 Income Capitalisation Approach. This comparative
+approach considers income and expense data relating
+to the property being valued and estimates value
+through a capitalisation process. Capitalisation
+relates income (usually a net income figure) and a
+
+International Valuation Standards, Sixth Edition
+46
+Concepts & Principles/Valuation Approaches  
+defined value type by converting an income amount
+into a value estimate. This process may consider
+direct relationships (known as capitalisation rates),
+yield or discount rates (reflecting measures of return
+on investment), or both. In general, the principle of
+substitution holds that the income stream which pro-
+duces the highest return commensurate with a given
+level of risk leads to the most probable value figure.
+9.3
+Non-market based valuations may apply similar approaches, but typ-
+ically involve purposes other than establishing Market Value. For
+example: 
+9.3.1
+An enterprise/entity may apply a cost approach to compare
+the cost of other buildings with the cost of a proposed build-
+ing to the enterprise/entity, thereby ascertaining the bargain
+or premium accruing a particular property at variance with
+the market at large. This application focuses on a particular
+property and what may be a non-market cost. 
+9.3.2
+An owner of land may pay a premium price for adjacent
+property. In applying a sales comparison approach to deter-
+mine a maximum price that owner is willing to pay for adja-
+cent land, a Valuer arrives at a figure that may well exceed its
+Market Value. In some States, such an estimate is called
+Special Purchaser Value.
+9.3.3
+An investor may apply a rate of return that is non-market and
+particular only to that investor. In applying an income capi-
+talisation approach to determine the price that investor is
+willing to pay for a particular investment based on the
+investor’s anticipated rate of return, a Valuer arrives at an
+estimate of Investment Value or Worth rather than Market
+Value. 
+9.4
+Depreciated Replacement Cost (DRC) is an acceptable method used
+to arrive at a surrogate for the Market Value of specialised properties.
+The method is commonly applied in a valuation situation involving a
+property for which there are no readily available or otherwise depend-
+able market data to analyse in developing a Market Value estimate.
+
+International Valuation Standards, Sixth Edition
+9.5
+Each valuation approach has alternative methods of application. The
+Valuer’s expertise and training, local standards, market requirements,
+and available data combine to determine which method or methods
+are applied. The reason for having alternative approaches and meth-
+ods is to provide the Valuer with a series of analytical procedures
+which will ultimately be weighed and reconciled into a final value
+estimate, depending upon the particular type of value involved.
+9.6
+Valuation approaches and methods are generally common to virtual-
+ly all types of valuation, including real property, personal property,
+businesses, and financial interests. However, valuation of different
+types of property involves different sources of data that appropriate-
+ly reflect the market in which the property (and/or service or busi-
+ness) is to be valued. For example, individual buildings are com-
+monly sold and valued in the relevant real estate market whereas the
+values of the shares of stock in a property company that owns a num-
+ber of buildings are reflected by pricing in the relevant shares mar-
+ket.
+10.0 Summary
+10.1 The International Valuation Standards are intended to facilitate cross-
+border transactions involving property and contribute to the viability
+of global markets by promoting transparency in financial reporting.
+Emphasis is placed on the use of factual market information from
+which informed professional judgements regarding property valua-
+tions can be drawn.
+Concepts & Principles/Summary
+47
+
+48

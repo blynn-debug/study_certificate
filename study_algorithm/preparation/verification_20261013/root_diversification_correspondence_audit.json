@@ -1,0 +1,1014 @@
+{
+  "as_of": "2026-10-13",
+  "status": "completed_individual_original_correspondence_audit",
+  "policy": "Includes conservative pending screening, not a finding that every replacement is wrong. Preserve original evidence and existing approved variants.",
+  "items": [
+    {
+      "id": "MOCK-1-Q096",
+      "status": "resolved",
+      "original_intent": "위험회피·곡선",
+      "changed_scope": "깨진 sqrt 수식과 평균분산 가정·동일 비교점을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 26,
+      "publisher_answer": "②",
+      "original_question": "",
+      "original_explanation": "틀린 설명은나·다. sqrt(wealth)는 위험회피 효용이며 더 보수적인 투자자는 같은 위험-기대수익률 좌표에서 더 가파른 무차별곡선을 갖는다.",
+      "current_clean_prompt": "가. 증가하는 오목 기대효용은 위험회피를 나타낸다. 나. X>0에서 U(X)=sqrt(X)는 위험선호형이다. 다. 평균분산 효용 μ-Cσ²/2의 같은 σ>0에서 C가 큰 투자자의 등효용선은 더 완만하다. 라. 이 평균분산 효용은 μ가 높고 σ²가 낮을수록 크다. 틀린 것끼리 묶으면? ① 가·나 ② 나·다 ③ 다·라 ④ 가·라",
+      "resolution": "MOCK26쪽 실제이미지의가나다라·4조합을재확인. 오목효용·제곱근·등효용선기울기·평균위험 선호를모두보존하며 sqrt이차미분과Cσ로검증. 현교정은필요조건보충이며범위대체아님.",
+      "reviewed_original_pages": [
+        26
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9-ADD-02",
+      "status": "resolved",
+      "original_intent": "상관0표준편차",
+      "changed_scope": "원문① 일반 상관식도 ρ=0 대입 시④와 동치라 복수정답 여지가 있다. ①을 분산식으로 바꾸고 수식 OCR을 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 464,
+      "publisher_answer": "④",
+      "original_question": "02  다음 중 상관계수가 〇일 때의 포트폴리오의 표준편차는?\n\n\n   ②  <7 P= W Y(T y+ W メア ド\n\n   ③ <7p=    I wa<t¥— WyCry\\\n\n\n\n\n\n",
+      "original_explanation": "02 ④ ①은 분산의 표준식인데 여기서 상관계수가 1이면 ②가 되고, T이면 ③이 되고, 상관계수가 〇이면 ④가 된다.",
+      "current_clean_prompt": "두 자산 비중 wX,wY와 표준편차σX,σY가 양수이며 상관0이다. 포트폴리오 표준편차는? ① wX²σX²+wY²σY² ② wXσX+wYσY ③ |wXσX-wYσY| ④ sqrt(wX²σX²+wY²σY²)",
+      "resolution": "P3 464·465쪽 실제이미지질문과해설 대조. ρ=0때일반식①과특수식④가동치인복수정답문제확인. ①만분산식으로최소교정하고②③④및정답④보존. 분산항등식독립재계산완료.",
+      "reviewed_original_pages": [
+        464
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9-ADD-04",
+      "status": "resolved",
+      "original_intent": "효율/최적/시장포트폴리오 단계혼합",
+      "changed_scope": "위험자산만의 경계에서 최적점을 고른 뒤 갑자기 시장포트폴리오로 바꾸는 혼동을 없앴다. 정답② 유지.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 465,
+      "publisher_answer": "②",
+      "original_question": "04  마코위츠의 분산투자이론에서 효율적 투자를 위한 과정이 올바르게 연결된 것은?\n••°    /\n\n       (3)지배원리를 통해서 효율적 프런티어를 구한다.\n\n     〇 기대수익률과 위험, 공분산을 추정한다.\n\n     © 무위험자산과 시장포트폴리오의 조합으로 투자를 실행한다\n\n               (g) 효율적 프런티어와 무차별 효용곡선의 접점에서 최적포트폴리오를 선택한다.\n\n\n   ①。一口 一⑥ 一+(百)                       ② ©-，e)一\n   ③㊁ 一回)一»@一+©           @6)—>©—*@ —>©\n\n\n\n\n",
+      "original_explanation": "04 ② 기대수익률 등 투입정보의 추정 一 지배원리를 통해 효율적 프런티어의 추정 一 무차별효용곡선과 접점에서\n      최적포트폴리오 선택 一 무위험자산과 시장포트폴리오의 조합(자본시장선)으로 투자를 실행",
+      "current_clean_prompt": "평균분산 효율적 투자 절차다. ㄱ: 추정치·허용제약을 사용해 최종 투자기회집합의 효율경계를 구한다. ㄴ: 기대수익·분산·공분산을 추정한다. ㄷ: 선택한 최적비중대로 거래한다. ㄹ: 효율경계 위에서 투자자 효용을 최대화하는 조합을 선택한다. 올바른 순서는? ① ㄱ→ㄴ→ㄷ→ㄹ ② ㄴ→ㄱ→ㄹ→ㄷ ③ ㄷ→ㄹ→ㄱ→ㄴ ④ ㄱ→ㄷ→ㄹ→ㄴ",
+      "resolution": "P3 465쪽실제이미지네단계와순서4보기를대조. 삭제되었던지배원리·무위험자산/시장포트폴리오조합·무차별곡선접점을복원하고공통접점가정을명시.",
+      "reviewed_original_pages": [
+        465
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T08-CORE",
+      "status": "resolved",
+      "original_intent": "포뮬러와예측",
+      "changed_scope": "매입보유가 반드시 무작위 종목선정이라는 해설 및 모든 규칙기반 전략을 예측전략과 동일시한 설명을 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 458,
+      "publisher_answer": "③",
+      "original_question": "TOPIC\n\n     포트폴리오 투자전략\n\n\n\n\n 핵심문제  다음은 포트폴리오 투자전략에 관한 사항들이다. 가장 거리가 먼 것은?\n\n      ① 가장 순수한 의미의 Passive전략은 지수펀드전략이다.\n\n      ② 단순한 매입  • 보유전략은 특정 종목이나 포트폴리오를 선택하고자 의도적인 노력을 하\n\n          지 않는다는 특징이 있다.\n\n      ③ 포뮬러 플랜의 변동비율법은 무위험자산과 위험자산의 배분을 증권시장 예측에 맞게 조\n\n         절하여 초과수익을 획득하고자 하는 전략이다.\n\n      ④ 강세장이 예상될 경우는 베타계수가 큰 종목을 선택한다.\n\n   酗 ③은 포율러 플랜이 아니라 시장 투자적기 포착전략’을 말한다. 그리고 단순매입  • 보유전략은 무작위적\n\n            으로 종목을 선택하고 수를 늘리면 시장전체의 평균수익률을 올릴 수 있다고 기대하는 전략이다.\n                                        目③",
+      "original_explanation": "酗 ③은 포율러 플랜이 아니라 시장 투자적기 포착전략’을 말한다. 그리고 단순매입  • 보유전략은 무작위적\n\n            으로 종목을 선택하고 수를 늘리면 시장전체의 평균수익률을 올릴 수 있다고 기대하는 전략이다.",
+      "current_clean_prompt": "전략 설명 중 틀린 것은? ① 지수추종은 지정 벤치마크 성과를 따라가는 패시브 접근이다. ② 매입보유는 선택한 보유자산을 유지하는 방식이며 최초 종목선정은 재량적일 수도 있다. ③ 사전에 정한 기계적 비중조절 규칙은 언제나 그때그때 시장전망을 새로 예측해야만 실행할 수 있다. ④ 기대시장초과수익이 양수라는 CAPM 전망에서 다른 조건이 같으면 큰 베타의 예상초과수익이 더 크다.",
+      "resolution": "원문4보기의지수·매입보유·포뮬러변동비율·강세베타주제를모두유지.③의고유전략명을복원하고②무작위필수라는오류및④전망조건만보완.",
+      "reviewed_original_pages": [
+        458
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T08-SUP-01",
+      "status": "resolved",
+      "original_intent": "Q1 액티브TB",
+      "changed_scope": "정액매수나 매입보유라는 행위만으로 모든 운용이 패시브라고 일반화하지 않도록 대상·재량 조건을 한정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 459,
+      "publisher_answer": "④",
+      "original_question": "01  다음 중 소극적인 투자전략이 아닌 것은?\n ••0 ①단순매입・보유전략\n\n   ② 지수펀드 투자전략\n\n   ③ 평균분할 투자전략\n\n   ④ 트레이너-블랙모형 이용전략\n\n     EF1 ④는 초과수익과 비체계적 위험 간의 균형 또는 최적화를 이루도록 투자하는 액티브전략의 하나이다.\n                                         目④",
+      "original_explanation": "EF1 ④는 초과수익과 비체계적 위험 간의 균형 또는 최적화를 이루도록 투자하는 액티브전략의 하나이다.",
+      "current_clean_prompt": "별도 종목 초과수익 예측 없이 실행하는 패시브 방식과 거리가 먼 것은? ① 사전에 정한 분산묶음을 그대로 보유 ② 지정지수 추종 ③ 같은 지정지수를 정액 정기매수 ④ 종목별 예상알파·잔차분산에 따라 액티브 비중을 최적화하는 Treynor-Black 접근",
+      "resolution": "원문4전략명을모두복원. 매입보유·정액매수의행위만으로임의액티브종목선정까지패시브라고일반화하지않는조건만보완.",
+      "reviewed_original_pages": [
+        459
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T08-SUP-02",
+      "status": "resolved",
+      "original_intent": "Q2 타이밍·종목",
+      "changed_scope": "포뮬러 플랜도 반드시 새 시장예측을 한다는 해설의 일반화를 사용하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 459,
+      "publisher_answer": "①",
+      "original_question": "02 다음 중 적극적인 투자전략 중 종목선택전략이 아닌 것은?\n ,•0 ① 시장 투자적기 포착전략\n\n   ② 베타계수 이용전략\n\n   ③ 내재가치 추정전략\n\n   ④ 트레이너-블랙모형 이용전략\n\n     EFI '시장 투자적기 포착전략'과 '포율러플랜은 시장예측활동（Market Timig） 전략에 속한다.\n\n\n          심층이해\n\n\n               시장 투자적기 포착전략                포율러 플랜\n\n          시장을 예측하여,                시장을 예측하여,\n\n           '무위험자산과 위험자산'의 비중을 조절함으로써  '주식（위험자산）과 채권（방어자산）’ 간의 비중을 조\n\n          초과수익을 얻고자 하는 전략          절함으로써 초과수익을 얻고자 하는 전략\n\n\n                                         理①",
+      "original_explanation": "EFI '시장 투자적기 포착전략'과 '포율러플랜은 시장예측활동（Market Timig） 전략에 속한다.\n\n\n          심층이해\n\n\n               시장 투자적기 포착전략                포율러 플랜\n\n          시장을 예측하여,                시장을 예측하여,\n\n           '무위험자산과 위험자산'의 비중을 조절함으로써  '주식（위험자산）과 채권（방어자산）’ 간의 비중을 조\n\n          초과수익을 얻고자 하는 전략          절함으로써 초과수익을 얻고자 하는 전략",
+      "current_clean_prompt": "개별 주식의 선택·배분보다 자산군 전체 노출의 시점 조절에 해당하는 것은? ① 시장전망에 따라 주식시장묶음과 무위험자산 사이 비중 조절 ② 목표베타에 맞는 개별주식 선택 ③ 내재가치 대비 저평가 종목 선택 ④ 개별종목 예상알파·잔차분산에 따른 액티브 비중 계산",
+      "resolution": "원문시장타이밍·베타·내재가치·트레이너블랙네선택지를빠짐없이대응시켰고①유지. 전략명복원외범위변경없음.",
+      "reviewed_original_pages": [
+        459
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T08-SUP-03",
+      "status": "resolved",
+      "original_intent": "Q3 TB점수",
+      "changed_scope": "투자비중을 α/잔차표준편차인 평가비율에 그대로 비례시킨 원문 해설을 α/잔차분산으로 교정했다. 알파 크기만의 무조건적 비중순위도 피했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 460,
+      "publisher_answer": "④",
+      "original_question": "03 트레이너 블랙 모형에 대한 설명이다. 가장 적절하지 않은 것은?\n ••• ① 적극적 투자관리의 일환으로서 소수종목을 선택하여 초과수익을 획득하면서도 적절한 분산투자로\n\n      비체계적 위험을 가급적 줄이고자 하는 전략이다.\n\n   ② 초과수익 가능성과 비체계적 위험의 감소 간에 균형을 이루도록 각 증권에 대한 최적투자비율을\n\n       구한다.\n    ③ 개별증권의 초과수익 알파S）는 기대수익률에서 요구수익률을 뺀 차이로 추정하며, 요구수익률은\n\n     증권시장선으로 구한다.\n\n    ④ 각 증권의 최적투자비율은 포트폴리오의 비체계적 위험에 대한 그 증권의 초과수익의 비율로 결정\n\n       되는데, 초과수익이 큰 증권일수록 투자비중이 낮게 구성되는 특징이 있다.\n\n  亜 해당 산식에 의하면, 초과수익이 클수록, 비체계적 위험이 적을수록 투자비중이 높게 결정된다.\n\n                       （1） 적극적 투자전략으로서. ’포트폴리오의 초과수익을 높이면서도 분산가능위험（비체계적 위험）을 줄이고자\n          하는 전략주이다.\n\n                           * 주1   ： 이 전략은 곧 평가비율정보비율）이 높은 특정종목의 비중을 높여 전체 포트폴리오의 수익을 높이고\n\n           자 하는 전략이라 할 수 있다.\n\n                A 평가비율 : 由체蓊ぶ험초과수익    = /분자의%     초과수익은 젠선의 알파를 사용\n\n\n\n                                         개별증권의 평가비율\n                 ■ 트레이너 블랙모형에서의 개별증권의 최적투자비율 =\n                                       개별증권들의 평가비율합계\n\n                     (2) 예 시\n\n                                                     A, B, C 증권으로 구성된 포트폴리오\n\n               A증권의 평가비율         B증권의 평가비율        C증권의 평가비율\n\n                                  0.8                           -0.5                             0.3\n\n         一 이 경우 '개별증권의 평가비율의 합계（분모）'는 Q8-0.5+ 0.3 = 0.6'이다. 따라서 트레이너 블랙모형\n\n             에 의한 각 증권의 최적투자비율은 다음과 같다.\n\n                                                     A, B, C종목으로 구성된 포트폴리오\n\n               A종목의 투자비중         B종목의 투자비중        C종목의 투자비중\n\n                            0 8                          0 5                          0 3\n                ー」一二 1 33            ーマラ「ニー0.83       一^ =0 5\n                              0.6                  ,                        0.6                              0.6\n\n                              전체의 투자비중 =   1\n\n         一 즉 초과수익이 가장 큰 A의 투자비중이 가장 높게 나타난다（또는 비체계적 위험이 낮을수록 투자비중\n\n                           0| 커진다）.\n\n      @1 비체계적 위험이 낮은 증권일수록 투자비중이 낮게 나타난다. 叵0 - X\n\n                                         国④",
+      "original_explanation": "되는데, 초과수익이 큰 증권일수록 투자비중이 낮게 구성되는 특징이 있다.\n\n  亜 해당 산식에 의하면, 초과수익이 클수록, 비체계적 위험이 적을수록 투자비중이 높게 결정된다.\n\n                       （1） 적극적 투자전략으로서. ’포트폴리오의 초과수익을 높이면서도 분산가능위험（비체계적 위험）을 줄이고자\n          하는 전략주이다.\n\n                           * 주1   ： 이 전략은 곧 평가비율정보비율）이 높은 특정종목의 비중을 높여 전체 포트폴리오의 수익을 높이고\n\n           자 하는 전략이라 할 수 있다.\n\n                A 평가비율 : 由체蓊ぶ험초과수익    = /분자의%     초과수익은 젠선의 알파를 사용\n\n\n\n                                         개별증권의 평가비율\n                 ■ 트레이너 블랙모형에서의 개별증권의 최적투자비율 =\n                                       개별증권들의 평가비율합계\n\n                     (2) 예 시\n\n                                                     A, B, C 증권으로 구성된 포트폴리오\n\n               A증권의 평가비율         B증권의 평가비율        C증권의 평가비율\n\n                                  0.8                           -0.5                             0.3\n\n         一 이 경우 '개별증권의 평가비율의 합계（분모）'는 Q8-0.5+ 0.3 = 0.6'이다. 따라서 트레이너 블랙모형\n\n             에 의한 각 증권의 최적투자비율은 다음과 같다.\n\n                                                     A, B, C종목으로 구성된 포트폴리오\n\n               A종목의 투자비중         B종목의 투자비중        C종목의 투자비중\n\n                            0 8                          0 5                          0 3\n                ー」一二 1 33            ーマラ「ニー0.83       一^ =0 5\n                              0.6                  ,                        0.6                              0.6\n\n                              전체의 투자비중 =   1\n\n         一 즉 초과수익이 가장 큰 A의 투자비중이 가장 높게 나타난다（또는 비체계적 위험이 낮을수록 투자비중\n\n                           0| 커진다）.\n\n      @1 비체계적 위험이 낮은 증권일수록 투자비중이 낮게 나타난다. 叵0 - X",
+      "current_clean_prompt": "잔차 간 무상관인 Treynor-Black 액티브 구성에서 q_i=α_i/v_i, v_i>0는 잔차분산이다. 모든 α_i>0이고 w_i=q_i/Σq_j다. 틀린 것은? ① 예측알파와 잔차위험을 함께 사용한다. ② 알파/잔차분산에 비례한 비중이다. ③ 다른 조건 고정에서 자기 잔차분산이 커지면 자기 비중은 감소한다. ④ 다른 조건 고정에서 자기 알파가 커지면 자기 비중은 감소한다.",
+      "resolution": "원문①적극운용·분산②초과수익과잔차위험균형③SML요구수익대비알파④비중방향의4쟁점복원. 원해설분모는잔차표준편차가아닌분산으로교정.",
+      "reviewed_original_pages": [
+        460
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T09-CORE",
+      "status": "resolved",
+      "original_intent": "TWR·MWR통제권",
+      "changed_scope": "원해설의 '재량권 없음=흐름변동 없음' 오류를 교정했다. 단순 기하평균과 모든 현금흐름조건의 TWR을 무조건 동일시하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 461,
+      "publisher_answer": "③",
+      "original_question": "T。이 C\n\n     포트폴리오 투자성과평가 皿…\n\n\n\n 핵심문제  투자수익률의 측정에 대한 내용이다. 가장 적절하지 않은 것은?         • •O\n\n      ① 투자기간이 상이한 투자안들을 서로 비교하기 위해서는 보유기간 수익률보다는 다기간\n\n        수익률이 적합하다.\n\n      ② 산술평균수익률은 기하평균수익률보다 항상 크거나 같다.\n\n      ③ 자금운용자가 중도 투자금액이나 회수금액에 대해 재량권이 있는 경우다면 기하평균이\n\n          더 적절하다.\n\n      ④ 과거 일정기간의 투자수익률 계산에는 기하평균이 적절하나, 미래 기대수익률의 계산에\n\n        는 산술평균이 적절하다.\n\n       03 '중도 투자금액이나 회수금액에 대해 재량권이 없는'이 옳다. '자금운용자의 재량권이 없다고 함은 '중도\n            투자금액이나 회수금액에 있어서 변동이 없다를 의미하며, 이 경우 기하평균으로 측정하는 것이 적합하다.\n        回 반대로 '재량권이 있는' 경우라면 중도 투자금액이나 회수금액의 변동이 있음을 의미하고, 이 경우는\n\n             모든 현금흐름의 변동을 반영하여 측정하는 내부수익畫법이 적합하다.\n                                        目③",
+      "original_explanation": "는 산술평균이 적절하다.\n\n       03 '중도 투자금액이나 회수금액에 대해 재량권이 없는'이 옳다. '자금운용자의 재량권이 없다고 함은 '중도\n            투자금액이나 회수금액에 있어서 변동이 없다를 의미하며, 이 경우 기하평균으로 측정하는 것이 적합하다.\n        回 반대로 '재량권이 있는' 경우라면 중도 투자금액이나 회수금액의 변동이 있음을 의미하고, 이 경우는\n\n             모든 현금흐름의 변동을 반영하여 측정하는 내부수익畫법이 적합하다.",
+      "current_clean_prompt": "수익률 측정 설명 중 틀린 것은? ① 외부흐름 없는 여러 해의 투자안을 비교할 때 기간 차이를 반영한 연복리 수익률을 사용할 수 있다. ② 같은 기간간격의 각 수익률이-100%보다 크면 산술평균≥기하평균이다. ③ 운용자가 외부 입출금을 통제하지 못한다는 것은 입출금이 전혀 없다는 뜻이다. ④ 동일분포에서 얻은 단일기간 수익률의 산술평균은 그 단일기간 기대수익률의 불편추정량이다.",
+      "resolution": "원문③운용자의입출금재량과측정지표선택 및④과거기하·미래산술 비교를복원. 단순무입출금여부문제로대체하지않음.",
+      "reviewed_original_pages": [
+        461
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9-ADD-11",
+      "status": "resolved",
+      "original_intent": "포뮬러플랜",
+      "changed_scope": "포뮬러 플랜을 반드시 예측에 의한 초과수익 보장 전략으로 설명하지 않는다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 468,
+      "publisher_answer": "①",
+      "original_question": "11  다음의 투자전략 중 개별종목을 선정하는 것과 거리가 먼 전략은?\n\n••0 ① 포율러 플랜\n\n   ② 내재가치 추정방법\n   ③ 3계수 이용법\n   ④ 기업규모효과를 이용한 방법\n\n\n\n\n\n 정답 및 해설\n\n",
+      "original_explanation": "11 ① 포율러 플랜은 시장상황에 따라 채권비중과 주식비중의 조절을 통해 초과수익을 올리고자 하는 액티브전략이다,\n\n\n\n468 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등",
+      "current_clean_prompt": "개별종목을 고르는 작업이 아닌 것은? ① 사전에 정한 포뮬러 규칙에 따라 주식지수묶음과 채권묶음의 비중 조정 ② 개별주식 내재가치 추정 ③ 목표베타에 맞는 개별주식 선별 ④ 기업규모 기준으로 개별주식 선별",
+      "resolution": "원문4전략(포뮬러·내재가치·베타·규모)와①정답을전체대조. 자산군비중과개별종목선별의구별만조건으로명시하여현교정유지.",
+      "reviewed_original_pages": [
+        468
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q029",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "포괄적인 전략명을 실행내용으로 구체화하고 초과수익 보장으로 해석하지 않도록 했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "29 포율러 플랜",
+      "original_question": "29 액티브 전략 •내재가치추정, RVAR,。계수, 트레이너-블랙 모형, 포율러 플랜 중에서 개별종목을\n  선택하는 방법이 아닌 것은  (      )이다.",
+      "original_explanation": "29 포율러 플랜",
+      "current_clean_prompt": "개별종목의 내재가치·베타·예상알파로 종목을 선별하는 것과 달리, 사전에 정한 규칙으로 주식묶음·채권묶음 사이 비중을 조절하는 접근의 이름은?",
+      "resolution": "원문후보5개중RVAR등삭제되어있던후보목록을전부복원하고포뮬러정답유지.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q030",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "서로 다른 잔차위험을 무시한 알파만의 순위나 음의 정규화분모에서의 일반화를 피하고 분모를 잔차분산으로 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "30 높게",
+      "original_question": "30 트레이너 블랙모형에서, 각 증권의 최적투자비율은 포트폴리오의 비체계적 위험에 대한 그 증권의 초과\n\n   수익의 비율로 결정되는데, 초과수익이 큰 증권일수록 투자비중이 (높게 / 낮게) 구성되는 특징이 있다.",
+      "original_explanation": "30 높게",
+      "current_clean_prompt": "Treynor-Black 기본모형에서 잔차분산 v_i>0, q_i=α_i/v_i, w_i=q_i/Σq_j다. 2개 이상 모든 알파가 양수이며 다른 값은 고정한다. 종목 i의 알파가 커지면 w_i는 (높게/낮게) 되는가?",
+      "resolution": "NOTE87쪽 원문 종목간 알파순위와 비중순위의 대응을 복원. 잔차분산이 동일하고 알파가 모두 양수라는 누락조건을 최소보완.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-1-Q097",
+      "status": "resolved",
+      "original_intent": "위험4%",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 26,
+      "publisher_answer": "②",
+      "original_question": "",
+      "original_explanation": "무위험자산 표준편차0. 위험자산 비중0.4×표준편차0.10=0.04, 즉4%.",
+      "current_clean_prompt": "위험자산 표준편차10%, 그 투자비중40%, 무위험자산 비중60%다. 동일기간 포트폴리오 표준편차는? ①0% ②4% ③6% ④7%",
+      "resolution": "MOCK26쪽 실제 이미지 전체 수치·4보기 대조. 기대수익률7%를 복원하고 표준편차 계산 .4×.10=.04 검증.",
+      "reviewed_original_pages": [
+        26
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-1-Q098",
+      "status": "resolved",
+      "original_intent": "CAPM20%·D1가격10000",
+      "changed_scope": "원문 예상배당금의 시점을 D1로 명확히 했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 27,
+      "publisher_answer": "①",
+      "original_question": "",
+      "original_explanation": "98   （1）항상성장모형에서, p ニ エ丄, p 二 [쯔\n                       k-9     k-g\n           （2）  CAPM이론을 통해 k를 구한다. k = Ri +讥& 一 R], k = 0.1 + 一〇.15 - 0.10]\n          （3）  B를 구한다. CAPM이론에서 用 = ザ 이다. 따라서 3 = 쁘 = 2\n\n\n           （4）  따라서, k = 0.10 + 2（0.05） = 0.20, P = -（ギョう = 10,000원",
+      "current_clean_prompt": "rf=10%, E[Rm]=15%, Var(Rm)=.4, Cov(RA,Rm)=.8이다. CAPM 요구수익률을 할인율로 쓰고, 1년 뒤 배당 D1=1000원 이후 연10% 영구성장하는 고든모형 가격은? ①10000원 ②11000원 ③15000원 ④15500원",
+      "resolution": "MOCK27쪽 실제 이미지 전체 수치·4보기 보존. β=.8/.4=2, k=.1+2(.15-.1)=.2, D1/(k-g)=10000 재계산. 배당시점만 D1으로 명시.",
+      "reviewed_original_pages": [
+        27
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-1-Q099",
+      "status": "resolved",
+      "original_intent": "차입/대출금리동일",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 27,
+      "publisher_answer": "③",
+      "original_question": "",
+      "original_explanation": "99  동일한 무위험이자율 수준으로 얼마든지 차입이나 대출을 할 수 있으므로 차입이자율과 대출이자율은 동일하다.",
+      "current_clean_prompt": "동일 무위험자산을 포함하는 표준 CAPM의 가정을 잘못 설명한 것은? ① 평균·분산에 의한 선택 ② 공통 단일 투자기간 ③ 차입금리가 대출금리보다 반드시 높다 ④ 동질적 기대",
+      "resolution": "MOCK27쪽 실제 이미지 전체 4보기 대조. ①동일평균에서낮은분산/동일분산에서높은평균 선호 ②단일기간이후 무시 ③무제한차입대출 ④동질기대 모두 복원.",
+      "reviewed_original_pages": [
+        27
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-1-Q100",
+      "status": "resolved",
+      "original_intent": "BC상관−.3",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 27,
+      "publisher_answer": "③",
+      "original_question": "",
+      "original_explanation": "100  기대수익률과 위험이 동일한 상태에서 포트폴리오의 위험을 가장 낮게 하는 방법은 상관계수가 가장 낮은 조합으로\n\n    포트폴리오를 구성하는 것이다（즉, B와 C의 조합）.\n\n\n\n\n\n66 부록 최종모의고사",
+      "current_clean_prompt": "A,B,C의 기대수익률과 양의 표준편차σ가 같다. 상관 AB=.8, AC=.1, BC=-.3이다. 분산이 가장 작은 선택은? ① A100% ② A50%·B50% ③ B50%·C50% ④ A50%·C50%",
+      "resolution": "MOCK27쪽 실제 이미지 상관행렬/4비중 모두 대조. 분산은 각각1,.9,.35,.55배σ²이므로③. 공통위험이0일때동률을 배제하는양의σ조건만추가.",
+      "reviewed_original_pages": [
+        27
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-2-Q096",
+      "status": "resolved",
+      "original_intent": "최적비중.4375",
+      "changed_scope": "위험회피계수의 효용식과 반올림 기준을 추가했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 53,
+      "publisher_answer": "②",
+      "original_question": "",
+      "original_explanation": "96  투자자의 효용을 극대화시키는 최적포트폴리오는 '위험자산 A - 44%, 무위험자산 - 56%’로 구성된다(아래 풀이).\n\n      X 투자자의 효용을 극대화시키는 위험자산에 대한 적정투자비중 구하기\n\n                 (1) 투자자의 효용을 반영한 위험자산에 대한 적정투자비중(3*) = :ーで上\n                                     Cx媚\n               (2)  따라서,(3*) = 쁴ユ=必 = 쓰的書= 『訛 1 = 0.44 (즉, 위험자산 A를 44%를 편입하고 무위험\n\n                     Cx aA    8x 0.2    0X 0.04\n\n        자산을 56% 편입할 경우 투자자의 효용을 극대화시키는 최적포트폴리오가 달성된다).",
+      "current_clean_prompt": "효용 U=E[R]-C Var(R)/2, C=8, rf=4%, 위험자산 A의 평균18%·표준편차20%다. A비중y와 무위험비중1-y에서 최적y를 정수%로 반올림하면? ①9% ②44% ③56% ④91%",
+      "resolution": "MOCK53쪽 실제 이미지 C8/rf4/평균18/표준편차20와4보기 대조. y=.14/(8×.04)=.4375, 반올림44%, 2차미분-8×.04<0 검증. 효용계수정의만명시.",
+      "reviewed_original_pages": [
+        53
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-2-Q097",
+      "status": "resolved",
+      "original_intent": "CML도CAL인포함관계",
+      "changed_scope": "원문③ '자본배분선이라 한다'는 CML도 CAL이므로 틀렸다고 할 수 없다. 포함관계를 부정하는 진술로 교정하고 오류를 기록했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 53,
+      "publisher_answer": "③",
+      "original_question": "",
+      "original_explanation": "97  ③은 자본시장선(CML)이다. ④는 토빈의 분리정리(Two Fund Theorem)를 말하는데 시장포트폴리오(M)의 위험보상비\n\n    율이 가장 높。.므루 일단 M을 선택하고 이후에 자신의 위험선호도를 반영하여 무위험자산과 M의 비중을 조절한다.",
+      "current_clean_prompt": "표준 CAPM 균형에서 시장포트폴리오 M의 설명 중 틀린 것은? ① 모든 위험자산을 시장가치 비중으로 보유한다. ② 위험자산 효율곡선과 최대샤프비율 선의 접점이다. ③ Rf와 M을 잇는 CML은 자본배분선 CAL에 속하지 않는다. ④ 공통기대를 가진 투자자들은 M과 무위험자산의 비중을 조절한다.",
+      "resolution": "MOCK53쪽 실제 이미지 ①시가가중·전위험자산 ②토빈분리 ③CAL/CML ④위험선호무관 동일위험자산묶음 모두 보존. 기존②접점설명을원문의분리정리로복원. ③원문의포함관계오류는최소교정.",
+      "reviewed_original_pages": [
+        53
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-2-Q098",
+      "status": "resolved",
+      "original_intent": "β2.15·14.6%",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 53,
+      "publisher_answer": "②",
+      "original_question": "",
+      "original_explanation": "98   SML식을 이용해 균형기대수익률(요구수익률)을 구한다.\n             1)  E(R) = R + 仇旧Rm) - R] = 0.06 + 然0.10 - 0.06)\n\n\n\n         3)    .-. E(R) = 0.06 + 2.15(0.10 - 0,06) = 0.146 — 14.6%",
+      "current_clean_prompt": "CAPM에서 rf=6%, E[Rm]=10%, Cov(RJ,Rm)=.0215, Var(Rm)=.01이다. J 요구수익률은? ①6% ②14.6% ③16% ④21.5%",
+      "resolution": "MOCK53쪽 실제 이미지 입력4개/4보기보존. β=.0215/.01=2.15, 요구수익=.06+2.15(.1-.06)=.146 검증.",
+      "reviewed_original_pages": [
+        53
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-2-Q099",
+      "status": "resolved",
+      "original_intent": "β.2·βp1",
+      "changed_scope": "원문 해설의 모든 포트폴리오 샤프비율 동일 주장은 사용하지 않고 CAPM의 베타당 초과수익률을 사용했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 54,
+      "publisher_answer": "①",
+      "original_question": "",
+      "original_explanation": "99  차례대로 ,0.2, io이다.\n\n      - 자본시장의 균형상태에서는 모든 포트폴리오의 위험보상비율(RVAR)은 동일해야 한다. 즉, 포트폴리오 A와 포트폴리오\n\n       B의 위험보상비율이 동일해야 한다. 따라서 으スザ = -~- - z = 0.2, 즉 포트폴리오 B의 베타는 0.2이다.\n\n\n      A 동일가중 포트폴리오이므로 'X주식     : 丫주식 = 5   ： 5'로 편입한다. 따라서 포트폴리오베타는 '(1.5 X 50%) + (0.5\n\n        X 50%) = 0.75 + 0.25 = 1.0'이다.\n\n      X '포트폴리오베타' 계산의 이론적 근거\n\n                (1) 샤프의 단일지표모형에서의 포트폴리오 베타    : 3p = エ3#)\n\n               (2) 포트폴리오의 가법성(加法性)     ： 가법성에 따라 개별자산의 베타를 가중평균하여 계산한다.",
+      "current_clean_prompt": "가. CAPM에서 rf=5%, A평균8%·베타.3, B평균7%일 때 B베타. 나. X베타1.5, Y베타.5를 동일금액 보유한 포트폴리오 베타. 두 답은? ① .2,1.0 ② .26,1.0 ③ .2,2.0 ④ .26,2.0",
+      "resolution": "MOCK54쪽 실제 이미지 두문제/4조합 확인. 나의 생략되었던rf3%,시장6%,단일지표모형조건 복원. 답 .2와1.0 재계산. 원해설 RVAR오명칭은 베타당초과수익으로교정.",
+      "reviewed_original_pages": [
+        54
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "MOCK-2-Q100",
+      "status": "resolved",
+      "original_intent": "β중립차익600만원",
+      "changed_scope": "기대수익과 베타만 같다고 위험이 모두 상쇄되지는 않으므로 실제 요인식·잔차0·비용제외를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 54,
+      "publisher_answer": "①",
+      "original_question": "",
+      "original_explanation": "100  단일요인모형의 차익거래 중 베타가 다른 형태이다.\n    ⑴ RVAR로 매수와 공매도 대상을 구분한다.\n                            0.24 - 0.06                      0.12-0.06\n     一 A의 RVAR      ：         = 0.15 > B의 RVAR     ：           =0.10\n                                     1.2                                     0.6\n\n     一 즉 A 매수 & B 공매도\n\n          (2) 두 포트폴리오의 베타를 일치시키기 위해 새로운 포트폴리오를 만든다.\n\n     一 포트폴리오 C = [■ (포트폴리오 A) + 片 (무위험자산)\n\n                     =ょ(0.24 + 1.2?)+』(0.06)\n\n                       =0.15 + 0.6F\n   ⑶ 차익거래를 실행한다(C매수 & B매도 - 금액 2억 원).\n     一 [+(0.15 + 0.6F) - (0.12 + 0,6F)] 义 2억 원 = +0.03 x 2억 원 = 600만 원\n\n        차익 = +600만 원\n\n                 • C를 2억 원 매수하는 것은 'A를 1억 원 매수 + 무위험자산 1억 원 매입을 말한다.\n\n\n\n\n\n76 부록 최종모의고사",
+      "current_clean_prompt": "한 기간 실제 수익률이 RA=.24+1.2F, RB=.12+.6F이고 잔차위험이0이며 rf=.06이다. 공매도·차입이 자유롭고 비용이 없다. 초기순투자0, 요인노출0, 양의 확정이익인 조합은? ① A1억 매수+무위험1억 매수-B2억 공매도 ② A2억 매수-B2억 공매도 ③ A1억 공매도+무위험1억 차입+B2억 매수 ④ A2억 공매도+B2억 매수",
+      "resolution": "MOCK54쪽 실제 이미지 A24/β1.2,B12/β.6,rf6,금액2억 및4매매조합 보존. 노출1억×1.2-2억×.6=0,초기1+1-2=0,이익.24억+.06억-.24억=.06억=600만원. 잔차0실제요인식조건만보완.",
+      "reviewed_original_pages": [
+        54
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T04-CORE",
+      "status": "resolved",
+      "original_intent": "CML효율적투자",
+      "changed_scope": "OCR에서 빠진 도표 조건을 텍스트로 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 444,
+      "publisher_answer": "①",
+      "original_question": "T 이\" C\n\n     자본자산가격 결정모형(CAPM)・(1)\n     자본시장선 (CML)\n\n 핵심문제       I 아래 그림에 대한 설명이다. 틀린 것은?(2023 기본서 5권, p.127 그림 인용)  •••\n\n\n\n\n\n      ① 최종적인 효율적 투자는 효율적 투자기회선인 호AMX를 따르는 투자이다.\n\n      ② 자본배분선 중에서 위험보상비율이 가장 높은 선을 자본시장선이라 한다.\n\n      ③ 가장 높은 위험보상비율은 0.7143이다.\n\n      ④ 자본시장선에서 M의 왼쪽을 대출포트폴리오, 오른쪽을 차입포트폴리오라 한다.\n\n       EO 무위험자산을 편입하면 효율적 투자기회선이 개선된다. 따라서 최종적인 효율적 투자는 자본시장선\n\n                 (RfMN선)을 따르는 투자이다. ③에서 위험보상비율(RVAR)이 가장 높은 점 M은 시장포트폴리오이며\n\n            무위 험수익률과 시장포트폴리오를 연결한 선이 자본시장선이다.\n\n             참고  M점에서의 위험보상비율 = (18% - 8%)/14% = 71.43%\n                                        国①",
+      "original_explanation": "EO 무위험자산을 편입하면 효율적 투자기회선이 개선된다. 따라서 최종적인 효율적 투자는 자본시장선\n\n                 (RfMN선)을 따르는 투자이다. ③에서 위험보상비율(RVAR)이 가장 높은 점 M은 시장포트폴리오이며\n\n            무위 험수익률과 시장포트폴리오를 연결한 선이 자본시장선이다.\n\n             참고  M점에서의 위험보상비율 = (18% - 8%)/14% = 71.43%",
+      "current_clean_prompt": "표준 CAPM에서 위험자산만의 효율곡선 AMX에 Rf=8%에서 그은 접선이 M(평균18%, 표준편차14%)을 지난다. 틀린 것은? ① 무위험자산 편입 후에도 최종 효율적 투자집합은 위험자산 곡선 AMX 전체 그대로다. ② 최대 샤프비율의 CAL이 CML이다. ③ 그 기울기는 약.7143이다. ④ M비중0~1은 대출, 1초과는 차입조합이다.",
+      "resolution": "P3 444쪽 실제 도표의 AMX/RfMN,rf8,M18/14 및4보기 확인. .10/.14=.7142857, 무위험편입후 CML효율집합,대출차입구분 모두대응. 교정유지.",
+      "reviewed_original_pages": [
+        444
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T04-SUP-02",
+      "status": "resolved",
+      "original_intent": "Q2 CAL/CML",
+      "changed_scope": "누락 도표의 축과 두 직선을 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 447,
+      "publisher_answer": "②",
+      "original_question": "02 아래 그림에 대한 설명으로 가장 거리가 먼 것은?\n\n\n\n\n\n   ① 'Rf, M, 나'점을 지나는 선을 자본시장선이라 한다.\n\n   ② R와 A를 연결한 선을 증권시장선이라 한다.\n\n   ③ M점은 시장포트폴리오이다.\n\n   ④ 최적의 투자는 먼저 M점을 선택한 다음, 투자자의 위험성향게 따라 차입 또는 대출포트폴리오를\n\n     선택하는 것이다.\n\n    ET1 ②는 자본배분선이다.\n\n          참고  ④는 토빈의 'Two-Fund Separation/을 말한다,\n\n                                       目②",
+      "original_explanation": "선택하는 것이다.\n\n    ET1 ②는 자본배분선이다.\n\n          참고  ④는 토빈의 'Two-Fund Separation/을 말한다,",
+      "current_clean_prompt": "평균-표준편차 도표에서 Rf와 접점 시장포트폴리오 M을 잇는 직선, 그 아래 위험자산 A와 Rf를 잇는 직선이 있다. 표준 CAPM 전제에서 틀린 설명은? ① Rf-M선은 CML이다. ② Rf-A선은 SML이다. ③ M은 시장포트폴리오다. ④ 공통 접점 선택과 그에 대한 투자비중 선택은 분리된다.",
+      "resolution": "P3 447쪽 실제도표 확인. 원문①나표식,④차입/대출과위험선호 표현까지복원.",
+      "reviewed_original_pages": [
+        447
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T05-SUP-03",
+      "status": "resolved",
+      "original_intent": "Q3 SML위가",
+      "changed_scope": "가장 저평가를 금액가치의 절대비교로 오해하지 않도록 SML 대비 알파를 기준으로 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 451,
+      "publisher_answer": "①",
+      "original_question": "03 아래 그림에서 가장 저평가되어 있는 자산은?\n\n\n\n\n\n  ①가\n\n   ③ 다               ④라\n\n    E^l  증권시장선（SML） 위에 위치하면 SML에서의 요구수익률보다 높은 수익暑의 실현이 가능하므로 저평가된 것이다.\n                                        国①",
+      "original_explanation": "E^l  증권시장선（SML） 위에 위치하면 SML에서의 요구수익률보다 높은 수익暑의 실현이 가능하므로 저평가된 것이다.",
+      "current_clean_prompt": "같은 CAPM SML 도표에서 가와 나는 선 위, 다와 라는 선 아래에 있다. 가의 기대수익은 나보다 높고 베타는 나보다 낮으며 SML 기울기는 양수다. SML 대비 양의 알파가 가장 큰 자산은? ① 가 ② 나 ③ 다 ④ 라",
+      "resolution": "P3 451쪽 실제 도표의 가/나 위치와다/라위치 및4선택지 확인. α가-α나=(μ가-μ나)+양의기울기(β나-β가)>0. 원문가장저평가를SML알파기준으로명시한최소교정유지.",
+      "reviewed_original_pages": [
+        451
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9-ADD-06",
+      "status": "resolved",
+      "original_intent": "차입 e",
+      "changed_scope": "'보수적'이라는 상대적 표현을 실제 차입 여부·비중으로 구체화했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 466,
+      "publisher_answer": "③",
+      "original_question": "06  아래 그림에 대한 설명으로 틀린 것은?\n• •O\n\n\n\n\n\n    ① 무위험자산을 포함한 경우의 최적포트폴리오 선택을 보여주고 있다.\n\n   ② T점은 시장포트폴리오를 말한다.\n\n   ③  e는 보수적인 투자자가 선택할 수 있는 최적포트폴리오이다.\n\n    ④ 효율적투자기회선이 아닌 자본시장선상에 투자하는 것이 가장 효율적인 투자이다.\n\n\n\n",
+      "original_explanation": "06 ③ 丁의 왼쪽은 대출포트폴리오, 丁의 오른쪽은 차입포트폴리오이다. e는 차입포트폴리오이므로 공격적인 투자자에\n\n      해당된다.",
+      "current_clean_prompt": "표준 CAPM 평균-표준편차 도표에서 CML은 시장포트폴리오 T에 접한다. 투자자 d의 최적점은 Rf와 T 사이, e의 최적점은 T 오른쪽이다. 틀린 것은? ① 무위험자산을 포함한 선택이다. ② T는 시장포트폴리오다. ③ e의 T비중은1보다 작으므로 대출조합이다. ④ 최적 효율적 조합은 CML 위에서 선택된다.",
+      "resolution": "P3 466쪽 실제 도표 d/e 최적점과4보기 대조. 삭제됐던 보수성대조를 d와e 상대비교로복원하고비중조건을명시.",
+      "reviewed_original_pages": [
+        466
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T07-SUP-02",
+      "status": "resolved",
+      "original_intent": "Q2 요인모형식",
+      "changed_scope": "원문의 생성식만을 APT 전체와 같게 취급한 표현과 요인충격/위험프리미엄 혼용을 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 457,
+      "publisher_answer": "④",
+      "original_question": "02 다음 중 차익거래 가격결정모형을 뜻하는 것은?\n**°           ㈤（H\"）ー同\n            = %+ 丄エ実ーー!-oP   ①  E（Rp）                                         a.\\f\n      尸 R广 河㈤（△”） 一 ，히   ② E出、\n   ③此=“レ+% +e,\n     （4）RP = E（Rj + 0pF+ eP\n\n     E四! ① 자본시장선, ② 증권시장선, ③ 증권특성선（샤프의 단일지표모형）, ④ 단일요인모형（차익거래모형）\n                                        闾④",
+      "original_explanation": "①CML,②SML,③SCL,④단일요인 차익거래모형. 요인 충격과 위험프리미엄의 기호를 혼용하지 않는다.",
+      "current_clean_prompt": "평균0 요인충격 F와 분산가능 잔차ε를 사용하는 단일요인 APT의 생성식 및 가격제약을 함께 올바르게 쓴 것은? ① E[R]=rf+Sharpe(M)σ만 쓴다. ② E[R]=rf+β시장프리미엄만 쓰고 F는 실현수익률이다. ③ R=α+βRm+ε 하나만 있으면 모든 가격제약이 자동 성립한다. ④ R=E[R]+bF+ε, 무차익 전제의 기대수익 가격식은 E[R]=rf+bλ다.",
+      "resolution": "P3 457쪽 실제4수식 CML/SML/SCL/단일요인생성식을복원. 네보기에추가했던상이한오류문구를제거하고질문의범위를APT기초생성식으로최소교정.",
+      "reviewed_original_pages": [
+        457
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "S3C9T09-SUP-02",
+      "status": "resolved",
+      "original_intent": "Q2 TWR/IRR",
+      "changed_scope": "교재 IRR 약26.8%를26.73%로, 기하평균27.47%를 보통 반올림27.48%로 교정했다. 투입금액이 같으면 기간구분이 없어지는 것은 아니다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 463,
+      "publisher_answer": "④",
+      "original_question": "02 보기에 대한 설명으로 가장 적절하지 않은 것은?（이하 시간가중수익률은 연환산기준으로 한다）\n\n\n               • 갑주식을 1기 초에 10,000원에 매입하고 1기 말에 1,000원의 배당을 받았다.\n\n                • 27| 초에 동일주식을 12,000원에 추가매입하고, 2기 말에 배당금 2,000원을 수령하고 28,000원\n\n       （주당 14,000원）에 매도하였다.\n\n\n\n   ① 단일기간수익률로는 1기간이 +30%, 2기간이 +25%이다.\n\n   ② 산술평균수익률은 +27.5%이다.\n\n        （3） 기하평균수익률（시간가중수익률）은 +27.47%이다.\n\n   ④ 금액가중수익률은 시간가중수익률보다 높게 나타난다.\n\n   E3 ’산술평균 27.5%, 기하평균（시간가중수익률） 27.47%, 내부수익률（금액가중수익률） 26.8%'이다. 즉, 금액가중\n        수익률이 시간가중수익률보다 낮다.\n\n           派 약식이해\n\n         시간가중수익률은 투입금액의 변화를 반영하지 않고, 금액가중수익률은 투입 금액의 변화를 반영한다 . 따라\n          서 '누적적으로 더 많은 금액이 투입된 기간쥐 즉 2기의 수익률이 1기보다 높으면 '금액가중 > 시간가중이\n\n                며, 2기의 수익률이 1기보다 낮으면 금액가중 < 시간가중이다. 동 문항에서는 ’2기의 수익률 < 1기의\n          수익률'이므로 '금액가중수익률 < 시간가중수익률이다.\n\n                       * 주1     : 1기에서는 1만 원 투입, 2기에서는 신규로 12,000원이 투입되었으므로 2기의 누적투입금액은\n\n                 22,000원（1기 10,000원 + 2기 12,000원）이다,\n\n           X 참고로 동 문제에서 단일기간이 1기와 2기로 구분되는 이유는, 1기와 2기의 투입금액이 다르기 때문이다（주\n\n         당 투입금액    ： 1기는 10,000원, 2기는 12,000원）. 만일 투입금액이 동일하다면 운용기간과 관계없이 하나의\n\n         단일기간이 된다.\n\n        계산예시 산술평균/ 기하평균시 간가중수익률）/내부수익 K 금액가중수익昌）\n\n                         1기간 수익률                  2기간 수익률\n\n                                 +30%                             +25%\n                                (_(12,(X)0-10.000+1,000)]                                    f (14,(XX)-12.(XX)) +1.000 1\n                                                                                                  t          12,000                        J                                                                      [          10.000                     J\n\n                        -10,000                                +1,000                             +2,000\n\n                                                               -12,000                            +28,000\n\n            一 ⑴ 산술평균수익률   :      25的 = 27.5%\n\n                                     （2）  기하평균수익률（시간가중수익률）    :  イ1+0.3）（1 + 025）-  1 = 27.47%\n                                     （3）  내부수익률（금액가중수익률）    : 시행착오법으로 계산하면  r = 약 26.8%\n\n\n                                        12.000     1,000     2,000 + 28,000\n                            10,000 +                                    l+r  +    (1+r)2                                                           1 + r\n\n\n                  보충  표에서 '2기간 수익률（25%）'은 1주당 수익률로 계산된 것인데 2주당 수익률로\n                                                               {(28,000 - 24,000)+ 2,000}     6,000\n                     계산해도 동일하다. ~                           =25%\n                                                                        24,000                24,000\n\n\n                                        理④",
+      "original_explanation": "E3 ’산술평균 27.5%, 기하평균（시간가중수익률） 27.47%, 내부수익률（금액가중수익률） 26.8%'이다. 즉, 금액가중\n        수익률이 시간가중수익률보다 낮다.\n\n           派 약식이해\n\n         시간가중수익률은 투입금액의 변화를 반영하지 않고, 금액가중수익률은 투입 금액의 변화를 반영한다 . 따라\n          서 '누적적으로 더 많은 금액이 투입된 기간쥐 즉 2기의 수익률이 1기보다 높으면 '금액가중 > 시간가중이\n\n                며, 2기의 수익률이 1기보다 낮으면 금액가중 < 시간가중이다. 동 문항에서는 ’2기의 수익률 < 1기의\n          수익률'이므로 '금액가중수익률 < 시간가중수익률이다.\n\n                       * 주1     : 1기에서는 1만 원 투입, 2기에서는 신규로 12,000원이 투입되었으므로 2기의 누적투입금액은\n\n                 22,000원（1기 10,000원 + 2기 12,000원）이다,\n\n           X 참고로 동 문제에서 단일기간이 1기와 2기로 구분되는 이유는, 1기와 2기의 투입금액이 다르기 때문이다（주\n\n         당 투입금액    ： 1기는 10,000원, 2기는 12,000원）. 만일 투입금액이 동일하다면 운용기간과 관계없이 하나의\n\n         단일기간이 된다.\n\n        계산예시 산술평균/ 기하평균시 간가중수익률）/내부수익 K 금액가중수익昌）\n\n                         1기간 수익률                  2기간 수익률\n\n                                 +30%                             +25%\n                                (_(12,(X)0-10.000+1,000)]                                    f (14,(XX)-12.(XX)) +1.000 1\n                                                                                                  t          12,000                        J                                                                      [          10.000                     J\n\n                        -10,000                                +1,000                             +2,000\n\n                                                               -12,000                            +28,000\n\n            一 ⑴ 산술평균수익률   :      25的 = 27.5%\n\n                                     （2）  기하평균수익률（시간가중수익률）    :  イ1+0.3）（1 + 025）-  1 = 27.47%\n                                     （3）  내부수익률（금액가중수익률）    : 시행착오법으로 계산하면  r = 약 26.8%\n\n\n                                        12.000     1,000     2,000 + 28,000\n                            10,000 +                                    l+r  +    (1+r)2                                                           1 + r\n\n\n                  보충  표에서 '2기간 수익률（25%）'은 1주당 수익률로 계산된 것인데 2주당 수익률로\n                                                               {(28,000 - 24,000)+ 2,000}     6,000\n                     계산해도 동일하다. ~                           =25%\n                                                                        24,000                24,000",
+      "current_clean_prompt": "각 기간이1년이다. t0에 주식1주를10000원 매수하고 t1에 배당1000원을 인출한 직후 같은 주식1주를12000원에 추가매수한다. t2에 2주 합계 배당2000원과 매각대금28000원을 인출한다. 비용은 없다. 틀린 것은? ① 기간수익률은30%,25%다. ② 산술평균27.5%다. ③ 연환산 시간가중수익률 약27.48%다. ④ 연간 금액가중수익률은 시간가중수익률보다 높다.",
+      "resolution": "P3 463쪽 전체 거래일정/4보기/해설 대조. 기간수익률.3,.25;AM.275;GM=sqrt1.625-1=.274754878;IRR은10000x²+11000x-30000=0의양근x-1=.267278184. 반올림만교정하고④보존.",
+      "reviewed_original_pages": [
+        463
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q001",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "EP1   01  5%  » 국면별 기대수익률과 확률을 가중평균하여 계산한다,",
+      "original_question": "이 주식 X는 호황일 경우 기대수익률은 +20%(확률 30%), 불황일 경우 기대수익률은 -30%(확률 20%),\n\n   정상일 경우 기대수익률은 +10%(확률 50%)이다. 이 경우 주식 X의 기대수익률은  (   )이다.",
+      "original_explanation": "EP1   01  5%  » 국면별 기대수익률과 확률을 가중평균하여 계산한다,\n       一 ー.V) = (20%，0.3)+ (WZ    ・ 0.5) + ( - 30%    - 0.2);  G'Z + f",
+      "current_clean_prompt": "X의 수익률은 호황20%(확률30%), 불황-30%(확률20%), 정상10%(확률50%)다. 기대수익률은?",
+      "resolution": "NOTE84쪽 세국면확률과수익률 전부대조. .2×.3-.3×.2+.1×.5=.05 직접검산;범위변경없음.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q002",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "E(Rp)=wE(RA)+(1-w)E(RB)",
+      "original_question": "02 자산이 2개(A, B)이고 자산 A를 w만큼 편입하였을 때, 포트폴리오의 기대수익률을 구하는 공식은\n\n         (       )이다.",
+      "original_explanation": "기대수익률은 비중 가중평균이다.",
+      "current_clean_prompt": "초기 투자비중이 A에 w, B에 1-w이고 동일 기간 단순수익률이 RA,RB다. 비용이 없을 때 기대수익률은?",
+      "resolution": "NOTE84쪽 A/B비중과기대수익률 공식질문대조. E[wRA+(1-w)RB]=wE[RA]+(1-w)E[RB];동일기간/비용없음가정만명시.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q003",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "분산과 표준편차를 구분하고 깨진 수식을 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "σp²=wX²σX²+wY²σY²+2wXwYσXσYρXY",
+      "original_question": "03 포트폴리오 XY의 분산(위험)을 구하는 공식은  (      )이다.",
+      "original_explanation": "위험의 분산식에는 공분산항이 필요하다. 표준편차를 요구하면 전체의 제곱근을 취한다.",
+      "current_clean_prompt": "고정비중 wX,wY, 수익률 표준편차 σX,σY와 상관ρXY인 두 자산 포트폴리오의 분산을 쓰시오.",
+      "resolution": "NOTE84쪽 XY분산 질문대조. Var(wX RX+wY RY)=wX²σX²+wY²σY²+2wXwYρσXσY;분산/표준편차구분과수식복원확인.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q004",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "숏 비중이면 방향이 달라질 수 있어 양의 비중 조건을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "04 낮을수록",
+      "original_question": "04 개별자산 간의 상관계수가 (높을수록 / 낮을수록) 분산투자효과는 커진다.",
+      "original_explanation": "04 낮을수록",
+      "current_clean_prompt": "두 자산의 양의 투자비중과 양의 표준편차를 고정하면, 상관계수가 (높을수록 / 낮을수록) 합산분산이 작아지는가?",
+      "resolution": "NOTE84쪽 상관과분산효과 높을수록/낮을수록2선택지대조. ∂Var/∂ρ=2wXwYσXσY>0 조건에서낮을수록;숏이면반대가능한누락조건만보완.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q005",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "OCR 누락 수식과 상관을 유일하게 추론할 비퇴화 조건을 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "05  0(제로)",
+      "original_question": "05 포트폴리오의 위험(표준편차)이 ‘<\"=，\"マア:+    로 나타난다면, 두 자산의 상관계수가\n\n         (     )이다.",
+      "original_explanation": "05  0(제로)",
+      "current_clean_prompt": "wX,wY,σX,σY가 모두 양수다. 포트폴리오 표준편차가 sqrt(wX²σX²+wY²σY²)이면 상관계수는?",
+      "resolution": "NOTE84실제이미지 sqrt분산식 확인. 2wXwYσXσYρ=0이고앞계수양수이므로ρ0;조건만보완.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q006",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "상관-1일 때 음의 표준편차가 나오지 않도록 원문 차이식에 절댓값을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "06  +1, -1",
+      "original_question": "06 상관계수(P)가  (                  ) 일 경 우는 0P ~ WXerX  W y<T y-t 상관계수가  (                  ) 일 경우는\n\n    びド = “ノバ\" ー     이다.",
+      "original_explanation": "06  +1, -1",
+      "current_clean_prompt": "두 자산을 양의 비중으로 보유한다. 상관이 각각 얼마일 때 σp=wXσX+wYσY, σp=|wXσX-wYσY|가 되는가?",
+      "resolution": "NOTE84실제이미지 원문음의상관식 절댓값누락 확인. ±1 두빈칸보존,ρ-1의표준편차에절댓값복원,표준편차양수도명시.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q007",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 84,
+      "publisher_answer": "07 자산 Y   a y는 X를 지배한다(",
+      "original_question": "07 자산 X는 기대수익률이 10%, 표준편차가 10%이다. 자산 Y는 기대수익률이 10%, 표준편차가 5%이다.\n\n  자산 Z는 기대수익률이  7%, 표준편차가 5%이다. 이 경우 지배원리상 가장 효율적인 증권은\n\n        (   )이다.",
+      "original_explanation": "07 자산 Y   a y는 X를 지배한다(\n\n                       (••• 위험이 동일할 경우 기대수익률이 높은 증권을 선택). 따라서 Y가 가장 효율적인 자산이다.",
+      "current_clean_prompt": "(기대수익률,표준편차)가 X=(10%,10%), Y=(10%,5%), Z=(7%,5%)다. 평균은 높고 위험은 낮은 것을 선호할 때 다른 두 자산을 지배하는 자산은?",
+      "resolution": "NOTE84실제이미지 X10/10,Y10/5,Z7/5 입력전체확인. Y는X와수익동일·위험작고Z와위험동일·수익높음;범위보존.",
+      "reviewed_original_pages": [
+        84
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q008",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "0.6",
+      "original_question": "08 자산X의 표준편차는 0.2, 자산Y의 표준편차는 0.3, 두 자산 간의 상관계수는 -1일 경우, 최소분산포\n\n  트폴리오가 되는 자산X의 비중은  （   ）이다.",
+      "original_explanation": "상관-1, 표준편차0.2와0.3일 때 X비중0.3/(0.2+0.3)=0.6.",
+      "current_clean_prompt": "σX=0.2, σY=0.3, 상관=-1이다. X비중w, Y비중1-w의 분산을 최소화하는 w는?",
+      "resolution": "NOTE85실제이미지 σ.2,.3,ρ-1확인. (.2w-.3(1-w))²=(.5w-.3)²의최솟값0이w.6에서발생;원문동일.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q009",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "일반 효용곡선과 평균-위험 무차별곡선의 축 및 비교위치를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "09 오목 - 가파르다  » 효용함수는 ,효용과 투자수익의 공간이며 무차별효용곡선은 ,평균과 분산의 공간이다.",
+      "original_question": "09 위험회피형의 효용함수는 （오목 / 볼록）하며, 보수적 투자자의 무차별立용곡선의 기울기는 （완만하다\n       / 가파르다）.",
+      "original_explanation": "09 오목 - 가파르다  » 효용함수는 ,효용과 투자수익의 공간이며 무차별효용곡선은 ,평균과 분산의 공간이다.",
+      "current_clean_prompt": "부 W에 대해 증가하는 기대효용 U(W)의 위험회피는 (오목/볼록)으로 표현된다. 평균-표준편차 효용 μ-Cσ²/2에서 같은 σ>0일 때 C가 큰 투자자의 무차별곡선은 더 (완만하다/가파르다).",
+      "resolution": "NOTE85실제이미지 두양자택일모두확인. 증가오목u와평균표준편차등효용곡선의기울기Cσ로둘을구별. 원해설평균분산과평균표준편차구별도보완.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q010",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "10  O",
+      "original_question": "10 叵S 위험회피형의 효용곡선이 체감적으로 증가하는 것은（가로축에 대하여 오목）, 한계효용체감의\n   법칙이 작용하기 때문이다.",
+      "original_explanation": "10  O",
+      "current_clean_prompt": "U'(W)>0이고 U''(W)<0인 두 번 미분 가능한 효용함수는 부가 증가할수록 효용이 증가하되 한계효용은 체감한다. O/X?",
+      "resolution": "NOTE85실제이미지 위험회피/한계효용체감O/X범위복원. 미분가능조건만명시.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q011",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "무위험자산 추가가 모든 점의 위험을 반드시 엄격히 줄인다는 표현을 약한 개선으로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "1I  〇",
+      "original_question": "11 叵区 포트폴리오에 무위험자산을 편입하는 이유는 효율적투자기회 선이 개선되기 때문이다.",
+      "original_explanation": "1I  〇\n                                  /ム-/i,      s'X 一 1%",
+      "current_clean_prompt": "기존 위험자산 포트폴리오를 그대로 선택할 수도 있도록 무위험자산을 추가하면, 기존에 실현 가능했던 목표수익률의 최소분산은 증가하지 않고 더 낮아질 수 있다. O/X?",
+      "resolution": "NOTE85실제이미지 무위험추가효율개선O/X대조. 기존선택가능집합이부분집합이므로최소분산약감소;반드시모든점엄격개선아닌조건교정유지.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q012",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "12   0.8  » 변동성보상비율（RVAR） ニ                                   ー       （）.、（비중관계없이 동일, 본문참조）",
+      "original_question": "12 자산 X의 기대수익률이 8%, 표준편차가 5%, 무위험수익률이 4%일 때, 자산 X와 무위험자산의 비중\n\n   을 6：4로 편입한 포트폴리오의 변동성보상비율은  （ ）이다.",
+      "original_explanation": "12   0.8  » 변동성보상비율（RVAR） ニ                                   ー       （）.、（비중관계없이 동일, 본문참조）",
+      "current_clean_prompt": "E[RX]=8%, σX=5%, rf=4%다. X60%·무위험자산40% 포트폴리오의 샤프비율 (E[Rp]-rf)/σp는?",
+      "resolution": "NOTE85실제이미지8/5/4및6:4전부확인. μp6.4%,σp3%,(.064-.04)/.03=.8. 원해설비중무관은양의위험비중조건에서만성립.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q013",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "CAL과 CML을 서로 배타적인 개념으로 읽지 않도록 특별한 이름을 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "13  자본시장선（CML）  » 자본배분선 중에서 위험보상비율이 가장 높은 선이 자본시장선이다.",
+      "original_question": "13 무위험자산과 시장포트폴리오를 연결한 선을 （자본배분선 / 자본시장선）이라 한다.",
+      "original_explanation": "13  자본시장선（CML）  » 자본배분선 중에서 위험보상비율이 가장 높은 선이 자본시장선이다.",
+      "current_clean_prompt": "표준 CAPM 균형의 평균-표준편차 공간에서 무위험자산과 접점인 시장포트폴리오를 조합한 효율적 자본배분선의 특별한 이름은?",
+      "resolution": "NOTE85실제이미지 CAL/CML 두선택지를복원하면서특수명칭을묻도록수정. CML도CAL인포함관계이므로일반명칭을틀렸다고단정하지않음.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q014",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "모든 현실 투자자에게 조건 없이 적용하는 표현을 모형 전제로 한정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "14  O  ► 시장포트폴리오（M점）가 위험보상비율이 가장 높으므로 먼저 선택하고, 이후에는 위험선호도에 따라서 대출",
+      "original_question": "14 叵区 합리적인 투자자라면 시장포트폴리오를 먼저 선택하고, 다음은 무위험자산과 시장포트폴리오\n\n   의 비중을 조절하는 투자를 실행한다.",
+      "original_explanation": "14  O  ► 시장포트폴리오（M점）가 위험보상비율이 가장 높으므로 먼저 선택하고, 이후에는 위험선호도에 따라서 대출\n        또는 차입포트폴리오를 선택하는 것이 합리적인 투자이다（亜 이를 토빈의 분리정리라고 함）.",
+      "current_clean_prompt": "표준 CAPM의 공통 투자기회·동질적 기대·동일 무위험 차입대출금리 조건에서, 투자자는 공통 접점 위험포트폴리오 M과 무위험자산의 비중을 위험회피도에 맞춰 결정한다. O/X?",
+      "resolution": "NOTE85실제이미지 M선택후비중결정O/X전체확인. 동질기대와동일차입대출조건을추가한분리정리진술유지.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q015",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 85,
+      "publisher_answer": "15 대층 / 차입〉시장포트폴리오（M점）의 왼쪽은 일부가 무위험자산에 투자되고 있다는 것이며 이는 곧 일부를 대",
+      "original_question": "15 자본시장선에서 시장포트폴리오의 왼쪽을  （            ） 포트폴리오, 오른쪽을  （           ） 포트폴리오라고\n\n   한다.\n\n\n\n\n\n                                                                                                            ,         ().ザー(―1)  •  ().2  • ().3                      ().()<) +  ().()6",
+      "original_explanation": "15 대층 / 차입〉시장포트폴리오（M점）의 왼쪽은 일부가 무위험자산에 투자되고 있다는 것이며 이는 곧 일부를 대\n\n        출해 주고 이자를 받는 것과 같으므로 대출포트폴리오라고 한다.\n\n\n\n                                  제3과목 직무윤리 및 법규/투자운용 및 전략  I 둥 85",
+      "current_clean_prompt": "CML에서 시장포트폴리오 비중 y가 0<y<1인 구간과 y>1인 구간의 명칭을 순서대로 쓰시오.",
+      "resolution": "NOTE85실제이미지 CML좌우 두빈칸대조. 누락된왼쪽오른쪽표현도명시하여원문대응복원.",
+      "reviewed_original_pages": [
+        85
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q016",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "同괴  16  CAPM(Capital Asset Pricing Model)",
+      "original_question": "16 모든 투자자가 동일한 투자대상집합에 대해 동일한 기대를 갖고, 동일한 투자기간으로, 동일한 평균-\n\n  분산 방법에 의해 의사결정을 내린다는 가정하에, 자본시장이 균형을 이룰 때 자산의 적정가격 수준\n\n   을 도출해 내는 모형은  (      )이다.",
+      "original_explanation": "同괴  16  CAPM(Capital Asset Pricing Model)",
+      "current_clean_prompt": "동질적 기대·공통 단일 투자기간·평균분산 선택·완전자본시장 등의 조건에서 균형 기대초과수익을 시장베타×시장위험프리미엄으로 설명하는 모형의 약칭은?",
+      "resolution": "NOTE86실제이미지 동질기대/동일집합/기간/평균분산/균형가격모형식별전체대조. 동일집합과적정가격목적복원.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q017",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "17  평균, 분산   » CAPM 가정   1       : 평균  • 분산의 가정,이다.",
+      "original_question": "17 CAPM이론 가정의 하나로서, 투자자는  (    )과  (    )만 가지고 투자결정을 내리며 구체적으로\n\n  상대적으로 높은 평균, 상대적으로 낮은 분산을 가진 자산을 선택한다.",
+      "original_explanation": "17  평균, 분산   » CAPM 가정   1       : 평균  • 분산의 가정,이다.",
+      "current_clean_prompt": "표준 CAPM의 평균-분산 선택 가정에서 투자자가 수익분포를 평가하는 두 모멘트는 무엇인가?",
+      "resolution": "NOTE86실제이미지 평균/분산 두빈칸과고평균저분산선호복원.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q018",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "CML에 M만 위치한다거나 개별증권은 특수한 경우에도 절대 위치할 수 없다는 원문 단정을 제거했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "18  CML, SML  > CML은 시장포트폴리오(M)와 무위험자산의 조합이므로 개별증권이 위치할 수 없다. SML은 개별증",
+      "original_question": "18    (      )에는 완전히 분산투자된 포트폴리오(M)만이 위치할 수 있지만,  (      )에는 개별증권\n\n   도 위치할 수 있다.",
+      "original_explanation": "18  CML, SML  > CML은 시장포트폴리오(M)와 무위험자산의 조합이므로 개별증권이 위치할 수 없다. SML은 개별증\n\n        권의 기대수익률을 체계적위험(J)의 함수로 설명하는 것이므로 모든 개별증권이 위치할 수 있다,",
+      "current_clean_prompt": "표준 CAPM에서 무위험자산과 시장포트폴리오의 효율적 조합을 평균-표준편차로 나타내는 선, 개별증권과 포트폴리오의 균형 기대수익을 베타로 설명하는 선을 순서대로 쓰시오.",
+      "resolution": "NOTE86실제이미지 CML/SML 두빈칸보존. CML의M만/개별증권절대불가오류를효율적조합으로교정;M과동일수익구조복제가능성은배제하지않음.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q019",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "19 기대수익률과 표준편차 / 기대수익률과 베타",
+      "original_question": "19 CML은  (          )의 공간이며, SML은  (           )의 공간이다,",
+      "original_explanation": "19 기대수익률과 표준편차 / 기대수익률과 베타",
+      "current_clean_prompt": "CML과 SML의 두 축을 각각 쓰시오.",
+      "resolution": "NOTE86실제이미지 두공간축질문과정답대조. CML평균표준편차/SML평균베타동일범위.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q020",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "20  자본시장선(CML), 증권시장선(SML) »위험지표는 자본시장선은 표준편차い). 증권시장선은 베타(  ノ",
+      "original_question": "20    (     )은 효율적 포트폴리오의 기대수익률과 위험의 선형적 관계를 나타낸 반면,  (       )은\n\n   개별증권의 기대수익률과 위험의 선형적 관계를 나타낸 것이다.",
+      "original_explanation": "20  자본시장선(CML), 증권시장선(SML) »위험지표는 자본시장선은 표준편차い). 증권시장선은 베타(  ノ",
+      "current_clean_prompt": "표준 CAPM에서 효율적 포트폴리오의 기대수익률-표준편차 관계, 개별증권도 포함하는 균형 기대수익률-베타 관계의 이름을 순서대로 쓰시오.",
+      "resolution": "NOTE86실제이미지 효율적포트폴리오와개별증권의두선형관계대조. 모호한위험을σ/β로명시한최소교정유지.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q021",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "OCR 수식을 복원하고 '기여분'이라는 모호한 표현을 회귀 기울기로 구체화했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "21  O",
+      "original_question": "21 叵区 베타(田는 '시장포트폴리오의 전체 수익률 변동(<*)에 대한 개별주식 수익률 변동의 기여분\n\n   (県)'을 말하며 ‘り = 읗ゴ으로 표시된다.\n\n                       0m",
+      "original_explanation": "21  O",
+      "current_clean_prompt": "시장분산이 양수일 때 βi=Cov(Ri,Rm)/Var(Rm)은 시장수익률에 대한 개별수익률의 선형회귀 기울기다. O/X?",
+      "resolution": "NOTE86실제이미지 β=σim/σm² 확인. 기여분이라는모호한표현을공분산/분산과회귀기울기로교정;시장분산양수조건필요. O보존.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q022",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "무차익만으로 개별증권 CAPM이 자동 성립하지 않으므로 균형모형 전제를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "22   1.2   ►   二                       ,； 따라서    !「'포트폴리오 B의 베타는  1.2)",
+      "original_question": "22 A포트폴리오의 기대수익률은 8%, 베타는 0.5이다. 그리고 B포트폴리오의 기대수익률은 15%이고 무\n\n   위험수익률은 3%이다. 이때 자본시장에서 더 이상 차익거래가 일어나지 않는 상태가 되기 위한 B포트\n\n  폴리오의 베타는  (       )이다.",
+      "original_explanation": "22   1.2   ►   二                       ,； 따라서    !「'포트폴리오 B의 베타는  1.2)",
+      "current_clean_prompt": "CAPM 균형에서 rf=3%, E[RA]=8%, βA=.5, E[RB]=15%다. βB는?",
+      "resolution": "NOTE86실제이미지 A8/β.5,B15,rf3전부확인. λ=(.08-.03)/.5=.1;βB=(.15-.03)/.1=1.2. 단순무차익만으로충분하다는모호성을CAPM균형으로한정.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q023",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 86,
+      "publisher_answer": "23 과소평가 »K증권의 기대수익률이 SML선 위에 위치하므로 과소평가(저평가)이다.",
+      "original_question": "23 K증권의 SML상 기대수익률은 10%인데, 현재 시장에서 얻을 수 있는 기대수익률은 12%이다. 그렇다\n\n   면 K증권은 시장에서 (과소평가 / 과대평가)되고 있다.",
+      "original_explanation": "23 과소평가 »K증권의 기대수익률이 SML선 위에 위치하므로 과소평가(저평가)이다.",
+      "current_clean_prompt": "CAPM 요구수익률이10%인데 동일한 미래급부 예측과 현재가격에 따른 기대수익률이12%다. 해당 모형 기준 K증권은 과소평가인가 과대평가인가?",
+      "resolution": "NOTE86실제이미지 요구10/기대12,과소/과대두선택지확인. 동일급부에서낮은가격이면기대수익증가;모형기준과소. 실현수익보장아님.",
+      "reviewed_original_pages": [
+        86
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q024",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "많은 공분산은 정확한 추정이 '불가능'하다는 단정을 제거하고 모형의 제약을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "EP1  24 샤프의 단일지표모형",
+      "original_question": "24 마코위츠의 효율적 분산투자를 위해서는 〃개의 E(R), メ, nレ］」) 개의 공분산 등 방대한 자료가\n\n\n   필요하여 정확한 추정이 불가능하다는 어려움이 있는데, 이러한 기술적인 문제를 극복하고자 한 것\n\n   이   (      )이다.",
+      "original_explanation": "EP1  24 샤프의 단일지표모형",
+      "current_clean_prompt": "Ri=αi+βiRm+εi, 시장과 잔차는 무상관, 서로 다른 자산의 잔차도 무상관으로 놓아 Cov(Ri,Rj)=βiβjVar(Rm)으로 추정항목을 줄이는 모형은?",
+      "resolution": "NOTE87실제이미지 원문추정자료수(n개평균/분산,n(n-1)/2공분산)와추정축소목적을복원. 정확추정불가능이라는절대단정만어려움으로교정.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q025",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "APT가 반드시 위험회피 효용을 전제로 하며 무조건 더 현실적이라는 원문 설명을 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "25  CAPM / APT",
+      "original_question": "25     (    )은 엄격한 가정을 전제로 하지만,  (     )는 투자자들이 위험회피적이며 자산의 수익률은\n\n  다요인모형을 따른다는 매우 현실성 있는 가정에 기초하고 있다.",
+      "original_explanation": "25  CAPM / APT",
+      "current_clean_prompt": "시장포트폴리오 베타를 이용하는 평균분산 균형모형과, 수익률 요인구조·분산가능 잔차·무차익 조건에서 요인노출의 선형 가격관계를 도출하는 이론의 약칭을 순서대로 쓰시오.",
+      "resolution": "NOTE87실제이미지 CAPM/APT 비교두빈칸확인. 엄격vs매우현실적이라는무근거우열대신핵심가정과도출법을대조하며원문두모형식별목적보존.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q026",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "26    1.1  »(1.4      -  50%) + (0.8        - 50%) = 0.7 + 0.4 = 1.1(단일지표모형의 포트폴리오베타 계신",
+      "original_question": "26 X주식의 베타는 1.4, Y주식의 베타는 0.8이다. 동일가중으로 포트폴리오를 구성한다면, 해당 포트폴\n\n   리오의 베타는  ( )이다.",
+      "original_explanation": "26    1.1  »(1.4      -  50%) + (0.8        - 50%) = 0.7 + 0.4 = 1.1(단일지표모형의 포트폴리오베타 계신",
+      "current_clean_prompt": "X의 베타1.4, Y의 베타0.8이다. X와 Y를 각각50% 보유한 포트폴리오의 베타는?",
+      "resolution": "NOTE87실제이미지1.4,.8,동일가중확인. .5×1.4+.5×.8=1.1;원문동일.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q027",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "모든 패시브전략의 위험이 동일하다는 일반화 대신 지정된 시장지수 추종을 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "27  X   ► 소극적인 투자전략패시브 운용)은 시장평균 정도의 위험을 부담한다.",
+      "original_question": "27 叵区 소극적인 투자전략은 시장 위험을 부담하지 않는 전략이다.",
+      "original_explanation": "27  X   ► 소극적인 투자전략패시브 운용)은 시장평균 정도의 위험을 부담한다.",
+      "current_clean_prompt": "주식시장지수를 그대로 추종하는 패시브 포트폴리오는 시장위험을 전혀 부담하지 않는다. O/X?",
+      "resolution": "NOTE87실제이미지 소극전략시장위험없음O/X확인. 일반소극전략주장과대표적주가지수반례를함께복원.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q028",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "CD가 항상 무위험이라는 설명과 채권/무위험자산 명칭만으로 전략을 나누는 설명을 사용하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "28 시장투자적기포착전략     •• 시장투자적 기포착전략   : •무위험자산(CD 등) + 위험자산: 포율러플랜    : 방어자산채",
+      "original_question": "28 (포율러 플랜 / 시장투자적기포착전략)은 무위험자산과 위험자산의 배분을 증권시장예측에 맞게 조절\n\n   하여 초과수익을 획득하고자 하는 전략이다.",
+      "original_explanation": "28 시장투자적기포착전략     •• 시장투자적 기포착전략   : •무위험자산(CD 등) + 위험자산: 포율러플랜    : 방어자산채\n\n            권) + 위험자산.",
+      "current_clean_prompt": "사전에 고정한 기계적 비중조정 규칙이 아니라, 향후 시장방향의 예측을 바꿀 때마다 위험자산과 무위험자산 배분을 조정하는 전략은? (포뮬러 플랜 / 시장투자적기포착전략)",
+      "resolution": "NOTE87실제이미지 두전략선택지와시장예측별위험/무위험자산배분목적대조. 예측초과수익추구와기계규칙차이보존. CD항상무위험이라는해설확대는채택않음.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    },
+    {
+      "id": "NOTE-S3C9-Q031",
+      "status": "resolved",
+      "original_intent": "빈칸·OX·해설대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 87,
+      "publisher_answer": "31 리밸런싱 (Rebalancing)",
+      "original_question": "31 자산배분전략을 수정함에 있어서, 시장상황의 변화로 기존 포트폴리오의 비중의 변화가 발생하였을\n\n   때 최초의 비율대로 환원하는 전략을 (리밸런싱  / 업그레이딩)이라 한다.",
+      "original_explanation": "31 리밸런싱 (Rebalancing)\n\n\n\n                                  제3과목 직무윤리 및 법규/투자운용 및 전략  I 등 87",
+      "current_clean_prompt": "시장가격 변동으로 달라진 자산비중을 매매를 통해 기존 목표비중으로 되돌리는 행위는? (리밸런싱 / 업그레이딩)",
+      "resolution": "NOTE87실제이미지 비중변화후원비율환원 및리밸런싱/업그레이딩두선택지전체대조. 목표비중복원행위명칭동일.",
+      "reviewed_original_pages": [
+        87
+      ],
+      "prior_review_preserved_in": "root_diversification_review_history.json"
+    }
+  ],
+  "reviewed_original_images": [
+    "diagram_review/MOCK_26.png",
+    "diagram_review/MOCK_27.png",
+    "diagram_review/MOCK_53.png",
+    "diagram_review/MOCK_54.png",
+    "diagram_review/P3_444.png",
+    "diagram_review/P3_447.png",
+    "diagram_review/P3_451.png",
+    "diagram_review/P3_457.png",
+    "diagram_review/P3_464.png",
+    "diagram_review/P3_465.png",
+    "diagram_review/P3_466.png",
+    "diagram_review/NOTE_84.png",
+    "diagram_review/NOTE_85.png",
+    "diagram_review/NOTE_86.png",
+    "diagram_review/NOTE_87.png"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "s2_hfr_strategies",
+  "requested_url": "https://www.hfr.com/hfr-indices/hfr-hedge-fund-strategy-classifications/",
+  "retrieved_url": "https://www.hfr.com/hfr-indices/hfr-hedge-fund-strategy-classifications/",
+  "retrieved_at": "2026-10-13T16:57:35.568847+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "2612319aee64d2232757fff6898402737f118f7b15399aa95ab8b0e472038ebd",
+  "text_sha256": "86c1ddd1423ac226062c48cb8ec7522ee0c435652ed6839332fb8f2ee3d608f1",
+  "status": "retrieved_not_claim_verified"
+}

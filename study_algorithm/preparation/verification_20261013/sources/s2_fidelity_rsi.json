@@ -1,0 +1,12 @@
+{
+  "id": "s2_fidelity_rsi",
+  "requested_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI",
+  "retrieved_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI",
+  "retrieved_at": "2026-10-13T16:24:45.100322+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": false,
+  "capture_method": "web.run rendered main-content excerpt",
+  "content_sha256": "bf6dece3bf5ae223cb0b3030f64c46cbaa42401071905986fc7d3ba07baa59ce",
+  "text_sha256": "bf6dece3bf5ae223cb0b3030f64c46cbaa42401071905986fc7d3ba07baa59ce",
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "krx_elw_overview",
+  "requested_url": "https://open.krx.co.kr/contents/OPN/01/01030401/OPN01030401.jsp",
+  "retrieved_url": "https://open.krx.co.kr/contents/OPN/01/01030401/OPN01030401.jsp",
+  "retrieved_at": "2026-10-13T03:47:37.613789+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10873,
+  "content_sha256": "75bb66d21d770b390a89a9c40bfad6fa5788d0f9a5eeac0b83b54db98ca511f4",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

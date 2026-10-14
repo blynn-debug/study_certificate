@@ -1,0 +1,14 @@
+{
+  "id": "mods_industry2026",
+  "requested_url": "https://www.mods.go.kr/boardDownload.es?bid=216&list_no=444844&seq=1",
+  "retrieved_url": "https://www.mods.go.kr/boardDownload.es?bid=216&list_no=444844&seq=1",
+  "retrieved_at": "2026-10-13T16:31:58.777233+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "c1c0def452ac2a62f930ce1595191e8582558fe6e72b3b8fe74091a16a752b34",
+  "binary_sha256": "c1c0def452ac2a62f930ce1595191e8582558fe6e72b3b8fe74091a16a752b34",
+  "text_sha256": "18753eb215d5a2c40e9b861515ec474658ad576c6e5e4f74ff0db8f9fe6e125d",
+  "pages": 95,
+  "characters": 116184,
+  "status": "retrieved_not_claim_verified"
+}

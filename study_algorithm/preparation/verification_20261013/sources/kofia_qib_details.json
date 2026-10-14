@@ -1,0 +1,18 @@
+{
+  "id": "kofia_qib_details",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1593&seq=323",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1593&seq=323",
+  "retrieved_at": "2026-10-13T00:01:47.320359+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 2731,
+  "content_sha256": "7f901d1ba9872422d442985edb1e858760ce59dc9f27712cfd442d76548550e9",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "적격기관투자자대상증권의 등록 및 관리등에 관한 규정 시행세칙",
+  "kofia_seq": "323",
+  "history_seq": "1593",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

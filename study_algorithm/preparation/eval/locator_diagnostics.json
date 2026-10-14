@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "heuristic_terminal_choice; requires_review": 896,
+    "manual_source_recovery": 311,
+    "heuristic_numbered_explanation; requires_review": 208,
+    "heuristic_mock_explanation; table_key_pending": 186,
+    "heuristic_answer_sequence; requires_review": 691
+  },
+  "needs_key_or_explanation": [],
+  "scope": "Extraction only. Item-level EVAL review is never inferred from running this script."
+}

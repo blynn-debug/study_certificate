@@ -1,0 +1,14 @@
+{
+  "id": "kcie_financial_products",
+  "requested_url": "https://kcie.or.kr/assets/download/main_down/fc_2021.pdf",
+  "retrieved_url": "https://kcie.or.kr/assets/download/main_down/fc_2021.pdf",
+  "retrieved_at": "2026-10-13T03:45:33.665470+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "320a7d85ce971132d7fe75a3b7471304567308c3e495c82dcab646f2e6be6d08",
+  "binary_sha256": "320a7d85ce971132d7fe75a3b7471304567308c3e495c82dcab646f2e6be6d08",
+  "text_sha256": "ccb8dfb355c1050768404b82e550aed4ef5cd60b40b1485cb431dabc85e95c11",
+  "pages": 36,
+  "characters": 18984,
+  "status": "retrieved_not_claim_verified"
+}

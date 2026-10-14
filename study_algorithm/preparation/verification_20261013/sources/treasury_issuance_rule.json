@@ -1,0 +1,18 @@
+{
+  "id": "treasury_issuance_rule",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000274858&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000274858&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:17:46.400779+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 28878,
+  "content_sha256": "edcd20fb4b296fa6ababfb0761fa8298ae2b92445ba59908b93a8af62232a853",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "2",
+      "23"
+    ]
+  ]
+}

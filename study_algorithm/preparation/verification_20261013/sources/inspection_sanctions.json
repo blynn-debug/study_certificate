@@ -1,0 +1,19 @@
+{
+  "id": "inspection_sanctions",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000282508&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000282508&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:00:11.136583+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 38338,
+  "content_sha256": "e4aaec9c5196e0d10e6b71586fba6336ed9278bef31195180ae7e040ce79c104",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "6",
+      "17"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

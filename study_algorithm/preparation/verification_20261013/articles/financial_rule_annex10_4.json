@@ -1,0 +1,32 @@
+{
+  "source_id": "financial_rule_annex10_4",
+  "source_metadata": {
+    "id": "financial_rule_annex10_4",
+    "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196503&bylClsCd=200201",
+    "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196503&bylClsCd=200201",
+    "retrieved_at": "2026-10-13T01:19:15.578682+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "108dbf43fae3c6d853c9b74359e9bb4b2c508579c8eab995155bb33dde78c79a",
+    "binary_sha256": "108dbf43fae3c6d853c9b74359e9bb4b2c508579c8eab995155bb33dde78c79a",
+    "text_sha256": "a7dcf9a96484ff4feb6f24fca74edf3b8749cc641fbf7db0e6cc86f6e8595bad",
+    "pages": 1,
+    "characters": 463,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "financial_rule_annex10_4:기준",
+      "source_id": "financial_rule_annex10_4",
+      "article": "기준",
+      "heading": "기준",
+      "text": "[PDF page 1]\n<별표10의4> <신설2014.11.4, 개정2014.12.12>\n3종금융투자업자에대한적기시정조치기준\n(제3-26조제1항, 제3-27조제1항, 제3-28조제1항관련)\n1. 경영개선권고\n가. 영업용순자본비율이150% 미만인경우\n나. 제3-25조에따른경영실태평가결과종합평가등급이3등급(보통)이상으로서자본적\n정성부문의평가등급을4등급(취약)이하로판정받은경우\n다. 거액의금융사고또는부실채권의발생으로가목또는나목의기준에해당될것이\n명백하다고판단되는경우\n2. 경영개선요구\n가. 영업용순자본비율이120% 미만인경우\n나. 제3-25조에따른경영실태평가결과종합평가등급을4등급(취약) 이하로판정받은\n경우\n다. 거액의금융사고또는부실채권의발생으로가목또는나목의기준에해당될것이\n명백하다고판단되는경우\n3. 경영개선명령\n가. 영업용순자본비율이100% 미만인경우\n나.「금융산업의구조개선에관한법률」제2조제2호에서정하는부실금융기관에해당하\n는경우",
+      "start": 0,
+      "end": 463,
+      "sha256": "b1a2d7b1a626cc2e66c861cdf63d55629bfec68ac2442adff1ba58d7c0edbe41"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

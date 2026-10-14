@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "S1C3T07-SUP-03",
+      "review": {
+        "id": "S1C3T07-SUP-03",
+        "answer": "④",
+        "clean_prompt": "교재가 입지 경쟁력이 높은 일부 물건이 침체기에도 비교적 안정된 수요·가격을 유지하는 상태를 별도 명칭으로 구분한다. 알맞은 명칭은? ① 회복국면 ② 호황국면 ③ 후퇴국면 ④ 안정국면",
+        "claim_ids": [],
+        "review_note": "반등이나 상승·하락 추세가 아니라 안정적 상태 자체를 묘사하므로 안정국면이다.",
+        "source_finding": "안정국면을 4국면 중 하나로 묻는 원문의 모순과 부동산에만 나타난다는 독점적 단정을 제거했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "반등이나 상승·하락 추세가 아니라 안정적 상태 자체를 묘사하므로 안정국면이다.",
+          "assumptions": "교재의 추가 분류명에 한정한다. 모든 우량 물건의 가격 보장이나 부동산에만 안정기가 존재한다는 명제는 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      },
+      "withdrawal_reason": "불황 속 우량입지의 안정적 업황이라는 예시를 교재가 안정국면이라 부르는 것은 확인했다. 그러나 원문의 부동산 경기에만 나타난다는 배타성 및4국면 분류에 안정국면을 넣는 체계는 별도 독립근거를 확인하지 못했다. 그 두 주장 삭제 후 안정이라는 단어 맞추기만으로 원문완료 처리하지 않는다.",
+      "status": "withdrawn_original_evidence_gap"
+    },
+    {
+      "id": "S1C2T34-SUP-01",
+      "review": {
+        "id": "S1C2T34-SUP-01",
+        "answer": "④",
+        "clean_prompt": "고정금리 주택대출의 조기상환 현금이 MBS 투자자에게 이전되는 구조에서 틀린 것은? ① 실제 원금 회수 시점은 예정 만기와 다를 수 있다. ② 조기상환은 미래 현금흐름을 바꾼다. ③ 금리하락 시 재투자 수익률이 낮아질 위험이 있다. ④ 조기상환이 빠를수록 모든 투자자에게 항상 유리하다.",
+        "claim_ids": [],
+        "review_note": "금리하락 때 원금이 조기 반환되면 이전의 높은 쿠폰을 계속 얻지 못하고 낮은 금리로 재투자할 수 있다. 따라서 ④의 항상 유리 주장은 반례로 기각된다. SEC Investor.gov의 MBS/CMO 조기상환위험 설명을 대조했다.",
+        "source_finding": "모든 MBS가 회사채보다 높은 신용도·수익률이라는 원문 선지를 제거하고 조기상환 위험의 핵심을 보존했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "금리하락 때 원금이 조기 반환되면 이전의 높은 쿠폰을 계속 얻지 못하고 낮은 금리로 재투자할 수 있다. 따라서 ④의 항상 유리 주장은 반례로 기각된다. SEC Investor.gov의 MBS/CMO 조기상환위험 설명을 대조했다.",
+          "assumptions": "패스스루 또는 조기상환 영향이 해당 트랜치에 전달되는 구조다. 실제 수익률·신용등급은 제시하지 않는다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      },
+      "withdrawal_reason": "④조기상환의 재투자위험은SEC원문으로 확인했고①만기구조는 여러tranche로 달라질 수 있다.②국채·회사채보다 수익률이 높다는 무조건 비교 및③회사채보다 신용도가 높다는 단정은 기준등급·통화·듀레이션·시점이 없다. 연준2011연구는 MBS/Treasury spread의 위험보상과 국면변동을 보일 뿐 모든회사채 대비 우열까지 입증하지 않는다.",
+      "status": "withdrawn_original_evidence_gap"
+    },
+    {
+      "id": "S1C3T16-SUP-02",
+      "review": {
+        "id": "S1C3T16-SUP-02",
+        "answer": "③",
+        "clean_prompt": "공통시장요인과 상호독립인 개별요인으로 수익률이 결정되고 균등투자하는 모형이다. 틀린 것은? ① 낮은 상관관계는 다른 조건이 같으면 분산 감소에 도움이 된다. ② 독립 개별요인 위험은 종목수 증가로 감소한다. ③ 분산투자 후 남는 공통시장요인 위험은 비체계적 위험이다. ④ 공통요인 노출을 그대로 유지하면 그 위험은 종목수만으로 제거되지 않는다.",
+        "claim_ids": [],
+        "review_note": "분산식의 교차항은 상관계수에 비례한다. 독립 잔차의 균등가중 분산은1/n에 비례하고 공통요인 분산은 남아 체계적 위험이다.",
+        "source_finding": "원문 부동산·주식 상관관계 및 미국2000년대 집중투자의 원인에 관한 무조건적 경험 주장을 제외하고 검증 가능한 명시 모형으로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "분산식의 교차항은 상관계수에 비례한다. 독립 잔차의 균등가중 분산은1/n에 비례하고 공통요인 분산은 남아 체계적 위험이다.",
+          "assumptions": "개별요인은 유한한 동일분산을 가지며 공통요인과 무상관이다. 자산별 공통요인 노출은 동일하다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      },
+      "withdrawal_reason": "③분산후에도 남는 체계적위험이라는 핵심은 이론적으로 확인했다.①낮은 주식·채권상관,②유형·지역분산 동시적용시 언제나 더큰 감소,④미국2000년대 집중투자 심화 및 주목적 고수익이라는 실증·인과 단정을 뒷받침할 표본·기간·통계가 없다. 조건부 분산수식만으로 원문 역사적보기까지 완료 처리할 수 없다.",
+      "status": "withdrawn_original_evidence_gap"
+    },
+    {
+      "id": "S1C2T33-SUP-03",
+      "review": {
+        "id": "S1C2T33-SUP-03",
+        "answer": "①",
+        "clean_prompt": "유동화 구조에 관한 틀린 것은? ① CLO는 기업대출이 아니라 반드시 회사채만을 기초로 한다. ② 채권풀의 후순위는 선순위보다 먼저 손실을 부담하는 구조로 설계할 수 있다. ③ 자산유동화는 보유자산을 활용한 자금조달 수단이 될 수 있다. ④ 구조보강이 있어도 기초자산·보증인·유동성 위험을 따져야 한다.",
+        "claim_ids": [
+          "S1L034",
+          "L225"
+        ],
+        "review_note": "원문 선택지와 연준의CLO·신용보강 설명을 대조했다. CLO는 기업대출의 유동화다.",
+        "source_finding": "패스스루 명칭만으로 완전매각·부외효과를 인정하고 보강만으로 동급 회사채보다 고수익을 보장하던 원문②④를 확인 가능한 구조·위험 설명으로 교정했다.",
+        "answer_kind": "multiple_choice"
+      },
+      "withdrawal_reason": "①회사채CBO와대출CLO 구분 및③조달다양화는 확인했다.②pass-through/pay-through라는 지급형태만으로 부외효과를 자동결정한다는 해설은 위험보상·통제·연결판단을 생략한다.④신용보강 때문에 동급회사채보다 높은 수익을 얻는다는 인과도 일반적으로 확인되지 않았다. IFRS9PDF URL 응답은 표준본문이 아닌 탐색·로그인페이지였으므로 근거에서 제외했다.",
+      "status": "withdrawn_original_evidence_gap"
+    }
+  ]
+}

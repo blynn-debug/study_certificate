@@ -1,0 +1,12 @@
+{
+  "id": "fsc_premium_structure",
+  "requested_url": "https://www.fsc.go.kr/po010106/74120",
+  "retrieved_url": "https://www.fsc.go.kr/po010106/74120",
+  "retrieved_at": "2026-10-13T04:06:26.623538+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 8656,
+  "content_sha256": "83db1096bd119e3f2dc245174c0f658c7a16d57bfcbe867c0acbd79fd34ba8b7",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

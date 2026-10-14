@@ -1,0 +1,19 @@
+{
+  "id": "civil",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284415&chrClsCd=010202&urlMode=lsInfoP&efYd=20260317&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284415&chrClsCd=010202&urlMode=lsInfoP&efYd=20260317&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:33.955591+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 179066,
+  "content_sha256": "5e83d006c73b142dbc37fa35582e6bb6896d41243a448935f70ef6faa8abc147",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "3",
+      "17"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

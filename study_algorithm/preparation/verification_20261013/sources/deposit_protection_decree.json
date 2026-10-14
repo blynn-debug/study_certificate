@@ -1,0 +1,19 @@
+{
+  "id": "deposit_protection_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273001&chrClsCd=010202&urlMode=lsInfoP&efYd=20250901&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=273001&chrClsCd=010202&urlMode=lsInfoP&efYd=20250901&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:28.475141+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 39060,
+  "content_sha256": "b07b8069c7e0c4c834c4b2292fa99e7edc205634b9646b0e55df8a93ea5c1c8c",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2025",
+      "9",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

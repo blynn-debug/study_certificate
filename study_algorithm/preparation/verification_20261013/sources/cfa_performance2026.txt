@@ -1,0 +1,215 @@
+Portfolio Performance Evaluation | CFA Institute
+Skip to main content
+Employers
+Universities
+University students
+Sign In
+Create Account
+Open Search Overlay  Close Search Overlay
+I'm looking for:
+Sign In
+Create Account
+Programs
+CFA® Program
+Overview
+Exam
+Dates & fees
+Curriculum
+Learning Ecosystem
+Career prospects
+Policies
+Registered candidate resources
+Enroll and register
+Other programs
+CIPM® Program
+Sustainable Investing
+Principles of Sustainable Investing (Chinese) 可持续投资基础证书
+Climate Investing
+Private Markets
+Private Equity
+Investment Foundations®
+View all programs
+Learning paths
+Private markets
+Sustainability
+Program support
+Help choosing a program
+All candidate resources
+Candidate sign in
+Membership
+Explore membership
+Membership overview
+Compare membership types
+Charterholder membership
+Professional membership
+Associate membership
+For members
+Find a member
+Renew membership
+Member portal
+Additional resources
+CFA Institute job board
+Communities
+Volunteering
+Find a CFA Society®
+Professional learning program
+Insights
+Research & Policy Center
+Research & thought leadership
+Financial Analysts Journal
+Research Foundation
+Podcasts & blogs
+Research & Policy Center
+In Brief
+Career insights
+Digital innovation
+First person
+Trends
+ESG
+Private markets
+View all articles
+Events
+Upcoming events
+Event recordings
+Event sponsorship
+Research Challenge
+CFA Institute at industry events
+Learning resources
+Professional learning resources
+Refresher readings
+Ethics resources
+Standards
+Industry standards
+GIPS® Standards
+Asset Manager Code™
+Inclusion Code
+ESG Standards for Investment Products
+Policy and Advocacy
+More in Research & Policy Center
+Professional standards
+Code of Ethics and Standards
+Professional Conduct
+Disciplinary sanctions
+Report misconduct
+Learn more
+About
+CFA Institute
+Who we are
+Our purpose
+Our history
+Press room
+Governance
+Leadership team
+Board of Governors
+Committees and Councils
+Annual reports
+CFA Institute policies
+Learn more
+Careers
+CFA Institute careers
+Working at CFA Institute
+Our values
+Our departments
+Search jobs
+Customer support
+Contact us
+Employers
+Universities
+University students
+Breadcrumb
+Home
+Insights
+Professional learning
+Refresher Readings
+notices - See details
+Notices
+
+Dismiss all
+Portfolio Performance Evaluation
+2026 Curriculum
+CFA® Program Level III
+Portfolio Management
+Refresher reading access
+Access the Full Reading in the Learning Ecosystem
+Introduction
+Performance evaluation is one of the most critical areas of investment analysis. Performance results can be used to assess the quality of the investment approach and suggest changes that might improve it. They are also used to communicate the results of the investment process to other stakeholders and may even be used to compensate the investment managers. Therefore, it is of vital importance that practitioners who use these analyses understand how the results are generated. By gaining an understanding of the details of how these analyses work, practitioners will develop a greater understanding of the insights that might be gathered from the analysis and will also be cognizant of the limitations of those approaches, careful not to infer more than what is explicit or logically implicit in the results.
+We will first consider the broad categories of performance measurement, attribution, and appraisal, differentiating between the three and explaining their interrelationships. Next, we will provide practitioners with tools to evaluate the effectiveness of those analyses as we summarize various approaches to performance evaluation. We will cover returns-based, holdings-based, and transactions-based attribution, addressing the merits and shortcomings of each approach and providing guidance on how to properly interpret attribution results. Again, by reviewing how each approach generates its results, we reveal strengths and weaknesses of the individual attribution approaches.
+Next, we will turn to the subject of benchmarks and performance appraisal ratios. We will review the long-standing tests of benchmark quality and differentiate market indexes from benchmarks. We will also review different ratios used in performance appraisal, considering the benefits and limitations of each approach.
+Lastly, we will provide advice on using these tools to collectively evaluate the skill of investment managers. This advice relies heavily on understanding the analysis tools, the limitations of the approaches, the importance of data to the quality of the analysis, and the pitfalls to avoid when making recommendations.
+Learning Outcomes
+The candidate should be able to:
+explain the following components of portfolio evaluation and their interrelationships: performance measurement, performance attribution, and performance appraisal;
+describe attributes of an effective attribution process;
+contrast return attribution and risk attribution; contrast macro and micro return attribution;
+describe returns-based, holdings-based, and transactions-based performance attribution, including advantages and disadvantages of each;
+interpret the sources of portfolio returns using a specified attribution approach;
+interpret the output from fixed-income attribution analyses;
+discuss considerations in selecting a risk attribution approach;
+identify and interpret investment results attributable to the asset owner versus those attributable to the investment manager;
+discuss uses of liability-based benchmarks;
+describe types of asset-based benchmarks;
+discuss tests of benchmark quality describe the impact of benchmark misspecification on attribution and appraisal analysis;
+describe problems that arise in benchmarking alternative investments;
+calculate and interpret the Sortino ratio, the appraisal ratio, upside/ downside capture ratios, maximum drawdown, and drawdown duration;
+describe limitations of appraisal measures and related metrics;
+evaluate the skill of an investment manager.
+Summary
+Performance evaluation is an essential tool for understanding the quality of the investment process. Practitioners must take care, however, to understand how performance results are generated. They need a good understanding of the performance methods used, the data inputs, and the limitations of those methods. They particularly need to be careful not to infer results beyond the capabilities of the methods or the accuracy of the data. In this reading, we have discussed the following:
+Performance measurement provides an overall indication of the portfolio’s performance.
+Performance attribution builds on performance measurement to explain how the performance was achieved.
+Performance appraisal leverages both returns and attribution to infer the quality of the investment process.
+An effective attribution process must reconcile to the total portfolio return/risk, reflect the investment decision-making process, quantify the active portfolio management decisions, and provide a complete understanding of the excess return/risk of the portfolio.
+Return attribution analyzes the impact of investment decisions on the returns, whereas risk attribution analyzes the risk consequences of the investment decisions.
+Macro attribution considers the decisions of the fund sponsor, whereas micro attribution considers the decisions of the individual portfolio manager.
+Returns-based attribution uses returns to identify the factors that have generated those returns.
+Holdings-based attribution uses the holdings over time to evaluate the decisions that contributed to the returns.
+Transactions-based attribution uses both holdings and transactions to fully explain the performance over the evaluation period.
+There are various techniques for interpreting the sources of portfolio returns using a specified attribution approach.
+Fixed-income attribution considers the unique factors that drive bond returns, including interest rate risk and default risk.
+When selecting a risk attribution approach, practitioners should consider the investment decision-making process and the type of attribution analysis.
+Attribution is used to calculate and interpret the contribution to portfolio return and volatility from the asset allocation and within-asset-class active/passive decisions.
+Liability-based benchmarks focus on the cash flows that the assets are required to generate.
+Asset-based benchmarks contain a collection of assets to compare against the portfolio’s assets.
+Valid benchmarks should be unambiguous, investable, measurable, appropriate, reflective of current investment opinions, specified in advance, and accountable.
+Benchmark misspecification creates subsequent incorrect performance measurement and invalidates the attribution and appraisal analyses.
+Alternative investments are difficult to benchmark because they are typically less liquid, have fewer available market benchmarks, and often lack transparency.
+Investment performance appraisal ratios—including the Sortino ratio, upside/downside capture ratios, maximum drawdown, and drawdown duration—measure investment skill.
+Appraisal ratios must be used with care, noting the assumptions of each ratio and affording the appropriateness to the measured investment process, risk tolerance, and investor time horizon.
+Although appraisal ratios help identify manager skill (as opposed to luck), they often are based on investment return data, which are often limited and subject to error.
+Evaluation of investment manager skill requires the use of a broad range of analysis tools, with fundamental understanding of how the tools work, how they complement each other, and their specific limitations.
+2.5 PL Credit
+If you are a CFA Institute member don’t forget to record Professional Learning (PL) credit from reading this article.
+Record 2.5 PL Credit
+Manage your credits
+CFA Institute
+Who we are
+Governance
+Press room
+Events
+Careers
+Contact us
+Programs
+CFA® Program
+All programs
+Candidate resources
+Help choosing a program
+Membership
+Membership overview
+Compare membership types
+Membership renewal
+Find a CFA Society®
+Volunteering
+Legal
+Privacy policy
+Terms and conditions
+AI Usage Statement
+Accessibility
+Sitemap
+Cookie preferences
+Connect with CFA Institute on LinkedIn
+Connect with CFA Institute on Instagram
+Connect with CFA Institute on YouTube
+Connect with CFA Institute on Facebook
+Connect with CFA Institute on WeChat
+© 2026 CFA Institute. All rights reserved.
+CFA®, Chartered Financial Analyst®, CIPM®, and GIPS® are registered trademarks owned by CFA Institute.

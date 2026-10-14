@@ -1,0 +1,14 @@
+{
+  "id": "s2_fidelity_ta2020",
+  "requested_url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/040920_Getting-started-with-technical-analysis_v2.pdf",
+  "retrieved_url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/040920_Getting-started-with-technical-analysis_v2.pdf",
+  "retrieved_at": "2026-10-13T16:42:26.695253+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "71e1bf0cc609528d6d849fea1d8aca263ce709be8097992ace49422c2282c492",
+  "binary_sha256": "71e1bf0cc609528d6d849fea1d8aca263ce709be8097992ace49422c2282c492",
+  "text_sha256": "d9c32f3bbe75ef5bcbae9d8d72ccf6fd9fb8e0ce9cf1cfc08fab8b4d43c6a46c",
+  "pages": 21,
+  "characters": 4748,
+  "status": "retrieved_not_claim_verified"
+}

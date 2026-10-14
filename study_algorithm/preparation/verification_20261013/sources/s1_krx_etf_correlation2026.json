@@ -1,0 +1,12 @@
+{
+  "id": "s1_krx_etf_correlation2026",
+  "requested_url": "https://kind.krx.co.kr/external/2026/05/27/000092/20260527000113/68663.htm",
+  "retrieved_url": "https://kind.krx.co.kr/external/2026/05/27/000092/20260527000113/68663.htm",
+  "retrieved_at": "2026-10-13T16:48:18.911244+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 781,
+  "content_sha256": "beb4d42e4548bb1602cb41ceabdef6c3c9e41e806621a55a1734d4ae31cd05c2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

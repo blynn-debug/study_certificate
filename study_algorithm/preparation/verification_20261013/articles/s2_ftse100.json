@@ -1,0 +1,27 @@
+{
+  "source_id": "s2_ftse100",
+  "source_metadata": {
+    "id": "s2_ftse100",
+    "requested_url": "https://www.lseg.com/en/ftse-russell/indices/ftse100",
+    "retrieved_url": "https://www.lseg.com/en/ftse-russell/indices/ftse100",
+    "retrieved_at": "2026-10-13T16:12:30.191208+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "9947daa99b5528c1747622420d20d58ede11c074179c5c51ca61e68b72a88996",
+    "text_sha256": "70329dd6fb4c822f882f363f20b04df6ff1a6c6d21a0ca8ec136ef15b0cd7df1",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_ftse100:Overview",
+      "source_id": "s2_ftse100",
+      "article": "Overview",
+      "heading": "FTSE 100 index scope",
+      "text": "The FTSE 100 Index (UKX) comprises the 100 most highly capitalised blue-chip companies listed on London Stock Exchange. Launched in 1984 as a tradeable index of the top 100 UK companies, it soon after featured in daily television news reports as the most popular gauge of the stock market\u2019s health. The FTSE 100 Index was key in helping launch London\u2019s new equity index derivatives market. The index\u2019s rapid increase from its starting level of 1000 told the story of equities\u2019 bull market of the 1980s and 1990s. FTSE 250 The FTSE 250 Index comprises mid-capitalised companies not covered by the FTSE 100 and represents approximately 15% of UK market capitalisation. The FTSE 250 Index has come a long way since its launch in 1992 \u2014 it is now one of FTSE Russell\u2019s most well-known and widely used indices. Robust in its ability to mirror a dynamic segment of the UK equity market, the index is truste",
+      "sha256": "6d97067500f1b22162bb37cc3d86ef43e83099c686ce51c3253e3fcf8e0b4086"
+    }
+  ],
+  "warning": "Index description only; constituent list not copied."
+}

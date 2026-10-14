@@ -1,0 +1,30 @@
+{
+  "source_id": "saha_tax_types",
+  "source_metadata": {
+    "id": "saha_tax_types",
+    "requested_url": "https://www.saha.go.kr/portal/contents.do?mId=0105000000",
+    "retrieved_url": "https://www.saha.go.kr/portal/contents.do?mId=0105000000",
+    "retrieved_at": "2026-10-13T03:17:22.248949+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 5993,
+    "content_sha256": "bc49069c9e16f494bc0939cb1409b0143a081999f18de7e42aa135d7791e6129",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "saha_tax_types:직접간접세",
+      "source_id": "saha_tax_types",
+      "article": "직접간접세",
+      "heading": "직접간접세",
+      "text": "직접세 : 납세의무자와 실질적으로 그 세금을 부담하는 자가 일치하는 세금 (예 : 소득세, 법인세, 지방소득세, 취득세 등)\n간접세 : 납세의무자와 실질적으로 그 세금을 부담하는 자가 일치하지 않는 세금(예 : 특별소비세, 부가가치세, 담배소비세 등)",
+      "start": 4574,
+      "end": 4714,
+      "sha256": "72d1f3845e364a176725659208b0afc7efe64fd4c5fa1d21c7d61c3cc6315da7"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,42 @@
+{
+  "source_id": "meritz_elb14_20260520",
+  "source_metadata": {
+    "id": "meritz_elb14_20260520",
+    "requested_url": "https://home.imeritz.com/include/resource/comm/ctcn/nfiles/MBSAP22002_A1044_20260520104605661.pdf",
+    "retrieved_url": "https://home.imeritz.com/include/resource/comm/ctcn/nfiles/MBSAP22002_A1044_20260520104605661.pdf",
+    "retrieved_at": "2026-10-13T02:32:14.732775+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "c50d3d2f1ef65dabac9c6d68651a93c4a8c4e068a8846788f5562dde24c945c2",
+    "binary_sha256": "c50d3d2f1ef65dabac9c6d68651a93c4a8c4e068a8846788f5562dde24c945c2",
+    "text_sha256": "3798d3ae1b63545cb7ca80c165f0a58203ef91d9fe8a8e323914c69d081fa654",
+    "pages": 22,
+    "characters": 15707,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "meritz_elb14_20260520:상품구분",
+      "source_id": "meritz_elb14_20260520",
+      "article": "상품구분",
+      "heading": "상품구분",
+      "text": "기초자산인주가지수나개별주식가격의움직임에따라수익등이정해지는사채입니다.\n주가연계파생결합사채(ELB)\n주식이나주가지수외기초자산(이자율, 신용, 환율, 유가, 원자재등)과연계되어수익이\n결정되는사채입니다.\n기타파생결합사채(DLB)\n개별주식의가격이나주가지수와연계되어수익이결정되는파생결합증권입니다. 최대\n원금까지손실이발생할수있습니다.\n주가연계증권(ELS)\n주식이나주가지수외기초자산(이자율, 신용, 환율, 유가, 원자재등) 과연계되어수익이\n결정되는파생결합증권입니다.  최대원금까지손실이발생할수있습니다.\n기타파생결합증권(DLS)",
+      "start": 211,
+      "end": 498,
+      "sha256": "0e0f77812e9d6481f8a106442279c893e731c37e14dfb0b4cee31927e1a36ec0"
+    },
+    {
+      "id": "meritz_elb14_20260520:발행사및중도상환위험",
+      "source_id": "meritz_elb14_20260520",
+      "article": "발행사및중도상환위험",
+      "heading": "발행사및중도상환위험",
+      "text": "◦본상품의기초자산의안전성과원금상환여부는아무런관련이없으며, 원금상환여부는발행사의지급여력에따라결정\n됩니다.\n◦발행사의파산시에는정해진수익발생조건이달성된경우에도투자원금과수익을돌려받지못할위험이내재되어있는\n금융투자상품입니다.\n◦발행사의지급불이행, 파산등의사유가발생하여원리금의일부또는전부를지급하지못하는경우, 그회수율에따라\n최대원금100% 손실이가능합니다.\n◦본상품은거래소에상장되지않아만기전투자금회수에어려움이있거나투자금회수를위하여발행사에중도상환\n요청시상환비용이차감되어원금이하의상환금액을수령할수있으므로투자기간(만기)에주의를기울여야하는\n금융투자상품입니다.",
+      "start": 2889,
+      "end": 3190,
+      "sha256": "b9dcc98d7f8b6d268cc0fa6bfdf3184c0b4e702c60f7566c6be67b99efd4954e"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

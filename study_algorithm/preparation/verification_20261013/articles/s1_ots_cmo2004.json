@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_ots_cmo2004",
+  "source_metadata": {
+    "id": "s1_ots_cmo2004",
+    "requested_url": "https://www.occ.treas.gov/static/ots/quarterly-review-irr/11420.pdf",
+    "retrieved_url": "https://www.occ.treas.gov/static/ots/quarterly-review-irr/11420.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "342410",
+    "downloaded_bytes": 342410,
+    "retrieved_at": "2026-10-13T23:55:55.059747+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "e5527fa0a3fa944cd41efb0ffffad797ac30f9e9663e1973cfa4124b689c1e0f",
+    "content_sha256": "2776378d7b498dce9e2925dce3a15b85559640eb4e66f886963ae04684ae779a",
+    "characters": 38141
+  },
+  "items": [
+    {
+      "id": "s1_ots_cmo2004:도입취지",
+      "source_id": "s1_ots_cmo2004",
+      "article": "도입취지",
+      "heading": "도입취지",
+      "text": "Collateralized mort-\ngage obligations are \nmulti-class securities that \nwere created in order to \naccommodate the variety \nof demands across differ-\nent banking institutions \nand institutional inves-\ntors for mortgage-related \nsecurities that provide \nprotection from prepay-\nment risk.  \n     These various de-\nmands are accommodated \nthrough the CMO struc-\nture by reallocating the \ncash flows of the underly-\ning mortgage collateral, \nand therefore the prepay-\nment risk, among inves-\ntors that want to reduce \ntheir exposure to either \ncontraction risk or exten-\nsion risk.",
+      "start": 12822,
+      "end": 13399,
+      "sha256": "3decacef0e25d18e044e576f19cb09fd7c4c5401e5906703481016b99724ac87"
+    }
+  ]
+}

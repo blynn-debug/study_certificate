@@ -1,0 +1,52 @@
+{
+  "source_id": "mit_capm_apt_2003",
+  "source_metadata": {
+    "id": "mit_capm_apt_2003",
+    "requested_url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf",
+    "retrieved_url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf",
+    "retrieved_at": "2026-10-13T15:38:44.149786+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "e825305a07445fd10565d48f8eea5c8c8115014de537e711c38d1cca62251135",
+    "binary_sha256": "e825305a07445fd10565d48f8eea5c8c8115014de537e711c38d1cca62251135",
+    "text_sha256": "4104404e8f54341e53cee104d8de112c18cd50817af596bee8528c84c2ff34b8",
+    "pages": 20,
+    "characters": 11470,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 3,
+  "items": [
+    {
+      "id": "mit_capm_apt_2003:CAPM전제와균형",
+      "source_id": "mit_capm_apt_2003",
+      "article": "CAPM전제와균형",
+      "heading": "CAPM전제와균형",
+      "text": "[PDF page 4]\nAssumptions \n1. Perfect Markets \n• Perfect competition - each investor assumes he has no eﬀect on security prices \n• No taxes \n• No transactions costs \n• All assets publicly traded, perfectly divisible \n• No short-sale constraints \n• Same riskfree rate for borrowing and lending \n2. Identical Investors \n• Myopic1 \n• Same holding period \n• Normality or Mean-Variance Utility \n• Homogeneous expectations \n1 myopic: adj. Of, pertaining to, or aﬀected with myopia; short-sighted, near-sighted \n\n\n[PDF page 5]\nThe Equilibrium Market Portfolio \nRecall that every investor holds some combination of the riskless asset and the tan­\ngency portfolio. \nµi \nmean µ (%) \nrf \nCML \no \no\nµΜ \nσΜ \nMarket \n0 \n0 \nσi\nstd σ (%) \nFigure 1: Equilibrium market portfolio and eﬃcient frontier. \nWhen we aggregate the portfolios of all individual investors, lending and borrowing \nwill cancel out, and the value of the aggregated risky portfolio will equate the en-\ntire wealth of the economy. The tangent portfolio has become the equilibrium market \nportfolio.",
+      "start": 1343,
+      "end": 2396,
+      "sha256": "b942dcbfae4b41b36336c2e1c6d8453f1a4894722869c0559a02b4f571928fd2"
+    },
+    {
+      "id": "mit_capm_apt_2003:베타와기대수익",
+      "source_id": "mit_capm_apt_2003",
+      "article": "베타와기대수익",
+      "heading": "베타와기대수익",
+      "text": "[PDF page 8]\nSo it must be that: \n¯\nE (ri) − rf = A cov (rM , ri) \n(11) \nRecall that: \n¯\nE (rM ) − rf = A var (rM ) \n(12) \nThis takes us to: \nE (ri) − rf = βi (E (rM ) − rf ) \n(13) \nwhere \ncov (rM , ri)\nβi = \n(14) \nvar (rM ) \nOur derivation uses the quadratic utility function. In general, the proof goes through \nfor any utility function with a preference for mean, and aversion to variance. \n\n\n[PDF page 9]\nRisk and Reward in the CAPM \nFor a risky asset ri, the right measure of the rewardable risk is not its variance var (ri), \nbut its covariance cov (ri, rM ) with the market. \nThe exposure to the market risk can be best quantiﬁed by: \ncov (rM , ri)\nβi = \n(15) \nvar (rM ) \nFor one unit exposure to the market risk, the reward is the same as the market: \nE(rM ) − rf \n(16) \nFor β unit of exposure to the market, the reward is: \nβi · (E (rM ) − rf ) \n(17) \nFor zero exposure to the market risk, the reward is zero, no matter how risky the asset \nis. In summary, the risk and reward relation in the CAPM is a linear relation. \nSystematic vs. Idiosyncratic \nEach investment carries two distinct risks: \n• Systematic risk is market-wide and pervasively inﬂuences virtually all security \nprices. \nExamples are interest rates and the business cycle. \n• Idiosyncratic risk involves unexpected events peculiar to a single security or a \nlimited number of securities. \nExamples are the loss of a key contract or a change in government policy toward \na speciﬁc industry. \n\n\n[PDF page 10]\nThe Security Market Line \nExpected \nBeta (β) \nSecurity Market Line \nM \nβ = 1 \n(µM) \nExpected \nRisk \nPremium \ndefensive \naggressive \nAlpha (α) \nβ\nReturn \n(\ni \nµi) \n(rf) \nRisk free Investment \nInvestment in Market \nFigure 2: Equilibrium market portfolio and eﬃcient frontier.",
+      "start": 4011,
+      "end": 5771,
+      "sha256": "6a32c197c002b83034d28db126c001a7e84b4247b191a6e2780429a9ea743f34"
+    },
+    {
+      "id": "mit_capm_apt_2003:요인모형과APT",
+      "source_id": "mit_capm_apt_2003",
+      "article": "요인모형과APT",
+      "heading": "요인모형과APT",
+      "text": "[PDF page 12]\nA Linear Factor Model \nA simple model to capture these two types of risks is the linear factor model: \nri = E (ri) + βi · F + εi \n(18) \nwhich carries two risky components: \n• systematic F : common to all securities. \n• idiosyncratic εi: speciﬁc only to security i. \nBoth the common factor F and the idiosyncratic component are zero mean random \nvariables. \n\n\n[PDF page 13]\nThe Arbitrage Pricing Theory \nA SINGLE-FACTOR VERSION \nAssume a frictionless market with no taxes or transaction costs. Assets are perfectly \ndivisible. There is no short-sale constraint. \nAssume a one-factor linear model: \n• βi asset i’s sensitivity to the common factor. \n• F common factor, with E(F ) = 0. \n• εi ﬁrm-speciﬁc return, with zero mean, and independent of the common factor or \nother ﬁrms’ idiosyncratic component. \nPossible common factor: unexpected changes in inﬂation, industrial production, etc. \nThe Arbitrage Pricing Theory: \nE (ri − rf ) \nE (rj − rf ) \n= \n(19)\nβi \nβj \nThe expected return of any asset is determined by its exposure to the common factor, \nand has nothing to do with its idiosyncratic component. \nIn deriving APT, one need not make any assumption about investors’ preferences, \nor assume any speciﬁc distribution for the asset returns. \nThe APT is not an equilibrium concept. It does not rely on the existence of a market \nportfolio. It is based purely on no-arbitrage conditions.",
+      "start": 6224,
+      "end": 7631,
+      "sha256": "89ee2e83831fc628475e42b42bd64ade40feabcc3f4e149325ed9afffbc80139"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

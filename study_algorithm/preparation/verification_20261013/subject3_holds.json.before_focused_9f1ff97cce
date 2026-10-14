@@ -1,0 +1,690 @@
+{
+  "as_of": "2026-10-13",
+  "scope": "Only explicitly inspected unresolved items; absence does not mean reviewed.",
+  "items": [
+    {
+      "id": "S3C4T07-SUP-01",
+      "reason": "KOSPI100추종을시장가치접근으로분류하는원문지수산식의공식저장근거가필요하다.해설에서국내100종목지수추종을바로자본시장선투자와동일시한부분도참시장포트폴리오가정없이는성립하지않아분리검토필요.",
+      "evidence_checked": [
+        "P3:216 original question and explanation",
+        "official fund-issuer KOSPI100 web search"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q036",
+      "reason": "MSCI라는명칭은유동시총가중기본지수뿐아니라동일가중·팩터등다양한지수군을포함한다.코스피200과MSCI전체를포괄한원문명제를특정대표지수군으로한정하고공식방법론을저장대조해야한다.",
+      "evidence_checked": [
+        "NOTE:62 original36 two-blank statement"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q072",
+      "reason": "가·나·다의분류는확인했으나라항퍼지투자기회선의정의를독립근거로대조하지못했다.일반적모수불확실성구간을곧퍼지집합모형으로동일시할수없어전체조합검증보류.",
+      "evidence_checked": [
+        "MOCK:20 actual72 question",
+        "publisher answer and explanation"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q073",
+      "reason": "풋델타를금액비중으로사용하는가항의단위오류와라항바닥의무위험이자증가를CPPI만의특성으로배제하는해설이문제다.OBPI에서도고정만기보장액의현재가치는시간에따라증가할수있어원문정답조합을확정하기어렵다.",
+      "evidence_checked": [
+        "MOCK:20 actual73 question",
+        "OBPI delta and discounted terminal guarantee"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q074",
+      "reason": "가항TE0이면IR0/0미정의,나항Nikkei종목당1주복제는조정계수누락,다항성숙기업과대평가의인과근거부족이다.라항TE상한오류만확인해전체문항을승인하지않는다.",
+      "evidence_checked": [
+        "MOCK:20 actual74 question",
+        "TE standard deviation and IR ratio",
+        "Nikkei official index profile web search"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q072",
+      "reason": "표는목표초과수익과총표준편차만제시한다.벤치마크표준편차·공분산없이는TE²=σp²+σb²−2Cov를계산할수없어A가B보다추종도가높다고결론낼수없다.최소총위험=최소추적오차라는해설오류를원문표변경없이해소할수없다.",
+      "evidence_checked": [
+        "MOCK:47 actual72 table",
+        "TE variance identity"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q074",
+      "reason": "라항가치투자자는수요공급원칙을무시한다는심리적단정의근거가없다.가항기업수익평균회귀역시조건부이므로4개진술중가·라를일괄참으로단정하는교재정답의독립검증보류.",
+      "evidence_checked": [
+        "MOCK:47 actual74 question and combinations"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q001",
+      "reason": "테마선택이나종목선택과조금이라도관련되면액티브라는배타정의는테마지수추종·인덱스표본선정과충돌한다.재량초과수익목적등누락범위를먼저정해야한다.",
+      "evidence_checked": [
+        "NOTE:58 original01 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q006",
+      "reason": "자산종류수증가가반드시분산효과상승으로이어지고종목수가많으면유동성문제가없다는원문인과일반화는성립하지않는다.용어만남기는축약없이근거범위추가검토필요.",
+      "evidence_checked": [
+        "NOTE:58 original06 statement",
+        "P3:210 analogous core"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q023",
+      "reason": "변동성과대추정에따른OBPI주식노출방향은행사가·현물·금리·만기·정규화에의존한다.무조건과소편입이라고단정하는원문전제부족.",
+      "evidence_checked": [
+        "NOTE:60 original23 statement",
+        "Black-Scholes delta sensitivity"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q027",
+      "reason": "바닥보다자산가치가크다는조건만으로주식형대비성과우열이정해지지않는다.상승기간·주식비중·리밸런싱경로조건이누락되어낮다를보편확정불가.",
+      "evidence_checked": [
+        "NOTE:61 original27 statement and explanation"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q032",
+      "reason": "시총가중의규모반영은맞지만성숙대형주가많으면지수가과대평가된다는인과·합리성우열은독립근거가없다.특성명칭만남기는축소없이확인필요.",
+      "evidence_checked": [
+        "NOTE:61 original32 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q037",
+      "reason": "성장주스타일의전형적고PER·고PBR·저배당설명은가능하나원문은모든성장스타일의필수투자대상처럼단정한다.스타일정의와지표예외범위를확인해야한다.",
+      "evidence_checked": [
+        "NOTE:62 original37 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q038",
+      "reason": "높은성장률만으로시장보다높은PER를지불한다는선택이결정되지않는다.할인율·배당성향·이익질·가격제약이누락되어모형근거범위추가검토필요.",
+      "evidence_checked": [
+        "NOTE:62 original38 statement",
+        "P/E sensitivity to discount rate and payout"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q039",
+      "reason": "어닝서프라이즈민감도의스타일간절대최대순위는기대치·종목구성·현금흐름시점에따라달라진다.성장주라는정답을고정하는충분한전제가없다.",
+      "evidence_checked": [
+        "NOTE:62 original39 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q040",
+      "reason": "가치투자자가수요공급원리를이해하지못한다는원문심리평가에독립근거가없다.가치투자의정의로환원하여다른문제로바꾸지않고보류.",
+      "evidence_checked": [
+        "NOTE:62 original40 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q041",
+      "reason": "시장과비슷한성과를내면서높은비용을지불할위험은혼합형외액티브스타일에도존재한다.발문에혼합형을유일하게식별할가치·성장절충조건이없어원문그대로정답확정불가.",
+      "evidence_checked": [
+        "NOTE:62 original41 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q045",
+      "reason": "저베타효과를수익률역전그룹으로배타분류한다는해설의독립분류근거를확보하지못했다.이상현상의주요설명원리와교재목차분류를혼동하지않아야한다.",
+      "evidence_checked": [
+        "NOTE:63 original45 statement and explanation"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q047",
+      "reason": "액티브총위험이패시브보다높거나낮은펀드가대등하게분포한다는실증명제는시장·기간·벤치마크·표본이없다.양쪽이가능하다는사실로빈도동등을증명할수없다.",
+      "evidence_checked": [
+        "NOTE:63 original47 statement"
+      ]
+    },
+    {
+      "id": "NOTE-S3C4-Q048",
+      "reason": "액티브잔차위험이항상월등히높다는해설은모형잔차와TE혼용및벤치마크조건누락이있다.동등분포가아니라는원문X판정도비교표본근거가없어보류.",
+      "evidence_checked": [
+        "NOTE:63 original48 statement and explanation"
+      ]
+    },
+    {
+      "id": "S3C4-ADD-01",
+      "reason": "투자가능집합확장은효율경계를악화시키지않지만중복자산추가시엄격한수익상승은없을수있다.포괄성과분산가능성의교재배타분류를원문인과조건과함께추가검토해야한다.",
+      "evidence_checked": [
+        "P3:244 original01 question",
+        "feasible-set inclusion and redundant assets"
+      ]
+    },
+    {
+      "id": "S3C4-ADD-03",
+      "reason": "전략적배분도주기적재검토가가능하므로①검토및수정을항상틀리다고할수없다.③퍼지프런티어폭과추정오차관계는모형을명시해야하고②접점도내부해조건이누락되었다.",
+      "evidence_checked": [
+        "P3:245 original03 four choices"
+      ]
+    },
+    {
+      "id": "S3C4-ADD-04",
+      "reason": "기본적분석도장기기대수익추정에쓰여전략적배분의입력이될수있다.교재의직접실행방법대입력분석방법범위를독립근거로확인하지않고③배타적전술로확정하지않는다.",
+      "evidence_checked": [
+        "P3:245 original04 question",
+        "P3:212 fundamental expected-return construction"
+      ]
+    },
+    {
+      "id": "S3C4-ADD-09",
+      "reason": "①마케팅한계의의미·근거가불명확하며③지속상승시추적한계도승수·초기비중·거래경로에의존한다.④하방보호목적만확인해나머지보기전체검증완료로처리하지않는다.",
+      "evidence_checked": [
+        "P3:248 original09 question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T14-SUP-01",
+      "reason": "DJIA와Nikkei225를모두종목당1주복제로단순화하는원문가항은가격조정계수·제수등실제지수방법론확인이필요하다.다항성숙대형주와과대평가인과도근거부족.",
+      "evidence_checked": [
+        "P3:232 original four propositions and combinations"
+      ]
+    },
+    {
+      "id": "S3C4T15-CORE",
+      "reason": "④가치투자자가투자자인정의가격영향이라는원칙을무시한다는심리적단정과②수익의평균회귀일반화를입증하지못했다.③저배당오류만고쳐전체완료로처리하지않는다.",
+      "evidence_checked": [
+        "P3:233 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T15-SUP-01",
+      "reason": "성장주투자가반드시시장보다높은PER를지불한다는단정은저평가성장주/GARP와양립하지않는다.④단기이익탄력성분류도별도근거가필요하며4보기전체의현행보편성을확인하지못했다.",
+      "evidence_checked": [
+        "P3:234 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T15-SUP-03",
+      "reason": "시가총액분류답④자체는확인되지만소형주는대체로초기고성장·중형은더재무우량등원문비교가정은실증조건이없다.핵심분류만남기는축약없이원문전체범위를보존한검토잔여.",
+      "evidence_checked": [
+        "P3:235 original two paragraphs and four choices"
+      ]
+    },
+    {
+      "id": "S3C4T15-SUP-04",
+      "reason": "어닝서프라이즈에가장큰영향을받는스타일이라는절대순위는주가·기대치·듀레이션·종목구성에따라달라진다.성장주민감성이높을수있다는개념만으로원문유일정답②를확정할수없다.",
+      "evidence_checked": [
+        "P3:235 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T16-CORE",
+      "reason": "소형주위주전략도소형주벤치마크에서는인핸스드로구현가능하다.원문벤치마크정의가없어④를준액티브에서배제하는근거가부족하며교정조건검토필요.",
+      "evidence_checked": [
+        "P3:236 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T17-CORE",
+      "reason": "종목수상한을제한할필요없다는해설과부적절하지않으면제외하지말라는②는비용·분산·운용제약에따른정책명제다.③을일률오답으로확정하기위한교재모형및근거확인이필요하다.",
+      "evidence_checked": [
+        "P3:238 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T17-SUP-02",
+      "reason": "정보비효율그룹대상대적저가그룹이라는배타적이상현상분류의독립근거를확보하지못했다.저PER도정보비효율로설명할수있으므로교재정의의적용범위를검토해야한다.",
+      "evidence_checked": [
+        "P3:239 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T19-CORE",
+      "reason": "액티브펀드총위험·성과가패시브보다큰것과작은것이대등하게분포한다는②③은표본·기간이없는실증주장이다.④추적오차와비체계적잔차위험의혼용도있어4보기를그대로일괄승인할수없다.",
+      "evidence_checked": [
+        "P3:242 original four propositions and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T19-SUP-01",
+      "reason": "ETF가모두패시브라는해설은틀리고규모스타일별잔차위험순위는벤치마크·종목수·액티브비중에따라달라진다.명칭네개만으로④위험최고를보편확정할수없다.",
+      "evidence_checked": [
+        "P3:243 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T11-CORE",
+      "reason": "④변동성과대평가가위험자산과소편입으로항상이어진다는해설은블랙숄즈d1민감도가행사가격·현물·금리·기간에의존하므로모형과초기예산정규화확인이필요하다.③채권액을풋델타만으로설명하는것도부족하다. 보장설계·모수조건을확정하지않고일괄승인불가.",
+      "evidence_checked": [
+        "P3:224 original question and explanation",
+        "call delta N(d1), d1=(ln(S/K)+(r+sigma^2/2)T)/(sigma sqrt(T))"
+      ]
+    },
+    {
+      "id": "S3C4T11-SUP-02",
+      "reason": "변동성과대평가에따른위험노출·상승성과·바닥도달시점의일방향결과는OBPI설계와상태·경로에의존한다. 원문전제만으로②③을항상참으로확정할수없으며④바닥도달과기회상실도조건부라모형추가확인필요.",
+      "evidence_checked": [
+        "P3:225 original question and explanation",
+        "Black-Scholes delta volatility sensitivity"
+      ]
+    },
+    {
+      "id": "S3C4T12-SUP-03",
+      "reason": "③포트폴리오보험은적극마케팅대상이될수없다는명제의근거가없다.②주식형보다항상낮은수익이라는해설도경로·주가수익·레버리지에따라다르므로 원문4보기보존한단일정답검증이아직안된다.",
+      "evidence_checked": [
+        "P3:227 original question and explanation",
+        "CPPI risk allocation and path dependence"
+      ]
+    },
+    {
+      "id": "S3C4T13-CORE",
+      "reason": "액티브는항상단기·패시브는항상장기라는해설의배타분류는성립하지않으며③스타일전략도지수추종으로실행가능하다. 원문의4비교쌍을다른기준으로대체하지않고교재분류범위및독립근거를확인해야 한다.",
+      "evidence_checked": [
+        "P3:228 original comparison table and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T04-CORE",
+      "reason": "포괄성·충분성의교재용어 자체는확인했으나 자산집단종류가많을수록분산효과가반드시증가하고 편입종목수가많으면유동성문제가없다는 원문인과명제는성립하지않을수있다. 용어두개만남긴다른문제로축소하지않고 전체발문의최소교정범위를검토해야 한다.",
+      "evidence_checked": [
+        "P3:210 original question and explanation",
+        "covariance diversification condition"
+      ]
+    },
+    {
+      "id": "S3C4T06-SUP-01",
+      "reason": "평균분산최적화의수학기초와입력오차민감도는확인가능하나②퍼지투자기회선의실제사용및③조직갈등에대한구체근거를아직확보하지못했다.④만반박하는것으로원문전체검증처리하지않는다.",
+      "evidence_checked": [
+        "P3:215 original question and explanation",
+        "mean-variance objective and input sensitivity"
+      ]
+    },
+    {
+      "id": "S3C4T07-CORE",
+      "reason": "①시가가중접근이소형기금에어렵다는일반화와④다른기관모방의보편성은시장구조·시대·수단에의존한다. 교재국민연금사례만으로2026기준전체보기를입증할수없어실증근거필요.",
+      "evidence_checked": [
+        "P3:216 original question and explanation"
+      ]
+    },
+    {
+      "id": "S3C4T10-CORE",
+      "reason": "②보험선호자를비정상적인투자자로분류하는규범적명제와③무조건적바닥수익률제약은모형가정확인이필요하다.④양의피드백방향만으로다른보기모두를승인할수없다.원문모든4보기보존한최소교정검토잔여.",
+      "evidence_checked": [
+        "P3:222 original question and explanation",
+        "CPPI E=m(V-F) mechanism"
+      ]
+    },
+    {
+      "id": "S3C4T01-CORE",
+      "reason": "현대운용조직의 보편적 추세와 특정 팀명별 업무배분을 묻는 경험적·조직별 명제다. 집단운용의 장점을 논증하는 것만으로 모든4보기의 실제보편성을 검증할 수 없으므로 원문정답①을 유지한 외부조직운영 근거가 필요하다.",
+      "evidence_checked": [
+        "P3:204 original question and explanation",
+        "answer_packets S3C4T01-CORE"
+      ]
+    },
+    {
+      "id": "S3C4T02-CORE",
+      "reason": "①유동자산중 주식기대수익률이 가장높다는 절대순위와③국내주식·채권상관계수가0에 가깝다는 실증명제는 표본·기간·자산정의가 없다.④규모증가에따른패시브비중추세 역시 조건부다. 다른보기 대부분을 교체하지 않고 원문전체를 입증할 자료가 필요하다.",
+      "evidence_checked": [
+        "P3:206 original question and explanation",
+        "answer_packets S3C4T02-CORE"
+      ]
+    },
+    {
+      "id": "S3C1T02-CORE",
+      "reason": "윤리의 일반적 적용범위와 개별 표준규정의 법적 적용범위를 구별해야 한다. 모든 무보수·무자격·비고용관계자를 똑같이 포함하는 교재 정의에 대한 독립 교육 근거가 아직 없다.",
+      "evidence_checked": [
+        "P3:7 answer packet",
+        "kofia_internal_control 제1·2조",
+        "kofia_ethics 제1조"
+      ]
+    },
+    {
+      "id": "S3C1T06-CORE",
+      "reason": "교재는 이해상충의 세 원인이라는 배타적 분류와 포괄주의규제와 무관하다는 단정을 요구한다. 법 제44조의 이해상충 통제 의무만으로 인과관계 전체를 확정할 수 없어 분류 근거 추가 확인 필요.",
+      "evidence_checked": [
+        "P3:14 answer packet",
+        "capital 제44조"
+      ]
+    },
+    {
+      "id": "NOTE-S3C1-Q003",
+      "reason": "과당매매와 과잉권유를 이해상충·적합성에 배타적으로 배정하는 문항이다. 과잉권유가 이해상충에 해당할 수 없다고 단정할 독립 근거가 부족하다.",
+      "evidence_checked": [
+        "NOTE:35 answer packet",
+        "kofia_internal_control 제39조",
+        "consumer 제17조"
+      ]
+    },
+    {
+      "id": "NOTE-S3C1-Q026",
+      "reason": "교재는 중간책임자의 지도지원의무 위반으로 민법 사용자책임이 곧바로 생긴다고 단정한다. 표준윤리준칙 제11조는 윤리교육 노력을 규정할 뿐이며 민법 사용자책임의 지위·사무집행·면책 요건을 추가 검토해야 한다.",
+      "evidence_checked": [
+        "NOTE:38 answer packet",
+        "kofia_ethics 제11조"
+      ]
+    },
+    {
+      "id": "S3C1T04-SUP-01",
+      "reason": "교재 고유 4대 의무와 하위 항목의 분류를 묻는다. 표준윤리준칙 16개 조문 자체는 이 4분류를 명시하지 않으므로 교육 분류의 독립 근거를 확보하기 전 보류.",
+      "evidence_checked": [
+        "answer_packets.json question_text",
+        "articles/kofia_ethics.json 전체 16개 조문"
+      ]
+    },
+    {
+      "id": "S3C1T11-SUP-02",
+      "reason": "주주가치 극대화를 사회 의무로 분류하는 교재 설명은 표준윤리준칙 조문 자체의 분류가 아니다. 경영진 책임을 회사 의무로 배타적으로 분류하는 공식 교육 근거를 추가 확보해야 한다.",
+      "evidence_checked": [
+        "P3:43 answer packet",
+        "kofia_ethics 제5·9·10·11조"
+      ]
+    },
+    {
+      "id": "NOTE-S3C1-Q001",
+      "reason": "고객우선·신의성실을 법제화한 의무를 오직 두 항목으로 대응시키는 교육 분류 문항이다. 실제 법적 신의성실 의무와 이해상충·소비자보호 조문 존재만으로 빈칸의 유일 정답을 확정하지 않는다.",
+      "evidence_checked": [
+        "NOTE:35 answer packet",
+        "kofia_ethics 제2·4조",
+        "capital 제37·44조"
+      ]
+    },
+    {
+      "id": "S3C9T03-SUP-02",
+      "source": "P3:443",
+      "reason": "그림의 축·곡선이 텍스트 추출에서 누락되어 원본 그림 확인 전 보류. 해설만으로 그림 대응을 승인하지 않음.",
+      "evidence_checked": [
+        "P3:443",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C9T04-SUP-03",
+      "source": "P3:447",
+      "reason": "차입포트폴리오 위치를 묻는 그림과 선지 ②·④의 기호가 추출되지 않음. PDF 이미지 대조 필요.",
+      "evidence_checked": [
+        "P3:447",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C9-ADD-01",
+      "source": "P3:464",
+      "reason": "상관계수 0을 고르는 그림선지가 전부 추출되지 않음. 원본 네 그림 비교 필요.",
+      "evidence_checked": [
+        "P3:464",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C9-ADD-05",
+      "source": "P3:465",
+      "reason": "효용함수의 위험항 지수 및 표의 2%·4%·6%·8%가 분산인지 표준편차인지 OCR에서 누락. 선택답에 의존하지 않고 원본 표 머리글 확인 필요.",
+      "evidence_checked": [
+        "P3:465",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C7T03-SUP-03",
+      "source": "P3:375",
+      "reason": "추출 발문이 바로 앞 SUP-02의 정답·해설로 보임. 별도 문항 존재 여부와 ID 분할을 원본 페이지로 확인해야 함.",
+      "evidence_checked": [
+        "P3:375",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C1T03-SUP-01",
+      "source": "P3:9",
+      "reason": "고객·본인·회사·사회 의무 분류를 표준윤리준칙 조문 제목만으로 승인할 수 없음. 해당 분류의 공식 교육 근거와 제7조를 추가 대조할 필요.",
+      "evidence_checked": [
+        "P3:9",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C1T03-SUP-02",
+      "source": "P3:9",
+      "reason": "사적이익 추구금지와 정보보호를 특정 이해관계자 의무로 단일 분류한 선택지의 공식 근거가 미확정. 준칙 실제 내용과 교육 분류를 분리 확인해야 함.",
+      "evidence_checked": [
+        "P3:9",
+        "answer_packets.json question_text"
+      ]
+    },
+    {
+      "id": "S3C1T12-SUP-04",
+      "source": "P3:47",
+      "reason": "내부통제위원회 설치면제 규모기준을 직원 준법감시인 특례와 혼용할 우려. 책무구조도·위원회 도입 개정의 적용시점과 시행령 면제조항 직접 대조가 남음.",
+      "evidence_checked": [
+        "P3:47",
+        "answer_packets.json question_text"
+      ],
+      "state": "resolved_in_subject3_reviews",
+      "resolution": "S3L017; statutory size exemption only, explicit nonlisted and asset-scope assumptions."
+    },
+    {
+      "id": "S3C2T30-SUP-02",
+      "reason": "원문③ 전환·신주인수권·교환권 행사에 따른 보유주식등 증가의 보고면제 서술은 시행령153조5항5호의 발행·교환가격 조정만으로 수량증가한 경우와 다르다. 권리행사 전후 주식등 산정상 실제 수량변동 여부와 별도면제 근거가 필요하며 원문의 경제적 사건을 가격조정으로 바꿔 승인하지 않는다.",
+      "evidence_checked": [
+        "P3 answer_packets S3C2T30-SUP-02",
+        "capital:제147조",
+        "capital_decree:제153조제5항"
+      ]
+    },
+    {
+      "id": "S3C3T15-CORE",
+      "reason": "원문② 복수주관사 증권평가 공동수행 의무의 현행 직접근거가 인수규정에서 확인되지 않았다. 제4조는 삭제되어 있고 제6조 공동주관의무와는 별개다. ④도 일반청약자 희망물량을 취합한 인수회사 참여예외가 누락되어 원문전체 단일정답 승인 보류.",
+      "evidence_checked": [
+        "P3:193",
+        "answer_packets.json S3C3T15-CORE",
+        "kofia_underwriting:제3조",
+        "kofia_underwriting:제5조",
+        "kofia_underwriting:제6조",
+        "공식 historySeq1782 seq140 원문"
+      ]
+    },
+    {
+      "id": "S3C5T13-SUP-01",
+      "reason": "원문② 실제가격은 듀레이션근사보다 항상 높다는 문장은 금리변화0의 등호 및 내재옵션 예외가 빠졌으며, ③ 듀레이션 증가에 따라 볼록성이 가속 증가한다는 일반 명제는 현금흐름구조를 고정하지 않으면 성립하지 않는다. ④만 오답인 원문 전체를 승인하려면 비교모형을 별도 특정해야 하므로 보류.",
+      "evidence_checked": [
+        "P3:285",
+        "answer_packets.json S3C5T13-SUP-01",
+        "P(y)의 1차·2차 테일러 전개 및 현금흐름가중 듀레이션·볼록성 정의"
+      ]
+    },
+    {
+      "id": "S3C5T11-SUP-03",
+      "reason": "표면금리5%/8%와 만기3년/10년 중 금리하락 시 유리한 조합을 묻지만 현재수익률이나 가격조건이 없다. 만기 증가에 따른 듀레이션의 단조 증가는 심한 할인채에서 일반적으로 보장되지 않으므로 원문②를 무조건 정답으로 승인할 수 없다. 임의로 액면발행·수익률을 새로 넣지 않고 추가 조건확인 대상으로 남긴다.",
+      "evidence_checked": [
+        "P3:278",
+        "answer_packets.json S3C5T11-SUP-03",
+        "고정쿠폰채 듀레이션은 각 지급시점의 현재가치 가중평균이라는 독립 검토"
+      ]
+    },
+    {
+      "id": "S3C5T14-CORE",
+      "reason": "P3:287의 국채·회사채3/4/5년 표와 네 보기 확인. ①4.0%p 및 ④0.4%p는 계산 가능하나 ② 경기호황의 신용스프레드 방향은 경험적 경향이며 경기·신용위험·위험선호의 다른 조건이 미지정이다. 현재 확보 근거로 원문 전체를 독립 승인하지 않고 공식 실증근거 확인 대상으로 남긴다.",
+      "evidence_checked": [
+        "P3:287",
+        "s3_P3_0287.png",
+        "answer_packets.json S3C5T14-CORE",
+        "5년8.0−4.0=4.0%p;회사채5년8.0−4년7.6=0.4%p"
+      ]
+    },
+    {
+      "id": "S3C5T16-CORE",
+      "reason": "③ 편중기대이론이 낙타형을 잘 설명한다와 ② 유동성선호이론이 우상향을 가장 잘 설명한다는 비교 기준이 불명확하다. ④ 기간프리미엄 부호는 선호영역 모형에서 해석하지만 시장분할에서도 수급에 따라 장단기 차의 양·음이 가능하므로 원문 표현만으로 타 이론을 배제하기 어렵다. 정답④ 의도는 확인했으나 전체 보기의 엄밀한 단일정답 확정은 보류.",
+      "evidence_checked": [
+        "P3:292",
+        "answer_packets.json S3C5T16-CORE",
+        "P3:296 시장분할 원문 해설의 단기·장기 수익률 양방향 가능 설명"
+      ]
+    },
+    {
+      "id": "S3C5T16-SUP-03",
+      "reason": "편중기대 모형의 낙타형 가능이라는 ② 오답 의도는 확인했다. 그러나 ③·④는 미래 단기금리와 기간프리미엄의 수준·변화분 및 만기별 평균을 혼용한다. 한 구간의 하락예상분과 프리미엄 비교만으로 전체 수익률곡선의 수평·우하향을 확정하지 못한다. 원문 전체를 유지한 단일정답에는 만기별 모형 조건 확인이 필요하다.",
+      "evidence_checked": [
+        "P3:295",
+        "answer_packets.json S3C5T16-SUP-03",
+        "장기현물금리는 구간별 선도금리의 복리평균이라는 항등식"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q054",
+      "reason": "MOCK15의 가~라 및 4조합을 확인. 현행 표준윤리준칙16조는 SNS 대외활동을 명시하나 원문 가의 부득이한 사후승인·추인 예외가 조문에 존재하지 않는다. 내부통제91조의 이메일·대화방 규칙은 확인되지만 가의 정오 근거를 독립확정할 수 없어 정답① 전체승인은 보류한다.",
+      "evidence_checked": [
+        "MOCK:15/62",
+        "kofia_ethics:제16조 historySeq1048",
+        "kofia_internal_control:제90조/제91조 historySeq1795"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q055",
+      "reason": "MOCK42의 전체4보기·정답② 확인. 자본시장법416·419·422조로 검사·조치명령·임원해임요구·직원면직요구를 확인했고 금융투자협회 공식 협회개황에서 회원제명은 총회의 권한임을 웹대조했다. 그러나 공식 페이지 전체 HTML 수신이 IncompleteRead로 실패하여 현재 검증게이트상 완전수신 근거가 미확보다. ④ 원문의 직접면직은 면직요구로 최소교정 필요. 완전한 공식 정관 또는 소개자료 저장 후 재검토한다.",
+      "evidence_checked": [
+        "MOCK:42/72",
+        "capital:제416조/제419조/제422조",
+        "https://www.kofia.or.kr/wpge/m_39/sub010401.do",
+        "urllib IncompleteRead(24174 bytes read), 부분수신을완료로표시하지않음"
+      ]
+    },
+    {
+      "id": "S3C2T02-SUP-05",
+      "reason": "전체4보기 확인. ③의 500억원은 자본금이 아닌 자기자본 요건(법324조·영319조)이어서 교정 필요. ④의 예탁결제원 금융투자상품거래청산업 불가/미수행은 법정 결제업무와 별도인가 가능성을 구별해야 한다. 법297·300조만으로 해당기관의 기준일 현재 청산업 실제 인가·수행 부재를 확정할 수 없어 기관의 최신 인가현황 공식자료 확인까지 보류한다.",
+      "evidence_checked": [
+        "P3:64",
+        "capital:제286조/제297조/제300조/제324조/제326조/제402조",
+        "capital_decree:제319조"
+      ]
+    },
+    {
+      "id": "S3C2T03-CORE",
+      "reason": "P3:65 실제도식 및 정답④를 이미지로 복구했으나 원본초과손실가능성이 없으면 무조건 증권이라는 분기는 옵션매수 계약을 잘못 분류한다. 거래소시장 거래여부만으로 장내외를 나누는 분기도 법정 해외거래 포함 예외가 누락된다. ④ 신탁상품→비금융투자상품 의도는 확인했지만 도식전체를 법정분류로 승인하려면 분기자체의 개편이 필요하여 원문그대로 전체승인 보류.",
+      "evidence_checked": [
+        "P3:65",
+        "s3_P3_0065.png",
+        "capital:제3조/제4조/제5조",
+        "capital_decree:제5조",
+        "L126/L127 법정옵션·해외거래예외"
+      ]
+    },
+    {
+      "id": "S3C2T06-SUP-01",
+      "reason": "투자매매·중개·신탁·일임이라는 업종명만 제시되어 인가업무단위·상품범위·투자자범위가 지정되지 않았다. 법12·18조는 단위별 최저자본을 요구하므로 업종만으로 항상 투자매매업이 가장 크다고 단정할 수 없다. 교재해설의 최대범위 합산900/200/250/15억원 비교는 현재 단위별 별표·합산기준 검증이 필요하다. 임의 업무범위를 새로 넣어 문제변경하지 않고 보류.",
+      "evidence_checked": [
+        "P3:76",
+        "capital:제12조/제18조",
+        "answer_packets.json S3C2T06-SUP-01",
+        "L130/L131 일반인가·등록 및 유지비율근거와 구분"
+      ]
+    },
+    {
+      "id": "S3C2-ADD-01",
+      "reason": "원문4요소(이해상충방지·부수업무negative·권유대행인·시너지)와4보기 확인. 출판사는 모두 업무범위확대③라 하지만 2006년 재정경제부 공식제정안 기본방향은 이해상충방지를 투자자보호제도선진화에 명시한다. 겸영과 연결되는 관련성은 있으나 다른방향과 중복되는 원문 전체의 단일분류는 추가교정검토 대상으로 남긴다.",
+      "evidence_checked": [
+        "P3:151",
+        "s3_capital_2006_1:BasicDirection",
+        "s3_capital_2006_1.txt 공식본문Ⅱ기본방향/Ⅴ업무범위/Ⅵ투자자보호",
+        "FSC67907 첨부1 전체수신"
+      ]
+    },
+    {
+      "id": "NOTE-S3C2-Q006",
+      "reason": "원문X정답의해설은유통성없음=손실가능성없음이라고잘못설명한다.사적금전채권도채무불이행손실이있고법4조3·9항상발행및권리성격검토가필요해사적·비유통성만으로배제할수없다.원문의일반적인사적채권이정확히무엇을뜻하는지원서교정확인필요.",
+      "evidence_checked": [
+        "TARGET NOTE:41 제06문항전체발문·출판해설",
+        "capital:제4조 제3항·제9항"
+      ]
+    },
+    {
+      "id": "NOTE-S3C2-Q037",
+      "reason": "교재X는적기시정조치를권고·요구·명령세유형으로한정하지만발문포함된다는표현은이행절차까지포괄할수있다.현행규정3-30~3-33에계획제출·평가·이행절차가같이규정되어원문범위유지시단일정답확정불가.세조치유형의명칭인가로바꾸면원문질문범위가축소되므로보류.",
+      "evidence_checked": [
+        "TARGET NOTE:45 제37문항·출판해설",
+        "financial_investment_rule:제3-26조~제3-33조"
+      ]
+    },
+    {
+      "id": "S3C2T13-SUP-02",
+      "reason": "원문4보기확인.③의인수대상회사증권전부는법72조의그인수증권매수신용으로최소교정필요.④의1년징역·3천만원벌금부정을확정하려면현행전체벌칙및위임신용공여규정별제재대조가추가필요하여출판정답④만으로승인하지않음.",
+      "evidence_checked": [
+        "TARGET P3:93 전체보기·정답④·행정제재해설",
+        "capital:제72조",
+        "financial_investment_rule:제4-21조"
+      ]
+    },
+    {
+      "id": "S3C2T28-SUP-02",
+      "reason": "원문4공시유형과정답②확인.①주요경영사항일률다음날·②자율공시다음날까지해야한다는의무표현은현행KRX시장별규정직접대조가필요.기존법161조주요사항보고서는거래소수시공시와다르므로대체근거로승인하지않음.",
+      "evidence_checked": [
+        "TARGET P3:126 제02문항전보기·정답②·해설",
+        "capital:제161조",
+        "현재articles목록에KRX공시규정전체본문없음"
+      ]
+    },
+    {
+      "id": "S3C1T09-CORE",
+      "reason": "P3:33원문②법규를모르면언제나제재라는일반화는책임요건·위법성착오등을누락하고①무보수외부인의범위·④법정신의명시근거도표준윤리준칙3조단독으로확정불가.기존관련규정포함여부한명제는원문4보기와다르므로철회하고전보기근거보류.",
+      "evidence_checked": [
+        "TARGET P3:33 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C1-ADD-10",
+      "reason": "P3:56원문기관제재연결은④의직원면직·정직을금융위가직접하는지조치요구인지구분누락,③은법본문권한과위임권한범위구분필요,①협회회원·직원제재권한전체규정근거추가필요.기존420조주체빈칸은원문전체범위가아니므로철회하고보류.",
+      "evidence_checked": [
+        "TARGET P3:56 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C2T02-SUP-03",
+      "reason": "P3:63원문④불공정거래조사는금감원업무가아니라는정답은법426조1항의금감원장조사수행과충돌한다.금융위설치법19조법정소관위원회를묻는질문으로바꾸면보기전체와기관업무판정범위가달라지므로기존파생문항을철회하고원문복수의미보류.",
+      "evidence_checked": [
+        "TARGET P3:63 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C2T08-SUP-02",
+      "reason": "P3:80원문②이익준비금은기초자기자본에반영되는항목이지규정3-12조별도순자본가산항목으로열거되지않는다.④선급금만가산항목아님이라는출판단일정답불안정.②를다른가산항목으로바꾸는것은보기내용대체이므로기존선급금단문을철회하고원문보류.",
+      "evidence_checked": [
+        "TARGET P3:80 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C2T09-SUP-03",
+      "reason": "P3:83원문①부실자산처분은규정3-27조2항8호가권고사항을포함하므로요구단계에서도가능.②점포폐쇄·③조직축소·④자회사정리까지네보기모두요구조치여서정답없음.기존OX파생문항철회,원문정답오류보류.",
+      "evidence_checked": [
+        "TARGET P3:83 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C7T07-SUP-02",
+      "reason": "원문 ④ 소티노비율이 샤프보다 널리 사용된다는 현행 경험적 빈도 주장을 부정할 비교조사 근거가 없다. ② 높은 비율이면 큰 손실확률이 낮다는 단정도 정의에서 도출되지 않는다. ③ 비정규분포에 무조건 더 적합하다는 판단 역시 목적·손실함수에 의존한다. 공식만 승인한 기존 검토는 원문 네 보기 완료가 아니다. 다른 개념보기로 ④를 바꾸면 원문 의도가 달라져 보류한다.",
+      "evidence_checked": [
+        "TARGET P3:388 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C1T10-SUP-05",
+      "reason": "표준윤리준칙15조 실제 문언은 퇴직 시 업무자료 반납 등 후속조치와 퇴직 후 회사·고객 이익침해 금지다. 원문 ① 장기간 vs 합리적 기간,② 어떠한 경우라도 회사 상표 사용금지,③④ 고용 중 생산한 모든 지적재산의 회사소유·사용권은 이 조문에서 직접 도출되지 않는다. 기존 3년 상한 없음 질문만으로 네 보기 원문을 승인할 수 없다. 고용계약·저작권/직무발명·상표사용 허락 조건을 확인하지 않고 별개 보기로 대체하지 않는다.",
+      "evidence_checked": [
+        "TARGET P3:41 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    },
+    {
+      "id": "S3C1T10-SUP-04",
+      "reason": "표준윤리준칙12조는 위반 발견 또는 가능성 인지 시 정해진 절차의 즉시보고를 요구한다. 내부통제기준26조는 제보자 비밀보장·불이익금지·시정요구·우수자 포상요청을 확인하지만 원문① 육하원칙에 따른 사실만이라는 제한 및② 제보사실 자체도 모두 비밀이라는 범위는 이 조문에서 정확하게 확인되지 않는다. 제보사실 공개 여부를 핵심으로 삼은 정답②를 다른 질문으로 바꾸지 않고 보류한다. ③④는 조건부 시정·포상 규정으로 확인했다.",
+      "evidence_checked": [
+        "TARGET P3:40 전체보기·출판정답·해설",
+        "s3_correspondence_previous_reviews.json 이전교정판 및 원문대응 재검토"
+      ]
+    }
+  ]
+}

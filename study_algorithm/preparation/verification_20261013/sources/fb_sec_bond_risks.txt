@@ -1,0 +1,212 @@
+What Are Corporate Bonds? | Investor.gov
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Investor.gov
+U.S. Securities and Exchange Commission
+Auxiliary Header
+About Us
+Contact Us
+Follow Us
+Glossary
+Información en Español
+Search Investor.gov
+Main navigation
+Introduction to Investing
+Getting Started
+Five Questions to Ask Before You Invest
+Understanding Fees
+Asset Allocation and Diversification
+Investing on Your Own
+Working with an Investment Professional
+Researching Investments
+Investing Basics
+Save and Invest
+Invest For Your Goals
+How Stock Markets Work
+Investment Accounts
+Investment Products
+Glossary
+What is Risk?
+Role of the SEC
+General Resources
+Investor Alerts & Bulletins
+Publications and Research
+Financial Tools & Calculators
+Financial Tools
+Investment Professional Background Check
+EDGAR - Search Company Filings
+Fund Analyzer
+Retirement Ballpark E$timate
+Social Security Retirement Estimator
+Calculators
+Compound Interest Calculator
+Savings Goal Calculator
+Required Minimum Distribution Calculator
+College Savings Calculator
+Protect Your Investments
+Fraud
+Types of Fraud
+How to Avoid Fraud
+Resources for Victims
+Get Help
+Submit Questions and Complaints
+Arbitration and Mediation Clinics
+Additional Resources
+Spotlight
+Common Scams
+Crypto Assets
+HoweyTrade
+Never Stop Learning
+Public Service Campaign
+World Investor Week
+Investing Quizzes
+Videos
+Retirement Toolkit
+First Job
+Switching Jobs
+Employer-Sponsored Plans
+Federal Government Plans
+Managing Lifetime Income
+Senior Specialist Designations
+Social Security
+Avoiding Retirement Fraud
+Information For:
+Students
+Military
+Veterans
+Older Investors
+Teachers
+Youth
+Entrepreneurs
+Breadcrumb
+Home
+Introduction to Investing
+Investor Alerts and Bulletins
+Main navigation (Alerts)
+Investor Alerts & Bulletins
+Publications and Research
+What Are Corporate Bonds?
+June 4, 2013
+The SEC's Office of Investor Education and Advocacy is issuing this Investor Bulletin to offer basic information about corporate bonds.
+What is a corporate bond?
+A bond is a debt obligation, like an IOU. Investors who buy corporate bonds are lending money to the company issuing the bond. In return, the company makes a legal commitment to pay interest on the principal and, in most cases, to return the principal when the bond comes due, or matures.
+To understand bonds, it is helpful to compare them with stocks. When you buy a share of common stock, you own equity in the company and will receive any dividends declared and paid by the company. When you buy a corporate bond, you do not own equity in the company. You will receive only the interest and principal on the bond, no matter how profitable the company becomes or how high its stock price climbs. But if the company runs into financial difficulties, it still has a legal obligation to make timely payments of interest and principal. The company has no similar obligation to pay dividends to shareholders. In a bankruptcy, bond investors have priority over shareholders in claims on the company's assets.
+Like all investments, bonds carry risks. One key risk to a bondholder is that the company may fail to make timely payments of interest or principal. If that happens, the company will default on its bonds. This "default risk" makes the creditworthiness of the company—that is, its ability to pay its debt obligations on time—an important concern to bondholders.
+What are the basic types of corporate bonds?
+Corporate bonds make up one of the largest components of the U.S. bond market, which is considered the largest securities market in the world. Other components include U.S. Treasury bonds, other U.S. government bonds, and municipal bonds.
+Companies use the proceeds from bond sales for a wide variety of purposes, including buying new equipment, investing in research and development, buying back their own stock, paying shareholder dividends, refinancing debt, and financing mergers and acquisitions.
+Bonds can be classified according to their maturity, which is the date when the company has to pay back the principal to investors. Maturities can be short term (less than three years), medium term (four to 10 years), or long term (more than 10 years). Longer-term bonds usually offer higher interest rates, but may entail additional risks.
+Bonds and the companies that issue them are also classified according to their credit quality. Credit rating agencies assign credit ratings based on their evaluation of the risk that the company may default on its bonds. Credit rating agencies periodically review their bond ratings and may revise them if conditions or expectations change.
+Based on their credit ratings, bonds can be either investment grade or non-investment grade. Investment-grade bonds are considered more likely than non-investment grade bonds to be paid on time. Non-investment grade bonds, which are also called high-yield or speculative bonds, generally offer higher interest rates to compensate investors for greater risk.
+Bonds also differ according to the type of interest payments they offer. Many bonds pay a fixed rate of interest throughout their term. Interest payments are called coupon payments, and the interest rate is called the coupon rate. With a fixed coupon rate, the coupon payments stay the same regardless of changes in market interest rates.
+Other bonds offer floating rates that are reset periodically, such as every six months. These bonds adjust their interest payments to changes in market interest rates. Floating rates are based on a bond index or other benchmark. For example, the floating rate may equal the interest rate on a certain type of Treasury bond plus 1%.
+One type of bond makes no interest payments until the bond matures. These are called zero-coupon bonds, because they make no coupon payments. Instead, the bond makes a single payment at maturity that is higher than the initial purchase price. For example, an investor may pay $800 to purchase a five-year, zero-coupon bond with a face value of $1,000. The company pays no interest on the bond for the next five years, and then, at maturity, pays $1,000—equal to the purchase price of $800 plus interest, or original issue discount, of $200. Investors in zero-coupon bonds generally must pay taxes each year on a prorated share of the interest before the interest is actually paid at maturity.
+What happens if a company goes into bankruptcy?
+If a company defaults on its bonds and goes bankrupt, bondholders will have a claim on the company's assets and cash flows. The bond's terms determine the bondholder's place in line, or the priority of the claim. Priority will be based on whether the bond is, for example, a secured bond, a senior unsecured bond or a junior unsecured (or subordinated) bond.
+In the case of a secured bond, the company pledges specific collateral—such as property, equipment, or other assets that the company owns—as security for the bond. If the company defaults, holders of secured bonds will have a legal right to foreclose on the collateral to satisfy their claims.
+Bonds that have no collateral pledged to them are unsecured and may be called debentures. Debentures have a general claim on the company's assets and cash flows. They may be classified as either senior or junior (subordinated) debentures. If the company defaults, holders of senior debentures will have a higher priority claim on the company's assets and cash flows than holders of junior debentures.
+Bondholders, however, are usually not the company's only creditors. The company may also owe money to banks, suppliers, customers, pensioners, and others, some of whom may have equal or higher claims than certain bondholders. Sorting through the competing claims of creditors is a complex process that unfolds in bankruptcy court.
+What are the financial terms of a bond?
+The basic financial terms of a corporate bond include its price, face value (also called par value), maturity, coupon rate, and yield to maturity. Yield to maturity is a widely used measure to compare bonds. This is the annual return on the bond if held to maturity taking into account when you bought the bond and what you paid for it.
+A bond often trades at a premium or discount to its face value. This can happen when market interest rates rise or fall relative to the bond's coupon rate. If the coupon rate is higher than market interest rates, for example, then the bond will likely trade at a premium.
+Financial Term
+Bond A
+Bond B
+Bond C
+Price (as a % of face value)
+100
+90
+110
+Maturity
+10 years
+10 years
+10 years
+Face value
+$1,000
+$1,000
+$1,000
+Coupon rate
+4.00%
+4.00%
+4.00%
+Yield to maturity
+4.00%
+5.31%
+2.84%
+Bond A. Bond prices may be quoted in dollars or as a percentage of its face value. Bond A's price is 100% of the face value, or $1,000. The bond will pay 4% of the face value, or $40 per year. Most bonds are paid semiannually, so Bond A will pay $20 every six months. In addition, the bond will make a principal payment of $1,000 at the end of the 10 years. The bond pays a 4.00% yield to maturity because it is not trading at either a premium or a discount.
+Bond B. Bond B's price is 90% of its face value, or $900. Notwithstanding this, investors in Bond B will still receive a total of $40 per year in coupon payments and when Bond B matures, bondholders will still receive the face value of $1,000. The discounted price results in Bond B having a yield to maturity of 5.31%.
+Bond C. This bond sells for a premium at $1,100, or 110% of face value. Like Bonds A and B, investors in Bond C will receive a total of $40 per year in coupon payments and the bond's face value of $1,000 at maturity. Because of the premium price, the yield to maturity on Bond C at 2.84% is lower than the coupon rate.
+What's the relationship among bond prices, interest rates and yield?
+The price of a bond moves in the opposite direction than market interest rates—like opposing ends of a seesaw. When interest rates go up, the price of the bond goes down. And when interest rates go down, the bond's price goes up. As shown above, a bond's yield also moves inversely with the bond's price.
+For example, let's say a bond offers 3% interest, and a year later market interest rates fall to 2%. The bond will still pay 3% interest, making it more valuable than newly issued bonds paying just 2% interest. If you sell the 3% bond, you will probably find that its price is higher than a year ago. Along with the rise in price, however, the yield to maturity for any new buyer of the bond will go down.
+Now suppose market interest rates rise from 3% to 4%. If you sell the 3% bond, it will be competing with new bonds that offer 4% interest. The price of the 3% bond may be more likely to fall. The yield to maturity for any new buyer, however, will rise as the price falls.
+It's important to keep in mind that despite swings in trading price with a bond investment, if you hold the bond until maturity, the bond will continue to pay the stated rate of interest as well as its face value upon maturity, subject to default risk.
+What are some of the risks of corporate bonds?
+Credit or default risk
+Credit or default risk is the risk that a company will fail to timely make interest or principal payments and thus default on its bonds. Credit ratings try to estimate the relative credit risk of a bond based on the company's ability to pay. Credit rating agencies periodically review their bond ratings and may revise them if conditions or expectations change.
+The corporate bond contract (called an indenture) often includes terms called covenants designed to limit credit risk. For instance, the terms may limit the amount of debt the company can take on, or may require it to maintain certain financial ratios. Violating the terms of a bond may constitute a default. The bond trustee monitors the company's compliance with the terms of its indenture. The trustee acts on behalf of the bondholders and pursues remedies if the bond covenants are violated.
+Interest rate risk
+As discussed above, the price of a bond will fall if market interest rates rise. This presents investors with interest rate risk, which is common to all bonds, even U.S. Treasury bonds. A bond's maturity and coupon rate generally affect its sensitivity to changes in market interest rates.
+The longer the bond's maturity, the more time there is for rates to change and, as a result, affect the price of the bond. Therefore, bonds with longer maturities generally present greater interest rate risk than bonds of similar credit quality that have shorter maturities. To compensate investors for this interest rate risk, long-term bonds generally offer higher interest rates than short-term bonds of the same credit quality.
+If two bonds offer different coupon rates while all of their other characteristics are the same, the bond with the lower coupon rate will generally be more sensitive to changes in market interest rates. For example, imagine one bond that has a coupon rate of 2% while another bond has a coupon rate of 4%. All other features of the two bonds—when they mature, their level of credit risk, and so on—are the same. If market interest rates rise, then the price of the bond with the 2% coupon rate will fall by a greater percentage than that of the bond with the 4% coupon rate. This makes it particularly important for investors to consider interest rate risk when they purchase bonds in a low-interest rate environment.
+Inflation risk
+Inflation is a general rise in the prices of goods and services, which causes a decline in purchasing power. With inflation over time, the amount of money received on the bond's interest and principal payments will purchase fewer goods and services than before.
+Liquidity risk
+Liquidity is the ability to sell an asset, such as a bond, for cash when the owner chooses. Bonds that are traded frequently and at high volumes may have stronger liquidity than bonds that trade less frequently. Liquidity risk is the risk that investors seeking to sell their bonds may not receive a price that reflects the true value of the bonds (based on the bond's interest rate and creditworthiness of the company). If you own a bond that is not traded on an exchange, you may have to go to a broker when you want to sell it. In addition, the bond market does not have the same pricing transparency as the equity market, as the dissemination of pricing information is more limited for corporate bonds in comparison to equity securities such as common stock.
+Call risk
+The terms of some bonds give the company the right to buy back the bond before the maturity date. This is known as calling the bond, and it represents "call risk" to bondholders. For example, a bond with a maturity of 10 years may have terms allowing the company to call the bond any time after the first five years. If it calls the bond, the company will pay back the principal (and possibly an additional premium depending on when the call occurs).
+One reason the company may call the bond back is if market interest rates have fallen relative to the coupon rate on the bond. That same decline in market interest rates would likely make the bond more valuable to bondholders. Thus, what is financially advantageous to the company is likely to be financially disadvantageous to the bondholder. Bondholders may be unable to reinvest at a comparable interest rate for the same level of risk. Investors should check the terms of the bond for any call provisions or other terms allowing for prepayment.
+How can investors reduce their risks?
+Investors can reduce their risks by diversifying their assets. Bonds are one type of asset, along with shares of stock (or equity), cash, and other investments.
+Investors also can diversify the types of bonds they hold. For example, investors could buy bonds of different maturities—balancing short-term, intermediate, and long-term bonds—or diversify the mix of their bond holdings by combining corporate, Treasury, or municipal bonds.
+Investors with a greater risk tolerance may decide to buy bonds of lower credit quality, accepting higher risks in pursuit of higher yields. More conservative investors, however, may prefer to limit their bond holdings solely to high-quality bonds, avoiding riskier or more speculative bonds.
+Instead of holding bonds directly, investors can invest in mutual funds or exchange-traded funds (ETFs) with a focus on bonds. Investors should base their decisions on their individual circumstances.
+How do I research my bond or bond fund investment?
+A prospectus is the offering document filed with the SEC by a company that issues bonds for sale to the public in a registered transaction. Among other things, the prospectus relating to a corporate bond issuance describes the terms of the bond, significant risks of investing in the offering, the financial condition of the company issuing the bond, and how the company plans to use the proceeds from the bond sale. Similarly, if you are investing in a bond-focused mutual fund or ETF, these funds also prepare prospectuses detailing important information about the fund. Investors can ask their broker-dealer for the prospectus of any bond or bond fund in which they are interested. Prospectuses also are available to the public without charge on the SEC's EDGAR website, available at www.sec.gov/edgar/searchedgar/webusers.htm. You can also find a bond fund's prospectus at the bond fund's website.
+Regular periodic reports are filed by both companies that have sold bonds in a public offering and by bond-focused mutual funds and ETFs. Companies that have sold bonds in a public offering file quarterly reports on Form 10-Q and annual reports on Form 10-K, among other filings. You can use these reports to learn about and monitor a company's financial condition. Mutual funds and ETFs file annual and semiannual reports that detail the performance and holdings of the fund. These reports are available to the public without charge on the SEC's EDGAR website. You can also often find the reports of a bond fund at the bond fund's website.
+Reports on price and trading histories for particular bonds are available to the public without charge at FINRA's Market Data Center at www.finra.org/Investors/MarketData/P124134.
+Broker-dealer background checks can help investors avoid fraud. You can check the background of broker-dealers on FINRA's BrokerCheck website at www.finra.org/brokercheck.
+Additional Information
+For our Investor Bulletin on high-yield bonds, visit sec.gov/investor/alerts/ib_high-yield.pdf.
+For more information on mutual funds generally, visit sec.gov/investor/pubs/beginmutual.htm.
+For our Investor Bulletin on ETFs, visit sec.gov/investor/alerts/etfs.pdf.
+For "Using EDGAR - Researching Public Companies," visit www.investor.gov/researching-managing-investments/researching-investments/using-edgar-researching-public-companies.
+For our Investor Bulletin on reading a Form 10-K, visit sec.gov/investor/pubs/reada10k.pdf.
+For our Investor Bulletin on reading fund reports, visit sec.gov/investor/alerts/ib_readmfreport.pdf.
+For more on bonds in general, visit FINRA's Smart Bond Investing at www.finra.org/Investors/InvestmentChoices/Bonds/smartBondInvesting/Introduction/.
+For more information about credit rating agencies, visit our Fast Answer at sec.gov/answers/nrsro.htm and the website for the SEC's Office of Credit ratings at sec.gov/about/offices/ocr.shtml.
+For more information about municipal bonds, see our Investor Bulletin on municipal bonds at sec.gov/investor/alerts/municipalbondsbulletin.pdf, and visit the Municipal Securities Rulemaking Board's Electronic Municipal Market Access (EMMA) website at www.emma.msrb.org.
+For more educational information, visit the SEC's website for individual investors at www.investor.gov.
+The Office of Investor Education and Advocacy has provided this information as a service to investors. It is neither a legal interpretation nor a statement of SEC policy. If you have questions concerning the meaning or application of a particular law or rule, please consult with an attorney who specializes in securities law.
+Featured Content
+Invest in Your Future. Protect It Today.
+Learn more about World Investor Week, a global campaign to raise awareness about the importance of investor education and protection.
+Take This Month's Quiz
+Check your knowledge of compound growth, asset allocation, retirement plans, and more in our October investing quiz!
+Use Financial Tools and Calculators
+Access RMD, compound interest and savings goal calculators plus other financial tools.
+Invest for Your Child's Future
+Learn about Trump Accounts today!
+Never stop learning about investing!
+Stay up to date with Investor Alerts & Bulletins, Quizzes, and more.
+Get Email Updates from Investor.gov
+Sign up for Investor Updates Enter Email Address
+Site Information
+SEC.gov
+MyMoney.gov
+FOIA
+Plain Writing
+Privacy
+Vulnerability Disclosure Policy
+USA.gov
+Disclaimer
+Multilingual Disclaimer
+Return to Top

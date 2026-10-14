@@ -1,0 +1,1255 @@
+{
+  "as_of": "2026-10-13",
+  "status": "all_63_individually_reviewed_58_resolved_5_unresolved",
+  "policy": "Includes conservative pending screening, not a finding that every replacement is wrong. Preserve original evidence and existing approved variants.",
+  "items": [
+    {
+      "id": "S3C7T01-CORE",
+      "status": "resolved",
+      "original_intent": "성과비교는정량",
+      "changed_scope": "특정 교재의7단계 번호를 보편 표준으로 주장하지 않고 분석내용을 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 370,
+      "publisher_answer": "③",
+      "original_question": "TOPIC\n\n\n\n                                   目^目     성과평가 7단계 개요01\n\n  핵심문제  성과평가에 대한 다음 설명 중 가장 적절하지 않은 것은?             • •O\n\n       ① 성과평가의 주목적은 일정기간 얻어진 성과가 운(Luck)에 의한 것인지, 프로세스에 의한\n\n         것인지를 판명하는 것이다.\n\n       ② 성과평가 7단계 중 가장 먼저 시작하는 것은 투자자산의 가치평가와 회계처리이다.\n\n       ③ 벤치마크와의 비교 등 성과비교단계는 정성평가에 속한다.\n\n       ④ 성과평가는 성과우열을 측정함으로써 투자의 효율성 및 운용능력을 측정하는 것과 성과\n\n           의 원인과 특성을 파악하기 위한 것으로 구분된다.\n\n        鼠日 4단계 성과비교는 정량평가에 해당한다.\n                                         国③",
+      "original_explanation": "의 원인과 특성을 파악하기 위한 것으로 구분된다.\n\n        鼠日 4단계 성과비교는 정량평가에 해당한다.",
+      "current_clean_prompt": "성과평가 설명 중 틀린 것은? ① 투자과정의 질을 평가하려면 운·표본오차도 고려한다. ② 신뢰할 수 있는 자산가치·회계자료는 성과측정의 입력이다. ③ 수익률 수치를 벤치마크 수치와 비교하는 작업은 수치분석이 전혀 없는 순수 정성판단이다. ④ 수익률 측정과 성과 원인 분석은 구분할 수 있다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 370쪽 원래7단계·가치평가 선행·정량/정성·성과원인 네 논점 복원. CFA의 다른 분류와 혼동하지 않도록 교재 분류를 명시. 원답③.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:370",
+        "answer_packets:S3C7T01-CORE"
+      ]
+    },
+    {
+      "id": "S3C7T02-CORE",
+      "status": "resolved",
+      "original_intent": "매매일기준",
+      "changed_scope": "공정가치와 관측시가를 완전동의어로 설명하지 않고 GIPS의 발생주의 예외를 반영했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 371,
+      "publisher_answer": "③",
+      "original_question": "성과평가 1단계\n      (펀드의 회계처리) 劭★★★\n\n\n 핵심문제  펀드의 회계처리에 관한 내용이다. 가장 거리가 먼 것은?             • •O\n\n      ① 공정가치 평가\n\n      ② 발생주의 회계\n\n      ③ 결제일 기준 회계처리\n\n      ④ 시가평가제도\n\n\n       覷管 결제일이 아닌 체결일 기준이다. ①, ④는 같은 개념이다.\n\n                                        理③",
+      "original_explanation": "覷管 결제일이 아닌 체결일 기준이다. ①, ④는 같은 개념이다.",
+      "current_clean_prompt": "GIPS의 일반 회계·가치평가 원칙에 어긋나는 것은? ① 공정가치로 평가한다. ② 현금·현금성자산 이자 예외를 제외한 이자수입 투자에 발생주의를 쓴다. ③ 증권 매매는 언제나 결제일 현금교환 때까지 인식하지 않는다. ④ 신뢰할 수 있는 시장가격은 공정가치 평가에 활용된다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 공정가치·발생주의·결제일·시가 네 논점 유지. GIPS 현금이자 예외 및 시장가격이 공정가치 평가 입력임을 보완. 2.A.9/10/19 직접 대조, 원답③.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:371",
+        "answer_packets:S3C7T02-CORE"
+      ]
+    },
+    {
+      "id": "S3C7T02-SUP-01",
+      "status": "resolved",
+      "original_intent": "Q1 공정가치·발생·매매일",
+      "changed_scope": "외부전문기관의 가격만 모든 비시장자산에 기계적으로 적용해야 한다는 원해설을 법정 절차로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 372,
+      "publisher_answer": "①",
+      "original_question": "01  펀드의 회계처리에 대한 설명이다. 틀린 것으로 연결한 것은?\n\n\n          가, 시가가 형성되지 않은 채권 등의 경우에는 운용회사의 자체기준에 따라 평가한 가격으로 평가한다.\n\n          나. 현금의 수입이나 지출과 관계없이 그 발생시점에서 손익을 인식한다\n\n          다. 유가증권의 체결 시점에서의 미수증권이나 미지급금도 반영한다.\n\n\n   ①가\n\n   ②  나, 다\n\n   ③  가, 다\n\n   ④  가, 나, 다\n\n   EO ウ만 틀린 내용이다.\n                          •  가: 시가가 형성되지 않을 경우 공정가액의 평가는, 운용회사가 임의로 결정하지 않고 채권평가회사와 같은\n\n         외부전문기관이 공급하는 가격으로 평가한다.\n\n                          •  나    : 발생주의를 의미한다.\n\n                          •  다: 발생주의 회계이므로, 거래의 체결이 확인되면, 실제로 현금흐름에 따른 결제가 일어나지 않았다 하더라\n          도（画 미수증권, 미지급금） 회계상에 반영한다.\n\n\n          학습안내  29회 출제유형인데 그동안 출제되지 않았던 미세한 개념（가, 다）까지 반영한 것이 특징이다.\n\n                                        □①",
+      "original_explanation": "EO ウ만 틀린 내용이다.\n                          •  가: 시가가 형성되지 않을 경우 공정가액의 평가는, 운용회사가 임의로 결정하지 않고 채권평가회사와 같은\n\n         외부전문기관이 공급하는 가격으로 평가한다.\n\n                          •  나    : 발생주의를 의미한다.\n\n                          •  다: 발생주의 회계이므로, 거래의 체결이 확인되면, 실제로 현금흐름에 따른 결제가 일어나지 않았다 하더라\n          도（画 미수증권, 미지급금） 회계상에 반영한다.\n\n\n          학습안내  29회 출제유형인데 그동안 출제되지 않았던 미세한 개념（가, 다）까지 반영한 것이 특징이다.",
+      "current_clean_prompt": "가. 신뢰할 만한 시가 없는 국내 집합투자재산은 법정 평가절차 없이 운용사가 임의가격을 사용한다. 나. 발생주의는 현금수취·지급일에만 손익을 인식하는 것이 아니다. 다. GIPS 거래일회계는 체결로 발생한 자산·부채를 결제 전에도 인식한다. 틀린 항목은? ① 가 ② 나·다 ③ 가·다 ④ 모두",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 가·나·다 임의가격·발생주의·체결인식 유지. 외부전문기관가격만 항상 사용한다는 원해설 대신 법238조 실제 평가절차 반영. 원답①.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:372",
+        "answer_packets:S3C7T02-SUP-01"
+      ]
+    },
+    {
+      "id": "S3C7T04-SUP-03",
+      "status": "resolved",
+      "original_intent": "Q3 목표위험",
+      "changed_scope": "목표수익 추구에는 표준편차를 사용할 수 없다는 단정 대신 지표가 측정하는 대상을 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 378,
+      "publisher_answer": "①",
+      "original_question": "03 목표수익률을 추구하는 운용전략을 고려할 때 적정한 위험지표가 되지 않는 것은?\n\n 990 ① 표준편차               ② 절대VaR\n\n   ③ 하락편차               ④ 반편차\n\n   EO 운용전략별로 어떤 위험지표가 적정한가를 묻는 문제이다. ’안정적인 수익률을 목표로 하는 운용전략'은 표준편\n           차가, ‘목표수익률을 추구하는 운용전략'은 하락위험이, '기준지표가 미리 정해진 투자'인 경우는 상대적 위험지\n\n        표가 적정하다.\n                                         白①",
+      "original_explanation": "EO 운용전략별로 어떤 위험지표가 적정한가를 묻는 문제이다. ’안정적인 수익률을 목표로 하는 운용전략'은 표준편\n           차가, ‘목표수익률을 추구하는 운용전략'은 하락위험이, '기준지표가 미리 정해진 투자'인 경우는 상대적 위험지\n\n        표가 적정하다.",
+      "current_clean_prompt": "상방편차까지 대칭적으로 포함해 평균 주변의 전체 변동성을 재는 것은? ① 표준편차 ② 손실분포의 꼬리 분위수 VaR ③ 목표미달 하락편차 ④ 평균미달 반편차",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 378쪽 목표수익 추구라는 원래 전략조건과 네 지표 복원. 절대 부적합이 아닌 하방전용 여부로 판단기준 정밀화, 원답①.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:378",
+        "answer_packets:S3C7T04-SUP-03"
+      ]
+    },
+    {
+      "id": "S3C7T05-CORE",
+      "status": "unresolved",
+      "original_intent": "벤치마크비교용어",
+      "changed_scope": "원문은 벤치마크 비교가 상대평가라는 올바른 진술을 오답처리한다. 그 부정문으로 교정했다. 정상포트폴리오를 특정 유동성 분류와 배타적으로 연결하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 379,
+      "publisher_answer": "②",
+      "original_question": "T。이 C\n\n     성과평가 4단계\n      (기준지표의 설정) 国―\n\n\n 핵심문제  벤치마크(기준지표)에 대한 설명으로 가장 적절하지 않은 것은?\n\n      ① 벤치마크는 자산운용의 지침이나 제약조건이 될 수 있는 최소한의 기준역할을 한다.\n\n      ② 벤치마크는 사후적으로 투자성과를 상대적으로 평가하는 잣대이다.\n\n      ③ 벤치마크는 평가기간이 시작되기 전에 사전적으로 정해져야 한다,\n\n      ④ 유동성이 부족한 벤치마크는 정상포트폴리오를 사용할 수 있는데 이 경우 벤치마크의 속\n\n          성 중 투자가능성에 부합한다.\n\n   国 상대적으로 평가 一 절대적으로 평가(벤치마크 수익률은 절대적 펑가기준이고 동류그룹 수익胃은 상대\n\n             적 평가기준이다).\n\n                                        9②",
+      "original_explanation": "성 중 투자가능성에 부합한다.\n\n   国 상대적으로 평가 一 절대적으로 평가(벤치마크 수익률은 절대적 펑가기준이고 동류그룹 수익胃은 상대\n\n             적 평가기준이다).",
+      "current_clean_prompt": "벤치마크 설명 중 틀린 것은? ① 운용전략의 지침·비교기준으로 쓸 수 있다. ② 벤치마크 대비 초과수익은 기준과 비교하는 상대성과가 아니다. ③ 평가 전에 정하고 전략 적합성을 확인한다. ④ 명확하고 측정·복제투자가 가능한 기준을 지향한다.",
+      "resolution_status": "insufficient_original_evidence_or_publisher_error",
+      "resolution_note": "원문② 벤치마크로 상대성과를 평가한다는 명제는 CFA 근거에 부합한다. 원답②를 유지하려 ②를 반대문장으로 바꾼 이전안은 원문 검증이 아니다.④ 정상포트폴리오의 정의·투자가능성 전제를 입증할 세부근거도 부족해 원래 전보기에서 유일한 오답 확정 불가.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00",
+      "evidence_checked": [
+        "P3:379",
+        "answer_packets:S3C7T05-CORE"
+      ]
+    },
+    {
+      "id": "S3C7T05-SUP-01",
+      "status": "unresolved",
+      "original_intent": "Q1 벤치마크유형",
+      "changed_scope": "맞춤형과 정상포트폴리오라는 이름만으로 적합성을 배타 판정하던 설명을 실제 전략·제약 적합성으로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 380,
+      "publisher_answer": "④",
+      "original_question": "이  기준지표(Benchmark)의 종류에 대한 설명이다. 가장 거리가 먼 것은?\n\n •・0 ① 범위가 가장 넓으며 운용에 특이한 제약조건이 없는 경우 적합한 벤치마크는 시장지수(Market\n\n          Index) 이다.\n\n   ② 특정분야에 집중투자하는 경우 적합한 벤치마크는 섹터지수 또는 스타일지수이다.\n\n   ③  2개 이상의 시장지수나 섹터지수를 합성한 것으로, 혼합형펀드의 벤치마크로 적합한 것은 합성지\n\n      수이다.\n\n   ④ 일반성이 낮은 특정펀드에 투자할 경우 적합한 벤치마크는 정상포트폴리오이다.\n\n  血 일반성이 적은 특정펀드에 적합한 벤치마크는 '맞춤형 포트폴리오’이다.\n\n           災 정상포트폴리오(Normal  Portfolio)    ： 유동성을 고려한 것으로, 채권의 벤치마크로 많이 활용된다.\n\n\n\n\n\n380 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등",
+      "original_explanation": "특정 펀드의 운용특성에 맞춘 포트폴리오는 정상포트폴리오와 구별한다.",
+      "current_clean_prompt": "벤치마크 선택 설명 중 틀린 것은? ① 광범위 시장 운용에는 해당 시장지수를 검토할 수 있다. ② 특정 섹터·스타일 운용에는 그 노출을 반영한 지수를 검토한다. ③ 혼합 운용에는 사전가중·산식이 분명한 복합기준을 검토할 수 있다. ④ 특수 제약이 있는 펀드도 제약을 무시한 아무 시장지수나 반드시 적합하다.",
+      "resolution_status": "insufficient_original_evidence_or_publisher_error",
+      "resolution_note": "원문④ 정상포트폴리오와 맞춤형포트폴리오의 구분은 해당 용어 정의·투자가능성 설명 근거가 필요하다. CFA 일반 벤치마크 적합성 요건만으로 양자 구분과 원답④를 입증할 수 없으며 아무 시장지수나 적합하다는 전혀 다른 문장으로 바꾼 이전안 철회.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00",
+      "evidence_checked": [
+        "P3:380",
+        "answer_packets:S3C7T05-SUP-01"
+      ]
+    },
+    {
+      "id": "S3C7T06-SUP-05",
+      "status": "resolved",
+      "original_intent": "Q5 비체계위험",
+      "changed_scope": "추적오차를 무조건 순수 잔차위험이라고 한 원해설을 시장노출 차이항까지 포함하도록 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 385,
+      "publisher_answer": "④",
+      "original_question": "05 다음 RAPM지표 중 비체계적 위험을 고려하는 방법을 모두 고르면?\n••0 ① 샤프 비유 트레이너 비율\n\n   ② 트레이너 비율, 젠센의 알파\n\n   ③ 젠센의 알파, 정보 비율\n\n   ⑷ 정보 비율 샤프 비율\n\n   EH 트레이너 비율과 젠센의 알파는 베타（3）를 사용하는데 베타（⑶는 체계적 위험을 말한다. 그런데 샤프 비율이\n        사용하는 표준편차 지표는 총위험 지표로써, 체계적 위험과 비체계적 위험의 합의 개념이다. 그리고 정보 비율\n\n        은 잔차위험을 위험지표로 사용하는데, 잔차위험은 비체계적 위험이 있을 경우 발생하는 위험이다. 즉, 비체계\n\n         적 위험이 반영되는 지표는 샤프 비율과 정보 비율이다.\n\n\n\n                                         제7장투자운용결과분석 385",
+      "original_explanation": "교재는 샤프비율과 정보비율을 선택한다. 정보비율의 추적오차와 시장회귀 잔차위험을 무조건 같다고 가르치지 않는다.",
+      "current_clean_prompt": "Rp-rf=α+β(Rm-rf)+ε이고 시장·잔차가 무상관이다. 샤프분모SD(Rp), 정보비율분모SD(Rp-Rm), 트레이너분모β로 정의한다. 잔차분산이 위험분모에 포함되는 지표쌍은? ① 샤프·트레이너 ② 트레이너·젠센α ③ 젠센α·정보 ④ 정보·샤프",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 지표쌍 네 보기 유지. 정보비율 추적오차와 회귀잔차의 무조건 동일시를 피하고 시장·잔차 무상관 분산분해로 잔차가 들어감을 독립 확인. 원답④.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:385",
+        "answer_packets:S3C7T06-SUP-05"
+      ]
+    },
+    {
+      "id": "S3C7T08-SUP-01",
+      "status": "resolved",
+      "original_intent": "Q1 TM·HM",
+      "changed_scope": "원문③의 '타이밍 정도를 측정할 수 없다'도 일반적으로 틀려 단일정답이 무너진다. 계수의 크기·오차를 함께 평가하는 진술로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 390,
+      "publisher_answer": "④",
+      "original_question": "01  아래 식에 대한 설명으로 잘못된 것은?\n ••°  r-----------------------------------------------------------------------------------.\n\n    ム ー，ウ=，% + %（%-%）+\"ル（演 一 H/产\n          （り,   : 펀드수익률, Rf    : 무위험수익률, Rb    : 기준지표수익률）\n\n\n   ① 종목선택능력을 가지고 있다면 %p> 〇'이다.\n\n   ② 시장예측능력을 가지고 있다면 ‘ヶp> O'이다.\n\n   ③ 시장예측능력의 존재여부를 알 수 있으나 그 정도를 측정할 수는 없다.\n\n   ④ 헨릭슨-머튼 모형이다.\n\n   給酉  트레이너-마주이（Treynor Mazuy） 모형이다.\n                                        图④",
+      "original_explanation": "給酉  트레이너-마주이（Treynor Mazuy） 모형이다.",
+      "current_clean_prompt": "x=Rb-rf, Rp-rf=α+βx+γx²+ε라는 회귀다. 틀린 것은? ① α는 이 지정모형의 절편이다. ② γ>0이면 조건부회귀곡선은 볼록하다. ③ γ의 값과 추정불확실성을 함께 보고 타이밍 특성을 해석한다. ④ 제곱항이 아니라 더미 교차항을 쓰는 Henriksson-Merton 식 자체다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 390쪽 원래 α선택·γ타이밍·기여정도·HM명칭 네 논점 복원.③ 계수크기도 측정불가라는 원문 오류를 추정과 인과입증의 차이로 교정. 원답④.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00"
+    },
+    {
+      "id": "S3C7T09-CORE",
+      "status": "resolved",
+      "original_intent": "RBSA입력",
+      "changed_scope": "원문 주식비중만으로 낙관전망 확정, 회전율만으로 더 큰 위험 확정이라는 두 단정도 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 391,
+      "publisher_answer": "④",
+      "original_question": "성과평가 5단계(성과특성 분석)・(2)\n     포트폴리오 및 스타일분석 ­\n\n 핵심문제  포트폴리오의 특성분석 및 스타일분석에 대한 내용으로 잘못된 것은?      • •O\n\n      ① 포트폴리오 분석은 포트폴리오의 결과물에 대한 분석이 아닌 포트폴리오 자체의 특성을\n\n        분석하는 것이다.\n\n      ② 해당 펀드의 주식비중이 95%이고 동류펀드의 주식비중평균이 80%라면 해당 펀드는 주\n\n         식시장에 대한 낙관적 전망을 가지고 있다.\n\n      ③ 매매회전율이 높은 펀드의 위험이 더 크다.\n\n      ④ 포트폴리오를 실제로 구성하는 종목분석을 통해 스타일올 판단하는 방법이 샤프의 알파\n\n            이다.\n\n      03 ④는 ’포트폴리오에 기초한 스타일분석기법이며 샤프의 알파는 '수익畳에 기초한 스타일분석기법,이다.\n\n           샤프의 알파는 스타일을 구성하는 종목정보가 필요 없다,\n                                        回④",
+      "original_explanation": "이다.\n\n      03 ④는 ’포트폴리오에 기초한 스타일분석기법이며 샤프의 알파는 '수익畳에 기초한 스타일분석기법,이다.\n\n           샤프의 알파는 스타일을 구성하는 종목정보가 필요 없다,",
+      "current_clean_prompt": "스타일·특성 분석 설명 중 틀린 것은? ① 보유기반 분석은 실제 구성자산 특성을 본다. ② 주식비중95%는80%보다 현재 주식노출이 크다는 정보다. ③ 매매회전율이 높다고 수익률 변동성이 반드시 더 큰 것은 아니다. ④ Sharpe 수익률기반 스타일분석은 개별 보유종목 내역 없이는 절대 수행할 수 없다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 보유기반·95/80 비중·회전율·Sharpe 수익률기반 네 논점 유지. 비중만으로 낙관전망/회전율만으로 위험증대 단정을 최소교정. Sharpe 원논문 입력·기간평균 노출 대조. 원답④.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:391",
+        "answer_packets:S3C7T09-CORE"
+      ]
+    },
+    {
+      "id": "S3C7T09-SUP-01",
+      "status": "resolved",
+      "original_intent": "Q1 스타일지수",
+      "changed_scope": "채권 만기와 듀레이션을 구분하고 비교기준의 적합성을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 392,
+      "publisher_answer": "④",
+      "original_question": "01  스타일분석에 대한 내용이다. 가장 적절하지 않은 것은?\n ••• ① 스타일분석이란 성과에 가장 큰 영향을 주는 변수를 골라 내어 이를 기준으로 펀드를 분류하는\n\n     기법이라 할 수 있다.\n\n   ② 주식형펀드의 경우 펀드가 보유한 주식의 규모와 가치평가의 정도에 따라 분류한다.\n\n   ③ 채권형펀드의 경우 펀드가 보유한 채권의 평균 신용등급의 높고 낮음과 평균 만기의 길고 짧음에\n\n     따라 분류한다.\n\n   ④ 명시적으로 스타일을 표방하고 있는 대형주펀드나 가치주펀드의 평가는 종합주가지수와 같은 시\n\n     장지수를 통해 정확히 평가할 수 있다.\n\n   EO 명시적으로 스타일을 표방하고 있는 대형주펀드나 가치주펀드에 대한 평가는, 종합주가지수와 같은 시장지수\n\n        가 아니라 대형주지수나 가치주지수 등 스타일지수를 통해 평가해야 한다.\n\n        ②에서 펀드가 보유한 주식의 규모에 따른 스타일은 ・대형주/중형주/소형주 스타일을 말하며 가치평가의 정도\n\n         에 따른 스타일은 '가치주/성장주 스타일'을 말한다.\n                                         国④",
+      "original_explanation": "장지수를 통해 정확히 평가할 수 있다.\n\n   EO 명시적으로 스타일을 표방하고 있는 대형주펀드나 가치주펀드에 대한 평가는, 종합주가지수와 같은 시장지수\n\n        가 아니라 대형주지수나 가치주지수 등 스타일지수를 통해 평가해야 한다.\n\n        ②에서 펀드가 보유한 주식의 규모에 따른 스타일은 ・대형주/중형주/소형주 스타일을 말하며 가치평가의 정도\n\n         에 따른 스타일은 '가치주/성장주 스타일'을 말한다.",
+      "current_clean_prompt": "스타일별 평가 설명 중 틀린 것은? ① 보유특성·수익률노출을 통해 스타일을 분류할 수 있다. ② 주식은 규모·가치/성장 등 기준으로 나눌 수 있다. ③ 채권은 신용·듀레이션 등의 노출을 살필 수 있다. ④ 특정 스타일 운용도 적합성 검토 없이 광범위 시장지수 하나만 쓰면 항상 정확한 평가다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 스타일분류·주식규모가치·채권신용금리·스타일벤치마크 네 논점 유지. 평균만기만으로 금리위험 단정하지 않고 듀레이션 노출 보완. 전략적합성 원리상④ 거짓.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:392",
+        "answer_packets:S3C7T09-SUP-01"
+      ]
+    },
+    {
+      "id": "S3C7T09-SUP-02",
+      "status": "resolved",
+      "original_intent": "Q2 수익기반",
+      "changed_scope": "교재고유 성과요인/특성 단계명과 모든 스타일분석=정성이라는 단정을 분석입력과 산출로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 393,
+      "publisher_answer": "②",
+      "original_question": "02 빈칸에 들어갈 내용을 순서대로 바르게 나열한 것은?\n\n••〇     (---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- S\n\n               •     (        )은 수익률과 스타일지수의 상관성을 이용해서 스타일의 성과를 판단하는 기법으로\n\n       서 실제 포트폴리오에 편입된 종목에 대한 정보를 필요로 하지 않는다는 장점이 있다.\n\n                 • 이러한 분석을  (      )이라 한다.\n\n\n\n   ① 샤프의 스타일분석기법, 성과요인 분석\n\n   ② 샤프의 스타일분석기법, 성과특성 분석\n\n   ③ 포트폴리오에 기초한 스타일분석기법, 성과요인 분석\n\n   ④ 포트폴리오에 기초한 스타일분석기법, 성과특성 분석\n\n   E3 샤프의 기법을 말하며, 성과특성 분석에 해당한다. 성과요인은 성과에 기여한 요인을 마켓타이밍능력과 종목선\n        정능력으로 배분하는 분석을 말하며, 성과특성은 포트폴리오의 편입종목들을 분석하여 그 특성을 분석하는 것\n\n        을 말한다.\n\n\n          참고  성과요인과 성과특성분석은 모두 정성평가에 해당한다.\n\n\n                                        9②",
+      "original_explanation": "E3 샤프의 기법을 말하며, 성과특성 분석에 해당한다. 성과요인은 성과에 기여한 요인을 마켓타이밍능력과 종목선\n        정능력으로 배분하는 분석을 말하며, 성과특성은 포트폴리오의 편입종목들을 분석하여 그 특성을 분석하는 것\n\n        을 말한다.\n\n\n          참고  성과요인과 성과특성분석은 모두 정성평가에 해당한다.",
+      "current_clean_prompt": "펀드수익과 여러 자산군 지수수익을 사용하고 비중합1 등의 제약 아래 노출을 추정한다. 개별 보유종목목록은 직접 입력하지 않는다. 해당 방법과 주목적의 조합은? ① Sharpe 수익률기반 분석·확정적 미래수익 예측 ② Sharpe 수익률기반 분석·기간 중 평균 스타일노출 추정 ③ 보유기반 분석·현재 종목목록 전수확인 ④ 보유기반 분석·신용등급 확정",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 393쪽 두 빈칸과 원래 네 보기(샤프/보유기반×성과요인/성과특성) 복원. 기간평균 스타일노출 답으로 바꿨던 이전안을 history 보존. 원답②.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:393",
+        "answer_packets:S3C7T09-SUP-02"
+      ]
+    },
+    {
+      "id": "S3C7T09-SUP-03",
+      "status": "resolved",
+      "original_intent": "Q3 규모·가치",
+      "changed_scope": "두 요인이 언제나 실증적으로 가장 중요하다는 원문 주장을 분류체계 조건으로 한정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 393,
+      "publisher_answer": "②",
+      "original_question": "03 빈칸을 옳게 연결한 것은?(차례대로)\n\n••〇     X--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ヽ\n\n     주식의 스타일은 주식의 성과패턴에 영향을 끼치는 가장 중요한 2개의 요인이  (    )와  (            )\n\n     이라는 연구결과에 기초하여, 이를 따라 스타일을 분류하는 방법에 가장 많이 사용되고 있다.\n\n\n\n   ① 시가총액, 듀레이션\n\n   ② 시가총액, 가치  • 성장\n\n   ③ 신용도, 가치  • 성장\n\n   ④ 신용도, 듀레이션\n\n\n        주식스타일을 결정하는 중요한 2가지 요소는 ’시가총액, 가치  • 성장이며, 채권스타일을 결정하는 중요한 2\n\n        가지 요소는 ’신용도, 듀레이션'이다.\n                                        目②",
+      "original_explanation": "주식스타일을 결정하는 중요한 2가지 요소는 ’시가총액, 가치  • 성장이며, 채권스타일을 결정하는 중요한 2\n\n        가지 요소는 ’신용도, 듀레이션'이다.",
+      "current_clean_prompt": "주식의 규모와 가치/성장이라는 두 축으로 스타일을 분류한다. 이 두 축에 맞는 조합은? ① 시가총액·듀레이션 ② 시가총액·가치/성장 ③ 신용도·가치/성장 ④ 신용도·듀레이션",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "시총·가치성장·신용·듀레이션 네 원보기 유지. 가장 중요한/가장 많이라는 보편 최상급을 두축 분류의 범위로 한정. 원답②.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:393",
+        "answer_packets:S3C7T09-SUP-03"
+      ]
+    },
+    {
+      "id": "S3C7T10-CORE",
+      "status": "resolved",
+      "original_intent": "정성절차",
+      "changed_scope": "국제적으로 고정된5·6단계 구분이라는 근거 없는 원문 정답기준을 성과평가의 실제 한계로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 394,
+      "publisher_answer": "④",
+      "original_question": ": 운용자의     성과평가 6단계（정성평가\n      운용능력평가） 皿10\n\n\n       성과평가 6단계인 정성평가（운용자의 운용능력평가）에 대한 설명이다. 가장 적절하지 않\n       은 것은?                                    ••〇\n\n      ① 성과가 향후에도 지속될 수 있는지 여부를 판단하기 위해 운용자의 운용능력이 실제로\n\n         양호한지를 판단하는 단계이다.\n\n      ② 운용조직이나 인력, 운용철학과 운용지원시스템 등이 양호하면 장기적으로 양호한 성과\n\n        를 달성할 것으로 본다.\n\n      ③ 단기성과는 일시적이고 충동적인 운용선택이 시장흐름에 우연히 맞아 양호하게 나타날\n\n        수 있지만, 장기성과는 운용자의 질적인 특성에 의해 나타날 확률이 크다고 본다.\n\n      ④ 운용자의 운용능력평가는 성과평가 6단계에서 스타일분석과 함께 이루어진다.\n   重 스타일분석은 성과평가 5단계에 속한다（더 알아보기 참조）.\n                                        目④",
+      "original_explanation": "重 스타일분석은 성과평가 5단계에 속한다（더 알아보기 참조）.",
+      "current_clean_prompt": "운용조직·인력·철학·지원체계를 평가하는 설명 중 틀린 것은? ① 과거성과가 반복될 가능성을 검토하는 데 도움이 된다. ② 수치만으로 드러나지 않는 과정을 확인한다. ③ 좋은 단기성과도 운의 영향을 받을 수 있다. ④ 조직 평가가 좋으면 미래 초과수익이 반드시 보장된다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 394쪽 본문 및5/6/7단계 표 대조. 원래④의 단계구분을 복원하고 임의로 미래성과 보장문항으로 바꾼 이전안은 history 보존. 원답④.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:394",
+        "answer_packets:S3C7T10-CORE"
+      ]
+    },
+    {
+      "id": "S3C7T11-CORE",
+      "status": "resolved",
+      "original_intent": "1년미만연율화금지",
+      "changed_scope": "검증 수행과 의무 검증 여부, 컴포지트의 허용 계산방법을 구별했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 395,
+      "publisher_answer": "③",
+      "original_question": "TOPIC\n\n     성과평가 7단계\n      (성과발표 및 보고) 皿11\n\n 핵심문제  성과 측정 및 표시 방법에 대한 설명이다. 잘못된 것은?              • •O\n\n      ① 운용사는 투자자유치를 위해 운용사에 유리한 정보만을 공개하고자 하白데 이러한 점을\n\n         해결하기 위해 GIPS에서 운용사의 성과를 측정하고 발표하는 표준화된 지침을 제시하고\n\n             있다.\n\n      ②  GIPS에서 제시하는 통합계정(Composite)수익률은 포함되는 노；; 펀:의 성과를 자산가\n\n        중한 것이다.\n\n      ③  GIPS에서는 1년 미만의 기간수익률은 연율화해서 발표하도록 하고 있다.\n\n      ④  검증(Verification)은 독립적인 제3ス에 의해 수행되어야 하며 GIPS기준을 준수하는지\n\n         평가해야 한다.\n\n    顛 GIPS에서는 1년 미만의 기간수익률에 대해서 연율화를 금지하고 있다.\n                                         图③",
+      "original_explanation": "평가해야 한다.\n\n    顛 GIPS에서는 1년 미만의 기간수익률에 대해서 연율화를 금지하고 있다.",
+      "current_clean_prompt": "GIPS 성과보고 설명 중 틀린 것은? ① 정해진 기준에 따라 성과를 일관되게 보고한다. ② 컴포지트TWR은 자산가중 또는 허용 합산방법을 쓴다. ③ 1년 미만 투자수익률을 반드시 연환산해서 제시한다. ④ 회사 검증은 권고지만 검증 자체가 특정 보고서의 정확성을 보장하지는 않는다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 395~396쪽 원래 독립제3자 검증 보기④ 복원. 검증권고와 특정보고서 보장여부로 대체했던 이전안 history 보존. 원답③.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:395",
+        "answer_packets:S3C7T11-CORE"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-01",
+      "status": "resolved",
+      "original_intent": "회계",
+      "changed_scope": "모든 장부가라는 용어를 틀린 것으로 처리하지 않고 취득원가 고정과 공정가치 평가를 구별했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 397,
+      "publisher_answer": "①",
+      "original_question": "01  펀드의 회계처리 원칙과 가장 거리가 먼 것은?\n••0 ① 장부가 반영\n\n   ② 미지급이자나 배당의 반영\n\n   ③ 미수증권의 반영\n\n   ④ 운용보수 등 미지급비용을 시간경과에 따라 인식\n\n\n",
+      "original_explanation": "01   （1> ①은 장부가가 아니라 시가 또는 공정가액이 옳다. 펀드회계처리원칙은 '공정가치평가/발생주의회계/체결시점\n       인식이다. ②, ③ ④는 모두 발생주의회계에 부합한다.",
+      "current_clean_prompt": "GIPS 기준의 성과측정을 위한 일반 원칙과 어긋나는 것은? ① 현재 공정가치 변화와 무관하게 모든 자산을 취득원가로 고정한다. ② 이자수입 투자의 발생주의를 적용한다(현금·현금성자산 이자 예외 제외). ③ 체결로 발생한 자산·부채를 거래일 기준으로 인식한다. ④ 발생주의에서는 비용을 실제 현금지급일에만 인식하지 않는다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 397쪽 원래 미지급이자·배당/미수증권/운용보수 세 구체예를 복원. 원답①.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00"
+    },
+    {
+      "id": "S3C7-ADD-02",
+      "status": "resolved",
+      "original_intent": "발생주의",
+      "changed_scope": "월말평가의 적용범위·대규모흐름 요건과 현금이자 예외를 보완했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 397,
+      "publisher_answer": "④",
+      "original_question": "02  gips의 회계처리 규칙이다. 틀린 것은?\n••• ① 포트폴리오는 공정가치의 정의와 부합되며 GIPS의 평가원칙과 일치하도록 가치평가되어야 한다.\n\n   ② 포트폴리오의 가치평가는 월말 또는 그 달의 마지막 영업일을 기준으로 해야 한다,\n\n   ③ 거래일기준의 회계를 사용하여야 한다.\n\n   ④ 확정이자부증권과 이자수입을 얻는 모든 투자상품에 대해 현금주의회계가 적용되어야 한다.\n\n\n",
+      "original_explanation": "02 ④ 발생주의회계이다. 현금주의회계는 손익의 인식시점이 지연되는 문제가 있다.",
+      "current_clean_prompt": "GIPS 설명 중 틀린 것은? ① 공정가치 정의에 맞게 평가한다. ② 사모시장 투자 외 컴포지트 포트폴리오 TWR은 월말 또는 마지막영업일과 대규모흐름일에 평가한다. ③ 거래일회계를 사용한다. ④ 현금·현금성자산 아닌 이자수입 투자는 반드시 현금주의로만 처리한다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 공정가치·월말·거래일·현금주의 네 보기 유지. 사모시장 예외·대규모흐름일 및 현금이자 예외를 GIPS2.A.9/10/19/23에 맞게 추가. 원답④.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:397",
+        "answer_packets:S3C7-ADD-02"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-05",
+      "status": "resolved",
+      "original_intent": "왜도",
+      "changed_scope": "VaR이라는 이름이면 언제나 절대위험이라고 하는 오류를 막고 상대VaR과 구분했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 398,
+      "publisher_answer": "②",
+      "original_question": "05  다음 중 상대적 위험 지표에 속하지 않는 것은?\n•・• ① 초과수익률Excess Retum)의 변동성   ② VaR(Value at Risk)\n\n    ③ 베타(0)               ④ 공분산(Covariance)\n\n\n\n",
+      "original_explanation": "05 ② VaR은 절대적 위험 지표에 속한다（상대VaR에 대비되며 절대VaR라고도 함）.",
+      "current_clean_prompt": "벤치마크와의 비교가 직접 정의에 들어가지 않는 위험측정은? ①SD(Rp-Rb) ②펀드 자체 금액손실의95% VaR ③Cov(Rp,Rm)/Var(Rm) ④Cov(Rp,Rm)",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 초과변동·VaR·베타·공분산 네 보기 유지.②를 절대금액VaR로 한정하고 나머지 기준지표를 명시하여 상대VaR 혼동 방지. 원답②.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:398",
+        "answer_packets:S3C7-ADD-05"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-06",
+      "status": "resolved",
+      "original_intent": "첨도",
+      "changed_scope": "추출누락 선택지를 완전한 정의식 비교로 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 398,
+      "publisher_answer": "①",
+      "original_question": "06  다음은 어떤 위험지표에 대한 설명인가?\n••°  Z--\n                 ・ 상대적 위험 지표이며, 증권특성선(SCL)을 통해 산출할 수 있다.\n\n",
+      "original_explanation": "06 ① 베타를 말한다. 베타는 회귀분석을 통해 구하는 증권특성선（SCU의 기울기로 이해된다.",
+      "current_clean_prompt": "절편을 포함한 Rp=α+βRm+ε 회귀의 기울기이며 시장민감도를 나타내는 것은? ① β=Cov(Rp,Rm)/Var(Rm) ②SD(Rp) ③VaR ④최대낙폭",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 398쪽 packet에서 누락된 두번째 조건과 실제 네 보기 복원. 원답①.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:398",
+        "answer_packets:S3C7-ADD-06"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-08",
+      "status": "resolved",
+      "original_intent": "범위만으로위험단정",
+      "changed_scope": "원문처럼 단순 범위폭만 보고 표준편차 순위를 확정하는 해설도 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 398,
+      "publisher_answer": "③",
+      "original_question": "08  위험의 종류에 대한 설명 중 옳지 않은 것은?\n•・0 ① 펀드의 위험을 나타내는 가장 일반적인 지표는 표준편차로서 위험은 수익률의 변동성으로 나타난다.\n\n   ② 펀드수익률과 시장과의 민감도를 베타＜㈤라고 하는데 이는 상대적 위험지표이다.\n\n   ③ 1년간 5%에서 10%의 변동성을 보인 A펀드와 -3%에서 20%의 변동성을 보인 B펀드 중에서 B펀드\n\n     가 위험이 더 크다고 평가하는데 이는 VaR의 평가방법이다.\n\n   ④ 위험을 절대위험과 상대위험으로 구분하는 것과 달리 전체위험과 하락위험으로 구분할 수 있는데\n\n     하락할 가능성만을 위험으로 보는 것이 하락위험(Downside Risk)이다.\n\n\n\n",
+      "original_explanation": "08 ③ VaR이 아니라 표준편차로 평가하는 방법이다. 수익률의 변동성이 클수록 표준편차가 크게 나타난다.",
+      "current_clean_prompt": "위험측정 설명 중 틀린 것은? ① 표준편차는 평균 양쪽의 변동을 반영한다. ② 베타는 지정 시장에 대한 선형민감도다. ③ 관측수익의 최솟값·최댓값 두 숫자만 알면95% VaR과 표준편차가 각각 유일하게 정해진다. ④ 목표미달 편차만 보는 하락위험 지표도 있다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 398쪽 A 5~10%, B -3~20% 원수치와 네 보기 복원.③의 VaR 확정이 불가능하다는 원문오류를 정확히 겨냥. 원답③.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:398",
+        "answer_packets:S3C7-ADD-08"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-11",
+      "status": "resolved",
+      "original_intent": "소티노",
+      "changed_scope": "비정규분포인 모든 펀드에 소티노만 유일하게 적합하다는 원문의 포괄적 설명을 지표의 정의로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 399,
+      "publisher_answer": "③",
+      "original_question": "11   다음 중 수익률이 정규분포라고 보기 어려운 펀드（헤지펀드 등어I 적합한 성과평가 지표는?\n••0 ① 샤프 비율               ② 트레이너 비율\n\n   ③ 소티노 비율              ④ RAROC\n\n\n\n\n\n",
+      "original_explanation": "11 ③ 위험보상 비율의 형식은 샤프 비율과 같지만, 분자가 '최소가능수익률（MAR） 대비 초과수익률,이며 분모는 하락\n        편차（DD）라는 점에서 차이가 있다.",
+      "current_clean_prompt": "상방변동을 분모에서 제외하고 지정 목표수익률 MAR 미달의 제곱편차를 사용하는 성과비율은? ①샤프 ②트레이너 ③소티노 ④RAROC",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: P3 399쪽 비정규·헤지펀드라는 원래 맥락과 네 지표 복원. 적합성의 이유를 원해설의 MAR·DD로 명시, 원답③.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "P3:399",
+        "answer_packets:S3C7-ADD-11"
+      ]
+    },
+    {
+      "id": "S3C7-ADD-12",
+      "status": "resolved",
+      "original_intent": "GIPS공시",
+      "changed_scope": "36개월 가용자료 예외를 보완하고 수익자정보의 범위를 이름·식별정보로 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "P3",
+      "original_page": 399,
+      "publisher_answer": "①",
+      "original_question": "12  이ps에서의 성과공시 및 보고방법에 대한 내용이다. 틀린 것은?\n\n    ① 회시는 수익자정보를 공시해야 한다.\n\n   ② 회사는 벤치마크 개요를 공시해야 한다.\n\n   ③ 회사는 성과를 내기 위해 사용된 통화를 공시해야 한다.\n\n   ④ 회사는 성과보고 시 컴포지트와 벤치마크에 모두에 적용된 3년 연환산된 사후적 표준편차를 제시\n\n      해야 한다.\n\n\n\n\n\n 정답 및 해설\n\n",
+      "original_explanation": "12 ① 수익자정보는 공시할 수 없다（무한책임을 지는 경우가 아니면 투자자정보는 공개하지 않는 것이 원칙）. ④에서\n        '사후적 표준편차'는 기대수익률이 아닌 실현수익률을 적용하여 산출한 표준편차를 말한다.\n\n\n\n                                          제7장투자운용결과분석 399",
+      "current_clean_prompt": "GIPS 컴포지트TWR 보고 설명 중 틀린 것은? ① 모든 고객의 이름·개인식별정보를 반드시 공개한다. ② 벤치마크 설명을 공시한다. ③ 보고통화를 표시한다. ④ 필요한36개월 월자료가 가용하면 컴포지트·벤치마크의3년 연환산 사후표준편차를 제시한다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 고객정보·벤치마크·통화·3년표준편차 네 보기 유지. GIPS4.C.5/9/39 및4.A.1.j/4.C.36의36개월 가용성 조건 대조. 원답①.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "P3:399",
+        "answer_packets:S3C7-ADD-12"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q088",
+      "status": "resolved",
+      "original_intent": "GIPS발생주의",
+      "changed_scope": "거래일/체결일 중복 선택지를 정리하고 발생주의 예외를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 24,
+      "publisher_answer": "④",
+      "original_question": "",
+      "original_explanation": "88  발생주의 회계를 사용해야 한다. 공정가치평가란 시가평가를 우선하고 신뢰할만한 시가가 없을 때 공정가액으로 평가\n    하는 것을 말한다. '거래일 = 체결일 一 결제일\n\n     잠고   GIPS는 Global Investment Performance Standards# 말한다.\n\n\n\n\n\n64 부록 최종모의고사",
+      "current_clean_prompt": "GIPS 원칙에 어긋나는 것은? ① 공정가치평가 ② 거래일 기준의 자산·부채 인식 ③ 이자수입 투자의 발생주의(현금·현금성 이자예외 제외) ④ 모든 이자수입 투자를 오직 현금수취일 기준으로만 처리",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: MOCK24쪽 원문②체결일·③거래일 두 동의어 보기를 원위치 복원.③을 발생주의로 바꾼 이전안 history 보존. 원답④.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "MOCK:24",
+        "answer_packets:MOCK-1-Q088"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q089",
+      "status": "resolved",
+      "original_intent": "위험구분",
+      "changed_scope": "비정규이면 표준편차가 언제나 부적합하다는 설명과 추적오차=회귀잔차라는 설명도 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 24,
+      "publisher_answer": "③",
+      "original_question": "",
+      "original_explanation": "89  수익률이 최소가능수익률 이하로 하락하는 위험을 하락편차라 하며, 수익考이 펑균수익률 이하로 하락하는 위험의 편\n\n    차를 반편차라고 한다.\n\n      派 위험지표의 종류\n\n                (1) 절대적 위험\n\n       Ö 전체위험   : 표준편차\n       © 하락위험    : VaR. 하락편차, 반편차, 적자위험\n\n              (2) 상대적 위험    : 베타, 잔차위험, 공분산, 상대VaR",
+      "current_clean_prompt": "이 문제에서 하락편차는 MAR미달, 반편차는 평균미달 편차의 제곱평균 제곱근으로 정의한다. 틀린 것은? ①SD는 상하방 모두 본다. ②분포의 하방위험은 목표미달 지표로 따로 측정할 수 있다. ③MAR가 평균과 다르더라도 하락편차와 반편차는 항상 같다. ④SD(Rp-Rb)는 벤치마크 대비 추적오차다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: MOCK24쪽 안정성·비정규·MAR 반편차오류·상대위험 네 논점 복원.②의 목표미달 조건과④명칭만 정밀화. 원답③.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "MOCK:24",
+        "answer_packets:MOCK-1-Q089"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q090",
+      "status": "resolved",
+      "original_intent": "TWR·MWR",
+      "changed_scope": "GIPS의 TWR을 단순 권고라고 한 원문④를 원칙적 의무·MWR허용 조건으로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 24,
+      "publisher_answer": "②",
+      "original_question": "",
+      "original_explanation": "90  세부기간이 짧을수록 수익蠹의 왜곡현상이 감소한다(투자기간 중 현금의 입출흐름의 영향을 배제하기 위한 방법이므로,\n\n    세부기간이 짧을수록 현금입출의 영향을 최소화할 수 있음).",
+      "current_clean_prompt": "TWR 설명 중 틀린 것은? ① 외부흐름의 직접효과를 조정한다. ② 외부흐름 중간가치가 없더라도 구간을 길게 합칠수록 항상 더 정확하다. ③ 정확한 흐름시점 평가가 가능하면 반드시 매일 평가해야만 정확TWR을 얻는 것은 아니다. ④ GIPS는 정해진 MWR허용 조건을 제외하면 TWR을 제시한다.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "실제 MOCK24쪽 네 보기와 대조. 외부흐름·구간길이·매일필수여부·GIPS TWR 전부 유지. 정확흐름시점평가 및 MWR 예외를 한정했고 원답②.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "MOCK:24",
+        "answer_packets:MOCK-1-Q090"
+      ]
+    },
+    {
+      "id": "MOCK-1-Q091",
+      "status": "resolved",
+      "original_intent": "성과지표혼동",
+      "changed_scope": "원문 전항목 정답④를 교정했다. α는 수학적 절댓값이 아니고30개는 유의성 보장이 아니다. 정보비율과 평가비율의 용어·분모를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 24,
+      "publisher_answer": "④",
+      "original_question": "",
+      "original_explanation": "91   모두 해당된다.。은 트레이너와의 공통점이며, ©은 샤프 트레이너 모두에 해당된다. 恒)에서 기준지표를 사용하지\n\n    않을 경우의 정보비율은 -寸끄、이다.\n                         〇\"(ワ)\n\n        [2023 기본서, 4권, p.465    ： 젠센의 알파] 유의적인 결과가 도출되기 위해서는 30개 이상의 수익률을 대상으로 하는\n\n    것이 바람직하다. 이는 월간단위로 할 때 약 3년의 관측기간을 필요로 한다.",
+      "current_clean_prompt": "젠센α와 관련한 설명 중 틀린 것은? ①α는 CAPM 기준을 넘는 부호 있는 비정상수익이다. ②α=Rp-[rf+βp(Rm-rf)]로 쓴다. ③월수익률30개만 확보하면 α의 통계적 유의성이 반드시 보장된다. ④α/회귀잔차표준편차를 평가비율로 정의할 수 있다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: MOCK24쪽 원래 네 명제와 모두고르기 구조 복원. 가 절대값 표현→부호있는 차이, 다 필수관측수→교재 권장과 통계보장 구별, 라 명칭 교정. 일부보기만 남긴 단일오답문항 history 보존. 원답④.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00"
+    },
+    {
+      "id": "MOCK-2-Q088",
+      "status": "resolved",
+      "original_intent": "TWR·MWR",
+      "changed_scope": "입출금을 반영하지 않는다는 표현을 입출금 직접효과 조정으로 보완했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 51,
+      "publisher_answer": "④",
+      "original_question": "",
+      "original_explanation": "시간가중수익률은 외부 현금흐름으로 구간을 나누고 구간수익률을 기하연결한다. 유입·유출 현가를 일치시키는 할인율은 금액가중수익률이다.",
+      "current_clean_prompt": "가. 현금흐름 NPV를0으로 하는 할인율이TWR이다. 나. 외부납입의 크기·시점 효과를 그대로 가중하는 방식이TWR이다. 다. 외부흐름 시점의 구간수익을 기하연결한다. 라. 외부흐름 직접효과를 조정해 운용수익 비교에 사용한다. TWR에 맞는 것은? ①가·나 ②가·다 ③나·라 ④다·라",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "실제 MOCK51쪽 가·나·다·라 전체 대조. IRR/MWR와 TWR의 흐름조정 및 기하연결 네 논점 유지, 원답④.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "MOCK:51",
+        "answer_packets:MOCK-2-Q088"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q089",
+      "status": "resolved",
+      "original_intent": "중간반올림오류",
+      "changed_scope": "교재의 첫 값1.74는 중간반올림 결과이며 정상적인 최종반올림은1.73이다. 비율정의와 연환산 전제를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 51,
+      "publisher_answer": "④",
+      "original_question": "",
+      "original_explanation": "출판사 선택④는1.74,1.73. 중간 반올림을 미루면 두 값 모두0.5×sqrt(12)=1.73205다. 첫 수치1.74는0.20×sqrt(12)를0.69로 조기 반올림한 결과다. 또한 알파/잔차위험과 벤치마크 초과수익/추적오차의 구별을 명시해야 한다.",
+      "current_clean_prompt": "월간 펀드12%·무위험2%·표준편차20%, 월간α2%·잔차표준편차4%다. 각각의 월별 초과수익·잔차는 시점 간 무상관이며 연간은12개월 합으로 근사한다. 연환산 샤프와 α/잔차표준편차 평가비율은? ①.50,.50 ②.50,1.73 ③1.73,.50 ④1.73,1.73",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "실제 MOCK51쪽 원래 수치12/2/20/2/4 전부 유지. 조기반올림1.74→1.73, 정보비율→회귀평가비율 명칭을 교정하고 시간무상관·연합산 가정 추가. 원선택④ 위치 유지.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "MOCK:51",
+        "answer_packets:MOCK-2-Q089"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q090",
+      "status": "resolved",
+      "original_intent": "분해항등식 정답충돌",
+      "changed_scope": "원문은 모든 패시브에서S=0이라고 해설해 정답③만 제시했지만 스타일지수추종 반례가 있다. 비교기준을B로 명시하고④로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 51,
+      "publisher_answer": "③",
+      "original_question": "",
+      "original_explanation": "90  틀린 항목은 '다이다.\n              • 다    : 액티브운용을 하는 펀드매니저의 기준지표가 시장인덱스（M）와 같다연 S가 제로가 되는데（S = B - M = M -\n\n       M = 0）. 이는 해당 액티브펀드가 스타일투자를 하지 않고 있음을 의미한다, 즉 이 경우 초과수익은 A로만 구성된다.\n\n        - 현실적으로도 종목선택능력만 활용하는 액티브펀드가 스타일투자도 활용하는 액티브펀드보다 더 많다.",
+      "current_clean_prompt": "P는 펀드, B는 스타일벤치마크, M은 광범위시장 수익률이다. S=B-M,A=P-B로 정의한다. 가. P=M+S+A다. 나. 어떤 스타일지수를 완벽히 추종해도 S와A는 반드시 모두0이다. 다. B대비 초과수익P-B는 항상 S+A다. 틀린 것은? ①없음 ②나 ③다 ④나·다",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: MOCK51쪽 실제 가·나·다와 네 선택지 복원. 다의 초과수익을 원산식 취지인 시장대비로 명시. S=0이면 S+A 표현이 틀리다는 원해설은 대수오류이므로 출판사③→② 교정. 기존 다를 B대비로 바꿔④로 만든 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "MOCK:51",
+        "answer_packets:MOCK-2-Q090"
+      ]
+    },
+    {
+      "id": "MOCK-2-Q091",
+      "status": "unresolved",
+      "original_intent": "두지표순위반례",
+      "changed_scope": "원문④의 '샤프순위가 높아도 트레이너순위가 낮을 수 있다'는 가능한 사실이다. 이를 불가능하게 단정하는 진술로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "MOCK",
+      "original_page": 52,
+      "publisher_answer": "④",
+      "original_question": "",
+      "original_explanation": "91   소수종목에 집중투자할 경우, .총위험 > 베타위험이므로 '샤프지수 < 트레이너지수'이다. 즉 트레이너에서는 순위가\n\n    높게 나올 수 있지만 샤프에서는 순위가 낮게 나타난다.",
+      "current_clean_prompt": "같은 시장·기간에서 초과수익이 양수인 포트폴리오를 비교한다. 틀린 것은? ①샤프는 초과수익/총표준편차다. ②트레이너는 초과수익/베타다. ③양의베타·잔차위험0이면 샤프는 트레이너를 공통 시장표준편차로 나눈 값이다. ④잔차위험이 다른 포트폴리오도 두 지표의 순위는 반드시 같다.",
+      "resolution_status": "insufficient_original_evidence_or_publisher_error",
+      "resolution_note": "실제 MOCK52쪽④는 집중포트폴리오의 샤프순위가 높아도 트레이너순위는 낮을 수 있다는 가능성이다. A 초과.1 β2 σ.3,B 초과.05 β.5 σ.2는 실제로 샤프A>B·트레이너A<B여서④가 참인 반례다. 원해설은 서로 단위가 다른 위험수치를 비교해 오류.④를 두순위 항상같다로 바꿔 원답을 유지하는 것은 최소교정이 아니므로 원문 유일오답 확정 보류.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00",
+      "evidence_checked": [
+        "MOCK:52",
+        "answer_packets:MOCK-2-Q091"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q022",
+      "status": "unresolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "정상포트폴리오는 본질적으로 명확성·측정가능성이 낮다는 단정을 구체적 누락사례로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "22 명확성",
+      "original_question": "22 정상포트폴리오는 벤치마크의 속성 중 투자가눙성에 부합하는 대신,  (    )과 측정가능성이 미흡\n\n   해진다.",
+      "original_explanation": "22 명확성",
+      "current_clean_prompt": "벤치마크를 정상포트폴리오라는 이름으로 제시했지만 구성자산과 가중치가 명시되지 않았다. 무엇으로 이루어졌는지 분명해야 한다는 어떤 속성이 직접 부족한가?",
+      "resolution_status": "insufficient_original_evidence_or_publisher_error",
+      "resolution_note": "정상포트폴리오라는 명칭만으로 명확성·측정가능성이 언제나 낮아진다는 원문 명제 근거 부족. 구성가중치가 불명확하다는 조건을 새로 넣으면 명확성 결여는 자명하지만 원래 명제의 검증은 아니다. 용어범위 및 원분류표 근거 필요.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q022"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q030",
+      "status": "unresolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "모형은 존재 여부만 알고 정도를 측정하지 못한다는 단정을 수정했다. 가상포트폴리오만 크기측정이 가능하다는 범용 주장을 사용하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "30  젠센의 알파 / 트레이너-마주이모형, 헨릭슨-머튼 모형 / 가상포트폴리오방식",
+      "original_question": "30 종목선택의 존재 여부를 알 수 있는 것은  (         )이며, 마켓타이밍 능력의 존재 여부를 알\n   수 있는 것은  (                    ),  (         )가 있으며, 종목선택능력과 마켓타이밍 능력의 측정까\n\n   지 할 수 있는 것은  (         )이다.",
+      "original_explanation": "30  젠센의 알파 / 트레이너-마주이모형, 헨릭슨-머튼 모형 / 가상포트폴리오방식",
+      "current_clean_prompt": "시장초과수익x의 선형항과 제곱항을 넣은 Rp-rf=α+βx+γx²+ε 모형의 이름은? γ의 부호만 보고 실력을 확정해도 되는가?",
+      "resolution_status": "insufficient_original_evidence_or_publisher_error",
+      "resolution_note": "원문 Jensen·Treynor-Mazuy·Henriksson-Merton·가상포트폴리오 네 빈칸 중 마지막 방식의 구체적 정의/성과기여 측정 산식 근거 부족. P3 390쪽 설명만으로 회귀모형은 기여크기 측정불가라는 단정을 검증할 수 없다. TM모형 이름 하나만 묻던 대체안을 원문완료로 취급하지 않고 철회.",
+      "reviewed_at": "2026-10-14T00:06:06.981486+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q030"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q001",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "운과 실력을 확실히 판명할 수 있다는 단정을 목적과 한계의 설명으로 보완했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "Egl   01  〇",
+      "original_question": "01 叵E 성과평가의 주목적은 일정기간 얻어진 성과가 운（Luck）에 의한 것인지, 프로세스에 의한 것인\n  지를 판명하는 것이다.",
+      "original_explanation": "Egl   01  〇",
+      "current_clean_prompt": "성과평가는 수익률과 그 원인·투자과정을 살펴 운과 운용능력을 구별하려 하지만, 제한된 과거자료만으로 항상 확정적으로 구별할 수 있는 것은 아니다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 운과 과정 구분의 목적 유지. 제한된 자료로 확정 식별 보장하지 않는다는 CFA 공식 주의만 보완. 원답O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q001"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q002",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "국내 모든 펀드의 모든 회계에 적용하는 대신 GIPS 범위와 이자 예외를 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "02 공정가치 - 발생주의 - 체결기준",
+      "original_question": "02 1단계 펀드회계처리에서는 （공정가치 / 장부가）로 평가하고, （발생주의 / 현금주의）회계를 적용하며,\n\n   （체결기준 / 결제기준）으로 회계처리한다.",
+      "original_explanation": "02 공정가치 - 발생주의 - 체결기준",
+      "current_clean_prompt": "2020 GIPS의 일반 평가원칙에서 자산평가는 무엇을 따르는가? 또한 현금·현금성자산 이자 예외를 제외한 이자수입 투자에는 어떤 회계를, 거래의 인식에는 어떤 기준을 사용하는가?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "공정가치·발생주의·체결기준 세 빈칸 원답 유지. GIPS2.A.9/10/19와 현금이자 예외 직접 대조.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q002"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q003",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "03 〇   ► 발생주의 기준을 말한다.",
+      "original_question": "03 叵区 손익에 영향을 끼치는 거래가 발생하면 현금의 수입이나 지출과 관계없이 그 발생시점에서\n\n  손익을 인식한다.",
+      "original_explanation": "03 〇   ► 발생주의 기준을 말한다.",
+      "current_clean_prompt": "발생주의는 거래에 따른 수익·비용을 현금수취·지급일만 기다리지 않고 해당 발생기간에 인식하는 회계 접근이다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 발생시점 수익비용 인식 명제 유지. GIPS2.A.10의 거래발생과 현금지급 구별 대조. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q003"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q004",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "GIPS가 인정하는 T~T+3영업일 실무 범위와 충돌하지 않게 인식원칙을 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "04 〇   ► 체결일 기준을 말한다,",
+      "original_question": "04 叵叵! 거래의 체결이 확인되면, 실제로 현금흐름에 따른 결제가 일어나지 않았다 하더라도（［웨 미수증\n\n    권, 미지급금） 회계상에 반영한다.",
+      "original_explanation": "04 〇   ► 체결일 기준을 말한다,",
+      "current_clean_prompt": "거래일 기준 회계에서는 증권 매매가 체결되어 발생한 자산·부채를 결제현금이 오갈 때까지 무조건 누락하지 않는다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 미수자산·미지급부채 체결일인식 유지. GIPS2.A.9 정의와 대조. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q004"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q005",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "운용사 내부 평가라는 사실 자체를 금지하는 것이 아니라 법정 절차 없는 임의평가를 물었다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "05 X   ► 집합투자재산 평가 위원회가 충실의 무에 입각하여 평가한 공정가액을 사용한다 .",
+      "original_question": "05 叵叵］ 펀드회계처리에서, 신뢰할 만한 시가가 없는 경우에는 운용사 자체적으로 평가한 공정가액을\n\n  사용할 수 있다.",
+      "original_explanation": "05 X   ► 집합투자재산 평가 위원회가 충실의 무에 입각하여 평가한 공정가액을 사용한다 .",
+      "current_clean_prompt": "신뢰할 만한 시가가 없는 집합투자재산은 평가위원회·법정 평가기준·신탁업자 확인 없이 운용사가 임의로 정한 가격으로 평가해도 된다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 자체 임의평가의 문제를 법238조 평가위원회·기준·수탁확인 미준수로 한정. 적법한 평가위원회와 운용사 임의가격을 구별, X.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q005"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q006",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "06 금액가중수익률",
+      "original_question": "06 최초 및 최종의 자산규모, 자금의 유출입시기에 영향을 받는 수익률은 （금액가중 / 시간가중）수익률\n\n   이다.",
+      "original_explanation": "06 금액가중수익률",
+      "current_clean_prompt": "기간별 납입·인출 금액과 시점을 반영해 순현재가치0을 만드는 수익률은? (금액가중 / 시간가중)",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "금액가중 수익률의 금액·시점 의존을 NPV식으로 직접 논증. 원래 MWR/TWR 선택 유지.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q006"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q007",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "07 금액가중",
+      "original_question": "07 투자자가 실제로 획득한 수익을 투자기간을 고려하여 측정하는데 유용한 것은 （금액가중 / 시간가중）\n\n   수익률이다.",
+      "original_explanation": "07 금액가중",
+      "current_clean_prompt": "투자자 자신의 납입·인출금액과 시점을 포함한 투자경험을 연간 IRR로 측정하는 것은? (금액가중 / 시간가중)",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "실제 투자자 현금흐름 및 기간 반영 목적 유지. 투자자 IRR와 운용수익 TWR 구별, 원답MWR.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q007"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q008",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "입출금을 무시한다는 표현 대신 측정·조정하여 직접효과를 제거함을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "08 시간가중수익률",
+      "original_question": "08 펀드의 입출금을 반영하지 않고 펀드매니저만의 성과를 측정할 수 있도록 기하수익률을 사용하여\n  수익률을 계산하는 것은  （     ）이다",
+      "original_explanation": "08 시간가중수익률",
+      "current_clean_prompt": "외부 납입·인출 시점마다 흐름 전후 가치를 구분해 구간수익률을 계산하고, 그 gross return들을 기하연결하여 외부흐름의 직접효과를 제거하는 수익률은?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 외부흐름효과제거·기하연결 유지. 입출금을 무시하는 오류 대신 시점전후 평가를 명시, 원답TWR.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q008"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q009",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 75,
+      "publisher_answer": "09 금액가중수익률",
+      "original_question": "09 내부수익률법（IRR）과 계산방식이 동일한 것은 （금액가중수익률 / 시간가중수익률）이다.",
+      "original_explanation": "09 금액가중수익률\n\n\n\n                                   제3과목 직무윤리 및 법규/투자운용 및 전략  I 등 75",
+      "current_clean_prompt": "투자자 현금흐름의 순현재가치를0으로 만드는 내부수익률(IRR)로 계산하는 수익률은? (금액가중 / 시간가중)",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 IRR와 MWR 계산 일치 유지. NPV=0 정의 직접 확인.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:75",
+        "answer_packets:NOTE-S3C7-Q009"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q010",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "모든 컴포지트가 유일한 단순가중법만 써야 한다는 뜻이 아니도록 조건과 '한 방법'을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "O",
+      "original_question": "10 叵回 통합계정수익률은 통합계정에 속한 펀드들을 대상으로 세부 기간별 순자산가중 수익률을 계산\n\n   한 후, 세부기간별 수익률을 기하적으로 연결하는 방식인 시간가중수익률로 계산하여 산출한다.",
+      "original_explanation": "통합계정은 세부기간별 순자산가중수익률을 계산하고 기하연결한다.",
+      "current_clean_prompt": "외부흐름 없는 각 하위기간에서 컴포지트 수익률을 해당 기간 기초 순자산가중으로 계산하고, 각 기간 gross return을 기하연결하는 방식은 컴포지트 TWR의 한 계산방법이다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 컴포지트 자산가중·기하연결 유지. GIPS2.A.24/36상 한 계산법임을 한정하고 외부흐름 없는 구간 정의. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q010"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q011",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "원문에 누락된 편향 완화방법을 구체화했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "1I  〇",
+      "original_question": "1I 叵区 ’운용사 수익률 산출 人I, 대표계정의 오류나 생존계정의 오류를 보완할 수 있다.",
+      "original_explanation": "1I  〇",
+      "current_clean_prompt": "성과 좋은 대표계정만 골라 제시하지 않고 정의에 맞는 계정들을 컴포지트로 구성하며, 종료계정도 마지막 완전 재량운용기간까지 과거 실적에 남기면 선택·생존편향을 줄일 수 있다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 대표·생존계정편향 완화 유지. GIPS3.A.9 종료계정 마지막 재량완전기간 이력 보존 조건 대조. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q011"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q012",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "합병이면 항상 성과 이전이 불가능하다는 해석을 배제했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "12  〇",
+      "original_question": "12 叵区］ '운용사 수익률 산출 시, 운용사 합병이나 펀드매니저 이직 등이 있을 경우 성과의 이전 문제가\n\n   발생하여 성과의 연속성을 주장하기 어렵다는 측면이 있다.",
+      "original_explanation": "12  〇",
+      "current_clean_prompt": "회사 합병·인력 이동만으로 과거 실적을 자동 연결할 수는 없다. GIPS는 투자결정자·의사결정과정·입증기록·실적단절 여부 등의 이전요건을 모두 검토한다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 합병·이직 성과이전 문제 유지. GIPS1.A.32 네 조건으로 무조건 연속성 불가/가능을 모두 피함. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q012"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q013",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "13  절대적, 전체위험",
+      "original_question": "13 표준편차는 (절대적  / 상대적), (전체위험  / 하락위험)의 위험지표이다.",
+      "original_explanation": "13  절대적, 전체위험",
+      "current_clean_prompt": "벤치마크를 빼지 않은 펀드수익률 자체의 표준편차는 (절대적/상대적), (전체위험/하락위험) 중 어디에 해당하는가?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 표준편차의 절대적·전체위험 분류 유지. 자체수익률인지 상대수익률인지 한정하고 양측 편차 제곱으로 입증.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q013"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q014",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "모든 VaR의 기준점이 같다는 설명 대신 목표미달 위험을 직접 정의했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "14 하락위험",
+      "original_question": "14 절대적 위험지표 중에서, 표준편차는 전체위험을 표시하는 위험지표이며, VaR이나 하락편차 및 반편\n\n   차는 하락하는 위험만을 표시하는  (  )지표이다.",
+      "original_explanation": "14 하락위험",
+      "current_clean_prompt": "목표수익률보다 낮은 구간만의 손실·편차를 측정하는 위험분류는 무엇인가?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE76쪽 원래 VaR·하락편차·반편차 예시를 복원. 단순 목표미달 정의만 남겼던 안 history 보존. 원답 유지.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q014"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q015",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "기준 없는 네 칸에 임의 목록을 요구하던 발문을 명확한 수식 대응으로 교정했다. 추적오차와 회귀잔차위험을 동일시하지 않는다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "15  베타, 상대VaR, 잔차위험, 공분산",
+      "original_question": "15 상대적 위험지표에는  (               ),   (               ),  (               ),  (                ) 등이 있다.",
+      "original_explanation": "15  베타, 상대VaR, 잔차위험, 공분산",
+      "current_clean_prompt": "①Cov(Rp,Rm)/Var(Rm), ②SD(Rp-Rb), ③Rb-Rp의 지정 신뢰수준 분위수, ④Cov(Rp,Rm)에 해당하는 상대위험 지표를 순서대로 쓰시오.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE76쪽 원래 네 빈칸의 답과 순서 베타·상대VaR·잔차위험·공분산 복원. 추적오차로 교체했던 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q015"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q016",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "시장상승만으로 실제 포지션 수익률 순위를 보장하지 않도록 모형조건을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "16   -2.0  » 예를 들어 시장수익률이 +10%일 때 베타에 따른 포지션수익률은 -20%,  0, +5%, +10%•이다.",
+      "original_question": "16 포지션의 베타  -2,0,  0, +0,5,  +1.0, 중에서, 시장수익률이 상승할 경우 포지션의 수익률이 가장\n\n   낮아지는 포지션의 베타는  (  )이다.",
+      "original_explanation": "16   -2.0  » 예를 들어 시장수익률이 +10%일 때 베타에 따른 포지션수익률은 -20%,  0, +5%, +10%•이다.",
+      "current_clean_prompt": "모든 포지션에서 같은 절편이고 잔차0인 R=α+βRm 모형이다. Rm>0일 때 β=-2,0,.5,1 중 수익률이 가장 낮은 것은?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원래 베타 -2,0,.5,1 유지. 공통절편·잔차0·양의 시장변화 조건으로 가장낮음=-2 논증.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q016"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q017",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "원문 해설의 Rm=-10%, β=1일 때 -2%라는 수치는 -10%가 맞다. 누락 발문을 복원했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "-2.0",
+      "original_question": "",
+      "original_explanation": "시장하락 시 음의 베타가 큰 포지션이 모형상 가장 높은 수익률이다. 예시의 베타1 수익률-2%는-10%의 오기.",
+      "current_clean_prompt": "공통절편·잔차0인 R=α+βRm에서 Rm<0이다. β=-2,-.5,.5,1 중 수익률이 가장 높은 것은?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "실제 NOTE76쪽 원래 베타 -2,-.5,.5,1 유지. 공통절편·잔차0·음의 시장변화 조건에서 최고=-2. 원해설 beta1 -2% 오기는 -10%.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q017"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q018",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "단지 목표수익이 있다는 사실만으로 특정 위험지표 하나만 적합하다고 단정하지 않도록 측정대상을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 76,
+      "publisher_answer": "전체위험지표 / 하락위험지표 / 상대적위험지표",
+      "original_question": "",
+      "original_explanation": "안정성, 목표 미달, 기준지표 대비라는 평가 목적에 맞춰 위험지표를 고른다.",
+      "current_clean_prompt": "수익률 평균 양쪽의 변동, 목표수익 미달, 사전 벤치마크와의 차이를 각각 위험으로 정의한다. 세 분류의 이름을 순서대로 쓰시오.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE76쪽 원래 세 운용전략별 적합성 질문 복원. 원답 세 분류 유지.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:76",
+        "answer_packets:NOTE-S3C7-Q018"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q019",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "실제 복리 연수익이나 자기상관이 있는 자료에 같은 연환산을 무조건 적용하지 않도록 했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "EP1   19 〇",
+      "original_question": "19 叵区 샤프비율을 연율화할 때, 연간수익률은 '월간수익률 X 12'로 계산하지만 연간표준편차는 ‘월간\n  표준편차 ・ «ラ’로 계산한다.",
+      "original_explanation": "EP1   19 〇",
+      "current_clean_prompt": "월별 초과수익이 같은 평균μ·분산σ²를 갖고 서로 무상관이며 연간 초과수익을12개월 합으로 정의한다. 연간평균12μ, 표준편차sqrt(12)σ, 연간 샤프비율sqrt(12)μ/σ이다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 월평균×12·월SD×√12 유지. 연수익률 합근사와 시간무상관 조건을 명시해 분산합으로 유도. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q019"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q020",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "첨도를 봉우리의 뾰족함만으로 정의하지 않고 꼬리 극단치의 영향을 반영하는 모멘트로 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "20  왜도(skewness), 첨도(kurtosis)   ► 정규분포는 왜도 二  0, 첨도 - 3.의 분포이다.",
+      "original_question": "20    (    )는 수익률 분포의 '기울어진 정도를 나타내며,  (    )는 수익뷸 분포에서 가운데 봉우리\n  부분이 얼마나 뾰족한가를 측정하는 지표이다.",
+      "original_explanation": "20  왜도(skewness), 첨도(kurtosis)   ► 정규분포는 왜도 二  0, 첨도 - 3.의 분포이다.",
+      "current_clean_prompt": "표준화3차 중심모멘트 E[(R-μ)^3]/σ³, 표준화4차 중심모멘트 E[(R-μ)^4]/σ⁴의 이름을 순서대로 쓰시오. 후자는 초과첨도가 아니다.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE77쪽 왜도·첨도의 의미 빈칸 복원. 원문 첨도=봉우리뾰족함만이라는 불완전 설명은 극단편차 민감성으로 교정. 원답 유지.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q020"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q021",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "속성을 반드시 여섯 가지로만 제한하는 원문 표현은 제거했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "21  명확성, 투자가능성, 측정가능성",
+      "original_question": "21 벤치마크의 속성에는 '(           ),  (           ),  (           ), 적합성, 사전적으로 결정, 투자의견을 반영의\n\n   6가지가 있다.",
+      "original_explanation": "21  명확성, 투자가능성, 측정가능성",
+      "current_clean_prompt": "벤치마크 속성 중 구성·가중치가 분명함, 실제 복제투자가 가능함, 정해진 기간 성과를 계산할 수 있음의 명칭을 순서대로 쓰시오.",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 명확성·투자가능성·측정가능성 세 답 유지. CFA 벤치마크 요건 직접 대조. 전체요건이 반드시6개라는 보편주장 안 함.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q021"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q023",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "23  트레이너비율, 젠센의 알파 »SML에 기반한다는 것은 위험지표로써 베타를 사용한다는 의미이다(CML기반은",
+      "original_question": "23  ’샤프비율, 트레이너비율, 젠센의 알파, 정보비율' 중 SML에 기반하는 지표는 (           ),  (     )이다.",
+      "original_explanation": "23  트레이너비율, 젠센의 알파 »SML에 기반한다는 것은 위험지표로써 베타를 사용한다는 의미이다(CML기반은\n\n       표준편차를 말함).",
+      "current_clean_prompt": "샤프=(Rp-rf)/σp, 트레이너=(Rp-rf)/βp, 젠센α=Rp-[rf+βp(Rm-rf)], 정보비율=(Rp-Rb)/SD(Rp-Rb)로 정의한다. 시장베타를 직접 사용하는 두 지표는?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE77쪽 원래 SML 맥락 복원. 단순 β기호찾기로 축소했던 안 history 보존. 원답 유지.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q023"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q024",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "정보비율 추적오차는 β≠1이면 시장노출 차이도 포함하므로 비체계적 위험만과 같다는 해설을 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "24  샤프비율, 정보비율  ► 샤프의 표준편차에는 비체계적 위험도 포함되어 있으며, 정보비율의 분모는 비체계적 위",
+      "original_question": "24  '샤프비율, 트레이너비율, 젠센의 알파, 정보비율' 중 비체계적 위험도 반영하는 지표는  (          ),\n         (     )이다.",
+      "original_explanation": "24  샤프비율, 정보비율  ► 샤프의 표준편차에는 비체계적 위험도 포함되어 있으며, 정보비율의 분모는 비체계적 위\n\n        험을 말한다.",
+      "current_clean_prompt": "Rp-rf=α+β(Rm-rf)+ε, ε와 시장은 무상관이다. 샤프 분모는SD(Rp), 정보비율 분모는SD(Rp-Rm), 트레이너는β이며 젠센α는 그 자체다. 잔차분산이 분모 위험에 들어가는 두 비율은?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 샤프·정보비율 선택 유지. 무상관 회귀 잔차분산을 총분산과 추적분산에 넣어 확인. 추적오차=잔차위험 동일시는 교정.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q024"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q025",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "원문의3년이면 정규분포 속성을 갖춘다는 해설을 반례로 교정했다. GIPS의36개월 표준편차 공시요건과 별개다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "3년",
+      "original_question": "25 샤프비율이나 트레이너비율은 정규분포를 가정하고 있는 바, 정규분포의 속성올 갖추기 위해서는\n\n          (  ) 이상의 월간수익률로 측정하는 것이 바람직하다.",
+      "original_explanation": "교재가 권하는 월간자료 기간이다. 이 기간만으로 정규성이나 추정 신뢰성이 보장되는 것은 아니다.",
+      "current_clean_prompt": "월간수익률을36개 이상 모으면 그 수익률의 모집단 분포는 반드시 정규분포가 되고 샤프비율의 정규성 문제가 사라진다. O/X?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE77쪽 원래 기간 빈칸과3년 답 복원. 정규분포 확보라는 원해설의 잘못된 근거를 명시적으로 배제하고 X형 다른 문제로 바꾼 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q025"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q026",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "비분산 포트폴리오면 서로 단위가 다른 비율 중 트레이너가 수치상 항상 더 크다는 원문 일반화를 삭제했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "O",
+      "original_question": "26 回히 잘 분산된 포트폴리오의 경우 샤프지수와 트레이너지수는 평가결과가 유사하고, 잘 분산되지\n\n   않는 포트폴리오에 투자하는 경우 트레이너지수가 더 높게 나타난다.",
+      "original_explanation": "출판사는O. 잘 분산되면 두 평가의 순위가 유사할 수 있으나 서로 단위가 다른 샤프와 트레이너의 수치 크기를 그대로 비교하는 일반화는 보류한다.",
+      "current_clean_prompt": "공통시장에 대해 βp>0, 잔차위험0, Rp-rf=βp(Rm-rf)인 포트폴리오들에서 샤프 Sp와 트레이너 Tp는 Sp=Tp/σm 관계이므로 순위가 같다. O/X?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE77쪽 분산시 순위/미분산시 수치비교 두 원래 절을 모두 복원. 원문O는 단위혼동 때문에 X로 교정. 둘째절 삭제했던 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q026"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q027",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "젠센알파가 종목선택능력만을 오염 없이 측정한다는 원문 단정을 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 77,
+      "publisher_answer": "27 증권선택능력",
+      "original_question": "27 투자포트폴리오의 성과는 마켓타이밍능력(시장예측능력)과 증권선택능력으로 구분할 수 있는데 젠센\n\n   의 알파는  (  )만을 평가할 수 있다.",
+      "original_explanation": "27 증권선택능력\n\n\n\n                                   제3과목 직무윤리 및 법규/투자운용 및 전략  I 등 77",
+      "current_clean_prompt": "시장모형 Rp-rf=α+β(Rm-rf)+ε에서 상수절편α는 무엇을 나타내는가? 이것만으로 순수한 종목선택능력이 확정 입증되는가?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE77쪽 원래 능력 빈칸을 복원하고 P3 390쪽 원이론 한정 연결. 비정상수익 이름만 묻던 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:77",
+        "answer_packets:NOTE-S3C7-Q027"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q028",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "国国  28 벤치마크",
+      "original_question": "28 샤프비율이나 트레이너 비율의 분자로 사용되는 초과수익률은 무위험대비 초과수익률이지만, 정보비\n   율의 분자에 사용되는 초과수익률은  (   )대비 초과수익률을 의미한다.",
+      "original_explanation": "国国  28 벤치마크\n          __Rp-Rb   .__ap",
+      "current_clean_prompt": "정보비율을 E[Rp-Rb]/SD(Rp-Rb)로 정의한다. 여기서 분자의 초과수익은 무엇 대비인가?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 정보비율의 벤치마크 대비 초과수익 유지. Rp-Rb 분자와 rf대비 샤프 구별.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q028"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q029",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "벤치마크가 없으면 자동으로 정보비율을 α/잔차위험으로 바꾼다는 표현을 서로 다른 지표의 정의로 교정했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "29   sd(Rp 一璋)",
+      "original_question": "29 정보비율은 기준지표가 미리 정해진 경우에는 (       )로 계산하고, 사전에 정한 기준지표가 없는\n   경우에는  (      )로 계산한다.",
+      "original_explanation": "29   sd(Rp 一璋)",
+      "current_clean_prompt": "정보비율을 E[Rp-Rb]/SD(Rp-Rb), 회귀기반 평가비율을 α/SD(ε)로 정의한다. 두 분모를 순서대로 쓰시오.",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE78쪽 원래 두 비율식 빈칸을 복원. α/잔차를 벤치마크 부재 정보비율로 부른 교재 명칭을 회귀평가비율로 교정. 분모만 묻던 안 history 보존.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q029"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q031",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "95% 보유가 반드시 낙관적 전망을 뜻한다는 원문 단정과 정량자료 분석을 무조건 정성평가로 분류하는 단정을 제거했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "31  포트폴리오 특성분석, 정성평가",
+      "original_question": "31  해당 펀드의 주식비중이 95%이고 동류펀드의 주식비중평균이 80%라면 해당 펀드는 주식시장에 대한\n\n   낙관적 전망을 가지고 있음을 알 수 있다. 이러한 분석을 (    )이라 하며, (정량평가 / 정성\n\n   평가)에 해당된다.",
+      "original_explanation": "31  포트폴리오 특성분석, 정성평가",
+      "current_clean_prompt": "A펀드 주식비중95%, 동류 평균80%라는 보유내역을 비교하는 분석은 무엇인가? 이 차이만으로 운용자의 낙관적 전망이 확정되는가?",
+      "resolution_status": "resolved_minimum_correction",
+      "resolution_note": "재감사: NOTE78쪽95/80 원수치와 분석명·정성분류 두 원답 복원. 낙관전망 확정만 부정하고 제거됐던 둘째 빈칸을 되살림.",
+      "reviewed_at": "2026-10-14T00:04:51.300413+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q031"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q032",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "명시적 조건을 추가한 교정 발문; 원문 전체 보기와 대응 여부 별도 확인 필요",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "32  스타일분석",
+      "original_question": "32    (      )은 성과에 가장 큰 영향을 주는 변수를 골라내어 이를 기준으로 펀드를 분류하는 기법이라\n  할 수 있다.",
+      "original_explanation": "32  스타일분석",
+      "current_clean_prompt": "펀드의 보유특성 또는 수익률의 요인노출을 살펴 규모·가치/성장 등 투자성향을 분류하는 분석은?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 투자특성 기준의 펀드분류 정의 유지. 최상급 단정 대신 보유/수익률 기반 스타일노출 범위 명시.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q032"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q033",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "종합지수와는 어떤 비교도 하면 안 된다는 배타적 표현 대신 평가목적에 맞는 적합성을 명시했다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "33  〇",
+      "original_question": "33 血区 명시적으로 스타일을 표방하고 있는 대형주펀드나 가치주펀드의 평가는 종합주가지수(KOSPI)\n\n  와 같은 시장지수가 아니라, 대형주지수나 가치주지수 등 스타일지수를 통해 평가해야 한다.",
+      "original_explanation": "33  〇",
+      "current_clean_prompt": "대형주나 가치주라는 운용전략의 성과를 평가할 때, 해당 스타일에 적합한 벤치마크를 사용하면 광범위 시장지수와의 비교만으로 생길 수 있는 스타일효과 혼동을 줄일 수 있다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 대형/가치 스타일에 맞는 기준 지향 유지. 시장지수 사용 절대금지 대신 적합성을 검토해 혼동을 줄인다는 CFA 범위로 한정. O.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q033"
+      ]
+    },
+    {
+      "id": "NOTE-S3C7-Q035",
+      "status": "resolved",
+      "original_intent": "OX·빈칸·해설 대조",
+      "changed_scope": "무한책임 투자자이면 GIPS가 일반적으로 신원공개를 요구한다는 별도 근거 없는 해설은 사용하지 않았다.",
+      "resolution_needed": "원문 전체 보기·정답·해설과 교정판을 대조해 최소교정 적합성을 확정한다. 교정판 승인과 원문 전체 완료를 구분한다.",
+      "original_document": "NOTE",
+      "original_page": 78,
+      "publisher_answer": "35  X   » 무한책임을 지는 경우가 아니면 투자자정보는 공개하지 않는 것이 원칙이다.",
+      "original_question": "35 叵区 GIPS기준으로 성과보고 및 공시를 할 때 수익자의 정보까지 공시해야 한다.",
+      "original_explanation": "35  X   » 무한책임을 지는 경우가 아니면 투자자정보는 공개하지 않는 것이 원칙이다.",
+      "current_clean_prompt": "GIPS 컴포지트 성과보고를 한다는 이유만으로 각 수익자의 성명과 개인식별정보를 모두 공개해야 한다. O/X?",
+      "resolution_status": "verified_existing_minimum_correction",
+      "resolution_note": "원문 GIPS 수익자정보공개 의무 부정 유지. 신원정보와 성과정보를 구별하고4.C.39 고객비밀 보호 취지 대조. X.",
+      "reviewed_at": "2026-10-14T00:01:45.618856+00:00",
+      "evidence_checked": [
+        "NOTE:78",
+        "answer_packets:NOTE-S3C7-Q035"
+      ]
+    }
+  ]
+}

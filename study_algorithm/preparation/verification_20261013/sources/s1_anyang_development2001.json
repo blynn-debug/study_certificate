@@ -1,0 +1,19 @@
+{
+  "id": "s1_anyang_development2001",
+  "requested_url": "https://memory.library.kr/files/original/fb30420e03299984c06cfeb38fb81469.pdf",
+  "retrieved_url": "https://memory.library.kr/files/original/fb30420e03299984c06cfeb38fb81469.pdf",
+  "retrieved_at": "2026-10-13T15:53:25.582797+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "98c07141f75a13cddefc75c876980840ad1bea2af7964f198980d0a3e1043fdd",
+  "status": "retrieved_not_claim_verified",
+  "characters": 0,
+  "title": "(구)동안구청사부지 활용방안에 관한 연구용역보고서",
+  "publisher": "안양시",
+  "document_date": "2001-08",
+  "image_read_pages": [
+    117,
+    118
+  ],
+  "note": "스캔PDF 텍스트 없음. PDF117~118쪽, 인쇄96~97쪽 그림을 직접 읽어 아래 수동 요약을 작성. 현행 법규·보장수익 사실의 근거로 사용하지 않음."
+}

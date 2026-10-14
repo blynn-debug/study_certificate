@@ -1,0 +1,12 @@
+{
+  "id": "msci_methodology_index",
+  "requested_url": "https://www.msci.com/eqb/gimi/stdindex/methodology.html",
+  "retrieved_url": "https://www.msci.com/eqb/gimi/stdindex/methodology.html",
+  "retrieved_at": "2026-10-13T01:12:46.975782+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 454,
+  "content_sha256": "cf320a38433f59e4d7cb01b93af956efecbb617cdc9cc25d1e534f4834110a89",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "msci_accessibility2026",
+  "requested_url": "https://www.msci.com/downloads/web/msci-com/indexes/index-resources/market-classification/MSCI%202026%20GLOBAL%20MARKET%20ACCESSIBILITY%20REVIEW%20REPORT.pdf",
+  "retrieved_url": "https://www.msci.com/downloads/web/msci-com/indexes/index-resources/market-classification/MSCI%202026%20GLOBAL%20MARKET%20ACCESSIBILITY%20REVIEW%20REPORT.pdf",
+  "retrieved_at": "2026-10-13T01:03:07.705226+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "942a81a005e8ec30e5a845ee4afa7cca6637160fff955c62d0701f9275b16c8f",
+  "text_sha256": "ae43d75ed65851a73f30cedeab3d2e3ad802f61c0e39485fe13ab84c7c451061",
+  "binary_sha256": "942a81a005e8ec30e5a845ee4afa7cca6637160fff955c62d0701f9275b16c8f",
+  "pages": 78,
+  "status": "retrieved_not_claim_verified"
+}

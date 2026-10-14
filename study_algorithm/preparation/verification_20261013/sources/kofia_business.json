@@ -1,0 +1,17 @@
+{
+  "id": "kofia_business",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1803&seq=136",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1803&seq=136",
+  "retrieved_at": "2026-10-13T00:04:50.193610+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 149451,
+  "content_sha256": "5a424e8a20b41fef06c63c67d7613fd556d94afc66bdd2e3323ba06cf1301544",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자회사의 영업 및 업무에 관한 규정",
+  "kofia_seq": "136",
+  "history_seq": "1803",
+  "version_selection": "1811은 2026-12-01 시행: 2026-10-13 적용 제외",
+  "version_selection_source": "sources/kofia_tree.html"
+}

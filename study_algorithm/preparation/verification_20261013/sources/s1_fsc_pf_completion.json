@@ -1,0 +1,12 @@
+{
+  "id": "s1_fsc_pf_completion",
+  "requested_url": "https://better.fsc.go.kr/fsc_new/replyCase/LawreqDetail.do?lawreqIdx=3603&muGpNo=75&muNo=85&stNo=11",
+  "retrieved_url": "https://better.fsc.go.kr/fsc_new/replyCase/LawreqDetail.do?lawreqIdx=3603&muGpNo=75&muNo=85&stNo=11",
+  "retrieved_at": "2026-10-13T16:38:22.131684+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1527,
+  "content_sha256": "e5611a76deb31569118c0ca1a70c31f079b2be4be4c3ec43143e4be6bda72c74",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

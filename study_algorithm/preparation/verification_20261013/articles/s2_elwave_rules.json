@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_elwave_rules",
+  "source_metadata": {
+    "id": "s2_elwave_rules",
+    "requested_url": "https://www.elwave.com/elwave/faq/principle/principle2.html",
+    "retrieved_url": "https://www.elwave.com/elwave/faq/principle/principle2.html",
+    "retrieved_at": "2026-10-13T17:12:06.083030+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "7b0415fbfe8628a375a6902ef6566fba1c04c8c6502efe120d5dca163d6e4ddf",
+    "text_sha256": "f13d7d68ce1bb404c4694de4e452a68b47df359a37f5c5cf8121a1f534c3b39e",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_elwave_rules:ImpulseRules",
+      "source_id": "s2_elwave_rules",
+      "article": "ImpulseRules",
+      "heading": "ImpulseRules",
+      "text": "a. Impulse Pattern Description Impulses are always composed of five waves, labeled 1,2,3,4,5. Waves 1, 3 and 5 are themselves each impulsive patterns and are approximately equal in length. Waves 2 and 4 on the contrary are always corrective patterns. Rules and guidelines The most important rules and guidelines are: Wave 2 cannot be longer in price than wave 1, and it must not go beyond the origin of wave 1. Wave 3 is never the shortest when compared to waves 1 and 5. Wave 4 cannot overlap wave 1, except in diagonal triangles and sometimes in wave 1 or A waves, but never in a third wave. In most cases there should not be an overlap between wave 1 and A. As a guideline the third wave shows the greatest momentum, except when the fifth is the extended wave. Wave 5 must exceed the end of wave 3. As a guideline the internal wave structure should show alternation, which means different kind of corrective structures in wave 2 and 4.",
+      "start": 3475,
+      "end": 4414,
+      "sha256": "f7affdac532932ee02a87012947e942b67eeec37f39689883f2c653b43afaaa4"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

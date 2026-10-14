@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-14T09:26:52.027381+00:00",
+  "as_of": "2026-10-13",
+  "integration_checks_passed": true,
+  "full_task_complete": false,
+  "items_checked": 2292,
+  "preserved_baseline_releases": 505,
+  "target_answer_rationale_and_source_page_checked": 2292,
+  "all_linked_target_pages_checked": true,
+  "largest_private_context_characters": 171985,
+  "claims_checked": 645,
+  "local_test_suite": {
+    "tests": 168,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "timestamps": [
+      "2026-10-14T18:26:24.023774+09:00"
+    ],
+    "status": "passed"
+  },
+  "sources_checked": 236,
+  "retained_source_bodies_checked": 236,
+  "progress": {
+    "released": 1994,
+    "reviewed_held": 298,
+    "pending": 0
+  },
+  "target_correspondence_recheck_count": 22,
+  "provider_configured": false,
+  "live_model_validation": "not_run_user_requested_offline_study",
+  "offline_learning": {
+    "target_documents": 5,
+    "topics": 285,
+    "items": 2292,
+    "reviewed_releases": 1994,
+    "usable_practice_items": 1993,
+    "held_items": 298,
+    "held_with_learning_route": 298,
+    "topics_without_reviewed_example": 2,
+    "topics_without_separate_check": 20,
+    "study_rules_linked": 31,
+    "concrete_pattern_lessons": 10,
+    "study_transcripts_checked": 41,
+    "study_rule_evidence_spans_checked": 120,
+    "learner_responses_observed": 0,
+    "api_calls": 0
+  },
+  "limitations": [
+    "Successful file and context checks do not establish correctness of every answer.",
+    "Held items and unresolved original-question correspondence are not completed validation.",
+    "A live semantic grading run is separate from local protocol tests."
+  ],
+  "errors": [],
+  "artifact_sha256": {
+    "verification_20261013\\parallel_review_snapshot.json": "56e9b6063d16228e63cf785cc8582d74e3d5ed0054abc366c9247328be7516e2",
+    "verification_20261013\\item_releases.json": "1cdd85f7631b22197024605ddde6f50828a96be69a21929eb9f46bad8942252f",
+    "verification_20261013\\verified_claims.json": "8447c92926e4524ef7f26a869431edee50e866829e751ced53a34daae258d000",
+    "verification_20261013\\source_corrections.json": "764a6f23909d9404a65265e9e1712880861832a69ca55c7bdb6437f997d8c080",
+    "verification_20261013\\parallel_progress.json": "1e851a6ac2da6cbe44dc7821d60678496b21721d480211864be48346c262e02d",
+    "eval\\answer_packets.json": "e57193e6923e57afc64ac31496f7d86e08250926073b7bf85caf7b466971b5e0",
+    "eval\\item_contracts.json": "225e965cfadd167c93526be8c8c81a9141d1569d3a77a529f215515e4185c85a",
+    "eval\\semantic_grader.py": "cb665579b9580349444c478759a6007dedb5c74f2457f0f1517a68be969c35ba",
+    "verification_20261013\\item_verification_registry.json": "d4aa74bd078e6e6ddc7f38de1e2d06d244b02bce26c1b3de15b61512029d354a",
+    "verification_20261013\\verification_summary.json": "800bb1f3fd41c0f15726f83c79a6e8273cdbd9a1e1b08e75613b869f45b6e8b9",
+    "verification_20261013\\verification_report.html": "2476f236fce1c58f72d5e852c004e1a54a69e3997eb336ad7024a116d9658a55",
+    "verification_20261013\\progress_tree.txt": "2ed61f3b8358609072d387a31ddbda835fe1f0a3260f29f8dd6dc484c05795dd",
+    "verification_20261013\\integration_test_results.xml": "75476baf99c0623c398a0cef8a7b052c8750b29b6e97fb965016b4ca227ea2e8",
+    "target_analysis\\extracted\\CALC.json": "709e2d21db4930b04fda4d808ac2f7bfa5d452d8745678d09f8d38e66898c3d8",
+    "target_analysis\\extracted\\MOCK.json": "f14aa3e1c221039e7eab3c68896038b590b8382a4e0aa3e2e89e65bbc4146c17",
+    "target_analysis\\extracted\\NOTE.json": "46fdaab7943a80fb2f41e236c19c476f8e586fed51090ec6368dfd47e5124d5a",
+    "target_analysis\\extracted\\P12.json": "c806723e60e4581c401a97a372e1b21b23ea80ad70c66b0403d8f968dfc48ad9",
+    "target_analysis\\extracted\\P3.json": "649dcae958b1cac4188f74f9879fead7953e312e28ced2c3192e76fb931fd576",
+    "learning_integration_20261014\\learning_status.json": "c83b20cfcfa33fadf6e77f024a9bbad23ba160a7daba6b2b204dc904748f6c73",
+    "learning_integration_20261014\\learner_questions.json": "19c86a1f7a0e097a59d6c6fc070986fc2a120957d6696407ae6fa2ff811e85b2",
+    "learning_integration_20261014\\topic_teaching_guide.json": "ecadf74233a4313cfd29ceb8b1643d91da6bcb5128e323dd40ab8974e42cd78c",
+    "learning_integration_20261014\\question_learning_routes.json": "af6e7c0b9526a7fd0ca414f541bd8256679ba65a2c4b32653369224bf33efb34",
+    "learning_integration_20261014\\pattern_lessons.json": "980564ea0cb687dee32498385326597e00cc9de3caf4aca072aee84343aa1940",
+    "learning_integration_20261014\\study_method_crosswalk.json": "50fe2ae7b968adc1921b44fe4eded6a0143e53638e7379e651f8631d97b616ac",
+    "learning_integration_20261014\\pattern_validation.json": "ad58d76f350579b5fec1a36b47e2430b3af46b59f699fc4333bc7b6f6d216ace",
+    "learning_integration_20261014\\learning_report.html": "9caff1ffb22e40d2c3ac002547f8ce4803ca129c35a522404ae5e2d63667f6bc"
+  },
+  "target_pdf_sha256": {
+    "1과목_2과목.pdf": "32d1736fb708bedf7be9ac2074a6141002b5ce739a4c6d4797f5ed0c96ec8742",
+    "3과목.pdf": "8043687ff6bce96d78c96d0e8ea8b9adcf819431a19a46ecda056d125e151265",
+    "계산문제.pdf": "b856c5eaee198e7cd6f314200d0a19d2b02ed694f0ced7a2571e21677f05aaa7",
+    "모의고사.pdf": "6707a94d0334fc0c525820a1a10414444807dafcbcd54bd6c1adde73780a0236",
+    "핵심정리노트.pdf": "d32f423c0d3e51d8bde51fda634c543bd47919c51c0cb4b731be84376e697e19"
+  }
+}

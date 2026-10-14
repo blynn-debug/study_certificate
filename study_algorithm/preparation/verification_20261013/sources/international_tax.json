@@ -1,0 +1,18 @@
+{
+  "id": "international_tax",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280389&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T03:16:05.804821+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 91260,
+  "content_sha256": "6365afc6b2c651643564fe8bfd8a15d6cfb91bf87d01dde78393512e81dd9795",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "s3_financial_records",
+  "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196525",
+  "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196525",
+  "http_complete": true,
+  "http_status": 200,
+  "bytes": 108818,
+  "characters": 2618,
+  "content_sha256": "795684a780c157b0df54bd67d57263082fe013264d7c72ba826315712da5a665",
+  "text_sha256": "00b4590859308f9b1c0596d99f2181bf77a443731fcb096607d7455222f3be41",
+  "retrieved_at": "2026-10-14T00:11:47.246353+00:00",
+  "as_of": "2026-10-13",
+  "evidence_unit": "Annex12",
+  "status": "retrieved_not_claim_verified",
+  "version_selection": "Attachment linked in cached current financial_investment_rule official full text"
+}

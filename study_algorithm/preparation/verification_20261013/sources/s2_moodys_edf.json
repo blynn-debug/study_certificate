@@ -1,0 +1,14 @@
+{
+  "id": "s2_moodys_edf",
+  "requested_url": "https://www.moodys.com/web/en/us/insights/resources/a-cost-of-capital-approach-to-estimating-credit-risk-premium.pdf",
+  "retrieved_url": "https://www.moodys.com/web/en/us/insights/resources/a-cost-of-capital-approach-to-estimating-credit-risk-premium.pdf",
+  "retrieved_at": "2026-10-13T23:47:48.202427+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "af0e8155011f6715d226f9ef2e4b4165a7bebe2fefcd1019fbe54cd49870cac3",
+  "binary_sha256": "af0e8155011f6715d226f9ef2e4b4165a7bebe2fefcd1019fbe54cd49870cac3",
+  "text_sha256": "9c6a47a0c48e6312a959da0fc7814177c65febfc619837a1fd7fbe7547585f13",
+  "pages": 25,
+  "characters": 78926,
+  "status": "retrieved_not_claim_verified"
+}

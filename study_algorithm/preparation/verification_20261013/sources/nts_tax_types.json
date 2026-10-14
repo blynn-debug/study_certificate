@@ -1,0 +1,12 @@
+{
+  "id": "nts_tax_types",
+  "requested_url": "https://www.nts.go.kr/kid/cm/cntnts/cntntsView.do?cntntsId=7056&mi=7597",
+  "retrieved_url": "https://www.nts.go.kr/kid/cm/cntnts/cntntsView.do?cntntsId=7056&mi=7597",
+  "retrieved_at": "2026-10-13T03:16:06.276022+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1416,
+  "content_sha256": "fc5b2531c271a89d4f61e3df7bfe117fb6738d7bf895761eda133668cd589436",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

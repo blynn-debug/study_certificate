@@ -1,0 +1,18 @@
+{
+  "id": "postal_savings",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265787&chrClsCd=010202&urlMode=lsInfoP&efYd=20241025&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265787&chrClsCd=010202&urlMode=lsInfoP&efYd=20241025&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:17.622934+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 24815,
+  "content_sha256": "8a847497daa4dbbeedf577244bb1e4451395d2fe58011ac4e6a5cf8b7c6a2ae3",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2024",
+      "10",
+      "25"
+    ]
+  ]
+}

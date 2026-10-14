@@ -1,0 +1,152 @@
+﻿{
+    "task":  "연결 오류 이후 작업 복구",
+    "recorded_at":  "2026-10-13T23:25:42.1877925+09:00",
+    "git_repository":  false,
+    "backup":  "preparation/recovery_20261013_232439",
+    "before":  {
+                   "as_of":  "2026-10-13",
+                   "status":  "in_progress",
+                   "original_items":  2292,
+                   "existing_issue_notes":  357,
+                   "scoped_verified_claims":  304,
+                   "recomputed_mathematical_prompt_variants":  129,
+                   "individually_reasoned_concept_variants":  10,
+                   "individually_released_items":  470,
+                   "confirmed_correction_records":  178,
+                   "items_held_for_confirmed_correction":  0,
+                   "items_with_original_source_corrections":  181,
+                   "released_corrected_variants":  181,
+                   "items_with_related_correction_candidates":  1069,
+                   "item_states":  {
+                                       "adjudicated_current":  470,
+                                       "whole_item_review_pending":  1822
+                                   },
+                   "live_natural_language_model_validation":  "not_run_no_configured_provider",
+                   "complete_current_law_item_verification":  false,
+                   "do_not_report":  "Full claim verification or 2292 validated semantic grades."
+               },
+    "after":  {
+                  "as_of":  "2026-10-13",
+                  "status":  "in_progress",
+                  "original_items":  2292,
+                  "existing_issue_notes":  357,
+                  "scoped_verified_claims":  306,
+                  "recomputed_mathematical_prompt_variants":  129,
+                  "individually_reasoned_concept_variants":  17,
+                  "individually_released_items":  483,
+                  "confirmed_correction_records":  187,
+                  "items_held_for_confirmed_correction":  0,
+                  "items_with_original_source_corrections":  190,
+                  "released_corrected_variants":  190,
+                  "items_with_related_correction_candidates":  1072,
+                  "item_states":  {
+                                      "adjudicated_current":  483,
+                                      "whole_item_review_pending":  1809
+                                  },
+                  "live_natural_language_model_validation":  "not_run_no_configured_provider",
+                  "complete_current_law_item_verification":  false,
+                  "do_not_report":  "Full claim verification or 2292 validated semantic grades."
+              },
+    "added_release_ids":  [
+                              "S1C2T09-SUP-01",
+                              "S1C2T09-SUP-02",
+                              "S1C2T09-SUP-03",
+                              "S1C2T09-SUP-04",
+                              "S1C2T09-SUP-05",
+                              "S1C2T09-SUP-06",
+                              "S1C2T09-SUP-07",
+                              "S1C2T10-SUP-01",
+                              "S1C2T10-SUP-02",
+                              "S1C2T11-SUP-01",
+                              "S1C2T11-SUP-02",
+                              "S1C2T11-SUP-03",
+                              "S1C2T11-SUP-04"
+                          ],
+    "modified_existing_release_ids":  [
+
+                                      ],
+    "removed_release_ids":  [
+
+                            ],
+    "changed_files":  [
+                          "item_releases.json",
+                          "item_verification_registry.json",
+                          "source_corrections.json",
+                          "verification_report.html",
+                          "verification_summary.json",
+                          "verified_claims.json"
+                      ],
+    "tests":  {
+                  "command":  "python -m pytest preparation/eval preparation/verification_20261013 -q -p no:cacheprovider",
+                  "failed":  0,
+                  "passed":  153
+              },
+    "pending_by_chapter":  [
+                               {
+                                   "chapter":  "S1C2",
+                                   "count":  114
+                               },
+                               {
+                                   "chapter":  "S1C3",
+                                   "count":  152
+                               },
+                               {
+                                   "chapter":  "S2C1",
+                                   "count":  85
+                               },
+                               {
+                                   "chapter":  "S2C2",
+                                   "count":  61
+                               },
+                               {
+                                   "chapter":  "S2C3",
+                                   "count":  233
+                               },
+                               {
+                                   "chapter":  "S2C4",
+                                   "count":  91
+                               },
+                               {
+                                   "chapter":  "S3C1",
+                                   "count":  118
+                               },
+                               {
+                                   "chapter":  "S3C2",
+                                   "count":  248
+                               },
+                               {
+                                   "chapter":  "S3C3",
+                                   "count":  58
+                               },
+                               {
+                                   "chapter":  "S3C4",
+                                   "count":  124
+                               },
+                               {
+                                   "chapter":  "S3C5",
+                                   "count":  135
+                               },
+                               {
+                                   "chapter":  "S3C6",
+                                   "count":  135
+                               },
+                               {
+                                   "chapter":  "S3C7",
+                                   "count":  86
+                               },
+                               {
+                                   "chapter":  "S3C8",
+                                   "count":  86
+                               },
+                               {
+                                   "chapter":  "S3C9",
+                                   "count":  83
+                               }
+                           ],
+    "remaining":  [
+                      "1,809개 문항의 개별 주장·선지·해설과 현행 근거 대조",
+                      "검토된 발문만 승인하고 원문 오류를 학습자 오답과 구분",
+                      "실제 채점 공급자·모델 설정 및 실모델 평가 수행"
+                  ],
+    "limitation":  "이번 작업은 저장된 검토 코드의 미반영 결과를 복구한 것이며, 기존 법령 검토 내용을 새로 전수 검증한 것은 아님"
+}

@@ -1,0 +1,30 @@
+{
+  "source_id": "bok_ppi",
+  "source_metadata": {
+    "id": "bok_ppi",
+    "requested_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200560&nttId=220662&pageIndex=6&searchBbsSeCd=z19",
+    "retrieved_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200560&nttId=220662&pageIndex=6&searchBbsSeCd=z19",
+    "retrieved_at": "2026-10-13T01:02:20.480792+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 7792,
+    "content_sha256": "1a66586cdb00f09fda34847dff471ab78c63ce835a648cf7796959e849920e42",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "bok_ppi:PPI_definition",
+      "source_id": "bok_ppi",
+      "article": "PPI_definition",
+      "heading": "PPI_definition",
+      "text": "생산자물가지수는 국내시장에 출하되는 상품과 서비스의 종합적인 가격수준을 측정하는 물가지수로서, 생산과정 등에서 이용되는 상품 및 서비스의 전반적인 수급 및 가격동향을 파악하거나 명목생산액으로부터 실질생산액을 산출하는 데 이용된다. 생산자물가지수에 포착된 가격변동은 수개월의 시차를 두고 소비자물가지수에 반영되는 것으로 알려져 있어 향후 소비자물가 향방을 예측할 수 있는 선행지표로 활용되기도 한다.\n생산자물가지수의 조사대상 품목은 상품의 경우 내수 출하액의 1/10,000 이상, 서비스의 경우 1/2,000 이상을 차지하여 소속 상품군의 가격변동을 대표할 수 있고 가격 시계열의 유지가 가능한 품목으로 설정되어 있으며 2016년 현재 878개(상품 777개, 서비스 101개)이다.\n한편 생산자물가지수는 소비자물가지수와 조사품목에서 다음과 같은 차이가 있다. 우선 상품 부문을 보면 소비자물가지수는 소비재만을 포함하는 반면, 생산자물가지수는 소비재는 물론 자본재 뿐 아니라 생산과정에서 단계적으로 투입되는 원재료 및 중간재까지도 포함한다. 서비스 부문의 경우 소비자물가지수는 개인서비스만을 조사하지만 생산자물가지수는 기업용서비스가 주된 조사 대상이며 일부 개인서비스도 포함한다. 생산자물가지수는 이처럼 가격변동이 심한 원재료, 중간재 및 자본재 등을 포함하기 때문에 소비자물가지수와 비교하여 상대적으로 높은 변동성을 보인다.",
+      "start": 6428,
+      "end": 7115,
+      "sha256": "d2982cdd9b4d5a2f3d57a8b063a0b756508b8fb6f280c5cf57a1bbe208495c4d"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

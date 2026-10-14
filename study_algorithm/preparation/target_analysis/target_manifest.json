@@ -1,0 +1,131 @@
+{
+  "documents": [
+    {
+      "id": "P12",
+      "path": "src/target/1과목_2과목.pdf",
+      "bytes": 359397940,
+      "sha256": "32d1736fb708bedf7be9ac2074a6141002b5ce739a4c6d4797f5ed0c96ec8742",
+      "pages": 444,
+      "characters": 558637,
+      "low_text_pages": [
+        444
+      ],
+      "bookmarks": [],
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "ABBYY FineReader PDF 15",
+        "producer": "ABBYY FineReader PDF 15",
+        "creationDate": "D:20261012100957Z",
+        "modDate": "D:20261012100957Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "semantic_review": "completed_for_supplied_materials; see completion_audit.json for scope"
+    },
+    {
+      "id": "P3",
+      "path": "src/target/3과목.pdf",
+      "bytes": 385813088,
+      "sha256": "8043687ff6bce96d78c96d0e8ea8b9adcf819431a19a46ecda056d125e151265",
+      "pages": 468,
+      "characters": 593107,
+      "low_text_pages": [],
+      "bookmarks": [],
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "ABBYY FineReader PDF 15",
+        "producer": "ABBYY FineReader PDF 15",
+        "creationDate": "D:20261012101606Z",
+        "modDate": "D:20261012101606Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "semantic_review": "completed_for_supplied_materials; see completion_audit.json for scope"
+    },
+    {
+      "id": "CALC",
+      "path": "src/target/계산문제.pdf",
+      "bytes": 88149666,
+      "sha256": "b856c5eaee198e7cd6f314200d0a19d2b02ed694f0ced7a2571e21677f05aaa7",
+      "pages": 104,
+      "characters": 155136,
+      "low_text_pages": [],
+      "bookmarks": [],
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "ABBYY FineReader PDF 15",
+        "producer": "ABBYY FineReader PDF 15",
+        "creationDate": "D:20261012101957Z",
+        "modDate": "D:20261012101957Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "semantic_review": "completed_for_supplied_materials; see completion_audit.json for scope"
+    },
+    {
+      "id": "MOCK",
+      "path": "src/target/모의고사.pdf",
+      "bytes": 53900535,
+      "sha256": "6707a94d0334fc0c525820a1a10414444807dafcbcd54bd6c1adde73780a0236",
+      "pages": 76,
+      "characters": 98545,
+      "low_text_pages": [
+        1
+      ],
+      "bookmarks": [],
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "ABBYY FineReader PDF 15",
+        "producer": "ABBYY FineReader PDF 15",
+        "creationDate": "D:20261012102641Z",
+        "modDate": "D:20261012102641Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "semantic_review": "completed_for_supplied_materials; see completion_audit.json for scope"
+    },
+    {
+      "id": "NOTE",
+      "path": "src/target/핵심정리노트.pdf",
+      "bytes": 80449009,
+      "sha256": "d32f423c0d3e51d8bde51fda634c543bd47919c51c0cb4b731be84376e697e19",
+      "pages": 87,
+      "characters": 108539,
+      "low_text_pages": [
+        1
+      ],
+      "bookmarks": [],
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "ABBYY FineReader PDF 15",
+        "producer": "ABBYY FineReader PDF 15",
+        "creationDate": "D:20261012102857Z",
+        "modDate": "D:20261012102857Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "semantic_review": "completed_for_supplied_materials; see completion_audit.json for scope"
+    }
+  ],
+  "page_numbering": "PDF one-based"
+}

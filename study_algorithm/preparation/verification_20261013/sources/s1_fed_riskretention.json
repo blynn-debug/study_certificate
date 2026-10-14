@@ -1,0 +1,12 @@
+{
+  "id": "s1_fed_riskretention",
+  "requested_url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.html",
+  "retrieved_url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.html",
+  "retrieved_at": "2026-10-13T15:59:04.801089+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 195916,
+  "content_sha256": "2768eb92a887d93b1a27f96955939ea9a9e75cb36babdeb4e4ee8e4bb4d01aa6",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

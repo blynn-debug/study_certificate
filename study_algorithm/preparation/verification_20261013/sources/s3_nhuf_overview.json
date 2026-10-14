@@ -1,0 +1,14 @@
+{
+  "id": "s3_nhuf_overview",
+  "requested_url": "https://nhuf.molit.go.kr/FP/FP07/FP0705/FP07050101.jsp",
+  "retrieved_url": "https://nhuf.molit.go.kr/FP/FP07/FP0705/FP07050101.jsp",
+  "retrieved_at": "2026-10-14T09:17:09.730335+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 6285,
+  "content_sha256": "14883b51217290c6534b8f9edcb411d254c70fbc9bf09df4ecb2bacc786c715d",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "evidence_unit": "Overview",
+  "version_selection": "Official current first-type housing bond page retrieved 2026-10-14; as-of issuance terms shown since 2025-04-01."
+}

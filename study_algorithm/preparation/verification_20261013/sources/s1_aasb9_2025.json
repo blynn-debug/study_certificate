@@ -1,0 +1,15 @@
+{
+  "id": "s1_aasb9_2025",
+  "requested_url": "https://standards.aasb.gov.au/aasb-9-feb-2025",
+  "retrieved_url": "https://standards.aasb.gov.au/aasb-9-feb-2025",
+  "retrieved_at": "2026-10-13T17:06:50.977827+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 526265,
+  "content_sha256": "89df96eb27078482f24716a1e2320383e6fb40328cff4a9324db6601636277ec",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "title": "AASB9 Compilation6, compiled31December2025, prepared24February2026",
+  "document_date": "2026-02-24",
+  "scope": "해당편집본적용연도는2026-01-01이상2026-07-01미만개시연도. 금융자산제거의조건부구조설명만사용; 2026년10월현행호주규정전체나한국법직접검증이아님."
+}

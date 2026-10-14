@@ -1,0 +1,26 @@
+{
+  "source_id": "kofia_recommendation",
+  "header": "",
+  "current_body_end": 48877,
+  "supplementary_provisions": "",
+  "count": 0,
+  "items": [],
+  "warning": "별표·별지는 별도 파일일 수 있다. 본문 인덱스 존재는 검증 완료를 뜻하지 않는다.",
+  "source_metadata": {
+    "id": "kofia_recommendation",
+    "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1787&seq=149",
+    "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1787&seq=149",
+    "retrieved_at": "2026-10-13T00:04:50.038337+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 48877,
+    "content_sha256": "715bc3d98ba34cf6bdb7e71cd4187701f58c45a701110b7ff8e61991669b0f85",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [],
+    "name": "표준투자권유준칙",
+    "kofia_seq": "149",
+    "history_seq": "1787",
+    "version_selection": "공식 최신본; 부칙의 시행조건 별도 확인",
+    "version_selection_source": "sources/kofia_tree.html"
+  }
+}

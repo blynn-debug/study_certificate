@@ -1,0 +1,4 @@
+[
+ {"id":"MOCK-1-Q054","reason":"MOCK15의 가~라 및 4조합을 확인. 현행 표준윤리준칙16조는 SNS 대외활동을 명시하나 원문 가의 부득이한 사후승인·추인 예외가 조문에 존재하지 않는다. 내부통제91조의 이메일·대화방 규칙은 확인되지만 가의 정오 근거를 독립확정할 수 없어 정답① 전체승인은 보류한다.","evidence_checked":["MOCK:15/62","kofia_ethics:제16조 historySeq1048","kofia_internal_control:제90조/제91조 historySeq1795"]},
+ {"id":"MOCK-2-Q055","reason":"MOCK42의 전체4보기·정답② 확인. 자본시장법416·419·422조로 검사·조치명령·임원해임요구·직원면직요구를 확인했고 금융투자협회 공식 협회개황에서 회원제명은 총회의 권한임을 웹대조했다. 그러나 공식 페이지 전체 HTML 수신이 IncompleteRead로 실패하여 현재 검증게이트상 완전수신 근거가 미확보다. ④ 원문의 직접면직은 면직요구로 최소교정 필요. 완전한 공식 정관 또는 소개자료 저장 후 재검토한다.","evidence_checked":["MOCK:42/72","capital:제416조/제419조/제422조","https://www.kofia.or.kr/wpge/m_39/sub010401.do","urllib IncompleteRead(24174 bytes read), 부분수신을완료로표시하지않음"]}
+]

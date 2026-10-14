@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_fed_creditcycle",
+  "source_metadata": {
+    "id": "fb_fed_creditcycle",
+    "requested_url": "https://www.federalreserve.gov/econresdata/notes/feds-notes/2016/recession-risk-and-the-excess-bond-premium-20160408.html",
+    "retrieved_url": "https://www.federalreserve.gov/econresdata/notes/feds-notes/2016/recession-risk-and-the-excess-bond-premium-20160408.html",
+    "retrieved_at": "2026-10-14T00:19:12.352420+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 23989,
+    "content_sha256": "75a135109639f9d2014fbfac483f203a29b3d6fb79351d69becfd7704f9ae5ed",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_fed_creditcycle:경기와스프레드",
+      "source_id": "fb_fed_creditcycle",
+      "article": "경기와스프레드",
+      "heading": "경기와스프레드",
+      "text": "Note that all three marginal effects have their expected signs: a widening of credit spreads increases the likelihood of an economic downturn over the coming year, as does the flattening of the yield curve--a decline in the term spread--and an increase in the real federal funds rate. In economic terms, an increase in the GZ spread of 50 basis points in month t is estimated to increase the probability of a recession over subsequent 12 month by about 7 percentage points. A decline in the term spread of the same magnitude increases this likelihood by almost 4 percentage point, while a 50 basis point increase in the real funds rate is associated with an increase in the probability of a recession over subsequent 12 month of almost 2.5 percentage points.",
+      "start": 8475,
+      "end": 9233,
+      "sha256": "ad243e004f1e4262a5858e878f62fc121c3f36011374238cca6e131a95ef6566"
+    }
+  ]
+}

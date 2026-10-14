@@ -1,0 +1,19 @@
+{
+  "id": "income_body",
+  "requested_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=280405&efYd=20260701&chrClsCd=010202&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW/lsInfoR.do?lsiSeq=280405&efYd=20260701&chrClsCd=010202&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:54:27.196518+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 334014,
+  "content_sha256": "75c504ac6e07a5d3eebe4ea12252fd68aeb035939f7dbee34cf260070a4d3013",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

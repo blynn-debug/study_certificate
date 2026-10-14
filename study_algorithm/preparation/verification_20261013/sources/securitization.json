@@ -1,0 +1,19 @@
+{
+  "id": "securitization",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=252411&chrClsCd=010202&urlMode=lsInfoP&efYd=20240112&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=252411&chrClsCd=010202&urlMode=lsInfoP&efYd=20240112&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:38.006255+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 26340,
+  "content_sha256": "1bcc4ed442491dd22876faaaec0cdb1e74e609d98cfb225fa719fed2ffcb13b5",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2024",
+      "1",
+      "12"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

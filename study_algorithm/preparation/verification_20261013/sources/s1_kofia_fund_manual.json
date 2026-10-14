@@ -1,0 +1,12 @@
+{
+  "id": "s1_kofia_fund_manual",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=990&seq=262",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=990&seq=262",
+  "retrieved_at": "2026-10-13T16:22:08.086417+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 251278,
+  "content_sha256": "4ccada8054120399e17d2a1e28f65b4b58d7c3e9eb892d568162f92f93d87c00",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

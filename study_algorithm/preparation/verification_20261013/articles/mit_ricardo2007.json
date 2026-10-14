@@ -1,0 +1,32 @@
+{
+  "source_id": "mit_ricardo2007",
+  "source_metadata": {
+    "id": "mit_ricardo2007",
+    "requested_url": "https://ocw.mit.edu/courses/14-452-macroeconomic-theory-ii-spring-2007/3381c120a66b4eefe6fbff29b432cc1d_slides10.pdf",
+    "retrieved_url": "https://ocw.mit.edu/courses/14-452-macroeconomic-theory-ii-spring-2007/3381c120a66b4eefe6fbff29b432cc1d_slides10.pdf",
+    "retrieved_at": "2026-10-13T16:30:10.014298+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "9993c94c63a070425d5827781e9a554e16d9e4a3e22214d8af42dc2eabcba560",
+    "binary_sha256": "9993c94c63a070425d5827781e9a554e16d9e4a3e22214d8af42dc2eabcba560",
+    "text_sha256": "d94b79a0d6509940b8148f1ff065216d34a4c038fd7e0ad19842953d2faeb529",
+    "pages": 14,
+    "characters": 9654,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "mit_ricardo2007:동등정리와한계",
+      "source_id": "mit_ricardo2007",
+      "article": "동등정리와한계",
+      "heading": "동등정리와한계",
+      "text": "[PDF page 3]\n1. Ricardian equivalence \n• Take the budget constraint of a representative consumer. \nAssume lump sum taxes, Tt. Assume the consumer can hold his wealth \nin either an asset A (which can be capital, shares, private bonds,..) and \ngovernment bonds, B: \nBt+1 + At+1 = WtNt + Πt − Tt − Ct + (1 + Rt)Bt + (1 + RAt)At \n• Consider the budget constraint of the government. \nThe government collects (lump sum) taxes Tt, spends Gt, and ﬁnances \nthe diﬀerence by issuing debt: \nBt+1 − Bt = (Gt − Tt) + RtBt \nNr. 3\nCite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  \nMIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. \n\n\n[PDF page 4]\nReplace the government budget in the consumer’s budget constraint to get: \nAt+1 = WtNt + Πt − Gt − Ct + (1 + RAt)At \nNote that the budget constraint depends on Gt but does not depend on either \nBt or Tt. This is the Ricardian equivalence proposition: \n• For a given sequence of government spending, changes in the timing of \nlump sum taxes have no eﬀect on the allocation. \n• Equivalently: If the government saves less by decreasing Tt, consumers \nwill save more in exactly the same amount. Total saving (private plus \npublic saving) will be unaﬀected. \n• Equivalently: If the government increases the deﬁcit by decreasing Tt \nand issues debt, consumers will be willing to hold this additional debt \nat the same interest rate. \n• Equivalently: Debt will not crowd out capital accumulation. \nNr. 4\nCite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  \nMIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. \n\n\n[PDF page 5]\nThe obvious limits of the relevance of Ricardian equivalence. \n• Finite horizons. Consider a decrease in Tt. Suppose some consumers do \nnot expect to be there when taxes are increased. Then the decrease in \nTt leads to a positive wealth eﬀect. \nThey will increase consumption and thus not increase saving by as much \nas the decrease in taxes. Debt will have an eﬀect on the allocation. \n(Diamond OLG, or Blanchard-Yaari). Empirical importance? \n• Liquidity or cash constraints. If for some consumers, Ct ≤ WtNt +Πt − \nTt, then clearly changes in taxes will matter. \nNeed to understand the exact nature of the liquidity constraint. \n• Bounded rationality. Tax increases may be far in the future, and not be \ntaken into account. Horizon does matter. \n• Distortionary taxes. \nNr. 5\nCite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  \nMIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY].",
+      "start": 1193,
+      "end": 3944,
+      "sha256": "35569443723266116d0810ac0024d5ecf25d04b9d05695c3167e27dc8653074d"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

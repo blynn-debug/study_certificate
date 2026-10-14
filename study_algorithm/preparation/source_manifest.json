@@ -1,0 +1,255 @@
+[
+    {
+        "id":  "Bxu7WCeoThY",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/01_1부 「발상의 전환」 ① 물욕이라도 좋으니 욕심을 가져라. ② 인풋과 아웃풋을 구별하라. ③ 필요한 만큼만 공부한다. (이윤규 공부법) [Bxu7WCeoThY].ko-orig.txt",
+        "lines":  273,
+        "sha256":  "BB12848E17875332F46EF457A907F4A8A97FDEC37F6DBBCD259369772A8BEBA8"
+    },
+    {
+        "id":  "vluEPc2lXaI",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/02_2부 「INPUT」 ④ 완벽한 암기는 독이다. ⑤ 인풋에는 단계가 있다. (이윤규 공부법) [vluEPc2lXaI].ko-orig.txt",
+        "lines":  238,
+        "sha256":  "6976865E99978D8911D0567425AC2280D1670A442CD3AC9A56FBA40CDFD17041"
+    },
+    {
+        "id":  "3X4j9L1t0hk",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/03_3부 「강의활용」 ⑥ 예습없는 수강은 시간낭비다. ⑦ 강의는 다 듣는 것이 아니다. (이윤규 공부법) [3X4j9L1t0hk].ko-orig.txt",
+        "lines":  199,
+        "sha256":  "63314F756E930E431A03A99BBCEB689213DF5A12F0AD6B2BC59A293CAEC7BB73"
+    },
+    {
+        "id":  "Zm9yPhGrWPs",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/04_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+        "lines":  246,
+        "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6",
+        "copies":  [
+                       {
+                           "path":  "src/YouTube_자막_2026-10-12/03_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+                           "lines":  246,
+                           "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6"
+                       }
+                   ]
+    },
+    {
+        "id":  "ciMdEAqKH7M",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/05_5부 「OUTPUT」 ⑩ 성적은 아웃풋으로 결정된다. (이윤규 공부법) [ciMdEAqKH7M].ko-orig.txt",
+        "lines":  205,
+        "sha256":  "C7BA53E2323573C66B5718E39F182EFA14B96B8929C6486184645E08323A3F0E"
+    },
+    {
+        "id":  "VIiri54HNh8",
+        "path":  "src/YouTube_2020_Noryangjin_subtitles/06_6부 「단기합격 테크트리」 ⑪ 계획은 거꾸로 짠다. ⑫ 문제보다 해설을 먼저 본다. (이윤규 공부법) [VIiri54HNh8].ko-orig.txt",
+        "lines":  186,
+        "sha256":  "E603F723BF55AF22178B784EEA079668D98D754B54DD7BEE1FDDDFA30AE50EDA"
+    },
+    {
+        "id":  "KVyQKanC_8Y",
+        "path":  "src/YouTube_Study_Season3_subtitles/KVyQKanC_8Y.ko-orig.txt",
+        "lines":  238,
+        "sha256":  "055E05963BE97CEF1216D859938A561932CA90D58FEBF2164AA6A86A32F01A08"
+    },
+    {
+        "id":  "nhm7fFsyU0g",
+        "path":  "src/YouTube_Study_Season3_subtitles/nhm7fFsyU0g.ko-orig.txt",
+        "lines":  390,
+        "sha256":  "D8EFB3AD8E4EE6D3489A11CBE179E8DB80B9F41FC6676D91CFF91DB31B40228B"
+    },
+    {
+        "id":  "g4QlY3eZP3M",
+        "path":  "src/YouTube_Study_Season3_subtitles/g4QlY3eZP3M.ko-orig.txt",
+        "lines":  297,
+        "sha256":  "60AB0DC2826DD9D37270AF1488126BA6117731F8D684C89A79769500DD5BF2A5"
+    },
+    {
+        "id":  "2VAPxqnPGrM",
+        "path":  "src/YouTube_Study_Season3_subtitles/2VAPxqnPGrM.ko-orig.txt",
+        "lines":  501,
+        "sha256":  "1F642DAFAA3AB640FCCD5638EBD491B993D1C945385E37D3800E1DB7B5611A9C"
+    },
+    {
+        "id":  "tFaHbs34ScM",
+        "path":  "src/YouTube_Study_Season3_subtitles/tFaHbs34ScM.ko-orig.txt",
+        "lines":  248,
+        "sha256":  "05BC806F4DAE1431D3138C47BF5B92E1F11231E7E9BF3867F78ECBE82F92FD4F"
+    },
+    {
+        "id":  "FwV1mBStPrM",
+        "path":  "src/YouTube_Study_Season3_subtitles/FwV1mBStPrM.ko-orig.txt",
+        "lines":  379,
+        "sha256":  "616E18FA4E4A57C260775BF9C3E6DAA60949F53F89A36F63754E51C7DECD738E"
+    },
+    {
+        "id":  "SZcdSONPqcQ",
+        "path":  "src/YouTube_Study_Season3_subtitles/SZcdSONPqcQ.ko-orig.txt",
+        "lines":  244,
+        "sha256":  "D638D5F2BAD2E4EAE968C586E082F84D3B925B361F1897247D2AE4444CBB1775"
+    },
+    {
+        "id":  "lAdUmpA2I14",
+        "path":  "src/YouTube_Study_Season3_subtitles/lAdUmpA2I14.ko-orig.txt",
+        "lines":  590,
+        "sha256":  "11918A7C16C502B609E043A7EBD82239BFCA4FC526F20B48D17E44F4661886AC"
+    },
+    {
+        "id":  "fy0SHDX1Uxk",
+        "path":  "src/YouTube_Study_Season3_subtitles/fy0SHDX1Uxk.ko-orig.txt",
+        "lines":  532,
+        "sha256":  "C20436CE3723F18F9F139A633AAE518911DC63AFC23A42507D23E832A3B1E372"
+    },
+    {
+        "id":  "JBz9pSYu11A",
+        "path":  "src/YouTube_Study_Season3_subtitles/JBz9pSYu11A.ko-orig.txt",
+        "lines":  447,
+        "sha256":  "0921B2938632690572DD7B463BFB17133BD63F7476848DFAC03996D646D06413"
+    },
+    {
+        "id":  "g1N1_GFniLE",
+        "path":  "src/YouTube_자막_2026-10-12/01_책이 통째로 외워지는 신기한 경험, 준비되셨나요？ (구조화 독서법) ｜ 이윤규 공부법 [g1N1_GFniLE].ko-orig.txt",
+        "lines":  265,
+        "sha256":  "E6695DF67AC543A3EAFC0CB1EE974B693D84140FE3D03DCF42D381503A933114"
+    },
+    {
+        "id":  "TIxGJZPFsyc",
+        "path":  "src/YouTube_자막_2026-10-12/04_과연 외워야만 점수가 잘 나올까요？ 암기에 집착하지 마세요. (이윤규 공부법) [TIxGJZPFsyc].ko-orig.txt",
+        "lines":  248,
+        "sha256":  "F63071254FCEEC44001D354BB85B434FB7A420916FC786C09A633F17118D79A0"
+    },
+    {
+        "id":  "Vrs0pLJdDnQ",
+        "path":  "src/YouTube_자막_2026-10-12/05_장기기억 노하우, 공개합니다. (이윤규 공부법) [Vrs0pLJdDnQ].ko-orig.txt",
+        "lines":  271,
+        "sha256":  "0A2751A3795FEB57ECCBC187E61711E6DBC5FC35A29A434B135B31A6A09C3462"
+    },
+    {
+        "id":  "Toa43mkjhl8",
+        "path":  "src/YouTube_자막_2026-10-12/06_청킹, 막상 공부에 적용해보려니 어려우셨죠？ (농촌지도사의 꿈 ③부) [Toa43mkjhl8].ko-orig.txt",
+        "lines":  72,
+        "sha256":  "545D93E761D15C5F071754E51BD822C802187FDCAEA4A5C91CABFAA53BA6C213"
+    },
+    {
+        "id":  "Yf1KLCQFb1Y",
+        "path":  "src/YouTube_자막_2026-10-12/07_첫사랑보다 잊기 힘든 기억법을 소개합니다. (농촌지도사의 꿈 ②부) [Yf1KLCQFb1Y].ko-orig.txt",
+        "lines":  263,
+        "sha256":  "31D57EAF621A84EC5EE0B1989E9F5337FEDEBDE5903966FA09F9F69E3E99DA9F"
+    },
+    {
+        "id":  "BN8ii2giqm0",
+        "path":  "src/YouTube_자막_2026-10-12/08_밑줄만 잘 그어도 성적이 높아집니다. (1_1 공부 코칭 야구선수 출신 28세 청년 ④부) [BN8ii2giqm0].ko-orig.txt",
+        "lines":  283,
+        "sha256":  "00ADF0274E56E744142A826B7453CAEC7805851446EEBB315B561D87670D9382"
+    },
+    {
+        "id":  "y4fyL8vAdbs",
+        "path":  "src/YouTube_자막_2026-10-12/09_충격주의! 누구나 할 수 있는 ‘책을 통째로 외우는 방법\u0027 (수험생의 성지 1편) [자동자막 있음] [y4fyL8vAdbs].ko.txt",
+        "lines":  292,
+        "sha256":  "E56C905FD0035AF08E820D8FCAB0A5F5FBB547CB690F74108714DBE8E1B5E92B"
+    },
+    {
+        "id":  "m1eieNzRZrg",
+        "path":  "src/YouTube_자막_2026-10-12/10_세부 내용 암기법 + 객관식 풀이 비법 (수험생의 성지 2편) [m1eieNzRZrg].ko-orig.txt",
+        "lines":  353,
+        "sha256":  "5A846C9397E78A6D24E082D5874BDCCEEA56A7E009B419F09872E32407F363A9"
+    },
+    {
+        "id":  "po3EfwdInDE",
+        "path":  "src/YouTube_자막_2026-10-12/11_다 외워져도 책임 못 집니다 (희망프로젝트 EP.02) [po3EfwdInDE].ko-orig.txt",
+        "lines":  273,
+        "sha256":  "ED682D69A05CF7583121A05B3571569214BFB8BCA8982B54340879A3091855E7"
+    },
+    {
+        "id":  "rN0z4OQC-80",
+        "path":  "src/YouTube_자막_2026-10-12/12_지식을 뇌에 프린트하는 방법 (이윤규 공부법) [rN0z4OQC-80].ko-orig.txt",
+        "lines":  424,
+        "sha256":  "46ECE45DAECF6E56BE6D9B202B7F5D692C1578182D6F92321149D530385C580A"
+    },
+    {
+        "id":  "-Dw8cMKTp5Q",
+        "path":  "src/YouTube_자막_2026-10-12/13_책 정리가 공부를 좌우합니다. (이윤규 공부법) [-Dw8cMKTp5Q].ko-orig.txt",
+        "lines":  100,
+        "sha256":  "9BE89A975A1BB1CA7562696064C534507E4FCB950414241BBE7A2F7E60097D69"
+    },
+    {
+        "id":  "C-NFMuUv59w",
+        "path":  "src/YouTube_자막_2026-10-12/14_쓰는 공부, 이제는 그만 해야 합니다 (이윤규 공부법) [C-NFMuUv59w].ko-orig.txt",
+        "lines":  167,
+        "sha256":  "9C0ED0880C989510F56FFDC3FF6E86B53FAF9FC541FEB7EBF9CB35FD76EA0312"
+    },
+    {
+        "id":  "fsvUJB8kp8g",
+        "path":  "src/YouTube_자막_2026-10-12/15_장수생으로 가는 지름길, 서브노트 (이윤규 공부법) [fsvUJB8kp8g].ko-orig.txt",
+        "lines":  103,
+        "sha256":  "05FCE4E167F7AFE1392710D034C75F43E23770ACF858EB98BD929AB9D1A9DC3C"
+    },
+    {
+        "id":  "zVuvWKPwXVQ",
+        "path":  "src/YouTube_자막_2026-10-12/16_발상의 전환, 단점을 장점으로 만드는 방법 (이윤규 공부법) [zVuvWKPwXVQ].ko-orig.txt",
+        "lines":  60,
+        "sha256":  "24D9AD9F2B9F723FDCD60CD2806DD650EE1E0F8199A111DE7CFB5E11D2D7684D"
+    },
+    {
+        "id":  "HMNG4T1ZGaU",
+        "path":  "src/YouTube_자막_2026-10-12/17_집에서 효율이 극대화되는 공부법, 딱 활용하기 좋은 때 입니다. (이윤규 공부법) [HMNG4T1ZGaU].ko-orig.txt",
+        "lines":  125,
+        "sha256":  "5AB846289A8BB738399FCC329B8AA5704590EC37F6CC3E4A31561C0797E0A13E"
+    },
+    {
+        "id":  "SqOrTT_sJ0E",
+        "path":  "src/YouTube_자막_2026-10-12/18_판례에는 2가지 유형이 있습니다. \u0027재판례\u0027는 유형화하여 외웁니다. 「판례 암기법 1편」 (이윤규 공부법) [SqOrTT_sJ0E].ko-orig.txt",
+        "lines":  146,
+        "sha256":  "5BA07A1EC5545D90D17D0AE29AC2605677C9499D27F8E688416AFA53168C4AAC"
+    },
+    {
+        "id":  "zEjCIVxXYP8",
+        "path":  "src/YouTube_자막_2026-10-12/19_책정리를 하지 않으면 공부해도 소용이 없습니다 (이윤규 공부법) [zEjCIVxXYP8].ko-orig.txt",
+        "lines":  365,
+        "sha256":  "AE500EB71915C7ED605EDED6676AE10EEF6E2F64E9A216529D27ED25881F34CF"
+    },
+    {
+        "id":  "SxL8INrDni8",
+        "path":  "src/YouTube_자막_2026-10-12/20_쓰는 것은 시간낭비입니다. 「키워드 공부법」 (희망프로젝트 드리머) [SxL8INrDni8].ko-orig.txt",
+        "lines":  207,
+        "sha256":  "9D5280A04204FBCDBB9B680F34172AA36D91F34579359C8DF0F289E546C9775C"
+    },
+    {
+        "id":  "Ir1ymyNLhaw",
+        "path":  "src/YouTube_자막_2026-10-12/21_책은 3단계로 나눠서 읽습니다. (축구선수 출신 경시생의 꿈 ②부) [Ir1ymyNLhaw].ko-orig.txt",
+        "lines":  101,
+        "sha256":  "9E6385DA18936850C2B915D50189F1973225FBF257305E20ED205DAC8AD6D564"
+    },
+    {
+        "id":  "fMCS6166ut4",
+        "path":  "src/YouTube_자막_2026-10-12/22_뼈대가 없이 공부하면 살이 붙지를 않아요. (공부단절 9급 공시생 ④부) [fMCS6166ut4].ko-orig.txt",
+        "lines":  126,
+        "sha256":  "C247D8150DF5CE03C6C3AD9F60A5C10E14940DB35D2A5ECCB66981F09F7C9823"
+    },
+    {
+        "id":  "dkc7jbyWCic",
+        "path":  "src/YouTube_자막_2026-10-12/23_보조교사의 수능도전 (희망프로젝트 드리머) [dkc7jbyWCic].ko-orig.txt",
+        "lines":  204,
+        "sha256":  "8E63D871E43DEE9AF056934D19E11775151961C305237FC2FDF2AC508CDC2EAA"
+    },
+    {
+        "id":  "Xj76M1SReGA",
+        "path":  "src/YouTube_자막_2026-10-12/24_판례에는 2가지 유형이 있습니다. \u0027선례\u0027는 세부화하여 외웁니다. 「판례 암기법 2편」 (이윤규 공부법) [Xj76M1SReGA].ko-orig.txt",
+        "lines":  88,
+        "sha256":  "2FE4576B36111075373385B81A6B152A7C7674943F2AAE26B6C051D13A637CE3"
+    },
+    {
+        "id":  "XwkBBpbAErI",
+        "path":  "src/YouTube_자막_2026-10-12/25_객관식의 성패는 속도와 정확도입니다. 통계와 뇌구조를 이용하여 선지만 읽고 푸는 법 [XwkBBpbAErI].ko-orig.txt",
+        "lines":  221,
+        "sha256":  "2ED24AFC0B2F9E48064E99CD95383648CE2058914EF0998468515E7A4D76741D"
+    },
+    {
+        "id":  "kI0r-A1bA4c",
+        "path":  "src/YouTube_자막_2026-10-12/26_＂객관식 시험은 정답과 해설부터 봐야 합격이 빨라집니다 ＂  (박균성 교수 2부) [kI0r-A1bA4c].ko-orig.txt",
+        "lines":  173,
+        "sha256":  "2828B49D36B73B4979D842AB7195FB2FB21C5394C8BC74DD4635EBFAFC5B8F52"
+    },
+    {
+        "id":  "99wv4aQQzFk",
+        "path":  "src/YouTube_자막_2026-10-12/27_이 3가지를 모르면 아무리 열심히 강의 듣고 책 봐도 소용이 없습니다. [99wv4aQQzFk].ko-orig.txt",
+        "lines":  416,
+        "sha256":  "6B1EF60E218B34EC263E5E6F888220596FF3D1A8A5BA77C9165CB487F3B1F0DA"
+    }
+]

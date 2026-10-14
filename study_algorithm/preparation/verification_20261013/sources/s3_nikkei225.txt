@@ -1,0 +1,972 @@
+ 
+GB-101-E-20261001 
+Nikkei Stock Average 
+Index Guidebook 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nikkei Inc. 
+ 
+ 
+ 
+ 
+・This document is the index guidebook of the Nikkei Stock Average calculated and 
+published by Nikkei Inc (Nikkei). The document is drawn up by Nikkei and it 
+would be changed or modified corresponding to the revision of the index 
+calculation rule etc. 
+・Copyright of this document is owned by Nikkei, and any copies, reprints and 
+reproduction of this document are prohibited without the prior approval of Nikkei. 
+This document is prepared solely for the understanding of the index that Nikkei 
+calculates and publishes, and it is not to be construed as a solicitation or an offer 
+to buy or sell any securities or related financial instruments. 
+・This English document is a translation of the original document in Japanese and 
+may not be an entirely accurate translation of the original Japanese document. In 
+any case where differences arise between the English version and the original 
+Japanese version, the original Japanese document will prevail. 
+ 
+(October 1, 2026 creation) 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+2 
+1: Summary 
+(1) Introduction 
+The Nikkei Stock Average (Nikkei 225) is used around the globe as the most popular 
+benchmark of the Japanese stock market.  It is comprised of 225 stocks listed on the 
+Tokyo Stock Exchange Prime Market and calculated as an adjusted price weight index.   
+ 
+The 225 constituent stocks are reviewed periodically by the liquidity in the market 
+and sector balance.  By calculating with highly liquid stocks, the index is aimed at 
+fulfilling two objectives, one is to maintain its long-term continuity and the other is 
+to reflect the changes in the industry structure.  
+ 
+The index started on September 7, 1950.  It was retroactively calculated back to May 
+16, 1949 which is the day the Tokyo Stock Exchange reopened for the first time after 
+the Second World War.  The index has been calculated and published by Nikkei since 
+1970, succeeding it from the Tokyo Stock Exchange. 
+(2) Name 
+(Japanese) 
+Official: 
+ 
+日経平均株価（Nikkei Heikin Kabuka） 
+Abbreviation: 
+日経平均（Nikkei Heikin）, 日経225（Nikkei 225）  
+ 
+(English) 
+Official: 
+ 
+Nikkei Stock Average 
+Abbreviation: 
+Nikkei Average, Nikkei 225 
+ 
+ 
+2: Constituents Management 
+ 
+In principle, constituents of the Nikkei 225 are reshuffled based on the following rules.  
+There are two types of changes in the constituents.  One is “Periodic Review” 
+conducted twice a year, and the other is “Extraordinary Replacement” where the 
+vacancies of the constituents created by delisting or other reasons are filled. 
+ 
+This section is a summary of the constituents management and the official text is 
+found in the “Nikkei Stock Average Constituents Selection Rules” attached hereto, 
+which supersedes the explanation below. 
+(1) Necessary Conditions of the constituents 
+Stocks (old share, domestic) listed on the Tokyo Stock Exchange Prime Market.  
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+3 
+However, non-ordinary shares such as ETFs, REITs, preferred stocks, preferred 
+securities or tracking stocks are excluded. 
+(2) Periodic Review 
+Constituents are reviewed twice a year with a base date at the end of January and July, 
+and the result becomes effective in the beginning of April and October respectively.  
+Deletions and additions are announced before the effective date with some notification 
+period.  The purpose of this review is to maintain the market representativeness of 
+the constituents.  Stocks with high market liquidity are added and those with low 
+liquidity are deleted.  At the same time, to take changes in the industry structure into 
+account, the balance of the sectors, in terms of the number of constituents, is 
+considered. 
+ 
+(Procedure of the review) 
+ 
+①Assessment of liquidity 
+ 
+Liquidity of a stock is assessed over a five-year period by the two measures, “trading 
+value” and “magnitude of price fluctuation by trading value” which is calculated as 
+(High price/Low price) / Trading value. 
+ 
+②Deletion and Addition due to liquidity 
+ 
+Among stocks on the Tokyo Stock Exchange Prime Market, top 450 stocks in terms of 
+the liquidity assessed in ① above are selected to form the “high liquidity group”.  
+Those constituents not in the high liquidity group are deleted.  Those non-constituent 
+stocks which are in the top 75 of the high liquidity group are added. 
+ 
+③Deletion and Addition by the sector balance 
+ 
+Nikkei has an industry classification system where there are 36 industries.  For index 
+operation purposes, these 36 industries are re-classified into 7 sectors.  They are 
+“Technology”, “Information and Communications”, “Financials”, “Consumer Goods”, 
+“Materials”, “Capital Goods/Others”, and “Transportation and Utilities”. 
+ 
+Constituents are deleted and added to balance the number of constituents among these 
+sectors.  By considering the result of the procedure ② above, the sector balance is 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+4 
+adjusted to make the total number of the constituents to be 225.  More specifically, 
+ 
+i) Among the 450 stocks, half number of those that belong to a sector is designated 
+as the “Appropriate number of stocks” for such a sector. 
+ii) Compare the actual number of constituents in the sector with its “Appropriate 
+number”.  If the actual is larger, then delete from such sector.  If the actual is 
+smaller, then add to such sector.  Stocks to be deleted are selected from stocks with 
+the lower liquidity and stocks to be added are selected from stocks with the higher 
+liquidity. 
+ 
+④Deletion and Addition within the Same Sector 
+ 
+Constituents are also deleted and added based on market liquidity within the same sector. 
+The basic concept is as follows: 
+ 
+i) For each of the seven sectors, the market liquidity ranking difference will be 
+calculated between the lowest-ranked constituent currently included in the index and 
+the highest-ranked eligible stock not currently included in the index. 
+ii) In the sector where the ranking difference is the largest, the constituent currently 
+included in the index with the lowest market liquidity ranking will be deleted, and 
+the eligible stock not currently included in the index with the highest market 
+liquidity ranking within the same sector will be added. 
+ 
+⑤Final decision 
+ 
+Stocks selected by the procedures above are “Candidates” for addition and deletion. 
+They are presented to the committee comprised of academics and market professionals.  
+Based on the comments from the committee, Nikkei Inc. will finally determine and 
+announce the changes. 
+(3) Extraordinary Replacement 
+①Reasons for deletion  
+ 
+Stocks which meet the following criteria are deleted from the index. 
+ 
+i) Designated as a “Securities to be Delisted” or “Securities on Special Alert” 
+ii) Delisted due to corporate restructuring such as merger, share exchange or share 
+transfer 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+5 
+iii) Transfer to the market other than the Prime 
+ 
+A constituent designated as “a Security under Supervision” remains to be a constituent 
+at the time of designation.  However, Nikkei may replace such a constituent with a 
+pre-announcement when it is highly inappropriate to keep the stock as a constituent, 
+e.g. probability of delisting is extremely high. 
+ 
+②Rules to choose stocks to be added (principal rules) 
+When a constituent is deleted because of the reasons above, a stock to be added will 
+be selected, in principle, from the same sector in the “high liquidity group” in the 
+order of liquidity and non-constituents. 
+ 
+③Rules to choose stocks to be added (exceptional rules) 
+Notwithstanding ② above, following rules may apply when a deletion is known in 
+advance. 
+ 
+i) When such deletion is scheduled close to the time of the Periodic Review, 
+additional stocks may be selected in a part of the periodic review process. 
+ii) When multiple deletions are scheduled in a short period, additions may not be 
+selected one by one using the rules above but using the Periodic Review procedure 
+by assessing the liquidity and the balance of the sectors.  
+ 
+④Rules to choose stocks to be added (exception for individual stock) 
+Notwithstanding ② above, procedures as exemplified below may be applied in case 
+of corporate restructuring.  Application of this procedure is determined for each case. 
+ 
+i) Under the following cases, a stock of a company which will succeed the substance 
+of the delisting company will be added in principle, where such company is listed 
+or will be listed within a short period on the Tokyo Stock Exchange Prime Market. 
+- Stock of a surviving company in mergers (constituent is merged by non-
+constituent) 
+- Stock of a newly established company by stock exchange or transfer (shares of a 
+constituent are exchanged with those of the new company, i.e. its parent company) 
+ 
+ii) When a company is split, and multiple companies maintain listing on the Tokyo 
+Stock Exchange Prime Market, a stock of a company which succeeds the major 
+operation will become a constituent. 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+6 
+ 
+⑤Effective dates of constituent changes 
+ 
+In principle, for each reason under (3)①, constituents are deleted and added as follows.  
+The exact date is announced for each event. 
+ 
+i) Designated as a “Security to be Delisted” or “Securities on Special Alert”: five 
+business days after the designation. 
+ii) Delisted due to corporate restructuring such as merger, share exchange or share 
+transfer and iii) Transfer to the market other than the Prime: effective date of the event. 
+However, in case that a constituent stock is delisted due to a corporate restructuring 
+and a stock of a company which succeeds the substance of the delisting company is 
+added, the newly listed stock will replace on the date of its listing in principle. 
+In case that a constituent designated as a stock under supervision is deemed as highly 
+inappropriate and will be deleted, the announcement will be made approximately two 
+weeks before its effective date.  Even if such a constituent is designated as a stock 
+to be delisted before the pre-announced effective date, the pre-announced effective 
+date survives. 
+(4) Notes on the constituents management 
+①About Periodic Review 
+ 
+i) Results of the Periodic Review are applied on the first trading day of April and 
+October in principle.  However, when there are delistings or new listings of the 
+succeeding companies under the corporate restructuring and the constituents must 
+be changed close to this date, changes to the index may be made in accordance with 
+the schedule of delistings / new listings. 
+ 
+ii) The maximum number of the constituents changed is 3.  However, constituent 
+change due to corporate reorganization near the time of periodic review is not 
+included in the limit of 3.  
+ 
+②About Extraordinary Replacement 
+ 
+Extraordinary Replacement is intended to fill the vacancy made by deletion due to a 
+specific event.  There is no case to use this procedure to add a new constituent (and 
+delete current constituent). 
+ 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+7 
+③General matters 
+ 
+For both Periodic Review and Extraordinary Replacement, deletion and addition are 
+made effective on the same day to keep the number of constituents at 225.  However, 
+when necessary, the index may be calculated with less than 225 constituents.  Divisor 
+is adjusted at times when constituents are deleted or added to maintain the continuity 
+of the index. 
+ 
+ 
+3: Calculation method 
+ 
+The Nikkei 225 is calculated as a weighted price average where the sum of the 
+constituent stock prices adjusted by the price adjustment factor is divided by the 
+divisor. 
+ 
+Adjusted stock price = stock price x price adjustment factor (*) 
+   
+Nikkei Stock Average = sum of Adjusted stock price / Divisor 
+ 
+(*) For a constituent to which a capping ratio is applied, price adjustment factor 
+will be replaced by “capped price adjustment factor”. 
+(1) Selection of the prices 
+Prices to be used for the calculation are selected by the following priority order of the 
+values in the auction trading of the Tokyo Stock Exchange. 
+ 
+1. Special Quote, Sequential Trade Quote or Temporary Quote 
+2. Traded price 
+3. Base price 
+ 
+Note that if the price to be applicable to the definition 1 above is used for the 
+calculation, the value will be used until the next valid price is applied, even if the 
+quote is canceled. The definition 2 above includes the traded price in the closing 
+auction.  
+ 
+“Base price” is obtained based on the priority order of the ex-rights theoretical price, 
+the latest Special Quote price, Sequential Trade Quote price or Temporary Quote, and 
+the latest traded price up to the preceding day.  
+ 
+In most cases, the price used for the calculation of the closing value of the index on 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+8 
+the preceding day becomes the “Base price”.  However, if there are not any prices 
+and quotes that are applicable to the definitions 1 or 2 above on an ex-rights day (for 
+example, of a stock split), the “ex-rights theoretical price” based on the price used in 
+the calculation of the closing value of the index on the preceding day is used for the 
+calculation. Note that ex-dividend is not treated as an ex-right. 
+ 
+Also note that in the case where a newly listed company which succeeds the substance 
+of a constituent stock to be delisted due to a corporate restructuring is added on its 
+listing date, the base price on the first day of addition for the stock to be added shall 
+be the price based on the last price of the stock to be delisted used in the calculation 
+of the Nikkei 225 at the closing of the previous day of its delisting date considering 
+with the integration ratio and other factors. 
+ 
+(2) Price Adjustment Factor 
+Price adjustment factor (PAF) is a number which adjusts price of the constituents.  
+PAFs are set and revised as follows. 
+ 
+①Setting PAF 
+The PAF of a stock to be added to the Nikkei 225 is 1.  However, the value other 
+than 1 (0.1 to 0.9) may be assigned provided that the price of such stock on the base 
+dates (end of January and July) exceeds 1% of the sum of constituent prices.  It is 
+set at the highest value which does not exceed 1% of the sum of the prices by 0.1 
+interval. 
+ 
+PAF = sum of Adjusted stock price of the constituents x 1% / the stock price of the 
+new constituent. 
+ 
+Note) PAF is evaluated on the base date and rounded down to the nearest 0.1. 
+ 
+If an average daily trading value of a stock to be added is relatively low compared 
+with its expected weight, the stock may be added with the PAF which is one-half 
+(rounded up to the nearest 0.1) of the value set by the method described above. In 
+such case, the PAF of the stock shall be raised to the planned value at the next periodic 
+review in principle.  When a stock of a newly established holding company is added 
+replacing the delisting original company, value other than 1 may be set in accordance 
+with the ratio of stock transfer, etc. in the establishment of the holding company. 
+ 
+Also note that if the stock price of the new constituent fluctuates drastically after the 
+base date until the effective date of the change, the PAF may be adjusted.  In this 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+9 
+case, such an adjustment will be announced at least 5 business days before the 
+effective date in principle. 
+ 
+②Revising PAF 
+PAF is revised under the following situation. 
+ 
+- Large-scale stock split or reverse split 
+ 
+When a constituent goes for a large-scale stock split or reverse stock split, PAF is 
+revised to keep the price level of such a constituent unchanged.  However, since the 
+PAF has only 1 digit after the decimal point, above adjustment calculation might 
+result in a fraction. Also, if a result of calculation is less than 0.1, PAF will be set as 
+0.1.  In these cases, the adjusted price before and after the split/reverse split are 
+different.  Such difference will be adjusted by divisor.  Revision of PAF under large 
+scale stock split or reverse split will be announced at least 5 business days before the 
+effective date in principle. 
+ 
+[Note] 
+Japanese stocks used to have “par value”, which was abolished in October 2001.  
+Before October 2001, stock prices were adjusted to the par value of 50 yen, which 
+was a standard par value in the market.  After abolishment of par value, “presumed” 
+par value, which modeled after the “par value” was defined, and the stock prices were 
+adjusted to presumed par value of 50 yen.  At the time of introduction of the price 
+adjustment factor (October 1, 2021), the price adjustment factor was set, in principle, 
+based on then prevailing presumed par value so that the adjusted price by both 
+methods are the same.  
+ 
+(3) Capping ratio 
+Capping ratio is a number which is used to temporally decrease the weight of a 
+constituent when such weight exceeds a certain threshold (“weight cap threshold”).  
+The capping ratio is applied, revised, or cancelled as stipulated below.   
+Weight cap threshold was 12% upon introduction at the periodic review of October 
+2022.  It was reduced to 11% at the periodic review in October 2023 and has been 
+10% for periodic reviews since October 2024. 
+ 
+For a constituent to which a capping ratio is applied, the price of such a constituent 
+is adjusted by “capped price adjustment factor” as shown below. 
+ 
+ Capped price adjustment factor (CPAF) = Price Adjustment Factor x capping ratio 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+10 
+(*) CPAF is rounded down to the nearest 0.1. 
+ 
+- If, on the base date of a periodic review, the weight of a constituent to which any 
+capping ratio is not yet applied exceeds the weight cap threshold, a capping ratio of 
+0.9 is applied on the effective date of the constituent change resulting from the 
+periodic review.  If a capping ratio was already applied to such a constituent, capping 
+ratio will be decreased by 0.1.  However, if no change is observed in the CPAF after 
+the application of the new capping ratio, the capping ratio will be decreased further 
+until there is a change in the CPAF. 
+ 
+- If, on the base date of a periodic change, weight of a constituent to which a CPAF is 
+applied is below 5%, the capping ratio will be increased by 0.1 on the effective date 
+of the constituent change resulting from the periodic review.  However, if no change 
+is observed in the CPAF after the application of the new capping ratio, the capping 
+ratio will be increased further until there is a change in the CPAF.  If the new capping 
+ratio after the increment is 1, capping ratio will be cancelled. 
+ 
+- When a constituent to which CPAF is applied goes for a large-scale stock split or 
+reverse split and the PAF is adjusted by the ratio of split or reverse split, the capping 
+ratio may be revised so that the new CPAF does not change the weight of the 
+constituent.  For such a constituent, the capping ratio may have fractions after 0.1 
+and be increased/decreased by the number other than 0.1 in the next revision of the 
+capping ratio. 
+ 
+- In principle, the capping ratio is applied, revised, or cancelled on the effective date 
+of the constituent change resulting from the periodic review.  However, depending 
+on the liquidity of the constituent, changes in the capping ratio may be implemented 
+in two or more steps. 
+(4) Divisor 
+The Nikkei 225 is calculated as adjusted price average where the weight is based on 
+the price adjustment factor.  This is basically an arithmetic average and the 
+denominator was a number of constituents initially.  Since then, there have been 
+changes in the constituents etc., and the denominator has been adjusted to maintain 
+the continuity of the index.  This denominator is called the “Divisor”.   
+ 
+When constituents are changed, the sum of stock prices (=numerator) changes by the 
+prices of additions and deletions.  If the denominator is not changed in such cases, 
+the index today will be different from the closing index on the previous day even if 
+the prices of all individual constituents are the same. 
+ 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+11
+To keep the index unchanged from such non-market events, the divisor is changed.   
+ 
+Points on the divisor change are as follows. 
+ 
+①Divisor is recalculated when the following events happen. 
+i) Changes in the constituents 
+ii) Corporate action such as split, reverse split, paid-in capital increase. However, 
+when the split or the reverse split is in a large scale, the price adjustment factor 
+may also be adjusted. The divisor may not be changed so long as the adjusted 
+price is unchanged before and after such split/reverse split. 
+iii) Capping ratio application, revision, cancellation or raising the PAF to the 
+planned value for a stock whose PAF was one-half of the planned value. 
+ 
+②Calculation of the divisor change is as follows. 
+ 
+Divisor tomorrow = Divisor today x (sum of “base price for the next day constituents”) 
+                             / (sum of “closing price of today’s constituents”) 
+ 
+(*) All prices are adjusted by the PAF. The “next day” means the next business day. 
+ 
+Closing price of today’s constituents = The price used to calculate the closing index 
+on the last day before an event (= today) x PAF for today 
+ 
+Base price for the next day constituents = The base price for the next day x PAF for 
+the next day 
+ 
+Please note that for stocks for which capping ratio has been applied, the CPAF is used 
+to adjust the price instead of the PAF. 
+ 
+③9th digit is rounded to make the divisor to have 8 digits after the decimal point. 
+(5) Spin-Offs 
+When shares of the spun-off independent company are distributed to the shareholders 
+of a constituent company and the spun-off company is going to be listed in the short 
+period, the spun-off company is temporarily incorporated into the index calculation 
+between the spin-off ex-date and the listing date. The spun-off company is to be 
+excluded from the index calculation on the next business day after the listing date. 
+ 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+12 
+The offering price or the reference price submitted by the listing sponsor is to be used 
+as the price of the stock temporarily included in the index calculation until the market 
+price is determined after its listing. The PAF is to be set by considering the original 
+component stock’s PAF and the spin-off distribution ratio. 
+ 
+The divisor may not need to be changed in principle, as the adjustment is made for the 
+ex-rights of the original component stock on the ex-date. However, the divisor is 
+adjusted depending on the spin-off distribution ratio, since the PAF is set down to the 
+first decimal point. The divisor on the next business day after the listing date is to be 
+adjusted in the same way as changes in the constituents so that the continuity of the 
+index is maintained. 
+(6) Miscellaneous 
+①Calculation day and time: 
+On trading day and during auction trading hours of the Tokyo Stock Exchange 
+ 
+②Calculation intervals: 
+Every 5 seconds since July 18, 2017. From January 4, 2010 to July 14, 2017, 15 
+seconds and before then, 1 minute. The opening price is currently calculated at 5 
+seconds past 9 am. 
+ 
+③Digits after the decimal point: 
+2 (3th digit is rounded) 
+ 
+④Real time (Intraday) calculation: 
+Intraday calculation started on Monday, March 25, 1985 (1-minute interval). Since 
+then there are open, high, low indices in addition to the close. 
+ 
+ 
+4: Others 
+(1) Index License 
+The Nikkei Stock Average is a copyrighted material calculated in a methodology 
+independently developed and created by Nikkei Inc. (“Nikkei”) and Nikkei is the sole 
+exclusive owner of the copyright and other intellectual property rights in the Nikkei 
+Stock Average itself and the methodology to calculate the Nikkei Stock Average. 
+ 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+13 
+Commercial use of the Nikkei Stock Average must be licensed by Nikkei.  Such uses 
+include, but not limited to, provision of derivative products such as futures and options, 
+creation and marketing of linked funds or linked securities, or distribution of the index 
+for the data and analytic services. 
+(2) Disclaimer 
+Nikkei has no obligation to publish the Nikkei Stock Average continuously, and Nikkei 
+is not responsible for any error, delay or omission in the Nikkei Stock Average.  
+Nikkei is entitled to change the details of the Nikkei Stock Average and to suspend or 
+stop the calculation and the announcement of the index. 
+ 
+Although, in principle, the Nikkei Stock Average is calculated and maintained in 
+accordance with the information provided here, Nikkei has discretion to take measures 
+Nikkei deems appropriate when the events which are not covered in this document 
+happen or under the circumstances where it is difficult to continue to calculate the 
+index using the current rules.  
+ 
+In addition, the specifications described may be amended without notice.  Nikkei 
+does not assume any loss or damage caused by the use of this document. 
+ 
+This English document may not be an entirely accurate translation of the original 
+Japanese document. In any case where differences arise between the English version 
+and the original Japanese version, the original Japanese document will prevail. 
+(3) Contact 
+Index Business Office, Nikkei Inc. 
+Email: index@nex.nikkei.co.jp 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+14 
+Appendix : Change history of Index Guidebook 
+December 30, 2011 version Initial version 
+July 18, 2017 version 
+Due to the calculation intervals change (every 5 sec.), 
+revise the description in “3: Calculation method (4) 
+Miscellaneous” 
+June 15, 2020 version 
+ 
+Revise the description in 
+“ 2: Constituents 
+Management 
+(3)Extraordinary 
+Replacement 
+①
+Events of subjects and ⑤Effective dates for 
+constituent changes” 
+ 
+Delete an example in “2: Constituents Management 
+(4)Notes for the constituents management ③
+General matters” 
+ 
+Revise an example in “3: Calculation method (2) 
+Presumed par value” 
+October 1, 2021 version 
+ 
+Revise “2: Constituents Management,(4) Notes, ① 
+About Periodic Review” (maximum number of 
+constituent change is added) 
+ 
+Replace “3: Calculation method, (2) Presumed par 
+value” by “3: Calculation method, (2) Price 
+Adjustment Factor” 
+ 
+Revise “3: Calculation method, (3) Divisor, ② 
+Calculation of the divisor change 
+ 
+Replace “Presumed par value” by “Price adjustment 
+factor” throughout the text.  Delete and revise 
+explanations of the presumed par value. 
+April 4, 2022 version 
+ 
+Replace “Tokyo Stock Exchange First Section” by 
+“Tokyo Stock Exchange Prime Market” totally in 
+line with the subject market change 
+ 
+Revise “①Reasons for deletion” and “⑤Effective 
+dates of constituent changes” in “2: Constituents 
+Management, (3) Extraordinary Replacement” due 
+to adding a designation on “Securities on Alert” to 
+the deletion criteria 
+July 19, 2022 version 
+ 
+Revise the number of digits after the decimal point 
+in “3: Calculation method (3) Divisor ③”  
+September 29, 2022 version 
+ 
+Revise the preamble and “(2) Periodic Review” in 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+15 
+“2: 
+Constituents 
+Management” 
+(changed 
+the 
+periodic review frequency to twice a year) 
+ 
+Revise “2: Constituents Management (2) Periodic 
+Review ① Assessment of liquidity (changed the 
+market liquidity measure to the "magnitude of price 
+fluctuation by trading value"). 
+ 
+Add “(3) Capping ratio” in “3: Calculation method” 
+(numbers to the items following (3) will be 
+increased by 1) 
+ 
+Revise the description in “3: Calculation method (4) 
+Divisor” in line with the addition of item iii) 
+October 2, 2023 version 
+ 
+Add the description in case when new listed stock is 
+replaced a delisted constituent in “2: Constituents 
+Management 
+(3)Extraordinary 
+Replacement 
+⑤
+Effective dates of constituent changes” 
+ 
+Add the description regarding the treatment of base 
+price in case when a newly listed company is added 
+on its listing date in "3: Calculation method (1) 
+Selection of the prices" 
+ 
+Add the description regarding the stepwise addition 
+in "3: Calculation method (2)Price Adjustment 
+Factor ①Setting PAF" 
+ 
+Add the description regarding the stepwise addition 
+in "3: Calculation method (4)Divisor" 
+November 5, 2024 version 
+ 
+Add the description regarding the treatment of 
+Temporary Quote in “3:Calculation method (1) 
+Selection of the prices” and revise the relevant 
+description 
+July 24, 2025 version 
+ 
+Add “(5) Spin-Offs” in “3: Calculation method” 
+(The number to the item following (5) is increased 
+by 1) 
+October 1, 2026 version 
+ 
+Revise “2: Constituents Management (2) Periodic 
+Review ③Deletion and Addition by the sector 
+balance” 
+to 
+add 
+the 
+“Information 
+and 
+Communications sector” 
+ 
+Add “2: Constituents Management (2) Periodic 
+Review ④Deletion and Addition within the Same 
+Sector” (the numbers of the items following ④ are 
+
+ 
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+16 
+increased by 1) 
+ 
+Revise 
+“2: 
+Constituents 
+Management, 
+(3) 
+Extraordinary 
+Replacement 
+① 
+Reasons 
+for 
+deletion” and “⑤ Effective dates of constituent 
+changes” due to the renaming of “Securities on 
+Alert” to “Securities on Special Alert”. 
+ 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+1 
+Nikkei Stock Average Constituents Selection Rules  
+ 
+Stocks are added to or deleted from the Nikkei Stock Average (Nikkei 225) in 
+accordance with the following rules.  These rules shall become effective from 
+October 1, 2026 and are subject to change to make the index a better measure of the 
+market and to deal with necessary changes in the market environment, economic 
+substance, or regulations. 
+ 
+1: Constituents 
+ 
+The Nikkei 225 is calculated with 225 market representative stocks from the Tokyo 
+Stock Exchange Prime Market. 
+ 
+By calculating with highly liquid stocks, the index is aimed at fulfilling two objectives, 
+one is to maintain its long-term continuity and the other is to reflect the changes in 
+the industry structure. 
+ 
+2: Rules of the Periodic Review 
+ 
+Constituents are reviewed twice a year as evaluated at the end of January and July 
+(base dates) in accordance with the following rules.  Results of the review become 
+effective on the first trading day of April and October.  The maximum number of 
+constituents reshuffled at a periodic review is 3.  However, constituent change due 
+to corporate reorganization near the time of periodic review is not included in the 
+limit of 3 above. 
+(1) Assessment of the liquidity (“High Liquidity Group”) 
+Choose highly liquid stocks from the Tokyo Stock Exchange Prime Market and group 
+them as the “High Liquidity Group”.  The measures to assess the liquidity are : 
+ 
+① Trading value of the preceding 5 years 
+② Magnitude of price fluctuation by trading value (defined as (high price/low price)/ 
+trading value) in the preceding 5 years 
+ 
+Top 450 (double the constituent count for the index) most liquid stocks in terms of 
+two measures constitute the “High Liquidity Group”. 
+(2) Deletion of low liquidity constituents (absolute criteria for deletion) 
+Those constituents not in the High Liquidity Group (ranked 451 or lower) are deleted 
+from the index. 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+2 
+(3) Addition of high liquidity stocks (absolute criteria for addition) 
+Of the “High Liquidity Group” stocks, those ranked 75 or higher and not currently in 
+the list of the constituents are added to the index. 
+(4) Deletion/Addition based on the sector balance (relative criteria) 
+①The 450 most liquid issues will be categorized into seven industrial sectors – 
+Technology, Information and Communications, Financials, Consumer Goods, 
+Industrial Materials, Capital Goods/Others and Transportation/Utilities.  The 
+“Appropriate number of the constituents” is defined as half of the number of stocks 
+in each sector. 
+ 
+②After the changes by (2) and (3) are considered, a rebalancing is conducted if any 
+of the sectors are over-represented or under-represented. Degree of representation is 
+evaluated by comparing the actual number of constituents in the sector against the 
+“Appropriate number”. 
+ 
+i) For over-represented sectors, current constituents in the sector are deleted in the 
+order of the liquidity (low liquidity first) to correct the overage. 
+ii) For under-represented sectors, non-constituent stocks are added from the “High 
+Liquidity Group” in the order of the liquidity (high liquidity first) to correct the 
+shortage. 
+ 
+③The seven-sector breakdown is based on the Nikkei industrial classification of 36 
+industries. Each sector may be regrouped if a change in industrial structure makes 
+adjustment necessary. 
+ 
+i) Technology 
+Electric Machinery, Automobiles & Auto parts, Precision Instruments  
+ 
+ii) Information and Communications 
+Information and Communications 
+ 
+iii) Financials 
+Banking, Other Financial Services, Securities, Insurance 
+ 
+iv) Consumer Goods 
+Fishery, Foods, Pharmaceuticals, Retail, Services 
+ 
+v) Materials 
+Mining, Textiles&Apparel, Pulp & Paper, Chemicals, Petroleum, Rubber, 
+Glass&Ceramics, Steel, Nonferrous Metals, Trading Companies 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+3 
+ 
+vi) Capital Goods / Others 
+Construction, 
+Machinery, 
+Shipbuilding, 
+Transportation 
+Equipment, 
+Other 
+Manufacturing, Real Estate 
+ 
+vii) Transportation / Utilities 
+Railway&Bus, Land Transport, Marine Transport, Air Transport, Warehousing, 
+Electric Power, Gas 
+(5) Deletion/Addition within the Same Sector 
+①For each of the seven sectors, the market liquidity ranking difference will be 
+calculated between the lowest-ranked constituent currently included in the index and 
+the highest-ranked eligible stock not currently included in the index. 
+ 
+②In the sector where the ranking difference is the largest, the constituent currently 
+included in the index with the lowest market liquidity ranking will be deleted, and the 
+eligible stock not currently included in the index with the highest market liquidity 
+ranking within the same sector will be added. 
+ 
+3: Extraordinary Replacement Rules 
+ (1) Deletion for special reasons 
+Constituents which meet the following criteria are deleted from the index. 
+ 
+i) Designated as a “Securities to be Delisted” or “Securities on Special Alert” 
+ii) Delisted due to corporate restructuring such as merger, share exchange or share 
+transfer 
+iii) Transfer to the market other than the Prime 
+ 
+A constituent designated as “a Security under Supervision” remains to be a constituent 
+at the time of designation.  However, Nikkei may replace such a constituent with a 
+pre-announcement when it is highly inappropriate to keep the stock as a constituent, 
+e.g. probability of delisting is extremely high. 
+(2) Procedure to add new constituents 
+When a constituent is deleted because of the reasons of (1) above, a stock to be added 
+will be selected, in principle, from the same sector in the “High Liquidity Group” in 
+the order of liquidity. 
+ 
+Notwithstanding the preceding paragraph, following rules may apply depending on the 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+4 
+timing and circumstances of the deletion. 
+ 
+① When such deletion is scheduled close to the Periodic Review, additional stocks 
+may be selected in a part of the periodic review process. 
+ 
+② When multiple deletions are scheduled in a season other than the Periodic 
+Review, additions may be selected using (3) and (4) of Periodic Review Rules 
+by assessing the liquidity and the balance of the sectors. 
+(3) Timing of the constituent change 
+In principle, for each reason under 3(1), constituents are deleted and added as follows.  
+The effective date is announced for each event. 
+i) Designated as a “Security to be Delisted” or “Securities on Special Alert”: five 
+business days after the designation. 
+ii) Delisted due to corporate restructuring such as merger, share exchange or share 
+transfer and iii) Transfer to the market other than the Prime: effective date of the event.  
+However, in case that a constituent stock is delisted due to a corporate restructuring 
+and a stock of a company which succeeds the substance of the delisting company is 
+added, the newly listed stock will replace on the date of its listing in principle. 
+In case that a constituent designated as a stock under supervision is deemed as highly 
+inappropriate and will be deleted, the announcement will be made approximately two 
+weeks before its effective date.  Even if such a constituent is designated as a stock to 
+be delisted before the pre-announced effective date, the pre-announced effective date 
+survives. 
+(4) Special rules for additions 
+As the types of corporate reorganization diversify, procedures as exemplified below, 
+which follows the reality better, may be applied to choose the stocks to be added.  
+Application of these special rules is determined for each case. 
+ 
+① Under the following cases, a stock of a company which will succeed the substance 
+of the delisting company will be added in principle, provided such company must 
+be listed or will be listed within a short period in the Tokyo Stock Exchange Prime 
+Market. 
+ 
+i) Stock of a surviving company in mergers where a constituent is merged and 
+delisted. 
+ii) Stock of a newly established parent company by share transfer or a new parent 
+company receiving shares from a constituent by exchange. 
+ 
+② When a company is split and multiple companies maintain listing in the Tokyo 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+5 
+Stock Exchange Prime Market, a stock of a company which succeeds the major 
+operation will become a constituent. 
+ 
+4: Special procedures to implement constituent change 
+ 
+For both “2. Periodic Review” and “3. Extraordinary Replacement”, deletion and 
+addition are made effective on the same day to keep the number of constituents at 225.  
+However, when necessary, additions are made after the deletions and during such 
+period, the index may be calculated with less than 225 constituents.  Divisor is 
+adjusted at times when constituents are deleted or added to warrant the continuity. 
+ 
+5: Decision of the deleting and adding stocks 
+ 
+After consultation with academics and market professionals, Nikkei Inc. decides and 
+announces the list of deleting and adding stocks. 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+6 
+Appendix : Change history of Constituents Selection Rules 
+February 1, 2002 version 
+Revise 
+the 
+description 
+in 
+“3: 
+Extraordinary 
+Replacement Rules (3)Timing of the constituents 
+change” 
+June 15, 2020 version 
+ 
+Revise 
+the 
+description 
+in 
+“3: 
+Extraordinary 
+Replacement Rules (1)Deletion for special reasons 
+and (3)Timing of the constituents change” 
+ 
+Delete an example in “4: Special procedures to 
+implement constituents changes” 
+October 1, 2021 version 
+ 
+Revise “2: Rules of the Periodic Review” sets 
+maximum number of constituents reshuffled as 3 
+ 
+Definition of “Magnitude of price fluctuation by 
+volume” added to 2(1)② 
+April 4, 2022 version 
+ 
+Replace “Tokyo Stock Exchange First Section” by 
+“Tokyo Stock Exchange Prime Market” in line with 
+the subject market change 
+ 
+Revise “(1) Deletion for special reasons” and “(3) 
+Timing of constituent change” in “3: Extraordinary 
+Replacement Rules” due to adding a designation on 
+“Securities on Alert” to the deletion criteria 
+May 20, 2022 version 
+ 
+Correction of error in “2: Rules of the Periodic 
+Review” 
+September 29, 2022 version 
+ 
+Revise the preamble and “(1)Assessment of the 
+liquidity (“High Liquidity Group”)” in “2: Rules of 
+the Periodic Review”  Periodic review is increased 
+to twice a year and the denominator of the 
+“Magnitude of price fluctuation” is changed to the 
+trading value. 
+October 2, 2023 version  
+ 
+Revise 
+the 
+description 
+in 
+“3: 
+Extraordinary 
+Replacement Rules (3)Timing of the constituents 
+change” 
+ 
+Delete an example in “4: Special procedures to 
+implement constituent change” 
+October 1, 2026 version 
+ 
+Revise “2: Rules of the Periodic Review (4) 
+Deletion/Addition based on the sector balance” to 
+introduce the Information and Communications 
+
+Copyright © Nikkei Inc. All rights reserved. 
+ 
+7 
+sector 
+ 
+Add “2: Rules of the Periodic Review (5) 
+Deletion/Addition within the Same Sector” 
+ 
+Revise “3: Extraordinary Replacement Rules (1) 
+Deletion for special reasons” and “(3) Timing of 
+constituent change” due to the renaming of 
+“Securities on Alert” to “Securities on Special 
+Alert”. 
+ 

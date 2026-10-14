@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_ktb_auction",
+  "source_metadata": {
+    "id": "fb_ktb_auction",
+    "requested_url": "https://ktb.mofe.go.kr/eng/prmMkts.do",
+    "retrieved_url": "https://ktb.mofe.go.kr/eng/prmMkts.do",
+    "retrieved_at": "2026-10-14T00:16:50.556212+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 3183,
+    "content_sha256": "35cd33eff20748375db972509bdc1786daf134b8be7883ebc08663ad41c989c0",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_ktb_auction:낙찰방식",
+      "source_id": "fb_ktb_auction",
+      "article": "낙찰방식",
+      "heading": "낙찰방식",
+      "text": "Method of Determining Successful Bidding Yield (Issue amount: KRW 80 billion)\nA table composed of Bidding institution, Bidding conditions, Winning rate\nPD\nBidding conditions\nCut-off yield\nDutch\nConventional\nDifferential-Price (4bp example)\nA\n2.975%, KRW 20 billion\nAll 3.055%\n2.975%\n2.975%\nB\n3.000%, KRW 20 billion\n3.000%\n3.015%\nC\n3.015%, KRW 20 billion\n3.015%\nD\n3.020%, KRW 10 billion\n3.020%\n3.055%\nE\n3.055%, KRW 10 billion\n3.055%\nF\n3.070%, KRW 20 billion\nFailed bid\nFailed bid\nFailed bid\nUnder a differential-price auction, for example, if the highest accepted yield is 3.055%, bid yields are grouped into ranges such as 3.055-3.020%, 3.015-2.980%, and 2.975-2.940%. The accepted yield applied to each group is the highest yield within the respective group-namely, 3.055%, 3.015%, and 2.975%.",
+      "start": 1993,
+      "end": 2787,
+      "sha256": "bd6d8dcb19e1167af181da69695709405cc751080b39a37f0edd4a4b0b80f62b"
+    }
+  ]
+}

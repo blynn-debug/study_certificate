@@ -1,0 +1,30 @@
+{
+  "source_id": "bok_deposit_basics",
+  "source_metadata": {
+    "id": "bok_deposit_basics",
+    "requested_url": "https://www.bok.or.kr/portal/bbs/B0000302/view.do?menuNo=201036&nttId=10056257",
+    "retrieved_url": "https://www.bok.or.kr/portal/bbs/B0000302/view.do?menuNo=201036&nttId=10056257",
+    "retrieved_at": "2026-10-13T04:10:53.050991+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 70607,
+    "content_sha256": "cced363836ccec7bdfdaa4c138fbad77e06f5bb7fa7b8bd523afa72bb862a1ac",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "bok_deposit_basics:예금기본분류",
+      "source_id": "bok_deposit_basics",
+      "article": "예금기본분류",
+      "heading": "예금기본분류",
+      "text": "요구불예금{입출금이 자유로운 예금으로 보통예금, 당좌예금 등이 있다.}과 저축성예금{예금주가 일정 기간 동안 돈을 찾지 않을 것을 약속하고 일정 금액을 은행에 맡기고, 은행은 이에 대해 이자 지급을 약속하는 예금으로 정기예금, 정기적금 등이 있다}!\", \"그냥 돈을 맡기는 건데 차이가 큰가요?\", \"그럼요~\", \"엄청난 차이가 있지요.\", \"일단 요구불예금은 언제든지 돈을 맡기고 찾을 수 있습니다.\", \"이 점이 요구불예금의 가장 큰 특징이자 장점입니다.\", \"다만 은행에서는 언제든지 찾을 수 있도록 현금을 준비해야 하기 때문에 요구불예금은 이자가 상대적으로 낮다는 단점이 있어요.\", \"이자가 얼마나 낮길래요?\", \"상품이나 은행에 따라 차이가 있기는 하지만 거의 없다고 보면 됩니다.\", \"거의 없다고···?\",",
+      "start": 17382,
+      "end": 17786,
+      "sha256": "da72b56a52c839c9694c46a3939bbd0f2cf13b993687d0764f648baec792e990"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

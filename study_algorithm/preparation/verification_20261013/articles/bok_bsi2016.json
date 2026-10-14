@@ -1,0 +1,30 @@
+{
+  "source_id": "bok_bsi2016",
+  "source_metadata": {
+    "id": "bok_bsi2016",
+    "requested_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200559&nttId=219821",
+    "retrieved_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200559&nttId=219821",
+    "retrieved_at": "2026-10-13T16:26:52.490637+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 7767,
+    "content_sha256": "3ae346ce7fe3fa75dc5d7f2a83bf37f80e9273dd3fcfd82ef827c27c7acb7163",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "bok_bsi2016:BSI해석",
+      "source_id": "bok_bsi2016",
+      "article": "BSI해석",
+      "heading": "BSI해석",
+      "text": "기업경기실사지수(BSI: Business Survey Index)는 기업가의 현재 기업경영상황에 대한 판단과 향후 전망을 조사한 결과를 토대로 산출하는 통계로서, 경기 동향을 파악하고 경기를 전망하는 데 유용한 지표이다.\nBSI는 영국, 독일 등 주요국에서 1920년대부터 작성된 것으로 알려져 있으며, 우리나라는 한국은행이 1966년부터 작성을 시작해 매월 통계를 발표해오고 있고 전국경제인연합회, 대한상공회의소, 중소기업중앙회 등도 BSI를 작성하고 있다.\n한국은행은 매달 제조업 및 비제조업의 2,800여개 표본기업을 대상으로 업황, 제품재고 등 수준판단 항목과 매출규모, 제품판매가격 등 변화방향 판단항목을 조사하는 ‘기업경기조사’를 실시해 그 결과를 BSI로 편제하고 있다. 응답업체가 각 항목별로 긍정, 보통, 부정 중 한 가지를 선택해 응답한 결과는 기준치인 100을 기준으로 0과 200 사이의 값을 갖는 지수로 변환된다. BSI값이 기준치인 100보다 크면 해당 항목에 대해 긍정적인 응답을 한 업체의 수가 부정적인 업체의 수보다 많은 것을 의미하며 100보다 작으면 부정적인 업체가 더 많은 것을 뜻한다.\n최근 한국은행 인천본부가 지역내 450개 업체를 조사해 발표한 2016년 5월의 인천지역 제조업 업황BSI는 전월과 동일한 76을 기록하면서 지난 3개월의 개선추세가 멈추는 모습을 나타냈는데, 이는 역내 기업들의 체감경기 개선이 정체되고 있음을 시사한다.",
+      "start": 6416,
+      "end": 7132,
+      "sha256": "69a8341106070675d943a7269fe93a4f7d6ef90795620e4f1b5e2325b8c7de1c"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

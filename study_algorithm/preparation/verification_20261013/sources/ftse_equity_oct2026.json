@@ -1,0 +1,14 @@
+{
+  "id": "ftse_equity_oct2026",
+  "requested_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-country-classification-update-2026.pdf",
+  "retrieved_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-country-classification-update-2026.pdf",
+  "retrieved_at": "2026-10-13T01:12:02.346818+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "fd3af820dcb552839cc7ccf65a998d3329eb6d80879340b9a830550b2d51296a",
+  "binary_sha256": "fd3af820dcb552839cc7ccf65a998d3329eb6d80879340b9a830550b2d51296a",
+  "text_sha256": "0fb0388b37874f2035bd77ebfffaef4b823ffd2ce24a317fb5e4dad45baf09c4",
+  "pages": 9,
+  "characters": 27091,
+  "status": "retrieved_not_claim_verified"
+}

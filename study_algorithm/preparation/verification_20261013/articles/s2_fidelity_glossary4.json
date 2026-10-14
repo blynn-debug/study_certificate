@@ -1,0 +1,35 @@
+{
+  "source_id": "s2_fidelity_glossary4",
+  "source_metadata": {
+    "id": "s2_fidelity_glossary4",
+    "requested_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_4.shtml",
+    "retrieved_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_4.shtml",
+    "retrieved_at": "2026-10-13T16:26:28.243333+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "4218916b8b550f6d3c831ce7e0bbefdb073c81ca97bf71a9b1ae75d143b2131c",
+    "text_sha256": "58e327d5000c7c0dc43365a205f4ef06e5af981086334fc27b4c51abf0e39ac7",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_text_extract",
+  "count": 2,
+  "items": [
+    {
+      "id": "s2_fidelity_glossary4:SMA",
+      "source_id": "s2_fidelity_glossary4",
+      "article": "SMA",
+      "heading": "Simple Moving Average (SMA) SMA",
+      "text": "Simple Moving Average (SMA) SMA returns the Simple Moving Average indicator. Moving averages are one of the core indicators in technical analysis, and there are a variety of different versions. SMA is the easiest moving average to construct. It is simply the average price over the specified Period. The average is called \"Moving\" because it is plotted on the chart bar by bar, forming a line that moves along the chart as the average value changes. Interpretation: SMAs are often used to determine Trend Direction . If the SMA is moving up, the trend is up, moving down and the trend is down. A 200 bar SMA is common proxy for the long term trend. 50 bar SMAs are typically used to gauge the intermediate trend. Shorter period SMAs can be used to determine shorter term trends. SMAs are commonly used to smooth price data and technical indicators. Applying an SMA smoothes out choppy data. The longer the period of the SMA, the smoother the result, but the more lag that is introduced between the SMA and the source. SMA Crossing Price is often used to trigger trading signals. When prices cross above the SMA go long, when they cross below the SMA go short. SMA Crossing SMA is another common trading signal. When a short period SMA crosses above a long period SMA, go long. Go short when the short term SMA crosses back below the long term.",
+      "sha256": "a675ecab6a7b2d4c65d99d0eb2b4baee32792b435044a31a2fa506cff44f0646"
+    },
+    {
+      "id": "s2_fidelity_glossary4:Stochastic",
+      "source_id": "s2_fidelity_glossary4",
+      "article": "Stochastic",
+      "heading": "Slow Stochastic Slow Stochastic",
+      "text": "Slow Stochastic Slow Stochastic compares a security's closing price relative to its price range over a given time period. As with Moving Average , the sensitivity increases with shorter time spans. Two or more stochastics may be used with different time spans on a single chart to develop cross-over signals. This method is used to spot trend reversals with fairly good accuracy. A stochastic indicator is plotted as two lines, %D and %K, with values ranging from 0 to 100. Readings above 80 are strong and indicate that price is closing near its high. Readings below 20 are strong and indicate that price is closing near its low. Ordinarily, the %K line changes direction before the %D line. However, when the %D line changes direction prior to the %K line, a slow and steady reversal is usually indicated. A flattening-out of the %K or %D lines indicates that a trend is likely to reverse during the next trading range.",
+      "sha256": "1091b951aa9bb80dccd5803ae86d3185b2b3bdb5001c86746d197a8449880899"
+    }
+  ],
+  "warning": "Archived platform glossary; only stable definitions and conventional uses reviewed, no predictive performance claims."
+}

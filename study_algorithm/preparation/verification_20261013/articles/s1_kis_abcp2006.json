@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_kis_abcp2006",
+  "source_metadata": {
+    "id": "s1_kis_abcp2006",
+    "requested_url": "https://www.bond.co.kr/KIS_Weekly/jVxedAjJ.pdf",
+    "retrieved_url": "https://www.bond.co.kr/KIS_Weekly/jVxedAjJ.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "3483421",
+    "downloaded_bytes": 3483421,
+    "retrieved_at": "2026-10-13T16:52:01.613081+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "10b85eec5d5584501127d7f3a1459d508d0587daac0e688b140ca86ffa9601b7",
+    "content_sha256": "0961c060db7b4093e7c25039552e102370a1563c63caa6edd5b28be1f05360fa",
+    "characters": 49478
+  },
+  "items": [
+    {
+      "id": "s1_kis_abcp2006:ABCP시장확대",
+      "source_id": "s1_kis_abcp2006",
+      "article": "ABCP시장확대",
+      "heading": "ABCP시장확대",
+      "text": "2006년도 상반기 CP시장의 특징은 다음과 같이 요약할 수 있다. \n \n첫째, 2006년도 상반기에는 CP발행잔액이 소폭 증가하였다. 카드/캐피탈사와 공사\n의 발행량 감소에도 불구하고, 일부 대기업과 ABCP의 발행량이 증가하여 전체 발\n행잔액은 23.4조로 2005년 12월말의 21조대비 2.4조 증가하였다. [표1] \n \n둘째, 일반 CP 시장에서 ABCP 중심 시장으로의 전환이다. ABCP의 발행물량은 꾸\n준히 늘어나고 있으며, 2006년 6월말 ABCP의 발행잔액은 11조로 전년말 대비 3\n조가 증가하였다. 비중에 있어서도 6월말 현재 전체 CP 발행잔액의 47%를 차지하\n고 있어, 전년말의 38%에 비해 크게 증가하였다.  \n \n셋째, ABCP중 기초자산이 부동산 개발과 관련된 대출자산인 PF Loan ABCP 발행\n이 증가했고, 건설사 CP의 발행도 증가하여 주요 펀딩기업이 기존의 카드캐피탈사 \n위주에서 건설사로 전환하였다. PF Loan ABCP의 경우 발행잔액이 전년말의 3조에\n서 2006년 6월말 4.5조로 크게 증가였다.  \n \n \n \nKIS Weekly \n \n \n \n[그림4] 반기별 발행잔액 비교                               \n \n \n \n \n \n \n\n \n \n28 \n175호, July. 07, 2006\nKIS Weekly \n \n[표1] 분기별 CP 발행 잔액 추이                                   (단위: 억원, %)\n구분 \n04.12월 \n05.9월 \n05.12월 \n06.3월 \n06.6월 \n 공사CP \n21,898 \n(13.5) \n21,595 \n(11.1) \n25,452 \n(12.1) \n20,910 \n(8.8) \n15,507 \n(6.6) \n 카드/캐피탈CP \n62,576 \n(38.7) \n60,192 \n(31.1) \n63,773 \n(30.4) \n62,896 \n(26.4) \n51,627 \n(22.0) \n일반CP \n52,036 \n(32.1) \n55,691 \n(28.7) \n41,176 \n(19.6) \n53,721 \n(22.5) \n57,251 \n(24.4) \n ABCP \n25,350 \n(15.7) \n56,373 \n(29.1) \n79,656 \n(37.9) \n101,073 \n(42.4) \n109,908 \n(46.9) \n 합계 \n161,859 \n(100.0) \n193,851 \n(100.0) \n210,057 \n(100.0) \n238,600 \n(100.0) \n234,365 \n(100.0) \n                 \n \n\n \n \n29 \n175호, July. 07, 2006\nKIS Weekly",
+      "start": 30496,
+      "end": 31775,
+      "sha256": "2f75268d5a9d5c3080b49edd559c0ea98b74f857c32b6cd90401e0746dc5e025"
+    }
+  ]
+}

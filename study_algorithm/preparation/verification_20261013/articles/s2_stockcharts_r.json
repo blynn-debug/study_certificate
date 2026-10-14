@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_stockcharts_r",
+  "source_metadata": {
+    "id": "s2_stockcharts_r",
+    "requested_url": "https://chartschool.stockcharts.com/table-of-contents/glossary/glossary-r",
+    "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/glossary/glossary-r",
+    "retrieved_at": "2026-10-13T16:48:18.413451+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "c45d942a215502548a4e15c2af548e5f1a6b7dc7cddba42eef958d27152ad976",
+    "text_sha256": "6c884088814c7af56d23204b833a5f473d27f1817d5125641bd1dc0573a8ae78",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_stockcharts_r:RisingWedge_RoundingBottom_Runaway",
+      "source_id": "s2_stockcharts_r",
+      "article": "RisingWedge_RoundingBottom_Runaway",
+      "heading": "RisingWedge_RoundingBottom_Runaway",
+      "text": "Rising Wedge A bearish pattern that begins wide at the bottom and contracts as prices move higher toward a support break. See our ChartSchool article on Rising Wedge (Reversal) . Rounding Bottom Also known as a saucer bottom, it is a reversal chart pattern representing a long consolidation period that turns from a bearish bias to a bullish bias. See our ChartSchool article on Rounding Bottom (Reversal) . RSI See Relative Strength Index . Runaway Gap A price gap that usually occurs around the middle point of an important market trend. For that reason, it is also called a measuring or continuation gap .",
+      "start": 8349,
+      "end": 8957,
+      "sha256": "d14b90e74a5f171edb553e8e8b675d85d0f2b696e48e6834488c23a7d45d1c02"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "s1_ivsc_concepts6",
+  "requested_url": "https://www.icjce.es/images/pdfs/TECNICA/C02%20-%20IASB/C210%20-%20IVSC%20-%20Normas/03-valuation_concepts.pdf",
+  "retrieved_url": "https://www.icjce.es/images/pdfs/TECNICA/C02%20-%20IASB/C210%20-%20IVSC%20-%20Normas/03-valuation_concepts.pdf",
+  "as_of": "2026-10-13",
+  "title": "International Valuation Standards, Sixth Edition: General Valuation Concepts and Principles",
+  "scope": "Archived conceptual definition only; not a claim about the currently effective standard or Korean law",
+  "content_sha256": "2342e05d0678a00449128f799f0be179dc409bb242f91514cd5347719e760ac4",
+  "pdf_sha256": "b367b72eaac65ff581e2af3015fbec09031a3a4739f8aae857e192a59db1da4e",
+  "text_extraction": "PyMuPDF digital PDF text, not a reviewer paraphrase",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "444049",
+  "downloaded_bytes": 444049,
+  "download_verification": "HTTP response read to EOF; declared length matched where supplied; SHA256 matches preserved PDF"
+}

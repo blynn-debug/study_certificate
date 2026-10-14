@@ -1,0 +1,32 @@
+{
+  "source_id": "financial_rule_annex10_3",
+  "source_metadata": {
+    "id": "financial_rule_annex10_3",
+    "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196497&bylClsCd=200201",
+    "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196497&bylClsCd=200201",
+    "retrieved_at": "2026-10-13T01:19:15.566946+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "f504ce6cab3067d94f85a9b289edeec265acc187bde6498a154c1cf8facbeaca",
+    "binary_sha256": "f504ce6cab3067d94f85a9b289edeec265acc187bde6498a154c1cf8facbeaca",
+    "text_sha256": "04fc6cd6fea2fb329e547616119df8652e4f19f42e1dd2cfac39b14ad32e3271",
+    "pages": 2,
+    "characters": 618,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "financial_rule_annex10_3:기준",
+      "source_id": "financial_rule_annex10_3",
+      "article": "기준",
+      "heading": "기준",
+      "text": "[PDF page 1]\n<별표10의3> <신설2014.12.12>\n2종금융투자업자에대한적기시정조치기준\n(제3-26조제1항, 제3-27조제1항, 제3-28조제1항관련)\n1. 경영개선권고\n가. 자기자본이최소영업자본액에미달하는경우\n나. 거액의금융사고또는부실채권의발생으로가목의기준에해당\n될것이명백하다고판단되는경우\n2. 경영개선요구\n가. 자기자본이필요유지자기자본이상이면서다음의항목을합산한\n금액에미달하는경우\n(1) 필요유지자기자본\n(2) 고객자산운용필요자본의50%\n(3) 고유자산운용필요자본의50%\n나. 거액의금융사고또는부실채권의발생으로가목의기준에해당\n될것이명백하다고판단되는경우\n3. 경영개선명령\n가. 자기자본이필요유지자기자본에미달하는경우\n나.「금융산업의구조개선에관한법률」제2조제2호에서정하는부실\n금융기관에해당하는경우\n\n\n[PDF page 2]\n4. 고객자산운용필요자본산정의특례\n가. 2종금융투자업자(해당금융투자업자의임ㆍ직원을포함한다)가\n금융감독원장이정하는\n손해배상책임보험(「보험업법」제2조제1\n호나목의보험상품을의미한다)등에가입한경우고객자산운용\n필요자본의50% 이내의범위에서금융감독원장이정하는방법에\n따라차감할수있다.\n나. 가목의보험계약자, 피보험자, 보험금의액수, 보험금지급사유\n등구체적인사항은금융감독원장이정한다.",
+      "start": 0,
+      "end": 618,
+      "sha256": "67af64eb776ec34ee8a00c98f74a443c3a459aa8a8707be3afced9859343d0e8"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ktrust_collateral_contract",
+  "requested_url": "https://www.ktrust.co.kr/_download/%EB%B6%80%EB%8F%99%EC%82%B0%EB%8B%B4%EB%B3%B4%EC%8B%A0%ED%83%81%EA%B3%84%EC%95%BD%EC%84%9C.pdf",
+  "retrieved_url": "https://www.ktrust.co.kr/_download/%EB%B6%80%EB%8F%99%EC%82%B0%EB%8B%B4%EB%B3%B4%EC%8B%A0%ED%83%81%EA%B3%84%EC%95%BD%EC%84%9C.pdf",
+  "retrieved_at": "2026-10-13T04:19:24.981182+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "aec7083ef38d7d8bd6eb7b13817c3629f2ed4e9c762348a44a3240c179703013",
+  "binary_sha256": "aec7083ef38d7d8bd6eb7b13817c3629f2ed4e9c762348a44a3240c179703013",
+  "text_sha256": "ba7438ee1bb8754403e950ecb4de3c45c822746810ba373f282a01bc76acd82b",
+  "pages": 20,
+  "characters": 13902,
+  "status": "retrieved_not_claim_verified"
+}

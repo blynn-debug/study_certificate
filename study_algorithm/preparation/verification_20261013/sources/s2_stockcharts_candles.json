@@ -1,0 +1,11 @@
+{
+  "id": "s2_stockcharts_candles",
+  "requested_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-pattern-dictionary",
+  "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-pattern-dictionary",
+  "retrieved_at": "2026-10-13T16:44:58.179413+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "19795fa05932425cf0059047852fb3ba46ac89fb7adab89728df8cea397be256",
+  "text_sha256": "658bc8c22fc2123dd382359316480a88887b66fb8dca52419a924f275b10b94e",
+  "status": "retrieved_not_claim_verified"
+}

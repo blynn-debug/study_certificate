@@ -1,0 +1,42 @@
+{
+  "source_id": "krx_method2020",
+  "source_metadata": {
+    "id": "krx_method2020",
+    "requested_url": "https://securities.miraeasset.com/public/hks4000/1638249936936.pdf",
+    "retrieved_url": "https://securities.miraeasset.com/public/hks4000/1638249936936.pdf",
+    "retrieved_at": "2026-10-13T16:05:44.758780+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "373b478accfa4e5eca9e4d8f60ad93fac468ebc005ae1db6bbf72b33c45cf3d8",
+    "binary_sha256": "373b478accfa4e5eca9e4d8f60ad93fac468ebc005ae1db6bbf72b33c45cf3d8",
+    "text_sha256": "a00045787910899725236d7c7bcca68a487b2780f96587ef391dd68a0b655cde",
+    "pages": 14,
+    "characters": 9919,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "krx_method2020:목적과유동가중",
+      "source_id": "krx_method2020",
+      "article": "목적과유동가중",
+      "heading": "목적과유동가중",
+      "text": "[PDF page 4]\n- 3 -\n1. 개요\n1.1 이 방법론은 KRX가 산출하는 KOSPI 200 지수의 산출과 관리에 필요한 \n사항을기술합니다.\n1.2 이 방법론은「KRX 주가지수 기본 방법론(Basic Methodology for KRX\nIndices)」등과 연계되어 있습니다.\n1.3 KOSPI 200 지수는 KRX 유가증권시장을 대표하는 지수로서 ’94.6월 개\n발되었으며, 선물, 옵션, ETF 등 다양한 금융상품의 기초지수로 활용되\n고 있습니다. 이를 위해 유가증권시장을 잘 반영할 수 있도록 시장대\n표성, 유동성 및 상품성 등을 종합적으로 고려하여 구성종목 선정, 지수\n산출 등세부 방법론을 설계하였습니다.\n2. 관리 책임(Management Responsibilities)\n2.1 (지수관리자) KRX는 지수관리자로서 아래사항을 포함하여 KOSPI 200\n지수의산출, 운영 및 관리에 관한 사항을 담당하고 있습니다.\n- 구성종목의 편입 및 제외\n- 방법론에 따른 구성종목의 편입비중 변경\n- 지수의 정기적인 리뷰 및 그에 따른 변동사항 반영\n- 지수값의 분배 등\n2.2 (방법론 정기검토) KRX는 이 방법론이 지수의 본래 목표를 달성하도록\n적절히 작동하는지, 이해관계자의 요구사항을 충분히 반영하고 있는지 \n등을 정기적으로 검토합니다. 이 경우에, 검토에 관한 사항은 주가지수\n운영위원회의 심의를 거치도록 합니다.",
+      "start": 2026,
+      "end": 2718,
+      "sha256": "d549370a10c99ea832286522466b7a4cf63128aa15ef77f4c5d0e9bf4f2e1b7e"
+    },
+    {
+      "id": "krx_method2020:유동주식산식",
+      "source_id": "krx_method2020",
+      "article": "유동주식산식",
+      "heading": "유동주식산식",
+      "text": "9. 지수 산출\n9.1 산식\nㅇKOSPI 200 지수는 비교시점의 시가총액을 기준시점의 시가총액으로 나눈 \n후 기준지수를 곱하여 산출하며, 기준시점은 1990년 1월 3일, 기준지수는 \n100으로 합니다.\n\n\n기준시점의시가총액\n비교시점의시가총액× \n9.2 유동주식수\n\n\n[PDF page 13]\n- 12 -\nㅇKOSPI 200 지수는 유동주식수로 가중하여 산출합니다. 세부사항은 \n「KRX 주가지수 기본 방법론」을 참고하시기 바랍니다.",
+      "start": 8889,
+      "end": 9146,
+      "sha256": "9ae97fba34e97659c649e5645cea6f8fe019bfaee724a66db47d0cefc294254f"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "s1_occ_securitization",
+  "requested_url": "https://occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf",
+  "retrieved_url": "https://occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "316436",
+  "downloaded_bytes": 316436,
+  "retrieved_at": "2026-10-13T23:54:41.315761+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "7e5c6d176238451c94b2746710954dadbd4355a4dce246804f0dd6bb98329507",
+  "content_sha256": "79949680b2cde57b760b29f4611e3b61ba38a2a3bfb7bd5544560fc7c552c3b2",
+  "characters": 175097
+}

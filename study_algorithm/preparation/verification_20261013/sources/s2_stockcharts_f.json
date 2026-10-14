@@ -1,0 +1,11 @@
+{
+  "id": "s2_stockcharts_f",
+  "requested_url": "https://chartschool.stockcharts.com/table-of-contents/glossary/glossary-f",
+  "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/glossary/glossary-f",
+  "retrieved_at": "2026-10-13T17:17:04.504675+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "7c4c840ceaaea990711d208b49c03d8791568a5f043080e8730c3d8ae2b9eae6",
+  "text_sha256": "ac6d384cab49033536adc6da061e984afff6e4a473b1c875a2d1273f187d95af",
+  "status": "retrieved_not_claim_verified"
+}

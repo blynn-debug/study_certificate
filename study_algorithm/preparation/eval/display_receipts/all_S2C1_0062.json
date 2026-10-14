@@ -1,0 +1,33 @@
+{
+  "kind": null,
+  "chapter": "S2C1",
+  "start": 62,
+  "next_start": 85,
+  "displayed_ids": [
+    "NOTE-S2C1-Q005",
+    "NOTE-S2C1-Q006",
+    "NOTE-S2C1-Q007",
+    "NOTE-S2C1-Q008",
+    "NOTE-S2C1-Q009",
+    "NOTE-S2C1-Q010",
+    "NOTE-S2C1-Q011",
+    "NOTE-S2C1-Q012",
+    "NOTE-S2C1-Q013",
+    "NOTE-S2C1-Q014",
+    "NOTE-S2C1-Q015",
+    "NOTE-S2C1-Q016",
+    "NOTE-S2C1-Q017",
+    "NOTE-S2C1-Q018",
+    "NOTE-S2C1-Q019",
+    "NOTE-S2C1-Q020",
+    "NOTE-S2C1-Q021",
+    "NOTE-S2C1-Q022",
+    "NOTE-S2C1-Q023",
+    "NOTE-S2C1-Q024",
+    "NOTE-S2C1-Q025",
+    "NOTE-S2C1-Q026",
+    "NOTE-S2C1-Q027"
+  ],
+  "characters": 2825,
+  "review_status": "displayed_only_not_yet_semantically_reviewed"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "bok_ppi",
+  "requested_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200560&nttId=220662&pageIndex=6&searchBbsSeCd=z19",
+  "retrieved_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200560&nttId=220662&pageIndex=6&searchBbsSeCd=z19",
+  "retrieved_at": "2026-10-13T01:02:20.480792+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7792,
+  "content_sha256": "1a66586cdb00f09fda34847dff471ab78c63ce835a648cf7796959e849920e42",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

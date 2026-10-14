@@ -1,0 +1,12 @@
+{
+  "id": "fb_ktb_history",
+  "requested_url": "https://ktb.mofe.go.kr/ntndbtHist.do",
+  "retrieved_url": "https://ktb.mofe.go.kr/ntndbtHist.do",
+  "retrieved_at": "2026-10-14T00:07:04.790515+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 3680,
+  "content_sha256": "8eaac6a99607b3644512f0d012d52603ce884631f526e676a87fc6f4fc5cb700",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

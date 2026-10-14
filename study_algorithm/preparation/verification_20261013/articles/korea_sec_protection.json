@@ -1,0 +1,30 @@
+{
+  "source_id": "korea_sec_protection",
+  "source_metadata": {
+    "id": "korea_sec_protection",
+    "requested_url": "https://www.trueelw.com/main/customer/guide/Guide.jsp?type=3",
+    "retrieved_url": "https://www.trueelw.com/main/customer/guide/Guide.jsp?type=3",
+    "retrieved_at": "2026-10-13T10:29:35.551002+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 10972,
+    "content_sha256": "38400e32ff7bbf2a24bb9baebdc8f28f50648d6130a0f357380de96981046242",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "korea_sec_protection:고객예탁금보호목록",
+      "source_id": "korea_sec_protection",
+      "article": "고객예탁금보호목록",
+      "heading": "고객예탁금보호목록",
+      "text": "보호금융상품등록부\n보호금융상품등록부\n(기준일 : 2026년 10월 1일)\n한국투자증권이 취급하는 금융상품 중 예금보험공사가 예금자보호법에 의하여\n보호하는 금융상품의 종류는 아래와 같습니다.\n예금자보호제도에 관한 자세한 내용은 영업점에 비치된 예금자보호 안내책자 등을 참고하시거나 예금보험공사(☎1588-0037, www.kdic.or.kr)로 문의하시기 바랍니다.\n정부, 지방자치단체, 한국은행, 금융감독원, 예금보험공사, 부보금융회사가 가입한 금융상품은 보호되지 않습니다.\n보호금융상품 목록\n(2026년 10월 1일 현재)\n상품유형주, 계정과목, 금융상품명, 판매개시일, 판매중단일, 비고 이 포함된 보호금융상품 목록 테이블입니다.\n상품유형주\n계정과목\n금융상품명\n판매개시일\n판매중단일\n비고\n위탁자예수금\n위탁계좌 예수금(단, 금현물은 제외)\n부자아빠계좌 예수금\n2006.02.24\n통합시스템 구축\n부자아빠 랩 계좌 예수금\n2006.02.24\n통합시스템 구축\n외화증권계좌 매매 계좌 예수금\n2004.06.01\n연금저축계좌 예수금\n저축자예수금\n근로자장기증권저축 예수금\n2000.12.31\n제도변경\n(세금우대종합저축으로 통합)\n근로자 주식저축 예수금\n2000.12.31\n근로자 증권저축 예수금\n2000.12.31\n근로자주식증권저축 예수금(비과세근로자주식저축)\n2000.12.31\n세금우대종합저축 예수금\n2014.12.31\n제도변경(2014.12.31 일몰)\n비과세종합저축 예수금(생계형종합저축->비과세종합저축)\n제도변경(명칭변경)\n일반증권저축 예수금\n2009.02.04\n제도변경(자본시장법 시행)\n장기증권저축 예수금(근로자우대증권저축)\n2004.12.31\n할부식증권저축 예수금\n1997.12.23\n수익자예수금\n금융상품통장 예수금\n신용공여금\n신용공여담보금 예수금(자기신용공여담보금)\n신용대주담보금\n자기신용대주담보금 예수금\n해외주식투자전용예수금\n해외주식투자전용펀드계좌 예수금\n2017.12.31\n제도변경(2017.12.31 일몰)\n주) 금소법에 따른 금융상품 유형(예금성, 투자성, 보장성)",
+      "start": 2125,
+      "end": 3123,
+      "sha256": "4267f1909eeae57965964b3dd838a552fc4bc1996d9b860e060619e768045f1b"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

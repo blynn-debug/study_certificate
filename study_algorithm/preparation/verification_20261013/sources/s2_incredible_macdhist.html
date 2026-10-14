@@ -1,0 +1,401 @@
+      <!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>
+        MACD Histogram      </title>
+      <meta name="description" content="The MACD Histogram (Moving Average Convergence Divergence Histogram) provides far earlier and more responsive signals than the original MACD, but is also more volatile.">
+      <meta name="keywords" content="">
+      <meta name="author" content="Colin Twiggs">
+      <meta property="og:type" content="website"><meta property="og:url" content="https://www.incrediblecharts.com/indicators/macd_histogram.php"><meta property="og:description" content="The MACD Histogram (Moving Average Convergence Divergence Histogram) provides far earlier and more responsive signals than the original MACD, but is also more volatile."><meta property="og:image" content="https://www.incrediblecharts.com/images/logo/i-95_250x250.png"><link rel="canonical" href="https://www.incrediblecharts.com/indicators/macd_histogram.php">      <style>
+      /* Critical CSS 20250527 */
+html,body,#left_and_content{height:100%;width:100%;margin:0;padding:0}#main_content_td,#topfixed{width:100%}#leftmenublock ul,#leftmenublock ul li a,#rightcolumn,.leftmenubar{font-size:11px}#rightcolumn div.btn_share,#rightcolumn p.sharehd{max-width:90%;font-size:1em;text-shadow:none;vertical-align:top}#leftmenublock ul,#rightcolumn ul{padding:10px 5px;line-height:15px;text-align:left;list-style-type:none}#leftmenublock ul li::before,#rightcolumn ul li::before{content:"";height:0;top:1em;left:-1em;position:relative;border-style:solid;border-width:.4em 0 .4em .4em}#rightcolumn,#rightcolumn a:not(.btn_in),.leftmenubar,.topnav a,.topnav a:active,.topnav a:focus,.topnav a:hover,.topnav a:visited{color:#fff}#leftmenublock ul li a,#rightcolumn a:not(.btn_in),.btn_in,.noul,.topnav a{text-decoration:none}body,html{background-color:#fff;color:#000;font-family:Segoe UI,Arial,Helvetica,sans-serif;font-weight:400;font-size:16px;line-height:1.5;text-align:justify}h1,h2{font-weight:300}#topfixed{position:fixed;top:0;left:0;z-index:50;height:68px;background:#223}a,div,h1,h2,h3,h4,h5,h6,img,map,p,span,table,th{scroll-margin-top:80px}#left_and_content{table-layout:fixed;position:absolute;left:0;top:68px;border:0}#leftmenublock,#rightcolumn,.leftmenubar{width:200px}#main_content_td,#rightcolumn,.leftmenubar{background-color:#223;background:linear-gradient(#223,#336,#223);margin:0;padding:0 2px;border:0;vertical-align:top;box-sizing:border-box}#main_content_div{max-width:800px;vertical-align:top;box-sizing:border-box;margin:auto;padding:5px;border:0;background:#fff}@media screen and (max-width:960px){#leftmenublock,#rightcolumn,.leftmenubar{width:170px}}@media screen and (max-width:860px){.leftmenubar{display:none;width:0}}@media screen and (max-width:680px){#rightcolumn{display:none;width:0}}#main_content_td.mainpage{border:0;padding:0;margin:0}#main_content,#related,.extra_content{width:95%;max-width:700px;margin:5px auto 1em}#main_content>div,.extra_content>div{margin:auto}#leftmenublock ul{margin:0}#leftmenublock ul li{margin:-.5em 0 0 1em;text-align:left}#leftmenublock ul li::before{display:block;width:0;border-color:transparent #0c0}#leftmenublock ul li a{color:#eef}#leftmenublock ul li a:hover,#rightcolumn ul li a:hover{color:#0c0}#leftmenublock h2,#leftmenublock p{margin:0;padding:0 0 0 4px;font-weight:600;font-size:11px;color:#fff;text-align:left}#rightcolumn>div,#rightcolumn>nav{position:-webkit-sticky;position:sticky;top:68px;box-sizing:border-box;width:98%;max-width:200px;margin:auto}@media screen and (max-height:650px){#rightcolumn>nav>div#rightdiv_FreeTrial{display:none}}@media screen and (max-height:850px){#rightcolumn>nav>div#rightdiv_TradingDiary{display:none}}#rightcolumn>div>div,#rightcolumn>nav>div{display:block;min-height:2em;margin:2em 0;padding:0}#rightcolumn>div>div>div,#rightcolumn>nav>div>div{margin:0 auto;padding:3%}#rightcolumn br{height:10px;font-size:10px;border:0;margin:0;padding:0}#rightcolumn .btn{margin:0 auto}#rightcolumn .btn_in{margin:0 auto;font-size:1.2em;font-weight:600}#rightcolumn p.sharehd{display:inline-block;margin:0 0 .1em;padding:5px;font-weight:600}#rightcolumn div.btn_share{display:inline-block;width:20px;margin:.1em auto;padding:.2em;text-align:center}#rightcolumn div.btn_share img,#rightcolumn div.btn_share svg{display:inline-block;vertical-align:bottom;width:16px;max-height:16px}#rightcolumn ul{color:#000;margin:0;font-size:11px}#rightcolumn ul li{margin:-.5em 0 0 1.25em}#rightcolumn ul li::before{display:block;width:0;border-color:transparent #f33}#rightcolumn ul li a{color:#eef}#rightcolumn ul li a:visited{color:#e9e9ff}#rightcolumn h2,.rightmenuheading{margin:0;padding:5px;font-size:1.2em;color:#eef;font-weight:700;text-align:center}#rightcolumn p,.footer-links li{padding:5px}.bordergreen{border:1px solid #080;border-radius:5px}.borderwhite{border:1px solid #fff;border-radius:5px}figure,img,picture{border:0;max-width:100%!important;height:auto!important}figure,img.align_center,img.aligncenter,img.center,picture{margin:auto;text-align:center;display:block}.chart{text-align:center;padding-top:16px;padding-bottom:16px}.chart img{margin:auto;display:block}.logo,.topnav .icon-search,.topnav ul{display:inline-block}.logo{max-width:80%!important;padding:0 .2em}.logo img{width:243px;margin:0;padding:0}.topnav{text-align:left;float:right;margin:0;padding:22px 15px 22px 5px}.align_center,.aligncenter,.btn,.btn_in,.center{text-align:center}.btn,.topnav li{padding:0}.topnav div#TopNavLogin .btn_in,.topnav div#TopNavTrial .btn_in{margin:0 5px 0 0}.footer-links ul,.topnav ul{list-style-type:none;margin:0;padding:0;font-weight:400;line-height:150%}.footer-links li,.topnav div,.topnav li{display:inline;width:auto;white-space:nowrap}.footer-links li,.topnav li{max-width:48%}.topnav a{padding:5px;border-radius:5px}.topnav a:hover{background-color:#16a34a}.topnav .icon-menu{font-size:150%}.topnav .icon-menu,.topnav .icon-search{border:0;line-height:150%;cursor:pointer}.topnav .icon-search{background:url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20style%3D%22stroke%3A%23fff%3Bstroke-width%3A12.5%25%3Bfill%3Anone%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20r%3D%2234%25%22%20cx%3D%2240.5%25%22%20cy%3D%2240.5%25%22%20%2F%3E%3Cline%20x1%3D%2268%25%22%20y1%3D%2268%25%22%20x2%3D%2293.5%25%22%20y2%3D%2293.5%25%22%20%2F%3E%3C%2Fsvg%3E) center/1em;background-repeat:no-repeat!important;width:1.2em;height:1.2em;vertical-align:middle;padding:6px 5px;margin:-1px 0 3px}.enablejs,.topnav .icon-menu{display:none}@media screen and (max-width:950px){.enablejs,.topnav .icon-menu{display:block;position:absolute}.topnav{height:auto;position:absolute;right:0;top:0;padding:0}.topnav div#TopNavLogin,.topnav div#TopNavTrial{position:absolute;top:18px}.topnav div#TopNavTrial{right:60px}.topnav div#TopNavLogin{right:220px}.topnav li{display:none;padding:5px 0}.topnav .icon-menu{right:18px;top:18px;background:url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20style%3D%22stroke%3A%23fff%3Bstroke-width%3A12.5%25%3Bfill%3Anone%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cline%20id%3D%22bar%22%20x1%3D%2212.5%25%22%20y1%3D%2219%25%22%20x2%3D%2287.5%25%22%20y2%3D%2219%25%22%20%2F%3E%3Cuse%20href%3D%22%23bar%22%20y%3D%2231%25%22%20%2F%3E%3Cuse%20href%3D%22%23bar%22%20y%3D%2262%25%22%20%2F%3E%3C%2Fsvg%3E) center/1em;background-repeat:no-repeat!important;width:1em;height:1em}.topnav .icon-search{width:auto;height:auto;padding:5px;margin:0;background-image:none;vertical-align:baseline}.icon-search::before{content:"Search"}.logo img{width:150px;padding-top:15px}.enablejs{color:red;top:70px;right:50px}}.btn_in,sub,sup{display:inline-block}@media (max-width:450px){.topnav div#TopNavTrial{right:45px}.topnav div#TopNavLogin{right:195px}.logo img{width:40px;padding-top:14px}}a{color:#336}a:hover{color:#339}a:visited{color:#669}h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a{letter-spacing:.5px;word-spacing:1px;line-height:1.6;text-align:left;margin:1em 0;color:#333}h1{font-size:2em}h2{font-size:1.7em}h3{font-size:1.4em;font-weight:400}#home h3,#home h3 a{font-size:inherit;font-weight:inherit;letter-spacing:0;word-spacing:0;line-height:1.5;text-align:inherit;margin:0;color:inherit}p{text-align:justify}sub,sup{font-size:80%;font-size:max(80%,11px);line-height:initial}.nowrap{white-space:nowrap}ol,ul{line-height:150%;margin-top:16px;margin-bottom:16px}ul{list-style-type:disc}.btn{width:100%;margin:2em auto}.btn_in{max-width:90%;margin:.5em;padding:.5em;border:1px solid;border-radius:.5em;font-weight:600;text-shadow:none}.btn_in.btn_noborder,.btn_noborder{border:0}.btn_in.btn_pill,.btn_pill{line-height:1;border-radius:1.5em}.btn_100{width:100px}.btn_in.btn_sml,.btn_sml{padding:.4em 1em}.btn_in.btn_mid,.btn_mid{padding:.7em 1.25em}.btn_in.btn_lrg,.btn_lrg{padding:1em 1.5em}.bgnone a.btn_solid,.btn_green,.btn_solid,a.btn_green,a.btn_solid{background:#16a34a;border-color:#16a34a;color:#fff}.bgnone a.btn_hollow,.btn_hollow,a.btn_hollow{background:0 0;border-color:currentColor;color:inherit}.btn_white,a.btn_white{background:#fff;color:#080}.btn_blue,a.btn_blue{background:#eef;border-color:#223;color:#336}.bgnone a.btn_hollow:hover,.bgnone a.btn_solid:hover,.btn_green:hover,.btn_hollow:hover,.btn_solid:hover,.btn_white:hover,a.btn_green:hover,a.btn_hollow:hover,a.btn_solid:hover,a.btn_white:hover{background:#2b5;border-color:#2b5;color:#fff}.btn_blue:hover,a.btn_blue:hover{background:#669;border-color:#223;color:#fff}#pagepath{margin-top:1.25em;font-size:.65em;color:#555}#pagepath a,#pagepath a:hover,#pagepath a:visited{text-decoration:none;color:#555}div#main_content .flex-container .flex-item{margin:20px auto 10px}.flex-container,.visual-links ul,ul.visual-links{width:100%;max-width:100%;height:auto;margin:0 auto;padding:0;display:inline-block;display:-ms-flex;display:-webkit-flex;display:-moz-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-align-items:flex-start;align-items:flex-start;-webkit-flex-wrap:wrap;flex-wrap:wrap}.flex-item,.visual-links li{vertical-align:top;display:inline-block;-ms-flex:1;-webkit-box-flex:1;-webkit-flex:1;-moz-flex:1;flex:1;margin:0 auto;padding:5px 10px}.candlelist .flex-item{border-radius:5px}.cols2>div,.cols2>li,.cols2>ul>li{width:600px;max-width:46%;flex-basis:47%}@media (max-width:650px){.cols2>div,.cols2>li,.cols2>ul>li{width:98%;max-width:650px;flex-basis:98%}}.align_center table,.center table,div.center{margin-left:auto;margin-right:auto;text-align:left}.borderright,.bordertop{border-top:1px solid #eef}.borderbottom,.borderleft{border-bottom:1px solid #eef}      </style>
+      <style></style>      <link rel="SHORTCUT ICON" href="https://www.incrediblecharts.com/images/favicon.ico">
+      
+    </head>
+    <body >
+      <div id="topfixed" data-role="header">
+
+  <a href="https://www.incrediblecharts.com" id="logo" class="logo noul" data-ajax="false" data-role="none"
+     style="display:inline-block;height:68px;color:#fff">
+    <picture style="text-align:left">
+      <source media="print and (max-width: 450px)" type="image/svg+xml" 
+              srcset="/images/logo/i-104.svg" width="68" height="68">
+      <source media="print and (max-width: 450px)" type="image/png" 
+              srcset="/images/logo/i-104_68x68.png" width="68" height="68">
+      <source media="print" type="image/svg+xml" srcset="/images/logo/ic-55.svg" width="243" height="68">
+      <source media="print" type="image/png" srcset="/images/logo/ic-55_243x68.png" width="243" height="68">
+      <source media="(max-width: 450px)" type="image/svg+xml" 
+              srcset="/images/logo/i-105.svg" width="68" height="68">
+      <source media="(max-width: 450px)" type="image/png" 
+              srcset="/images/logo/i-105_68x68.png" width="68" height="68">
+      <source type="image/svg+xml" srcset="/images/logo/ic-54.svg" width="243" height="68">
+      <img src="/images/logo/ic-54_243x68.png" width="243" height="68" 
+           alt="Incredible Charts Stock Charting Software" title="Incredible Charts Stock Charting Software">
+    </picture>
+  </a>
+
+  <nav id="myTopnav" class="topnav" data-enhance="false">
+    <div id="TopNavLogin" style="color:#fff">
+      <a title="Sign up for free" class="btn_in btn_pill btn_hollow btn_sml" href="https://gd1.incrediblecharts.com/maint/login">Login</a>
+          </div>
+    <div id="TopNavTrial">
+      <a title="Sign up for free" class="btn_in btn_pill btn_solid btn_sml" href="https://gd1.incrediblecharts.com/members/register.php">Sign up for free</a>
+          </div>
+    <div>
+      <a id="TopNavMenu" title="Menu" class="icon-menu" onclick="displaymenu()"></a>
+    </div>
+    <ul>
+      <li><a href="/education.php">Education</a></li>
+      <li><a href="/indicators/technical-indicators.php">Indicators</a></li>
+      <li><a href="/support.php">Support</a></li>
+      			<li><a href="https://app1.incrediblecharts.com/pricing.php">Subscribe</a></li>
+      <li><a href="https://app1.incrediblecharts.com/private/analysis/mi/login.php" rel="nofollow">Profile</a></li>
+            <li><a id="TopNavSearch" title="Search" class="icon-search" href="javascript:togglesearch();"></a></li>
+    </ul>
+  </nav>
+
+</div>
+
+<div id="TopNavLoginAlt" style="display: none;">Trouble connecting?<a href="https://app.incrediblecharts.com/browserapp/login.php" class="btn_in btn_solid btn_pill btn_mid">Try another server</a></div>
+<!-- position: absolute;right: 17px;/*! padding: 0px 10px; */color: #fff;/*! background: linear-gradient(#223, #336); */top: 68px;/*! right: 0; *//*! background: white; *//*! color: black; */ -->
+<div id="searchdiv" style="display:none">
+  <div>
+        <input type="text" id="ddgsearch">
+    <input id="ddgsearchbtn" type="button" value="Search" class="btn_in btn_solid">
+    <a href="https://duckduckgo.com/?t=lm&q=site%3Awww.incrediblecharts.com+terms%3A" id="sa" rel="nofollow"></a>
+    <input type="button" value="Cancel" onclick="togglesearch()" class="btn_in btn_hollow">
+  </div>
+</div>
+
+
+
+
+      <table  id="left_and_content" style="border-spacing: 0; border-collapse: collapse;" >
+        <tr>
+          <td class="leftmenubar" style="vertical-align: top">
+            <nav id="leftmenublock">
+              <br>
+                          </nav>
+
+          </td>
+          <td  id="main_content_td" class="main_content_td" style="vertical-align: top">
+                        <div id= "main_content_div">
+
+              
+<!-- (std_content_ictoc_gen: cachedcopy) -->
+
+<div id="main_content">
+          <nav id="pagepath" class="breadcrumbs" role="navigation">
+     <div vocab="https://schema.org/" typeof="BreadcrumbList">
+         <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" href="https://www.incrediblecharts.com/indicators/technical-indicators.php">
+          <span property="name">Indicators</span></a>
+        <meta property="position" content="1"/>
+      </span> &gt;&gt;
+       <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" href="https://www.incrediblecharts.com/indicators/trend_indicators.php">
+          <span property="name">Trend Indicators</span></a>
+        <meta property="position" content="2"/>
+      </span>      &gt;&gt;
+       <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" href="https://www.incrediblecharts.com/indicators/macd.php">
+          <span property="name">MACD</span></a>
+        <meta property="position" content="3"/>
+      </span>
+        </div>
+   </nav>
+<div>
+<h1>MACD Histogram</h1>
+<p>The signals from the <a href="macd.php"> MACD indicator</a> tend to lag price 
+movements. The MACD Histogram attempts to address this problem by plotting the 
+distance between <a href="macd.php"> MACD</a> and its signal line. Because of 
+this, the histogram signals trend changes well in advance of the normal 
+<a href="macd.php">MACD</a> signal, but is less reliable and should be 
+confirmed by other indicators.</p>
+
+
+<p>Only trade with Histogram signals when the market is trending.</p>
+<p>The MACD Histogram can also be used to track longer cycles,
+using weekly or monthly data.</p>
+
+<h2><a id="macd_histogram-trading_signals" href="#macd_histogram-trading_signals" name="macd_histogram-trading_signals" class="indicator noul att_hint">Trading Signals</a></h2>
+<p>Use <a href="/trading/stop_loss_orders.php">Stop Losses</a> with all trades.</p>
+<h3><a id="ranging_markets" href="#ranging_markets" name="ranging_markets" class="noul att_hint">Ranging Markets</a></h3>
+<p>Signals are stronger if</p>
+<ul>
+  <li>There is a bullish <a href="momentum_indicators.php#divergence" rel="nofollow">
+			divergence</a> on the Histogram; or</li>
+  <li>The signal occurs far from the zero line.</li>
+</ul>
+<p>Disregard signals close to the zero line unless confirmed by a 
+<a href="momentum_indicators.php#divergence" rel="nofollow">divergence</a>.</p>
+<ul>
+  <li>Go <a href="/technical/how-to-read-stock-charts.php#Long">long</a> when the MACD 
+			Histogram turns up below zero.</li>
+</ul>
+<p>Close the position when there is a signal to go short.</p>
+<ul>
+  <li>Go <a href="/technical/how-to-read-stock-charts.php#Short">short</a> when MACD 
+			Histogram turns down above zero.</li>
+</ul>
+<p>Close the position when there is a signal to go long.</p>
+<h3><a id="trending_markets" href="#trending_markets" name="trending_markets" class="noul att_hint">Trending Markets</a></h3>
+<p>Only trade in the direction of the trend. Signals close to the 
+zero line are accepted provided the trend is intact.</p>
+<ul>
+  <li>Go <a href="/technical/how-to-read-stock-charts.php#Long">long</a> when the MACD 
+			Histogram turns up below zero.</li>
+  <li>Go <a href="/technical/how-to-read-stock-charts.php#Short">short</a> when MACD 
+			Histogram turns down above zero.</li>
+</ul>
+<p>Use a trend indicator, such as a <a href="moving_average.php">moving 
+average</a>, to exit from trends.</p>
+
+
+<h4 style="font-size:small">Example</h4>
+<p>Intel Corporation is shown with 
+ <span style="color:white;width:1em;height:1em;display:inline-block;background:white;border:1px solid#000"> </span> 
+MACD histogram and 
+ <span style="color:aqua;width:1em;height:1em;display:inline-block;background:aqua;border:1px solid currentcolor"> </span> 
+21-day <a href="exponential_moving_average.php">exponential moving average</a>. 
+Trendlines show <a href="indicator-signals.php#divergence" rel="nofollow">divergences</a>.</p>
+<div class="chart">
+<img loading="lazy" id="ZZ1" alt="Intel MACD Histogram and EMA Example" src="/images/png-charts/intc-macd-histogram-1999.png" width="500" height="345" usemap="#FPMap0"/>
+<map id="FPMap0" name="FPMap0">
+<area title="Go long when the histogram turns up (far from the zero line)." shape="rect" coords="37,236,55,255"/>
+<area title="Go short as the histogram turns down (far from the zero line)." shape="rect" coords="86,236,102,255"/>
+<area title="Go long - the histogram turns up and is reinforced by a bullish divergence." shape="rect" coords="111,236,127,255"/>
+<area title="Go short as the histogram turns down - reinforced by a bearish divergence." shape="rect" coords="126,236,144,255"/>
+<area title="Ignore the signal - it is too close to the zero line." shape="rect" coords="144,236,163,255"/>
+<area title="Go long as the histogram turns up when well below zero." shape="rect" coords="164,236,183,255"/>
+<area title="Go short as the histogram turns down (far from the zero line)." shape="rect" coords="201,236,219,255"/>
+<area title="Go long - the histogram has turned up and is reinforced by a bullish divergence." shape="rect" coords="230,236,247,255"/>
+<area title="Price is ranging - indicated by the flat MA. Go long when the histogram turns up (far from the zero line). Place a stop below the recent Low." shape="rect" coords="41,13,59,32"/>
+<area title="Go short as the histogram turns down (far from the zero line). Place a stop above the recent High." shape="rect" coords="88,13,108,32"/>
+<area title="Go long - the histogram turns up and is reinforced by a bullish divergence. Place a stop below the recent Low." shape="rect" coords="109,13,131,32"/>
+<area title="Go short as the histogram turns down - reinforced by a bearish divergence. Place a stop above the recent High." shape="rect" coords="132,13,152,32"/>
+<area title="Go long as the histogram turns up when well below zero. Place a stop below the recent Low." shape="rect" coords="169,13,188,32"/>
+<area title="Go short as the histogram turns down (far from the zero line). Place a stop above the recent High." shape="rect" coords="203,13,221,32"/>
+<area title="Go long - the histogram has turned up and is reinforced by a bullish divergence. Place a stop below the recent Low. Price has broken clear of the trading range and the MA is rising - exit using trend signals." shape="rect" coords="235,13,253,32"/>
+<area title="Exit when price closes below the MA." shape="rect" coords="425,13,444,32"/>
+</map>
+<p class="chint">Mouse over chart captions to display trading signals.</p>
+</div>
+<ol>
+  <li>Price is ranging - indicated by the flat <a href="moving_average.php">MA</a>. 
+		Go long [L] when the histogram turns up (far from the zero line). 
+		Place a stop below the recent Low.</li>
+  <li>Go short [S] as the histogram turns down (far from the zero line). 
+		Place a stop above the recent High.</li>
+  <li>Go long [L] - the histogram turns up and is reinforced by a bullish
+    divergence. Place a stop below the recent Low.</li>
+  <li>Go short [S] as the histogram turns down - reinforced by a bearish
+    divergence. Place a stop above the recent High.</li>
+  <li>Ignore the signal as it is too close to the zero line.</li>
+  <li>Go long [L] as the histogram turns up when well
+    below zero. Place a stop below the recent Low.</li>
+  <li>A further signal to go short [S]. Place a stop above the recent High.</li>
+  <li>Go long [L] - the histogram has turned up and is reinforced by a bullish
+    divergence. Price has broken clear of the trading range and the MA
+    is rising - exit [X] when price closes below the MA.</li>
+</ol>
+<h2><a id="macd_histogram-setup" href="#macd_histogram-setup" name="macd_histogram-setup" class="indicator noul att_hint">Setup</a></h2>
+<p>The default settings are:</p>
+<ul>
+  <li>Slow <a href="moving_average.php">moving average</a> - 26 days</li>
+  <li>Fast moving average - 12 days</li>
+  <li>Signal line - 9 day moving average of the difference between fast and
+    slow.</li>
+  <li>All moving averages are 
+		<a href="exponential_moving_average.php">exponential</a>.</li>
+</ul>
+<p>To alter the default settings - see <a href="/help/indicator_panel.php#edit">
+Edit Indicator Settings</a>. See <a href="/help/indicator_panel.php">Indicator 
+Panel</a> for directions on how to set up an indicator.</p>
+<p>Captions and trendlines: Do not use <a href="macd.php">MACD</a> if you want 
+to draw trendlines or place captions on the histogram. These are left 
+"hanging in the air" if you zoom or change time periods.</p>
+
+
+<h2><a id="macd_histogram-formula" href="#macd_histogram-formula" name="macd_histogram-formula" class="indicator noul att_hint">Formula</a></h2>
+<p>To calculate the MACD Histogram:</p>
+<p>Microsoft Corporation is plotted with 
+<span style="color:lime;width:1em;height:1em;display:inline-block;background:lime;"> </span>
+<a href="macd.php">MACD</a>, 
+<span style="color:red;width:1em;height:1em;display:inline-block;background:red;"> </span>
+<a href="macd.php">MACD</a> signal line and 
+<span style="color:silver;width:1em;height:1em;display:inline-block;background:silver;"> </span>
+MACD Histogram.</p>
+<div class="chart">
+<img loading="lazy" alt="Microsoft MACD and MACD Histogram Example" src="/images/png-charts/msft-macd-histogram.png" width="519" height="345"/></div>
+<p>The MACD histogram is calculated as the MACD indicator minus the 
+signal line. Observe that:</p>
+<ul>
+  <li>When <a href="macd.php">MACD</a> is above the signal
+    line then the histogram is positive.</li>
+  <li>When <a href="macd.php">MACD</a> is below the signal
+    line then the histogram is negative.</li>
+  <li>When the gap between the <a href="macd.php">MACD</a> 
+  	and its signal line is widest then the histogram registers
+    its highest (or lowest) readings.</li>
+  <li>The histogram is at zero when <a href="macd.php">MACD</a>
+		and the signal line cross (the signal for trading with 
+		the <a href="macd.php">MACD</a>).</li>
+  <li>The histogram turns back towards the zero line when 
+		<a href="macd.php">MACD</a> and the signal line converge,
+		well in advance of them actually crossing.</li>
+</ul>
+ 
+</div> 
+</div>
+
+<div class="extra_content"><div style="border:1px solid #339;font-size:90%;margin-top:4em">
+<div style="margin:1.5em">
+<img src="/images/2013/colin-twiggs-small.jpg" 
+  alt="Colin Twiggs" width="250" height="209" loading="lazy"
+  style="width:20%;float:right;margin:.3em 0 1.5em 1.5em"/>
+<p><strong>Author:</strong> Colin Twiggs is a former investment banker with almost 40 years of experience in financial markets. He co-founded <a href="https://www.incrediblecharts.com">Incredible Charts</a> and writes the popular <a href="https://tradingdiary.incrediblecharts.com/trading_diary.php">Trading Diary</a> and <a href="https://thepatientinvestor.com/index.php/2019/01/01/market-analysis/">Patient Investor</a> newsletters.</p>
+<p>Using a top-down approach, Colin identifies key macro trends in the global economy before evaluating selected opportunities using a combination of fundamental and technical analysis.</p>
+
+<p>Focusing on interest rates and financial market liquidity as primary drivers of the economic cycle, he warned of the 2008/2009 and 2020 bear markets well ahead of actual events.</p>
+<p>He founded PVT Capital (AFSL No. 546090) in May 2023, which offers investment strategy and advice to wholesale clients.</p>
+</div>
+</div></div><br>    </div>
+    </td>
+    <td id="rightcolumn" >
+      <nav>
+<!-- (std_rightcolumns: cached copy not found: 'cache_de612b46873adf861f5151d2e4ff894b_283adf12b75c44a4264a78a193d3be59') -->
+
+<!-- (std_rightcolumns: savecopy) -->
+
+<div id="rightdiv_Social" class="align_center" style="margin:0;xdisplay:none">
+  <div>
+    <p class="sharehd">Share:</p>
+    <div class="btn_share"><a id="share_meta" href="" target="_blank" aria-label="Share on Facebook">
+        <svg><use href="/images/share/share-sprite.svg#meta" /></svg></a></div>
+    <div class="btn_share"><a id="share_x" href="" target="_blank" aria-label="Share on X">
+        <svg><use href="/images/share/share-sprite.svg#x" /></svg></a></div>
+    <div class="btn_share"><a id="share_linkedin" href="" target="_blank" aria-label="Share on LinkedIn">
+        <svg><use href="/images/share/share-sprite.svg#linkedin" /></svg></a></div>
+    <div class="btn_share"><a  id="share_email" href="" target="_blank" aria-label="Email a link to yourself or a friend">
+        <svg><use href="/images/share/share-sprite.svg#email" /></svg></a></div>
+    <script>
+      function add_social_urls(title, url) {
+        document.getElementById('share_meta').href = 'https://www.facebook.com/sharer/sharer.php?u=' + url + '&t=' + title;
+        document.getElementById('share_x').href = 'https://x.com/intent/post?url=' + url + '&text=' + title;
+        document.getElementById('share_linkedin').href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url;
+        var br = "%0A%0D";
+        var msg_text = "Hi," + br + "I thought you might find " + title + " useful." + br + "Link: " + url;
+        var msg_html = "Hi," + br + "I thought you might find <b>" + title + "</b> useful." + br + "Link: " + "<a href=%22" + url + "%22>" + url + "</a>";
+        document.getElementById('share_email').href = "mailto:?subject=" + title + "&body=" + msg_text + br + "&html-body=" + msg_html + br;
+      }
+      add_social_urls(encodeURIComponent(document.title), 'https%3A%2F%2Fwww.incrediblecharts.com%2Findicators%2Fmacd_histogram.php');
+    </script>
+  </div>
+</div>
+
+<div class="func_btn" style="display:none">
+  <!-- Adjust font sizes -->
+  <a rel="nofollow" id="IncreaseFont" href="javascript:changeThisClass()" title="Increase font size"> <span style="font-size:100%">A&plus;</span> </a>
+  <a rel="nofollow" id="DecreaseFont" href="javascript:changeThisClassSmall()" title="Decrease font size"> <span style="font-size:100%">A&minus;</span> </a>
+</div>
+
+
+<!-- RC include -->
+
+
+<div id="rightdiv_Classic" style="visibility:hidden;" data-rotate="TrialClassic_01">
+  <div class="bordergreen">
+    <p class="rightmenuheading">Incredible Charts</p>
+    <p style="margin:.5em 0 0">Free stock charting <!--software,-->with proprietary trading tools and premium data.</p>
+    <div class="btn" style="margin:1em auto">
+      <a title="Free Trial" class="btn_in btn_pill btn_solid btn_mid" href="https://www.incrediblecharts.com/#Free-Stock-Charts">Sign up for free</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="rightdiv_Browser" style="display:none;visibility:hidden;" xdata-rotate="TrialBrowser_01">
+  <div class="bordergreen">
+    <p class="rightmenuheading">Premium Web Charts</p>
+    <p style="margin:.5em 0 0">Premium cross-platform web charts with proprietary trading tools and powerful stock screens.</p>
+    <p style="margin:.5em 0 0">No downloads or installation required. Suitable for Windows, macOS, and Linux operating systems.</p>
+    <div class="btn" style="margin:1em auto">
+      <a title="Free Trial" class="btn_in btn_pill btn_solid btn_lrg" href="https://www.incrediblecharts.com/free-trial.php">7-day Free Trial</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="rightdiv_TradingDiary2">
+  <div class="borderwhite">
+    <p class="rightmenuheading">Trading Diary</p>
+    <p style="margin:.5em 0 0">Free education, macro outlook and technical updates.</p>
+    <div class="btn" style="margin:1em auto"><a title="Join Now" class="btn_in btn_pill btn_blue btn_mid" href="https://tradingdiary.incrediblecharts.com/trading_diary_subscribe.php">Join Now</a></div>
+  </div>
+</div><br></nav>    </td>
+    </tr>
+    <tr>
+  <td colspan="3" style="padding:0"><div id="pagefooter" >
+
+<nav id="soc_main" class="soc_links footer-links">
+<ul>
+    <li><a href="https://www.linkedin.com/company/incredible-charts/" aria-label="LinkedIn">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#linkedin" /></svg></a></li>
+    <li><a href="https://x.com/IncredibleChart" aria-label="X">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#x" /></svg></a></li>
+    <li><a href="https://www.youtube.com/@incrediblecharts/playlists" aria-label="YouTube">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#youtube" /></svg></a></li>
+  <li><a href="https://www.facebook.com/incrediblecharts" aria-label="Facebook">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#meta" /></svg></a></li>
+    <li><a href="https://www.instagram.com/incrediblechart" aria-label="Instagram">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#instagram" /></svg></a></li>
+  <li><a href="https://www.reddit.com/r/IncredibleCharts/" aria-label="Reddit">
+    <svg width="20" height="20"><use href="/images/share/share-sprite.svg#reddit" /></svg></a></li>
+</ul>
+</nav>
+
+<nav class="footer-links">
+<ul>
+  <li><a href="/support.php" rel="nofollow">Support</a></li>
+  <li><a href="/support/contactlist.php" rel="nofollow">Contact Us</a></li>
+  <li><a href="/legal/privacy_policy.php" rel="nofollow">Privacy Policy</a></li>
+  <li><a href="/legal/terms_of_use.php" rel="nofollow">Terms of Use</a></li>
+  <li><a href="/legal/disclaimer.php" rel="nofollow">Disclaimer</a></li>
+</ul>
+</nav>
+
+<div id="copyright">
+  <hr id="pagefooter-line">
+  <p>&copy; Copyright 2001 - 2026 Incredible Charts Pty Ltd.</p>
+  <p>Twiggs<sup>&reg;</sup> indicators is a Registered Trade Mark of Incredible Charts Pty Ltd.</p>
+  <p>All rights reserved.</p>
+</div>
+</div>
+</td>
+  
+</tr>
+
+       </table>
+
+      <link rel="stylesheet" type="text/css" href="/global/ic_style.min.css" media="print" onload="this.media = 'all'">
+      <noscript>
+      <link rel="stylesheet" type="text/css" href="/global/ic_style.min.css" fetchpriority="low">
+      </noscript>  
+
+      <script defer src="/global/ic_script.min.js"></script><script defer src="/global/rightcolumn.min.js"></script>
+      <script>
+        /*<![CDATA[ */
+            if ((document.getElementById("soc_right")) && (document.getElementById("soc_main"))) {
+          document.getElementById("soc_main").innerHTML = document.getElementById("soc_right").innerHTML + '<hr class="link_lines">';
+        }
+        /*	]]> */
+      </script>
+
+      </body></html>

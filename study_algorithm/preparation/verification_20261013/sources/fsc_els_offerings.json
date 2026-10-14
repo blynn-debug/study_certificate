@@ -1,0 +1,12 @@
+{
+  "id": "fsc_els_offerings",
+  "requested_url": "https://www.fsc.go.kr/no010103/24480",
+  "retrieved_url": "https://www.fsc.go.kr/no010103/24480",
+  "retrieved_at": "2026-10-13T04:33:08.195030+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 11966,
+  "content_sha256": "b85d22bb055b12b406a30bef3de874786a1163937b6295658f894e8a78a0d4d2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

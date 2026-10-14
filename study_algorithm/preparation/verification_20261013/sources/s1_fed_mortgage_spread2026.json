@@ -1,0 +1,12 @@
+{
+  "id": "s1_fed_mortgage_spread2026",
+  "requested_url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/why-mortgage-rates-exceed-treasury-yields",
+  "retrieved_url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/why-mortgage-rates-exceed-treasury-yields",
+  "retrieved_at": "2026-10-13T23:51:06.930882+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 16732,
+  "content_sha256": "ce5902da821ecf6155fb3253781e99761993e662f6391b3b8f9ce7630a508ff7",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

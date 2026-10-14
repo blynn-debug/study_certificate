@@ -1,0 +1,30 @@
+{
+  "source_id": "kcie_els_knockin",
+  "source_metadata": {
+    "id": "kcie_els_knockin",
+    "requested_url": "https://www.kcie.or.kr/guide/2/14/web_view?content_idx=886&series_idx=",
+    "retrieved_url": "https://www.kcie.or.kr/guide/2/14/web_view?content_idx=886&series_idx=",
+    "retrieved_at": "2026-10-13T04:06:26.243300+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 3982,
+    "content_sha256": "e5819e17d0640c328e9092f86e6b87b39ca56cbb9878c7f6d4602033b70dd018",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kcie_els_knockin:낙인과상환조건",
+      "source_id": "kcie_els_knockin",
+      "article": "낙인과상환조건",
+      "heading": "낙인과상환조건",
+      "text": "조기상환형 스텝다운 ELS 상품을 선택할 때에 하락한계가격을 뜻하는 낙인(Knock-In) 수준이 매우 중요한 기준이 됩니다.\nELS의 기초자산인 주가가 낙인(Knock-In) 수준을 한 번이라도 터치하게 되면 약속했던 ELS 수익률이 보장되지 않는 구조로 바뀌어 버리기 때문입니다.\n동일한 조기상환 조건을 갖고 있는 ELS일 경우 주가가 하락하여 낙인(Knock-In) 수준 밑으로 주가가 하락하면 ELS가 제시한 수익률을 받을 확률은 급격히 하락하고, 앞으로 남은 조기상환 조건이나 만기 상환조건을 충족해야만 제시수익률을 확보할 수 있습니다.",
+      "start": 1826,
+      "end": 2132,
+      "sha256": "cfa7d55d46658f5ac35d0e080e7c87355bb439454180e80f636b54cbe58f1b23"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

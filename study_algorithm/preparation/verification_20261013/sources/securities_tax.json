@@ -1,0 +1,19 @@
+{
+  "id": "securities_tax",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=239245&chrClsCd=010202&urlMode=lsInfoP&efYd=20220701&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=239245&chrClsCd=010202&urlMode=lsInfoP&efYd=20220701&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:24.834739+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10992,
+  "content_sha256": "28906824d543553438f32ae597c5e478a4c251afad9b864ffadc700f72a48579",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2022",
+      "7",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

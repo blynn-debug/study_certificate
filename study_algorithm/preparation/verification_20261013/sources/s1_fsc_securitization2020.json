@@ -1,0 +1,12 @@
+{
+  "id": "s1_fsc_securitization2020",
+  "requested_url": "https://www.fsc.go.kr/po010106/74333",
+  "retrieved_url": "https://www.fsc.go.kr/po010106/74333",
+  "retrieved_at": "2026-10-13T15:59:04.350471+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 9666,
+  "content_sha256": "926bfe9c7245c6e63cf2073b865faeeb0515f24541dd3d1937e3f6a1c8e6dca3",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

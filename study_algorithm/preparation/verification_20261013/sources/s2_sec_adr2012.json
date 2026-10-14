@@ -1,0 +1,11 @@
+{
+  "id": "s2_sec_adr2012",
+  "requested_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88",
+  "retrieved_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88",
+  "retrieved_at": "2026-10-13T16:09:56.507775+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "bdaeda34aa321d89c90b60268de5325e8eb9075583ae9044aba2bcb5d3aac114",
+  "text_sha256": "af1edfc6e83689e6a728293f1518d66bc10f5a816f0f56c8e8887dc0f7d56919",
+  "status": "retrieved_not_claim_verified"
+}

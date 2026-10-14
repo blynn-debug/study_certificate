@@ -1,0 +1,29 @@
+{
+  "source_id": "fd_occ_styles",
+  "source_metadata": {
+    "id": "fd_occ_styles",
+    "requested_url": "https://www.optionseducation.org/news/what-is-the-difference-between-american-style-and",
+    "retrieved_url": "https://www.optionseducation.org/news/what-is-the-difference-between-american-style-and",
+    "retrieved_at": "2026-10-14T00:07:41.555633+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "ba20cb370d9924be2c7675cea4fec6629fb5218d4693e5400f77d5c75d248a4b",
+    "text_sha256": "23df40af4a0e985de0dfe13e254eac56340e16af940356b0e3ffee79165a81c3",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fd_occ_styles:Definitions",
+      "source_id": "fd_occ_styles",
+      "article": "Definitions",
+      "heading": "Definitions",
+      "text": "What is the difference between American-style and European-style options? Explore Close Search Submit Search Home Options Professionals Financial Advisor Resources Institutional Investor Resources Articles and Updates Podcasts Video Library Events Upcoming Events On-Demand Webinars The Options Education Center OCC Learning Options Overview Getting Started with Options What is an Option? Options Basics Leverage & Risk Exercising Options What are the Benefits & Risks? How LEAPS® Work Options Pricing LEAPS® - Options for the Long Term Availability of LEAPS® LEAPS® Pricing Time Erosion vs. Delta Effect LEAPS® Strategies Strategies Choosing the Right Strategy All Strategies Bullish Outlook Bearish Outlook Neutral Outlook Hedge Stock Acquire Stock Produce Income Implied Volatility Increase Implied Volatility Decrease Sharp Move Up or Down Buying Index Calls & Puts Advanced Concepts Getting Started Index Options Equity vs. Index Options Understanding Options Greeks Delta Gamma Theta Vega Rho Putting It All Together Volatility & the Greeks Put/Call Parity Black-Scholes Formula Option Quotes & Calculators Trending Options Volume Options Monitor Stock Monitor Options Calculator Probability Calculator Position Profit & Loss Simulator Historical and Implied Volatility Reference Library Options Expiration Calendar Options Glossary FAQ ODD Quick Guide Options Product Specifications Brochures & Literature White Papers Research Market Data Related Links About The Options Industry Council About OIC OIC Biographies Investor Education Contact Feedback & Contact Subscription Preferences Profile Articles and Updates March 2020 What is the difference between American-style and European-style options? When it comes to options, the names American-style and European-style have a lot less to do with geography than how they can be exercised. American-style options can be exercised at any time, for any reason, prior to expiration, up to and including expiration day. European-style options can be exercised only at expiration.",
+      "start": 0,
+      "end": 2033,
+      "sha256": "1cae574b686cc506329da2fab7c5cb9e7e9f3fc4cd85ec6cbe969f2e84266370"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

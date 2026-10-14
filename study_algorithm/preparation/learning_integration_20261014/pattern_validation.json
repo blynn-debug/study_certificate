@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-14T09:16:30.165609+00:00",
+  "mode": "offline_algebra_and_separate_agent_review",
+  "checks": [
+    {
+      "name": "PV annual effective rate",
+      "observed": "100",
+      "expected": "100",
+      "passed": true
+    },
+    {
+      "name": "call net payoff at breakeven",
+      "observed": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "Sharpe correct denominator",
+      "observed": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "name": "expected exceedance count without independence",
+      "observed": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "name": "perfect negative correlation equal risk contributions",
+      "observed": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "name": "zero-correlation variance",
+      "observed": "1/50",
+      "expected": "1/50",
+      "passed": true
+    },
+    {
+      "name": "stable IS slope",
+      "observed": "-15",
+      "expected": "-15",
+      "passed": true
+    },
+    {
+      "name": "missing MPC restriction counterexample",
+      "observed": "15",
+      "expected": "15",
+      "passed": true
+    },
+    {
+      "name": "beta A",
+      "observed": 2.0000000000000004,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "beta B",
+      "observed": 0.5000000000000002,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "name": "vol A",
+      "observed": 0.2,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "vol B",
+      "observed": 0.19999999999999998,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "Sharpe ranking A above B",
+      "observed": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "name": "Treynor ranking A below B",
+      "observed": "True",
+      "expected": "True",
+      "passed": true
+    }
+  ],
+  "synthetic_examples_not_target_answers": true,
+  "learner_responses": 0,
+  "api_calls": 0,
+  "independent_review": {
+    "agent": "subject1_remaining",
+    "checked_patterns": 10,
+    "corrections_applied": [
+      "LP09 added 0<c<1, fixed G,T, explicit linear investment",
+      "LP08 clarified no CAPM expected equilibrium"
+    ]
+  }
+}

@@ -1,0 +1,2017 @@
+{
+    "checked_at":  "2026-10-13T01:17:13.0563525+09:00",
+    "status":  "passed",
+    "meaning":  "File integrity, source accounting and design-reference validation. This is not proof of exhaustive semantic understanding, ten full rereads, original video fidelity or learning efficacy.",
+    "counts":  {
+                   "src_files":  98,
+                   "transcript_files":  42,
+                   "unique_videos":  41,
+                   "txt_lines":  10805,
+                   "unique_txt_lines":  10559,
+                   "srt_cues":  21277,
+                   "supporting_files":  9,
+                   "coverage_segments":  316,
+                   "operational_rules":  31,
+                   "matching_transcript_hashes":  42,
+                   "srt_txt_exact_matches":  42,
+                   "unaccounted_src_files":  0,
+                   "errors":  0,
+                   "historical_metadata_differences":  14
+               },
+    "sources":  [
+                    {
+                        "id":  "Bxu7WCeoThY",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/01_1부 「발상의 전환」 ① 물욕이라도 좋으니 욕심을 가져라. ② 인풋과 아웃풋을 구별하라. ③ 필요한 만큼만 공부한다. (이윤규 공부법) [Bxu7WCeoThY].ko-orig.txt",
+                        "txt_lines":  273,
+                        "sha256":  "BB12848E17875332F46EF457A907F4A8A97FDEC37F6DBBCD259369772A8BEBA8",
+                        "matches_manifest":  true,
+                        "srt_cues":  545,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1027.589,
+                        "duration_seconds":  1027,
+                        "end_difference_seconds":  -0.589,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  273,
+                        "lines_by_kind":  {
+                                              "mixed":  33,
+                                              "example":  111,
+                                              "method":  87,
+                                              "claim":  14,
+                                              "context":  28
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "vluEPc2lXaI",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/02_2부 「INPUT」 ④ 완벽한 암기는 독이다. ⑤ 인풋에는 단계가 있다. (이윤규 공부법) [vluEPc2lXaI].ko-orig.txt",
+                        "txt_lines":  238,
+                        "sha256":  "6976865E99978D8911D0567425AC2280D1670A442CD3AC9A56FBA40CDFD17041",
+                        "matches_manifest":  true,
+                        "srt_cues":  475,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  856.36,
+                        "duration_seconds":  855,
+                        "end_difference_seconds":  -1.36,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  238,
+                        "lines_by_kind":  {
+                                              "mixed":  90,
+                                              "method":  107,
+                                              "claim":  41
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "3X4j9L1t0hk",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/03_3부 「강의활용」 ⑥ 예습없는 수강은 시간낭비다. ⑦ 강의는 다 듣는 것이 아니다. (이윤규 공부법) [3X4j9L1t0hk].ko-orig.txt",
+                        "txt_lines":  199,
+                        "sha256":  "63314F756E930E431A03A99BBCEB689213DF5A12F0AD6B2BC59A293CAEC7BB73",
+                        "matches_manifest":  true,
+                        "srt_cues":  397,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.12,
+                        "caption_end_seconds":  688.63,
+                        "duration_seconds":  687,
+                        "end_difference_seconds":  -1.63,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  8,
+                        "covered_lines":  199,
+                        "lines_by_kind":  {
+                                              "mixed":  15,
+                                              "method":  184
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Zm9yPhGrWPs",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/04_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+                        "txt_lines":  246,
+                        "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6",
+                        "matches_manifest":  true,
+                        "srt_cues":  491,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  878.07,
+                        "duration_seconds":  878,
+                        "end_difference_seconds":  -0.07,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  246,
+                        "lines_by_kind":  {
+                                              "mixed":  45,
+                                              "method":  147,
+                                              "example":  54
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Zm9yPhGrWPs",
+                        "path":  "src/YouTube_자막_2026-10-12/03_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+                        "txt_lines":  246,
+                        "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6",
+                        "matches_manifest":  true,
+                        "srt_cues":  491,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  878.07,
+                        "duration_seconds":  878,
+                        "end_difference_seconds":  -0.07,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  246,
+                        "lines_by_kind":  {
+                                              "mixed":  45,
+                                              "method":  147,
+                                              "example":  54
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "ciMdEAqKH7M",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/05_5부 「OUTPUT」 ⑩ 성적은 아웃풋으로 결정된다. (이윤규 공부법) [ciMdEAqKH7M].ko-orig.txt",
+                        "txt_lines":  205,
+                        "sha256":  "C7BA53E2323573C66B5718E39F182EFA14B96B8929C6486184645E08323A3F0E",
+                        "matches_manifest":  true,
+                        "srt_cues":  409,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.33,
+                        "caption_end_seconds":  706.769,
+                        "duration_seconds":  705,
+                        "end_difference_seconds":  -1.769,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  8,
+                        "covered_lines":  205,
+                        "lines_by_kind":  {
+                                              "mixed":  44,
+                                              "method":  126,
+                                              "example":  35
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "VIiri54HNh8",
+                        "path":  "src/YouTube_2020_Noryangjin_subtitles/06_6부 「단기합격 테크트리」 ⑪ 계획은 거꾸로 짠다. ⑫ 문제보다 해설을 먼저 본다. (이윤규 공부법) [VIiri54HNh8].ko-orig.txt",
+                        "txt_lines":  186,
+                        "sha256":  "E603F723BF55AF22178B784EEA079668D98D754B54DD7BEE1FDDDFA30AE50EDA",
+                        "matches_manifest":  true,
+                        "srt_cues":  371,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  649.369,
+                        "duration_seconds":  649,
+                        "end_difference_seconds":  -0.369,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  11,
+                        "covered_lines":  186,
+                        "lines_by_kind":  {
+                                              "mixed":  29,
+                                              "context":  13,
+                                              "example":  7,
+                                              "method":  137
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "KVyQKanC_8Y",
+                        "path":  "src/YouTube_Study_Season3_subtitles/KVyQKanC_8Y.ko-orig.txt",
+                        "txt_lines":  238,
+                        "sha256":  "055E05963BE97CEF1216D859938A561932CA90D58FEBF2164AA6A86A32F01A08",
+                        "matches_manifest":  true,
+                        "srt_cues":  475,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.919,
+                        "caption_end_seconds":  502.919,
+                        "duration_seconds":  501,
+                        "end_difference_seconds":  -1.919,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  8,
+                        "covered_lines":  238,
+                        "lines_by_kind":  {
+                                              "mixed":  74,
+                                              "context":  29,
+                                              "method":  135
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "nhm7fFsyU0g",
+                        "path":  "src/YouTube_Study_Season3_subtitles/nhm7fFsyU0g.ko-orig.txt",
+                        "txt_lines":  390,
+                        "sha256":  "D8EFB3AD8E4EE6D3489A11CBE179E8DB80B9F41FC6676D91CFF91DB31B40228B",
+                        "matches_manifest":  true,
+                        "srt_cues":  779,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.359,
+                        "caption_end_seconds":  791.72,
+                        "duration_seconds":  790,
+                        "end_difference_seconds":  -1.72,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  390,
+                        "lines_by_kind":  {
+                                              "mixed":  90,
+                                              "method":  134,
+                                              "example":  136,
+                                              "context":  30
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "g4QlY3eZP3M",
+                        "path":  "src/YouTube_Study_Season3_subtitles/g4QlY3eZP3M.ko-orig.txt",
+                        "txt_lines":  297,
+                        "sha256":  "60AB0DC2826DD9D37270AF1488126BA6117731F8D684C89A79769500DD5BF2A5",
+                        "matches_manifest":  true,
+                        "srt_cues":  593,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  3.76,
+                        "caption_end_seconds":  610.12,
+                        "duration_seconds":  609,
+                        "end_difference_seconds":  -1.12,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  9,
+                        "covered_lines":  297,
+                        "lines_by_kind":  {
+                                              "mixed":  35,
+                                              "method":  115,
+                                              "example":  147
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "2VAPxqnPGrM",
+                        "path":  "src/YouTube_Study_Season3_subtitles/2VAPxqnPGrM.ko-orig.txt",
+                        "txt_lines":  501,
+                        "sha256":  "1F642DAFAA3AB640FCCD5638EBD491B993D1C945385E37D3800E1DB7B5611A9C",
+                        "matches_manifest":  true,
+                        "srt_cues":  1001,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  3.04,
+                        "caption_end_seconds":  1025.12,
+                        "duration_seconds":  1024,
+                        "end_difference_seconds":  -1.12,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  501,
+                        "lines_by_kind":  {
+                                              "mixed":  29,
+                                              "context":  8,
+                                              "example":  423,
+                                              "method":  41
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "tFaHbs34ScM",
+                        "path":  "src/YouTube_Study_Season3_subtitles/tFaHbs34ScM.ko-orig.txt",
+                        "txt_lines":  248,
+                        "sha256":  "05BC806F4DAE1431D3138C47BF5B92E1F11231E7E9BF3867F78ECBE82F92FD4F",
+                        "matches_manifest":  true,
+                        "srt_cues":  495,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.16,
+                        "caption_end_seconds":  542.6,
+                        "duration_seconds":  541,
+                        "end_difference_seconds":  -1.6,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  248,
+                        "lines_by_kind":  {
+                                              "mixed":  77,
+                                              "method":  136,
+                                              "example":  35
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "FwV1mBStPrM",
+                        "path":  "src/YouTube_Study_Season3_subtitles/FwV1mBStPrM.ko-orig.txt",
+                        "txt_lines":  379,
+                        "sha256":  "616E18FA4E4A57C260775BF9C3E6DAA60949F53F89A36F63754E51C7DECD738E",
+                        "matches_manifest":  true,
+                        "srt_cues":  757,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.12,
+                        "caption_end_seconds":  788.32,
+                        "duration_seconds":  787,
+                        "end_difference_seconds":  -1.32,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  12,
+                        "covered_lines":  379,
+                        "lines_by_kind":  {
+                                              "mixed":  35,
+                                              "context":  17,
+                                              "claim":  201,
+                                              "method":  126
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "SZcdSONPqcQ",
+                        "path":  "src/YouTube_Study_Season3_subtitles/SZcdSONPqcQ.ko-orig.txt",
+                        "txt_lines":  244,
+                        "sha256":  "D638D5F2BAD2E4EAE968C586E082F84D3B925B361F1897247D2AE4444CBB1775",
+                        "matches_manifest":  true,
+                        "srt_cues":  487,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.12,
+                        "caption_end_seconds":  488.8,
+                        "duration_seconds":  487,
+                        "end_difference_seconds":  -1.8,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  8,
+                        "covered_lines":  244,
+                        "lines_by_kind":  {
+                                              "claim":  158,
+                                              "example":  25,
+                                              "method":  39,
+                                              "context":  22
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "lAdUmpA2I14",
+                        "path":  "src/YouTube_Study_Season3_subtitles/lAdUmpA2I14.ko-orig.txt",
+                        "txt_lines":  590,
+                        "sha256":  "11918A7C16C502B609E043A7EBD82239BFCA4FC526F20B48D17E44F4661886AC",
+                        "matches_manifest":  true,
+                        "srt_cues":  1179,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.28,
+                        "caption_end_seconds":  1235,
+                        "duration_seconds":  1234,
+                        "end_difference_seconds":  -1,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  15,
+                        "covered_lines":  590,
+                        "lines_by_kind":  {
+                                              "mixed":  116,
+                                              "context":  11,
+                                              "example":  73,
+                                              "method":  390
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "fy0SHDX1Uxk",
+                        "path":  "src/YouTube_Study_Season3_subtitles/fy0SHDX1Uxk.ko-orig.txt",
+                        "txt_lines":  532,
+                        "sha256":  "C20436CE3723F18F9F139A633AAE518911DC63AFC23A42507D23E832A3B1E372",
+                        "matches_manifest":  true,
+                        "srt_cues":  1063,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1117.64,
+                        "duration_seconds":  1116,
+                        "end_difference_seconds":  -1.64,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  14,
+                        "covered_lines":  532,
+                        "lines_by_kind":  {
+                                              "mixed":  258,
+                                              "context":  21,
+                                              "method":  253
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "JBz9pSYu11A",
+                        "path":  "src/YouTube_Study_Season3_subtitles/JBz9pSYu11A.ko-orig.txt",
+                        "txt_lines":  447,
+                        "sha256":  "0921B2938632690572DD7B463BFB17133BD63F7476848DFAC03996D646D06413",
+                        "matches_manifest":  true,
+                        "srt_cues":  893,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.04,
+                        "caption_end_seconds":  938.88,
+                        "duration_seconds":  939,
+                        "end_difference_seconds":  0.12,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  13,
+                        "covered_lines":  447,
+                        "lines_by_kind":  {
+                                              "mixed":  123,
+                                              "context":  14,
+                                              "example":  53,
+                                              "method":  257
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "g1N1_GFniLE",
+                        "path":  "src/YouTube_자막_2026-10-12/01_책이 통째로 외워지는 신기한 경험, 준비되셨나요？ (구조화 독서법) ｜ 이윤규 공부법 [g1N1_GFniLE].ko-orig.txt",
+                        "txt_lines":  265,
+                        "sha256":  "E6695DF67AC543A3EAFC0CB1EE974B693D84140FE3D03DCF42D381503A933114",
+                        "matches_manifest":  true,
+                        "srt_cues":  529,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  956.06,
+                        "duration_seconds":  956,
+                        "end_difference_seconds":  -0.06,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  265,
+                        "lines_by_kind":  {
+                                              "claim":  16,
+                                              "example":  132,
+                                              "context":  13,
+                                              "method":  104
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "TIxGJZPFsyc",
+                        "path":  "src/YouTube_자막_2026-10-12/04_과연 외워야만 점수가 잘 나올까요？ 암기에 집착하지 마세요. (이윤규 공부법) [TIxGJZPFsyc].ko-orig.txt",
+                        "txt_lines":  248,
+                        "sha256":  "F63071254FCEEC44001D354BB85B434FB7A420916FC786C09A633F17118D79A0",
+                        "matches_manifest":  true,
+                        "srt_cues":  495,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.21,
+                        "caption_end_seconds":  904.1,
+                        "duration_seconds":  903,
+                        "end_difference_seconds":  -1.1,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  248,
+                        "lines_by_kind":  {
+                                              "mixed":  84,
+                                              "method":  100,
+                                              "example":  64
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Vrs0pLJdDnQ",
+                        "path":  "src/YouTube_자막_2026-10-12/05_장기기억 노하우, 공개합니다. (이윤규 공부법) [Vrs0pLJdDnQ].ko-orig.txt",
+                        "txt_lines":  271,
+                        "sha256":  "0A2751A3795FEB57ECCBC187E61711E6DBC5FC35A29A434B135B31A6A09C3462",
+                        "matches_manifest":  true,
+                        "srt_cues":  541,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  978.009,
+                        "duration_seconds":  978,
+                        "end_difference_seconds":  -0.009,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  271,
+                        "lines_by_kind":  {
+                                              "context":  30,
+                                              "claim":  73,
+                                              "method":  168
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Toa43mkjhl8",
+                        "path":  "src/YouTube_자막_2026-10-12/06_청킹, 막상 공부에 적용해보려니 어려우셨죠？ (농촌지도사의 꿈 ③부) [Toa43mkjhl8].ko-orig.txt",
+                        "txt_lines":  72,
+                        "sha256":  "545D93E761D15C5F071754E51BD822C802187FDCAEA4A5C91CABFAA53BA6C213",
+                        "matches_manifest":  true,
+                        "srt_cues":  143,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  269.72,
+                        "duration_seconds":  269,
+                        "end_difference_seconds":  -0.72,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  4,
+                        "covered_lines":  72,
+                        "lines_by_kind":  {
+                                              "context":  8,
+                                              "example":  19,
+                                              "method":  45
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Yf1KLCQFb1Y",
+                        "path":  "src/YouTube_자막_2026-10-12/07_첫사랑보다 잊기 힘든 기억법을 소개합니다. (농촌지도사의 꿈 ②부) [Yf1KLCQFb1Y].ko-orig.txt",
+                        "txt_lines":  263,
+                        "sha256":  "31D57EAF621A84EC5EE0B1989E9F5337FEDEBDE5903966FA09F9F69E3E99DA9F",
+                        "matches_manifest":  true,
+                        "srt_cues":  525,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  943.89,
+                        "duration_seconds":  942,
+                        "end_difference_seconds":  -1.89,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  263,
+                        "lines_by_kind":  {
+                                              "mixed":  79,
+                                              "method":  62,
+                                              "example":  122
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "BN8ii2giqm0",
+                        "path":  "src/YouTube_자막_2026-10-12/08_밑줄만 잘 그어도 성적이 높아집니다. (1_1 공부 코칭 야구선수 출신 28세 청년 ④부) [BN8ii2giqm0].ko-orig.txt",
+                        "txt_lines":  283,
+                        "sha256":  "00ADF0274E56E744142A826B7453CAEC7805851446EEBB315B561D87670D9382",
+                        "matches_manifest":  true,
+                        "srt_cues":  565,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.269,
+                        "caption_end_seconds":  986.829,
+                        "duration_seconds":  986,
+                        "end_difference_seconds":  -0.829,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  283,
+                        "lines_by_kind":  {
+                                              "context":  19,
+                                              "example":  223,
+                                              "method":  41
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "y4fyL8vAdbs",
+                        "path":  "src/YouTube_자막_2026-10-12/09_충격주의! 누구나 할 수 있는 ‘책을 통째로 외우는 방법\u0027 (수험생의 성지 1편) [자동자막 있음] [y4fyL8vAdbs].ko.txt",
+                        "txt_lines":  292,
+                        "sha256":  "E56C905FD0035AF08E820D8FCAB0A5F5FBB547CB690F74108714DBE8E1B5E92B",
+                        "matches_manifest":  true,
+                        "srt_cues":  292,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.85,
+                        "caption_end_seconds":  923.039,
+                        "duration_seconds":  923,
+                        "end_difference_seconds":  -0.039,
+                        "internal_timestamp_gaps":  [
+                                                        {
+                                                            "after_cue":  21,
+                                                            "seconds":  0.001
+                                                        },
+                                                        {
+                                                            "after_cue":  44,
+                                                            "seconds":  0.02
+                                                        },
+                                                        {
+                                                            "after_cue":  47,
+                                                            "seconds":  0.963
+                                                        },
+                                                        {
+                                                            "after_cue":  91,
+                                                            "seconds":  1.483
+                                                        },
+                                                        {
+                                                            "after_cue":  96,
+                                                            "seconds":  0.086
+                                                        },
+                                                        {
+                                                            "after_cue":  140,
+                                                            "seconds":  0.098
+                                                        },
+                                                        {
+                                                            "after_cue":  141,
+                                                            "seconds":  0.1
+                                                        },
+                                                        {
+                                                            "after_cue":  157,
+                                                            "seconds":  0.493
+                                                        },
+                                                        {
+                                                            "after_cue":  184,
+                                                            "seconds":  0.014
+                                                        },
+                                                        {
+                                                            "after_cue":  229,
+                                                            "seconds":  0.064
+                                                        },
+                                                        {
+                                                            "after_cue":  232,
+                                                            "seconds":  0.068
+                                                        },
+                                                        {
+                                                            "after_cue":  250,
+                                                            "seconds":  0.043
+                                                        },
+                                                        {
+                                                            "after_cue":  281,
+                                                            "seconds":  0.084
+                                                        }
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  292,
+                        "lines_by_kind":  {
+                                              "mixed":  61,
+                                              "method":  82,
+                                              "example":  149
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "m1eieNzRZrg",
+                        "path":  "src/YouTube_자막_2026-10-12/10_세부 내용 암기법 + 객관식 풀이 비법 (수험생의 성지 2편) [m1eieNzRZrg].ko-orig.txt",
+                        "txt_lines":  353,
+                        "sha256":  "5A846C9397E78A6D24E082D5874BDCCEEA56A7E009B419F09872E32407F363A9",
+                        "matches_manifest":  true,
+                        "srt_cues":  705,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1278.39,
+                        "duration_seconds":  1279,
+                        "end_difference_seconds":  0.61,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  10,
+                        "covered_lines":  353,
+                        "lines_by_kind":  {
+                                              "mixed":  13,
+                                              "context":  29,
+                                              "example":  61,
+                                              "method":  250
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "po3EfwdInDE",
+                        "path":  "src/YouTube_자막_2026-10-12/11_다 외워져도 책임 못 집니다 (희망프로젝트 EP.02) [po3EfwdInDE].ko-orig.txt",
+                        "txt_lines":  273,
+                        "sha256":  "ED682D69A05CF7583121A05B3571569214BFB8BCA8982B54340879A3091855E7",
+                        "matches_manifest":  true,
+                        "srt_cues":  545,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1018.76,
+                        "duration_seconds":  1017,
+                        "end_difference_seconds":  -1.76,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  273,
+                        "lines_by_kind":  {
+                                              "method":  149,
+                                              "example":  124
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "rN0z4OQC-80",
+                        "path":  "src/YouTube_자막_2026-10-12/12_지식을 뇌에 프린트하는 방법 (이윤규 공부법) [rN0z4OQC-80].ko-orig.txt",
+                        "txt_lines":  424,
+                        "sha256":  "46ECE45DAECF6E56BE6D9B202B7F5D692C1578182D6F92321149D530385C580A",
+                        "matches_manifest":  true,
+                        "srt_cues":  847,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1537.86,
+                        "duration_seconds":  1537,
+                        "end_difference_seconds":  -0.86,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  9,
+                        "covered_lines":  424,
+                        "lines_by_kind":  {
+                                              "mixed":  124,
+                                              "method":  278,
+                                              "claim":  22
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "-Dw8cMKTp5Q",
+                        "path":  "src/YouTube_자막_2026-10-12/13_책 정리가 공부를 좌우합니다. (이윤규 공부법) [-Dw8cMKTp5Q].ko-orig.txt",
+                        "txt_lines":  100,
+                        "sha256":  "9BE89A975A1BB1CA7562696064C534507E4FCB950414241BBE7A2F7E60097D69",
+                        "matches_manifest":  true,
+                        "srt_cues":  199,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.329,
+                        "caption_end_seconds":  373.21,
+                        "duration_seconds":  372,
+                        "end_difference_seconds":  -1.21,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  4,
+                        "covered_lines":  100,
+                        "lines_by_kind":  {
+                                              "mixed":  36,
+                                              "method":  26,
+                                              "example":  38
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "C-NFMuUv59w",
+                        "path":  "src/YouTube_자막_2026-10-12/14_쓰는 공부, 이제는 그만 해야 합니다 (이윤규 공부법) [C-NFMuUv59w].ko-orig.txt",
+                        "txt_lines":  167,
+                        "sha256":  "9C0ED0880C989510F56FFDC3FF6E86B53FAF9FC541FEB7EBF9CB35FD76EA0312",
+                        "matches_manifest":  true,
+                        "srt_cues":  333,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.04,
+                        "caption_end_seconds":  601.05,
+                        "duration_seconds":  601,
+                        "end_difference_seconds":  -0.05,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  167,
+                        "lines_by_kind":  {
+                                              "mixed":  47,
+                                              "context":  26,
+                                              "claim":  23,
+                                              "method":  71
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "fsvUJB8kp8g",
+                        "path":  "src/YouTube_자막_2026-10-12/15_장수생으로 가는 지름길, 서브노트 (이윤규 공부법) [fsvUJB8kp8g].ko-orig.txt",
+                        "txt_lines":  103,
+                        "sha256":  "05FCE4E167F7AFE1392710D034C75F43E23770ACF858EB98BD929AB9D1A9DC3C",
+                        "matches_manifest":  true,
+                        "srt_cues":  205,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.39,
+                        "caption_end_seconds":  392.12,
+                        "duration_seconds":  392,
+                        "end_difference_seconds":  -0.12,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  5,
+                        "covered_lines":  103,
+                        "lines_by_kind":  {
+                                              "mixed":  27,
+                                              "method":  49,
+                                              "claim":  20,
+                                              "context":  7
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "zVuvWKPwXVQ",
+                        "path":  "src/YouTube_자막_2026-10-12/16_발상의 전환, 단점을 장점으로 만드는 방법 (이윤규 공부법) [zVuvWKPwXVQ].ko-orig.txt",
+                        "txt_lines":  60,
+                        "sha256":  "24D9AD9F2B9F723FDCD60CD2806DD650EE1E0F8199A111DE7CFB5E11D2D7684D",
+                        "matches_manifest":  true,
+                        "srt_cues":  119,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.52,
+                        "caption_end_seconds":  199.959,
+                        "duration_seconds":  199,
+                        "end_difference_seconds":  -0.959,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  3,
+                        "covered_lines":  60,
+                        "lines_by_kind":  {
+                                              "method":  40,
+                                              "example":  20
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "HMNG4T1ZGaU",
+                        "path":  "src/YouTube_자막_2026-10-12/17_집에서 효율이 극대화되는 공부법, 딱 활용하기 좋은 때 입니다. (이윤규 공부법) [HMNG4T1ZGaU].ko-orig.txt",
+                        "txt_lines":  125,
+                        "sha256":  "5AB846289A8BB738399FCC329B8AA5704590EC37F6CC3E4A31561C0797E0A13E",
+                        "matches_manifest":  true,
+                        "srt_cues":  249,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.299,
+                        "caption_end_seconds":  434.65,
+                        "duration_seconds":  435,
+                        "end_difference_seconds":  0.35,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  125,
+                        "lines_by_kind":  {
+                                              "mixed":  25,
+                                              "method":  90,
+                                              "context":  10
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "SqOrTT_sJ0E",
+                        "path":  "src/YouTube_자막_2026-10-12/18_판례에는 2가지 유형이 있습니다. \u0027재판례\u0027는 유형화하여 외웁니다. 「판례 암기법 1편」 (이윤규 공부법) [SqOrTT_sJ0E].ko-orig.txt",
+                        "txt_lines":  146,
+                        "sha256":  "5BA07A1EC5545D90D17D0AE29AC2605677C9499D27F8E688416AFA53168C4AAC",
+                        "matches_manifest":  true,
+                        "srt_cues":  291,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  511.77,
+                        "duration_seconds":  512,
+                        "end_difference_seconds":  0.23,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  6,
+                        "covered_lines":  146,
+                        "lines_by_kind":  {
+                                              "method":  96,
+                                              "example":  30,
+                                              "context":  20
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "zEjCIVxXYP8",
+                        "path":  "src/YouTube_자막_2026-10-12/19_책정리를 하지 않으면 공부해도 소용이 없습니다 (이윤규 공부법) [zEjCIVxXYP8].ko-orig.txt",
+                        "txt_lines":  365,
+                        "sha256":  "AE500EB71915C7ED605EDED6676AE10EEF6E2F64E9A216529D27ED25881F34CF",
+                        "matches_manifest":  true,
+                        "srt_cues":  729,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  1317.78,
+                        "duration_seconds":  1317,
+                        "end_difference_seconds":  -0.78,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  11,
+                        "covered_lines":  365,
+                        "lines_by_kind":  {
+                                              "mixed":  16,
+                                              "context":  28,
+                                              "example":  74,
+                                              "method":  247
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "SxL8INrDni8",
+                        "path":  "src/YouTube_자막_2026-10-12/20_쓰는 것은 시간낭비입니다. 「키워드 공부법」 (희망프로젝트 드리머) [SxL8INrDni8].ko-orig.txt",
+                        "txt_lines":  207,
+                        "sha256":  "9D5280A04204FBCDBB9B680F34172AA36D91F34579359C8DF0F289E546C9775C",
+                        "matches_manifest":  true,
+                        "srt_cues":  413,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  767.149,
+                        "duration_seconds":  767,
+                        "end_difference_seconds":  -0.149,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  5,
+                        "covered_lines":  207,
+                        "lines_by_kind":  {
+                                              "mixed":  34,
+                                              "method":  99,
+                                              "example":  74
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Ir1ymyNLhaw",
+                        "path":  "src/YouTube_자막_2026-10-12/21_책은 3단계로 나눠서 읽습니다. (축구선수 출신 경시생의 꿈 ②부) [Ir1ymyNLhaw].ko-orig.txt",
+                        "txt_lines":  101,
+                        "sha256":  "9E6385DA18936850C2B915D50189F1973225FBF257305E20ED205DAC8AD6D564",
+                        "matches_manifest":  true,
+                        "srt_cues":  201,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  378.81,
+                        "duration_seconds":  378,
+                        "end_difference_seconds":  -0.81,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  4,
+                        "covered_lines":  101,
+                        "lines_by_kind":  {
+                                              "mixed":  22,
+                                              "context":  24,
+                                              "method":  55
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "fMCS6166ut4",
+                        "path":  "src/YouTube_자막_2026-10-12/22_뼈대가 없이 공부하면 살이 붙지를 않아요. (공부단절 9급 공시생 ④부) [fMCS6166ut4].ko-orig.txt",
+                        "txt_lines":  126,
+                        "sha256":  "C247D8150DF5CE03C6C3AD9F60A5C10E14940DB35D2A5ECCB66981F09F7C9823",
+                        "matches_manifest":  true,
+                        "srt_cues":  251,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  464.39,
+                        "duration_seconds":  463,
+                        "end_difference_seconds":  -1.39,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  4,
+                        "covered_lines":  126,
+                        "lines_by_kind":  {
+                                              "context":  14,
+                                              "example":  83,
+                                              "method":  29
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "dkc7jbyWCic",
+                        "path":  "src/YouTube_자막_2026-10-12/23_보조교사의 수능도전 (희망프로젝트 드리머) [dkc7jbyWCic].ko-orig.txt",
+                        "txt_lines":  204,
+                        "sha256":  "8E63D871E43DEE9AF056934D19E11775151961C305237FC2FDF2AC508CDC2EAA",
+                        "matches_manifest":  true,
+                        "srt_cues":  407,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0,
+                        "caption_end_seconds":  746.44,
+                        "duration_seconds":  745,
+                        "end_difference_seconds":  -1.44,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  204,
+                        "lines_by_kind":  {
+                                              "mixed":  64,
+                                              "context":  11,
+                                              "example":  85,
+                                              "method":  44
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "Xj76M1SReGA",
+                        "path":  "src/YouTube_자막_2026-10-12/24_판례에는 2가지 유형이 있습니다. \u0027선례\u0027는 세부화하여 외웁니다. 「판례 암기법 2편」 (이윤규 공부법) [Xj76M1SReGA].ko-orig.txt",
+                        "txt_lines":  88,
+                        "sha256":  "2FE4576B36111075373385B81A6B152A7C7674943F2AAE26B6C051D13A637CE3",
+                        "matches_manifest":  true,
+                        "srt_cues":  175,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.21,
+                        "caption_end_seconds":  302.58,
+                        "duration_seconds":  302,
+                        "end_difference_seconds":  -0.58,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  4,
+                        "covered_lines":  88,
+                        "lines_by_kind":  {
+                                              "method":  52,
+                                              "example":  36
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "XwkBBpbAErI",
+                        "path":  "src/YouTube_자막_2026-10-12/25_객관식의 성패는 속도와 정확도입니다. 통계와 뇌구조를 이용하여 선지만 읽고 푸는 법 [XwkBBpbAErI].ko-orig.txt",
+                        "txt_lines":  221,
+                        "sha256":  "2ED24AFC0B2F9E48064E99CD95383648CE2058914EF0998468515E7A4D76741D",
+                        "matches_manifest":  true,
+                        "srt_cues":  441,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.199,
+                        "caption_end_seconds":  482.479,
+                        "duration_seconds":  485,
+                        "end_difference_seconds":  2.521,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  221,
+                        "lines_by_kind":  {
+                                              "mixed":  28,
+                                              "example":  61,
+                                              "method":  100,
+                                              "claim":  25,
+                                              "context":  7
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "kI0r-A1bA4c",
+                        "path":  "src/YouTube_자막_2026-10-12/26_＂객관식 시험은 정답과 해설부터 봐야 합격이 빨라집니다 ＂  (박균성 교수 2부) [kI0r-A1bA4c].ko-orig.txt",
+                        "txt_lines":  173,
+                        "sha256":  "2828B49D36B73B4979D842AB7195FB2FB21C5394C8BC74DD4635EBFAFC5B8F52",
+                        "matches_manifest":  true,
+                        "srt_cues":  345,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.84,
+                        "caption_end_seconds":  438.199,
+                        "duration_seconds":  437,
+                        "end_difference_seconds":  -1.199,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  5,
+                        "covered_lines":  173,
+                        "lines_by_kind":  {
+                                              "mixed":  49,
+                                              "method":  124
+                                          },
+                        "issues":  [
+
+                                   ]
+                    },
+                    {
+                        "id":  "99wv4aQQzFk",
+                        "path":  "src/YouTube_자막_2026-10-12/27_이 3가지를 모르면 아무리 열심히 강의 듣고 책 봐도 소용이 없습니다. [99wv4aQQzFk].ko-orig.txt",
+                        "txt_lines":  416,
+                        "sha256":  "6B1EF60E218B34EC263E5E6F888220596FF3D1A8A5BA77C9165CB487F3B1F0DA",
+                        "matches_manifest":  true,
+                        "srt_cues":  831,
+                        "srt_txt_exact_match":  true,
+                        "caption_start_seconds":  0.719,
+                        "caption_end_seconds":  811.88,
+                        "duration_seconds":  811,
+                        "end_difference_seconds":  -0.88,
+                        "internal_timestamp_gaps":  [
+
+                                                    ],
+                        "replacement_character":  false,
+                        "coverage_segments":  7,
+                        "covered_lines":  416,
+                        "lines_by_kind":  {
+                                              "mixed":  83,
+                                              "method":  269,
+                                              "claim":  64
+                                          },
+                        "issues":  [
+
+                                   ]
+                    }
+                ],
+    "file_inventory":  [
+                           {
+                               "path":  "src/target/1과목_2과목.pdf",
+                               "role":  "exam_material_separate_analysis",
+                               "bytes":  359397940,
+                               "sha256":  "32D1736FB708BEDF7BE9AC2074A6141002B5CE739A4C6D4797F5ED0C96EC8742",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/target/3과목.pdf",
+                               "role":  "exam_material_separate_analysis",
+                               "bytes":  385813088,
+                               "sha256":  "8043687FF6BCE96D78C96D0E8EA8B9ADCF819431A19A46ECDA056D125E151265",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/target/계산문제.pdf",
+                               "role":  "exam_material_separate_analysis",
+                               "bytes":  88149666,
+                               "sha256":  "B856C5EAEE198E7CD6F314200D0A19D2B02ED694F0CED7A2571E21677F05AAA7",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/target/모의고사.pdf",
+                               "role":  "exam_material_separate_analysis",
+                               "bytes":  53900535,
+                               "sha256":  "6707A94D0334FC0C525820A1A10414444807DAFCBCD54BD6C1ADDE73780A0236",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/target/핵심정리노트.pdf",
+                               "role":  "exam_material_separate_analysis",
+                               "bytes":  80449009,
+                               "sha256":  "D32F423C0D3E51D8BDE51FDA634C543BD47919C51C0CB4B731BE84376E697E19",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/01_1부 「발상의 전환」 ① 물욕이라도 좋으니 욕심을 가져라. ② 인풋과 아웃풋을 구별하라. ③ 필요한 만큼만 공부한다. (이윤규 공부법) [Bxu7WCeoThY].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  81635,
+                               "sha256":  "825F49A6C5659996ED55105E0F6CB5D897170FD2DE8EFC46A8F235CEE54344C7",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/01_1부 「발상의 전환」 ① 물욕이라도 좋으니 욕심을 가져라. ② 인풋과 아웃풋을 구별하라. ③ 필요한 만큼만 공부한다. (이윤규 공부법) [Bxu7WCeoThY].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  21043,
+                               "sha256":  "BB12848E17875332F46EF457A907F4A8A97FDEC37F6DBBCD259369772A8BEBA8",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/02_2부 「INPUT」 ④ 완벽한 암기는 독이다. ⑤ 인풋에는 단계가 있다. (이윤규 공부법) [vluEPc2lXaI].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  68357,
+                               "sha256":  "A079AC9EF05EEEFDA3B30741296ED699BCC4D7DAC0473923FAA21DA7037AF00E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/02_2부 「INPUT」 ④ 완벽한 암기는 독이다. ⑤ 인풋에는 단계가 있다. (이윤규 공부법) [vluEPc2lXaI].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  17454,
+                               "sha256":  "6976865E99978D8911D0567425AC2280D1670A442CD3AC9A56FBA40CDFD17041",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/03_3부 「강의활용」 ⑥ 예습없는 수강은 시간낭비다. ⑦ 강의는 다 듣는 것이 아니다. (이윤규 공부법) [3X4j9L1t0hk].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  56527,
+                               "sha256":  "E16806423427B5FA17E10185E989E6C65D060D4AFEF9926400390566B387D16D",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/03_3부 「강의활용」 ⑥ 예습없는 수강은 시간낭비다. ⑦ 강의는 다 듣는 것이 아니다. (이윤규 공부법) [3X4j9L1t0hk].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  14396,
+                               "sha256":  "63314F756E930E431A03A99BBCEB689213DF5A12F0AD6B2BC59A293CAEC7BB73",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/04_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  71927,
+                               "sha256":  "88BDF345FD5749F02FBCB509FA25928E5F9B42DD002D09D1B5F9DE4D059A498F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/04_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  18447,
+                               "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/05_5부 「OUTPUT」 ⑩ 성적은 아웃풋으로 결정된다. (이윤규 공부법) [ciMdEAqKH7M].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  60053,
+                               "sha256":  "1A30D50BC82E1DB9CC798AD483AE0D2DD074CE80842DD6529C8B9451F561DC56",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/05_5부 「OUTPUT」 ⑩ 성적은 아웃풋으로 결정된다. (이윤규 공부법) [ciMdEAqKH7M].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  15389,
+                               "sha256":  "C7BA53E2323573C66B5718E39F182EFA14B96B8929C6486184645E08323A3F0E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/06_6부 「단기합격 테크트리」 ⑪ 계획은 거꾸로 짠다. ⑫ 문제보다 해설을 먼저 본다. (이윤규 공부법) [VIiri54HNh8].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  55455,
+                               "sha256":  "388A008672122076908CD36A0FB28DFA5F3F587A7B452C39147D8B98BCCB4AD3",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/06_6부 「단기합격 테크트리」 ⑪ 계획은 거꾸로 짠다. ⑫ 문제보다 해설을 먼저 본다. (이윤규 공부법) [VIiri54HNh8].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  14290,
+                               "sha256":  "E603F723BF55AF22178B784EEA079668D98D754B54DD7BEE1FDDDFA30AE50EDA",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/results.json",
+                               "role":  "supporting_record",
+                               "bytes":  4493,
+                               "sha256":  "A2ECF0618C61DB6559163FD8078A20342FB4E463D81F478CB8C91EEC74268D3C",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_2020_Noryangjin_subtitles/영상목록.csv",
+                               "role":  "supporting_record",
+                               "bytes":  2199,
+                               "sha256":  "45188D467ECAB38C9595E134D52DEEAEA01BABF72725B210BB48345332445CEB",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/2VAPxqnPGrM.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  107282,
+                               "sha256":  "FCB31D948E9DA98E15D3813D3F9702FD94AA488CA33B4C709D1144DFAC06C2E2",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/2VAPxqnPGrM.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  24300,
+                               "sha256":  "1F642DAFAA3AB640FCCD5638EBD491B993D1C945385E37D3800E1DB7B5611A9C",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/availability.log",
+                               "role":  "supporting_record",
+                               "bytes":  233122,
+                               "sha256":  "C65FF7242C0DE4F83D0E32176E3FCE10AB16811BF5165A0B7F0DA9B7DF7DD3C7",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/download.log",
+                               "role":  "supporting_record",
+                               "bytes":  7792,
+                               "sha256":  "47514EC8BF21E780004404E263B229C4459B999609AE2D9E7D6B6A3C252F10FB",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/FwV1mBStPrM.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  80391,
+                               "sha256":  "78B49CFF7B42CDF667818CC548C8C2D68DD085EE04A89840734DE1EB288F2987",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/FwV1mBStPrM.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  18143,
+                               "sha256":  "616E18FA4E4A57C260775BF9C3E6DAA60949F53F89A36F63754E51C7DECD738E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/fy0SHDX1Uxk.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  112915,
+                               "sha256":  "98AA24893AE0D3A612C161C8FD03A235BFDE2692E6C728294533BBB025C54477",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/fy0SHDX1Uxk.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  25444,
+                               "sha256":  "C20436CE3723F18F9F139A633AAE518911DC63AFC23A42507D23E832A3B1E372",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/g4QlY3eZP3M.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  63464,
+                               "sha256":  "EBED1E45CE12B9F642DC9F0DE638EFAC076E00E7DA3C92DFAD5B30F968D91C5E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/g4QlY3eZP3M.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  14408,
+                               "sha256":  "60AB0DC2826DD9D37270AF1488126BA6117731F8D684C89A79769500DD5BF2A5",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/inventory.json",
+                               "role":  "supporting_record",
+                               "bytes":  2449,
+                               "sha256":  "D8B14B59A0686DFB6E4FA3733E48760B21F24B08792EBD368E73DD295E4CE265",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/JBz9pSYu11A.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  94848,
+                               "sha256":  "D33D43B26ABF1A4D5EE100B55952590423DA5B1FBDB1C08F0F1B0207FAE95C74",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/JBz9pSYu11A.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  21398,
+                               "sha256":  "0921B2938632690572DD7B463BFB17133BD63F7476848DFAC03996D646D06413",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/KVyQKanC_8Y.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  50766,
+                               "sha256":  "4DEB5BA8EFE58194C974ABF289C4DF27D53A5543BB260F02BA19DC20099E23E6",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/KVyQKanC_8Y.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  11517,
+                               "sha256":  "055E05963BE97CEF1216D859938A561932CA90D58FEBF2164AA6A86A32F01A08",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/lAdUmpA2I14.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  125283,
+                               "sha256":  "5BAA069F2C663D6F730C16A895F0F61FACBCD52E19B00746EFD92FA398A379F4",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/lAdUmpA2I14.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  28194,
+                               "sha256":  "11918A7C16C502B609E043A7EBD82239BFCA4FC526F20B48D17E44F4661886AC",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/nhm7fFsyU0g.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  83295,
+                               "sha256":  "8423367052A0DDF6E1093B77A7B5E2DDD84ABA11D443CE85BF45D4C8166FAE2D",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/nhm7fFsyU0g.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  18860,
+                               "sha256":  "D8EFB3AD8E4EE6D3489A11CBE179E8DB80B9F41FC6676D91CFF91DB31B40228B",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/SZcdSONPqcQ.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  51687,
+                               "sha256":  "CDB1795B9304BCB41C2C3DECFBA8BD32F6F7BB9155D5F21FF6279EBAF5138785",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/SZcdSONPqcQ.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  11680,
+                               "sha256":  "D638D5F2BAD2E4EAE968C586E082F84D3B925B361F1897247D2AE4444CBB1775",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/tFaHbs34ScM.ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  52796,
+                               "sha256":  "4725163706881D27DD56EF1B487A1F3B6AEB26126BE2D2886CBEDFAC82F63D9B",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/tFaHbs34ScM.ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  11957,
+                               "sha256":  "05BC806F4DAE1431D3138C47BF5B92E1F11231E7E9BF3867F78ECBE82F92FD4F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/urls.txt",
+                               "role":  "supporting_record",
+                               "bytes":  453,
+                               "sha256":  "3263E0F7DA6CA02BE82025810DF35B854BFC5BA944728DBBBE6A89416580A8A5",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_Study_Season3_subtitles/verification.json",
+                               "role":  "supporting_record",
+                               "bytes":  6306,
+                               "sha256":  "28DAD8E72CEC1B869C2C0E120D80CDB4305D261A95E05D0EDCF2421A2BD62266",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/01_책이 통째로 외워지는 신기한 경험, 준비되셨나요？ (구조화 독서법) ｜ 이윤규 공부법 [g1N1_GFniLE].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  75563,
+                               "sha256":  "4114A93E57922542863A9CE64CDB89FCD859A919DEDCB7E492559E829458A794",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/01_책이 통째로 외워지는 신기한 경험, 준비되셨나요？ (구조화 독서법) ｜ 이윤규 공부법 [g1N1_GFniLE].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  19173,
+                               "sha256":  "E6695DF67AC543A3EAFC0CB1EE974B693D84140FE3D03DCF42D381503A933114",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/03_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  71927,
+                               "sha256":  "88BDF345FD5749F02FBCB509FA25928E5F9B42DD002D09D1B5F9DE4D059A498F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/03_4부 「암기의 기술」 ⑧ \u0027외워야 하는 것\u0027만 외워라 ⑨ 통째로 외우는 것이 비결이다 [Zm9yPhGrWPs].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  18447,
+                               "sha256":  "F666FDCD2B632780FC3D80FBF00E5A2B5C08713E55DCB2F1BA2F1630D47499A6",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/04_과연 외워야만 점수가 잘 나올까요？ 암기에 집착하지 마세요. (이윤규 공부법) [TIxGJZPFsyc].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  77165,
+                               "sha256":  "3185D0F2EFA5C01E55D09A004B7049D76202B5DFE81AABAFD7935A6BEE141D39",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/04_과연 외워야만 점수가 잘 나올까요？ 암기에 집착하지 마세요. (이윤규 공부법) [TIxGJZPFsyc].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  20137,
+                               "sha256":  "F63071254FCEEC44001D354BB85B434FB7A420916FC786C09A633F17118D79A0",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/05_장기기억 노하우, 공개합니다. (이윤규 공부법) [Vrs0pLJdDnQ].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  81857,
+                               "sha256":  "8F6D3670F21CB7A5B29135A76FD664000387CC56FE1AA39CFE839214BDE27A6A",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/05_장기기억 노하우, 공개합니다. (이윤규 공부법) [Vrs0pLJdDnQ].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  21135,
+                               "sha256":  "0A2751A3795FEB57ECCBC187E61711E6DBC5FC35A29A434B135B31A6A09C3462",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/06_청킹, 막상 공부에 적용해보려니 어려우셨죠？ (농촌지도사의 꿈 ③부) [Toa43mkjhl8].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  20044,
+                               "sha256":  "4BBB2971AC4155A5CCAEB953FD2FD09BB8A8926762D6494F6C9E364F0938188F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/06_청킹, 막상 공부에 적용해보려니 어려우셨죠？ (농촌지도사의 꿈 ③부) [Toa43mkjhl8].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  5139,
+                               "sha256":  "545D93E761D15C5F071754E51BD822C802187FDCAEA4A5C91CABFAA53BA6C213",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/07_첫사랑보다 잊기 힘든 기억법을 소개합니다. (농촌지도사의 꿈 ②부) [Yf1KLCQFb1Y].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  78184,
+                               "sha256":  "C8E07D8266F48D696DCF7DD7286BA9C84BDDD87294B7ECD14D4B620354E4A827",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/07_첫사랑보다 잊기 힘든 기억법을 소개합니다. (농촌지도사의 꿈 ②부) [Yf1KLCQFb1Y].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  20126,
+                               "sha256":  "31D57EAF621A84EC5EE0B1989E9F5337FEDEBDE5903966FA09F9F69E3E99DA9F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/08_밑줄만 잘 그어도 성적이 높아집니다. (1_1 공부 코칭 야구선수 출신 28세 청년 ④부) [BN8ii2giqm0].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  77644,
+                               "sha256":  "68343A3145E1C997CBD031952C379FBE776FDE54F9FD1853E3DE64476E7FDDF5",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/08_밑줄만 잘 그어도 성적이 높아집니다. (1_1 공부 코칭 야구선수 출신 28세 청년 ④부) [BN8ii2giqm0].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  19481,
+                               "sha256":  "00ADF0274E56E744142A826B7453CAEC7805851446EEBB315B561D87670D9382",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/09_충격주의! 누구나 할 수 있는 ‘책을 통째로 외우는 방법\u0027 (수험생의 성지 1편) [자동자막 있음] [y4fyL8vAdbs].ko.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  28080,
+                               "sha256":  "CB4EE1304388BAE7BB6CB0DAAA963022CD941F9098D262EAA5E49EE99878334E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/09_충격주의! 누구나 할 수 있는 ‘책을 통째로 외우는 방법\u0027 (수험생의 성지 1편) [자동자막 있음] [y4fyL8vAdbs].ko.txt",
+                               "role":  "transcript",
+                               "bytes":  18247,
+                               "sha256":  "E56C905FD0035AF08E820D8FCAB0A5F5FBB547CB690F74108714DBE8E1B5E92B",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/10_세부 내용 암기법 + 객관식 풀이 비법 (수험생의 성지 2편) [m1eieNzRZrg].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  102933,
+                               "sha256":  "85E9EAEFA385B8F2D90E5E4725E03CEFFE3F1FD243DA6B71113D2D034D342A71",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/10_세부 내용 암기법 + 객관식 풀이 비법 (수험생의 성지 2편) [m1eieNzRZrg].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  26295,
+                               "sha256":  "5A846C9397E78A6D24E082D5874BDCCEEA56A7E009B419F09872E32407F363A9",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/11_다 외워져도 책임 못 집니다 (희망프로젝트 EP.02) [po3EfwdInDE].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  74837,
+                               "sha256":  "D7888D7B9C6C2FE2083DC6ECD031CBCB69E821CDBA2FE3F4D556D18445361999",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/11_다 외워져도 책임 못 집니다 (희망프로젝트 EP.02) [po3EfwdInDE].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  18969,
+                               "sha256":  "ED682D69A05CF7583121A05B3571569214BFB8BCA8982B54340879A3091855E7",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/12_지식을 뇌에 프린트하는 방법 (이윤규 공부법) [rN0z4OQC-80].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  130796,
+                               "sha256":  "8E6A258131B31B500F94833414357A3C8177B5F99B47EBA6AFE1F2B1C95840E5",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/12_지식을 뇌에 프린트하는 방법 (이윤규 공부법) [rN0z4OQC-80].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  33974,
+                               "sha256":  "46ECE45DAECF6E56BE6D9B202B7F5D692C1578182D6F92321149D530385C580A",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/13_책 정리가 공부를 좌우합니다. (이윤규 공부법) [-Dw8cMKTp5Q].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  28185,
+                               "sha256":  "048D5D6A1AF2D451512A9F16348AB9E10F5C59D73318BEDA7E4302B42C1C7D1F",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/13_책 정리가 공부를 좌우합니다. (이윤규 공부법) [-Dw8cMKTp5Q].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  7172,
+                               "sha256":  "9BE89A975A1BB1CA7562696064C534507E4FCB950414241BBE7A2F7E60097D69",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/14_쓰는 공부, 이제는 그만 해야 합니다 (이윤규 공부법) [C-NFMuUv59w].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  50216,
+                               "sha256":  "01F977C40212B2B8A4DBEEE21AA17616C0725DD7E51ACF50DF9F475C74706E16",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/14_쓰는 공부, 이제는 그만 해야 합니다 (이윤규 공부법) [C-NFMuUv59w].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  12990,
+                               "sha256":  "9C0ED0880C989510F56FFDC3FF6E86B53FAF9FC541FEB7EBF9CB35FD76EA0312",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/15_장수생으로 가는 지름길, 서브노트 (이윤규 공부법) [fsvUJB8kp8g].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  31655,
+                               "sha256":  "F883446BD130B313424462845D8F2AE20BCD67053AB8DA71BA0B56FD4966FB1D",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/15_장수생으로 가는 지름길, 서브노트 (이윤규 공부법) [fsvUJB8kp8g].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  8255,
+                               "sha256":  "05FCE4E167F7AFE1392710D034C75F43E23770ACF858EB98BD929AB9D1A9DC3C",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/16_발상의 전환, 단점을 장점으로 만드는 방법 (이윤규 공부법) [zVuvWKPwXVQ].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  17417,
+                               "sha256":  "AA1785E5A6FBF0717E3AE78A2EDD0BEB59BD8A858A9B76ACC5FCFA69C5ABB22E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/16_발상의 전환, 단점을 장점으로 만드는 방법 (이윤규 공부법) [zVuvWKPwXVQ].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  4478,
+                               "sha256":  "24D9AD9F2B9F723FDCD60CD2806DD650EE1E0F8199A111DE7CFB5E11D2D7684D",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/17_집에서 효율이 극대화되는 공부법, 딱 활용하기 좋은 때 입니다. (이윤규 공부법) [HMNG4T1ZGaU].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  35919,
+                               "sha256":  "3B0D7ED5497018FC812984D49AC1500EA710322E92EEE839F83734FE949F13F3",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/17_집에서 효율이 극대화되는 공부법, 딱 활용하기 좋은 때 입니다. (이윤규 공부법) [HMNG4T1ZGaU].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  9185,
+                               "sha256":  "5AB846289A8BB738399FCC329B8AA5704590EC37F6CC3E4A31561C0797E0A13E",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/18_판례에는 2가지 유형이 있습니다. \u0027재판례\u0027는 유형화하여 외웁니다. 「판례 암기법 1편」 (이윤규 공부법) [SqOrTT_sJ0E].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  44631,
+                               "sha256":  "3546913F99C09231C779D5F33F4AAF120A10EF3329F2B42796C3D7F5079C8074",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/18_판례에는 2가지 유형이 있습니다. \u0027재판례\u0027는 유형화하여 외웁니다. 「판례 암기법 1편」 (이윤규 공부법) [SqOrTT_sJ0E].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  11606,
+                               "sha256":  "5BA07A1EC5545D90D17D0AE29AC2605677C9499D27F8E688416AFA53168C4AAC",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/19_책정리를 하지 않으면 공부해도 소용이 없습니다 (이윤규 공부법) [zEjCIVxXYP8].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  108699,
+                               "sha256":  "69B0ABB8E1E00560975C6546DB2927E71A380DE9107DD5D3B5644CAE39AB91D5",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/19_책정리를 하지 않으면 공부해도 소용이 없습니다 (이윤규 공부법) [zEjCIVxXYP8].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  27929,
+                               "sha256":  "AE500EB71915C7ED605EDED6676AE10EEF6E2F64E9A216529D27ED25881F34CF",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/20_쓰는 것은 시간낭비입니다. 「키워드 공부법」 (희망프로젝트 드리머) [SxL8INrDni8].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  56051,
+                               "sha256":  "4A7C0878D7220B6F8767F903A43C428CEAB358A581E53ECFE49FF5DFCC747624",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/20_쓰는 것은 시간낭비입니다. 「키워드 공부법」 (희망프로젝트 드리머) [SxL8INrDni8].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  14216,
+                               "sha256":  "9D5280A04204FBCDBB9B680F34172AA36D91F34579359C8DF0F289E546C9775C",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/21_책은 3단계로 나눠서 읽습니다. (축구선수 출신 경시생의 꿈 ②부) [Ir1ymyNLhaw].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  28463,
+                               "sha256":  "437F775E23831F6F10B41DD55986E2DCCFA9C0A77F0E86A1454ADA278FEC9827",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/21_책은 3단계로 나눠서 읽습니다. (축구선수 출신 경시생의 꿈 ②부) [Ir1ymyNLhaw].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  7364,
+                               "sha256":  "9E6385DA18936850C2B915D50189F1973225FBF257305E20ED205DAC8AD6D564",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/22_뼈대가 없이 공부하면 살이 붙지를 않아요. (공부단절 9급 공시생 ④부) [fMCS6166ut4].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  36021,
+                               "sha256":  "BE74921571214FD7F066FD7DD2519A03ECA89302020C1DBBB01B9F9800491458",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/22_뼈대가 없이 공부하면 살이 붙지를 않아요. (공부단절 9급 공시생 ④부) [fMCS6166ut4].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  9282,
+                               "sha256":  "C247D8150DF5CE03C6C3AD9F60A5C10E14940DB35D2A5ECCB66981F09F7C9823",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/23_보조교사의 수능도전 (희망프로젝트 드리머) [dkc7jbyWCic].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  59393,
+                               "sha256":  "3A06CC7C40D2B716971D1602D29AB423F44E8CBEA6EDBF76D8207FEF80EBBAEA",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/23_보조교사의 수능도전 (희망프로젝트 드리머) [dkc7jbyWCic].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  15161,
+                               "sha256":  "8E63D871E43DEE9AF056934D19E11775151961C305237FC2FDF2AC508CDC2EAA",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/24_판례에는 2가지 유형이 있습니다. \u0027선례\u0027는 세부화하여 외웁니다. 「판례 암기법 2편」 (이윤규 공부법) [Xj76M1SReGA].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  26191,
+                               "sha256":  "694994536808B3B55D536BD623852E447054D9D165B7465F110212367BF468B0",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/24_판례에는 2가지 유형이 있습니다. \u0027선례\u0027는 세부화하여 외웁니다. 「판례 암기법 2편」 (이윤규 공부법) [Xj76M1SReGA].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  6809,
+                               "sha256":  "2FE4576B36111075373385B81A6B152A7C7674943F2AAE26B6C051D13A637CE3",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/25_객관식의 성패는 속도와 정확도입니다. 통계와 뇌구조를 이용하여 선지만 읽고 푸는 법 [XwkBBpbAErI].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  46857,
+                               "sha256":  "C1A8100177ABA567C9A0C97FE1E88243F2496DBBA93A15515076800FCA12E0C2",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/25_객관식의 성패는 속도와 정확도입니다. 통계와 뇌구조를 이용하여 선지만 읽고 푸는 법 [XwkBBpbAErI].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  10605,
+                               "sha256":  "2ED24AFC0B2F9E48064E99CD95383648CE2058914EF0998468515E7A4D76741D",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/26_＂객관식 시험은 정답과 해설부터 봐야 합격이 빨라집니다 ＂  (박균성 교수 2부) [kI0r-A1bA4c].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  30306,
+                               "sha256":  "2054058ECCD8F6EE73949BB22015B5148C4F7C84378219DDF60C2067828F8178",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/26_＂객관식 시험은 정답과 해설부터 봐야 합격이 빨라집니다 ＂  (박균성 교수 2부) [kI0r-A1bA4c].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  6347,
+                               "sha256":  "2828B49D36B73B4979D842AB7195FB2FB21C5394C8BC74DD4635EBFAFC5B8F52",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/27_이 3가지를 모르면 아무리 열심히 강의 듣고 책 봐도 소용이 없습니다. [99wv4aQQzFk].ko-orig.srt",
+                               "role":  "timed_transcript",
+                               "bytes":  80676,
+                               "sha256":  "E76C293D0EDAFC82F0A752D342DD4562B71673B5FE1DD133E4BA1696A6E046F1",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/27_이 3가지를 모르면 아무리 열심히 강의 듣고 책 봐도 소용이 없습니다. [99wv4aQQzFk].ko-orig.txt",
+                               "role":  "transcript",
+                               "bytes":  17381,
+                               "sha256":  "6B1EF60E218B34EC263E5E6F888220596FF3D1A8A5BA77C9165CB487F3B1F0DA",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/results.json",
+                               "role":  "supporting_record",
+                               "bytes":  17000,
+                               "sha256":  "1124F05A227B85877CEE1979E460CBAFEB55589E5248A3FC94107573325F12B8",
+                               "accounted":  true
+                           },
+                           {
+                               "path":  "src/YouTube_자막_2026-10-12/영상목록.csv",
+                               "role":  "supporting_record",
+                               "bytes":  7673,
+                               "sha256":  "CE6284F8969A4BB4BBD58F39499808173CDF731912F92DC210A1A8E7BE246FC2",
+                               "accounted":  true
+                           }
+                       ],
+    "historical_metadata_differences":  [
+                                            {
+                                                "id":  "vluEPc2lXaI",
+                                                "field":  "old_results.cues",
+                                                "previous":  472,
+                                                "current":  475,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "3X4j9L1t0hk",
+                                                "field":  "old_results.cues",
+                                                "previous":  396,
+                                                "current":  397,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "Zm9yPhGrWPs",
+                                                "field":  "old_results.cues",
+                                                "previous":  490,
+                                                "current":  491,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "Zm9yPhGrWPs",
+                                                "field":  "old_results.cues",
+                                                "previous":  490,
+                                                "current":  491,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "Toa43mkjhl8",
+                                                "field":  "old_results.cues",
+                                                "previous":  141,
+                                                "current":  143,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "BN8ii2giqm0",
+                                                "field":  "old_results.cues",
+                                                "previous":  564,
+                                                "current":  565,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "po3EfwdInDE",
+                                                "field":  "old_results.cues",
+                                                "previous":  537,
+                                                "current":  545,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "rN0z4OQC-80",
+                                                "field":  "old_results.cues",
+                                                "previous":  846,
+                                                "current":  847,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "SxL8INrDni8",
+                                                "field":  "old_results.cues",
+                                                "previous":  405,
+                                                "current":  413,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "Ir1ymyNLhaw",
+                                                "field":  "old_results.cues",
+                                                "previous":  198,
+                                                "current":  201,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "fMCS6166ut4",
+                                                "field":  "old_results.cues",
+                                                "previous":  249,
+                                                "current":  251,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "dkc7jbyWCic",
+                                                "field":  "old_results.cues",
+                                                "previous":  406,
+                                                "current":  407,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "Xj76M1SReGA",
+                                                "field":  "old_results.cues",
+                                                "previous":  174,
+                                                "current":  175,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            },
+                                            {
+                                                "id":  "kI0r-A1bA4c",
+                                                "field":  "old_results.cues",
+                                                "previous":  335,
+                                                "current":  345,
+                                                "treatment":  "Original collection record retained; current SRT recount is authoritative for this audit."
+                                            }
+                                        ],
+    "errors":  [
+
+               ],
+    "retained_limits":  [
+                            "Literal ten full rereads not completed.",
+                            "Original video audio and diagrams not checked.",
+                            "Scientific claims not independently validated.",
+                            "Operational assistant is a design, not an implemented or efficacy-tested program."
+                        ]
+}

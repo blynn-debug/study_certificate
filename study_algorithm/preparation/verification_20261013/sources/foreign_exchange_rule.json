@@ -1,0 +1,18 @@
+{
+  "id": "foreign_exchange_rule",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285140&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285140&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:17:46.610816+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 194659,
+  "content_sha256": "13c5d99ee6f332e293e27c9430845f2a5929aaebcaf8b1ee868d85041aec82e1",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "9",
+      "16"
+    ]
+  ]
+}

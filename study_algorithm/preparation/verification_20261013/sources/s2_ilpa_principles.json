@@ -1,0 +1,14 @@
+{
+  "id": "s2_ilpa_principles",
+  "requested_url": "https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf",
+  "retrieved_url": "https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf",
+  "retrieved_at": "2026-10-13T23:56:09.130260+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "3e31f97edcaca5b0a9ed1204cc80068266111ddef49b91b475fd3c105fa4b76f",
+  "binary_sha256": "3e31f97edcaca5b0a9ed1204cc80068266111ddef49b91b475fd3c105fa4b76f",
+  "text_sha256": "6904e06292bea5b6cf81ccb43724be197ed3e85f8e433583a98df8dd83008b4a",
+  "pages": 44,
+  "characters": 113788,
+  "status": "retrieved_not_claim_verified"
+}

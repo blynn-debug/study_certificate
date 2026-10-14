@@ -1,0 +1,30 @@
+{
+  "source_id": "kidi_long_insurance",
+  "source_metadata": {
+    "id": "kidi_long_insurance",
+    "requested_url": "https://www.kidi.or.kr/user/nd38806.do?menuCode=engsite",
+    "retrieved_url": "https://www.kidi.or.kr/user/nd38806.do?menuCode=engsite",
+    "retrieved_at": "2026-10-13T04:06:26.373421+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 2301,
+    "content_sha256": "56a8ae1a2e2a55ca35bb4eb4df7e5f42e94156e2153c95d01056db397ee55a6f",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kidi_long_insurance:장기손해보험구조",
+      "source_id": "kidi_long_insurance",
+      "article": "장기손해보험구조",
+      "heading": "장기손해보험구조",
+      "text": "장기손해보험의 개요\n장기손해보험은 적용이율을 적용하여 보험료를 산출하는 손해보험을 말하며, 일반적으로 보험기간이 장기인 것이 특징입니다.\n장기손해보험의 구성\n보험종목 및 가입대상\n보험종목: 장기손해보험은 기본계약의 성격에 따라 장기화재, 장기종합, 장기상해, 장기질병, 장기비용, 장기간병, 장기기타 보험으로 나누어집니다.\n1) 장기화재 : 장기손해보험 중 화재로 인한 재물에 생긴 손해 보장\n2) 장기종합 : 장기손해보험 중 재물손해, 신체손해, 배상책임손해 보장 중 두가지 이상의 손해를 보장\n3) 장기상해 : 장기손해보험 중 신체의 상해로 인한 손해 보장\n4) 장기질병 : 장기손해보험 중 질병에 걸리거나 질병으로 인한 입원, 수술 등의 손해 보장\n5) 장기비용 : 장기손해보험 중 비용 발생으로 인한 금전적 손해를 보장\n6) 장기간병 : 장기손해보험 중 활동불능 또는 인식불명 등 타인의 간병을 필요로 하는 상태 및 이로 인한 손해 보장\n7) 장기기타 : 상해, 질병, 간병 보장중 두가지 이상의 손해를 보장\n가입대상: 개인 및 단체\n보험료 계산\n개요\n보험료는 순보험료와 부가보험료로 구성되어 있습니다. 순보험료 중 위험보험료는 사고발생시 보상에 필요한 보험금으로 사용되는 재원이며, 저축보험료는 해지시 해지환급금, 만기시 만기환급금의 재원으로 쓰입니다. 또한 부가보험료는 보험회사의 운영에 필요한 비용으로 사용되는 재원입니다.\n보험료 결정요소\n보험료는 적용위험률, 적용이율, 적용사업비율에 의해 계산됩니다.\n보험료의 계산\n보험료의 계산-영업보험료 테이블입니다.\n영업보험료\n순보험료\n부가보험료\n보험료의 계산-위험보험료 저축보험료 사업비 테이블입니다.\n위험보험료\n저축보험료\n사업비\n계약체결비용\n계약관리비용\n보험료의 계산-적용위험률 적용이율 적용사업비율 테이블입니다.\n적용위험률\n적용이율\n적용사업비율",
+      "start": 1246,
+      "end": 2144,
+      "sha256": "9b32d508e974d35d85503ee9a213a5d5326c72bfd96f3027df412a07549a4e53"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

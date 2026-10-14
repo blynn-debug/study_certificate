@@ -1,0 +1,62 @@
+{
+  "source_id": "s2_fidelity_ta2020",
+  "source_metadata": {
+    "id": "s2_fidelity_ta2020",
+    "requested_url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/040920_Getting-started-with-technical-analysis_v2.pdf",
+    "retrieved_url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/040920_Getting-started-with-technical-analysis_v2.pdf",
+    "retrieved_at": "2026-10-13T16:42:26.695253+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "71e1bf0cc609528d6d849fea1d8aca263ce709be8097992ace49422c2282c492",
+    "binary_sha256": "71e1bf0cc609528d6d849fea1d8aca263ce709be8097992ace49422c2282c492",
+    "text_sha256": "d9c32f3bbe75ef5bcbae9d8d72ccf6fd9fb8e0ce9cf1cfc08fab8b4d43c6a46c",
+    "pages": 21,
+    "characters": 4748,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 4,
+  "items": [
+    {
+      "id": "s2_fidelity_ta2020:page5",
+      "source_id": "s2_fidelity_ta2020",
+      "article": "page5",
+      "heading": "page5",
+      "text": "[PDF page 5]\n5\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Technical Analysis\nDefinition\nTechnical analysis primarily studies historical \nmarket data. It also:\n• Focuses on the supply-and-demand dynamic \nexpressed via stock prices\n• Visualizes shifts in supply-and-demand which can be \nseen in chart patterns \n• Accounts for the emotional aspects of the marketplace \n• Quantifies the capital risk of trading and \ninvestment decisions\n• Does not try to predict the future",
+      "start": 517,
+      "end": 985,
+      "sha256": "467414349f3a458aabac587fd2045b3fa981f210851b087d010c68316ce64fe6"
+    },
+    {
+      "id": "s2_fidelity_ta2020:page6",
+      "source_id": "s2_fidelity_ta2020",
+      "article": "page6",
+      "heading": "page6",
+      "text": "[PDF page 6]\n6\nBROKERAGE: TECHNICAL ANALYSIS\nDefining Technical Analysis\nAssumptions\n• Prices in freely traded markets are determined by \nthe economic principles of supply-and-demand\n• Price discounts everything\n• Prices are nonrandom but not necessarily \npredictable\n• Prices have direction and tend to travel in \nobservable trends\n• Behavior and history in the marketplace will \nrepeat itself\n• Price patterns summarizing behavior are “fractal”",
+      "start": 985,
+      "end": 1434,
+      "sha256": "c460773dab5104616b74c4e378e34a05854f2c8180e92c02e08353e31fb10c8d"
+    },
+    {
+      "id": "s2_fidelity_ta2020:page15",
+      "source_id": "s2_fidelity_ta2020",
+      "article": "page15",
+      "heading": "page15",
+      "text": "[PDF page 15]\n15\nBROKERAGE: TECHNICAL ANALYSIS\nSupport and Resistance\nSupport\nHorizontal line drawn \nthrough troughs at the \nsame price level\nResistance\nHorizontal line \ndrawn through peaks at \nthe same price level",
+      "start": 2738,
+      "end": 2955,
+      "sha256": "c54b0e0edfeacc9af624eb489bcceea5a9cbf465ce9eb910d022a7372a98917c"
+    },
+    {
+      "id": "s2_fidelity_ta2020:page17",
+      "source_id": "s2_fidelity_ta2020",
+      "article": "page17",
+      "heading": "page17",
+      "text": "[PDF page 17]\n17\nBROKERAGE: TECHNICAL ANALYSIS\nWhen Support Becomes Resistance\nOnce the price breaks \nthrough support, that \nsupport becomes \nfuture resistance.\nWhen the price \neventually rallies back \nto that level, it hits \nselling pressure \nand reverses back \ndown again.",
+      "start": 3179,
+      "end": 3456,
+      "sha256": "cbb646792e79bd23bb2d6cacb8674182223a3f80a4d09d81670411dc02a7647a"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

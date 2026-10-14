@@ -1,0 +1,738 @@
+[PDF page 1]
+Closing the Gap
+1
+Back in the 1920s and 1930s, Richard W. Schabacker wrote several books 
+that were based on Dow theory. He hypothesized successfully that cer­
+tain patterns in the major averages were also relevant to individual stocks. 
+His brother-in-law Robert D. Edwards continued his work. Many in 
+our generation are familiar with the technical work of Edwards and his 
+partner John Magee (Magee, 1994, ix–xv). Together, they are considered 
+the fathers of modern technical analysis. As we know, technical analysis 
+is a snapshot of market participants’ collective behavior. Because we are 
+dealing with human emotions, these patterns of collective behavior are 
+continually repeated. They can be recognized and then used to anticipate 
+future moves in the markets. These patterns can be further broken down 
+into naturally recurring sets of waves and calculations.
+The basic structure of financial markets lies in a catalog of repeatable pat­
+terns uncovered by Ralph Nelson Elliott, refined over the years by other 
+well-known Elliotticians, including Robert Prechter Jr.  The Wave Princi­
+ple represents a good pattern recognition system. No two patterns are ever 
+alike, but they all have repeatable tendencies. Inside these waves are uni­
+versal calculations, which are measured in terms of price and time. These 
+COPYRIGHTED MATERIAL
+
+
+[PDF page 2]
+2
+measurements are driven by Fibonacci relationships. Much of the 
+research on the time element is derived from the work of W. D. 
+Gann, who should be considered the founding father of modern 
+time studies. From Gann, modern Fibonacci analysts have done 
+an excellent job of simplifying the methodology so traders can 
+use it as an everyday discipline. 
+The Elliott methodology relies heavily on the Fibonacci rela­
+tionships to the point where the trader really can’t use one with­
+out the other. Because the Wave Principle relies on Fibonacci 
+calculations, it would make sense that those who use Fibonacci 
+retracements would recognize patterns in terms of Elliott waves. 
+This book incorporates the time principle into the Fibonac­
+ci–Elliott ways of thinking and provides traditional technical 
+analysis. I find, however, that the Elliott–Fibonacci community 
+has left out an important part of the equation. Some Fibonacci 
+calculations are so complex that they are not practical to use. 
+Traders use Fibonacci calculations because they are practical 
+pattern-recognition tools. Yet, what if some calculations are too 
+complex to be recognized easily? If it doesn’t work, what do we 
+do instead? How do we fill in the gap? This book, to a degree, 
+closes that gap. 
+Most books of this genre cover Elliott and Fibonacci, as well as 
+sacred geometry. This book enhances most of these studies. The 
+methodology presented here relies heavily on the Lucas series 
+of mathematics. French mathematician Edouard Lucas (1842–
+1891) discovered this series, which is a derivative of the Fibonacci 
+sequence. It is mentioned briefly in other books, and it is here 
+where this series is presented in great detail. Although I am not 
+the first to present Lucas to the financial community, I believe 
+its profound influence on many financial charts in all degrees 
+of trend has been greatly misunderstood and understated. This 
+book attempts to rectify that. Lucas’s work does not supersede 
+Fibonacci’s; it complements it. What most people in the trading 
+community don’t realize is the degree to which it complements it. 
+According to the research presented here, you will see how often 
+it does. The purpose of using the time dimension is to gain a very 
+important tool in the pattern recognition game. 
+Édouard Anatole 
+Lucas
+Famous for his research in 
+number theory, François 
+Édouard Anatole Lucas is 
+the 19th century French 
+mathematician for whom the 
+Lucas Series is named. It 
+was while working with the 
+Fibonacci series (one he is 
+often credited with naming) 
+that he discovered the close­
+ly related series of numbers. 
+While defined nearly identi­
+cally to the Fibonacci 
+series (each number is the 
+sum of the previous two, 
+except for the first two mem­
+bers of the series; 
+f(n) = f(n-2) + f(n-1) ), Lucas 
+numbers start with 2 and 1 
+rather than 1 and 1. While 
+seemingly a small differ­
+ence, the variation is clear:
+Lucas Series:
+2, 1, 3, 4, 7, 11, 18, 29, 47, 
+76, 123, 199, 322, 521, ...
+Fibonacci Series:
+1, 1, 2, 3, 5, 8, 13, 21, 34, 
+55, 89, 144, 233, 377, ... 
+continued on next page
+Breakthrough Strategies for Predicting Any Market
+
+
+[PDF page 3]
+3
+An airplane pilot would never think of taking off in a plane that 
+was not equipped with instruments that would enable him or her 
+to fly or land it in spite of poor visibility. As challenging as finan­
+cial markets are, using technical analysis as a pattern recognition 
+system without the time dimension is like attempting to land a 
+plane in zero visibility. 
+Before switching to “instruments,” we must be able to navigate in 
+good weather. Basic navigation of financial markets begins with 
+an understanding of the Wave Principle. The Wave Principle 
+gives the trader a good start at pattern recognition. Those of you 
+trained in the Edwards and Magee school of technical analysis 
+can compare and contrast the two methodologies. This book uses 
+the Wave Principle only as a guide because it is fairly complex 
+and not totally reliable in real time. 
+When we look at the waves, we can get an idea of where we are 
+in a trend. We can also have an idea if we are in the main trend 
+or in a move that technically “corrects” that trend. Sometimes a 
+correction is so large in relation to the main trend that we re­
+ally don’t know whether the larger trend has changed. This is one 
+of the black holes in the Wave Principle that this book intends 
+to clarify. 
+There are two basic patterns of waves. The first are known as 
+“impulse waves,” which is the larger degree prevailing trend. The 
+other is known as “corrective waves,” which move counter to the 
+main trend. Each has its own distinct set of characteristics. In 
+this chapter, I only cover the basics as a review of materials you 
+may have read elsewhere. Later, I will show you how to recognize 
+an impulse or corrective wave by exclusively understanding the 
+number sequences.
+IMPULSE WAVES
+Impulse waves have their own unique characteristics. The larg­
+er prevailing trend is considered to be an impulse wave, which 
+you can recognize as it moves in a 5-wave sequence. Impulse 
+waves can also move in 9- or 13-wave patterns. There are only 
+As is true for any Fibo­
+nacci-like series, the ratio of 
+successive Lucas numbers 
+converge to the golden ratio 
+phi, 
+(1.618 ...). Moreover, 
+the two series are related in 
+many other ways with ongo­
+ing research still in progress 
+today. According to Clark 
+Kimberling, Professor of 
+Mathematics, University of 
+Evansville, to find the follow­
+ing Lucas-Fibonacci identi­
+ties to be true, write the two 
+sequences as L(0), L(1), 
+L(2), . .. and F(0), F(1), F(2), 
+. . . .then for all nonnegative 
+integers n: 
+L(n) = F(n+2) - F(n-2) 
+L(4n) + 2 = (L(2n))^2 
+L(4n) - 2 = 5(F(2n))^2 
+F(n + m) + F(n - p) = F(n)L(m) 
+if m is even 
+L(n - 1)L(n + 1) + F(n - 1)F(n 
++ 1) = 6(F(n))^2. 
+Forty-seven such identities 
+are given by Verner E. Hog­
+gatt, Jr. in his book Fibo­
+nacci and Lucas Numbers 
+(Hoggatt 1969, 59-60).
+1 • Closing the Gap
+
+
+[PDF page 4]
+three iron laws of impulse waves according to Prechter (Prechter 
+1999, 30):
+1.	 Wave 3 is never the shortest wave.
+2.	 Wave 2 never retraces more than 99 percent of wave 1.
+3.	 Wave 4 does not overlap the territory of wave 1.
+Let’s clear up some of the confusion surrounding these rules. 
+Some think the third wave is always the largest wave, but this 
+simply is not the case. Generally, the tendency is for wave 3 to be 
+the largest wave, but the rule is that it can’t be the shortest wave. 
+If you are counting waves and the middle wave is the smallest, 
+something else is going on. That particular wave might be an ex­
+tension of the first wave, but it isn’t a third wave (Figure 1.1). 
+The other controversy surrounds fourth waves. According to 
+some in the Elliott community, they do not allow for any overlap 
+of the first and fourth waves, but I’ve seen many instances where 
+wave 4 touches, grazes, or slightly overlaps wave 1. I think you 
+need to apply common sense to the situation. If you have a fourth 
+wave that makes an obvious violation into first-wave territory, it 
+isn’t a fourth wave. If you’ve had a first wave, a retracement sec­
+ond wave, and a third wave that makes a decent advance; and 
+then you have a pullback that grazes first-wave territory before 
+turning up, I think you can make a case for the pullback being 
+the fourth wave.
+Another characteristic of impulse waves is the Rule of Alterna­
+tion. This is not an iron law, but rather a guideline. The Rule of 
+Alternation suggests that if the second-wave retracement takes 
+IMPULSE WAVES 
+1.  Wave 3 is never the 
+shortest wave.
+2.  Wave 2 never retraces 
+more than 99 percent of 
+wave 1.
+3.  Wave 4 does not overlap 
+the territory of wave 1.
+Figure 1.1
+Basic Elliott Wave Pattern
+Breakthrough Strategies for Predicting Any Market
+4
+
+
+[PDF page 5]
+1 • Closing the Gap
+5
+the form of a sharp correction, the fourth wave is likely to be a flat cor­
+rection. Another way in which this rule manifests itself is that when the 
+first wave is the largest wave, the fifth wave will be the smallest. In a larger 
+move, if one set of five has the third wave as the extension, the next round 
+will have either the first or the fifth wave as the extended wave (Prechter, 
+1999, 61). 
+Extensions are another important characteristic of impulse waves. This 
+means that of waves 1, 3, or 5, one will be considerably larger than the 
+other two. Extensions are hard to count while they are in progress, and 
+the exact count is not readily apparent until late in the move. The time 
+cycles clear up much of the confusion and allow traders or analysts a 
+better roadmap to determine more easily where they are in the bigger 
+scheme of things.
+There are sets of common relationships in an impulse sequence that are 
+Fibonacci based. The most common tendency is for the third wave to be 
+the extended wave, and many times it will measure 1.618 or 2.618 times 
+the length of wave 1 as measured from the bottom of wave 2 (Prechter 
+1999, 125–138). In lower probability cases, wave 3 may even measure 4.23 
+times the length of wave 1. 
+When wave 3 is the extended wave, the tendency is for waves 1 and 5 
+to have a .618/1.618 relationship to each other. In rare cases, wave 5 can 
+be a 2.618 extension of wave 1. Recently, we had a situation in the XAU 
+where wave 5 was a 2.618 extension of wave 1 and wave 3 was not the 
+shortest wave. When wave 5 extends, it usually measures 1.618 times the 
+length of waves 1 to 3, with wave 1 being the smallest wave. When wave 
+1 extends, it will usually measure 1.618 times the length of waves 3 to 5, 
+with wave 5 being the smallest wave. In rare cases, we can have a double 
+extension where waves 3 and 5 are both twin 4.23 extensions of wave 1. 
+The best way to recognize an extended wave is to observe how the progres­
+sion begins. Once we get a new trend, we’ll have a first wave up, a retrace­
+ment, and another leg up. If the second retracement violates the territory 
+of the very first wave in the sequence, we know by the iron law of fourth 
+waves that this can’t be a fourth wave. It must be the start of an extension 
+or larger move. How do we know that it is not a corrective move? Watch 
+the volume patterns. At all times, we will use other indicators to confirm 
+a wave count. If we are in an uptrend, the down days compared to the 
+
+
+[PDF page 6]
+up days will be lower volume on average. For instance, if we’ve been 
+through a long downtrend where sentiment became unusually nega­
+tive, the trend going in the new direction will start to build decent 
+volume days and the pullbacks will be of lighter volume. A lighter 
+volume wave that slightly overlaps a first wave up is likely to be cor­
+rective, counter to the new trend, and part of an extension going in 
+the new direction. The time dimension will also give us a good clue as 
+to the underlying direction. I will cover that in a later chapter. 
+CORRECTIVE WAVES
+Corrective waves have their own unique set of characteristics that 
+differentiate them from impulse waves (please see Figure 1.2 for a 
+look at the complete wave sequence). A wave is corrective when it 
+moves counter to the trend. There are two types of corrective waves. 
+One family consists of sharp corrections, the other family of flat cor­
+rections. You may consider triangles to be another subset, but techni­
+cally they are part of the flat family. 
+Sharp corrections normally fall into a 5–3–5 pattern of waves. They 
+are labeled differently from impulse waves and use letters as opposed 
+to numbers. An ABC correction will contain five small waves moving 
+counter to the trend followed by a small, sideways or triangle correc­
+tion, followed by five more waves. The way to recognize these waves 
+is that they violate the overlap rule where the fourth wave falls deep 
+into the territory of the first wave. The best way to recognize sharps is 
+that they are very choppy. 
+If you don’t understand waves and have no real plan to do so, the best 
+way to understand corrective moves is by their choppiness or lack of 
+structure. Corrective waves are also characterized by an average lower 
+volume than the prevailing larger degree trend moving in the other 
+direction. How do you know you are in a correction? Let’s say we are 
+in a bear market and begin a bounce. If the up days are on light vol­
+ume, it’s bound to fail. It can be as simple as that. 
+Sharp corrections retrace 38 percent, 50 percent, 61 percent, 78 per­
+cent, or 88.6 percent. In rare cases, they will retrace 23 percent. Sev­
+eral years back, a study was done by Rich Swannell, an Australian 
+Elliottician. He took millions of retracements in all degrees of trend 
+CORRECTIVE 
+WAVES 
+Corrective waves have their 
+own unique set of character­
+istics that differentiate them 
+from impulse waves. A wave 
+is corrective when it moves 
+counter to the trend. There 
+are two types of corrective 
+waves. One family consists of 
+sharp corrections, the other 
+family of flat corrections. You 
+may consider triangles to be 
+another subset, but techni­
+cally they are part of the flat 
+family. 
+Breakthrough Strategies for Predicting Any Market
+6
+
+
+[PDF page 7]
+1 • Closing the Gap
+7
+and found that 60 percent of second-wave retracements fell under the 
+bell curve between the 25 and 70 percent retracement level (Swannell 
+2003, 34–35). This adds to the complexity because 40 percent of the 
+time, we will have some other retracement such as the 14.6 or even the 
+88.6 percent. How one definitively defines a second wave in an impulse 
+or a B wave in a corrective, I’m not sure. 
+We derive the 88.6 level because it is the square root of the .786 retrace­
+ment level. However, moves will stop short of a full retest right on the 
+88.6 percent marker. For most common retracement relationships, here’s 
+what happens. We will get an impulse move in one direction, and when 
+it comes time to retrace, the first leg will retrace 38 percent counter to 
+the trend. This would be an A wave or the first part of an ABC. A small 
+B wave commences, and finally the C wave kicks in to take the entire re­
+tracement to the 50, 61, or 78 percent marker. 
+For instance, the first move counter to the main trend keeps going and 
+retraces 61 percent. This is a clue that the move might not be corrective. 
+Normally, A waves will not move 61 percent counter to the prevailing 
+trend. Odds are something else is going on. What might that be? First 
+legs that move 61 percent going the other way most often are new trends 
+in the opposite direction, but they could also be 100 percent retests, which 
+turn out to be double tops (bottoms). 
+Flat corrections (Figure 1.3) are also known as complex sideways pat­
+terns. Their shape is the three-wave pattern but is considered to be broken 
+down into a smaller subset of 3–3–5. They are best recognized as moves 
+Figure 1.2
+Complete Wave Sequence
+
+
+[PDF page 8]
+Breakthrough Strategies for Predicting Any Market
+8
+where all three legs tend to equality. The A wave will move counter to the 
+prevailing trend and is likely to retrace 23  to 38 percent. The B wave will 
+then come all the way back to retest the high (low). The C wave will drop 
+down to the level of support (resistance) of the A wave before the prevail­
+ing trend continues. 
+One of the most hazardous patterns in the entire catalog is known as an 
+irregular or expanded flat pattern. This pattern is dangerous because it is 
+a low probability that happens often enough to be a problem. Although 
+there hasn’t been a statistical study done on expanded flats, I’ve been told by 
+other expert Elliotticians that they confirm about 30 percent of the time. 
+Here’s what happens: After an impulse wave in the prevailing direction, 
+an A wave will retrace 38 percent of the move and then turn back in the 
+direction of the prevailing trend and make a new price extreme. Let’s say 
+we have an uptrend in place. The first leg down will retrace approximately 
+38 percent and then turn back up, thus confusing market participants into 
+thinking the prevailing trend is back in place. There is the obvious retest of 
+the old high, and when the old high is taken out, participants are induced 
+to go long. They are wrong because prices don’t carry very far. 
+What happens next is almost criminal. After participants take their long 
+positions, a C wave kicks in going the other way. C waves are always the 
+most violent moves in the entire catalog. The C wave usually measures 
+1.618 times the A wave that began the pattern. If, for instance, the A 
+wave measured 10 points and the B wave up, which took out the old 
+price extreme, takes out the old high by 2 to 3 points, a C wave will now 
+drop 16 points, taking out the old A wave low. The players who went 
+long either get stopped out or taken to the cleaners. Finally, by the time 
+the C wave measures 1.618 times the original A wave, new players are 
+Figure 1.3
+Flats
+
+
+[PDF page 9]
+1 • Closing the Gap
+9
+convinced this is a new trend moving in the opposite direction. They 
+join in on the short side, but they are wrong. The correction is over as 
+prices fail to drop another point. This time it is the bears who are taken 
+to the cleaners, as the correct side of the market is once again the pre­
+vailing trend prior to the A wave. 
+The problem with trading this sort of pattern is that you can suspect it, 
+but it only works out 30 percent of the time. Unfortunately, the only time 
+we can really recognize an expanded flat is when it is complete and in the 
+rearview mirror. Sorry, this isn’t a game for children. The good news is we 
+can smoke out these patterns more readily by adopting the methodologies 
+uncovered in this book. 
+TRIANGLES
+Triangles appear in the fourth wave of impulse moves and B waves in cor­
+rective moves. The implication of triangles is they are the next to last move 
+in a pattern. What makes a triangle so complex as part of a fourth wave is 
+that, by nature, fourth waves are difficult to count. The third wave, which 
+is usually the most powerful move in an entire pattern, generally includes 
+the point of recognition where all participants realize the trend is up. Ca­
+sual participants such as the general public begin to get interested. 
+At some point in time, the third wave comes to an end and sentiment 
+becomes one of surprising disappointment. Professionals begin to take 
+profits as they sell to latecomers. However, there are still enough buyers 
+to keep the trend alive. What a triangle signifies mostly is a tug of war 
+for dominance between bulls and bears. As fourth waves are difficult to 
+count, we don’t realize we are in a triangle until at least half the pattern 
+is already developed. Let’s say we are in a bull market. As wave 3 ends 
+and there is a drop, participants erroneously assume a new bear market. 
+What happens is that the first wave down ends prematurely, and par­
+ticipants erroneously believe that it is an automatic continuation of the 
+prevailing bull trend. However, there will still be another drop, and those 
+participants who are less convinced will drop off. Overall, the battle be­
+tween bulls and bears continues until the triangle completes.
+The two most common types of triangles are contracting and expand­
+ing (Figure 1.4). There are a few important guidelines in identifying a 
+
+
+[PDF page 10]
+Breakthrough Strategies for Predicting Any Market
+10
+valid triangle. In contracting triangles, the five-wave sequence will have 
+at least two waves going in the same direction that have a 1.618/.618 
+relationship to each other. What that means is that either A and C or 
+D and E will have that Fibonacci interwave relationship. The tendency 
+for expanding triangles works the same way, except that the waves get 
+bigger as the pattern progresses. 
+The mistake most Elliotticians make is confusing the triangle with the 
+complex sideways or expanded flat pattern.  What happens is the alleged 
+triangle develops most of the way but ends blowing up near the end. Here 
+are some guidelines to prevent that from happening:
+1.	 Realize the triangle is the next to last move in a pattern. Chances 
+are slim that you’ll see a triangle confirm early in a trend. 
+2.	 Always look for those Fibonacci interwave relationships discussed 
+above. If you don’t have those relationships, odds are that the tri­
+angle is not going to confirm.
+3.	 A triangle has to have the look of a triangle. Elliott and Prechter 
+both state that the most important aspect of any wave count is 
+that the pattern has to possess the proper look to it. 
+4.	 This one is original to this work. The time bars usually confirm the 
+pattern. This is not an iron-clad rule, but rather a strong guideline. 
+Most triangles will complete in the correct number of Fibonacci 
+or Lucas time bars.
+I’ve found that triangles will complete in 47, 55, 76, 78, or 89 bars on one 
+of the intraday time frames. As you can see, this is a mixture of Lucas and 
+Fibonacci. The periods followed here are 1, 5, 15, and 60 minutes; and 
+then daily, weekly, monthly, and yearly. 
+Some contracting triangles contain a concept called “Thrust Measure­
+ment.” In certain instances when the triangle appears in the fourth wave 
+position, we can measure a perpendicular line from where the A wave be­
+gins down to a trend line extended into space as a potential target for the 
+completion of the fifth wave.  There are examples of this later in the book, 
+but let’s say the width of the triangle from the origin to a line drawn per­
+pendicular straight down measures 15 points. Let’s say that for xyz stock, 
+the third wave ends at 60; the A wave bottoms at 52; and the triangle 
+finally completes at E wave 55. Many Elliotticians mistakenly assume the 
+thrust measurement would be the length of the A wave which is 8 points. 
+
+
+[PDF page 11]
+1 • Closing the Gap
+11
+However, when we back up the lower trend line to the point in time where 
+the A wave started, we find the trend line extends back into space to a 
+point on the chart near 45. When we see the triangle completed at 55, we 
+can then project a final fifth wave target at 70. 
+DIAGONAL TRIANGLES
+Diagonal triangles (Figure 1.5) are considered to be impulse waves and 
+are the only waves that allow overlap between the first and fourth waves. 
+Diagonal triangles are considered to be part of the impulse wave family 
+because we see them often as fifth waves part of the larger overall trend. 
+Figure 1.4
+Triangle Patterns
+Note: Each of these patterns 
+may occur in either the rising 
+or falling position.
+
+
+[PDF page 12]
+Breakthrough Strategies for Predicting Any Market
+12
+Also, they would not be considered as corrective waves because they are 
+so often the final wave of a pattern. Because there is much overlap, they 
+are confused with corrective waves. Eventually, the third wave will sprout 
+above resistance, but as the move gets higher, you can determine a wedge 
+shape with converging trend channel lines. The other reason they are con­
+fused with corrective waves is that each leg is a three-wave pattern and has 
+the look of an A wave. 
+Most diagonal triangles appear in the ending position, but in rare situa­
+tions they can be seen in the leading first- or A-wave, position. The dif­
+ference between the two is that the ending pattern is 3-3-3-3-3, and the 
+leading wedge takes on the shape of a 5-3-5-3-5. In the leading position, 
+the wedge pattern has good volume, whereas in the ending position vol­
+ume is waning, indicative of the end of a move. 
+SENTIMENT
+Each particular wave has its own range of emotions. Once a new trend 
+starts, the crowd has been conditioned by the old trend. At the end of a 
+bear market, psychology is such that the masses have been beaten down 
+for years. For those of you who go back to the 1970s, sentiment was so 
+bad that the major brokerage houses were laying off good percentages of 
+their sales staffs. This is normal behavior in a recession, but in this case, 
+it reached the point where they were even discouraging newcomers from 
+entering the field. People were so down on stocks that even economists 
+and other industry experts had little hope they would ever take off again. 
+By the end of a bear market, most participants are convinced that price 
+action is a bottomless pit that will go on forever. That is how you can 
+recognize a true bottom. Tops are at the other extreme. Recall that by 
+March 2000, everyone was convinced that the NASDAQ was going to 
+the moon. 
+A new bull market starts and is met by doubt and disbelief. Participants 
+are of the opinion that the new move up is just a correction and that the 
+larger degree trend will return to set another new price low extreme sim­
+ply because the prevailing trend has already done so for years (or whatever 
+degree of trend we are considering). When the first wave finally does end, 
+we get a retracement that has a technical purpose of testing the low. That 
+does not mean it has to go all the way to the exact bottom. The sentiment 
+
+
+[PDF page 13]
+1 • Closing the Gap
+13
+of second-wave retracements is “Here we go again.” You can recognize 
+second- or B-wave retracements by their recreation of the mood in the 
+final wave of the old trend (Prechter, 1999). This is why participants in a 
+bear market rally believe we are in the early stages of a new bull market. 
+In the early phases of a new bull market, almost nobody believes it is a 
+bull market. 
+Okay, we’ve had our retest or technical retracement, and participants come 
+to discover the sky isn’t falling. When all of the technical requirements for 
+a second- or B-wave are met in terms of price and time, there is only one 
+way for prices to go and that is to a new extreme in the new direction. 
+What happens in third waves is that once we get near resistance or the 
+first wave, high-sentiment indicators are still mostly negative as partici­
+pants believe a market top is close. In fact, we are still much closer to the 
+bottom than we are to the top.  In the last great bull market of the 1980s, 
+during much of the early 1980s up to late 1985, participants were con­
+vinced we were near a top. It’s hard to imagine today, but when the Dow 
+was between 1000 and 2000, people thought that was the ceiling. Because 
+sentiment is negative, the implication is that there is plenty of money on 
+the sidelines that hasn’t been put to work.
+Where does this money come from? Realize that in the early stages of 
+new bull markets, the economy has bottomed and relative prosperity has 
+returned. Bull markets are characterized by a new set of companies with 
+new technologies. As time goes by, people start becoming optimistic about 
+their future prospects and start investing their earnings.  At some point, 
+Figure 1.5
+Diagonals
+
+
+[PDF page 14]
+14
+momentum kicks in and more people finally realize the trend has 
+indeed turned. This is usually at the midpoint of third waves and 
+is considered to be the “point of recognition.”
+As we know, third waves will extend in some Fibonacci relation­
+ship to the first wave. Market conditions, economic factors, de­
+mographics, and technology will determine the size and scope of 
+the cycle. A third wave usually extends to 1.618, 2.618, 4.23, or 
+6.83 times the length of the first wave. In certain instances, the 
+third wave can even be a double 4.23 extension. How else can 
+Dow 2000 in the early 1980s turn into Dow 7000–11,000 by the 
+years 1998 to 2000? 
+By the time we are beyond the point of recognition, the easy-
+money crowd starts to get involved. People who have no interest 
+in or knowledge of the markets get interested. When cab drivers 
+make money in stocks, we are getting late in the move. When 
+everyone at the cocktail parties talks about the stock market, it’s 
+getting very late. By now, sentiment indicators have turned posi­
+tive and reached bullish extremes. When certain price and time 
+targets are met, the third wave ends.
+The prevailing sentiment of fourth waves as discussed previously 
+is one of surprising disappointment (Prechter, 1999). Fourth-
+wave consolidations are very complex. According to Bill Wil­
+liams (1998), another well-known Elliottician, if you wake up in 
+the morning and have no clue about the wave count, odds are 
+that it is a fourth wave. Fourth waves are characterized by many 
+cross currents. There are those who are convinced the bull market 
+is over. Others are attempting to buy the dip. In the end run, the 
+pullback is of a lower volume than the third wave up and lacks 
+the conviction of a new trend going the other way. At some point, 
+selling pressure dries up, and the fifth wave kicks in. 
+Fifth waves are characterized as being weaker technically than 
+the third wave, yet sentiment goes to new extremes. Not only are 
+the cab drivers becoming day traders, but also grandmothers are 
+pulling the trigger. Many are total novices involved for the first 
+time. Technically, it is a pattern where all divergences develop. 
+The first one is that the advance/decline market internals are not 
+Breakthrough Strategies for Predicting Any Market
+Sentiment Cycle
+Bottom: The extreme of 
+emotional sentiment. In a 
+bear market, one feels like 
+the market is a bottomless 
+pit; and in a bull market, one 
+feels like the market can go 
+to the moon.
+Beginning of new trend: 
+Sentiment is of doubt and 
+disbelief. Feelings from 
+the old trend are still en­
+trenched.
+End of first wave: The mar­
+ket is in a retracement that 
+retests the low.
+Second or B wave: The re­
+tracement creates sentiment 
+that is reminiscent of the 
+final wave of the old trend. 
+Third wave: Retest of 
+bottom holds. Sentiment 
+reaches new extremes until 
+the point of recognition.
+Fourth wave: Sentiment is 
+of surprising disappointment 
+and confusion. No one 
+is sure which way the market 
+is heading.
+Fifth wave: Volume 
+compared to third wave is 
+lighter. When everyone 
+is finally convinced of a 
+trend’s direction, then the 
+trend is likely over and ready 
+to correct.
+
+
+[PDF page 15]
+1 • Closing the Gap
+15
+as strong as the third wave. Fewer and fewer stocks are participating in 
+the move. There is a divergence as the move powers on but with lighter 
+volume. During earnings season, stocks already are priced to perfection, 
+and if they don’t meet inflated expectations, they are generally taken out 
+to the woodshed. However, because it’s still the fifth wave, prices tend to 
+recover, but not with the power and conviction seen in the third wave. 
+As the market powers even higher despite bearish divergences, weaker 
+volume, or market internals, everyone is convinced that prices will keep 
+going higher. Why? Because the mood becomes a self-fulfilling proph­
+ecy. By the end of a fifth wave, proof of the trend is seen, and despite 
+the early signs of trouble, the market keeps going. Finally, participants 
+are convinced that prices can only go one way. A day will come where a 
+certain news event like a Federal Reserve Open Market Committee will 
+announce that there will be no rate hikes and the talking heads on televi­
+sion will announce that nothing is standing in the way of the markets to 
+power even higher. That is when the move is likely over. At bear market 
+bottoms, it is just the opposite. People see the market as a bottomless pit. 
+At market tops, everyone is finally convinced that prices are going to the 
+moon. This is where it ends. 
+MY EXPERIENCE WITH ELLIOTT
+There is no doubt that Elliott waves provide a universal structure to all 
+free financial markets. It is an excellent pattern-recognition system. Those 
+in academia who have been telling us for the past 60 years that prices are 
+random are all wet. If you get nothing else from this book, you’ll realize 
+that Random Walk Theory is obsolete. According to Burton Malkiel in A 
+Random Walk Down Wall Street, future steps or market directions can’t be 
+predicted based on past actions (Malkiel 1973, 24). Those who tell you that 
+it’s impossible to time financial markets just don’t have the skills required 
+to do it. The Elliotticians of the 20th century from Elliott himself all the 
+way to Prechter have laid a firm foundation of understanding how finan­
+cial markets work. The Wave Principle was the first really popular line of 
+defense against Random Walk Theory, but there are flaws and gaps. 
+The first flaw is that there is so much subjectivity in the interpretations of 
+the waves. Strict Elliott interpretation contains wave notation in degrees 
+of trend that range from grand super cycle all the way down to micro 
+
+
+[PDF page 16]
+waves on a 1-minute chart or even smaller on a tick chart. You can 
+spend so much time trying to figure out if you are in wave 1 of 
+wave 2 or still in wave 5 of 1. The academics of the Wave Principle 
+also get caught up with proper notation with letters, numbers, Ro­
+man numerals, and Roman numerals within parentheses. I found 
+this to be unnecessary, and it never helped me make a red cent. 
+With no disrespect to the Elliott mentors of this generation, I’ve 
+found them to be long on the textbook presentation of the waves 
+and their forecasts largely inaccurate. This should not be news to 
+any of you. 
+I’m here to tell you that the most important thing you can do with 
+Elliott is apply common sense to the situation. The best applica­
+tion of Elliott in real time is as a guide. You don’t need certainty 
+in wave counts. However, you do need to have an idea where you 
+are. It’s important to know if you are in a first, third, or fifth wave. 
+It is important to understand the difference between impulse and 
+corrective trends. If you get the major part right, you can be wrong 
+about the exact wave count; but if you are still on the right side of 
+the market, you will come out ahead. 
+ The leaders of the wave community have done a fine job of lay­
+ing the foundation and setting the table for the next development 
+in this field. What they’ve done is tell us textbook waves move in 
+impulse 5s and corrective 3s. They haven’t told us how to recognize 
+them easily. If they did, there wouldn’t be such debate. To use a 
+sports analogy, if the Mets won the game today 4-3, there wouldn’t 
+be any argument. We can analyze the game from a standpoint 
+of strategy, offense, and pitching, but all that really matters is the 
+facts. Scoreboard! You can never dispute the final score of a game. 
+When you look at an RSI reading of 70, it’s 70. There is no debate. 
+When we look at an engulfing candlestick pattern, it is what it is. 
+But if we can’t agree on a wave count, we have a problem. 
+The methodology in this book goes a very long way in bridging 
+that gap. What is presented here and in the following chapters 
+will take your understanding of Elliott and pattern recognition 
+to new levels of precision. The great W. D. Gann began this work 
+nearly 80 years ago, but for most of the 20th century, at least in the 
+United States, he has been brushed under the carpet. Until now.
+Random Walk 
+Theory
+Based on Burton Malkiel’s 
+landmark 1973 book, A 
+Random Walk Down Wall 
+Street, random walk theory 
+states that markets can 
+not be predicted based on 
+past results. Based on the 
+research of Maurice Kendall 
+in 1953, the theory asserts 
+that stock price fluctuations 
+are independent of each 
+other and have the same 
+probability distribution, but 
+that over an extended period 
+of time, prices will maintain 
+an upward trend 
+(Investopedia.com 2007). 
+A true believer in random 
+walk theory would say that 
+it is an impossibility to 
+outperform the market. If 
+each stock has an equal 
+probability of moving up or 
+down and if the result of this 
+movement is always ran­
+dom, then it follows that any 
+analysis, whether technical 
+or fundamental, would be a 
+huge waste of time. The only 
+counsel Malkiel offers his 
+proponents is a long-term 
+buy and hold approach 
+with no attempt at timing 
+the markets.
+Although random walk 
+theory continues to be 
+debated today, those who 
+study technical analysis have 
+long since found it obsolete. 
+Breakthrough Strategies for Predicting Any Market
+16

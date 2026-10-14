@@ -1,0 +1,30 @@
+{
+  "source_id": "fed_term2012",
+  "source_metadata": {
+    "id": "fed_term2012",
+    "requested_url": "https://www.federalreserve.gov/pubs/feds/2012/201285/",
+    "retrieved_url": "https://www.federalreserve.gov/pubs/feds/2012/201285/",
+    "retrieved_at": "2026-10-13T16:17:50.690078+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 123376,
+    "content_sha256": "d5d566791a09e31483ef8991bf3857d293db2114cb257c7f93f36cab8af32d22",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fed_term2012:기대와선호서식지",
+      "source_id": "fed_term2012",
+      "article": "기대와선호서식지",
+      "heading": "기대와선호서식지",
+      "text": "3.1 3.1 Expectations/signaling channel\nThe signaling or expectation effect captures those changes in the expected path of future short-\nterm rates that arise from perceived new information that LSAP measures might relay about the state of the economy and the Federal Reserve's short-term interest-rate reaction function. This effect works through, and relies on, the standard expectation hypothesis concerning the connection between\nshort- and longer-term interest rates.\n3.2 Traditional preferred-habitat/scarcity channel\nWhile the expectations channel is widely acknowledged as one means through which monetary policy affects longer-term interest rates, its existence does not preclude the possibility that direct purchases of longer-term securities act on the term-premium component of longer-term rates by setting\nin motion a portfolio balance mechanism. Deviations of longer-term interest rates from the predictions of the strict expectations theory have been repeatedly documented in the literature, and the preferred-habitat approach advances the view that some of these deviations are attributable to\nvariations in the relative supplies of outstanding stocks of debt. The position that longer-term yields depend in part on the relative quantities outstanding of longer-term assets in the hands of the private sector (including commercial banks) was the subject of a substantial literature in the\n1950s and the 1960s (see Culbertson, 1957, Modigliani and Sutch, 1966, Wallace, 1967, and the references discussed in Section 2). Recently, Vayanos and Vila (2009) have offered more rigorous foundations for this approach within a term-structure model with two types of investors. The\npreferred-habitat investors in this framework are disposed to purchasing securities of certain maturities, while arbitrageurs can profit by trading across maturities, but risk aversion prevents these agents from taking complete advantage of profit opportunities.16\nThe preferred-habitat approach provides a rationale for asset price adjustments in the wake of a shift in the quantities of specific maturities of government debt held by private agents. Underlying the view that the maturity composition bears on asset prices is the premise that a permanent\ndemand exists from a class of investors for marketable, fixed-income securities. Thus, in segmented-market models featuring imperfect asset substitution, a reduction in the stock of securities of a particular maturity in the hands of private investors creates a shortage of those assets that cannot\nbe wholly relieved, at existing asset prices, by substitution into other securities. The shortage thus prompts an adjustment of financial market prices. Such a scarcity effect may be spread over time, and it could be manifested in bond rates for a particular\nmaturity.\nAn official purchase program that makes longer-term Treasuries scarcer is then likely to generate downward pressure on longer-term Treasury yields. Such a \"local supply\" (or scarcity) effect of LSAPs can be thought of as withdrawing longer-term securities from the hands of the private sector\nand thereby creating a prospective excess of demand over supply for fixed-income assets. As a result, the market for long-term securities clears at a lower equilibrium quantity and a higher price, that is, a lower yield. This yield adjustment would not occur in simple representative-agent\nframeworks but becomes part of the adjustment process in an environment that allows for heterogeneity among private investors. Thus, when a class of investors underpins the demand for longer-term securities, conditions are created that break the pure expectations theory of the term structure and\nmake the term premium a function of the ratio of short-term to longer-term securities outstanding. It is this departure from the representative agent framework that implies that the result of Eggertsson and Woodford (2003), according to which monetary policy's effect on longer-term rates is limited\nto the expectations channel, no longer holds.",
+      "start": 27859,
+      "end": 31897,
+      "sha256": "d87c28fd6947f64d246fc1d28680990fd7cf52ffdc5dc414233e377ceaca8922"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

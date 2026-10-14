@@ -1,0 +1,11 @@
+{
+  "id": "s2_hbs_diamond",
+  "requested_url": "https://www.isc.hbs.edu/competitiveness-economic-development/frameworks-and-key-concepts/Pages/the-diamond-model.aspx",
+  "retrieved_url": "https://www.isc.hbs.edu/competitiveness-economic-development/frameworks-and-key-concepts/Pages/the-diamond-model.aspx",
+  "retrieved_at": "2026-10-13T16:40:52.232669+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "e467166bb9da7a41537d00123fb9dab27ea10aae1a9ae3ba03c1452be2f47ae3",
+  "text_sha256": "f6d000c09442f63983056dd6eb93eb52b56a06205c9968d9b45f3651ca8e5b23",
+  "status": "retrieved_not_claim_verified"
+}

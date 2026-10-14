@@ -1,0 +1,19 @@
+{
+  "id": "real_estate_registration",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265377&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=265377&chrClsCd=010202&urlMode=lsInfoP&efYd=20250131&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:33.687280+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 42539,
+  "content_sha256": "65aa6cc58977c8a7abbfea2b26c44ed86223bee42bf3343b2932699f70876f6a",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2025",
+      "1",
+      "31"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

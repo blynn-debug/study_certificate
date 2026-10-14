@@ -1,0 +1,297 @@
+IFRS - IFRS 10 Consolidated Financial Statements
+Skip to content
+Sign in or register
+Update to our sign-in process
+Phrase search
+Word search
+ABOUT US
+The IFRS Foundation is a not-for-profit, public interest organisation established to develop high-quality, understandable, enforceable and globally accepted accounting and sustainability disclosure standards.
+Our Standards are developed by our two standard-setting boards, the International Accounting Standards Board (IASB) and International Sustainability Standards Board (ISSB).
+About the IFRS Foundation
+About us
+How we set IFRS Standards
+Post-implementation Reviews
+How we support the application of our Standards
+Annual reports
+IFRS Foundation governance
+IFRS Foundation Trustees
+IFRS Foundation advisory groups
+Our structure
+Due process
+Funding
+Stay updated
+Latest news
+IFRS Foundation meeting and events calendar
+Media enquiries, press releases and speeches
+Enquiries
+Contact us
+Join our team
+Speaking requests
+IFRS ACCOUNTING
+IFRS Accounting Standards are developed by the International Accounting Standards Board (IASB). The IASB is an independent standard-setting body within the IFRS Foundation.
+IFRS Accounting Standards are, in effect, a global accounting language—companies in more than 140 jurisdictions are required to use them when reporting on their financial health. The IASB is supported by technical staff and a range of advisory bodies.
+IFRS Accounting
+International Accounting Standards Board
+IFRS Interpretations Committee
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Accounting Standards
+IFRS for SMEs Accounting Standard
+Management Commentary
+Digital financial reporting
+IFRS translations
+Integrated reporting
+Using the Standards
+Application support
+Agenda decisions
+Project work
+Open and future projects
+Open consultations
+Completed projects
+IASB prioritisation framework
+Products and services
+Products overview
+IFRS Accounting licensing
+IFRS Digital subscription
+IFRS Foundation shop
+IFRS SUSTAINABILITY
+IFRS Sustainability Disclosure Standards are developed by the International Sustainability Standards Board (ISSB). The ISSB is an independent standard-setting body within the IFRS Foundation.
+IFRS Sustainability Disclosure Standards are developed to enhance investor-company dialogue so that investors receive decision-useful, globally comparable sustainability-related disclosures that meet their information needs. The ISSB is supported by technical staff and a range of advisory bodies.
+IFRS Sustainability
+International Sustainability Standards Board
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Sustainability Disclosure Standards
+Digital financial reporting
+IFRS translations
+SASB Standards
+CDSB guidance and framework
+Integrated reporting
+TCFD recommendations
+Using the Standards
+Application support
+Knowledge hub
+Working with others
+Project work
+Open projects
+Open consultations
+Completed projects
+Products and services
+Sustainability education products overview
+IFRS Sustainability licensing
+Alliance Membership Programme
+FSA Credential
+ISSB Training Partner Programme
+ABOUT US
+About the IFRS Foundation
+About us
+How we set IFRS Standards
+Post-implementation Reviews
+How we support the application of our Standards
+Annual reports
+IFRS Foundation governance
+IFRS Foundation Trustees
+IFRS Foundation advisory groups
+Our structure
+Due process
+Funding
+Stay updated
+Latest news
+IFRS Foundation meeting and events calendar
+Media enquiries, press releases and speeches
+Enquiries
+Contact us
+Join our team
+Speaking requests
+IFRS ACCOUNTING
+IFRS Accounting
+International Accounting Standards Board
+IFRS Interpretations Committee
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Accounting Standards
+IFRS for SMEs Accounting Standard
+Management Commentary
+Digital financial reporting
+IFRS translations
+Integrated reporting
+Using the Standards
+Application support
+Agenda decisions
+Project work
+Open and future projects
+Open consultations
+Completed projects
+IASB prioritisation framework
+Products and services
+Products overview
+IFRS Accounting licensing
+IFRS Digital subscription
+IFRS Foundation shop
+IFRS SUSTAINABILITY
+IFRS Sustainability
+International Sustainability Standards Board
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Sustainability Disclosure Standards
+Digital financial reporting
+IFRS translations
+SASB Standards
+CDSB guidance and framework
+Integrated reporting
+TCFD recommendations
+Using the Standards
+Application support
+Knowledge hub
+Working with others
+Project work
+Open projects
+Open consultations
+Completed projects
+Products and services
+Sustainability education products overview
+IFRS Sustainability licensing
+Alliance Membership Programme
+FSA Credential
+ISSB Training Partner Programme
+Home
+IFRS Accounting Standards Navigator
+IFRS 10 Consolidated Financial Statements
+IFRS 10 Consolidated Financial Statements
+Follow
+Standard 2026 Issued
+Follow - IFRS 10 Consolidated Financial Statements ×
+You need to Sign in to use this feature
+Close
+Show Sections
+About
+Standard
+News
+About
+IFRS 10 establishes principles for presenting and preparing consolidated financial statements when an entity controls one or more other entities. IFRS 10:
+requires an entity (the parent) that controls one or more other entities (subsidiaries) to present consolidated financial statements;
+defines the principle of control, and establishes control as the basis for consolidation;
+sets out how to apply the principle of control to identify whether an investor controls an investee and therefore must consolidate the investee;
+sets out the accounting requirements for the preparation of consolidated financial statements; and
+defines an investment entity and sets out an exception to consolidating particular subsidiaries of an investment entity.
+Consolidated financial statements are financial statements that present the assets, liabilities, equity, income, expenses and cash flows of a parent and its subsidiaries as those of a single economic entity.
+Standard history
+In April 2001 the International Accounting Standards Board (Board) adopted IAS 27 Consolidated Financial Statements and Accounting for Investments in Subsidiaries, which had originally been issued by the International Accounting Standards Committee in April 1989. IAS 27 replaced most of IAS 3 Consolidated Financial Statements (issued in June 1976).
+In December 2003, the Board amended and renamed IAS 27 with a new title—Consolidated and Separate Financial Statements. The amended IAS 27 also incorporated the guidance contained in two related Interpretations (SIC‑12 Consolidation‑Special Purpose Entities and SIC‑33 Consolidation and Equity Method—Potential Voting Rights and Allocation of Ownership Interests).
+In May 2011 the Board issued IFRS 10 Consolidated Financial Statements to supersede IAS 27. IFRS 12 Disclosure of Interests in Other Entities, also issued in May 2011, replaced the disclosure requirements in IAS 27. IFRS 10 incorporates the guidance contained in two related Interpretations (SIC‑12 Consolidation‑Special Purpose Entities and SIC‑33 Consolidation).
+In June 2012 IFRS 10 was amended by Consolidated Financial Statements, Joint Arrangements and Disclosure of Interests in Other Entities: Transition Guidance (Amendments to IFRS 10, IFRS 11 and IFRS 12). These amendments clarified the transition guidance in IFRS 10. Furthermore, these amendments provided additional transition relief in IFRS 10, limiting the requirement to present adjusted comparative information to only the annual period immediately preceding the first annual period for which IFRS 10 is applied.
+In October 2012 IFRS 10 was amended by Investment Entities (Amendments to IFRS 10, IFRS 12 and IAS 27), which defined an investment entity and introduced an exception to consolidating particular subsidiaries for investment entities. It also introduced the requirement that an investment entity measures those subsidiaries at fair value through profit or loss in accordance with IFRS 9 Financial Instruments in its consolidated and separate financial statements. In addition, the amendments introduced new disclosure requirements for investment entities in IFRS 12 and IAS 27.
+In September 2014 IFRS 10 was amended by Sale or Contribution of Assets between an Investor and its Associate or Joint Venture (Amendments to IFRS 10 and IAS 28), which addressed the conflicting accounting requirements for the sale or contribution of assets to a joint venture or associate. In December 2015 the mandatory effective date of this amendment was indefinitely deferred by Effective Date of Amendments to IFRS 10 and IAS 28.
+In December 2014 IFRS 10 was amended by Investment Entities: Applying the Consolidation Exception (Amendments to IFRS 10, IFRS 12 and IAS 28). These amendments clarified which subsidiaries of an investment entity should be consolidated instead of being measured at fair value through profit or loss. The amendments also clarified that the exemption from presenting consolidated financial statements continues to apply to subsidiaries of an investment entity that are themselves parent entities. This is so even if that subsidiary is measured at fair value through profit or loss by the higher level investment entity parent.
+Other Standards have made minor consequential amendments to IFRS 10, including Annual Improvements to IFRS Standards 2014–2016 Cycle (issued December 2016) and Amendments to References to the Conceptual Framework in IFRS Standards (issued March 2018) and Annual Improvements to IFRS Accounting Standards—Volume 11 (issued July 2024).
+Related active projects
+Control Assessment for a Single-investor Fund (IFRS 10)
+Reassessment of Control (IFRS 10)
+Sale and Leaseback of an Asset in a Single-Asset Entity (IFRS 10 and IFRS 16)
+Related completed projects
+Annual Improvements to IFRS Accounting Standards—Determination of a ‘De Facto Agent’ (Amendments to IFRS 10)
+Classification of a Foreign Exchange Difference from an Intragroup Monetary Liability (or Asset) (IFRS 18)
+Consolidation and Disclosure
+IFRS Accounting Taxonomy Update—Subsidiaries without Public Accountability: Disclosures, Amendments to IFRS 7 and IFRS 9 and Annual Improvements
+Investment Entities (Amendments to IFRS 10, IFRS 12 and IAS 27)
+Investment Entities: Applying the Consolidation Exception
+Joint Arrangements
+Post-implementation Review of IFRS 10, IFRS 11 and IFRS 12
+Sale of a Subsidiary to a Customer
+Sale or Contribution of Assets between an Investor and its Associate or Joint Venture (Amendments to IFRS 10 and IAS 28)
+Transition and Guidance (Amendments to IFRS 10)
+Video: IASB Member Ann Tarca explains proposed changes to IFRS Accounting Taxonomy 2023
+Related IFRS Standards
+IFRS 12 Disclosure of Interests in Other Entities
+Related IFRIC Interpretations
+Unconsolidated amendments
+Implementation support
+IFRS 10 supporting material
+Your privacy
+IFRS Foundation cookies
+We use cookies on ifrs.org to ensure the best user experience possible. For example, cookies allow us to manage registrations, meaning you can watch meetings and submit comment letters. Cookies that tell us how often certain content is accessed help us create better, more informative content for users.
+We do not use cookies for advertising, and do not pass any individual data to third parties.
+Some cookies are essential to the functioning of the site. Other cookies are optional, and we would like to set such cookies to help us understand how our website is used so we can make improvements to our services and to personalise your experience on our website.
+If you choose to “Accept optional cookies”, you agree to our usage of optional cookies. If you choose to “Reject optional cookies”, we will not use optional cookies.
+Select “Manage Preferences” to see additional information about cookies we use on our website and to manage which cookies you wish to allow to be used on our website.
+You can always revisit your choice on our privacy policy page.
+Accept optional cookies
+Reject optional cookies
+Manage preferences
+Cookie preferences
+Essential cookies
+Always active
+Essential cookies are required for the website to function, and therefore cannot be switched off. They include managing registrations.
+Cookie details
+Accept optional cookies
+We use analytics cookies to generate information about the usage of our website. This helps guide our content strategy to provide better, more informative content for our users. It also helps us ensure that the website is functioning correctly and that it is available as widely as possible.
+Cookie details
+Preference cookies
+Preference cookies allow us to offer additional functionality to improve the user experience on the site. Examples include choosing to stay logged in for longer than one session, or following specific content.
+Cookie details
+Accept optional cookies
+Reject optional cookies
+Save preferences
+View privacy policy page
+Cookie preferences
+Back
+Accept optional cookies
+Reject optional cookies
+Save preferences
+Share this page
+About us
+Around the world
+Contact us
+Funding
+IFRS Accounting Standards
+IFRS Sustainability Standards
+IFRS translations
+Jobs
+News and events
+Products and services
+Projects
+Shop
+Speaking requests
+Supporting implementation
+Academics
+Accounting profession
+Investors
+Media
+National standard-setters
+Preparers
+Regulators
+Students
+Stay in touch
+Register for news alerts
+The IFRS Foundation's logo and the IFRS for SMEs® logo, the IASB® logo, the ‘Hexagon Device’, IAS®, IASB®, ISSB™, IFRIC®, IFRS®, IFRS for SMEs®, IFRS Foundation®, International Accounting Standards®, International Financial Reporting Standards®,  NIIF® and SIC® are registered trade marks of the IFRS Foundation, further details of which are available from the IFRS Foundation on request.
+The International Financial Reporting Standards Foundation is a not-for-profit corporation incorporated in the State of Delaware, United States of America, with the Delaware Division of Companies (file no: 3353113), and is registered as an overseas company in England and Wales (reg no: FC023235). Head office: Columbus Building, 7 Westferry Circus, Canary Wharf, London E14 4HD, UK.
+© IFRS Foundation 2026
+Accessibility
+Modern slavery statement
+GHG emissions
+Policies
+Privacy and cookies policy
+Terms and conditions
+Trade mark guidelines
+Using our website
+Make a data protection complaint

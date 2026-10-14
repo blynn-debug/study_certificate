@@ -1,0 +1,14 @@
+{
+  "id": "mit_islm2011",
+  "requested_url": "https://ocw.mit.edu/courses/15-012-applied-macro-and-international-economics-spring-2011/34a6d1f233ff0174f9796a0c17f08390_MIT15_012S11_lec03.pdf",
+  "retrieved_url": "https://ocw.mit.edu/courses/15-012-applied-macro-and-international-economics-spring-2011/34a6d1f233ff0174f9796a0c17f08390_MIT15_012S11_lec03.pdf",
+  "retrieved_at": "2026-10-13T16:11:49.655307+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "14907e0c1f3dfe86ab7fc390c330806d776079109228bb7e122d1ea3fdea583f",
+  "binary_sha256": "14907e0c1f3dfe86ab7fc390c330806d776079109228bb7e122d1ea3fdea583f",
+  "text_sha256": "64d6f3d80c58ba05412147eeb3dab3c4a3fbf56c448c2c26ca77752829cb7916",
+  "pages": 12,
+  "characters": 21913,
+  "status": "retrieved_not_claim_verified"
+}

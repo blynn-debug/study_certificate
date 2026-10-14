@@ -1,0 +1,30 @@
+{
+  "source_id": "oic_bull_call",
+  "source_metadata": {
+    "id": "oic_bull_call",
+    "requested_url": "https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread",
+    "retrieved_url": "https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread",
+    "retrieved_at": "2026-10-13T04:33:10.139951+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 12182,
+    "content_sha256": "90070492158b9a20d91d6c03720696c0e6a81d7be863f747e11ddf0711fd234c",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "oic_bull_call:불콜스프레드구조",
+      "source_id": "oic_bull_call",
+      "article": "불콜스프레드구조",
+      "heading": "불콜스프레드구조",
+      "text": "Description\nA bull call spread is a type of vertical spread. It contains two calls with the same expiration but different strikes. The strike price of the short call is higher than the strike of the long call, which means this strategy will always require an initial outlay (debit). The short call's main purpose is to help pay for the long call's upfront cost.\nUp to a certain stock price, the bull call spread works a lot like its long call component would as a standalone strategy. However, unlike with a plain long call, the upside potential is capped. That is part of the tradeoff; the short call premium mitigates the overall cost of the strategy but also sets a ceiling on the profits.\nA different pair of strike prices might work, provided that the short call strike is above the long call's. The choice is a matter of balancing risk/reward tradeoffs and a realistic forecast.\nNet Position (at expiration)\nExample\nLong 1 XYZ 60 call\nShort 1 XYZ 65 call\nMAXIMUM GAIN\nHigh strike - low strike - net premium paid\nMAXIMUM LOSS\nNet premium paid\nThe benefit of a higher short call strike is a higher maximum to the strategy's potential profit. The disadvantage is that the premium received is smaller, the higher the short call's strike price.\nIt is interesting to compare this strategy to the bull put spread. The profit/loss payoff profiles are exactly the same, once adjusted for the net cost to carry. The chief difference is the timing of the cash flows. The bull call spread requires a known initial outlay for an unknown eventual return; the bull put spread produces a known initial cash inflow in exchange for a possible outlay later on.",
+      "start": 3495,
+      "end": 5143,
+      "sha256": "1e9a39b5c677a161c751eac89f58148ff89691cc673e4e6a2b0e5981fc99a67e"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

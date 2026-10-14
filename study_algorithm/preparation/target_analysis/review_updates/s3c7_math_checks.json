@@ -1,0 +1,31 @@
+{
+  "mwr52": 0.069693845669907,
+  "mwr_variant": -0.2679491924311228,
+  "geometric20_60": 0.38564064605510184,
+  "composite_annual": 0.44913767461894394,
+  "annual_sharpe_mock2": 1.7320508075688772,
+  "rank_counterexample": {
+    "A": {
+      "excess": 0.21,
+      "beta": 1.5,
+      "sigma": 0.35,
+      "sharpe": 0.6,
+      "treynor": 0.14
+    },
+    "B": {
+      "excess": 0.08,
+      "beta": 0.5,
+      "sigma": 0.4,
+      "sharpe": 0.2,
+      "treynor": 0.16
+    }
+  },
+  "tracking_not_residual": {
+    "beta": 2,
+    "market_sigma": 0.2,
+    "residual": 0,
+    "tracking_error": 0.2
+  },
+  "calc56_market_variance_A": 0.030000000000000006,
+  "calc56_market_variance_B": 0.0075000000000000015
+}

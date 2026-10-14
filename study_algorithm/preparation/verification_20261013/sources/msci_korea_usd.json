@@ -1,0 +1,14 @@
+{
+  "id": "msci_korea_usd",
+  "requested_url": "https://www.msci.com/documents/10199/6aea3198-1243-45bc-b1b8-442a6709354f",
+  "retrieved_url": "https://www.msci.com/documents/10199/6aea3198-1243-45bc-b1b8-442a6709354f",
+  "retrieved_at": "2026-10-13T01:12:01.080510+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "d5df9105e130afa2422ec033975b6efdf5b431304246a3f0b94263355f7b8962",
+  "binary_sha256": "d5df9105e130afa2422ec033975b6efdf5b431304246a3f0b94263355f7b8962",
+  "text_sha256": "3230e59a96b5e0f46e59596848bdf6caffaf552d921be677c0474d3c4a39e9f1",
+  "pages": 3,
+  "characters": 6707,
+  "status": "retrieved_not_claim_verified"
+}

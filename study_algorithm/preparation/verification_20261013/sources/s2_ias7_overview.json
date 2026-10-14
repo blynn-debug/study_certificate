@@ -1,0 +1,11 @@
+{
+  "id": "s2_ias7_overview",
+  "requested_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+  "retrieved_url": "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/",
+  "retrieved_at": "2026-10-13T16:20:53.426644+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "e9e968f064fe08374d447f75544163fd141fba0680a7dcfbdee2bb78dcc6652b",
+  "text_sha256": "db85a4a7429436fc645dd018e1abb1b072030c39ae8d7bfe94eece08fe62e9f2",
+  "status": "retrieved_not_claim_verified"
+}

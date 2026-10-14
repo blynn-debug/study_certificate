@@ -1,0 +1,12 @@
+{
+  "id": "s1_hf_advantage",
+  "requested_url": "https://www.hf.go.kr/ko/sub03/sub03_01_01_05.do",
+  "retrieved_url": "https://www.hf.go.kr/ko/sub03/sub03_01_01_05.do",
+  "retrieved_at": "2026-10-13T15:56:47.387428+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10656,
+  "content_sha256": "5aaf18c36ae4c5f7e623bb55edff1f59e4fc1d8be8aa5316582d0429404c20ad",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

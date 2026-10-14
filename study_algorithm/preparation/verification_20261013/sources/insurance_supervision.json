@@ -1,0 +1,18 @@
+{
+  "id": "insurance_supervision",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000279112&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000279112&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T03:45:35.639439+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 207095,
+  "content_sha256": "f0f718181dc8850d30f10b9b5323847706359393f0d73f531e112a2f0b6e2b46",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "5",
+      "6"
+    ]
+  ]
+}

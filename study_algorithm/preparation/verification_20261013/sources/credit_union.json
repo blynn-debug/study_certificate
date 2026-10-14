@@ -1,0 +1,18 @@
+{
+  "id": "credit_union",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285537&chrClsCd=010202&urlMode=lsInfoP&efYd=20260421&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285537&chrClsCd=010202&urlMode=lsInfoP&efYd=20260421&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:19.158001+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 63832,
+  "content_sha256": "47f8c0e31e3d8afe3d331cbcc7ab1226693a581a462971f3f652450bcb282fcd",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "4",
+      "21"
+    ]
+  ]
+}

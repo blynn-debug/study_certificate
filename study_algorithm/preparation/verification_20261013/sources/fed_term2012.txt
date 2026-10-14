@@ -1,0 +1,2126 @@
+FRB: Finance and Economics Discussion Series: Screen Reader Version - The Federal Reserve's Large-Scale Asset Purchase Programs: Rationale and Effects
+Skip to: [Printable Version (PDF)] [Bibliography] [Footnotes]
+Finance and Economics Discussion Series: 2012-85 Screen Reader version ♣
+The Federal Reserve's Large-Scale Asset Purchase Programs: Rationale and Effects
+Stefania D'Amico, William English, David Lopez-Salido, and Edward Nelson*
+First draft: March 2011 This draft: October 31, 2012
+Keywords: Large-scale asset purchases, history of unconventional monetary policy, monetary transmission mechanism, longer-term interest rates, preferred habitat, duration channel
+Abstract:
+We provide empirical estimates of the effect of large-scale asset purchase (LSAP)-style operations on longer-term U.S. Treasury yields within a framework that nests the alternative theoretical perspectives on LSAPs. As the principal channels through which LSAPs might matter for longer-term
+interest rates, we concentrate on (i) the scarcity (available local supply) channel associated with the traditional preferred habitat literature, and (ii) the duration channel associated with the general notion of interest rate risk. We also
+clarify LSAPs' role in the broader context of monetary policy strategy, bringing out the connections between purchases of longer-term assets and historical Federal Reserve policy approaches. Our results indicate that the impact of LSAP-style operations on longer-term interest rates is mainly felt
+on the nominal term-premium component; moreover, within the nominal term premium, it is the real term premium that experiences the greatest response. The estimates suggest that the scarcity and duration channels have both been of considerable importance for the transmission of purchases to
+longer-term Treasury yields. Finally, by isolating the degree to which scarcity and duration impinge on term premiums, our estimates indicate the direction in which macroeconomic models should develop in order to encompass the transmission channels associated with LSAPs.
+JEL Classification: E52, E58, G12
+1 Introduction
+Since late 2008, having brought the nominal federal funds rate down to its effective lower bound, the Federal Open Market Committee (FOMC) has taken steps to provide further monetary policy stimulus. One measure undertaken has been the provision of Committee guidance about the likely future path
+of the policy rate; for example, the Committee's statements from March 2009 through June 2011 indicated that economic conditions were "likely to warrant exceptionally low levels of the federal funds rate for an extended period" (see, for example, FOMC, 2009).1 The FOMC has, however, also made use of monetary policy tools other than forward guidance. In particular, the Committee has provided further monetary policy accommodation by authorizing a series
+of Federal Reserve purchases of longer-term securities, a policy known as "large-scale asset purchases" (LSAPs).
+The first program of LSAPs was announced in late November 2008, from which time the Federal Reserve purchased agency debt and agency-guaranteed mortgage-backed securities (MBS). In March 2009, the purchase program was stepped up and was also broadened to include longer-term Treasury securities.
+The first round of purchases was completed in March 2010. The next development in the Federal Reserve's purchases policy was the FOMC's announcement in August 2010 of reinvestment arrangements, under which the Federal Reserve-by redeploying into longer-term Treasury investments the principal
+payments from agency securities held in the System Open Market Account (SOMA) portfolio-would maintain the elevated level of holdings of longer-term securities brought about by the first series of LSAPs. From November 2010 to the end of June 2011, the Federal Reserve undertook a second LSAP program
+involving the purchase of $600 billion in longer-term Treasuries. The FOMC decided to continue to maintain the level of securities holdings attained under the LSAPs, and in September 2011 the Committee made further adjustments to its investment policy including an extension of the average maturity
+of its Treasury securities portfolio, and reinvesting principal payments from agency securities in MBS rather than longer-term Treasuries.
+FOMC members (for example, Bernanke, 2011a, Kohn, 2009, Williams, 2011, and Yellen, 2011) have emphasized that LSAPs are designed to affect the term-premium component of longer-term interest rates. Thus, while LSAPs differ from federal funds rate policy, which exerts its influence on longer-term
+rates principally via an impact on the expectations component of these rates, they share with funds-rate actions the intention of affecting the longer-term interest rates that bear importantly on spending decisions. In outlining the effect of LSAPs on term premiums, Kohn (2009) and Yellen (2011)
+appeal to the preferred-habitat literature. This literature, developed at an early stage by Tobin (1961, 1963) and Modigliani and Sutch (1966, 1967), has received a modern formalization in the work of Vayanos and Vila (2009).
+The preferred-habitat approach is, however, one of several theoretical perspectives capable of rationalizing the effects on longer-term rates of LSAP-style operations. A major aim of the present paper is to provide empirical estimates of the effect of LSAP-style operations on longer-term U.S.
+Treasury rates within a framework that nests the alternative theoretical perspectives on LSAPs. As the principal channels through which LSAPs might matter for the long rate, we concentrate on (i) the "available local supply," or "scarcity," channel associated with the traditional
+preferred-habitat literature-a mechanism under which the purchase by the Federal Reserve of assets with a specific maturity leads to higher prices (and lower yields) of securities with similar maturities; (ii) the "duration channel"-a mechanism under which the removal, by means of Federal Reserve
+purchases, of aggregate duration from the outstanding stock of Treasury debt reduces term premiums on securities across maturities;2 and (iii) the
+"signaling," or "expectations," channel mentioned above, which operates to the extent that LSAPs have an impact on market expectations of the short-term policy rate.3
+The present paper also advances on existing empirical work, such as Greenwood and Vayanos (2010), Gagnon, Raskin, Remache, and Sack (2011), D'Amico and King (2012), and Hamilton and Wu (2012), in several ways.4 First, by using CUSIP-level (i.e., security-specific) data, we can disaggregate bond supply by maturity class and thereby measure local supply or scarcity. Second, by analyzing SOMA holdings at the CUSIP level, we can measure more
+accurately the stock of privately held longer-term Treasury securities5 to pin down the responses to LSAP-style operations. We are
+therefore better equipped to address the key policy question empirically. Finally, by harnessing this finer degree of disaggregation, we can more definitively infer specific aggregate characteristics of the Treasury supply, such as the average duration of privately-held
+Treasury securities. Compared with studies such as D'Amico and King (2012) that also make use of CUSIP-level data, we flesh out the transmission channels involved in LSAPs, consider a different sample period, and focus our analysis on a decomposition of longer-term Treasury yields. Our approach
+thus seeks to disentangle the channels through which LSAPs work rather than simply ascertain the magnitude of the overall response of yields to the operations.
+We also clarify LSAPs' role in the broader context of monetary policy strategy. We highlight the connections between longer-term asset purchases and historical Federal Reserve approaches to monetary policy. This historical overview brings out episodes and institutional features that support our
+view that the theoretical arguments against the effectiveness of LSAPs are of limited applicability.
+Our results can be summarized briefly. The estimates indicate that local supply and aggregate duration of Treasury securities are positively and significantly related to longer-term Treasury yields and term premiums. According to our estimates, a sizable portion of the impact of variations in
+scarcity and aggregate duration on longer-term Treasury yields has been transmitted via the nominal term-premium component. Moreover, within the overall term premium, it is the real term premium component that exhibits the greatest response to these two variables; the
+inflation risk premium's response, in contrast, is quite small and is not uniformly statistically significant across different specifications. These findings are robust to the addition of a set of explanatory variables, including a flight-to-quality proxy, to the baseline regression. Finally, our
+estimates suggest that both the local supply and aggregate duration channels have been of considerable importance in delivering effects of purchases on longer-term Treasury yields.
+This paper proceeds as follows. Section 2 provides historical perspective on the Federal Reserve's longer-term securities market operations. Section 3 discusses theoretical perspectives on LSAPs and our means of discriminating between them. Section 4 shows that a specific sequence of events in
+2010 provides a case study that casts light on the main channels through which LSAPs may operate. Section 5 describes in detail the construction of the variables, ahead of the presentation of the main results in Section 6. Section 7 concludes by suggesting some implications of our results for the
+specification of macroeconomic models.
+2 LSAPs in historical perspective
+Section 14 of the Federal Reserve Act describes in these terms the open market operations which the Federal Reserve may conduct: "any bonds, notes, or other obligations which are direct obligations of the United States or which are fully guaranteed by the United States as to the principal and
+interest may be bought and sold without regard to maturities but only in the open market."6 The law's wording, "without regard to maturities," helps put the
+recent purchase program into proper perspective. Compared with the previous decades' focus on short-term interest rate policy, LSAPs do mark a break with convention. But viewed in terms of the tools that the Federal Reserve has historically had at its disposal, and has had occasion to deploy, LSAPs
+do not amount to an altogether unconventional policy. Rather, they can be seen as the latest in a series of Federal Reserve operations in longer-term securities markets. And, in common with short-term interest rate policy, the aim of these operations has been to affect aggregate demand by
+influencing longer-term interest rates. We put LSAPs in historical context by reviewing, in Section 2.1, Federal Reserve operations in long-term markets in the postwar period. Then Section 2.2 briefly reviews the chronology of the recent LSAPs.
+2.1 Operations in longer-term securities markets in the postwar period before 2008
+The Federal Reserve's pegging of bond prices during and after World War II is discussed in Bernanke (2002), who cites this experience as demonstration of central banks' capacity to affect longer-term rates directly if they transact in longer-term securities markets. As part of the "cheap
+money" policy instituted during the war, the Federal Reserve fixed a maximum value for very long-term interest rates of 2.5 percent, with the Federal Reserve standing ready to trade in longer-term Treasuries to enforce the ceiling.
+The bond price peg lasted from 1942 to 1951. Over part of this period, from 1942 to 1947, the pegging policy was undertaken in conjunction with the pegging of two other Treasury security rates: those on ninety-day bills and one-year notes.7 It is significant that the Federal Reserve's policy amounted for several years to enforcing values for a set of Treasury rates of different maturities. According to the pure expectations
+theory of the term structure, targeting three separate interest rates should succeed if and only if the private sector's expectations of the path of the short rate is aligned in a way that precisely generates the targeted configuration of rates. In this environment, for a given expected path for
+the short-term rate, direct intervention in longer-maturity Treasury markets could not contribute to achieving the peg. Moreover, the slightest fluctuation in expectations of the short-rate path would immediately imperil the peg. The picture painted by this well-known theoretical benchmark
+contrasts with the actual practice of the pegging policy. The period of bond rate pegging witnessed direct Federal Reserve intervention in longer-term markets which succeeded in delivering the three targeted rates. This suggests that central bank intervention in the longer-term Treasury markets
+provided an extra degree of freedom for the management of rates. Equivalently, for each security price targeted, the Federal Reserve had two instruments for hitting the target: its influence on expectations of the short rate and its transactions in the market for that
+security. Via direct intervention, the monetary authorities could achieve a configuration of interest-rate targets without having to rely on continuously maintaining a specific pattern of market expectations of future short-term rates.
+Soon after World War II, senior staff at the Federal Reserve Board voiced their reservations publicly about the implications of the bond peg. These concerns about the pegging policy typically did not imply a denial of the technical feasibility of pegging a set of
+rates across the maturity spectrum; on the contrary, the observed stability of the market yields on the targeted securities seemed to confirm the feasibility of that policy.8 The Federal Reserve's doubts about the pegging policy were instead grounded in the concern that it perpetuated an interest-rate structure that was incompatible with monetary stability.
+With the outbreak of the Korean War in 1950, continuous upward pressure on aggregate demand emerged, and the incompatibility of the pegging policy with inflation control became manifest. The Federal Reserve stepped away from the pegging policy in 1951, with the advent of the Treasury/Federal
+Reserve Accord. The Accord marked an important step in restoring central bank independence in the United States, and the accompanying abandonment of bond price pegging was important in achieving the goal of price stability. For the present discussion, however, the experience with the pegging policy
+provides an important case study. Although the lack of detailed market data on expectations of the short-term policy rate works against a clear-cut conclusion, the widely-taken lesson of this case study appears to be that the Federal Reserve's longer-term bond purchases did indeed stimulate
+aggregate demand and keep, for several years, the real-interest-rate component of longer-term rates lower than would have been the case without the purchases.
+Following the Accord, the Federal Reserve shifted to a policy of adjustable targets for short-term interest rates. As part of this framework, the Federal Reserve adopted a "bills-only" policy which restricted to short-term Treasury securities the class of assets traded in open market
+operations. Bills-only, adopted in 1953, prevailed for the balance of the decade, interrupted by a brief period of Federal Reserve purchases of coupon Treasuries in response to bond market disruptions in late 1955 and mid-1958 (see Cooper, 1967, pp. 14-15). Holdings of long-term bonds ran off the
+Federal Reserve's portfolio and declined sharply as a share of Federal Reserve assets in the course of the 1950s (see Figure 1).
+The thinking behind the bills-only policy was outlined by Riefler (1958a, 1958b).9 Riefler accepted that changes in the maturity composition of the Federal
+Reserve's balance sheet could affect longer-term interest rates for a given path of short-term rates.10 But he argued that the Federal Reserve had ample
+scope to affect longer-term rates by influencing market expectations of the short-term interest rate path. Riefler (1958b) accordingly concluded that the Federal Reserve could "exert an influence on long-term interest rates without direct intervention in the long-term market." This view was
+echoed in prominent market commentary.11
+Outside criticism of the bills-only policy persisted, however, and was buttressed by the emerging academic literature on imperfect links between the short- and long-term securities markets (such as Culbertson, 1957, Conard, 1959, and Ascheim, 1961), a literature later put on a firmer theoretical
+footing by Tobin's (1961, 1963) work on debt management and the term structure and by Modigliani and Sutch's (1966, 1967) laying out of the preferred-habitat model. The incoming Administration in 1961 was sympathetic to the criticisms of the bills-only policy. The Kennedy Administration saw merit
+in measures that could lower longer-term interest rates-which were widely regarded as more relevant for the determination of aggregate demand than were short-term rates-even as short-term rates were increased (a course for the policy rate designed to promote a greater rate of inflow of foreign
+capital). The resulting "Operation Twist" policy was ratified by the Federal Reserve (as reported in FOMC, 1961). Longer-term securities grew as share of the Federal Reserve's assets (again, see Figure 1). Initial verdicts on the success of the policy tended to be negative, with Marty (1962, p.
+208) referring to the "Federal Reserve's failure, in the early months of the Kennedy administration, to influence the rate structure." The unfavorable assessment apparently was not due primarilytothe behavior of long-term rates; these yields did indeed fall slightly in the early 1960s (see Figure
+2),
+Figure 1. Longer-term securities as a share of Federal Reserve assets, 1945-1980:
+(a) "Bonds" as percent of total assets; (b) "Notes and Bonds" as percent of total assets.
+Source: Federal Reserve balance sheet, Federal Reserve Board, Annual Report, various years.
+Figure 2. Effective federal funds rate and ten-year Treasury bond rate: Monthly averages, July 1954 March 2011 Source: FRED portal, Federal Reserve Bank of St. Louis.
+and were, as the Federal Reserve Board (1966, p. 1747) noted, more stable in the first half of the 1960s than they had been in preceding recoveries. But it was felt that this pattern of longer-maturity rate behavior was not obviously due to the Twist measures. Inflation expectations were likely
+declining over the early 1960s, and this has been singled out as the main factor driving the observed decline in longer-term rates (see, for example, Meigs, 1972, p. 271). Notwithstanding the emerging preferred-habitat literature, many economists at the start of Operation Twist were skeptical about
+portfolio effects of long-term bond purchases, and experience from the early 1960s probably reinforced that skepticism.12 For their part, adherents to
+preferred-habitat models could point out that the Treasury lengthened the maturity of its debt issues in the early 1960s, perhaps swamping the effect of the Federal Reserve purchases.13 A recent study by Swanson (2011), however, finds that a negative effect on government bond yields of the 1961 Federal Reserve purchases can be discerned when an event-study approach is taken.
+After 1963, the Federal Reserve largely returned to a bills-only policy. It continued to hold coupon
+securities in its portfolio; among these, holdings of agency securities issues grew after the late 1960s as the Federal Reserve took up some of the coupon issues of Fannie Mae and Freddie Mac, which, being government-guaranteed, were open-market-operation-eligible instruments. The end of Operation
+Twist is nonetheless evident in Figure 1 in the diminishing fraction of longer-term securities in the Federal Reserve's portfolio after the mid-1960s.
+Notwithstanding the absence of major Federal Reserve activity in longer-term markets, long-term interest rate behavior played an important part in Federal Reserve thinking in the late 1960s and 1970s. Board staff viewed the transmission of federal funds rates to longer-term rates as a key
+element in the transmission mechanism for monetary policy actions (see Pierce, 1974). The topic of term-structure determination received particular prominence in 1975 when a sharp decline in the federal funds rate was associated with little decline in the bond rate (see Figure 2). In light of the
+concern that longer-term interest rates were aberrantly high, a Board staff analysis in 1975, quoted in Meltzer (2009, p. 1002), considered the possibility of Federal Reserve intervention in the bond market. The staff memo judged that the expectations theory was the appropriate baseline for
+thinking about the effects of policy actions on longer-term rates. In such a framework, while term premiums could be a major factor driving bond yields, Federal Reserve asset purchases might not have reliable effects on premiums. Consequently, the Federal Reserve staff position in 1975 was that
+longer-term securities purchases were not worthwhile as an expansionary measure and that the pure expectations theory provided the best benchmark for viewing the connections between Federal Reserve actions and long-term rates.
+Likewise, in academia, with some exceptions (e.g., B.M. Friedman, 1978; Walsh, 1982), the expectations theory predominated in the 1970s and 1980s as the framework through which macroeconomists viewed long-term interest-rate determination, and preferred-habitat-style approaches to term-structure
+analysis fell into disfavor. In particular, the baseline term-structure equation in linearized rational expectations macroeconomic models treated the long-term rate as equal to the efficient forecast of the stream of policy rates, up to a premium which was treated as exogenous or constant (see
+Mishkin, 1978, and Plosser, 1982, for early examples). By the mid-1980s, Lucas (1987, p. 2) was looking back on Operation Twist as having involved "issues that seemed so important as they were occurring and are so hard to remember now."
+The expectations-theory benchmark predominated in policy circles in the 1980s. The Federal Reserve kept some longer-term securities in its asset portfolio, but officials were doubtful of the existence of portfolio effects. As one official put it (Davis, 1982, p. 56): "I have always assumed
+that, in the United States at least, the evidence and the theory have strongly argued against our ability to have significant and predictable effects on the yield curve, through changes in [the] maturity composition of the Fed's portfolio." Likewise, in testimony in early 1992 Federal Reserve
+Chairman Greenspan emphasized the expectations channel, arguing that it was "only in that context that we believed we could get a significant decline initiated in long-term rates."14
+With the resurgence of monetary policy analysis in academic circles after the early 1990s, the pure expectations theory largely remained the baseline for thinking about longer-term interest rates, most notably so in linearized dynamic macroeconomic models of the New Keynesian type. The
+short-term interest rate path was considered the critical variable under the control of monetary policy, and monetary policy analysis stressed the contribution that forward guidance about the funds rate could consequently make to stabilization of aggregate demand and inflation (see, for example,
+R.G. King, 1994; Rotemberg and Woodford, 1999).
+The scope for monetary policy to affect longer-term rates via means other than short-term rate policy was reconsidered, however, in a literature that emerged over the late 1990s and early 2000s. The zero lower bound had been reached in Japan, while in the United States, the federal funds rate
+target in 2002 to 2004 took low values and the lower-bound emerged as a possibility. Mervyn King (1999) and Bernanke (2002) suggested that central bank purchases of long-term bonds were a means of providing monetary policy stimulus when the short-term policy rate was at its lower bound. Around the
+same time, the information revealed by the Treasury buyback program potentially offered new insight into the effect of debt-management operations on the term structure.15 In particular, the buyback could throw light on the likely impact of other possible debt-management operations such as central bank purchases of long-term bonds. Bernanke, Reinhart, and Sack (2004) inferred from the experience of the buyback program that Federal Reserve
+operations in long-term debt could have appreciable effects on the long-term interest rate for a given path of short-term interest rates. Nevertheless, considerable doubts about this policy option endured in the literature, with Eggertsson and Woodford (2003) providing a well-known critique.
+2.2 LSAPs, 2008 to 2011
+The basic chronology of LSAPs was outlined in the introduction. The original sequence of
+purchases, from November 2008 to March 2010, began with purchases of the debt securities issued by housing-related government-sponsored enterprises (GSEs) and agency-guaranteed mortgage-backed securities. As discussed previously, agency debt and agency-guaranteed securities are
+open-market-operation-eligible securities. The Federal Reserve's first appreciable acquisition of agency-related securities was in the early 1970s; prior to recent years, the peak level of holdings was in 1981 (see Meulendyke, 1998, pp. 40-41). The November 2008 decision to undertake large-scale
+Federal Reserve purchases of agency-related securities came in the wake of a widening spread of yields on these securities compared with those on Treasuries, and it was motivated by the desire to "reduce the cost and increase the availability of credit for the purchase of houses, which in turn
+should support housing markets and foster improved conditions in financial markets more generally" (Federal Reserve, 2008). The scale of the LSAPs was expanded at the March 2009 FOMC meeting, when the Committee decided to bring its maximum purchases of agency MBS to $1.25 trillion and of agency
+debt to $200 billion (a maximum subsequently lowered to $175 billion); in addition, it decided to purchase up to $300 billion of longer-term Treasury securities over the following six months (FOMC, 2009). The purchases of agency-related securities were completed in March 2010.
+In August 2010, the FOMC adopted a policy of reinvesting principal payments on holdings of agency securities in longer-term Treasury securities. The policy thus maintained the aggregate level of securities holdings, and the associated degree of monetary accommodation, in place at that time. In
+the face of signs of a slowing recovery, Bernanke (2010) listed a new LSAP program as an option and, in November 2010, the Committee decided to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a program duly completed at the end of June
+2011. More recently (September 2011), the Federal Reserve launched the Maturity Extension Program (MEP). Unlike LSAPs, MEP operations are largely sterilized and do not increase the Federal Reserve's overall securities holdings. Like LSAPs, however, they lengthen the maturity structure of the
+Federal Reserve's securities holdings, and thus depend on channels like those underlying the rationale for LSAPs; in particular, MEP should work via the "duration" channel discussed below. We turn now to a discussion of the transmission channels that might be associated with LSAPs.
+3 Transmission channels for LSAPs
+In this section we outline some of the main channels through which LSAPs might work.
+3.1 3.1 Expectations/signaling channel
+The signaling or expectation effect captures those changes in the expected path of future short-
+term rates that arise from perceived new information that LSAP measures might relay about the state of the economy and the Federal Reserve's short-term interest-rate reaction function. This effect works through, and relies on, the standard expectation hypothesis concerning the connection between
+short- and longer-term interest rates.
+3.2 Traditional preferred-habitat/scarcity channel
+While the expectations channel is widely acknowledged as one means through which monetary policy affects longer-term interest rates, its existence does not preclude the possibility that direct purchases of longer-term securities act on the term-premium component of longer-term rates by setting
+in motion a portfolio balance mechanism. Deviations of longer-term interest rates from the predictions of the strict expectations theory have been repeatedly documented in the literature, and the preferred-habitat approach advances the view that some of these deviations are attributable to
+variations in the relative supplies of outstanding stocks of debt. The position that longer-term yields depend in part on the relative quantities outstanding of longer-term assets in the hands of the private sector (including commercial banks) was the subject of a substantial literature in the
+1950s and the 1960s (see Culbertson, 1957, Modigliani and Sutch, 1966, Wallace, 1967, and the references discussed in Section 2). Recently, Vayanos and Vila (2009) have offered more rigorous foundations for this approach within a term-structure model with two types of investors. The
+preferred-habitat investors in this framework are disposed to purchasing securities of certain maturities, while arbitrageurs can profit by trading across maturities, but risk aversion prevents these agents from taking complete advantage of profit opportunities.16
+The preferred-habitat approach provides a rationale for asset price adjustments in the wake of a shift in the quantities of specific maturities of government debt held by private agents. Underlying the view that the maturity composition bears on asset prices is the premise that a permanent
+demand exists from a class of investors for marketable, fixed-income securities. Thus, in segmented-market models featuring imperfect asset substitution, a reduction in the stock of securities of a particular maturity in the hands of private investors creates a shortage of those assets that cannot
+be wholly relieved, at existing asset prices, by substitution into other securities. The shortage thus prompts an adjustment of financial market prices. Such a scarcity effect may be spread over time, and it could be manifested in bond rates for a particular
+maturity.
+An official purchase program that makes longer-term Treasuries scarcer is then likely to generate downward pressure on longer-term Treasury yields. Such a "local supply" (or scarcity) effect of LSAPs can be thought of as withdrawing longer-term securities from the hands of the private sector
+and thereby creating a prospective excess of demand over supply for fixed-income assets. As a result, the market for long-term securities clears at a lower equilibrium quantity and a higher price, that is, a lower yield. This yield adjustment would not occur in simple representative-agent
+frameworks but becomes part of the adjustment process in an environment that allows for heterogeneity among private investors. Thus, when a class of investors underpins the demand for longer-term securities, conditions are created that break the pure expectations theory of the term structure and
+make the term premium a function of the ratio of short-term to longer-term securities outstanding. It is this departure from the representative agent framework that implies that the result of Eggertsson and Woodford (2003), according to which monetary policy's effect on longer-term rates is limited
+to the expectations channel, no longer holds.
+3.3 Duration channel
+The Vayanos-Vila (2009) preferred-habitat framework referred to above, in addition to featuring local supply effects, also implies a direct relationship between the term premium and the average duration risk faced by investors, in particular by the arbitrageurs.17 To the extent that LSAP-style measures remove duration risk from the market by withdrawing a portion of long-term securities, the risk premium built into the price of such assets should
+decline. The removal of duration risk should generate reactions of yields across much of the maturity spectrum-not just on the yields of purchased securities and those of adjacent maturities.
+3.4 Comparison with another typology of channels
+The preceding catalogue has allowed for three channels through which monetary policy might affect longer-term interest rates: the expectations or signaling channel, the scarcity or local supply channel, and the duration channel. Krishnamurthy and Vissing-Jorgensen (2011, p. 216) endeavor to
+outline "the principal theoretical channels through which QE [quantitative easing] may operate," and we now briefly compare our own typology with theirs.
+Some channels are common to both typologies: Krishnamurthy and Vissing-Jorgensen consider duration and signaling channels, also included in our own list, while their "safety premium channel"-under which a segmented demand for long-term safe assets tends to lower yields on those securities-is
+subsumed within the scarcity channel of the preferred-habitat literature. Krishnamurthy and Vissing-Jorgensen also refer to the "liquidity channel," under which downward pressure on long-term rates emerges as reserves become plentiful relative to long-term bonds. We do not treat this as a
+distinct channel here; we focus on channels that remain in operation when short-term interest rates are at their lower bound. In the vicinity of the zero bound on short-term interest rates, commercial bank reserves and short-term Treasuries are largely equivalent; operations that exchange bills for
+longer-term securities become analytically similar to those that exchange reserves for longer-term securities, and the supply effect of either operation depends on a scarcity channel. Finally, Krishnamurthy and Vissing-Jorgensen classify the "inflation channel," under which LSAPs change inflation
+expectations, as a separate channel. The reaction of inflation expectations, however, can be viewed as a consequence of the operation of the preceding channels, rather than as a channel in its own right. Thus, we believe that our typology of channels, though listing fewer transmission mechanisms
+than those given in Krishnamurthy and Vissing-Jorgensen (2011), covers all the channels likely to be relevant for the analysis of LSAPs. Our estimates in Section 6 below provide a way of determining the importance of each channel given above. Ahead of that, we briefly consider a case study.
+4 Some initial empirical evidence: a case study
+The sequence of events following the FOMC meeting of August 10, 2010, throws considerable light on the impact of LSAP-style operations on longer-term Treasury yields. In its statement after that meeting, the FOMC announced (at 2.15 p.m.) that principal payments from agency securities would be
+reinvested in longer-term Treasury securities. Soon thereafter, at 2.45 p.m., the Federal Reserve Bank of New York (FRBNY) issued a statement indicating that the purchases underlying the reinvestment policy would be concentrated in the two- to ten-year sector of the nominal Treasury yield curve.
+Changes over this half-hour interval in market expectations (as ascertained from observed yield behavior) are revealing about the respective roles of the scarcity and duration channels in determining Treasury yields.
+Our analysis of this episode considers the prices of four previously-issued thirty-year Treasury bonds with remaining maturities just around ten years or just above fourteen years, shown in Figure 3.18
+Figure 3: CUSIP-level intraday prices on August 10, 2010:
+Vertical lines indicate time of announcements.
+Source: Thomson Reuters Tick History database.
+Based on the 2:15 p.m. announcement, these classes of securities may well have been perceived as equally likely candidates for purchase by the Federal Reserve. Following the release of the statement by the FRBNY, however, investors should have assigned a smaller probability to the Federal
+Reserve purchasing securities with remaining maturities above 10 years.19 We therefore would expect the second announcement to have no material impact on the
+prices of Treasury securities with two- to ten-year maturities (the two solid lines in Figure 3), but to exert a potentially sizable price impact on securities with maturities beyond ten years (the two broken lines).
+The first two rows of Table 1 establish that, in response to the FRBNY statement, the two securities
+with maturities close to or below ten years experienced a reversal of only about twenty percent of the price increases that had come in the wake of the FOMC announcement.20 In contrast, for the two securities with maturities above fourteen years, about two-thirds of the initial price increase was reversed in the wake of the FRBNY announcement. The contrasting extent of price reversals across the two maturity groups suggests that roughly
+two-thirds of the decline in the fourteen-year Treasury yield is attributable to the anticipation of a reduction in supply around that maturity-which is to say, the scarcity channel.21 The part of the price movement that endured in the wake of both announcements likely reflected the anticipation of reduction in aggregate duration.
+Furthermore, in the wake of the second announcement, the on-the-run thirty-year Treasury yield more than reversed its earlier decline, suggesting that the price action at this maturity was almost entirely driven by changing perceptions of the likelihood of purchases being conducted in this
+sector rather than by expected changes in duration. Although we cannot rule out the possibility that a fraction of these variations was due to revisions to funds-rate expectations, it seems reasonable to assume that those would likely only have a minor impact on yields so far along the yield
+curve.
+5 Data description and variable construction
+In this section, we discuss our data sources and the series that we construct from the data. In order to generate accurate measures of local Treasury supply (that is, the supply of the security in question and that of securities with nearby maturities) and to discern
+the aggregate characteristics of Treasury debt held by private investors, we start from CUSIP-level data (that is, data delineated by the identification number of the issued Treasury security). For each CUSIP we have available the total amount outstanding (TAO), the
+amount held in the Federal Reserve's SOMA portfolio (SOMA), and the cumulative amount of any Treasury buyback (TB), all of which are measured at par value. The availability of these three components allows us to derive for each CUSIP the
+amount held by private investors (that is, investors not including the Federal Reserve). This is a central variable in our analysis because it can be altered by Federal Reserve purchases of longer-term Treasury securities, and because it is a possible influence on the behavior of longer-term
+Treasury yields.
+Previous studies such as Greenwood and Vayanos (2010) and Hamilton and Wu (2012) documented the importance of certain aggregate characteristics of the Treasury debt for the determination of the term structure. Owing to data limitations, these studies did not, however, exclude actual Federal
+Reserve securities holdings from the totals of Treasury debt outstanding. Consequently, the holdings-aggregates used in these studies suffer from the shortcoming that they are not ideal for addressing the impact of LSAP-style purchases.
+Furthermore, to compute correctly the average maturity or duration remaining in the market in the wake of Federal Reserve purchases, it is crucial to employ the share of each CUSIP held by the private investors, as those shares determine the appropriate weights in the aggregation. It is also
+important to have data recorded at high frequency, since quantities outstanding experience frequent changes as a result of Treasury auctions and Federal Reserve operations. This finer level of data disaggregation does, however, come with the cost that we are limited to a shorter sample period in
+our estimation, as data on SOMA holdings at the CUSIP level are available only from December 2002.
+5.1 Constructing our variables
+We use these data to construct our proxies for scarcity and duration. Consistent with a concept of scarcity that corresponds to the local availability of securities of a particular maturity, we split the available CUSIPs into distinct
+"buckets" according to maturity. For each of these buckets b,we compute privately-held nominal Treasuries (PHNT) as a fraction of total Treasury debt outstanding (TDO): 22
+where i is the index for the CUSIP, and m and n are the indexes for the maturities. We exclude indexed Treasury bonds (TIPS) and Treasury bills from our computations. Our proxy for the aggregate duration risk (ADR) remaining in the market is computed as a weighted average of the modified duration (MD) in each bucket (the thinner the bucket, the more accurate is the measure,
+prompting our choice that each bucket contains only one CUSIP, i.e., b =):
+for every available maturity m up to 30 years. We face a possible simultaneity problem arising from the fact that a lower yield would imply a lengthening of the duration of any Treasury coupon security. To mitigate this simultaneity problem, we compute the difference
+between ADR and the duration of on-the-run ten-year Treasury notes (D10y).23 We define the duration
+gap (DG) as:
+DG = ADR - D10y.
+As both the variables on the right-hand side of the preceding expression are affected by the mechanical element of the change in duration, a focus on fluctuations in the difference between the two series is likely to pinpoint the more meaningful movements in duration.
+It is useful to note, in comparing our results with existing studies, that the derivation of our proxy for the aggregate duration risk remaining in the market simply amounts to an alternative means of weighting the Treasury securities contained in each maturity bucket b. On the other hand, taking into consideration the fact that our series includes only those Treasury securities held by private investors, and the fact that the sensitivity to interest-rate risk of a bond of a particular maturity depends on
+its duration, we contend that our ADR (and hence DG) series are closer in spirit to the concept of aggregate risk of the arbitrageurs' portfolio underlying the Vayanos-Vila (2009) analysis.
+To the extent that investors are principally concerned with the duration risk of their portfolio, ADR provides the most convenient summary of the degree of interest-rate risk in the market. It should therefore contribute to the explanation of the behavior of bond risk
+premiums. If, however, this constituted the only relevant channel connecting Federal Reserve bond purchases to longer-term Treasury yields, we would observe yield changes that were monotonic in the amount of duration. Thus, if Federal Reserve operations tended to reduce
+the amount of duration that private investors were required to absorb, the impact on the thirty-year Treasury yield would considerably outweigh the impact on the ten-year yield. The available empirical evidence on the effect of LSAPs, as well as on the announcements concerning reinvestments of
+proceeds from agency securities, suggests that
+this is not the case (see, for example, D'Amico and King, 2012, Figure 2, and Krishnamurthy and Vissing-Jorgensen, 2011, Table 1). This lends weight to the view that additional channels might be important. Moreover, the occurrence of larger impacts in sectors in which most of the purchases
+Figure 4. Privately held nominal Treasuries and average duration
+were concentrated points toward local supply and demand effects. With this in mind, we constructed our scarcity proxy in the manner described above.
+Figure 4 displays the time series of PHNT and ADR, as constructed from weekly CUSIP-level data from December 2002 to August 2011. The periods of the first and second LSAP programs are indicated by shaded regions in the figure. As expected,
+in these periods the share of Treasury securities held by private investors exhibited a large decline, reflecting the securities added to the SOMA portfolio. In contrast, ADR, which is measured in units of years, recorded only a modest decline during the first and second
+LSAPs, as most of the purchases were concentrated in the two- to ten-year sector. Counterfactual computations indicate that during the first LSAPs the average duration of privately held Treasury debt outstanding was reduced from 4.42 to 4.30 years, and was reduced by a similar extent in the course
+of the second LSAP program. These patterns indicate that very large policy interventions in the sector beyond the ten-year maturity are required to remove a significant amount of duration from the market.
+5.2 A look at the data correlations
+Here we illustrate how our decomposition of PHNT into thin buckets highlights key aspects of the correlation structure between longer-term Treasury yields and the available supply for each bucket. Table 2 displays correlations between
+constant-maturity yields and local Treasury security supply as measured by the relevant PHNTs, where (here and below) the notation PHNT(m: a-b) denotes the
+bucket covering maturities from a years up to, but not including, b years. The correlation structure for December 2002 to October 2008-a sample that precedes the inception of LSAPs-is suggestive of a role for imperfect substitution across
+sectors of the yield curve. Treasury yields at maturities between two and ten years are positively correlated only with Treasury supply with a maturity between two and twelve years, and they are negatively correlated with the supply with maturity between twelve and twenty-eight years. In contrast,
+Treasury yields with a maturity of fifteen years and beyond are positively correlated only with the supply concentrated in maturity buckets beyond twelve years.
+This correlation pattern is fully reversed in the sample period covering the two LSAPs (see Table 2, lower panel). It may be that Federal Reserve actions in longer-term Treasury markets are the main factor driving the sign-change. If the bucket combinations used here imply that Treasuries with
+similar yield behavior are grouped together, and if it were the case that the Federal Reserve bought large amounts of securities whose yields showed the strongest upward trend, then we would observe a combination of rising yields on those securities and decreasing
+quantities available to private investors. Such a pattern should be more evident for the maturity sectors in which the Federal Reserve concentrated purchases, namely, the two- to fifteen-year sectors.
+This result points to the likelihood that the purchases strategy over sample periods that include LSAPs is a factor that hinders attempts to determine by statistical methods the structural relationship between yields and quantities. This endogeneity problem, which is stressed in D'Amico and King
+(2012), underscores the importance of our subsample analysis for bringing out the underlying relationship between longer-term Treasury yields and the securities supply available to private investors. The preliminary data analysis also indicates that yields and quantities are highly correlated in
+some of the buckets, and it suggests that it would be preferable to group the buckets according to common correlation patterns. In particular, we can group together PHNT from two- to ten-year maturity buckets and PHNT from twelve- to
+twenty-eight-year maturity buckets without losing much of the information contained in the data. Finally, it is important to note that only in the first subsample do we observe a monotonic pattern of the kind we would expect for the correlation between longer-term Treasury yields and the duration
+gap, the correlation being, by contrast, quite flat in the second subsample.
+6 Empirical specification and results
+This section provides our estimated specifications. We initially consider the levels of nominal Treasury yields at different maturities, obtained via Svensson's (1995) yield-curve approximation, and present results that are largely model-independent, in the sense that only quite general
+assumptions are required to generate the dependent variables. Then, using different specifications of a Gaussian three-factor model of the term structure, we focus on the term-premium component of longer-term Treasury yields.24 We also consider whether these results are robust to alternative specifications. Finally, using the affine term structure model augmented with TIPS-the model for which we have the greatest confidence when it comes to the
+decomposition of nominal term premiums-we estimate impacts on the real term premium and the inflation risk premium.25
+Table 3 reports estimates that result from regressing nominal Treasury yields at different maturities on our proxies for scarcity and aggregate duration after controlling for the slope of the term structure, which is measured by the spread between the two- and ten-year yields. The slope variable
+has been widely found to be a predictor of both economic activity and Treasury returns.26 Accordingly, we regard its inclusion as important for establishing
+whether our proxies (scarcity and aggregate duration) are important in their own right in accounting for the behavior of longer-term rates.27 We note that
+our equations, like those in all previous studies of LSAPs, are specified in terms of actual scarcity and duration proxies rather than the expected path of these variables. This specification might not be wholly appropriate for the LSAP period, as LSAP programs consisted
+largely of purchases announced some time in advance, and announcements of future effects on scarcity and duration likely figured in the reaction of longer-term rates. This issue, however, is less problematic for our estimated specifications, since-in light of the analysis of the preceding
+section-our estimation period predates the LSAP programs.
+We consider only securities with at least seven years to maturity (seven- to thirty-year nominal yields); shorter-term yields for our sample appear to exhibit clearly nonstationary time series behavior, reflecting both the fact that our sample features only two funds-rate "cycles"-one
+tightening and one easing-and the fact that shorter-term yields, presumably being dominated by the expectations component rather than term premium behavior, tend to mimic funds rate behavior more closely. The top panel of Figure 5 confirms that the main driver of shorter yields is the expectations
+component. In contrast, the term-premium component seems to be the dominant source of fluctuations in yields when longer-term rates are considered-as can be seen in the lower half of Figure 5. The latter pattern implies more stationary behavior of interest rates, as the term-premium component in
+this sample is less persistent than the expectations component.
+A further consideration that reinforces the desirability of concentrating on pre-crisis behavior when ascertaining the effect of LSAP-style operations is that the residual or "fitting error" for the term-structure specification used to decompose longer-term rates became unusually large in late
+2008 and early 2009. Thus, over this period, our scope to make judgments about overall longer-term interest rate behavior based on the decomposition is reduced. Since our econometric work concentrates on the determination of these systematic terms, it seems all the more appropriate to confine our
+estimation sample periods to the pre-crisis period.
+The specification of the nominal yield equation is (neglecting the error terms):
+for , and
+for , where all the variables are observed weekly. Since we are considering persistent variables, and some of the data's persistence might carry through to the behavior of the
+estimated residuals, the t-statistics are computed using Newey-West (1987) standard errors, allowing for a four-week window. The estimated coefficients for our measures of scarcity and aggregate duration are both positive and statistically significant across all
+maturities even after controlling for the slope of the yield curve, with the adjusted R's varying from 0.46 to 0.70.28 The signs of the estimated
+Figure 5. Decomposition of Treasury yields
+coefficients are in the predicted direction: the lower is the volume of privately-held Treasury securities in a specific maturity sector, the lower the yield prevailing in that sector; likewise, the smaller the amount of aggregate duration left in the market, the lower should be the yields.
+Table 4 displays results for a set of regressions similar to the baseline, but instead of aggregating PHNT into only two broad maturity buckets, we consider two-year-wide buckets with maturities within few years of the yield's maturity. That is, we seek to test
+further the impact of scarcity, or local supply. In particular, we restrict attention to the bucket centered on the yield's maturity, and to the two buckets with maturities just above and below it.29 For the majority of the yields, the results appear to suggest that the PHNT buckets with the closest maturity to the yield tend to exhibit higher positive correlations and/or stronger statistical
+significance.
+We now consider results for the nominal term-premium (TP) component of longer-term Treasury yields. The upper panel of Table 5 reports the results for the following regression:
+where the TP series has been derived using an affine term structure model (ATSM) with TIPS.30 In light of the fact that, over
+this sample, the TP component of medium-term yields appears to be stationary, we also consider results using the two- and five-year term premiums as the dependent variable.
+The first notable feature of the results, previously found for our nominal yield regressions, is that the coefficients on our measures of scarcity and aggregate duration are positive and statistically significant. Another notable feature is that the magnitude of the coefficients seems to
+indicate that a large part of the impact of scarcity and aggregate duration on longer-term Treasury yields has been transmitted via the term-premium component. Put another way, the effects on the term premiums found here are similar in size to those on the entire yields. Finally, for both
+variables, beyond the two-year maturity, the coefficient estimates are fairly similar across the different maturities.
+The presence of significant impacts of scarcity and duration in the term premium regressions strongly suggests that the significance of these variables for long-term interest rate variation is not arising from their correlation with expected future policy rates. LSAP-style operations would
+appear to exert a distinct impact on longer-term interest rates for a given path of the short-term policy rate. The signaling channel, while present, is evidently not the main means by which LSAPs can reduce longer-term interest rates.31
+Figure 6. Counterfactual yield curves
+To illustrate the scarcity and duration effect of LSAP-style operations, we construct counterfactual yield curves obtained using the results in Table 5 for the nominal term premium. The resulting yield curves are shown in Figure 6. For simplicity, the counterfactual exercise starts from the
+actual yield curve as of October 29, 2009-at the conclusion of the first Treasury LSAP program-and treats all purchases ($300 billion) as concentrated in the two- to ten-year sector. In addition to the actual yield curve (solid line) that incorporates the effect of the first Treasury LSAP program,
+the figure plots the estimated yield curves that would have prevailed without the scarcity effect of LSAP (dotted line), without the aggregate duration effect (dashed line), and without either of these effects-i.e., the no-LSAP case (the combined dashed/dotted line). The scarcity effect is the
+largest for the five-year yield at about 23 basis points and is slightly smaller for the two- and ten-year yield at about 18 and 20 basis points, respectively. The aggregate duration effect is larger for longer maturities: it is about 6.5 basis points for the two-year yield; about 8.7 basis points
+for the ten-year yield.
+The middle and bottom panels of Table 5 provide results for the real term premium (RTP) and the inflation risk premium (IRP) components of longer-term yields. The estimated regression specifications take the form:
+and:
+In the specification with RTP as the dependent variable, the coefficients on both scarcity and aggregate duration are positive and statistically significant across all maturities. For the specifications with the inflation risk premium as the dependent variable, only
+aggregate duration seems to be consistently significant across the different maturities. Further, comparison of the coefficient estimates across the regressions reveals the extent to which PHNT and DG impact TP,
+thus confirming that the bulk of the response is in the RTP component- as one would expect if preferred-habitat mechanisms are operative.
+In Table 6, we show that our results are robust to controlling for additional explanatory variables. The results in the table also reflect our attempt to address a potential simultaneity problem. If the aggregate characteristics of PHNT, such as average maturity and
+duration, are in part driven by macroeconomic variables, then they would likely have predictive content for longer-term Treasury yields and term premiums even in the absence of a structural relationship. In light of this consideration, we estimate regressions with PHNT
+and DG as regressors alongside the following variables: the Aruoba-Diebold-Scotti (2009) index (whose inclusion is a means of controlling for real-time business conditions at the weekly frequency),32 the weekly average of intraday correlation between stock returns and changes in the ten-year bond yield (so as to control for "flight-to-quality" episodes),33 and Treasury option-implied volatility (to control for interest-rate uncertainty).34 Table 6 presents estimates of the specification
+where X varies across specifications depending on which of the three candidate additional explanatory variables is being employed.
+The regression results for the nominal term premium and the real term premium indicate that the
+coefficients on scarcity and duration remain positive and statistically significant after including each of the new explanatory variables. Moreover, the key estimated coefficients are little altered, as is clear by a comparison across the three columns for each yield (with each column corresponding
+to a specification with a particular additional explanatory variable). Also noteworthy is that the specification that includes the flight-to-quality proxy is the equation with the highest explanatory power. Thus, flight-to-quality considerations would appear to be an important factor in the
+determination of longer-term Treasury rates.
+More importantly, scarcity and duration remain highly significant even after controlling for the flight-to-quality proxy. Krishnamurthy and Vissing-Jorgensen (2012) point to the flight-to-quality episodes as occasions on which there is a sharp increase in the utility derived from the
+"convenience"-style vehicles such as longer-term Treasury securities. This observation might suggest that controlling for flight to quality could render insignificant the variables designed to stand in for preferred-habitat-type effects, but that is not the case in our results. Our results also
+suggest, consequently, that for Treasury securities, absence of default risk is not the main source of preferred-habitat behavior or market segmentation.35
+In the case of the regressions with the inflation risk premium as the dependent variable, the results are more sensitive to the inclusion of the additional explanatory variables. In particular, when we control for Treasury option-implied volatility (see the first column of each table),
+DGis no longer statistically significant, perhaps because a single variable is an adequate stand-in for interest-rate risk. Moreover, for the seven- and
+ten-year yields, when we control for the flight-to-quality variable or the business conditions index, PHNT is not significant. Finally, when, in the third column, we control for business conditions, DG is no longer significant in explaining
+longer-term yield behavior. More importantly, when we introduce additional explanatory variables, the estimated coefficient on DG becomes considerably smaller while that on PHNT is not affected. The sensitivity of these results for the
+inflation risk premium supports the position that the main means through which LSAPs impact longer-term yields is via the real term premium.
+One difficulty with the interpretation of our baseline regressions is that variations in the slope of the yield curve should partly reflect the impact of changes in PHNT and DG. Thus, our inclusion of a proxy for this explanatory variable
+in the regressions could be reducing the estimated effects of scarcity and duration, leading to an understatement of the effects on longer-term yields that arise from LSAP-style actions. To address this difficulty, we attempt to control for the influence of the slope factor by including a variable
+that is not directly altered by purchases of longer-term Treasury securities. In particular, we employ the slope of the swap term structure rather than that of Treasury yields.36 As the upper panel of Table 7 shows, results are not substantially changed by the employment of this alternative measure; the estimated coefficients on scarcity and on aggregate duration both become modestly smaller.37
+In a separate appendix, we present supplementary results that establish the robustness of our baseline estimates to variations in the specification and that also show that our proxies for scarcity and duration are important in accounting for the observed variations in fixed-income securities
+other than Treasury bonds. The appendix also presents estimated impact of our scarcity and duration variables on corporate bond rates, measured as zero-coupon yields obtained via the Nelson-Siegel (1987) yield curve approximation.
+Finally, the lower panel of Table 7 shows the results of our preferred specification:
+This specification includes both the slope of the swap yield curve and (as the X variable) the flight-to-quality proxy, which is the only other explanatory
+variable that is statistically significant across all maturities and which greatly increases the explanatory power of the regression.38 The magnitude of the coefficient estimates suggests that purchases with a maturity between two and ten years that reduce PHNT by one percent-which, at the end of the first LSAP
+program, amounted to roughly $64 billion-would be associated on average with about a five basis point decrease in yields of comparable maturity. This estimate implies that the scarcity effect from the first of the Treasury LSAPs (which totaled $300 billion) was about 23 basis points.
+In addition, a one-year decrease in the aggregate duration of Treasury securities held by the public is estimated to push the five- to ten-year yields about 100 basis points lower. As indicated in section
+5.1, the first LSAP program reduced average duration by 0.12 years, which in turn translates into a 12 basis point reduction in longer-term Treasury yields. Thus, the total impact from the first LSAP program would, on this calculation, be about 35 basis points. These estimates are about in line
+with the estimates of D'Amico and King (2012) but larger than the estimates reported in Gagnon, Raskin, Remache, and Sack (2011). Similarly, our results suggest that the scarcity effect from the second LSAP program is about 35 basis points (taking into account the fact that at the end of the second
+LSAP program one percent of PHNT amounted to $86 billion) and the duration effect is about 10 basis points, as this program-although larger in dollar size than the first LSAP for Treasuries-removed only 0.1 year of duration from the market because all the purchases were
+concentrated in the two- to ten-year sector. Thus, the total effect on longer-term Treasury yields of the second LSAP program is estimated to be about 45 basis points. Our results indicate that the two channels were both quantitatively significant, affecting longer-term Treasury yields in
+proportions similar to those suggested by the event study in Section 4. It is notable that a different sample period and a different methodology generate estimates quite similar to D'Amico and King (2012), whose results were obtained from data covering the recent crisis period. This finding
+suggests that the strains in financial markets caused by the crisis were not crucial in delivering the effectiveness of LSAPs. Rather, a picture emerges of sizable effects of LSAPs on longer-term yields across different samples and alternative estimation approaches.
+7 Conclusions and implications
+For longer-term Treasury securities, the first LSAP program (undertaken in 2009) consisted of $300 billion of Federal Reserve purchases, while the second program (in late 2010 to mid-2011) consisted of $600 billion of purchases. Our preferred estimates suggest that, taking scarcity and duration
+together, the first program of LSAPs reduced longer-term Treasury yields by about 35 basis points; the second program, larger in dollar amount but smaller in its impact on duration, reduced longer-term Treasury yields by about 45 basis points. These estimates are somewhat higher than most existing
+estimates in the literature. Direct comparability with other estimates in the literature is not possible because of differences in methodology and samples across papers. Several other studies use event studies of LSAP rather than regression procedures; we focus on the Treasury market, while the
+first LSAP covered both agency and Treasury securities; and our estimates are based on the pre-LSAP period, while the possibility of structural changes in markets, especially during the financial crisis, could complicate the task of inferring with precision the effects of LSAPs from results based
+on an earlier sample. But another important reason why our estimates are higher than those in other studies is that we endeavor to estimate both the scarcity and duration effects of LSAP-style purchases, rather than one or the other effect.
+Judged by our estimates, each LSAP program amounted to a substantial monetary policy easing. A quantification of the easing is provided by considering what degree of federal funds rate movement would, in the pre-2008 positive funds rate environment, have been required to generate such a response
+of longer-term Treasury yields. Bernanke (2011b) and Chung, Laforte, Reifschneider, and Williams (2012) suggest that a 25 basis point change in the Treasury bond rate is on average associated with a roughly 100 basis point change in the federal funds rate.39 Applied to our estimates, this rule of thumb suggests the first Treasury LSAP program was tantamount to a federal funds rate cut of about 140 basis points; the second program, to a cut of
+about 180 basis points.
+Our results thus affirm the potency of LSAPs as a monetary policy tool. This in turn has important implications for the direction in which the building of models for monetary policy analysis should go, especially when taken in conjunction with previous findings for the United States (noted in
+the introduction) and for the United Kingdom (see Joyce, Lasaosa, Stevens, and Tong, 2011). Our empirical results suggest that LSAPs do not operate solely or even primarily via the expectations channel.40 Accordingly, macroeconomic models that permit LSAP-style operations to matter for long-term rates only to the extent that they signal future short-term policy rates do not adequately encompass the effects of LSAPs. A rethinking
+of the specification in macroeconomic models of term structure behavior seems to be called for.41 In particular, it appears that departures from the
+representative agent/investor framework are required, so that models used for monetary policy analysis develop in a direction that admits preferred-habitat elements. Our estimates suggest that the required elements comprise not only the scarcity channel emphasized in the traditional
+preferred-habitat literature, but the duration channel highlighted by Vayanos and Vila (2009). Moreover, it does not appear to be the case that such modifications are only necessary for analyses in which the short-term policy rate is at the zero lower bound. Rather, because our results arise from
+evidence from data points largely accumulated prior to 2008, preferred-habitat elements appear to be a necessary model ingredient in obtaining a better understanding of monetary policy transmission even when short-term rates are away from the zero lower bound.
+References
+Andrés, Javier, David López-Salido, and Edward Nelson (2004). "Tobin's Imperfect Asset Substitution in Optimizing General Equilibrium," Journal of Money, Credit and Banking, Vol. 36(4), 665-690.
+Aruoba, S. Boragan, Francis X. Diebold, and Chiara Scotti (2009). "Real-Time Measurement of Business Conditions," Journal of Business and Economic Statistics, Vol. 27(4), 417-427.
+Ascheim, Joseph (1961). Techniques of Monetary Control. Baltimore, MD: Johns Hopkins University Press.
+Bauer, Michael D., and Glenn D. Rudebusch (2011). "The Signaling Channel for Federal Reserve Bond Purchases." Federal Reserve Bank of San Francisco Working Paper 2011-21.
+Bernanke, Ben S. (2002). "Deflation: Making Sure `It' Doesn't Happen Here." Remarks Before the National Economists Club, Washington, D.C., November 21.
+Bernanke, Ben S. (2010). "The Economic Outlook and Monetary Policy." Speech at Federal Reserve Bank of Kansas City Symposium on "Macroeconomic Challenges: The Decade Ahead," Jackson Hole, MO. August 28.
+Bernanke, Ben S. (2011a). "Testimony: Semiannual Monetary Policy Report to the Congress before the Committee on Banking, Housing, and Urban Affairs, U.S. Senate." March 1.
+Bernanke, Ben S. (2011b). "Testimony: Semiannual Monetary Policy Report to the Congress before the Committee on Financial Services, U.S. House of Representatives." July 13.
+Bernanke, Ben S., Vincent R. Reinhart, and Brian P. Sack (2004). "Monetary Policy Alternatives at the Zero Bound: An Empirical Assessment," Brookings Papers on Economic Activity, Vol. 35(2), 1-78.
+Board of Governors of the Federal Reserve System (1945-1980). Annual Report, various years. Washington, D.C.: Federal Reserve Board.
+Brookings Institution (1978). "General Discussion," Brookings Papers on Economic Activity, Vol. 9(3), 650-654.
+Chen, Han, Vasco Cúrdia, and Andrea Ferrero (2012). "The Macroeconomic Effects of Large-Scale Asset Purchase Programs," Economic Journal, Vol. 122(564), F289-F315.
+Chung, Hess, Jean-Philippe Laforte, David Reifschneider, and John C. Williams (2012). "Have We Underestimated the Likelihood and Severity of Zero Lower Bound Events?," Journal of Money, Credit and Banking, Vol. 44(S1), 47-82.
+Committee on Banking, Housing and Urban Affairs, U.S. Senate (1992). United States Trade Policy and the Economy: Hearings. Washington, D.C.: Government Printing Office.
+Conard, Joseph W. (1959). An Introduction to the Theory of Interest. Berkeley, CA: University of California Press.
+Cooper, Robert L. (1967). "Techniques of the Federal Reserve Trading Desk in the 1960s Contrasted with the `Bills-Preferably' Period." Staff Study No. 6, Joint Treasury-Federal Reserve Study of the U.S. Government Securities Market.
+Culbertson, John M. (1957). "The Term Structure of Interest Rates," Quarterly Journal of Economics, Vol. 71(4), 485-517.
+Culbertson, John M. (1973). "Alternatives for Debt Management: Discussion." Federal Reserve Bank of Boston, Issues in Federal Debt Management: Proceedings of a Conference Held at Melvin Village, New Hampshire, June, 1973. Boston, MA:
+Federal Reserve Bank of Boston. 30-38.
+D'Amico, Stefania, and Thomas B. King (2012). "Flow and Stock Effects of Large-Scale Treasury Purchases: Evidence on the Importance of Local Supply," Journal of Financial Economics, forthcoming.
+D'Amico, Stefania, Don H. Kim, and Min Wei (2008). "Tips from TIPS: The Informational Content of Treasury Inflation-Protected Security Prices." Federal Reserve Board Finance and Economics Discussion Series No. 2008-30.
+Davis, Richard G. (1982). "Monetary Targeting in a `Zero Balance' World: Comments by the Author." In Federal Reserve Bank of San Francisco, Interest Rate Deregulation and Monetary Policy: Asilomar Conference. San Francisco, CA: Federal Reserve Bank of San Francisco.
+52-60.
+Eggertsson, Gauti B., and Michael Woodford (2003). "The Zero Bound on Interest Rates and Optimal Monetary Policy," Brookings Papers on Economic Activity, Vol. 34(1), 139-211.
+Estrella, Arturo, and Gikas A. Hardouvelis (1991). "The Term Structure as a Predictor of Real Economic Activity," Journal of Finance, Vol. 46(2), 555-576.
+Evans, Charles L., and David A. Marshall (1998). "Monetary Policy and the Term Structure of Nominal Interest Rates: Evidence and Theory," Carnegie-Rochester Conference Series on Public Policy, Vol. 49(1), 53-111.
+Fama, Eugene F., and Robert R. Bliss (1987). "The Information in Long-Maturity Forward Rates," American Economic Review, Vol. 77(4), 680-692.
+Federal Open Market Committee (1961). "Open Market Committee Announcement [February 20, 1961]," Federal Reserve Bulletin (February), Vol. 47(2), p. 165.
+Federal Open Market Committee (2009). "FOMC Statement, March 18, 2009." www.federalreserve.gov.
+Federal Reserve (2008). "Press Release, November 25, 2008." www.federalreserve.gov.
+Federal Reserve Board (1966). "Time Deposits and Financial Flows," Federal Reserve Bulletin (December), Vol. 52(12), 1738-1752.
+Financial Times, Economic Correspondent (1960). "Men and Measures for the Kennedy Administration." December 29. p. 6.
+First National City Bank of New York (1959). Monthly Newsletter: Business and Economic Conditions. October.
+Friedman, Benjamin M. (1978). "Crowding Out or Crowding In? Economic Consequences of Financing Government Deficits," Brookings Papers on Economic Activity, Vol. 9(3), 593-641.
+Friedman, Milton, and Anna J. Schwartz (1963). A Monetary History of the United States, 1867-1960. Princeton, N.J.: Princeton University Press.
+Gagnon, Joseph, Matthew Raskin, Julie Remache, and Brian Sack (2011). "Large-Scale Asset Purchases by the Federal Reserve: Did They Work?," Federal Reserve Bank of New York Economic Policy Review, Vol. 17(1), 41-59.
+Greenwood, Robin, and Dimitri Vayanos (2010). "Bond Supply and Excess Bond Returns." Manuscript, London School of Economics, August.
+Hamilton, James D., and Jing Cynthia Wu (2012). "The Effectiveness of Alternative Monetary Policy Tools in a Zero Lower Bound Environment," Journal of Money, Credit and Banking, Vol. 44(S1), 3-46.
+Joint Economic Committee (1992). The 1992 Economic Report of the President: Hearings. Washington, D.C.: Government Printing Office.
+Joyce, Michael, Ana Lasaosa, Ibrahim Stevens, and Matthew Tong (2011). "The Financial Market Impact of Quantitative Easing," International Journal of Central Banking, Vol. 6(3), 113-161.
+Kim, Don H., and Athanasios Orphanides (2005). "Term Structure Estimation with Survey Data on Interest Rate Forecasts." Federal Reserve Board Finance and Economics Discussion Series No. 2005-48.
+Kim, Don H., and Jonathan H. Wright (2005). "An Arbitrage-Free Three-Factor Term Structure Model and the Recent Behavior of Long-Term Yields and Distant-Horizon Forward Rates." Federal Reserve Board Finance and Economics Discussion Series No. 2005-33.
+King, Mervyn A. (1999). "Challenges for Monetary Policy: New and Old." In Federal Reserve Bank of Kansas City, New Challenges for Monetary Policy. Kansas City, MO: Federal Reserve Bank of Kansas City. 11-57.
+King, Robert G. (1994). "Comment on `Toward a Modern Macroeconomic Model Usable for Policy Analysis,"' NBER Macroeconomics Annual, Vol. 9(1), 118-129.
+Kohn, Donald L. (2009). "Monetary Policy Research and the Financial Crisis: Strengths and Shortcomings." Speech at the Conference on Key Developments in Monetary Economics, Washington, D.C., October 9.
+Krishnamurthy, Arvind, and Annette Vissing-Jorgensen (2011). "The Effects of Quantitative Easing on Interest Rates: Channels and Implications for Policy," Brookings Papers on Economic Activity, Vol. 42(2), 215-265.
+Krishnamurthy, Arvind, and Annette Vissing-Jorgensen (2012). "The Aggregate Demand for Treasury Debt," Journal of Political Economy, Vol. 120(1), 233-267.
+Lucas, Robert E., Jr. (1987). Models of Business Cycles. Oxford, U.K.: Basil Blackwell.
+Marty, Alvin L. (1962). "Book Review: Techniques of Monetary Control," Journal of Political Economy, Vol. 70(2), 207-208.
+Meigs, A. James (1972). Money Matters: Economics, Markets, Politics. New York: Harper and Row.
+Meltzer, Allan H. (2009). A History of the Federal Reserve, Volume 2, Book 2. Chicago: University of Chicago Press.
+Meulendyke, Ann-Marie (1998). U.S. Monetary Policy and Financial Markets. New York: Federal Reserve Bank of New York.
+Mishkin, Frederic S. (1978). "Efficient-Markets Theory: Implications for Monetary Policy," Brookings Papers on Economic Activity, Vol. 9(3), 707-752.
+Modigliani, Franco, and Richard C. Sutch (1966). "Innovations in Interest Rate Policy," American Economic Review, Vol. 56(1), 178-197.
+Modigliani, Franco, and Richard C. Sutch (1967). "Debt Management and the Term Structure of Interest Rates: An Empirical Analysis of Recent Experience," Journal of Political Economy, Vol. 75(4) (Supplement), 569-589.
+Morris, Frank E. (1968). "The Chicago School As Viewed from Boston," Business Economics, Vol. 3(2), 23-26.
+Nelson, Charles R., and Andrew F. Siegel (1987). "Parsimonious Modeling of Yield Curves," Journal of Business, Vol. 60(4), 473-489.
+Newey, Whitney K., and Kenneth D. West (1987). "A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix," Econometrica, Vol. 55(3), 703-708.
+Pierce, James L. (1974). "Quantitative Analysis for Decisions at the Federal Reserve," Annals of Economic and Social Measurement, Vol. 3(1), 11-20.
+Plosser, Charles I. (1982). "Government Financing Decisions and Asset Returns," Journal of Monetary Economics, Vol. 9(3), 325-352.
+Riefler, Winfield W. (1958a). "Open Market Operations in Long-Term Securities," Federal Reserve Bulletin, Vol. 44(11), 1260-1274.
+Riefler, Winfield W. (1958b). "Should the Federal Reserve Buy Long-Term Securities?" Manuscript, Federal Reserve Board; presented at the Federal Reserve Bank of Minneapolis Money and Banking Workshop, May 3.
+Romer, Christina D., and David H. Romer (1993). "Credit Channels or Credit Actions?: An Interpretation of the Postwar Transmission Mechanism." In Federal Reserve Bank of Kansas City, Changing Capital Markets: Implications for Monetary Policy. Kansas City, MO:
+Federal Reserve Bank of Kansas City. 71-116.
+Rotemberg, Julio J., and Michael Woodford (1999). "Interest Rate Rules in an EstimatedSticky Price Model."In J.B. Taylor (ed.), Monetary Policy Rules. Chicago: University of Chicago Press. 57-119.
+Rudebusch, Glenn D. (2010). "The Fed's Exit Strategy for Monetary Policy," Federal Reserve Bank of San Francisco Weekly Letter, June 14.
+Svensson, Lars E.O. (1995). "Estimating Forward Interest Rates with the Extended Nelson and Siegel Method," Sveriges Riksbank Quarterly Review, Vol. 17(3), 13-26.
+Swanson, Eric T. (2011). "Let's Twist Again: A High Frequency Event-Study Analysis of Operation Twist and Its Implications for QE2," Brookings Papers on Economic Activity, Vol. 42(1), 151-188.
+Thomas, Woodlief (1947). "The Heritage of War Finance," American Economic Review (Papers and Proceedings), Vol. 37(2), 205-215.
+Tobin, James (1961). "Money, Capital, and Other Stores of Value," American Economic Review (Papers and Proceedings), Vol. 51(2), 26-37.
+Tobin, James (1963). "An Essay on the Principles of Debt Management." In Commission on Money and Credit, Fiscal and Debt Management Policies. Englewood Cliffs, N.J.: Prentice Hall. 143-218.
+Tobin, James (1974). The New Economics One Decade Older. Princeton, N.J.: Princeton University Press.
+Vayanos, Dimitri, and Jean-Luc Vila (2009). "A Preferred-Habitat Model of the Term Structure of Interest Rates." NBER Working Paper No. 15487.
+Wallace, Neil A. (1967). "The Term Structure of Interest Rates and the Maturity Composition of the Federal Debt," Journal of Finance, Vol. 22(2), 301-312.
+Walsh, Carl E. (1982). "Asset Substitutability and Monetary Policy: An Alternative Characterization," Journal of Monetary Economics, Vol. 9(1), 59-71.
+Williams, John L. (2011). "Unconventional Monetary Policy: Lessons from the Past Three Years." Presentation to the Swiss National Bank Research Conference, Zurich, September 23.
+Yellen, Janet (2011). "Unconventional Monetary Policy and Central Bank Communications." Speech at the U.S. Monetary Policy Forum, New York, February 25.
+Young, Ralph A., and Charles A. Yager (1960). "The Economics of `Bills Preferably,"' Quarterly Journal of Economics, Vol. 74(3), 341-373.
+Table 1. Behavior of selected longer-term yields on August 10, 2010
+Years to maturity
+Maturity date
+(1) Simple returns (%) 1.55p.m.-2.35 p.m.
+(2) Simple returns (%) 2.35 p.m.- 3.35 p.m.
+(2)/(1)
+(1)
+9.51
+2/15/2020
+0.44
+-0.08
+-18.9%
+(2)
+10.01
+8/15/2020
+0.45
+-0.09
+-20.1%
+(3)
+14.26
+11/15/2024
+0.64
+-0.42
+-65.7%
+(4)
+14.52
+2/15/2025
+0.65
+-0.43
+-66.2%
+Table 2. Correlation matrix for nominal yields, maturity buckets, and duration
+Buckets/Yields
+2-yr.
+5-yr.
+7-yr.
+10-yr.
+15-yr.
+20-yr.
+25-yr.
+30-yr.
+Sample Period: 2002:12-2008:10 PHNT(m: 2-4)
+0.92
+0.85
+0.75
+0.47
+-0.11
+-0.40
+-0.49
+-0.52
+Sample Period: 2002:12-2008:10 PHNT(m: 6-8)
+0.53
+0.42
+0.35
+0.17
+-0.24
+-0.47
+-0.56
+-0.60
+Sample Period: 2002:12-2008:10 PHNT(m: 8-10)
+0.60
+0.51
+0.42
+0.20
+-0.23
+-0.44
+-0.52
+-0.54
+Sample Period: 2002:12-2008:10 PHNT(m: 10-12)
+0.58
+0.47
+0.34
+0.07
+-0.36
+-0.53
+-0.59
+-0.61
+Sample Period: 2002:12-2008:10 PHNT(m: 12-14)
+-0.61
+-0.55
+-0.44
+-0.19
+0.20
+0.35
+0.38
+0.39
+Sample Period: 2002:12-2008:10 PHNT(m: 16-18)
+-0.48
+-0.37
+-0.31
+-0.15
+0.23
+0.44
+0.53
+0.56
+Sample Period: 2002:12-2008:10 PHNT(m: 18-20)
+-0.75
+-0.66
+-0.54
+-0.26
+0.25
+0.48
+0.56
+0.59
+Sample Period: 2002:12-2008:10 PHNT(m: 22-24)
+-0.29
+-0.18
+-0.12
+0.01
+0.29
+0.45
+0.53
+0.56
+Sample Period: 2002:12-2008:10 PHNT(m: 24-26)
+-0.55
+-0.42
+-0.34
+-0.14
+0.29
+0.52
+0.62
+0.65
+Sample Period: 2002:12-2008:10 PHNT(m: 26-28)
+-0.87
+-0.78
+-0.67
+-0.38
+0.21
+0.49
+0.59
+0.61
+Sample Period: 2002:12-2008:10 Duration Gap
+-0.15
+0.01
+0.13
+0.34
+0.58
+0.67
+0.71
+0.74
+Sample Period: 2008:11-2011:2 PHNT(m: 2-4)
+-0.52
+-0.22
+-0.24
+-0.27
+-0.13
+0.22
+0.51
+0.66
+Sample Period: 2008:11-2011:2 PHNT(m: 6-8)
+-0.42
+-0.18
+-0.17
+-0.19
+-0.11
+0.13
+0.36
+0.49
+Sample Period: 2008:11-2011:2 PHNT(m: 8-10)
+-0.45
+-0.29
+-0.32
+-0.33
+-0.20
+0.12
+0.38
+0.52
+Sample Period: 2008:11-2011:2 PHNT(m: 10-12)
+0.55
+0.31
+0.33
+0.35
+0.21
+-0.12
+-0.40
+-0.54
+Sample Period: 2008:11-2011:2 PHNT(m: 12-14)
+0.49
+0.22
+0.21
+0.20
+0.05
+-0.29
+-0.56
+-0.70
+Sample Period: 2008:11-2011:2 PHNT(m: 16-18)
+0.45
+0.19
+0.20
+0.22
+0.09
+-0.24
+-0.51
+-0.65
+Sample Period: 2008:11-2011:2 PHNT(m: 18-20)
+0.47
+0.16
+0.15
+0.15
+-0.02
+-0.36
+-0.62
+-0.74
+Sample Period: 2008:11-2011:2 PHNT(m: 22-24)
+0.66
+0.40
+0.40
+0.41
+0.27
+-0.07
+-0.37
+-0.54
+Sample Period: 2008:11-2011:2 PHNT(m: 24-26)
+-0.50
+-0.36
+-0.35
+-0.35
+-0.24
+0.03
+0.26
+0.39
+Sample Period: 2008:11-2011:2 PHNT(m: 26-28)
+0.03
+0.16
+0.12
+0.08
+0.13
+0.26
+0.35
+0.39
+Sample Period: 2008:11-2011:2 Duration Gap
+0.08
+0.30
+0.31
+0.29
+0.27
+0.31
+0.36
+0.40
+Note: The buckets contain privately-held nominal Treasury securities outstanding grouped by maturity class, and the Treasury yields are zero-coupon rates obtained by fitting the Svensson (1995) yield curve approximation.
+Table 3. Baseline specification
+Regressors
+7-year
+10-year
+15-year
+20-year
+25-year
+30-year
+PHNT(m: 2-10)
+8.34
+7.61
+PHNT(m: 2-10)(Standard Error)
+(2.03)
+(1.47)
+Duration Gap
+222.14
+197.72
+Duration Gap(Standard Error)
+(25.39)
+(19.34)
+[y(m) - y(2)]
+-0.28
+-0.01
+[y(m) - y(2)] (Standard Error)
+(0.06)
+(0.03)
+PHNT(m: 14-30)
+3.98
+6.45
+7.03
+5.94
+PHNT(m: 14-30)(Standard Error)
+(2.05)
+(1.98)
+(1.85)
+(1.76)
+Duration Gap
+118.59
+120.18
+140.66
+169.27
+Duration Gap(Standard Error)
+(26.95)
+(25.44)
+(25.14)
+(25.69)
+[y(10) - y(2)]
+-0.07
+-0.02
+0.02
+0.05
+[y(10) - y(2)](Standard Error)
+(0.02)
+(0.02)
+(0.03)
+(0.03)
+Adjusted R
+0.71
+0.51
+0.46
+0.52
+0.56
+0.56
+Note: The regressions estimated take the form:
+y(m) = a + bPHNT(m: 2-10) + cDurationGap + d[y(m) - y(2)]
+The dependent variable is the nominal yield of maturity m (obtained by fitting the Svensson (1995) yield curve approximation). The regressors are two policy-related variables, privately-held nominal Treasuries (PHNT) as percentage of total Treasury debt outstanding (TDO) and the duration gap defined as the difference between aggregate duration risk (ADR) and the duration of the on-the-run 10-year Treasury notes. Finally the yield
+spread is included to proxy the slope of the yield curve. The sample period consists of weekly data from December 2002 until October 2008. Standard errors are computed using Newey-West (1987) procedure allowing for four lags.
+Table 4. Extensions of the baseline specification
+Regressors
+7-year
+10-year
+15-year
+20-year
+25-year
+PHNT(m: 4-6)
+0.52
+PHNT(m: 4-6)(Standard Error)
+(5.52)
+PHNT(m: 6-8)
+5.46
+7.58
+PHNT(m: 6-8)(Standard Error)
+(2.98)
+(3.11)
+PHNT(m: 8-10)
+14.26
+12.60
+PHNT(m: 8-10)(Standard Error)
+(9.62)
+(7.37)
+PHNT(m: 10-12)
+4.15
+PHNT(m: 10-12)(Standard Error)
+(8.72)
+Duration Gap
+176.86
+167.92
+Duration Gap(Standard Error)
+(29.91)
+(28.80)
+[y(m) - y(2)]
+-0.41
+-0.08
+[y(m) - y(2)](Standard Error)
+(0.08)
+(0.04)
+PHNT(m: 12-14)
+16.61
+PHNT(m: 12-14)(Standard Error)
+(5.63)
+PHNT(m: 14-16)
+26.80
+PHNT(m: 14-16)(Standard Error)
+(8.33)
+PHNT(m: 16-18)
+0.28
+PHNT(m: 16-18)(Standard Error)
+(3.86)
+PHNT(m: 18-20)
+-7.10
+PHNT(m: 18-20)(Standard Error)
+(7.21)
+PHNT(m: 20-22)
+32.39
+PHNT(m: 20-22)(Standard Error)
+(11.65)
+PHNT(m: 22-24)
+17.24
+24.91
+PHNT(m: 22-24)(Standard Error)
+(4.80)
+(7.63)
+PHNT(m: 24-26)
+-2.03
+PHNT(m: 24-26)(Standard Error)
+(7.50)
+PHNT(m: 26-28)
+3.31
+PHNT(m: 26-28)(Standard Error)
+(12.87)
+Duration Gap
+109.59
+117.98
+141.41
+Duration Gap(Standard Error)
+(19.73)
+(22.03)
+(22.15)
+[y(10) - y(2)]
+0.04
+0.14
+0.07
+[y(10) - y(2)] (Standard Error)
+(0.04)
+(0.04)
+(0.07)
+Adjusted R
+0.66
+0.44
+0.55
+0.58
+0.58
+Note: See notes for Table 3 for further details on the estimated specifications.
+Table 5a. Estimates of term premium specification Dependent variable: Nominal term premium for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+PHNT(m: 2-10)
+3.98
+5.11
+4.63
+4.34
+PHNT(m: 2-10)(Standard Error)
+(1.05)
+(1.32)
+(1.44)
+(1.48)
+Duration Gap
+93.15
+120.32
+122.59
+123.47
+Duration Gap(Standard
+Error)
+(16.51)
+(17.34)
+(18.75)
+(19.41)
+[y(m) - y(2)]
+0.21
+0.32
+0.26
+0.24
+[y(m) - y(2)](Standard Error)
+(0.04)
+(0.06)
+(0.04)
+(0.03)
+R
+0.35
+0.45
+0.51
+0.60
+Table 5b. Estimates of term premium specification Dependent variable: Real term premium for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+PHNT(m: 2-10)
+2.64
+3.78
+3.73
+3.63
+PHNT(m: 2-10) (Standard Error)
+(0.58)
+(0.81)
+(0.87)
+(0.92)
+Duration Gap
+62.76
+93.17
+97.89
+99.93
+Duration Gap (Standard Error)
+(7.09)
+(10.06)
+(11.19)
+(12.06)
+[y(m) - y(2)]
+0.11
+0.11
+0.09
+0.11
+[y(m) - y(2)] (Standard Error)
+(0.02)
+(0.03)
+(0.02)
+(0.02)
+Adjusted R
+0.45
+0.44
+0.44
+0.48
+Table 5c. Estimates of term premium specification Dependent variable: Inflation risk premium for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+PHNT(m: 2-10)
+1.33
+1.33
+0.90
+0.71
+PHNT(m: 2-10) (Standard Error)
+(0.58)
+(0.67)
+(0.73)
+(0.75)
+Duration Gap
+30.38
+27.14
+24.69
+23.54
+Duration Gap (Standard Error)
+(12.19)
+(11.69)
+(12.19)
+(12.16)
+[y(m) - y(2)]
+0.11
+0.21
+0.16
+0.14
+[y(m) - y(2)] (Standard Error)
+(0.03)
+(0.03)
+(0.03)
+(0.02)
+Adjusted R
+0.21
+0.51
+0.59
+0.66
+where the dependent variable, z(m), is equal to the nominal term premium, the real term premium,
+and the inflation risk premium, respectively. The decomposition of the yields among real term premium and inflation risk premium is based on a Gaussian three factors model described in D'Amico, Kim, and Wei (2008) using TIPS. See Table 1 for further description of the regressors and the
+specification. In the case of the two-year term premium, the slope regressor is defined in relation to the one-year yield.
+Table 6. Term premium regression: sensitivity analysis (additional explanatory variables) Term Premium, Scarcity, and Duration Left-hand side variable: Nominal Term Premium
+2-year (1)
+2-year (2)
+2-year (3)
+5-year (1)
+5-year (2)
+5-year (3)
+7-year (1)
+7-year (2)
+7-year (3)
+10-year (1)
+10-year (2)
+10-year (3)
+PHNT
+4.35
+3.07
+4.37
+5.89
+4.02
+5.38
+5.24
+3.65
+4.78
+4.63
+3.49
+4.40
+PHNT (Standard Error)
+(1.07)
+(1.08)
+(1.11)
+(1.37)
+(1.33)
+(1.40)
+(1.52)
+(1.37)
+(1.50)
+(1.57)
+(1.35)
+(1.51)
+DG
+49.96
+73.15
+63.98
+81.88
+97.99
+91.55
+91.40
+101.30
+96.23
+99.78
+104.60
+100.60
+DG (Standard Error)
+(14.19)
+(14.12)
+(16.18)
+(15.81)
+(16.17)
+(18.37)
+(17.23)
+(16.85)
+(18.96)
+(17.92)
+(16.83)
+(18.74)
+y(m)-y(2)
+0.27
+0.10
+0.15
+0.53
+0.32
+0.36
+0.42
+0.31
+0.33
+0.37
+0.31
+0.32
+y(m)-y(2) (Standard Error)
+(0.07)
+(0.05)
+(0.06)
+(0.09)
+(0.06)
+(0.07)
+(0.07)
+(0.04)
+(0.05)
+(0.05)
+(0.03)
+(0.04)
+Adj. R
+0.35
+0.40
+0.29
+0.47
+0.52
+0.43
+0.59
+0.65
+0.57
+0.71
+0.76
+0.71
+Table 6 (continued). term premium regression: sensitivity analysis (additional explanatory variables) Term Premium, Scarcity, and Duration (Left-hand side variable: Inflation Risk Premium)
+2-year (1)
+2-year (2)
+2-year (3)
+5-year (1)
+5-year (2)
+5-year (3)
+7-year (1)
+7-year (2)
+7-year (3)
+10-year (1)
+10-year (2)
+10-year (3)
+PHNT
+1.92
+1.08
+1.54
+2.16
+1.05
+1.58
+1.79
+0.70
+1.17
+1.54
+0.56
+0.99
+PHNT (Standard Error)
+(0.53)
+(0.51)
+(0.58)
+(0.59)
+(0.59)
+(0.66)
+(0.69)
+(0.67)
+(0.75)
+(0.74)
+(0.68)
+(0.77)
+DG
+10.57
+26.97
+26.88
+12.88
+23.93
+23.15
+13.99
+22.29
+21.18
+15.82
+21.75
+20.37
+DG (Standard Error)
+(9.80)
+(10.76)
+(12.49)
+(9.32)
+(10.28)
+(11.86)
+(10.11)
+(10.69)
+(12.24)
+(10.55)
+(10.71)
+(12.19)
+y(m)-y(2)
+0.24
+0.12
+0.12
+0.36
+0.22
+0.23
+0.26
+0.17
+0.18
+0.21
+0.15
+0.15
+y(m)-y(2) (Standard Error)
+(0.04)
+(0.03)
+(0.03)
+(0.05)
+(0.03)
+(0.04)
+(0.03)
+(0.02)
+(0.03)
+(0.03)
+(0.02)
+(0.02)
+Adj. R
+0.36
+0.37
+0.22
+0.60
+0.61
+0.53
+0.64
+0.67
+0.59
+0.69
+0.72
+0.66
+Table 6b. Term premium regression: sensitivity analysis (additional explanatory variables) Term Premium, Scarcity, and Duration Left-hand side variable: Real Term Premium
+PHNT
+2.84
+2.46
+3.00
+4.03
+3.54
+4.09
+3.88
+3.56
+4.04
+3.57
+3.50
+3.89
+PHNT (Standard Error)
+(0.58)
+(0.52)
+(0.54)
+(0.87)
+(0.77)
+(0.79)
+(0.97)
+(0.83)
+(0.87)
+(1.04)
+(0.88)
+(0.93)
+DG
+55.93
+60.36
+56.68
+88.84
+90.48
+88.17
+96.05
+95.85
+93.85
+100.40
+98.43
+96.92
+DG (Standard Error)
+(7.23)
+(6.32)
+(6.97)
+(9.78)
+(9.53)
+(9.93)
+(10.94)
+(10.64)
+(11.03)
+(11.88)
+(11.56)
+(11.91)
+y(m)-y(2)
+0.15
+0.12
+0.14
+0.15
+0.12
+0.13
+0.11
+0.11
+0.11
+0.10
+0.12
+0.12
+y(m)-y(2) (Standard Error)
+(0.04)
+(0.02)
+(0.03)
+(0.05)
+(0.03)
+(0.04)
+(0.04)
+(0.02)
+(0.03)
+(0.03)
+(0.02)
+(0.02)
+Adj. R
+0.47
+0.55
+0.49
+0.44
+0.50
+0.45
+0.43
+0.49
+0.45
+0.47
+0.52
+0.48
+Note: The regressions are of the form:
+z(m) = a + bPHNT(m: 2-10) + cDurationGap + d[y(m)-y(2)] + X + u
+where the dependent variable, z(m), is equal to the nominal term premium, the real term premium,
+and the inflation risk premium,
+respectively. In column (1) the variable X is the Treasury option implied volatility, in column (2) the variable X is the weekly average of the intraday correlation between the ten-year yield changes and the returns on the S&P500, and
+in column (3) the variable X is the Auroba, Diebold, and Schotti index of business conditions. See Table 3 for details.
+Table 7a. Term premium specifications with additional regressors Dependent variable: Nominal term premium for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+PHNT(m: 2-10)
+3.99
+5.43
+5.89
+6.19
+PHNT(m: 2-10) (Standard Error)
+(1.45)
+(1.61)
+(1.60)
+(1.55)
+Duration Gap
+91.51
+113.46
+115.17
+112.31
+Duration Gap (Standard Error)
+(18.04)
+(18.70)
+(18.47)
+(17.67)
+[s(m) - s(2)]
+0.12
+0.21
+0.27
+0.34
+[s(m) - s(2)] (Standard Error)
+(0.05)
+(0.05)
+(0.05)
+(0.05)
+Adjusted R
+0.22
+0.39
+0.55
+0.60
+Table 7b. Term premium specifications with additional regressors Dependent variable: Nominal term premium for maturity:
+PHNT(m: 2-10)
+3.56
+4.98
+5.45
+5.79
+PHNT(m: 2-10) (Standard Error)
+(1.31)
+(1.48)
+(1.49)
+(1.45)
+Duration Gap
+86.30
+107.97
+109.88
+107.43
+Duration Gap (Standard Error)
+(15.75)
+(16.44)
+(16.37)
+(15.84)
+[s(m) - s(2)]
+0.14
+0.22
+0.28
+0.36
+[s(m) - s(2)] (Standard Error)
+(0.04)
+(0.04)
+(0.04)
+(0.04)
+[corr(d10y, S&P500ret]
+-0.30
+-0.32
+-0.31
+-0.28
+[corr(d10y, S&P500ret]
+(Standard Error)
+(0.05)
+(0.06)
+(0.06)
+(0.05)
+Adjusted R
+0.43
+0.52
+0.60
+0.69
+Note: The regressions are of the form:
+z(m) = a + bPHNT(m: 2-10) + cDurationGap + d[s(m) - s(2)] + [corr(d10y, S&P500ret]
+where the dependent variable, z(m), is the nominal term premium. In the upper part of the table, we
+control only for the slope of the swap yield curve, setting d = 0. In the lower part of the table, we allow for nonzero d by entering the weekly average of the intraday correlation between ten-year yield changes and S&P500 returns as a proxy for flight to quality.
+Appendix: Robustness checks
+The estimated specifications presented in the main body of the paper covered different dependent variables (corresponding to different Treasury maturities), but used similar regressor sets. A natural means of ascertaining the robustness of the results of this set of estimates is to reestimate
+the specifications using the seemingly unrelated regression (SUR) estimation procedure. The error terms of the specifications are likely correlated with each other, and the implied contemporaneous relation between the errors can be exploited in estimation. We can apply the SUR estimator to generate
+more efficient parameter estimates than those obtained by application of OLS to each equation separately. At the same time, however, the estimates now rest on the assumption that the disturbance term in each equation is conditionally homoskedastic and free of serial correlation-an assumption that
+may not be valid for the specifications we consider.
+The results are reported in Table 8 for the most basic specification, which incorporates as regressors only our proxies for scarcity and for aggregate duration, and in Table 9 for the specification in which we also control for the slope of the overnight index swap (OIS) curve. As will become
+apparent later (in our discussion of Table 12's results), the OIS slope is likely to be a better stand-in (compared with the swap and Treasury curve slopes) for additional policy and aggregate economic factors that may bear on the determination of Treasury yields (for a given path of LSAP-style
+purchases).42 When we do not control for any proxy for term structure slope, the estimated coefficients on LSAP-related terms in the regressions for the
+medium-term Treasury yields are somewhat larger, most likely capturing the impact of the omitted policy and macroeconomic variables. The scarcity term remains positive and significant, with the exception of the regression for the fifteen-year Treasury yield. Duration terms continue to be positive
+and significant across all maturities, although for both specifications shown in Table 8 and 9, the size of the estimated coefficients for the aggregate duration is much smaller across all maturities.
+Table 10 displays estimates for a specification very like those reported in Table 4. The results in Table 10 cover two-year-wide buckets with maturities within a few years of the yield's maturity, though now applying the SUR estimator and using the OIS slope as a regressor. The only major
+difference from the previous results is that in the regression for fifteen-year Treasury yields, the key coefficient estimates are negative; this anomaly may reflect the difficulty of obtaining reliable estimates on a thinner maturity bucket.
+We now consider results for the nominal term-premium (TP) component of the Treasury yields, when the scarcity proxy is expressed as a percentage of GDP rather than of total debt outstanding (TDO). Table 11 reports the results for the
+following regression:
+TP (m) = a + b(BUCKET(m: 2-10) / GDP) + bDG +
+b(s(m) - s(2)) + bX,
+where BUCKET(m: 2-10) is the variable that appears as the numerator in the definition of PHNT(m: 2-10), GDP is quarterly nominal
+GDP (expressed at an annual rate) interpolated to weekly data, and  is the flight-to-quality proxy. We use this specification to provide an interpretation of the impact of the first series
+of LSAPs. Note that the Table 7 results take the policy variable to be Treasury securities outstanding at two-to-ten-year maturities as a share of total government debt, while the Table 11 results instead scale these securities holdings by nominal GDP. A one-point change in the policy variable in
+Table 7 would imply a decrease in bond yields of about 5 basis points, and a one-point change in the policy variable in Table 11 implies a decrease in bond yields of about 20 basis points. As nominal GDP is roughly double the stock of Treasury debt outstanding,43 the Table 11 results imply a bond yield reaction about double that implied by Table 4, for the same scale of asset purchase.
+To consider further the importance of our scarcity and aggregate duration proxies, we turn our attention to other fixed-income securities besides Treasury bonds. Tables 12 and 13 provide results for regressions in which the dependent variables are the OIS rates and swap yields, respectively.
+Specifically, due to data availability and the liquidity of the OIS yields, the first three columns of Table 12 show the estimated coefficients for cases in which the dependent variable corresponds to the two- or five-year yields, while the final two columns show the estimated coefficients in
+specifications for the two- and five-year Treasury-OIS spread. The estimated coefficients on scarcity are not statistically significant, while those on aggregate duration are both positive and statistically significant. This suggests that the OIS rates are affected by the LSAPs only via the
+aggregate-duration channel. Results for the spreads, on the other hand, suggest that both our proxies are positive and statistically significant. For the swap yields, both scarcity and duration variables are found to be significant across maturities.
+Table 14 presents the correlation matrix between A- and BBB-rated corporate bond yields and our proxies for scarcity and aggregate duration. The table shows that all the A-rated corporate yields have a large and positive correlation with the two-to-ten-year bucket, although the correlation for
+the most long-maturity bonds is half that for the medium-term bonds, perhaps suggesting a certain degree of imperfect substitution. A similar pattern is observed in the results for BBB-rated bonds, with the difference that the very long-maturity bonds display an even smaller correlation. However,
+all series exhibit a negative correlation with the fourteen-to-thirty-year category, although for the very long-term bond yields it is close to zero.
+Table 15 reports the results for our preferred specification (used in Table 7) in which the dependent variables are now the A- and Bbb-rated corporate rates at various maturities. The estimated coefficients for PHNT are all positive and statistically significant, suggesting that the scarcity channel plays an important role in yield determination for this asset class, while the estimated coefficients on DG and the flight-to-quality proxy are not statistically significant. This might suggest a limited role for the risk channel and safety channel, at least as encapsulated by these variables.
+If, proceeding as before, we add the lagged (prior-week) value of Treasury interest-rate volatility as a regressor-so as to capture the notion that a generally more risky bond market atmosphere pushes up rates-we obtain significant and positive coefficients on the scarcity and duration terms.
+This is shown in our final table, Table 16, whose results indicate that the volatility term is also significant. These results indicate, however, that there is certainly room for additional work to improve our understanding of the transmission mechanism to other asset classes.
+Table 8. Seemingly unrelated regression estimates Dependent variable: Nominal yield on Treasury security for maturity:
+Regressors
+7-year
+10-year
+15-year
+20-year
+25-year
+30-year
+PHNT(m: 2-10)
+10.43
+5.23
+PHNT(m: 2-10) (Standard Error)
+(0.47)
+(0.27)
+PHNT(m: 14-30)
+0.48
+6.11
+9.11
+10.27
+PHNT(m: 14-30) (Standard Error)
+(0.38)
+(0.47)
+(0.58)
+(0.69)
+Duration Gap
+206.23
+157.59
+112.48
+88.97
+89.75
+103.25
+Duration Gap (Standard Error)
+(13.61)
+(10.13)
+(10.05)
+(10.97)
+(11.87)
+(12.79)
+Adjusted R
+0.59
+0.46
+0.33
+0.44
+0.55
+0.60
+Note: The estimated specifications take the form:
+y(m)= a + bPHNT + cDuration
+Gap.
+The dependent variable is the nominal yield (obtained using yield-curve estimates derived using the Svensson (1995) procedure) on Treasury security of the indicated maturity m. The regressors consist of two policy-related variables: privately-held nominal Treasury
+securities (PHNT) (for maturities of either 2-10 or 14-30 years), expressed as a percentage of total Treasury debt outstanding (TDO); and the duration gap, defined as the difference between aggregate duration risk (ADR) and the duration of on-the-run ten-year Treasury notes. The sample period is weekly, from December 2002 to October 2008. The regressions have been estimated by the seemingly unrelated regression technique in order to take into account correlation among error terms, and we
+specified in estimation that small-sample statistics be computed.
+Table 9. Further seemingly unrelated regression estimates Dependent variable: Nominal yield on Treasury security for maturity:
+Regressors
+7-year
+10-year
+15-year
+20-year
+25-year
+30-year
+PHNT(m: 2-10)
+6.37
+4.68
+PHNT(m: 2-10) (Standard Error)
+(0.45)
+(0.39)
+PHNT(m: 14-30)
+1.73
+7.59
+10.55
+11.64
+PHNT(m: 14-30) (Standard Error)
+(0.72)
+(0.82)
+(0.87)
+(0.93)
+Duration Gap
+179.50
+151.33
+98.92
+72.98
+74.18
+88.39
+Duration Gap (Standard Error)
+(12.81)
+(10.67)
+(12.05)
+(13.15)
+(13.82)
+(14.47)
+[OIS(5) - OIS(1)]
+-0.19
+-0.01
+[OIS(5) - OIS(1)] (Standard Error)
+(0.01)
+(0.01)
+Adjusted R
+0.63
+0.45
+0.31
+0.42
+0.53
+0.59
+Note: The estimated specifications take the form:
+y(m) = a + bPHNT + cDurationGap + d [OIS(5) - OIS(1)]
+The dependent variable is the nominal yield (obtained using yield-curve estimates derived using the Svensson (1995) procedure) on Treasury security of the indicated maturity m. In addition to the two variables described in the notes to Table 2, the regressions for the
+seven- and ten-year bond rate include the slope of the OIS curve. The sample period is weekly, from December 2002 to October 2008. The regressions have been estimated by the seemingly unrelated regression technique in order to take into account correlation among error terms, and we specified in
+estimation that small-sample statistics be computed.
+Table 10. SUR estimates: additional explanatory variables Dependent variable: Nominal Treasury yield for maturity:
+Regressors
+7-year
+10-year
+15-year
+20-year
+25-year
+PHNT(m: 4-6)
+2.98
+PHNT(m: 4-6) (Standard Error)
+(1.24)
+PHNT(m: 6-8)
+2.07
+6.23
+PHNT(m: 6-8) (Standard Error)
+(1.46)
+(1.13)
+PHNT(m: 8-10)
+7.62
+7.38
+PHNT(m: 8-10) (Standard Error)
+(2.63)
+(1.67)
+PHNT(m: 10-12)
+3.11
+PHNT(m: 10-12) (Standard Error)
+(1.38)
+Duration Gap
+176.38
+161.63
+141.80
+128.61
+143.31
+Duration Gap (Standard Error)
+(14.98)
+(11.86)
+(10.33)
+(11.48)
+(11.38)
+[OIS(5) - OIS(1)]
+-0.51
+-0.18
+[OIS(5) - OIS(1)] (Standard Error)
+(0.02)
+(0.02)
+PHNT(m: 12-14)
+-4.26
+PHNT(m: 12-14) (Standard Error)
+(1.73)
+PHNT(m: 14-16)
+-5.02
+PHNT(m: 14-16) (Standard Error)
+(2.17)
+PHNT(m: 16-18)
+-8.71
+PHNT(m: 16-18) (Standard Error)
+(1.61)
+PHNT(m: 18-20)
+9.12
+PHNT(m: 18-20) (Standard Error)
+(1.40)
+PHNT(m: 20-22)
+-1.57
+PHNT(m: 20-22) (Standard Error)
+(2.39)
+PHNT(m: 22-24)
+3.05
+3.23
+PHNT(m: 22-24) (Standard Error)
+(2.33)
+(2.54)
+PHNT(m: 24-26)
+3.87
+PHNT(m: 24-26) (Standard Error)
+(1.40)
+PHNT(m: 26-28)
+13.19
+PHNT(m: 26-28) (Standard Error)
+(1.50)
+Adjusted R
+0.53
+0.33
+0.33
+0.48
+0.59
+Table 11. SUR estimates for term premium specifications Dependent variable: Nominal term premium for maturity:
+2-year
+5-year
+7-year
+10-year
+PHNTY(m: 2-10)
+17.59
+21.68
+22.87
+22.92
+PHNTY(m: 2-10) (Standard Error)
+(4.10)
+(4.97)
+(5.11)
+(5.25)
+Duration Gap
+91.08
+108.84
+109.04
+104.05
+Duration Gap (Standard Error)
+(14.49)
+(15.04)
+(15.11)
+(14.83)
+[s(m) - s(2)]
+0.16
+0.23
+0.29
+0.36
+[s(m) - s(2)] (Standard Error)
+(0.03)
+(0.04)
+(0.04)
+(0.04)
+[corr(d10y,S&P500ret)]
+-0.25
+-0.26
+-0.25
+-0.21
+[corr(d10y,S&P500ret)] (Standard Error)
+(0.05)
+(0.06)
+(0.06)
+(0.06)
+Adjusted R
+0.47
+0.54
+0.62
+0.71
+Note: The regressions estimated take the form:
+z(m)= a + b(BUCKET(m: 2-10)/GDP) + cDurationGap+ d[s(m)-s(2)] + e
+corr(d10y, S&P500ret)
+where the dependent variable, z(m), is the nominal term premium. The regressors are privately-held
+nominal Treasuries (PHNTY)-i.e., private Treasuries of the indicated maturities, here expressed as a percentage of Nominal GDP rather than of total Treasury debt outstanding-and the duration gap (defined as before), as well as the slope of the swap yield curve, and the
+weekly average of the intraday correlation between the 10-year yield changes and the S&P500 returns. The sample period is weekly from December 2002 until October 2008.
+Table 12. OIS regressions Dependent variable: OIS rates or Treasury-OIS spread
+1-year
+2-year
+5-year
+2-yr. spread
+5-yr. spread
+PHNTY(m: 2-10)
+-10.71
+7.51
+16.34
+1.28
+1.98
+PHNTY(m: 2-10) (Standard Error)
+(11.35)
+(11.43)
+(10.24)
+(0.24)
+(0.25)
+Duration Gap
+184.75
+216.12
+204.83
+2.70
+9.99
+Duration Gap (Standard Error)
+(39.16)
+(33.27)
+(33.39)
+(11.19)
+(10.55)
+[s(m) - s(2)]
+-1.79
+-1.37
+-0.70
+0.10
+0.11
+[s(m) - s(2)] (Standard Error)
+(0.07)
+(0.07)
+(0.06)
+(0.01)
+(0.01)
+[corr(d10y, S&P500ret)]
+-0.34
+-0.44
+-0.38
+-0.02
+0.01
+[corr(d10y, S&P500ret)] (Standard Error)
+(0.15)
+(0.13)
+(0.14)
+(0.03)
+(0.03)
+Adjusted R
+0.95
+0.93
+0.82
+0.65
+0.73
+Table 13. Swap regressions Dependent variable: Swap yields for maturity:
+1-year
+2-year
+5-year
+7-year
+10-year
+PHNTY(m: 2-10)
+4.76
+18.01
+22.62
+20.68
+18.01
+PHNTY(m: 2-10) (Standard Error)
+(7.08)
+(8.31)
+(8.90)
+(8.60)
+(8.31)
+Duration Gap
+116.55
+167.82
+179.64
+174.10
+167.82
+Duration Gap (Standard Error)
+(34.26)
+(29.74)
+(31.12)
+(30.68)
+(29.74)
+[s(m) - s(2)]
+-1.62
+-1.24
+-0.61
+-0.41
+-0.27
+[s(m) - s(2)] (Standard Error)
+(0.05)
+(0.05)
+(0.06)
+(0.06)
+(0.05)
+[corr(d10y, S&P500ret)]
+-0.11
+-0.27
+-0.29
+-0.27
+-0.27
+[corr(d10y, S&P500ret)] (Standard Error)
+(0.15)
+(0.13)
+(0.14)
+(0.14)
+(0.13)
+Adjusted R
+0.95
+0.94
+0.82
+0.72
+0.57
+Table 14. Correlation Matrix: corporate yields and policy-related variables Sample Period: 2002:12-2008:10
+Yields/regressors
+PHNT(m: 2-10)
+PHNT(m: 14-30)
+Duration Gap
+corp(a2)
+0.86
+-0.87
+-0.48
+corp(a5)
+0.86
+-0.83
+-0.50
+corp(a7)
+0.80
+-0.75
+-0.48
+corp(a10)
+0.69
+-0.62
+-0.42
+corp(a20)
+0.47
+-0.39
+-0.29
+corp(a30)
+0.41
+-0.31
+-0.25
+corp(bbb2)
+0.78
+-0.79
+-0.42
+corp(bbb5)
+0.73
+-0.69
+-0.42
+corp(bbb7)
+0.63
+-0.58
+-0.36
+corp(bbb10)
+0.48
+-0.41
+-0.27
+corp(bbb20)
+0.19
+-0.10
+-0.08
+corp(bbb30)
+0.09
+0.00
+-0.01
+Note: The buckets consist of privately-held nominal Treasury securities outstanding, grouped by maturity class. Corporate bond yields are zero-coupon yields obtained via the Nelson-Siegel (1987) yield curve approximation.
+Table 15a. Corporate bond rate regressions Dependent variable: A-rated corporate bond rate for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+20-year
+30-year
+PHNTY(m: 2-10)
+20.47
+22.18
+22.49
+21.79
+18.71
+17.12
+PHNTY(m: 2-10) (Standard Error)
+(4.79)
+(4.58)
+(4.58)
+(4.49)
+(4.21)
+(4.07)
+Duration Gap
+34.50
+27.88
+22.33
+22.88
+25.31
+21.95
+Duration Gap (Standard Error)
+(32.51)
+(32.31)
+(32.63)
+(32.23)
+(29.43)
+(27.81)
+[s(m) - s(2)]
+-0.59
+0.06
+0.29
+0.46
+0.56
+0.56
+[s(m) - s(2)] (Standard Error)
+(0.15)
+(0.15)
+(0.15)
+(0.14)
+(0.13)
+(0.13)
+[corr(d10y, S&P500ret)]
+0.20
+0.22
+0.26
+0.29
+0.29
+0.28
+[corr(d10y, S&P500ret)] (Standard Error)
+(0.17)
+(0.18)
+(0.18)
+(0.18)
+(0.16)
+(0.15)
+Adjusted R
+0.86
+0.66
+0.54
+0.44
+0.36
+0.35
+Table 15b. Corporate bond rate regressions Dependent variable: BBB-rated corporate bond rate for maturity:
+2-year
+5-year
+7-year
+10-year
+20-year
+30-year
+PHNTY(m: 2-10)
+11.21
+15.48
+16.27
+15.86
+13.32
+12.09
+PHNTY(m: 2-10) (Standard Error)
+(5.27)
+(5.16)
+(5.00)
+(4.79)
+(4.34)
+(4.09)
+Duration Gap
+20.46
+8.48
+14.45
+27.71
+42.38
+43.20
+Duration Gap (Standard Error)
+(38.47)
+(39.53)
+(38.95)
+(36.74)
+(30.74)
+(28.31)
+[s(m) - s(2)]
+-0.64
+0.03
+0.23
+0.38
+0.50
+0.51
+[s(m) - s(2)] (Standard Error)
+(0.17)
+(0.16)
+(0.16)
+(0.15)
+(0.13)
+(0.13)
+[corr(d10y, S&P500ret)]
+0.35
+0.42
+0.44
+0.42
+0.33
+0.29
+[corr(d10y, S&P500ret)] (Standard Error)
+(0.20)
+(0.22)
+(0.22)
+(0.20)
+(0.16)
+(0.15)
+Adjusted R
+0.74
+0.44
+0.32
+0.24
+0.24
+0.28
+Table 16a. Corporate bond rate regressions Dependent variable: A-rated corporate bond rate for maturity:
+Regressors
+2-year
+5-year
+7-year
+10-year
+20-year
+30-year
+PHNTY(m: 2-10)
+13.42
+15.06
+15.05
+14.36
+11.86
+10.56
+PHNTY(m: 2-10) (Standard Error)
+(2.62)
+(2.85)
+(2.80)
+(2.69)
+(2.38)
+(2.22)
+Duration Gap
+137.75
+131.70
+129.27
+128.36
+121.49
+113.94
+Duration Gap (Standard Error)
+(39.23)
+(36.15)
+(35.29)
+(34.61)
+(33.38)
+(32.69)
+[s(m) - s(2)]
+-1.20
+-0.55
+-0.33
+-0.16
+-0.00
+0.02
+[s(m) - s(2)] (Standard Error)
+(0.13)
+(0.14)
+(0.13)
+(0.13)
+(0.11)
+(0.11)
+[Treasury IV]
+0.02
+0.02
+0.02
+0.02
+0.02
+0.01
+[Treasury IV] (Standard Error)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+Adjusted R
+0.91
+0.79
+0.72
+0.66
+0.61
+0.60
+Table 16b. Corporate bond rate regression Dependent variable: BBB-rated corporate bond rate for maturity:
+2-year
+5-year
+7-year
+10-year
+20-year
+30-year
+PHNTY(m: 2-10)
+3.34
+7.04
+7.80
+7.75
+6.36
+5.73
+PHNTY(m: 2-10) (Standard Error)
+(3.35)
+(3.61)
+(3.44)
+(3.10)
+(2.46)
+(2.24)
+Duration Gap
+130.03
+124.33
+129.81
+138.18
+138.45
+131.67
+Duration Gap (Standard Error)
+(45.77)
+(43.86)
+(41.94)
+(39.56)
+(35.66)
+(33.80)
+[s(m) - s(2)]
+-1.29
+-0.65
+-0.45
+-0.27
+-0.07
+-0.01
+[s(m) - s(2)] (Standard Error)
+(0.15)
+(0.16)
+(0.15)
+(0.13)
+(0.11)
+(0.11)
+[Treasury IV]
+0.02
+0.02
+0.02
+0.02
+0.02
+0.01
+[Treasury IV] (Standard Error)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+(0.003)
+Adjusted R
+0.83
+0.65
+0.58
+0.54
+0.54
+0.56
+Footnotes
+* Federal Reserve Board. Emails of authors: Stefania.D'[email protected]; [email protected]; [email protected]; [email protected]. For helpful comments on earlier versions of this paper, we thank Jane Ihrig, Mike Joyce, Thomas King, Elizabeth
+Klee, Canlin Li, Elmar Mertens, Dimitri Vayanos, Andrew Scott, Min Wei, Jonathan Wright, and participants at the European Central Bank workshop, "Macroeconomic Impact of Nonstandard Monetary Policy Measures" (March 2011), at the Seventh Meeting of Central Bank Monetary Policy Managers, Rio de
+Janeiro (April 2011), and at the Bank of England conference on "QE and Other Unconventional Monetary Policies" (November 2011).We also thank seminar participants at the Bank of England and the IMF, as well as numerous colleagues at the Federal Reserve Board. D'Amico also acknowledges the
+hospitality of the Macrofinancial Analysis Division at the Bank of England. Benjamin Brookins, George Fenton, Christine Garnier, Andrew Giffin, Shenje Hshieh, and John Sears provided research assistance. The views expressed in this paper are those of the authors alone and do not necessarily reflect
+the views of the Board of Governors of the Federal Reserve System or its staff. Return to Text
+1. Prior to adopting this statement language, the FOMC had referred for several months to its expectation that an exceptionally low funds rate would be in force "for some time." In August 2011, the FOMC changed the statement language from "for an extended
+period" to "at least through mid-2013" and then in January 2012 it changed this to "at least through late 2014." Return to Text
+2. In the context of LSAPs, this channel was first highlighted by Gagnon, Raskin, Remache, and Sack (2011). Return to Text
+3. We will also have occasion to comment on the typology of channels offered by Krishnamurthy and Vissing-Jorgensen (2011), and to discuss why we omit (or condense) a number of channels that these authors list. Return to
+Text
+4. The magnitude of the effect of LSAPs on longer-term policy rates that is assumed in macroeconomic model simulations such as those in Chung, Laforte, Reifschneider, and Williams (2012) has been informed by these studies. Return to Text
+5. That is, held by private households and private financial and nonfinancial firms (including foreign entities), rather than by the public sector (where "public sector" includes the Federal Reserve). Return to Text
+6. See http://www.federalreserve.gov/aboutthefed/section14.htm Return to Text
+7. The targets for the shorter-maturity rates were dropped in July-August 1947. See Friedman and Schwartz (1963, pp. 577-579) and Romer and Romer (1993, p. 81). Return to Text
+8. Consistent with this, Thomas (1947, p. 210) considered the consequences of a scenario in which "long-term rates were  to rise" (emphasis
+added), thereby accepting that the authorities could have prevented such a rise. Return to Text
+9. Another publication by Board senior staff, Young and Yager (1960), outlined arguments similar to Riefler's. Return to Text
+10. Consistent with this position, discussions within the Federal Reserve generally accepted that official purchases of longer-term securities could affect bond rates. For example, Cooper (1967, p. 20) notes that while as of the early 1960s there were
+"divergent and shifting opinions of members and staff throughout the period when operations in coupon issues were being discussed," it was nevertheless "recognized that System purchases of intermediate- and long-term government securities...would tend to influence prices (and rates) as would any
+large-scale buying." Return to Text
+11. For example, the First National City Bank of New York (1959, p. 114) stated: "Sustained movements in bill yields work their way throughout the rate structure and vitally affect the availability of credit, long-term as well as short-term, without direct
+Federal Reserve intervention in the long-term market." Return to Text
+12. In a major understatement, a Financial Times article (1960) discussing preparations for Operation Twist noted, "There is, it is true, some difference of opinion about how far it is possible to reduce long-term interest rates, while maintaining short-term
+rates." Return to Text
+13. See Meigs (1972, p. 271) and Culbertson (1973, p. 37). The position that Treasury debt-lengthening operations by the Treasury had swamped the effects of Operation Twist held by James Tobin while he served in the Kennedy Administration (see Morris, 1968, p.
+23, and Tobin, 1974, pp. 32-33) and he reaffirmed it subsequently (see Tobin's testimony in Joint Economic Committee, 1992, p. 53). Franco Modigliani shared this view (see Brookings Institution, 1978, p. 652). Return to Text
+14. From Greenspan's January 10, 1992 testimony in Committee on Banking, Housing and Urban Affairs (1992, p. 68). In contrast, Paul Samuelson and James Tobin testified during this period in favor of Federal Reserve purchases of longer-term securities to put
+downward pressure on longer-term rates: see Joint Economic Committee (1992). Return to Text
+15. Treasury debt management operations, like Federal Reserve purchases or sales of longer-term securities, can alter the composition of the outstanding debt, so the former can be informative about the effects of the latter. The fact that either the Treasury
+or the Federal Reserve can take actions to secure a particular maturity composition for the outstanding stock of Treasury debt was noted by Friedman and Schwartz (1963, pp. 579, 634). Return to Text
+16. Gagnon, Raskin, Remache, and Sack (2011) and Hamilton and Wu (2012) use Vayanos-Vila as their baseline. Return to Text
+17. The model shares this feature with a class of models of the impact of second moments on term-structure behavior. Return to Text
+18. We restrict the analysis to seasoned thirty-year bonds in order for all the securities considered to feature similar characteristics on the dimension of their liquidity (using that term in its financial-market sense of "marketability"). Return to Text
+19. The Federal Reserve Bank of New York release stated: "The Desk will concentrate its purchases in the two- to ten-year sector of the nominal Treasury curve, although purchases will occur across the nominal Treasury coupon and TIPS yield curves." Return to Text
+20. Part of this reversal likely reflects investors' marking-down of the probability that ten-year Treasury securities would be among the bonds purchased. Investors may have initially interpreted the FOMC reference to "longer-term Treasury securities" as
+pertaining to maturities beyond seven years. Return to Text
+21. As in the case of the ten-year rate, a minor part of this retracement may be attributable to the expectation that a smaller amount of duration would be withdrawn from the market, this expectation arising from the realization that the Federal Reserve
+purchases would be concentrated in maturities under ten years. The likelihood that the patterns of the ten- and fourteen-year rates are driven by the same factors is reinforced by the fact that the two securities considered are more similar to each other in duration than in maturity. Return to Text
+22. As indicated earlier, "privately held" here refers to holdings outside the federal government and the Federal Reserve. It includes the holdings of both the nonbank private sector (including foreign entities and state and local governments) and commercial
+banks. Return to Text
+23. We are grateful to Canlin Li for this suggestion. Return to Text
+24. See Kim and Wright (2005) and Kim and Orphanides (2005). Return to Text
+25. See D'Amico, Kim, and Wei (2008). Return to Text
+26. See, for example, Fama and Bliss (1987) and Estrella and Hardouvelis (1991). Return to Text
+27. It will turn out that the inclusion of the slope term in the regression improves the explanatory power of the regression but has little effect on the estimated impact of the scarcity and duration regressors. See Table 8, which reports results without the
+slope as an explanatory variable. Return to Text
+28. We caution against direct comparison of the coefficient on duration in these estimated specifications with those in studies such as Greenwood and Vayanos (2010) and Hamilton and Wu (2012), as we are using a gap variable rather than the level of aggregate
+duration or average maturity. Return to Text
+29. An exception is the thirty-year yield, for which the buckets of interest are empty for the bulk of the sample period. Return to Text
+30. We also considered specifications based on an ATSM without TIPS. The resulting estimates of the key coefficients were very similar. Return to Text
+31. Our finding of effects of LSAP-style operations on longer-term interest rates, though based on estimates from the pre-LSAP period, is consistent with several studies noted above that focus on the periods of the LSAPs. An exception, which emphasizes the
+signaling channel, is Bauer and Rudebusch (2011). Return to Text
+32. Inclusion of this variable amounts to an attempt to control for macroeconomic developments that are not already proxied by variation in the yield-slope regressor. Return to Text
+33. The rationale for this variable is that a "flight to quality" should feature falling equity prices and a marking-up of prices of Treasury securities, in response to investors' shift from more risky assets into Treasury securities. This process should
+lead to a positive correlation between equity returns and Treasury yields. Return to Text
+34. This is measured by Merrill Lynch's weighted average of implied volatilities of the two-year (20 percent), five-year (20 percent), ten-year (40 percent), and thirty-year (20 percent) Treasury securities. Return to
+Text
+35. As stressed above, in preferred-habitat models, it is features other than the absence of default risk that make investment in longer-term securities attractive to certain investors. In particular, institutional investors tend to favor a fixed income
+stream that helps match the maturity of assets and liabilities. Return to Text
+36. On the other hand, we might expect the reaction of swap rates to changes in aggregate duration to be similar to that of longer-term Treasury securities. Return to Text
+37. The similarity to the previous estimates might be a result of transmission to other interest rates of responses of longer-term Treasury yields to LSAP-style operations. Return to Text
+38. The significance of the key parameter estimates is robust to the choice of length of the Newey-West lag window. The final regression in Table 7 has a coefficient on  of 5.79 with standard error 1.45. This standard error only rises to 1.78 if instead fifty-two lags are used in calculating the Newey-West standard errors. Likewise, the standard error for the coefficient on the duration gap term rises from 15.8 to 18.4 if the Newey-West lag
+window becomes 52 weeks; this standard error is still small in relation to the coefficient estimate of 107.4. Return to Text
+39. See also Rudebusch (2010). This conversion factor is based on an OLS regression of the first difference of the ten-year rate on the first-difference of the funds rate. Such a regression is reported in Chung, Laforte, Reifschneider, and Williams (2012, p.
+68). Clearly, this procedure does raise a number of econometric issues and comes with many caveats. We note, however, that the "25 basis point on the longer-term rate for a 100 basis points on the short rate" rule is also implied by Evans and Marshall's (1998, p. 68) VAR-based estimates of the
+effect of monetary policy shocks on the term structure of interest rates. Return to Text
+40. Recall that we found significant coefficients on scarcity and duration in our regressions even when conditioning on proxies for expectations of the short-term policy rate. Return to Text
+41. This would also likely entail modifications to the IS function as well as term structure equations. For some suggestions about how to modify the IS equation of dynamic general equilibrium models to allow for an explicit influence of longer-term interest
+rates on spending decisions, see Andrés, López-Salido, and Nelson (2004), and for a recent extension, see Chen, Cúrdia, and Ferrero (2012). Return to Text
+42. A caveat about using the OIS slope, however, is that the market underlying this series is less deep than the Treasury market, especially beyond the eighteen-month horizon. Return to Text
+43. One percent of 2008's nominal GDP was about $140 billion, and as noted in the text, one percent of  as of the first LSAP was about $66 billion.
+Return to Text
+♣ This version is optimized for use by screen readers. Descriptions for all mathematical expressions are provided in LaTex format. A printable pdf version is available. Return to Text
+Home | Economic Research and Data | Accessibility | Contact us
+Last update: April 15, 2013

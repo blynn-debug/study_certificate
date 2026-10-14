@@ -1,0 +1,665 @@
+[PDF page 1]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2025 CFA Institute. All rights reserved. 
+        www.gipsstandards.org 
+ 
+ 
+REQUIREMENTS OUTSIDE THE PROVISIONS 
+FOR FIRMS 
+SEPTEMBER 2025 
+
+
+[PDF page 2]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+GIPS® is a registered trademark owned by CFA Institute. 
+© 2025 CFA Institute. All rights reserved. 
+ 
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, 
+photocopying, recording, or otherwise, without the prior written permission of the copyright holder. 
+This publication is designed to provide accurate and authoritative information in regard to the subject matter covered. It is distributed with the 
+understanding that the publisher is not engaged in rendering legal, accounting, or other professional service. If legal advice or other expert 
+assistance is required, the services of a competent professional should be sought. 
+
+
+[PDF page 3]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+1 
+Requirements Outside the Provisions for Firms 
+Firms that claim compliance with the Global Investment Performance Standards (GIPS®) are required to comply with all applicable requirements 
+of the GIPS standards, including any Guidance Statements, interpretations, and Questions & Answers (Q&As) published by CFA Institute and the 
+GIPS standards governing bodies. This document can be used to assist firms with identifying those requirements found within the Guidance 
+Statements, interpretations, and Q&As, including the GIPS Standards Handbook for Firms, (together, the interpretive guidance) that are not 
+addressed directly by a provision. This document does not list every instance where the word “must” or “required” is used in the interpretive 
+guidance. For example, in the explanation of Provision 1.A.11, the GIPS Standards Handbook states: 
+The GIPS Composite Report must be one that represents the strategy being marketed to the prospective client. 
+While the word “must” is used, it does not impose a new requirement on a firm beyond what it is already required to do by the provisions. This 
+requirement is therefore not included in this list of requirements outside the provisions.  
+Contrast this with the explanation of Provision 4.C.11 in the GIPS Standards Handbook, which states: 
+Pooled fund expense ratios that are calculated for periods of less than one year must be annualized.  
+Because this requirement is not addressed by a provision, it is included in this list of requirements outside the provisions.  
+This was a subjective exercise, and we took the view that an additional requirement not directly addressed by a provision is one that would 
+result in a new or updated provision if we were updating the GIPS standards. If this document included every instance of the word “must” or 
+“required,” we would have hundreds of additional requirements, and that would not be helpful.  
+In the table below, “HB” refers to the GIPS Standards Handbook discussion of the noted provision, “GS” refers to Guidance Statement, and 
+“Q&A” refers to the GIPS Standards Q&A Database. We identified requirements that affect disclosures included in GIPS Reports by including 
+“Yes” in the GIPS Report column.   
+This document was created in February 2025 and reflects the additional requirements as of that date. Any additional requirements published 
+after this date are not reflected in this document. 
+ 
+ 
+ 
+ 
+
+
+[PDF page 4]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+2 
+ 
+Source 
+Requirement 
+GIPS Report 
+1.  
+HB 1.A.13 
+[When a GIPS Report for a new LDPF has not yet been created because the LDPF has 
+not yet reached the initial annual period end] If the prospective investor for this 
+new LDPF is still a prospective investor after a GIPS Report with performance 
+through the initial annual period end is prepared, the firm must provide this GIPS 
+Report to the prospective investor. 
+ 
+2.  
+HB 4.A.1.e 
+HB 6.A.1.e 
+If a price-only benchmark is included in a GIPS Composite Report/GIPS Pooled Fund 
+Report as supplemental information, or is presented outside of a GIPS Composite 
+Report/GIPS Pooled Fund Report, it must be identified as a price-only benchmark, 
+and there must be sufficient disclosures so that a prospective client or prospective 
+investor understands the difference between the return of a price-only benchmark 
+and the return of a total return benchmark.  
+Yes  
+3.  
+HB 1.A.24 
+Firms that manage sub-advised pooled funds that are marketed or distributed by 
+another firm as either an LDPF or a broad distribution pooled fund (BDPF) must 
+treat these portfolios as segregated accounts and not pooled funds for the purpose 
+of determining the composite assignment and on which list they must be 
+maintained. 
+ 
+4.  
+HB 2.A.1  
+Firms must not include overlay exposure in total firm assets. 
+ 
+5.  
+HB 2.A.13 
+[A] zero-transaction cost must not be used as a model transaction cost for other 
+portfolios. 
+ 
+6.  
+HB 2.A.18 
+A firm may choose to present a proprietary measure of risk as an additional risk 
+measure, but it must describe the proprietary measure of risk that is presented and 
+explain why it was selected. 
+Yes  
+7.  
+HB 2.A.21 
+[When adjusting preliminary or estimated values to final values] If composite or 
+pooled fund valuations are revised retroactively, firms must consider the 
+requirements related to error correction and the firm’s error correction policies. 
+Differences between final and estimated values are not considered to be errors but 
+are treated similarly. 
+ 
+8.  
+HB 2.A.31 
+There are times when using the investment management fee that is appropriate to 
+prospective clients as a model fee results in net-of-fees returns that are not equal to 
+or lower than those that would have been calculated using actual investment 
+management fees. If this is the case, to ensure this provision is met, the firm will 
+need to use a model investment management fee that is higher than the current fee 
+that is appropriate to prospective clients. 
+ 
+
+
+[PDF page 5]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+3 
+ 
+Source 
+Requirement 
+GIPS Report 
+9.  
+HB 2.A.31 
+A firm may wish to include a second net-of-fees return in a GIPS Report that is 
+created using a model fee specific to a prospective client. If this second net-of-fees 
+return does not meet the requirement of being either equal to or lower than the 
+return that would have been calculated using actual investment management fees, 
+this second net-of-fees return must be labeled as supplemental information. In 
+addition, there must be a disclosure explaining how the firm arrived at the return. 
+Yes  
+10.  
+HB 2.A.32 
+Although a firm must disclose if model or actual fees are used to calculate pooled 
+fund net returns, when net returns are not straightforward and/or have multiple 
+assumptions, additional disclosure about pooled fund net return calculations may 
+be needed to ensure that the principle of full disclosure is met. 
+Yes  
+11.  
+HB 2.A.33 
+There are times when using the total pooled fund fee that is appropriate to 
+prospective investors as a model fee results in net returns that are not equal to or 
+lower than those that would have been calculated using actual total pooled fund 
+fees. If this is the case, to ensure this provision is met, the firm will need to use a 
+model total pooled fund fee that is higher than the current fee that is appropriate to 
+prospective investors. 
+ 
+12.  
+HB 2.A.33 
+A firm may wish to include a second net return in a GIPS Report that is created using 
+a model fee specific to a prospective investor. If this second net return does not 
+meet the requirement of being either equal to or lower than the return that would 
+have been calculated using actual total pooled fund fees, the second net return 
+must be labeled as supplemental information. In addition, there must be a 
+disclosure explaining how the firm arrived at the return. 
+Yes  
+13.  
+HB 3.A.2 
+If the firm chooses to present segment composites and not present multi-strategy 
+or multi-asset-class composites to prospective clients of a multi-asset class or multi-
+strategy composite, it must present all segment composites of the multi-strategy or 
+multi-asset-class strategy.  
+ 
+14.  
+HB 3.A.10 
+If the firm suggests a change in strategy that would result in a client’s portfolio 
+moving to a new composite, the firm must make every reasonable effort to provide 
+the client with a GIPS Composite Report for the new composite. 
+ 
+15.  
+HB 3.A.14 
+A firm may wish to present performance to wrap fee prospective clients for a 
+specific strategy for which the firm does not yet manage wrap fee portfolios. In such 
+a case, the firm must not present the GIPS Composite Report created for non-wrap 
+fee clients. Instead, the firm must calculate a wrap fee performance history for that 
+ 
+
+
+[PDF page 6]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+4 
+ 
+Source 
+Requirement 
+GIPS Report 
+specific strategy by using that strategy’s gross-of-fees non–wrap fee composite 
+history reduced by the highest total wrap fee charged to the client (end user) by the 
+wrap fee sponsor for the strategy (product). 
+16.  
+HB 3.A.15 
+If a firm includes a carve-out that is managed with its own cash balance in a 
+composite, all similar carve-outs that have been created and have their own cash 
+balance must also be included in that composite. 
+ 
+17.  
+HB 3.A.15 
+[When calculating carve-out returns] In all cases, the cash return must be the 
+portfolio’s actual cash return. A cash return proxy must not be used. 
+ 
+18.  
+HB 4.A.4 
+HB 5.A.6 
+HB 6.A.4 
+HB 7.A.6 
+If the firm designates benchmarks as primary and secondary benchmarks, it must 
+disclose when these designations change (e.g., if a primary benchmark becomes a 
+secondary benchmark), because such a change in designation is considered a 
+benchmark change.  
+Yes  
+19.  
+HB 4.A.4 
+HB 5.A.6 
+HB 6.A.4 
+HB 7.A.6 
+In all instances, if multiple benchmarks are presented in a GIPS Composite Report 
+and one or more of the benchmarks is removed from the GIPS Composite Report, 
+the firm must disclose this fact.  
+Yes  
+20.  
+HB 4.A.4 
+HB 5.A.6 
+HB 6.A.4 
+HB 7.A.6 
+Additional benchmarks beyond appropriate benchmarks may be presented in a GIPS 
+Composite Report as supplemental information. There must be sufficient disclosure 
+so that a prospective client or prospective investor understands the nature of the 
+benchmark and why it is being presented. 
+Yes 
+21.  
+HB 4.A.18 
+HB 5.A.15 
+HB 6.A.11 
+HB 7.A.13 
+Supplemental Information must not be shown with greater prominence than the 
+required composite/pooled fund information. 
+Yes  
+22.  
+HB 4.C.11 
+HB 5.C.10 
+HB 6.A.5 
+HB 7.A.7 
+Pooled fund expense ratios that are calculated for periods of less than one year 
+must be annualized. 
+Yes 
+23.  
+HB 4.C.20 
+HB 6.C.17 
+If non-compliant performance is included in a GIPS Composite Report after the 
+minimum effective date, it must be labeled as supplemental information and must 
+not be linked to the GIPS-compliant performance. 
+Yes  
+
+
+[PDF page 7]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+5 
+ 
+Source 
+Requirement 
+GIPS Report 
+24.  
+HB 5.C.19 
+HB 7.C.17 
+If non-compliant performance is included in a GIPS Composite Report/GIPS Pooled 
+Fund Report after the minimum effective date, it must be labeled as supplemental 
+information. 
+Yes  
+25.  
+HB 4.C.32 
+HB 6.C.27 
+[Prospective benchmark change that combines two different benchmarks] Firms 
+must also carefully identify the benchmark as a custom benchmark in the GIPS 
+Composite Report/GIPS Pooled Fund Report and must make clear that the 
+benchmark returns are not those of the current benchmark for all periods. It would 
+not be appropriate to label the benchmark returns with the name of the current 
+benchmark. The firm must provide information, including labeling of the 
+benchmark, that is sufficient to allow a prospective client/prospective investor to 
+distinguish the prior benchmark returns from the current benchmark returns.  
+Yes  
+26.  
+HB 4.C.33  
+HB 6.C.28 
+A firm must not present net-of-fees benchmark returns compared with only gross-
+of-fees composite returns/pooled fund gross returns.  
+Yes  
+27.  
+HB 5.C.32  
+HB 7.C.28 
+A firm may use a net-of-fees PME benchmark only when composite net-of-fees 
+returns/pooled fund net returns are presented. 
+Yes  
+28.  
+HB 4.C.33 
+HB 6.C.28 
+[When the benchmark is an ETF] As part of the benchmark description for an ETF, 
+the firm must disclose the following items: 
+• if ETF returns are gross or net of fees and other costs, including transaction costs; 
+• the ETF expense ratio, if ETF net returns are presented; 
+• if ETF returns are based on market prices or net asset values (NAVs); 
+• the timing of the market close used to determine the ETF’s valuations; and 
+• if ETF returns are gross or net of withholding taxes, if this information is available.  
+Yes  
+29.  
+HB 5.A.1.d  
+HB 7.A.1.d 
+For composites/pooled funds that have a subscription line of credit (LOC), and the 
+firm is required to present composite/pooled fund returns both with and without 
+the subscription line of credit (see Provision 5.A.2), the firm must present 
+benchmark returns for the same periods as both composite/pooled fund returns.  
+Yes  
+30.  
+HB 5.A.2 
+HB 7.A.2  
+If returns both with and without the subscription LOC are required to be presented 
+in a GIPS Composite Report, these returns must be comparable. If the firm presents 
+gross-of-fees returns only, gross-of-fees returns with and without the subscription 
+LOC must be presented. If the firm presents net-of-fees returns only, net-of-fees 
+returns with and without the subscription LOC must be presented. If the firm 
+presents both gross-of-fees and net-of-fees returns, the firm must present gross-of-
+Yes  
+
+
+[PDF page 8]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+6 
+ 
+Source 
+Requirement 
+GIPS Report 
+fees returns with and without the subscription LOC and net-of-fees returns with and 
+without the subscription LOC. 
+ 
+If returns both with and without the subscription LOC are required to be presented 
+in a GIPS Pooled Fund Report, these returns must be comparable. If the firm 
+presents gross returns only, gross returns with and without the subscription LOC 
+must be presented. If the firm presents net returns only, net returns with and 
+without the subscription LOC must be presented. If the firm presents both gross and 
+net returns, the firm must present gross returns with and without the subscription 
+LOC as well as net returns with and without the subscription LOC. 
+31.  
+HB 5.C.5 
+HB 7.C.5  
+Given the unique nature of a PME, if the market index used to calculate the PME is 
+not readily recognized, the firm must also disclose the description of this 
+benchmark. 
+Yes  
+32.  
+Q&A - GIPS Reports  
+When providing a GIPS Composite Report to a prospective investor for any pooled 
+fund included in that composite, a firm must include the explicit name of the pooled 
+fund when disclosing the fee schedule and expense ratio. 
+Yes  
+33.  
+Q&A - Real Estate, 
+Valuation  
+If a firm has based their valuation on a pending sale, repossession, or lease 
+termination, the firm must maintain documentation showing that the process was 
+started by the date the external valuation would have been required. 
+ 
+If the sale of a property, loan default, or lease termination action is subsequently 
+cancelled and the firm used the original transaction documentation to satisfy the 
+external valuation requirement, the firm must obtain an external valuation of the 
+property within six months of the transaction cancellation date. 
+ 
+34.  
+Q&A - Securities 
+Lending  
+The firm cannot exclude the impact of the securities lending collateral shortfall if it 
+had previously determined that it would include the income associated with 
+securities lending. Firms must not exclude the portfolio from the respective 
+composite due to the loss on securities lending collateral. 
+ 
+35.  
+Benchmark GS 
+If a hedged or partially hedged benchmark is used, the hedging criteria for the 
+benchmark is expected to be disclosed as a part of the benchmark description. 
+Yes 
+36.  
+Q&A - Benchmarks 
+For portfolio-weighted custom benchmarks, the firm must include each portfolio’s 
+actual benchmark as the components in the benchmark return calculations. 
+However, the disclosure about these components can be aggregated into larger 
+Yes 
+
+
+[PDF page 9]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+7 
+ 
+Source 
+Requirement 
+GIPS Report 
+groupings. A firm has options for making this required disclosure. When a portfolio-
+weighted custom benchmark is used, for purposes of meeting the requirement to 
+disclose the components that constitute the portfolio-weighted custom benchmark, 
+the firm may determine how best to disclose the benchmark components given the 
+respective composite strategy. The definition of component can be determined on a 
+composite-specific basis. Components could be defined as 
+ 
+ 
+the individual benchmarks within the portfolio-weighted custom 
+benchmark, 
+ 
+the regions or asset classes of the individual benchmarks within the 
+portfolio-weighted custom benchmark, or 
+ 
+criteria important to the management of portfolios in the composite, such 
+as duration groupings for LDI composites, within the portfolio-weighted 
+custom benchmark. 
+ 
+The firm must disclose the components and related weightings of those 
+components as of the most recent annual period end. If the firm discloses 
+aggregated benchmark component information, it must offer to provide information 
+about the benchmarks within each component upon request. The firm must also 
+disclose that the individual benchmarks that constitute the portfolio-weighted 
+custom benchmark, including the weights that each individual benchmark 
+represents, are available for prior periods upon request. 
+37.  
+Overlay GS  
+The firm must disclose if it chooses to arithmetically link overlay strategy portfolio 
+or composite returns.  
+Yes  
+38.  
+Overlay GS  
+If a firm chooses to apply the Guidance Statement on Overlay Strategies 
+retroactively, it must disclose if any restatement of the historical track record was 
+necessary as a result of the retroactive application. 
+Yes  
+39.  
+OCIO GS 
+All discretionary, fee-paying OCIO Portfolios must be included in a Required OCIO 
+Composite. 
+ 
+40.  
+OCIO GS 
+OCIO Portfolios with a liability-hedging mandate must be assigned to a liability-
+focused composite based on the strategic allocation to liability-hedging assets. 
+ 
+41.  
+OCIO GS 
+OCIO Portfolios with a total return mandate must be assigned to a total return 
+composite based on the strategic allocation to growth assets. 
+ 
+
+
+[PDF page 10]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+8 
+ 
+Source 
+Requirement 
+GIPS Report 
+42.  
+OCIO GS 
+For OCIO Portfolios, a firm must establish policies and procedures for determining 
+how assets are classified – as growth, liability-hedging, or risk-mitigating.  
+ 
+43.  
+OCIO GS 
+If a firm’s policies for classifying assets for OCIO Portfolios differ from the 
+recommended asset classification, firms must disclose how they differ.  This 
+disclosure must cover all periods presented. 
+Yes 
+44.  
+OCIO GS 
+A firm must disclose how it classifies hedge funds for OCIO Portfolios. 
+Yes 
+45.  
+OCIO GS 
+A firm must establish a composite-specific policy for the treatment of legacy assets 
+for OCIO Portfolios and apply the policy consistently.  
+ 
+46.  
+OCIO GS 
+A firm must disclose information about the portfolios or assets it excludes from the 
+Required OCIO Composite as a result of legacy assets.  
+Yes 
+47.  
+OCIO GS 
+If the firm chooses to include in Required OCIO Composites the portion of the 
+portfolio that excludes legacy assets, and the firm uses a portfolio-weighted custom 
+benchmark, the firm must consider the exclusion of the legacy assets when 
+calculating the benchmark returns and adjust the benchmark if this exclusion is 
+material.  
+ 
+48.  
+OCIO GS 
+A firm must determine how the existence of legacy assets in a portfolio affects the 
+firm’s classification of the portfolio as discretionary or non-discretionary. 
+ 
+49.  
+OCIO GS 
+When calculating performance for an OCIO Portfolio the firm must calculate a time-
+weighted return. 
+ 
+50.  
+OCIO GS 
+A firm must present both gross-of-fees and net-of-fees returns for Required OCIO 
+Composites.  
+Yes 
+51.  
+OCIO GS 
+For liability-focused OCIO composites, firms must present the percentage of 
+composite assets represented by liability-hedging assets and growth assets as of 
+each annual period end for periods ending on or after 31 December 2025. 
+Yes 
+52.  
+OCIO GS 
+For total return OCIO composites, firms must present the percentage of composite 
+assets represented by growth assets and risk-mitigating assets as of each annual 
+period end for periods ending on or after 31 December 2025. 
+Yes 
+53.  
+OCIO GS 
+For Required OCIO Composites, firms must present the percentage of composite 
+assets represented by private market investments and hedge funds as of each 
+annual period end for periods ending on or after 31 December 2025.  
+Yes 
+54.  
+OCIO GS 
+For Required OCIO Composites, the firm must provide enough information about 
+the fees to allow an OCIO Portfolio prospective client to understand all the fees the 
+firm will earn from the client’s portfolio. The fee schedule must include information 
+Yes 
+
+
+[PDF page 11]
+ 
+www.gipsstandards.org 
+ 
+©2025 CFA Institute. All rights reserved. 
+ 
+ 
+ 
+9 
+ 
+Source 
+Requirement 
+GIPS Report 
+about the types of fees that are earned on proprietary funds (e.g., investment 
+management fees, performance-based fees) and any other fees that are earned, 
+such as placement fees earned on proprietary or third-party funds. 
+55.  
+OCIO GS 
+When initially preparing a GIPS Report for a Required OCIO Composite, a firm is 
+required to initially present at least five years of performance that meets the 
+requirements of the GIPS standards and the Guidance Statement for OCIO 
+Portfolios. If the composite has been in existence less than five years, the firm must 
+present performance since the composite inception date. Prospectively, the firm 
+must present an additional year of performance each year, building up to a 
+minimum of 10 years of performance 
+Yes 
+56.  
+OCIO GS 
+If the firm also provides the GIPS Report for a non-Required OCIO Composite that is 
+a sub-composite of a Required OCIO Composite or a combination of two or more 
+Required OCIO Composites to an OCIO Portfolio prospective client, it must include 
+all disclosures and other information that would be required for a Required OCIO 
+Composite.  
+Yes 
+57.  
+OCIO GS 
+If a firm manages pooled funds that represent a specific strategic asset allocation 
+and offers participation in the pooled funds to OCIO Portfolio prospective clients 
+instead of managing investments in a segregated account, and it provides a GIPS 
+Pooled Fund Report instead of a GIPS Composite Report to OCIO Portfolio 
+prospective clients, it must present both pooled fund gross returns and pooled fund 
+net returns. 
+Yes 
+58.  
+OCIO GS 
+If a firm manages pooled funds that represent a specific strategic asset allocation 
+and offers participation in the pooled funds to OCIO Portfolio prospective clients 
+instead of managing investments in a segregated account, and it provides a GIPS 
+Pooled Fund Report instead of a GIPS Composite Report to OCIO Portfolio 
+prospective clients, it must include all disclosures and other information required by 
+the Guidance Statement for OCIO Portfolios that would be required if the pooled 
+fund was included in a Required OCIO Composite. 
+Yes 
+ 
+ 

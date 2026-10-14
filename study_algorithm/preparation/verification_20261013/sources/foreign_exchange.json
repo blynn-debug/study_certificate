@@ -1,0 +1,18 @@
+{
+  "id": "foreign_exchange",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276137&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276137&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:42.871635+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 31405,
+  "content_sha256": "f6db65fa2490e193ee822fd74a908d232631dc47c5ea7ee591c514fa350d4d12",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

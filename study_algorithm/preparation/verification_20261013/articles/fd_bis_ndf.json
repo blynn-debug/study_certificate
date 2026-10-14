@@ -1,0 +1,32 @@
+{
+  "source_id": "fd_bis_ndf",
+  "source_metadata": {
+    "id": "fd_bis_ndf",
+    "requested_url": "https://www.bis.org/publications/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform_1.pdf",
+    "retrieved_url": "https://www.bis.org/publications/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform_1.pdf",
+    "retrieved_at": "2026-10-14T00:24:10.985897+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "0eaddeb2ae71cdc2c62a0e593c07d5c32a43c1c8c9bbfd8b66ed5e7f299633cb",
+    "binary_sha256": "0eaddeb2ae71cdc2c62a0e593c07d5c32a43c1c8c9bbfd8b66ed5e7f299633cb",
+    "text_sha256": "4446cf9fcc95b88b9c5cb37bb4a3a65bde5833905203f7feb0678a6c75f80dbe",
+    "pages": 13,
+    "characters": 38055,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fd_bis_ndf:NDFDefinition",
+      "source_id": "fd_bis_ndf",
+      "article": "NDFDefinition",
+      "heading": "NDFDefinition",
+      "text": "The 2016 BIS Triennial Central Bank Survey of Foreign Exchange and Derivatives \nMarket Activity (“the Triennial”) gathered, for a second time, global data on non-\ndeliverable forwards (NDFs), shedding light on an active, yet little studied, segment \nof foreign exchange (FX) markets. NDFs are contracts for the difference between an \nagreed exchange rate and the actual spot rate at maturity, settled with a single \npayment for one counterparty’s profit. They allow hedging and speculation in a \ncurrency without providing or requiring funding in it. Investors thereby circumvent \nlimits on home market (“onshore”) trading and on delivery of the home currency \noffshore.",
+      "start": 723,
+      "end": 1396,
+      "sha256": "b56af4a8a42cd8ffd0f1211a78b5489ca63a7e205d8d3aaf959e239154abc058"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_kcie_ratings",
+  "source_metadata": {
+    "id": "fb_kcie_ratings",
+    "requested_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=1048",
+    "retrieved_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=1048",
+    "retrieved_at": "2026-10-14T00:07:30.057363+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 5808,
+    "content_sha256": "a7775897f04c5cc0aeb648fadc2c8c0e2341d6024ef8c2fe19257b9fe3f19845",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_kcie_ratings:투자등급",
+      "source_id": "fb_kcie_ratings",
+      "article": "투자등급",
+      "heading": "투자등급",
+      "text": "회사채등급은 AAA, AA+, AA, AA-, A+, A, A-, BBB+, BBB, BBB-, BB+, BB, BB-, B+, B, B-, CCC, CC, C, D 등으로 표기합니다.\n※ 상기 등급 중 AA부터 B 등급까지는 +, - 부호를 부가하여 동일 등급 내에서의 우열을 나타냅니다.\nAAA 등급이 가장 우량한 등급이고, D는 부도(Default) 상태를 나타냅니다.\n우리나라의 회사채 신용평가등급 표기 방법은 S&P(신용평가를 발표하는 미국금융기업)와 유사합니다. BBB- 등급 이상을 투자등급(또는 투자적격등급), BB+이하를 투기등급(또는 투자부적격등급) 이라고 합니다.",
+      "start": 1709,
+      "end": 2035,
+      "sha256": "a24418c709b067279f7dea7b89801de6e669493cf73690d37e88d3b77fb93271"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "report_links_checked": 4090,
+  "report_anchors_checked": 1043,
+  "worked_examples": 6,
+  "numeric_results": {
+    "bond_two_year_yield_10pct": 91.32231404958677,
+    "bond_two_year_yield_5pct": 100.0,
+    "forward_check_price": 208.0,
+    "forward_check_profit": 7.0,
+    "tracking_error": 0.11661903789690602,
+    "portfolio_mean": 0.06,
+    "portfolio_sigma_rho_0": 0.1118033988749895,
+    "portfolio_sigma_rho_minus_1": 0.05,
+    "corrected_irr": 0.26727818453862473
+  },
+  "integration_files": 3,
+  "boundary": "Local link existence, anchor validity, reference integration and stated example arithmetic. No browser interaction or empirical learning-effect evaluation."
+}

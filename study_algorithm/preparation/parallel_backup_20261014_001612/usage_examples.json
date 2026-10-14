@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-10-13",
+  "status": "usage_examples_not_live_grading_results",
+  "configuration": {
+    "required_environment": [
+      "OPENAI_API_KEY",
+      "STUDY_EVAL_MODEL"
+    ],
+    "optional_environment": [
+      "STUDY_EVAL_REVIEW_MODEL",
+      "STUDY_EVAL_BASE_URL"
+    ],
+    "secret_handling": "API 키는 로컬 환경변수로 설정하고 채팅·JSON·보고서에 저장하지 않는다."
+  },
+  "workflow": [
+    "검토된 발문과 prompt_sha256을 가져온다.",
+    "실제 학습자에게 발문만 전달한다. 정답·해설은 숨긴다.",
+    "응답을 받은 뒤 해당 발문의 prompt_sha256과 실제 응답을 입력한다.",
+    "held는 학습자 오답으로 기록하지 않는다. 단일 응답으로 숙달을 확정하지 않는다."
+  ],
+  "commands": {
+    "prompt": "python preparation/eval/semantic_grader.py --prompt S1C1T01-SUP-01",
+    "learner": "python preparation/eval/semantic_grader.py --input learner_response.json --output learner_result.json",
+    "second_judge": "python preparation/eval/semantic_grader.py --input learner_response.json --output learner_result.json --second-judge",
+    "assistant": "python preparation/eval/assistant_grader.py --input assistant_response.json --output assistant_result.json",
+    "assistant_calibration": "python preparation/eval/assistant_grader.py --benchmark --limit 24 --output assistant_calibration_result.json",
+    "coverage": "python preparation/eval/semantic_grader.py --check-coverage"
+  },
+  "learner_example": {
+    "item_id": "S1C1T01-SUP-01",
+    "as_of": "2026-10-13",
+    "mode": "explain",
+    "prompt_sha256": "9eef07472855513ad78e2973c79cf8935707e3d3e197a11c34b8d8b216aac28e",
+    "response": "[여기에 실제 학습자가 제출한 응답을 넣는다]"
+  },
+  "assistant_example": {
+    "case_id": "live-example-001",
+    "item_id": "S1C1T01-SUP-01",
+    "task_context": "학습자에게 정답을 고른 이유와 혼동한 분류를 설명하는 상황",
+    "learner_response": "[실제 학습자 응답]",
+    "assistant_output": "[실제로 제시한 비서 설명]"
+  },
+  "limits": [
+    "예시 문자열로 실행한 결과를 학습자 실측으로 보고하지 않는다.",
+    "24개 비서 사례의 일치도는 2292문항 전체의 정확도가 아니다.",
+    "Python 실행 파일은 preparation/target_analysis/.venv/Scripts/python.exe를 사용할 수 있다."
+  ]
+}

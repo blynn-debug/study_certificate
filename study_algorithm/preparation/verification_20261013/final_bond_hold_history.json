@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "id": "S3C5T17-CORE",
+      "reason": "TARGET298쪽packet원문4보기는읽었으나도표A/B효과구분을아직직접확인하지못했고잔존만기감소시가격상승은쿠폰채의pull-to-par와롤다운분해가필요함.무조건수익률하락→총가격상승을승인하지않고도표확인후해소예정.",
+      "evidence_checked": [
+        "P3:298~299 packet",
+        "고정현금흐름가격식과시간경과효과검토"
+      ]
+    },
+    {
+      "id": "S3C5T11-SUP-03",
+      "prior_handoff_packet": {
+        "id": "S3C5T11-SUP-03",
+        "kind": "supplement",
+        "chapter_id": "S3C5",
+        "topic_ids": [
+          "S3C5T11"
+        ],
+        "document": "P3",
+        "question_page": 278,
+        "demand": "금리하락시 채권 선택",
+        "publisher_answer": "②",
+        "explanation_text": "EO 금리하락（채권가격상승） 예상시 수익률 극대화 전략은 듀레이션을 최대한 길게 만드는 것이다. 즉, ‘듀레이션   丨\n             = f 표면이율 I, 잔존만기 I, 만기수익률 I）' 이므로 표면금리가 낮은 채권（가）과 잔존만기가 긴 채권（라）을\n        매수하면 된다.",
+        "question_text": "03 향후에 금리가 하락할 것으로 예상되는 국면에서 채권형펀드의 운용수익률을 제고하기 위해서는\n ••• 어떤 채권을 매수하는 것이 유리한가?\n\n\n                표면금리                       잔존만기\n\n           표면금리가 5%인 채권-（가）              잔존만기가 3년인 채권-（다）\n\n           표면금리가 8%인 채권-（나）             잔존만기가 10년인 채권-（라）\n\n   ① （가）, （다）               ② （가）, （라）\n\n   ③ 나）, （다）               ④ （나）, （라）\n\n   EO 금리하락（채권가격상승） 예상시 수익률 극대화 전략은 듀레이션을 최대한 길게 만드는 것이다. 즉, ‘듀레이션   丨\n             = f 표면이율 I, 잔존만기 I, 만기수익률 I）' 이므로 표면금리가 낮은 채권（가）과 잔존만기가 긴 채권（라）을\n        매수하면 된다.\n                                        国②",
+        "answer_pages": [
+          278
+        ],
+        "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+        "locator_status": "heuristic_terminal_choice; requires_review",
+        "source_page_review_notes": [
+          "S3C5-ISSUE-10",
+          "S3C5-ISSUE-11"
+        ],
+        "ocr_recovery": null,
+        "trusted_gold_status": "not_adjudicated",
+        "source_pages": [
+          278
+        ]
+      },
+      "resolution": "개별전체보기검토와성립조건/계산복원으로해소"
+    },
+    {
+      "id": "S3C5T13-SUP-01",
+      "prior_handoff_packet": {
+        "id": "S3C5T13-SUP-01",
+        "kind": "supplement",
+        "chapter_id": "S3C5",
+        "topic_ids": [
+          "S3C5T13"
+        ],
+        "document": "P3",
+        "question_page": 285,
+        "demand": "볼록성 비교",
+        "publisher_answer": "④",
+        "explanation_text": "ETI ③에서 보듯이 듀레이션과 볼록성의 방향성은 같다. 즉 표면이자율이 낮아지면 一 듀레이션이 증가하고 一\n        볼록성도 증가한다. 즉 '볼록성  I = / （표면이율 I, 잔존만기 I. 만기수익률 I）'로 봐도 된다.",
+        "question_text": "01  볼록성에 대한 설명이다. 가장 적절하지 않은 것은?\n••• ① 수익률이 하락할수록 볼록성이 증가한다.\n\n   ② 실제 채권가격은 듀레이션가격보다 항상 더 높다.\n\n   ③ 채권의 볼록성은 듀레이션이 중가함에 따라 가속도로 증가한다.\n\n   ④ 채권의 볼록성은 표면이자율이 낮을수록 감소한다.\n\n    ETI ③에서 보듯이 듀레이션과 볼록성의 방향성은 같다. 즉 표면이자율이 낮아지면 一 듀레이션이 증가하고 一\n        볼록성도 증가한다. 즉 '볼록성  I = / （표면이율 I, 잔존만기 I. 만기수익률 I）'로 봐도 된다.\n                                        回④",
+        "answer_pages": [
+          285
+        ],
+        "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+        "locator_status": "heuristic_terminal_choice; requires_review",
+        "source_page_review_notes": [
+          "S3C5-ISSUE-19"
+        ],
+        "ocr_recovery": null,
+        "trusted_gold_status": "not_adjudicated",
+        "source_pages": [
+          285
+        ]
+      },
+      "resolution": "개별전체보기검토와성립조건/계산복원으로해소"
+    },
+    {
+      "id": "S3C5T14-CORE",
+      "prior_handoff_packet": {
+        "id": "S3C5T14-CORE",
+        "kind": "core",
+        "chapter_id": "S3C5",
+        "topic_ids": [
+          "S3C5T14"
+        ],
+        "document": "P3",
+        "question_page": 287,
+        "demand": "신용·기간스프레드",
+        "publisher_answer": "②",
+        "explanation_text": "T。이 C\n\n      수익률곡선(Yi이d Curve) 即\n\n\n\n\n 핵심문제\n\n\n\n\n\n      ① 5년물 기준으로 국채와 회사채의 신용스프레드는 4.0%이다.\n\n      ② 신용스프레드는 경기호황기에 더욱 확대되는 경향이 있다.\n\n      ③ 국채나 회사채처럼 동일한 채권의 기간별 수익률을 연결한 것이 수익률 곡선이다.\n\n        (4)회사채의 5년물과 4년물의 기간스프레드는 0.4%이다.\n\n          QZI 경기불황기에 더욱 확대된다.",
+        "question_text": "T。이 C\n\n      수익률곡선(Yi이d Curve) 即\n\n\n\n\n 핵심문제\n\n\n\n\n\n      ① 5년물 기준으로 국채와 회사채의 신용스프레드는 4.0%이다.\n\n      ② 신용스프레드는 경기호황기에 더욱 확대되는 경향이 있다.\n\n      ③ 국채나 회사채처럼 동일한 채권의 기간별 수익률을 연결한 것이 수익률 곡선이다.\n\n        (4)회사채의 5년물과 4년물의 기간스프레드는 0.4%이다.\n\n          QZI 경기불황기에 더욱 확대된다.\n                                       9②",
+        "answer_pages": [
+          287
+        ],
+        "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+        "locator_status": "heuristic_terminal_choice; requires_review",
+        "source_page_review_notes": [
+          "S3C5-ISSUE-20"
+        ],
+        "ocr_recovery": {
+          "question_id": "S3C5T14-CORE",
+          "document": "P3",
+          "page": 287,
+          "recovered_prompt": "제시된 수익률곡선에 관한 설명 중 가장 적절하지 않은 것을 고른다.",
+          "necessary_visual_conditions": "3/4/5년 회사채 수익률 7.0/7.6/8.0%, 국채 3.7/3.9/4.0%. 5년 신용스프레드 4.0%p, 회사채 4→5년 기간스프레드 0.4%p. 교재 정답 ②.",
+          "verification": "original PDF image inspected"
+        },
+        "trusted_gold_status": "not_adjudicated",
+        "source_pages": [
+          287,
+          288
+        ]
+      },
+      "resolution": "개별전체보기검토와성립조건/계산복원으로해소"
+    },
+    {
+      "id": "S3C5T16-CORE",
+      "prior_handoff_packet": {
+        "id": "S3C5T16-CORE",
+        "kind": "core",
+        "chapter_id": "S3C5",
+        "topic_ids": [
+          "S3C5T16"
+        ],
+        "document": "P3",
+        "question_page": 292,
+        "demand": "선호영역과 시장분할",
+        "publisher_answer": "④",
+        "explanation_text": "부합하는 용어이지만 유동성 프리미엄과 혼용해서 사용되기도 한다.",
+        "question_text": "수익률곡선의 기간구조이 론16\n\n\n 핵심문제  수익률곡선의 기간구조이론에 대한 설명이다. 가장 거리가 먼 것은?\n\n      ① 유동성프리미엄이 전혀 반영되지 않는 이론은 불편기대이론이다.\n\n      ② 수익률곡선의 우상향을 가장 잘 설명하는 것은 유동성선호이론이다.\n\n      ③ 낙타형 수익률곡선을 잘 설명할 수 있는 것은 편중기대이론이다.\n\n         （4）하위시장에 따라 기간프리미엄이 양（+） 또는 음（-）의 값이 될 수 있다는 것은 시장분할\n\n           이론이다.\n\n   酗 ④는 선호습관가설（또는 특정시장선호이론）에 해당한다. 참고로 기간프리미엄은 선호습관가설의 이론에\n\n            부합하는 용어이지만 유동성 프리미엄과 혼용해서 사용되기도 한다.\n                                        色④",
+        "answer_pages": [
+          292
+        ],
+        "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+        "locator_status": "heuristic_terminal_choice; requires_review",
+        "source_page_review_notes": [],
+        "ocr_recovery": null,
+        "trusted_gold_status": "not_adjudicated",
+        "source_pages": [
+          292,
+          293,
+          294
+        ]
+      },
+      "resolution": "개별전체보기검토와성립조건/계산복원으로해소"
+    },
+    {
+      "id": "S3C5T16-SUP-03",
+      "prior_handoff_packet": {
+        "id": "S3C5T16-SUP-03",
+        "kind": "supplement",
+        "chapter_id": "S3C5",
+        "topic_ids": [
+          "S3C5T16"
+        ],
+        "document": "P3",
+        "question_page": 295,
+        "demand": "편중기대이론",
+        "publisher_answer": "②",
+        "explanation_text": "皿 편중기대이론은 상승형, 하강형, 수평형을 모두 설명할 수 있으며 낙타형도 설명할 수 있다(낙타형은 상승형과\n\n        하강형의 결합으로 설명 가능),",
+        "question_text": "03 편중기대이론에 대한 설명이다. 가장 거리가 먼 것은?\n\n   ① 불편기대이론과 유동성프리미엄의 결합으로 볼 수 있다.\n\n   ② 편중기대이론은 수익률곡선의 우상향, 우하향, 수평형을 모두 설명하지만 낙타형은 설명할 수\n\n       없다.\n\n   ③ 미래금리가 하락할 것으로 예상해도, 금리의 하락예상분과 유동성프리미엄의 증가분이 같다면\n\n     수익률곡선은 수평형이 된다.\n\n   ④ 미래금리의 하락예상분이 유동성 프리미엄보다 크다면 수익률곡선은 우하향한다.\n\n  皿 편중기대이론은 상승형, 하강형, 수평형을 모두 설명할 수 있으며 낙타형도 설명할 수 있다(낙타형은 상승형과\n\n        하강형의 결합으로 설명 가능),\n                                        图②",
+        "answer_pages": [
+          295
+        ],
+        "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+        "locator_status": "heuristic_terminal_choice; requires_review",
+        "source_page_review_notes": [
+          "S3C5-ISSUE-23"
+        ],
+        "ocr_recovery": null,
+        "trusted_gold_status": "not_adjudicated",
+        "source_pages": [
+          295,
+          296
+        ]
+      },
+      "resolution": "개별전체보기검토와성립조건/계산복원으로해소"
+    }
+  ],
+  "resolution": "298~299실제도표검토후가격효과/총수익구분조건으로해소"
+}

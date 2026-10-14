@@ -1,0 +1,82 @@
+[
+  {
+    "page": 1,
+    "text": "15.433 INVESTMENTS \nClasses 6: The CAPM and APT \nPart 1: Theory \nSpring 2003 \n"
+  },
+  {
+    "page": 2,
+    "text": "Introduction \nSo far, we took the expected return of risky asset as given. But where does expected \nreturn come from? \nUsing the intuition that investors are risk averse, one explanation is that the risk \npremium - expected return in excess of the riskfree rate - is a reward for bearing risk. \nDoes this make sense? \nThe Capital Asset Pricing Model (CAPM) provides a simple, yet elegant framework \nfor us to think about the question of reward and risk. \n"
+  },
+  {
+    "page": 3,
+    "text": "”The CAPM ” \nIn market equilibrium, investors are only rewarded for bearing systematic risk - the \ntype of risk that cannot be diversiﬁed away. \nThey should not be rewarded for bearing idiosyncratic risk, since this uncertainty \ncan be mitigated through appropriate diversiﬁcation. \nSharpe on CAPM \nBill Sharpe, one of the originators of the CAPM, in an interview with the Dow Jones \nAsset Manager: \n”But the fundamental idea remains that there’s no reason to expect re-\nward just for bearing risk. Otherwise, you’d make a lot of money in Las \nVegas. If there’s reward for risk, it’s got to be special. There’s got to be \nsome economics behind it or else the world is a very crazy place. I don’t \nthink diﬀerently about those basic ideas at all”. \n- Sharpe (1998) \n"
+  },
+  {
+    "page": 4,
+    "text": "Assumptions \n1. Perfect Markets \n• Perfect competition - each investor assumes he has no eﬀect on security prices \n• No taxes \n• No transactions costs \n• All assets publicly traded, perfectly divisible \n• No short-sale constraints \n• Same riskfree rate for borrowing and lending \n2. Identical Investors \n• Myopic1 \n• Same holding period \n• Normality or Mean-Variance Utility \n• Homogeneous expectations \n1 myopic: adj. Of, pertaining to, or aﬀected with myopia; short-sighted, near-sighted \n"
+  },
+  {
+    "page": 5,
+    "text": "The Equilibrium Market Portfolio \nRecall that every investor holds some combination of the riskless asset and the tan­\ngency portfolio. \nµi \nmean µ (%) \nrf \nCML \no \no\nµΜ \nσΜ \nMarket \n0 \n0 \nσi\nstd σ (%) \nFigure 1: Equilibrium market portfolio and eﬃcient frontier. \nWhen we aggregate the portfolios of all individual investors, lending and borrowing \nwill cancel out, and the value of the aggregated risky portfolio will equate the en-\ntire wealth of the economy. The tangent portfolio has become the equilibrium market \nportfolio. \n"
+  },
+  {
+    "page": 6,
+    "text": "\u0014 \n\u0015 \n\u0014 \n\u0015 \nThe Market Price of Risk \nThere are N mean-variance investors in the economy, each with $1. \nInvestor Risk Aversion Portfolio Weight \n1 \nA1 \nµM −rf \nσ2 \nM A1 \n2 \nA1 \nµM −rf \nσ2 \nM A2 \n3 \nA1 \nµM −rf \nσ2 \nM A3 \n. . . \n. . . \n. . . \nN \nAN \nµM −rf \nσ2 \nM AN \nAggregating over all Investors, the total wealth invested in the market portfolio is: \nµM − rf\n$1 · \nσM \n1 \nA1 \n+ 1 \nA2 \n+ . . . + 1 \nAN \n(1) \nIn equilibrium, the total wealth invested in the market portfolio must be: \n$1 · N \n(2) \nThis implies: \nµM − rf = σ2 \nM ¯A \n(3) \nwhere is an overall measure of the risk aversion among the market participants: \n1 \n¯A = 1 \nN · \n1 \nA1 \n+ 1 \nA2 \n+ . . . + 1 \nAN \n(4) \n"
+  },
+  {
+    "page": 7,
+    "text": "Pricing the Individual Risky Assets \nThe market portfolio is made of individual risky assets: \nrM = w1r1 + w2r2 + . . . + wN rN \n(5) \nwhere wi is the fraction of total market wealth invested in asset i. \nHow are the individual risky assets priced in equilibrium? \nTo answer this question, we deviate the equilibrium holding wi of asset i slightly away \nfrom its optimal level, and see how such a deviation aﬀect our investor’s maximized \nutility. \nLet’s focus on a representative investor with the average risk aversion . \n1 \n2 \nU (r) = E (r) − \n¯A var (r) \n(6) \nHis portfolio holding: \n∗ \nr = y ∗ (w1 r1 + w ∗ \n2 r2 + . . . + w ∗ \nN rN ) + (1 − y ∗) rf \n(7) \n∗\nWhat is his y ? \n∗\nIn equilibrium, wi is the optimal solution for this investor. This means: \n∂U (r) = 0 \n(8) \n∂wi \nKeeping everything else ﬁxed, what if we change wi a little? \n∂E (r) = E (ri) − rf \n(9)\n∂wi \n∂var (r) = 2 · cov (rM , ri) \n(10)\n∂wi \n"
+  },
+  {
+    "page": 8,
+    "text": "So it must be that: \n¯\nE (ri) − rf = A cov (rM , ri) \n(11) \nRecall that: \n¯\nE (rM ) − rf = A var (rM ) \n(12) \nThis takes us to: \nE (ri) − rf = βi (E (rM ) − rf ) \n(13) \nwhere \ncov (rM , ri)\nβi = \n(14) \nvar (rM ) \nOur derivation uses the quadratic utility function. In general, the proof goes through \nfor any utility function with a preference for mean, and aversion to variance. \n"
+  },
+  {
+    "page": 9,
+    "text": "Risk and Reward in the CAPM \nFor a risky asset ri, the right measure of the rewardable risk is not its variance var (ri), \nbut its covariance cov (ri, rM ) with the market. \nThe exposure to the market risk can be best quantiﬁed by: \ncov (rM , ri)\nβi = \n(15) \nvar (rM ) \nFor one unit exposure to the market risk, the reward is the same as the market: \nE(rM ) − rf \n(16) \nFor β unit of exposure to the market, the reward is: \nβi · (E (rM ) − rf ) \n(17) \nFor zero exposure to the market risk, the reward is zero, no matter how risky the asset \nis. In summary, the risk and reward relation in the CAPM is a linear relation. \nSystematic vs. Idiosyncratic \nEach investment carries two distinct risks: \n• Systematic risk is market-wide and pervasively inﬂuences virtually all security \nprices. \nExamples are interest rates and the business cycle. \n• Idiosyncratic risk involves unexpected events peculiar to a single security or a \nlimited number of securities. \nExamples are the loss of a key contract or a change in government policy toward \na speciﬁc industry. \n"
+  },
+  {
+    "page": 10,
+    "text": "The Security Market Line \nExpected \nBeta (β) \nSecurity Market Line \nM \nβ = 1 \n(µM) \nExpected \nRisk \nPremium \ndefensive \naggressive \nAlpha (α) \nβ\nReturn \n(\ni \nµi) \n(rf) \nRisk free Investment \nInvestment in Market \nFigure 2: Equilibrium market portfolio and eﬃcient frontier. \n"
+  },
+  {
+    "page": 11,
+    "text": "Systematic vs. Idiosyncratic \nEach investment carries two distinct risks: \n• Systematic risk is market-wide and pervasively inﬂuences virtually all security \nprices. \nExamples are interest rates and the business cycle. \n• Idiosyncratic risk involves unexpected events peculiar to a single security or a \nlimited number of securities. \nExamples are the loss of a key contract or a change in government policy toward \na speciﬁc industry. \n"
+  },
+  {
+    "page": 12,
+    "text": "A Linear Factor Model \nA simple model to capture these two types of risks is the linear factor model: \nri = E (ri) + βi · F + εi \n(18) \nwhich carries two risky components: \n• systematic F : common to all securities. \n• idiosyncratic εi: speciﬁc only to security i. \nBoth the common factor F and the idiosyncratic component are zero mean random \nvariables. \n"
+  },
+  {
+    "page": 13,
+    "text": "The Arbitrage Pricing Theory \nA SINGLE-FACTOR VERSION \nAssume a frictionless market with no taxes or transaction costs. Assets are perfectly \ndivisible. There is no short-sale constraint. \nAssume a one-factor linear model: \n• βi asset i’s sensitivity to the common factor. \n• F common factor, with E(F ) = 0. \n• εi ﬁrm-speciﬁc return, with zero mean, and independent of the common factor or \nother ﬁrms’ idiosyncratic component. \nPossible common factor: unexpected changes in inﬂation, industrial production, etc. \nThe Arbitrage Pricing Theory: \nE (ri − rf ) \nE (rj − rf ) \n= \n(19)\nβi \nβj \nThe expected return of any asset is determined by its exposure to the common factor, \nand has nothing to do with its idiosyncratic component. \nIn deriving APT, one need not make any assumption about investors’ preferences, \nor assume any speciﬁc distribution for the asset returns. \nThe APT is not an equilibrium concept. It does not rely on the existence of a market \nportfolio. It is based purely on no-arbitrage conditions. \n"
+  },
+  {
+    "page": 14,
+    "text": "Summary \nIn equilibrium, the tangency portfolio becomes the market portfolio. The expected \nreturn of the market portfolio depends on the average risk aversion in the market. \nThe intuition of the CAPM: expected return of any risky asset depends linearly on \nits exposure to the market risk, measured by β. \nDiversiﬁcation is an important concept in ﬁnance. It builds on a power mathemat­\nical machine called Strong Law of Large Number. \nLike the CAPM, the basic concept of the APT is that diﬀerences in expected return \nmust be driven by diﬀerences in non-diversiﬁable risk. \nThe APT is based purely on no-arbitrage condition. It is not an equilibrium con­\ncept, and does not depend on having a market portfolio. \nFocus: \nBKM Chapters 9-11 \n• p. 263 bottom to 284, (CAPM, assumptions, beta, liquidity, covariance, expecta­\ntions, SML, zero-beta model, alpha) \n• p. 287, eq. 10.5, eq.10.6 & eq.10.7 \n• p. 300 to 308 \n• p. 308 to 313 middle (eq. 10.15, eq. 10.16) \n• p. 324 to 334 middle (diversiﬁcation, eq. 11.2, APT and CAPM, Multifactor \nAPT, eq. 11.5, eq. 11.6) \nReader: Roll and Ross (1995). \ntype of potential questions: chapter 9 concept check question 1, 2, 3 & 4, p. 286 \nﬀ. questions 1, 4, 17, 22, 23, 25 chapter 10 concept check question 1, 2, 3 & 4, p. 314 \nﬀ. questions 4, 5, 6, 7, 18, 19 chapter 11 concept check question 2, 3, 4 & 5, p. 335 ﬀ. \nquestions 3, 5, 7, 10, 16 \n"
+  },
+  {
+    "page": 15,
+    "text": "Questions for Next Class \nPlease read: \n• BKM Chapter 13, \n• Jagannathan and McGrattan (1995), \n• Kritzman (1993), and \n• Kritzman (1994) \nThink about the following questions: \n• What are the predictions of the CAPM? \n• Are they testable? \n• What is a regression? \n• What is t-test? \n"
+  },
+  {
+    "page": 16,
+    "text": "TECHNICAL NOTES: The Mathematical \nFoundation of Diversiﬁcation \nBehind the concept of diversiﬁcation, there is deep, elegant, and powerful mathemati­\ncal machinery. \nSTRONG LAW OF LARGE NUMBERS: Let x1, x2, . . . , be a sequence of identically \ndistributed and independent random variables with mean µ. We have: \nlim \nN →∞ \n1 xi = µ \n(20)\nN \nalmost surely. \n"
+  },
+  {
+    "page": 17,
+    "text": "A Simulation Based ”Proof” \nSTEP 1: We start with X1, assume that it is standard normal, and simulate it 10,000 \ntimes. Using the 10,000 scenarios, we plot its ”empirical” probability distribution, \nwhich is basically the histogram of the 10,000 scenarios normalized so that the total \nprobability is one. For notational purpose, we write y1 = xi. \n1 \n2 \n3 \n4 \n5 \nLikelihood \nn = 10 \n-4\n-2 \n2\n4 \nFig­\nure 3: Likelihood and simulation outcome for y1 at n=1. \nSTEP 2: We repeat STEP 1 ten times, each time with a new seed in our random \nnumber generator, so that xi, x2, ..., x10 are indeed independent. We add them up, \nscenario by scenario, and re scale the sum by 10. That is, we have 10,000 scenarios of \n=\ny10 \n1 \n10 (x1 + x2 + · · · + x10) \n(21) \nWe then plot the ”empirical” probability distribution of y10. Chart: \n"
+  },
+  {
+    "page": 18,
+    "text": "1 \n2 \n3 \n4 \n5 \nLikelihood \nn = 10 \n-4\n-2 \n2\n4 \nOutcome of Simulation \nFigure 4: Likelihood and simulation outcome for y1 at n=10. \nSTEP 3: Finally, we repeat STEP 1 one hundred times, obtaining 10,000 scenarios \nof: \n=\ny100 \n1 \n100 (x1 + x2 + · · · + x100) \n(22) \n"
+  },
+  {
+    "page": 19,
+    "text": "X \nX \n1 \n2 \n3 \n4 \n5 \nLikelihood \nn = 100 \n-4\n-2 \n2\n4 \nOutcome of Simulation \nFigure 5: Likelihood and simulation outcome for y1 at n=100. \nAccording to Law of Large Number, as N grows inﬁnitely large, \nyN = 1 \nN \nN \ni−1 \nxi \n(23) \napproaches zero with probability one. \nFor xi normally distributed, it is actually easy to see that yN = 1 \nN \nPN \ni−1 xi will ap­\nproach zero with probability one. Since: \nvar (yN ) = 1 \nN 2 \nN \ni−1 \nvar (xi) = 1 \n(24)\nN \n"
+  },
+  {
+    "page": 20,
+    "text": "1 \n2 \n3 \n4 \n5 \nLikelihood \nn = 10 \nn = 100 \nn = 10 \n-4\n-2 \n2 \nOutcome of Simulation \nFigure 6: Likelihood and simulation outcome for y1 at n= 1 / 10 / 100. \n4 \n"
+  }
+]

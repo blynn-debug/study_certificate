@@ -1,0 +1,18 @@
+{
+  "id": "financial_investment_details",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108855&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108855&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:37:13.746739+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 60761,
+  "content_sha256": "f69ae300ebf53de1c777bc9eac65cb2d82c194369839ecb3db5c0ca01280d874",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "8"
+    ]
+  ]
+}

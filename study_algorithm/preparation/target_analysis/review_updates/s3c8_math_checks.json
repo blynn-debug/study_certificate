@@ -1,0 +1,14 @@
+{
+  "fisher_real_exact": 0.02941176470588247,
+  "calc57_spot": 0.059968552526163066,
+  "calc57_LP": 0.015031447473836931,
+  "calc57_1_exact_second": 0.018055831482771234,
+  "calc57_1_geometric_for_1_8": 0.018981371905406386,
+  "money_growth_exact": 0.05049751243781109,
+  "bsi_with_neutral": 140.0,
+  "bsi_wrong_shortcut": 120.0,
+  "unemployment": 0.125,
+  "participation": 0.8,
+  "velocity": 0.8,
+  "deflator_ratio": 1.6
+}

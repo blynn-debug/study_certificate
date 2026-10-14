@@ -1,0 +1,17 @@
+{
+  "id": "kofia_ethics",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1048&seq=154",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1048&seq=154",
+  "retrieved_at": "2026-10-13T00:04:50.228513+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1627,
+  "content_sha256": "ac5ead10ac41b687d195d27444f461842a9f2df11ddd5d7648edb8a4a3a0bd45",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자회사의 표준윤리준칙",
+  "kofia_seq": "154",
+  "history_seq": "1048",
+  "version_selection": "공식 최신본; 부칙의 시행조건 별도 확인",
+  "version_selection_source": "sources/kofia_tree.html"
+}

@@ -1,0 +1,35 @@
+{
+  "source_id": "s2_bostonfed_cases2000",
+  "source_metadata": {
+    "id": "s2_bostonfed_cases2000",
+    "requested_url": "https://www.bostonfed.org/publications/regional-review/2000/quarter-2/issues-in-finance-perils-and-pitfalls-in-risk-management.aspx",
+    "retrieved_url": "https://www.bostonfed.org/publications/regional-review/2000/quarter-2/issues-in-finance-perils-and-pitfalls-in-risk-management.aspx",
+    "retrieved_at": "2026-10-13T16:02:06.556488+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "b7db17ad82ec256ab680f5716e9d5368c00595199fbbc731fab198b131d7287c",
+    "text_sha256": "71bd496e53411554ac05f8da87556e7fde9deddc6196840ad117d2c3a9fa186f",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "s2_bostonfed_cases2000:Controls",
+      "source_id": "s2_bostonfed_cases2000",
+      "article": "Controls",
+      "heading": "Controls",
+      "text": "This so-called \"agency risk” has been responsible for a number of notorious episodes, including the bankruptcy of Orange County, California, which occurred when a local official leveraged what was supposed to be a low-risk, short-term investment pool into a risky cash flow in an effort to increase returns and thereby enhance his professional reputation. When interest rates rose abruptly, the fund experienced massive losses. Barings, a British merchant bank, and Sumitomo, a Japanese trading company, were also victims of rogue traders who successfully concealed huge trading losses because they were responsible for reporting and settling their own trades. ",
+      "sha256": "2c4867a315b574a6c24f1db36d27a72bb2e64470322c38cefccbeaffd2107fd5"
+    },
+    {
+      "id": "s2_bostonfed_cases2000:MGRM",
+      "source_id": "s2_bostonfed_cases2000",
+      "article": "MGRM",
+      "heading": "MGRM",
+      "text": "In 1991, the German conglomerate Metallgesellschaft decided to establish a new business supplying long-term energy products at fixed prices. At the same time, it \"supposedly put in place a 'textbook' hedging strategy,\" reported a later Federal Reserve study. A U.S. subsidiary contracted to sell millions of barrels of oil at fixed-price contracts extending over 10 years, and then sought to hedge the resulting exposure to oil price increases through oil futures and commodity swaps. But when the spot price of oil subsequently fell, although the long-term fixed-price contracts to deliver oil increased in value, Metallgesellschaft's futures and swap positions declined. And because the losses on its futures positions were computed and actually paid at the end of each day, while those on its delivery contracts were not, the firm experienced large cash outflows. Another factor contributing to its losses was the structure Metallgesellschaft chose for the hedge - it constructed a rolling hedge consisting of short-term futures contracts. To hedge the long-term delivery contracts, these short-term contracts needed to be rolled over at delivery. Usually, petroleum spot market prices are higher than near-dated futures, so the firm would have made money each time it rolled the hedge. But soon after the firm established its position, the usual relationship reversed itself and the spot price of oil fell below the futures price. So each time Metallgesellschaft rolled the hedge, it hemorrhaged even more cash. Evidently convinced they could not sustain further cash outflows, Metallgesellschaft's management chose to liquidate the hedge, leaving themselves exposed when oil prices subsequently rose again. By early 1994, losses were large enough to result in the firm's near collapse. ",
+      "sha256": "68d29048c678340559913cef3d15b0af74c1fe59f96726eeed42cef4cf97a132"
+    }
+  ],
+  "warning": "Historical case discussion; not current regulatory requirements."
+}

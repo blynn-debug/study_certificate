@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_stockcharts_broadening",
+  "source_metadata": {
+    "id": "s2_stockcharts_broadening",
+    "requested_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/broadening-top-or-megaphone-top",
+    "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/broadening-top-or-megaphone-top",
+    "retrieved_at": "2026-10-13T16:48:18.990553+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "de1ad29c9af9e30b2e2f505766f0e12e94370e1f9165e2dd41849df1f807f801",
+    "text_sha256": "e9229bdaa3366ed4865be1bc1680bf576d018338056953736e6aa19afd0289a2",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_stockcharts_broadening:Definition",
+      "source_id": "s2_stockcharts_broadening",
+      "article": "Definition",
+      "heading": "Definition",
+      "text": "A broadening top is a chart pattern characterized by successive higher peaks and lower valleys. If you were to draw a trendline across the top and bottom of the price action, the pattern would resemble a megaphone or a reverse triangle. What Does the Broadening Top Indicate? Perhaps the most reliable indication that any broadening formation tells us—whether it’s a Broadening Top or a Broadening Bottom—is that there’s a volatile disagreement between bullish and bearish investors. Bullish investors are bidding prices higher, while bearish investors sell (or sell short) the stock, causing it to fall. As a result, you see a series of consecutive higher highs (HHs) and lower lows (LLs).",
+      "start": 1171,
+      "end": 1862,
+      "sha256": "f8b49bade419bf954d71230a651b3a3f9dc2c7dc78ad9f63f2c97ede2dcd5cda"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

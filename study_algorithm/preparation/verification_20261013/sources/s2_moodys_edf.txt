@@ -1,0 +1,1912 @@
+[PDF page 1]
+ 
+ 
+INSURANCE 
+RESEARCH 
+DECEMBER 2018 
+ENTERPRISE RISK SOLUTIONS
+A Cost of Capital Approach to Estimating Credit 
+Risk Premia 
+Executive Summary 
+This note discusses the credit risk premium adjustment required for constructing discount rates 
+specified by the IFRS 17 accounting rules. Calculating the credit risk premium is a key requirement 
+in the ‘top down’ yield curve method. It may also be a useful input in computing (or 
+benchmarking) the illiquidity premium for ‘bottom up’ discount rate construction. 
+We start by reviewing the two alternative approaches to constructing discount curves in the IFRS 
+17 reporting process. We then discuss the techniques which can be used to adjust a credit risky 
+yield curve for both expected credit losses and market risk premiums for credit risk. Expected 
+losses can be calculated by combining estimates for loss given default and real world probability of 
+default. A Merton style model for estimating real world probability of default can then be 
+combined with a credit risk premium to estimate the total credit adjustment (TCA). To best 
+estimate the expected asset return which drives the credit risk premium we use a weighted 
+average cost of capital (WACC) approach. To avoid difficulties in defining equity risk premia for 
+specific issuers, the weighted cost of capital is defined at portfolio level and adjusted by market 
+implied scalings, calculated from total market spreads, to derive individual credit risk premia for 
+every bond. Results of this approach for a variety of portfolios and across economies are then 
+presented. 
+Finally, we conclude with a discussion of how these estimates can be used to construct discount 
+curves for a top down approach within IFRS 17 rules and highlight key outstanding considerations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Alasdair Thompson 
+Nick Jessop 
+Moody's Analytics Research 
+Contact Us 
+Americas 
++1.212.553.1658 
+clientservices@moodys.com 
+Europe 
++44.20.7772.5454 
+clientservices.emea@moodys.com 
+Asia (Excluding Japan)  
++85 2 2916 1121 
+clientservices.asia@moodys.com 
+Japan 
++81 3 5408 4100 
+clientservices.japan@moodys.com 
+ 
+ 
+
+
+[PDF page 2]
+ 
+ 
+ 
+ 
+2 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+1. Introduction 
+3 
+2. Estimating Real World Probability of Default 
+4 
+2.1. 
+A Brief Review of the Merton Model 
+4 
+2.2. 
+Moody’s EDF™ Model 
+6 
+2.3. 
+Consistency with IFRS 9: Moody’s ImpairmentCalc 
+6 
+3. Credit Risk Premium 
+7 
+3.1. 
+Adjusting the Merton Model’s Drift 
+7 
+3.2. 
+Weighted Average Cost of Capital 
+8 
+4. Results and Discussions 
+11 
+4.1. 
+Applying the Method to Market Portfolios 
+11 
+4.1.1. 
+US Investment Grade 
+12 
+4.1.2. EU Investment Grade 
+14 
+4.1.3. UK Investment Grade 
+14 
+4.1.4. SA Corporate Bonds 
+15 
+4.1.5. US High Yield Bonds 
+17 
+4.2. 
+Deriving an Illiquidity Premium 
+19 
+4.3. 
+Sensitivity to Model Assumptions 
+20 
+4.3.1. Equity Risk Premium 
+20 
+4.3.2. Risk Free Rate 
+21 
+5. Conclusion 
+22 
+6. References 
+24 
+ 
+ 
+ 
+
+
+[PDF page 3]
+ 
+ 
+ 
+ 
+3 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+1. Introduction 
+The permitted approaches to fitting yield curves for IFRS 17 were outlined in a previous white paper (Jessop 2018). The rules specify 
+two approaches, known as ‘bottom up’ and ‘top down’ which in theory should lead to equivalent results (a unique set of IFRS 17 
+discount rates). Our primary focus in this paper is in estimating the top down curves and specifically the adjustment for credit risk 
+premium (which can be interpreted theoretically as the market premium associated with unexpected credit losses). The discount 
+rates for liability valuation are not just critical in determining the present value of future cash flows reported in the balance sheet, 
+but also in determining how profit and loss will be recognised under the heading of ‘Insurance Financial Expenses’ in the 
+comprehensive income statement. The two yield curve approaches are outlined in Figure 3. 
+ 
+Figure 1: IFRS 17 yield curve construction approaches  
+ 
+Assuming the reference portfolio in the top down approach is defined in a way which minimises any mismatch adjustment (made 
+to reflect differences in amount, timing and uncertainty between the reference asset portfolio and liabilities), then the most 
+challenging technical parts of the construction process are likely to be the adjustments for the expected credit losses and the 
+credit risk premium.  
+Different approaches for calculating the expected losses are possible (leveraging a broad range of probability of default and loss 
+given default modelling techniques). For example, under Solvency II (SII) a ‘through the cycle’ (TTC) approach to estimating the 
+credit losses is made which results in a very stable (effectively constant) estimate of the credit losses. This estimate is based on a 
+combination of long term historical default and loss given default statistics and long term historical credit spread levels. 
+If this TTC estimate of loss was used on its own (or in combination with a constant credit risk premium adjustment in order to 
+isolate the liquidity premium component of spread) this would lead to most of the spread market volatility being attributed to 
+changes in liquidity premia.  
+However, in SII more ‘point in time’ (PIT) volatility and matching adjustments are made by attributing only a proportion of the 
+excess spread to the volatility and matching adjustments. This proportional adjustment is somewhat ad-hoc, but can be 
+interpreted as a proxy for a pro-cyclical estimate of each component of the credit spread (embedding a view that market spreads, 
+expected losses and credit risk are all positively correlated). This results in liability discount curves which partially but not 
+completely mirror changes in market spreads for credit risky bonds. In turn this reduces but does not minimise completely the 
+significance of ALM mismatches arising when liabilities are backed by duration (or cash flow) matched fixed income asset 
+portfolios. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Yield Curve 
+based on actual 
+or reference 
+portfolio. 
+Expected credit 
+losses 
+Credit Risk 
+premium 
+Mismatch 
+adjustment 
+  
+ 
+ 
+Risk Free Rate. 
+Illiquidity  
+premium 
+  
+  
+  
+IFRS 17 
+Discount Rate 
+Top Down 
+Bottom Up 
+
+
+[PDF page 4]
+ 
+ 
+ 
+ 
+4 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 2 shows changes in market spreads (left) and PIT estimates of 1 year expected default frequency (right) over a ten year 
+period for selected economies – in each case the averages are weighted by amount outstanding and are calculated for bonds with 
+maturities from 4-5 years.  
+Figure 2: Changes in market spreads and PIT estimates of 1 year expected default frequency 
+ 
+The modelling method outlined in this paper leverages a structural approach to estimating both components of the credit 
+adjustment. This approach naturally introduces point in time characteristics to not only the expected losses component of credit 
+spread but also the estimates of credit risk premium and illiquidity premia. The method leverages existing data and modelling 
+techniques broadly used by Moody Analytics’ clients for probability of default, loss given default and expected loss modelling. 
+In section 2 we begin by reviewing the Merton model of credit risk, which will form the basis for the structural approach taken in 
+this paper. Having reviewed the basic model, we then detail the enhancement made by Moody’s Analytics to create our Public 
+Firm EDF™ model of real world expected default. The section concludes by considering how the model can be reconciled with 
+approaches to expected loss calculation for IFRS 9. 
+Section 3 builds on the expected loss calculation to add a credit risk premium and derives a methodology to set this adjustment. 
+Section 4 then applies the model to a set of market portfolios of corporate debt to derive a decomposition of spreads into 
+expected loss, credit risk premium and illiquidity premium components. Having applied the model, the sensitivity to several key 
+underlying assumptions such as equity risk premium, leverage and the choice of risk free rate is examined. 
+Finally, section 5 concludes the paper by restating the fundamental problem to be addressed, the solution proposed in this paper 
+and some considerations for further research in order to produce a robust method with could be implemented in practice. 
+2.  Estimating Real World Probability of Default 
+2.1. A Brief Review of the Merton Model 
+To estimate the real world probability of default, we will follow a structural model of credit risk as pioneered by Fischer Black, 
+Robert Merton and Myron Scholes. 
+The Merton model starts from the realisation that equity in a firm can be considered as a call option on the firm’s assets with a 
+strike price equal to the face value of the debt. The capital structure of the firm is defined simply as a sum of debt (𝐷𝐷) and equity 
+(𝐸𝐸). 
+𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴= 𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷+ 𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸 
+The asset price is assumed to follow a lognormal, stochastic process and default occurs when the value of the firm’s assets falls 
+below the value of the debt. Specifically, in Merton’s original formulation default occurs only if the asset price is below the debt at 
+a specified, usually one year, horizon. Figure 3 below shows the model schematically, where the asset value varies stochastically 
+and forms a distribution of market values at a horizon, the probability of default is given by the integral of this distribution below 
+the default point.  
+ 
+
+
+[PDF page 5]
+ 
+ 
+ 
+ 
+5 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 3: Merton Model Schematic 
+ 
+Working in the risk neutral measure we can write the stochastic process for the asset price (𝐴𝐴) as: 
+𝑑𝑑𝐴𝐴𝑡𝑡= 𝑟𝑟𝑓𝑓 𝐴𝐴 𝑑𝑑𝑑𝑑+ σ𝐴𝐴𝐴𝐴 𝑑𝑑𝑊𝑊ℚ, 
+where 𝑟𝑟𝑓𝑓 is the risk free rate, 𝜎𝜎𝐴𝐴 is the volatility of the asset price and 𝑑𝑑𝑊𝑊ℚ is a risk neutral Wiener process.  
+Then, recalling that the option pricing framework where equity is a call on the assets, where the payoff for the equity is 
+max(0, 𝐴𝐴−𝐾𝐾) and 𝐾𝐾 is the face value of the debt, by Black-Scholes the market value of the debt will be given by 
+𝐷𝐷= 𝐴𝐴 N(−𝑑𝑑1) + 𝐾𝐾𝑒𝑒−𝑟𝑟𝑓𝑓𝑇𝑇 N(𝑑𝑑2), 
+where 
+𝑑𝑑1 =
+ln ቀ𝐴𝐴
+𝐾𝐾ቁ+ ൬𝑟𝑟𝑓𝑓+ σ𝐴𝐴
+2
+2 ൰𝑇𝑇 
+σ𝐴𝐴 √𝑇𝑇
+, 
+and 
+𝑑𝑑2 = 𝑑𝑑1 −σ𝐴𝐴√𝑇𝑇. 
+We can also write the market value of the debt as the discounted face value to define a fair value spread 
+𝐷𝐷= 𝐾𝐾𝑒𝑒−൫𝑟𝑟𝑓𝑓+𝑆𝑆൯𝑇𝑇. 
+Combining the two expressions for the market value of the debt, we can then write the fair value spread as  
+𝑆𝑆= −1
+𝑇𝑇ln ቆ𝐴𝐴
+𝐾𝐾𝑒𝑒𝑟𝑟𝑓𝑓𝑇𝑇𝑁𝑁(−𝑑𝑑1) + 𝑁𝑁(𝑑𝑑2)ቇ. 
+The Merton model framework also allows us to derive the risk neutral probability of default 
+𝑃𝑃𝐷𝐷ℚ= 𝑁𝑁(−𝑑𝑑2). 
+Switching to the real world measure we can replace the risk free rate 𝑟𝑟𝑓𝑓 with the real world expected asset return 𝑟𝑟𝐴𝐴 to get a real 
+world probability of default 
+𝑃𝑃𝐷𝐷ℙ= 𝑁𝑁(−𝑑𝑑2
+ℙ), 
+Asset Value
+Time
+Distribution of 
+Market Value of 
+Assets at Horizon
+RW Expected Market 
+Value of Assets
+Probability of Default
+Default
+Point
+Horizon
+Today
+Better 
+Credit 
+Quality
+Worse 
+Credit 
+Quality
+
+
+[PDF page 6]
+ 
+ 
+ 
+ 
+6 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+where  
+𝑑𝑑2
+ℙ=
+ln ቀ𝐴𝐴
+𝐾𝐾ቁ+ ൬𝑟𝑟𝐴𝐴−𝜎𝜎𝐴𝐴
+2
+2 ൰𝑇𝑇
+𝜎𝜎𝐴𝐴√𝑇𝑇
+. 
+The Merton model is a simple, but widely used, starting point to understand credit risk building from a structural analysis of the 
+firm. Since Merton’s original paper, many extensions have been proposed to account for more complex capital structures, to allow 
+for default at any point rather than a fixed horizon, stochastic interest rates, cash payments, and transaction and liquidation costs. 
+In the next section we describe the extension used in the Moody’s Analytics Public Firm EDF™ model. 
+2.2. 
+Moody’s Analytics EDF™ Model 
+Moody’s Analytics’ Public Firm EDF™ (Expected Default Frequency) model has been the industry-leading probability of default 
+model since its introduction in the early 1990s. Since that time it has continually evolved to provide a sophisticated model of real 
+world default frequencies. Moody’s Analytics EDF model is based on the Vasicek-Kealhofer (VK) variant of the Merton model 
+described above. This variant extends the Merton model in a number of key respects, in particular to consider a more complex 
+capital structure for a firm, with a range of liability classes for short and long term debt; to incorporate a concept of preferred 
+stock; and to allow for cash leakages in the form of coupons, dividends and interest payments.  
+The EDF model also replaces the naïve use of the total debt in the Merton model with a default point calculated at the sum of 
+current liabilities plus half the long term liabilities. In addition, the latest version of the EDF model makes a cost of capital 
+adjustment to the default point for financial firms, to reflect changes in interest rate environment and their effect on the depletion 
+of working capital.  
+Both the Merton and VK models require an estimate of asset volatility to determine the distance-to-default. Unlike market 
+capitalisation, neither equity, nor asset, volatility are directly observable in the market and the estimation of volatility is therefore 
+an important element of the calibration of the model. Moody’s Analytics EDF model uses a weighted average of empirically 
+measured volatility over a historical window and a modelled volatility based on the size, location and business type of the firm.  
+Finally, the EDF model removes the assumption of normality for the relationship between distance-to-default (DD) and the 
+probability of default. The distance-to-default gives an ordinal measure of the default risk. Interpreted as a number of standard 
+deviations, the DD can be converted to a PD, using a normal cumulative distribution function 
+𝑃𝑃𝑃𝑃= 𝑁𝑁(−𝐷𝐷𝐷𝐷). 
+In practice, Moody’s Analytics calibrate a more accurate empirical mapping 
+𝑃𝑃𝑃𝑃= 𝑀𝑀(−𝐷𝐷𝐷𝐷). 
+The calibration of the empirical mapping 𝑀𝑀(⋅) to a database of historical defaults is one of the primary inputs to the Moody’s 
+Analytics VK/EDF model and represents the key piece of IP within the model. 
+2.3. 
+Consistency with IFRS 9: Moody’s Analytics ImpairmentCalc 
+While the focus of this paper is the construction of discount curves for reporting liability valuations under IFRS 17, some firms may 
+be concerned with consistency with reporting impairments under IFRS 9. The latest accounting standards for financial instruments 
+require the recognition of expected credit losses based on a forward looking assessment of credit risk. Calculating these expected 
+credit losses is also part of the requirement for adjusting top down IFRS 17 discount curves and it is therefore reasonable to expect 
+some consistency between the two estimates.  
+This paper uses a relatively simple methodology to calculate expected losses by combining unconditional EDFs and unconditional 
+LGDs. However, for IFRS 9 (and CECL) Moody’s Analytics offers a more sophisticated approach via our ImpairmentCalc and 
+ImpairmentStudio™ solutions. This solution also leverages CreditEdge for EDF estimates, RiskCalc™ for LGD and GCorr™ for 
+correlations between a range of macroeconomic and credit factors. Expected losses are then calculated by taking the 
+unconditional EDF and LGD values and conditioning these on a set of macroeconomic scenarios1. By first conditioning EDF and 
+LGD estimates on a set of macro variables, which are correlated with credit shocks, and then taking a weighted average across 
+                                                                
+1 See Barnaby Black, Glenn Levine and Juan M. Licari, “Probability-Weighted Outcomes Under IFRS 9: A Macroeconomic Approach”, Moody’s Analytics Risk 
+Perspectices, Volume VIII, June 2016 
+
+
+[PDF page 7]
+ 
+ 
+ 
+ 
+7 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+these scenarios, this process produces a granular, forward-looking and probability weighted estimate of the expected credit loss 
+which takes into account correlations between PD and LGD estimates2.  
+In general, this more advanced methodology will produced expected credit losses which differ from the estimates presented in this 
+paper. If full consistency with IFRS 9 results is desired, ImpairmentCalc expected credit losses could be used in place of the 
+unconditional estimates used here without much difficulty for either top-down credit risk adjustment or to estimate illiquidity 
+premium for bottom-up yield curve construction.  
+3.  Credit Risk Premium 
+3.1. Adjusting the Merton Model’s Drift 
+To estimate the market compensation associated with credit risk we need to adjust the real world probability of default with a 
+credit risk premium. Schematically, we move back from the real world measure to an asset risk neutral measure where the real 
+world implied drift is replaced with the risk free rate. Removing the expected excess return shifts the probability distribution of 
+market value of assets at the horizon and thereby increases the probability of default. An increased probability of default is 
+associated with a higher spread and the difference between the real world EDF implied spread and the “asset risk neutral” EDF 
+implied spread constitutes our credit risk premium spread.  
+Note that the move to the asset risk neutral measure performed here is different from the usual shift from a real world to a risk 
+neutral frame, in that case the risk neutral measure is designed to exactly match market prices and risk premia can be directly 
+inferred by fitting our model to market data, in contrast here the shift to the asset risk neutral measure does not account for 
+liquidity risk, and so the model spread in this measure will be different from the observed market spread – the residual difference 
+between market spreads and asset risk neutral model spreads will be attributed to an illiquidity premium (see section 4.2). 
+Figure 4 shows the three measures, real world, asset risk neutral and risk neutral schematically for the Merton model. As we move 
+from the real world to the asset risk neutral measure the expected asset return decreases and the probability of default, and hence 
+spread increases. The pure risk neutral measure, accounting for all risk premia, including illiquidity, has a still further lower 
+expected return and an even higher probability of default and spread. The three measures thus correspond to the expected credit 
+loss spread, the expected loss plus the unexpected credit loss, and finally the observed market spread including both credit and 
+illiquidity premia. 
+Mathematically, we can express the asset risk neutral spread as 
+𝑅𝑅𝑅𝑅 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆= −1
+𝑇𝑇ln(1 −𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶⋅𝐿𝐿𝐿𝐿𝐿𝐿), 
+where 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 is the cumulative probability of default under the risk neutral ℚ measure. We can write the same spread in terms of 
+the real world probability of default as 
+𝑅𝑅𝑅𝑅 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆= −1
+𝑇𝑇ln൫1 −𝑁𝑁൫𝑁𝑁−1(𝐶𝐶𝐶𝐶𝐶𝐶) + βλ√𝑇𝑇൯⋅𝐿𝐿𝐿𝐿𝐿𝐿൯, 
+where we have introduced the Market Price of Risk, λ, the firm’s asset beta, β, and the risk premium, 𝜇𝜇𝐴𝐴 
+βλ = 𝜇𝜇𝐴𝐴
+𝜎𝜎𝐴𝐴
+= rA −𝑟𝑟𝑓𝑓
+𝜎𝜎𝐴𝐴
+. 
+This asset risk neutral spread represents the model value for both the expected credit loss and the credit risk premium combined.  
+ 
+                                                                
+2 For additional details on PD-LGD correlation see Qiang Meng, Amnon Levy, Andrew Kaplin, Yashan Wang, and Zhenya Hu, “Implications of PD-LGD 
+Correlation in a Portfolio Setting.” Moody’s Analytics Whitepaper, February 2010.   
+
+
+[PDF page 8]
+ 
+ 
+ 
+ 
+8 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 4:  Real world, asset risk neutral and risk neutral schematics for the Merton model 
+ 
+ 
+ 
+At this stage we could choose to go back to the initial EDF calculations and remove the drift term used to derive the real world 
+default probabilities in order to access a risk neutral credit spread adjustment, however given the real world PDs have been derived 
+using an empirical mapping which is calibrated to the real world distance-to-default values, it is not clear that this mapping would 
+still be valid after the drift was removed. Instead, we take the real world EDF data as fixed inputs and make an independent 
+estimate of the credit risk premium which can be layered upon the EDF without needing to delve into the details of that model. In 
+the next section we describe our methodology for forming that estimate. 
+3.2. 
+Weighted Average Cost of Capital 
+In order to estimate a suitable adjustment to the real world probability of default, we need to determine an appropriate credit risk 
+premium. Churm and Paniigirtzoglou (2005) convert an empirically estimated asset risk premium into an equity risk premium by 
+considering the asset risk premium as a leverage weighted average of the observed market spread and the equity risk premium. We 
+follow a similar approach here, but working in reverse, to estimate an expected excess asset return.  
+Weighted average cost of capital is a standard method in corporate finance to calculate the cost of capital by combining the cost 
+of debt, cost of equity and a simple measure of the firm’s capital structure.  
+𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑜𝑜𝑜𝑜 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶= 𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿⋅𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑜𝑜𝑜𝑜 𝐷𝐷𝐷𝐷𝐷𝐷𝐷𝐷+ (1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿) ⋅𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑜𝑜𝑜𝑜 𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸𝐸 
+For our purposes we need a measure of premium, or the excess return, and so we define our WACC estimate of the risk premium, 
+𝜇𝜇𝐴𝐴
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊= 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑜𝑜𝑜𝑜 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶−𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑅𝑅𝑅𝑅𝑅𝑅𝑅𝑅. Using this definition the cost of debt becomes the corporate bond spread and 
+the cost of equity the appropriate equity risk premium. It is common to also introduce an adjustment to the cost of debt to 
+account for marginal tax relief on debt payments. Combining these elements our WACC risk premium is given by: 
+𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊= 𝑃𝑃𝑖𝑖⋅𝑂𝑂𝑂𝑂𝑆𝑆𝑖𝑖⋅𝑇𝑇𝑇𝑇𝑇𝑇+ (1 −𝑃𝑃𝑖𝑖) ⋅൫𝑟𝑟𝐸𝐸,𝑖𝑖−𝑟𝑟𝑓𝑓൯. 
+Where 𝑃𝑃𝑖𝑖 is the leverage, 𝑟𝑟𝐸𝐸,𝑖𝑖 is the equity expected return, 𝑂𝑂𝑂𝑂𝑆𝑆𝑖𝑖 is the observed market option adjusted spread, 𝑟𝑟𝑓𝑓 is the risk free 
+rate, and 𝑇𝑇𝑇𝑇𝑇𝑇 as an adjustment for tax relief on debt costs3. For high credit quality firms, in benign market conditions, the WACC 
+tends to be dominated by the cost of equity capital, due to the fact that credit spreads are typically significantly lower than the 
+equity risk premium. Note also, that in this model we assume the firm pays both a credit risk premia and a liquidity premium to 
+holders of its debt (as both are included in market spread levels).  
+                                                                
+3 A tax adjustment is not strictly required here, but is common practice in the cost of capital accounting literature. 
+
+
+[PDF page 9]
+ 
+ 
+ 
+ 
+9 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+This individual WACC excess return, 𝜇𝜇𝐴𝐴,𝑖𝑖 
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊, for bond 𝑖𝑖 calculated using the specific firm leverage and spread and a constant equity 
+risk premium, can be compared to the return implied by total market spreads, 𝜇𝜇𝐴𝐴,𝑖𝑖 
+𝑀𝑀𝑀𝑀. By rearranging the relationship between 
+spread, default frequency and expected return from the previous section, the market implied excess return can be written as: 
+𝜇𝜇𝐴𝐴,𝑖𝑖 
+𝑀𝑀𝑀𝑀=
+𝜎𝜎𝐴𝐴𝑖𝑖
+√𝑇𝑇
+൭ 𝑁𝑁−1 ቆ1 −exp(−𝑂𝑂𝑂𝑂𝑆𝑆𝑖𝑖⋅𝑇𝑇𝑖𝑖)
+𝐿𝐿𝐿𝐿𝐷𝐷𝑖𝑖
+ቇ−𝑁𝑁−1(𝐶𝐶𝐶𝐶𝐷𝐷𝑖𝑖)൱. 
+Figure 5 shows both estimates of asset returns as a function of the asset volatility (left) and firm leverage (right), with 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊 
+shown in green and 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑀𝑀𝑀𝑀 shown in light blue. These data are generated for a set of USD investment grade bonds at End June 2018, 
+and use an equity risk premium of 4.04%, equal to the equity risk premium for USD equity used in our standard Scenario 
+Generator calibrations4 and a tax adjustment of 0.8. 
+Figure 6 plots the raw data for the asset volatility of each firm in the sample against the leverage, naturally this shows a negative 
+correlation as firms which are both highly levered and with a high asset volatility will have a high expected default frequency and 
+are unlikely to be rated as investment grade.  
+ 
+Figure 5: Market-implied and model excess returns for each bond  
+ 
+ 
+ 
+Figure 6: Asset volatility and leverage of each firm 
+ 
+ 
+ 
+Both the market implied and WACC excess returns show a positive trend with increasing asset volatility and a negative relation 
+with increasing leverage. The market implied returns account for the entire market observed spread, not just for credit risk, but also 
+illiquidity (and any other premia) priced by the corporate debt market, and so are substantially higher than the WACC estimates in 
+general, particularly for high asset volatility or low leverage. The WACC estimates of the excess return therefore add a credit risk 
+premium which explains part, but not all, of the spread above the default compensation. Given our goal is to decompose the 
+spread into three parts and distinguish credit and non-credit factors, this is promising. 
+                                                                
+4 “Real World Calibrations Developed Equities Constant Volatility at End Jun 2018”, Moody’s Analytics Modelling and Calibration Services, July 2018  
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+Excess Return
+Asset Volatility
+Market Implied Return
+WACC Return
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0
+0.2
+0.4
+0.6
+0.8
+1
+Excess Return
+Leverage
+Market Implied Return
+WACC Return
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+0
+0.2
+0.4
+0.6
+0.8
+1
+Asset Volatility
+Leverage
+
+
+[PDF page 10]
+ 
+ 
+ 
+ 
+10 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+The simple WACC estimate shown in Figure 5 uses a constant equity risk premium, making no allowance for firm specific factors 
+like industry specific betas and costs of equity capital. The problems with using a single estimate of the equity risk premium for 
+deriving the WACC can be seen more clearly if the risk premium is converted into a price of risk by dividing by the asset volatility: 
+λ𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊= 𝑃𝑃⋅𝑂𝑂𝑂𝑂𝑆𝑆⋅𝑇𝑇𝑇𝑇𝑇𝑇+ (1 −𝑃𝑃) ⋅(𝜇𝜇𝐸𝐸−𝑟𝑟)
+𝜎𝜎𝐴𝐴
+. 
+Figure 7 shows the excess returns implied by the market and calculated using the WACC formula, converted into price of risk and 
+plotted versus asset volatility (left) and leverage (right). Clearly the market implied data show little systematic relationship 
+between the variables, though there is lower variation in price of risk for higher leverage. In contrast, the constant equity risk 
+premium WACC price of risk is inversely related to asset volatility and increases with leverage. These trends probably indicate 
+systematic firm level dependencies for the equity risk premia, e.g. higher equity risk premia generally associated with higher asset 
+volatilities and lower leverage. At a portfolio level it appears that a constant price of risk, rather than a constant equity risk 
+premium better represents the data. 
+ 
+Figure 7: Market-implied and model prices of risk for each bond 
+ 
+ 
+We discuss the equity risk premium in more detail in section 4.3.1, but note here that the simple WACC measure presented earlier 
+clearly has too little variation (in both its specific and systematic behavior). We therefore investigate an alternative approach to 
+estimating a WACC based credit risk premium which is better suited to portfolio analysis by leveraging broad market estimates. 
+The individual WACC estimate of the risk premium for each bond in our portfolio could be directly applied, such that the total 
+credit spread for both expected default losses and credit risk premium is given by 
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑑𝑑𝑖𝑖= −1
+𝑇𝑇𝑖𝑖
+ln ቆ1 −𝑁𝑁ቆ𝑁𝑁−1(𝐶𝐶𝐶𝐶𝐷𝐷𝑖𝑖) + 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊
+𝜎𝜎𝐴𝐴𝑖𝑖
+ඥ𝑇𝑇𝑖𝑖ቇ⋅𝐿𝐿𝐿𝐿𝐷𝐷𝑖𝑖ቇ, 
+where 𝑖𝑖 indicates the specific bond in the portfolio.  
+However, for IFRS 17 the credit risk premium is only required at a portfolio level. What is more, the bond level estimates of credit 
+risk premium are noisy, with potential errors introduced in the individual levels estimates of CEDF, LGD, 𝜇𝜇𝐴𝐴
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊 and 𝜎𝜎𝐴𝐴.  
+In order to define the credit risk premia, then, we define the WACC at the portfolio level, using the portfolio averages for spread 
+and leverage. For a well-diversified portfolio we can more easily define an appropriate expected equity risk premium, based on our 
+standard estimates for equity index excess returns and avoid the need to make detailed assertions about firm level expected equity 
+returns. This portfolio level WACC is then scaled using market implied data to create a specific credit risk premium for each bond.  
+The final credit risk premium, combining the market implied data and portfolio WACC, is given by: 
+𝜇𝜇𝐴𝐴,𝑖𝑖
+𝐶𝐶𝐶𝐶𝐶𝐶= 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑀𝑀𝑀𝑀⋅λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊
+λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+MI
+ , 
+where λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊 is the portfolio price of risk calculated using the portfolio average of leverage, spread, and equity risk premium and 
+λPort
+MI is the portfolio price of risk implied by the market data. 
+To determine the market implied portfolio price of risk we minimise the average difference between the total market spread on 
+each bond and the model implied spread using a constant portfolio price of risk (with 𝛽𝛽= 1):   
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+Price of Risk
+Asset Volatility
+Market Implied Price of Risk
+WACC Price of Risk
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Price of Risk
+Leverage
+Market Implied Price of Risk
+WACC Price of Risk
+
+
+[PDF page 11]
+ 
+ 
+ 
+ 
+11 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+MI
+= arg min
+λ
+ቌ𝑎𝑎𝑎𝑎𝑎𝑎൭෍𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑑𝑑𝑖𝑖+ 1
+𝑇𝑇𝑖𝑖
+ln൫1 −𝑁𝑁൫𝑁𝑁−1(𝐶𝐶𝐶𝐶𝐶𝐶𝐹𝐹𝑖𝑖) + λ ඥ𝑇𝑇𝑖𝑖൯⋅𝐿𝐿𝐿𝐿𝐷𝐷𝑖𝑖൯
+𝑖𝑖
+൱ቍ. 
+Figure 8 shows 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑀𝑀𝑀𝑀, 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊 and 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝐶𝐶𝐶𝐶𝐶𝐶 as a function of asset volatility (left) and leverage (right). This estimate of the credit risk 
+premium uses the WACC approach to produce an excess return lower than the market implied return, thereby allowing a 
+decomposition between credit and liquidity factors, but also takes into account firm specific factors, without requiring complex 
+modelling of equity returns on a firm by firm basis.  
+ 
+Figure 8: Credit risk premium excess return estimates for each bond 
+ 
+To understand the credit risk premium we can consider it equivalently as either a portfolio level proportional split in risk premium 
+between credit and non-credit risk (principally illiquidity) factors, which is then applied uniformly to each bond or as a market 
+implied scaling of the portfolio level WACC. In the first formulation we could write the credit risk premium as 
+𝜇𝜇𝐴𝐴,𝑖𝑖
+𝐶𝐶𝐶𝐶𝐶𝐶= 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑀𝑀𝑀𝑀⋅𝛾𝛾, 
+where 𝛾𝛾 is the portfolio level ratio between market implied price of risk and WACC price of risk, which is constant for all bonds: 
+𝛾𝛾= λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊
+λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+MI
+. 
+Alternatively, and equivalently, the second formulation would allow us to write the credit risk premium as: 
+𝜇𝜇𝐴𝐴,𝑖𝑖
+𝐶𝐶𝐶𝐶𝐶𝐶= 𝛽𝛽𝑖𝑖⋅𝜆𝜆𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊, 
+where the portfolio beta specifies the sensitivity of the bond to the portfolio price of risk, and is defined by the market implied 
+returns: 
+𝛽𝛽𝑖𝑖= 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝑀𝑀𝑀𝑀
+𝜆𝜆𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑀𝑀𝑀𝑀. 
+In either interpretation, applying the WACC at the level of portfolio price of risk substantially reduces the number of parameters to 
+be estimated and the noise in the estimation process.  
+The total credit adjustment, or asset risk neutral spread, which is the sum of expected credit loss and the credit risk premium, but 
+which excludes non-credit factors such as illiquidity, is then given by 
+𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇𝑇 𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝐴𝑡𝑡𝑖𝑖= −1
+𝑇𝑇𝑖𝑖
+ln ቆ1 −𝑁𝑁ቆ𝑁𝑁−1(𝐶𝐶𝐶𝐶𝐷𝐷𝑖𝑖) + 𝜇𝜇𝐴𝐴,𝑖𝑖
+𝐶𝐶𝐶𝐶𝐶𝐶
+𝜎𝜎𝐴𝐴𝑖𝑖
+⋅ඥ𝑇𝑇𝑖𝑖ቇ⋅𝐿𝐿𝐿𝐿𝐷𝐷𝑖𝑖ቇ. 
+4. Results and Discussions 
+4.1. Applying the Method to Market Portfolios 
+To analyse the results of the methodology proposed in this paper we apply it to five market portfolios of corporate bonds.  
+• 
+Merrill Lynch US High Yield Master II Index 
+• 
+Merrill Lynch US Corporate Master Index 
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+Excess Return
+Asset Volatility
+Market Implied Return
+Credit Risk Premium
+WACC Return
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+Excess Return
+Leverage
+Market Implied Return
+Credit Risk Premium
+WACC Return
+
+
+[PDF page 12]
+ 
+ 
+ 
+ 
+12 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+• 
+Merrill Lynch Sterling Corporate Securities Index 
+• 
+Merrill Lynch EMU Corporate Index 
+• 
+Custom Filtration of ZAR denominated Corporate bonds 
+For each Merrill Lynch index we take the list of constituent bonds and filter any for which there is missing data in CreditEdge. For 
+South Africa, we take all the fixed or zero coupon ZAR denominated nominal corporate bonds within CreditEdge. For the SA 
+portfolio most bonds within the database were not rated by Moody’s and so this represents a broad market index across both 
+investment grade and high yield.  
+4.1.1. 
+US Investment Grade 
+The Merrill Lynch US Corporate Master Index contains 7760 publicly-issued, fixed-rate, non-convertible, investment grade bonds 
+with at least one year to maturity and an outstanding par value of at least $250 million. Of these we found EDF, leverage and LGD 
+data for 6735 within the CreditEdge database. 
+Figure 9 shows the result of applying these estimates of the credit risk premium to calculate the spread adjustment. The figure 
+shows two sets of data one calculated using the first method proposed in Section 3.2, using an individual estimate of the WACC, 
+and one using the second method, where the market implied return is scaled by the portfolio WACC. As predicted the individual 
+WACC spread adjustment estimates contain substantially more variation, although the median relationship between credit risk 
+premium and total market spread, illustrated by the dotted lines, is very similar for each approach. 
+Table 1 shows the average spreads across the portfolio for both methods and the decomposition into expected loss and credit risk 
+premium spreads. For each method of determining the appropriate credit risk premium, using either the individual WACC or the 
+market implied return scaled by the portfolio WACC, two methods are presented for taking the average, using either a mean or 
+median across the portfolio. The mean across the portfolio can be skewed by outliers and the duration weighting of the portfolio, 
+while the media is more robust in this regard. In general we focus on the relationship between market spread and the credit risk 
+premium spread adjustment rather than the absolute value. The preferred metric of the mean portfolio WACC is highlighted in 
+yellow. 
+The table shows that using the individual WACC method the credit risk premium accounts for 48% of the total market spread 
+when taking the mean credit risk premium/mean market spread, while with the portfolio WACC method the credit risk premium 
+accounts for 32% of the spread on the same basis. In comparison the equivalent median data show that the premium explains 
+35% of the fit using the individual WACC directly and 31% using the market implied return scaled by the portfolio WACC. Note 
+that using the portfolio WACC to scale the market implied return the mean and median results, for this portfolio, are almost 
+identical, while using the individual WACC directly produces a more skewed distribution.  
+The table also shows the results of performing least squares fits, for mean results, and least absolute deviation fits, for median 
+results. The least absolute deviation, median, fits are the gradient of the dotted line in Figure 9. The gradients of these fits, as 
+expected, are almost identical to taking the simple ratio of the credit risk premium spread to the market spread. 
+Table 1 
+US Investment Grade Spreads 
+ 
+ 
+ 
+ 
+MEAN RESULTS 
+MEDIAN RESULTS 
+ 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+Market Spread 
+129.3 
+129.3 
+123.3 
+123.3 
+Expected Loss Spread 
+21.2 
+21.2 
+13.9 
+13.9 
+Credit risk premium Spread 
+61.5 
+41.4 
+43.7 
+38.5 
+Credit risk premium Spread/Market Spread 
+0.48 
+0.32 
+0.35 
+0.31 
+Gradient Fit 
+0.49 
+0.33 
+0.37 
+0.32 
+
+
+[PDF page 13]
+ 
+ 
+ 
+ 
+13 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 9: Credit risk premium spread for each bond in the portfolio - US investment grade 
+ 
+Note that in Figure 9 there are a number of bonds with a negative market implied excess return, and hence a negative credit risk 
+premium spread adjustment when using the market implied return. These are bonds for which the CreditEdge EDF implies a larger 
+expected loss spread than the total observed market spread. In all of these cases the issuer is a state owned enterprise (either from 
+China or Abu Dhabi) where the market spread likely takes into account the expectation of additional, implicit guarantees for which 
+the EDF model does not account. The use of median fits above means that these small number of outliers can be left in the sample 
+without substantially effecting the results and we do not need to manually filter the data. 
+Given the breadth of the US portfolio considered here, the final results, using the market implied scaling of the portfolio WACC, 
+can be broken down by sector and rating, as shown in Table 2 and Table 3. These tables show an increasing total spread and credit 
+adjustment as ratings lower and a higher spread and credit adjustment for bonds issued by non-financial entities. The proportion 
+assigned to each category, expected loss, credit risk premium and illiquidity premium is similar in each case, as expected given the 
+tight relationship illustrated in Figure 9. 
+ 
+Table 2 
+US Average Spreads by Sector 
+ 
+ 
+ 
+ 
+ 
+Table 3 
+US Average Spreads by Rating 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-300
+-200
+-100
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0
+100
+200
+300
+400
+500
+600
+Credit Risk Premium (bp)
+Total Market Spread (bp)
+CRP (Individual WACC)
+CRP (Portfolio WACC)
+ 
+SPREAD 
+EXPECTED LOSS 
+CREDIT RISK PREMIUM 
+ILLIQUIDITY PREMIUM 
+Financial 
+98.1 
+20.2 
+30.6 
+45.3 
+Non-Financial 
+138.9 
+21.5 
+44.7 
+69.5 
+ 
+SPREAD 
+EXPECTED LOSS 
+CREDIT RISK PREMIUM 
+ILLIQUIDITY PREMIUM 
+AAA 
+85.3 
+16.2 
+25.8 
+41.5 
+AA 
+91.7 
+19.8 
+28.6 
+41.5 
+A 
+106.6 
+22.0 
+32.9 
+49.4 
+BBB 
+148.5 
+20.9 
+48.5 
+75.7 
+
+
+[PDF page 14]
+ 
+ 
+ 
+ 
+14 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+4.1.2. 
+EU Investment Grade 
+Results for EU investment grade corporate bonds use the Merrill Lynch EMU Corporate Index. This index contained 2789 publicly 
+issued, EUR denominated investment grade bonds at the time of access, of which we had EDF, leverage and LGD data for 1879 
+within CreditEdge. All bonds have at least one year to maturity and a minimum outstanding of €250m. Results are calculated 
+using spreads over appropriate country specific treasuries and use an equity risk premium of 4.46% as in our standard Scenario 
+Generator calibrations and a tax adjustment of 80%.  
+Table 4 below shows mean and median market, expected loss and credit risk premium spreads calculated using either the 
+individual WACC credit risk premium or the market implied return scaled by a portfolio WACC. The table shows that using mean 
+estimates across the portfolio the individual WACC credit risk premium explained around 80% of the market spread, while the 
+portfolio WACC scaled market implied return explained just over 50%. Using median estimates the individual WACC explained 
+slightly over 60% of the spread and the portfolio WACC explained around 50%. 
+Figure 10 shows the variation in estimates for each bond in the portfolio. As in the US case, above, the individual WACC shows far 
+more variation and a more skewed distribution. The dotted lines in the figure illustrate the results of the least absolute deviation, 
+median, fit to the data.  
+ 
+Table 4 
+EU Investment Grade Spreads 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 10: Credit risk premium spread for each bond in the portfolio - EU investment grade 
+ 
+ 
+4.1.3. 
+UK Investment Grade 
+Results for UK investment grade corporate bonds use the Merrill Lynch Sterling Corporate Index. This index contained 777 publicly 
+issued, GBP denominated investment grade bonds at the time of access, of which we had EDF, leverage and LGD data for 496 
+within CreditEdge. All bonds have at least one year to maturity and a minimum outstanding of £100m. Results are calculated 
+-100
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+Credit Risk Premium (bp)
+Total Market Spread (bp)
+CRP (Individual WACC)
+CRP (Portfolio WACC)
+ 
+MEAN RESULTS 
+MEDIAN RESULTS 
+ 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+Market Spread 
+109.4 
+109.4 
+99.3 
+99.3 
+Expected Loss Spread 
+23.2 
+23.2 
+17.6 
+17.6 
+Credit Risk Premium Spread 
+86.8 
+56.7 
+60.8 
+50.9 
+Credit Risk Premium Spread/Market Spread 
+0.79 
+0.52 
+0.61 
+0.51 
+Gradient Fit 
+0.84 
+0.53 
+0.63 
+0.54 
+
+
+[PDF page 15]
+ 
+ 
+ 
+ 
+15 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+using spreads over treasuries and use an equity risk premium of 3.40% as in our standard Scenario Generator calibrations and a 
+tax adjustment of 80%.  
+Table 5 below shows mean and median market, expected loss and credit risk premium spreads calculated using either the 
+individual WACC credit risk premium or the market implied return scaled by a portfolio WACC. The table shows that using mean 
+estimates across the portfolio the individual WACC credit risk premium explained around 60% of the market spread, while the 
+portfolio WACC scaled market implied return explained just under 40%. Using median estimates the individual WACC explained 
+45-50% of the spread and the portfolio WACC explained 36-38%. 
+Figure 11 shows the variation in estimates for each bond in the portfolio. As in the US and EU cases, above, the individual WACC 
+shows far more variation and a more skewed distribution. The dotted lines in the figure illustrate the results of the least absolute 
+deviation, median, fit to the data.  
+ 
+Table 5 
+UK Investment Grade Spreads 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11: Credit risk premium spread for each bond in the portfolio - UK investment grade 
+ 
+4.1.4. 
+SA Corporate Bonds 
+For South African corporate debt available data within CreditEdge was substantially more limited than for the other portfolios 
+considered in this paper. Overall we were able to find necessary EDF, LGD, Leverage and volatility data for 62 ZAR denominated 
+bonds. Many of these were not rated and the vast majority were from financial organisations, see Figure 12. For SA bonds, LGD 
+data were sourced from Moody’s Analytics RiskCalc rather than CreditEdge as this database adjusts for country as well as sector 
+and produced more plausible estimates. Results are calculated using spreads over swap rates and use an equity risk premium of 
+2.89% as in our standard Scenario Generator calibrations and a tax adjustment of 80%.  
+0
+100
+200
+300
+400
+500
+600
+0
+100
+200
+300
+400
+500
+600
+Credit Risk Premium (bp)
+Total Market Spread (bp)
+CRP (Individual WACC)
+CRP (Portfolio WACC)
+ 
+MEAN RESULTS 
+MEDIAN RESULTS 
+ 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+Market Spread 
+134.7 
+134.7 
+132.8 
+132.8 
+Expected Loss Spread 
+25.8 
+25.8 
+21.1 
+21.1 
+Credit Risk Premium Spread 
+79.5 
+50.7 
+59.1 
+48.3 
+Credit Risk Premium Spread/Market Spread 
+0.59 
+0.38 
+0.45 
+0.36 
+Gradient Fit 
+0.62 
+0.38 
+0.50 
+0.38 
+
+
+[PDF page 16]
+ 
+ 
+ 
+ 
+16 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 12: Composition of SA corporate bond portfolio by industry sector 
+ 
+Table 6 below shows mean and median market, expected loss and credit risk premium spreads calculated using either the 
+individual WACC credit risk premium or the market implied return scaled by a portfolio WACC. The table shows that using mean 
+estimates across the portfolio the individual WACC credit risk premium explained around 140% of the market spread, while the 
+portfolio WACC scaled market implied return explained just under 70%. Using median estimates the individual WACC explained 
+around 120% of the spread and the portfolio WACC explained 61-68%. These results are noticeably higher than for the EU, US 
+and UK portfolios considered above, and in particular the individual WACC approach seems to predict a credit risk premium 
+substantially in excess of the total market spread. The portfolio WACC scaled by the market implied return predicts a more 
+reasonable credit risk premium, but still predicts no illiquidity premium over the risk free instruments.  
+These results may be explained by the lower quality of data, and the far smaller sample size of the portfolio, the skew towards 
+banks and the likelihood of residual credit and illiquidity risk within the swap curve. 
+Figure 13 shows the variation in estimates for each bond in the portfolio. As in previous cases, above, the individual WACC shows 
+far more variation and a more skewed distribution. The dotted lines in the figure illustrate the results of the least absolute 
+deviation, median, fit to the data.  
+ 
+Table 6 
+SA Corporate Bond Spreads 
+ 
+ 
+ 
+ 
+ 
+ 
+0
+10
+20
+30
+40
+50
+60
+Automotive
+Banks & S&Ls
+Electronic Equipment
+Insurance, Life
+Insurance, Property/Casualty/Health
+Investment Management
+Mining
+Security Brokers & Dealers
+Transportation
+ 
+MEAN RESULTS 
+MEDIAN RESULTS 
+ 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+Market Spread 
+183.0 
+183.0 
+169.3 
+169.3 
+Expected Loss Spread 
+71.4 
+71.4 
+71.3 
+71.3 
+Credit Risk Premium Spread 
+254.0 
+120.9 
+191.1 
+102.6 
+Credit Risk Premium Spread/Market Spread 
+1.39 
+0.66 
+1.13 
+0.61 
+Gradient Fit 
+1.54 
+0.70 
+1.28 
+0.68 
+
+
+[PDF page 17]
+ 
+ 
+ 
+ 
+17 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 13: Credit risk premium spread for each bond in the portfolio - SA corporate bonds 
+ 
+ 
+4.1.5. 
+US High Yield Bonds 
+For high yield US bonds we use the Merrill Lynch High Yield Master II Index. This index tracks dollar denominated publicly issued 
+corporate bonds with a below investment grade rating, at least one year to maturity, fixed coupons and a minimum outstanding 
+value of $250m. At the time of access we recovered 1872 ISINs for constituent bonds, of which we could find leverage, EDF and 
+LGD data for 1394. 
+Unlike the portfolios listed above, Moody’s Analytics does not produce an estimate of equity risk premium specifically for a 
+portfolio of US firms issuing high yield debt. In order to derive an appropriate cost of capital, there are a number of options.  
+First the equity risk premium could be assumed to be equal to that used for the US investment grade portfolio. 
+Second, the investment grade ERP could be adjusted to account for the difference in average leverage between the two portfolios, 
+by assuming the same unlevered ERP: 
+𝜇𝜇𝐸𝐸
+𝐻𝐻𝐻𝐻= 𝜇𝜇𝐸𝐸
+𝐼𝐼𝐼𝐼⋅1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐼𝐼𝐼𝐼
+1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐻𝐻𝐻𝐻. 
+Third, a constant equity market price of risk could be assumed, and the ERP could be rescaled to account for the difference in 
+average equity volatility. For the Merton model the equity and asset volatilities are related by 
+𝜎𝜎𝐸𝐸= 𝑁𝑁(𝑑𝑑1) ⋅𝐴𝐴
+𝐸𝐸⋅𝜎𝜎𝐴𝐴. 
+where 𝐴𝐴 is the asset value and 𝐸𝐸 is the equity. Assuming a constant equity market price of risk implies that 
+𝜇𝜇𝐸𝐸
+𝐻𝐻𝐻𝐻= 𝜇𝜇𝐸𝐸
+𝐼𝐼𝐼𝐼
+𝜎𝜎𝐸𝐸
+𝐼𝐼𝐼𝐼⋅𝜎𝜎𝐸𝐸
+𝐻𝐻𝐻𝐻. 
+Ignoring the correction for changes in the value of 𝑁𝑁(𝑑𝑑1)5, the adjusted high yield equity risk premium is then 
+𝜇𝜇𝐸𝐸
+𝐻𝐻𝐻𝐻= 𝜇𝜇𝐸𝐸
+𝐼𝐼𝐼𝐼⋅𝜎𝜎𝐴𝐴
+𝐻𝐻𝐻𝐻
+𝜎𝜎𝐴𝐴
+𝐼𝐼𝐺𝐺⋅1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐼𝐼𝐼𝐼
+1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐻𝐻𝐻𝐻. 
+                                                                
+5 From Section 2.1  note that 𝑑𝑑2 = 𝑑𝑑1 −𝜎𝜎𝐴𝐴√𝑇𝑇 and 𝐶𝐶𝐶𝐶𝐶𝐶= 𝑁𝑁(−𝑑𝑑2). Putting these together, 𝑁𝑁(𝑑𝑑1) = 𝑁𝑁൫𝑁𝑁−1(1 −𝐶𝐶𝐶𝐶𝐶𝐶) + 𝜎𝜎𝐴𝐴√𝑇𝑇൯. Using the average 
+durations of the investment grade (7.18 years) and high yield (5.07 years) portfolios with the average asset volatilities and CPD (3.6% vs 9.3%) gives a ratio of 
+𝑁𝑁(𝑑𝑑1
+𝐻𝐻𝐻𝐻) 𝑁𝑁(𝑑𝑑1
+𝐼𝐼𝐼𝐼)
+⁄
+= 0.98 
+-200
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+0
+100
+200
+300
+400
+500
+600
+Credit Risk Premium (bp)
+Total Market Spread (bp)
+CRP (Individual WACC)
+CRP (Portfolio WACC)
+
+
+[PDF page 18]
+ 
+ 
+ 
+ 
+18 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Fourth, an equity excess return could be inferred by assuming the asset market price of risk to be constant. 
+𝜆𝜆𝐻𝐻𝐻𝐻 𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊
+= 𝜆𝜆𝐼𝐼𝐼𝐼 𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊⋅𝜎𝜎𝐴𝐴
+𝐻𝐻𝐻𝐻
+𝜎𝜎𝐴𝐴
+𝐼𝐼𝐼𝐼. 
+Reversing the formula for the cost of capital backs out an implied equity risk premium: 
+𝜇𝜇𝐸𝐸
+𝐻𝐻𝐻𝐻=
+(𝜆𝜆𝐻𝐻𝐻𝐻 𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑊𝑊𝑊𝑊𝑊𝑊𝑊𝑊
+−𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝑆𝐻𝐻𝐻𝐻⋅𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐻𝐻𝐻𝐻⋅𝑇𝑇𝑇𝑇𝑇𝑇)
+1 −𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝐿𝑒𝑒𝐻𝐻𝐻𝐻
+. 
+Table 7 compares a number of statistics for the US investment grade and high yield portfolios considered in this paper. This shows 
+a slightly higher average leverage and a significant difference in average volatility. The market implied returns show a higher cost 
+of capital for firms with a lower credit rating, but a very similar market price of risk when accounting for the difference in 
+estimated asset volatility. This suggests it might also be prudent for us to adjust the estimate of the WACC to account for this 
+difference in volatility.  
+ 
+Table 7 
+Comparison of US Investment Grade and High Yield Portfolios 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 8 shows the impact of the four methods described above in terms of the implied equity risk premium, the WACC, the 
+proportion of the market implied excess return ascribed to credit risk, the average credit risk premium spread and the proportion 
+of the total market spread assigned to the credit risk premium. As expected, if the asset market price of risk is assumed to be 
+constant between the investment grade and high yield portfolios then the proportion of the total spread explained by the credit 
+risk premium is approximately constant, at 32% for both portfolios.  
+If the equity market price of risk is held constant, the higher average spreads for the high yield portfolio lead to a higher credit risk 
+premium and a larger proportion of the market spread at 40%. Making no adjustment to the equity risk premium for differences in 
+volatility, leads to a notably lower cost of capital and a smaller proportion of the market spread explained by the credit risk 
+premium, 23%-25%.  
+ 
+Table 8 
+US High Yield Bond Equity Return Comparison 
+ 
+ 
+ 
+ 
+ 
+ 
+Using the constant equity market price of risk to define a high yield equity risk premium, produces the spread results detailed in 
+Table 9. For the high yield data there is a significant difference between the mean and median results as the individual estimates, 
+shown in Figure 14, exhibit higher variance and skew. For our preferred mean average using the portfolio WACC, the credit risk 
+premium account for one third of the average spread.  
+ 
+ 
+ 
+ 
+ 
+ 
+ INVESTMENT GRADE 
+HIGH YIELD 
+Average Asset Volatility 
+12.7% 
+19.1% 
+Average Leverage 
+38.0% 
+43.5% 
+Average Spread (bp) 
+129.3 
+367.1 
+Market Implied Portfolio Return (𝜆𝜆𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑀𝑀𝑀𝑀) 
+5.12% 
+7.39% 
+Market Implied Portfolio Price of Risk (Λ𝑃𝑃𝑃𝑃𝑃𝑃𝑃𝑃
+𝑀𝑀𝑀𝑀) 
+0.404 
+0.387 
+ 
+EQUITY RISK 
+PREMIUM 
+PORTFOLIO 
+WACC 
+PORTFOLIO 
+WACC MPR 
+PORTFOLIO WACC/ 
+MARKET IMPLIED RETURN 
+Investment Grade ERP 
+4.04% 
+3.56% 
+0.186 
+48.2% 
+Relevered ERP 
+4.44% 
+3.78% 
+0.198 
+51.2% 
+Constant Equity MPR 
+6.69% 
+5.06% 
+0.265 
+68.5% 
+Constant Asset MPR 
+5.48% 
+4.37% 
+0.229 
+59.2% 
+
+
+[PDF page 19]
+ 
+ 
+ 
+ 
+19 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Table 9 
+US High Yield Corporate Bond Spreads 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 14: Credit risk premium spread for each bond in the portfolio – US High Yield 
+ 
+4.2. 
+Deriving an Illiquidity Premium 
+Under IFRS 17’s top-down approach to discount rate construction the total yield for the reference portfolio must be adjusted to 
+remove the effect of credit risk, both expected losses and a credit risk premium. Assuming the reference portfolio is well matched 
+to the associated liabilities, the credit-adjusted yield curve is taken as the appropriate discount curve. In principle there is no need 
+to identify any spread over the risk free rate as an illiquidity premium. Using the bottom-up approach, however, there is a need to 
+specifically account for liquidity and the methodology described in this paper could be used in order to estimate the associated 
+spread. 
+If the total observed market spread is assumed to comprise of only credit risk and illiquidity risk, then the illiquidity premium can 
+be defined as the residual after adjusting the total yield for the default spread and the credit risk premium: 
+𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖𝑖 𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝𝑝= 𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚𝑚 𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑜𝑒𝑒𝑒𝑒 𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠𝑠−𝐸𝐸𝐸𝐸−𝑈𝑈𝑈𝑈. 
+Based upon the results presented in section 4.1 the analysis suggests that the illiquidity premium accounts for around 30%-50% 
+of the total spread, depending on the specific choice of methodology for the credit risk premium, the choice of risk free basis and 
+the economy under consideration. Figure 15 shows the relationship between the illiquidity premia, defined as the residual after 
+credit adjustment, and the total market spread for the US investment grade portfolio. The dotted line indicates the least absolute 
+deviation linear fit to the data. 
+-100
+100
+300
+500
+700
+900
+1100
+1300
+1500
+0
+200
+400
+600
+800
+1000
+1200
+1400
+Credit Risk Premium (bp)
+Total Market Spread (bp)
+CRP (Individual WACC)
+CRP (Portfolio WACC)
+ 
+MEAN RESULTS 
+MEDIAN RESULTS 
+ 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+INDIVIDUAL WACC 
+PORTFOLIO WACC 
+Market Spread 
+352.2 
+352.2 
+298.4 
+298.4 
+Expected Loss Spread 
+133.6 
+133.6 
+50.2 
+50.2 
+Credit Risk Premium Spread 
+171.8 
+115.8 
+111.0 
+117.1 
+Credit Risk Premium Spread/Market Spread 
+0.49 
+0.33 
+0.37 
+0.39 
+Gradient Fit 
+0.61 
+0.28 
+0.39 
+0.42 
+
+
+[PDF page 20]
+ 
+ 
+ 
+ 
+20 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+Figure 15: Relationship between the illiquidity premia, and the total market spread for the US investment grade portfolio 
+ 
+For a practical implementation of the bottom up approach there are a number of considerations that need to be taken by a firm.  
+Firstly, should a uniform adjustment be made to the risk free rate to account for illiquidity, or is there a need to estimate a term 
+structure? Given that the method described here is able to estimate total yields and credit adjustments for each individual bond, a 
+term structure for the illiquidity premium could be estimated by directly fitting to the individual IP estimates, or by applying a 
+scaling to the portfolio spread over the appropriate risk free rate. 
+Secondly, is the adjustment applied as a point-in-time calculation using a snapshot of market spreads at a given reporting date? or 
+should the results be smoothed using historical data to determine either the credit risk premium or the total spread? In the next 
+section we investigate the sensitivity of the results to a number of modelling choices and parameters. 
+4.3. 
+Sensitivity to Model Assumptions 
+The results of sections 4.1 and 4.2 show that the WACC model of credit risk premium is able to generate intuitive results and 
+offers a plausible route to estimating the credit risk adjustment for IFRS 17 discount rate construction.  
+However, while the model aims to use market observable and implied data where possible, and utilise real world EDF and LGD 
+data in which we have confidence, there remain a number of key data inputs which can impact the results. In the sections below 
+we example the sensitivity of the model to two of these, equity risk premium, and the choice of risk free basis. 
+4.3.1. 
+Equity Risk Premium 
+Perhaps the most important unobservable input to the model is the equity risk premium. Equity risk premia are a matter of 
+considerable contestation in the financial literature and estimates can vary significantly. Brotherson et al. (2013) report that best 
+practice, and by far the most common method, to calculate the equity risk premium for a specific firm is to use the CAPM. Within 
+their survey there were a range of sources cited for the source of the market risk premium associated with the CAPM: historical 
+data, forward-looking dividend discount model (DDM), Bloomberg and expert judgement among them. These varied sources 
+returned a range of market equity risk premia between 4% and 9%, with a mean around 6.5%.   
+Within Moody’s Analytics we calculate forward looking equity risk premia for country specific market indices for use within the 
+calibrations of our Scenario Generator. Our methodology uses the Dimson, Marsh and Staunton historical analysis to set a global 
+arithmetic risk premia (in excess of cash) of 4%. To calculate risk premia across equity markets we then set a target covariance 
+matrix Ω from target correlations and volatilities and calculate a vector of 𝛽𝛽 coefficients as 
+𝛽𝛽= 1
+𝜎𝜎𝑝𝑝2 Ω𝑤𝑤, 
+where 𝜎𝜎𝑝𝑝
+2 is the global portfolio variance and 𝑤𝑤 are a set of weighs based on the observed relative market capitalisations. The 
+arithmetic risk premium of a specific country is then 
+𝜇𝜇𝐸𝐸,𝑖𝑖= 𝛽𝛽𝜇𝜇𝐸𝐸. 
+-150
+-100
+-50
+0
+50
+100
+150
+200
+250
+300
+0
+100
+200
+300
+400
+500
+600
+Illiquidity Premium Spread (bp)
+Total Market Spread (bp)
+IP Spread (Portfolio WACC)
+
+
+[PDF page 21]
+ 
+ 
+ 
+ 
+21 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+The asset betas for specific firms could be produced using Moody’s Analytics GCorr™ or, alternatively, equity betas could be 
+constructed using data from Bloomberg or Barra (consistent with many responses to Brotherson). 
+In any case, the choice of cost of equity capital (equity risk premium) can make a noticeable impact on the credit risk premium, as 
+shown in Figure 16 below, which holds everything else constant and varies the overall market equity risk premium, measuring the 
+impact on the credit risk premium. In this case, for a broad portfolio of USD denominated investment grade bonds, there is a non-
+linear sensitivity where, at 4% equity risk premium a 1% change in risk premium produce a 14bp change in credit risk premium 
+spread. 
+ 
+Figure 16: Variation in credit risk premium spread with equity risk premium assumption 
+ 
+Whilst Moody’s Analytics estimates of equity index risk premia are periodically updated, the global arithmetic equity risk premium 
+remains relatively constant over time. As such, the economy specific values, particularly for large markets like the US, will vary only 
+to a limited degree. The largest contribution to any change in credit risk premium will therefore come through changes in the 
+expected losses, weighted by the leverage, and changes in volatility. The estimate for the credit risk premium may in consequence 
+vary more slowly than total market spreads and the derived illiquidity premia may be more volatile than preferred.  
+The correlation between estimates of the total credit adjustment or liquidity premia and spreads on assets in this structural 
+modelling approach depends on the correlations assumed between spreads and the default probabilities and the correlations 
+between spreads and the equity risk premia. It is worth noting that if we were to assume a positive historical correlation between 
+spreads and the equity risk premia this would produce less volatile estimates of the illiquidity premia and more volatile estimates 
+of the credit risk premia. This assumption is therefore a critical one in determining how effectively the illiquidity premia estimate 
+dampens ALM volatility under the IFRS 17 framework.  
+4.3.2. 
+Risk Free Rate 
+Although in principle a top-down approach to discount rate construction under IFRS 17 does not require us to define the risk free 
+rate, our proposed approach in this paper, which scales a weighted average cost of capital by market implied returns, does 
+implicitly depend on the choice of risk free basis to define the overall market spreads. These spreads impact both the weighted 
+cost of capital itself via the cost of debt, and the market implied returns. The choice of appropriate basis to define these spreads is 
+therefore important. 
+The text of the IFRS 17 standard states that the risk free rate should reflect the yield curve in the appropriate currency for 
+instruments with no or negligible credit risk. The question then arises as to whether either swap or treasury instruments exhibit no 
+or negligible credit risk. Both could themselves be adjusted to account for residual credit risk, for example using interbank-OIS 
+spread data, or CDS spreads respectively. The standard further states that the liquid risk-free yield curve should then be adjusted 
+to reflect the difference in liquidity between the instruments underlying the observed market rates for the risk free curve and the 
+liquidity of the insurance contracts. Either swap contracts or government bonds could in practice contain some illiquidity premia 
+over a fully liquid risk free rate and care should be taken not to double count this premium.  
+For some economies the choice of risk free basis will not have a significant effect, for example, in the US results produced in this 
+paper swap/treasury spreads are low. In other economies there can be a substantial swap/government spread and results will vary 
+depending on whether swaps or treasuries are used to define the credit spread, see Table 10 below. Figure 17 shows three spot rate 
+curves for EUR at end June 2018 and illustrates the significant spread between swaps and treasuries. In the case of the Eurozone 
+there is the additional complication that there is a single swap rate which crosses many countries each issuing their own 
+government debt a different rates. The Moody’s Analytics EUR government curve shown in the figure below is based on a 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+2.5%
+3.0%
+3.5%
+4.0%
+4.5%
+5.0%
+5.5%
+6.0%
+Credit Risk Premium (bp)
+Equity Risk Premium
+
+
+[PDF page 22]
+ 
+ 
+ 
+ 
+22 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+combination of French and German bonds. In addition, where firms are valuing liabilities under the Solvency II regime, the 
+discount curve published by EIOPA defines a last liquid point at 20 years for EUR, and extrapolates much more quickly from there 
+to an unconditional forward rate than the market data, this can be seen from the difference between the Moody’s Analytics and SII 
+data in Figure 17. 
+ 
+Figure 17: Three spot rate curves for EUR at end June 2018 
+ 
+For investment grade debt, during periods of market calm, the WACC is dominated by the cost of equity, which is typically 
+significantly higher than the cost of debt, and so while the credit risk premium will vary depending on the choice of basis, the 
+absolute value of the average credit risk premium spread is not overly sensitive to the choice, see Table 10 for comparisons. 
+However, during periods of market stress, e.g. during the financial crisis, the difference could be more material. Further, even in 
+periods with low average cost of debt, where the overall WACC does depend more strongly on the choice of basis, the illiquidity 
+premium estimate will vary more substantially, as does the proportional relationship between total spread and credit risk 
+premium. Table 10 shows that for EUR data at End June 2018 there was nearly a 50bp difference between the median spread over 
+swap rates and the median spread over treasuries. The credit risk premium only varied by 7bp, but the illiquidity premium is 40bp 
+lower using the residual over swap rates. For the UK there is a swap spread, and illiquidity premia swap spread of around 10bp and 
+for the US the difference between bases is even lower. 
+ 
+Table 10 
+Risk Free Basis Comparison 
+5. Conclusion 
+Calculation of credit and liquidity adjustments is a complex challenge. Estimates of illiquidity premia can vary substantially 
+depending on the choice of model and underlying assumptions (Hibbert 2009). Under IFRS 17, the methodology to set discount 
+rates will be a key challenge. For many insurers the focus will be to ensuring that well matched balance sheets are stable and that 
+P&L results are informative of real changes in underlying economic conditions and not simply accounting mismatches (Jessop 
+2018). Insurers therefore need to be aware of the dangers of artificially introducing instability to their results as a consequence of 
+modelling choices whilst still capturing genuine changes in market conditions.  
+-1.0%
+-0.5%
+0.0%
+0.5%
+1.0%
+1.5%
+2.0%
+2.5%
+3.0%
+3.5%
+1
+6
+11
+16
+21
+26
+31
+36
+41
+46
+51
+56
+Spot Rate
+Maturity
+EUR GOVT (MA)
+EUR SWAP (MA)
+EUR SWAP (SII)
+ 
+SWAP 
+TREASURY 
+ 
+SPREAD 
+CREDIT RISK PREMIUM 
+ILLIQUIDITY PREMIUM 
+SPREAD 
+CREDIT RISK PREMIUM 
+ILLIQUIDITY PREMIUM 
+EUR 
+52.4 
+44.0 
+-12.6 
+99.3 
+50.9 
+28.3 
+GBP 
+124.6 
+49.3 
+44.9 
+132.8 
+48.3 
+55.5 
+USD 
+123.3 
+38.5 
+63.2 
+119.2 
+37.3 
+61.3 
+
+
+[PDF page 23]
+ 
+ 
+ 
+ 
+23 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+ 
+This paper lays out one potential method to calculate the necessary total credit adjustment, accounting for both expected loses 
+and the credit risk premium, by leveraging Moody’s Analytics experience with credit loss calculations and combining that 
+knowledge and modelling with established cost of capital techniques used in corporate finance. The expected loss adjustment 
+considered in this analysis could easily be extended to reconcile with the more sophisticated impairment methods used by firms 
+for IFRS 9 and CECL. 
+We propose a credit risk premium which starts from an estimate of the weighted cost of capital at the level of the portfolio and 
+scales this for each firm using market implied returns. Combining this credit risk premium with an estimate of the asset volatility 
+allows us to estimate a spread adjustment and derive an illiquidity premium as the residual of the spread over the risk free rate 
+after adjusting for credit risk. We analysed this method for four economies considering both investment grade and high yield 
+corporate debt and considered the sensitivity of the results to several of the key model inputs. 
+This paper hopes to show that using a structural model of credit risk could be a useful method to derive discount curves for IFRS 17 
+under either the top-down or bottom-up approaches. In practice, some further work may be required to before firms commit to 
+adopting such an approach. For example we would expect firms to want to: 
+• 
+Compare the estimated illiquidity premia with alternative benchmarks such as the EIOPA Solvency II Volatility 
+Adjustment 
+• 
+To understand the stability over time of results and the sensitivity to changes in market data and assumptions about the 
+time varying behaviour of equity risk premium. 
+• 
+To potentially enhance the method to reconcile expected losses with IFRS 9 impairment calculations  
+• 
+To develop robust methods to apply where data (particularly ratings, or market price) is scarce 
+• 
+To extend the analysis to further asset classes, such as government debt, infrastructure and structured loans. 
+• 
+Understand the liquidity characteristics of liability contacts and resolve how to transfer an illiquidity premia derived for a 
+portfolio of assets to a set of insurance contracts.  
+While a number of significant open questions need to be addressed when implementing IFRS 17, we believe the methodology 
+presented here is promising, not least because it has the potential to be applied to address most of these considerations.    
+
+
+[PDF page 24]
+ 
+ 
+ 
+ 
+24 
+DECEMBER 2018  
+ENTERPRISE RISK SOLUTIONS
+A COST OF CAPITAL APPROACH TO ESTIMATING CREDIT RISK PREMIA
+6. References 
+Black, Barnaby, Glenn Levine and Juan M. Licari, “Probability-Weighted Outcomes Under IFRS 9: A Macroeconomic Approach”, 
+Moody’s Analytics Risk Perspectices, Volume VIII, June 2016 
+Brotherson, W. Todd, Eades, Kenneth M., Harris, Robert S. and Robert C. Higgins ““Best Practices” in Estimating the Cost of Capital: 
+An Update”, Journal of Applied Finance, Vol 23., No. 1, 2015 
+Churm, Rohan and Nikolaos Panigirtzoglou “Decomposing credit spreads”, Bank of England Working Paper no. 253, 2005 
+EIOPA, Risk Free Interest Rate Term Structures, https://eiopa.europa.eu/regulation-supervision/insurance/solvency-ii-technical-
+information/risk-free-interest-rate-term-structures 
+Hibbert, John, Kirchner, Axel, Kretzschmar, Gavin and Alexander McNeil “Liquidity Premium Literature review of theoretical and 
+empirical evidence”, Barrie and Hibbert Research Report, 2009 
+IAA, (2017),  Discounting in the Context of IFRS for Insurers and Insurance Contracts (draft IAN note) -
+www.actuaries.org/CTTEES.../4a_EPS_IAN4_Discount_Rates_20170926clean.docx 
+IFRS 17 Insurance Contracts – the accounting model in one page - http://www.ifrs.org/-/media/project/insurance-contracts/ifrs-
+standard/ifrs-17-accounting-model-a3-jan-2018.pdf 
+IFRS Insurance contracts – project summary - http://www.ifrs.org/-/media/project/insurance-contracts/ifrs-standard/ifrs-17-
+project-summary.pdf 
+Jessop, Nick “IFRS 17 Discount Rates”, Moody’s Analytics White Paper, 2018 
+Merton, Robert “On the pricing of corporate debt: the risk structure of interest rates”, Journal of Finance, Vol 29, 1974 
+Moody’s Analytics Modelling and Calibration Services, “Real World Calibrations Developed Equities Constant Volatility at End Jun 
+2018”, July 2018 
+Nazeran, Pooya and Douglas Dwyer “Credit Risk Modeling of Public Firms: EDF9”, Moody’s Analytics White Paper, 2015 
+Qiang Meng, Amnon Levy, Andrew Kaplin, Yashan Wang, and Zhenya Hu, “Implications of PD-LGD Correlation in a Portfolio 
+Setting.” Moody’s Analytics White Paper, February 2010.   
+Skrk, Martin and Steffen Sorensen “Real-world equity calibration Targets for the equity risk premium across equity markets at end-
+December 2007”, Barrie and Hibbert Research Note, 2008 
+ 
+ 
+
+
+[PDF page 25]
+ 
+ 
+ 
+ 
+ENTERPRISE RISK SOLUTIONS
+© 2018 Moody’s Corporation, Moody’s Investors Service, Inc., Moody’s Analytics, Inc. and/or their licensors and affiliates (collectively, “MOODY’S”). All rights reserved. 
+CREDIT RATINGS ISSUED BY MOODY'S INVESTORS SERVICE, INC. AND ITS RATINGS AFFILIATES (“MIS”) ARE MOODY’S CURRENT OPINIONS OF THE RELATIVE FUTURE CREDIT RISK OF 
+ENTITIES, CREDIT COMMITMENTS, OR DEBT OR DEBT-LIKE SECURITIES, AND MOODY’S PUBLICATIONS MAY INCLUDE MOODY’S CURRENT OPINIONS OF THE RELATIVE FUTURE CREDIT 
+RISK OF ENTITIES, CREDIT COMMITMENTS, OR DEBT OR DEBT-LIKE SECURITIES. MOODY’S DEFINES CREDIT RISK AS THE RISK THAT AN ENTITY MAY NOT MEET ITS CONTRACTUAL, 
+FINANCIAL OBLIGATIONS AS THEY COME DUE AND ANY ESTIMATED FINANCIAL LOSS IN THE EVENT OF DEFAULT. CREDIT RATINGS DO NOT ADDRESS ANY OTHER RISK, INCLUDING 
+BUT NOT LIMITED TO: LIQUIDITY RISK, MARKET VALUE RISK, OR PRICE VOLATILITY. CREDIT RATINGS AND MOODY’S OPINIONS INCLUDED IN MOODY’S PUBLICATIONS ARE NOT 
+STATEMENTS OF CURRENT OR HISTORICAL FACT. MOODY’S PUBLICATIONS MAY ALSO INCLUDE QUANTITATIVE MODEL-BASED ESTIMATES OF CREDIT RISK AND RELATED OPINIONS 
+OR COMMENTARY PUBLISHED BY MOODY’S ANALYTICS, INC. CREDIT RATINGS AND MOODY’S PUBLICATIONS DO NOT CONSTITUTE OR PROVIDE INVESTMENT OR FINANCIAL 
+ADVICE, AND CREDIT RATINGS AND MOODY’S PUBLICATIONS ARE NOT AND DO NOT PROVIDE RECOMMENDATIONS TO PURCHASE, SELL, OR HOLD PARTICULAR SECURITIES. 
+NEITHER CREDIT RATINGS NOR MOODY’S PUBLICATIONS COMMENT ON THE SUITABILITY OF AN INVESTMENT FOR ANY PARTICULAR INVESTOR. MOODY’S ISSUES ITS CREDIT 
+RATINGS AND PUBLISHES MOODY’S PUBLICATIONS WITH THE EXPECTATION AND UNDERSTANDING THAT EACH INVESTOR WILL, WITH DUE CARE, MAKE ITS OWN STUDY AND 
+EVALUATION OF EACH SECURITY THAT IS UNDER CONSIDERATION FOR PURCHASE, HOLDING, OR SALE.  
+MOODY’S CREDIT RATINGS AND MOODY’S PUBLICATIONS ARE NOT INTENDED FOR USE BY RETAIL INVESTORS AND IT WOULD BE RECKLESS AND INAPPROPRIATE FOR RETAIL 
+INVESTORS TO USE MOODY’S CREDIT RATINGS OR MOODY’S PUBLICATIONS WHEN MAKING AN INVESTMENT DECISION. IF IN DOUBT YOU SHOULD CONTACT YOUR FINANCIAL OR 
+OTHER PROFESSIONAL ADVISER. 
+ALL INFORMATION CONTAINED HEREIN IS PROTECTED BY LAW, INCLUDING BUT NOT LIMITED TO, COPYRIGHT LAW, AND NONE OF SUCH INFORMATION MAY BE COPIED OR 
+OTHERWISE REPRODUCED, REPACKAGED, FURTHER TRANSMITTED, TRANSFERRED, DISSEMINATED, REDISTRIBUTED OR RESOLD, OR STORED FOR SUBSEQUENT USE FOR ANY SUCH 
+PURPOSE, IN WHOLE OR IN PART, IN ANY FORM OR MANNER OR BY ANY MEANS WHATSOEVER, BY ANY PERSON WITHOUT MOODY’S PRIOR WRITTEN CONSENT.  
+All information contained herein is obtained by MOODY’S from sources believed by it to be accurate and reliable. Because of the possibility of human or mechanical error as well as other 
+factors, however, all information contained herein is provided “AS IS” without warranty of any kind. MOODY'S adopts all necessary measures so that the information it uses in assigning a 
+credit rating is of sufficient quality and from sources MOODY'S considers to be reliable including, when appropriate, independent third-party sources. However, MOODY’S is not an auditor 
+and cannot in every instance independently verify or validate information received in the rating process or in preparing the Moody’s publications.  
+To the extent permitted by law, MOODY’S and its directors, officers, employees, agents, representatives, licensors and suppliers disclaim liability to any person or entity for any indirect, 
+special, consequential, or incidental losses or damages whatsoever arising from or in connection with the information contained herein or the use of or inability to use any such information, 
+even if MOODY’S or any of its directors, officers, employees, agents, representatives, licensors or suppliers is advised in advance of the possibility of such losses or damages, including but not 
+limited to: (a) any loss of present or prospective profits or (b) any loss or damage arising where the relevant financial instrument is not the subject of a particular credit rating assigned by 
+MOODY’S. 
+To the extent permitted by law, MOODY’S and its directors, officers, employees, agents, representatives, licensors and suppliers disclaim liability for any direct or compensatory losses or 
+damages caused to any person or entity, including but not limited to by any negligence (but excluding fraud, willful misconduct or any other type of liability that, for the avoidance of doubt, 
+by law cannot be excluded) on the part of, or any contingency within or beyond the control of, MOODY’S or any of its directors, officers, employees, agents, representatives, licensors or 
+suppliers, arising from or in connection with the information contained herein or the use of or inability to use any such information. 
+NO WARRANTY, EXPRESS OR IMPLIED, AS TO THE ACCURACY, TIMELINESS, COMPLETENESS, MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OF ANY SUCH RATING 
+OR OTHER OPINION OR INFORMATION IS GIVEN OR MADE BY MOODY’S IN ANY FORM OR MANNER WHATSOEVER. 
+Moody’s Investors Service, Inc., a wholly-owned credit rating agency subsidiary of Moody’s Corporation (“MCO”), hereby discloses that most issuers of debt securities (including corporate and 
+municipal bonds, debentures, notes and commercial paper) and preferred stock rated by Moody’s Investors Service, Inc. have, prior to assignment of any rating, agreed to pay to Moody’s 
+Investors Service, Inc. for appraisal and rating services rendered by it fees ranging from $1,500 to approximately $2,500,000. MCO and MIS also maintain policies and procedures to address 
+the independence of MIS’s ratings and rating processes. Information regarding certain affiliations that may exist between directors of MCO and rated entities, and between entities who hold 
+ratings from MIS and have also publicly reported to the SEC an ownership interest in MCO of more than 5%, is posted annually at www.moodys.com under the heading “Investor Relations — 
+Corporate Governance — Director and Shareholder Affiliation Policy.” 
+Additional terms for Australia only: Any publication into Australia of this document is pursuant to the Australian Financial Services License of MOODY’S affiliate, Moody’s Investors Service Pty 
+Limited ABN 61 003 399 657AFSL 336969 and/or Moody’s Analytics Australia Pty Ltd ABN 94 105 136 972 AFSL 383569 (as applicable). This document is intended to be provided only to 
+“wholesale clients” within the meaning of section 761G of the Corporations Act 2001. By continuing to access this document from within Australia, you represent to MOODY’S that you are, or 
+are accessing the document as a representative of, a “wholesale client” and that neither you nor the entity you represent will directly or indirectly disseminate this document or its contents to 
+“retail clients” within the meaning of section 761G of the Corporations Act 2001. MOODY’S credit rating is an opinion as to the creditworthiness of a debt obligation of the issuer, not on the 
+equity securities of the issuer or any form of security that is available to retail investors. It would be reckless and inappropriate for retail investors to use MOODY’S credit ratings or 
+publications when making an investment decision. If in doubt you should contact your financial or other professional adviser. 
+Additional terms for Japan only: Moody's Japan K.K. (“MJKK”) is a wholly-owned credit rating agency subsidiary of Moody's Group Japan G.K., which is wholly-owned by Moody’s Overseas 
+Holdings Inc., a wholly-owned subsidiary of MCO. Moody’s SF Japan K.K. (“MSFJ”) is a wholly-owned credit rating agency subsidiary of MJKK. MSFJ is not a Nationally Recognized Statistical 
+Rating Organization (“NRSRO”). Therefore, credit ratings assigned by MSFJ are Non-NRSRO Credit Ratings. Non-NRSRO Credit Ratings are assigned by an entity that is not a NRSRO and, 
+consequently, the rated obligation will not qualify for certain types of treatment under U.S. laws. MJKK and MSFJ are credit rating agencies registered with the Japan Financial Services Agency 
+and their registration numbers are FSA Commissioner (Ratings) No. 2 and 3 respectively. 
+MJKK or MSFJ (as applicable) hereby disclose that most issuers of debt securities (including corporate and municipal bonds, debentures, notes and commercial paper) and preferred stock rated 
+by MJKK or MSFJ (as applicable) have, prior to assignment of any rating, agreed to pay to MJKK or MSFJ (as applicable) for appraisal and rating services rendered by it fees ranging from 
+JPY200,000 to approximately JPY350,000,000. 
+ 
+MJKK and MSFJ also maintain policies and procedures to address Japanese regulatory requirements. 
+ 

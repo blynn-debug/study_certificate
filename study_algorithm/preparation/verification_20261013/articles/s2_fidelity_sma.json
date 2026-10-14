@@ -1,0 +1,28 @@
+{
+  "source_id": "s2_fidelity_sma",
+  "source_metadata": {
+    "id": "s2_fidelity_sma",
+    "requested_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma",
+    "retrieved_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma",
+    "retrieved_at": "2026-10-13T16:23:05.361974+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": false,
+    "capture_method": "web.run rendered main-content excerpt; direct HTTP download returned 403",
+    "content_sha256": "cc79bb496d459abc20d5c2199505edb9c56ba5afd62a662bf9cb7e814786c7cc",
+    "text_sha256": "cc79bb496d459abc20d5c2199505edb9c56ba5afd62a662bf9cb7e814786c7cc",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "publisher_web_excerpt",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_fidelity_sma:Overview",
+      "source_id": "s2_fidelity_sma",
+      "article": "Overview",
+      "heading": "SMA description and interpretation",
+      "text": "L241: ### Description\nL242: \nL243: Moving averages are one of the core indicators in technical analysis, and there are a variety of different versions. SMA is the easiest moving average to construct. It is simply the average price over the specified period. The average is called \"moving\" because it is plotted on the chart bar by bar, forming a line that moves along the chart as the average value changes.\nL244: \nL245: \ue200cite\ue202117\u2020Image: Image: SMA\ue201 L246:   * SMAs are often used to determine trend direction. If the SMA is moving up, the trend is up. If the SMA is moving down, the trend is down. A 200-bar SMA is common proxy for the long term trend. 50-bar SMAs are typically used to gauge the intermediate trend. Shorter period SMAs can be used to determine shorter term trends.\nL247:   * SMAs are commonly used to smooth price data and technical indicators. The longer the period of the SMA, the smoother the result, but the more lag that is introduced between the SMA and the source.\nL248:   * Price crossing SMA is often used to trigger trading signals. When prices cross above the SMA, you might want to go long or cover short; when they cross below the SMA, you might want to go short or exit long.\nL249: \ue200cite\ue202118\u2020Image: Image: SMA 2\ue201 L250: \nL251:   * SMA Crossing SMA is another common trading signal. When a short period SMA crosses above a long period SMA, you may want to go long. You may want to go short when the short-term SMA crosses back below the long-term SMA.\nL252: \nL253: \ue200cite\ue202119\u2020Image: Image: SMA 3\ue201 L254: \nL255: SMA is simply the mean, or average, of the stock price values over the specified period.\nL256: \n",
+      "sha256": "cc79bb496d459abc20d5c2199505edb9c56ba5afd62a662bf9cb7e814786c7cc"
+    }
+  ],
+  "warning": "Rendered excerpt from web.run; not full raw HTTP response."
+}

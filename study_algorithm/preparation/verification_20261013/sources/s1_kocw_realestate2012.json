@@ -1,0 +1,27 @@
+{
+  "id": "s1_kocw_realestate2012",
+  "requested_url": "https://contents.kocw.net/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+  "retrieved_url": "https://contents.kocw.net/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "133189",
+  "downloaded_bytes": 133189,
+  "retrieved_at": "2026-10-13T16:55:32.549719+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "b7e32986717e3cd0ccc829105a43cef20e1476bdaa0b7075f660827d63bdeb8e",
+  "content_sha256": "5428e59115d524d1de966e31f1af76d2da1db32963ccfb6b5332d0f7c06749be",
+  "characters": 2196,
+  "original_retrieval": {
+    "requested_url": "http://contents.kocw.or.kr/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+    "retrieved_url": "http://contents.kocw.or.kr/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+    "retrieved_at": "2026-10-13T16:55:32.549719+00:00"
+  },
+  "https_revalidation": {
+    "timestamp": "2026-10-14T00:02:28.504574+00:00",
+    "status": 200,
+    "bytes": 133189,
+    "sha256": "b7e32986717e3cd0ccc829105a43cef20e1476bdaa0b7075f660827d63bdeb8e",
+    "identical_to_original_pdf": true,
+    "content_length": "133189"
+  }
+}

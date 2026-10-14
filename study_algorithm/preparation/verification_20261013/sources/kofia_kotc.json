@@ -1,0 +1,18 @@
+{
+  "id": "kofia_kotc",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1732&seq=297",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1732&seq=297",
+  "retrieved_at": "2026-10-13T00:01:47.228763+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 35518,
+  "content_sha256": "864e3a281e54666fb93be1f94277d194c619721c946f7cdae9aa6096826c3352",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "K-OTC시장 운영규정",
+  "kofia_seq": "297",
+  "history_seq": "1732",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

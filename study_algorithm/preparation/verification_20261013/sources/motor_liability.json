@@ -1,0 +1,18 @@
+{
+  "id": "motor_liability",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290659&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290659&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:42.962763+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 44362,
+  "content_sha256": "01f6c18201fb94c35b336abfe204b1fc5fc11fbf3d31dd2f846a2fd813f52e82",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "2"
+    ]
+  ]
+}

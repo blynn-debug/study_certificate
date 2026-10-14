@@ -1,0 +1,30 @@
+{
+  "source_id": "kyobo_increasing_benefit",
+  "source_metadata": {
+    "id": "kyobo_increasing_benefit",
+    "requested_url": "https://news.kyobo.com/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85-%EC%86%90%EC%A3%BC%EC%82%AC%EB%9E%91-%EA%B1%B4%EA%B0%95-%EC%A2%85%EC%8B%A0%EB%B3%B4%ED%97%98-2%EC%A2%85-%EC%B6%9C%EC%8B%9C/",
+    "retrieved_url": "https://news.kyobo.com/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85-%EC%86%90%EC%A3%BC%EC%82%AC%EB%9E%91-%EA%B1%B4%EA%B0%95-%EC%A2%85%EC%8B%A0%EB%B3%B4%ED%97%98-2%EC%A2%85-%EC%B6%9C%EC%8B%9C/",
+    "retrieved_at": "2026-10-13T04:10:53.272367+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 6376,
+    "content_sha256": "2e5ad259fb845f2a542f44f6d3b48feb6664d7da825b2877cb4cfe311276b10f",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kyobo_increasing_benefit:체증설계예시",
+      "source_id": "kyobo_increasing_benefit",
+      "article": "체증설계예시",
+      "heading": "체증설계예시",
+      "text": "‘교보손주사랑포에버종신보험 (무배당)’은 종신보험에 교육자금 기능을 결합한 상품으로, 조부모가 평생 사망보장을 받으면서 손주를 위한 미래 자금을 준비할 수 있다. 보험료 납입기간(10년납 미만은 10년) 이후 사망보험금이 매년 5%씩 증가해 최대 150%까지 늘어나는 체증형 구조로 미래 재원 마련에 유리하다.",
+      "start": 1451,
+      "end": 1625,
+      "sha256": "8870c78c92df8b95df8038e0412cb42055eea541b4a0d2b97d5a10855ca8b11c"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

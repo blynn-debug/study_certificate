@@ -1,0 +1,12 @@
+{
+  "id": "saha_tax_types",
+  "requested_url": "https://www.saha.go.kr/portal/contents.do?mId=0105000000",
+  "retrieved_url": "https://www.saha.go.kr/portal/contents.do?mId=0105000000",
+  "retrieved_at": "2026-10-13T03:17:22.248949+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 5993,
+  "content_sha256": "bc49069c9e16f494bc0939cb1409b0143a081999f18de7e42aa135d7791e6129",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

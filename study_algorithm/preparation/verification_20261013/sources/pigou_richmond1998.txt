@@ -1,0 +1,4253 @@
+[PDF page 1]
+19 9 8 A N N U A L R E P O R T
+Federal Reserve Bank of Richmond
+MERCANTILISTS 
+and CLASSICALS:
+Insights From
+Doctrinal History
+
+
+[PDF page 2]
+A Message from the President 
+and First Vice President
+We are pleased to present the Bank’s Annual Report for 1998. The Federal Reserve System faced
+important challenges in 1998, including considerable turbulence in domestic and international ﬁnan-
+cial markets in the second half of the year, continued rapid consolidation in the banking industry, and
+strong demand from depository institutions for efﬁcient and innovative ﬁnancial services. Ensuring
+that data processing and communications systems make a smooth transition to the next century and
+that the general public is provided with clear and useful information about System activities and
+accomplishments were also priorities throughout the year.
+We believe this Bank made important contributions to the System’s efforts to meet these chal-
+lenges, as highlighted in the “Year in Review” section of this Report. The Bank opened a new super-
+vision and regulation ofﬁce in Charlotte to enhance supervisory oversight; some of the largest bank-
+ing organizations – the result of the latest wave of bank mergers – are based in North Carolina. Our
+ﬁnancial services activities fully met their cost recovery and quality objectives for priced services in
+1998, and several Bank staff members played leadership roles in Systemwide efforts to improve pay-
+ments and other services to depository institutions and the U.S. Treasury. In an effort to increase
+our communication and interaction with new constituencies, our Community Affairs Ofﬁce formed
+a new Community Development Advisory Council comprised of community group leaders from
+across the District. Also, a member of our Public Affairs staff was instrumental in establishing a new
+national center for economic education for the hearing impaired at Gallaudet University. Finally, in
+1998, the Bank achieved all of its benchmark objectives with respect to its preparation for the cen-
+tury date change.
+The approach to the new millennium provides a particularly appropriate occasion to review, in
+broad perspective,the long discussion over what monetary policy can and cannot accomplish.During
+the past three centuries, a succession of events, episodes, and policy controversies reveal that certain
+classical theories of monetary policy have stood the test of time far better than other theories
+whose superﬁcial, albeit fallacious, logic makes them perennially popular with the general public. It is
+important to distinguish the robust from the fallacious theories and to lock the former into place
+so that past policy errors will not be repeated.We are pleased to have Tom Humphrey, arguably the
+world’s leading historian of the quantity theory of money, review the debates between mercantilist
+and classical theories of monetary policy in the feature article.
+J. Alfred Broaddus, Jr.
+Walter A. Varvel
+P R E S I D E N T
+F I R S T V I C E P R E S I D E N T
+1
+
+
+[PDF page 3]
+and
+Insights From Doctrinal History
+MERCANTILISTS
+CLASSICALS:
+Thomas M. Humphrey
+Thomas M. Humphrey is a vice
+president and economist in the
+Research Department. He has
+served as long-time editor of the
+Bank’s Economic Quarterly.
+The views expressed do not 
+necessarily reﬂect those of the 
+Federal Reserve System.
+2
+
+
+[PDF page 4]
+The above sentiments express what every
+doctrinal historian knows, namely that much of
+what passes for novelty and originality in mon-
+etary theory and policy is really ancient teach-
+ing dressed up in modern guises.To be sure, the
+increasing application of mathematical modeling
+has given these concepts greater rigor and pre-
+cision. Likewise, better data and more powerful
+empirical techniques have improved our statis-
+tical estimates of the relevant quantitative mag-
+nitudes. Still, the basic ideas themselves often
+remain much the same.Thus instead of a steady
+progression of new paradigms, one sees repeat-
+ed cycles of existing ones whose periodic rise
+and fall perpetually casts them in and out of
+fashion.
+By itself, this recycling of established ideas
+need be no cause for alarm.Theories may survive
+because experience indicates that they possess
+a high degree of validity and because no better
+theories have been found. The trouble is, how-
+ever, that sound theories are not the only ones
+to survive. Unsound theories may coexist with
+the sound ones.
+Unfortunately, policymakers and the gener-
+al public are in no position to realize as much.
+Preoccupied by the pressing problems of the
+day, they have neither the time, inclination, or
+training, nor indeed the duty to trace the histo-
+ry of the ideas they employ or endorse. They
+have no reason to be aware of earlier policy
+debates in which sound theories were distin-
+guished from fallacious ones. The result is
+twofold. Policymakers may subscribe to old
+theories under the mistaken impression that
+those theories are new.Worse, they may unwit-
+tingly deploy policies whose underlying theory
+has been challenged and found wanting in earli-
+er policy debates.
+Here is where the doctrinal historian can
+help. His comparative advantage lies in identify-
+ing the origin and tracing the evolution of rival
+monetary doctrines across a succession of writ-
+ers, events, episodes, and policy controversies.
+Economists typically view their discipline as a
+progressive science in which superior new ideas
+relentlessly supplant inferior old ones in a Dar-
+winian struggle toward the truth. Thus it came
+as something of a shock when Milton Friedman
+challenged this belief in the May 1975 issue of
+the American Economic Review. In response to
+the question “What have we learned in the past
+25 years?”, Friedman argued that what mon-
+etary economists have learned since 1950 are
+hardly new ideas but rather a rediscovery of old
+ideas inherited from David Hume and his con-
+temporaries more than 200 years ago.
+Three years later, the British economist
+Ivor F. Pearce shocked his readers even more.
+He denied that the Keynesian Revolution had
+contributed a single new or useful idea to mon-
+etary economics. Instead, he (1978, p. 93) insist-
+ed that “human history is guided not by new
+ideas, for there are none,” but rather by “some
+ephemeral sub-group of...old ideas.” Such old
+ideas, “often believed to be new,” are “seized
+upon as the...solution to whatever difﬁculties
+immediate experience has made to seem
+important, and congealed into a crust of dogma
+by endless repetition and obeisance.”
+. . . much of the history 
+of monetary theory 
+reduces to a struggle 
+between opposing 
+mercantilist and 
+classical camps.
+1
+Introduction
+3
+
+
+[PDF page 5]
+Each such incident constitutes a test, or obser-
+vation, of the relative strengths and weaknesses
+of the competing doctrines.While no single test
+can yield conclusive results, many such tests
+may do so. Taken together, they reveal which
+doctrine has emerged from past experience as
+the more robust analytically. By demonstrating
+as much, the historian speciﬁes those ideas that
+seem to offer the most effective basis for pub-
+lic policy. Of course, there is no assurance that
+the policymaker will heed the doctrinal histori-
+an and employ the best ideas. On the contrary,
+he may reject them or temporarily accept and
+subsequently abandon them. Here again the his-
+torian has something to say. His study of the
+forces inﬂuencing the receptivity and imple-
+mentation of ideas permits him to predict a
+doctrine’s prospective success or failure. In this
+manner, the unique perspectives of doctrinal
+history may prove their worth.
+This article puts those perspectives to
+work. It shows that from a broad standpoint,
+much of the history of monetary theory
+reduces to a struggle between opposing mer-
+cantilist and classical camps. Mercantilists, with
+their fears of hoarding and scarcity of money
+together with their prescription of cheap (low
+interest rate) and plentiful cash as a stimulus to
+real activity, tend to gain the upper hand when
+unemployment is the dominant problem. Classi-
+cals, chanting their mantra that inﬂation is
+always and everywhere a monetary phenome-
+non, tend to prevail when price stability is the
+chief policy concern.
+Currently, the classical view is in the dri-
+ver’s seat. By all rights it should remain there
+since it long ago exposed the mercantilist view
+as fundamentally ﬂawed. It is by no means cer-
+tain, however, that the classical view’s reign is
+secure. For history reveals that, whenever one
+view holds center stage, the other, fallacious or
+not, is waiting in the wings to take over when
+the time is ripe. In this manner, the mercantilism
+of John Law and Sir James Steuart gave way to
+the classicism of David Hume and David Ricardo,
+the Currency School’s classicism bowed to John
+4
+Maynard Keynes’s mercantilism, the mercantilist
+doctrines of Keynes’s disciples yielded to Milton
+Friedman’s classical monetarism, and so forth.
+Even today, with central bankers in several
+nations expressing commitment to the classical
+goal of price stability and monetarists advocat-
+ing systematic,zero-inﬂation rules for monetary
+policy, mercantilist undercurrents still run
+strong. Supply-siders who argue that monetary
+policy must be accommodative to allow tax cuts
+to work their magic echo mercantilist opinion.
+So too do those who contend that, with global
+competition and rapid technological progress
+holding inﬂation in check, monetary policy is
+free to pursue nonprice objectives such as
+boosting growth and achieving full employment.
+Finally, observers who believe that monetary
+policy is powerless to stimulate the currently
+depressed Japanese economy harbor mercan-
+tilist fears of unspent hoards of idle cash.
+The following paragraphs attempt to spell
+out the core propositions of the original mer-
+cantilist and classical views and to establish the
+centrality of those propositions in the famous
+Currency School-Banking School and Keynesian-
+monetarist controversies – the two leading
+monetary policy debates of the nineteenth and
+twentieth centuries.
+1 From this doctrinal histor-
+ical exercise, three themes emerge. First, with
+some exceptions, classicals tend to be quantity
+theorists; mercantilists, anti-quantity theorists.
+Second, classicals prefer rules; mercantilists, dis-
+cretion. Third, for all their cogency, classicals
+may be doomed to face a perpetual mercantilist
+challenge. As long as some observers continue
+to believe, rightly or wrongly, that inﬂation and
+deﬂation are nonmonetary, or real, phenomena
+and that unemployment is a monetary one
+capable of correction by the central bank, the
+debate will be unending.
+
+
+[PDF page 6]
+The roots of the debate trace back to the orig-
+inal mercantilist writers of the preclassical era
+1550-1770.Those writers argued that a nation’s
+stock of precious metals constituted the source
+of its plenty (wealth), power, prestige, and pros-
+perity. For countries possessing no gold mines,
+augmentation of those conditions required the
+accumulation of specie through foreign trade.
+Accordingly, mercantilists advocated protec-
+tionist policies in the form of export promotion
+and import restriction schemes to obtain a per-
+manent trade balance surplus matched by cor-
+responding persistent inﬂows of specie from
+abroad.
+This policy prescription was of course the
+mercantilists’ main claim to fame. But the hall-
+mark that secures them a permanent niche in
+the history of monetary doctrines was their
+contra- or anti-quantity theory of money.
+2 They
+used that theory to deny that money determines
+prices and to tout the employment beneﬁts of
+money-stock expansion fueled either by specie
+inﬂows or by paper money creation should
+those inﬂows languish. Consisting of at least
+seven propositions, the mercantilists’ contra-
+quantity theory held that (1) money stimulates
+trade, (2) real cost-push forces determine the
+price level and the inﬂation rate, (3) the interest
+rate is a purely monetary variable whose level,
+high or low, is proof of the scarcity or abun-
+dance of money, (4) idle hoards absorb any cash
+not employed in driving trade, (5) causality runs
+5
+from prices and real activity to money such that
+the money stock passively adapts to the needs
+of trade, (6) overissue is impossible when the
+money stock is backed by the nominal value of
+real property, and (7) discretion outperforms
+rules in the conduct of monetary policy.
+John Law (1671-1729)
+The clearest and most emphatic statements of
+the foregoing propositions came from John Law
+and Sir James Steuart, two economists writing
+near the close of the mercantilist era.
+3 Of the
+two,Law’s name is synonymous with the money-
+stimulates-trade doctrine that forms the central
+core and theme of his 1705 Money and Trade
+Considered; with a Proposal for Supplying the
+Nation with Money. Writing against the backdrop
+of a chronically depressed and underemployed
+Scottish economy (his home country),he argued
+that a shortage of metallic money was to blame,
+that a bank-issued paper currency must replace
+the deﬁcient metallic one, and that the resulting
+expansion of the stock of paper notes would
+permanently increase the level of output and
+employment without increasing prices.
+4 His
+argument stemmed from his assumptions of
+(1) the availability of idle resources at unchanged
+prices and (2) constant returns to scale in pro-
+duction. Given these conditions, it followed that
+the economy’s long-run aggregate supply curve
+was perfectly horizontal up to the point of full
+Classicals sought to anchor money
+with a fixed physical quantity 
+– mercantilists with the nominal 
+dollar value – of some real object. 
+The mercantilist plan leaves 
+money anchorless. Essentially, 
+it anchors each dollar with another
+dollar – no anchor at all.
+2
+Mercantilist and Classical Monetary Doctrines
+
+
+[PDF page 7]
+employment. It likewise followed that money-
+induced increases in aggregate commodity
+demand would, via rightward shifts along the
+supply curve, generate matching increases in
+equilibrium real output without raising prices.
+Indeed, Law suggested that the price level might
+even fall if scale economies in production ren-
+dered the aggregate supply curve negatively
+sloped.
+5 In no case, however, would expansion
+of the stock of paper money raise prices.
+Having argued that causation runs from
+money to output,Law perceived that it could be
+made to run in the opposite direction too.With
+appropriate ﬁnancial linkages put in place,output
+could induce the very monetary means of its
+own expansion. Indeed, Law thought this out-
+come was assured provided that banks issued
+money on productive loans secured by claims
+to future product or its equivalent. Coaxed
+forth by real output in this fashion, the paper
+money stock would grow in step with the real
+demand for it such that its purchasing power
+would be preserved unchanged. To ensure that
+the nominal money stock automatically expand-
+ed equally with the real demand for it, he advo-
+cated that paper notes be backed dollar-for-
+dollar with the nominal value of land. Collater-
+alized by land, money would, he thought, enjoy
+stability of value. When economic development
+or cyclical recovery brought more land into cul-
+tivation, the money stock, secured by the extra
+land, could expand to meet the growing needs
+of trade at unchanged prices. Here was the pro-
+totype of the real bills doctrine later attacked
+6
+so vigorously by classical writers.
+As for the doctrine that low interest rates
+spell monetary ease and high rates monetary
+tightness, Law accepted it without reservation.
+Anticipating Keynes’s liquidity preference theo-
+ry of interest,Law saw interest rates as the price
+of money’s use, a price that varied inversely
+with the quantity available to use. Being purely
+monetary phenomena, low rates unambiguously
+signiﬁed an abundance of money and high rates
+a scarcity of it. Law, an ardent advocate of low
+rates, argued that they reduced the business-
+man’s cost of capital and so spurred investment
+and real activity. For him, money exerted its
+stimulus through indirect interest rate channels
+as well as through direct expenditure ones.
+Sir James Steuart (1721-1780)
+To Law’s doctrines, Steuart in his 1767 An
+Enquiry into the Principles of Political Oeconomy
+added four more. First was his explicit rejection
+of a monetary for a real cost-push theory of
+inﬂation. Tracing a causal chain from the degree
+of competition in labor markets to wage rates
+to unit labor cost to product prices, he con-
+cluded that cost and competition determine the
+prices of all goods and thus the price level as a
+whole. Likewise, he held that the monopoly
+power of producers determines their proﬁt
+margins as embodied in the proﬁt mark-up
+component of individual and aggregate prices.In
+other words, he alleged that the same real
+forces – market power and cost – that govern
+1700
+1710
+1712
+In England, Thomas
+Newcomen invents a
+workable steam pump
+for use in mines.
+Agricultural Revolution begins in Great
+Britain. Farmworker productivity, scarcely
+higher in 1700 than 20 centuries earlier,
+doubles in the next 100 years.
+1705
+Mercantilist views are prevalent
+Mercantilists
+Classicals
+150
+100
+90
+80
+John Law’s Money and Trade Considered
+declares that money stimulates economic
+activity.
+Law introduces the prototype of the real
+bills doctrine when advocating that
+paper notes be backed dollar-for-dollar
+with the nominal value of land.
+U . K . P R I C E L E V E L
+Unavailability of an inﬂation rate series for
+1700-1880 necessitated use of a price-level
+series instead (see left scale). After 1880,
+an inﬂation rate series was used.
+Source: Deane and Cole, British Economic 
+Growth 1688-1959, Appendix.
+“Domestic trade depends on the
+money. A greater quantity employs
+more people than a lesser quantity.
+A limited sum can only set a
+number of people to work propor-
+tion’d to it, and ’tis with little 
+success laws are made for employ-
+ing the poor or idle in countries
+where money is scarce.”
+John Law in Money and 
+Trade Considered
+Law
+1709
+Abraham
+Darby in-
+vents coke
+smelting of
+iron ore.
+
+
+[PDF page 8]
+relative prices account for absolute prices as
+well. He advanced a relative price theory of the
+absolute price level.
+6
+Steuart’s second contribution was his doc-
+trine of the hoards which he used to bolster his
+denial that money determines prices.He argued
+that idle hoards of specie absorb excess cash
+from circulation just as they release into circu-
+lation additional coin to correct a monetary
+shortage. Consequently, there can be no mon-
+etary excess or deﬁciency to spill over into the
+commodity market to affect prices. The hoard-
+ing-dishoarding mechanism ensures as much.
+7
+For those occasional increases in the money
+stock that do manage to elude the hoarding
+mechanism and spill over into the commodity
+market, he argued, like Law, that they produce
+matching shifts in commodity demand along a
+horizontal supply schedule such that quantities
+of output alter at unchanged prices.
+Third was his reverse causation doctrine
+according to which causality runs from prices to
+money and its circulation velocity rather than
+vice-versa as in the quantity theory. Positing a
+two-step process, he said that cost and compe-
+tition ﬁrst determine prices. Then, with prices
+settled, the circulation velocity of coin adjusts
+to render the existing stock sufficient to accom-
+modate the prevailing level of real activity at the
+given prices.
+8 If the money stock is excessive,
+wealth-holders remove the excess from circula-
+tion, melt it down, and hold it in the form of
+ornaments and bullion such that velocity falls.
+Conversely, if coin is deﬁcient, the resulting
+7
+recourse to paper substitutes and other expe-
+dients allows transactors to economize on coin
+whose velocity therefore rises.Via such devices,
+velocity adjusts to ensure that the stock of coin
+is just enough to purchase all the goods offered
+for sale at the predetermined level of prices. In
+this way, causation runs from prices to money
+and velocity. Here is the origin of the notion
+that changes in the stock of circulating media
+(coin and its paper substitutes) merely validate
+price changes that have already occurred and
+do nothing to produce such changes.
+Finally, there was Steuart’s uncompromising
+stance on the perennial issue of rules versus dis-
+cretion in the conduct of policy. Like all mercan-
+tilists, Steuart sided with discretion. Monetary
+rules, whether of ﬁxed or feedback variety, met
+with his skepticism as did all self-correcting
+adjustment mechanisms, natural or designed.To
+him,nothing but discretionary fine-tuning would
+do.
+9 Such enlightened intervention was the hall-
+mark of his omnipotent, ever-active, benevolent
+statesman whose job was to manipulate the
+volume of real activity in the national interest.
+10
+Steuart’s statesman alone possessed the detailed
+knowledge necessary to conduct what today is
+known as a successful cheap-money,full-employ-
+ment policy.The gap between actual and potential
+output,the monetary injection required to close
+the gap, and the interest rate necessary to draw
+the required metal from idle hoards:all revealed
+themselves to the statesman’s astute and vigi-
+lant scrutiny. So too did the ever-changing cir-
+cumstances to which he tailored his actions.
+1720
+1730
+1717
+1719
+Law’s Mississippi Scheme
+sees excessive paper
+money expansion culminate
+in an inﬂationary boom
+and collapse in France.
+South Sea Bubble, the 
+English equivalent of Law’s
+speculation craze, bursts.
+Law ﬂees France in
+disgrace and spends
+his remaining days 
+at the gambling tables
+of Venice.
+Law organizes his colo-
+nial trading enterprise,
+the Mississippi Compa-
+ny, and merges it two
+years later with the
+Banque Royale in France.
+South Sea Bubble
+
+
+[PDF page 9]
+These propositions formed the core of mer-
+cantilist monetary theory which Law and
+Steuart deployed to analyze the underemployed
+economies of their time. Of the two writers,
+only Law, the paper money mercantilist, was
+able to translate his theory into action. His
+famous Mississippi scheme, which merged
+France’s national bank of issue with a trading
+and land development ﬁrm (the Mississippi
+Company) while simultaneously promising to
+reduce the French public debt, involved paper
+money expansion on a mammoth scale.
+11
+The resulting spectacular inﬂationary boom
+and collapse of Law’s system had three conse-
+quences.
+12 It revealed that the initial output
+stimulus of a monetary expansion eventually
+vanishes leaving only inﬂation in its wake. It
+served to discredit paper money and ﬁnancial
+innovation schemes for many years to come. It,
+together with the similar debacle of the assignats,
+a nominally land-backed paper currency issued
+by the French revolutionary government to
+inﬂationary excess in the years 1794 to 1796,
+provoked classicals to reject mercantilist trade
+and monetary theory root and branch.
+Classical Counterpropositions
+Denouncing the mercantilist identiﬁcation of
+wealth with precious metals, Adam Smith
+observed that national wealth consists not of
+specie or bullion but rather of stocks of pro-
+ductive resources – land, labor, and capital – and
+the efﬁciency with which they are used. With
+8
+respect to the mercantilist prescription of pro-
+tectionism as the path to opulence, both Smith
+and David Ricardo noted that wealth-enhancing,
+efﬁcient resource allocation requires not protec-
+tionism but rather free trade in order to exploit
+comparative advantages stemming from special-
+ization and division of labor.
+13
+Price-Specie-Flow and 
+Quantity Theory Propositions 
+Other classicals joined the attack. David Hume
+(1752) used his price-specie-ﬂow mechanism to
+demonstrate the impossibility of the mercan-
+tilist goal of a permanently favorable trade bal-
+ance and corresponding persistent specie
+inﬂow. Hume (pp. 62-3) noted that the addi-
+tional specie, by raising domestic prices relative
+to foreign ones and so discouraging exports
+and spurring imports, would render the trade
+balance unfavorable and reverse the specie
+ﬂow.
+14 The resulting drain of monetary metal
+would continue until domestic prices fell to the
+level consistent with trade balance equilibrium.
+Similarly, Hume (pp. 33, 37, 48) showed that the
+mercantilist fear of scarcity of money was
+unwarranted since any quantity of money, via a
+proportionate adjustment in the price level,
+could drive the trade of a nation. To prove as
+much, Hume (pp. 62-3) advanced a rigid version
+of the quantity theory according to which an
+exogenously given one-time reduction in the
+stock of money has no lasting effect on real
+activity but leads ultimately to a proportionate
+change in the money price of goods.
+1730
+1740
+1733
+John Kay invents the ﬂying shuttle, a device for throwing 
+a weaving shuttle faster than could be done manually. 
+It, together with other inventions including the spinning
+jenny and the power loom, lead to the mechanization 
+of industry and the development of textile mills in England.
+Mercantilist views are prevalent
+Richard Cantillon writes Essai 
+sur la Nature du Commerce en
+Général (published in 1755) partly
+as a critique of Law’s system.
+150
+100
+90
+80
+U . K . P R I C E L E V E L
+Hume
+
+
+[PDF page 10]
+Distinction between 
+Absolute and Relative Prices
+Hume’s classical followers immediately seized
+upon his quantity theory and deployed it against
+the mercantilists. David Ricardo applied it to
+refute cost-push theories of the price level.
+15
+Accusing cost-pushers of confounding relative
+prices (market exchange ratios) with the ab-
+solute,nominal,or general level of prices,Ricardo
+flatly denied that a rise in costs – wage costs in
+particular – could raise general prices without
+an accompanying expansion of the money stock.
+True, he did acknowledge that a wage hike
+might raise the prices of labor-intensive goods
+and so require consumers to spend more on
+those goods. But he also insisted that without
+accommodating increases in the money stock
+to foster spending, consumers would have less
+to spend on capital-intensive goods whose prices
+would therefore fall. The upshot was clear. Any
+wage-induced rise in some relative prices would
+be offset by compensating falls in others leaving
+the general average of all prices unchanged.
+Short-Run Nonneutrality and 
+Long-Run Neutrality Propositions
+Classicals reserved their severest criticism for
+John Law’s money-stimulates-trade doctrine.
+Hume insisted that the doctrine holds in the
+short run but not the long.
+16 At ﬁrst, money-
+stock changes indeed affect output and employ-
+ment. Eventually, however, the output stimulus
+vanishes and only higher prices remain. Law’s
+doctrine holds in the short run because prices
+9
+are temporarily sticky, or inﬂexible, in response
+to money stock changes. Such stickiness Hume
+attributed to the imperfect information price-
+setters possess on money-stock changes and
+their resulting failure to perceive and act upon
+the changes. Distribution effects constituted for
+him another source of temporary nonneutrali-
+ty, or transitory inﬂuence on real activity, inas-
+much as new money is initially concentrated in
+few hands and only gradually becomes dispersed
+throughout the economy.
+17
+With prices sticky and money’s circulation
+velocity given, it follows that changes in the
+money stock are absorbed by output which
+accordingly deviates temporarily from its natu-
+ral equilibrium level. Prices only begin to adjust
+when price-setters discover that their invento-
+ries of goods and labor are abnormally high or
+low. Eventually, monetary and price-perception
+errors are corrected as are initial distribution
+effects. At that point, the price level fully adjusts
+to the new money stock and output returns to
+its natural equilibrium level. Here is the source
+of the classical doctrine of the short-run non-
+neutrality and long-run neutrality of money.
+18
+Classical Case For Rules
+Four remaining mercantilist arguments clam-
+ored for demolition. Classicals were glad to
+oblige. First was the mercantilist claim that dis-
+cretion was superior to rules. Classicals coun-
+tered with the opposite claim that rules
+replaced destabilizing activist intervention with
+smoothly operating, or stabilizing, automatic
+1750
+1760
+“Money, however plentiful, has 
+no other effect, if ﬁxed, than to
+raise the price of labour...and...
+commodities.... In the progress
+toward these changes, the augmen-
+tation may have some inﬂuence, 
+by exciting industry; but after the
+prices are settled, suitably to the
+new abundance of gold and silver,
+it has no manner of inﬂuence.”
+David Hume in “Of Interest”
+Industrial Revolution in Great Britain (1750-1850)
+Swedish Bullionist Controversy (1755-1765)*
+*After Sweden switched from a metallic to an inconvertible
+paper currency in 1745, the resulting price inﬂation and
+exchange rate depreciation provoked a policy debate 
+over the cause of these phenomena. Mercantilists traced
+the cause to external real shocks to the balance of pay-
+ments and prescribed export promotion and import restric-
+tion schemes as remedies. Others, notably P. N. Christiernin,
+found the cause in the Riksbank’s overissue of notes. He
+urged halting the excess issue but refrained from prescrib-
+ing a roll-back of prices to their pre-inﬂation level fearing
+such deﬂation would bring an intolerable transitory loss 
+of output and employment.
+David Hume, in his essays 
+“Of Money,” “Of Interest,” 
+and “Of the Balance of Trade,”
+advances the classical ideas 
+of the price-specie-ﬂow mech-
+anism, the quantity theory,
+and the long-run neutrality
+and short-run nonneutrality 
+of money.
+Seven Years War (1756-1763)
+
+
+[PDF page 11]
+adjustment mechanisms. Unlike Steuart, classi-
+cals held a low opinion of the knowledge, capa-
+bilities, and motivation of the policy authorities.
+In particular, classicals, especially Ricardo, John
+Wheatley,and other Bullionist critics of the Bank
+of England,feared that central bankers operating
+under the kind of ﬂoating exchange rate, incon-
+vertible paper regime prevailing in England dur-
+ing the Napoleonic Wars, would, if left to their
+own discretion, pursue inﬂationary policies.
+Since classicals regarded stability of the value
+of money as the overriding policy objective,
+they advocated rules obligating policymakers to
+achieve that goal. One such rule was the gold
+standard.By requiring the maintenance of a ﬁxed
+currency price of gold, this rule, provided that
+the gold price of goods also remained fairly
+steady, was tantamount to stabilizing the money
+price of goods. And with the price level stable,
+money could function reliably as a unit of account
+and medium of exchange. In so doing, it could
+make its maximum contribution to the efﬁcient
+operation of the real economy and cease to be
+a source of ﬁnancial crises and panics.
+Say’s Law of Markets
+Next in line for rejection was the mercantilist
+claim that deﬁcient aggregate demand con-
+demns cash-poor economies to perpetual
+unemployment. Not so, wrote the classicist 
+Jean Baptiste Say in his 1803 Traité d’économie
+politique. The value of goods produced equals
+the cost of the inputs absorbed in their fabrica-
+tion. It follows that the very act of production
+10
+creates,in the form of factor payments,incomes
+sufﬁcient to buy the goods off the market. And
+those incomes indeed will be spent.The insatia-
+bility of wants together with the unlikelihood
+that rational people would hoard their savings
+indeﬁnitely in the form of sterile money ensures
+as much.
+Far from going unspent, saving automatically
+translates itself into investment. People deposit
+their savings with banks to earn interest. Those
+intermediaries,upon lending the saving to capital-
+ist entrepreneurs to ﬁnance investment projects,
+guarantee that it enters the spending stream just
+as surely as if it were consumption spending.The
+upshot is that full-capacity supply creates its own
+demand such that mercantilist fears of general
+gluts and permanent stagnation are unfounded.
+Say’s Law of Markets identiﬁes the natural level
+of real activity with full employment.
+19
+Real Interest Rate
+As for the mercantilist argument that the inter-
+est rate is purely a monetary phenomenon,
+Hume, Ricardo, and Henry Thornton all repudi-
+ated it.
+20 They contended (1) that the natural
+equilibrium rate of interest is a real magnitude
+determined by productivity and thrift, and
+(2) that money, being neither of those variables,
+cannot affect the natural rate whose level is
+therefore resistant to monetary control. True,
+they conceded that a one-time monetary injec-
+tion could temporarily depress the loan rate of
+interest below its equilibrium level. But they
+stressed the transience of this effect. They
+1760
+1770
+Sir James Steuart’s An Enquiry into
+the Principles of Political Oeconomy
+enunciates four main doctrines of
+mercantilism: real forces determine
+the price level, hoarding prevents
+money from affecting prices, the
+monetary circulation determines the
+level of real activity, and discretion
+outperforms rules in the conduct 
+of monetary policy.
+“It is the business of a statesman...
+to...guard against...stagnation.... 
+He must facilitate circulation 
+by drawing into the hands of the
+public...coin...locked up [in idle
+hoards]; and he must supply the
+actual deﬁciency of the metals, by
+[issuing] paper credit.”
+Sir James Steuart in An Enquiry
+into the Principles of Political 
+Oeconomy, Vol. II
+150
+100
+90
+80
+U . K . P R I C E L E V E L
+Swedish Bullionist Controversy (1755-1765)
+Mercantilist views are prevalent
+Steuart
+Industrial Revolution in Great Britain (1750-1850)
+Seven Years War (1756-1763)
+1769
+James Watt’s steam engine adds a con-
+denser to Newcomen’s atmospheric engine,
+boosting its efﬁciency by a factor of four.
+
+
+[PDF page 12]
+pointed out that the monetary injection puts
+upward pressure on prices. And since with high-
+er prices more loans are needed to ﬁnance a
+given real quantity of investment projects, it fol-
+lows that loan demands increase.The rise in loan
+demands reverses the initial fall in the loan rate
+and restores it to its natural level thereby frus-
+trating attempts to keep it low. Supplementing
+the price-induced rise in loan demand is a fall in
+loan supply.For as prices rise,people need more
+cash to mediate hand-to-hand transactions.The
+resulting conversion of notes and deposits into
+coin precipitates a cash drain from banks that
+diminishes bank reserves. To protect their
+reserves from depletion, banks raise their loan
+rates. Or what is the same thing, they contract
+their loan supply.The contraction of loan supply
+combines with the rise in loan demand to
+restore the interest rate to its natural equilibri-
+um level determined by productivity and thrift.
+Criticism of Backing Theories of Money
+Last but not least was Law’s idea of a land-
+collateralized paper money stock.Henry Thorn-
+ton was merciless in his criticism.He excoriated
+the plan on the grounds that it would fail to
+limit the money supply and in so failing would
+render the price level indeterminate.
+21 The plan’s
+flaw, wrote Thornton, is that it ties money to
+the nominal or dollar value, rather than to the
+ﬁxed physical acreage, of land. By anchoring
+each dollar to another dollar,it sets up a dynam-
+ically unstable price-money-price feedback loop
+rendering prices indeterminate. The result is
+11
+that any random shock which raises land’s price
+would, by raising land’s value, increase money’s
+backing and so justify an expansion of its supply.
+The consequent expansion would further bid
+up land’s price thereby justifying still further
+increases in the money stock which would raise
+prices again and so on ad inﬁnitum. In short,
+backing money with the nominal value of land –
+or, for that matter, with commercial paper rep-
+resenting the nominal value of goods in the
+process of production and distribution – would
+destabilize prices rather than stabilize them.
+Price stability required another principle of
+monetary limitation.
+Thornton’s refutation of the nominal backing
+idea completed the list of the original classical
+rebuttals of mercantilist monetary doctrine.
+Having contested this doctrine once, however,
+classicals and their descendants were called
+upon to counter it repeatedly throughout the
+nineteenth and twentieth centuries. Mercan-
+tilist views, despite their devastating initial
+rejection, reemerged to form the Banking
+School position in the famous Currency School-
+Banking School controversy that took place in
+England in the mid-1800s. Most of the usual
+suspects – cost-push, hoarding, reverse causali-
+ty, discretion, nominal backing – appeared in the
+Banking School’s roundup. In opposing them,
+classicals, in their Currency School guise, found
+occasion to deploy the same quantity theoretic,
+price-specie-ﬂow concepts they had earlier
+deployed against Law and Steuart.
+1780
+1790
+1776
+Signing of the Declaration of Independence
+American Revolution (1775-1783)
+French Revolution (1789-1799)
+Assignat Experiment in France (1789-1795)*
+Adam Smith publishes
+Wealth of Nations, refuting
+mercantilist protectionist
+doctrines with classical free
+trade principles. He also
+refutes the mercantilist claim
+that money (gold) constitutes
+national wealth.
+“Some of the best English writers...set out with observing, 
+that the wealth of a country consists, not in its gold and 
+silver only, but in its lands, houses, and consumable goods...,
+however, the lands, houses, and consumable goods...slip out 
+of their memory, and...their argument frequently supposes
+that all wealth consists in gold and silver.”
+Adam Smith in Wealth of Nations
+“Without once mentioning it [Sir James Steuart’s book], I ﬂatter myself that every
+false principle in it will meet with a clear and distinct confutation in mine.”
+Smith in a letter to William Pulteney (1772)
+*Instituted by the French revolutionary
+government, the assignat experiment
+reprises Law’s land-backed paper money
+scheme. The resulting inﬂation provokes
+a classical, or anti-mercantilist, backlash
+in monetary thought.
+Smith
+Classical views are prevalent
+1788
+Henry Court invents the puddling process leading to
+larger-scale iron furnaces and a 30-fold expansion in
+the output of iron between 1760 and 1899.
+
+
+[PDF page 13]
+Ending a 24-year experiment with inconvertible
+paper, Britain had restored the gold convert-
+ibility of her currency in 1821. The ensuing 
+Currency-Banking debate focused on whether
+the note component of such a convertible,gold-
+standard currency required regulation to pre-
+vent overissue.
+22 The Currency School’s classical
+predecessors, notably David Ricardo, Henry
+Thornton, and others, had assumed that a con-
+vertible currency needed no such protection. If
+the currency were convertible, they reasoned,
+any excess note issue which raised British prices
+relative to foreign prices would be converted
+into gold to make cheaper purchases abroad.
+23
+The resulting loss of specie reserves would
+immediately force banks to contract their note
+issue thus quickly arresting the drain and
+restoring the money stock and prices to their
+pre-existing equilibrium level. Given smooth
+and rapid adjustment (monetary self-correc-
+tion),convertibility alone was its own safeguard.
+A series of monetary crises in the 1820s and
+1830s, however, convinced the Currency School
+that adjustment was far from smooth and that
+convertibility per se was by no means a guaran-
+teed safeguard to overissue.It was an inadequate
+safeguard because it allowed banks, commercial
+and central, too much discretion in the manage-
+ment of their note issue. Banks, facing no mini-
+12
+1790
+1800
+1792
+Classical views are prevalent
+1802
+1803
+Louisiana 
+Purchase
+*After England suspends gold payments and goes on an inconvertible paper standard
+in 1797, the resulting inﬂation provokes perhaps the most famous monetary 
+controversy of all time. Led by David Ricardo, the bullionists blame the Bank of
+England for creating inﬂation through excessive issues of paper notes. Antibullionists
+attribute the price rises to such real shocks as domestic crop failures, overseas 
+military expenditures, and the wartime disruption of foreign trade. They stress 
+cost-push inﬂuences exerting upward pressure on the individual prices of speciﬁc
+commodities and posit the real bills doctrine to argue that money, advanced on 
+loan to ﬁnance sound business projects, cannot affect prices.
+Assignat Experiment in France (1789-1795)
+Jean Baptiste Say
+enunciates his Law
+of Markets (1803).
+Henry Thornton in
+his Paper Credit of
+Great Britain refutes
+Law’s idea of back-
+ing money with the
+nominal value of
+land saying it would
+render the price
+level indeterminate.
+Opening of the New
+York Stock Exchange
+1793
+Eli Whitney invents 
+the cotton gin.
+French Revolution (1789-1799)
+3
+Currency School-Banking School Debate (1830-1850)
+mum required reserve ratio and willing to sac-
+riﬁce safety for proﬁt, could and did continue to
+issue notes even as gold was ﬂowing out, delay-
+ing contraction until the last possible moment,
+and then contracting with a violence that sent
+shock waves throughout the economy.
+Currency School’s Monetary Rule
+What was needed, the Currency School
+thought, was a rule removing the note issue
+from the discretion of bankers and placing it
+under strict regulation. To be effective, this rule
+should require the banking system to contract
+its note issue one-for-one with losses of gold
+reserves so as to put a gradual and early stop to
+specie drains. Such a rule would embody the
+Currency School’s principle of metallic ﬂuctuation
+according to which a mixed currency of paper
+and coin should be made to behave exactly as if
+it were wholly metallic, automatically expanding
+and contracting to match inﬂows and outﬂows
+of gold.
+24
+Departure from this rule, the Currency
+School argued, would permit persistent overis-
+sue of paper. Such overissue, by forcing a pro-
+tracted efﬂux of specie through the balance of
+payments, would in turn endanger the gold
+reserve, threaten gold convertibility, compel the
+need for sharp contraction, and thereby precip-
+150
+100
+90
+80
+U . K . P R I C E L E V E L
+Industrial Revolution in Great Britain (1750-1850)
+Thornton
+Bullionist-Antibullionist Debate (1797-1821)*
+
+
+[PDF page 14]
+13
+note issue, reductions that restore general
+prices to their target equilibrium level. Here
+too was the classical preference for rules – in
+this case a 100 percent gold reserve require-
+ment rule – rather than discretion in the con-
+duct of banking policy.
+Banking School
+The rival Banking School ﬂatly rejected the
+Currency School’s prescription of mandatory
+100 percent gold cover for notes. Indeed, the
+Banking School denied the need for statutory
+note control of any kind. Instead, the School
+argued that a convertible note issue was auto-
+matically regulated by the needs of trade and
+required no further limitation. This conclusion
+stemmed directly from the real bills doctrine and
+the law of reﬂux which together posited guaran-
+teed safeguards to overissue obviating the need
+for monetary control.
+The School’s real bills doctrine stated that
+the money stock could never be inﬂationary or
+deﬂationary if issued by way of collateralized
+loans advanced to ﬁnance transactions in the
+nominal volume of real goods and services.
+Similarly, the law of reﬂux asserted that overis-
+sue was impossible because any excess notes
+would be returned instantaneously to the banks
+for conversion into coin or for repayment of
+loans. Both doctrines embodied the notions of
+a passive, demand-determined money supply
+and of reverse causality running from prices and
+1810
+1820
+1812
+War of 1812
+Britain invades U.S.
+1817
+Napoleonic Wars (1800-1815)
+Birmingham School (1817-1821)**
+Thornton (1802) and Ricardo
+(1817) write that the equilibrium
+interest rate, being determined by
+productivity and thrift, is resistant
+to monetary control. Classicals
+reject Law’s money-stimulates-
+trade doctrine saying that the
+neutrality-of-money proposition
+renders it invalid in the long run.
+“Mr. Law considered security as every
+thing, and quantity as nothing. He
+forgot that there might be no bounds 
+to the demand for paper; that the
+increasing quantity would contribute
+to the rise of [the price of] commodi-
+ties; and [that] the rise...require, and
+seem to justify, a still further increase.”
+Henry Thornton in a speech 
+on the Bullion Report (May 11, 1811)
+Ricardo writes Princi-
+ples of Political Economy
+and Taxation. He denies
+that a rise in wage
+rates could raise prices
+without an accompany-
+ing expansion of the
+money stock.
+David Ricardo’s The High Price
+of Bullion blames inﬂation on
+the Bank of England.
+itate ﬁnancial panics. Such panics would be
+exacerbated if internal gold drains coincided
+with external ones as domestic money holders,
+alarmed by the possibility of immanent suspen-
+sion of cash payments, sought to convert paper
+currency into gold. No such consequences
+would ensue, the School felt, if the currency
+conformed to the metallic principle. Forced to
+behave like gold (regarded by the School as the
+stablest of monetary standards), the currency
+would be spared those sharp procyclical ﬂuctu-
+ations in quantity that ampliﬁed disturbances
+arising from real shocks.
+The Currency School scored a triumph
+when its monetary rule was enacted into law.
+The Bank Charter Act of 1844 embodied its
+prescription that, except for a small ﬁxed
+amount of notes issued against government
+securities, bank notes were to be backed by an
+identical value of gold. In modern terminology,
+the Act established a marginal gold reserve
+requirement of 100 percent behind note issues.
+With notes rigidly tied to gold in this fashion,
+their volume would start to shrink as soon as
+specie drains signaled the earliest appearance of
+overissue. Monetary overexpansion would be
+corrected automatically, swiftly, and gently
+before it could do much damage. Here was a
+practical policy application of Hume’s quantity
+theoretic, specie ﬂow doctrines. Here was the
+notion of a channel of inﬂuence running from
+note overissue to rising prices to trade deﬁcits
+to gold drains to corrective reductions in the
+Ricardo
+**Led by Thomas Attwood, the Birmingham
+School opposes restoration of gold convert-
+ibility of the British pound at the pre-war
+parity. They fear the resulting deﬂation will
+cause unemployment. They advocate continu-
+ation of the wartime regime of ﬂoating-
+exchange-rate inconvertible paper currency
+that brings high and rising prices. In short,
+the inﬂationist, full-employment-at-any-cost
+writers of the Birmingham School oppose 
+a return to the gold standard.
+
+
+[PDF page 15]
+Stephenson’s engines pull 
+the ﬁrst fully scheduled trains.
+Railroad age begins.
+U.K. overtakes the
+Netherlands in man-
+hour productivity.
+economic activity to money rather than vice
+versa as in the Currency School’s view.
+25
+According to the reverse causality hypothesis,
+changes in the level of prices and production
+induce corresponding shifts in the demand for
+bank loans which banks accommodate via vari-
+ations in their note issue. In this way, prices help
+determine the note component of the money
+stock, the expansion of which is the result, not
+the cause, of price inﬂation. As for the price
+level itself, the Banking School attributed its
+determination to factor incomes or costs
+(wages,interest,rents,etc.),thus positing a cost-
+push theory of price movements. The impor-
+tance of cost-push theorizing to the Banking
+School cannot be overestimated. It even led
+Thomas Tooke, the School’s leader, to argue
+that high-interest-rate tight-money policies
+were inﬂationary since they raised the interest
+component of business costs.
+26
+Mercantilist Ideas
+The concepts of cost inﬂation, reverse causality,
+and passive money are the hallmarks of an
+extreme anti-quantity theory of money to
+which the Banking School adhered. Additional
+mercantilist hallmarks included the School’s
+propositions (1) that international gold move-
+ments are absorbed by idle hoards of excess
+specie reserves without affecting the volume of
+money in active circulation, (2) that gold drains
+stem from real shocks to the balance of pay-
+ments rather than from domestic price inﬂa-
+14
+tion, (3) that changes in the stock of money are
+offset by compensating changes in the stock of
+money substitutes leaving the total circulation
+unchanged,and (4) that discretion is superior to
+rules in the conduct of monetary policy.
+The Banking School put these propositions
+to work in its critique of the classical monetary
+doctrines of the Currency School. Those doc-
+trines, of course, contended that note overissue
+is the root cause of domestic inﬂation and
+specie drains. In opposing them, the Banking
+School argued as follows: Overissue is impossi-
+ble since the stock of notes is determined by
+the needs of trade and cannot exceed demand.
+Therefore, no excess supply of money exists to
+spill over into the goods market to bid up prices.
+In any case, causality runs from prices to money
+rather than vice versa.Finally,specie drains stem
+from real rather than monetary shocks to the
+balance of payments and are totally independ-
+ent of domestic price-level movements.
+These arguments severed all but one of the
+links in the Currency School’s monetary trans-
+mission mechanism running from money to
+prices to the trade balance, thence to specie
+ﬂows and their impact on the monetary base,
+and ﬁnally back again to the money stock. The
+ﬁnal link was broken when the Banking School
+asserted that gold ﬂows come from idle hoards
+– buffer stocks of excess specie reserves – and
+not from the volume of money in circulation.
+Falling solely on the hoards, gold drains would
+ﬁnd their monetary effects neutralized (steril-
+1820
+1830
+Classical views are prevalent
+Thomas Tooke, leader of the Banking
+School and author of the six-volume
+History of Prices (1837-1857), stress-
+es the real bills doctrine, the notion
+of reverse causality, and the cost-
+push theory of price movements.
+Lord Overstone (Samuel Jones Loyd),
+leader of the Currency School, uses
+the quantity theory to argue that
+mandatory 100 percent gold cover
+for bank notes is needed to prevent
+overissue.
+150
+100
+90
+80
+U . K . P R I C E L E V E L
+Industrial Revolution in Great Britain (1750-1850)
+“Restore the depreciated
+state of the currency and
+you restore the reward of
+industry,...conﬁdence,...
+production,...consumption,
+[and] everything that 
+constitutes the commercial
+prosperity of the nation.”
+Thomas Attwood in 
+The Remedy: or, Thoughts 
+on the Present Distresses
+“Mr. Attwood opines, that the multiplication of the circulat-
+ing medium, and the consequent diminution of its value...
+give employment to labour...to an indeﬁnite extent....
+Mr. Attwood’s error is that of supposing that a depreciation
+of the currency really increases the demand for all articles,
+and consequently their production, because, under some 
+circumstances, it may create a false opinion of an increase
+of demand; which false opinion leads, as the reality would
+do, to an increase of production, followed, however, by a
+fatal revulsion as soon as the delusion ceases.”
+John Stuart Mill in “The Currency Juggle”
+Mill
+1829
+G. Stephenson’s 
+steam locomotive, 
+Rocket, wins contest.
+
+
+[PDF page 16]
+ized) by the implied fall in excess reserves. To
+ensure that these hoards would always be sufﬁ-
+cient to accommodate gold drains, the Banking
+School recommended that the Bank of England
+hold larger metallic reserves.
+With regard to the Currency School’s pre-
+scription that discretionary policy be replaced
+by a ﬁxed rule, the Banking School rejected it
+on the grounds that rigid rules would prevent
+the banking system from responding to the
+needs of trade and would hamper the central
+bank’s power to deal with ﬁnancial crises.
+Finally, the Banking School asserted the
+impossibility of controlling the monetary circu-
+15
+lation via control of the gold and bank note
+component alone since limitation of that com-
+ponent would simply induce the public to
+resort to money substitutes (deposits and bills
+of exchange) instead. In other words, the circu-
+lation is like a balloon; when squeezed at one
+end, it expands at the other. More generally, the
+Banking School questioned the efﬁcacy of base
+control in a ﬁnancial system that could generate
+an endless supply of money substitutes.
+The Currency School, however, rejected this
+criticism on the grounds that the volume of
+deposits and bills was rigidly constrained by the
+volume of gold and notes and therefore could
+1840
+1850
+1844
+1846
+Potato crop failure in
+Ireland spurs waves of
+emigration to America.
+1848
+Gold is discovered
+in California.
+Currency School-Banking School Debate (1830-1850)
+The 1844 Bank Charter Act embodies the Currency
+School prescription that, except for a small ﬁxed
+ﬁduciary issue, bank notes must be backed pound-
+for-pound by gold, thus establishing a marginal
+gold reserve requirement of 100 percent.
+Tooke’s An Inquiry into the Currency Principle
+uses cost-push theorizing to claim that interest
+rate hikes and reductions, by raising and low-
+ering business costs, cause corresponding rises
+and falls in the price level.
+Classicals see the economy 
+as inherently self-regulating. 
+Mercantilists see it as requiring 
+government intervention 
+and discretionary fine-tuning.
+“The prices of commodities do not
+depend on the...amount of the whole
+of the circulating medium: but...
+on the contrary, the amount of the
+circulating medium is the conse-
+quence of prices.”
+Thomas Tooke in An Inquiry 
+into the Currency Principle
+Tooke
+
+
+[PDF page 17]
+U.S. Civil War (1861-1865)
+be controlled through the latter alone. In short,
+the total circulation was like an inverted pyra-
+mid resting on a gold and bank note base, with
+variations in the base inducing equiproportion-
+al variations in the superstructure of money
+substitutes. In counting deposits as part of the
+superstructure, the Currency School excluded
+them from its concept of money. It did so on
+the grounds that deposits, unlike notes and
+coin, were not generally acceptable in ﬁnal pay-
+ments during ﬁnancial crises.
+Evaluation
+In retrospect, the Currency School erred in fail-
+ing to deﬁne deposits as money to be regulated
+like notes. This failure enabled the Bank of Eng-
+land to exercise discretionary control over a
+large and growing part of the circulating medi-
+um, contrary to the School’s intentions. The
+School also erred in failing to recognize the
+need for a lender of last resort to avert liquidi-
+ty panics and domestic cash drains. By the end
+of the nineteenth century it was widely recog-
+nized that the surest way to arrest an internal
+drain was through a policy of liberal lending.
+Such drains were caused by panic-induced
+demands for high-powered money (gold coin
+and Bank of England notes) and could be termi-
+nated by the Bank’s announced readiness to
+satiate those demands. The Currency School
+nevertheless remained opposed to such a policy,
+fearing it would place too much discretionary
+16
+1850
+1860
+1859
+1856
+Henry Bessemer
+revolutionizes the
+steel industry
+with his new con-
+verter process.
+1855
+First iron Cunard
+steamer crosses
+the Atlantic in nine
+and a half days.
+Classical views are prevalent
+power in the hands of the central bank. These
+shortcomings in no way invalidated the School’s
+monetary theory of inﬂation which was superi-
+or to any explanations its critics had to offer.
+As for the Banking School, it rightly stressed
+the importance of checking deposits in the pay-
+ments mechanism. But it was wrong in insisting
+that the real bills doctrine,which tied note issues
+to loans made for productive purposes, would
+prevent inﬂationary money growth. Like Henry
+Thornton, the Currency School triumphantly
+exposed this ﬂaw by pointing out that rising
+prices would generate a growing demand for –
+and nominal collateral backing of – loans to
+finance the same level of real transactions.These
+collateralized loan demands, when accommo-
+dated in the form of deposit and note creation,
+would enlarge the money stock. In this way
+inﬂation would justify the monetary expansion
+necessary to sustain it and the real bills criterion
+would fail to limit the quantity of money in exis-
+tence. Also, by 1900 Knut Wicksell and Irving
+Fisher had rigorously demonstrated the same
+point made by Thornton in 1802,namely that an
+insatiable demand for loans and a corresponding
+inexhaustible supply of eligible bills results when
+the loan rate of interest is below the expected
+rate of proﬁt on capital. In such cases, the real
+bills criterion provides no bar to overissue.
+150
+100
+90
+80
+U . K . P R I C E L E V E L
+Darwin writes
+On the Origin
+of the Species.
+1862
+U.S. issues its ﬁrst
+legal-tender ﬁat cur-
+rency, the greenbacks.
+Jevons
+William Stanley Jevons, in his A Serious
+Fall in the Value of Gold Ascertained and
+its Social Effects Set Forth, calculates the
+geometric mean of the prices of 39 major
+and 79 minor commodities to establish that
+the general price level had risen and the
+value of gold had fallen in the order of 
+9 to 15 percent since 1845-1850. Written 
+15 years after the California and Australian
+gold discoveries, Jevons’s pathbreaking
+work on index number construction and
+application lends strong statistical support
+to the quantity theory approach to price-
+level determination.
+
+
+[PDF page 18]
+Classicals won the Currency-Banking dispute.
+Their victory lasted until ex-classical John May-
+nard Keynes, having defected to the opposite
+side, routed them in 1936.
+27 But they regained
+their crown when monetarists (with help from
+the new classical school) dislodged Keynesian
+macroeconomics in the 1970s and 1980s.
+Keynes launched his attack in the midst of
+the Great Depression when the stark conditions
+of stagnation, poverty, and mass unemployment
+mocked the classical notion of a self-equilibrat-
+ing, fully employed economy. Clearly the time
+was ripe for a mercantilist revival. That revival
+took the form of the Keynesian Revolution with
+the leader’s General Theory as its bible. In that
+book, Keynes replaced the full capacity, quantity
+theoretic doctrines of the classicals with at
+least four propositions inherited from Law and
+Steuart.
+Keynes’s Mercantilist Propositions
+First, like Law, he argued that in times of mass
+unemployment the primary stimulative effects
+of expansionary monetary policy fall on real
+output and employment rather than on prices.
+That is, they do so unless negated by liquidity
+traps and interest-insensitive investment de-
+mand schedules, both of which cause velocity
+17
+reductions to absorb the impact of monetary
+expansion. Absent such phenomena, however,
+Keynes’s model implied that monetary stimuli
+affect real activity rather than prices. Like Law,
+he stressed that the stimulus works through an
+interest rate channel.More money means lower
+interest rates, a cheapened cost of capital, and
+thus a rise in investment spending.The increased
+investment induces additional rounds of con-
+sumption spending causing aggregate demand
+to rise by a multiple of the new investment
+spending. With idle resources available to draw
+upon,production expands to meet the increased
+aggregate demand. In expounding his interest
+rate transmission mechanism, Keynes praised
+his mercantilist forebears for anticipating it.
+Indeed, the “Notes on Mercantilism” section of
+his General Theory argues that the notion of a
+linkage running from money to interest rates to
+investment to output constituted the rationale
+for the mercantilists’ advocacy of export sur-
+pluses ﬁnanced by specie inﬂows.
+Second,like Steuart,Keynes held that prod-
+uct prices are determined by unit labor cost
+plus a markup to cover proﬁts and nonlabor
+costs. Here is the mercantilist notion of the
+price level as a nonmonetary phenomenon.
+28
+True,Keynes admitted that monetary expansion
+through its stimulus to employment might,
+1870
+1880
+1876
+Alexander Graham Bell invents the telephone.
+U . K . U N E M P L O Y M E N T ( % )
+Series begins at 1851. Reliable estimates 
+for earlier periods unavailable.
+Sources: (1851-1855) Mitchell, Abstracts 
+of British Historical Statistics, p. 64.
+(1856-1879) Layard, Nickell, and Jackman, 
+Unemployment: Macroeconomic Performance
+and the Labour Market, p. 3.
+1871
+1873
+Called by pro-silver forces the “Crime of 1873,” the Coinage Act 
+of that year omits the silver dollar from the list of coins to be minted,
+thus ending the legal status of bimetallism in the U.S.
+4
+The Keynesian Revolution and 
+Monetarist Counter-Revolution (1936-1985)
+0
+5
+10
+15
+20
+Marshall
+Bagehot
+Alfred Marshall in an unpub-
+lished manuscript originates the
+Cambridge cash balance ap-
+proach to the value of money.
+Walter Bagehot’s Lombard Street spells
+out the classic lender-of-last-resort pre-
+scription for quelling liquidity panics
+and averting bank runs. The central
+bank must announce its readiness to
+satiate all panic-induced demands for
+cash – to “lend freely at a high rate.”
+
+
+[PDF page 19]
+because of diminishing returns to labor, raise
+unit labor costs and so prices. But he tended to
+minimize or disregard money’s price-raising
+effects. Instead, he treated the price level as an
+institutional datum governed by nominal wage
+rates which autonomous forces – union wage-
+setting policy, worker money illusion, and the
+like – render downwardly inﬂexible at low levels
+of employment.By expressing prices in terms of
+exogenously given factor costs, he pointed the
+way to a cost-push theory of the price level. His
+immediate followers, Joan Robinson, Nicholas
+Kaldor, and Richard Kahn, certainly interpreted
+him this way and accordingly denied money a
+role in price determination.
+29
+Third,Keynes restated Steuart’s doctrine of
+hoarding in the form of his concept of the liq-
+uidity trap. The trap, he wrote, might come into
+operation in deep depressions when the inter-
+est rate falls to a level so low that everybody
+unanimously believes it cannot stay there but
+must return to its conventional normal height.
+At the ﬂoor rate, all are indifferent between
+holding cash or earning assets whose prices,
+which vary inversely with the interest rate, are
+expected to fall. Indeed, asset prices are expect-
+ed to fall by an amount such that the resulting
+anticipated capital loss just equals the interest
+return on the assets. As there is no advantage
+to holding such assets instead of zero-yield
+cash, the latter becomes a perfect substitute for
+the former in individuals’ portfolios. At this
+point,the demand for money becomes insatiable
+and inﬁnitely sensitive to the slightest change in
+18
+1880
+1890
+1883
+Thomas Alva Edison invents
+the electric light bulb.
+Classical views are prevalent
+*This controversy concerning the cause of the post-1879 secular price deﬂa-
+tion pits gold standard advocates against proponents of a bimetallic currency.
+The former group attributes price deﬂation to real cost-reducing forces 
+such as rapid technological progress, improvements in transportation and
+communication, and increased competition. By contrast, bimetallists attrib-
+ute deﬂation to the failure of the gold-backed money supply to grow as 
+fast as real output and the demand for real cash balances. Monometallists
+thus stress the mercantilist, or cost-push, view of price-level determination
+while bimetallists stress the classical, or quantity theory, view.
+Bimetallism Debate (1880-1896)*
+interest rates. Keynes called this pathological
+condition absolute liquidity preference.
+When this condition rules,no increase in the
+money stock, no matter how large, can reduce
+the interest rate. Suppose the central bank
+expands the money stock by purchasing bonds
+on the open market. Such bidding puts incipient
+upward pressure on bond prices. But the slight-
+est rise of the latter induces bondholders to sell
+to the central bank and then to hoard the cash
+proceeds. Since at the ﬂoor rate of interest the
+demand for money is insatiable and the willing-
+ness to sell bonds absolute, no amount of open
+market operations can overcome absolute liq-
+uidity preference and reduce interest rates.
+And with rates at their irreducible minimum,
+they cannot fall to stimulate real activity. Here is
+Keynes’s expression of the mercantilist fear that
+monetary expansion cannot be counted upon
+to stimulate spending because the new money
+may disappear into idle hoards.
+Fourth, Keynes found still another obstruc-
+tion to block the interest rate channel. Even if
+monetary injections were successful in lowering
+interest rates, those injections still might fail to
+stimulate real activity if investment spending
+were unresponsive to the lower rates.If so,then
+two obstacles – an interest-insensitive invest-
+ment schedule as well as a liquidity trap – could
+render monetary policy ineffective in a depres-
+sion. In both cases, a rise in the money stock
+would be offset by a fall in velocity leaving total
+spending unchanged. With variable velocity
+absorbing the impact of money stock changes,
+-20
+-10
+0
+10
+20
+Fisher
+U.S. overtakes U.K. 
+in man-hour productivity.
+1893
+Bank panic
+and gold
+runs sap 
+U.S. gold
+reserve.
+U . S . I N F L A T I O N R A T E ( % )
+Inﬂation rate measured as the annual 
+rate of change of the GDP deﬂator.
+Source: Barro, Macroeconomics, 5th ed., p. 8.
+
+
+[PDF page 20]
+U . S . U N E M P L O Y M E N T ( % )
+Sources: (1880-1889) Combines estimated decade 
+average rate and estimated peak year rate (1885).
+Lebergott, Manpower in Economic Growth, pp. 179-180, 189.
+(1890-present) Barro, Macroeconomics, 5th ed., p. 6.
+0
+5
+10
+15
+20
+19
+1900
+1910
+1898
+1896
+Blaming the gold standard for deﬂation and
+its evils, W.J. Bryan delivers his Cross-of-Gold
+speech as new gold ﬁelds and the invention 
+of the cyanide process are producing inﬂation-
+ary ﬂoods of monetary gold.
+1903
+1908
+Wright Brothers
+take ﬁrst ﬂight.
+Henry Ford introduces
+his Model T.
+Knut Wicksell, in his Interest and
+Prices, explains how spreads between
+natural (equilibrium) and market loan
+rates of interest produce cumulative
+changes in the general price level.
+none would be transmitted to nominal income.
+The rigid links connecting money to nominal
+income and prices as postulated by the classics
+would be severed or severely weakened.
+Steuart had said exactly the same thing in 1767.
+Post-Keynesian Extensions
+To Keynes’s own mercantilist doctrines,
+Keynes’s followers writing in the inﬂationary
+post-World War II period added others. Some
+interpreted inﬂation as a cost-push phenome-
+non emanating from union bargaining strength,
+business monopoly power, oligopoly adminis-
+tered prices, commodity shortages, supply
+shocks, and other real and institutional forces
+putting upward pressure on factor costs and
+proﬁt mark-ups.Then too, “cheap money” advo-
+cates held that expansionary monetary policy
+could be used to peg interest rates at low lev-
+els so as to minimize the interest burden of the
+public debt while simultaneously stimulating
+real activity. An alternative version of the same
+argument, associated with the Phillips curve
+trade-off approach to policy questions,held that
+monetary policy could peg the unemployment
+rate at permanently low levels at the cost of a
+stable (nonaccelerating) rate of inﬂation.
+Underlying all these arguments were the
+presuppositions (1) that full employment is the
+dominant policy concern, (2) that the employ-
+ment beneﬁts of monetary stimuli exceed their
+inﬂationary costs, and (3) that disinﬂationary
+monetary policy,because entrenched inﬂation is
+so resistant to it, would produce intolerably
+large and protracted reductions in output and
+employment. John Law of course held similar
+presuppositions, as did other mercantilists.
+30
+There remained the mercantilist ideas of
+reverse causation, passive money, and futility of
+base control of money and of inﬂation. Nicholas
+Kaldor supplied these ideas in his 1982 The
+Scourge of Monetarism. Representing the peak of
+post-Keynesian skepticism of the relevance of
+the quantity theory, Kaldor’s Scourge denied the
+possibility of base control given the central
+bank’s duty to guarantee bank liquidity and the
+ﬁnancial sector’s ability to engineer changes in
+the turnover velocity of money via the manufac-
+ture of money substitutes.Kaldor’s transmission
+mechanism runs from trade unions to wages to
+prices to money and thence to bank reserves.
+Unions determine wages, wages determine
+prices, prices inﬂuence loan demands, and loan
+demands, via their accommodation in the form
+of bank-created checking deposits, determine
+the money stock, with central banks permis-
+sively supplying the necessary reserves.Far from
+exerting an activating inﬂuence, money appears
+at the end of the causal chain.
+Monetarists’ Response to 
+Keynes and the Keynesians: 
+the Classical Comeback
+Even as Keynesianism was riding high, critics
+were sniping at it from the sidelines. Eventually
+these criticisms would culminate in a monetarist
+Irving Fisher in his Appreciation and Interest
+distinguishes between nominal and real interest
+rates, with the expected rate of price change
+constituting the difference between the two.
+Wicksell
+“There is a certain level of the...rate of interest...
+such that the general level of prices has no tendency 
+to move either upwards or downwards. This we
+call...the natural capital rate.... If...the...[loan] rate
+of interest is set and maintained below this normal
+level...prices will rise and will go on rising....
+If...the rate...is maintained...above...the natural
+rate, prices will fall continuously and without limit.”
+Knut Wicksell in Interest and Prices
+
+
+[PDF page 21]
+U . S . I N F L A T I O N R A T E ( % )
+-20
+-10
+0
+10
+20
+counterrevolution that would dethrone mer-
+cantilist doctrines and restore classical ones. At
+least eight mileposts mark the route of the clas-
+sical comeback.
+First came the theory of the real balance
+effect. Enunciated by Gottfried Haberler, A. C.
+Pigou,and Don Patinkin,it denied that Keynesian
+liquidity traps and interest-insensitive investment
+schedules could bar full employment.
+31 That is,
+it denied they could do so provided (1) wealth
+in the form of real money balances inﬂuences
+consumers’ spending decisions, and (2) prices
+possess some downward ﬂexibility. The latter
+condition should hold in a slump since a de-
+pressed economy implies an excess supply of
+goods exerting downward pressure on prices.
+Lower prices in turn raise the real value,or pur-
+chasing power, of cash balances in consumers’
+wealth portfolios. The rise in real cash balances
+stimulates consumption spending until full
+employment is reached. Indeed, it is unneces-
+sary to wait for falling prices to activate the real
+balance effect. The central bank can achieve the
+same result directly by increasing the money
+supply. In principle, then, Say’s Law holds and
+money is hardly powerless to affect aggregate
+demand even under extreme Keynesian condi-
+tions. Keynes might have realized as much had
+he incorporated real balances into his consump-
+tion function.
+Second came the empirical work of Clark
+Warburton,
+Milton Friedman,
+and Anna
+Schwartz conﬁrming money’s power to affect
+spending. Contrary to Keynes’s claim that idle
+20
+hoards and offsetting velocity movements might
+negate money’s impact on nominal expenditure,
+Warburton established that (1) an erratic
+money stock through its impact on spending
+had been the chief factor causing most U.S.reces-
+sions, (2) money’s initial impact was on output,
+and (3) with a lag, prices eventually adjusted to
+fully absorb the money stock change.
+32 Friedman
+and Schwartz (1963) then corroborated War-
+burton by showing that a one-third contraction
+of the money stock was the cause of the Great
+Depression of the 1930s. These studies, togeth-
+er with Friedman’s ﬁndings that persistent inﬂa-
+tion is largely or solely the result of excessive
+monetary growth, effectively reestablished the
+classical doctrine of the short-run nonneutrali-
+ty and long-run neutrality of money. They also
+showed that classical doctrine could account
+for the Great Depression.
+Third came Karl Brunner’s and Allan Melt-
+zer’s 1967 critique of the Law-Keynes theory of
+interest rates as a policy guide. That theory
+claimed that the interest rate, a purely mone-
+tary variable,accurately measured the degree of
+monetary ease or tightness. Brunner and
+Meltzer disagreed. The rate, they said, is an
+unreliable indicator of monetary ease or tight-
+ness. It is unreliable because it registers the
+impact of nonmonetary determinants – notably
+business loan demands – as well as monetary
+ones. The rate might be low or high not
+because money was easy or tight but rather
+because loan demand was weak or strong.
+Neglect of this important consideration could
+1910
+1920
+1912
+1913
+U.S. Congress creates 
+the Federal Reserve 
+System.
+Classical views are prevalent
+Irving Fisher publishes his classic 
+The Purchasing Power of Money, the
+best and most complete exposition
+of the quantity theory of money 
+in the entire economic literature.
+World War I (1914-1918)
+*Reichsbank ofﬁcials deploy mer-
+cantilist arguments to deny that
+overissue of deutsche marks
+caused the hyperinﬂation. Critics
+use classical quantity theory 
+reasoning supplemented with
+rational expectations arguments
+to put the blame squarely on the
+Reichsbank. The critics were right.
+The hyperinﬂation was a mon-
+etary, rather than a nonmonetary,
+phenomenon.
+German hyperinﬂation
+(1922-1923)*
+
+
+[PDF page 22]
+U . S . U N E M P L O Y M E N T ( % )
+0
+5
+10
+15
+20
+lead to perverse, destabilizing policy. For exam-
+ple, in times of depression, when slack business
+loan demands rendered the rate low, the
+authorities, misinterpreting the low rate as sig-
+nifying easy money, might contract the money
+stock and thereby intensify the depression.
+Contrariwise, in times of inﬂation when
+booming credit demands rendered the interest
+rate high, the authorities, misinterpreting the
+high rate as signaling tight money, might expand
+the money supply and so escalate the inﬂation.
+By confounding the effects of loan demands
+with those of monetary ease or tightness, the
+central bank would engineer a perverse, pro-
+cyclical monetary policy. This critique did much
+to discredit the Law-Keynes theory of the inter-
+est rate.
+Milton Friedman’s case for monetary rules
+constituted the fourth monetarist milestone.
+Friedman (1960) argued that long and variable
+time lags render discretionary countercyclical
+monetary policy destabilizing. Because such lags
+make forecast errors inevitable, the central
+bank cannot predict the short-run impact of its
+moves. The result is that expansionary actions
+aimed at ﬁghting recessions may take effect at
+precisely the wrong time when the economy is
+booming just as contractionary anti-inﬂation
+actions may hit the economy when it is already
+mired in a slump. Friedman’s solution was to
+recommend a rigid rule fixing the money stock’s
+growth rate equal to the trend growth rate of
+output. Such a rule would operate as an auto-
+matic stabilizer working to restore aggregate
+21
+spending to its long-run non-inﬂationary, full-
+employment path. Inﬂationary spending that
+outruns the rule-determined money stock
+could not be sustained and must slacken. Con-
+versely, spending that falls short of money stock
+growth,as in recessions,would eventually quick-
+en under the impact of the monetary stimulus.
+In this way, such rule-induced corrections
+would ensure that money acts countercyclically
+and that long-run aggregate demand grows at
+the same trend rate as real output such that
+prices remain stable.
+The ﬁfth milestone, and the one that more
+than any other turned the tide in favor of the
+classicals, was the stagﬂation experience of the
+1970s. That episode saw the simultaneous
+appearance of rapid monetary growth, rising
+unemployment, and accelerating inﬂation – an
+impossible combination according to the predic-
+tions of John Law and the Keynesian school.This
+experience did much to discredit mercantilist
+beliefs that money stimulates trade and that the
+price level is independent of the money supply.
+Natural Rate Hypothesis
+The sixth milestone was the monetarists’ natu-
+ral rate hypothesis according to which unem-
+ployment returns to its natural,equilibrium level
+regardless of the inﬂation rate. Milton Friedman
+(1968) and Edmund Phelps (1967) established
+this conclusion with the aid of an expectations-
+augmented Phillips curve. They showed that
+when inflationary expectations are incorpo-
+rated into the Phillips curve, no permanent 
+1930
+1940
+1927
+1929
+Charles Lindbergh
+makes ﬁrst trans-
+atlantic ﬂight.
+U.S. stock
+market
+crashes.
+1936
+World War II (1939-1945)
+John Maynard Keynes
+publishes The General
+Theory of Employment,
+Interest, and Money.
+His assault on classical
+economics starts the
+Keynesian Revolution
+and ushers in a 
+mercantilist revival.
+“I want to do justice to schools of thought
+which the classicals have treated as
+imbecile for the last hundred years
+and...to show that I...have important
+predecessors and am returning to an
+age-long tradition of common sense.”
+John Maynard Keynes in a letter 
+to R.F. Harrod (August 27, 1935)
+Keynes
+The Great Depression (1929-1933)
+Mercantilist views are prevalent
+
+
+[PDF page 23]
+U . S . I N F L A T I O N R A T E ( % )
+-20
+-10
+0
+10
+20
+inﬂation-unemployment trade-offs remain to be
+exploited.True, like David Hume, they acknowl-
+edged that short-run trade-offs might still exist.
+Unanticipated rises in inﬂation, by lowering real
+wages, could stimulate employment and output
+temporarily. But once the increased inﬂation
+was fully perceived, anticipated, and therefore
+incorporated into nominal wage rates, the
+resulting rise in real wages would restore
+unemployment to its natural equilibrium level.
+In this way, the adjustment of expected to actu-
+al inflation transforms downward-sloping
+Phillips curves into a vertical line at the natural
+rate of unemployment. The classicals were
+right. Inﬂationary stimuli are temporary, never
+permanent. One cannot use a higher stable rate
+of inﬂation to peg the unemployment rate at
+arbitrarily low levels since there are no perma-
+nent employment gains to be had at any steady
+rate of inﬂation. Such gains can be had, if indeed
+they are available at all, only at the cost of ever-
+accelerating inﬂation.
+Many Keynesians eventually came to accept
+the natural rate hypothesis. Even so, they still
+contended that disinﬂation was too costly to
+pursue.Their fear stemmed from early versions
+of the expectations-augmented Phillips curve.
+33
+Those versions embodied the assumption that
+agents revise their inﬂationary anticipations
+downward in mechanical, or adaptive, error-
+learning fashion only when actual, reported
+inﬂation turns out to be lower than expected.
+Accordingly, if the authorities sought to eradi-
+cate inﬂationary expectations – an absolute
+22
+requirement of any successful disinﬂationary
+policy – they would have to force actual inﬂa-
+tion below expected inﬂation thereby inducing
+the latter to adjust toward the former as it con-
+verged on the desired target rate. This
+sequence required the central bank to employ
+contractionary monetary policy to raise unem-
+ployment above its natural level. The resulting
+excess unemployment would put downward
+pressure on the actual rate of inﬂation to which
+the expected rate would adjust with a lag.
+Through this long and painful error-learning
+adjustment process, both actual and anticipated
+inﬂation eventually would be squeezed out of
+the economy, albeit at the cost of much lost
+output and employment.
+Rational Expectations Lower 
+the Cost of Disinﬂation
+The seventh monetarist/new classical milestone
+disposed of this Keynesian concern. Pairing John
+Muth’s (1961) seminal work on rational expec-
+tations with Friedman’s natural rate hypothesis,
+Robert Lucas (1972) and Thomas Sargent and
+Neil Wallace (1975) showed that if expectations
+are formed rationally rather than mechanically
+then disinﬂation need not be a painful drawn-
+out process. On the contrary, the unemploy-
+ment cost of disinﬂation might be far less than
+Keynesians feared. For if people formed their
+anticipations rationally, they would take into
+account all systematic, and therefore pre-
+dictable,future disinﬂationary policy actions and
+embody them in their price forecasts. Provided
+1940
+1950
+1944
+1945
+D-Day
+Bretton Woods plan
+for post-war monetary
+order calls for the
+establishment of the
+International Monetary
+Fund and World Bank.
+Criticism of the Keynes-
+ian model emerges 
+to set the stage for the
+monetarist counter-
+revolution.
+Gottfried Haberler (1941),
+A.C. Pigou (1943, 1947),
+and Don Patinkin (1948)
+explain how a real cash
+balance effect works to
+stimulate consumption
+spending and to restore
+full employment follow-
+ing a depression.
+Sir Winston Churchill becomes
+prime minister of Great Britain.
+Invention of the
+ﬁrst atomic bomb
+1953
+James Watson
+and Francis Crick
+propose a double
+helical structure
+for DNA.
+Mercantilist views are prevalent
+Clark Warburton’s empirical
+work provides evidence, 
+contrary to Keynes’s liquidity
+trap and interest-unresponsive
+investment schedule models,
+of money’s power to inﬂuence
+spending.
+World War II (1939-1945)
+
+
+[PDF page 24]
+U . S . U N E M P L O Y M E N T ( % )
+0
+5
+10
+15
+20
+policymakers behaved in a non-haphazard, cred-
+ible fashion, actual and expected rates of inﬂa-
+tion and disinﬂation would coincide such that
+no gap would develop between them. With no
+gap, there would be no need for excess unem-
+ployment to generate it. Consequently, inﬂation,
+actual and expected, would be brought to its
+zero target level with no cost in terms of
+excess unemployment. In actuality, of course,
+this conclusion proved to be a bit too facile and
+sanguine. In a world in which wages and prices
+are to some degree sticky or inﬂexible such
+that markets fail to clear instantaneously, even
+rationally expected disinﬂation would incur
+some unemployment cost. Nevertheless, the
+analysis showed that these costs could be much
+lower than Keynesians feared.
+Time Inconsistency Case For Rules
+The last milestone was the time inconsistency
+argument which strengthened the classical case
+for rules by showing how they reinforce policy
+credibility. Enunciated by Finn Kydland and
+Edward Prescott (1977) and by Robert Barro
+and David Gordon (1983a,b), the argument is
+simplicity itself. Suppose a discretionary, ﬁne-
+tuning central bank wants to eradicate inﬂa-
+tionary expectations so it can have a favorable
+temporary inﬂation-unemployment trade-off to
+exploit.The bank announces its intention to pur-
+sue a policy of price stability. It assumes people
+will believe the announcement and revise their
+inﬂation predictions accordingly.The announce-
+ment, however, lacks credibility. Private agents
+23
+realize that once their new price predictions
+are formulated and acted upon, the bank will be
+tempted to renege on its promise and create a
+surprise inﬂation in order to boost output and
+employment. Such knowledge induces the
+rational public to discount the announcement
+and to maintain inﬂationary expectations at lev-
+els high enough to remove the bank’s tempta-
+tion to cheat. The result is that equilibrium
+unemployment is no lower than it otherwise
+would be, and yet equilibrium inﬂation is too
+high. What prevents inﬂation from immediately
+dropping to zero at the natural rate of unem-
+ployment is the central bank’s inability to prom-
+ise credibly not to create surprise inﬂation.
+Needed is something to convince the public that
+the central bank will not succumb to the temp-
+tation to inﬂate. That something is a monetary
+rule replacing the bank’s discretionary power
+with a precommitment binding it irrevocably to
+price stability.
+34 In demonstrating as much, the
+time inconsistency argument reinforced the
+classical case for rules.
+35
+The cumulative effect of the foregoing devel-
+opments was to shift mainstream monetary
+opinion away from the extremes of Keynesian
+mercantilism toward classical monetarism. Not
+all Keynesian doctrines were abandoned, of
+course.Nor were all monetarist ones embraced.
+On the contrary, mainstream opinion assimilat-
+ed an eclectic amalgam of competing views. But
+a new consensus deﬁnitely had emerged. After
+four or ﬁve decades of mercantilist dominance,
+the classical view was at the wheel once again.
+1960
+1970
+1961
+1962
+1963
+Berlin Wall is erected.
+Cuban Missile Crisis
+President John F. Kennedy
+is assassinated.
+1967
+1968
+1969
+Martin Luther King, Jr.,
+is assassinated.
+1958
+In the tradition of
+Henry Simons’s 1936
+case for rules over
+discretion, Milton
+Friedman enunciates
+his famous k-percent
+money growth 
+rate rule.
+Friedman and Anna Schwartz corrobo-
+rate Warburton by showing, in their
+monumental A Monetary History of the
+United States: 1870-1960, that a severe
+monetary contraction caused or intensi-
+ﬁed the Great Depression.
+Incorporating inﬂation
+expectations into the
+Phillips curve, Friedman
+and Edmund Phelps
+posit the natural rate
+hypothesis. This concept
+says that, when expect-
+ed inﬂation adjusts to
+actual inﬂation, real
+activity returns to its
+natural equilibrium level
+such that no permanent
+inﬂation-unemployment
+trade-offs remain to 
+be exploited.
+First 
+astronaut
+walks on
+the moon.
+A.W. Phillips
+presents his
+empirical Phillips
+curve relating
+the rate of wage
+and price inﬂa-
+tion to the unem-
+ployment rate.
+Keynesians interpret the Phillips curve
+as a stable trade-off relationship permit-
+ting the policymakers to achieve perma-
+nently lower unemployment rates at the
+cost of higher stable rates of inﬂation.
+Phillips
+Friedman
+Schwartz
+
+
+[PDF page 25]
+U . S . I N F L A T I O N R A T E ( % )
+-20
+-10
+0
+10
+20
+Three centuries of monetary controversy and
+experience have established certain hard-won
+classical truths. Inﬂation and deﬂation are mon-
+etary rather than cost-push phenomena. There
+are no long-run inﬂation-output trade-offs to
+exploit; central banks cannot permanently peg
+real variables at disequilibrium levels. Attempts
+to do so produce explosive, ever-worsening
+inﬂation or deﬂation. Money-stock changes at
+best affect output and employment temporarily.
+The output effect vanishes when prices adjust;
+all that remains is a changed rate of inﬂation.
+Stability of the value of money is a prerequisite
+of an efﬁciently functioning real economy. All
+non-negligible inﬂation rates violate this prereq-
+uisite and are therefore harmful.Monetary rules
+contribute to such stability.
+Presently these truths are in the driver’s seat.
+The proof is that many central bankers now view
+their primary mission as providing a stable price-
+level environment within which businesspeople
+can receive accurate market signals and allocate
+resources efﬁciently. Still the classical wisdom,
+though ruling, is hardly secure. For mercantilist
+views continue to abound. Even today, some
+economists still insist that it is better to live
+with inherited inﬂation than to ﬁght it because
+disinﬂation is too costly to pursue. Others echo
+Steuart’s cost-push theory, attributing the disin-
+ﬂation of the 1990s to such nonmonetary forces
+as increased global competition, rapid techno-
+24
+1970
+1980
+1972
+1974
+1973
+1975
+The personal com-
+puter is born with 
+Ed Roberts’s invention
+of the MITS Altair.
+Nicholas Kaldor’s
+The Scourge of
+Monetarism repre-
+sents the peak of
+post-Keynesian
+skepticism of the
+quantity theory 
+of money.
+Robert Lucas scrutinizes Keynesian fears of
+costly disinﬂation. Using John Muth’s concept
+of rational expectations, he shows that all
+Phillips curve trade-offs, temporary and per-
+manent, vanish provided (1) agents form their
+inﬂation expectations rationally rather than
+adaptively, (2) price ﬂexibility prevails so that
+markets clear, and (3) the authorities conduct
+policy in systematic, credible fashion. These
+conditions render disinﬂation costless.
+1982
+5
+Conclusion
+logical progress, falling computer and health-
+care costs,weakened power of labor unions,and
+the like. Still others evoke the Steuart-Keynes
+image of liquidity traps in holding that monetary
+policy is powerless to stimulate the currently
+depressed Japanese economy. Commentators
+even parrot Law’s monetary theory of interest
+when they cite Japan’s low interest rates as proof
+that the country is awash with money when the
+opposite is true. And always there are those
+who argue that, with prices determined by real
+considerations, monetary policy should be free
+to pursue nonprice objectives such as achieving
+full employment and maximizing real growth.
+The challenge then is to ensure that the clas-
+sical truths will not be forgotten. But that is a
+tall order given that memories fade, that central
+bank leadership changes,that the current gener-
+ation of economists familiar with the Keynesian-
+monetarist controversy is passing from the
+scene, that revisionist scholars can be counted
+upon to reinterpret the record radically, and
+that future generations may well be as reluctant
+as the present one to study the lessons of the
+past. The task of countering these inﬂuences
+and preserving the classical wisdom falls to the
+doctrinal historian. As curator of the stock of
+eclipsed and unfashionable ideas, he has his
+work cut out for him.
+An even more important challenge is to
+embed, or lock, the classical truths into endur-
+The Volcker disinﬂation (1978-1984)
+The Great Inﬂation (1968-1984)
+Responding to the natural
+rate hypothesis, Keynes-
+ians argue that when
+agents form their inﬂation
+expectations adaptively
+in mechanical error-
+learning fashion, real
+activity returns very slow-
+ly to its natural level. 
+If so, then disinﬂation is
+too costly to pursue and
+society must learn to live
+with inherited inﬂation.
+Bretton Woods ﬁxed-exchange-rate system
+abandoned: world leaves the gold standard.
+Lucas
+Classical views are prevalent
+Finn Kydland and Edward C.
+Prescott state the time inconsis-
+tency case for replacing policy-
+maker discretion with a pre-
+commitment binding the author-
+ities irrevocably to the objective
+of achieving price stability.
+Following the Israeli-Arab War, 
+oil-producing countries quadruple oil
+prices leading to an energy crisis
+and queues at the gas pumps.
+
+
+[PDF page 26]
+U . S . U N E M P L O Y M E N T ( % )
+0
+5
+10
+15
+20
+25
+1990
+2000
+1989
+1991
+Persian Gulf War
+Hubble Space Telescope
+put in orbit.
+Human Genome Project aimed
+at mapping and sequencing all
+human DNA nears completion.
+Fall of the
+Berlin Wall
+1987
+Crash of the 
+U.S. Stock Market
+Popularity of the Internet
+Central bankers worldwide give precedence to the goal of price stability.
+ing institutional arrangements that allow no
+room for mercantilist policy alternatives.To this
+end, proponents of the classical view propose a
+variety of possible arrangements. These include
+(1) congressional mandates for price stability,
+(2) formal contracts between elected govern-
+ments and central banks ﬁxing quantitative tar-
+gets for price-level behavior, (3) guaranteed
+independence for central bankers to insulate
+them from the political pressure to inﬂate, and
+(4) the appointment of conservative, inﬂation-
+averse central bankers committed to the goal of
+price stability.The trouble is,however,that none
+of these proposed arrangements can assure
+that classical policies will reign supreme for all
+time. Mandates can be changed, contracts ter-
+minated, guarantees revoked, and appointments
+altered. The upshot is that it is too early to
+The Fed worked hard 
+to build credibility 
+as an inflation-fighter 
+and desires to maintain 
+that credibility; 
+policy rules help.
+declare a permanent victory for the classical
+view. Indeed, there may always be a market for
+the opposing view that central banks need not
+and must not be bound to the goal of price sta-
+bility. For better or worse, that view will chal-
+lenge the classical view whenever the public
+perceives unemployment or sluggish real
+growth rather than inﬂation to be the dominant
+economic problem.
+Still, the inherent cyclicality of ideas suggests
+an inevitable classical response to that chal-
+lenge. Classicism, in short, will return to promi-
+nence to be confronted anew. For history
+shows it to be nothing if not resilient.Over long
+spans of time, it has proved resistant to the
+kinds of economic shocks that occasionally pro-
+pel mercantilists to prominence. That is one of
+the chief insights of doctrinal history.
+Kaldor
+The European
+Monetary Union
+and the European
+Central Bank 
+are launched.
+The U.S. enjoys its
+longest peacetime expan-
+sion while disinﬂation
+brings the price level
+close to absolute stability.
+
+
+[PDF page 27]
+full-employment-at-any-cost counterparts 
+of the Birmingham School, especially the
+Attwood brothers, Thomas and Matthias,
+were gravely concerned with it.
+20. See Hume (1752, pp. 47-59); Ricardo
+(1951-73, I, pp. 363-4; III, pp. 88-89, 91,92;
+IV, p. 233; V, p. 445); Thornton ([1802] 1939,
+pp. 253-56).
+21. Thornton ([1811] 1939, p. 342). He
+([1802] 1939, pp. 244, 253-6) applies the
+same criticism to the real bills doctrine
+which ties the issue of bank money (notes
+and checking deposits) to the nominal vol-
+ume of commercial paper that borrowers
+offer as collateral for bank loans.
+22. For classic accounts of the Currency
+School-Banking School debate, see Viner
+(1937, Ch. 5), Fetter (1965, Ch. 6), Robbins
+(1958, Ch. 5), and Mints (1945, Ch. 6). For
+recent interpretations, see O’Brien (1975,
+pp. 153-59) and Schwartz (1987).
+23. With the exception of John Wheatley,
+classicals held that national price levels could
+deviate temporarily from their purchasing
+power parity, or long-run equilibrium, levels.
+24. O’Brien (1975, p. 153) credits Joplin,
+Drummond, Page, Pennington, and McCul-
+loch with the simultaneous enunciation 
+of the metallic principle.
+25. Because these doctrines are consistent
+with those of the monetary approach to
+the balance of payments, Skaggs (1999)
+interprets the Banking School as early antic-
+ipators of that approach. Even so, the
+School hardly derived its conclusions from
+the logic of the monetary approach. The
+conclusions may have been the same, but
+they were reached by a different route.
+26. On Tooke’s interest cost-push theory
+and Knut Wicksell’s deﬁnitive critique of it,
+see Humphrey (1998, pp. 60-64).
+27. Before he abandoned classicism, Keynes
+was one of its luminaries. Both his 1923 
+A Tract on Monetary Reform and his 1930 
+A Treatise on Money are squarely in the clas-
+sical tradition. He returned to the classical
+fold shortly before his death in 1946.
+28. Keynes applied this notion to a closed
+economy. He was not referring to the 
+case where, with foreign prices given and
+the exchange rate ﬁxed, the real terms 
+of trade drives the price level in a small
+open economy.
+29. On the cost-push pricing theories 
+of Keynes and his followers, see Tavlas
+(1981, pp. 324-330).
+30. On the mercantilists’ policy goal of 
+full employment, see Grampp (1952).
+31. See Haberler (1941, pp. 242, 389, 403),
+Pigou (1943, 1947), and Patinkin (1948, 1965).
+32. See Warburton (1966) for a collection
+of his relevant papers, many published
+between 1944 and 1953.
+ENDNOTES
+1.
+Additional famous policy debates pitting
+mercantilists and classicals include (1) the
+Swedish Bullionist controversy (1755-1765),
+(2) the English Bullionist-Antibullionist,
+or Bank Restriction, dispute (1797-1821),
+(3) the Bimetallism debate (1880-1896),
+and (4) the German hyperinﬂation debate
+(1922-1923).
+2.
+Because anti-quantity theory elements
+also characterize the ﬁxed-exchange-rate,
+small-open-economy case of the monetary
+approach to the balance of payments, some
+observers may be tempted to equate mer-
+cantilism with that approach. In fact, howev-
+er, the two theories differ markedly. First,
+the monetary approach applies the quantity
+theory, rather than its opposite, to closed-
+economy and inconvertible-paper, ﬂoating-
+exchange-rate regimes. By contrast, mercan-
+tilists, with few exceptions, tended to apply
+the anti-quantity theory indiscriminately to
+all regimes. Second, the monetary approach
+rejects the mercantilist money-stimulates-
+trade doctrine.
+3.
+On Law’s monetary theory, see Murphy
+(1997, Chs. 6 and 8) and Hutchison (1988,
+pp. 134-40). On Steuart’s theory, see Eltis
+(1986), Hutchison (1988, pp. 341-51), Meek
+(1967), and Skinner (1981).
+4.
+Law’s fear of monetary shortage under
+a metallic standard is incompatible with 
+the monetary approach to the balance of
+payments. The latter sees a small open
+economy, like Scotland, taking its price level
+as given from the closed world economy
+with money then ﬂowing in through the
+balance of payments to support that price
+level such that no monetary shortage
+occurs. Of these two propositions, Law 
+recognized the ﬁrst but denied the second.
+See Murphy (1997, Ch. 8).
+5.
+See Blaug (1996, p. 16).
+6.
+On Steuart’s cost-push theory, see
+Screpanti and Zamagni (1993, p. 53).
+7.
+Not all mercantilists were as sanguine
+as Steuart on hoards. Indeed they were
+somewhat ambivalent on the subject.
+Hoards to them could be either desirable
+or undesirable. On the one hand, hoards,
+by draining excess cash from circulation,
+would tailor the remaining stock precisely
+to the needs of trade. On the other hand,
+if output and so the needs of trade were
+expandable under the impact of a monetary
+stimulus, such hoards, by removing the
+source of that stimulus, could unduly con-
+strain real activity. Even so, such hoards
+would see to it that no monetary excess
+ever developed to spill over into the com-
+modity market to bid up prices.
+8.
+See Screpanti and Zamagni (1993, p. 53).
+9.
+Steuart of course never resorted to
+such modern terminology. Nevertheless,
+the concepts were his.
+26
+10. On Steuart’s statesman, see Eltis (1986)
+and Skinner (1981).
+11. Law denied that the monetary expan-
+sion was excessive on the grounds that
+much of it went to redeem outstanding
+government bonds and equity claims to his
+trading ﬁrm. Since to him bonds and stocks
+shared money’s characteristic as a transac-
+tions medium, he saw them as exerting 
+the same inﬂuence on spending. In his view,
+money swapped for bonds and equities
+leaves the total supply of ﬁnancial purchas-
+ing power – money, bonds, and stocks –
+unchanged. Such monetary issue therefore
+is noninﬂationary. He erred. Not being
+transactions media, bonds and stocks are
+far from perfect substitutes for money in
+spending. Monetizing them can be inﬂation-
+ary. See Niehans (1990, p. 51).
+12. See Murphy (1997) for an exhaustive
+account of the rise and fall of Law’s system.
+13. Thus a follower of Smith might attrib-
+ute Scotland’s penury not to monetary deﬁ-
+ciency and the absence of banks, but rather
+to lack of specialization and division of
+labor resulting from a small population.
+14. Cesarano (1998) argues that Hume
+actually rejected the price-specie-ﬂow
+mechanism and its attendant relative price
+effects for the monetary approach to the
+balance of payments. By contrast, the stan-
+dard view emphasized here holds that 
+neither Hume nor his classical followers
+subscribed to the approach’s proposition 
+of instantaneous purchasing power parity,
+or law of one price.
+15. See Ricardo (1951-73, I, pp. 46, 61-3,
+104-5, 126, 302-3, 307-8, 315).
+16. See Hume ([1752] 1955, pp. 37-8, 47-8).
+17. Classicals recognized still other sources
+of short-run nonneutrality including sticky
+nominal interest rates, ﬁxed nominal
+charges such as rents and taxes, ﬁxed nomi-
+nal incomes of wage earners and rentiers,
+confusion of relative- for absolute price
+changes, market size encouragement to
+specialization and division of labor, and
+deliberate efforts on the part of organized
+groups to maintain real incomes. See
+Humphrey (1993, pp. 251-63).
+18. Hume ([1752] 1955, pp. 39-40) admit-
+ted that money might exhibit long-run
+super-nonneutrality. Being unanticipated
+(perhaps because agents formulate their
+expectations in a backward-looking way),
+a steady succession of money stock changes
+might perpetually frustrate the attempt 
+of prices to catch up and therefore perma-
+nently affect the level of real output.
+19. Perhaps too cavalierly, classicals dis-
+missed or minimized the problem of unem-
+ployment. To them joblessness, while it 
+certainly occurred from time to time, was
+necessarily short-lived and self-correcting
+through automatic wage, price, and interest-
+rate reductions. Only their inﬂationist,
+
+
+[PDF page 28]
+27
+33. See Taylor (1997, pp. 278-9).
+34. Alternatively, an established reputation
+as a zealous inﬂation ﬁghter would do.
+35. The time consistency case for rules 
+differs a bit from Friedman’s argument. He
+sees rules as overcoming the central bank’s
+inability to predict the short-run impact 
+of its actions. By contrast, the time inconsis-
+tency argument is that rules are good for
+commitment reasons even though central
+bankers have full knowledge of the impact
+of their moves.
+REFERENCES
+Barro, Robert J., and David B. Gordon.
+“A Positive Theory of Monetary Policy in 
+a Natural Rate Model,” Journal of Political
+Economy, vol. 91 (August 1983), pp. 589-610.
+Barro, Robert, and David B. Gordon.
+“Rules,Discretion,and Reputation in a Model
+of Monetary Policy,” Journal of Monetary 
+Economics, vol. 12 (June 1983), pp. 101-22.
+Blaug, Mark. Economic Theory in Retrospect,
+5thed. Cambridge: Cambridge University
+Press, 1996.
+Brunner, Karl, and Allan H. Meltzer.
+“The Meaning of Monetary Indicators,” 
+in G. Horwich, ed., Monetary Process and 
+Policy: A Symposium. Homewood, Ill.:
+R. D. Irwin, 1967.
+Cesarano, Filippo.“Hume’s Specie-Flow
+Mechanism and Classical Monetary Theory:
+An Alternative Interpretation,” Journal of
+International Economics, vol. 45 (June 1998),
+pp. 173-86.
+Eltis, Walter.“Sir James Steuart’s Corporate
+State,” in R. D. Collison Black, ed., Ideas in
+Economics. London: Macmillan, 1986.
+Fetter, Frank W. Development of British 
+Monetary Orthodoxy, 1797-1875. Cambridge,
+Mass.: Harvard University Press, 1965.
+Friedman, Milton, and Anna J. Schwartz.
+A Monetary History of the United States,
+1867-1960. Princeton, N. J.: Princeton 
+University Press for the National Bureau 
+of Economic Research, 1963.
+Friedman, Milton.“25 Years after the Redis-
+covery of Money: What Have We Learned?”
+Discussion, American Economic Review, vol. 65
+(May 1975), pp. 176-79.
+Friedman, Milton.“The Role of Monetary
+Policy.” American Economic Review, vol. 58
+(March 1968), pp. 1-17.
+Friedman, Milton. A Program for Monetary
+Stability. New York: Fordham University
+Press, 1960.
+Grampp, William D.“The Liberal Elements
+in English Mercantilism,” Quarterly Journal 
+of Economics, vol. 66 (November 1952),
+pp. 465-501.
+Haberler, Gottfried. Prosperity and Depres-
+sion: A Theoretical Analysis of Cyclical Move-
+ments. Geneva: League of Nations, 1941.
+Hume, David.“Of Money,” “Of the Balance
+of Trade,” and “Of Interest,” (1752), in
+Hume’s Writings on Economics, E. Rotwein,
+ed. Madison, Wis.: University of Wisconsin
+Press, 1955.
+Humphrey, Thomas M.“Historical Origins 
+of the Cost-Push Fallacy,” Federal Reserve
+Bank of Richmond Economic Quarterly,
+vol. 84 (Summer 1998), pp. 53-74.
+Humphrey, Thomas M. Money, Banking and
+Inﬂation: Essays in the History of Monetary
+Thought. Aldershot, England: Edward Elgar
+Publishing Ltd., 1993.
+Hutchison, Terence W. Before Adam Smith:
+The Emergence of Political Economy, 1662-
+1776. Oxford: Basil Blackwell, 1988.
+Kaldor, Nicholas. The Scourge of Monetarism.
+Oxford: Oxford University Press, 1982.
+Keynes, John Maynard. The General Theory 
+of Employment, Interest and Money. London:
+Macmillan, 1936.
+Kydland, Finn, and Edward Prescott.“Rules
+Rather Than Discretion: The Inconsistency
+of Optimal Plans,” Journal of Political Economy,
+vol. 85 (June 1977), pp. 473-91.
+Law, John. Money and Trade Considered, with 
+a Proposal for Supplying the Nation with Money.
+Edinburgh, 1705.
+Lucas, Robert E., Jr.“Expectations and the
+Neutrality of Money,” Journal of Economic
+Theory, vol. 4 (April 1972), pp. 103-24.
+Meek, R. L.“Rehabilitation of Sir James
+Steuart,” in his Economics and Ideology and
+Other Essays. London: Chapman and Hall,
+1967.
+Mints, Lloyd W. A History of Banking Theory.
+Chicago: University of Chicago Press, 1945.
+Murphy, Antoin E. John Law: Economic Theo-
+rist and Policy-Maker. Oxford: Clarendon
+Press, 1997.
+Muth, John F.“Rational Expectations and the
+Theory of Price Movements,” Econometrica,
+vol. 29 (July 1961), pp. 315-35.
+Niehans, Jurg. A History of Economic Theory:
+Classic Contributions, 1720-1980. Baltimore:
+Johns Hopkins University Press, 1990.
+O’Brien, Denis P. The Classical Economists.
+New York: Oxford University Press, 1975.
+Patinkin, Don.“Price Flexibility and Full
+Employment,” American Economic Review,
+vol. 38 (September 1948), pp. 543-64.
+Patinkin, Don. Money, Interest, and Prices,
+2nd ed. New York: Harper and Row, 1965.
+Pearce, Ivor F.“Confrontation with Keynes,”
+in The Coming Confrontation:Will the Open
+Society Survive to 1989? London: The Insti-
+tute of Economic Affairs, 1978.
+Phelps, Edmund S.“Phillips Curves, Expecta-
+tion of Inﬂation and Optimal Unemploy-
+ment Over Time,” Economica, vol. 34
+(August 1967), pp. 254-81.
+Pigou, Arthur C.“Economic Progress in 
+a Stable Environment,” Economica, vol. 14
+(August 1947), pp.180-90.
+Pigou, Arthur C.“The Classical Stationary
+State,” Economic Journal, vol. 53 (December
+1943), pp. 343-51.
+Ricardo, David. The Works and Correspon-
+dence of David Ricardo, Vols. I and II, edited
+by P. Sraffa with M. H. Dobb. Cambridge:
+Cambridge University Press, 1951-1973.
+Robbins, Lionel. Robert Torrens and the 
+Evolution of Classical Economics. London:
+Macmillan, 1958.
+Sargent, Thomas J., and Neil Wallace.“Ratio-
+nal Expectations, the Optimal Monetary
+Instrument, and the Optimal Money Supply
+Rule,” Journal of Political Economy, vol. 83
+(April 1975), pp. 241-54.
+Say, Jean-Baptiste. Traité d’économie politique:
+Ou, simple exposition de la manière dont se
+forment, se distribuent, et se consomment les
+richesses, Vol. 1. Paris: Deterville, 1803. Trans-
+lated under the title ATreatise on Political Econ-
+omy, 4th ed. Philadelphia: G. R. Elliot, 1834.
+Schwartz, Anna J.“Banking School, Currency
+School, Free Banking School,” in J. Eatwell,
+M. Milgate, and P. Newman, eds., The New
+Palgrave – A Dictionary of Economics, Vol. 1.
+London: Macmillan, 1987.
+Screpanti, Ernesto, and Stefano Zamagni.
+An Outline of the History of Economic Thought,
+translated by David Field. New York:
+Oxford University Press, 1993.
+Skaggs, Neil.“Changing Views: Twentieth-
+Century Opinion on the Banking School-
+Currency School Controversy,” forthcoming
+in History of Political Economy, vol. 31 
+(Summer 1999), pp. 361-91.
+Skinner, Andrew S.“Sir James Steuart:
+Author of a System,” Scottish Journal of 
+Political Economy, vol. 28 (February 1981),
+pp. 20-42.
+Tavlas, George S.“Keynesian and Monetarist
+Theories of the Monetary Transmission
+Process: Doctrinal Aspects.” Journal of Mon-
+etary Economics, vol. 7 (May 1981), pp. 317-37.
+Taylor, John B.“Comment,” in Christina and
+David H. Romer, eds., Reducing Inﬂation:
+Motivation and Strategy. Chicago: University
+of Chicago Press, 1997, pp. 276-80.
+Thornton, Henry. An Enquiry into the Nature
+and Effects of the Paper Credit of Great Britain
+(1802).Together with His Speeches on the 
+Bullion Report, May 1811. F. A. von Hayek,
+ed. London: G. Allen & Unwin, 1939.
+Viner, Jacob. Studies in the Theory of Interna-
+tionalTrade.New York:Harper Brothers,1937.
+Warburton, Clark. Depression, Inﬂation and
+Monetary Policy, Selected Papers 1945-1953.
+Baltimore: Johns Hopkins University Press,
+1966.
+
+
+[PDF page 29]
+28
+Despite considerable domestic and interna-
+tional ﬁnancial turbulence in the latter part of
+the year, the U. S. economy continued its robust
+growth in 1998. Unemployment fell to its 
+lowest level since the early 1970s, real wages
+rose more rapidly than at any time since that
+period, and inﬂation remained low. The Fifth
+District’s economy shared in the national pros-
+perity, particularly in the areas of employment
+growth and construction activity – residential
+and commercial. Accompanying the region’s
+strong economic conditions was substantial
+bank merger activity, including the creation of
+two of the nation’s largest banking companies
+headquartered in the District. The Federal
+Reserve System’s monetary policy strategy
+aimed at price-level stability helped set the
+stage and establish the ﬁnancial framework for
+the national and Fifth District growth. Through
+its research and communication efforts, the
+Federal Reserve Bank of Richmond contributed
+to the support of this strategy as well as to
+banking and payments system policymaking.
+The Bank worked to achieve these and other
+System objectives not only through research
+and communications, but also its activities 
+in public and community affairs, banking super-
+vision, and ﬁnancial services.
+Economic Research and Public Outreach
+The Bank continued to produce economic
+research relevant to Federal Reserve monetary
+and banking policy, the Fifth District economy,
+and the payments mechanism. Research staff
+analyzed current policy issues and advised 
+Mr. Broaddus in preparation for Federal Open
+Market Committee meetings and presented
+monetary policy research in both Federal
+Reserve and academic forums. The Research
+Department also provided Mr. Broaddus and
+Mr. Varvel strong analytical support in meeting
+their banking and payment system responsi-
+bilities. In addition, the Bank provided valuable
+input to Systemwide understanding of the
+reserve accounting, Federal Reserve credit
+extension, data reporting, banking supervision,
+and payment policy needs of interstate banking
+organizations.
+Public outreach efforts bolstered current
+initiatives and introduced new products and pub-
+lic programs. Mr. Broaddus continued to meet
+with business and community leaders around
+the District and maintained an active public
+speaking schedule. Direct contact with District
+businesses increased in 1998 to meet growing
+public demand for timely and comprehensive
+information about the region’s economy.
+The Bank used its publications and web
+site to communicate information about the
+Fifth District, the national economy, and Federal
+Reserve monetary policy. The Bank’s business
+magazine, Region Focus, received several awards
+and increased its circulation. Articles from the
+Economic Quarterly earned media recognition and
+international acknowledgment. With new sec-
+tions on economic education, ﬁnancial services,
+and century date change preparations, the Bank’s
+web site became a popular source of informa-
+tion. State Economic Proﬁles were reformatted
+on the web site to better meet user needs for
+information on state economic activity.
+Continuing to build on established partner-
+ships with economic education organizations
+around the District, the Bank helped establish 
+a new national center for Economic Education
+at Gallaudet University in Washington, D.C.,
+a four-year liberal arts college serving the deaf
+and hearing impaired. In addition, the District
+held three“Fed Challenge” competitions for high
+school students and one for college students.
+The Bank also formed a new Community
+Development Advisory Council to increase
+communication between the Bank and con-
+sumer, community, and labor groups across 
+the District. In other communication efforts,
+the Community Affairs Ofﬁce sponsored more
+than 20 public seminars and distributed over
+25,000 copies of its publications.
+Banking Supervision
+The ﬁnancial condition of banking organizations
+in the Fifth District remained strong, and bank-
+ing industry consolidation continued at a rapid
+pace. At year-end 1998, 220 Fifth District bank
+holding companies controlled total assets of
+$1.1 trillion, an increase of $420 billion from
+the previous year. This increase resulted from
+Year in Review
+
+
+[PDF page 30]
+29
+several large bank acquisitions, most notably
+NationsBank Corporation’s acquisition of 
+Barnett Banks, Inc., and subsequent merger with
+BankAmerica Corporation; and First Union
+Corporation’s purchase of CoreStates Finan-
+cial Corp. Consolidation activity also spurred
+the opening of several de novo banks in the
+District. Seven new banks opened as state
+member banks during 1998, while four existing
+banks converted to state member status.
+In response to increased supervisory
+responsibilities for three large interstate 
+banking organizations headquartered in North
+Carolina, the Bank opened a new banking
+supervision and regulation ofﬁce in Charlotte.
+Banking Supervision strengthened its new
+approach to conducting examinations that
+focuses on each institution’s management 
+and control of business risks. This risk-based
+supervisory approach and joint efforts with
+the Ofﬁce of the Comptroller of the Currency
+and state banking authorities reduced the
+supervisory burden imposed on bank holding
+companies and state member banks.
+Financial Services and Other Operations
+The ﬁnancial services areas continued to offer
+quality services to meet the needs of deposi-
+tory institutions and the U.S. Treasury. The
+Bank realized 105.8 percent cost recovery in
+1998, exceeding its ﬁnancial targets for priced
+services. Also, the ﬁnancial services functions
+improved their unit cost and productivity
+measures and met their key quality targets.
+Surveys of the accounting, automated clearing-
+house (ACH), check, customer support, funds
+transfer, and securities transfer areas indicated
+that customers were well satisﬁed with the
+Bank’s services.
+The Bank continued to pursue payment
+system efﬁciencies through the expansion of
+ACH, electronic check presentment and image-
+based services. Partnering with the District’s
+three ACH associations, the ACH function
+conducted successful educational and promo-
+tional campaigns for direct deposit and direct
+bill payment programs. ACH also introduced
+new software to support ﬁnancial electronic
+data interchange. Operating efﬁciencies per-
+mitted the Federal Reserve to further reduce
+the price of ACH services during the year and
+to effect substantial reductions in funds trans-
+fer fees. In addition, government check pro-
+cessing operations were converted to a high-
+speed image capture platform in August 1998.
+Commercial electronic check presentment and
+truncation volume as a percentage of numbers
+of items processed grew from 8.7 percent at
+year-end 1997 to 13.6 percent at year-end 1998,
+resulting in the second highest check trunca-
+tion volume in the System.
+The Bank also provided extensive support
+to the U.S. Treasury in 1998. A senior Bank
+ofﬁcer continued to serve as the System’s
+Treasury Liaison; he coordinated 20 joint Trea-
+sury and Federal Reserve initiatives and pro-
+vided consultative support. The Currency
+Technology Ofﬁce supported the Treasury in
+introducing new currency and in counterfeit
+sampling, and assisted the Bureau of Engraving
+and Printing with the design of the new $20
+note. Finally, the Bank provided full support for
+the U.S. Treasury’s Automated Standard Appli-
+cation for Payments and the Department of
+Agriculture’s Account Management Agent
+applications, and served as one of ﬁve regional
+processing sites for savings bonds.
+The Reserve Accounting and Loans 
+areas played a major role in supporting the
+numerous account changes associated with
+bank mergers and in encouraging depository
+institutions to make preparations to borrow
+from the Fed’s discount window should the
+need arise. Accounting and Control imple-
+mented a COSO-based framework for 
+evaluating the adequacy of internal controls
+associated with the Bank’s ﬁnancial reporting.
+PricewaterhouseCoopers LLP reviewed and
+attested to the internal control evaluation 
+performed by Bank management in 1998.
+Preparations for the century date change
+(CDC) were intense. The Bank met end-of-
+year targets and milestones for its critical 
+hardware and software systems. It also provided
+extensive automated systems test support for
+depository institutions and supervisory over-
+sight for CDC preparations at bank holding
+companies and state member banks. During
+1999, CDC preparations will include follow-up
+supervisory examinations, continued test sup-
+port for institutions,and reﬁnement of the Bank’s
+contingency and event management plans.
+
+
+[PDF page 31]
+
+
+[PDF page 32]
+
+
+[PDF page 33]
+
+
+[PDF page 34]
+
+
+[PDF page 35]
+
+
+[PDF page 36]
+
+
+[PDF page 37]
+
+
+[PDF page 38]
+December 31, 1998
+To the Board of Directors:
+The management of the Federal Reserve Bank of Richmond (“FRB Richmond”)
+is responsible for the preparation and fair presentation of the Statement 
+of Financial Condition, Statement of Income, and Statement of Changes in
+Capital as of December 31, 1998 (the “Financial Statements”). The Financial
+Statements have been prepared in conformity with the accounting principles,
+policies, and practices established by the Board of Governors of the Federal
+Reserve System and as set forth in the Financial Accounting Manual for 
+the Federal Reserve Banks, and as such, include amounts, some of which 
+are based on judgments and estimates of management.
+The management of the FRB Richmond is responsible for maintaining an
+effective process of internal controls over ﬁnancial reporting including the
+safeguarding of assets as they relate to the Financial Statements. Such inter-
+nal controls are designed to provide reasonable assurance to management
+and to the Board of Directors regarding the preparation of reliable Finan-
+cial Statements. This process of internal controls contains self-monitoring
+mechanisms, including, but not limited to, divisions of responsibility and a
+code of conduct. Once identiﬁed, any material deﬁciencies in the process of
+internal controls are reported to management, and appropriate corrective
+measures are implemented.
+Even an effective process of internal controls, no matter how well designed,
+has inherent limitations, including the possibility of human error, and there-
+fore can provide only reasonable assurance with respect to the preparation
+of reliable ﬁnancial statements.
+The management of the FRB Richmond assessed its process of internal
+controls over ﬁnancial reporting including the safeguarding of assets
+reﬂected in the Financial Statements, based upon the criteria established in
+the “Internal Control – Integrated Framework” issued by the Committee
+of Sponsoring Organizations of the Treadway Commission (COSO). Based
+on this assessment, the management of the FRB Richmond believes that
+the FRB Richmond maintained an effective process of internal controls
+over ﬁnancial reporting including the safeguarding of assets as they relate
+to the Financial Statements.
+Federal Reserve Bank of Richmond
+J. Alfred Broaddus, Jr.
+Walter A. Varvel
+P R E S I D E N T
+F I R S T V I C E P R E S I D E N T
+30
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+
+
+[PDF page 39]
+Report of Independent Accountants
+To the Board of Directors of the Federal Reserve Bank of Richmond:
+We have examined management’s assertion that the Federal Reserve Bank
+of Richmond (“FRB Richmond”) maintained effective internal control over
+ﬁnancial reporting and the safeguarding of assets as they relate to the
+Financial Statements as of December 31, 1998, included in the accompany-
+ing Management’s Assertion.
+Our examination was made in accordance with standards established by
+the American Institute of Certiﬁed Public Accountants, and accordingly,
+included obtaining an understanding of the internal control over ﬁnancial
+reporting, testing, and evaluating the design and operating effectiveness 
+of the internal control, and such other procedures as we considered neces-
+sary in the circumstances. We believe that our examination provides a 
+reasonable basis for our opinion.
+Because of inherent limitations in any internal control, misstatements due
+to error or fraud may occur and not be detected. Also, projections 
+of any evaluation of the internal control over ﬁnancial reporting to future
+periods are subject to the risk that the internal control may become 
+inadequate because of changes in conditions, or that the degree of compli-
+ance with the policies or procedures may deteriorate.
+In our opinion, management’s assertion that the FRB Richmond 
+maintained effective internal control over ﬁnancial reporting and over 
+the safeguarding of assets as they relate to the Financial Statements as of
+December 31, 1998, is fairly stated, in all material respects, based upon 
+criteria described in “Internal Control – Integrated Framework” issued by
+the Committee of Sponsoring Organizations of the Treadway Commission.
+Richmond, Virginia
+March 5, 1999
+31
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+
+
+[PDF page 40]
+Report of Independent Accountants
+To the Board of Governors of The Federal Reserve System
+and the Board of Directors of The Federal Reserve Bank of Richmond:
+We have audited the accompanying statements of condition of The Federal
+Reserve Bank of Richmond (the “Bank”) as of December 31, 1998 and
+1997, and the related statements of income and changes in capital for the
+years then ended. These ﬁnancial statements are the responsibility of the
+Bank’s management. Our responsibility is to express an opinion on the
+ﬁnancial statements based on our audits.
+We conducted our audits in accordance with generally accepted auditing
+standards. Those standards require that we plan and perform the audit to
+obtain reasonable assurance about whether the ﬁnancial statements are
+free of material misstatement. An audit includes examining, on a test basis,
+evidence supporting the amounts and disclosures in the ﬁnancial state-
+ments. An audit also includes assessing the accounting principles used and
+signiﬁcant estimates made by management, as well as evaluating the overall
+ﬁnancial statement presentation. We believe that our audits provide a rea-
+sonable basis for our opinion.
+As discussed in Note 3, the ﬁnancial statements were prepared in confor-
+mity with the accounting principles, policies, and practices established by
+the Board of Governors of The Federal Reserve System. These principles,
+policies, and practices, which were designed to meet the specialized
+accounting and reporting needs of The Federal Reserve System, are set
+forth in the “Financial Accounting Manual for Federal Reserve Banks” and
+constitute a comprehensive basis of accounting other than generally
+accepted accounting principles.
+In our opinion, the ﬁnancial statements referred to above present 
+fairly, in all material respects, the ﬁnancial position of the Bank as of
+December 31, 1998 and 1997, and results of its operations for the years
+then ended, on the basis of accounting described in Note 3.
+Richmond, Virginia
+March 5, 1999
+32
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+
+
+[PDF page 41]
+33
+A S O F
+AS OF 
+(IN MILLIONS)
+D E C E M B E R 3 1 , 1 9 9 8
+DECEMBER 31, 1997
+Assets
+Gold certiﬁcates
+$
+807
+$
+965
+Special drawing rights certiﬁcates
+792
+792
+Coin
+53
+63
+Items in process of collection
+624
+474
+U.S. government and federal agency securities, net
+35,974
+41,294
+Investments denominated in foreign currencies
+3,066
+1,177
+Accrued interest receivable
+340
+391
+Interdistrict settlement account
+4,985
+—
+Bank premises and equipment, net
+201
+217
+Other assets
+85
+86
+Total assets
+$46,927
+$45,459
+Liabilities and Capital
+Liabilities:
+Federal Reserve notes outstanding, net
+$41,577
+$32,459
+Deposits:
+Depository institutions
+1,898
+2,062
+Other deposits
+54
+40
+Deferred credit items
+676
+650
+Surplus transfer due U.S. Treasury
+157
+47
+Interdistrict settlement account
+—
+8,468
+Accrued beneﬁt cost
+64
+59
+Other liabilities
+25
+23
+Total liabilities
+44,451
+43,808
+Capital:
+Capital paid-in
+1,238
+833
+Surplus
+1,238
+818
+Total capital
+2,476
+1,651
+Total liabilities and capital
+$46,927
+$45,459
+The accompanying notes are an integral part of these ﬁnancial statements.
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+Statements of Condition
+
+
+[PDF page 42]
+34
+F O R T H E Y E A R E N D E D
+FOR THE YEAR ENDED
+(IN MILLIONS)
+D E C E M B E R 3 1 , 1 9 9 8
+DECEMBER 31, 1997
+Interest Income:
+Interest on U.S. government securities
+$2,212
+$2,309
+Interest on foreign currencies
+65
+26
+Total interest income
+2,277
+2,335
+Other Operating Income (Loss):
+Income from services
+65
+62
+Reimbursable services to government agencies
+31
+26
+Foreign currency gains (losses), net
+290
+(179)
+Government securities gains, net
+3
+1
+Other income
+4
+2
+Total other operating income (loss)
+393
+(88)
+Operating Expenses:
+Salaries and other beneﬁts
+157
+141
+Occupancy expense
+24
+24
+Equipment expense
+84
+104
+Cost of unreimbursed Treasury services
+—
+6
+Assessments by Board of Governors
+57
+48
+Other expenses (credits)
+(60)
+(57)
+Total operating expenses
+262
+266
+Net income prior to distribution
+$2,408
+$1,981
+Distribution of Net Income:
+Dividends paid to member banks
+$
+61
+$
+34
+Transferred to surplus
+420
+515
+Payments to U.S. Treasury as interest on 
+Federal Reserve notes
+733
+—
+Payments to U.S. Treasury as required by statute 
+1,194
+1,432
+Total distribution
+$2,408
+$1,981
+The accompanying notes are an integral part of these ﬁnancial statements.
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+Statements of Income
+
+
+[PDF page 43]
+35
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+Statements of Changes in Capital
+FOR THE YEARS ENDED DECEMBER 31, 1998
+A ND D ECEMBER 31, 1997
+(IN MILLIONS)
+Capital Paid-in
+Surplus
+Total Capital
+Balance at January 1, 1997
+(6.4 million shares)
+$ 318
+$ 310
+$ 628
+Net income transferred to surplus
+—
+515
+515
+Statutory surplus transfer to the U.S. Treasury
+—
+(7)
+(7)
+Net change in capital stock issued
+(10.3 million shares)
+515
+—
+515
+Balance at December 31, 1997
+(16.7 million shares)
+$ 833
+$ 818
+$1,651
+Net income transferred to surplus
+—
+420
+420
+Net change in capital stock issued
+(8.0 million shares)
+405
+—
+405
+Balance at December 31, 1998
+(24.7 million shares) 
+$1,238
+$1,238
+$2,476
+The accompanying notes are an integral part of these ﬁnancial statements.
+
+
+[PDF page 44]
+36
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+Notes to Financial Statements
+1.
+Organization
+The Federal Reserve Bank of Richmond (“Bank”) is part of the Federal Reserve System (“System”) created by
+Congress under the Federal Reserve Act of 1913 (“Federal Reserve Act”) which established the central bank
+of the United States. The System consists of the Board of Governors of the Federal Reserve System (“Board
+of Governors”) and twelve Federal Reserve Banks (“Reserve Banks”).The Reserve Banks are chartered by the
+federal government and possess a unique set of governmental, corporate, and central bank characteristics.
+Other major elements of the System are the Federal Open Market Committee (“FOMC”), and the Federal
+Advisory Council. The FOMC is composed of members of the Board of Governors, the president of the Fed-
+eral Reserve Bank of New York (“FRBNY”) and, on a rotating basis, four other Reserve Bank presidents.
+Structure
+The Bank and its branches in Baltimore, Maryland, Charlotte, North Carolina, Columbia, South Carolina, and
+Charleston, West Virginia serve the Fifth Federal Reserve District, which includes Maryland, North Carolina,
+South Carolina, Virginia, District of Columbia, and a portion of West Virginia. In accordance with the Federal
+Reserve Act, supervision and control of the Bank is exercised by a Board of Directors. Banks that are mem-
+bers of the System include all national banks and any state chartered bank that applies and is approved for mem-
+bership in the System.
+Board of Directors
+The Federal Reserve Act speciﬁes the composition of the board of directors for each of the Reserve Banks.
+Each board is composed of nine members serving three-year terms: three directors, including those designated
+as Chairman and Deputy Chairman, are appointed by the Board of Governors, and six directors are elected by
+member banks. Of the six elected by member banks, three represent the public and three represent member
+banks. Member banks are divided into three classes according to size. Member banks in each class elect one
+director representing member banks and one representing the public. In any election of directors, each mem-
+ber bank receives one vote, regardless of the number of shares of Reserve Bank stock it holds.
+2.
+Operations and Services
+The System performs a variety of services and operations.Functions include:formulating and conducting mone-
+tary policy;participating actively in the payments mechanism,including large-dollar transfers of funds,automated
+clearinghouse operations and check processing; distribution of coin and currency; ﬁscal agency functions for the
+U.S.Treasury and certain federal agencies; serving as the federal government’s bank; providing short-term loans
+to depository institutions; serving the consumer and the community by providing educational materials and
+information regarding consumer laws; supervising bank holding companies, and state member banks; and admin-
+istering other regulations of the Board of Governors. The Board of Governors’ operating costs are funded
+through assessments on the Reserve Banks.
+The FOMC establishes policy regarding open market operations, oversees these operations, and issues
+authorizations and directives to the FRBNY for its execution of transactions. Authorized transaction types
+include direct purchase and sale of securities, matched sale-purchase transactions, the purchase of securities
+under agreements to resell, and the lending of U.S. government securities. Additionally, the FRBNY is autho-
+rized by the FOMC to hold balances of and to execute spot and forward foreign exchange and securities con-
+tracts in fourteen foreign currencies, maintain reciprocal currency arrangements (“F/X swaps”) with various
+central banks,and “warehouse” foreign currencies for the U.S.Treasury and Exchange Stabilization Fund (“ESF”)
+through the Reserve Banks.
+3.
+Signiﬁcant Accounting Policies
+Accounting principles for entities with the unique powers and responsibilities of the nation’s central bank have
+not been formulated by the Financial Accounting Standards Board.The Board of Governors has developed spe-
+cialized accounting principles and practices that it believes are appropriate for the signiﬁcantly different nature
+and function of a central bank as compared to the private sector.These accounting principles and practices are
+documented in the “Financial Accounting Manual for Federal Reserve Banks” (“Financial Accounting Manual”),
+
+
+[PDF page 45]
+37
+which is issued by the Board of Governors. All Reserve Banks are required to adopt and apply accounting poli-
+cies and practices that are consistent with the Financial Accounting Manual.
+The ﬁnancial statements have been prepared in accordance with the Financial Accounting Manual. Differ-
+ences exist between the accounting principles and practices of the System and generally accepted accounting
+principles (“GAAP”). The primary differences are the presentation of all security holdings at amortized cost,
+rather than at the fair value presentation requirements of GAAP, and the accounting for matched sale-purchase
+transactions as separate sales and purchases, rather than secured borrowings with pledged collateral, as is
+required by GAAP. In addition, the Bank has elected not to present a Statement of Cash Flows or a Statement
+of Comprehensive Income. The Statement of Cash Flows has not been included as the liquidity and cash posi-
+tion of the Bank are not of primary concern to the users of these ﬁnancial statements.The Statement of Com-
+prehensive Income, which comprises net income plus or minus certain adjustments, such as the fair value
+adjustment for securities, has not been included because as stated above the securities are recorded at amor-
+tized cost and there are no other adjustments in the determination of Comprehensive Income applicable to
+the Bank. Other information regarding the Bank’s activities is provided in, or may be derived from, the State-
+ments of Condition, Income, and Changes in Capital. Therefore, a Statement of Cash Flows or a Statement of
+Comprehensive Income would not provide any additional useful information.There are no other signiﬁcant dif-
+ferences between the policies outlined in the Financial Accounting Manual and GAAP.
+The preparation of the ﬁnancial statements in conformity with the Financial Accounting Manual requires
+management to make certain estimates and assumptions that affect the reported amounts of assets and liabil-
+ities and disclosure of contingent assets and liabilities at the date of the ﬁnancial statements and the reported
+amounts of income and expenses during the reporting period. Actual results could differ from those estimates.
+Unique accounts and signiﬁcant accounting policies are explained below.
+a. Gold Certiﬁcates
+The Secretary of the Treasury is authorized to issue gold certiﬁcates to the Reserve Banks to monetize gold
+held by the U.S. Treasury. Payment for the gold certiﬁcates by the Reserve Banks is made by crediting equiva-
+lent amounts in dollars into the account established for the U.S. Treasury. These gold certiﬁcates held by the
+Reserve Banks are required to be backed by the gold of the U.S. Treasury.The U.S. Treasury may reacquire the
+gold certiﬁcates at any time and the Reserve Banks must deliver them to the U.S. Treasury. At such time, the
+U.S. Treasury’s account is charged and the Reserve Banks’ gold certiﬁcate accounts are lowered. The value of
+gold for purposes of backing the gold certiﬁcates is set by law at $42 2/9 a ﬁne troy ounce.The Board of Gov-
+ernors allocates the gold certiﬁcates among Reserve Banks once a year based upon Federal Reserve notes out-
+standing in each District at the end of the preceding year.
+b. Special Drawing Rights Certiﬁcates
+Special drawing rights (“SDRs”) are issued by the International Monetary Fund (“Fund”) to its members in pro-
+portion to each member’s quota in the Fund at the time of issuance. SDRs serve as a supplement to interna-
+tional monetary reserves and may be transferred from one national monetary authority to another. Under the
+law providing for United States participation in the SDR system, the Secretary of the U.S. Treasury is autho-
+rized to issue SDR certiﬁcates, somewhat like gold certiﬁcates, to the Reserve Banks. At such time, equivalent
+amounts in dollars are credited to the account established for the U.S. Treasury, and the Reserve Banks’ SDR
+certiﬁcate accounts are increased. The Reserve Banks are required to purchase SDRs, at the direction of the
+U.S. Treasury, for the purpose of ﬁnancing SDR certiﬁcate acquisitions or for ﬁnancing exchange stabilization
+operations.The Board of Governors allocates each SDR transaction among Reserve Banks based upon Federal
+Reserve notes outstanding in each District at the end of the preceding year.
+c. Loans to Depository Institutions
+The Depository Institutions Deregulation and Monetary Control Act of 1980 provides that all depository insti-
+tutions that maintain reservable transaction accounts or nonpersonal time deposits, as deﬁned in Regulation D
+issued by the Board of Governors, have borrowing privileges at the discretion of the Reserve Banks. Borrowers
+execute certain lending agreements and deposit sufﬁcient collateral before credit is extended. Loans are eval-
+uated for collectibility, and currently all are considered collectible and fully collateralized. If any loans were
+deemed to be uncollectible, an appropriate reserve would be established. Interest is recorded on the accrual
+basis and is charged at the applicable discount rate established at least every fourteen days by the Board of
+Directors of the Reserve Banks, subject to review by the Board of Governors. However, Reserve Banks retain
+the option to impose a surcharge above the basic rate in certain circumstances. There were no outstanding
+loans to depository institutions at December 31, 1998 and 1997 respectively.
+
+
+[PDF page 46]
+38
+d. U.S. Government and Federal Agency Securities 
+and Investments Denominated in Foreign Currencies
+The FOMC has designated the FRBNY to execute open market transactions on its behalf and to hold the result-
+ing securities in the portfolio known as the System Open Market Account (“SOMA”). In addition to authorizing
+and directing operations in the domestic securities market,the FOMC authorizes and directs the FRBNY to exe-
+cute operations in foreign markets for major currencies in order to counter disorderly conditions in exchange
+markets or other needs speciﬁed by the FOMC in carrying out the System’s central bank responsibilities.
+Purchases of securities under agreements to resell and matched sale-purchase transactions are account-
+ed for as separate sale and purchase transactions. Purchases under agreements to resell are transactions in
+which the FRBNY purchases a security and sells it back at the rate speciﬁed at the commencement of the trans-
+action. Matched sale-purchase transactions are transactions in which the FRBNY sells a security and buys it
+back at the rate speciﬁed at the commencement of the transaction.
+Reserve Banks are authorized by the FOMC to lend U.S. government securities held in the SOMA to U.S.
+government securities dealers and to banks participating in U.S.government securities clearing arrangements,in
+order to facilitate the effective functioning of the domestic securities market. These securities-lending transac-
+tions are fully collateralized by other U.S.government securities.FOMC policy requires the lending Reserve Bank
+to take possession of collateral in amounts in excess of the market values of the securities loaned. The market
+values of the collateral and the securities loaned are monitored by the lending Reserve Bank on a daily basis,with
+additional collateral obtained as necessary. The securities loaned continue to be accounted for in the SOMA.
+Foreign exchange contracts are contractual agreements between two parties to exchange speciﬁed cur-
+rencies, at a speciﬁed price, on a speciﬁed date. Spot foreign contracts normally settle two days after the trade
+date, whereas the settlement date on forward contracts is negotiated between the contracting parties, but will
+extend beyond two days from the trade date. The FRBNY generally enters into spot contracts, with any for-
+ward contracts generally limited to the second leg of a swap/warehousing transaction.
+The FRBNY,on behalf of the Reserve Banks,maintains renewable,short-term F/X swap arrangements with
+authorized foreign central banks. The parties agree to exchange their currencies up to a pre-arranged maxi-
+mum amount and for an agreed upon period of time (up to twelve months), at an agreed upon interest rate.
+These arrangements give the FOMC temporary access to foreign currencies that it may need for intervention
+operations to support the dollar and give the partner foreign central bank temporary access to dollars it may
+need to support its own currency. Drawings under the F/X swap arrangements can be initiated by either the
+FRBNY or the partner foreign central bank, and must be agreed to by the drawee. The F/X swaps are struc-
+tured so that the party initiating the transaction (the drawer) bears the exchange rate risk upon maturity. The
+FRBNY will generally invest the foreign currency received under an F/X swap in interest-bearing instruments.
+Warehousing is an arrangement under which the FOMC agrees to exchange, at the request of the Trea-
+sury, U.S. dollars for foreign currencies held by the Treasury or ESF over a limited period of time. The purpose
+of the warehousing facility is to supplement the U.S. dollar resources of the Treasury and ESF for ﬁnancing pur-
+chases of foreign currencies and related international operations.
+In connection with its foreign currency activities, the FRBNY, on behalf of the Reserve Banks, may enter
+into contracts which contain varying degrees of off-balance sheet market risk, because they represent con-
+tractual commitments involving future settlement, and counter-party credit risk. The FRBNY controls credit
+risk by obtaining credit approvals, establishing transaction limits, and performing daily monitoring procedures.
+While the application of current market prices to the securities currently held in the SOMA portfolio and
+investments denominated in foreign currencies may result in values substantially above or below their carrying
+values, these unrealized changes in value would have no direct effect on the quantity of reserves available to
+the banking system or on the prospects for future Reserve Bank earnings or capital. Both the domestic and
+foreign components of the SOMA portfolio from time to time involve transactions that can result in gains or
+losses when holdings are sold prior to maturity. However, decisions regarding the securities and foreign cur-
+rencies transactions, including their purchase and sale, are motivated by monetary policy objectives rather than
+proﬁt. Accordingly, earnings and any gains or losses resulting from the sale of such currencies and securities are
+incidental to the open market operations and do not motivate its activities or policy decisions.
+U.S.government and federal agency securities and investments denominated in foreign currencies compris-
+ing the SOMA are recorded at cost, on a settlement-date basis, and adjusted for amortization of premiums or
+accretion of discounts on a straight-line basis. Interest income is accrued on a straight-line basis and is reported
+as“Interest on U.S.government securities” or“Interest on foreign currencies,” as appropriate.Income earned on
+securities lending transactions is reported as a component of “Other income.” Gains and losses resulting from
+sales of securities are determined by speciﬁc issues based on average cost. Gains and losses on the sales of U.S.
+government and federal agency securities are reported as “Government securities gains, net.” Foreign currency
+denominated assets are revalued monthly at current market exchange rates in order to report these assets in
+U.S. dollars. Realized and unrealized gains and losses on investments denominated in foreign currencies are
+
+
+[PDF page 47]
+39
+reported as “Foreign currency gains (losses), net.” Foreign currencies held through F/X swaps, when initiated
+by the counter party, and warehousing arrangements are revalued monthly, with the unrealized gain or loss
+reported by the FRBNY as a component of “Other assets” or “Other liabilities,” as appropriate.
+Balances of U.S. government and federal agencies securities bought outright, investments denominated in
+foreign currency, interest income, amortization of premiums and discounts on securities bought outright, gains
+and losses on sales of securities,and realized and unrealized gains and losses on investments denominated in for-
+eign currencies,excluding those held under an F/X swap arrangement,are allocated to each Reserve Bank.Secu-
+rities purchased under agreements to resell and the related premiums,discounts and income,and unrealized gains
+and losses on the revaluation of foreign currency holdings under F/X swaps and warehousing arrangements are
+allocated to the FRBNY and not to other Reserve Banks. Income from securities lending transactions is recog-
+nized only by the lending Reserve Bank.
+e. Bank Premises and Equipment
+Bank premises and equipment are stated at cost less accumulated depreciation. Depreciation is calculated on
+a straight-line basis over estimated useful lives of assets ranging from 2 to 50 years. New assets, major alter-
+ations, renovations and improvements are capitalized at cost as additions to the asset accounts. Maintenance,
+repairs and minor replacements are charged to operations in the year incurred.
+f. Interdistrict Settlement Account
+At the close of business each day, all Reserve Banks and branches assemble the payments due to or from other
+Reserve Banks and branches as a result of transactions involving accounts residing in other Districts that
+occurred during the day’s operations. Such transactions may include funds settlement, check clearing and auto-
+mated clearinghouse (“ACH”) operations, and allocations of shared expenses. The cumulative net amount due
+to or from other Reserve Banks is reported as the “Interdistrict settlement account.”
+g. Federal Reserve Notes
+Federal Reserve notes are the circulating currency of the United States. These notes are issued through the
+various Federal Reserve agents to the Reserve Banks upon deposit with such Agents of certain classes of col-
+lateral security, typically U.S. government securities. These notes are identiﬁed as issued to a speciﬁc Reserve
+Bank. The Federal Reserve Act provides that the collateral security tendered by the Reserve Bank to the Fed-
+eral Reserve Agent must be equal to the sum of the notes applied for by such Reserve Bank. In accordance
+with the Federal Reserve Act, gold certiﬁcates, special drawing rights certiﬁcates, U.S. government and agency
+securities, loans allowed under Section 13, and investments denominated in foreign currencies are pledged as
+collateral for net Federal Reserve notes outstanding. The collateral value is equal to the book value of the col-
+lateral tendered, with the exception of securities, whose collateral value is equal to the par value of the secu-
+rities tendered. The Board of Governors may, at any time, call upon a Reserve Bank for additional security to
+adequately collateralize the Federal Reserve notes.To satisfy its obligation to provide sufﬁcient collateral for its
+outstanding Federal Reserve notes, the Reserve Banks have entered into an agreement that provides that cer-
+tain assets of the Reserve Banks are jointly pledged as collateral for the Federal Reserve notes of all Reserve
+Banks. In the event that this collateral is insufﬁcient, the Federal Reserve Act provides that Federal Reserve
+notes become a ﬁrst and paramount lien on all the assets of the Reserve Banks. Finally, as obligations of the
+United States, Federal Reserve notes are backed by the full faith and credit of the United States government.
+The “Federal Reserve notes outstanding, net” account represents Federal Reserve notes reduced by cash
+held in the vaults of the Bank of $9,343 million,and $6,713 million at December 31,1998 and 1997,respectively.
+h. Capital Paid-in
+The Federal Reserve Act requires that each member bank subscribe to the capital stock of the Reserve Bank
+in an amount equal to 6% of the capital and surplus of the member bank. As a member bank’s capital and surplus
+changes, its holdings of the Reserve Bank’s stock must be adjusted. Member banks are those state-chartered
+banks that apply and are approved for membership in the System and all national banks. Currently, only one-
+half of the subscription is paid-in and the remainder is subject to call. These shares are nonvoting with a par
+value of $100. They may not be transferred or hypothecated. By law, each member bank is entitled to receive
+an annual dividend of 6% on the paid-in capital stock. This cumulative dividend is paid semiannually. A member
+bank is liable for Reserve Bank liabilities up to twice the par value of stock subscribed by it.
+i. Surplus
+The Board of Governors requires Reserve Banks to maintain a surplus equal to the amount of capital paid-in as
+of December 31.This amount is intended to provide additional capital and reduce the possibility that the Reserve
+Banks would be required to call on member banks for additional capital. Reserve Banks are required by the
+Board of Governors to transfer to the U.S. Treasury excess earnings, after providing for the costs of opera-
+tions, payment of dividends, and reservation of an amount necessary to equate surplus with capital paid-in. Pay-
+ments made after September 30, 1998 represent payment of interest on Federal Reserve notes outstanding.
+
+
+[PDF page 48]
+40
+The Omnibus Budget Reconciliation Act of 1993 (Public Law 103-66, Section 3002) codiﬁed the existing
+Board surplus policies as statutory surplus transfers, rather than as payments of interest on Federal Reserve
+notes, for federal government ﬁscal years 1998 and 1997 (which began on October 1, 1997 and 1996, respec-
+tively). In addition, the legislation directed the Reserve Banks to transfer to the U.S.Treasury additional surplus
+funds of $107 million and $106 million during ﬁscal years 1998 and 1997, respectively. Reserve Banks were not
+permitted to replenish surplus for these amounts during this time.The Reserve Banks made these transfers on
+October 1, 1997 and October 1, 1996, respectively.The Bank’s share of the 1997 transfer is reported as “Statu-
+tory surplus transfer to the U.S. Treasury.”
+In the event of losses,payments to the U.S.Treasury are suspended until such losses are recovered through
+subsequent earnings. Weekly payments to the U.S. Treasury vary signiﬁcantly.
+j. Cost of Unreimbursed Treasury Services
+The Bank is required by the Federal Reserve Act to serve as ﬁscal agent and depository of the United States.
+By statute, the Department of the Treasury is permitted, but not required, to pay for these services. The costs
+of providing ﬁscal agency and depository services to the Treasury Department that have been billed but will
+not be paid are reported as the “Cost of unreimbursed Treasury services.” 
+k.Taxes
+The Reserve Banks are exempt from federal, state, and local taxes, except for taxes on real property, which are
+reported as a component of “Occupancy expense.”
+4.
+U.S. Government and Federal Agency Securities
+Securities bought outright and held under agreements to resell are held in the SOMA at the FRBNY. An undi-
+vided interest in SOMA activity, with the exception of securities held under agreements to resell and the
+related premiums, discounts and income, is allocated to each Reserve Bank on a percentage basis derived from
+an annual settlement of interdistrict clearings. The settlement, performed in April of each year, equalizes
+Reserve Bank gold certiﬁcate holdings to Federal Reserve notes outstanding. The Bank’s allocated share of
+SOMA balances was approximately 7.877% and 9.515% at December 31, 1998 and 1997, respectively.
+The Bank’s allocated share of securities held in the SOMA at December 31, that were bought outright,
+were as follows (in millions):
+1998
+1997
+Par value:
+Federal agency
+$
+27
+$
+65
+U.S. government:
+Bills
+15,343
+18,756
+Notes
+14,801
+16,575
+Bonds
+5,473
+5,652
+Total par value
+35,644
+41,048
+Unamortized premiums
+582
+590
+Unaccreted discounts
+(252)
+(344)
+Total allocated to Bank
+$35,974
+$41,294
+Total SOMA securities bought outright were $456,667 million and $434,001 million at December 31, 1998 and
+1997, respectively.
+The maturities of U.S. government and federal agency securities bought outright, which were allocated to
+the Bank at December 31, 1998, were as follows (in millions):
+Par value
+U.S. Government
+Federal Agency
+Maturities of Securities Held
+Securities
+Obligations
+Total
+Within 15 days
+$
+91
+$—
+$
+91
+16 days to 90 days
+7,809
+2
+7,811
+91 days to 1 year
+11,315
+6
+11,321
+Over 1 year to 5 years
+8,486
+5
+8,491
+Over 5 years to 10 years
+3,531
+14
+3,545
+Over 10 years
+4,385
+—
+4,385
+Total
+$35,617
+$27
+$35,644
+
+
+[PDF page 49]
+41
+At December 31, 1998, and 1997, matched sale-purchase transactions involving U.S. government securities
+with par values of $20,927 million and $17,027 million, respectively, were outstanding, of which $1,648 million
+and $1,620 million were allocated to the Bank. Matched sale-purchase transactions are generally overnight
+arrangements.
+5.
+Investments Denominated in Foreign Currencies
+The FRBNY, on behalf of the Reserve Banks, holds foreign currency deposits with foreign central banks and the
+Bank for International Settlements and invests in foreign government debt instruments. Foreign government
+debt instruments held include both securities bought outright and securities held under agreements to resell.
+These investments are guaranteed as to principal and interest by the foreign governments.
+Each Reserve Bank is allocated a share of foreign-currency-denominated assets,the related interest income,
+and realized and unrealized foreign currency gains and losses, with the exception of unrealized gains and losses
+on F/X swaps and warehousing transactions.This allocation is based on the ratio of each Reserve Bank’s capital
+and surplus to aggregate capital and surplus at the preceding December 31. The Bank’s allocated share of invest-
+ments denominated in foreign currencies was approximately 15.499% and 6.906% at December 31, 1998 and
+1997, respectively.
+The Bank’s allocated share of investments denominated in foreign currencies, valued at current exchange
+rates at December 31, were as follows (in millions):
+1998
+1997
+German Marks:
+Foreign currency deposits
+$1,620
+$ 571
+Government debt instruments including
+368
+222
+agreements to resell
+Japanese Yen:
+Foreign currency deposits
+103
+40
+Government debt instruments including
+960
+338
+agreements to resell
+Accrued interest
+15
+6
+Total
+$3,066
+$1,177
+Total investments denominated in foreign currencies were $19,769 million and $17,046 million at December
+31, 1998 and 1997, respectively, which include $15 million and $3 million in unearned interest for 1998 and
+1997 respectively, collected on certain foreign currency holdings that is allocated solely to the FRBNY.
+The maturities of investments denominated in foreign currencies which were allocated to the Bank at
+December 31, 1998, were as follows (in millions):
+Maturities of Investments Denominated in Foreign Currencies
+Within 1 year
+$2,917
+Over 1 year to 5 years
+77
+Over 5 years to 10 years
+72
+Total
+$3,066
+At December 31, 1998 and 1997, there were no open foreign exchange contracts or outstanding F/X swaps.
+At December 31, 1998, the warehousing facility was $5,000 million, with nothing outstanding.
+
+
+[PDF page 50]
+42
+6.
+Bank Premises and Equipment
+A summary of bank premises and equipment at December 31 is as follows (in millions):
+1998
+1997
+Bank premises and equipment:
+Land
+$ 16
+$ 16
+Buildings
+115
+115
+Building machinery and equipment 
+32
+31
+Construction in progress 
+3
+1
+Furniture and equipment 
+288
+310
+454
+473
+Accumulated depreciation 
+(253)
+(256)
+Bank premises and equipment, net 
+$201
+$217
+Depreciation expense was $44 million and $61 million for the years ended December 31, 1998 and 1997,
+respectively.
+Bank premises and equipment at December 31 include the following amounts for leases that have been
+capitalized (in millions):
+1998
+1997
+Bank premises and equipment
+$86
+$77
+Accumulated depreciation
+(77)
+(66)
+Capitalized leases, net
+$ 9
+$11
+The Bank leases unused space to outside tenants.Those leases have terms ranging from 1 to 3 years.Rental income
+from such leases was $1.4 million and $1.3 million for the years ended December 31, 1998 and 1997, respec-
+tively. Future minimum lease payments under agreements in existence at December 31, 1998, were (in millions):
+1999
+$1.2
+2000
+1.0
+2001
+0.9
+$3.1
+7.
+Commitments and Contingencies
+At December 31, 1998, the Bank was obligated under noncancelable leases for premises and equipment with
+terms ranging from 1 to approximately 6 years. These leases provide for increased rentals based upon increas-
+es in real estate taxes, operating costs or selected price indices.
+Rental expense under operating leases for certain operating facilities, warehouses, and data processing and
+ofﬁce equipment (including taxes, insurance and maintenance when included in rent), net of sublease rentals,
+was $37 million and $38 million for the years ended December 31, 1998 and 1997, respectively. Certain of the
+Bank’s leases have options to renew.
+Future minimum rental payments under noncancelable operating leases and capital leases, net of sublease
+rentals, with terms of one year or more, at December 31, 1998, were (in millions):
+Operating
+Capital
+1999
+$1.3
+$0.7
+2000
+0.9
+0.5
+2001
+0.6
+0.4
+2002
+0.3
+—
+2003
+0.2
+—
+Thereafter
+0.1
+—
+$3.4
+1.6
+Less: Amount representing interest 
+(0.1)
+Present value of net minimum lease payment 
+$1.5
+At December 31, 1998, there were no other commitments and long-term obligations in excess of one year.
+
+
+[PDF page 51]
+43
+Under the Insurance Agreement of the Federal Reserve Banks dated as of June 7, 1994, each of the
+Reserve Banks has agreed to bear, on a per incident basis, a pro rata share of losses in excess of 1% of the cap-
+ital of the claiming Reserve Bank, up to 50% of the total capital and surplus of all Reserve Banks. Losses are
+borne in the ratio that a Reserve Bank’s capital bears to the total capital of all Reserve Banks at the beginning
+of the calendar year in which the loss is shared. No claims were outstanding under such agreement at Decem-
+ber 31, 1998 or 1997.
+The Bank is involved in certain legal actions and claims arising in the ordinary course of business. Although
+it is difﬁcult to predict the ultimate outcome of these actions, in management’s opinion, based on discussions
+with counsel, the aforementioned litigation and claims will be resolved without material adverse effect on the
+ﬁnancial position or results of operations of the Bank.
+8.
+Retirement and Thrift Plans
+Retirement Plans
+The Bank currently offers two deﬁned beneﬁt retirement plans to its employees, based on length of service and
+level of compensation. Substantially all of the Bank’s employees participate in the Retirement Plan for Employ-
+ees of the Federal Reserve System (“System Plan”) and the Beneﬁt Equalization Retirement Plan (“BEP”). The
+System Plan is a multi-employer plan with contributions fully funded by participating employers. No separate
+accounting is maintained of assets contributed by the participating employers. The Bank’s projected beneﬁt
+obligation and net pension costs for the BEP at December 31, 1998 and 1997, and for the years then ended,
+are not material.
+Thrift plan
+Employees of the Bank may also participate in the deﬁned contribution Thrift Plan for Employees of the Fed-
+eral Reserve System (“Thrift Plan”). The Bank’s Thrift Plan contributions totaled $3 million and $4 million for
+the years ended December 31, 1998 and 1997, respectively, and are reported as a component of “Salaries and
+other beneﬁts.”
+9.
+Postretirement Beneﬁts Other Than Pensions and Postemployment Beneﬁts
+Postretirement beneﬁts other than pensions:
+In addition to the Bank’s retirement plans, employees who have met certain age and length of service require-
+ments are eligible for both medical beneﬁts and life insurance coverage during retirement.
+The Bank funds beneﬁts payable under the medical and life insurance plans as due and, accordingly, has no
+plan assets. Net postretirement beneﬁt cost is actuarially determined using a January 1 measurement date.
+Following is a reconciliation of beginning and ending balances of the beneﬁt obligation (in millions):
+1998
+1997
+Accumulated postretirement beneﬁt obligation at January 1
+$54.1
+$54.9
+Service cost-beneﬁts earned during the period
+1.8
+1.6
+Interest cost of accumulated beneﬁt obligation
+3.9
+3.7
+Actuarial loss (gain)
+9.3
+(4.4)
+Contributions by plan participants
+0.3
+0.3
+Beneﬁts paid
+(2.2)
+(2.0)
+Plan amendments, acquisitions, foreign currency exchange 
+rate changes, business combinations, divestitures,
+curtailments, settlements, special termination beneﬁts
+—
+—
+Accumulated postretirement beneﬁt obligation at December 31
+$67.2
+$54.1
+
+
+[PDF page 52]
+44
+Following is a reconciliation of the beginning and ending balance of the plan assets, the unfunded postretire-
+ment beneﬁt obligation, and the accrued postretirement beneﬁt cost (in millions):
+1998
+1997
+Fair value of plan assets at January 1 
+$ —
+$ —
+Actual return on plan assets 
+—
+—
+Contributions by the employer 
+1.9
+1.7
+Contributions by plan participants 
+0.3
+0.3
+Beneﬁts paid 
+(2.2)
+(2.0)
+Fair value of plan assets at December 31
+$ —
+$ —
+Unfunded postretirement beneﬁt obligation
+$67.2
+$54.1
+Unrecognized initial net transition asset (obligation) 
+—
+(1.4)
+Unrecognized prior service cost 
+0.7
+0.6
+Unrecognized net actuarial gain (loss)
+(12.7)
+(1.8)
+Accrued postretirement beneﬁt cost
+$55.2
+$51.5
+Accrued postretirement beneﬁt cost is reported as a component of “Accrued beneﬁt cost.”
+The weighted-average assumption used in developing the postretirement beneﬁt obligation as of Decem-
+ber 31 is as follows:
+1998
+1997
+Discount rate
+6.25%
+7.00%
+For measurement purposes, an 8.5% annual rate of increase in the cost of covered health care beneﬁts was
+assumed for 1999. Ultimately, the health care cost trend rate is expected to decrease gradually to 4.75% by
+2006, and remain at that level thereafter.
+Assumed health care cost trend rates have a signiﬁcant effect on the amounts reported for health care
+plans. A one percentage point change in assumed health care cost trend rates would have the following effects
+for the year ended December 31, 1998 (in millions):
+1 Percentage
+1 Percentage
+Point Increase
+Point Decrease
+Effect on aggregate of service and interest cost components 
+of net periodic postretirement beneﬁt cost
+$ 1.2
+$ (1.1)
+Effect on accumulated postretirement beneﬁt obligation
+13.0
+(12.2)
+The following is a summary of the components of net periodic postretirement beneﬁt cost for the years ended
+December 31 (in millions):
+1998
+1997
+Service cost-beneﬁts earned during the period
+$1.8
+$1.6
+Interest cost of accumulated beneﬁt obligation
+3.9
+3.7
+Amortization of prior service cost
+—
+—
+Recognized net actuarial loss
+—
+—
+Net periodic postretirement beneﬁt cost
+$5.7
+$5.3
+Net periodic postretirement beneﬁt cost is reported as a component of “Salaries and other beneﬁts.”
+Postemployment beneﬁts:
+The Bank offers beneﬁts to former or inactive employees. Postemployment beneﬁt costs are actuarially deter-
+mined and include the cost of medical and dental insurance, survivor income, and disability beneﬁts. Costs were
+projected using the same discount rate and health care trend rates as were used for projecting postretirement
+costs. The accrued postemployment beneﬁt costs recognized by the Banks at December 31, 1998 and 1997,
+were $8.8 million and $7.6 million, respectively. This cost is included as a component of “Accrued beneﬁt cost.”
+Net periodic postemployment beneﬁt costs included in 1998 and 1997 operating expenses were $1.9 million
+and $1.8 million, respectively.
+
+
+[PDF page 53]
+45
+F E D E R A L R E S E R V E B A N K O F R I C H M O N D
+Summary of Operations
+(UNAUDITED)
+DOLLAR AMOUNT
+VOLUME
+1 9 9 8
+1997
+1 9 9 8
+1997
+Cash
+Currency received and counted
+30.9 Billion
+35.8 Billion
+2.5 Billion
+2.5 Billion
+Currency destroyed
+7.0 Billion
+8.2 Billion
+609.5 Million
+711.9 Million
+Coin bags received and counted
+71.5 Million
+106.7 Million
+124.5 Thousand 184.4 Thousand
+Noncash Payments
+Commercial checks processed
+1.2 Trillion
+1.0 Trillion
+1.6 Billion
+1.5 Billion
+Commercial checks, packaged 
+items handled
+494.2 Billion
+274.3 Billion
+783.2 Million
+578.1 Million
+U.S. government checks processed
+62.2 Billion
+76.3 Billion
+35.7 Million
+43.6 Million
+Automated Clearing House transactions:
+Commercial
+650.5 Billion
+586.2 Billion
+178.0 Million
+150.8 Million
+Government
+347.3 Billion
+382.1 Billion
+17.8 Million
+17.6 Million
+Fedwire funds transfers
+18.7 Trillion
+18.5 Trillion
+9.9 Million
+7.8 Million
+Loans to Depository Institutions
+Discount window loans made
+2.0 Billion
+3.5 Billion
+39
+33
+Securities Services
+Safekeeping balance of book-entry 
+securities as of December 31
+278.0 Billion
+180.1 Billion
+N/A
+N/A
+Fedwire securities transfers
+10.1 Trillion
+5.2 Trillion
+674.9 Thousand 489.5 Thousand
+Services to U.S. Treasury and Government Agencies
+Issues, redemptions and exchanges 
+of U.S. savings bonds
+760.2 Million
+935.0 Million
+8.8 Million
+8.6 Million
+Federal tax deposits processed
+239.8 Million
+263.5 Million
+10.9 Thousand
+12.4 Thousand
+Food stamps redeemed
+902.7 Million
+1.1 Billion
+176.1 Million
+211.2 Million
+N/A = not applicable
+
+
+[PDF page 54]
+Editor: Elaine M. Mandaleris
+Managing Editor: Alice Felmlee
+Design Firm: Communication Design, Inc.
+Design – Bil Cullen
+Illustration – Robert J. Meganck
+Photographer: Mark Mitchell
+Printer: Cadmus Graphic Solutions
+Feature Article
+For valuable comments the author is indebted to his Richmond Fed colleagues 
+Alice Felmlee, Marvin Goodfriend, Bob Hetzel, Elaine Mandaleris, and Ned Prescott.
+Feature Article Timeline
+Research: Alice Felmlee and Thomas M. Humphrey
+Text: Thomas M. Humphrey
+Chart Research: Jeff Walker. We would also like to thank Mark Thomas and
+Richard Vedder for their helpful input.
+We especially thank Faye Ball for valuable research and production assistance,
+and Anne Hallerman and Rowena Johnson for research assistance.
+Artwork: Mark Blaug deserves special thanks for allowing us to use photos 
+of economists from his books Great Economists before and since Keynes.
+1800 Woodcuts by Thomas Bewick and his School, Dover Publications – 
+Trading scene (p. 7)
+Corbis Images – Yarn-spinning plant (pp. 9, 14)
+The Edison and Ford Winter Estates – The Edison Effect (p. 18)
+Federal Reserve Bank of Minneapolis – Anna Schwartz photo (p. 23)
+Handbook of Early Advertising Art, Dover Publications – Civil War (p. 16)
+The Library of Congress – Signing of the Declaration of Independence (p. 11),
+Prospector photo (p. 15), First Flight (p. 19), WWI poster (p. 20)
+The Library of Virginia – The Liberty of the Subject (p. 12), WWII photo (p. 22)
+National Archives and Records Administration – Great Depression photo (p. 21)
+PhotoDisc, Inc. – Personal computer photo (p. 24)
+The Thomas Jefferson Memorial Foundation, Inc. – Spinning jenny (p. 8)
+University of Rochester, History Department – Steam pump (p. 6)
+The Woodrow Wilson National Fellowship Foundation – DNA (p. 22)

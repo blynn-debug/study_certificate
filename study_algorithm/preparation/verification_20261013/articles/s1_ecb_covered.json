@@ -1,0 +1,41 @@
+{
+  "source_id": "s1_ecb_covered",
+  "source_metadata": {
+    "id": "s1_ecb_covered",
+    "requested_url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/ecb.anaq.200131.0008.en.html",
+    "retrieved_url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/ecb.anaq.200131.0008.en.html",
+    "retrieved_at": "2026-10-13T16:38:53.699358+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "http_status": 200,
+    "downloaded_bytes": 113565,
+    "content_sha256": "05bfc3c32f00a01f86efddf8e0ffcebd96e4bdc111a445efcf020954428785bd",
+    "text_sha256": "d5ee95f4f7cd7dea92a793104251e41d158e5d78619967684adc61030942f098",
+    "characters": 25738,
+    "tls_verify_result": 0,
+    "download_verification": "curl exit 0; HTTP failure checking; byte count matches transfer; system TLS verification enabled",
+    "status": "retrieved_not_claim_verified"
+  },
+  "items": [
+    {
+      "id": "s1_ecb_covered:발행자상환구조",
+      "source_id": "s1_ecb_covered",
+      "article": "발행자상환구조",
+      "heading": "발행자상환구조",
+      "text": "Covered bonds are debt obligations issued by credit institutions that are secured against a pool of assets (the “cover pool”) to which bondholders have recourse in the case of default by the credit institution. Depending on the legal and regulatory environment, the ring-fencing of the cover pool may be given effect through a transfer of loans to a special purpose vehicle (SPV) which acts as guarantor to the covered bonds. The issuance of covered bonds differs from securitisation involving a transfer of loans to a securitisation vehicle – i.e. a financial vehicle corporation (FVC) – as the asset-backed securities issued by the FVC do not represent the obligations of the originating credit institution; instead, investors are only exposed to the performance of the securitised assets.",
+      "start": 12106,
+      "end": 12897,
+      "sha256": "976abf1f1c5957ec9dbd1e2b7b743ab5e2f539d77831144bd2fd8d423b8aeaa5"
+    },
+    {
+      "id": "s1_ecb_covered:위험잔존",
+      "source_id": "s1_ecb_covered",
+      "article": "위험잔존",
+      "heading": "위험잔존",
+      "text": "For easier identification of the features of covered bond structures relevant for the purpose of AnaCredit reporting, the following is assumed:\nthe cover pool is transferred to the SPV in a sale;\nthe sale of the loans is done such that it qualifies as a legal sale (i.e. the SPV holds the title to the loans in the cover pool);\nthe transfer of the cover pool does not qualify for derecognition from the books of the transferor, as the risks in the cover pool, including but not limited to default, prepayment or partial prepayment risk, are retained by the issuer[2];\nthe SPV buys the cover pool loans by way of a deferred purchase price (i.e. the price is kept unpaid);\nthe payment of sale by the SPV is subordinated – in the event of default of the issuer, cash flows from the cover loans are first used to repay the obligations arising under the covered bonds, and the excess, if any, is paid to the issuer of the covered bonds;\nthe issuer continues to collect and service the cash flows from the cover pool.",
+      "start": 18023,
+      "end": 19034,
+      "sha256": "ff7f05d970b743ca27bc6dd8ff3ecc19fafc5f08a4381ced0587ab47ba0133a1"
+    }
+  ]
+}

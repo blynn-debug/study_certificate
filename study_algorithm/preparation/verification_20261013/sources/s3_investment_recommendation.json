@@ -1,0 +1,12 @@
+{
+  "id": "s3_investment_recommendation",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1743&seq=149",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1743&seq=149",
+  "retrieved_at": "2026-10-14T00:11:21.838766+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 48840,
+  "content_sha256": "12f7fd5d2ec746f6166b7451e5b93fa27cb02b15a6ed37736f6b2881dba8a4e5",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

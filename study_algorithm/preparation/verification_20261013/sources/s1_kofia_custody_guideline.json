@@ -1,0 +1,12 @@
+{
+  "id": "s1_kofia_custody_guideline",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1441&seq=345",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1441&seq=345",
+  "retrieved_at": "2026-10-13T23:46:44.417212+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 30722,
+  "content_sha256": "308e5077bdf7992ccf463a45fa35b1ae580bf23f06a8cc10babba371b86b534e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

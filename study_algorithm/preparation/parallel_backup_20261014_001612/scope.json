@@ -1,0 +1,37 @@
+{
+  "task": "교재 오류·시점 보류 항목 해결, 전체 제공 문항의 자연어 채점 구현, 관련 현행 법령·규정 전수 검증",
+  "status": "in_progress",
+  "as_of": "2026-10-13",
+  "as_of_authority": "사용자 명시 확인",
+  "scope": {
+    "standalone_questions": 2292,
+    "topics": 285,
+    "existing_review_notes": 357,
+    "embedded_evidence_groups": 383
+  },
+  "verification_units": [
+    "문항·해설의 개별 주장과 적용 조건",
+    "수학·단위·OCR 오류와 정답·해설 분리",
+    "현재 시행 조문·행정규칙·협회 규정·공식 기관 정의",
+    "공포일·시행일·경과규정·시점별 기존 답 변경",
+    "학습자용 문항의 정답 노출 제거와 검증된 원자 평가 기준",
+    "모델 호출·구조 검증·근거 대조·불확실성 보류·평가자 검증"
+  ],
+  "status_policy": "자료 수집·후보 연결·본문 검토·주장 대조·채점 승인·실제 모델 검증을 별도 상태로 기록한다. 일부 확인을 전수 검증으로 부르지 않는다.",
+  "runtime_discovery": {
+    "openai_api_key_configured": false,
+    "openai_model_configured": false,
+    "local_ollama_available": false,
+    "backend_preference": "user_question_pending",
+    "no_credential_values_read_or_logged": true
+  },
+  "previous_completed_eval": "../eval/progress.json",
+  "next": [
+    "전체 357개 검토사항을 처리 유형·영향 문항·검증 근거로 분해",
+    "국가법령정보센터·금융위·금감원·협회·공식 지수기관의 시행본 확보",
+    "계산/OCR 확정 가능한 항목부터 정정과 교정 예제 승인",
+    "법령 관련 원문 주장별로 시행본 조항 대조",
+    "자연어 채점 구현·반례/누락/오류 채점 검증 및 전체 문항 연결",
+    "실제 검증 범위와 미해결 사유를 드러낸 최종 통합 검사"
+  ]
+}

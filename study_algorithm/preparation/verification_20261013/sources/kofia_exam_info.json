@@ -1,0 +1,12 @@
+{
+  "id": "kofia_exam_info",
+  "requested_url": "https://license.kofia.or.kr/examInfo/examInfo.do?examCd=FWM006",
+  "retrieved_url": "https://license.kofia.or.kr/examInfo/examInfo.do?examCd=FWM006",
+  "retrieved_at": "2026-10-13T00:20:40.838178+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": false,
+  "characters": 860,
+  "content_sha256": "3fad03c8bafa9bd4342b822e4df5d47c7d8bb452844c29307c7f22a09a76c60b",
+  "status": "incomplete_response_do_not_release",
+  "effective_date_candidates": []
+}

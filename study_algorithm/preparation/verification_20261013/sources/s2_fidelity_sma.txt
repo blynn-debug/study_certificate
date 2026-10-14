@@ -1,0 +1,13 @@
+L241: ### Description
+L242: 
+L243: Moving averages are one of the core indicators in technical analysis, and there are a variety of different versions. SMA is the easiest moving average to construct. It is simply the average price over the specified period. The average is called "moving" because it is plotted on the chart bar by bar, forming a line that moves along the chart as the average value changes.
+L244: 
+L245: cite117†Image: Image: SMA L246:   * SMAs are often used to determine trend direction. If the SMA is moving up, the trend is up. If the SMA is moving down, the trend is down. A 200-bar SMA is common proxy for the long term trend. 50-bar SMAs are typically used to gauge the intermediate trend. Shorter period SMAs can be used to determine shorter term trends.
+L247:   * SMAs are commonly used to smooth price data and technical indicators. The longer the period of the SMA, the smoother the result, but the more lag that is introduced between the SMA and the source.
+L248:   * Price crossing SMA is often used to trigger trading signals. When prices cross above the SMA, you might want to go long or cover short; when they cross below the SMA, you might want to go short or exit long.
+L249: cite118†Image: Image: SMA 2 L250: 
+L251:   * SMA Crossing SMA is another common trading signal. When a short period SMA crosses above a long period SMA, you may want to go long. You may want to go short when the short-term SMA crosses back below the long-term SMA.
+L252: 
+L253: cite119†Image: Image: SMA 3 L254: 
+L255: SMA is simply the mean, or average, of the stock price values over the specified period.
+L256: 

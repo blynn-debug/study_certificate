@@ -1,0 +1,14 @@
+{
+  "id": "s1_sec_multiclass1995",
+  "requested_url": "https://www.govinfo.gov/content/pkg/FR-1995-03-02/pdf/95-4997.pdf",
+  "retrieved_url": "https://www.govinfo.gov/content/pkg/FR-1995-03-02/pdf/95-4997.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "210666",
+  "downloaded_bytes": 210666,
+  "retrieved_at": "2026-10-13T16:48:45.369714+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "1b8d7916a502765b8b1c97d4478cc2f4145c0dc83b513dda1b9eb0f1b1cfeb8c",
+  "content_sha256": "fb4a22ba3544107460742d761d8dcc8773945602180842c30eb190231976132c",
+  "characters": 96110
+}

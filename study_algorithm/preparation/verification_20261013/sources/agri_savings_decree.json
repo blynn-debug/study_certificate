@@ -1,0 +1,18 @@
+{
+  "id": "agri_savings_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=281749&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=281749&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:18.911088+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 8895,
+  "content_sha256": "3411d25ee2ea760b89d47e72ac1a0417934289fd0b45487f420823bb1a42aa8e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

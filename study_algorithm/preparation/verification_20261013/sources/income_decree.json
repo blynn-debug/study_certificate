@@ -1,0 +1,19 @@
+{
+  "id": "income_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290841&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290841&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:30.008230+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 579233,
+  "content_sha256": "7495151024705e11b59188e3485f2e8d63aff2982cf1a6d43d9d9d7850c1a2d2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

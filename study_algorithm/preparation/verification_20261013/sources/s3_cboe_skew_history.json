@@ -1,0 +1,12 @@
+{
+  "id": "s3_cboe_skew_history",
+  "requested_url": "https://www.cboe.com/insights/posts/dawn-of-a-new-era-brings-on-the-existence-of-skew/",
+  "retrieved_url": "https://www.cboe.com/insights/posts/dawn-of-a-new-era-brings-on-the-existence-of-skew/",
+  "retrieved_at": "2026-10-14T09:21:15.408943+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 31228,
+  "content_sha256": "216830b1f6565a2e2ce0734791a9fc338554a2d37b919d43aa7a8f41fd2bee20",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

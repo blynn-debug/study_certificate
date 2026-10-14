@@ -1,0 +1,12 @@
+{
+  "id": "s1_woori_subscription",
+  "requested_url": "https://spot.wooribank.com/pot/Dream?ALL_GB=ALL&PRD_CD=P010000240&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0019",
+  "retrieved_url": "https://spot.wooribank.com/pot/Dream?ALL_GB=ALL&PRD_CD=P010000240&cc=c007095%3Ac009166%3Bc012263%3Ac012399&withyou=PODEP0019",
+  "retrieved_at": "2026-10-13T16:32:24.941544+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 3754,
+  "content_sha256": "2d4a2f57de055ab4f6859789f862970146b7a5f0643aff17b6845ea6c23c1443",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

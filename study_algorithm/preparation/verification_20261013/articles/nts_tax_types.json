@@ -1,0 +1,30 @@
+{
+  "source_id": "nts_tax_types",
+  "source_metadata": {
+    "id": "nts_tax_types",
+    "requested_url": "https://www.nts.go.kr/kid/cm/cntnts/cntntsView.do?cntntsId=7056&mi=7597",
+    "retrieved_url": "https://www.nts.go.kr/kid/cm/cntnts/cntntsView.do?cntntsId=7056&mi=7597",
+    "retrieved_at": "2026-10-13T03:16:06.276022+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 1416,
+    "content_sha256": "fc5b2531c271a89d4f61e3df7bfe117fb6738d7bf895761eda133668cd589436",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "nts_tax_types:국세분류",
+      "source_id": "nts_tax_types",
+      "article": "국세분류",
+      "heading": "국세분류",
+      "text": "국세\n관세 : 수입품에 부과하는 세금\n관세\n보통세\n직접세\n소득세 : 소득에 대한\n법인세 : 주식회사 같은 법인의 소득세\n종합부동산세\n상속세 : 재산을 물려줄 때\n증여세\n간접세\n부가가치세 : 상품을 사고 팔 때\n개별소비세\n주세\n인지세\n증권거래세\n목적세\n교육세 : 교육발전을 위한 세금\n교통, 에너지, 환경세\n농어촌특별세 : 농어촌 발전을 위한 세금",
+      "start": 975,
+      "end": 1169,
+      "sha256": "2887e7f97dc4e953a9e170398bbe419fbdade5f200972374bd2ad936d4bbf0f4"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

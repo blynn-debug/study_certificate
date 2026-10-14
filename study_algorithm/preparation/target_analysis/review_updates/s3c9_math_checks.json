@@ -1,0 +1,43 @@
+{
+  "source_scenario_rho": 1,
+  "source_scenario_cov": 0.08,
+  "source_scenario_portfolio_variance": 0.098,
+  "separate_rho_06_variance": 0.082,
+  "gmvp_correlated": 0.6451612903225805,
+  "gmvp_zero": 0.7999999999999999,
+  "optimal_risky": 0.4374999999999999,
+  "cml_sharpe": 0.7142857142857142,
+  "single_index_cov": 0.018000000000000006,
+  "multi_factor_return": 0.092,
+  "apt_zero_initial": 0,
+  "apt_zero_beta": -2.220446049250313e-16,
+  "apt_profit_100million_units": 0.06,
+  "twr_463": 0.2747548783981961,
+  "irr_463": 0.26727818453862473,
+  "calc62_1_actual_moments": {
+    "A": {
+      "mean": 0.09999999999999998,
+      "sigma": 0.2645751311064591
+    },
+    "B": {
+      "mean": 0.1,
+      "sigma": 0.11269427669584646
+    },
+    "C": {
+      "mean": 0.04999999999999999,
+      "sigma": 0.13228756555322954
+    },
+    "D": {
+      "mean": 0.049999999999999996,
+      "sigma": 0.052915026221291815
+    }
+  },
+  "tb_variance_scores": [
+    3.999999999999999,
+    0.9999999999999998
+  ],
+  "appraisal_scores": [
+    0.39999999999999997,
+    0.19999999999999998
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "consumer_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285715&chrClsCd=010202&urlMode=lsInfoP&efYd=20260428&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=285715&chrClsCd=010202&urlMode=lsInfoP&efYd=20260428&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:31.475040+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 54830,
+  "content_sha256": "6680e8eba3e2991fb4f6e2c7a1a546d308d09adf5233fce7b3c093172828fd50",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "4",
+      "28"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

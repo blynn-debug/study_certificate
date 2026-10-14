@@ -1,0 +1,42 @@
+{
+  "source_id": "pigou_richmond1998",
+  "source_metadata": {
+    "id": "pigou_richmond1998",
+    "requested_url": "https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/annual_report/1998/pdf/ar.pdf",
+    "retrieved_url": "https://www.richmondfed.org/-/media/RichmondFedOrg/publications/research/annual_report/1998/pdf/ar.pdf",
+    "retrieved_at": "2026-10-13T16:14:08.153347+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "508200b2f74242ac20230cdbca5e001508859635d5df8e8edbe0f264a609b822",
+    "binary_sha256": "508200b2f74242ac20230cdbca5e001508859635d5df8e8edbe0f264a609b822",
+    "text_sha256": "866b7b9616d7317a948f8873442429460df40e7a3731bb505f25cb591f79b2e5",
+    "pages": 54,
+    "characters": 164791,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "pigou_richmond1998:유동성함정",
+      "source_id": "pigou_richmond1998",
+      "article": "유동성함정",
+      "heading": "유동성함정",
+      "text": "When this condition rules,no increase in the\nmoney stock, no matter how large, can reduce\nthe interest rate. Suppose the central bank\nexpands the money stock by purchasing bonds\non the open market. Such bidding puts incipient\nupward pressure on bond prices. But the slight-\nest rise of the latter induces bondholders to sell\nto the central bank and then to hoard the cash\nproceeds. Since at the ﬂoor rate of interest the\ndemand for money is insatiable and the willing-\nness to sell bonds absolute, no amount of open\nmarket operations can overcome absolute liq-\nuidity preference and reduce interest rates.\nAnd with rates at their irreducible minimum,\nthey cannot fall to stimulate real activity. Here is\nKeynes’s expression of the mercantilist fear that\nmonetary expansion cannot be counted upon\nto stimulate spending because the new money\nmay disappear into idle hoards.",
+      "start": 63192,
+      "end": 64064,
+      "sha256": "1628097b283c0187990de0a3d083c09869674ae6760c5a3e6560658088d2a5c6"
+    },
+    {
+      "id": "pigou_richmond1998:실질잔액효과",
+      "source_id": "pigou_richmond1998",
+      "article": "실질잔액효과",
+      "heading": "실질잔액효과",
+      "text": "Gottfried Haberler (1941),\nA.C. Pigou (1943, 1947),\nand Don Patinkin (1948)\nexplain how a real cash\nbalance effect works to\nstimulate consumption\nspending and to restore\nfull employment follow-\ning a depression.",
+      "start": 80168,
+      "end": 80380,
+      "sha256": "aef37f5041c061170a02be775ad1a638ade0fadf43ca5553c1fc4dd218708973"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

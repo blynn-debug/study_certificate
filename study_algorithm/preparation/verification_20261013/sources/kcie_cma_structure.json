@@ -1,0 +1,12 @@
+{
+  "id": "kcie_cma_structure",
+  "requested_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=468",
+  "retrieved_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=468",
+  "retrieved_at": "2026-10-13T04:17:09.154654+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 4048,
+  "content_sha256": "bb72d6b074489291c6dfa2d2828e9a9580ac20b235c25046e1ddbaad0b1e8875",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

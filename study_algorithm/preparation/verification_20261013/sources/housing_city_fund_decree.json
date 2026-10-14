@@ -1,0 +1,18 @@
+{
+  "id": "housing_city_fund_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289689&chrClsCd=010202&urlMode=lsInfoP&efYd=20260915&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:44.238130+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 32582,
+  "content_sha256": "4cd6edc5c4690237e1fa496a6265daa55bc1bfbb87085827e124dcd8728fc687",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "9",
+      "15"
+    ]
+  ]
+}

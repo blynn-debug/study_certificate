@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_ktb_distribution",
+  "source_metadata": {
+    "id": "fb_ktb_distribution",
+    "requested_url": "https://ktb.mofe.go.kr/distbMrktIntrcn.do",
+    "retrieved_url": "https://ktb.mofe.go.kr/distbMrktIntrcn.do",
+    "retrieved_at": "2026-10-14T00:08:19.572241+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 2733,
+    "content_sha256": "9ac092746ac0926b39854efe1cf8bae117ea09637d47f83a07cfc87bbf861ab1",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_ktb_distribution:시장비교",
+      "source_id": "fb_ktb_distribution",
+      "article": "시장비교",
+      "heading": "시장비교",
+      "text": "채권을 매매하기 위한 유통시장은 다수의 매도, 매수주문이 한 곳에 집중되어 경쟁매매를 통해 이루어지는 거래소시장(Exchange Market)과 주로 증권회사 창구에서 증권회사와 고객들의 개별적인 매매를 통해 이루어지는 장외시장(Over-The-Counter Market)으로 구분됩니다.\n거래소시장과 장외시장 비교\n구분, 거래소시장(국채전문유통시장), 장외시장으로 구성된 거래소시장과 장외시장 비교표입니다.\n구분\n거래소시장\n(국채전문유통시장)\n장외시장\n주요 참가자\n딜러\n딜러 및 브로커\n매매방식\n경쟁매매\n(딜러 ↔ 거래소 ↔ 딜러)\n상대매매\n(딜러 ↔ 브로커 ↔ 딜러)\n매매수단\n전산시스템\n전화, 메신저\n호가방법\n가격호가(수익률병기)\n수익률호가(가격병기)\n매매단위\n액면 10억원\n주로 100억원\n매매시간\n09:00~15:30\n제한은 없으나\n보통 영업시간(08:30~15:30)\n결제시점\n익일 결제\n(결제일이 지급준비금적립마감일인 경우 그 다음 영업일)\n30일이내 결제(T+0~30)",
+      "start": 2102,
+      "end": 2596,
+      "sha256": "11044f6b109cf10f773f648b1ad2e28f162388500e8f04c411d3cc1ff6140d95"
+    }
+  ]
+}

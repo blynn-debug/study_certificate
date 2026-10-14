@@ -1,0 +1,14 @@
+{
+  "id": "s2_fidelity_patterns",
+  "requested_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/documents/atp-classroom/slides/investments-webinar-getting-started-technical-analysis.pdf",
+  "retrieved_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/documents/atp-classroom/slides/investments-webinar-getting-started-technical-analysis.pdf",
+  "retrieved_at": "2026-10-13T16:44:20.650097+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "3b640d8efff22a60bf2732577de81f65356d4df3551082dbf4af928ced48afd3",
+  "binary_sha256": "3b640d8efff22a60bf2732577de81f65356d4df3551082dbf4af928ced48afd3",
+  "text_sha256": "1ee2de25b1cec9f081d1d875025188d94a1d5c0d05f633417dae88a119bfb35c",
+  "pages": 134,
+  "characters": 58892,
+  "status": "retrieved_not_claim_verified"
+}

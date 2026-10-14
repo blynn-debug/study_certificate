@@ -1,0 +1,11 @@
+{
+  "id": "s2_hbr_porter",
+  "requested_url": "https://store.hbr.org/product/the-competitive-advantage-of-nations/90211",
+  "retrieved_url": "https://store.hbr.org/product/the-competitive-advantage-of-nations/90211",
+  "retrieved_at": "2026-10-13T17:17:06.280718+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "47719bccb08e41a0a93c74caeebb7c859d41c68e324362c8cb5a77a2cb13f3d4",
+  "text_sha256": "87a89e50dbe32c55a637a8838682200112fb5d6be456c0512dbd19a12427a564",
+  "status": "retrieved_not_claim_verified"
+}

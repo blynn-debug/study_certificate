@@ -1,0 +1,30 @@
+{
+  "source_id": "kb_housing_savings",
+  "source_metadata": {
+    "id": "kb_housing_savings",
+    "requested_url": "https://oland.kbstar.com/quics?cc=b030657%3Ab029684&isNew=N&page=C029533&prcode=DP01000620",
+    "retrieved_url": "https://oland.kbstar.com/quics?cc=b030657%3Ab029684&isNew=N&page=C029533&prcode=DP01000620",
+    "retrieved_at": "2026-10-13T10:29:24.226417+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 12091,
+    "content_sha256": "a16d347bca569fd2f4eef41f6ed67ede5813eecf6516ce34c69cf1abb00652f5",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kb_housing_savings:청약저축보호구분",
+      "source_id": "kb_housing_savings",
+      "article": "청약저축보호구분",
+      "heading": "청약저축보호구분",
+      "text": "예금자보호\nX\n주택도시기금 조성재원으로 정부가 관리",
+      "start": 1633,
+      "end": 1662,
+      "sha256": "8cc7cd784bae6e44bd6f4226361f0278a338448312b0dc110701a2a367af9099"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

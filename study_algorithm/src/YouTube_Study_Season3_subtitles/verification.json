@@ -1,0 +1,192 @@
+﻿[
+    {
+        "episode":  1,
+        "id":  "KVyQKanC_8Y",
+        "title":  "공부계획 반드시 ‘액션플랜’ 형태로 바꿔야 합니다. VtA 메쏘드로 계획 세우세요! (자료 다운 받아서 그대로 해보세요)(공부법 시즌3 ep. 1)",
+        "durationSeconds":  501,
+        "captionStartSeconds":  0.91899999999999993,
+        "captionEndSeconds":  502.919,
+        "endDifferenceSeconds":  -1.919,
+        "srtCues":  475,
+        "txtLines":  238,
+        "readLines":  238,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  2,
+        "id":  "nhm7fFsyU0g",
+        "title":  "합격수기는 그냥 읽으면 안 됩니다. SPM 합격수기 툴로 정리해서 보세요. (자료 다운 받아서 그대로 해보세요)(공부법 시즌3 ep. 2)",
+        "durationSeconds":  790,
+        "captionStartSeconds":  0.359,
+        "captionEndSeconds":  791.71999999999991,
+        "endDifferenceSeconds":  -1.72,
+        "srtCues":  779,
+        "txtLines":  390,
+        "readLines":  390,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  3,
+        "id":  "g4QlY3eZP3M",
+        "title":  "합격을 좌우하는 것은 첫 회독입니다. 합격을 결정하는 Omni Focus 기술(공부법 시즌3 ep. 3)",
+        "durationSeconds":  609,
+        "captionStartSeconds":  3.76,
+        "captionEndSeconds":  610.12,
+        "endDifferenceSeconds":  -1.12,
+        "srtCues":  593,
+        "txtLines":  297,
+        "readLines":  297,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  4,
+        "id":  "2VAPxqnPGrM",
+        "title":  "활자를 이렇게 바꿔서 기억하면 암기와 재미 둘 다 잡을 수 있습니다. (공부법 시즌3 ep. 4)",
+        "durationSeconds":  1024,
+        "captionStartSeconds":  3.04,
+        "captionEndSeconds":  1025.12,
+        "endDifferenceSeconds":  -1.12,
+        "srtCues":  1001,
+        "txtLines":  501,
+        "readLines":  501,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  5,
+        "id":  "tFaHbs34ScM",
+        "title":  "공부는 과학입니다. \u0027SMART 계획법\u0027 (공부법 시즌3 EP. 5)",
+        "durationSeconds":  541,
+        "captionStartSeconds":  0.16,
+        "captionEndSeconds":  542.6,
+        "endDifferenceSeconds":  -1.6,
+        "srtCues":  495,
+        "txtLines":  248,
+        "readLines":  248,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  6,
+        "id":  "FwV1mBStPrM",
+        "title":  "집중력을 2배로 만드는 검증된 4단계 (공부법 시즌3 EP. 6)",
+        "durationSeconds":  787,
+        "captionStartSeconds":  0.12,
+        "captionEndSeconds":  788.31999999999994,
+        "endDifferenceSeconds":  -1.32,
+        "srtCues":  757,
+        "txtLines":  379,
+        "readLines":  379,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  7,
+        "id":  "SZcdSONPqcQ",
+        "title":  "직장인 새벽 공부 VS 퇴근 후 공부, 뇌과학 논문의 놀라운 결과 (공부법 시즌3 EP. 7)",
+        "durationSeconds":  487,
+        "captionStartSeconds":  0.12,
+        "captionEndSeconds":  488.79999999999995,
+        "endDifferenceSeconds":  -1.8,
+        "srtCues":  487,
+        "txtLines":  244,
+        "readLines":  244,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  8,
+        "id":  "lAdUmpA2I14",
+        "title":  "이렇게 해도 안 되면 책임지겠습니다. 기출 회독법 (공부법 시즌3 EP. 8)",
+        "durationSeconds":  1234,
+        "captionStartSeconds":  0.27999999999999997,
+        "captionEndSeconds":  1235,
+        "endDifferenceSeconds":  -1,
+        "srtCues":  1179,
+        "txtLines":  590,
+        "readLines":  590,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  9,
+        "id":  "fy0SHDX1Uxk",
+        "title":  "점수를 결정하는 것은 인풋이 아니라 아웃풋입니다  (공부법 시즌3 EP. 9)",
+        "durationSeconds":  1116,
+        "captionStartSeconds":  0,
+        "captionEndSeconds":  1117.6399999999999,
+        "endDifferenceSeconds":  -1.64,
+        "srtCues":  1063,
+        "txtLines":  532,
+        "readLines":  532,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    },
+    {
+        "episode":  10,
+        "id":  "JBz9pSYu11A",
+        "title":  "기출은 실력 확인을 위해 푸는 게 아닙니다 (공부법 시즌3 EP. 10)",
+        "durationSeconds":  939,
+        "captionStartSeconds":  0.04,
+        "captionEndSeconds":  938.88,
+        "endDifferenceSeconds":  0.12,
+        "srtCues":  893,
+        "txtLines":  447,
+        "readLines":  447,
+        "allTxtLinesRead":  true,
+        "srtTxtExactMatch":  true,
+        "brokenCueIds":  0,
+        "gaps":  [
+
+                 ],
+        "replacementCharacter":  false
+    }
+]

@@ -1,0 +1,50 @@
+{
+  "source_id": "nh_eld_contract",
+  "source_metadata": {
+    "id": "nh_eld_contract",
+    "requested_url": "https://www.nhbank.com/goDtlPage.do?srchGb=KO_NHPR_02&srchNo=6494&srchWrd=9",
+    "retrieved_url": "https://www.nhbank.com/goDtlPage.do?srchGb=KO_NHPR_02&srchNo=6494&srchWrd=9",
+    "retrieved_at": "2026-10-13T04:17:09.029729+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 3548,
+    "content_sha256": "4ed484a31b47396f85948fa84ed734f2e1d7a9e8f611ee193bb80e0165345806",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 3,
+  "items": [
+    {
+      "id": "nh_eld_contract:만기원금약정예시",
+      "source_id": "nh_eld_contract",
+      "article": "만기원금약정예시",
+      "heading": "만기원금약정예시",
+      "text": "□ NH농협은행(은행장 강태영)은 만기유지 시 원금과 최소 약정 이자는 보장받으면서 높은 추가 수익률을 기대할 수 있는 「지수연동예금(ELD, Equity-Linked Deposit) 25-2호」를 출시한다고 20일 밝혔다.",
+      "start": 1648,
+      "end": 1774,
+      "sha256": "6fec49478afdcdde3f65987e2b4d523766498cbd995d5973ac1959280a918692"
+    },
+    {
+      "id": "nh_eld_contract:낙아웃이자지급예시",
+      "source_id": "nh_eld_contract",
+      "article": "낙아웃이자지급예시",
+      "heading": "낙아웃이자지급예시",
+      "text": "※  이자 지급 시기 : 만기 일시 지급식\n- 이 예금은 예금 기간 중 지수가 목표지수 변동률을 넘어서(낙아웃) 지급 금리가 확정되더라도 이자는 만기에만 지급됩니다.",
+      "start": 2451,
+      "end": 2544,
+      "sha256": "2696f96f6eb0f272574a2c96780149d656d606463525eacab8fc2d79d3044172"
+    },
+    {
+      "id": "nh_eld_contract:중도해지손실예시",
+      "source_id": "nh_eld_contract",
+      "article": "중도해지손실예시",
+      "heading": "중도해지손실예시",
+      "text": "※ 중도해지 수수료 및 원금 손실 가능성\n- 만기 전 예금 해지 시 중도해지수수료 적용으로 원금손실이 발생할 수 있습니다.\n- 중도해지 이자가 별도로 없으며, 중도해지 시에는 비용발생에 따른 중도해지수수료 적용으로 원금손실이 발생할 수 있습니다.\n- 이 예금은 기초자산의 변동에 따라 일반 정기예금보다 이자율이 낮을 수 있으며, 최저 금리가 보장되지 않는 수익구조의 경우 이자가 없을 수 있습니다. 또한 만기 전 중도해지 시에는 일부 원금 손실이 발생할 수 있습니다.",
+      "start": 2712,
+      "end": 2974,
+      "sha256": "94d6d74b95b7c77ce4f58ebb1856591077b9938e45131e13fcd3b5f0b4ccda1f"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

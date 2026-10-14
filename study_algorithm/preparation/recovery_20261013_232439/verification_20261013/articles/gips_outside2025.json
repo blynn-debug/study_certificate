@@ -1,0 +1,32 @@
+{
+  "source_id": "gips_outside2025",
+  "source_metadata": {
+    "id": "gips_outside2025",
+    "requested_url": "https://www.gipsstandards.org/wp-content/uploads/2025/09/requirements-outside-the-provisions-for-firms-sep-2025.pdf",
+    "retrieved_url": "https://www.gipsstandards.org/wp-content/uploads/2025/09/requirements-outside-the-provisions-for-firms-sep-2025.pdf",
+    "retrieved_at": "2026-10-13T01:09:27.446122+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "e804892db296fb2207af3171cc81d098db699c1ac593069f9fc5f3967c58fab5",
+    "binary_sha256": "e804892db296fb2207af3171cc81d098db699c1ac593069f9fc5f3967c58fab5",
+    "text_sha256": "e62b9ae66d508b5a241b885bb8ae4f5c9eef8a2bd915246b4fa766b8755608f4",
+    "pages": 11,
+    "characters": 23888,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "gips_outside2025:Expense_ratio_annualization",
+      "source_id": "gips_outside2025",
+      "article": "Expense_ratio_annualization",
+      "heading": "Expense_ratio_annualization",
+      "text": "22.  \nHB 4.C.11 \nHB 5.C.10 \nHB 6.A.5 \nHB 7.A.7 \nPooled fund expense ratios that are calculated for periods of less than one year \nmust be annualized. \nYes",
+      "start": 10766,
+      "end": 10922,
+      "sha256": "096a4eed4edc0298e49d88d5a5172eec054413eef418735f4c318d066c09bd95"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

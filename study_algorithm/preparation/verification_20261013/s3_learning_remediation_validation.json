@@ -1,0 +1,33 @@
+{
+  "count": 137,
+  "exact_original_question_preserved": true,
+  "resolved_pending_integration": 3,
+  "remaining_held": 134,
+  "focused_rechecks": 7,
+  "checks": [
+    {
+      "id": "S3C5T01-SUP-02",
+      "answer_preserved": true,
+      "all_four_choices": true,
+      "topic_refs_valid": true,
+      "all_sources_complete": true
+    },
+    {
+      "id": "S3C6T18-SUP-01",
+      "answer_preserved": true,
+      "all_four_choices": true,
+      "topic_refs_valid": true,
+      "all_sources_complete": true
+    },
+    {
+      "id": "MOCK-2-Q055",
+      "answer_preserved": true,
+      "all_four_choices": true,
+      "topic_refs_valid": true,
+      "all_sources_complete": true
+    }
+  ],
+  "api_calls": 0,
+  "common_build_run": false,
+  "remediation_sha256": "bf239eaf939b1f3ffc08775d2911bc665ef767ba9b38913a8ccaa5010fa16388"
+}

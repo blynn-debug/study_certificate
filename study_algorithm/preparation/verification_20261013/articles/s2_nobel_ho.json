@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_nobel_ho",
+  "source_metadata": {
+    "id": "s2_nobel_ho",
+    "requested_url": "https://educationalgames-staging.nobelprize.org/educational/economic-sciences/trade/ohlin.php",
+    "retrieved_url": "https://educationalgames-staging.nobelprize.org/educational/economic-sciences/trade/ohlin.php",
+    "retrieved_at": "2026-10-13T17:15:48.853155+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "ea98e1b9f5706e3e00667136c4fef510cb6d731018ac563f3a53a72cc456b1fe",
+    "text_sha256": "ee6d9efcc1340dcebc6cd088320279d25569bebc3ba114f065236c4b95386f0b",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_nobel_ho:Model",
+      "source_id": "s2_nobel_ho",
+      "article": "Model",
+      "heading": "Model",
+      "text": "The Heckscher-Ohlin trade theory The Heckscher-Ohlin theory says that two countries trade goods with each other (and thereby achieve greater economic welfare), if the following assumptions hold: The major factors of production, namely labor and capital, are not available in the same proportion in both countries. The two goods produced either require relatively more capital or relatively more labor. Labor and capital do not move between the two countries. There are no costs associated with transporting the goods between countries. The citizens of the two trading countries have the same needs. Bigger differences - greater gains Of the above conditions, the central one is the assumption that capital and labor are not available in the same proportion in the two countries. This condition leads to specialization. The country with relatively more capital specializes - but not necessarily fully - in production of capital-intensive goods (which it exports in exchange for labor-intensive goods) while the country with relatively little capital specializes in production of labor-intensive goods (which it exports in exchange for capital-intensive goods). According to the theory, the more different the countries are - regarding the capital-to-labor ratio - the greater the economic gain from specialization and trade.",
+      "start": 3750,
+      "end": 5074,
+      "sha256": "40ee0fb48633a6f16f7a52f3aa88272cb49c60dd44610a2ef290ff24521b48b3"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

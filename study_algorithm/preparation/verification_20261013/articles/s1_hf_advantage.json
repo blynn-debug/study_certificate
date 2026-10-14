@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_hf_advantage",
+  "source_metadata": {
+    "id": "s1_hf_advantage",
+    "requested_url": "https://www.hf.go.kr/ko/sub03/sub03_01_01_05.do",
+    "retrieved_url": "https://www.hf.go.kr/ko/sub03/sub03_01_01_05.do",
+    "retrieved_at": "2026-10-13T15:56:47.387428+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 10656,
+    "content_sha256": "5aaf18c36ae4c5f7e623bb55edff1f59e4fc1d8be8aa5316582d0429404c20ad",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_hf_advantage:주택연금장점",
+      "source_id": "s1_hf_advantage",
+      "article": "주택연금장점",
+      "heading": "주택연금장점",
+      "text": "평생거주, 평생지급\n평생동안 가입자 및 배우자 모두에게 거주를 보장해드립니다.\n부부 중 한 분이 돌아가신 경우에도 연금감액 없이 100% 동일금액의 지급을 보장해 드립니다.\n국가가 보증\n국가가 연금지급을 보증하므로 연금지급 중단 위험이 없습니다.\n합리적인 상속\n나중에 부부 모두 사망 후 주택을 처분해서 정산하면 되고 연금수령액 등이 집값을 초과하여도 상속인에게 청구하지 않으며, 반대로 집값이 남으면 상속인(신탁방식의 경우 귀속권리자)에게 돌아갑니다.\n합리적인 상속 정보제공 표 : 금액비교, 정산방법 정보 제공\n금액비교\n정산방법\n주택처분금액 > 연금지급총액*\n남는 부분은 상속인에게 돌아감\n주택처분금액 < 연금지급총액*\n부족분에 대해 상속인에게 별도 청구 없음\n연금지급총액 = ① 월지급금 누계 + ② 수시인출금 + ③ 보증료(초기보증료 및 연보증료) + ④ (①,②,③)에 대한 대출이자",
+      "start": 7817,
+      "end": 8260,
+      "sha256": "7a69bf6b5e82e7376171b5bba0b4149636a7fcb661032b723bb02770087c7daa"
+    }
+  ]
+}

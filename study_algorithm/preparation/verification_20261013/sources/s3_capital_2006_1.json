@@ -1,0 +1,19 @@
+{
+  "id": "s3_capital_2006_1",
+  "name": "MOFE 2006-06 Capital Market Act Draft Explanatory Materials",
+  "requested_url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=67907&fileTy=ATTACH&fileNo=1",
+  "retrieved_url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=67907&fileTy=ATTACH&fileNo=1",
+  "retrieved_at": "2026-10-13T23:55:11.311999+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "http_status": 200,
+  "characters": 80469,
+  "content_sha256": "9d2ebf128e1009503f503cfc1013aeae8be21945e169a66d6433e3dff34988db",
+  "binary_sha256": "9ed1331c8ab72c8d7730c89d20eb0734d659db939af94f9ac054e3febd7ec46c",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    "2006-06-30"
+  ],
+  "retrieval_method": "full HWP response; OLE BodyText HWP paragraph record extraction with control payload skipped",
+  "version_selection": "Historical legislative direction only; not current law"
+}

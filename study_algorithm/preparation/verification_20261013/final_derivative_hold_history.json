@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "S3C6T02-CORE",
+      "reason": "원본 P3 312이미지 확인:3개월뒤배추10,000포기/포기3,000원,만기현물5,000원. 포기이익2,000 및 제로섬 계산은 확인. 선도/선물의 장내외정의·신용위험 전체보기 승인용 공식 완전수신근거 추가 필요(원해설 제로섬=장외신용위험 논증은 그대로 일반화 불가).",
+      "evidence_checked": [
+        "P3:312",
+        "answer_packets:S3C6T02-CORE"
+      ],
+      "classification": "individual_evidence_or_original_error_hold",
+      "status": "resolved",
+      "resolution": "공식 완전수신 BIS NDF/CFTC 메커니즘 근거와 최소교정으로 final_derivative_reviews에 저장"
+    },
+    {
+      "id": "NOTE-S3C6-Q004",
+      "reason": "양자맞춤계약의 일반특성과 실제유동성부족을 분리해야 함. 원문 전체분류용 공식근거를 완전수신하지 못함; 모든장외상품의유동성 열세라는 일반명제는미확인.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q004"
+      ],
+      "classification": "individual_evidence_or_original_error_hold",
+      "status": "resolved",
+      "resolution": "공식 완전수신 BIS NDF/CFTC 메커니즘 근거와 최소교정으로 final_derivative_reviews에 저장"
+    },
+    {
+      "id": "NOTE-S3C6-Q006",
+      "reason": "NDF는현금차액결제이며 원문현물결제는오류. 모든선도가실물이고NDF만유일한예외라는 단정도오류. BIS공식검색발췌확인했으나2013guideline직접수신404여서완전증빙대체필요.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q006"
+      ],
+      "classification": "individual_evidence_or_original_error_hold",
+      "status": "resolved",
+      "resolution": "공식 완전수신 BIS NDF/CFTC 메커니즘 근거와 최소교정으로 final_derivative_reviews에 저장"
+    },
+    {
+      "id": "NOTE-S3C6-Q005",
+      "reason": "표준화와유동성은동일개념이아니며 모든장내상품에풍부한유동성 보장불가. 원문의일반적장단점분류를지지하는공식설명과조건제한필요.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q005"
+      ],
+      "classification": "individual_evidence_or_original_error_hold",
+      "status": "resolved",
+      "resolution": "공식 완전수신 BIS NDF/CFTC 메커니즘 근거와 최소교정으로 final_derivative_reviews에 저장"
+    },
+    {
+      "id": "NOTE-S3C6-Q007",
+      "reason": "언제든반대거래는휴장·거래정지·유동성예외가있음. 증거금/일일정산은신용위험관리이며청산가능성의단독원인은아님. 전체보기현재제도근거완전수신필요.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q007"
+      ],
+      "classification": "individual_evidence_or_original_error_hold",
+      "status": "resolved",
+      "resolution": "공식 완전수신 BIS NDF/CFTC 메커니즘 근거와 최소교정으로 final_derivative_reviews에 저장"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "exam": "투자자산운용사",
+  "source": "사용자 확인 및 금융투자협회 자격시험센터의 공개 시험정보 응답",
+  "confirmation": "user_confirmed_and_officially_cross_checked_2026_10_13",
+  "official_evidence": {
+    "page": "https://license.kofia.or.kr/examInfo/examInfo.do",
+    "license_code": "FWM006",
+    "structure_snapshot": "../verification_20261013/exam_structure.json",
+    "duration_snapshot": "../verification_20261013/exam_duration.json",
+    "scope": "면제 없는 전체 시험의 구성·시간·합격 하한. 사용자 응시일을 추정하지 않는다."
+  },
+  "overall_minimum_correct_ratio": 0.7,
+  "each_subject_minimum_correct_ratio": 0.4,
+  "boundary_rule": "70%와 40%는 포함한다. 과목별 40% 미만이면 전체 점수와 관계없이 과락이다.",
+  "publisher_exam_format": {
+    "subject_question_counts": {"S1": 20, "S2": 30, "S3": 50},
+    "total_questions": 100,
+    "duration_minutes": 120,
+    "minimum_correct_counts": {"overall": 70, "S1": 8, "S2": 12, "S3": 20}
+  },
+  "evaluation_priority": [
+    "자료오류와 정답노출을 먼저 통제한다.",
+    "닫힌 시험에서 과목별 40% 미달과 전체 70% 미달을 각각 판정한다.",
+    "실측 과목 점수의 최소기준까지 남은 문항수와 총점 부족분을 함께 보고한다.",
+    "과락 위험 과목의 반복 오개념과 기본 문항을 우선 보완하고, 총점 향상을 위한 학습시간 대비 회복 가능한 문항을 선택한다.",
+    "학습자 설명·회상·전이는 합격 점수를 안정적으로 확보하기 위한 진단이다. 모든 개념의 완벽한 설명을 합격의 추가 조건으로 만들지 않는다.",
+    "한 회차 점수만으로 실제 합격 확률이나 안정 합격을 보장하지 않는다."
+  ],
+  "score_integrity": [
+    "2292개 학습문항의 단순 평균을 실제100문항 시험점수로 간주하지 않는다.",
+    "미완료 연습, 힌트 사용, 이미 본 문제의 재시험, 신규 문제 시험을 구분한다.",
+    "확정되지 않은 문항은 조용히 분모에서 빼지 않고 최소·최대 가능점수와 판정보류 여부를 보고한다.",
+    "표본이 작은 주제별 정답률에 전체 시험 가중치를 임의로 적용하지 않는다."
+  ]
+}

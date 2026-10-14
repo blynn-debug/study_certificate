@@ -1,0 +1,24 @@
+{
+  "id": "financial_investment_rule",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285020&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285020&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:00:12.591003+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 397482,
+  "content_sha256": "30c79fd08c3e3e479b352962c52401103d3895d1732a3a52c88cf276a07cc43f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "9",
+      "15"
+    ],
+    [
+      "2015",
+      "1",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

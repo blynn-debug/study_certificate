@@ -1,0 +1,1257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+ <head></head>
+ <body>
+  <input type="hidden" id="lsNm" name="lsNm" value="주택도시기금법 시행령" /> 
+  <input type="hidden" id="lsId" name="lsId" value="012323" /> 
+  <input type="hidden" id="lsiSeq" name="lsiSeq" value="289689" /> 
+  <input type="hidden" id="ancYd" name="ancYd" value="20260915" /> 
+  <input type="hidden" id="efYd" name="efYd" value="20260915" /> 
+  <input type="hidden" id="ancNo" name="ancNo" value="36689" /> 
+  <input type="hidden" id="lsBdyChrCls" name="lsBdyChrCls" value="010202" /> 
+  <input type="hidden" id="lumIsConOrdin" value="" /> 
+  <input type="hidden" id="nwYnValue" value="Y" /> 
+  <input type="hidden" id="hstLnkDpYn" value="0" /> 
+  <style>
+.byl_pop ul li {
+	padding: 7px;
+	margin-left: 10px;
+}
+</style> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	customResizePop(); // 본문 리사이즈
+	initEDotXPress('\uC8FC\uD0DD\uB3C4\uC2DC\uAE30\uAE08\uBC95 \uC2DC\uD589\uB839');
+});
+
+function customResizePop() {
+		// 본문 버튼 높이 만큼 제공한다. 13은 패딩값
+		var $contentHeight = $("#center").height() - ($('.body_top_area').height() + 13);
+		var $conTopHeight = $('#conTop').height() + 35;
+
+		var bdyValue = lsVO.bdyUpdValue.updateContentNm || 'lsBdy';
+		
+        //lsInfoP 가 열릴 때 본문은 무조건 조회 하기 때문에 조건문 밖에 위치 하도록 변경.
+		$('#viewwrapCenter').css('overflow-y', 'hidden');
+        $('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+        $('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+        
+        if (bdyValue == 'lsBdy') {
+			/* 본문에서는 법령명 고정 때문에 hidden 처리*/
+			$('#viewwrapCenter').css('overflow-y', 'hidden');
+			$('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+			if($('#viewwrapCenter2').height() != null || $('#viewwrapCenter2').height() == 0){
+				$('#bodyContentTOP > #viewwrapCenter2').height($contentHeight);
+				$('#conScroll').height($('#viewwrapCenter2').height() - $conTopHeight);
+				$('#viewwrapCenter2').css('overflow', 'hidden');
+			}
+			$('#bodyContent').css('width', 'inherit');
+		} else if (bdyValue == 'lsPtnThdCmp') {
+			lspttnThdCmpResize();
+		} else if (bdyValue == 'lumThdCmp') {
+			thdCmpNewScPResize();
+		} else if (bdyValue == 'lumThdCmpSc') {
+
+		} else if (bdyValue == 'thdCmpNew') {
+
+		} else if (bdyValue == 'lsOldAndNew') {				
+			// 신구법은 이전 이후 버튼 높이까지 마이너스 한다. 
+			$('#bodySideContent > #oldAndNewDiv').height(($contentHeight + $('#tmpWidth').height()-114));
+		} else if (bdyValue == 'lsRvsDocInfoR') {
+
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+			$('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+			$('#conTop').height($('.cont_top').height());
+			$('#rvsConScroll').height($('#viewwrapCenter').height() - $('#rvsConTop').height());
+			
+		} else {
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+		}
+}
+
+function fileLayer(temp){
+	var tempStr = $("#hwptext"+temp).attr("value");
+	if(tempStr.length > 32){
+ 		$("#hwptext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#hwpxtext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#pdftext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 	}
+
+ 	$(".byl_pop").css("display","none");
+
+ 	//레이어높이값
+ 	var height = $("#fileSaveLayer"+temp).height();
+ 	//본문 제일 하단 위치값 
+	var pagePos = document.querySelector('#center');
+	pagePos = pagePos.getBoundingClientRect().bottom;
+	//레이어버튼위치값
+	var layPos =document.querySelector('#imgPos'+temp);
+	layPos = layPos.getBoundingClientRect().bottom;
+	var lay_pop = $('#fileSaveLayer'+temp);
+	var pos = $('#imgPos'+temp).position();
+	
+	if(pagePos > height+layPos){ //레이어가 잘리지 않을 때 
+		lay_pop.css('top', (pos.top)+25 + 'px');
+		lay_pop.css('left', '250px')
+	}else{ //레이어가 잘릴 때
+		lay_pop.css('top', ((pos.top)-height)+ 'px');
+		lay_pop.css('left', (pos.left)+25+'px');
+	}
+	document.getElementById("fileSaveLayer"+temp).style.display="block";
+}
+
+function copyToClipBoard(temp2){
+	var content = document.getElementById('textarea'+temp2);
+	content.select();
+	document.execCommand('copy');
+	alert("주소가 클립보드에 저장되었습니다.");
+	content.setSelectionRange(0,0);
+}
+
+function delLayer(temp){
+	document.getElementById("fileSaveLayer"+temp).style.display="none";
+}
+
+</script> 
+  <div id="contentBody" class="scr_ctrl"> 
+   <div id="sideCenter" class="cont_area"> 
+    <ul class="cont_icon"> 
+     <li><a><img alt="판" src="/LSW/images/button/btn_jostmdico.gif" />판례</a></li> 
+     <li><a><img alt="연" src="/LSW/images/button/btn_year3.gif" />연혁</a></li> 
+     <li><a><img alt="행" src="/LSW/images/button/btn_entrust3_2.gif" />위임행정규칙</a></li> 
+     <li><a><img alt="규" src="/LSW/images/button/btn_entrust4_2.gif" />규제</a></li> 
+     <li><a><img alt="한" src="/LSW/images/button/btn_oneviewIcon.gif" />한눈보기</a></li> 
+    </ul> 
+    <!-- 연혁법령 안내문구 --> 
+    <!-- 법령명 --> 
+    <div id="conTop" class="cont_top"> 
+     <a id="top"></a> 
+     <!-- 국민신문고 연결배너 출력 --> 
+     <h2> 주택도시기금법 시행령 </h2> 
+     <div class="ct_sub"> 
+      <span>[시행 2026. 9. 15.] [대통령령 제36689호, 2026. 9. 15., 타법개정]</span> 
+     </div> 
+    </div> 
+    <!-- 소관부처 --> 
+    <div id="conScroll" class="scr_area" style="overflow-y: auto;"> 
+     <div class="cont_subtit"> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.molit.go.kr/portal.do'); return false;" href="#AJAX" target="_blank"> <span title="http://www.molit.go.kr/portal.do" style="cursor: pointer;">국토교통부</span> (<span title="" style="cursor: pointer;">주택기금과 - 국민주택채권</span>), 044-201-3344 </a> </p> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.molit.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="http://www.molit.go.kr" style="cursor: pointer;">국토교통부</span> (<span title="" style="cursor: pointer;">주택기금과 - 수요자대출</span>), 044-201-3339, 3346 </a> </p> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('www.molit.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="www.molit.go.kr" style="cursor: pointer;">국토교통부</span> (<span title="" style="cursor: pointer;">주택기금과</span>), 044-201-3341 </a> </p> 
+     </div> 
+     <!-- 조문정보 --> 
+     <a name="J1:0" id="J1:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0001', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="1:0:000100:99263611" /> <span class="bl"><label for="Y000100"> 제1조(목적) </label> </span> 이 영은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625147','ALLJO','');" href="javascript:;">「주택도시기금법」</a>에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다. </p> 
+      </div> 
+     </div> 
+     <a name="J2:0" id="J2:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0002', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263613', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="2:0:000200:99263613" /> <span class="bl"><label for="Y000200"> 제2조(주택도시기금 대출자산의 매각) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625735','ALLJO','');" href="javascript:;">「주택도시기금법」</a>(이하 “법”이라 한다) <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625731','JO','');" href="javascript:;">제3조</a>에 따른 주택도시기금(이하 “기금”이라 한다)의 대출자산을 매각(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625737','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625743','JO','');" href="javascript:;">제5조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625741','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625739','JO','');" href="javascript:;">제11호</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625745','JO','');" href="javascript:;">제2항</a>제7호에 따른 매각을 말한다)할 때에는 매각 당시의 금융기관의 이율을 고려하여 할인하거나 할증하여 매각할 수 있다. </p>
+       <p class="pty1_de2_1">② 제1항에 따른 기금 대출자산의 매각은 경쟁입찰의 방법으로 하되 7일 이상의 공고를 거쳐야 한다. </p> 
+       <p class="pty1_de2_1">③ 제2항에도 불구하고, 다음 각 호의 어느 하나에 해당하는 경우에는 수의계약의 방법으로 매각할 수 있다. </p> 
+       <p class="pty1_de2h">1. 현저하게 기금에 유리한 조건으로 계약할 수 있는 경우 </p> 
+       <p class="pty1_de2h">2. 삭제 <span class="sfon">&lt;2023. 5. 16.&gt;</span> </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625733','ALLJO','');" href="javascript:;">「한국주택금융공사법」</a>에 따라 설립된 한국주택금융공사와 계약하는 경우 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J3:0" id="J3:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0003', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263615', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="3:0:000300:99263615" /> <span class="bl"><label for="Y000300"> 제3조(자금의 기금 예탁) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626357','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625449','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626359','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626361','JO','');" href="javascript:;">제2호</a>에서 “대통령령으로 정하는 기금 또는 자금”이란 다음 각 호의 기금 또는 자금을 말한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626353','ALLJO','');" href="javascript:;">「공무원연금법」</a>에 따라 조성된 공무원연금기금 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625455','ALLJO','');" href="javascript:;">「군인연금법」</a>에 따라 조성된 군인연금기금 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626363','ALLJO','');" href="javascript:;">「사립학교교직원 연금법」</a>에 따라 사립학교교직원연금공단에 납부된 자금 </p> 
+       <p class="pty1_de2h">4. 국토교통부장관이 해당 기금 또는 자금의 주무부장관, 재정경제부장관 및 기획예산처장관과 협의하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0003','00','010102','NOT','정하는','64555');">정하는</a> 기금 또는 자금 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625451','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625453','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626365','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626367','JO','');" href="javascript:;">제1호</a> 또는 이 조 제1항 각 호(제4호는 제외한다)의 기금 또는 자금의 관리자가 해당 기금 또는 자금을 기금에 예탁하는 경우의 예탁금액은 현금 또는 6개월 이하의 예금으로 예치된 일상의 지급준비금을 제외한 자금의 100분의 50의 범위에서 국토교통부장관이 해당 기금 또는 자금의 주무부장관, 재정경제부장관 및 기획예산처장관과 협의하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0003','00','010102','NOT','정한다','64557');">정한다</a>. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제1항제4호의 기금 또는 자금의 관리자가 해당 기금 또는 자금을 기금에 예탁하는 경우의 예탁금액 및 예탁기간은 재정경제부장관이 해당 기금 또는 자금의 주무부장관, 국토교통부장관 및 기획예산처장관과 협의하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0003','00','010102','NOT','정한다','64559');">정한다</a>. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 제2항 및 제3항에 따라 기금에 예탁된 기금 또는 자금에 대한 이율은 다른 법령에 규정된 것을 제외하고는 예탁 당시의 정기예금 금리를 기준으로 하되, 국토교통부장관이 해당 기금 또는 자금의 주무부장관, 재정경제부장관 및 기획예산처장관과 협의하여 따로 정할 수 있다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626349','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626351','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625447','JO','');" href="javascript:;">제2항</a>에 따라 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626355','ALLJO','');" href="javascript:;">「한국토지주택공사법」</a>에 따른 한국토지주택공사가 기금에 예탁하는 자금의 이율은 국토교통부장관이 재정경제부장관 및 기획예산처장관과 협의하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0003','00','010102','NOT','정한다','64561');">정한다</a>. <span class="sfon">&lt;개정 2026. 9. 15.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J4:0" id="J4:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0004', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263617', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="4:0:000400:99263617" /> <span class="bl"><label for="Y000400"> 제4조(국민주택채권의 발행절차) </label> </span> ① 국토교통부장관은 국민주택채권의 발행이 필요하다고 인정하는 경우에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626243','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626245','JO','');" href="javascript:;">제7조</a>에 따라 채권의 종류와 그 발행금액, 발행방법, 발행조건, 상환방법 및 상환절차 등 필요한 사항을 정하여 재정경제부장관에게 그 발행을 요청하여야 한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 제1항의 요청에 따라 국민주택채권을 발행하려는 경우에는 다음 각 호의 사항을 공고하여야 한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 채권의 종류 </p> 
+       <p class="pty1_de2h">2. 채권의 만기 </p> 
+       <p class="pty1_de2h">3. 채권의 이율 </p> 
+       <p class="pty1_de2h">4. 원금상환의 방법과 시기 </p> 
+       <p class="pty1_de2h">5. 이자지급의 방법과 시기 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J5:0" id="J5:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0005', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263619', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="5:0:000500:99263619" /> <span class="bl"><label for="Y000500"> 제5조(국민주택채권의 발행방법 등) </label> </span> ① 국민주택채권은 다음 각 호로 구분하여 발행한다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626263','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626265','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626267','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626259','JO','');" href="javascript:;">제1호부터 제3호</a>까지에 해당하는 자가 매입하는 제1종국민주택채권 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626247','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626255','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626249','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626257','JO','');" href="javascript:;">제4호</a>에 해당하는 자가 매입하는 제2종국민주택채권 </p> 
+       <p class="pty1_de2_1">② 국민주택채권의 발행기간은 1년을 단위로 하고, 발행일은 매출한 달의 말일로 한다. </p> 
+       <p class="pty1_de2_1">③ 국민주택채권은 증권을 발행하지 아니하고 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626251','ALLJO','');" href="javascript:;">「주식ㆍ사채 등의 전자등록에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626253','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626261','JO','');" href="javascript:;">제6호</a>에 따른 전자등록기관(이하 “전자등록기관”이라 한다)에 전자등록하여 발행한다. 이 경우 채권자는 이미 전자등록된 국민주택채권에 대하여 그 증권의 교부를 청구할 수 없다. <span class="sfon">&lt;개정 2019. 6. 25.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 전자등록기관은 국민주택채권의 원리금 상환일 전 7일 이내의 기간 동안에는 국토교통부장관의 승인을 받아 권리의 이전(상속, 유증 및 강제집행의 경우는 제외한다)에 따른 국민주택채권의 등록을 정지할 수 있다. 이 경우 승인받은 내용을 인터넷 등에 공시하여야 한다. <span class="sfon">&lt;개정 2019. 6. 25.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 국토교통부장관은 전자등록기관에 기금의 부담으로 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130071');" href="javascript:;">국토교통부령</a>으로 정하는 수수료를 지급한다. 이 경우 국민주택채권 등록업무 수수료에 관한 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('147565');" href="javascript:;">국토교통부령</a>을 제정하거나 개정하려면 미리 재정경제부장관 및 기획예산처장관과 협의하여야 한다. <span class="sfon">&lt;개정 2019. 6. 25., 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 제3항에 따른 등록 발행의 방법ㆍ절차, 상환 통지 및 매입 명세의 전자적 관리에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130072');" href="javascript:;">국토교통부령</a>으로 정하며, 국민주택채권등록부의 작성ㆍ관리 등 국민주택채권의 등록업무를 처리하기 위하여 필요한 그 밖의 사항은 전자등록기관이 정하되, 국토교통부장관의 승인을 받아야 한다. <span class="sfon">&lt;개정 2019. 6. 25.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J6:0" id="J6:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0006', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263621', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="6:0:000600:99263621" /> <span class="bl"><label for="Y000600"> 제6조(국민주택채권의 이율 등) </label> </span> ① 제1종국민주택채권의 이율과 원리금의 상환일은 재정경제부장관이 그 채권 발행 당시의 국채ㆍ공채 등의 금리와 기금의 수지 상황 등을 고려하여 정하되, 국토교통부장관과 협의하여야 한다. <span class="sfon">&lt;개정 2024. 9. 20., 2025. 12. 30.&gt;</span> </p>
+       <p class="pty1_de2_1">② 삭제 <span class="sfon">&lt;2024. 9. 20.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제1종국민주택채권의 이자는 그 발행일부터 상환일 전일까지 제1항에 따른 이율을 적용하여 1년 단위의 복리로 계산한다. </p> 
+       <p class="pty1_de2_1">④ 제1종국민주택채권의 매출일부터 발행일 전일까지의 이자는 매출하는 때에 지급한다. </p> 
+       <p class="pty1_de2_1">⑤ 제2종국민주택채권의 이율, 상환일 및 상환조건 등은 재정경제부장관이 국토교통부장관과 협의하여 정한다. 이 경우 원리금의 상환일은 채권 발행일부터 20년을 초과할 수 없다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:0" id="J7:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0007', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263623', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:0:000700:99263623" /> <span class="bl"><label for="Y000700"> 제7조(국민주택채권의 사무취급기관 등) </label> </span> ① 국민주택채권의 매출 및 상환 업무는 국토교통부장관이 지정하는 금융기관이 취급한다. </p>
+       <p class="pty1_de2_1">② 제1항에 따라 지정된 금융기관(이하 “채권사무 지정취급기관”이라 한다)의 장은 국민주택채권의 매출을 촉진하기 위하여 필요한 때에는 다른 금융기관에 국민주택채권의 매출 및 상환에 관한 업무를 위탁할 수 있다. 이 경우 재정경제부장관의 승인을 받아야 하며, 재정경제부장관은 이 승인 여부를 결정할 때에는 국토교통부장관과 협의하여야 한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 채권사무 지정취급기관의 장은 매달의 국민주택채권 매출ㆍ상환에 관한 사항을 다음 달 20일까지 재정경제부장관에게 보고하여야 한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J8:0" id="J8:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0008', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263625', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="8:0:000800:99263625" /> <span class="bl"><label for="Y000800"> 제8조(국민주택채권의 매입) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626281','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626293','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626307','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626283','JO','');" href="javascript:;">제3호</a>에서 “대통령령으로 정하는 공공기관”이란 정부가 납입자본금의 100분의 50 이상을 출자한 공공기관을 말한다. 다만, 다음 각 호의 기관은 제외한다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626269','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626271','JO','');" href="javascript:;">제16조</a>에 따른 주택도시보증공사(이하 “공사”라 한다) </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626273','ALLJO','');" href="javascript:;">「한국산업은행법」</a>에 따른 한국산업은행 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626287','ALLJO','');" href="javascript:;">「중소기업은행법」</a>에 따른 중소기업은행 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626285','ALLJO','');" href="javascript:;">「한국수출입은행법」</a>에 따른 한국수출입은행 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626301','ALLJO','');" href="javascript:;">「은행법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626303','JO','');" href="javascript:;">제2조</a>에 따른 은행 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626299','ALLJO','');" href="javascript:;">「인천국제공항공사법」</a>에 따른 인천국제공항공사 </p> 
+       <p class="pty1_de2h">7. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626291','ALLJO','');" href="javascript:;">「한국공항공사법」</a>에 따른 한국공항공사 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626289','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626297','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626277','JO','');" href="javascript:;">제1항</a>에 따라 제1종국민주택채권을 매입하여야 하는 자와 그 매입기준은 <a title="팝업으로 이동" class="link sfon6" onclick="javascript:fncLsLawPop('1034626305','BE','');" href="javascript:;">별표</a>와 같다. </p> 
+       <p class="pty1_de2_1">③ 국가기관, 지방자치단체 또는 제1항에 따른 공공기관의 장은 제2항에 따라 제1종국민주택채권 매입의무자에게 제1종국민주택채권을 매입하게 하고 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130073');" href="javascript:;">국토교통부령</a>으로 정하는 바에 따라 매입사실을 확인하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 이 영에서 규정한 사항 외에 제1종국민주택채권의 매입에 필요한 사항은 국토교통부장관이 재정경제부장관과 협의하여 정한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 국토교통부장관은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626275','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626295','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626309','JO','');" href="javascript:;">제1항</a>에 따라 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626311','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626279','JO','');" href="javascript:;">제57조</a>에 따른 분양가상한제가 적용되는 주택(주거전용면적이 85제곱미터를 초과하는 주택으로 한정한다)을 공급받으려는 자에 대하여 제2종국민주택채권을 매입하게 할 수 있다. 이 경우 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130074');" href="javascript:;">국토교통부령</a>으로 정하는 바에 따라 매입의무자의 매입사실을 확인하여야 한다. <span class="sfon">&lt;개정 2016. 8. 11.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 제2종국민주택채권의 매입기준, 매입절차 및 매입의 효력 등은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130075');" href="javascript:;">국토교통부령</a>으로 정한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J9:0" id="J9:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0009', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="9:0:000900:99263627" /> <span class="bl"><label for="Y000900"> 제9조(제2종국민주택채권의 분할 발행) </label> </span> ① 시장ㆍ군수 또는 구청장(자치구의 구청장을 말한다)은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625149','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625151','JO','');" href="javascript:;">제5항</a>에 따라 제2종국민주택채권을 매입하는 자가 매입하여야 하는 금액이 1억원을 초과하는 경우에는 1억원을 초과하는 금액에 대하여 분할 매입하게 할 수 있다. </p>
+       <p class="pty1_de2_1">② 제1항에 따라 채권을 분할 매입하는 경우 채권 매입자는 주택공급계약 체결 이전에 분할 매입금액의 50퍼센트 이상에 해당하는 채권을 매입하고 나머지는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130076');" href="javascript:;">국토교통부령</a>으로 정하는 잔금납부시기 이전에 매입할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:0" id="J10:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0010', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263629', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:0:001000:99263629" /> <span class="bl"><label for="Y001000"> 제10조(국민주택채권의 중도상환) </label> </span> ① 국민주택채권은 다음 각 호의 어느 하나에 해당하는 경우를 제외하고는 중도에 상환할 수 없다. </p>
+       <p class="pty1_de2h">1. 해당 면허ㆍ허가ㆍ등록이 제1종국민주택채권 매입자에게 책임 없는 사유로 철회되거나 취소된 경우 </p> 
+       <p class="pty1_de2h">2. 국가, 지방자치단체 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626327','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626321','JO','');" href="javascript:;">제1항</a>에 따른 공공기관과 건설공사의 도급계약을 체결한 자가 그에게 책임 없는 사유로 계약을 취소당한 경우 </p> 
+       <p class="pty1_de2h">3. 제2종국민주택채권을 매입한 후 입주자로 선정된 지위(입주자로 선정되어 해당 주택에 입주할 수 있는 권리ㆍ자격 또는 지위를 말한다) 또는 공급계약이 무효로 되거나 취소된 경우 또는 그 공급계약이 해지된 경우 </p> 
+       <p class="pty1_de2h">4. 국민주택채권 매입대상자가 아닌 자가 착오로 매입하였거나 법정매입금액을 초과하여 매입한 경우 </p> 
+       <p class="pty1_de2_1">② 국민주택채권을 중도에 상환 받으려는 자는 제1항 각 호의 어느 하나에 해당한다는 사실증명[해당 사무를 취급하는 국가기관, 지방자치단체, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626325','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626317','JO','');" href="javascript:;">제1항</a>에 따른 공공기관 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626313','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626319','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626323','JO','');" href="javascript:;">제10호</a>에 따른 사업주체(이하 “사업주체”라 한다)가 발행한 것이어야 하며, 이하 이 항에서 “사실증명”이라 한다]을 첨부하여 채권사무 취급기관(채권사무 지정취급기관 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626315','JO','');" href="javascript:;">제7조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626329','JO','');" href="javascript:;">제2항</a>에 따라 채권사무 지정취급기관으로부터 국민주택채권의 매출ㆍ상환 업무를 위탁받은 금융기관을 말한다. 이하 같다)에 신청하여야 한다. 다만, <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130077');" href="javascript:;">국토교통부령</a>으로 정하는 바에 따라 사실증명을 전자적으로 처리하는 경우에는 사실증명을 첨부하지 아니할 수 있다. <span class="sfon">&lt;개정 2016. 8. 11.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제1항에도 불구하고 국토교통부장관은 기금의 적정한 운용을 위하여 필요하다고 인정하는 경우에는 재정경제부장관과 협의하여 제1종국민주택채권을 매입소각(買入消却)의 방법으로 중도상환하도록 채권사무 취급기관에 요청할 수 있다. 이 경우 매입소각의 구체적인 방법은 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0010','00','010102','NOT','국토교통부장관이 정한다','43791');">국토교통부장관이 정한다</a>. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:0" id="J11:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0011', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263631', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:0:001100:99263631" /> <span class="bl"><label for="Y001100"> 제11조 </label> </span> <input type="hidden" id="delJo99263631" value="삭제" /> 삭제 <span class="sfon">&lt;2015. 12. 11.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="J12:0" id="J12:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0012', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263633', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:0:001200:99263633" /> <span class="bl"><label for="Y001200"> 제12조(임대주택의 공급과 관련된 증권) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625169','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625171','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625173','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625175','JO','');" href="javascript:;">제3호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625153','JO','');" href="javascript:;">라목</a>에서 “대통령령으로 정하는 증권”이란 임대주택사업을 단지별로 독립적으로 시행하기 위하여 설립된 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625155','ALLJO','');" href="javascript:;">「상법」</a>에 따른 주식회사 또는 유한회사로서 다음 각 호의 요건을 모두 갖춘 회사가 발행하는 증권을 말한다. <span class="sfon">&lt;개정 2015. 12. 28.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 본점 외의 영업소를 설치하지 아니할 것 </p> 
+       <p class="pty1_de2h">2. 상시 근무하는 임원을 두지 아니할 것 </p> 
+       <p class="pty1_de2h">3. 직원을 고용하지 아니할 것 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625161','ALLJO','');" href="javascript:;">「법인세법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625163','JO','');" href="javascript:;">제86조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625165','JO','');" href="javascript:;">제5항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625167','JO','');" href="javascript:;">제2호</a>에 따른 자산관리회사 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625157','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625159','JO','');" href="javascript:;">제12조</a>에 따라 인가를 받아 설립된 신탁업자에 관련 사무를 위탁할 것 </p> 
+       <p class="pty1_de2h">5. 주식을 담보(주택도시기금 융자금에 대한 담보는 제외한다)로 제공하지 아니할 것 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J13:0" id="J13:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0013', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263635', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="13:0:001300:99263635" /> <span class="bl"><label for="Y001300"> 제13조(주택계정의 용도) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625469','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625471','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625473','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625475','JO','');" href="javascript:;">제9호</a>에서 “대통령령으로 정하는 사업”이란 다음 각 호의 사업을 말한다. <span class="sfon">&lt;개정 2015. 12. 28., 2018. 4. 10.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625477','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625479','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625481','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625483','JO','');" href="javascript:;">제1호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625485','JO','');" href="javascript:;">가목</a> 및 <a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625487','JO','');" href="javascript:;">바목</a>의 사업을 위한 기자재의 구입 및 비축 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625177','ALLJO','');" href="javascript:;">「민간임대주택에 관한 특별법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625179','JO','');" href="javascript:;">제2조</a>에 따른 민간임대주택과 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625461','ALLJO','');" href="javascript:;">「공공주택 특별법」</a><a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625463','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625465','JO','');" href="javascript:;">제1호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625467','JO','');" href="javascript:;">가목</a>에 따른 공공임대주택의 공급 </p> 
+       <p class="pty1_de2h">3. 국민주택을 건설하기 위한 자재 및 기술의 연구ㆍ개발 </p> 
+       <p class="pty1_de2h">4. 주택건설자재의 생산 지원 </p> 
+       <p class="pty1_de2h">5. 주택건설 관련 비영리공익법인의 국민주택건설사업 지원 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J14:0" id="J14:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0014', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="14:0:001400:99263637" /> <span class="bl"><label for="Y001400"> 제14조(도시계정 지원대상 선정기준 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625497','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625499','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625501','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625503','JO','');" href="javascript:;">제2호</a> 각 목 외의 부분에서 “대통령령으로 정하는 요건”이란 다음 각 호의 요건을 말한다. </p>
+       <p class="pty1_de2h">1. 해당 사업이 공공시설의 설치 및 정비를 함께 시행하거나 일부 토지 및 건축물을 공공이 이용할 수 있도록 제공하여 지역의 도시재생에 기여하는 등 공공성이 있을 것 </p> 
+       <p class="pty1_de2h">2. 해당 사업에서 발생하는 미래의 수입으로 기금의 출자금ㆍ투자금 또는 융자금을 상환할 수 있는 등 사업성이 있을 것 </p> 
+       <p class="pty1_de2h">3. 해당 사업의 계획이 충분히 구체적이고 실현가능성이 있을 것 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625489','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625491','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625493','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625495','JO','');" href="javascript:;">제2호</a>에 따른 출자ㆍ투자 또는 융자를 받으려는 자는 다음 각 호의 내용이 포함된 사업계획을 작성하여 국토교통부장관에게 제출하여야 한다. </p> 
+       <p class="pty1_de2h">1. 제1항 각 호의 요건을 갖추었음을 설명하는 자료 </p> 
+       <p class="pty1_de2h">2. 사업구역의 위치 및 면적 </p> 
+       <p class="pty1_de2h">3. 건축물 및 그 부지의 정비에 관한 사업개요 </p> 
+       <p class="pty1_de2h">4. 기반시설 및 공공시설의 정비에 관한 사업개요 </p> 
+       <p class="pty1_de2h">5. 사업시행에 소요되는 기간 </p> 
+       <p class="pty1_de2h">6. 필요한 용지의 취득에 대한 계획 </p> 
+       <p class="pty1_de2h">7. 자금조달 및 기금 활용 계획 </p> 
+       <p class="pty1_de2h">8. 그 밖에 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('289689','0014','00','010102','NOT','국토교통부장관이 정하는','43793');">국토교통부장관이 정하는</a> 사항 </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따른 사업계획을 바탕으로 기금지원 여부를 결정하여야 한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J15:0" id="J15:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0015', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="15:0:001500:99263639" /> <span class="bl"><label for="Y001500"> 제15조(도시계정의 용도) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625505','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625507','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625509','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625511','JO','');" href="javascript:;">제6호</a>에서 “대통령령으로 정하는 사업”이란 다음 각 호의 사업을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 도시재생 활성화를 위한 연구ㆍ조사 </p> 
+       <p class="pty1_de2h">2. 도시재생을 효율적으로 추진하기 위한 기획 및 관리 사업 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J16:0" id="J16:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0016', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="16:0:001600:99263641" /> <span class="bl"><label for="Y001600"> 제16조(출자ㆍ투자 한도) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625523','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625525','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625527','JO','');" href="javascript:;">제3항</a>에 따른 계정별 출자ㆍ투자 총액한도는 계정별로 기본순자산과 적립금 및 잉여금 합계액의 0.3배의 범위에서 기금운용계획으로 정한다. 다만, <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625513','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625515','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625517','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625519','JO','');" href="javascript:;">제2호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625521','JO','');" href="javascript:;">가목부터 다목</a>까지의 기관에 출자한 금액은 주택계정의 출자ㆍ투자 총액한도에 포함하지 아니한다. </p> 
+      </div> 
+     </div> 
+     <a name="J17:0" id="J17:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0017', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:0:001700:99263643" /> <span class="bl"><label for="Y001700"> 제17조(기금 여유자금의 운용방법) </label> </span> 국토교통부장관은 기금에 여유자금이 있는 경우에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625529','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625531','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625533','JO','');" href="javascript:;">제4항</a>에 따라 다음 각 호의 방법으로 운용할 수 있다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 국채, 공채 및 그 밖에 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625535','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625537','JO','');" href="javascript:;">제4조</a>에 따른 증권의 매입 </p> 
+       <p class="pty1_de2h">2. 공사 및 기금재수탁자 등(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625717','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625719','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625721','JO','');" href="javascript:;">제3항</a>에 따라 공사로부터 기금사무의 일부를 재위탁받거나 국토교통부장관으로부터 위탁받은 금융기관 등을 말한다. 이하 같다)에의 예치 </p> 
+       <p class="pty1_de2h">3. 기금이 매각한 대출자산을 기초로 하여 발행된 주택저당증권 중 한국거래소에 상장되지 아니한 주택저당증권의 매입 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J17:2" id="J17:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0017', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001702" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:2:001702:99263645" /> <span class="bl"><label for="Y001702"> 제17조의2(유한책임대출의 운용) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625539','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625541','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625543','JO','');" href="javascript:;">제5항</a>에 따른 기금의 유한책임대출 운용은 다음 각 호의 기준에 따른다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 대출은 무주택자를 대상으로 소득수준을 고려하여 결정할 것 </p> 
+       <p class="pty1_de2h">2. 담보물은 다음 각 목의 심사항목에 따라 평가할 것 </p> 
+       <p class="pty1_de3">가. 대상주택의 노후도 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 대상주택의 입지적 특성 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 대상주택 가격의 적정성 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">3. 대출한도 및 이자율은 주택도시기금 운용계획으로 정할 것 </p> 
+       <p class="pty1_de2h">4. 제1호 및 제2호의 세부적인 사항과 대출한도 및 이자율은 공고할 것 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2015. 12. 11.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J18:0" id="J18:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0018', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263647', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="18:0:001800:99263647" /> <span class="bl"><label for="Y001800"> 제18조(기금의 운용ㆍ관리 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626343','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626331','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626337','JO','');" href="javascript:;">제2항</a>에 따른 위탁사무의 처리에 필요한 비용은 기금에서 부담한다. </p>
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626333','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626345','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626339','JO','');" href="javascript:;">제3항</a>에 따라 공사가 위탁받은 사무의 일부를 재위탁하거나 국토교통부장관이 금융기관 등에 위탁하는 경우의 위탁수수료는 기금에서 부담하되, 그 금액은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130078');" href="javascript:;">국토교통부령</a>으로 정한다. </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따라 위탁수수료에 관한 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('147867');" href="javascript:;">국토교통부령</a>을 제정 또는 개정하려는 때에는 미리 재정경제부장관 및 기획예산처장관과 협의하여야 한다. <span class="sfon">&lt;개정 2025. 12. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 공사 및 기금재수탁자 등은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626341','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626335','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626347','JO','');" href="javascript:;">제4항</a>에 따라 매달의 기금 조성ㆍ운용 상황을 다음 달 20일까지 국토교통부장관에게 보고하여야 한다. </p> 
+       <p class="pty1_de2_1">⑤ 기금재수탁자 등은 기금회계와 기금재수탁자 등의 다른 회계를 구분하여 회계처리하여야 한다. </p> 
+       <p class="pty1_de2_1">⑥ 국토교통부장관은 기금의 수입과 지출을 명확히 하기 위하여 한국은행에 주택도시기금계정을 설치할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J19:0" id="J19:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0019', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263649', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:0:001900:99263649" /> <span class="bl"><label for="Y001900"> 제19조(결산보고서의 제출) </label> </span> ① 공사 및 기금재수탁자 등은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130079');" href="javascript:;">국토교통부령</a>으로 정하는 바에 따라 회계연도마다 기금의 결산보고서를 작성하여 다음 해 2월 20일까지 국토교통부장관에게 제출하여야 한다. </p>
+       <p class="pty1_de2_1">② 제1항에 따른 결산보고서에는 다음 각 호의 서류를 첨부해야 한다. <span class="sfon">&lt;개정 2021. 1. 5.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 기금운용계획에 대한 실적분석보고서 </p> 
+       <p class="pty1_de2h">2. 재무상태표 </p> 
+       <p class="pty1_de2h">3. 손익계산서 </p> 
+       <p class="pty1_de2h">4. 이익잉여금처분계산서 또는 결손금처리계산서 </p> 
+       <p class="pty1_de2h">5. 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130080');" href="javascript:;">국토교통부령</a>으로 정하는 서류 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J20:0" id="J20:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0020', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263651', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="20:0:002000:99263651" /> <span class="bl"><label for="Y002000"> 제20조(대리인의 선임등기 등) </label> </span> ① 공사는 사장이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626237','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626239','JO','');" href="javascript:;">제24조</a>에 따라 대리인을 선임한 경우에는 선임 후 2주일 이내에 주된 사무소의 소재지에서 다음 각 호의 사항을 등기해야 한다. 등기한 사항이 변경된 경우에도 또한 같다. <span class="sfon">&lt;개정 2025. 1. 21.&gt;</span> </p>
+       <p class="pty1_de2h">1. 대리인의 성명, 주민등록번호 및 주소 </p> 
+       <p class="pty1_de2h">2. 대리인을 둔 주된 사무소, 지사 또는 출장소의 명칭과 소재지 </p> 
+       <p class="pty1_de2h">3. 대리인의 권한을 제한하였을 때에는 그 제한 내용 </p> 
+       <p class="pty1_de2_1">② 공사는 사장이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626241','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626235','JO','');" href="javascript:;">제24조</a>에 따라 선임한 대리인을 해임한 경우에는 해임 후 2주일 이내에 주된 사무소의 소재지에서 그 해임한 사실을 등기해야 한다. <span class="sfon">&lt;개정 2025. 1. 21.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J21:0" id="J21:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0021', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263653', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="21:0:002100:99263653" /> <span class="bl"><label for="Y002100"> 제21조(보증의 종류와 보증료) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626005','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626051','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625981','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626081','JO','');" href="javascript:;">제2호</a>에 따라 공사가 할 수 있는 보증의 종류는 다음 각 호와 같다. <span class="sfon">&lt;개정 2015. 12. 28., 2016. 8. 11., 2018. 2. 9., 2019. 4. 23., 2019. 7. 23., 2024. 4. 9., 2024. 9. 20.&gt;</span> </p>
+       <p class="pty1_de2h">1. 분양보증: 사업주체(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625971','ALLJO','');" href="javascript:;">「주택법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626037','JO','');" href="javascript:;">제16조</a>에 따른 공동사업주체를 포함한다)가 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626045','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625995','JO','');" href="javascript:;">제15조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626009','JO','');" href="javascript:;">제1항</a> 본문 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625997','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626091','JO','');" href="javascript:;">제3항</a>에 따라 사업계획의 승인을 받아 건설하는 주택(부대시설 및 복리시설을 포함한다. 이하 이 조에서 같다) 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626039','ALLJO','');" href="javascript:;">같은 법 시행령</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626049','JO','');" href="javascript:;">제27조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625979','JO','');" href="javascript:;">제4항</a>에 따라 사업계획의 승인을 받지 아니하고 30세대 이상의 주택과 주택 외의 시설을 하나의 건축물로 건축하는 경우에 하는 다음 각 목의 보증 </p> 
+       <p class="pty1_de3">가. 주택분양보증: 사업주체가 파산 등의 사유로 분양계약을 이행할 수 없게 되는 경우 해당 주택의 분양(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626083','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625983','JO','');" href="javascript:;">제49조</a>에 따른 사용검사 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625991','ALLJO','');" href="javascript:;">「건축법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626053','JO','');" href="javascript:;">제22조</a>에 따른 사용승인과 소유권보존등기를 포함한다)의 이행 또는 납부한 계약금 및 중도금의 환급(해당 주택의 감리자가 확인한 실행공정률이 100분의 80 미만이고, 입주자의 3분의 2 이상이 원하는 경우로 한정한다. 이하 나목에서 같다)을 책임지는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 주택임대보증: 사업주체가 파산 등의 사유로 임대계약을 이행할 수 없게 되는 경우 해당 주택의 임대(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626077','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626079','JO','');" href="javascript:;">제49조</a>에 따른 사용검사 및 소유권보존등기를 포함한다)의 이행 또는 납부한 계약금 및 중도금의 환급을 책임지는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. 임대보증금에 대한 보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626007','ALLJO','');" href="javascript:;">「민간임대주택에 관한 특별법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625987','JO','');" href="javascript:;">제49조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626085','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626003','ALLJO','');" href="javascript:;">같은 법 시행령</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625977','JO','');" href="javascript:;">제38조</a>에 따른 민간건설임대주택의 임대보증금을 책임지는 보증 </p> 
+       <p class="pty1_de2h">3. 하자보수보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626057','ALLJO','');" href="javascript:;">「공동주택관리법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625999','JO','');" href="javascript:;">제36조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626025','JO','');" href="javascript:;">제1항</a>에 따른 하자담보책임기간에 발생한 하자의 보수에 대한 보증 </p> 
+       <p class="pty1_de2h">3의2. 전세보증금반환보증: 임대차계약 또는 전세계약의 종료에 따른 보증금의 반환을 책임지는 보증 </p> 
+       <p class="pty1_de2h">4. 감리비 예치보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626055','ALLJO','');" href="javascript:;">「주택법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625993','JO','');" href="javascript:;">제15조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626089','JO','');" href="javascript:;">제2항</a>에 따른 등록사업자가 주택건설사업을 시행하는 경우의 감리와 관련하여 감리자에게 지급하여야 할 감리비의 지급에 대한 보증 </p> 
+       <p class="pty1_de2h">5. 조합주택 시공보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626021','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626067','JO','');" href="javascript:;">제5조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625985','JO','');" href="javascript:;">제2항</a>에 따른 주택조합과 공동으로 사업을 시행하는 등록사업자(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626059','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626073','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626027','JO','');" href="javascript:;">제11호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034626013','JO','');" href="javascript:;">다목</a>에 따른 리모델링주택조합 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625973','ALLJO','');" href="javascript:;">「도시 및 주거환경정비법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625975','JO','');" href="javascript:;">제35조</a> 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626029','ALLJO','');" href="javascript:;">「빈집 및 소규모주택 정비에 관한 특례법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626017','JO','');" href="javascript:;">제23조</a>에 따른 정비사업조합의 경우에는 도급계약을 체결한 시공자를 말한다)가 파산 등의 사유로 해당 주택에 대한 시공책임(착공신고일부터 사용검사일까지의 공사이행 책임을 말한다)을 이행할 수 없게 되는 경우에 시공을 이행하거나 일정금액을 납부하는 보증 </p> 
+       <p class="pty1_de2h">6. 주택상환사채에 대한 보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626011','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626031','JO','');" href="javascript:;">제80조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626047','JO','');" href="javascript:;">제1항</a>에 따라 주택상환사채를 발행한 사업주체가 파산 등의 사유로 상환예정일에 주택으로 사채를 상환하지 못하는 경우에 이의 상환을 책임지는 보증 </p> 
+       <p class="pty1_de2h">7. 주택사업금융보증: 주택을 건설ㆍ매입 또는 리모델링하여 수요자에게 분양 또는 임대하는 사업에 지원되는 금융의 원리금 상환을 책임지는 보증 </p> 
+       <p class="pty1_de2h">8. 하도급계약이행 및 대금지급보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626015','ALLJO','');" href="javascript:;">「하도급거래 공정화에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626001','JO','');" href="javascript:;">제13조의2</a>에 따른 보증 중 주택건설 하도급의 계약이행 및 대금지급을 책임지는 보증 </p> 
+       <p class="pty1_de2h">9. 도시재생사업보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626065','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626035','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625967','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625969','JO','');" href="javascript:;">제2호</a> 각 목의 어느 하나에 해당하는 사업을 지원하는 금융의 원리금 상환을 책임지는 다음 각 목의 보증 </p> 
+       <p class="pty1_de3">가. 도시재생사업금융보증: 해당 사업에서 발생하는 미래의 현금수입을 주요 상환재원으로 하는 금융의 원리금 상환을 책임지는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 도시재생사업특례보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626019','ALLJO','');" href="javascript:;">「사회적기업 육성법」</a>에 따른 사회적기업 등에 대해 적립금 등 별도의 재원으로 원리금 상환을 책임지는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">10. 도시재생지원사업금융보증: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626087','ALLJO','');" href="javascript:;">「지방자치분권 및 지역균형발전에 관한 특별법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626023','JO','');" href="javascript:;">제44조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626071','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626043','JO','');" href="javascript:;">제2호</a>에 따른 대상이 도시재생을 지원할 목적으로 출자 또는 융자하는 사업에서 발생하는 미래의 현금수입을 주요 상환재원으로 하는 금융의 원리금 상환을 책임지는 보증 </p> 
+       <p class="pty1_de2h">11. 그 밖에 국토교통부장관이 정하는 보증 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626033','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626061','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626063','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626075','JO','');" href="javascript:;">제4호</a>에 따라 공사가 할 수 있는 유동화증권에 대한 보증의 종류는 다음 각 호와 같다. </p> 
+       <p class="pty1_de2h">1. 유동화증권의 상환을 책임지는 보증 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626069','ALLJO','');" href="javascript:;">「자산유동화에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625989','JO','');" href="javascript:;">제3조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626041','JO','');" href="javascript:;">제1항</a>에 따른 유동화전문회사등에 대한 금융기관 신용공여의 상환을 책임지는 보증 </p> 
+       <p class="pty1_de2_1">③ 공사를 이용하는 자로부터 받는 보증료 등은 국토교통부장관의 승인을 받아야 한다. </p> 
+       <p class="pty1_de2_1">④ 공사는 그가 하는 각종 보증의 구체적인 내용, 책임범위 및 조건 등에 관하여 약관을 정하여 시행할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J22:0" id="J22:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0022', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263655', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="22:0:002200:99263655" /> <span class="bl"><label for="Y002200"> 제22조(업무) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625575','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625577','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625579','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625581','JO','');" href="javascript:;">제9호</a>에서 “대통령령으로 정하는 업무”란 다음 각 호의 업무를 말한다. <span class="sfon">&lt;개정 2019. 7. 23.&gt;</span> </p>
+       <p class="pty1_de2h">1. 공사가 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625545','JO','');" href="javascript:;">제21조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625547','JO','');" href="javascript:;">제1항</a>에 따른 분양보증, 하자보수보증 등을 하는 경우에 사업주체의 파산 등으로 인하여 부담하게 될 수 있는 보증채무를 면하거나 보증채무 이행에 수반되는 손실을 방지하기 위하여 수행하는 다음 각 목의 업무 </p> 
+       <p class="pty1_de3">가. 시공 중인 주택을 일시 매입하여 임대하거나 관리하는 업무 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625585','ALLJO','');" href="javascript:;">「자산유동화에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625571','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625573','JO','');" href="javascript:;">제5호</a>에 따른 유동화전문회사가 발행하는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625567','ALLJO','');" href="javascript:;">같은 법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625583','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625569','JO','');" href="javascript:;">제4호</a>에 따른 유동화증권을 매입하는 업무 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625697','ALLJO','');" href="javascript:;">「해외건설 촉진법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625693','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625695','JO','');" href="javascript:;">제3항</a>에 따른 해외건설집합투자기구가 발행하는 유가증권의 매입 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625747','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625751','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625753','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625749','JO','');" href="javascript:;">제1호부터 제7호</a>까지 및 이 항 제2호의 업무와 관련된 해외사업 </p> 
+       <p class="pty1_de2_1">② 공사는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625549','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625551','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625553','JO','');" href="javascript:;">제1항</a> 각 호의 업무를 수행하기 위하여 다음 각 호의 행위를 할 수 있다. <span class="sfon">&lt;개정 2016. 8. 11.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 보증 및 기금의 심사 및 이행(재산조사를 포함한다) 등을 위한 조사 및 관계인에 대한 자료제공의 요청 </p> 
+       <p class="pty1_de2h">2. 건설공사의 감리자에 대한 시공방법, 공정현황, 사용자재 및 품질 등에 관한 자료제출의 요청 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625563','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625565','JO','');" href="javascript:;">제49조</a>에 따른 사용검사(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625713','ALLJO','');" href="javascript:;">「건축법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625715','JO','');" href="javascript:;">제22조</a>에 따른 사용승인을 포함한다)의 신청 등 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('130125');" href="javascript:;">국토교통부령</a>으로 정하는 보증의 이행과 관련된 업무 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J23:0" id="J23:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0023', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263657', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="23:0:002300:99263657" /> <span class="bl"><label for="Y002300"> 제23조(보증의 한도) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625777','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625779','JO','');" href="javascript:;">제27조</a>에 따른 보증의 총액한도는 자기자본의 90배로 한다. <span class="sfon">&lt;개정 2021. 11. 12., 2023. 9. 19., 2024. 4. 9.&gt;</span> </p>
+       <p class="pty1_de2_1">② 금융기관, 보험회사 또는 이와 유사한 기관의 보증이나 보험에 의하여 보장을 받거나 그 밖에 담보물을 받고 하는 보증은 제1항에 따른 보증의 총액한도에 포함하지 아니한다. </p> 
+       <p class="pty1_de2_1">③ 제1항에서 자기자본은 전년도말 결산액을 기준으로 한다. 다만, 사업연도 중에 증자를 한 경우에는 증자를 마친 때의 자기자본을 기준으로 한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J24:0" id="J24:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0024', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:0:002400:99263659" /> <span class="bl"><label for="Y002400"> 제24조(준비금의 적립) </label> </span> 공사는 결산기마다 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625591','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625593','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625595','JO','');" href="javascript:;">제1항</a>에 따른 보증의 종류별로 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625587','ALLJO','');" href="javascript:;">「보험업법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625589','JO','');" href="javascript:;">제120조</a>에 준하는 책임준비금을 적립하여야 한다. </p> 
+      </div> 
+     </div> 
+     <a name="J25:0" id="J25:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0025', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:0:002500:99263661" /> <span class="bl"><label for="Y002500"> 제25조(공사의 경영건전성 검사) </label> </span> ① 금융위원회는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625597','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625599','JO','');" href="javascript:;">제32조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625601','JO','');" href="javascript:;">제2항</a>에 따라 공사의 경영건전성 유지에 필요한 검사를 하는 경우에는 검사기준을 만들어 사전에 공사에 통보할 수 있다. </p>
+       <p class="pty1_de2_1">② 금융위원회는 제1항에 따른 검사를 위하여 필요한 경우에는 금융감독원장에게 그 소속 직원의 파견을 요청할 수 있다. </p> 
+       <p class="pty1_de2_1">③ 공사에 대한 경영건전성 검사를 하는 자는 그 권한을 표시하는 증표를 지니고 관계인에게 보여 주어야 한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:2" id="J25:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0025', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263663', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002502" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:2:002502:99263663" /> <span class="bl"><label for="Y002502"> 제25조의2(자료제공의 요청) </label> </span> ① 국토교통부장관, 공사, 기금재수탁자 등 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626193','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626163','JO','');" href="javascript:;">제34조의4</a>에 따라 업무를 위탁받은 보건복지부장관이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626207','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626133','JO','');" href="javascript:;">제33조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626209','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626181','JO','');" href="javascript:;">제2항</a>에 따라 자료 및 정보의 제공을 요청할 수 있는 기관은 다음 각 호와 같다. <span class="sfon">&lt;개정 2020. 5. 19.&gt;</span> </p>
+       <p class="pty1_de2h">1. 대법원 등 국가기관 </p> 
+       <p class="pty1_de2h">2. 지방자치단체 </p> 
+       <p class="pty1_de2h">3. 금융기관 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626199','ALLJO','');" href="javascript:;">「공무원연금법」</a>에 따른 공무원연금공단 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626117','ALLJO','');" href="javascript:;">「국민연금법」</a>에 따른 국민연금공단 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626175','ALLJO','');" href="javascript:;">「국민건강보험법」</a>에 따른 국민건강보험공단 </p> 
+       <p class="pty1_de2h">7. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626097','ALLJO','');" href="javascript:;">「별정우체국법」</a>에 따른 별정우체국 연금관리단 </p> 
+       <p class="pty1_de2h">8. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626103','ALLJO','');" href="javascript:;">「보험업법」</a>에 따른 보험요율 산출기관 </p> 
+       <p class="pty1_de2h">9. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626115','ALLJO','');" href="javascript:;">「사립학교교직원 연금법」</a>에 따른 사립학교교직원연금공단 </p> 
+       <p class="pty1_de2h">10. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626141','ALLJO','');" href="javascript:;">「사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률」</a>에 따른 한국사회보장정보원 </p> 
+       <p class="pty1_de2h">11. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626131','ALLJO','');" href="javascript:;">「산업재해보상보험법」</a>에 따른 근로복지공단 </p> 
+       <p class="pty1_de2h">12. 그 밖에 국토교통부장관 또는 공사가 기금의 운용 및 관리를 위해 필요하다고 인정하는 자료 또는 정보를 보유한 기관 </p> 
+       <p class="pty1_de2_1">② 국토교통부장관, 공사, 기금재수탁자 등 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626119','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626233','JO','');" href="javascript:;">제34조의4</a>에 따라 업무를 위탁받은 보건복지부장관이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626093','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626095','JO','');" href="javascript:;">제33조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626215','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626197','JO','');" href="javascript:;">제2항</a>에 따라 요청할 수 있는 자료 및 정보는 다음 각 호와 같다. <span class="sfon">&lt;개정 2020. 6. 9., 2020. 12. 8., 2021. 4. 6., 2024. 9. 20.&gt;</span> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626213','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626161','JO','');" href="javascript:;">제33조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626191','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626171','JO','');" href="javascript:;">제2호</a>에 따른 다음 각 목의 국세 및 지방세에 관한 자료 </p> 
+       <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626227','ALLJO','');" href="javascript:;">「국세기본법」</a>에 따른 과세정보인 다음의 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626219','ALLJO','');" href="javascript:;">「소득세법」</a>에 따른 종합소득, 사업소득, 근로소득 및 일용근로자의 근로소득 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626211','ALLJO','');" href="javascript:;">「조세특례제한법」</a>에 따른 근로장려금 및 자녀장려금의 결정에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">3) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626201','ALLJO','');" href="javascript:;">「부가가치세법」</a>에 따른 사업자등록에 관한 자료(휴업ㆍ폐업정보를 포함한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626217','ALLJO','');" href="javascript:;">「지방세법」</a>에 따른 취득세, 재산세 및 자동차세에 관한 과세정보 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626123','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626189','JO','');" href="javascript:;">제33조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626139','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626159','JO','');" href="javascript:;">제3호</a>에 따른 다음 각 목의 각종 연금ㆍ보험ㆍ급여에 관한 자료 </p> 
+       <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626223','ALLJO','');" href="javascript:;">「고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률」</a>에 따른 보험가입자, 근로자 및 예술인의 월평균보수 등에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626155','ALLJO','');" href="javascript:;">「고용보험법」</a>에 따른 다음의 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) 피보험자의 자격 등에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) 실업급여 등 급여, 보상 및 지원에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626187','ALLJO','');" href="javascript:;">「국민건강보험법」</a>에 따른 다음의 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) 가입자의 보수월액, 보험료, 자격 취득ㆍ상실 등 보험료의 부과ㆍ징수에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) 피부양자의 자격에 관한 정보 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">3) 보험료를 경감 받는 대상자임을 증명하는 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626173','ALLJO','');" href="javascript:;">「국민기초생활 보장법」</a>에 따른 수급자 및 차상위계층에 해당함을 증명하는 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">마. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626135','ALLJO','');" href="javascript:;">「국민연금법」</a>에 따른 가입자 자격 및 급여 등에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">바. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626113','ALLJO','');" href="javascript:;">「노인장기요양보험법」</a>에 따른 수급자로 판정된 사람의 장기요양급여 및 장기요양기관에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">사. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626099','ALLJO','');" href="javascript:;">「산업재해보상보험법」</a>에 따른 보험급여 등 급여, 보상 및 지원에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">아. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626179','ALLJO','');" href="javascript:;">「장애인복지법」</a>에 따른 장애인 등록 여부, 장애수당 및 장애아동수당 수급 여부에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">자. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626143','ALLJO','');" href="javascript:;">「장애인연금법」</a>에 따른 장애인연금 수급 여부에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">차. 다음의 법률에 따른 가입자의 연금 또는 급여에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626157','ALLJO','');" href="javascript:;">「공무원연금법」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626101','ALLJO','');" href="javascript:;">「군인공제회법」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">3) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626225','ALLJO','');" href="javascript:;">「군인연금법」</a>, <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626177','ALLJO','');" href="javascript:;">「군인 재해보상법」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">4) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626203','ALLJO','');" href="javascript:;">「별정우체국법」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">5) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626147','ALLJO','');" href="javascript:;">「사립학교교직원 연금법」</a> <span class="sfon"></span></p> 
+       <p class="pty1_de3">카. 다음의 법률에 따라 받는 급여, 보상 및 지원에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626151','ALLJO','');" href="javascript:;">「5ㆍ18민주유공자예우 및 단체설립에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626153','ALLJO','');" href="javascript:;">「고엽제후유의증 등 환자지원 및 단체설립에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">3) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626109','ALLJO','');" href="javascript:;">「국가보훈 기본법」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">4) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626195','ALLJO','');" href="javascript:;">「국가유공자 등 예우 및 지원에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">5) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626149','ALLJO','');" href="javascript:;">「독립유공자예우에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">6) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626229','ALLJO','');" href="javascript:;">「보훈보상대상자 지원에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">7) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626231','ALLJO','');" href="javascript:;">「제대군인지원에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">8) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626205','ALLJO','');" href="javascript:;">「참전유공자 예우 및 단체설립에 관한 법률」</a> <span class="sfon"></span></p>
+       <p class="pty1_de4_1">9) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626165','ALLJO','');" href="javascript:;">「특수임무유공자 예우 및 단체설립에 관한 법률」</a> <span class="sfon"></span></p> 
+       <p class="pty1_de3">타. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626107','ALLJO','');" href="javascript:;">「한부모가족지원법」</a>에 따른 지원대상자임을 증명하는 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626121','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034626183','JO','');" href="javascript:;">제33조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034626185','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034626137','JO','');" href="javascript:;">제4호</a>에 따른 다음 각 목의 부동산 및 자동차에 관한 자료 </p> 
+       <p class="pty1_de3">가. 부동산에 관한 다음의 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626127','ALLJO','');" href="javascript:;">「건축법」</a>에 따른 건축물대장 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626111','ALLJO','');" href="javascript:;">「공간정보의 구축 및 관리 등에 관한 법률」</a>에 따른 지적전산자료 및 부동산종합공부 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">3) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626169','ALLJO','');" href="javascript:;">「도시 및 주거환경정비법」</a>에 따른 분양대상자에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">4) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626167','ALLJO','');" href="javascript:;">「부동산 가격공시에 관한 법률」</a>에 따른 개별공시지가, 개별주택가격 및 공동주택가격 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">5) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626125','ALLJO','');" href="javascript:;">「부동산 거래신고 등에 관한 법률」</a>에 따른 부동산등의 거래 및 주택 임대차 계약에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">6) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626105','ALLJO','');" href="javascript:;">「주택임대차보호법」</a>에 따른 확정일자부 중 임대차계약에 관한 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">7) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626129','ALLJO','');" href="javascript:;">「주택법」</a>에 따른 분양권에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 자동차에 관한 다음의 자료 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">1) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626145','ALLJO','');" href="javascript:;">「자동차관리법」</a>에 따른 자동차등록원부 <span class="sfon"></span></p>
+       <p class="pty1_de4_1">2) <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034626221','ALLJO','');" href="javascript:;">「보험업법」</a>에 따른 자동차보험의 보험요율 산출에 관한 자료 <span class="sfon"></span></p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2019. 7. 23.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:3" id="J25:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0025', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263665', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002503" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:3:002503:99263665" /> <span class="bl"><label for="Y002503"> 제25조의3(금융정보 등의 제공 요청 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625781','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625783','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625785','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625787','JO','');" href="javascript:;">제1호</a> 및 <a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625789','JO','');" href="javascript:;">제2호</a>에 따른 자료 또는 정보의 구체적인 내용은 다음 각 호와 같다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625819','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625821','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625823','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625825','JO','');" href="javascript:;">제1호</a>에 따른 금융정보: 다음 각 목의 자료 또는 정보 </p> 
+       <p class="pty1_de3">가. 보통예금, 저축예금, 자유저축예금 등 요구불예금: 최근 3개월 이내의 평균 잔액 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 정기예금, 정기적금, 정기저축 등 저축성예금: 예금의 잔액 또는 총납입액 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 주식, 수익증권, 출자금, 출자지분: 최종 시세가액. 이 경우 비상장주식은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625807','ALLJO','');" href="javascript:;">「상속세 및 증여세법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625809','JO','');" href="javascript:;">제54조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625811','JO','');" href="javascript:;">제1항</a>에 따라 가액을 평가한다. <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. 채권, 어음, 수표, 채무증서, 신주인수권 증서: 액면가액 <span class="sfon"></span></p> 
+       <p class="pty1_de3">마. 연금저축: 정기적으로 지급된 금액 또는 최종 잔액 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625791','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625793','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625803','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625805','JO','');" href="javascript:;">제2호</a>에 따른 신용정보: 다음 각 목의 자료 또는 정보 </p> 
+       <p class="pty1_de3">가. 대출 현황과 연체 내용 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 신용카드 미결제금액 <span class="sfon"></span></p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625813','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625795','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625815','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625817','JO','');" href="javascript:;">제3호</a>에서 “대통령령으로 정하는 보험 관련 자료 또는 정보”란 다음 각 호의 자료 또는 정보를 말한다. </p> 
+       <p class="pty1_de2h">1. 보험증권: 해약하는 경우 지급받게 될 환급금 또는 최근 1년 이내에 지급된 보험금 </p> 
+       <p class="pty1_de2h">2. 연금보험: 해약하는 경우 지급받게 될 환급금 또는 정기적으로 지급되는 금액 </p> 
+       <p class="pty1_de2_1">③ 기금과 관련한 대출을 신청하는 자 및 그 배우자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625797','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625799','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625801','JO','');" href="javascript:;">제2항</a>에 따라 동의서면을 제출하는 경우 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('152083');" href="javascript:;">국토교통부령</a>으로 정하는 금융정보 등의 제공 동의서면을 국토교통부장관에게 직접 제출하거나 우편ㆍ팩스 또는 정보통신망을 통하여 제출할 수 있다. <span class="sfon">&lt;개정 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 공사는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625923','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625919','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625927','JO','');" href="javascript:;">제3항</a>에 따라 전세보증금반환보증을 신청하는 자에게 전세보증금반환채권에 대한 질권 등 금융기관의 담보권 설정 유무 및 해당 담보권 설정 금액에 관한 정보를 제공받는 데에 필요한 동의서면을 제출하도록 요청할 수 있다. <span class="sfon">&lt;신설 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 전세보증금반환보증을 신청하는 자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625929','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625925','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625921','JO','');" href="javascript:;">제3항</a>에 따라 동의서면을 제출하는 경우 공사가 정하는 바에 따라 금융정보 등의 제공 동의서면을 공사에 직접 제출하거나 우편ㆍ팩스 또는 정보통신망을 통해 제출할 수 있다. <span class="sfon">&lt;신설 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2019. 7. 23.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:4" id="J25:4"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0025', '04' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263667', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002504" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:4:002504:99263667" /> <span class="bl"><label for="Y002504"> 제25조의4(금융정보등의 제공) </label> </span> ① 국토교통부장관(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625855','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625857','JO','');" href="javascript:;">제34조의4</a>에 따라 업무를 위탁받은 보건복지부장관을 포함한다. 이하 이 조에서 같다) 및 공사는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625951','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625931','JO','');" href="javascript:;">제34조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625943','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625957','JO','');" href="javascript:;">제2항</a>에 따라 금융기관 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625831','ALLJO','');" href="javascript:;">「신용정보의 이용 및 보호에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625833','JO','');" href="javascript:;">제25조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625827','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625835','JO','');" href="javascript:;">제1호</a>에 따른 종합신용정보집중기관(이하 “신용정보집중기관”이라 한다)의 장에게 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625941','JO','');" href="javascript:;">제25조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625955','JO','');" href="javascript:;">제3항</a>에 따른 기금과 관련한 대출을 신청하는 자와 그 배우자 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625945','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625959','JO','');" href="javascript:;">제4항</a>에 따른 전세보증금반환보증을 신청하는 자(이하 “신청자등”이라 한다)에 대한 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625837','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625839','JO','');" href="javascript:;">제34조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625841','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625843','JO','');" href="javascript:;">제1호부터 제3호</a>까지 및 이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625953','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625933','JO','');" href="javascript:;">제25조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625935','JO','');" href="javascript:;">제4항</a>에 따른 금융정보ㆍ신용정보 또는 보험정보(이하 “금융정보등”이라 한다)의 제공을 요청하는 경우에는 요청 내용에 다음 각 호의 사항을 포함해야 한다. <span class="sfon">&lt;개정 2020. 8. 4., 2024. 4. 9.&gt;</span> </p>
+       <p class="pty1_de2h">1. 신청자등의 성명과 주민등록번호 </p> 
+       <p class="pty1_de2h">2. 제공을 요청하는 금융정보등의 범위와 조회기준일 및 조회기간 </p> 
+       <p class="pty1_de2h">3. 요청의 법적 근거 </p> 
+       <p class="pty1_de2h">4. 사용 목적 </p> 
+       <p class="pty1_de2h">5. 요청하는 기관의 담당자 및 책임자의 성명과 직책 등 인적사항 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625939','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625949','JO','');" href="javascript:;">제34조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625937','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625947','JO','');" href="javascript:;">제2항</a>에 따라 금융정보등의 제공을 요청받은 금융기관 및 신용정보집중기관의 장이 국토교통부장관 및 공사에 해당 금융정보등을 제공하는 경우에는 제공 내용에 다음 각 호의 사항을 포함해야 한다. <span class="sfon">&lt;개정 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 신청자등의 성명과 주민등록번호 </p> 
+       <p class="pty1_de2h">2. 금융정보등을 제공하는 금융기관 및 신용정보집중기관의 명칭 </p> 
+       <p class="pty1_de2h">3. 제공대상 금융상품명과 계좌번호 </p> 
+       <p class="pty1_de2h">4. 금융정보등의 내용 </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관 및 공사는 금융기관 및 신용정보집중기관이 가입한 협회, 연합회 또는 중앙회의 정보통신망을 이용하여 해당 금융기관 및 신용정보집중기관의 장에게 금융정보등을 제공하도록 요청할 수 있다. <span class="sfon">&lt;개정 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2019. 7. 23.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J26:0" id="J26:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0026', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263669', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="26:0:002600:99263669" /> <span class="bl"><label for="Y002600"> 제26조(고유식별정보의 처리) </label> </span> ① 국토교통부장관(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625725','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625727','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625729','JO','');" href="javascript:;">제2항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625723','JO','');" href="javascript:;">제3항</a>에 따라 국토교통부장관의 업무를 위탁 또는 재위탁받은 자를 포함한다)은 다음 각 호의 사무를 수행하기 위하여 불가피한 경우 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625699','ALLJO','');" href="javascript:;">「개인정보 보호법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625711','JO','');" href="javascript:;">제19조</a>에 따른 주민등록번호, 여권번호 또는 외국인등록번호가 포함된 자료를 처리할 수 있다. <span class="sfon">&lt;개정 2016. 11. 1., 2019. 7. 23.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625623','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625625','JO','');" href="javascript:;">제8조</a>에 따른 국민주택채권의 매입에 관한 사무 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625641','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625643','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625645','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625665','JO','');" href="javascript:;">제1호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1034625667','JO','');" href="javascript:;">가목부터 마목</a>까지 및 사목에 따른 융자에 관한 사무(임대인 및 세대원의 정보를 포함한다) </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625657','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625659','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625661','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625663','JO','');" href="javascript:;">제2호</a>에 따른 출자ㆍ투자 또는 융자에 관한 사무 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625705','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625707','JO','');" href="javascript:;">제10조</a>에 따른 기금의 운용ㆍ관리에 관한 사무 중 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625709','ALLJO','');" href="javascript:;">「주택법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625701','JO','');" href="javascript:;">제56조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625703','JO','');" href="javascript:;">제2항</a>의 입주자저축에 관한 사무 </p> 
+       <p class="pty1_de2_1">② 공사는 다음 각 호의 사무를 수행하기 위하여 불가피한 경우 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625603','ALLJO','');" href="javascript:;">「개인정보 보호법 시행령」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625627','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625605','JO','');" href="javascript:;">제1호</a>, <a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625615','JO','');" href="javascript:;">제2호</a> 또는 제4호에 따른 주민등록번호, 여권번호 또는 외국인등록번호가 포함된 자료를 처리할 수 있다. </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625617','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625619','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625629','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625621','JO','');" href="javascript:;">제2호</a>에 따른 보증에 관한 사무 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625607','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625609','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625611','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625613','JO','');" href="javascript:;">제3호</a>에 따른 보증의 이행 및 구상권 행사에 관한 사무 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625669','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625671','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625673','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625675','JO','');" href="javascript:;">제4호</a> 및 <a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625677','JO','');" href="javascript:;">제5호</a>에 따른 유동화증권에 대한 보증 및 유동화자산 관리에 관한 사무 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625679','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625681','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625683','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625685','JO','');" href="javascript:;">제6호</a>에 따른 부동산의 취득ㆍ관리ㆍ개량 및 처분의 수탁에 관한 사무 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625637','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625639','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625647','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625649','JO','');" href="javascript:;">제7호</a>에 따라 위탁받은 업무 중 보증, 보증이행 또는 융자에 관한 사무(보증, 보증이행 또는 융자 업무의 수행에 따른 채권행사에 관한 사무를 포함한다) </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625651','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625653','JO','');" href="javascript:;">제26조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625655','JO','');" href="javascript:;">제2항</a>에 따른 신탁의 인수에 관한 사무 </p> 
+       <p class="pty1_de2h">7. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625687','JO','');" href="javascript:;">제22조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625689','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625691','JO','');" href="javascript:;">제1호</a>에 따른 업무에 관한 사무 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J27:0" id="J27:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0027', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263671', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="27:0:002700:99263671" /> <span class="bl"><label for="Y002700"> 제27조(상습 채무불이행자의 성명 등 공개) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625879','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625881','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625883','JO','');" href="javascript:;">제1항</a> 각 호 외의 부분 단서에서 “임대인이 사망한 경우, 구상채무와 관련하여 민사소송이 계류 중인 경우 등 대통령령으로 정하는 사유”란 다음 각 호의 어느 하나에 해당하는 사유를 말한다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625891','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625893','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625895','JO','');" href="javascript:;">제1항</a> 각 호 외의 부분 본문에 따른 임대인(이하 “상습 채무불이행자”라 한다)이 사망한 경우 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625913','ALLJO','');" href="javascript:;">「민법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625915','JO','');" href="javascript:;">제27조</a>에 따라 실종선고를 받은 경우 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625885','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625887','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625889','JO','');" href="javascript:;">제1항</a>에 따른 구상채무(이하 “구상채무”라 한다)와 관련하여 민사소송이 계류 중인 경우(여러 건의 구상채무 가운데 일부만 민사소송이 계류 중인 경우로서 나머지 구상채무만으로도 같은 항에 따른 공개 요건을 갖춘 경우는 제외한다) </p> 
+       <p class="pty1_de2h">3. 상습 채무불이행자가 구상채무를 전부 이행한 경우 </p> 
+       <p class="pty1_de2h">4. 상습 채무불이행자가 구상채무의 100분의 50 이상을 이행하고, 나머지 채무에 대한 이행계획 및 자금 조달 방안을 충분히 소명하여 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625873','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625875','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625877','JO','');" href="javascript:;">제4항</a>에 따른 임대인정보공개심의위원회(이하 “정보공개심의위원회”라 한다)가 공개 대상에서 제외할 필요가 있다고 인정하는 경우 </p> 
+       <p class="pty1_de2h">5. 제1호부터 제4호까지에 준하는 경우로서 정보공개심의위원회가 상습 채무불이행자의 성명 등을 공개할 실익이 없거나 공개하는 것이 부적절하다고 인정하는 경우 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625903','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625911','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625905','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625907','JO','');" href="javascript:;">제1호</a>에서 “임대보증금보증 등 대통령령으로 정하는 보증채무”란 다음 각 호의 어느 하나에 해당하는 보증채무를 말한다. <span class="sfon">&lt;개정 2024. 4. 9.&gt;</span> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625917','JO','');" href="javascript:;">제21조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625859','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625861','JO','');" href="javascript:;">제2호</a>에 따른 임대보증금에 대한 보증 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625965','JO','');" href="javascript:;">제21조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625963','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625961','JO','');" href="javascript:;">제3호의2</a>에 따른 전세보증금반환보증 </p> 
+       <p class="pty1_de2_1">③ 공사는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625897','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625899','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625901','JO','');" href="javascript:;">제3항</a>에 따라 성명 등의 공개대상자에게 공개대상자임을 통보하는 경우에는 구상채무의 이행을 촉구하고, 통보받은 날부터 2개월 안에 소명자료를 제출하도록 안내해야 한다. </p> 
+       <p class="pty1_de2_1">④ 공사는 상습 채무불이행자의 성명 등을 공개한 후 공개대상자나 그 상속인 또는 법정대리인이 제1항제1호부터 제4호까지의 어느 하나에 해당하는 사유를 소명한 경우에는 정보공개심의위원회의 심의ㆍ의결을 거쳐 공개된 성명 등을 삭제한다. </p> 
+       <p class="pty1_de2_1">⑤ 공사는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625867','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625869','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625871','JO','');" href="javascript:;">제1항</a>에 따라 성명 등을 공개한 경우 또는 이 조 제4항에 따라 공개된 성명 등을 삭제한 경우에는 지체 없이 공개대상자나 그 상속인 또는 법정대리인에게 그 사실을 알려야 한다. </p> 
+       <p class="pty1_de2_1">⑥ 제1항부터 제5항까지에서 규정한 사항 외에 상습 채무불이행자의 성명 등의 공개 방법 및 절차 등에 관하여 필요한 사항은 공사가 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2023. 9. 19.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J28:0" id="J28:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0028', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263673', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="28:0:002800:99263673" /> <span class="bl"><label for="Y002800"> 제28조(임대인정보공개심의위원회 구성 및 운영) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625759','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625755','JO','');" href="javascript:;">제34조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625757','JO','');" href="javascript:;">제1항</a>에 따른 상습 채무불이행자의 성명 등의 공개 여부를 심의하기 위하여 공사에 정보공개심의위원회를 둔다. </p>
+       <p class="pty1_de2_1">② 정보공개심의위원회는 위원장 1명을 포함하여 11명의 위원으로 구성한다. </p> 
+       <p class="pty1_de2_1">③ 정보공개심의위원회의 위원장은 위원 중에서 공사의 사장이 지명하는 사람이 되고, 위원은 공사의 사장이 임명하거나 위촉하는 다음 각 호의 사람이 된다. </p> 
+       <p class="pty1_de2h">1. 공사 소속 임직원 3명 </p> 
+       <p class="pty1_de2h">2. 판사ㆍ검사 또는 변호사의 직에 5년 이상 재직하였거나 재직하고 있는 사람 3명 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1034625761','ALLJO','');" href="javascript:;">「고등교육법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625763','JO','');" href="javascript:;">제2조</a>에 따른 대학에서 부동산, 금융 또는 법률 관련 학과의 부교수 이상으로 재직하였거나 재직하고 있는 사람 3명 </p> 
+       <p class="pty1_de2h">4. 부동산, 금융 또는 법률에 관한 학식과 경험이 풍부한 사람 2명 </p> 
+       <p class="pty1_de2_1">④ 제3항제2호부터 제4호까지에 따른 위원의 임기는 2년으로 한다. </p> 
+       <p class="pty1_de2_1">⑤ 위원장은 정보공개심의위원회를 대표하고 그 직무를 총괄한다. 다만, 위원장이 부득이한 사유로 직무를 수행할 수 없는 경우에는 위원장이 미리 지명한 위원이 그 직무를 대행한다. </p> 
+       <p class="pty1_de2_1">⑥ 정보공개심의위원회의 회의는 구성원 과반수의 출석으로 개의하고, 출석위원 과반수의 찬성으로 의결한다. </p> 
+       <p class="pty1_de2_1">⑦ 제1항부터 제6항까지에서 규정한 사항 외에 정보공개심의위원회의 구성 및 운영 등에 필요한 사항은 공사가 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2023. 9. 19.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J29:0" id="J29:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0029', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263675', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="29:0:002900:99263675" /> <span class="bl"><label for="Y002900"> 제29조(위원의 제척ㆍ기피ㆍ회피) </label> </span> ① 정보공개심의위원회의 위원이 다음 각 호의 어느 하나에 해당하는 경우에는 위원회의 심의ㆍ의결에서 제척된다. </p>
+       <p class="pty1_de2h">1. 위원 또는 그 배우자나 배우자였던 사람이 해당 안건의 당사자(당사자가 법인ㆍ단체 등인 경우에는 그 임원을 포함한다. 이하 이 호 및 제2호에서 같다)가 되거나 그 안건의 당사자와 공동권리자 또는 공동의무자인 경우 </p> 
+       <p class="pty1_de2h">2. 위원이 해당 안건의 당사자와 친족이거나 친족이었던 경우 </p> 
+       <p class="pty1_de2h">3. 위원이 해당 안건에 대하여 증언, 진술, 자문, 연구, 용역 또는 감정을 한 경우 </p> 
+       <p class="pty1_de2h">4. 위원이나 위원이 속한 법인ㆍ단체 등이 해당 안건의 당사자의 대리인이거나 대리인이었던 경우 </p> 
+       <p class="pty1_de2_1">② 당사자는 제1항에 따른 제척사유가 있거나 위원에게 공정한 심의ㆍ의결을 기대하기 어려운 사정이 있는 경우에는 정보공개심의위원회에 기피 신청을 할 수 있고, 정보공개심의위원회는 의결로 기피 여부를 결정한다. 이 경우 기피 신청의 대상인 위원은 그 의결에 참여하지 못한다. </p> 
+       <p class="pty1_de2_1">③ 위원은 제1항 또는 제2항의 사유에 해당하는 경우에는 스스로 해당 안건의 심의ㆍ의결에서 회피(回避)하여야 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2023. 9. 19.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J30:0" id="J30:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('289689', '0030', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '012323', '289689', '99263677', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="30:0:003000:99263677" /> <span class="bl"><label for="Y003000"> 제30조(위원의 해촉) </label> </span> 공사의 사장은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625767','JO','');" href="javascript:;">제28조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625773','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1034625775','JO','');" href="javascript:;">제2호부터 제4호</a>까지의 위원이 다음 각 호의 어느 하나에 해당하는 경우에는 해당 위원을 해촉할 수 있다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 심신쇠약으로 직무를 수행할 수 없게 된 경우 </p> 
+       <p class="pty1_de2h">2. 직무와 관련된 비위사실이 있는 경우 </p> 
+       <p class="pty1_de2h">3. 직무태만, 품위손상이나 그 밖의 사유로 위원으로 적합하지 않다고 인정되는 경우 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1034625769','JO','');" href="javascript:;">제29조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625765','JO','');" href="javascript:;">제1항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1034625771','JO','');" href="javascript:;">제2항</a>에 해당하는 데도 불구하고 회피하지 않은 경우 </p> 
+       <p class="pty1_de2h">5. 위원 스스로 직무를 수행하는 것이 곤란하다고 의사를 밝히는 경우 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2023. 9. 19.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <!-- 조문정보 --> 
+     <!-- 부칙 영역 끝 --> 
+     <br /> 
+     <div id="arDivArea"> 
+      <a name="arArea"></a> 
+      <a name="J12946223" id="J12946223"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946223','<대통령령 제26369호, 2015. 6. 30.>'); return false;" href="#AJAX"> <img id="ar12946223btn" style="vertical-align: middle;" alt="부칙 <대통령령 제26369호, 2015. 6. 30.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946223" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제26369호, 2015. 6. 30.>체크박스 " value="12946223" /> <a class="nun" onclick="javascript:arView('ar12946223','<대통령령 제26369호, 2015. 6. 30.>'); return false;" href="#AJAX"> <label for="chk12946223"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제26369호, 2015. 6. 30.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12946223','<대통령령 제26369호, 2015. 6. 30.>');return false;" href="#AJAX"> <img id="ar12946223MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제26369호, 2015. 6. 30.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2015년 7월 1일부터 시행한다.</p>
+       <div id="ar12946223">
+        <p class="pty3_dep1"><span class="bl">제2조(대한주택보증주식회사의 보증에 관한 경과조치)</span> 이 영 시행 당시 「주택법 시행령」 제106조제1항제9호에 따라 대한주택보증주식회사의 정관으로 정하여 운용 중인 보증은 제21조제1항제10호에 따른 보증으로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법령의 개정)</span> ① 경제자유구역의 지정 및 운영에 관한 특별법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제21조의2제3항 단서 중 “「주택법」 제63조에 따라 국민주택기금”을 “「주택도시기금법」 제9조에 따라 주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ② 공공주택건설 등에 관한 특별법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조의2제1항제6호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 6. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> 제25조제1항 각 호 외의 부분 후단 및 제26조제1항 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ③ 국가재정법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제31조제1항제10호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 10. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> ④ 국민연금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제74조제4항제1호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 1. 「주택도시기금법 시행령」 제5조제1항제1호에 따른 제1종국민주택채권</p>
+        <p class="pty3_dep2"> ⑤ 국유재산법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 2 제5호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 5. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ⑥ 국토교통부와 그 소속기관 직제 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제12조제3항제7호 및 제8호 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> 제12조제3항제10호 중 “대한주택보증주식회사”를 “주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> ⑦ 금융회사부실자산 등의 효율적 처리 및 한국자산관리공사의 설립에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제21호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 21. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ⑧ 농림수산식품투자조합 결성 및 운용에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 1 제48호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 48. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> ⑨ 농어촌정비법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제62조제2호 중 “「주택법」 제60조에 따라 설치된 국민주택기금”을 “「주택도시기금법」에 따른 주택도시기금”으로 한다. </p>
+        <p class="pty3_dep2"> ⑩ 도시 및 주거환경정비법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제38조제1호 단서 중 “국민주택기금”을 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ⑪ 도시재정비 촉진을 위한 특별법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제32조제7항 중 “국민주택기금”을 각각 “주택도시기금”으로, “「주택법」 제62조제1항”을 “「주택도시기금법」 제10조제1항”으로 한다.</p>
+        <p class="pty3_dep2"> ⑫ 법인세법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제63조제1항제2호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 2. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> 제63조제4항제2호 중 “대한주택보증주식회사”를 “주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> 제92조의2제2항제1호의7나목, 같은 항 제1호의9나목 및 같은 항 제1호의11 각 목 외의 부분 중 “「주택법」에 따른 대한주택보증주식회사”를 각각 “「주택도시기금법」에 따른 주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> 제111조제1항제7호 중 “「주택법」 제61조제2항의 규정에 의하여 국민주택기금”을 “「주택도시기금법」 제6조제2항에 따라 주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ⑬ 벤처기업육성에 관한 특별조치법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 1 제12호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 12. 주택도시기금</p>
+        <p class="pty3_dep2"> ⑭ 부도공공건설임대주택 임차인 보호를 위한 특별법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조의 제목 및 같은 조 제목 외의 부분 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ⑮ 부동산투자회사법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제33조제1항제13호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 13. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> 제37조제1항제1호라목을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 라. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ⑯ 산업발전법 시행령 일부를 다음과 같이 개정한다. </p>
+        <p class="pty3_dep2"> 별표 3 제8호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 8. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> ⑰ 소득세법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제112조제10항제1호, 제3호 및 같은 항 제5호 전단 중 “「주택법」에 따른 국민주택기금”을 각각 “「주택도시기금법」에 따른 주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> 별표 1의2 자목을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 자. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> ⑱ 소재ㆍ부품전문기업 등의 육성에 관한 특별조치법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 2 제9호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 9. 「주택도시기금법」에 따른 주택도시기금</p>
+        <p class="pty3_dep2"> ⑲ 신용정보의 이용 및 보호에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제21조제2항제11호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 11. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ⑳ 온천법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제14조제1항제3호마목을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 마. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ㉑ 임대주택법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제1호 각 목 외의 부분 중 “「주택법」 제60조에 따른 국민주택기금(이하 "국민주택기금"이라 한다)”을 “「주택도시기금법」에 따른 주택도시기금(이하 "주택도시기금"이라 한다)”으로 한다.</p>
+        <p class="pty3_dep2"> 제2조제1호가목부터 다목까지, 같은 조 제2호, 제5조 각 호 외의 부분, 제6조, 제13조제2항제4호 전단, 같은 조 제8항제2호, 제14조제4항제4호마목, 같은 조 제5항 본문, 같은 조 제6항제6호가목, 제15조, 제16조제2호, 제17조제1항, 제21조제2항 전단, 같은 조 제3항 후단, 제21조의2제1항제1호, 제24조제3항제4호 및 제31조제1호 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> 제5조제2호 중 “「주택법」 제67조 및 같은 법 시행령 제91조”를 “「주택도시기금법」 제7조 및 같은 법 시행령 제5조”로 한다.</p>
+        <p class="pty3_dep2"> 제17조제2항 중 “「주택법」 제76조에 따라 설립된 대한주택보증주식회사”를 “「주택도시기금법」에 따른 주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> ㉒ 자산유동화에관한법률시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제7호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 7. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ㉓ 장애인ㆍ고령자 등 주거약자 지원에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제2항제1호나목 후단 중 “국민주택기금”을 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ㉔ 재건축초과이익 환수에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제3항 각 호 외의 부분 본문 중 “「주택법」 제60조에 따라 설치된 국민주택기금(이하 "국민주택기금"이라 한다)”을 “「주택도시기금법」에 따른 주택도시기금(이하 "주택도시기금"이라 한다)”으로 한다.</p>
+        <p class="pty3_dep2"> 제14조제2항 본문 중 “「주택법」 제62조제2항에 따른 기금수탁자”를 “「주택도시기금법」 제10조제2항 및 제3항에 따라 주택도시기금 운용ㆍ관리에 관한 사무를 위탁받거나 재위탁받은 자”로 한다.</p>
+        <p class="pty3_dep2"> 제14조제3항 및 제17조제2항ㆍ제3항 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ㉕ 재난구호 및 재난복구 비용 부담기준 등에 관한 규정 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 1 제2호가목1)나) 중 “국민주택기금”을 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ㉖ 조세특례제한법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제98조의3제1항제4호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 4. 「주택도시기금법」에 따른 주택도시보증공사(이하 이 조에서 “주택도시보증공사”라 한다)가 같은 법 시행령 제22조제1항제1호가목에 따라 매입한 주택으로서 주택도시보증공사가 공급하는 주택</p>
+        <p class="pty3_dep2"> 제98조의3제2항제2호, 제98조의4제2항제2호 및 제99조의2제6항제1호 중 “대한주택보증주식회사”를 각각 “주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> 제98조의4제1항제2호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 2. 「주택도시기금법」에 따른 주택도시보증공사(이하 이 조에서 “주택도시보증공사”라 한다)가 같은 법 시행령 제22조제1항제1호가목에 따라 매입한 주택으로서 주택도시보증공사가 공급하는 주택</p>
+        <p class="pty3_dep2"> 제98조의5제1항제1호, 제98조의6제3항제1호 및 제98조의7제3항제1호를 각각 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 1. 「주택도시기금법 시행령」 제22조제1항제1호가목에 따라 주택을 매입한 주택도시보증공사</p>
+        <p class="pty3_dep2"> 제99조의2제1항제4호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 4. 「주택도시기금법」에 따른 주택도시보증공사(이하 이 조에서 “주택도시보증공사”라 한다)가 같은 법 시행령 제22조제1항제1호가목에 따라 매입한 주택으로서 주택도시보증공사가 공급하는 주택</p>
+        <p class="pty3_dep2"> 제132조제2항 중 “「주택법」에 따른 국민주택기금”을 “「주택도시기금법」에 따른 주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> ㉗ 종합부동산세법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제1항제11호나목ㆍ제15호나목 및 같은 항 제17호 각 목 외의 부분 중 “「주택법」에 따른 대한주택보증주식회사”를 각각 “「주택도시기금법」에 따른 주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> ㉘ 주민등록법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 2 제3호버목을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 버. 「주택도시기금법」에 따른 주택도시보증공사</p>
+        <p class="pty3_dep2"> ㉙ 주택법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제8조제3항 중 “법 제62조제2항의 규정에 의하여 국민주택기금의 운용ㆍ관리에 관한 사무를 위탁받은 금융기관을”을 “「주택도시기금법」 제10조제2항 및 제3항에 따라 주택도시기금의 운용ㆍ관리에 관한 사무를 위탁받거나 재위탁받은 자를”로 한다.</p>
+        <p class="pty3_dep2"> 제17조제3항 중 “법 제60조에 따른 국민주택기금(이하 "국민주택기금"이라 한다)”을 “「주택도시기금법」에 따른 주택도시기금(이하 "주택도시기금"이라 한다)”으로 한다.</p>
+        <p class="pty3_dep2"> 제17조제4항 및 제44조제2항제1호 각 목 외의 부분 중 “국민주택기금”을 각각 “주택도시기금”으로 한다.</p>
+        <p class="pty3_dep2"> 제45조제5항제3호 중 “법 제76조의 규정에 의한 대한주택보증주식회사(이하 "대한주택보증주식회사"라 한다)”를 “「주택도시기금법」에 따른 주택도시보증공사(이하 "주택도시보증공사"라 한다)”로 한다.</p>
+        <p class="pty3_dep2"> 제60조제1항제1호 중 “대한주택보증주식회사”를 “주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> 제69조의6제2항제1호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 1. 주택도시보증공사</p>
+        <p class="pty3_dep2"> 제6장제1절(제83조부터 제89조까지), 제2절(제90조부터 제95조까지, 제95조의2, 제96조 및 제97조) 및 제5절(제106조 및 제107조)을 각각 삭제한다.</p>
+        <p class="pty3_dep2"> 제100조제1항제2호 중 “대한주택보증주식회사”를 “주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> 제121조를 삭제한다. </p>
+        <p class="pty3_dep2"> 제121조의2제1항 각 호 외의 부분 중 “법 제62조제2항 및 제87조제2항과 이 영 제116조제2항”을 “법 제87조제2항 및 이 영 제116조제2항”으로 한다.</p>
+        <p class="pty3_dep2"> 제121조의2제1항제10호 및 같은 조 제2항을 각각 삭제한다.</p>
+        <p class="pty3_dep2"> 제121조의3제20호를 삭제한다.</p>
+        <p class="pty3_dep2"> 별표 12를 삭제한다.</p>
+        <p class="pty3_dep2"> ㉚ 지방세법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제18조제1항제6호 전단 및 같은 조 제4항제3호 전단 중 “「주택법」제68조”를 각각 “「주택도시기금법」 제8조”로 한다.</p>
+        <p class="pty3_dep2"> 제26조제1항제22호 중 “「주택법」 제76조에 따라 설립된 대한주택보증주식회사”를 “「주택도시기금법」에 따른 주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep2"> ㉛ 지방소도읍육성지원법시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제11조제1항 중 “주택법 제68조의 규정에 의한”을 “「주택도시기금법」 제8조에 따른”으로 한다.</p>
+        <p class="pty3_dep2"> ㉜ 하도급거래 공정화에 관한 법률 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제8조제2항 중 “「주택법」에 따른 대한주택보증주식회사”를 “「주택도시기금법」에 따른 주택도시보증공사”로 한다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조(다른 법령과의 관계)</span> 이 영 시행 당시 다른 법령에서 「주택법 시행령」 또는 「주택법 시행령」의 종전의 규정을 인용하고 있는 경우 이 영 중 그에 해당하는 규정이 있는 때에는 「주택법 시행령」 또는 「주택법 시행령」의 종전의 규정을 갈음하여 이 영 또는 이 영의 해당 규정을 인용한 것으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12946225" id="J12946225"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946225btn" style="vertical-align: middle;" alt="부칙<대통령령 제26708호, 2015. 12. 11.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946225" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제26708호, 2015. 12. 11.>체크박스 " value="12946225" /> <a class="nun" onclick="javascript:arView('ar12946225','<대통령령 제26708호, 2015. 12. 11.>'); return false;" href="#AJAX"> <label for="chk12946225"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제26708호, 2015. 12. 11.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2015년 12월 12일부터 시행한다.</p> 
+      </div> 
+      <a name="J12946227" id="J12946227"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946227','<대통령령 제26763호,  2015. 12. 28.>'); return false;" href="#AJAX"> <img id="ar12946227btn" style="vertical-align: middle;" alt="부칙 <대통령령 제26763호,  2015. 12. 28.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946227" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제26763호,  2015. 12. 28.>체크박스 " value="12946227" /> <a class="nun" onclick="javascript:arView('ar12946227','<대통령령 제26763호,  2015. 12. 28.>'); return false;" href="#AJAX"> <label for="chk12946227"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제26763호, 2015. 12. 28.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('민간임대주택에 관한 특별법 시행령', '20151228', '26763');" href="#AJAX"> <span class="sfon">(민간임대주택에 관한 특별법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946227','<대통령령 제26763호,  2015. 12. 28.>');return false;" href="#AJAX"> <img id="ar12946227MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제26763호,  2015. 12. 28.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2015년 12월 29일부터 시행한다.</p>
+       <div id="ar12946227">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제8조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제9조(다른 법령의 개정)</span> ①부터 ⑲까지 생략</p>
+        <p class="pty3_dep2"> ⑳ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제12조 중 “「임대주택법 시행령」 제14조제4항제4호의 회사”를 “「상법」에 따른 주식회사 또는 유한회사로서 다음 각 호의 요건을 모두 갖춘 회사”로 하고, 같은 조에 각 호를 다음과 같이 신설한다.</p>
+        <p class="pty3_dep2"> 1. 본점 외의 영업소를 설치하지 아니할 것</p>
+        <p class="pty3_dep2"> 2. 상시 근무하는 임원을 두지 아니할 것</p>
+        <p class="pty3_dep2"> 3. 직원을 고용하지 아니할 것</p>
+        <p class="pty3_dep2"> 4. 「법인세법 시행령」 제86조의2제5항제2호에 따른 자산관리회사 또는 「자본시장과 금융투자업에 관한 법률」 제12조에 따라 인가를 받아 설립된 신탁업자에 관련 사무를 위탁할 것</p>
+        <p class="pty3_dep2"> 5. 주식을 담보(주택도시기금 융자금에 대한 담보는 제외한다)로 제공하지 아니할 것</p>
+        <p class="pty3_dep2"> 제13조제2호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 2. 「민간임대주택에 관한 특별법」 제2조에 따른 민간임대주택과 「공공주택 특별법」제2조제1호가목에 따른 공공임대주택의 건설 및 매입</p>
+        <p class="pty3_dep2"> 제21조제1항제2호 중 “「임대주택법」 제17조제1항 및 같은 법 시행령 제14조에 따른 공공건설임대주택”을 “「민간임대주택에 관한 특별법」 제49조제1항 및 같은 법 시행령 제38조에 따른 민간건설임대주택”으로 한다.</p>
+        <p class="pty3_dep2"> ㉑부터 ㉖까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제10조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946229" id="J12946229"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946229','<대통령령 제27444호,  2016. 8. 11.>'); return false;" href="#AJAX"> <img id="ar12946229btn" style="vertical-align: middle;" alt="부칙 <대통령령 제27444호,  2016. 8. 11.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946229" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제27444호,  2016. 8. 11.>체크박스 " value="12946229" /> <a class="nun" onclick="javascript:arView('ar12946229','<대통령령 제27444호,  2016. 8. 11.>'); return false;" href="#AJAX"> <label for="chk12946229"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제27444호, 2016. 8. 11.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('주택법 시행령', '20160811', '27444');" href="#AJAX"> <span class="sfon">(주택법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946229','<대통령령 제27444호,  2016. 8. 11.>');return false;" href="#AJAX"> <img id="ar12946229MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제27444호,  2016. 8. 11.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2016년 8월 12일부터 시행한다.</p>
+       <div id="ar12946229">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제6조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조(다른 법령의 개정)</span> ①부터 &lt;59&gt;까지 생략</p>
+        <p class="pty3_dep2"> &lt;60&gt; 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제8조제5항 전단 중 “「주택법」 제38조의2”를 “「주택법」 제57조”로 한다.</p>
+        <p class="pty3_dep2"> 제10조제2항 본문 중 “「주택법」 제2조제7호”를 “「주택법」 제2조제10호”로 한다.</p>
+        <p class="pty3_dep2"> 제21조제1항제1호 각 목 외의 부분 중 “「주택법 시행령」 제12조”를 “「주택법 시행령」 제16조”로, “「주택법」 제16조제1항 본문 또는 같은 조 제3항”을 “「주택법」 제15조제1항 본문 또는 같은 조 제3항”으로, “같은 법 시행령 제15조제2항”을 “같은 법 시행령 제27조제4항”으로 하고, 같은 호 가목 및 나목 중 “「주택법」 제29조”를 각각 “「주택법」 제49조”로 하며, 같은 항 제4호 중 “「주택법 시행령」 제11조제2항”을 “「주택법 시행령」 제15조제2항”으로 하고, 같은 항 제5호 중 “「주택법」 제10조제2항”을 “「주택법」 제5조제2항”으로 하며, 같은 항 제6호 중 “「주택법」 제69조제1항”을 “「주택법」 제80조제1항”으로 한다.</p>
+        <p class="pty3_dep2"> 제22조제2항제3호 중 “「주택법」 제29조”를 “「주택법」 제49조”로 한다.</p>
+        <p class="pty3_dep2"> &lt;61&gt;부터 &lt;75&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제8조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946231" id="J12946231"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946231','<대통령령 제27445호,  2016. 8. 11.>'); return false;" href="#AJAX"> <img id="ar12946231btn" style="vertical-align: middle;" alt="부칙 <대통령령 제27445호,  2016. 8. 11.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946231" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제27445호,  2016. 8. 11.>체크박스 " value="12946231" /> <a class="nun" onclick="javascript:arView('ar12946231','<대통령령 제27445호,  2016. 8. 11.>'); return false;" href="#AJAX"> <label for="chk12946231"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제27445호, 2016. 8. 11.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('공동주택관리법 시행령', '20160811', '27445');" href="#AJAX"> <span class="sfon">(공동주택관리법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946231','<대통령령 제27445호,  2016. 8. 11.>');return false;" href="#AJAX"> <img id="ar12946231MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제27445호,  2016. 8. 11.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2016년 8월 12일부터 시행한다.</p>
+       <div id="ar12946231">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제20조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제21조(다른 법령의 개정)</span> ①부터 ⑫까지 생략</p>
+        <p class="pty3_dep2"> ⑬ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제21조제1항제3호 중 “「주택법 시행령」 제59조제1항”을 “「공동주택관리법 시행령」 제36조제1항”으로 한다. </p>
+        <p class="pty3_dep2"> ⑭ 및 ⑮ 생략</p>
+        <p class="pty3_dep1"><span class="bl">제22조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946273" id="J12946273"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946273btn" style="vertical-align: middle;" alt="부칙<대통령령 제27571호, 2016. 11. 1.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946273" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제27571호, 2016. 11. 1.>체크박스 " value="12946273" /> <a class="nun" onclick="javascript:arView('ar12946273','<대통령령 제27571호, 2016. 11. 1.>'); return false;" href="#AJAX"> <label for="chk12946273"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제27571호, 2016. 11. 1.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946275" id="J12946275"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946275','<대통령령 제28627호,  2018. 2. 9.>'); return false;" href="#AJAX"> <img id="ar12946275btn" style="vertical-align: middle;" alt="부칙 <대통령령 제28627호,  2018. 2. 9.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946275" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제28627호,  2018. 2. 9.>체크박스 " value="12946275" /> <a class="nun" onclick="javascript:arView('ar12946275','<대통령령 제28627호,  2018. 2. 9.>'); return false;" href="#AJAX"> <label for="chk12946275"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제28627호, 2018. 2. 9.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('빈집 및 소규모주택 정비에 관한 특례법 시행령', '20180209', '28627');" href="#AJAX"> <span class="sfon">(빈집 및 소규모주택 정비에 관한 특례법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946275','<대통령령 제28627호,  2018. 2. 9.>');return false;" href="#AJAX"> <img id="ar12946275MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제28627호,  2018. 2. 9.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2018년 2월 9일부터 시행한다.</p>
+       <div id="ar12946275">
+        <p class="pty3_dep1"><span class="bl">제2조 및 제3조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조(다른 법령의 개정)</span> ①부터 ⑧까지 생략</p>
+        <p class="pty3_dep2"> ⑨ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제21조제1항제5호 중 “「도시 및 주거환경정비법」 제13조”를 “「도시 및 주거환경정비법」 제35조 또는 「빈집 및 소규모주택 정비에 관한 특례법」 제23조”로 한다.</p>
+        <p class="pty3_dep2"> ⑩ 및 ⑪ 생략</p>
+        <p class="pty3_dep1"><span class="bl">제5조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946277" id="J12946277"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946277','<대통령령 제28790호, 2018. 4. 10.>'); return false;" href="#AJAX"> <img id="ar12946277btn" style="vertical-align: middle;" alt="부칙 <대통령령 제28790호, 2018. 4. 10.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946277" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제28790호, 2018. 4. 10.>체크박스 " value="12946277" /> <a class="nun" onclick="javascript:arView('ar12946277','<대통령령 제28790호, 2018. 4. 10.>'); return false;" href="#AJAX"> <label for="chk12946277"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제28790호, 2018. 4. 10.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12946277','<대통령령 제28790호, 2018. 4. 10.>');return false;" href="#AJAX"> <img id="ar12946277MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제28790호, 2018. 4. 10.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 공포한 날부터 시행한다.</p>
+       <div id="ar12946277">
+        <p class="pty3_dep1"><span class="bl">제2조(국민주택채권 매입의무 면제에 관한 적용례)</span> 별표 제3호차목의 개정규정은 이 영 시행 이후 건축허가 또는 부동산등기를 신청하는 경우부터 적용한다.</p>
+       </div> 
+      </div> 
+      <a name="J12946279" id="J12946279"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946279btn" style="vertical-align: middle;" alt="부칙<대통령령 제29491호, 2019. 1. 15.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946279" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제29491호, 2019. 1. 15.>체크박스 " value="12946279" /> <a class="nun" onclick="javascript:arView('ar12946279','<대통령령 제29491호, 2019. 1. 15.>'); return false;" href="#AJAX"> <label for="chk12946279"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제29491호, 2019. 1. 15.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946281" id="J12946281"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946281btn" style="vertical-align: middle;" alt="부칙<대통령령 제29709호, 2019. 4. 23.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946281" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제29709호, 2019. 4. 23.>체크박스 " value="12946281" /> <a class="nun" onclick="javascript:arView('ar12946281','<대통령령 제29709호, 2019. 4. 23.>'); return false;" href="#AJAX"> <label for="chk12946281"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제29709호, 2019. 4. 23.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946283" id="J12946283"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946283','<대통령령 제29892호,  2019. 6. 25.>'); return false;" href="#AJAX"> <img id="ar12946283btn" style="vertical-align: middle;" alt="부칙 <대통령령 제29892호,  2019. 6. 25.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946283" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제29892호,  2019. 6. 25.>체크박스 " value="12946283" /> <a class="nun" onclick="javascript:arView('ar12946283','<대통령령 제29892호,  2019. 6. 25.>'); return false;" href="#AJAX"> <label for="chk12946283"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제29892호, 2019. 6. 25.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('주식ㆍ사채 등의 전자등록에 관한 법률 시행령', '20190625', '29892');" href="#AJAX"> <span class="sfon">(주식ㆍ사채 등의 전자등록에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946283','<대통령령 제29892호,  2019. 6. 25.>');return false;" href="#AJAX"> <img id="ar12946283MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제29892호,  2019. 6. 25.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2019년 9월 16일부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12946283">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제8조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제9조(다른 법령의 개정)</span> ①부터 ⑯까지 생략</p>
+        <p class="pty3_dep2"> ⑰ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제5조제3항 전단 중 “「자본시장과 금융투자업에 관한 법률」 제294조에 따라 설립된 한국예탁결제원(이하 "채권등록기관"이라 한다)에 등록하여”를 “「주식ㆍ사채 등의 전자등록에 관한 법률」 제2조제6호에 따른 전자등록기관(이하 "전자등록기관"이라 한다)에 전자등록하여”로 하고, 같은 항 후단 중 “등록”을 “전자등록”으로 한다.</p>
+        <p class="pty3_dep2"> 제5조제4항 전단, 같은 조 제5항 전단 및 같은 조 제6항 중 “채권등록기관”을 각각 “전자등록기관”으로 한다.</p>
+        <p class="pty3_dep1"><span class="bl">제10조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946285" id="J12946285"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946285btn" style="vertical-align: middle;" alt="부칙<대통령령 제30004호, 2019. 7. 23.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946285" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제30004호, 2019. 7. 23.>체크박스 " value="12946285" /> <a class="nun" onclick="javascript:arView('ar12946285','<대통령령 제30004호, 2019. 7. 23.>'); return false;" href="#AJAX"> <label for="chk12946285"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제30004호, 2019. 7. 23.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2019년 7월 24일부터 시행한다.</p> 
+      </div> 
+      <a name="J12946287" id="J12946287"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946287','<대통령령 제30683호,  2020. 5. 19.>'); return false;" href="#AJAX"> <img id="ar12946287btn" style="vertical-align: middle;" alt="부칙 <대통령령 제30683호,  2020. 5. 19.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946287" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제30683호,  2020. 5. 19.>체크박스 " value="12946287" /> <a class="nun" onclick="javascript:arView('ar12946287','<대통령령 제30683호,  2020. 5. 19.>'); return false;" href="#AJAX"> <label for="chk12946287"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제30683호, 2020. 5. 19.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률 시행령', '20200519', '30683');" href="#AJAX"> <span class="sfon">(사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946287','<대통령령 제30683호,  2020. 5. 19.>');return false;" href="#AJAX"> <img id="ar12946287MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제30683호,  2020. 5. 19.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2020년 6월 4일부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12946287">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법령의 개정)</span> ①부터 ④까지 생략</p>
+        <p class="pty3_dep2"> ⑤ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조의2제1항제10호 중 “사회보장정보원”을 “한국사회보장정보원”으로 한다.</p>
+       </div> 
+      </div> 
+      <a name="J12946289" id="J12946289"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946289','<대통령령 제30760호,  2020. 6. 9.>'); return false;" href="#AJAX"> <img id="ar12946289btn" style="vertical-align: middle;" alt="부칙 <대통령령 제30760호,  2020. 6. 9.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946289" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제30760호,  2020. 6. 9.>체크박스 " value="12946289" /> <a class="nun" onclick="javascript:arView('ar12946289','<대통령령 제30760호,  2020. 6. 9.>'); return false;" href="#AJAX"> <label for="chk12946289"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제30760호, 2020. 6. 9.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('군인 재해보상법 시행령', '20200609', '30760');" href="#AJAX"> <span class="sfon">(군인 재해보상법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946289','<대통령령 제30760호,  2020. 6. 9.>');return false;" href="#AJAX"> <img id="ar12946289MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제30760호,  2020. 6. 9.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2020년 6월 11일부터 시행한다.</p>
+       <div id="ar12946289">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제11조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제12조(다른 법령의 개정)</span> ①부터 ㉘까지 생략</p>
+        <p class="pty3_dep2"> ㉙ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조의2제2항제2호차목3)을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 3) 「군인연금법」, 「군인 재해보상법」</p>
+        <p class="pty3_dep2"> ㉚부터 ㊱까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제13조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946291" id="J12946291"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946291','<대통령령 제30893호,  2020. 8. 4.>'); return false;" href="#AJAX"> <img id="ar12946291btn" style="vertical-align: middle;" alt="부칙 <대통령령 제30893호,  2020. 8. 4.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946291" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제30893호,  2020. 8. 4.>체크박스 " value="12946291" /> <a class="nun" onclick="javascript:arView('ar12946291','<대통령령 제30893호,  2020. 8. 4.>'); return false;" href="#AJAX"> <label for="chk12946291"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제30893호, 2020. 8. 4.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('신용정보의 이용 및 보호에 관한 법률 시행령', '20200804', '30893');" href="#AJAX"> <span class="sfon">(신용정보의 이용 및 보호에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946291','<대통령령 제30893호,  2020. 8. 4.>');return false;" href="#AJAX"> <img id="ar12946291MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제30893호,  2020. 8. 4.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> ① 이 영은 2020년 8월 5일부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12946291">
+        <p class="pty3_dep2"> ② 및 ③ 생략</p>
+        <p class="pty3_dep1"><span class="bl">제2조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법령의 개정)</span> ①부터 ㊿까지 생략</p>
+        <p class="pty3_dep2"> &lt;51&gt; 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조의4제1항 각 호 외의 부분 중 “「신용정보의 이용 및 보호에 관한 법률」 제25조에 따른 신용정보집중기관”을 “「신용정보의 이용 및 보호에 관한 법률」 제25조제2항제1호에 따른 종합신용정보집중기관”으로 한다.</p>
+        <p class="pty3_dep2"> &lt;52&gt;부터 &lt;65&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946293" id="J12946293"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946293','<대통령령 제31240호,  2020. 12. 8.>'); return false;" href="#AJAX"> <img id="ar12946293btn" style="vertical-align: middle;" alt="부칙 <대통령령 제31240호,  2020. 12. 8.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946293" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제31240호,  2020. 12. 8.>체크박스 " value="12946293" /> <a class="nun" onclick="javascript:arView('ar12946293','<대통령령 제31240호,  2020. 12. 8.>'); return false;" href="#AJAX"> <label for="chk12946293"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제31240호, 2020. 12. 8.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행령', '20201208', '31240');" href="#AJAX"> <span class="sfon">(고용보험 및 산업재해보상보험의 보험료징수 등에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946293','<대통령령 제31240호,  2020. 12. 8.>');return false;" href="#AJAX"> <img id="ar12946293MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제31240호,  2020. 12. 8.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2020년 12월 10일부터 시행한다.</p>
+       <div id="ar12946293">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법령의 개정)</span> ①부터 ④까지 생략</p>
+        <p class="pty3_dep2"> ⑤ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조의2제2항제2호가목 중 “보험가입자 및 근로자”를 “보험가입자, 근로자 및 예술인”으로 한다.</p>
+       </div> 
+      </div> 
+      <a name="J12946295" id="J12946295"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946295btn" style="vertical-align: middle;" alt="부칙<대통령령 제31380호, 2021. 1. 5.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946295" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제31380호, 2021. 1. 5.>체크박스 " value="12946295" /> <a class="nun" onclick="javascript:arView('ar12946295','<대통령령 제31380호, 2021. 1. 5.>'); return false;" href="#AJAX"> <label for="chk12946295"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제31380호, 2021. 1. 5.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('어려운 법령용어 정비를 위한 473개 법령의 일부개정에 관한 대통령령', '20210105', '31380');" href="#AJAX"> <span class="sfon">(어려운 법령용어 정비를 위한 473개 법령의 일부개정에 관한 대통령령) </span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다. &lt;단서 생략&gt;</p> 
+      </div> 
+      <a name="J12946297" id="J12946297"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946297','<대통령령 제31614호,  2021. 4. 6.>'); return false;" href="#AJAX"> <img id="ar12946297btn" style="vertical-align: middle;" alt="부칙 <대통령령 제31614호,  2021. 4. 6.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946297" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제31614호,  2021. 4. 6.>체크박스 " value="12946297" /> <a class="nun" onclick="javascript:arView('ar12946297','<대통령령 제31614호,  2021. 4. 6.>'); return false;" href="#AJAX"> <label for="chk12946297"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제31614호, 2021. 4. 6.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('5ㆍ18민주유공자예우 및 단체설립에 관한 법률 시행령', '20210406', '31614');" href="#AJAX"> <span class="sfon">(5ㆍ18민주유공자예우 및 단체설립에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946297','<대통령령 제31614호,  2021. 4. 6.>');return false;" href="#AJAX"> <img id="ar12946297MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제31614호,  2021. 4. 6.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2021년 4월 6일부터 시행한다.</p>
+       <div id="ar12946297">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법령의 개정)</span> ①부터 ㉙까지 생략</p>
+        <p class="pty3_dep2"> ㉚ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조의2제2항제2호카목1)을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 1) 「5ㆍ18민주유공자예우 및 단체설립에 관한 법률」</p>
+        <p class="pty3_dep2"> 별표 제3호아목 중 “「5ㆍ18민주유공자예우에 관한 법률」”을 “「5ㆍ18민주유공자예우 및 단체설립에 관한 법률」”로 한다.</p>
+        <p class="pty3_dep2"> ㉛부터 ㊱까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946299" id="J12946299"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946299btn" style="vertical-align: middle;" alt="부칙<대통령령 제32118호,  2021. 11. 12.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946299" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제32118호,  2021. 11. 12.>체크박스 " value="12946299" /> <a class="nun" onclick="javascript:arView('ar12946299','<대통령령 제32118호,  2021. 11. 12.>'); return false;" href="#AJAX"> <label for="chk12946299"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제32118호, 2021. 11. 12.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946301" id="J12946301"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946301','<대통령령 제32449호,  2022. 2. 17.>'); return false;" href="#AJAX"> <img id="ar12946301btn" style="vertical-align: middle;" alt="부칙 <대통령령 제32449호,  2022. 2. 17.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946301" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제32449호,  2022. 2. 17.>체크박스 " value="12946301" /> <a class="nun" onclick="javascript:arView('ar12946301','<대통령령 제32449호,  2022. 2. 17.>'); return false;" href="#AJAX"> <label for="chk12946301"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제32449호, 2022. 2. 17.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('한국자산관리공사 설립 등에 관한 법률 시행령', '20220217', '32449');" href="#AJAX"> <span class="sfon">(한국자산관리공사 설립 등에 관한 법률 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946301','<대통령령 제32449호,  2022. 2. 17.>');return false;" href="#AJAX"> <img id="ar12946301MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제32449호,  2022. 2. 17.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2022년 2월 18일부터 시행한다.</p>
+       <div id="ar12946301">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법령의 개정)</span> ①부터 ㊾까지 생략</p>
+        <p class="pty3_dep2"> ㊿ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 제2호마목 중 “「금융기관부실자산 등의 효율적 처리 및 한국자산관리공사의 설립에 관한 법률」에 따라 설립된”을 “「한국자산관리공사 설립 등에 관한 법률」에 따른”으로 한다.</p>
+        <p class="pty3_dep2"> &lt;51&gt;부터 &lt;55&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946303" id="J12946303"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946303btn" style="vertical-align: middle;" alt="부칙<대통령령 제33134호,  2022. 12. 27.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946303" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제33134호,  2022. 12. 27.>체크박스 " value="12946303" /> <a class="nun" onclick="javascript:arView('ar12946303','<대통령령 제33134호,  2022. 12. 27.>'); return false;" href="#AJAX"> <label for="chk12946303"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제33134호, 2022. 12. 27.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2023년 1월 1일부터 시행한다.</p> 
+      </div> 
+      <a name="J12946305" id="J12946305"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946305','<대통령령 제33474호,  2023. 5. 16.>'); return false;" href="#AJAX"> <img id="ar12946305btn" style="vertical-align: middle;" alt="부칙 <대통령령 제33474호,  2023. 5. 16.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946305" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제33474호,  2023. 5. 16.>체크박스 " value="12946305" /> <a class="nun" onclick="javascript:arView('ar12946305','<대통령령 제33474호,  2023. 5. 16.>'); return false;" href="#AJAX"> <label for="chk12946305"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제33474호, 2023. 5. 16.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('주택저당채권유동화회사법시행령', '20230516', '33474');" href="#AJAX"> <span class="sfon">(주택저당채권유동화회사법시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946305','<대통령령 제33474호,  2023. 5. 16.>');return false;" href="#AJAX"> <img id="ar12946305MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제33474호,  2023. 5. 16.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 공포한 날부터 시행한다.</p>
+       <div id="ar12946305">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법령의 개정)</span> ①부터 ⑫까지 생략</p>
+        <p class="pty3_dep2"> ⑬ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제3항제2호를 삭제한다.</p>
+       </div> 
+      </div> 
+      <a name="J12946307" id="J12946307"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946307btn" style="vertical-align: middle;" alt="부칙<대통령령 제33730호,  2023. 9. 19.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946307" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제33730호,  2023. 9. 19.>체크박스 " value="12946307" /> <a class="nun" onclick="javascript:arView('ar12946307','<대통령령 제33730호,  2023. 9. 19.>'); return false;" href="#AJAX"> <label for="chk12946307"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제33730호, 2023. 9. 19.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2023년 9월 29일부터 시행한다. 다만, 제23조제1항의 개정규정은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946309" id="J12946309"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946309btn" style="vertical-align: middle;" alt="부칙<대통령령 제34398호,  2024. 4. 9.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946309" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제34398호,  2024. 4. 9.>체크박스 " value="12946309" /> <a class="nun" onclick="javascript:arView('ar12946309','<대통령령 제34398호,  2024. 4. 9.>'); return false;" href="#AJAX"> <label for="chk12946309"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제34398호, 2024. 4. 9.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2024년 4월 17일부터 시행한다. 다만, 제23조제1항의 개정규정은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946311" id="J12946311"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946311btn" style="vertical-align: middle;" alt="부칙<대통령령 제34905호,  2024. 9. 20.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946311" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제34905호,  2024. 9. 20.>체크박스 " value="12946311" /> <a class="nun" onclick="javascript:arView('ar12946311','<대통령령 제34905호,  2024. 9. 20.>'); return false;" href="#AJAX"> <label for="chk12946311"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제34905호, 2024. 9. 20.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12946313" id="J12946313"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946313btn" style="vertical-align: middle;" alt="부칙<대통령령 제35228호,  2025. 1. 21.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946313" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제35228호,  2025. 1. 21.>체크박스 " value="12946313" /> <a class="nun" onclick="javascript:arView('ar12946313','<대통령령 제35228호,  2025. 1. 21.>'); return false;" href="#AJAX"> <label for="chk12946313"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제35228호, 2025. 1. 21.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('법인 등기규정 정비를 위한 78개 법령의 일부개정에 관한 대통령령', '20250121', '35228');" href="#AJAX"> <span class="sfon">(법인 등기규정 정비를 위한 78개 법령의 일부개정에 관한 대통령령) </span> </a> </p> 
+       <p class="pty3_dep1">이 영은 2025년 1월 31일부터 시행한다.</p> 
+      </div> 
+      <a name="J12946315" id="J12946315"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946315','<대통령령 제35716호,  2025. 8. 26.>'); return false;" href="#AJAX"> <img id="ar12946315btn" style="vertical-align: middle;" alt="부칙 <대통령령 제35716호,  2025. 8. 26.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946315" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제35716호,  2025. 8. 26.>체크박스 " value="12946315" /> <a class="nun" onclick="javascript:arView('ar12946315','<대통령령 제35716호,  2025. 8. 26.>'); return false;" href="#AJAX"> <label for="chk12946315"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제35716호, 2025. 8. 26.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('관광진흥법 시행령', '20250826', '35716');" href="#AJAX"> <span class="sfon">(관광진흥법 시행령) </span> </a> <a class="nun" onclick="javascript:arView('ar12946315','<대통령령 제35716호,  2025. 8. 26.>');return false;" href="#AJAX"> <img id="ar12946315MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제35716호,  2025. 8. 26.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2025년 8월 28일부터 시행한다.</p>
+       <div id="ar12946315">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법령의 개정)</span> ①부터 ㉑까지 생략</p>
+        <p class="pty3_dep2"> ㉒ 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 별표 부표 제6호나목1) 중 “유원시설”을 “테마파크”로 하고, 같은 부표 제13호 각 목 외의 부분 중 “유원시설업”을 “테마파크업”으로 한다.</p>
+        <p class="pty3_dep2"> ㉓부터 ㉚까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946317" id="J12946317"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12946317','<대통령령 제35947호,  2025. 12. 30.>'); return false;" href="#AJAX"> <img id="ar12946317btn" style="vertical-align: middle;" alt="부칙 <대통령령 제35947호,  2025. 12. 30.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12946317" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제35947호,  2025. 12. 30.>체크박스 " value="12946317" /> <a class="nun" onclick="javascript:arView('ar12946317','<대통령령 제35947호,  2025. 12. 30.>'); return false;" href="#AJAX"> <label for="chk12946317"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제35947호, 2025. 12. 30.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('재정경제부 직제', '20251230', '35947');" href="#AJAX"> <span class="sfon">(재정경제부 직제) </span> </a> <a class="nun" onclick="javascript:arView('ar12946317','<대통령령 제35947호,  2025. 12. 30.>');return false;" href="#AJAX"> <img id="ar12946317MrBtn" style="vertical-align: middle;" alt="부칙 <대통령령 제35947호,  2025. 12. 30.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 영은 2026년 1월 2일부터 시행한다. 다만, 부칙 제6조에 따라 개정되는 대통령령 중 이 영 시행 전에 공포되었으나 시행일이 도래하지 않은 대통령령을 개정한 부분은 각각 해당 대통령령의 시행일부터 시행한다.</p>
+       <div id="ar12946317">
+        <p class="pty3_dep1"><span class="bl">제2조부터 제5조까지</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제6조(다른 법령의 개정)</span> ①부터 &lt;256&gt;까지 생략</p>
+        <p class="pty3_dep2"> &lt;257&gt; 주택도시기금법 시행령 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제1항제4호, 같은 조 제2항 및 제4항 중 “주무부장관 및 기획재정부장관”을 각각 “주무부장관, 재정경제부장관 및 기획예산처장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제3조제3항 중 “기획재정부장관”을 “재정경제부장관”으로, “주무부장관 및 국토교통부장관”을 “주무부장관, 국토교통부장관 및 기획예산처장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제5조제5항 후단 및 제18조제3항 중 “기획재정부장관”을 각각 “재정경제부장관 및 기획예산처장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제4조제1항, 같은 조 제2항 각 호 외의 부분, 제6조제1항, 같은 조 제5항 전단, 제7조제2항 후단, 같은 조 제3항, 제8조제4항 및 제10조제3항 전단 중 “기획재정부장관”을 각각 “재정경제부장관”으로 한다.</p>
+        <p class="pty3_dep2"> &lt;258&gt;부터 &lt;313&gt;까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12946319" id="J12946319"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12946319btn" style="vertical-align: middle;" alt="부칙<대통령령 제36689호,  2026. 9. 15.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12946319" style="vertical-align: middle;" type="checkbox" alt="부칙 <대통령령 제36689호,  2026. 9. 15.>체크박스 " value="12946319" /> <a class="nun" onclick="javascript:arView('ar12946319','<대통령령 제36689호,  2026. 9. 15.>'); return false;" href="#AJAX"> <label for="chk12946319"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;대통령령 제36689호, 2026. 9. 15.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('법 체계 정합성 제고를 위한 국토교통부 소관 25개 법령의 일부개정에 관한 대통령령', '20260915', '36689');" href="#AJAX"> <span class="sfon">(법 체계 정합성 제고를 위한 국토교통부 소관 25개 법령의 일부개정에 관한 대통령령) </span> </a> </p> 
+       <p class="pty3_dep1">이 영은 공포한 날부터 시행한다.</p> 
+      </div> 
+     </div> 
+     <!-- 부칙 영역 끝 --> 
+     <!-- 별표 서식 시작 --> 
+     <input type="hidden" id="bylLnkDpYn" value="0" /> 
+     <br /> 
+     <a name="byl"></a> 
+     <ul class="pconfile pb30 pcf_sec01" style="padding: 0px 0px 0px 50px; font-size: 1.1em;"> 
+      <li style="position: relative;"> <span class="pcf_cover "> <a name="J18448757" id="J18448757"></a> <a class="blu" onclick="javascript:bylInfoDiv('18448757');" href="#AJAX"> <img id="by18448757btn" style="margin-left: -13px;" alt="별표" src="/LSW/images/button/btn_coop.gif" /> </a> <a class="blu" onclick="javascript:bylInfoDiv('18448757');" href="#AJAX"> [별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표 </a> <a href="flDownload.do?gubun=&amp;flSeq=169076341&amp;bylClsCd=110201" target="_blank"> <img alt="HWP파일 다운로드" src="/LSW/images/button/btn_han_16.png" /> </a> <a href="flDownload.do?gubun=&amp;flSeq=169076343&amp;bylClsCd=110201" target="_blank"> <img alt="PDF파일 다운로드" src="/LSW/images/button/btn_pdf.gif" /> </a> <a href="javascript:;" onclick="fileLayer('0');"> <img alt="법령별표 한글주소" src="/LSW/images/button/btn_link.gif" id="imgPos0" /> </a> </span> 
+       <div class="d_cont_bx" id="byl18448757" style="display: none;"> 
+       </div> 
+       <div class="d_cont_bx" id="svByl18448757" name="169076343" style="display: none; overflow: auto; width: 926px; height: 470px;"> 
+       </div> 
+       <!-- 별표 서식 레이어 팝업 시작--> 
+       <div class="byl_pop" id="fileSaveLayer0" style="padding: 7px; width: 500px; height: auto; position: absolute; overflow: visible; display: none; border: 2px solid #3082d0; background: white; border-radius: 10px; z-index: 1;"> 
+        <ul class="pconfile pb30 pcf_sec01" style="padding: 0px 0px 0px 50px; font-size: 1.1em;"> 
+         <li> 
+          <div> 
+           <a href="flDownload.do?gubun=&amp;flSeq=169076341&amp;bylClsCd=110201" target="_blank"> <img alt="HWP파일 다운로드" src="/LSW/images/button/btn_han_25.png" style="float: left; margin-right: 10px; margin-top: -3px;" /> </a> 
+           <div> 
+            <a href="flDownload.do?gubun=&amp;flSeq=169076341&amp;bylClsCd=110201" target="_blank"> 
+             <div id="hwptext0" value="[별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표" style="float: left;">
+               [별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표 
+             </div> 
+             <div style="float: left;">
+              .hwp
+             </div> </a> 
+           </div> 
+          </div> </li> 
+         <hr style="border: solid 0.1px Gainsboro; display: block; margin-top: 23px;" /> 
+         <li> 
+          <div> 
+           <a href="flDownload.do?gubun=&amp;flExt=hwpx&amp;flSeq=169076341&amp;bylClsCd=110201" target="_blank"> <img alt="HWP파일 다운로드" src="/LSW/images/button/btn_han_25.png" style="float: left; margin-right: 10px; margin-top: -3px;" /> </a> 
+           <div> 
+            <a href="flDownload.do?gubun=&amp;flExt=hwpx&amp;flSeq=169076341&amp;bylClsCd=110201" target="_blank"> 
+             <div id="hwpxtext0" value="[별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표" style="float: left;">
+               [별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표 
+             </div> 
+             <div style="float: left;">
+              .hwpx
+             </div> </a> 
+           </div> 
+          </div> </li> 
+         <hr style="border: solid 0.1px Gainsboro; display: block; margin-top: 23px;" /> 
+         <li> 
+          <div> 
+           <a href="flDownload.do?gubun=&amp;flSeq=169076343&amp;bylClsCd=110201" target="_blank"> <img alt="PDF파일 다운로드" src="/LSW/images/button/btn_pdf_25.png" style="float: left; margin-right: 10px; margin-top: -3px;" /> </a> 
+           <div> 
+            <a href="flDownload.do?gubun=&amp;flSeq=169076343&amp;bylClsCd=110201" target="_blank"> 
+             <div id="pdftext0" value="[별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표" style="float: left;">
+               [별표 ] 제1종국민주택채권 매입대상자 및 매입기준(제8조제2항 관련), 제1종국민주택채권 매입대상 및 금액표 
+             </div> 
+             <div style="float: left;">
+              .pdf
+             </div> </a> 
+           </div> 
+          </div> </li> 
+         <hr style="border: solid 0.1px Gainsboro; display: block; margin-top: 23px;" /> 
+         <li> <p style="margin-bottom: 3px;">        아래 <img alt="법령별표 한글주소" src="/LSW/images/button/btn_link.gif" style="margin-top: 1px;" />을 눌러 주소를 복사하세요 </p> 
+          <div> 
+           <a href="javascript:;" onclick="copyToClipBoard(0);"> <img alt="법령별표 한글주소" src="/LSW/images/button/btn_link_25.png" style="float: left; margin-right: 10px; margin-top: 10px;" /> </a> 
+           <div> 
+            <label for="textarea"> <textarea class="bylKoAddr" id="textarea0" style="width: 415px; height: 35px; border-color: #c2c0c0; padding: 8px; resize: none;" readonly="">
+												https://www.law.go.kr/법령별표서식/(주택도시기금법 시행령,20260915,별표0)
+											</textarea> </label> 
+           </div> 
+          </div> </li> 
+         <div style="float: right; margin-top: -10px;"> 
+          <button type="button" onclick="delLayer('0');" style="width: 60px; height: 33px; color: white; 
+									background: #1c76c3; margin-right: 14px; margin-top: 10px; border-radius: 5px;"> 닫힘 </button> 
+         </div> 
+        </ul> 
+       </div> 
+       <!-- 별표 서식 레이어 팝업 끝--> </li> 
+     </ul> 
+     <br /> 
+     <!-- 별표 서식 끝 --> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

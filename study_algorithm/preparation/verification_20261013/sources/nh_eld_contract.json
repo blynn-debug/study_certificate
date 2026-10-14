@@ -1,0 +1,12 @@
+{
+  "id": "nh_eld_contract",
+  "requested_url": "https://www.nhbank.com/goDtlPage.do?srchGb=KO_NHPR_02&srchNo=6494&srchWrd=9",
+  "retrieved_url": "https://www.nhbank.com/goDtlPage.do?srchGb=KO_NHPR_02&srchNo=6494&srchWrd=9",
+  "retrieved_at": "2026-10-13T04:17:09.029729+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 3548,
+  "content_sha256": "4ed484a31b47396f85948fa84ed734f2e1d7a9e8f611ee193bb80e0165345806",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

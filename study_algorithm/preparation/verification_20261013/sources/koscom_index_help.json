@@ -1,0 +1,12 @@
+{
+  "id": "koscom_index_help",
+  "requested_url": "https://helpcheck.koscom.co.kr/KO/cdbc4d9756c9272e",
+  "retrieved_url": "https://helpcheck.koscom.co.kr/KO/cdbc4d9756c9272e",
+  "retrieved_at": "2026-10-13T16:07:25.599441+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 15,
+  "content_sha256": "9cc83e9b475450942f10d1913ae46290999a9cfb722c6ab7c366d21c46d30ebe",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kocw_joint_life_2015",
+  "requested_url": "http://contents.kocw.or.kr/KOCW/document/2015/hanyang_erica/shimhyunoo/11-2.pdf",
+  "retrieved_url": "http://contents.kocw.or.kr/KOCW/document/2015/hanyang_erica/shimhyunoo/11-2.pdf",
+  "retrieved_at": "2026-10-13T15:31:05.565617+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "ab2f0feaed80f0b91e01cad6e446e5ded5ec4061cb75489edca01feff1bfa2d5",
+  "binary_sha256": "ab2f0feaed80f0b91e01cad6e446e5ded5ec4061cb75489edca01feff1bfa2d5",
+  "text_sha256": "9f2b5b86726daeb7bffbdc48635460830a8ffa4ca45fc5ba2faeb8063763b961",
+  "pages": 37,
+  "characters": 12806,
+  "status": "retrieved_not_claim_verified"
+}

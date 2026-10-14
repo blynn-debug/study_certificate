@@ -1,0 +1,42 @@
+{
+  "source_id": "s2_boe_internationalbonds",
+  "source_metadata": {
+    "id": "s2_boe_internationalbonds",
+    "requested_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1991/the-international-bond-market.pdf",
+    "retrieved_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1991/the-international-bond-market.pdf",
+    "retrieved_at": "2026-10-13T16:54:57.351020+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "17a22adfa01dff13ceac4e298ffbf7c96936ef6c66bab4930da2d8c988e9c80a",
+    "binary_sha256": "17a22adfa01dff13ceac4e298ffbf7c96936ef6c66bab4930da2d8c988e9c80a",
+    "text_sha256": "6ed0093a9e6ea3bda9296c9a385ceb7ba44bea0c06996b251c50c5a47aceae6a",
+    "pages": 8,
+    "characters": 41131,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "s2_boe_internationalbonds:Yankee",
+      "source_id": "s2_boe_internationalbonds",
+      "article": "Yankee",
+      "heading": "Yankee",
+      "text": "Over time, eurodollar depositors diversified into the first \nimportant foreign bond sector-'Yankee' bonds (US dollar \nbonds issued in New York by non-US borrowers).",
+      "start": 2667,
+      "end": 2832,
+      "sha256": "e552d62d80f653d2e8365cbd7a6619c6193e8603b83688dfbceda998d6888b2d"
+    },
+    {
+      "id": "s2_boe_internationalbonds:BoughtDeal",
+      "source_id": "s2_boe_internationalbonds",
+      "article": "BoughtDeal",
+      "heading": "BoughtDeal",
+      "text": "The introduction in 1982 of Rule 4 15 of the Securities and Exchange Commission (SEC), the 'shelf registration' rule, effectively eliminated a \ndelay of up to three weeks between deciding 10 launch an issue and obtajn.ing SEC consent. The period between the decision to launch an \nissue and distribution was shortened to a day or less: this enabled issuers 10 ask for competitive fixed-price tenders from individuaJ investment \nbanks or syndicates which bore the risk that interest rates might rise between making a bid at a fixed price and distributing securities to \ninvestors. The fixed-price bid (or 'bought deal') was already established in, and had enhanced the attractiveness of, the eurobond market.",
+      "start": 15446,
+      "end": 16155,
+      "sha256": "088ac18cbef6687157977320178338008c688505b807588cf40daed3a492b0a1"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

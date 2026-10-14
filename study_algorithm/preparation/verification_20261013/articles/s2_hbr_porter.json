@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_hbr_porter",
+  "source_metadata": {
+    "id": "s2_hbr_porter",
+    "requested_url": "https://store.hbr.org/product/the-competitive-advantage-of-nations/90211",
+    "retrieved_url": "https://store.hbr.org/product/the-competitive-advantage-of-nations/90211",
+    "retrieved_at": "2026-10-13T17:17:06.280718+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "47719bccb08e41a0a93c74caeebb7c859d41c68e324362c8cb5a77a2cb13f3d4",
+    "text_sha256": "87a89e50dbe32c55a637a8838682200112fb5d6be456c0512dbd19a12427a564",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_hbr_porter:Innovation",
+      "source_id": "s2_hbr_porter",
+      "article": "Innovation",
+      "heading": "Innovation",
+      "text": "Porter concludes that companies achieve competitive advantage through acts of innovation. And their capacity and push to innovate is affected by four broad attributes of a nation, attributes that constitute the \"diamond\" of national advantage: 1. Factor conditions 2. Demand conditions 3. Related and supporting industries 4. Firm strategy, structure, and rivalry These four attributes create the national environment in which companies are born and learn how to compete. Each point on the diamond affects essential ingredients for achieving international leadership. Interestingly, in almost every case, what appears to be a disadvantage can turn into an advantage through greater effort to innovate around the problem. When the national environment pressures companies to innovate and invest, companies gain competitive advantage and upgrade those advantages over time. The diamond also operates as a system; the effect of one point often depends on the state of others. Strong domestic rivalry and geographic concentration are particularly important in reinforcing the whole system. Based on this analysis, Porter presents some of the policies that government and companies should pursue. For example, government should act as a catalyst and challenger-but not get involved directly in competition. Companies should create pressures for innovation; seek out the toughest competitors and most-demanding customers; improve the whole national diamond; and use alliances only selectively.",
+      "start": 2969,
+      "end": 4457,
+      "sha256": "1318bb28ebec5b937c1c6bd580e277af2b66d425a71a8d9057490f42b9d790bd"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

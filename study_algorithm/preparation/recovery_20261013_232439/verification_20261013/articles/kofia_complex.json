@@ -1,0 +1,26 @@
+{
+  "source_id": "kofia_complex",
+  "header": "",
+  "current_body_end": 12989,
+  "supplementary_provisions": "부칙\n1)  이 준칙은 입법예고된 「자본시장과 금융투자업에 관한 법률 시행령 일부개정령안」(금융위원회 공고 제2020-6호) 및 규정변경예고된 「금융투자업규정 일부개정규정안」(금융위원회 공고 제2020-53호) 시행일에 시행한다.\n다만, 6. 목표시장 및 판매전략 설정, 7. 금융투자상품 테스트, 8. 판매회사에 대한 정보제공, 16. 제조회사로부터 정보수령, 17. 목표시장 및 판매전략, 18. 목표시장 설정과 판매규제준수, 22. 제조회사에 대한 정보제공은 2020년 7월 19일부터 시행한다.\n2)  이 준칙 시행 이전에 제조하거나 판매한 금융투자상품에 대하여도 이 준칙 시행일 이후 추가 제조 또는 판매하는 경우에는 이 준칙 적용한다.\n부 칙 (2021. 5. 20)\n이 규정은 2021년 5월 21일부터 시행한다.\n부 칙 (2025. 9. 11)\n이 규정은 규정변경예고(금융위원회 공고 제2025-528호)된 「금융소비자 보호에 관한 감독규정」일부개정고시(안)의 시행일부터 시행한다.",
+  "count": 0,
+  "items": [],
+  "warning": "별표·별지는 별도 파일일 수 있다. 본문 인덱스 존재는 검증 완료를 뜻하지 않는다.",
+  "source_metadata": {
+    "id": "kofia_complex",
+    "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1745&seq=339",
+    "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1745&seq=339",
+    "retrieved_at": "2026-10-13T00:04:50.572764+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 13490,
+    "content_sha256": "5d1c8b77d8a3ffb46061828fdf144a291f481de59d8eee94054f9ccfec03c88e",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [],
+    "name": "고난도 금융투자상품 제조 및 판매에 관한 표준영업행위준칙",
+    "kofia_seq": "339",
+    "history_seq": "1745",
+    "version_selection": "1812는 2026-12-01 시행: 2026-10-13 적용 제외",
+    "version_selection_source": "sources/kofia_tree.html"
+  }
+}

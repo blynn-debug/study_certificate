@@ -1,0 +1,40 @@
+{
+  "source_id": "kcie_cma_structure",
+  "source_metadata": {
+    "id": "kcie_cma_structure",
+    "requested_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=468",
+    "retrieved_url": "https://www.kcie.or.kr/guide/2/12/web_view?content_idx=468",
+    "retrieved_at": "2026-10-13T04:17:09.154654+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 4048,
+    "content_sha256": "bb72d6b074489291c6dfa2d2828e9a9580ac20b235c25046e1ddbaad0b1e8875",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "kcie_cma_structure:RP기본구조",
+      "source_id": "kcie_cma_structure",
+      "article": "RP기본구조",
+      "heading": "RP기본구조",
+      "text": "1 RP는 ‘Repurchase Agreement’의 약자로 ‘환매 조건부 채권’이라고 한다.\n증권회사가 보유하고 있는 채권(국공채, 통안채, 은행채 등) 등을 일정 기간 후에 다시 매수하는 것을 조건으로 고객에게 판매하는 단기금융상품이며, 확정 금리를 제공하는 것이 가장 큰 특징이다.",
+      "start": 1040,
+      "end": 1201,
+      "sha256": "3c2e317e918a03ad7e112f093ad749ece46a57189abb622611dcfed41bbf2b5f"
+    },
+    {
+      "id": "kcie_cma_structure:CMA계좌기능",
+      "source_id": "kcie_cma_structure",
+      "article": "CMA계좌기능",
+      "heading": "CMA계좌기능",
+      "text": "RP, MMF, MMW는 모두 증권회사에서 가입할 수 있는데, 대개의 경우 CMA(Cash Management Account)의 형태로 가입하는 경우가 많다.\n특히, MMF에 직접 가입하면 결제 기능, 자동이체 기능, ATM 출금 기능 등이 불가능하기 때문에 MMF형 CMA로 가입하는 것이 편의성을 증가시킬 수 있다.\n증권회사 단기 금융 상품의 대명사인 CMA는 그 운용 방식에 따라 RP형CMA, MMF형CMA, MMW형CMA로 구분된다.",
+      "start": 2545,
+      "end": 2793,
+      "sha256": "0f807ea6c267a103d84e26032f19c263aa6e31927c5eff403cd2819971989439"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

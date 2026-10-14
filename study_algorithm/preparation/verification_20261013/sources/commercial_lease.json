@@ -1,0 +1,18 @@
+{
+  "id": "commercial_lease",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=279651&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=279651&chrClsCd=010202&urlMode=lsInfoP&efYd=20260512&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:43.766853+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 17901,
+  "content_sha256": "b7d4b25e6f56c1af2d523aa4298152791c2cd89aca161ab821b35675ffa7f427",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "5",
+      "12"
+    ]
+  ]
+}

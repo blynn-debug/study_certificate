@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-13T01:19:43.909186+00:00",
+  "errors": [],
+  "source_files_hash_checked": 42,
+  "source_citations_checked": 120,
+  "report_links_checked": 8016,
+  "report_ids_checked": 2598,
+  "behavior_tests": {
+    "tests": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "coverage": {
+    "questions": 2292,
+    "topics": 285,
+    "chapters": 16,
+    "embedded_groups": 383,
+    "override_records": 497,
+    "manual_rationale_recoveries": 311,
+    "calibration_cases": 12
+  },
+  "boundary": "원본 보존·참조·코드 검증. 별도 전 문항 정답 승인이나 실제 학습 성과 측정이 아니다."
+}

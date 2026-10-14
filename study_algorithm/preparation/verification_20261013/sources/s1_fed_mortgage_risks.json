@@ -1,0 +1,12 @@
+{
+  "id": "s1_fed_mortgage_risks",
+  "requested_url": "https://www.federalreserve.gov/frrs/guidance/interagency-advisory-on-mortgage-banking.htm",
+  "retrieved_url": "https://www.federalreserve.gov/frrs/guidance/interagency-advisory-on-mortgage-banking.htm",
+  "retrieved_at": "2026-10-13T23:51:05.628741+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 28238,
+  "content_sha256": "7c5b3beca01b1316d4f971c7fbbe8a028ccc881f502a4a1baa160ec8337ad142",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

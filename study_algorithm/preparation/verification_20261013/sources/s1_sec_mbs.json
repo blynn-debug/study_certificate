@@ -1,0 +1,12 @@
+{
+  "id": "s1_sec_mbs",
+  "requested_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mortgage-backed-securities-and-collateralized",
+  "retrieved_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mortgage-backed-securities-and-collateralized",
+  "retrieved_at": "2026-10-13T16:10:59.365254+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7409,
+  "content_sha256": "e887c6301f9ee1e608bbad8fa0a15bcc0f02a1dbd3a1b8574fb331eaf486eb05",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

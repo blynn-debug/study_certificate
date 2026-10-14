@@ -1,0 +1,12 @@
+{
+  "id": "bok_deposit_basics",
+  "requested_url": "https://www.bok.or.kr/portal/bbs/B0000302/view.do?menuNo=201036&nttId=10056257",
+  "retrieved_url": "https://www.bok.or.kr/portal/bbs/B0000302/view.do?menuNo=201036&nttId=10056257",
+  "retrieved_at": "2026-10-13T04:10:53.050991+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 70607,
+  "content_sha256": "cced363836ccec7bdfdaa4c138fbad77e06f5bb7fa7b8bd523afa72bb862a1ac",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

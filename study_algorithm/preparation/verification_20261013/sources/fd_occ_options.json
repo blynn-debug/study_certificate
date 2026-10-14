@@ -1,0 +1,11 @@
+{
+  "id": "fd_occ_options",
+  "requested_url": "https://www.optionseducation.org/optionsoverview/what-is-an-option",
+  "retrieved_url": "https://www.optionseducation.org/optionsoverview/what-is-an-option",
+  "retrieved_at": "2026-10-14T00:07:15.466541+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "24f1ba8175ee122fafc7d9f0dca4a656f04647092276fc00f407daec53431583",
+  "text_sha256": "062116d06ec700d481e2cb80071ecb94504a98a7e82a08d79e11faaa4142a0c7",
+  "status": "retrieved_not_claim_verified"
+}

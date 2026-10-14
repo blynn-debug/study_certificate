@@ -1,0 +1,19 @@
+{
+  "id": "building_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290833&chrClsCd=010202&urlMode=lsInfoP&efYd=20261006&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290833&chrClsCd=010202&urlMode=lsInfoP&efYd=20261006&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:36.728472+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 239401,
+  "content_sha256": "0b823a9b896491b45b627427b38816c01aae435d6265680489e2c73a741f58bd",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "6"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

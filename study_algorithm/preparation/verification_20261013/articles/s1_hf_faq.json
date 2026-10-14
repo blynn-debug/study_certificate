@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_hf_faq",
+  "source_metadata": {
+    "id": "s1_hf_faq",
+    "requested_url": "https://www.hf.go.kr/ko/sub03/sub03_02_05_04.do?mode=list&pager.offset=40&pagerLimit=10",
+    "retrieved_url": "https://www.hf.go.kr/ko/sub03/sub03_02_05_04.do?mode=list&pager.offset=40&pagerLimit=10",
+    "retrieved_at": "2026-10-13T15:56:47.642205+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 17751,
+    "content_sha256": "29850b292394a07c54e207bd71901526a8e2487d70c47cf86e4ce1364b46340c",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_hf_faq:지급기간과종료",
+      "source_id": "s1_hf_faq",
+      "article": "지급기간과종료",
+      "heading": "지급기간과종료",
+      "text": "받게 될 연금은 얼마이며 언제까지 받나요?(포함내용 : 월지급금, 연금, 연금액, 언제까지 받는지)\nAnswer:\n① 주택연금은 가입자의 연령(부부의 경우 나이가 적은 분 기준)과 주택가격에 따라 다르게 책정되어요.\n즉 나이가 많을수록, 주택가격이 높을수록 더 많은 연금을 받을 수 있어요.\n② 예상 연금액은 아래에서 조회할 수 있어요.\n공사 홈페이지(hf.go.kr) -> 주택연금 -> 예상연금조회\n③ 주택연금은 주택소유자와 배우자 모두의 평생거주와 평생 연급지급을 보장해요.\n④ 다만, 아래와 같은 사유가 발생할 경우 연금지급이 중단되고 계약이 종료될 수 있어요.\n- 가입자 또는 연대보증인인 배우자(공동소유자)가 해당 주택을 매각하거나 증여하는 등 소유권을 상실하는 경우\n- 주택소유자 사망 후 6개월 이내에 그 배우자 앞으로 소유권이전등기 및 채무인수를 하지 않는 경우\n- 가입자와 배우자 모두 1년 이상 계속 해당 주택에 실제로 거주하지 않는 경우(입원 등 공사가 인정하는 불가피한 경우는 제외)\n- 가입자 및 배우자 모두 다른 장소(주민등록상 주소지가 다른 장소)로 이사한 경우 등(입원 등 불가피한 사정이 있어 사전에 공사의 동의를 받은 경우는 제외)\nQuestion:",
+      "start": 10720,
+      "end": 11326,
+      "sha256": "5104e44206a626c93da035548389dc93b8e017e5178f55f81d40a9e50072267e"
+    }
+  ]
+}

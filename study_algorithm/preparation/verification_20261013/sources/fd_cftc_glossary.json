@@ -1,0 +1,12 @@
+{
+  "id": "fd_cftc_glossary",
+  "requested_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm",
+  "retrieved_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm",
+  "retrieved_at": "2026-10-14T00:24:39.396028+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "c81313273fa6dab1c79b79b5f6eb10eb337f5cf65f42cc03175ae85c466ae717",
+  "text_sha256": "7536ae7aee27ac5f54c42c4eef097392ccb861e6e951352935e3f73611eae033",
+  "characters": 179325,
+  "status": "retrieved_not_claim_verified"
+}

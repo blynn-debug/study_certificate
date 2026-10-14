@@ -1,0 +1,14 @@
+{
+  "id": "s2_wiley_elliott",
+  "requested_url": "https://catalogimages.wiley.com/images/db/pdf/9781592802685.excerpt.pdf",
+  "retrieved_url": "https://catalogimages.wiley.com/images/db/pdf/9781592802685.excerpt.pdf",
+  "retrieved_at": "2026-10-13T17:11:33.062795+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "e76cdd6349760878bda1c79297ebca84484d1dc873132930654b04736fce091b",
+  "binary_sha256": "e76cdd6349760878bda1c79297ebca84484d1dc873132930654b04736fce091b",
+  "text_sha256": "38d26265c3423323a23670228a1523398628a0e6ded591b8bcd499e8ee6515fc",
+  "pages": 16,
+  "characters": 37393,
+  "status": "retrieved_not_claim_verified"
+}

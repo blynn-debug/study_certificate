@@ -1,0 +1,3342 @@
+{
+  "as_of": "2026-10-13",
+  "items": [
+    {
+      "id": "C001",
+      "item_ids": [],
+      "refs": [
+        "P12:48"
+      ],
+      "claim_ids": [
+        "L040"
+      ],
+      "classification": "outdated_rule",
+      "finding": "주식 양도세 예정신고를 분기 말일부터 2개월로 적은 이론 설명은 현재 반기 말일부터 2개월로 교정해야 한다.",
+      "learner_treatment": "교재 교정 사항으로 먼저 설명하고 학습자의 암기 오류로 기록하지 않는다.",
+      "original_exam_answer_impact": "문항별 별도 판정"
+    },
+    {
+      "id": "C002",
+      "item_ids": [
+        "S1C1T03-SUP-02"
+      ],
+      "refs": [
+        "P12:24"
+      ],
+      "claim_ids": [
+        "L055",
+        "L009",
+        "L036"
+      ],
+      "classification": "multiple_false_options",
+      "finding": "잘못된 설명을 고르는 문제에서 ① 기한 내 신고자만 수정신고 가능과 ③ 3년 이내 제한이 모두 틀린다. 현행법은 기한후신고자도 수정신고 가능하다.",
+      "learner_treatment": "① 또는 ③을 고른 응답을 출판사 키 ③만으로 오답 처리하지 않는다. 문항 원본의 단일정답 채점을 중지한다.",
+      "original_exam_answer_impact": "held_multiple_answers"
+    },
+    {
+      "id": "C003",
+      "item_ids": [
+        "S1C1T02-SUP-07"
+      ],
+      "refs": [
+        "P12:22"
+      ],
+      "claim_ids": [
+        "L050"
+      ],
+      "classification": "faulty_condition_connector",
+      "finding": "출판사 발문·해설의 과점주주 요건이 50% 초과 또는 실질 권리행사로 연결되어 있다. 현행 조문은 법정 지분 50% 초과이면서 지배적 영향력 행사다.",
+      "learner_treatment": "30%를 50%로 고친 뒤에도 또는를 그대로 외우게 하지 않는다. 조건의 AND를 설명하고 반례로 확인한다.",
+      "original_exam_answer_impact": "publisher_4_intended_but_clean_stem_required"
+    },
+    {
+      "id": "C004",
+      "item_ids": [
+        "S1C1T05-SUP-02"
+      ],
+      "refs": [
+        "P12:30"
+      ],
+      "claim_ids": [
+        "L025",
+        "L026",
+        "L014"
+      ],
+      "classification": "tax_base_vs_rate_band_confusion",
+      "finding": "조건부 금융소득 3천만원이면 2천만원은 완납으로 종결하고 1천만원만 종합소득이라고 단정하는 설명은 과세표준 합산과 비교과세 계산구간을 혼동한다. 일반 종합과세 대상이면 전체 금융소득을 합산하여 법정 비교과세한다.",
+      "learner_treatment": "특례소득 등을 제외한 총수입·종합소득·세율구간·기납부세액을 구분해 계산한다. 출판사 ③의 설명을 그대로 의미채점 금본위로 삼지 않는다.",
+      "original_exam_answer_impact": "held_defective_wording"
+    },
+    {
+      "id": "C005",
+      "item_ids": [
+        "S1C1-ADD-06"
+      ],
+      "refs": [
+        "P12:56"
+      ],
+      "claim_ids": [
+        "L060",
+        "L025"
+      ],
+      "classification": "missing_exception",
+      "finding": "사업소득은 금액 불문 종합과세한다는 해설에 주택임대소득 분리과세 예외가 빠졌다. 금융소득 2천만원 이하도 원천징수 등 조건을 확인해야 한다.",
+      "learner_treatment": "일반 사업소득과 법정 분리과세 주택임대소득을 대비하고, 원본은 조건을 보완한 뒤 사용한다.",
+      "original_exam_answer_impact": "held_underspecified"
+    },
+    {
+      "id": "C006",
+      "item_ids": [
+        "NOTE-S1C1-Q015",
+        "S1C1T03-CORE"
+      ],
+      "refs": [
+        "NOTE:3",
+        "P12:23"
+      ],
+      "claim_ids": [
+        "L055",
+        "L011"
+      ],
+      "classification": "filing_state_omitted",
+      "finding": "법정기한 내 신고하지 않은 자와 현재까지 미신고 상태인 자를 구분하지 않으면 기한후신고 후 수정신고·경정청구가 가능하다는 규정을 놓친다.",
+      "learner_treatment": "현재까지 무신고 → 기한후신고, 이미 신고한 과소금액 → 수정신고로 상태를 명시한다.",
+      "original_exam_answer_impact": "clean_stem_required"
+    },
+    {
+      "id": "C007",
+      "item_ids": [
+        "S3C2T10-SUP-01",
+        "S3C2T10-SUP-02"
+      ],
+      "refs": [
+        "P3:84",
+        "P3:85"
+      ],
+      "claim_ids": [
+        "L068",
+        "L069"
+      ],
+      "classification": "denominator_error_in_book_and_prior_review",
+      "finding": "1개월 만기불일치비율의 분모는 총외화자산이다. 단기 자산/부채 90% 이상과 동일하다는 교재 및 앞선 분석을 철회한다. 보충01은 ②와 ④가 함께 틀리고, 보충02는 정답②가 유지되지만 비교 해설을 교정해야 한다.",
+      "learner_treatment": "공식 별표의 분모와 반례 80·100·200을 설명한다. 보충01 원본의 단일정답 채점을 중지한다.",
+      "original_exam_answer_impact": "mixed_multiple_answers_and_rationale_correction"
+    },
+    {
+      "id": "C008",
+      "item_ids": [
+        "NOTE-S3C1-Q043"
+      ],
+      "refs": [
+        "NOTE:40"
+      ],
+      "claim_ids": [
+        "L063"
+      ],
+      "classification": "rationale_legal_limit_conflict",
+      "finding": "임면사실 보고의무 위반은 지배구조법 제43조제2항제8호의 3천만원 이하 과태료다. NOTE의 2천만원은 별도 임직원 보고태만 규정과 구분해야 한다. 원 질문의 협회 신고가 틀렸다는 X는 유지된다.",
+      "learner_treatment": "정답 X와 금융위·7영업일을 유지하고 해설의 행위자·조항별 과태료를 교정한다.",
+      "original_exam_answer_impact": "answer_unchanged_rationale_correction"
+    },
+    {
+      "id": "C009",
+      "item_ids": [],
+      "refs": [
+        "P3:47"
+      ],
+      "claim_ids": [
+        "L062"
+      ],
+      "classification": "reversed_boundary_in_rationale",
+      "finding": "일반 이사 임기를 3년 이상이라고 비교한 해설은 상법의 3년 초과 금지와 반대다. 준법감시인 2년 이상과 구별한다.",
+      "learner_treatment": "일반 이사의 상한과 준법감시인의 하한을 비교하여 경계값으로 확인한다.",
+      "original_exam_answer_impact": "rationale_correction"
+    },
+    {
+      "id": "C010",
+      "item_ids": [
+        "S3C2T23-CORE"
+      ],
+      "refs": [
+        "P3:115"
+      ],
+      "claim_ids": [
+        "L078"
+      ],
+      "classification": "publisher_key_contradicts_statute",
+      "finding": "출판사 정답④의 신고 수리·효력발생이 기재사항 정확성을 인정한다는 명제는 자본시장법 제120조제3항과 충돌한다.",
+      "learner_treatment": "④를 정답으로 외우거나 ④를 거부한 학습자를 오답 처리하지 않는다.",
+      "original_exam_answer_impact": "held_publisher_key_conflict"
+    },
+    {
+      "id": "C011",
+      "item_ids": [
+        "S3C2-ADD-14"
+      ],
+      "refs": [
+        "P3:154",
+        "P3:155"
+      ],
+      "claim_ids": [
+        "L079"
+      ],
+      "classification": "no_false_option_for_intended_stem",
+      "finding": "효력발생 전 간이설명서를 사용할 수 있다는 ③은 현행법상 가능하다. 효력발생 후에도 가능하다는 해설이 그 전 사용 가능성을 부정하지 않는다.",
+      "learner_treatment": "출판사 정답③으로 틀린 선지 선택을 강요하지 않고 예비·간이설명서 사용시점을 비교한다.",
+      "original_exam_answer_impact": "held_no_single_false_answer"
+    },
+    {
+      "id": "C012",
+      "item_ids": [
+        "NOTE-S1C2-Q050"
+      ],
+      "refs": [
+        "NOTE:12"
+      ],
+      "claim_ids": [
+        "L094"
+      ],
+      "classification": "incorrect_answer",
+      "finding": "MMF 국채 전체 편입범위를 1년 이상 5년 이내로 한정한 명제를 O 처리했다. 1년은 장기분 비중제한의 경계이며 편입 하한이 아니다.",
+      "learner_treatment": "원문 O를 정답으로 외우게 하지 않는다. 잔존만기 상한과 장기분 비중을 나눠 묻는다.",
+      "original_exam_answer_impact": "publisher_O_contradicted"
+    },
+    {
+      "id": "C013",
+      "item_ids": [],
+      "refs": [
+        "P12:127"
+      ],
+      "claim_ids": [
+        "L093"
+      ],
+      "classification": "incorrect_explanation",
+      "finding": "MMF 금융기관 단기대출을 3개월 이내라고 설명하지만 법은 30일 이내이며 앞쪽 본문과도 충돌한다.",
+      "learner_treatment": "30일 단기대출과 6개월 예치를 구별해 학습한다.",
+      "original_exam_answer_impact": "explanation_only_no_adjacent_item_assumed_faulty"
+    },
+    {
+      "id": "C014",
+      "item_ids": [
+        "S1C2T30-SUP-01"
+      ],
+      "refs": [
+        "P12:147"
+      ],
+      "claim_ids": [
+        "L095"
+      ],
+      "classification": "multiple_supported_options",
+      "finding": "일반투자자 포함 일반사모펀드는 운용보고서 의무도 적용된다. ④만 답이라는 해설로 ①을 배제할 수 없다.",
+      "learner_treatment": "①을 선택한 학습자를 개념 오답으로 처리하지 않고 투자자 유형별 적용을 다시 제시한다.",
+      "original_exam_answer_impact": "held_multiple_supported_options"
+    },
+    {
+      "id": "C015",
+      "item_ids": [
+        "NOTE-S3C3-Q028"
+      ],
+      "refs": [
+        "P3:194",
+        "NOTE:57"
+      ],
+      "claim_ids": [
+        "L087"
+      ],
+      "classification": "incorrect_boundary",
+      "finding": "일반형 합산 정확히 10%는 금지에 해당한다. 10%를 초과하지 않으면 공동주관 가능이라는 O 정답은 경계를 잘못 포함한다.",
+      "learner_treatment": "일반형과 법정 특례기업을 분리하고 본인 보유금지 조건을 먼저 확인한다.",
+      "original_exam_answer_impact": "publisher_O_not_supported_as_written"
+    },
+    {
+      "id": "C016",
+      "item_ids": [
+        "S3C3T15-SUP-01"
+      ],
+      "refs": [
+        "P3:195"
+      ],
+      "claim_ids": [
+        "L087"
+      ],
+      "classification": "missing_material_conditions",
+      "finding": "본인 보유금지와 기업유형 예외가 빠져 ④ 합산 5% 이상 10% 미만만으로 공동주관 가능하다고 단정한다. ②의 동일인 정부·기관투자자 예외도 빠져 있다.",
+      "learner_treatment": "보유비율 외 요건을 명시한 새 발문을 검토한 뒤 채점한다.",
+      "original_exam_answer_impact": "held_underspecified"
+    },
+    {
+      "id": "C017",
+      "item_ids": [
+        "S3C3T15-SUP-02"
+      ],
+      "refs": [
+        "P3:194",
+        "P3:195"
+      ],
+      "claim_ids": [
+        "L089",
+        "L090"
+      ],
+      "classification": "dated_explanation",
+      "finding": "④를 코스닥의 올바른 배정 기준이라고 설명하며 벤처펀드 25%를 유지한다. 현재 적용 대상 최초 신고분에는 30%가 적용된다.",
+      "learner_treatment": "시장별 배정비율과 기관 잠재물량의 확약 선배정을 구별한다.",
+      "original_exam_answer_impact": "publisher_key_may_remain_explanation_requires_repair"
+    },
+    {
+      "id": "C018",
+      "item_ids": [
+        "S3C3T15-SUP-04",
+        "NOTE-S3C3-Q031"
+      ],
+      "refs": [
+        "P3:195",
+        "P3:196",
+        "NOTE:57"
+      ],
+      "claim_ids": [
+        "L092"
+      ],
+      "classification": "dated_or_incomplete_sanction_ceiling",
+      "finding": "IPO 불성실 참여의 상한을 일률적으로 24개월이라고 하며 36개월을 오답 처리한다. 현행 별표는 기본상한과 가중상한을 나누며 일부 가중상한이 36개월이다.",
+      "learner_treatment": "위반유형·가중 여부·최초 신고일을 명시하지 않은 원문으로 단일정답을 강요하지 않는다.",
+      "original_exam_answer_impact": "held_ceiling_scope_missing"
+    },
+    {
+      "id": "C019",
+      "item_ids": [
+        "NOTE-S3C3-Q025"
+      ],
+      "refs": [
+        "P3:187",
+        "NOTE:56"
+      ],
+      "claim_ids": [
+        "L102"
+      ],
+      "classification": "unit_and_direction_error",
+      "finding": "노트 해설이 거래단위를 미화 10만불로 일반화한다. 실제 단위는 기준통화 10만이다. 본문 증거금률 10% 이상에 레버리지 10배 이상이라고 적은 방향도 반대다.",
+      "learner_treatment": "통화를 일치시켜 명목액/증거금으로 계산하고 USD 증거금 하한과 구분한다.",
+      "original_exam_answer_impact": "answer_may_remain_explanation_requires_repair"
+    },
+    {
+      "id": "C020",
+      "item_ids": [
+        "S3C3-ADD-01"
+      ],
+      "refs": [
+        "P3:198",
+        "P3:199"
+      ],
+      "claim_ids": [
+        "L098"
+      ],
+      "classification": "incorrect_explanation",
+      "finding": "핵심설명서 예외를 ELS·ETN으로 적었으나 해당 예외는 ELW·ETN·금적립계좌등이다.",
+      "learner_treatment": "ELS 전체가 제외된다는 설명을 피드백으로 사용하지 않는다.",
+      "original_exam_answer_impact": "answer_may_remain_explanation_requires_repair"
+    },
+    {
+      "id": "C021",
+      "item_ids": [
+        "S3C7T11-SUP-01",
+        "NOTE-S3C7-Q034"
+      ],
+      "refs": [
+        "P3:396",
+        "NOTE:78"
+      ],
+      "claim_ids": [
+        "L115",
+        "L116"
+      ],
+      "classification": "obsolete_or_incorrect_GIPS_key",
+      "finding": "추정 거래비용을 전면 금지한 해설과 비수수료 재량 포트폴리오의 보편 의무편입 판단은 현행 GIPS에 맞지 않는다. 보충1의 나 항목을 옳다고 처리한 교재 답도 그대로 사용할 수 없다.",
+      "learner_treatment": "실제비용 미상 조건과 비수수료 계정·pooled fund 구분을 명시한 교정 문항을 작성하기 전 원문 정답번호로 오답 판정하지 않는다.",
+      "original_exam_answer_impact": "publisher_key_not_safe"
+    },
+    {
+      "id": "C022",
+      "item_ids": [
+        "S3C8-ADD-08",
+        "NOTE-S3C8-Q030",
+        "MOCK-1-Q095"
+      ],
+      "refs": [
+        "P3:419",
+        "P3:420",
+        "P3:429",
+        "NOTE:82",
+        "MOCK:26",
+        "MOCK:65"
+      ],
+      "claim_ids": [
+        "L124"
+      ],
+      "classification": "outdated_statistic_and_missing_price_basis",
+      "finding": "국외순수취요소소득이 음수라 한국 명목 GNI가 GDP보다 작다는 고정 설명은 2025년 개정 통계와 충돌한다. 명목·실질 및 관측연도가 없는 비교를 현재 정답으로 고정할 수 없다.",
+      "learner_treatment": "2025년·명목 기준과 개정 발표일을 지정해 다시 출제한다. 양수 순수취에도 실질 GNI는 교역조건 손익 때문에 실질 GDP보다 작을 수 있음을 설명한다.",
+      "original_exam_answer_impact": "dated_key_requires_rewrite"
+    },
+    {
+      "id": "C023",
+      "item_ids": [],
+      "refs": [
+        "P3:422"
+      ],
+      "claim_ids": [
+        "L123"
+      ],
+      "classification": "incorrect_definition",
+      "finding": "PPI의 서비스 제외 설명은 한국은행의 정의와 충돌한다.",
+      "learner_treatment": "PPI를 상품과 서비스 모두 포함하는 지표로 설명한다. 같은 페이지의 별도 경기선행지표 문항까지 자동 오답 처리하지 않는다.",
+      "original_exam_answer_impact": "theory_correction_no_specific_item_asserted"
+    },
+    {
+      "id": "C024",
+      "item_ids": [
+        "S2C2T02-CORE"
+      ],
+      "refs": [
+        "P12:281"
+      ],
+      "claim_ids": [
+        "L125"
+      ],
+      "classification": "ambiguous_distractor_and_incorrect_explanation",
+      "finding": "시가총액 방식과 유동주식 방식을 배타적으로 놓고 ③을 틀리다고 한 해설은 잘못이다. 유동주식 조정 시가총액도 시가총액 가중이다.",
+      "learner_treatment": "전체 시가총액과 유동주식 조정 시가총액을 명시해 선지를 교정하기 전 고정 정답번호를 사용하지 않는다.",
+      "original_exam_answer_impact": "publisher_key_not_safe"
+    },
+    {
+      "id": "C025",
+      "item_ids": [
+        "S1C2T21-CORE",
+        "S1C2T21-SUP-01",
+        "NOTE-S1C2-Q043"
+      ],
+      "refs": [
+        "P12:120",
+        "P12:121",
+        "NOTE:11"
+      ],
+      "claim_ids": [
+        "L140"
+      ],
+      "classification": "obsolete_issuance_rule",
+      "finding": "원본 이미지에서 예탁결제원을 명의인으로 발행한다는 문구를 확인했다. 현행 법 제189조·제196조는 전자등록 발행이다. 핵심문제 ②와 보충문제 나의 해설, 정리노트 43의 선택지를 함께 교정한다.",
+      "learner_treatment": "전자등록기관에 명부작성을 위탁하는 것과 발행 증권의 명의인을 구분한다. 교정 문항에만 교정 정답을 적용한다.",
+      "original_exam_answer_impact": "core_and_note_key_not_safe; supplementary_explanation_wrong"
+    },
+    {
+      "id": "C026",
+      "item_ids": [
+        "NOTE-S1C2-Q048"
+      ],
+      "refs": [
+        "NOTE:11",
+        "P12:117",
+        "P12:126"
+      ],
+      "claim_ids": [
+        "L019",
+        "L138"
+      ],
+      "classification": "obsolete_classification_count",
+      "finding": "노트 48번은 자본시장법상 집합투자기구를 5가지라고 전제하지만 2026-10-13에는 기업성장집합투자기구를 포함한 6종이다. 혼합자산이라는 답 자체와 구분 수 전제를 구별한다.",
+      "learner_treatment": "종류 수 전제를 6종으로 고치고 혼합자산의 정의를 묻는다.",
+      "original_exam_answer_impact": "answer_unchanged_but_prompt_premise_obsolete"
+    },
+    {
+      "id": "C027",
+      "item_ids": [],
+      "refs": [
+        "P12:198"
+      ],
+      "claim_ids": [
+        "L165",
+        "L166"
+      ],
+      "classification": "obsolete_zoning_summary",
+      "finding": "도시계획 요약표는 용도구역을 기존 4종으로 한정하고 용도지구에 보존지구·시설보호지구를 별도로 두며 복합용도지구를 누락한다. 현행 도시혁신·복합용도·입체복합구역과 보호지구 체계로 갱신해야 한다.",
+      "learner_treatment": "숫자 9가 같다는 이유로 같은 분류로 암기하지 않는다. 같은 페이지의 용도지역 핵심문제까지 오답 처리하지 않는다.",
+      "original_exam_answer_impact": "theory_summary_only; neighboring_core_answer_unchanged"
+    },
+    {
+      "id": "C028",
+      "item_ids": [
+        "S1C1T10-SUP-01"
+      ],
+      "refs": [
+        "P12:46"
+      ],
+      "claim_ids": [
+        "L172",
+        "L173"
+      ],
+      "classification": "incorrect_enterprise_size_explanation",
+      "finding": "소액주주 중소기업 주식의 10% 세율을 중견기업 전체에 확대하는 해설은 틀리다. K-OTC의 중소·중견 과세대상 제외와 중소기업 10% 세율을 구분한다.",
+      "learner_treatment": "기업규모를 중소기업 및 중소기업 외로 명시한 교정 문항을 사용한다.",
+      "original_exam_answer_impact": "option_key_unchanged_explanation_corrected"
+    },
+    {
+      "id": "C029",
+      "item_ids": [],
+      "refs": [
+        "P12:45"
+      ],
+      "claim_ids": [
+        "L172"
+      ],
+      "classification": "omitted_progressive_share_tax_rate",
+      "finding": "주식 세율 요약의 그 밖의 경우 20%는 대주주 주식 과세표준 3억원 초과분 25%를 누락한다. 중소기업 외 1년 미만 대주주 30%와 구별한다.",
+      "learner_treatment": "대주주 여부→중소기업 여부→보유기간→과세표준 구간을 따라 세율을 선택한다. 이웃 문항에 없는 조건을 억지로 추가해 오답으로 처리하지 않는다.",
+      "original_exam_answer_impact": "theory_table_only"
+    },
+    {
+      "id": "C030",
+      "item_ids": [
+        "S3C2T14-CORE"
+      ],
+      "refs": [
+        "P3:94"
+      ],
+      "claim_ids": [
+        "L180"
+      ],
+      "classification": "overbroad_trustee_option",
+      "finding": "②는 일반 투자매매·중개업자도 모든 신탁업자에게 예탁금을 신탁할 수 있는 것처럼 썼다. 법 제74조제1항은 증권금융회사에 예치 또는 신탁이며 다른 신탁업자 허용은 법정 겸영업자의 특례다. ③의 자기계약 전면금지도 틀리므로 단일 오답키를 그대로 사용하지 않는다.",
+      "learner_treatment": "②에 원칙상 예치기관을 명시하고 ③에 자기계약 허용요건을 명시한 수정문항으로 평가한다.",
+      "original_exam_answer_impact": "single_key_not_safe_without_qualification"
+    },
+    {
+      "id": "C031",
+      "item_ids": [
+        "S3C2T24-CORE"
+      ],
+      "refs": [
+        "P3:117"
+      ],
+      "claim_ids": [
+        "L182",
+        "L183"
+      ],
+      "classification": "offering_filing_requirements_conflated",
+      "finding": "①은 청약권유 50인 이상이면 금액·증권종류에 관계없이 신고의무가 자동 발생한다고 썼다. 공모 판정과 신고서 제출요건은 따로 판단한다. ③의 전매기간 6개월도 틀리므로 원문을 유일한 ③ 오답으로 채점하지 않는다.",
+      "learner_treatment": "공모 인원, 과거 인원합산, 전매기간, 신고금액을 서로 다른 기준으로 설명한다.",
+      "original_exam_answer_impact": "single_key_not_safe_without_qualification"
+    },
+    {
+      "id": "C032",
+      "item_ids": [
+        "NOTE-S3C2-Q073"
+      ],
+      "refs": [
+        "NOTE:49",
+        "P3:115",
+        "P3:116"
+      ],
+      "claim_ids": [
+        "L183"
+      ],
+      "classification": "obsolete_small_offering_threshold",
+      "finding": "노트 정답의 일반 소액공모 기준 10억원은 2026-07-28 개정 이후 30억원이다. 현 공모와 법정 과거 1년 금액 합산, 금액과 무관하게 신고하는 특수 증권을 별도로 판단한다.",
+      "learner_treatment": "30억원 기준이 적용되는 일반 증권이라는 조건을 문제에 명시한다.",
+      "original_exam_answer_impact": "answer_changes_to_30억원"
+    },
+    {
+      "id": "C033",
+      "item_ids": [
+        "S3C2T35-CORE",
+        "NOTE-S3C2-Q103"
+      ],
+      "refs": [
+        "P3:142",
+        "P3:143",
+        "NOTE:53"
+      ],
+      "claim_ids": [
+        "L193"
+      ],
+      "classification": "obsolete_inspection_classification",
+      "finding": "검사 종류가 종합검사·부문검사라는 교재 분류는 2022-03-03 개정 전 표현이다. 현행은 정기검사·수시검사이고 현장·서면은 실시방법이다. 정리노트의 대부분이라는 경험적 빈도는 현재 근거 없이 정답화하지 않는다.",
+      "learner_treatment": "법정 종류와 방법을 분리한 문항으로 교체한다. 핵심문제 정답번호 유지와 낡은 해설 교정을 구분한다.",
+      "original_exam_answer_impact": "core_key_unchanged_explanation_outdated; note_rewritten"
+    },
+    {
+      "id": "C034",
+      "item_ids": [
+        "S3C2T12-CORE"
+      ],
+      "refs": [
+        "P3:88",
+        "P3:89"
+      ],
+      "claim_ids": [
+        "L196"
+      ],
+      "classification": "missing_decision_authority_condition",
+      "finding": "④는 내부통제업무 위탁을 전면 금지한다고 썼으나 법 제42조는 의사결정권한까지 위탁하는 경우로 제한한다. ①도 별도 인허가 업무와 사후보고 대상 겸영업무를 구별해야 한다.",
+      "learner_treatment": "보고대상 겸영업무와 내부통제 의사결정권한이라는 조건을 명시하고 ③의 일률적 위탁보고기한을 오답으로 평가한다.",
+      "original_exam_answer_impact": "single_key_not_safe_without_qualification"
+    },
+    {
+      "id": "C035",
+      "item_ids": [
+        "S3C1T05-CORE"
+      ],
+      "refs": [
+        "P3:12"
+      ],
+      "claim_ids": [
+        "L197"
+      ],
+      "classification": "fiduciary_duty_legal_overstatement",
+      "finding": "해설의 신임의무는 법률상의 의무가 아니라는 전면적 단정은 민법상 선관주의·상법상 충실의무와 맞지 않는다. 포괄개념의 설명과 법적 구체화를 구분해야 한다.",
+      "learner_treatment": "교재가 제시한 학습용 두 축은 보존하되 신임의무가 전혀 법적 의무가 아니라는 해설은 사용하지 않는다.",
+      "original_exam_answer_impact": "key_unchanged_explanation_correction"
+    },
+    {
+      "id": "C036",
+      "item_ids": [
+        "S3C1T11-CORE"
+      ],
+      "refs": [
+        "P3:42"
+      ],
+      "claim_ids": [
+        "L199"
+      ],
+      "classification": "unlimited_market_abuse_overstatement",
+      "finding": "①·②의 모든 시장질서 교란행위 제재 및 목적성 불필요라는 표현은 법 제178조의2의 개별 구성요건·정보의 중요성·비공개성·인식·부당한 시세영향 등을 생략했다. 손익이전·조세회피 목적을 요구하는 유형도 있다.",
+      "learner_treatment": "수령차수 제한 철폐와 구성요건 없는 무제한 제재를 구분하는 수정문항으로 평가한다.",
+      "original_exam_answer_impact": "single_key_not_safe_without_qualification"
+    },
+    {
+      "id": "C037",
+      "item_ids": [
+        "S3C1T04-CORE"
+      ],
+      "refs": [
+        "P3:10"
+      ],
+      "claim_ids": [
+        "L198"
+      ],
+      "classification": "incorrect_article_number",
+      "finding": "원본 이미지에서 핵심해설의 고객우선 제3조를 확인했다. 같은 쪽 본문과 협회 준칙은 제2조다. 제3조는 법규준수다.",
+      "learner_treatment": "정답인 고객우선·신의성실은 유지하고 조문번호를 제2조·제4조로 교정한다.",
+      "original_exam_answer_impact": "answer_unchanged_citation_wrong"
+    },
+    {
+      "id": "C038",
+      "item_ids": [
+        "S3C3T16-CORE"
+      ],
+      "refs": [
+        "P3:197"
+      ],
+      "claim_ids": [
+        "L136",
+        "L217"
+      ],
+      "classification": "standard_terms_reporting_exemption_error",
+      "finding": "②는 표준약관을 수정해도 협회 보고를 하지 않아도 된다고 썼다. 현행은 제·변경 후 7일 보고가 원칙이고 사전신고 대상은 10영업일 전 신고다. 외국집합투자증권 표준약관 수정금지도 규정상 대상 투자자 예외가 있다.",
+      "learner_treatment": "보고·신고 원칙과 예외를 명시한 수정문항에만 유일한 오답 ③을 적용한다.",
+      "original_exam_answer_impact": "single_key_not_safe_without_qualification"
+    },
+    {
+      "id": "C039",
+      "item_ids": [
+        "S3C3T11-CORE"
+      ],
+      "refs": [
+        "P3:183"
+      ],
+      "claim_ids": [
+        "L214"
+      ],
+      "classification": "excluded_benefit_vs_prohibited_benefit_confusion",
+      "finding": "나열한 항목은 규정상 재산상 이익으로 보지 않는 제외목록이다. 5만원 이하 현금이 제외목록에 없다는 사실을 현금·현금유사품의 제공과 수령이 모든 경우 불가능하다는 해설로 바꾸면 안 된다. 허용되는 신유형상품권의 범위도 현행 규정에 있다.",
+      "learner_treatment": "제공 허용 여부 대신 산정 제외대상 여부를 묻고 그 후 절차·한도 심사를 별도로 안내한다.",
+      "original_exam_answer_impact": "key_unchanged_question_and_explanation_scope_fixed"
+    },
+    {
+      "id": "C040",
+      "item_ids": [
+        "S3C3T14-CORE"
+      ],
+      "refs": [
+        "P3:189"
+      ],
+      "claim_ids": [
+        "L216"
+      ],
+      "classification": "certificate_vs_registered_personnel_conflation",
+      "finding": "해설은 자격증을 취득하면 해당 업무를 수행할 수 있다는 식으로 금융투자전문인력을 정의한다. 협회 규정은 임직원인 주요직무 종사자의 등록·관리 제도이며 교육·등록요건이 별도다. 종전 증권분석사 합격자가 분석사 등록요건을 인정받는 경과조항도 존재한다.",
+      "learner_treatment": "등록직무의 명칭을 묻는 정답 ④와 과거 자격을 가진 사람이 등록할 수 있는지를 구분한다.",
+      "original_exam_answer_impact": "answer_label_unchanged_explanation_overbroad"
+    },
+    {
+      "id": "C041",
+      "item_ids": [
+        "S1C2T06-CORE"
+      ],
+      "refs": [
+        "P12:76"
+      ],
+      "claim_ids": [
+        "L218"
+      ],
+      "classification": "trust_exception_scope_needs_qualification",
+      "finding": "④의 금전신탁 설명을 신탁 전체의 예외 없는 겸임금지로 일반화하면 신탁법의 자기신탁 및 공동수익자 예외와 충돌한다. 일반 신탁법의 예외가 개별 금융기관 금전신탁 상품에 적용되는지까지 이 문항만으로 확정할 수는 없다. ②의 수익자에게 재산권 이전이라는 오답은 명백하다.",
+      "learner_treatment": "기존 ②의 학습목표를 보존하되 통상적 위탁자·수탁자·수익자 역할을 명확히 묻는 변형만 채점한다. 원문 ④를 예외 없는 법칙으로 암기시키지 않는다.",
+      "original_exam_answer_impact": "publisher_key_preserved_only_after_scope_clarification"
+    },
+    {
+      "id": "C042",
+      "item_ids": [
+        "S1C2T08-CORE"
+      ],
+      "refs": [
+        "P12:83"
+      ],
+      "claim_ids": [
+        "L219"
+      ],
+      "classification": "conditional_payoff_misrepresented_as_guarantee",
+      "finding": "해설의 ELS 원리금 확실 지급보장은 틀리다. 사전에 정한 지급조건·산식과 확정된 수익·지급보장은 별개다. ELS의 원금손실과 ELB의 발행사·중도상환 위험을 누락해서는 안 된다.",
+      "learner_treatment": "수익산식의 사전설정과 실제 지급조건·신용위험을 분리하여 설명·채점한다. 원문의 보장 표현을 되풀이하면 학습비서 평가에서 근거 오류로 판정한다.",
+      "original_exam_answer_impact": "publisher_key_preserved_in_rewritten_risk_question"
+    },
+    {
+      "id": "C043",
+      "item_ids": [
+        "S1C2T14-CORE"
+      ],
+      "refs": [
+        "P12:104"
+      ],
+      "claim_ids": [
+        "L221"
+      ],
+      "classification": "accident_insurance_subrogation_exception_omitted",
+      "finding": "보험자대위가 손해보험에서만 인정된다는 해설은 상법 제729조 단서의 상해보험 약정대위 예외를 누락했다. 잔존물대위와 청구권대위를 뒤바꾼 ④가 틀렸다는 핵심은 유지된다.",
+      "learner_treatment": "잔존물·청구권 대위의 대상과 요건을 구별하고 상해보험 예외를 포함한 수정 해설을 사용한다.",
+      "original_exam_answer_impact": "key_unchanged_explanation_corrected"
+    },
+    {
+      "id": "M-CALC-08",
+      "item_ids": [
+        "CALC-08"
+      ],
+      "refs": [
+        "CALC:13"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-08"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-01"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가해설은 분산과 표준편차를 모두 자유도로 나눈다고 쓴다. 분산의 분모와 그 제곱근을 구분해야 한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-09-1",
+      "item_ids": [
+        "CALC-09-1"
+      ],
+      "refs": [
+        "CALC:15"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-09-1"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-04"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "첫 해설 문장의 요구수익률 15%와 배당성장률 5%는 주어진 조건 및 아래 풀이와 불일치한다. 각각 24%, 4%다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-09-2",
+      "item_ids": [
+        "CALC-09-2"
+      ],
+      "refs": [
+        "CALC:16",
+        "CALC:17"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-09-2"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-03",
+        "S2C3-ISSUE-05"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "17쪽 해설의 잔존가치 분모 0.01-0.05는 0.10-0.05의 오기다. 최종 선택지 ③은 유지된다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-14",
+      "item_ids": [
+        "CALC-14"
+      ],
+      "refs": [
+        "CALC:21"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-14"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-10"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설의 판매량 1단위 변화 시 영업이익 4배라는 문장은 변화율을 수준 변화로 혼동한다. 부가 표의 고정비 존재만으로 DCL이 항상 1 초과라는 단정에도 분석구간 조건이 필요하다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-18-2",
+      "item_ids": [
+        "CALC-18-2"
+      ],
+      "refs": [
+        "CALC:28"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-18-2"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-15"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "첫 해설 문장의 주당가치 500만 원은 500원의 오기이며 순차입금 중간식에도 0의 자리 오기가 있다. 아래 결론과 선택지 ④는 500원이다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-19",
+      "item_ids": [
+        "CALC-19"
+      ],
+      "refs": [
+        "CALC:29"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-19"
+      ],
+      "issue_ids": [
+        "S2C3-ISSUE-16",
+        "S2C3-ISSUE-18"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "약식 해설 마지막의 EVA=500억원은 지표명 오기다. EVA 30억원, MVA 300억원, 기업가치 500억원을 구별한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-24",
+      "item_ids": [
+        "CALC-24"
+      ],
+      "refs": [
+        "CALC:36"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-24"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-14"
+      ],
+      "classification": "ocr_numeric_corruption_original_confirmed",
+      "finding": "추출문에는 ρ=0.4의 결과가 11.73으로 보이지만 기존 원본 이미지 검토에서는 14.73으로 확인했다. 이는 교재 오류가 아니라 OCR 수치 손실이다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-24-1",
+      "item_ids": [
+        "CALC-24-1"
+      ],
+      "refs": [
+        "CALC:37"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-24-1"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-15"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "중간식의 15²=255는 225의 오기다. 결론 sqrt(64+225)=17과 정답 ②는 유지된다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-25-1",
+      "item_ids": [
+        "CALC-25-1"
+      ],
+      "refs": [
+        "CALC:38"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-25-1"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-14"
+      ],
+      "classification": "ocr_formula_symbol_loss_original_confirmed",
+      "finding": "추출문에서 sqrt(4)의 루트 기호가 사라졌다. 기존 원본 이미지 검토에서는 루트가 확인되었으므로 교재 오기가 아닌 OCR 손실로 처리한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-26",
+      "item_ids": [
+        "CALC-26"
+      ],
+      "refs": [
+        "CALC:38"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-26"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-12"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "교재는 유한 편입 차이를 Marginal VaR라고 부르고 수익·금액 조건 없이 성과 우위를 단정한다. 미분과 유한 차이를 구분하고 비교조건을 명시했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-26-1",
+      "item_ids": [
+        "CALC-26-1"
+      ],
+      "refs": [
+        "CALC:39"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-26-1"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-12"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "교재의 Marginal VaR는 이 사례에서 유한 편입 차이를 의미한다. 표준적인 미분 민감도라는 뜻으로 채점하지 않는다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-27",
+      "item_ids": [
+        "CALC-27"
+      ],
+      "refs": [
+        "CALC:39",
+        "CALC:40"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-27"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-13"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설은 % 수치/억원 단위 VaR의 비례값을 그대로 RAROC라 적었다. 투자금액 동일이므로 순위 ④는 유지되지만 비율 자체는 수익금액으로 계산해야 한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-29",
+      "item_ids": [
+        "CALC-29"
+      ],
+      "refs": [
+        "CALC:42",
+        "CALC:43"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-29"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-16"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가해설은 부도율 자체가 베르누이 분포이고 기대손실 자체가 변동한다고 표현한다. 부도지표 I, 그 모수 p, 확률손실 L, 기대손실 E[L]을 구분해야 한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-30",
+      "item_ids": [
+        "CALC-30"
+      ],
+      "refs": [
+        "CALC:44"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-30"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-16"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "문항은 부도율이 베르누이 분포라고 하고 기대손실의 변동성을 묻는다. 정확한 대상은 베르누이 부도지표에 따른 확률손실 L의 표준편차다. 숫자 정답 ③은 같다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-31",
+      "item_ids": [
+        "CALC-31"
+      ],
+      "refs": [
+        "CALC:44"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-31"
+      ],
+      "issue_ids": [
+        "S2C4-ISSUE-16",
+        "S2C4-ISSUE-18"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설은 p로 나누면서 p=0 해를 누락한다. 부도율·부도지표 및 기대값·손실 표준편차의 개념도 분리하여 수정했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-32",
+      "item_ids": [
+        "CALC-32"
+      ],
+      "refs": [
+        "CALC:45"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-32"
+      ],
+      "issue_ids": [
+        "S3C4-ISSUE-18"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설은 100/1.02를 1년 후 최저보장금액이라고 적었다. 이 값은 1년 후100억원의 현재가치다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-32-unnumbered-example",
+      "item_ids": [
+        "CALC-32-unnumbered-example"
+      ],
+      "refs": [
+        "CALC:45"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-32-unnumbered-example"
+      ],
+      "issue_ids": [
+        "S3C4-ISSUE-18"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "교재는 floor를86.53으로 조기 절사하여 위험자산26.94·안전자산73.06을 얻었다. 최종 단계에서 반올림하면 각각26.92·73.08이다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-38-1",
+      "item_ids": [
+        "CALC-38-1"
+      ],
+      "refs": [
+        "CALC:52"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-38-1"
+      ],
+      "issue_ids": [
+        "S3C5-ISSUE-17"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원문의 3년 연후급·쿠폰6%·YTM5%는 가격이 액면보다 높은 채권을 뜻하므로 제시가격9,500과 양립하지 않는다. 경상수익률 산식만 검토하되 YTM 조건을 제거한 변형으로 채점한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-41",
+      "item_ids": [
+        "CALC-41"
+      ],
+      "refs": [
+        "CALC:57"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-41"
+      ],
+      "issue_ids": [
+        "S3C5-ISSUE-14"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원본 이미지 상단 풀이의 분모9,308.78은 본문의9,305.78과 다르다. 일관된 현금흐름으로 가격과 볼록성을 함께 재계산하여 약4.76491로 수정한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-41-1",
+      "item_ids": [
+        "CALC-41-1"
+      ],
+      "refs": [
+        "CALC:58"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-41-1"
+      ],
+      "issue_ids": [
+        "S3C5-ISSUE-15"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원본 이미지 상단 해설의0.0000238은 자리 오기다. 정확한 소수0.000238과 백분율0.0238%를 구별한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-41-1-unnumbered-example",
+      "item_ids": [
+        "CALC-41-1-unnumbered-example"
+      ],
+      "refs": [
+        "CALC:58"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-41-1-unnumbered-example"
+      ],
+      "issue_ids": [
+        "S3C5-ISSUE-15"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원본의 예제 중간식은 -3×0.1과 볼록성 항0.01을 사용하지만 결론은 -3×0.01+0.5×20×0.01²의 값이다. 금리의 소수 자리와 제곱을 바로잡았다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-43",
+      "item_ids": [
+        "CALC-43"
+      ],
+      "refs": [
+        "CALC:60"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-43"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-04"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설은 마진콜 보충액을 일일정산의 variation margin과 같은 말로 처리한다. 이 문제에서 묻는 것은 유지기준 미달 후 개시수준까지의 보충액이다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-43-2",
+      "item_ids": [
+        "CALC-43-2"
+      ],
+      "refs": [
+        "CALC:62"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-43-2"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-04"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "본문의 추가증거금·변동증거금 동의어 표현은 정산손익과 유지기준 미달 후 보충을 혼동하게 한다. 두 절차를 분리한 발문으로 수정했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-44",
+      "item_ids": [
+        "CALC-44"
+      ],
+      "refs": [
+        "CALC:63"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-44"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-06"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "교재는 금리차의 선형 근사식을 정확한 이자율등가식과 동일하게 서술한다. 정확한 단리 비율식과 근사를 구분했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-44-1",
+      "item_ids": [
+        "CALC-44-1"
+      ],
+      "refs": [
+        "CALC:64"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-44-1"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-06"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설의 균형1,127원은 금리차 근사치다. 정확한 균형은 약1,127.8846원이며 차익거래 방향①은 유지된다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-46",
+      "item_ids": [
+        "CALC-46"
+      ],
+      "refs": [
+        "CALC:66"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-46"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-12"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가 도식은 내재가치를 S-X 또는 X-S로만 표시한다. 내재가치는0보다 작아질 수 없으므로 max(·,0)가 필요하다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-47",
+      "item_ids": [
+        "CALC-47"
+      ],
+      "refs": [
+        "CALC:68"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-47"
+      ],
+      "issue_ids": [],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설은 행사가격295·300을 매수·매도 당시 기초자산 가격처럼 설명한다. 계약의 행사가격과 옵션 프리미엄을 분리해야 한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-49",
+      "item_ids": [
+        "CALC-49"
+      ],
+      "refs": [
+        "CALC:71"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-49"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-19"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가해설은 S=K인 경우에만 풋콜패리티가 성립하는 것처럼 조건을 붙였다. 유럽형·같은 K와 만기·배당처리 조건 아래 S와K가 달라도 성립한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-50",
+      "item_ids": [
+        "CALC-50"
+      ],
+      "refs": [
+        "CALC:72"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-50"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-22"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원문은 S0=100→110/90·r=2%가 함의하는q=0.6과 제시q=0.4가 충돌하고 K도 빠졌다. 일관된 수정 문항에서는 정답 위치가 원래②에서④로 바뀐다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-50-unnumbered-example",
+      "item_ids": [
+        "CALC-50-unnumbered-example"
+      ],
+      "refs": [
+        "CALC:72"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-50-unnumbered-example"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-23"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "본문은 다음 주가100 또는150이라고 하지만 그림·식은50 또는150이다. 하락가격50을 명시한 변형으로만 승인한다. 하락100을 쓰면q=0.02, C≈0.990099로 달라진다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-50-1",
+      "item_ids": [
+        "CALC-50-1"
+      ],
+      "refs": [
+        "CALC:73"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-50-1"
+      ],
+      "issue_ids": [
+        "S3C6-ISSUE-24"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원문은 행사가격을 누락했고, 주식이 함의하는q=0.555와 콜가격3을 사용해 구한q=0.303이 충돌한다. 원문 선택지에는 일관된 답이 없어④를55.5%로 교체했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-52",
+      "item_ids": [
+        "CALC-52"
+      ],
+      "refs": [
+        "CALC:74",
+        "CALC:75"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-52"
+      ],
+      "issue_ids": [
+        "S3C7-ISSUE-03"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가해설의 후기 수익률이 높으면 항상 MWR가 더 높다는 약식은 자금흐름 조건을 누락한다. 이 사례의 추가입금을 포함한 IRR로 검증했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-52-unnumbered-variant",
+      "item_ids": [
+        "CALC-52-unnumbered-variant"
+      ],
+      "refs": [
+        "CALC:76"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-52-unnumbered-variant"
+      ],
+      "issue_ids": [
+        "S3C7-ISSUE-03"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "기간수익률의 대소관계만으로 MWR와TWR 순서를 정하는 해설을 조건부로 한정했다. 실제 자금흐름을 넣은 방정식으로 확인한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-56",
+      "item_ids": [
+        "CALC-56"
+      ],
+      "refs": [
+        "CALC:82"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-56"
+      ],
+      "issue_ids": [
+        "S3C7-ISSUE-11",
+        "S3C7-ISSUE-13",
+        "S3C7-ISSUE-21"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원문은 잔차위험을 IR 분모인 추적오차로 사용하고 베타를% 단위로 취급한다. 또 원문 σ·β·잔차위험으로 역산한 시장분산이 A0.03, B0.0075로 서로 다르다. 일관된 추적오차 데이터를 제공한 변형만 채점한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-57-1",
+      "item_ids": [
+        "CALC-57-1"
+      ],
+      "refs": [
+        "CALC:85"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-57-1"
+      ],
+      "issue_ids": [
+        "S3C8-ISSUE-24"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "본문의1.2+1.8+2.7 합5.8은5.7의 오기다. 산술근사1.8%와 복리 역산 약1.80558%를 구분했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-60",
+      "item_ids": [
+        "CALC-60"
+      ],
+      "refs": [
+        "CALC:88"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-60"
+      ],
+      "issue_ids": [
+        "S3C8-ISSUE-25"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "중립응답을 배제하지 않은 일반 BSI에200×긍정/전체 약식을 쓰면 틀린다. 경기확장 확정 대신 호전응답 우세라는 직접 의미로 발문을 정리했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-62-1",
+      "item_ids": [
+        "CALC-62-1"
+      ],
+      "refs": [
+        "CALC:90"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-62-1"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-27"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "시나리오의 확률·수익률에서 계산한 표준편차와 별도로 제시한 표준편차가 충돌한다. 수정 문항은 시나리오 표를 제거하고 비교할 평균·표준편차 쌍을 명시했다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-63-1",
+      "item_ids": [
+        "CALC-63-1"
+      ],
+      "refs": [
+        "CALC:92"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-63-1"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-28"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "첫 해설의 X 비중60%는 아래 식·정답과 불일치하는 오기다. 올바른 비중은80%다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-65",
+      "item_ids": [
+        "CALC-65"
+      ],
+      "refs": [
+        "CALC:94"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-65"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-08"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "부가해설은 자본배분선의 모든 점에서 RVAR이 같다고 단정한다. 순수 무위험점은 비율이 정의되지 않으며 음의 위험자산 비중에도 예외가 있다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-65-1",
+      "item_ids": [
+        "CALC-65-1"
+      ],
+      "refs": [
+        "CALC:95"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-65-1"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-08"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "편입비중과 관계없이 항상 같다는 해설에 양의 위험자산 비중이라는 조건이 필요하다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-66",
+      "item_ids": [
+        "CALC-66"
+      ],
+      "refs": [
+        "CALC:96"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-66"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-12"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "해설의 자산 간 위험프리미엄/RVAR 동일이라는 표현은 기준 위험을 생략한다. CAPM에서 같은 것은 베타당 기대초과수익이다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-66-1",
+      "item_ids": [
+        "CALC-66-1"
+      ],
+      "refs": [
+        "CALC:97"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-66-1"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-12"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "원문의 위험프리미엄이 동일하다는 문장과 무차익만으로 동일 SML을 단정하는 조건을 정리했다. 베타당 기대초과수익의 동일성으로 한정한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-70",
+      "item_ids": [
+        "CALC-70"
+      ],
+      "refs": [
+        "CALC:102",
+        "CALC:103"
+      ],
+      "claim_ids": [],
+      "math_case_ids": [
+        "CALC-70"
+      ],
+      "issue_ids": [
+        "S3C9-ISSUE-20"
+      ],
+      "classification": "mathematical_explanation_defect",
+      "finding": "교재는 F를 실현수익의 평균0 충격과 양의 위험프리미엄으로 혼용한다. 기대수익 가격식은λ로, 실현 충격은F로 분리해 정답9.2%를 설명한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-01",
+      "item_ids": [
+        "CALC-01"
+      ],
+      "refs": [
+        "CALC:2",
+        "CALC:4"
+      ],
+      "claim_ids": [
+        "L024",
+        "L025",
+        "L026",
+        "L229"
+      ],
+      "math_case_ids": [
+        "CALC-01"
+      ],
+      "issue_ids": [],
+      "classification": "tax_amount_and_tax_liability_confounded",
+      "finding": "금융소득이 종합과세되는 경우에도 첫 2천만원을 14%로 분리과세해 납세의무가 종결된다는 2·4쪽 설명은 부정확하다. 종합소득금액에 전액 합산하는 것, 비교과세 산출세액, 기납부 원천징수세액을 분리해야 한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-01-추가사례",
+      "item_ids": [
+        "CALC-01-추가사례"
+      ],
+      "refs": [
+        "CALC:3",
+        "CALC:4"
+      ],
+      "claim_ids": [
+        "L025",
+        "L026",
+        "L030",
+        "L031",
+        "L229"
+      ],
+      "math_case_ids": [
+        "CALC-01-추가사례"
+      ],
+      "issue_ids": [],
+      "classification": "tax_withholding_and_final_assessment_confounded",
+      "finding": "3·4쪽의 금융소득 2천만원 이하 원천징수율 일괄 14%와 첫 2천만원 납세종결 설명은 예외·비교과세를 생략한다. 비영업대금은 일반적으로 25%이며 법정 온라인투자연계금융 예외가 있다. 소득 합산 결과 6,000만원은 명시한 조건 아래 유지한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-03",
+      "item_ids": [
+        "CALC-03"
+      ],
+      "refs": [
+        "CALC:6",
+        "CALC:7"
+      ],
+      "claim_ids": [
+        "L172",
+        "L173",
+        "L175"
+      ],
+      "math_case_ids": [
+        "CALC-03"
+      ],
+      "issue_ids": [],
+      "classification": "stock_tax_rate_exceptions_omitted",
+      "finding": "6·7쪽의 나머지 주식은 모두 20%라는 표는 대주주 3억원 초과 25% 구간을 누락한다. 7쪽 중소기업에 중견기업을 포함해 10%라고 한 설명도 세율 요건과 K-OTC 비과세 요건을 혼동한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-03-추가빈칸",
+      "item_ids": [
+        "CALC-03-추가빈칸"
+      ],
+      "refs": [
+        "CALC:7"
+      ],
+      "claim_ids": [
+        "L172",
+        "L175"
+      ],
+      "math_case_ids": [
+        "CALC-03-추가빈칸"
+      ],
+      "issue_ids": [],
+      "classification": "stock_tax_rate_exceptions_omitted",
+      "finding": "같은 쪽의 세율표가 중견기업을 중소기업 10% 세율에 포함하고 나머지 주식을 모두 20%로 일반화한다. 명시된 세 가지 거래의 답 60은 유지하지만 이 일반화는 채점 근거에서 제외한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-04",
+      "item_ids": [
+        "CALC-04"
+      ],
+      "refs": [
+        "CALC:8"
+      ],
+      "claim_ids": [
+        "L227",
+        "L228"
+      ],
+      "math_case_ids": [
+        "CALC-04"
+      ],
+      "issue_ids": [],
+      "classification": "current_tax_eligibility_and_pension_year_conditions_omitted",
+      "finding": "세대주만 청약저축 소득공제 가능하다는 설명은 현행 배우자 요건을 빠뜨린다. 55세 개시만으로 무조건 수령연차 1년차라고 한 설명도 과거 계좌의 기산연차 6년차 등 특례를 누락한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "M-CALC-07",
+      "item_ids": [
+        "CALC-07"
+      ],
+      "refs": [
+        "CALC:12"
+      ],
+      "claim_ids": [
+        "L025",
+        "L039",
+        "L230"
+      ],
+      "math_case_ids": [
+        "CALC-07"
+      ],
+      "issue_ids": [
+        "S2C2-ISSUE-09"
+      ],
+      "classification": "foreign_dividend_condition_and_tax_year_omitted",
+      "finding": "12쪽 보충의 해외주식 배당은 금액과 관계없이 무조건 종합과세라는 설명은 국내 원천징수 여부 등 요건을 생략한다. 양도세 계산과 금융소득 종합과세를 분리한다. 원문 2025년 거래를 현재 법으로 자동 재채점하지 않고 기준일을 명시한 연습문항을 사용한다.",
+      "learner_treatment": "오류는 학습자 책임으로 돌리지 않는다. 조건을 명시한 수정 문항과 다시 계산한 풀이에 한해 채점한다.",
+      "original_exam_answer_impact": "explicit_variant_required_original_explanation_not_approved"
+    },
+    {
+      "id": "R-NOTE-S1C1-Q033",
+      "item_ids": [
+        "NOTE-S1C1-Q033"
+      ],
+      "refs": [
+        "NOTE:5"
+      ],
+      "claim_ids": [
+        "L237"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 국내사업장 없음이라는 전제를 생략하고 위험회피가 아니면 언제나 과세된다고 덧붙였다. 법정 제외 요건 미충족과 과세 확정은 같은 판단이 아니다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C1-Q037",
+      "item_ids": [
+        "NOTE-S1C1-Q037"
+      ],
+      "refs": [
+        "NOTE:5"
+      ],
+      "claim_ids": [
+        "L241"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원본 이미지 NOTE 5쪽 Q37은 양도가액 추계에 환산가액을 포함한다. 현행 조문의 환산취득가액을 양도가액에 적용할 수 없다. 양도·취득 시점을 구별한 수정 문항을 사용한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C1-Q039",
+      "item_ids": [
+        "NOTE-S1C1-Q039"
+      ],
+      "refs": [
+        "NOTE:5"
+      ],
+      "claim_ids": [
+        "L172"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 나머지는 20%라는 빈칸 정답은 대주주 과세표준 3억원 초과 25%를 누락한다. 단일 숫자 20% 암기를 승인하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T04-CORE",
+      "item_ids": [
+        "S1C1T04-CORE"
+      ],
+      "refs": [
+        "P12:26"
+      ],
+      "claim_ids": [
+        "L021",
+        "L245"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 ③의 모든 국외소득 과세 단정은 외국인 단기거주자 예외를 생략한다. 원문의 포괄주의 해설도 모든 다른 소득의 유사소득 조항을 부정하는 절대 명제로 사용하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T09-CORE",
+      "item_ids": [
+        "S1C1T09-CORE"
+      ],
+      "refs": [
+        "P12:41"
+      ],
+      "claim_ids": [
+        "L024",
+        "L025",
+        "L026",
+        "L248",
+        "L255"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 금융소득 2천만원까지 항상 14% 분리과세 종결, 근로소득만 있으면 항상 무신고로 설명한다. 비과세·분리과세 특례·무조건 합산·비영업대금 세율 및 연말정산 미이행 예외를 누락했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1-ADD-04",
+      "item_ids": [
+        "S1C1-ADD-04"
+      ],
+      "refs": [
+        "P12:56"
+      ],
+      "claim_ids": [
+        "L021",
+        "L061"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "거주자의 모든 국외소득 과세를 무조건적 명제로 사용하는 원문을 외국인 단기거주자 예외가 있는 원칙으로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1-ADD-08",
+      "item_ids": [
+        "S1C1-ADD-08"
+      ],
+      "refs": [
+        "P12:57"
+      ],
+      "claim_ids": [
+        "L037",
+        "L043"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 배우자 간 부담부증여의 인수채무분을 언제나 양도에서 제외한다고 설명한다. 객관적으로 인정되는 채무의 예외를 누락하므로 순수 증여를 묻는 수정 선택지로 교체했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1-ADD-10",
+      "item_ids": [
+        "S1C1-ADD-10"
+      ],
+      "refs": [
+        "P12:58"
+      ],
+      "claim_ids": [
+        "L237",
+        "L243"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 ②는 국내사업장 없음이라는 조건을 생략하고 해설은 국내사업장이 있으면 바로 과세라고 단정한다. 예외 미충족과 최종 과세판정을 구별하도록 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1-ADD-11",
+      "item_ids": [
+        "S1C1-ADD-11"
+      ],
+      "refs": [
+        "P12:58"
+      ],
+      "claim_ids": [
+        "L038",
+        "L242"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 비사업용 토지를 일률적으로 장기보유특별공제에서 제외한다. 현행법에서는 원문 ①·④가 함께 맞을 수 있어 원본 단일정답을 승인하지 않고 ④에 2년 보유 조건을 넣었다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1-ADD-12",
+      "item_ids": [
+        "S1C1-ADD-12"
+      ],
+      "refs": [
+        "P12:58"
+      ],
+      "claim_ids": [
+        "L038",
+        "L039",
+        "L241"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 1세대 1주택 공제율 8~40%만으로는 현행 보유·거주 공제 합산을 설명하지 못한다. 표 추출 누락도 있어 일반 토지 흐름으로 한정한 수정 문항을 사용한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T01-SUP-04",
+      "item_ids": [
+        "S1C1T01-SUP-04"
+      ],
+      "refs": [
+        "P12:18"
+      ],
+      "claim_ids": [
+        "L001",
+        "L232"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 간접세는 소득에 관계없이 같은 세금을 낸다는 표현을 모든 납세자의 세액이 동일하다는 뜻으로 채점하지 않는다. 과세표준 차이에 따라 실제 세액은 달라질 수 있다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T02-SUP-02",
+      "item_ids": [
+        "S1C1T02-SUP-02"
+      ],
+      "refs": [
+        "P12:21"
+      ],
+      "claim_ids": [
+        "L049",
+        "L247"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 특례 설명을 명의변경을 하지 않은 상속재산 전부에 대한 평생 과세로 단순화하면 틀린다. 적용 요건을 모두 담은 ④로 다시 작성했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T06-SUP-01",
+      "item_ids": [
+        "S1C1T06-SUP-01"
+      ],
+      "refs": [
+        "P12:33"
+      ],
+      "claim_ids": [
+        "L024",
+        "L253"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 보장성보험 차익은 무조건 비과세라는 일반화 대신 보험사고에 따른 보상금 자체로 한정했다. 보험 이름만으로 모든 계약의 저축성 차익 과세 여부를 판단하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T07-SUP-01",
+      "item_ids": [
+        "S1C1T07-SUP-01"
+      ],
+      "refs": [
+        "P12:35"
+      ],
+      "claim_ids": [
+        "L235"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 해산일은 존재하지 않는다고 설명한다. 존재하는 해산일과 세법상 해당 의제배당 수입시기를 혼동한 설명이므로 채점 근거에서 제외했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T07-SUP-04",
+      "item_ids": [
+        "S1C1T07-SUP-04"
+      ],
+      "refs": [
+        "P12:36"
+      ],
+      "claim_ids": [
+        "L244",
+        "L252"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 설명을 모든 펀드 양도차익은 항상 배당이라는 역명제로 쓰지 않도록 법정 유형과 제외 규정을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T08-SUP-01",
+      "item_ids": [
+        "S1C1T08-SUP-01"
+      ],
+      "refs": [
+        "P12:39"
+      ],
+      "claim_ids": [
+        "L024",
+        "L025",
+        "L031",
+        "L250"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 개인투자용국채의 조건을 잔존만기 5년 이상으로 설명한다. 법정 조건은 발행일부터 만기까지의 기간 등이며 일반 유통국채를 잔존만기 기준으로 사는 것과 다르다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T08-SUP-02",
+      "item_ids": [
+        "S1C1T08-SUP-02"
+      ],
+      "refs": [
+        "P12:39"
+      ],
+      "claim_ids": [
+        "L017",
+        "L030",
+        "L031",
+        "L250"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "개인투자용국채 특례 조건을 단순 잔존만기로 설명한 부분을 바로잡았다. 분리과세 특례 이외 금융소득이 전부 단일 조건부 종합과세라는 해설도 무조건 합산 등 예외를 생략하므로 일반화하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T09-SUP-02",
+      "item_ids": [
+        "S1C1T09-SUP-02"
+      ],
+      "refs": [
+        "P12:42"
+      ],
+      "claim_ids": [
+        "L026",
+        "L030"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 모든 금융소득에 대한 일률적 14% 최저세율 또는 어떤 경우에도 환급이 없다는 일반화는 예외 세율·세액공제·기납부세액 단계를 누락한다. 비교과세의 산출세액 단계로 범위를 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T09-SUP-03",
+      "item_ids": [
+        "S1C1T09-SUP-03"
+      ],
+      "refs": [
+        "P12:43"
+      ],
+      "claim_ids": [
+        "L026",
+        "L027",
+        "L030",
+        "L255"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 납부할 세액이라고 묻고 산출세액 770만원을 답한다. 기납부 원천징수세액을 공제한 추가 납부액과 혼동하지 않도록 산출세액으로 질문을 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T09-SUP-04",
+      "item_ids": [
+        "S1C1T09-SUP-04"
+      ],
+      "refs": [
+        "P12:43"
+      ],
+      "claim_ids": [
+        "L024",
+        "L025",
+        "L026",
+        "L030",
+        "L229"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 주변 해설의 최초 2천만원은 항상 14%로 납세의무 종결이라는 설명은 종합소득금액 전액 합산과 비교과세를 혼동한다. 금액 합산 문항과 세액 산정을 구별했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T11-SUP-01",
+      "item_ids": [
+        "S1C1T11-SUP-01"
+      ],
+      "refs": [
+        "P12:48"
+      ],
+      "claim_ids": [
+        "L241",
+        "L251"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 ③은 양도가액 추계에 환산가액을 넣어 ④와 별개로 틀린 선택지가 된다. 취득가액으로 고쳐 복수 오답 문제를 해소했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T11-SUP-02",
+      "item_ids": [
+        "S1C1T11-SUP-02"
+      ],
+      "refs": [
+        "P12:49"
+      ],
+      "claim_ids": [
+        "L038",
+        "L241",
+        "L242"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "P12 49쪽 원본에서 ①의 양도가액 공제뿐 아니라 ③의 비사업용 토지 공제배제도 현행법상 틀림을 확인했다. 토지·건물만이라는 ②도 법정 권리 예외를 보완해 단일 오답형 문항으로 재작성했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T11-SUP-04",
+      "item_ids": [
+        "S1C1T11-SUP-04"
+      ],
+      "refs": [
+        "P12:49"
+      ],
+      "claim_ids": [
+        "L173",
+        "L246"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 부동산임차권에는 등기 여부가 없어 과세대상 개수가 달라질 수 있다. 원본에서도 누락을 확인했고 등기되지 않은 임차권으로 조건을 보완했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T13-SUP-01",
+      "item_ids": [
+        "S1C1T13-SUP-01"
+      ],
+      "refs": [
+        "P12:53"
+      ],
+      "claim_ids": [
+        "L041",
+        "L043",
+        "L045",
+        "L249"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 부모·조부 분산증여의 유불리와 상속개시 후 대안, 배우자 사전증여 등을 조건 없이 절세전략으로 단정한다. 증여시점·공제배분·추가공제·할증을 명시한 계산형 비교로 교정해 보편적 투자·증여 권고로 채점하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T13-SUP-02",
+      "item_ids": [
+        "S1C1T13-SUP-02"
+      ],
+      "refs": [
+        "P12:54"
+      ],
+      "claim_ids": [
+        "L021",
+        "L025",
+        "L246",
+        "L256"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 절세 선택지의 장내·소액주주·소득별 특례 조건을 명시하고, 옛 장기채권 30% 규정은 부칙이 존속시킨 발행분에만 연결했다. 과거 소득세법의 다른 세율은 현행 채점 근거로 쓰지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C1T13-SUP-03",
+      "item_ids": [
+        "S1C1T13-SUP-03"
+      ],
+      "refs": [
+        "P12:54"
+      ],
+      "claim_ids": [
+        "L025",
+        "L029",
+        "L248"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 근로소득만 있으면 언제나 신고 불요, 사업소득은 모두 예외 없이 신고라는 단정은 제73조의 예외·예외 제한을 반영하지 못한다. 법정 요건을 명시한 사례로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-MOCK-1-Q005",
+      "item_ids": [
+        "MOCK-1-Q005"
+      ],
+      "refs": [
+        "MOCK:3"
+      ],
+      "claim_ids": [
+        "L021",
+        "L061",
+        "L236",
+        "L237",
+        "L243"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 장내·위험회피 장외파생 소득 비과세 일반론에는 국내사업장 없음이라는 공통 조건이 빠져 있다. 라에 이를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-MOCK-2-Q002",
+      "item_ids": [
+        "MOCK-2-Q002"
+      ],
+      "refs": [
+        "MOCK:28"
+      ],
+      "claim_ids": [
+        "L008",
+        "L010",
+        "L050",
+        "L055"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 출자자 제2차 납세의무 목록을 무한책임사원·과점주주만으로 완결된 현행 목록이라고 설명하지 않는다. 법정 과점조합원과 각 요건을 함께 반영했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-MOCK-2-Q007",
+      "item_ids": [
+        "MOCK-2-Q007"
+      ],
+      "refs": [
+        "MOCK:29"
+      ],
+      "claim_ids": [
+        "L041",
+        "L042",
+        "L043",
+        "L044",
+        "L045",
+        "L249"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 신고 권장과 신고의무를 혼동하기 쉽고, 상속개시 후 대안이 없다거나 장기 분할 증여가 항상 유리하다는 일반론 때문에 단일 최선답을 객관화하기 어렵다. 공제의 법정 합산 조건을 묻는 수정 문항으로 교체했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T07-CORE",
+      "item_ids": [
+        "S1C2T07-CORE"
+      ],
+      "refs": [
+        "P12:80"
+      ],
+      "claim_ids": [
+        "L028",
+        "L032",
+        "L033",
+        "L263",
+        "L264"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 연금외수령은 전부 16.5%, 부득이한 수령은 전부 3.3~5.5%라는 해설은 공제받지 않은 원금과 이연퇴직소득을 누락한다. 1,800만원에도 법정 추가납입 예외가 있어 일반 납입으로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-CORE",
+      "item_ids": [
+        "S1C2T09-CORE"
+      ],
+      "refs": [
+        "P12:90"
+      ],
+      "claim_ids": [
+        "L127",
+        "L266"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 KOSPI200·KOSDAQ150 구성주식과 임의 바스켓 전체를 적격 기초자산처럼 설명한다. 거래소 공표 50종목·5종목 등 지정범위를 확인해야 하므로 선택지 범위를 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T10-CORE",
+      "item_ids": [
+        "S1C2T10-CORE"
+      ],
+      "refs": [
+        "P12:95"
+      ],
+      "claim_ids": [
+        "L128"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문이 잔고 비례 수수료와 이해상충 방지를 예외 없는 상품 성질로 제시한 부분은 개별 계약별 확인이 필요하다. 개별 투자일임이라는 법적 구조를 묻도록 범위를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T16-CORE",
+      "item_ids": [
+        "S1C2T16-CORE"
+      ],
+      "refs": [
+        "P12:110"
+      ],
+      "claim_ids": [
+        "L269"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 책임보험이라는 말은 배상책임 담보와 법정 의무보험이라는 두 뜻으로 읽힐 수 있다. 대인Ⅱ를 모든 자동차의 의무가입 대상으로 오해하지 않도록 보상 성격을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T17-CORE",
+      "item_ids": [
+        "S1C2T17-CORE"
+      ],
+      "refs": [
+        "P12:112"
+      ],
+      "claim_ids": [
+        "L268",
+        "L270"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 3년 이상·만기환급금·80% 자동복원을 장기손해보험 모두의 성질처럼 제시한다. 현행 감독규정 정의가 아니며 개별 담보 약정이 필요하므로 보편 명제로 채점하지 않도록 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q011",
+      "item_ids": [
+        "NOTE-S1C2-Q011"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L227"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 세대주만을 적어 현행 배우자 적용 범위를 빠뜨린다. 세대주 또는 그 배우자로 보완했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q014",
+      "item_ids": [
+        "NOTE-S1C2-Q014"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L265"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 RP가 모두 국공채를 대상으로 하므로 안전성이 매우 높다고 단정한다. 기초채권·거래상대방 조건 없이 높은 위험 또는 무위험을 확정하지 않도록 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q025",
+      "item_ids": [
+        "NOTE-S1C2-Q025"
+      ],
+      "refs": [
+        "NOTE:9"
+      ],
+      "claim_ids": [
+        "L218"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 수탁자 겸임을 예외 없는 자기계약 금지로 설명한다. 일반 신탁법상 자기신탁·공동수익자 예외를 포함하도록 질문 범위를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q028",
+      "item_ids": [
+        "NOTE-S1C2-Q028"
+      ],
+      "refs": [
+        "NOTE:9"
+      ],
+      "claim_ids": [
+        "L263"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 전체 납입한도 1,800만원은 ISA 전환 등 예외까지 모두 포함한 절대 상한으로 읽힐 수 있어 일반 개인 납입으로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T23-CORE",
+      "item_ids": [
+        "S1C2T23-CORE"
+      ],
+      "refs": [
+        "P12:124"
+      ],
+      "claim_ids": [
+        "L277"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 집합투자업자가 발기인이 되어야 한다는 표현은 현행 제194조의 자격을 과도하게 제한한다. 신탁업자만 가능하다는 선택지의 오류를 유지하되 실제 법문에 맞춰 해설을 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q045",
+      "item_ids": [
+        "NOTE-S1C2-Q045"
+      ],
+      "refs": [
+        "NOTE:11"
+      ],
+      "claim_ids": [
+        "L275"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 위탁 상대방을 예탁결제원으로 표현하지만 현행 제189조는 전자등록기관으로 규정한다. 발행 명의인 문제와 혼동하지 않도록 현행 용어로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q046",
+      "item_ids": [
+        "NOTE-S1C2-Q046"
+      ],
+      "refs": [
+        "NOTE:11"
+      ],
+      "claim_ids": [
+        "L141"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 요구자가 곧바로 독자 소집할 수 있는 것으로 읽힌다. 우선 소집 요구와 불이행 시 승인 개최를 분리했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q053",
+      "item_ids": [
+        "NOTE-S1C2-Q053"
+      ],
+      "refs": [
+        "NOTE:12"
+      ],
+      "claim_ids": [
+        "L271"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 반드시 처분해야 한다고 한정하지만 규정은 시가·공정가액 조정 등의 조치도 열거한다. 처분만을 유일한 정답으로 강제하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q054",
+      "item_ids": [
+        "NOTE-S1C2-Q054"
+      ],
+      "refs": [
+        "NOTE:12"
+      ],
+      "claim_ids": [
+        "L274"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 주석의 10%는 사후 환매연기 사유가 아니라 규약에 15일 초과 환매일을 정할 수 있는 예외다. 적용 조문을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q055",
+      "item_ids": [
+        "NOTE-S1C2-Q055"
+      ],
+      "refs": [
+        "NOTE:12"
+      ],
+      "claim_ids": [
+        "L273"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 반드시 동일하다는 표현에 특정 종류에만 발생한 비용 예외가 빠져 있어 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q057",
+      "item_ids": [
+        "NOTE-S1C2-Q057"
+      ],
+      "refs": [
+        "NOTE:12"
+      ],
+      "claim_ids": [
+        "L274"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 사전 환매기일 특례를 사후 환매연기로 부른다. 규약으로 15일 초과 환매일을 정하는 요건으로 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q060",
+      "item_ids": [
+        "NOTE-S1C2-Q060"
+      ],
+      "refs": [
+        "NOTE:13"
+      ],
+      "claim_ids": [
+        "L244",
+        "L252"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 주식 매매차익이 있으면 기준가격이 항상 과세기준가격보다 크다는 명제는 주식 범위와 다른 누적손익·과세조건을 누락한다. 법정 제외대상 손익의 구분을 묻는 문항으로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q061",
+      "item_ids": [
+        "NOTE-S1C2-Q061"
+      ],
+      "refs": [
+        "NOTE:13"
+      ],
+      "claim_ids": [
+        "L225"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 모든 ABS가 SPC로의 양도에서 출발한다고 일반화하므로, 신탁 구조를 누락하지 않도록 질문을 유동화전문회사 양도 구조로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q067",
+      "item_ids": [
+        "NOTE-S1C2-Q067"
+      ],
+      "refs": [
+        "NOTE:13"
+      ],
+      "claim_ids": [
+        "L263",
+        "L276"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "해설의 연 1,800만원을 IRP별 한도나 이전·법정 추가납입까지 포함하는 절대 한도로 오해하지 않도록 합산 범위와 예외를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T24-CORE",
+      "item_ids": [
+        "S1C2T24-CORE"
+      ],
+      "refs": [
+        "P12:126"
+      ],
+      "claim_ids": [
+        "L019",
+        "L282"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 5가지 제목은 기업성장 추가를 누락한다. 혼합자산의 투자대상 무제한이라는 문구도 다른 운용규제까지 면제하는 것으로 읽히지 않도록 분류 비율 제한으로 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T30-CORE",
+      "item_ids": [
+        "S1C2T30-CORE"
+      ],
+      "refs": [
+        "P12:146"
+      ],
+      "claim_ids": [
+        "L112",
+        "L281"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 사모 전체의 보고를 일률적으로 표현하고 전문투자자 전부를 적격으로 읽게 한다. 일반사모 보고 원칙·즉시보고 예외와 법정 적격 전문투자자 범위를 구분했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q036",
+      "item_ids": [
+        "NOTE-S1C2-Q036"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [
+        "L278"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 전통적인 3이원 방식이라는 범위를 밝히지 않아 현행 모든 보험료가 세 요소만으로 정해진다고 오해할 수 있다. 방식의 적용범위를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q037",
+      "item_ids": [
+        "NOTE-S1C2-Q037"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [
+        "L279"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 사망시점과 관계없이 지급을 계약해지·면책에도 무조건 지급하는 것으로 확대하지 않도록 범위를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q038",
+      "item_ids": [
+        "NOTE-S1C2-Q038"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [
+        "L285"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 체증식을 물가인상분만큼 보험금이 증가하는 보험으로 단정한다. 실제로 고정 증가율·상한 설계가 있으므로 약정상 증가 구조로 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T01-SUP-01",
+      "item_ids": [
+        "S1C2T01-SUP-01"
+      ],
+      "refs": [
+        "P12:64"
+      ],
+      "claim_ids": [
+        "L258"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 수협중앙회를 은행과 동일시하는 구판 명칭을 쓴다. 수협은행과 조합·중앙회의 법인을 혼동하지 않도록 명칭을 수정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T01-SUP-05",
+      "item_ids": [
+        "S1C2T01-SUP-05"
+      ],
+      "refs": [
+        "P12:65"
+      ],
+      "claim_ids": [
+        "L258",
+        "L289"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 서민금융기관이라는 분류는 정의된 범위를 제시하지 않아 우체국의 서민금융 역할과 충돌한다. 원문 자체는 단일 정답을 강제하지 않고 운영주체가 분명한 수정 문항을 사용한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T01-SUP-07",
+      "item_ids": [
+        "S1C2T01-SUP-07"
+      ],
+      "refs": [
+        "P12:65"
+      ],
+      "claim_ids": [
+        "L289"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 비영리 판정·서민금융 분류·점포망 1위라는 시점과 정의가 불명확한 선택지들을 섞었다. 원문은 채점하지 않고 현재 조문으로 확인되는 사업 주체·지급책임 문항을 제공한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T02-SUP-02",
+      "item_ids": [
+        "S1C2T02-SUP-02"
+      ],
+      "refs": [
+        "P12:67"
+      ],
+      "claim_ids": [
+        "L260",
+        "L291"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 신탁형 국내주식 편입불가를 일반 법적 금지로 제시하지만 현행 협회 지침 정의에는 주식이 명시되어 있다. 정의상 가능 범위와 회사별 제공상품·직접주문 방식을 구분하는 교정 문항으로만 채점한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T04-CORE",
+      "item_ids": [
+        "S1C2T04-CORE"
+      ],
+      "refs": [
+        "P12:70"
+      ],
+      "claim_ids": [
+        "L286"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 언제든지 조건 없이·아무런 제한 없이와 항상 낮은 금리는 지급 제한과 계약 조건을 누락한다. 분류 기준만 묻도록 범위를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T05-CORE",
+      "item_ids": [
+        "S1C2T05-CORE"
+      ],
+      "refs": [
+        "P12:74"
+      ],
+      "claim_ids": [
+        "L226",
+        "L294",
+        "L296"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 발행어음 발행 주체를 종금사로 한정하고 모든 RP에 30일 중도환매 기준을 적용한다. 안전성이 매우 높다는 해설도 신용·담보 위험 평가 없이 일반화하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T04-SUP-03",
+      "item_ids": [
+        "S1C2T04-SUP-03"
+      ],
+      "refs": [
+        "P12:72"
+      ],
+      "claim_ids": [
+        "L286",
+        "L292",
+        "L299"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 MMF·CMA 전체 수시입출금 일반화는 상품별 환매·결제 조건을 빠뜨린다. 이 문항의 네 선택지에 대해서만 채점한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T04-SUP-05",
+      "item_ids": [
+        "S1C2T04-SUP-05"
+      ],
+      "refs": [
+        "P12:72"
+      ],
+      "claim_ids": [
+        "L018",
+        "L265",
+        "L292",
+        "L294",
+        "L299"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 MMDA만 계약상 원리금 보장, CD·RP는 직접 보장하지 않는다고 해설하여 상환 약정과 예금보험을 혼동한다. 원문은 정답 하나를 강제하지 않고 예금보험 여부를 묻는 교정본으로만 채점한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T04-SUP-06",
+      "item_ids": [
+        "S1C2T04-SUP-06"
+      ],
+      "refs": [
+        "P12:73"
+      ],
+      "claim_ids": [
+        "L292",
+        "L294",
+        "L299"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 계약·시장 조건 없이 환금성 최저 상품을 단정하고 CD·RP를 모두 1년 이내로 일반화한다. 회수금액·결제일을 제시한 조건부 사례로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T04-SUP-07",
+      "item_ids": [
+        "S1C2T04-SUP-07"
+      ],
+      "refs": [
+        "P12:73"
+      ],
+      "claim_ids": [
+        "L227"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 세대주만 가능하다는 해설에 배우자 확대가 반영되지 않았다. 공제금액 계산과 현행 인적 요건을 분리해 교정했다. 출시 연혁이나 기금 명칭 등 부가 서술은 이 채점 근거에 포함하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T05-SUP-01",
+      "item_ids": [
+        "S1C2T05-SUP-01"
+      ],
+      "refs": [
+        "P12:75"
+      ],
+      "claim_ids": [
+        "L295"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "은행 요구불예금보다 항상 이자가 높다는 원문 설명은 개별 계약·시점 확인 없이 채점하지 않는다. CMA의 구조와 제공 기능을 묻도록 한정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T06-SUP-01",
+      "item_ids": [
+        "S1C2T06-SUP-01"
+      ],
+      "refs": [
+        "P12:78"
+      ],
+      "claim_ids": [
+        "L139",
+        "L218",
+        "L262"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 모든 펀드는 3면 관계·신탁에는 신탁보수만 발생한다는 일반화는 법적 형태와 계약 비용을 빠뜨린다. 계약 신탁과 투자신탁의 역할 비교로 범위를 제한했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T06-SUP-02",
+      "item_ids": [
+        "S1C2T06-SUP-02"
+      ],
+      "refs": [
+        "P12:78"
+      ],
+      "claim_ids": [
+        "L261",
+        "L297"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 강제집행·상계 금지를 예외 없는 명제로 제시하고 수익자의 상속재산과 신탁재산을 혼용한다. 수탁자의 상속재산 배제와 법정 예외를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T06-SUP-03",
+      "item_ids": [
+        "S1C2T06-SUP-03"
+      ],
+      "refs": [
+        "P12:79"
+      ],
+      "claim_ids": [
+        "L218",
+        "L297"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 수탁자는 위탁자·수익자 지위를 겸할 수 없다는 일반화는 신탁선언과 공동수익자 예외를 누락한다. 겸임 금지의 근거·예외를 반영했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T06-SUP-04",
+      "item_ids": [
+        "S1C2T06-SUP-04"
+      ],
+      "refs": [
+        "P12:79"
+      ],
+      "claim_ids": [
+        "L262"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 운용방식을 정하는 위탁자를 곧 운용자로 표현하고 운용자 지정은 전부 불가하다고 단정한다. 지시와 집행의 역할 차이를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T06-SUP-05",
+      "item_ids": [
+        "S1C2T06-SUP-05"
+      ],
+      "refs": [
+        "P12:79"
+      ],
+      "claim_ids": [
+        "L298"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 수익권증서라는 종이 자체를 담보로 제공하는 설명에 치우친다. 우선수익권과 지급 한도·순위를 중심으로 실제 계약의 담보 구조를 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q012",
+      "item_ids": [
+        "NOTE-S1C2-Q012"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L292"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문이 CD 전체를 무기명으로 한정한 설명은 등록발행을 누락한다. 발행방식의 범위를 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T07-SUP-01",
+      "item_ids": [
+        "S1C2T07-SUP-01"
+      ],
+      "refs": [
+        "P12:82"
+      ],
+      "claim_ids": [
+        "L300",
+        "L018",
+        "L265"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 모든 계좌는55세 이후 수령 가능이라는 표현에 가입기간·한도·예외가 빠져 있다. 종신 급부 가능 여부도 각 보험계약 확인과 분리했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T07-SUP-02",
+      "item_ids": [
+        "S1C2T07-SUP-02"
+      ],
+      "refs": [
+        "P12:82"
+      ],
+      "claim_ids": [
+        "L028",
+        "L032",
+        "L033",
+        "L264"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 연금외수령 일괄16.5%와 모든 연금수령3.3~5.5%는 재원·종신·연간 금액 등 조건을 생략한다. 공제 여부에 따른 원금과 수익의 과세를 중심으로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-01",
+      "item_ids": [
+        "S1C2T08-SUP-01"
+      ],
+      "refs": [
+        "P12:86"
+      ],
+      "claim_ids": [
+        "L301",
+        "L302",
+        "L303"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 원금비보장형이 더 많이 발행된다는 문장은 통계 기준시점이 없다. 현행 수량 비교의 정답 근거에서 제외하고 위험 구조로 대체했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-02",
+      "item_ids": [
+        "S1C2T08-SUP-02"
+      ],
+      "refs": [
+        "P12:86"
+      ],
+      "claim_ids": [
+        "L301"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 ELD는 비금융상품이라는 표현은 비금융투자상품과 다르다. 예금도 금융상품이라는 용어 구분을 반영했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-04",
+      "item_ids": [
+        "S1C2T08-SUP-04"
+      ],
+      "refs": [
+        "P12:87"
+      ],
+      "claim_ids": [
+        "L018",
+        "L284",
+        "L301",
+        "L302"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 대부분 스텝다운이라는 발행 비중 단정은 현행 통계 확인 없이 사용하지 않는다. 존재하는 상품 구조와 전 상품 일반화를 구별했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-05",
+      "item_ids": [
+        "S1C2T08-SUP-05"
+      ],
+      "refs": [
+        "P12:87"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 구조 유형명만으로 최대손실을 비교한다. 낙아웃·디지털·스프레드도 투자 규모·보장률에 따라 손실이 달라지므로 지급 하한을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-06",
+      "item_ids": [
+        "S1C2T08-SUP-06"
+      ],
+      "refs": [
+        "P12:88"
+      ],
+      "claim_ids": [
+        "L293"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 조건들은 낙아웃 후 만기 하락 시0%와3%가 충돌한다. 낙아웃 판정을 먼저 하는 순서를 명시했다. 낙아웃이 무조건 조기상환이라는 해설도 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T08-SUP-09",
+      "item_ids": [
+        "S1C2T08-SUP-09"
+      ],
+      "refs": [
+        "P12:89"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 다른 선택지에서 낙아웃을 항상 즉시 조기상환이라고 정의한 부분은 모든 계약에 일반화할 수 없다. 구조와 지급시점을 분리했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q016",
+      "item_ids": [
+        "NOTE-S1C2-Q016"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L018",
+        "L128",
+        "L301"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 절대 원금보전 불가능은 경제적 회수 가능성과 법적 보장 약속을 혼동할 수 있다. 펀드·증권·예금 구조 및 보험 여부로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q017",
+      "item_ids": [
+        "NOTE-S1C2-Q017"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L301",
+        "L302"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "해설의 영업용순자본비율300%를 모든 현행 발행업무에 바로 적용하지 않는다. 현행 장외매매 중지기준150%는 산식·적용 범위가 다른 조항이다. 교정본은 수치가 아닌 인가 확인 여부만 채점한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q018",
+      "item_ids": [
+        "NOTE-S1C2-Q018"
+      ],
+      "refs": [
+        "NOTE:8"
+      ],
+      "claim_ids": [
+        "L293"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 만기 유지·채무 이행 조건을 생략한 채 주가 하락과 원금손실 관계를 묻는다. 해당 조건을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q020",
+      "item_ids": [
+        "NOTE-S1C2-Q020"
+      ],
+      "refs": [
+        "NOTE:9"
+      ],
+      "claim_ids": [
+        "L284"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문에는 조기상환 기준이 낮아진다는 식별 조건이 빠져 있고 낙인 미발생을 일반 요건처럼 제시한다. 단계적 완화와 계약별 낙인 조건을 구분했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q021",
+      "item_ids": [
+        "NOTE-S1C2-Q021"
+      ],
+      "refs": [
+        "NOTE:9"
+      ],
+      "claim_ids": [
+        "L304",
+        "L293"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설에서 낙아웃은 모두 조기상환된다고 설명한 부분은 계약별 지급시점 차이를 빠뜨린다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q032",
+      "item_ids": [
+        "NOTE-S1C2-Q032"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 내재가치S−X는0 하한과 전환비율을 누락한다. 비교는 다른 조건이 같다는 전제를 넣고 만기 전 가격과 만기 지급액을 구분했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q033",
+      "item_ids": [
+        "NOTE-S1C2-Q033"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 정답X는 유지하되 해설의 콜·풋 모두 항상 가격하락이라는 일반화는 풋의 시간효과 예외를 누락하므로 사용하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-NOTE-S1C2-Q034",
+      "item_ids": [
+        "NOTE-S1C2-Q034"
+      ],
+      "refs": [
+        "NOTE:10"
+      ],
+      "claim_ids": [
+        "L128"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 모든 랩에 잔고비례 보수가 적용되고 이해상충이 자동으로 줄어드는 듯 서술한다. 제시 보수산식의 유인만 판단하도록 조건을 명시했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-SUP-01",
+      "item_ids": [
+        "S1C2T09-SUP-01"
+      ],
+      "refs": [
+        "P12:92"
+      ],
+      "claim_ids": [
+        "L127",
+        "L266"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 시장상황과 무관한 투자수단·보유주식 담보 발행이라는 일반화는 ELW의 시장위험과 발행 구조를 오해하게 한다. 기초주식 소유권과 권리증권의 차이로 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-SUP-03",
+      "item_ids": [
+        "S1C2T09-SUP-03"
+      ],
+      "refs": [
+        "P12:93"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 정답③은 유지하되 해설의 콜·풋 모두 항상 하락이라는 역방향 일반화는 풋의 시간효과 예외를 누락한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-SUP-04",
+      "item_ids": [
+        "S1C2T09-SUP-04"
+      ],
+      "refs": [
+        "P12:93"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 풋을 공매도와 동일시하고 변동성 예상만으로 매수를 단정한다. 제한된 손실·프리미엄·손익분기 범위를 반영했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-SUP-05",
+      "item_ids": [
+        "S1C2T09-SUP-05"
+      ],
+      "refs": [
+        "P12:93"
+      ],
+      "claim_ids": [],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설은 기초주식이6% 상승해야 한다는 예를 ELW가6% 상승한다고 잘못 서술한다. 기어링을 실제 가격 민감도와 혼동하지 않도록 델타도 구분했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T09-SUP-06",
+      "item_ids": [
+        "S1C2T09-SUP-06"
+      ],
+      "refs": [
+        "P12:94"
+      ],
+      "claim_ids": [
+        "L127",
+        "L266",
+        "L301"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 정보 선점 시 ELW가 항상 유리하다는 해설과 거래량 급증의 예측 단정은 근거가 충분하지 않다. 가격 예상만으로 투자수단을 결정하지 않도록 교정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T10-SUP-01",
+      "item_ids": [
+        "S1C2T10-SUP-01"
+      ],
+      "refs": [
+        "P12:96"
+      ],
+      "claim_ids": [
+        "L128"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문은 계약금액 없이 자문형·일임형 수수료 순서를 고정하고 잔고비례 보수이면 이해상충이 발생하지 않는다고 한다. 명시한 계약 비교로만 채점한다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T11-SUP-01",
+      "item_ids": [
+        "S1C2T11-SUP-01"
+      ],
+      "refs": [
+        "P12:98"
+      ],
+      "claim_ids": [
+        "L306"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 농협중앙회는 현행 법정 부보회사 명칭인 농협은행으로 교정했다. 중앙회·지역조합·은행을 같은 기관으로 채점하지 않는다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T11-SUP-02",
+      "item_ids": [
+        "S1C2T11-SUP-02"
+      ],
+      "refs": [
+        "P12:99"
+      ],
+      "claim_ids": [
+        "L018",
+        "L265",
+        "L296",
+        "L305",
+        "L306"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문 해설의 주택관리기금 명칭을 주택도시기금으로 교정했다. 안전하니 예금보험이 필요 없다는 판단과 실제 법정 보호대상 여부를 구별했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    },
+    {
+      "id": "R-S1C2T11-SUP-03",
+      "item_ids": [
+        "S1C2T11-SUP-03"
+      ],
+      "refs": [
+        "P12:99"
+      ],
+      "claim_ids": [
+        "L265",
+        "L306"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "원문의 모든 증권사 CMA는 비보호라는 표현은 종금업무를 승계한 법정 합병회사의 해당 업무 예외를 빠뜨릴 수 있다. 종금업무상 CMA로 범위를 특정했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    }
+  ],
+  "count": 20
+}

@@ -1,0 +1,14 @@
+{
+  "id": "insurance_standard_terms",
+  "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=168885301&flNm=%5B%EB%B3%84%ED%91%9C+15%5D+%ED%91%9C%EC%A4%80%EC%95%BD%EA%B4%80%28%EC%A0%9C5-13%EC%A1%B0%EC%A0%9C1%ED%95%AD%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+  "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=168885301&flNm=%5B%EB%B3%84%ED%91%9C+15%5D+%ED%91%9C%EC%A4%80%EC%95%BD%EA%B4%80%28%EC%A0%9C5-13%EC%A1%B0%EC%A0%9C1%ED%95%AD%EA%B4%80%EB%A0%A8%29&bylClsCd=200201",
+  "retrieved_at": "2026-10-13T03:47:37.425440+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "477680ce119225fa12717773ac5a378fe0237b40a56428e6209f00c62fd398c3",
+  "binary_sha256": "477680ce119225fa12717773ac5a378fe0237b40a56428e6209f00c62fd398c3",
+  "text_sha256": "821c668d71f24e8980b5ed527b92ed860de935d1a6a80ce5e79bcdebd5f08c07",
+  "pages": 492,
+  "characters": 386419,
+  "status": "retrieved_not_claim_verified"
+}

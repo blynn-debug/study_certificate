@@ -1,0 +1,30 @@
+{
+  "source_id": "s1_krx_elw_trading",
+  "source_metadata": {
+    "id": "s1_krx_elw_trading",
+    "requested_url": "https://regulation.krx.co.kr/contents/RGL/03/03060300/RGL03060300.jsp",
+    "retrieved_url": "https://regulation.krx.co.kr/contents/RGL/03/03060300/RGL03060300.jsp",
+    "retrieved_at": "2026-10-13T15:30:44.017608+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "8e876f241adc8d7c0f182e7ad476168c228bc94a28695ea26cc76e787cda26fc",
+    "text_sha256": "3dad0f9c9e51dfe6168b80f7f6d41b0a8b9480e0bb7e474d5d92a8efb65e19c4",
+    "characters": 10835,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s1_krx_elw_trading:매매제도",
+      "source_id": "s1_krx_elw_trading",
+      "article": "매매제도",
+      "heading": "매매제도",
+      "text": "매매수량단위\n10증권\n가격제한폭\n높은 가격변동성을 고려하여 가격제한폭 적용 배제\n주문의종류\n지정가주문\n매매체결의 특례\n신고대량, 장중대량, 바스켓, 시간외 매매 등 적용 배제\n매매거래의 중단\n주식시장 매매거래중단(CB) 및 재개시 ELW시장도 중단 및 재개\n기초주권 매매거래정지 및 재개시 ELW 정지 및 재개\nELW 발행회사와 관련하여 ELW 주가 또는 거래량 급변(예상)시 정지 및 재개\n대용증권\n높은 가격변동성에 따른 담보가치 급락 가능성으로 지정 제외\n신용거래\n허용하지 않음\n결제제도\nELW의 결제는 2일결제(T+2)로서 통상의 주식의 결제방법과 동일합니다.\n즉, 거래성립일로부터 기산하여 2일째 되는 날에 ELW와 매매대금의 수수를 하게 됩니다.\nELW는 예탁기관에 전부 예탁되어 있으므로 증권회사간 계좌 대체를 통하여 ELW의 수도가 이루어지게 됩니다.",
+      "start": 9986,
+      "end": 10414,
+      "sha256": "8a771dd09f55a2affc5d6a0b9bb049731d4e63842685005f5bed27fdddd8c5cc"
+    }
+  ],
+  "warning": "Only the identified passage supports separately reviewed claims."
+}

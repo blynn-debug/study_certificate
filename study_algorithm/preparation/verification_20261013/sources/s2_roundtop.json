@@ -1,0 +1,11 @@
+{
+  "id": "s2_roundtop",
+  "requested_url": "https://www.thepatternsite.com/roundingtop.html",
+  "retrieved_url": "https://www.thepatternsite.com/roundingtop.html",
+  "retrieved_at": "2026-10-13T17:17:05.400400+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "d191f6ba25ae311b505211227efe49196bb02bc1e21cb0b81a215f0efc150b55",
+  "text_sha256": "01b5d0d468739c227e42e160868dbd257a167e418d8d8f2b18ab9508db528449",
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kidi_life_insurance",
+  "requested_url": "https://kidi.or.kr/user/nd5188.do",
+  "retrieved_url": "https://kidi.or.kr/user/nd5188.do",
+  "retrieved_at": "2026-10-13T04:07:09.696594+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 6483,
+  "content_sha256": "c1f8d2c4c7f01c82ae7170cc21466364ef369ccfc470dc8f1098e0fa17db4817",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

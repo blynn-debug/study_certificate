@@ -1,0 +1,36 @@
+{
+  "source_id": "kofia_isa_managed",
+  "source_metadata": {
+    "id": "kofia_isa_managed",
+    "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1616&seq=317",
+    "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1616&seq=317",
+    "retrieved_at": "2026-10-13T00:01:47.571624+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 29318,
+    "content_sha256": "e02f4ccf86e39ce30202dcae8bd7d8ec1f743caf5803248eb41b13afadfeb740",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [],
+    "name": "일임형 개인종합자산관리계좌 실무지침",
+    "kofia_seq": "317",
+    "history_seq": "1616",
+    "version_selection": "official_current_law_tree; effective clauses require review",
+    "version_selection_source": "sources/kofia_tree.html",
+    "text_extractor_version": "2_preserve_statutory_image_alt"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kofia_isa_managed:모델포트폴리오구성",
+      "source_id": "kofia_isa_managed",
+      "article": "모델포트폴리오구성",
+      "heading": "모델포트폴리오구성",
+      "text": "6. 모델포트폴리오의 구성, 위험도 분류 방법\n1)  모델포트폴리오의 구성\n금융회사는 법시행령 제98조제2항제2호에 따라 투자자에게 제시할 모델포트폴리오를 구성함에 있어 다음의 사항을 준수하여야 한다.\n가.  투자자의 투자목적ㆍ재산상황ㆍ투자경험ㆍ위험감수능력 등을 고려하여 이 실무지침 ‘Ⅳ.10 투자자정보 및 투자자유형 분석 등'에서 정하는 방식에 따라 파악된 투자자유형별로 적합한 2개 이상의 모델포트폴리오를 제시할 것\n*  다만, 매우 낮은 위험의 경우 단일 모델포트폴리오를 제시할 수 있으며, 회사의 정책에 따라 특정 투자자 유형만을 선택하여 취급할 수 있음\n나.  각 제시된 운용방법에 편입되는 자산의 배분에 있어 다음 어느 하나의 행위를 하지 아니할 것\n(1)  동일 자산군에 100분의 50을 초과하여 투자하는 행위. 단, 집합투자증권을 편입하는 경우 및 초저위험 유형의 모델포트폴리오의 경우에는 그러하지 아니하다.\n(2)  동일 종목에 100분의 30을 초과하여 투자하는 행위\n*  상기 요건은 금융회사가 사전에 구비ㆍ제시하는 모델포트폴리오의 구성에 적용되는 사항으로, 투자자의 요청으로 모델포트폴리오의 내용이 변경되는 경우에는 적용하지 아니함\n다.  집합투자증권, 파생결합증권, 부동산투자회사의 주식의 경우에는 공모형으로 발행되는 증권만을 편입할 것\n※ 회사참고사항 6-1\n▶ 나-(1)의 동일자산군의 기준은 [별표 1]에 따른다.",
+      "start": 5035,
+      "end": 5733,
+      "sha256": "30a11d874c0da16a10d4b058e9b090c9767ef687fc379fcf69c46e6cc6c18225"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

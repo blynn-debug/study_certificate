@@ -1,0 +1,14 @@
+{
+  "id": "msci_methodology_july2026",
+  "requested_url": "https://www.msci.com/eqb/methodology/meth_docs/MSCI_Jul26_GIMIMethod_Summary.pdf",
+  "retrieved_url": "https://www.msci.com/eqb/methodology/meth_docs/MSCI_Jul26_GIMIMethod_Summary.pdf",
+  "retrieved_at": "2026-10-13T01:12:55.220837+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "8ccb24281c833cba46c5cf16eb7e0106c3a11762a0b95c6ce482bb35cab6db1b",
+  "binary_sha256": "8ccb24281c833cba46c5cf16eb7e0106c3a11762a0b95c6ce482bb35cab6db1b",
+  "text_sha256": "c65c7cb413a723a1f2f66ab7ea15c6ed5d230246f498f22d6f254542a89ec8a4",
+  "pages": 28,
+  "characters": 63084,
+  "status": "retrieved_not_claim_verified"
+}

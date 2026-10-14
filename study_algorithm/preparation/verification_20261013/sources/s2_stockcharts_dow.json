@@ -1,0 +1,11 @@
+{
+  "id": "s2_stockcharts_dow",
+  "requested_url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/dow-theory",
+  "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/market-analysis/dow-theory",
+  "retrieved_at": "2026-10-13T17:11:15.204472+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "f4749844775826bd26fd2e9d416078468b8b2a8f32b94335bcdfb187c0d50bb5",
+  "text_sha256": "ba4b07dffa60a3a7732fc09ef3e6da138c58ddc0bb1bdd48922d2f42a916969a",
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,27 @@
+{
+  "source_id": "s2_bis_mar10",
+  "source_metadata": {
+    "id": "s2_bis_mar10",
+    "requested_url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/10/inforce/2023-01-01/published/2020-03-27",
+    "retrieved_url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/10/inforce/2023-01-01/published/2020-03-27",
+    "retrieved_at": "2026-10-13T16:05:42.735068+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "2632179018941a0e343e37a2c7dc4bf05245b16edc062f814286a225f4dd57a7",
+    "text_sha256": "7a0e965ff2222e84ea51d0d21ee05b87a0d131e95cd01b0b5d2681a1b85e0638",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_bis_mar10:10.1",
+      "source_id": "s2_bis_mar10",
+      "article": "10.1",
+      "heading": "Market risk definition",
+      "text": "Market risk: the risk of losses in on- and off-balance sheet risk positions arising from movements in market prices. ",
+      "sha256": "a9a2128c15fbb6377f6ca5244c7b006c259bc89c6bc16ac473e1bc153f306a5e"
+    }
+  ],
+  "warning": "Definition only."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "kofia_underwriting",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1782&seq=140",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1782&seq=140",
+  "retrieved_at": "2026-10-13T00:01:47.197480+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 53544,
+  "content_sha256": "2f224aa12936cbbe52f59151eed94ee5d212cb57c425af02ad38ca1921eb102b",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "증권 인수업무 등에 관한 규정",
+  "kofia_seq": "140",
+  "history_seq": "1782",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

@@ -1,0 +1,5647 @@
+{
+  "MOCK-1-Q001": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q002": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q003": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q004": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q005": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q006": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q007": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q008": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q009": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q010": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q011": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q012": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q013": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q014": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q015": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q016": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q017": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q018": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q019": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q020": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q021": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q022": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q023": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q024": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q025": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q026": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q027": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q028": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q029": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q030": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q031": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q032": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q033": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q034": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q035": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q036": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q037": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q038": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q039": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q040": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q041": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q042": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q043": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q044": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q045": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q046": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q047": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q048": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q049": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q050": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q051": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q052": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q053": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q054": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q055": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q056": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q057": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q058": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q059": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q060": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q061": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q062": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q063": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q064": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q065": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q066": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q067": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q068": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q069": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q070": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q071": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q072": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q073": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q074": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q075": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q076": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q077": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q078": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q079": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q080": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q081": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q082": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q083": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q084": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "스트래들매수는 같은 행사가 콜·풋, 교재의 스트랭글매수는 외가격 콜·풋의 조합이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      64
+    ],
+    "source_pages": [
+      23,
+      64
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-1-Q085": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "p=5+195/(1+0.01×0.5)-195≈4.02985point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      64
+    ],
+    "source_pages": [
+      23,
+      64
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-1-Q086": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q087": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q088": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q089": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q090": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q091": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q092": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q093": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q094": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q095": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q096": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "틀린 설명은나·다. sqrt(wealth)는 위험회피 효용이며 더 보수적인 투자자는 같은 위험-기대수익률 좌표에서 더 가파른 무차별곡선을 갖는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      66
+    ],
+    "source_pages": [
+      26,
+      66
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-1-Q097": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "무위험자산 표준편차0. 위험자산 비중0.4×표준편차0.10=0.04, 즉4%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      66
+    ],
+    "source_pages": [
+      26,
+      66
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-1-Q098": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q099": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-1-Q100": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 55
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q001": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q002": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q003": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q004": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q005": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q006": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q007": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q008": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q009": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q010": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q011": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q012": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q013": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q014": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q015": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q016": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q017": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q018": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "제한물권은 소유권을 제한하며 용익물권과 담보물권으로 나뉜다. 소유권 자체와 구분한다. 이 해설은 다음 문항 DCR 해설과 분리했다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      69
+    ],
+    "source_pages": [
+      32,
+      69
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q019": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "DCR은 순운용소득/부채상환액이다. 출판사는 분자와 분모가 뒤바뀐 ②를 고른다. LTV는 부동산의 가치에 대비한 차입금의 비율로 분모가 다르다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      69
+    ],
+    "source_pages": [
+      32,
+      69
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q020": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q021": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q022": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q023": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q024": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q025": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q026": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q027": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q028": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q029": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q030": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q031": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "매년 고정 우선배당 2,000원/요구수익률 0.08=25,000원. 다음 문항의 성장배당 해설과 분리한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      70
+    ],
+    "source_pages": [
+      35,
+      70
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q032": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "CAPM k=0.02+0.8×(0.12-0.02)=0.10. g=0.8×0.10=0.08, D1=1,000×1.08=1,080, P0=1,080/(0.10-0.08)=54,000원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      70
+    ],
+    "source_pages": [
+      36,
+      70
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q033": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q034": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q035": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "자기자본=500억×0.6=300억, ROE=30억/300억=10%. ROA는 30억/500억=6%이다. 해설 첫 문장의 ROA 10%는 명칭 오류다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      70
+    ],
+    "source_pages": [
+      36,
+      70
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q036": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "총자산=순매출액/회전율=1,800억/1.5=1,200억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      70
+    ],
+    "source_pages": [
+      37,
+      70
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q037": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q038": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q039": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q040": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q041": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q042": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q043": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q044": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q045": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q046": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q047": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q048": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q049": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q050": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q051": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q052": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q053": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q054": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q055": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q056": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q057": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q058": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q059": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q060": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q061": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q062": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q063": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q064": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q065": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q066": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q067": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q068": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q069": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q070": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q071": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q072": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q073": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q074": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q075": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q076": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q077": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q078": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q079": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q080": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q081": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q082": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q083": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q084": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q085": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q086": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q087": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q088": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "시간가중수익률은 외부 현금흐름으로 구간을 나누고 구간수익률을 기하연결한다. 유입·유출 현가를 일치시키는 할인율은 금액가중수익률이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      75
+    ],
+    "source_pages": [
+      51,
+      75
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q089": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "출판사 선택④는1.74,1.73. 중간 반올림을 미루면 두 값 모두0.5×sqrt(12)=1.73205다. 첫 수치1.74는0.20×sqrt(12)를0.69로 조기 반올림한 결과다. 또한 알파/잔차위험과 벤치마크 초과수익/추적오차의 구별을 명시해야 한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      75
+    ],
+    "source_pages": [
+      51,
+      75
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q090": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q091": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q092": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q093": {
+    "publisher_answer": "④",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q094": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "출판사는가·나를 틀린 설명으로 분류한다. 명목GNI=명목GDP+명목국외순수취요소소득. 실질GNI는교역조건변화 손익도 반영한다. V=2000/2500=0.8, 디플레이터 비율2000/1250=1.6. 경상수지와 금리의 음의 관계는 교재 경로의 가정이며 보편적 인과로 확정하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      75
+    ],
+    "source_pages": [
+      52,
+      75
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q095": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "explanation_text": "교재 분류에서 건설기성액·광공업생산지수는 동행, CP유통수익률은 후행지표다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      76
+    ],
+    "source_pages": [
+      53,
+      76
+    ],
+    "locator_status": "manual_source_recovery"
+  },
+  "MOCK-2-Q096": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q097": {
+    "publisher_answer": "③",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q098": {
+    "publisher_answer": "②",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q099": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "MOCK-2-Q100": {
+    "publisher_answer": "①",
+    "key_source": {
+      "document": "MOCK",
+      "page": 67
+    },
+    "key_review": "visual_table_checked_2026-10-13"
+  },
+  "S1C1T08-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 무조건 분리·조건부 종합·무조건 종합을 과세방법으로, 원천징수를 징수편의 제도로 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      37
+    ],
+    "source_pages": [
+      37
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C1T13-SUP-01": {
+    "publisher_answer": "②",
+    "explanation_text": "교재의 4억 원 증여 사례에서는 단독 증여 세액 5,820만 원과 아버지·조부 분산 증여 합계 5,577.5만 원을 비교한다. 일반적인 절세 보장으로 확대할 수 없다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C1-ADD-08": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는 배우자 간 부담부증여를 선택한다. 다만 채무 인수의 입증에 따른 예외 누락이 기존 검토에 있으므로 법률적 정답으로 그대로 확정하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      57
+    ],
+    "source_pages": [
+      57
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-01": {
+    "publisher_answer": "④",
+    "explanation_text": "직장공제회 초과반환금을 제외하고 2,100+200=2,300만 원의 금융소득이 기준을 넘는지 판정한다. 전액과 근로소득 2,000만 원을 합해 신고 대상 4,300만 원을 구한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      2
+    ],
+    "source_pages": [
+      2
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-01-추가사례": {
+    "publisher_answer": "③",
+    "explanation_text": "법원보관금 이자 1,000만 원 제외→금융소득 2,000+1,000+500=3,500만 원→근로소득 2,500만 원 합산→신고 대상 6,000만 원. 세액을 묻는 문제가 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      3
+    ],
+    "source_pages": [
+      3
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-02": {
+    "publisher_answer": "②",
+    "explanation_text": "교재의 지방세 제외 세율 14와 9를 회상하여 빈칸 합 23을 구한다. 세율의 합을 실효세율로 해석하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      5
+    ],
+    "source_pages": [
+      5
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-03": {
+    "publisher_answer": "③",
+    "explanation_text": "과세대상이라는 문제 전제를 먼저 유지한다. 주주·기업·보유기간·기초자산 조건에 따라 교재 세율 10, 30, 10을 적용하여 합 50을 구한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      6
+    ],
+    "source_pages": [
+      6
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-03-추가빈칸": {
+    "publisher_answer": "④",
+    "explanation_text": "주주와 기업 규모에 맞추어 교재 세율 10, 30, 20을 연결하여 합 60을 구한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      7
+    ],
+    "source_pages": [
+      7
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T04-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "CD의 만기가 짧고 시장에서 양도할 수 있다는 점은 수시입출금 기능과 다르다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T11-SUP-02": {
+    "publisher_answer": "③",
+    "explanation_text": "보기 중 표지어음이 출판사의 예금자보호 대상이다. CD·청약자예수금·주택청약종합저축과 대비한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      99
+    ],
+    "source_pages": [
+      99
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T12-CORE": {
+    "publisher_answer": "③",
+    "explanation_text": "출판사는 실손보상원칙을 손해보험의 원리로 분류한다. 대수의 법칙·수지상등·경험생명표와 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      100
+    ],
+    "source_pages": [
+      100
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T20-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "신탁업자는 운용지시의 법령·계약·설명서 준수 여부를 감시한다. 최선의 수익률이나 장세판단 능력을 평가하는 것은 그 감시의 의미가 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      119
+    ],
+    "source_pages": [
+      119
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T22-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "집합투자업자, 예외적 신탁업자와 일정 지분 수익자를 소집권자로 든다. 판매업자는 제외한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      123
+    ],
+    "source_pages": [
+      123
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T23-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "집합투자업자 변경과 판매업자 변경을 구분한다. 출판사는 판매업자 변경을 주주총회 결의사항에서 제외한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      125
+    ],
+    "source_pages": [
+      125
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T23-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "교재의 해산사유는 법인이사를 제외하고 주주가 한 명만 남은 상태이다. 보기의 50인 미만과 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      125
+    ],
+    "source_pages": [
+      125
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T26-SUP-04": {
+    "publisher_answer": "③",
+    "explanation_text": "출판사의 환매연기 결정 후 집합투자자총회 결의 기한은 6주이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      139
+    ],
+    "source_pages": [
+      139
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2T33-SUP-03": {
+    "publisher_answer": "①",
+    "explanation_text": "회사채를 기초로 하는 것은 CBO, 대출채권을 기초로 하는 것은 CLO이다. 해설의 pass-through/pay-through 부외효과 단정은 구조와 회계 요건을 별도로 확인할 대상이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      155
+    ],
+    "source_pages": [
+      155
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2-ADD-06": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는 ELD·ELS의 사전에 설계된 쿠폰과 ELF의 운용 결과에 따른 지급을 구분한다. 사전 확정된 지급구조와 무조건 수익 보장을 동일시하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      165
+    ],
+    "source_pages": [
+      164,
+      165
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C2-ADD-17": {
+    "publisher_answer": "④",
+    "explanation_text": "사망·생존·생사혼합은 보험사고에 따른 분류이고, 변액은 보험금의 정액 여부에 따른 분류이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      167
+    ],
+    "source_pages": [
+      167
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-04": {
+    "publisher_answer": "④",
+    "explanation_text": "문제의 급여 요건 7,000만 원과 연금수령연차 1을 구분한다. 한도는 1억 원/(11-1)×120%=1,200만 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      8
+    ],
+    "source_pages": [
+      8
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3T05-SUP-01": {
+    "publisher_answer": "③",
+    "explanation_text": "저당권은 소유권 이외의 권리로 을구에서 확인한다. 표제부의 목적물 표시, 갑구의 소유권과 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      185
+    ],
+    "source_pages": [
+      185
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3T08-SUP-03": {
+    "publisher_answer": "①",
+    "explanation_text": "NPV는 현금유입 현재가치에서 현금유출 현재가치를 뺀 값이다. 나눗셈인 PI, 할인율인 IRR, 간편법인 순소득승수와 구분한다. 원본 OCR 말미의 원문자 판독은 불명확하다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      195
+    ],
+    "source_pages": [
+      195
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3T12-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "교재가 열거한 건축은 신축·증축·개축·재축·이전이다. 대수선은 여기에서 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      204
+    ],
+    "source_pages": [
+      204
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3T16-CORE": {
+    "publisher_answer": "①",
+    "explanation_text": "수익률은 편입비중의 가중평균이다. 분산은 제곱비중과 공분산 항을 포함하며, 종목 증가로 줄이는 위험은 비체계적 위험이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      213
+    ],
+    "source_pages": [
+      213
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3T17-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "교재 분류상 교통체계는 경제적 요인, 세제는 행정적 요인, 공공시설 정비는 사회적 요인이다. ④는 토지·건물의 개별요인을 합친 보기다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      216
+    ],
+    "source_pages": [
+      216
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S1C3-ADD-12": {
+    "publisher_answer": "③",
+    "explanation_text": "임대 현금흐름의 현재가치 300에 매각 현금흐름의 현재가치 1,250×0.8=1,000을 더한다. 이를 최초투입액 1,000으로 나누면 PI=1.30이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      231
+    ],
+    "source_pages": [
+      230,
+      231
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-05": {
+    "publisher_answer": "③",
+    "explanation_text": "PI=(300+1,250×0.8)/1,000=1.30. 이미 현재가치인 임대수입 300을 또 할인하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      9
+    ],
+    "source_pages": [
+      9
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-05-1": {
+    "publisher_answer": "④",
+    "explanation_text": "PI=(150+2,600/1.3)/1,000=2.15. 현재가치계수 1/1.3과 3년이라는 기간을 중복 적용하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      10
+    ],
+    "source_pages": [
+      10
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-05-2": {
+    "publisher_answer": "③",
+    "explanation_text": "매각 현가 3,600/1.2=3,000, 유입 현가 합 3,000+600=3,600, 최초투자액 3,600/PI 2=1,800원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      11
+    ],
+    "source_pages": [
+      11
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-06": {
+    "publisher_answer": "④",
+    "explanation_text": "일정한 연간 순수익을 직접환원하는 문제 전제에서 50억 원/0.05=1,000억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      11
+    ],
+    "source_pages": [
+      11
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C1T07-SUP-01": {
+    "publisher_answer": "②",
+    "explanation_text": "출판사는 자유 환매와 운용자 참여 금지를 기술한 다·라를 틀린 것으로 본다. 유동성이 낮은 자산의 환매 제한과 운용자의 위험 공유를 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      249
+    ],
+    "source_pages": [
+      249
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C1T14-SUP-02": {
+    "publisher_answer": "①",
+    "explanation_text": "Balance Sheet CDO는 위험자산 감소와 재무비율 개선이라는 발행목적의 분류이다. Static/Dynamic은 운용방식의 분류이므로 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      269
+    ],
+    "source_pages": [
+      269
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C2-ADD-04": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는 내재적 헤지를 선택하지만 투자자의 기준통화와 보유자산 조건이 빠져 있다. 내재적 헤지는 달러 상승기에만 가능하다는 일반 명제로 채점하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      300
+    ],
+    "source_pages": [
+      300
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C2-ADD-05": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사 정답은 분산효과 약화·위기 시 동조화 강화이다. 같은 개별 위험 조건에서 상관관계 증가가 분산에 미치는 영향을 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      300
+    ],
+    "source_pages": [
+      300
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-07": {
+    "publisher_answer": "②",
+    "explanation_text": "문제의 2025년 과세 전제에서 연간 이익 500만 원과 손실 100만 원을 통산한다. 기본공제 250만 원 차감 후 150만 원에 지방세 포함 22%를 적용하면 33만 원이다. 필요경비와 세액공제가 없다는 전제를 유지한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      12
+    ],
+    "source_pages": [
+      12
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C2-Q010": {
+    "publisher_answer": "O",
+    "explanation_text": "출판사는 미국의 DR 형태 ADR에 관한 진술을 O로 표시한다. 원주상장과 DR 상장을 구분하는 회상 문항이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      23
+    ],
+    "source_pages": [
+      23
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T04-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "D0=5,000원에서 D1=5,250원을 구하고 5,250/(0.10-0.05)=105,000원을 계산한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      315
+    ],
+    "source_pages": [
+      315
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T05-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "ROE=ROA×총자산/자기자본=ROA×(1+부채/자기자본). 양의 ROA가 일정하다는 비교 조건에서 부채비율과 ROE의 관계를 해석한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      321
+    ],
+    "source_pages": [
+      321
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T10-SUP-05": {
+    "publisher_answer": "④",
+    "explanation_text": "사업자산 150억 원에 대한 EVA=30-150×0.1=15억 원. 사업가치 150+15/0.1=300억 원에 비사업자산 50억 원을 더하면 350억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      340
+    ],
+    "source_pages": [
+      340
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T16-CORE": {
+    "publisher_answer": "②",
+    "explanation_text": "출판사는 엘리어트 3번 파동과 급진갭을 연결한다. 돌파 이후 가속이라는 정의를 돌파갭·소멸갭·아일랜드갭과 구분한다. 문제 도표는 기존 원본 복원 기록을 참조한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      354
+    ],
+    "source_pages": [
+      354
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T20-SUP-02": {
+    "publisher_answer": "②",
+    "explanation_text": "역시계곡선의 가로축은 거래량, 세로축은 주가이다. 거래량이 줄고 주가가 계속 오르는 ②를 교재는 매입 보류 구간으로 해석한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      368
+    ],
+    "source_pages": [
+      368
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C3T25-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "단순요소경쟁력 하락이 완만해지고 고급요소경쟁력 상승이 가속되는 시기는 교재의 2차 전환점이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      380
+    ],
+    "source_pages": [
+      380
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-08": {
+    "publisher_answer": "①",
+    "explanation_text": "산술평균=3/9≈0.333%, 중앙값 3%, 최빈값 7%, 범위 30%p를 비교한다. 가장 작은 값은 산술평균이다. 표준편차의 불편성에 관한 부연은 별도 품질 주의 대상이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      13
+    ],
+    "source_pages": [
+      13
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-09": {
+    "publisher_answer": "④",
+    "explanation_text": "이미 차기 예상 EPS인 10,000원에 배당성향 20%를 곱하면 D1=2,000원이다. 일정 배당성향 전제에서 2,000/(0.10-0.08)=100,000원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      14
+    ],
+    "source_pages": [
+      14
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-09-1": {
+    "publisher_answer": "③",
+    "explanation_text": "D0=4,000×0.5=2,000원, D1=2,000×1.04=2,080원, k=2,080/10,400+0.04=0.24. 해설 첫 문장의 15%와 성장률 5%는 주어진 조건·계산과 충돌한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      15
+    ],
+    "source_pages": [
+      15
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-09-2": {
+    "publisher_answer": "③",
+    "explanation_text": "D1=600, D2=720, D3=756. 2년말 계속가치 P2=756/(0.10-0.05)=15,120. 현재가치는 600/1.1+(720+15,120)/1.1²≈13,636.36원. P2를 3년 할인하거나 D2를 빼지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      16,
+      17
+    ],
+    "source_pages": [
+      16,
+      17
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-10": {
+    "publisher_answer": "②",
+    "explanation_text": "문제에서 매년 고정되는 우선배당 1,000원을 영구연금으로 보고 1,000/0.2=5,000원으로 평가한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      18
+    ],
+    "source_pages": [
+      18
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-11": {
+    "publisher_answer": "③",
+    "explanation_text": "총자산회전율=순매출액/총자산. 순매출액=1.5×1,200=1,800억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      19
+    ],
+    "source_pages": [
+      19
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-12": {
+    "publisher_answer": "④",
+    "explanation_text": "ROA=(순이익/매출액)×(매출액/총자산)=0.2×2=0.4, 즉 40%이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      19
+    ],
+    "source_pages": [
+      19
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-13": {
+    "publisher_answer": "④",
+    "explanation_text": "동일 순이익의 ROE/ROA=총자산/자기자본=4. 자기자본=400/4=100억 원, 총부채=400-100=300억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      20
+    ],
+    "source_pages": [
+      20
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-14": {
+    "publisher_answer": "④",
+    "explanation_text": "영업이익 변화율=(50-10)/10=4, 판매량 변화율=(400-200)/200=1이므로 DOL=4. 절대 증가량의 비가 아니라 변화율의 비다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      21
+    ],
+    "source_pages": [
+      21
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-15": {
+    "publisher_answer": "③",
+    "explanation_text": "2=5,000/(5,000-I)를 풀면 I=2,500억 원이다. 영업이익과 이자비용의 기준시점·단위를 유지한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      22
+    ],
+    "source_pages": [
+      22
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-15-1": {
+    "publisher_answer": "②",
+    "explanation_text": "순이익 변화율 50%/영업이익 변화율 40%=1.25. 고정 주식수·세율의 문제에서 변동 전 EBIT 100/(100-20)로도 구할 수 있다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      22,
+      23
+    ],
+    "source_pages": [
+      22,
+      23
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-16": {
+    "publisher_answer": "①",
+    "explanation_text": "유보율 0.8, 성장률 0.8×0.10=0.08, 예상이익 기준 PER=0.2/(0.12-0.08)=5배이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      24
+    ],
+    "source_pages": [
+      24
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-16-1": {
+    "publisher_answer": "②",
+    "explanation_text": "PER=0.3/(0.10-0.7×0.10)=10배. k=ROE일 때 PER=1/k라는 약식식의 조건도 확인한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-17": {
+    "publisher_answer": "③",
+    "explanation_text": "BPS=1,000억 원/100만 주=100,000원, PBR=120,000/100,000=1.2배. 같은 기간의 ROE 0.2×PER 6으로도 검산한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-18": {
+    "publisher_answer": "③",
+    "explanation_text": "EV=2,000만 원×20=4억 원, 시가총액=4억-1억=3억 원이다. 질문이 시가총액이므로 주식수로 나누지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      26
+    ],
+    "source_pages": [
+      26
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-18-1": {
+    "publisher_answer": "②",
+    "explanation_text": "EV=60억×15=900억 원, 주주가치=900억-300억=600억 원, 주당가치=600억/100만 주=60,000원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      27
+    ],
+    "source_pages": [
+      27
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-18-2": {
+    "publisher_answer": "④",
+    "explanation_text": "순차입금=1.2억-0.2억=1억 원, EV=1,000만×15=1.5억 원, 시가총액=0.5억 원, 주당가치=0.5억/10만=500원. 첫 문장의 500만 원은 단위 오류다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      28
+    ],
+    "source_pages": [
+      28
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-19": {
+    "publisher_answer": "②",
+    "explanation_text": "WACC=0.5×0.08+0.5×0.12=0.10, EVA=50-200×0.10=30억 원, 기업가치=200+30/0.10=500억 원. 주주가치 400억 원 및 EVA 30억 원과 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      29
+    ],
+    "source_pages": [
+      29
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-20": {
+    "publisher_answer": "②",
+    "explanation_text": "세후순영업이익=200×0.75=150억 원. WACC=0.4×0.10×0.75+0.6×0.12=0.102. EVA=150-500×0.102=99억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      30
+    ],
+    "source_pages": [
+      30
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-20-1": {
+    "publisher_answer": "①",
+    "explanation_text": "각 자본비용이 10%로 고정된 문제에서 부채 80%, 자본 20% 조합의 WACC=0.8×0.10×0.8+0.2×0.10=8.4%, EVA=100-250×0.084=79억 원이 최대다. 현실의 최적 자본구조 일반화는 하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      30
+    ],
+    "source_pages": [
+      30
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-21": {
+    "publisher_answer": "②",
+    "explanation_text": "5개 기업이 각각 0.2를 점유하므로 HHI=5×0.2²=0.2. 백분율 숫자로 계산한 2,000과 표시단위를 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      31
+    ],
+    "source_pages": [
+      31
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-21-1": {
+    "publisher_answer": "①",
+    "explanation_text": "점유율 제곱합은 A 0.28, B 0.34, C 0.42, D 0.52이다. 최소는 A다. 제곱 전의 합은 모든 산업에서 1이므로 불균등도를 구별하지 못한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      32
+    ],
+    "source_pages": [
+      32
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-21-2": {
+    "publisher_answer": "①",
+    "explanation_text": "10개 동일기업의 HHI=1/10=0.1, CRk=k/10이므로 같은 수치가 되는 k=1이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      33
+    ],
+    "source_pages": [
+      33
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q011": {
+    "publisher_answer": "X",
+    "explanation_text": "교재는 고정비용보상비율이 낮은 것을 과도한 레버리지 사용의 신호로 설명한다. 다음 문항의 총자산 계산과 분리한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q012": {
+    "publisher_answer": "400억 원",
+    "explanation_text": "총자산=순매출액 600억 원/총자산회전율 1.5=400억 원이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q013": {
+    "publisher_answer": "낮다면",
+    "explanation_text": "교재는 낮은 총자산회전율을 낮은 경영효율성 등과 연결한다. 다음 문항의 레버리지 계산과 분리한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q014": {
+    "publisher_answer": "4 / 1.6 / 6.4",
+    "explanation_text": "DOL=(100-20)/20=4, DFL=20/(20-7.5)=1.6, DCL=4×1.6=6.4이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      25
+    ],
+    "source_pages": [
+      25
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q041": {
+    "publisher_answer": "오른쪽 어깨",
+    "explanation_text": "교재의 H&S형에서 거래량이 가장 작게 나타나는 위치는 오른쪽 어깨이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      28
+    ],
+    "source_pages": [
+      28
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C3-Q042": {
+    "publisher_answer": "O",
+    "explanation_text": "출판사는 이중바닥형의 두 번째 저점이 높고 기울기가 완만하다는 진술을 O로 둔다. 모든 실제 패턴의 필수조건이라는 일반화는 품질 검토 대상이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      28
+    ],
+    "source_pages": [
+      28
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4T03-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 동일한 모형·기간·신뢰수준에서 분산효과로 포트폴리오 VaR이 개별 VaR 합계보다 작다고 설명한다. 일반 VaR 전체에 대한 무조건적 준가법성으로 확대하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      413
+    ],
+    "source_pages": [
+      413
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4T12-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "스트레스 검증은 극단적 상황을 가정하는 보완적 방법이라는 것이 출판사 해설의 취지다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      432
+    ],
+    "source_pages": [
+      432
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4T13-SUP-02": {
+    "publisher_answer": "③",
+    "explanation_text": "부도거리=(200-110)/30=3. 부도거리 계산과 해설의 정규분포 꼬리확률 수치를 분리한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      435
+    ],
+    "source_pages": [
+      435
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4T13-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 실제 자산가치 분포가 정규분포와 다를 수 있으므로 실증적 EDF와 이론적 EDF가 동일하지 않다고 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      435
+    ],
+    "source_pages": [
+      435
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-04": {
+    "publisher_answer": "①",
+    "explanation_text": "델타노말의 선형근사 오차를 묻는 출판사 의도는 주식이다. 선형이라는 이유만으로 분포모형 오차까지 사라지지는 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      439
+    ],
+    "source_pages": [
+      438,
+      439
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-05": {
+    "publisher_answer": "③",
+    "explanation_text": "200억 원×0.06×1.65=19.8억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      439
+    ],
+    "source_pages": [
+      438,
+      439
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-06": {
+    "publisher_answer": "②",
+    "explanation_text": "출판사는 500×1.65×0.08×1.2=79.2억 원으로 계산한다. 지문이 자체 수익률 표준편차를 주므로 베타를 다시 곱하는 문제는 채점 보류 대상이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      439
+    ],
+    "source_pages": [
+      438,
+      439
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-07": {
+    "publisher_answer": "④",
+    "explanation_text": "500억 원×0.0008×2.33×4=3.728억 원. 수정듀레이션과 수익률 증감의 표준편차를 사용한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      439
+    ],
+    "source_pages": [
+      438,
+      439
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-08": {
+    "publisher_answer": "①",
+    "explanation_text": "200point×0.02×2.33×0.6=5.592point. 단위는 억 원이 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      439
+    ],
+    "source_pages": [
+      438,
+      439
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-11": {
+    "publisher_answer": "③",
+    "explanation_text": "10억 원×(2.33/1.65)×√16=약56.48억 원. 정규분포 신뢰상수와 시간제곱근 조정의 모형 가정을 확인한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      441
+    ],
+    "source_pages": [
+      440,
+      441
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-12": {
+    "publisher_answer": "③",
+    "explanation_text": "과거 수익률을 정렬하여 분위수를 사용하는 역사적 시뮬레이션이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      441
+    ],
+    "source_pages": [
+      440,
+      441
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-13": {
+    "publisher_answer": "②",
+    "explanation_text": "역사적 시뮬레이션은 정규분포 가정을 필요로 하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      441
+    ],
+    "source_pages": [
+      440,
+      441
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-14": {
+    "publisher_answer": "③",
+    "explanation_text": "출판사 해설에서 Credit VaR는 부도뿐 아니라 신용등급 변화에 따른 신용위험도 포함한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      441
+    ],
+    "source_pages": [
+      440,
+      441
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S2C4-ADD-15": {
+    "publisher_answer": "④",
+    "explanation_text": "EL=100억 원×0.05×(1-0.30)=3.5억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      441
+    ],
+    "source_pages": [
+      441
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C4-Q016": {
+    "publisher_answer": "O",
+    "explanation_text": "출판사는 몬테카를로 주가모형의 대표적 예로 기하학적 브라운 운동을 제시한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      33
+    ],
+    "source_pages": [
+      33
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C4-Q017": {
+    "publisher_answer": "스트레스 검증법 또는 시나리오 분석법",
+    "explanation_text": "주관적인 극단 상황을 가정하여 다른 VaR 측정을 보완한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      33
+    ],
+    "source_pages": [
+      33
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C4-Q018": {
+    "publisher_answer": "20%",
+    "explanation_text": "RAROC=순수익10억 원/VaR50억 원=0.2=20%. 원문 정답란 첫 OCR 문자는 답이 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      34
+    ],
+    "source_pages": [
+      34
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S2C4-Q025": {
+    "publisher_answer": "MTM Mode",
+    "explanation_text": "출판사는 차입자 집중에 따른 신용집중리스크 관리 모형으로 MTM Mode를 제시한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      34
+    ],
+    "source_pages": [
+      34
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-22": {
+    "publisher_answer": "①",
+    "explanation_text": "150point×0.025×2.33×0.8=6.99point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      33,
+      34
+    ],
+    "source_pages": [
+      33,
+      34
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-23": {
+    "publisher_answer": "①",
+    "explanation_text": "200억 원×0.0005×1.65×3.5=0.5775억 원=5,775만 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      35
+    ],
+    "source_pages": [
+      35
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-24": {
+    "publisher_answer": "④",
+    "explanation_text": "상관계수 +1,0,-1,0.4일 때 17,13,7,√217≈14.73억 원이므로 20은 들어갈 수 없다. 교재 마지막 11.73은 산술 오류다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      36
+    ],
+    "source_pages": [
+      36
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-24-1": {
+    "publisher_answer": "②",
+    "explanation_text": "√(8²+15²)=17억 원, 분산효과=8+15-17=6억 원. 원문 255는 225의 오기다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      37
+    ],
+    "source_pages": [
+      37
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-25": {
+    "publisher_answer": "③",
+    "explanation_text": "3.3억 원×(2.33/1.65)×√4=9.32억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      37
+    ],
+    "source_pages": [
+      37
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-25-1": {
+    "publisher_answer": "③",
+    "explanation_text": "4.66억 원×(1.65/2.33)×√4=6.60억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      38
+    ],
+    "source_pages": [
+      38
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-26": {
+    "publisher_answer": "①",
+    "explanation_text": "교재 용어의 한계VaR는 편입 전후 총VaR 차이. A20억 원, B30억 원이므로 A.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      38
+    ],
+    "source_pages": [
+      38
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-26-1": {
+    "publisher_answer": "③",
+    "explanation_text": "편입 후 총VaR에서 기존100억 원을 뺀다. A50억 원, B30억 원이므로 B.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      39
+    ],
+    "source_pages": [
+      39
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-27": {
+    "publisher_answer": "④",
+    "explanation_text": "동일 투자금액이므로 순수익률/VaR의 상대 순위로 비교 가능하다. D의6/5가 최대다. 해당 상대 수치 자체를 투자금액 없는 실제 RAROC로 해석하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      39
+    ],
+    "source_pages": [
+      39
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-27-1": {
+    "publisher_answer": "③",
+    "explanation_text": "연 기대수익4억 원. 일VaR=200×0.0004×3.65×1.65=0.4818억 원. 연VaR는 일VaR×√240, RAROC는 약0.536배. 출판사는 중간 반올림으로 약0.53배를 선택한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      40
+    ],
+    "source_pages": [
+      40
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-28": {
+    "publisher_answer": "①",
+    "explanation_text": "DD는 A1,B1.5,C2,D3. 부도거리가 가장 짧은 A가 모형상 부도확률이 가장 높다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      41
+    ],
+    "source_pages": [
+      41
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-28-1": {
+    "publisher_answer": "③",
+    "explanation_text": "DD=(40-16)/4=6표준편차.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      42
+    ],
+    "source_pages": [
+      42
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-29": {
+    "publisher_answer": "②",
+    "explanation_text": "EL=200억 원×0.10×(1-0.20)=16억 원. 회수율과 손실률을 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      42,
+      43
+    ],
+    "source_pages": [
+      42,
+      43
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-30": {
+    "publisher_answer": "③",
+    "explanation_text": "단일 베르누이 부도모형에서 손실 표준편차=100×√(0.1×0.9)×0.3=9억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      44
+    ],
+    "source_pages": [
+      44
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-31": {
+    "publisher_answer": "②",
+    "explanation_text": "p=√(p(1-p))의 해는0또는0.5이며 제시된 선택지에 해당하는 값은0.5다. 양의 부도율 조건 없이0을 부정하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      44
+    ],
+    "source_pages": [
+      44
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1T06-SUP-01": {
+    "publisher_answer": "③",
+    "explanation_text": "기존고객=신규고객의 이익 > 회사의 이익 > 임직원의 이익.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      16
+    ],
+    "source_pages": [
+      16
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1T07-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "금융소비자보호 관련 주요 제도, 상품개발·영업·공시, 보호기준 준수실태 점검결과 모두 심의·의결사항이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      18
+    ],
+    "source_pages": [
+      18
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1T10-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 회사뿐 아니라 중간책임자도 지도감독의무 위반에 대한 사용자책임을 질 수 있다고 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      37
+    ],
+    "source_pages": [
+      37
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1T11-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "경영진의 책임은 회사에 대한 의무로 분류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      43
+    ],
+    "source_pages": [
+      43
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1-ADD-02": {
+    "publisher_answer": "④",
+    "explanation_text": "자신이 본인이면서 동시에 상대방의 중개인이 되는 자기계약·자기거래 금지의무.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1-ADD-08": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는 다차 정보수령자까지 시장질서교란 규제대상 범위가 확대되었다고 설명한다. 실제 위반의 행위요건은 별도다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      56
+    ],
+    "source_pages": [
+      56
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C1-ADD-09": {
+    "publisher_answer": "②",
+    "explanation_text": "영업관리자의 임명 주체는 준법감시인이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      56
+    ],
+    "source_pages": [
+      56
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C1-Q003": {
+    "publisher_answer": "과당매매",
+    "explanation_text": "과잉권유는 적합성 원칙과 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      35
+    ],
+    "source_pages": [
+      35
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C1-Q004": {
+    "publisher_answer": "O",
+    "explanation_text": "이해상충 공시→통제→회피의 순서.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      35
+    ],
+    "source_pages": [
+      35
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C1-Q016": {
+    "publisher_answer": "O",
+    "explanation_text": "청약철회에 따른 손해배상이나 위약금 청구는 금지된다는 출판사 기준.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      37
+    ],
+    "source_pages": [
+      37
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T03-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "도식의④는 신탁상품이 아니라 비금융투자상품이다. 도식 내부①을 정답으로 추출한 오류를 바로잡는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T05-SUP-01": {
+    "publisher_answer": "③",
+    "explanation_text": "출판사는100억 원 이상 투자잔고 법인의 신고·2년 유효를 옳다고 제시한다. 개인은 잔고요건 AND 나머지 요건 중 하나다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      73
+    ],
+    "source_pages": [
+      73
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T08-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "선급금은 유동성을 줄이는 차감항목이다. 대손충당금은 정상·요주의 자산분만 가산한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      80
+    ],
+    "source_pages": [
+      80
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T18-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "자기 발행 증권의 취득금지가 원칙이나 수익증권은 예외다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      106
+    ],
+    "source_pages": [
+      106
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T18-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "가격 차이를 이용하는 정상적인 차익거래와 원칙적으로 금지되는 자전거래를 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      106
+    ],
+    "source_pages": [
+      106
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T25-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "제시된 전문가, 정해진 방식의 수령거부, 내용이 동일한 집합투자증권 추가취득 모두 교부면제 대상으로 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      120
+    ],
+    "source_pages": [
+      120
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T33-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "계열사 임직원으로부터 받은 정보수령자, 주요주주인 내부자, 감독권자인 준내부자 모두 규제대상에 포함될 수 있다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      139
+    ],
+    "source_pages": [
+      139
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2T37-SUP-04": {
+    "publisher_answer": "③",
+    "explanation_text": "대출과 결부한 다른 상품 강요는 불공정영업행위로 분류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      149
+    ],
+    "source_pages": [
+      149
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C2-ADD-04": {
+    "publisher_answer": "④",
+    "explanation_text": "증권의 인수 자체는 투자매매업, 인수에 대한 청약 권유의 중개는 투자중개업이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      152,
+      153
+    ],
+    "source_pages": [
+      152,
+      153
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q012": {
+    "publisher_answer": "온라인소액투자중개업",
+    "explanation_text": "온라인소액투자중개업을 뜻한다. 교재 축약 표기와 정식 명칭을 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      42
+    ],
+    "source_pages": [
+      42
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q013": {
+    "publisher_answer": "O",
+    "explanation_text": "자기 증권발행의 적용배제와 투자신탁 수익증권 등 예외를 구분하는 문항의 출판사 답.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      42
+    ],
+    "source_pages": [
+      42
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q017": {
+    "publisher_answer": "투자매매업, 투자중개업, 집합투자업, 신탁업",
+    "explanation_text": "네 업무는 인가 대상으로 제시한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      43
+    ],
+    "source_pages": [
+      43
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q023": {
+    "publisher_answer": "0.5%, 2%, 20%, 75%, 100%",
+    "explanation_text": "정상→요주의→고정→회수의문→추정손실 순서의 최소 적립률.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      43
+    ],
+    "source_pages": [
+      43
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q049": {
+    "publisher_answer": "자기자본",
+    "explanation_text": "신용공여 한도의 기준은 자기자본이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      46
+    ],
+    "source_pages": [
+      46
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q050": {
+    "publisher_answer": "140%",
+    "explanation_text": "교재 기준 신용융자 담보비율140%, 신용대주105%를 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      46
+    ],
+    "source_pages": [
+      46
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q085": {
+    "publisher_answer": "O",
+    "explanation_text": "공개매수 철회금지 원칙과 법정 예외에 관한 출판사 답.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      51
+    ],
+    "source_pages": [
+      51
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q092": {
+    "publisher_answer": "6개월",
+    "explanation_text": "상장법인 및6개월 내 상장예정 법인을 대상으로 제시한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      51
+    ],
+    "source_pages": [
+      51
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q093": {
+    "publisher_answer": "내부자",
+    "explanation_text": "해당 법인의 주요주주는 내부자로 분류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      51
+    ],
+    "source_pages": [
+      51
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q101": {
+    "publisher_answer": "시장질서교란행위 규제",
+    "explanation_text": "정보이용교란행위와 시세관여교란행위로 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q103": {
+    "publisher_answer": "현장검사",
+    "explanation_text": "종합검사의 대표적인 수행 방식.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q104": {
+    "publisher_answer": "X",
+    "explanation_text": "금융위원회 심의·의결이 원칙이고 금감원장 위임사항은 직접 조치한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q105": {
+    "publisher_answer": "X",
+    "explanation_text": "제재예정내용 사전통지와 상당한 의견진술 기회 부여가 원칙이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q107": {
+    "publisher_answer": "불가하다",
+    "explanation_text": "교재는 이의신청 결과에 대한 재이의신청은 불가하다고 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q108": {
+    "publisher_answer": "O",
+    "explanation_text": "익명제보나 가공인 명의는 조사면제 사유로 제시한다. 반드시 면제해야 한다는 뜻으로 확대하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C2-Q109": {
+    "publisher_answer": "X",
+    "explanation_text": "조사업무규정의 조치와 형사벌금 부과를 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C3T14-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "증권분석사는 교재가 나열한 협회 금융투자전문인력 분류에 속하지 않는다. 시험합격과 등록에 의한 업무수행 자격을 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      189
+    ],
+    "source_pages": [
+      189
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C3T15-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "대표주관사 보상 신주인수권과 청약자 초과배정옵션은 목적이 다르고 서로 연계된 행사제한이 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      196
+    ],
+    "source_pages": [
+      196
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C3-ADD-01": {
+    "publisher_answer": "③",
+    "explanation_text": "고난도 금융투자상품이 교부대상이다. 해설의 ELS 제외는 ELW와 혼동한 오기이므로 그대로 채점하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      199
+    ],
+    "source_pages": [
+      198,
+      199
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C3-ADD-02": {
+    "publisher_answer": "③",
+    "explanation_text": "1시간 교육+3시간 모의거래는 장내파생 적격개인투자자 요건이라는 출판사 구별.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      199
+    ],
+    "source_pages": [
+      198,
+      199
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C3-ADD-03": {
+    "publisher_answer": "②",
+    "explanation_text": "최초상장 대표주관사의 첫1년간2회 공표가 출판사 정답이다. 추가공표6개월과 재산적 이해관계300만원을 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      199
+    ],
+    "source_pages": [
+      198,
+      199
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C3-Q015": {
+    "publisher_answer": "24시간, 7일",
+    "explanation_text": "공표 후 최초24시간과 이후7일까지의 매매방향 제한을 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      55
+    ],
+    "source_pages": [
+      55
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C3-Q016": {
+    "publisher_answer": "O",
+    "explanation_text": "환매와 비용의 의무표시에 관한 출판사 답.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      55
+    ],
+    "source_pages": [
+      55
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C3-Q017": {
+    "publisher_answer": "O",
+    "explanation_text": "거래비용·직간접 보수와 수수료는 집합투자증권 광고 의무표시사항이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      56
+    ],
+    "source_pages": [
+      56
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C3-Q025": {
+    "publisher_answer": "장내파생상품, 불가",
+    "explanation_text": "교재 법적 분류는 장내파생상품, 양방향포지션 불가. 회사 명의·투자자 계산과 분리한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      56
+    ],
+    "source_pages": [
+      56
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T02-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "어떤 액티브 운용도 필요 없다는 교재 논거는 강형이다. 정보집합과 지속적인 위험조정 초과수익을 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      207
+    ],
+    "source_pages": [
+      207
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T05-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "장기간 자료를 요구하는 추세분석법, 확률 설정에 주관성이 개입하는 시나리오분석법.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      213
+    ],
+    "source_pages": [
+      213
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T09-CORE": {
+    "publisher_answer": "①",
+    "explanation_text": "시장가치 접근은 전략적 자산배분, 나머지 가치평가·기술분석·포뮬러플랜은 전술적 실행도구다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      219
+    ],
+    "source_pages": [
+      219
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T09-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "상승 시 위험자산 비중을 줄이는 음의 피드백과 기울기가 감소하는 곡선을 연결한다. 보험전략과 반대다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      221
+    ],
+    "source_pages": [
+      221
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T09-SUP-03": {
+    "publisher_answer": "③",
+    "explanation_text": "전술적 자산배분의 가치평가와 위험인내 과정, 해당 교재 도식의 위로 볼록한 성과곡선.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      221
+    ],
+    "source_pages": [
+      221
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T10-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "보험전략은 상승 시 매수·하락 시 매도하는 양의 피드백으로 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      222
+    ],
+    "source_pages": [
+      222
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C4T15-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "대형·중형·소형으로 나누는 시가총액 투자스타일.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      235
+    ],
+    "source_pages": [
+      235
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-32": {
+    "publisher_answer": "③",
+    "explanation_text": "현재Floor=100/1.02, 쿠션=110-Floor, 위험투자금액=쿠션×3≈35.88235억 원, 안전자산≈74.11765억 원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      45
+    ],
+    "source_pages": [
+      45
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-32-unnumbered-example": {
+    "publisher_answer": "위험자산26.94억 원, 안전자산73.06억 원(교재 중간절사)",
+    "explanation_text": "교재는90/1.04를86.53으로 절사하여 계산한다. 반올림을 미루면 위험26.9230769억 원·안전73.0769231억 원이다. 계산절차와 반올림 관례를 별도로 평가한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      45
+    ],
+    "source_pages": [
+      45
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T01-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "은행채는 회사채로서 증권신고서 제출대상이라는 교재 구분.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      253
+    ],
+    "source_pages": [
+      253
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T05-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "풋옵션부채권은 금리상승으로 가격이 떨어질 때 투자자의 상환청구권이 하락을 제한한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      264
+    ],
+    "source_pages": [
+      264
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T10-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "낮은 쿠폰은 다른 조건이 같을 때 더 긴 듀레이션과 연결된다. 원문의금리변동/쿠폰을 가격변동률로 계산한 표는 부정확하다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      275
+    ],
+    "source_pages": [
+      275
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T13-SUP-03": {
+    "publisher_answer": "③",
+    "explanation_text": "볼록성=44,341.24/9,305.78≈4.7649.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      286
+    ],
+    "source_pages": [
+      286
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T14-SUP-04": {
+    "publisher_answer": "③",
+    "explanation_text": "교재는 수평 곡선을 상승형과 하강형 사이의 과도기로 설명한다. 단일 곡선만으로 경기상태를 확정하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      289
+    ],
+    "source_pages": [
+      289
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T16-SUP-06": {
+    "publisher_answer": "③",
+    "explanation_text": "기하평균 수익률=(1.05×1.06×1.07)^(1/3)-1≈5.9969%.7.5%와 차이는 약1.5%p다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      297
+    ],
+    "source_pages": [
+      297
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T17-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "금리상승 예상 시 듀레이션을 낮추어 가격손실을 줄이는 교재 전략.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      300
+    ],
+    "source_pages": [
+      300
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T17-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "경기회복·신용스프레드 축소 예상에서는 국채매도/회사채매수의 Yield Pick Up Swap.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      301
+    ],
+    "source_pages": [
+      301
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5T17-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "중기물에 집중하는 불릿은 해당 수익률곡선 변화 예상에 따른 적극적 전략이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      301
+    ],
+    "source_pages": [
+      301
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-01": {
+    "publisher_answer": "③",
+    "explanation_text": "고정금리채는 이자금액 변동 여부의 분류이고 나머지는 지급방식의 분류다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      305
+    ],
+    "source_pages": [
+      304,
+      305
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-02": {
+    "publisher_answer": "④",
+    "explanation_text": "교재의 EB는 발행사가 보유한 타회사 주식으로 교환되어 자산과 부채가 함께 줄어든다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      305
+    ],
+    "source_pages": [
+      304,
+      305
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-03": {
+    "publisher_answer": "④",
+    "explanation_text": "금리하락 시 발행자의 상환은 callable이다. putable의 권리자는 투자자다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      305
+    ],
+    "source_pages": [
+      304,
+      305
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-04": {
+    "publisher_answer": "①",
+    "explanation_text": "교재는 채권이 대체로 장외시장에서 거래된다고 설명한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      305
+    ],
+    "source_pages": [
+      305
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-07": {
+    "publisher_answer": "②",
+    "explanation_text": "-0.0314=-3.22×0.01+0.5×C×0.01²에서 C=16.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      307
+    ],
+    "source_pages": [
+      306,
+      307
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C5-ADD-08": {
+    "publisher_answer": "④",
+    "explanation_text": "만기별 시장이 분리되는 가정은 시장분할이론이며 완전대체와 다르다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      307
+    ],
+    "source_pages": [
+      306,
+      307
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q010": {
+    "publisher_answer": "150%, 15,000원, +3,000원, 20%",
+    "explanation_text": "패리티=12000/8000;전환가치=10000×1.5;괴리=18000-15000;괴리율=3000/15000.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q016": {
+    "publisher_answer": "복수가낙찰방식, 단일가낙찰방식, 차등가격낙찰방식",
+    "explanation_text": "Conventional·Dutch·혼합방식을 낙찰가격 기준으로 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q017": {
+    "publisher_answer": "IDM",
+    "explanation_text": "국채딜러 간 장내 경쟁매매시장이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q018": {
+    "publisher_answer": "O",
+    "explanation_text": "투자매매업 인가와 별도의 국채전문딜러 지정 요건을 구분하는 출판사 답.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q019": {
+    "publisher_answer": "10%",
+    "explanation_text": "교재의 지표종목별 월 경쟁입찰 인수의무 비율.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      66
+    ],
+    "source_pages": [
+      66
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q022": {
+    "publisher_answer": "10000×1.04^5 / ((1.05)^3×(1+0.05×94/365))",
+    "explanation_text": "만기상환금은 표면금리5년 복리, 할인은 잔존3년94일의 YTM 관행방식이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      66
+    ],
+    "source_pages": [
+      66
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q032": {
+    "publisher_answer": "길어진다",
+    "explanation_text": "쿠폰이 낮아지면 조기 현금흐름 비중이 줄어 가중평균상환기간이 길어진다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      67
+    ],
+    "source_pages": [
+      67
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C5-Q033": {
+    "publisher_answer": "약5.05% 상승",
+    "explanation_text": "-2.78/(1.10)×(-0.02)≈0.050545. 맥컬레이와 수정듀레이션을 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      67
+    ],
+    "source_pages": [
+      67
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-33": {
+    "publisher_answer": "②",
+    "explanation_text": "복리채 만기상환금=10000×1.05²=11025원. YTM6%는 만기상환금 계산에 쓰지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      46
+    ],
+    "source_pages": [
+      46
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-34": {
+    "publisher_answer": "③",
+    "explanation_text": "할인채는 중간 지급0원, 만기 액면10000원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      47
+    ],
+    "source_pages": [
+      47
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-35": {
+    "publisher_answer": "③",
+    "explanation_text": "만기 지급은 원금10000+마지막 쿠폰300=10300원. 전기간 쿠폰합과 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      47
+    ],
+    "source_pages": [
+      47
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-35-1": {
+    "publisher_answer": "②",
+    "explanation_text": "매입 후2021년3월15일과9월15일 두 차례, 연200원을 반기로 나눈100원씩 지급.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      48
+    ],
+    "source_pages": [
+      48
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-36": {
+    "publisher_answer": "①",
+    "explanation_text": "전환가격100000/4=25000원, 패리티20000/25000=80%. 채권시장가격95000원은 불필요하다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      49
+    ],
+    "source_pages": [
+      49
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-36-unnumbered-example": {
+    "publisher_answer": "140%, 14,000원, 1,000원, 약7.14%",
+    "explanation_text": "7000/5000=1.4;전환가치14000;프리미엄15000-14000;괴리율1000/14000.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      50
+    ],
+    "source_pages": [
+      50
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-36-1": {
+    "publisher_answer": "③",
+    "explanation_text": "전환주수30000/10000=3주. 전환가치45000원, 괴리율1000/45000≈2.22%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      50
+    ],
+    "source_pages": [
+      50
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-37": {
+    "publisher_answer": "②",
+    "explanation_text": "P=10000/((1.0375)×(1+0.0375×61/365))≈9580원, 가까운 선택지9600원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      51
+    ],
+    "source_pages": [
+      51
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-37-1": {
+    "publisher_answer": "③",
+    "explanation_text": "P=10000/(1+0.05×91/365)=9876.87원, 원미만 절사9876원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      51
+    ],
+    "source_pages": [
+      51
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-38": {
+    "publisher_answer": "②",
+    "explanation_text": "경상수익률=연쿠폰800/시장가격9600≈8.33%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      52
+    ],
+    "source_pages": [
+      52
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-38-1": {
+    "publisher_answer": "②",
+    "explanation_text": "연쿠폰600/시장가격9500≈6.32%. 별도로 주어진YTM5%와 가격의 불일치는 별도 원문주의다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      52
+    ],
+    "source_pages": [
+      52
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-39": {
+    "publisher_answer": "①",
+    "explanation_text": "-2.72×(-0.01)=+2.72%. 양의 볼록성을 가진 채권에서 실제 상승폭을 과소평가한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      53
+    ],
+    "source_pages": [
+      53
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-39-1": {
+    "publisher_answer": "②",
+    "explanation_text": "-2.72×0.01=-2.72%. 양의 볼록성을 가진 채권에서 하락폭을 과대평가한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      54
+    ],
+    "source_pages": [
+      54
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-40": {
+    "publisher_answer": "②",
+    "explanation_text": "-0.0278=-2.87×0.01+0.5×C×0.01²에서 C=18.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      54,
+      55
+    ],
+    "source_pages": [
+      54,
+      55
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-40-1": {
+    "publisher_answer": "②",
+    "explanation_text": "0.0732=-3.24×(-0.02)+0.5×C×0.02²에서 C=42.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      56
+    ],
+    "source_pages": [
+      56
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-41": {
+    "publisher_answer": "③",
+    "explanation_text": "44341.24/9305.78≈4.7649. 원문 중간 분모9308.78은 제시가격과 다르다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      57
+    ],
+    "source_pages": [
+      57
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-41-1": {
+    "publisher_answer": "②",
+    "explanation_text": "볼록성 기여분만 계산:0.5×4.76×(-0.01)²=0.000238=0.0238%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      58
+    ],
+    "source_pages": [
+      58
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-41-1-unnumbered-example": {
+    "publisher_answer": "-2.9%",
+    "explanation_text": "전체 가격변동률 근사=-3×0.01+0.5×20×0.01²=-0.029.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      58
+    ],
+    "source_pages": [
+      58
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-42": {
+    "publisher_answer": "③",
+    "explanation_text": "(1.033)²=1.03×(1+f);f≈3.6009%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      59
+    ],
+    "source_pages": [
+      59
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-42-unnumbered-example": {
+    "publisher_answer": "약12.11%",
+    "explanation_text": "(1.08)³=(1.06)²×(1+f);f≈12.1139%. 약식12%와 구분한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      59
+    ],
+    "source_pages": [
+      59
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-42-1": {
+    "publisher_answer": "②",
+    "explanation_text": "(1.05)²=(1+s1)×1.053에서 s1≈4.70085%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      60
+    ],
+    "source_pages": [
+      60
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T10-SUP-04": {
+    "publisher_answer": "③",
+    "explanation_text": "콜 매수 손익분기점=행사가격100+프리미엄3=103. 정확히103에서는 손익0, 양의 이익은103 초과다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      336
+    ],
+    "source_pages": [
+      336
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T10-SUP-05": {
+    "publisher_answer": "②",
+    "explanation_text": "같은 다른 조건에서 교재는 등가격 C(250)의 시간가치를 가장 높게 본다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      336
+    ],
+    "source_pages": [
+      336
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T10-SUP-06": {
+    "publisher_answer": "②",
+    "explanation_text": "풋 내재가치=max(250-253,0)=0, 시간가치=1.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      336
+    ],
+    "source_pages": [
+      336
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T11-CORE": {
+    "publisher_answer": "①",
+    "explanation_text": "강세스프레드는 방향성전략이다. 스트랭글매도를 변동성매수라고 쓴 해설은 잘못이며 변동성매도다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      337
+    ],
+    "source_pages": [
+      337
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T11-SUP-04": {
+    "publisher_answer": "④",
+    "explanation_text": "매수풋손익=-1.5,매도풋손익=-5+5=0,합계-1.5point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      341
+    ],
+    "source_pages": [
+      341
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6T13-SUP-01": {
+    "publisher_answer": "②",
+    "explanation_text": "풋콜패리티 c+PV(K)=p+S를 p=c+PV(K)-S로 정리한다. PDF347 시각 대조 완료.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      347
+    ],
+    "source_pages": [
+      347
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6-ADD-06": {
+    "publisher_answer": "①",
+    "explanation_text": "교재의 금리차 근사1200×(1+0.02-0.04)=1176. 정확한 단리 IRP 비율식과 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      365
+    ],
+    "source_pages": [
+      364,
+      365
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6-ADD-07": {
+    "publisher_answer": "②",
+    "explanation_text": "원월-근월 스프레드 축소를 예상하여 근월매수·원월매도.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      365
+    ],
+    "source_pages": [
+      364,
+      365
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C6-ADD-08": {
+    "publisher_answer": "③",
+    "explanation_text": "콜매수 행사가100+지급2=102,콜매도 행사가120+수취3=123이 각 손익분기점이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      365
+    ],
+    "source_pages": [
+      365
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C6-Q009": {
+    "publisher_answer": "1326원(교재 금리차 근사)",
+    "explanation_text": "1300×(1+0.04-0.02)=1326. 정확한 IRP1300×1.04/1.02와 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      71
+    ],
+    "source_pages": [
+      71
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C6-Q017": {
+    "publisher_answer": "풋옵션 매수, 풋옵션 매도",
+    "explanation_text": "기초자산의 하락 방향에 대한 기본 포지션 손익을 비교한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C6-Q018": {
+    "publisher_answer": "20, 0",
+    "explanation_text": "콜max(100-80,0)=20;풋max(80-100,0)=0.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C6-Q019": {
+    "publisher_answer": "6",
+    "explanation_text": "시간가치=프리미엄36-내재가치30=6.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C6-Q020": {
+    "publisher_answer": "ITM(내가격)",
+    "explanation_text": "내재가치가 양수인 상태다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-43": {
+    "publisher_answer": "②",
+    "explanation_text": "잔액65<유지100이므로 마진콜, 개시115까지의 차이50억 원 납부.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      60
+    ],
+    "source_pages": [
+      60
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-43-unnumbered-example": {
+    "publisher_answer": "800만원",
+    "explanation_text": "잔액700<유지1000이므로 개시1500-잔액700=800만원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      61
+    ],
+    "source_pages": [
+      61
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-43-1": {
+    "publisher_answer": "②",
+    "explanation_text": "개시증거금=정산후60+추가40=100억 원. 문항은 추가액이 아니라 개시액을 묻는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      61
+    ],
+    "source_pages": [
+      61
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-43-2": {
+    "publisher_answer": "①",
+    "explanation_text": "잔액90>유지80이므로 마진콜이 없고 추가납부0원. 개시120과 차이를 바로 계산하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      62
+    ],
+    "source_pages": [
+      62
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-44": {
+    "publisher_answer": "③",
+    "explanation_text": "교재 근사1200×(1+0.02-0.01)=1212원. 정확한 IRP는1200×1.02/1.01≈1211.881원.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      63
+    ],
+    "source_pages": [
+      63
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-44-1": {
+    "publisher_answer": "①",
+    "explanation_text": "제시 선도1140이 균형값보다 높으므로 선도매도·현물달러매수, 원화차입·달러운용.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      64
+    ],
+    "source_pages": [
+      64
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-45": {
+    "publisher_answer": "②",
+    "explanation_text": "원월-근월 차이 축소에서 근월9월물 매수·원월12월물 매도.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      64,
+      65
+    ],
+    "source_pages": [
+      64,
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-45-1": {
+    "publisher_answer": "③",
+    "explanation_text": "원월-근월 차이 확대에서 근월9월물 매도·원월12월물 매수.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      65
+    ],
+    "source_pages": [
+      65
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-46": {
+    "publisher_answer": "②",
+    "explanation_text": "콜 내재가치=max(400-395,0)=5point. 시간가치는8-5=3point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      66
+    ],
+    "source_pages": [
+      66
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-46-1": {
+    "publisher_answer": "③",
+    "explanation_text": "콜 외가격이므로 내재가치0,시간가치1.8point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      67
+    ],
+    "source_pages": [
+      67
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-46-2": {
+    "publisher_answer": "②",
+    "explanation_text": "풋 외가격이므로 내재가치0,시간가치1point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      67
+    ],
+    "source_pages": [
+      67
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-47": {
+    "publisher_answer": "③",
+    "explanation_text": "매수P295손익=-1,매도P300손익=5-3=2,합계+1point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      68
+    ],
+    "source_pages": [
+      68
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-47-1": {
+    "publisher_answer": "④",
+    "explanation_text": "매수C295손익=5-3=2,매도C300손익=1,합계+3point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      69
+    ],
+    "source_pages": [
+      69
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-48": {
+    "publisher_answer": "③",
+    "explanation_text": "순프리미엄8,손익=8-|S-100|. 양의 수익구간은92<S<108,끝점은손익0.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      69,
+      70
+    ],
+    "source_pages": [
+      69,
+      70
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-49": {
+    "publisher_answer": "①",
+    "explanation_text": "p=4+200/(1+0.04×3/12)-200≈2.0198point.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      71
+    ],
+    "source_pages": [
+      71
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-50": {
+    "publisher_answer": "②",
+    "explanation_text": "출판사는 행사가100을 암묵적으로 가정하고 제시p0.4로10×0.4/1.02≈3.92를 선택한다. 주식에서 역산한p0.6과 충돌하고 행사가가 지문에 없어 확정 채점 보류.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-50-unnumbered-example": {
+    "publisher_answer": "약25.24(교재 절사)",
+    "explanation_text": "도식의상승150·하락50·행사가100이면 위험중립p0.51,콜가격50×0.51/1.01≈25.2475. 본문 하락100은 도식과 충돌한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      72
+    ],
+    "source_pages": [
+      72
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-50-1": {
+    "publisher_answer": "②",
+    "explanation_text": "출판사는 미기재행사가110을 가정한 콜만기이익10과 제시가격3을 써p=3×1.01/10=0.303을 선택한다. 주식값으로 역산한0.555와 충돌하므로 확정 채점 보류.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      73
+    ],
+    "source_pages": [
+      73
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-51": {
+    "publisher_answer": "②",
+    "explanation_text": "가격변화분의 비율(6-5)/(110-100)=0.1. 수익률비가 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      73
+    ],
+    "source_pages": [
+      73
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-51-1": {
+    "publisher_answer": "④",
+    "explanation_text": "(8-10)/(110-100)=-0.2,교재의 다른 조건 고정 아래 풋의 민감도다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      74
+    ],
+    "source_pages": [
+      74
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C7T03-SUP-02": {
+    "publisher_answer": "③",
+    "explanation_text": "기간별 자산가중수익률50%,40%를 기하연결하면 누적110%, 연평균sqrt(2.1)-1=44.9138%, 보기45%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      375
+    ],
+    "source_pages": [
+      375
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C7T03-SUP-03": {
+    "publisher_answer": "③",
+    "explanation_text": "대표계정만 선택하는 오류와 청산된 저성과 펀드를 빼는 생존계정 오류를 구별한다. 앞 문항의 수익률 계산 해설은 이 문항 해설이 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      375
+    ],
+    "source_pages": [
+      375
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C7T04-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 일간보다 월간·연간 자료를 권한다. 표준편차 계산 자체가 정규분포를 필수로 요구하거나 기간 집계가 정규성을 보장한다는 뜻으로 확대하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      377
+    ],
+    "source_pages": [
+      377
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C7T05-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "특정 펀드의 운용특성에 맞춘 포트폴리오는 정상포트폴리오와 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      380
+    ],
+    "source_pages": [
+      380
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C7T06-SUP-05": {
+    "publisher_answer": "④",
+    "explanation_text": "교재는 샤프비율과 정보비율을 선택한다. 정보비율의 추적오차와 시장회귀 잔차위험을 무조건 같다고 가르치지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      385
+    ],
+    "source_pages": [
+      385
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-52": {
+    "publisher_answer": "②",
+    "explanation_text": "TWR=0%. MWR은 x=1+r에 대해 x²+0.8x-2=0의 양의 해를 사용해 약6.9694%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      74,
+      75
+    ],
+    "source_pages": [
+      74,
+      75
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-52-unnumbered-variant": {
+    "publisher_answer": "③",
+    "explanation_text": "TWR=0%. MWR은 x=1+r에 대해 x²+2x-2=0이므로 r=sqrt(3)-2≈-26.7949%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      76
+    ],
+    "source_pages": [
+      76
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-53": {
+    "publisher_answer": "③",
+    "explanation_text": "누적수익률40%, 연평균수익률sqrt(1.4)-1≈18.3216%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      77
+    ],
+    "source_pages": [
+      77
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-53-1": {
+    "publisher_answer": "③",
+    "explanation_text": "기하평균40%, 산술평균62.5%. 평가기간과 복리 여부를 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      78
+    ],
+    "source_pages": [
+      78
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-54": {
+    "publisher_answer": "②",
+    "explanation_text": "(0.06-0.03)/0.10=0.3.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      78,
+      79
+    ],
+    "source_pages": [
+      78,
+      79
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-54-1": {
+    "publisher_answer": "②",
+    "explanation_text": "(0.07-0.02)/0.10=0.5.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      80
+    ],
+    "source_pages": [
+      80
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-54-2": {
+    "publisher_answer": "③",
+    "explanation_text": "월간 샤프비율(0.13-0.03)/0.04=2.5. 교재 연율화 가정에서2.5×sqrt(12)=8.66025.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      80
+    ],
+    "source_pages": [
+      80
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-55": {
+    "publisher_answer": "③",
+    "explanation_text": "젠센알파=(0.10-0.05)-0.8×(0.07-0.05)=0.034, 즉3.4%p.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      81
+    ],
+    "source_pages": [
+      81
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-56": {
+    "publisher_answer": "②",
+    "explanation_text": "샤프A=B=0.6, 트레이너A=0.12 B=0.06, 알파A=0.045 B=0.06. 교재 정보비율0.6/0.9는 잔차위험을 분모로 사용한 전제이며 추적오차와 자동 동일시하지 않는다. 베타 단위는%가 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      82
+    ],
+    "source_pages": [
+      82
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-56-1": {
+    "publisher_answer": "②",
+    "explanation_text": "샤프 최대A=(0.18-0.03)/0.20=0.75. 트레이너 최대C=(0.24-0.03)/1.6=0.13125.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      83
+    ],
+    "source_pages": [
+      83
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C7-Q010": {
+    "publisher_answer": "O",
+    "explanation_text": "통합계정은 세부기간별 순자산가중수익률을 계산하고 기하연결한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      76
+    ],
+    "source_pages": [
+      76
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C7-Q017": {
+    "publisher_answer": "-2.0",
+    "explanation_text": "시장하락 시 음의 베타가 큰 포지션이 모형상 가장 높은 수익률이다. 예시의 베타1 수익률-2%는-10%의 오기.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      76
+    ],
+    "source_pages": [
+      76
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C7-Q018": {
+    "publisher_answer": "전체위험지표 / 하락위험지표 / 상대적위험지표",
+    "explanation_text": "안정성, 목표 미달, 기준지표 대비라는 평가 목적에 맞춰 위험지표를 고른다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      76
+    ],
+    "source_pages": [
+      76
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C7-Q025": {
+    "publisher_answer": "3년",
+    "explanation_text": "교재가 권하는 월간자료 기간이다. 이 기간만으로 정규성이나 추정 신뢰성이 보장되는 것은 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      77
+    ],
+    "source_pages": [
+      77
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C7-Q026": {
+    "publisher_answer": "O",
+    "explanation_text": "출판사는O. 잘 분산되면 두 평가의 순위가 유사할 수 있으나 서로 단위가 다른 샤프와 트레이너의 수치 크기를 그대로 비교하는 일반화는 보류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      77
+    ],
+    "source_pages": [
+      77
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C8T08-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "실업률의 분모는 취업자+실업자인 경제활동인구이다. 생산가능인구가 아니다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      421
+    ],
+    "source_pages": [
+      421
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C8T09-SUP-02": {
+    "publisher_answer": "②",
+    "explanation_text": "V=PY/M=0.8×2500/2000=1. 횟수이며100을 다시 곱하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      423
+    ],
+    "source_pages": [
+      423
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C8-ADD-04": {
+    "publisher_answer": "②",
+    "explanation_text": "거래적·예비적 화폐수요는 소득의 함수, 투기적 수요는 이자율의 함수로 설명하는 교재 모형.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      429
+    ],
+    "source_pages": [
+      428,
+      429
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-57": {
+    "publisher_answer": "③",
+    "explanation_text": "유동성프리미엄=7.5%-[(1.05×1.06×1.07)^(1/3)-1]≈1.5031%p. 보기1.5%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      84
+    ],
+    "source_pages": [
+      84
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-57-1": {
+    "publisher_answer": "③",
+    "explanation_text": "교재 산술평균 근사에서3.9%-2.0%=(1.2%+x+2.7%)/3, x=1.8%. 정확한 기하평균 관계와 근사를 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      85
+    ],
+    "source_pages": [
+      85
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-58": {
+    "publisher_answer": "②",
+    "explanation_text": "통화유통속도=명목GDP/통화량=2000/2500=0.8. 디플레이터 비율은2000/1250=1.6.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      86
+    ],
+    "source_pages": [
+      86
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-58-1": {
+    "publisher_answer": "②",
+    "explanation_text": "V=PY/M=0.5×3200/2000=0.8.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      87
+    ],
+    "source_pages": [
+      87
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-59": {
+    "publisher_answer": "④",
+    "explanation_text": "경제활동인구25, 생산가능인구50. 실업률5/25=20%, 참가율25/50=50%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      87
+    ],
+    "source_pages": [
+      87
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-59-1": {
+    "publisher_answer": "④",
+    "explanation_text": "실업자400-300=100, 실업률100/400=25%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      88
+    ],
+    "source_pages": [
+      88
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-60": {
+    "publisher_answer": "③",
+    "explanation_text": "BSI=100+(60-40)/100×100=120. 호전 응답 우세. 긍정비중×200 약식은 중립 응답이 없는 본 조건에 한정한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      88
+    ],
+    "source_pages": [
+      88
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C8-Q016": {
+    "publisher_answer": "수평, 무한대",
+    "explanation_text": "유동성함정의 교재 모형에서 화폐수요 이자율탄력성은 무한대이고 LM곡선은 수평이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      80
+    ],
+    "source_pages": [
+      80
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C8-Q017": {
+    "publisher_answer": "피구효과",
+    "explanation_text": "물가하락으로 실질잔고가 증가해 소비에 영향을 미치는 경로를 묻는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      80
+    ],
+    "source_pages": [
+      80
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C8-Q038": {
+    "publisher_answer": "X",
+    "explanation_text": "출판사는 통화유통속도의 사후추계와 예측기능 한계를 설명한다. 유통속도 식에100을 곱하는 원문 표기는 횟수와 백분율 혼동이므로 교정한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      83
+    ],
+    "source_pages": [
+      83
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C8-Q039": {
+    "publisher_answer": "0.8",
+    "explanation_text": "명목GDP800/통화량1000=0.8.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      83
+    ],
+    "source_pages": [
+      83
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C9T01-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "상관계수는-1부터+1 범위이다. OCR의8은 무한대 기호 오인일 수 있으며 공분산과 상관계수를 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      436
+    ],
+    "source_pages": [
+      436
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C9T04-SUP-03": {
+    "publisher_answer": "④",
+    "explanation_text": "도표의 나 지점은 시장포트폴리오M보다 오른쪽이므로 무위험자산을 차입해 위험자산에 더 투자한 포트폴리오이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      447
+    ],
+    "source_pages": [
+      447
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C9T05-SUP-01": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는④. CML은 표준편차, SML은베타 공간이므로 두 선의 위아래를 같은 좌표 없이 비교하지 않는다. 완전분산 시 두 모형의 수익률이 일치한다는 뜻과 선 자체 동일성을 구별한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      450
+    ],
+    "source_pages": [
+      450
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C9T06-CORE": {
+    "publisher_answer": "④",
+    "explanation_text": "출판사는 작은베타를 더 민감하다고 한④를 고른다.③의 베타=최적 위험보상비율 주장도 부적절하므로 단일정답 채점은 보류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      452
+    ],
+    "source_pages": [
+      452
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "S3C9T07-SUP-02": {
+    "publisher_answer": "④",
+    "explanation_text": "①CML,②SML,③SCL,④단일요인 차익거래모형. 요인 충격과 위험프리미엄의 기호를 혼용하지 않는다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      457
+    ],
+    "source_pages": [
+      457
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-61": {
+    "publisher_answer": "②",
+    "explanation_text": "시나리오확률로 X기대7%,Y기대4.8%를 구하고 50:50으로 가중하면5.9%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      89
+    ],
+    "source_pages": [
+      89
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-62": {
+    "publisher_answer": "④",
+    "explanation_text": "기대수익률7%, 표준편차3%는 수익률이 낮거나 위험이 높은 나머지 선택지를 지배한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      89
+    ],
+    "source_pages": [
+      89
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-62-1": {
+    "publisher_answer": "②",
+    "explanation_text": "교재는 제시 표준편차를 사용해B를 고른다. 시나리오에서 직접 계산한 표준편차와 제시값이 충돌하므로 전제를 명시하지 않은 독립 gold는 보류한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      90
+    ],
+    "source_pages": [
+      90
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-63": {
+    "publisher_answer": "②",
+    "explanation_text": "상관-1일 때 wX=0.3/(0.2+0.3)=0.6, 두 위험 노출이 상쇄된다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      91
+    ],
+    "source_pages": [
+      91
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-63-1": {
+    "publisher_answer": "④",
+    "explanation_text": "상관0이므로 wX=0.2²/(0.1²+0.2²)=0.8. 해설 첫줄60%는 뒤의 계산·정답80%와 충돌하는 오기.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      92
+    ],
+    "source_pages": [
+      92
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-63-2": {
+    "publisher_answer": "②",
+    "explanation_text": "구하는 것은B비중이므로 분자는A분산. wB=0.3²/(0.3²+0.4²)=0.36.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      92
+    ],
+    "source_pages": [
+      92
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-64": {
+    "publisher_answer": "③",
+    "explanation_text": "기대수익률0.6×20%+0.4×4%=13.6%, 표준편차0.6×12%=7.2%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      93
+    ],
+    "source_pages": [
+      93
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-64-1": {
+    "publisher_answer": "②",
+    "explanation_text": "무위험자산의 표준편차0이므로 포트폴리오 표준편차0.4×20%=8%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      94
+    ],
+    "source_pages": [
+      94
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-65": {
+    "publisher_answer": "①",
+    "explanation_text": "샤프비율=(6%-3%)/4%=0.75. 같은 양의 위험자산 비중의 자본배분선에서는 일정하다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      94
+    ],
+    "source_pages": [
+      94
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-65-1": {
+    "publisher_answer": "③",
+    "explanation_text": "샤프비율=(8%-2%)/4%=1.5.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      95
+    ],
+    "source_pages": [
+      95
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-66": {
+    "publisher_answer": "②",
+    "explanation_text": "(7%-4%)/0.2=(10%-4%)/βB, 따라서βB=0.4. 같은 것은 단위베타당 프리미엄이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      96
+    ],
+    "source_pages": [
+      96
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-66-1": {
+    "publisher_answer": "③",
+    "explanation_text": "βB=0.1×(8%-3%)/(7%-3%)=0.125.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      97
+    ],
+    "source_pages": [
+      97
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-67": {
+    "publisher_answer": "③",
+    "explanation_text": "β=공분산0.16/시장분산0.04=4. 요구수익률2%+4×(3%-2%)=6%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      97
+    ],
+    "source_pages": [
+      97
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-67-1": {
+    "publisher_answer": "④",
+    "explanation_text": "시장 표준편차를 먼저 제곱한다. β=0.20/0.40²=1.25, 요구수익률2%+1.25×4%=7%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      98
+    ],
+    "source_pages": [
+      98
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-67-2": {
+    "publisher_answer": "④",
+    "explanation_text": "시장표준편차sqrt(0.25)=0.5. β=0.5×0.8×0.5/0.25=0.8. 요구수익률3%+0.8×10%=11%.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      98
+    ],
+    "source_pages": [
+      98
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-68": {
+    "publisher_answer": "②",
+    "explanation_text": "A요구2.6%보다 기대4%가 높으므로저평가. B요구5%보다 기대4%가 낮으므로고평가.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      99
+    ],
+    "source_pages": [
+      99
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-68-1": {
+    "publisher_answer": "④",
+    "explanation_text": "A요구4%<기대5%,B요구8%<기대9%이므로 둘 다저평가.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      100
+    ],
+    "source_pages": [
+      100
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-69": {
+    "publisher_answer": "②",
+    "explanation_text": "베타는 편입비중으로 가중한다.0.5×1.5+0.5×0.5=1.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      100
+    ],
+    "source_pages": [
+      100
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-69-1": {
+    "publisher_answer": "③",
+    "explanation_text": "포트폴리오베타=0.6×1.2+0.4×0.8=1.04.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      101
+    ],
+    "source_pages": [
+      101
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "CALC-70": {
+    "publisher_answer": "②",
+    "explanation_text": "위험프리미엄λ1=8%-3%,λ2=10%-3%로 해석하면 기대수익률3%+0.4×5%+0.6×7%=9.2%. 평균0의 요인 충격F와λ를 같은 변수로 취급한 교재 설명은 교정해야 한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      102,
+      103
+    ],
+    "source_pages": [
+      102,
+      103
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C9-Q002": {
+    "publisher_answer": "E(Rp)=wE(RA)+(1-w)E(RB)",
+    "explanation_text": "기대수익률은 비중 가중평균이다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      84
+    ],
+    "source_pages": [
+      84
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C9-Q003": {
+    "publisher_answer": "σp²=wX²σX²+wY²σY²+2wXwYσXσYρXY",
+    "explanation_text": "위험의 분산식에는 공분산항이 필요하다. 표준편차를 요구하면 전체의 제곱근을 취한다.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      84
+    ],
+    "source_pages": [
+      84
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  },
+  "NOTE-S3C9-Q008": {
+    "publisher_answer": "0.6",
+    "explanation_text": "상관-1, 표준편차0.2와0.3일 때 X비중0.3/(0.2+0.3)=0.6.",
+    "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+    "answer_pages": [
+      85
+    ],
+    "source_pages": [
+      85
+    ],
+    "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+    "locator_status": "manual_source_recovery"
+  }
+}

@@ -1,0 +1,2610 @@
+11876
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+1 Exemption for Certain Open-End Management
+Investment Companies to Impose Contingent
+Deferred Sales Loads, Investment Company Act
+Release No. 20916 (Feb. 23, 1995); Exemption for
+Certain Open-End Management Investment
+Companies to Impose Deferred Sales Loads,
+Investment Company Act Release No. 20917 (Feb.
+23, 1995).
+2 Master-feeder funds are often referred to as
+‘‘core and feeder’’ or ‘‘hub and spoke’’ funds.
+Signature Financial Group is the originator and
+patent licensor of the Hub and Spokeform of the
+master-feeder structure.
+SECURITIES AND EXCHANGE
+COMMISSION
+17 CFR Parts 239, 270, and 274
+[Release Nos. 33–7143, IC–20915, File No.
+S7–32–93]
+RIN 3235–AF00
+Exemption for Open-End Management
+Investment Companies Issuing
+Multiple Classes of Shares; Disclosure
+by Multiple Class and Master-Feeder
+Funds; Class Voting on Distribution
+Plans
+AGENCY: Securities and Exchange
+Commission
+ACTION: Final Rules
+SUMMARY: The Securities and Exchange
+Commission is adopting a rule under
+the Investment Company Act of 1940
+(‘‘Investment Company Act’’) to permit
+open-end management investment
+companies (‘‘mutual funds’’) to issue
+multiple classes of voting stock
+representing interests in the same
+portfolio. The new rule will eliminate
+the need for funds seeking to issue
+multiple classes of their shares to apply
+for exemptions. The Commission also is
+adopting amendments to certain
+registration statement forms under the
+Investment Company Act and the
+Securities Act of 1933 (‘‘Securities Act’’)
+and publishing a staff guide to one
+registration form. These amendments
+require that multiple class and master-
+feeder funds provide investors with
+certain disclosure. The disclosure will
+allow investors to obtain information
+about these funds and their structures.
+DATES: Effective Date: April 3, 1995.
+Compliance Date: Registration
+statements and post-effective
+amendments filed with the Commission
+after the effective date must be in
+compliance with the amendments to
+Forms N–1A and N–14.
+FOR FURTHER INFORMATION CONTACT:
+Karrie McMillan, Senior Counsel (202)
+942–0695, or Robert G. Bagnall,
+Assistant Chief (202) 942–0686, Office
+of Regulatory Policy, Division of
+Investment Management, 450 Fifth
+Street, NW., Stop 10–6, Washington,
+D.C. 20549.
+Requests for formal interpretive
+advice should be directed to the Office
+of Chief Counsel (202) 942–0659,
+Division of Investment Management,
+450 Fifth Street, N.W., Washington, D.C.
+20549.
+SUPPLEMENTARY INFORMATION: The
+Commission is today adopting rule 18f–
+3 [17 CFR 270.18f–3] and a related
+amendment to rule 12b–1 [17 CFR
+270.12b–1], both under the Investment
+Company Act. The Commission is also
+adopting amendments to Forms N–1A
+[17 CFR 239.15A, 274.11A] and N–14
+[17 CFR 239.23].
+Most multiple class funds have also
+obtained exemptive relief to impose
+contingent deferred sales loads
+(‘‘CDSLs’’). In separate releases, the
+Commission also is adopting rule 6c–10
+[17 CFR 270.6c–10] under the
+Investment Company Act, to allow
+mutual funds to impose CDSLs, and
+proposing to amend the rule to permit
+other forms of deferred loads, such as
+installment loads, and to remove many
+of the requirements of the rule as
+adopted.1
+Table of Contents
+Executive Summary
+I. Background
+II. Discussion
+A. Rule 18f–3
+1. Differences in Distribution and
+Shareholder Services
+2. Allocation of Expenses
+a. Class Expenses
+b. Allocation of Fund Income and
+Expenses
+c. Accountant’s Report on System of
+Internal Control
+d. Waivers and Reimbursements of
+Expenses
+3. Voting and Other Rights and Obligations
+4. Exchange Privileges and Conversions
+5. Board Review of Plans
+B. Rule 12b–1
+C. Disclosure
+1. Prospectus Disclosure Concerning Other
+Classes or Feeder Funds
+2. Discussion of Classes or Feeder Funds
+Offered in Prospectus
+3. Discussion of Classes Into Which Shares
+May Convert or Be Exchanged
+4. Advertising and Sales Literature
+D. Effective Dates
+III. Cost/Benefit of the Proposals
+IV. Regulatory Flexibility Act Analysis
+V. Statutory Authority
+VI. Text of Adopted Rule and Rule and Form
+Amendments
+Executive Summary
+Since 1985, the Commission has
+issued approximately 200 exemptive
+orders allowing funds to issue multiple
+classes of shares representing interests
+in the same portfolio, typically with
+different distribution arrangements. The
+orders frequently impose as many as 20
+conditions designed to address various
+investor protection concerns.
+The Commission is adopting rule 18f–
+3 under the Investment Company Act,
+which will permit funds to issue
+multiple classes of shares without the
+need to seek exemptions from the
+Commission. The rule will decrease the
+amount of time and expense involved in
+creating these structures. It also will
+reduce the Commission’s burden of
+reviewing the applications. The rule
+requires certain differences in the
+expenses, rights, and obligations of
+different classes, permits certain other
+differences among classes, specifies the
+matters on which class voting is
+required, and prescribes how income
+and expenses must be allocated. The
+rule also emphasizes the responsibilities
+of the board of directors to establish and
+monitor allocation and other procedures
+in the best interests of each class and of
+the fund as a whole. Finally, the rule
+permits, but does not require, different
+classes to have different exchange
+privileges and conversion rights. A
+related amendment to rule 12b–1
+clarifies that a rule 12b–1 plan must
+have separate provisions for each class;
+any action on the plan, such as director
+or shareholder approval, must take
+place separately for each class.
+Over the past few years, many fund
+sponsors have adopted another
+distribution arrangement designed to
+achieve many of the same business goals
+as the multiple class structure without
+the need to obtain exemptions under
+section 18. This ‘‘master-feeder’’
+arrangement comprises a two-tier
+structure in which one or more funds
+(the upper tier) invest solely in the
+securities of another fund (the lower
+tier).2 Although master-feeder structures
+are functionally similar to multiple class
+funds, they are viewed as not needing
+exemptions and have been subject to
+different disclosure requirements.
+The disclosure requirements adopted
+today apply equally to multiple class
+and master-feeder funds, and are similar
+to those currently in effect for master-
+feeder funds. A prospectus for a class or
+feeder fund will be required to include
+disclosure about other publicly offered
+classes or feeder funds not offered
+through the prospectus and a telephone
+number an investor may call to receive
+additional information about other
+classes or feeder funds sold by the same
+bank, broker, or other financial
+intermediary. In view of commenters’
+concerns, the Commission is not
+adopting the more extensive disclosure
+requirements originally proposed. The
+provisions as adopted are consistent
+
+11877
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+3 P.W. Coolidge, Business Applications of the Hub
+and SpokeStructure, 1993 Mutual Funds &
+Investment Management Conference X–3 (Mar. 11,
+1993); R.M. Phillips and C.E. Plaza, Hub & Spoke
+Mutual Funds, 26 Securities & Commodities
+Regulation 137 (Aug. 1993). See also ‘‘Hub-and-
+Spoke’’ Funds: A Report Prepared by the Division
+of Investment Management, submitted with letter
+from Richard C. Breeden, Chairman, SEC, to John
+D. Dingell, Chairman, House Comm. on Energy and
+Commerce (Apr. 15, 1992).
+4 See, e.g., Exemption for Open-End Management
+Investment Companies Issuing Multiple Classes of
+Shares; Disclosure by Multiple Class and Master-
+Feeder Funds, Investment Company Act Release
+No. 19955 (Dec. 15, 1993), 58 FR 68074 (Dec. 23,
+1993) [hereinafter Proposing Release].
+5 See Proposing Release, 58 FR at 68082 n.59; see
+also Jeff Kelly, A Fine Mess, Morningstar Mutual
+Funds, Nov. 25, 1994, at S1; Carole Gould, Brokers’
+New Pitch; Level Load on Funds, N.Y. Times, May
+7, 1994, at 37 (‘‘If investors are confused about
+which pricing method is best for them, it’s no
+wonder’’); Vanessa O’Connell, Mastering the ABCs
+of Fund Shares, Money, Sept. 1993 (‘‘Counting A,
+B and C shares, analysts now predict that the
+number of fund options could double to a mind-
+numbing 8,000 within the next 18 months’’).
+6 Proposing Release, supra note 4.
+7 The comment letters, as well as a comment
+summary dated Dec. 21, 1994 prepared by the
+Commission’s staff, are available for public
+inspection and copying at the Commission’s public
+reference room in File No. S7–32–93.
+8 15 U.S.C. § 80a–18(f)(1) and –(i). Section 18(f)(1)
+generally makes it ‘‘unlawful for any registered
+open-end company to issue any class of senior
+security.’’ Section 18(g) defines senior security to
+include any stock of a class having a priority over
+any other class as to distribution of assets or
+payment of dividends. Section 18(i) requires that
+every share of stock issued by a registered
+investment company be voting stock, with the same
+voting rights as every other outstanding voting
+stock.
+9 Funds currently relying on exemptive orders
+that choose to operate instead under the new rule
+must first prepare plans under paragraph (d) of the
+rule and file copies of the plans with the
+Commission as exhibits to their registration
+statements under new Item 24(b)(18) of Form N–1A.
+Provided that no changes are made to arrangements
+and expense allocations under an existing order,
+paragraph (d) does not require board approval of the
+plan. A fund choosing to rely on an existing
+exemptive order, including one providing an
+exemption for ‘‘future classes,’’ may continue to do
+so, provided it complies with all of the conditions
+in the order (including the disclosure conditions);
+in addition, such a fund would also be subject to
+the disclosure requirements adopted today. See
+discussion at II.A.5. regarding the adoption of a
+multiple class plan under the rule.
+with the Commission’s encouragement
+of simplified prospectuses.
+I. Background
+Both the multiple class and master-
+feeder structures may benefit
+shareholders and fund sponsors. These
+structures may increase investor choice,
+result in efficiencies in the distribution
+of fund shares, and allow fund sponsors
+to tailor products more closely to
+different investor markets. Fund
+sponsors assert that multiple classes
+may enable funds to attract larger asset
+bases, permitting them to spread fixed
+costs over more shares, qualify for
+discounts in advisory fees
+(‘‘breakpoints’’), and otherwise
+experience economies of scale, resulting
+in lower fees and expenses. They also
+state that multiple classes avoid the
+need to create ‘‘clone’’ funds, which
+require duplicative portfolio and fund
+management expenses. Furthermore,
+fund sponsors state that a larger asset
+base permits greater portfolio liquidity
+and diversification.
+Master-feeder funds may achieve
+similar benefits of economies of scale,
+thus potentially lowering expenses, and
+also allow several different small funds
+access to the same management and
+compliance personnel. The master-
+feeder structure allows a fund sponsor
+to offer feeder funds that invest in
+specialized portfolios, even though the
+sponsor’s expected asset base may not
+justify organizing a stand-alone fund for
+that market or market segment.
+Sponsors also use this structure to offer
+off-shore and other unregistered feeder
+funds.3
+Investor understanding of sales and
+service charges in both arrangements,
+however, has been a subject of concern
+to the Commission.4 Some
+commentators have asserted that the
+complexity generated by these
+arrangements may confuse many
+investors, who often may not
+understand them or the effect that fees
+have upon performance.5
+On December 15, 1993, the
+Commission proposed for public
+comment rule 18f–3 and related
+amendments to rule 12b–1 under the
+Investment Company Act and
+advertising and prospectus disclosure
+requirements.6 Among other things, rule
+18f–3 would have allowed funds to
+issue multiple classes of shares without
+the need to apply for and receive an
+exemption from the Commission and
+largely would have codified the
+exemptive orders. The proposal also
+would have made consistent the
+disclosure requirements of Form N–1A
+for multiple class and master-feeder
+funds by imposing disclosure
+requirements based on those in the
+multiple class exemptive orders. These
+requirements would have included a
+prominent legend following the fee table
+disclosing the availability of other
+classes or feeder funds not offered in
+that prospectus, and an undertaking to
+provide investors with additional
+information about other classes or
+feeder funds. They also would have
+required full cross-disclosure in the
+prospectus about any other classes or
+feeder funds that were offered or made
+available through the same broker,
+dealer, bank, or other financial
+intermediary, and permitted investors to
+choose among alternative arrangements
+for sales and related charges. The
+proposal also would have required a
+line graph comparing the hypothetical
+value of holdings of the classes or feeder
+funds described in the prospectus upon
+redemption at the end of each year
+during a ten-year period. The proposal
+would have made conforming changes
+to advertising and sales literature rules
+and Form N–14. A related amendment
+to rule 12b–1 would have clarified that
+a rule 12b–1 plan must treat each class
+separately and required separate
+director and shareholder approval.
+II. Discussion
+The Commission received 24
+comments on the proposal.7 Most of the
+commenters were fund groups, law
+firms, and trade associations. Although
+all commenters favored a rule allowing
+multiple class structures without the
+need for exemptive orders, most
+strongly opposed the proposed
+disclosure requirements. The
+Commission is adopting rule 18f–3 and
+related prospectus disclosure
+requirements with modifications that
+address the comments received. Rule
+18f–3 allows funds flexibility in
+tailoring many aspects of their multiple
+class structures, overseen by the board
+of directors, while preserving investor
+protection conditions based on the
+exemptive orders and derived from the
+concerns underlying section 18. The
+Commission has reconsidered the
+disclosure aspects of the proposal in
+light of the strong opposition of the
+commenters, and is adopting much less
+extensive requirements than proposed.
+The rule and form amendments will
+give investors the means to obtain
+information about certain other classes
+or other feeder funds investing in the
+same master fund, but do not require
+extensive cross-disclosure in
+prospectuses and advertisements.
+A. Rule 18f–3
+The Commission is adopting rule 18f–
+3 to create a limited exemption from
+sections 18(f)(1) and 18(i) 8 for funds
+that issue multiple classes of shares
+with varying arrangements for the
+distribution of securities and provision
+of services to shareholders. Multiple
+class funds relying on existing
+exemptive orders would be allowed to
+use the rule but would not be required
+to do so.9 The Commission has made
+several modifications to the rule in view
+of the comments received.
+The rule largely codifies the
+exemptive order approach of addressing
+
+11878
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+10 A rule 12b–1 fee is a charge to fund assets that
+may be used to pay certain distribution expenses in
+accordance with rule 12b–1 (17 CFR 270.12b–1)
+under the Investment Company Act.
+11 Letter from the Investment Company Institute
+to Jonathan G. Katz, Secretary, SEC 22 (Feb. 22,
+1994).
+12 Under rule 18f–3, the investment advisory fee
+charged to each class generally must be the same
+percentage amount. In the case of a multiple class
+fund with an advisory contract that provides for
+compensation to the adviser on the basis of
+performance, paragraph (a)(1)(iii) clarifies that the
+percentage amount may vary for each class to the
+extent that any difference is the result of the
+application of the same performance fee provisions
+to the different investment performance of each
+class.
+In addition, the Commission believes that it
+would also be consistent with section 205(b)(2) and
+rule 205–1 if a multiple class fund were to use the
+investment performance of a single class for the
+purpose of calculating the performance fee. In
+approving the use of a class, the board of directors
+of the fund should consider all of the relevant
+factors, including the proposed performance fee
+schedule, the effect that using one class instead of
+another would have on the fees to be paid, the
+anticipated relative size of each class, the expense
+ratio of each class, the effect of any waiver or
+reimbursement of expenses on the performance of
+that class, the nature of the index to which the
+fund’s performance will be compared and, if the
+index is comprised of comparable funds, the
+average expense ratio of those funds. For instance,
+it would appear difficult for a board to justify
+basing the calculation of a performance fee on the
+performance of a class with the lowest expenses if
+the result would be that shareholders of another
+class would pay a higher advisory fee than would
+be warranted given that class’s performance.
+13 The board should monitor whether the fund’s
+allocations have complied with the requirements of
+paragraph (a)(1)(ii) when the board reviews the
+fund’s plan. See section II.A.5., infra.
+14 Paragraph (a)(1)(ii) as adopted has been
+reworded to delete subparagraph (A) of the
+proposed rule text. Under proposed paragraph
+(a)(1)(A), expenses could have been treated as
+belonging to a class if they were directly related to
+the arrangement of that class for shareholder
+services or distribution. The proposal did not
+provide any guidance for determining whether an
+expense was ‘‘directly related,’’ nor did it explain
+how these expenses were to be distinguished from
+expenses of an arrangement under paragraph
+(a)(1)(i), or other expenses under paragraph
+(a)(1)(ii)(B). Therefore, the Commission has deleted
+this provision as unnecessary.
+15 E.g., Letter from Ropes & Gray to Jonathan G.
+Katz, Secretary, SEC 7 (Feb. 21, 1994); Letter from
+Federated Investors to Jonathan G. Katz, Secretary,
+SEC 2 (Feb. 15, 1994).
+16 ICI Comment Letter, supra note , at 21.
+17 Letter from the American Bar Association to
+Jonathan G. Katz, Secretary, SEC 12 (Mar. 15, 1994).
+18 Letter from Fidelity Management and Research
+Company to Jonathan G. Katz, Secretary, SEC A–1
+(May 13, 1994).
+19 E.g., ICI Comment Letter, supra note 11, at 21.
+the potential for conflicts among classes
+by limiting the permissible differences
+among classes in expenses and voting
+rights. It specifies permissible methods
+of allocating expenses, and allows the
+waiver of expenses by service providers.
+Rule 18f–3 also specifies the conditions
+under which shares of one class may be
+converted into or exchanged with shares
+of another class.
+The rule requires the board of
+directors of a fund to approve a plan
+detailing each class’s arrangement for
+the distribution of securities and the
+services provided to each class, and the
+payment of other expenses. The board
+must determine that the plan is in the
+best interests of each class individually
+and the fund as a whole.
+1. Differences in Distribution and
+Shareholder Services
+Under paragraph (a)(1)(i), classes
+must differ either in the manner in
+which they distribute their securities, or
+in the services they provide to their
+shareholders, or both. As under the
+proposal, distribution systems may
+differ in the amount or form of payment,
+or the nature or extent of services
+provided. A class that pays a front-end
+load, for example, differs from a class
+paying a rule 12b–1 fee 10 in a spread
+load or level load arrangement in the
+amount, the form (by shareholders
+individually versus the class as a
+whole), and timing (at purchase versus
+over time) of distribution charges.
+Funds may also meet paragraph
+(a)(1)(i) by providing different services
+to the shareholders of each class. One
+commenter expressed concern that the
+requirement in proposed paragraph
+(a)(5) that all classes have the same
+rights and obligations would not permit
+differences among classes in services
+such as checkwriting.11 Presumably, the
+commenter viewed the term
+‘‘shareholder service’’ as encompassing
+only certain services provided to
+shareholders by banks, brokers, and
+other third parties detailed in the many
+multiple class exemptive applications,
+and not shareholder transaction
+services, such as checkwriting. The term
+‘‘shareholder services’’ in the rule,
+however, encompasses both types of
+services.
+2. Allocation of Expenses
+a. Class Expenses. Under rule 18f–3,
+certain expenses must be allocated to
+individual classes, while others may be
+so allocated at the discretion of the
+fund’s board of directors. Paragraph
+(a)(1)(i) provides that expenses relating
+to the distribution of a class’s shares, or
+to services provided to the shareholders
+of that class, must be allocated to that
+class. Although this requirement was
+implicit in proposed paragraph (a)(1)(i),
+the text of the rule as adopted has been
+clarified to make it explicit.
+Paragraph (a)(1)(ii) provides that other
+expenses (other than advisory 12 or
+custodial fees or other expenses relating
+to the management of the fund’s assets,
+which must be allocated to all classes in
+accordance with paragraph (c)) may be
+allocated to different classes in different
+amounts to the extent that they are
+incurred by one class in a different
+amount, or reflect differences in the
+amount or kind of services that different
+classes receive.13 This paragraph
+encompasses both differences in actual
+out-of-pocket expenses among classes
+(for instance, blue sky fees that are
+incurred for some classes but not
+others), and differences in charges when
+classes receive services that are different
+in kind or amount. For example, some
+classes may use transfer agency services
+differently than others. Thus, the rule
+contemplates that allocations may be
+based upon the level or kind of services
+used.14
+The proposal requested comment on
+whether the rule should provide more
+specific limits on differential allocations
+of expenses. Commenters strongly
+supported the flexible approach taken in
+the proposal.15 In particular, one
+commenter stated that ‘‘[a] more rigid
+approach to expense allocation could
+undermine the utility of the exemptive
+rule.’’ 16 Another endorsed the
+‘‘proposal to leave these determinations
+to the Directors.’’ 17 A commenter stated
+that mandating certain expenses as class
+expenses could run afoul of Internal
+Revenue Service private letter rulings,
+which only permit de minimis
+differences among the expenses of
+different classes.18
+At several commenters’ suggestion,
+the Commission has revised paragraph
+(a)(1)(ii) to delete the word ‘‘materially.’’
+Although the materiality qualifier in
+proposed paragraph (a)(1)(ii)(B) would
+have allowed boards of directors to
+avoid making allocation determinations
+for trivial differences in expenses,
+several commenters interpreted the
+requirement to mean that boards could
+not allocate expenses with immaterial
+differences at all.19 Because paragraph
+(a)(1)(ii) is permissive, allocations of
+differential expenses, regardless of
+materiality, are at the board’s discretion.
+b. Allocation of Fund Income and
+Expenses. Paragraph (c) sets forth the
+allocation methods for income, realized
+and unrealized capital gains and losses,
+and expenses that are not assigned to a
+particular class. The proposal would
+have required that these items be
+allocated to each class based on the
+relative net assets. One commenter,
+however, argued that requiring
+allocations based on net asset value
+could result in the dilution of
+shareholders in daily dividend funds
+such as money market funds that permit
+investors to subscribe for shares, but not
+
+11879
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+20 Memorandum to file from Karrie McMillan
+regarding telephone conversation with Richard
+Peteka, Oppenheimer Management Corporation
+(May 11, 1994) (Peteka Comment Memorandum).
+The term ‘‘net assets’’ includes the value of any
+receivables, including subscriptions to purchase
+shares for which the fund has not yet received
+payment. See AICPA Audit Guide, supra note 26,
+at ¶ 2.22. Because daily distribution fund portfolio
+transactions settle daily against federal funds (in
+contrast to other securities that have ‘‘regular way’’
+(e.g., currently T+5) settlement), many of these
+funds only record income and expenses on their
+books for shareholders whose subscriptions have
+cleared in federal funds. See T. Rowe Price
+Associates, Inc. (pub. avail. Dec. 22, 1986). Thus,
+allocating on the basis of relative net assets would
+be in conflict with typical daily distribution fund
+allocations.
+21 According to the commenter, this problem is
+exacerbated when a large disparity exists between
+the size of the classes or feeder funds, as each
+subscription to the smaller class or feeder fund will
+be large relative to the size of the other classes or
+feeder funds, and will dilute the classes or feeder
+funds having greater assets. Peteka Comment
+Memorandum, supra note 20.
+22 Like some exemptive orders, paragraph (c)(2)(i)
+requires funds allocating these items equally to all
+shares regardless of class to obtain the agreement
+of their service providers that, to the extent
+necessary to assure that all classes maintain the
+same net asset value, the providers will waive or
+reimburse class expenses.
+23 The rule defines ‘‘relative net assets (settled
+shares)’’ to mean net assets valued in accordance
+with generally accepted accounting principles, but
+excluding the value of subscriptions receivable, in
+relation to the net assets of the fund.
+24 See Fidelity Comment Letter, supra note 18, at
+A–2.
+25 Id. at 3.
+26 See Financial Accounting Standards Board,
+Financial Accounting Standards No. 7, §§ 8 and 9,
+Accounting and Reporting by Development Stage
+Enterprises, and AICPA, Audits of Investment
+Companies: Audit and Accounting Guide ¶ 8.10
+(May 1993).
+27 Organization expenses should be distinguished
+from other expenses, such as printing of
+prospectuses. These other non-organizational
+expenses may appropriately be capitalized and
+amortized in accordance with the provisions of
+generally accepted accounting principles. The
+amortization of these expenses would be allocated
+to all classes which benefit from the expense.
+28 Letter from the American Institute of Certified
+Public Accountants to Jonathan G. Katz, Secretary,
+SEC 2 (Mar. 18, 1994).
+29 Codification of Statements on Auditing
+Standards, American Institute of Certified Public
+Accountants, AU § 319 (1994).
+30 Rule 18f–3 is only a limited exemption from
+the literal application of the prohibitions of section
+18 and may not be used to undermine that section’s
+role in effecting the statutory purpose of preventing
+the issuance of ‘‘securities containing inequitable or
+discriminatory provisions.’’ 15 U.S.C. § 80a–1(b)(3).
+31 See infra section II.A.5.
+32 Paragraphs (a)(2) and (a)(3) of the final rule
+were paragraphs (a)(3) and (a)(4), respectively, in
+the rule as proposed. They have been renumbered
+as a result of the transfer of certain provisions of
+proposed paragraph (a)(2) into paragraph (b) of the
+final rule.
+pay for them with federal funds.20
+According to the commenter, because an
+investor’s money is not available for
+investment by a fund until federal funds
+have been received, the payment of
+dividends to the investor before receipt
+of federal funds would dilute the
+holdings of other shareholders.21
+Therefore, the rule as adopted allows
+different methods of allocation for daily
+distribution funds than for non-daily
+distribution funds. Non-daily
+distribution funds must allocate these
+items based on the relative net assets.
+Money market funds (including those
+calculating net assets on an amortized
+cost basis) and other funds making daily
+distributions of their net investment
+income may allocate these items to each
+share regardless of class,22 or based on
+the relative net assets (settled shares).23
+The parenthetical reference in the rule
+to calculation of net assets using
+amortized cost recognizes that money
+market funds may allocate fund
+expenses based on the relative
+amortized cost net assets.24 The
+allocation method selected by the fund
+must be applied consistently.
+A commenter requested that the
+Commission provide guidance about the
+allocation of costs of implementing a
+multiple class structure.25 If a fund is
+organized initially with a multiple class
+structure, these costs are part of the
+fund’s organization expenses and
+usually are capitalized. Funds may
+allocate the amortization of these
+expenses among the classes like other
+expenses under paragraph (c) of the
+rule. If the class structure is added after
+the fund has been organized, or if new
+classes are added, these expenditures
+would not be capitalized. Instead, they
+would be expenses of the class or
+classes in existence before the addition
+of the class structure or the new
+classes,26 and therefore would be
+recognized by, and allocated to, those
+existing classes as an expense under
+paragraph (c) and not charged to the
+new class or classes.27
+c. Accountant’s Report on System of
+Internal Control. The Commission is not
+adopting the proposed amendment to
+Form N–SAR, relating to an
+accountant’s report on a fund’s system
+of internal controls. As proposed, Item
+77B would have required accountants
+preparing the report on a multiple class
+fund’s system of accounting controls to
+refer expressly to the procedures for
+calculating the classes’ net asset values.
+This provision was intended to replace
+the requirement in the exemptive orders
+that an expert file a separate report on
+the adequacy of accounting procedures
+of multiple class funds. One commenter
+supported the proposal’s omission of a
+requirement for the expert’s report as no
+longer necessary. It believed that the
+orders granted to date, and the
+additional guidance in rule 18f–3,
+adequately define the methodology that
+a fund should follow in allocating
+income, realized and unrealized capital
+gains and losses, and expenses of the
+company to a class of shares.28 The
+commenter, however, disagreed with
+the proposal’s requirement of a specific
+reference in the internal controls report
+to the procedures for calculating
+multiple class net assets, arguing that
+because the internal control structure,
+required to be reviewed by Statement on
+Auditing Standards No. 55,29 includes
+the procedures for calculating multiple
+class net assets, the report required by
+Item 77B need not be modified to
+emphasize only one of the aspects of the
+internal control structure. The
+Commission believes that since under
+current accounting standards, a review
+of the fund’s internal control structure
+must include a review of procedures for
+calculating multiple class net assets, it
+is unnecessary to require the
+independent accountant’s report to
+include such a reference.
+d. Waivers and Reimbursements of
+Expenses. As adopted, rule 18f–3(b)
+expressly allows a fund’s underwriter,
+adviser, or other provider of services to
+waive or reimburse the expenses of a
+specific class or classes. The proposal
+would have permitted only waivers or
+reimbursements by the fund’s adviser or
+underwriter of class expenses, and
+would not have permitted waivers or
+reimbursements for specific classes of
+fund expenses, such as advisory fees.
+Despite the prohibition on differential
+waivers of fund expenses, fund sponsors
+could have achieved the same result
+indirectly by waiving or reimbursing
+class expenses. Therefore, the
+Commission is deleting the restrictions
+on waivers in the final rule. This
+modification is not intended to allow
+reimbursements or waivers to become
+de facto modifications of the fees
+provided for in advisory or other
+contracts so as to provide a means for
+cross-subsidization between classes.30
+Consistent with its oversight of the class
+system and its independent fiduciary
+obligations to each class, the board must
+monitor the use of waivers or
+reimbursements to guard against cross-
+subsidization between classes.31
+3. Voting and Other Rights and
+Obligations
+The Commission is adopting the
+provisions relating to shareholder voting
+substantially as proposed.32 These
+provisions elicited little comment.
+Paragraph (a)(2), which provides that
+each class must have exclusive voting
+rights on any matter submitted to
+
+11880
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+33 This provision was paragraph (a)(5) in the rule
+as proposed.
+34 See footnote 42 of the Proposing Release.
+35 E.g., ICI Comment Letter, supra note 11, at 22;
+Fidelity Comment Letter, supra note 18, at A–2
+(Fidelity stated that dollar-based voting may not be
+consistent with state law).
+36 E.g., Letter from the Chicago Bar Association,
+Subcommittee of the Securities Law Committee to
+Jonathan G. Katz, Secretary, SEC 3 (Feb. 21, 1994);
+Letter from Federated Investors to Jonathan G. Katz,
+Secretary, SEC 3 (Feb. 15, 1994).
+37 See Sentinel Group Funds, Inc. (pub. avail. Oct.
+27, 1992) (under section 18(i), voting rights of
+different series in a fund may be tied to the relative
+net asset value of each series to avoid vesting unfair
+voting power in series with per share net asset
+values that are significantly lower than those of
+other series). In discussing the meaning of ‘‘equal
+voting rights’’ under section 18(i), the Commission
+has noted that:
+Problems of interpretation may very well arise
+from defining with exactitude what constitutes
+‘‘equal voting rights’’ within the meaning of Section
+18(i). It is apparent that in certain cases an
+inflexible adherence to any rigid interpretation
+could produce grave distortions of the apparent
+intent of Congress to require a reasonably equitable
+distribution of voting power consistent with the
+applicable provisions pertaining to the different
+classes of stock.
+The Solvay American Corp., 27 SEC 971, 974 n.9
+(1948).
+The Commission also believes that voting based
+on relative net asset value is consistent with the
+definition of ‘‘the vote of a majority of the
+outstanding voting securities’’ in section 2(a)(42) of
+the Investment Company Act [15 U.S.C. § 80a–
+2(a)(42)]. That provision does not specify whether
+the prescribed percentages are to be determined on
+the basis of the number of securities, or the value
+of the securities.
+38 Exchanges are subject to section 11 of the
+Investment Company Act and the rules thereunder.
+See 15 U.S.C. § 80a–11(a); 17 CFR 270.11a–1, –2
+and –3 (requiring offers of exchange to be made on
+the basis of net asset value, with certain
+exceptions).
+39 The Commission also is amending Form N–1A
+to require prospectus disclosure for multiple class
+funds allowing or requiring conversions or
+exchanges between classes. See infra section II.C.3.
+for a discussion of the amendment.
+40 For example, when shares of one class of a fund
+may be exchanged for shares of the same class in
+another fund, but not for shares of other classes.
+41 ICI Comment Letter, supra note 11, at 23–24.
+42 Letter from Hale and Dorr to Jonathan G. Katz,
+Secretary, SEC 7 (Feb. 22, 1994). See Ark Funds,
+Investment Company Act Release Nos. 19812 (Oct.
+22, 1993), 58 FR 58025 (Oct. 28, 1993) (Notice of
+Application), and 19882 (Nov. 17, 1993), 55 SEC
+Docket 1541 (Order) (allowing automatic
+conversions when a shareholder in one class
+becomes ineligible to purchase shares of the class
+originally held); Federated Securities Corp. (pub.
+avail. Jan. 14, 1992) (permitting shareholders to
+switch from one class to another class where,
+because of a change in circumstances, such
+shareholders would no longer be eligible to invest
+in a particular class of shares).
+43 Although some fees may be lower for classes
+whose shareholders have certain other relationships
+with a financial institution that provides services to
+fund shareholders, these investors may also be
+paying other fees directly to the institution in
+addition to paying expenses at the fund level.
+44 Forms N–1A and N–14 have been amended to
+require that a copy of the plan be filed as an exhibit
+to the forms.
+45 In making its findings, the board should focus,
+among other things, on the relationship among the
+classes and examine potential conflicts of interest
+among classes regarding the allocation of fees,
+services, waivers and reimbursements of expenses,
+and voting rights. Most significantly, the board
+should evaluate the level of services provided to
+each class and the cost of those services to ensure
+that the services are appropriate and that the
+allocation of expenses is reasonable.
+shareholders that relates solely to the
+arrangement of that class, governs
+which class of shareholders may vote on
+a matter, but does not affect whether the
+matter is one that requires a shareholder
+vote. Paragraph (a)(3) requires that each
+class have the right to vote separately on
+matters in which its interests are
+different from those of other classes.
+The Commission is adopting as
+proposed paragraph (a)(4), which states
+that except as provided in the previous
+paragraphs, each class of a fund relying
+on the rule must have the same rights
+and obligations as each other class.33
+Among other things, this paragraph
+effectively requires multiple class funds
+to allocate voting rights that affect all
+fund shareholders equally to all
+shareholders. The Commission had
+requested comment on whether to
+require that voting be allocated based on
+relative net asset value per share, rather
+than one vote per share.34 All of the
+commenters addressing the issue
+opposed such a requirement. These
+commenters suggested that the
+proposal’s more flexible approach of
+allowing a fund to select the method
+most suitable for it would provide the
+best result for each fund.35 Several
+commenters noted that many funds
+would be required to hold shareholder
+meetings in order to amend their
+charters to comply with such a
+requirement, thus incurring additional
+expense.36 Therefore, the Commission is
+not requiring voting based on relative
+net asset value per share, but believes
+that such voting is permissible under
+section 18(i) of the Investment Company
+Act.37
+4. Exchange Privileges and Conversions
+The Commission is adopting
+provisions relating to conversions and
+exchanges of shares substantially as
+proposed.38 The rule as adopted also
+includes a provision allowing
+conversions when a shareholder is no
+longer eligible to invest in a particular
+class.39
+Paragraph (e)(1) allows funds to offer
+different exchange privileges to different
+classes.40 Paragraph (e)(2) permits funds
+to offer one or more classes with
+conversion features that allow for
+automatic conversions into another
+class after a specified period, if the
+conversions are made at net asset value
+without the imposition of any sales
+load, fee or other charge upon the
+conversion. As suggested by a
+commenter, paragraph (e)(2) as adopted
+provides that total expenses (not just
+those associated with a rule 12b–1 plan)
+may not be higher for the new class than
+for the old class.41
+The Commission has added paragraph
+(e)(3), which allows, under limited
+circumstances, conversions that occur
+whenever a shareholder ceases to be
+eligible to invest in a class. Unlike
+paragraph (e)(2), this provision does not
+require that the new class have the same
+or lower expenses. A commenter
+objected that the expense limitation in
+paragraph (e)(2) would not
+accommodate situations in which a
+shareholder may no longer be eligible to
+participate in the class in which he or
+she originally invested, and therefore
+need or wish to be placed into a class
+that may have higher expenses.42 For
+example, an investor in a class offered
+only to trust customers may cease to be
+a trust customer, and thus no longer be
+eligible to invest in that class.43 In this
+event, the commenter suggested that the
+rule permit the new class to assess
+higher rule 12b–1 fees. Paragraph (e)(3)
+allows these conversions to occur, if the
+conversion is effected at net asset value
+without the imposition of any sales
+load, fee, or other charge upon the
+conversion and the investor is given
+advance notice of the conversion.
+5. Board Review of Plans
+The Commission is adopting
+paragraph (d), governing the adoption
+and approval of multiple class plans by
+boards of directors, with modifications
+in view of comments received. Rule
+18f–3 gives the board of directors,
+particularly the independent directors,
+significant responsibility to approve a
+fund’s plan and oversee its operation.
+Paragraph (d) requires that a fund adopt
+a written plan specifying all of the
+differences among classes, including the
+various services offered to shareholders,
+different distribution arrangements for
+each class, methods for allocating
+expenses relating to those differences,
+and any conversion features or exchange
+privileges.44 The plan should provide a
+detailed statement of the differences
+among the classes.
+The rule requires that the board,
+including a majority of the independent
+directors, find that the plan is in the best
+interests of each class individually and
+the fund as a whole.45 This approval
+requirement replaces the several board
+reviews under the exemptive orders.
+The orders required boards of directors
+to approve the issuance of multiple
+classes of shares, review and approve
+specific allocations of class expenses,
+
+11881
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+46 E.g., ABA Comment Letter, supra note 17, at 4;
+Federated Investors Comment Letter, supra note 15,
+at 2; Hale and Dorr Comment Letter, supra note 42,
+at 4–5; ICI Comment Letter, supra note 11, at 23;
+Letter from Dechert Price & Rhoades to Jonathan G.
+Katz, Secretary, SEC 2 (Feb. 22, 1994). See
+Proposing Release at 21 n.48, 58 FR at 68080 n.48,
+for a discussion of recent Commission actions to
+reduce the burdens on boards of directors.
+47 ICI Comment Letter, supra note 11, at 23.
+48 Board approval of the plan is required, though,
+if it contains any material deviations from current
+practice.
+49 In light of the adoption of new paragraph (e)(3)
+of rule 18f–3, the Commission has modified rule
+12b–1(g) from the proposal to limit the cross-
+reference to paragraph (e)(2). Whereas conversions
+under paragraph (e)(2) will occur if shareholders
+remain in a class for a specified period of time,
+conversions under paragraph (e)(3) will not occur
+except upon the happening of a specified
+contingency that is dependent upon the
+shareholder. Therefore, a vote of the class of shares
+that may convert is not required.
+50 In view of commenters’ objections and recent
+industry initiatives, the Commission also is not
+imposing standardized class designations upon
+multiple class funds. See Memorandum of the ICI,
+Board of Governors Adopts Voluntary
+Nomenclature Standards of Multiple Class Funds
+(May 16, 1994); Jeff Kelly, A Fine Mess, Morningstar
+Mutual Funds, Nov. 25, 1994, at S1; ICI Comment
+Letter, supra note 11, at 19.
+51 This disclosure requirement was proposed as
+part of Instruction 1 to Item 2(a) of Form N–1A.
+Multiple class funds must comply with the
+disclosure requirements adopted today regardless of
+whether they rely on rule 18f–3 or continue to
+operate under and comply with all of the terms
+(including disclosure-related conditions) of an
+existing exemptive order. The disclosure
+requirements adopted today also do not alter feeder
+funds’ existing disclosure obligations. Letter from
+Carolyn B. Lewis, Assistant Director, Division of
+Investment Management, SEC, to Registrants (Feb.
+22, 1993), Comment II.H (hereinafter ‘‘1993 Generic
+Disclosure Comment Letter’’). New Instruction 4A
+to Item 2(a) of Form N–1A codifies the requirement
+that the expenses of both the master fund and the
+feeder fund be reflected in a single fee table.
+52 See, e.g., Arthur Levitt, Chairman, SEC, Taking
+the Mystery Out of the Marketplace: The SEC’s
+Consumer Education Campaign, remarks before the
+National Press Club (Oct. 13, 1994).
+53 Funds may either use one fee table with
+separate and clearly labeled columns for each class
+or feeder fund, or may prepare separate fee tables
+for each class or feeder offered.
+54 A few commenters, however, supported
+requiring disclosure about other classes or feeder
+funds. See, e.g., Hale and Dorr Comment Letter,
+supra note 42, at 8; Dechert Price Comment Letter,
+supra note 46, at 3.
+monitor for conflicts of interest among
+classes and take any action necessary to
+eliminate conflicts.
+Paragraph (d) as adopted requires the
+board to approve a plan initially and
+before any material change. The
+Commission is not requiring annual
+approval of the board, which was
+proposed. Many commenters objected to
+the annual review requirement and
+argued that it runs counter to the
+Commission’s recent elimination of
+certain annual review requirements.46
+Paragraph (d) as adopted does not
+require the board to approve the initial
+adoption of a plan if the plan merely
+reproduces without change a fund’s
+existing multiple class structure that the
+board has approved under an existing
+exemptive order. One commenter
+requested that the Commission amend
+the rule to clarify that board approval is
+not required for existing classes that
+intend to rely on the rule if the board
+has already approved a multiple class
+structure under an order.47 Although the
+rule as adopted does not require a vote
+of the board of directors under these
+circumstances, a fund with an existing
+order that seeks to rely on rule 18f–3
+must create a plan setting forth the
+fund’s current separate arrangements,
+expense allocation procedures and
+exchange and conversion privileges 48
+and file a copy of the plan with the
+Commission as an exhibit to the fund’s
+registration statement under new Item
+24(b)(18). These plans create a cohesive
+structure for monitoring the operation of
+the class system, rather than having
+procedures scattered among exemptive
+orders and their amendments,
+prospectuses and internal guidelines,
+and the formulation of a plan from these
+source materials should not impose a
+significant burden.
+Finally, the rule text as adopted omits
+the proposed requirement that boards
+find that plans are ‘‘fair.’’ This change
+recognizes that the term was not a
+condition of the exemptive applications,
+and that the requirement that a board
+find a plan to be in the best interests of
+each class individually and of the fund
+as a whole provides the same protection
+as a separate fairness requirement.
+B. Rule 12b–1
+The Commission is adopting new
+paragraph (g) of rule 12b–1 substantially
+as proposed. It provides that if a plan
+covers more than one class of shares, the
+provisions of the plan must be severable
+for each class, and any action taken on
+the plan must be taken separately for
+each class. The board would be required
+to make the finding, separately for each
+class, that a distribution plan presents a
+‘‘reasonable likelihood of benefit’’ to the
+company and its shareholders.
+Similarly, the amendment requires
+shareholder approval by the outstanding
+voting securities of each separate class
+when rule 12b–1 requires that a plan for
+the distribution of securities be
+approved by a majority of the fund’s
+outstanding voting securities. Paragraph
+(g) also contains a cross-reference to rule
+18f–3 to address the limited exception
+that under paragraph (e)(2) of that rule,
+any shareholder vote on the rule 12b–
+1 plan of a target class would also
+require a separate vote of any purchase
+class.49
+C. Disclosure
+The Commission is adopting
+disclosure requirements for registration
+statements of master-feeder and
+multiple class funds with substantial
+modifications from the proposal, and is
+not adopting any disclosure
+requirements for advertisements and
+sales literature.50 New Item 6(h)
+provides that multiple class and master-
+feeder funds should describe the salient
+features of the multiple class or master-
+feeder structure. Feeder funds should
+also disclose the circumstances under
+which the feeder fund could no longer
+invest in the master fund, and the
+consequences to shareholders of such an
+event. Item 6(h) also requires
+prospectuses used in connection with a
+public offering to disclose that there are
+other classes or other feeder funds that
+invest in the same master fund, and to
+include a telephone number investors
+can call to obtain additional information
+about other classes or feeder funds
+available through their sales
+representative.51 These provisions
+should give funds flexibility in drafting
+disclosure while making available to
+investors the means to obtain additional
+information about other classes or
+feeder funds investing in the same
+master fund. These disclosure
+requirements are consistent with the
+Commission’s goals of promoting
+prospectus simplification and the use of
+plain language.52
+Funds must provide more extensive
+prospectus disclosure about other
+classes or feeder funds only in two
+cases. First, under new staff Guide 34 to
+Form N–1A, if a prospectus offers more
+than one class or feeder fund, it must
+discuss briefly the differences between
+the classes or feeder funds, and arrange
+the fee table to facilitate a comparison
+by shareholders of the different fee
+structures.53 Second, under new
+General Instruction I to Form N–1A, if
+a fund is offering a class that will or
+may convert or be exchanged into other
+classes of the same fund, the prospectus
+must provide disclosure about the other
+classes.
+The Commission is not adopting most
+of the proposed disclosure
+requirements; nearly all commenters
+expressed strong opposition to the
+extent and the details of these
+requirements.54 As discussed in more
+detail below, commenters argued,
+among other things, that the proposed
+requirements would have imposed
+liability burdens and logistical
+difficulties on some funds.
+The Commission recognizes that the
+complexity of distribution charge
+
+11882
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+55 E.g., Signature Group Comment Letter, supra
+note 59, at 14–15; ABA Comment Letter, supra note
+17, at 10; Letter from the Investment Company
+Institute (attaching memorandum from Kirkpatrick
+and Lockhart) to Matthew A. Chambers, Associate
+Director, Division of Investment Management, SEC
+(Oct. 6, 1994).
+56 Since the proposal, the NASD has reminded
+members of ‘‘their obligations to ensure that the
+investments are suitable for their customers and to
+disclose and discuss certain matters in the sale of
+mutual funds.’’ These matters include the
+disclosure of ‘‘all material facts to the customer’’
+and, in particular, sales charges. Notice to Members
+94–16 (Mar. 1994).
+57 The Commission has previously published two
+brochures providing general information about
+investing.
+58 17 CFR 239.15A, 274.11A.
+59 Item 6(h) refers to any publicly offered class or
+feeder fund; thus, no disclosure is required, for
+example, about offshore or private funds. See, e.g.,
+Letter from Kirkpatrick & Lockhart on behalf of
+Signature Financial Group and certain other
+companies to Jonathan G. Katz, Secretary, SEC 11–
+12 (Mar. 18, 1994) (expressing concern about
+disclosure regarding offshore funds), ICI Comment
+Letter, supra note 11, at 11 (expressing concern that
+disclosure would be required about private feeder
+funds).
+60 This requirement is more like the disclosure
+currently provided by master-feeder funds than that
+required under the exemptive orders for multi-class
+funds. The requirements adopted today treat
+multiple class and master-feeder disclosure in a
+consistent manner.
+61 ABA Comment Letter, supra note 17, at 8; see
+also Chicago Bar Comment Letter, supra note 36, at
+2.
+62 See, e.g., Hale and Dorr Comment Letter, supra
+note 42, at 9; Signature Group Comment Letter,
+supra note 59, at 5.
+63 E.g., ABA Comment Letter, supra note 17, at 8–
+9; Signature Group Comment Letter, supra note 59,
+at 10; ICI Comment Letter, supra note 11, at 13
+(‘‘[s]uch a proposal ignores market realities, and
+would greatly limit the very benefits of multiple
+class and master-feeder structures that the
+Commission has itself commented on.’’).
+64 Eaton Vance Comment Letter, supra note 66, at
+8.
+65 See Chicago Bar Comment Letter, supra note
+36, at 2 (a toll-free number should not be required);
+Fidelity Comment Letter, supra note 18, at 2 (the
+proposal’s toll-free number requirement would
+cause an issuer to deal directly with investors,
+when it intended to sell through intermediaries,
+‘‘effectively chill[ing] the use of multi-class and
+feeder funds’’).
+66 Signature Group Comment Letter, supra note
+59, at 10. See also Letter from Eaton Vance
+Management to Jonathan G. Katz, Secretary, SEC 4
+(Feb. 24, 1994).
+67 Eaton Vance Comment Letter, supra note 66, at
+4 n.4.
+options can be confusing to some
+investors. Instead of relying on
+prospectus disclosure, however, the
+Commission is addressing these
+concerns through consumer education
+and the promotion of good sales
+practices. In the proposal, the
+Commission requested comment on
+whether, instead of requiring extensive
+prospectus disclosure, it should work
+with the National Association of
+Securities Dealers, Inc. (‘‘NASD’’) to
+develop standards for basic information
+that representatives should
+communicate to their clients. Several
+commenters endorsed this approach as
+an alternative to cross-disclosure.55 The
+Commission staff has been working, and
+will continue to work, with the NASD
+on providing guidance about the duties
+of sales representatives when
+recommending the purchase of multiple
+class and master-feeder funds.56 Finally,
+the Commission expects to promote
+consumer education in this area through
+the development and publication of a
+brochure explaining the structures and
+expenses of multiple class and master-
+feeder funds.57
+1. Prospectus Disclosure Concerning
+Other Classes or Feeder Funds
+The Commission is adding new Item
+6(h) to Form N–1A 58 to require
+prospectuses for multiple class and
+master-feeder funds to describe the
+salient features of the multiple class or
+master-feeder structure. In addition,
+Item 6(h) requires prospectuses of
+multiple class or master-feeder funds to
+include disclosure about other publicly
+offered 59 classes or feeder funds, unless
+all classes or all feeder funds are offered
+through the same prospectus.60 A fund
+must disclose that it issues other classes
+or that other feeder funds invest in the
+master fund, and that the other classes
+or feeder funds may have different sales
+charges and expenses, which would
+affect performance. The disclosure must
+also provide a telephone number
+investors may call to obtain information
+concerning other classes or feeder funds
+available through their sales
+representative, and note that investors
+may obtain information concerning
+those classes or feeder funds from (as
+applicable) their sales representative, or
+any person, such as the principal
+underwriter, a broker-dealer or bank,
+which is offering or making available to
+them the securities offered in the
+prospectus. This disclosure should
+provide investors with access to
+information allowing them to compare
+the expenses and services of a given
+class or feeder fund to others that are
+available to them.
+Although commenters strongly
+opposed the more extensive disclosure
+requirements in the proposal, they
+generally agreed that it is ‘‘appropriate
+to require some disclosure as to the fact
+that there are other classes or feeder
+funds investing in the underlying
+portfolio.’’ 61 Many agreed that alerting
+investors to the relationship between
+expenses and performance is
+appropriate.62
+The Commission is not specifying
+how fund sponsors must respond to
+investors’ calls. Unlike the requirements
+adopted today, the proposal would have
+required the statement to include the
+names of the other classes or feeder
+funds, and an undertaking to provide
+information over a toll-free number, and
+provide a prospectus for the other
+classes or feeder funds upon request.
+Commenters, however, vehemently
+objected to the proposed undertaking to
+provide additional information and
+prospectuses for other classes or feeder
+funds.63 One commenter stated that
+independent mutual fund groups and
+their sponsors may be
+disproportionately affected by the
+undertaking. ‘‘Whereas the toll-free
+number provided by broker-sponsored
+mutual funds will likely have to answer
+questions only about (and provide
+prospectuses for) that particular broker’s
+family of funds, the Release imposes
+upon an independent mutual fund
+sponsor with a master-feeder structure
+the much broader obligation to provide
+information * * * about any other
+entity’s proprietary feeder funds feeding
+into the same master fund.’’ 64 Several
+commenters objected to the toll-free
+number requirement.65 The Commission
+is continuing to require the inclusion of
+a telephone number, but is not requiring
+that the number be toll-free; the
+requirement of a telephone number is
+consistent with the disclosure
+guidelines of the Commission staff and
+state regulators, to which master-feeder
+funds are already subject. By not
+requiring any specific procedures with
+callers, the Commission is leaving fund
+sponsors the flexibility to determine
+how best to respond to inquiries.
+A commenter noted that compliance
+with the proposed requirement to name
+other classes or feeder funds would be
+difficult for unaffiliated feeder funds;
+they would be required to keep abreast
+of the creation of or changes to other
+feeder funds and sticker their
+prospectuses to reflect such changes.66
+A commenter also speculated that
+mentioning feeder funds in states where
+they are not registered could create
+problems under state securities laws
+because such a statement could be
+considered to be an offer.67
+The disclosure requirement that the
+Commission is adopting is similar to the
+recommendations of some commenters.
+For example, one commenter suggested
+that the Commission require a narrative
+following the fee table stating that (i) the
+fund issues other classes or feeder funds
+that invest in the master fund; (ii)
+because sales charges and expenses
+vary, performance may also vary; and
+(iii) the customer may call a toll-free
+number to obtain further information
+
+11883
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+68 Id. at 9.
+69 Disclosure responding to Items 2 through 9 of
+Form N–1A.
+70 The Proposing Release listed as examples of
+‘‘financial intermediaries’’ brokers, dealers, banks
+and any other entities that act as agents or
+principals in the sale of a fund’s shares, or that, like
+some banks, provide shareholder services under an
+agreement with a fund. See 58 FR 68083, n.69.
+71 Although the Commission is not adopting the
+proposed cross-disclosure requirement, it believes
+that disclosure about more than one class or feeder
+fund in the same prospectus can be consistent with
+clear, simple, and effective disclosure and
+prospectus simplification. Similarly, Guide 34
+expressly contemplates that more than one class or
+feeder fund may be offered in the same prospectus.
+See discussion of Guide 34, infra at section II.C.2.
+72 Chicago Bar Comment Letter, supra note 36, at
+2; see also ICI Comment Letter, supra note 11, at
+5–7; Signature Group Comment Letter, supra note
+59, at 6–8 (disputing the proposal’s assumption that
+investor confusion about these instruments ‘‘is a
+serious and widespread problem’’).
+73 E.g., Signature Group Comment Letter, supra
+note 59 at 5; see also letter from Fidelity
+Investments to Barry Barbash, Director, Division of
+Investment Management, SEC 1–2 (July 22, 1994).
+74 See Letter and memorandum from Robert
+Pozen, General Counsel and Managing Director,
+FMR Corp. to Arthur Levitt, Chairman, SEC 2 (Nov.
+18, 1994) (‘‘This would be the equivalent of
+requiring Filenes to tell all of its customers that the
+same goods may be purchased at a discount in the
+basement or from a competitor.’’).
+75 E.g., ICI Comment Letter, supra note 11, at 7.
+See also ABA Comment Letter, supra note 17, at 8–
+9; Signature Group Comment Letter, supra note 59,
+at 5 and 9 (‘‘[s]uch a requirement of disclosure
+about products offered by competitors and the
+assumption of liability for such disclosures would
+be entirely unprecedented in the securities
+industry’’) (emphasis deleted).
+76 The proposal would have required cross-
+disclosure only about classes or feeder funds both
+offered through the same financial intermediary and
+with alternative arrangements for sales and related
+charges, and made clear that not all cases would
+involve alternative arrangements. See text
+accompanying notes 70–72 of the Proposing
+Release, 58 FR at 68083. Most commenters,
+however, appeared to assume that there would be
+alternative sales charges in all cases.
+77 Signature Group Comment Letter, supra note
+59, at 5.
+78 Id. at 8.
+79 Eaton Vance Comment Letter, supra note 66.
+about the other funds not offered
+through the prospectus but available
+through the same financial
+intermediary. The commenter also
+recommended that the prospectus
+should contain prominent disclosure
+recommending that the investor contact
+his or her broker or financial adviser for
+further information about suitable
+classes or feeder funds offered by the
+intermediary.68
+Commenters suggested the above
+approach as an alternative to the
+proposed cross-disclosure requirements,
+which commenters strongly criticized
+and which the Commission is not
+adopting. The proposal would have
+required a prospectus for one class or
+feeder fund to provide full cross-
+disclosure 69 about all other classes or
+all other feeder funds investing in the
+same master fund that were not offered
+in the prospectus and that met two
+conditions. First, the classes or feeder
+funds had to be offered through the
+same financial intermediary.70 Second,
+they had to permit investors to choose
+among alternative arrangements for
+sales and related charges.71
+Many commenters argued that cross-
+disclosure would not achieve the
+Commission’s goal of promoting
+investor understanding of multiple class
+and master-feeder funds because of the
+volume of disclosure that the proposal
+might require, arguing that ‘‘the
+disclosure requirements of the Proposal
+run counter to the staff’s professed
+desire for prospectus simplification and
+the desire to avoid ‘prospectus
+creep.’ ’’ 72 Several commenters
+cautioned that if the Commission
+adopted the proposed disclosure
+requirements, sponsors would not use
+the master-feeder form and would create
+‘‘less efficient and more expensive clone
+funds.’’ 73 One commenter representing
+a fund family that offers both no-load
+and broker-sold products objected to
+requiring brokers to disclose that the
+same fund is available without a sales
+charge, arguing that if a client receives
+advice from a broker, the broker
+deserves to be paid for those services.74
+Some commenters strongly criticized
+the proposal for requiring an issuer to
+provide prospectus disclosure about
+securities it does not intend to offer
+through that prospectus. Several
+expressed concern that feeder funds
+would have to assume liability for
+disclosure about unrelated feeder funds
+even though they are distinct entities
+and may have different advisers,
+underwriters, and boards of directors.75
+Commenters also criticized the
+financial intermediary test—one of the
+proposal’s two triggers for cross-
+disclosure.76 One commenter stated, for
+example, that ‘‘[t]he Proposal
+erroneously assumes that all financial
+intermediaries are homogeneous
+organizations, serving only a single
+market or customer base.’’ 77 Much of
+the commenters’ concern centered on
+the effect of the proposed requirement
+on independent sponsors of feeder
+funds and on financial intermediaries
+with more than one distribution
+network. One commenter noted that
+‘‘feeder funds, unlike different classes of
+shares, often are organized to serve
+customers of unaffiliated third party
+banks, insurance companies or
+brokerage firms who are competitors of
+each other and, in many cases, of the
+master fund.’’ 78
+One independent sponsor of mutual
+funds argued that the proposal would
+create unique problems for independent
+mutual fund groups, and would
+discourage brokers from offering funds
+if prospectuses must describe funds
+offered by unaffiliated brokers.79 This
+commenter asserted that fund sponsors
+would have to create a different
+prospectus for each possible
+combination of the different classes or
+feeder funds that in theory a broker
+might offer; therefore, the preparation of
+numerous prospectuses would create
+increased costs for these funds and an
+‘‘administrative nightmare’’ for their
+sponsors, while in-house master-feeder
+or multiple class funds and their
+sponsors would not face comparable
+burdens.
+The disclosure requirement as
+adopted addresses the commenters’
+concerns. The disclosure that investors
+may ask their sales representatives
+about other classes or feeder funds
+should alleviate the concern that the
+disclosure would encourage investors to
+deal directly with issuers, rather than
+their intermediaries. This dialogue
+should further investor understanding
+of the different fee arrangements or
+distribution possibilities associated with
+the fund without imposing a burden on
+issuers. Retaining a telephone number
+requirement, but not requiring the other
+disclosure or obligations should provide
+investors with a source for obtaining
+more information about other classes or
+feeder funds available through their
+sales representative without raising the
+practical concerns voiced by many
+commenters. Not requiring cross-
+disclosure about other classes or feeder
+funds not offered through the
+prospectus removes the logistical and
+competitive concerns voiced by many
+commenters. This approach is also
+consistent with the Commission’s goals
+of promoting prospectus simplification.
+2. Discussion of Classes or Feeder Funds
+Offered in Prospectus
+New staff Guide 34 to Form N–1A
+requires a discussion of the differences
+between classes or feeder funds
+whenever two or more classes or feeder
+funds are offered through the same
+prospectus. In addition, new Guide 34
+advises that if a single prospectus is
+used to offer more than one class or
+feeder fund, and the classes or feeder
+funds have different expense and/or
+sales load arrangements, the prospectus
+should clearly explain the differences in
+the features, and should provide a
+separate response to Item 2(a)(i) for each
+class or feeder. These requirements are
+
+11884
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+80 Both of these requirements would have been
+contained in a new Item 6(h) of Form N–1A.
+81 Chicago Bar Comment Letter, supra note 36, at
+3; See also Signature Group Comment Letter, supra
+note 59, at 16; Fidelity Comment Letter, supra note
+18, at 2.
+82 Federated Investors Comment Letter, supra
+note 15, at 3.
+83 Chicago Bar Comment Letter, supra note 36, at
+2–3.
+84 E.g., Signature Group Comment Letter, supra
+note, 59, at 15–16; ICI Comment Letter, supra note
+11, at 15–16 (the ICI also suggested that the line
+graph requirement could pose problems for EDGAR
+filers, since the EDGAR system cannot recognize
+more than a limited set of characters, id. at 16 n.20).
+85 Letter from IDS Financial Corporation to
+Jonathan G. Katz, Secretary, SEC 2 (Feb. 22, 1994).
+See also ICI Comment Letter, supra note 11, at 14.
+86 See, e.g., Fidelity Comment Letter, supra note
+18, at 3 (‘‘cross-disclosure is particularly
+burdensome in advertisements’’); ICI Comment
+Letter, supra note 11, at 17–18.
+87 Signature Group Comment Letter, supra note
+59, at 16–17.
+88 Id.; ICI Comment Letter, supra note 11, at 17–
+18 (the expense of cross-disclosure, together with
+the equal prominence requirement, would place
+multiple class and master-feeder funds at a
+competitive disadvantage).
+89 Footnote 88 in the proposing release
+erroneously stated that ‘‘rule 134 advertisements,
+however, may include rankings based on
+performance data.’’ 58 FR at 68085, n.88. Rule 134
+advertisements may not contain performance
+rankings.
+90 Therefore, funds relying on rule 18f–3 will not
+be required to quote the performance of all classes
+when they quote performance in advertisements
+under rule 482, as was required generally under the
+exemptive orders. The Commission cautions
+multiple class funds to use care not to mislead
+investors in advertising the performance of one
+class when multiple classes are being offered to the
+same persons. For example, it may be misleading
+to quote only performance of a class for
+institutional or inside investors (with low expenses)
+in a publication with a retail readership.
+91 See, e.g., IDS Financial Corp. (pub. avail. Dec.
+19, 1994) (allowing a multiple class fund to
+calculate standardized total return of a new class
+following a merger based upon the performance of
+the acquiring (and surviving) fund, adjusted to
+reflect differences in the sales load, but not
+differences in rule 12b–1 fees).
+intended to inform investors about the
+differences between the investment
+options offered together to them.
+The proposal would have required
+that whenever a prospectus offered two
+or more classes or feeder funds, or
+provided cross-disclosure about one or
+more classes or feeder funds, it must
+also contain a discussion of the
+differences between the classes or feeder
+funds. This aspect of the proposal
+elicited little comment. The proposal
+also would have required a line graph
+comparing the feeder funds’ or classes’
+performance over a hypothetical ten-
+year period, assuming an initial
+investment of $10,000 and a 5% rate of
+return.80 The Commission intended that
+the graph demonstrate the
+circumstances under which holding
+shares of each class or feeder fund for
+various lengths of time would produce
+the highest return. The Commission is
+not adopting this aspect of the proposal.
+The narrative discussion called for by
+Guide 34 should provide investors with
+similar information. Moreover, the line
+graph proposal was predicated upon the
+cross-disclosure requirement, which the
+Commission is not adopting.
+The proposed line graph met with
+significant opposition from a number of
+commenters, many of which
+conjectured that it could mislead
+investors into believing that the ‘‘market
+always goes up.’’ 81 One commenter
+expressed concern that the graph creates
+a ‘‘significant potential for litigation.’’ 82
+Another commenter observed that,
+except for variable life illustrations, ‘‘the
+Commission has not previously used
+these investment assumptions to project
+hypothetical future performance.’’ 83
+Many commenters raised numerous
+concerns regarding the accuracy of the
+graphs given the myriad redemption
+possibilities, expenses, sales charges,
+and exchange privileges.84 A commenter
+also argued that much of the
+information would duplicate disclosure
+in the fee table, and thus would be
+contrary to the goal of prospectus
+simplification.85
+3. Discussion of Classes Into Which
+Shares May Convert or Be Exchanged
+The Commission is adopting new
+General Instruction I to Form N–1A.
+This Instruction states that multiple
+class funds that provide for conversions
+or exchanges of shares from one class to
+another should provide disclosure in
+the prospectus about all other classes
+into which the shares may be converted
+or exchanged. Although Instruction I
+does not specify a particular format, it
+states that the disclosure should be
+designed to aid investor comprehension,
+and when appropriate, should use
+tables, side-by-side comparisons, or
+other parallel presentations to assist an
+investor’s understanding of the other
+class or classes.
+4. Advertising and Sales Literature
+The Commission is not adopting
+requirements for advertisements or sales
+literature about multiple class or master-
+feeder funds. The Commission had
+proposed amending rules 134 and 482
+under the Securities Act and rule 34b–
+1 under the Investment Company Act to
+require multiple class and master-feeder
+fund advertisements to contain a
+prominent legend substantially similar
+to that proposed for prospectus
+disclosure. In addition, the Commission
+had proposed amending rules 482 and
+34b–1 to require multiple class and
+master-feeder fund advertisements that
+contain performance figures to include,
+with equal prominence, the
+performance of all classes and feeder
+funds that would have been subject to
+the proposed prospectus cross-
+disclosure requirement. The proposal
+would also have required that when an
+advertisement contains performance
+figures for a class or feeder fund for
+which average annual total return
+information is not available for one,
+five, and ten year periods, and this
+information is available for another
+class, feeder or master fund, then the
+advertisement must include quotations
+of average annual total return for the
+securities of the other class, feeder or
+master fund together with any necessary
+explanation.
+Commenters opposed the requirement
+of disclosure about other classes or
+feeder funds in advertisements.86 One
+stated that ‘‘[i]n many respects, these
+requirements are so onerous that they
+are unworkable’’ and that ‘‘[t]he volume
+of disclosure required by the Proposal
+and the equal prominence requirement
+would make advertising prohibitively
+expensive as well as highly impractical
+for funds in the master-feeder fund
+structure.’’ 87 Some commenters
+objected to the requirement because of
+the amount of space the disclosure
+would occupy in an average
+advertisement.88
+In view of those objections, the
+Commission has determined not to
+adopt the proposed advertising
+disclosure requirements.89 Instead, the
+Commission will address disclosure of
+performance under the general anti-
+fraud provisions of the federal securities
+laws 90 and expects that the staff will
+continue to address issues relating to
+performance disclosure on an
+interpretive or no-action basis.91
+D. Effective Dates
+Rule 18f–3 and the amendment to rule
+12b–1 will become effective April 3,
+1995. Registration statements and post-
+effective amendments filed with the
+Commission after April 3, 1995 must be
+in compliance with the amendments to
+Forms N–1A and N–14.
+III. Cost/Benefit of the Proposals
+Rule 18f–3 and the rule and form
+amendments adopted today should
+impose less of a reporting or
+recordkeeping burden and less
+regulatory compliance cost on multiple
+class funds than those imposed by the
+multiple class exemptive orders. Under
+rule 18f–3 and the form amendments,
+
+11885
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+multiple class funds would be subject to
+fewer disclosure requirements and
+lower costs than under the exemptive
+orders. Any additional time required to
+comply with the rule’s written plan
+requirement should be minimal because
+multiple class funds already would have
+to commit material class differences to
+writing in order to enter into
+distribution or service agreements, or to
+disclose their terms. The prospectus
+disclosure should impose little burden,
+and in fact requires less disclosure than
+currently required for multiple class
+funds. The disclosure is similar to that
+presently required for master-feeder
+funds, and thus should impose little or
+no additional burden on those funds.
+The amendment to rule 12b–1 should
+not impose any additional costs because
+it essentially would incorporate in the
+rule existing requirements in the
+exemptive orders for multiple class
+funds.
+IV. Regulatory Flexibility Act Analysis
+A summary of the Initial Regulatory
+Flexibility Analysis, which was
+prepared in accordance with 5 U.S.C.
+603, was published in the Proposing
+Release. No comments were received on
+this analysis. The Commission has
+prepared a Final Regulatory Flexibility
+Analysis, a copy of which may be
+obtained by writing to Karrie McMillan,
+Esq., Division of Investment
+Management, Mail Stop 10–6, Securities
+and Exchange Commission, 450 Fifth
+Street, N.W. 20549.
+V. Statutory Authority
+The Commission is adopting rule 18f–
+3 under the authority in sections 6(c),
+18(i), and 38(a) of the Investment
+Company Act [15 U.S.C. §§ 6(c), 18(i),
+and 37(a)], and the amendment to rule
+12b–1 under section 12(b) of the
+Investment Company Act [15 U.S.C.
+§ 12(b)]. The Commission is adopting
+the amendments to Form N–1A under
+sections 6, 7(a), 10 and 19(a) of the
+Securities Act [15 U.S.C. 77g(a), 77j, and
+77s(a)], and sections 8(b), 24(a), and
+38(a) of the Investment Company Act
+[15 U.S.C. §§ 80a–8(b), 24(a), and 37(a)],
+and the amendments to Form N–14
+under sections 6, 7, 8, 10 and 19(a) of
+the Securities Act [15 U.S.C. 77f, 77h,
+77j and 77s(a)] and sections 14(a), 14(c)
+and 23(a) of the Exchange Act of 1934
+[15 U.S.C. 78n(a), 78n(c) and 78w].
+VI. Text of Adopted Rule and Rule and
+Form Amendments
+List of Subjects in 17 CFR Parts 239,
+270, and 274
+Investment Companies, Reporting and
+record keeping requirements, Securities.
+For the reasons set out in the
+preamble, Title 17, Chapter II of the
+Code of Federal Regulations is amended
+as follows:
+PART 270—RULES AND
+REGULATIONS, INVESTMENT
+COMPANY ACT OF 1940
+1. The authority citation for Part 270
+continues to read, in part, as follows:
+Authority: 15 U.S.C. 80a–1, et seq., 80a–37,
+80a–39 unless otherwise noted;
+* 
+* 
+* 
+* 
+*
+2. Section 270.12b-1 is amended by
+adding paragraph (g) to read as follows:
+§ 270.12b–1
+Distribution of shares by
+registered open-end management
+investment company.
+* 
+* 
+* 
+* 
+*
+(g) If a plan covers more than one
+class of shares, the provisions of the
+plan must be severable for each class,
+and whenever this section provides for
+any action to be taken with respect to
+a plan, that action must be taken
+separately for each class, provided,
+however, that under § 270.18f–3(e)(2),
+any shareholder vote on a plan of a
+target class must also require a vote of
+any purchase class.
+3. By adding § 270.18f–3 to read as
+follows:
+§ 270.18f–3
+Multiple class companies.
+Notwithstanding sections 18(f)(1) and
+18(i) of the Act (15 U.S.C. 80a–18(f)(1)
+and (i), respectively), a registered open-
+end management investment company
+or series or class thereof established in
+accordance with section 18(f)(2) of the
+Act (15 U.S.C. 80a–18(f)(2)) whose
+shares are registered on Form N–1A
+[§§ 239.15A and 274.11A of this
+chapter] (‘‘company’’) may issue more
+than one class of voting stock, provided
+that:
+(a) Each class:
+(1)(i) Shall have a different
+arrangement for shareholder services or
+the distribution of securities or both,
+and shall pay all of the expenses of that
+arrangement;
+(ii) May pay a different share of other
+expenses, not including advisory or
+custodial fees or other expenses related
+to the management of the company’s
+assets, if these expenses are actually
+incurred in a different amount by that
+class, or if the class receives services of
+a different kind or to a different degree
+than other classes; and
+(iii) May pay a different advisory fee
+to the extent that any difference in
+amount paid is the result of the
+application of the same performance fee
+provisions in the advisory contract of
+the company to the different investment
+performance of each class;
+(2) Shall have exclusive voting rights
+on any matter submitted to shareholders
+that relates solely to its arrangement;
+(3) Shall have separate voting rights
+on any matter submitted to shareholders
+in which the interests of one class differ
+from the interests of any other class; and
+(4) Shall have in all other respects the
+same rights and obligations as each
+other class.
+(b) Expenses may be waived or
+reimbursed by the company’s adviser,
+underwriter, or any other provider of
+services to the company.
+(c) Income, realized and unrealized
+capital gains and losses, and expenses of
+the company not allocated to a
+particular class pursuant to paragraph
+(a) of this section:
+(1) Except as permitted in paragraph
+(c)(2) of this section, shall be allocated
+to each class on the basis of the net asset
+value of that class in relation to the net
+asset value of the company; or
+(2) For companies operating under
+§ 270.2a–7 (including the provision
+allowing the calculation of net assets on
+an amortized cost basis), and for other
+companies declaring distributions of net
+investment income daily that maintain
+the same net asset value per share in
+each class, may be allocated:
+(i) To each share without regard to
+class, provided that the company has
+received undertakings from its adviser,
+underwriter or any other provider of
+services to the company, agreeing to
+waive or reimburse the company for
+payments to such service provider by
+one or more classes, as allocated under
+paragraph (a)(1) of this section, to the
+extent necessary to assure that all
+classes of the company maintain the
+same net asset value per share; or
+(ii) On the basis of relative net assets
+(settled shares). For purposes of this
+section, ‘‘relative net assets (settled
+shares)’’ are net assets valued in
+accordance with generally accepted
+accounting principles but excluding the
+value of subscriptions receivable, in
+relation to the net assets of the
+company.
+(d) Any payments made under
+paragraph (a) of this section shall be
+made pursuant to a written plan setting
+forth the separate arrangement and
+expense allocation of each class, and
+any related conversion features or
+exchange privileges. Before the first
+issuance of a share of any class in
+reliance upon this section, and before
+any material amendment of a plan, a
+majority of the directors of the
+company, and a majority of the directors
+who are not interested persons of the
+company, shall find that the plan as
+proposed to be adopted or amended,
+including the expense allocation, is in
+
+11886
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+the best interests of each class
+individually and the company as a
+whole; initial board approval of a plan
+under this paragraph (d) is not required,
+however, if the plan does not make any
+change in the arrangements and expense
+allocations previously approved by the
+board under an existing order of
+exemption. Before any vote on the plan,
+the directors shall request and evaluate,
+and any agreement relating to a class
+arrangement shall require the parties
+thereto to furnish, such information as
+may be reasonably necessary to evaluate
+the plan.
+(e) Nothing in this section prohibits a
+company from offering any class with:
+(1) An exchange privilege providing
+that securities of the class may be
+exchanged for certain securities of
+another company; or
+(2) A conversion feature providing
+that shares of one class of the company
+(the ‘‘purchase class’’) will be
+exchanged automatically for shares of
+another class of the company (the
+‘‘target class’’) after a specified period of
+time, provided that:
+(i) The conversion is effected on the
+basis of the relative net asset values of
+the two classes without the imposition
+of any sales load, fee, or other charge;
+(ii) The expenses, including payments
+authorized under a plan adopted
+pursuant to § 270.12b–1 (‘‘rule 12b–1
+plan’’), for the target class are not higher
+than the expenses, including payments
+authorized under a rule 12b–1 plan, for
+the purchase class; and
+(iii) If the amount of expenses,
+including payments authorized under a
+rule 12b–1 plan, for the target class is
+increased materially without approval
+of the shareholders of the purchase
+class, the fund will establish a new
+target class for the purchase class on the
+same terms as applied to the target class
+before that increase.
+(3) A conversion feature providing
+that shares of a class in which an
+investor is no longer eligible to
+participate may be converted to shares
+of a class in which that investor is
+eligible to participate, provided that:
+(i) The investor is given prior notice
+of the proposed conversion; and
+(ii) The conversion is effected on the
+basis of the relative net asset values of
+the two classes without the imposition
+of any sales load, fee, or other charge.
+PART 239—FORMS PRESCRIBED
+UNDER THE SECURITIES ACT OF 1933
+PART 274—FORMS PRESCRIBED
+UNDER THE INVESTMENT COMPANY
+ACT OF 1940
+4. The authority citation of Part 239
+continues to read, in part, as follows:
+Authority: 15 U.S.C. 77f, 77g, 77h, 77j, 77s,
+77sss, 78c, 78l, 78m, 78n, 78o(d), 78w(a),
+78ll(d), 79e, 79f, 79g, 79j, 79l, 79m, 79n, 79q,
+79t, 80a–8, 80a–29, 80a–30 and 80a–37,
+unless otherwise noted.
+* 
+* 
+* 
+* 
+*
+5. The authority citation for Part 274
+continues to read as follows:
+Authority: 15 U.S.C. 77f, 77g, 77h, 77j, 77s,
+78c(b), 78l, 78m, 78n, 78o(d), 80a–8, 80a–24,
+and 80a–29, unless otherwise noted.
+Note: Form N–1A does not, and the
+amendments to Form N–1A will not, appear
+in the Code of Federal Regulations.
+6. By adding new General Instruction
+I to Form N–1A [referenced in
+§§ 239.15A and 274.11A] to read as
+follows:
+Form N–1A
+* 
+* 
+* 
+* 
+*
+General Instructions
+* 
+* 
+* 
+* 
+*
+I. Multiple Class and Master-Feeder Funds
+Registrants issuing multiple classes of
+shares that provide for conversions of
+exchanges of shares from one class to another
+class of the same fund should disclose the
+information required by Form N–1A about all
+other classes into which the shares may be
+converted or exchanged. This information
+should be presented in a format designed to
+facilitate comprehension by investors, and
+when appropriate, should use tables, side-by-
+side comparisons, or other presentations to
+assist an investor’s understanding of the
+other class or classes. A ‘‘multiple class
+fund’’ is an open-end management
+investment company that issues more than
+one class of shares, each of which represents
+interests in the same portfolio of securities,
+and either meets the requirements of rule
+18f–3 under the Act [17 CFR 270.18f–3] or
+operates pursuant to an exemptive order. A
+‘‘feeder fund’’ is an open-end management
+investment company, except a company that
+issues periodic payment plan certificates,
+that holds shares of a single open-end
+management investment company (the
+‘‘master fund’’) as its only investment
+securities.
+7. By amending Form N–1A
+[referenced in §§ 239.15A and 274.11A]
+by adding Instruction 4A to Item 2(a)(i),
+to read as follows:
+Form N–1A
+* 
+* 
+* 
+* 
+*
+Item 2. Synopsis
+(a)(i) * * *
+Instructions:
+* 
+* 
+* 
+* 
+*
+4A. If the prospectus offers shares of a
+feeder fund, reflect the expenses of both the
+feeder fund and the master fund in which the
+feeder fund invests in a single fee table using
+the captions provided. In the brief narrative
+following the fee table, state that the fee table
+reflects the expenses of both Registrants.
+* 
+* 
+* 
+* 
+*
+8. By amending Form N–1A
+[referenced in §§ 239.15A and 274.11A]
+by adding Item 6(h) to read as follows:
+Form N–1A
+* 
+* 
+* 
+* 
+*
+Item 6. Capital Stock and Other Securities
+* 
+* 
+* 
+* 
+*
+(h) Registrants that offer multiple classes of
+shares or that are feeder funds should briefly
+describe the salient features of the multiple
+class or master-feeder structure. In the case
+of a feeder fund, explain the circumstances
+under which the feeder fund could no longer
+invest in the master fund (e.g., if the master
+fund changed its investment objectives to be
+inconsistent with those of the feeder fund),
+and the consequences to shareholders of such
+an event. If the Registrant has publicly
+offered any class of shares of the same series
+not offered through the prospectus, or if any
+publicly offered feeder fund not offered
+through the prospectus invests in the same
+master fund as the Registrant, include the
+following disclosure: (i) that the Registrant
+issues other classes or that other funds invest
+in the same master fund (using the same
+terminology for classes or master and feeder
+funds as elsewhere in the prospectus), (ii)
+that those other classes or feeder funds may
+have different sales charges and other
+expenses, which may affect performance, (iii)
+a telephone number investors may call to
+obtain more information concerning the other
+classes or feeder funds available to them
+through their sales representative, and (iv)
+that investors may obtain information
+concerning those classes or feeder funds from
+(as applicable) their sales representative, or
+any person, such as the principal
+underwriter, a broker-dealer or bank, which
+is offering or making available to them the
+securities offered in the prospectus.
+9. By amending Form N–1A
+[referenced in §§ 239.15A and 274.11A]
+by adding paragraph (b)(18) to Item 24
+before the Instructions to read as
+follows:
+Form N–1A
+* 
+* 
+* 
+* 
+*
+Item 24. Financial Statements and Exhibits
+* 
+* 
+* 
+* 
+*
+(b) * * *
+(18) copies of any plan entered into by
+Registrant pursuant to Rule 18f–3 under the
+1940 Act, any agreement with any person
+relating to the implementation of a plan, any
+amendment to a plan or agreement, and a
+copy of the portion of the minutes of a
+meeting of the Registrant’s directors
+describing any action taken to revoke a plan.
+* 
+* 
+* 
+* 
+*
+10. By adding Guide 34 to the
+Guidelines for Form N–1A [referenced
+in §§ 239.15A and 274.11A] to read as
+follows:
+Guidelines for Form N–1A
+* 
+* 
+* 
+* 
+*
+
+11887
+Federal Register / Vol. 60, No. 41 / Thursday, March 2, 1995 / Rules and Regulations
+1 Exemption for Certain Open-End Management
+Investment Companies to Impose Deferred Sales
+Loads, Investment Company Act Release No. 20917
+(Feb. 23, 1995).
+2 Exemptions for Certain Registered Open-End
+Management Investment Companies To Impose
+Deferred Sales Loads, Investment Company Act
+Release No. 16619 (Nov. 2, 1988), 53 FR 45275
+[hereinafter Proposing Release].
+3 The commenters included the American Bar
+Association Subcommittee on Investment
+Companies and Investment Advisers (the ‘‘ABA
+Subcommittee’’); the American Council of Life
+Insurance; Deutsche Bank AG New York Branch
+(‘‘Deutsche Bank’’) (commenting outside the
+comment period); Fidelity Management and
+Research Company; Gaston & Snow; IDS Financial
+Services, Inc. (‘‘IDS Financial’’); IDS Mutual Fund
+Group; the Investment Company Institute (the
+‘‘ICI’’) (commenting both within and outside the
+comment period); the Keystone Group, Inc.; the
+National Association of Securities Dealers, Inc.;
+NASL Financial Services, Inc. (commenting outside
+the comment period); NYLIFE Securities, Inc.;
+Simpson, Thacher & Bartlett (‘‘Simpson Thacher’’)
+(commenting outside the comment period);
+Templeton Funds Management, Inc.; and 19
+individual investors. The comment letters are
+available for public inspection and copying at the
+Commission’s public reference room in File No. S7–
+24–88.
+4 17 CFR 270.12b-1.
+Guide 34. Multiple Class and Master-Feeder
+Structures
+In response to Item 6, if a single prospectus
+is used to offer more than one class of a
+multiple class fund or more than one feeder
+fund that invests in the same master fund,
+the prospectus should provide a separate
+response to Item 2(a)(i) (the fee table
+requirement) for each class or feeder fund
+and should clearly explain the differences
+between the expense and/or sales load
+arrangements of the classes or feeder funds.
+The fee table information should be arranged
+to facilitate a comparison by shareholders of
+the different fee structures.
+11. By amending Form N–14
+[referenced in § 239.23] by revising Item
+16(10) to read as follows:
+Note: Form N–14 does not, and the
+amendment to Form N–14 will not, appear in
+the Code of Federal Regulations.
+Form N–14
+* 
+* 
+* 
+* 
+*
+Item 16. Exhibits
+* 
+* 
+* 
+* 
+*
+(10) copies of any plan entered into by
+registrant pursuant to rule 12b–1 under the
+1940 Act [17 CFR 270.12b–1] and any
+agreements with any person relating to
+implementation of the plan, and copies of
+any plan entered into by Registrant pursuant
+to Rule 18f–3 under the 1940 Act [17 CFR
+270.18f–3], any agreement with any person
+relating to implementation of the plan, any
+amendment to the plan, and a copy of the
+portion of a meeting of the minutes of the
+Registrant’s directors describing any action
+taken to revoke the plan;
+* 
+* 
+* 
+* 
+*
+Dated: February 23, 1995.
+By the Commission.
+Margaret H. McFarland,
+Deputy Secretary.
+[FR Doc. 95–4997 Filed 3–1–95; 8:45 am]
+BILLING CODE 8010–01–P
+SECURITIES AND EXCHANGE
+COMMISSION
+17 CFR Part 270
+[Release No. IC–20916; File No. S7–24–88]
+RIN 3235–AD18
+Exemption for Certain Open-End
+Management Investment Companies
+To Impose Contingent Deferred Sales
+Loads
+AGENCY: Securities and Exchange
+Commission.
+ACTION: Final rule.
+SUMMARY: The Commission is adopting
+a new rule under the Investment
+Company Act of 1940 to permit certain
+registered open-end management
+investment companies (‘‘mutual funds’’)
+to impose contingent deferred sales
+loads (‘‘CDSLs’’). A CDSL is a sales
+charge that is paid at redemption; its
+amount declines over several years until
+it reaches zero. The adoption of the rule
+is intended to allow mutual funds to
+offer investors the choice of an
+additional form of sales load without
+applying to the Commission for
+exemptive relief.
+EFFECTIVE DATE: The new rule will
+become effective April 3, 1995.
+FOR FURTHER INFORMATION CONTACT:
+Nadya B. Roytblat, Staff Attorney, (202)
+942–0693, or Robert G. Bagnall,
+Assistant Chief, (202) 942–0686, Office
+of Regulatory Policy, Division of
+Investment Management, Securities and
+Exchange Commission, 450 Fifth Street,
+N.W., Mail Stop 10–6, Washington, D.C.
+20549.
+Requests for formal interpretive
+advice should be directed to the Office
+of Chief Counsel at (202) 942–0659,
+Division of Investment Management,
+Securities and Exchange Commission,
+450 Fifth Street, N.W., Mail Stop 10–6,
+Washington, D.C. 20549.
+SUPPLEMENTARY INFORMATION: The
+Commission is adopting rule 6c–10 [17
+CFR 270.6c–10] under the Investment
+Company Act of 1940 [15 U.S.C. § 80a]
+(the ‘‘Investment Company Act’’ or the
+‘‘Act’’). The Commission is not adopting
+the amendments that were proposed to
+Form N–1A [17 CFR 239.15A, 274.11A].
+In a companion release, the Commission
+is proposing amendments to rule 6c–10
+that would permit mutual funds to
+impose deferred sales loads generally,
+including loads payable in installments
+(‘‘installment loads’’); the amendments
+also would modify most of the
+substantive requirements of rule 6c–10
+as adopted here.1
+A condition in many CDSL exemptive
+orders granted to date requires
+applicants to comply with rule 6c–10 as
+originally proposed or as it may be
+reproposed, adopted, or amended. Rule
+6c–10 as adopted here constitutes the
+rule as adopted within the meaning of
+that condition; the amendments that the
+Commission is proposing in the
+companion release do not constitute the
+rule as reproposed or amended within
+the meaning of that condition and may
+not be relied upon by those applicants.
+I. Introduction and Background
+The Commission proposed rule 6c–10
+in 1988 to allow mutual funds to impose
+deferred sales loads generally, including
+CDSLs, as well as other loads paid at
+redemption and sales loads payable in
+installments.2 The Commission received
+33 comment letters.3 Although the
+commenters generally supported the
+proposal to allow CDSLs, some
+commenters questioned the need for
+certain substantive requirements in the
+rule. Commenters had mixed reactions
+to the proposed provisions for
+installment loads.
+Since the proposal of rule 6c–10, the
+Commission (or the Division of
+Investment Management exercising
+delegated authority) has issued almost
+200 exemptive orders permitting funds
+to impose CDSLs and continues to
+receive such applications. Also since
+the original proposal, the National
+Association of Securities Dealers, Inc.
+(‘‘NASD’’) has amended the provisions
+of its Rules of Fair Practice that govern
+mutual fund sales charges (‘‘NASD Sales
+Charge Rule’’). The amendments
+address certain deferred sales charges,
+including CDSLs, and distribution
+charges paid by funds in accordance
+with rule 12b–1 under the Investment
+Company Act.4
+The Commission has considered the
+comments on the proposal and the
+implications of the amendments to the
+NASD Sales Charge Rule and has
+concluded that it may be appropriate to
+modify the rule to eliminate most of the
+substantive requirements in the original
+proposal and rely upon the roles of
+disclosure and the overall limits in the
+NASD Sales Charge Rule. Instead of
+adopting rule 6c–10 with these changes,
+the Commission is proposing
+modifications to rule 6c–10 to obtain the
+benefit of public comment on this
+approach and on issues raised by
+deferred loads other than CDSLs.
+In light of the Commission’s extensive
+experience under the CDSL exemptive

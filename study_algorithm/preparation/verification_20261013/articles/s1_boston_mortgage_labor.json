@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_boston_mortgage_labor",
+  "source_metadata": {
+    "id": "s1_boston_mortgage_labor",
+    "requested_url": "https://www.bostonfed.org/publications/research-department-working-paper/2021/how-resilient-is-mortgage-credit-supply-evidence-from-the-covid-19-pandemic.aspx",
+    "retrieved_url": "https://www.bostonfed.org/publications/research-department-working-paper/2021/how-resilient-is-mortgage-credit-supply-evidence-from-the-covid-19-pandemic.aspx",
+    "retrieved_at": "2026-10-13T23:51:06.346076+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 5512,
+    "content_sha256": "6192262dc0c5f8222f9f7e4cd4dc39bfb8942b088e6f6f9ccfca2604c567aa11",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_boston_mortgage_labor:노동집약성과신용위험",
+      "source_id": "s1_boston_mortgage_labor",
+      "article": "노동집약성과신용위험",
+      "heading": "노동집약성과신용위험",
+      "text": "The elasticity of mortgage supply was abnormally low due at least in part to operational issues and labor market frictions related to the pandemic. Consistent with these frictions, fintech lenders gained market share among mortgages that are more complex and labor intensive to originate.\nThe mortgage rate spread widened for loans bearing the greatest credit risk for financial intermediaries. These loans ranged from non-guaranteed jumbo mortgages to high-income borrowers to low-credit-score Federal Housing Administration mortgages. The number of lenders offering credit in these segments of the market also fell sharply.",
+      "start": 1722,
+      "end": 2347,
+      "sha256": "6bfe1c2c1206c174a69838677e0a6af38f67c940246797785b8eeb2588040fd7"
+    }
+  ]
+}

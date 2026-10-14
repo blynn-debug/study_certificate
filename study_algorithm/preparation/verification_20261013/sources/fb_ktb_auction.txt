@@ -1,0 +1,119 @@
+Ministry of Economy and Finance Korea Treasury Bond
+skip global navigation
+skip content
+KOREAN
+SITEMAP
+메인메뉴
+KTB Market
+About KTBs
+Primary Market
+Secondary Market
+Primary Dealer System
+Auction
+Calendar
+Auction Results
+News & Publications
+News
+Publications
+Data
+KTB in Issue
+KTB Auction Result
+Issuance Vol. by Bond Line
+Outstanding Vol. by Bond Line
+SITEMAP
+KOREAN
+KTB Market
+About KTBs
+Primary Market
+Secondary Market
+Primary Dealer System
+Auction
+Calendar
+Auction Results
+News & Publications
+News
+Publications
+Data
+KTB in Issue
+KTB Auction Result
+Issuance Vol. by Bond Line
+Outstanding Vol. by Bond Line
+Close Sidemenu
+home
+KTB Market
+KTB Market
+Auction
+News & Publications
+Data
+Primary Market
+About KTBs
+Primary Market
+Secondary Market
+Primary Dealer System
+Primary Market
+In the Republic of Korea, bonds and notes are issued by either public offering or private placement. These issuance methods are divided into direct distribution and indirect distribution depending on the involvement of a financial institution, which acts as a managing company during the issuance process.
+Debt securities issued by the public sector, such as government bonds and bonds issued by public corporations, are issued via the direct distribution method. KTBs are issued regularly to Primary Dealers and Preliminary Primary Dealers through the electronic auction system that is part of BOK Wire+. In these cases, competitive auction is the usual issuance method, in particular when involving institutional investors. KTB issuances are the representative examples of competitive auction.
+Before August 2000, KTB issuance was conducted by multi-price (conventional) auction. Since then, the single-price (dutch) auction has been used for the issuance of KTBs. Non-financial special purpose bonds also tend to be issued in this manner. The differentiated auction method was introduced in September 2009 to fix the problems inherent to the multi-price auction method, as well as those using single-price auction.
+Method of Determining Successful Bidding Yield (Issue amount: KRW 80 billion)
+A table composed of Bidding institution, Bidding conditions, Winning rate
+PD
+Bidding conditions
+Cut-off yield
+Dutch
+Conventional
+Differential-Price (4bp example)
+A
+2.975%, KRW 20 billion
+All 3.055%
+2.975%
+2.975%
+B
+3.000%, KRW 20 billion
+3.000%
+3.015%
+C
+3.015%, KRW 20 billion
+3.015%
+D
+3.020%, KRW 10 billion
+3.020%
+3.055%
+E
+3.055%, KRW 10 billion
+3.055%
+F
+3.070%, KRW 20 billion
+Failed bid
+Failed bid
+Failed bid
+Under a differential-price auction, for example, if the highest accepted yield is 3.055%, bid yields are grouped into ranges such as 3.055-3.020%, 3.015-2.980%, and 2.975-2.940%. The accepted yield applied to each group is the highest yield within the respective group-namely, 3.055%, 3.015%, and 2.975%.
+Bid-to-Cover Ratio in the KTB Market
+Bid-to-Cover Ratio in the KTB Market
+Year
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+Bid-to-coverratio (%)
+409.1
+372.7
+383.3
+333.6
+295.2
+297.6
+294.8
+283.0
+274.9
+271.1
+321.1
+266.7
+Ministry of Finance and Economy, Sejong Government Complex, 42, Doum 6-ro, Sejong-si 30112, Korea
+Copyright ⓒ Ministry of Finance and Economy. All Right Reserved.

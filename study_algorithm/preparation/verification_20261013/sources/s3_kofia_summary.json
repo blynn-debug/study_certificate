@@ -1,0 +1,14 @@
+{
+  "id": "s3_kofia_summary",
+  "requested_url": "https://www.kofia.or.kr/wpge/m_39/sub010401.do",
+  "retrieved_url": "https://www.kofia.or.kr/wpge/m_39/sub010401.do",
+  "retrieved_at": "2026-10-14T09:18:47.957871+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1399,
+  "content_sha256": "9355a0ab6a499206dc33f7ecd1065c0903bd8c3dec17598afafcadba94566f4f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "evidence_unit": "Overview",
+  "version_selection": "Official current association overview retrieved completely 2026-10-14; only general meeting expulsion resolution used."
+}

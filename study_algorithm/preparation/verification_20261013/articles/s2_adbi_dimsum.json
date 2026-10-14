@@ -1,0 +1,32 @@
+{
+  "source_id": "s2_adbi_dimsum",
+  "source_metadata": {
+    "id": "s2_adbi_dimsum",
+    "requested_url": "https://www.adb.org/sites/default/files/publication/156312/adbi-wp457.pdf",
+    "retrieved_url": "https://www.adb.org/sites/default/files/publication/156312/adbi-wp457.pdf",
+    "retrieved_at": "2026-10-13T16:50:21.498073+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "45b3421f29ca32a76de2c04e53104b6c3ef7e61e81571550951d257657d7cebe",
+    "binary_sha256": "45b3421f29ca32a76de2c04e53104b6c3ef7e61e81571550951d257657d7cebe",
+    "text_sha256": "6d066bc118fd28cf2a4885bb8a7e7a6c59ecbf92a09165c59448af5fc7f8d405",
+    "pages": 34,
+    "characters": 111664,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_adbi_dimsum:Definition",
+      "source_id": "s2_adbi_dimsum",
+      "article": "Definition",
+      "heading": "Definition",
+      "text": "The rapid expansion of RMB trade settlement and the accompanying measures that \nrecalibrated other capital flow policy regulations, such as the circulars relaxing FDI9, 10 \nand equity investment regulations,11, 12 have bolstered the growth of the RMB bond \nmarket in Hong Kong, China (also known as the dim sum bond market).",
+      "start": 35045,
+      "end": 35370,
+      "sha256": "0d67e747bcad502dd13c0b2fa7b8f41ad93e6408eed84f54c2c3f6d816f3a0e6"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

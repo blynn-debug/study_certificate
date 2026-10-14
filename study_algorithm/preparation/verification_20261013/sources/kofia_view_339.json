@@ -1,0 +1,13 @@
+{
+  "id": "kofia_view_339",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawView.do?seq=339&historySeq=0&gubun=cur&tree=part&lookup=0",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawView.do?seq=339&historySeq=0&gubun=cur&tree=part&lookup=0",
+  "retrieved_at": "2026-10-13T00:04:14.977649+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 410,
+  "content_sha256": "4070b386cd55ed4b6b711bb9daa522a547fe371a67e0e177e322db7151e2ceca",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

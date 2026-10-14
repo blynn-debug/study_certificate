@@ -1,0 +1,12 @@
+{
+  "id": "fd_cftc_economic",
+  "requested_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/economicpurpose.html",
+  "retrieved_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/economicpurpose.html",
+  "retrieved_at": "2026-10-14T00:24:39.283490+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "8ae0a0d867d92a3ab80f20d281896a090af2b9a1b80300e7566f8f81f6bd3ccb",
+  "text_sha256": "90722773adf5965ba524f157b5658a59ec10812609f440a926abaff7ed137d22",
+  "characters": 8910,
+  "status": "retrieved_not_claim_verified"
+}

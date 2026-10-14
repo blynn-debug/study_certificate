@@ -1,0 +1,30 @@
+{
+  "source_id": "fd_cftc_economic",
+  "source_metadata": {
+    "id": "fd_cftc_economic",
+    "requested_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/economicpurpose.html",
+    "retrieved_url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/economicpurpose.html",
+    "retrieved_at": "2026-10-14T00:24:39.283490+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "8ae0a0d867d92a3ab80f20d281896a090af2b9a1b80300e7566f8f81f6bd3ccb",
+    "text_sha256": "90722773adf5965ba524f157b5658a59ec10812609f440a926abaff7ed137d22",
+    "characters": 8910,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fd_cftc_economic:Mechanism",
+      "source_id": "fd_cftc_economic",
+      "article": "Mechanism",
+      "heading": "Mechanism",
+      "text": "Futures Contracts Futures contracts typically are traded on organized exchanges that set standardized terms for the contracts (see “Exchanges” below) Futures contracts allow hedging without contract negotiations For example, a farmer who wants to deliver wheat to a grain elevator near Topeka might find Chicago Board of Trade (CBOT) wheat futures contracts useful for hedging, but would not want to make delivery on the contracts because the nearest CBOT delivery point is St. Louis. Instead of making delivery, the farmer will buy back or offset the contracts before the delivery date and sell the wheat locally on the spot market Most futures contracts (by volume) are liquidated by offsetting and do not result in delivery The purpose of the delivery provision is to ensure convergence between the futures price and the cash market price Futures contracts are different from forward contracts, which cannot be offset; i.e., if a purchaser buys a forward contract and then sells an identical forward contract to a different person, the purchaser now has obligations under two contracts, one long and one short Exchanges Exchanges set standardized contract terms, including the amount of the commodity to be delivered (the contract size), delivery months, the last trading day, the delivery locations, and acceptable qualities or grades of the commodity The exchange specifies that different varieties and grades can be delivered at various fixed differentials (premiums or discounts) to the contract price This standardization enhances liquidity by making it possible for large numbers of market participants to trade the same instrument This liquidity makes the contract more useful for hedging, but standardization reduces the usefulness of a futures contract as a merchandising vehicle Futures trades made on an exchange are cleared through a “clearing house,” which acts as the buyer to all sellers and the seller to all buyers When a futures contract is bought or sold, it is technically bought from or sold to the clearing house rather than the party with whom the transaction was executed on the trading floor or through an electronic trading platform Since the contract is ultimately bought from and sold from the same party, if a futures contract is bought and subsequently sold, the position has been offset and the contract is extinguished Margin Futures traders are not required to pay the entire value of a contract. Instead, they are required to post a “margin” that is typically between two and 10 percent of the total value of the contract Margins in the futures markets are not down payments like stock margins, but are performance bonds designed to ensure that traders can meet their financial obligations When a futures trader enters into a futures position, he or she is required to post initial margin of an amount specified by the exchange or clearing house. Thereafter, the position is “marked to the market” daily If the futures position loses value when the market moves against it—if, for example, you are buying and the market goes down—the amount of money in the margin account will decline accordingly If the amount of money in the margin account falls below the specified maintenance margin (which is set at a level less than or equal to the initial margin), the futures trader will be required to post additional variation margin to bring the account up the initial margin level On the other hand, if the futures position is profitable, the profits will be added to the margin account Futures commission merchants (FCMs) often require their customers to maintain funds in their margin accounts that exceed the levels specified by an exchange",
+      "start": 2200,
+      "end": 5876,
+      "sha256": "b66da0f1bc146e3c6f39606f5aff75b2835cc4b5750cc45a19febca02b461d1b"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

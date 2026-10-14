@@ -1,0 +1,18 @@
+{
+  "id": "kofia_isa_brokerage",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1617&seq=343",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1617&seq=343",
+  "retrieved_at": "2026-10-13T00:01:47.846990+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 17392,
+  "content_sha256": "fb1cab9013f68c055711f86400c4e0577a9dfe55fea1e5659f36ccafd99e2e47",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "투자중개형 개인종합자산관리계좌 실무지침",
+  "kofia_seq": "343",
+  "history_seq": "1617",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

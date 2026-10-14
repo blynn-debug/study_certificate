@@ -1,0 +1,553 @@
+{
+  "items": [
+    {
+      "id": "S3C7T01-CORE",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7T01-CORE",
+        "answer": "③",
+        "clean_prompt": "성과평가 설명 중 틀린 것은? ① 투자과정의 질을 평가하려면 운·표본오차도 고려한다. ② 신뢰할 수 있는 자산가치·회계자료는 성과측정의 입력이다. ③ 수익률 수치를 벤치마크 수치와 비교하는 작업은 수치분석이 전혀 없는 순수 정성판단이다. ④ 수익률 측정과 성과 원인 분석은 구분할 수 있다.",
+        "claim_ids": [
+          "L326"
+        ],
+        "review_note": "수익률·벤치마크의 수치 비교는 정량적인 계산을 포함하므로③이 틀리다. CFA의 측정·기여·과정평가 구분과 일치한다.",
+        "source_finding": "특정 교재의7단계 번호를 보편 표준으로 주장하지 않고 분석내용을 물었다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7T04-SUP-03",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7T04-SUP-03",
+        "answer": "①",
+        "clean_prompt": "상방편차까지 대칭적으로 포함해 평균 주변의 전체 변동성을 재는 것은? ① 표준편차 ② 손실분포의 꼬리 분위수 VaR ③ 목표미달 하락편차 ④ 평균미달 반편차",
+        "claim_ids": [],
+        "review_note": "표준편차는 모든 (R-평균)²를 평균하므로 상방·하방 모두 반영한다. ②~④는 제시 정의대로 손실꼬리나 하방을 대상으로 한다.",
+        "source_finding": "목표수익 추구에는 표준편차를 사용할 수 없다는 단정 대신 지표가 측정하는 대상을 물었다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "표준편차는 모든 (R-평균)²를 평균하므로 상방·하방 모두 반영한다. ②~④는 제시 정의대로 손실꼬리나 하방을 대상으로 한다.",
+          "assumptions": "P3 378쪽. 각 지표의 기준을 정의.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S3C7T09-SUP-02",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7T09-SUP-02",
+        "answer": "②",
+        "clean_prompt": "펀드수익과 여러 자산군 지수수익을 사용하고 비중합1 등의 제약 아래 노출을 추정한다. 개별 보유종목목록은 직접 입력하지 않는다. 해당 방법과 주목적의 조합은? ① Sharpe 수익률기반 분석·확정적 미래수익 예측 ② Sharpe 수익률기반 분석·기간 중 평균 스타일노출 추정 ③ 보유기반 분석·현재 종목목록 전수확인 ④ 보유기반 분석·신용등급 확정",
+        "claim_ids": [
+          "L327"
+        ],
+        "review_note": "입력이 수익률인 Sharpe의 스타일분석이고 기간 중 노출을 추정하므로②다.",
+        "source_finding": "교재고유 성과요인/특성 단계명과 모든 스타일분석=정성이라는 단정을 분석입력과 산출로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7T10-CORE",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7T10-CORE",
+        "answer": "④",
+        "clean_prompt": "운용조직·인력·철학·지원체계를 평가하는 설명 중 틀린 것은? ① 과거성과가 반복될 가능성을 검토하는 데 도움이 된다. ② 수치만으로 드러나지 않는 과정을 확인한다. ③ 좋은 단기성과도 운의 영향을 받을 수 있다. ④ 조직 평가가 좋으면 미래 초과수익이 반드시 보장된다.",
+        "claim_ids": [
+          "L326"
+        ],
+        "review_note": "과정평가는 예측의 근거를 보완하지만 미래성과를 확정 보장하지 못하므로④가 틀리다.",
+        "source_finding": "국제적으로 고정된5·6단계 구분이라는 근거 없는 원문 정답기준을 성과평가의 실제 한계로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7T11-CORE",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7T11-CORE",
+        "answer": "③",
+        "clean_prompt": "GIPS 성과보고 설명 중 틀린 것은? ① 정해진 기준에 따라 성과를 일관되게 보고한다. ② 컴포지트TWR은 자산가중 또는 허용 합산방법을 쓴다. ③ 1년 미만 투자수익률을 반드시 연환산해서 제시한다. ④ 회사 검증은 권고지만 검증 자체가 특정 보고서의 정확성을 보장하지는 않는다.",
+        "claim_ids": [
+          "L114",
+          "L118",
+          "L322"
+        ],
+        "review_note": "2.A.12는1년 미만 투자수익률의 연환산을 금지하므로③이 틀리다.",
+        "source_finding": "검증 수행과 의무 검증 여부, 컴포지트의 허용 계산방법을 구별했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7-ADD-06",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7-ADD-06",
+        "answer": "①",
+        "clean_prompt": "절편을 포함한 Rp=α+βRm+ε 회귀의 기울기이며 시장민감도를 나타내는 것은? ① β=Cov(Rp,Rm)/Var(Rm) ②SD(Rp) ③VaR ④최대낙폭",
+        "claim_ids": [],
+        "review_note": "OLS의 기울기는 공분산/설명변수분산이므로①이다.",
+        "source_finding": "추출누락 선택지를 완전한 정의식 비교로 복원했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "OLS의 기울기는 공분산/설명변수분산이므로①이다.",
+          "assumptions": "P3 398쪽. 양의 시장분산.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S3C7-ADD-08",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7-ADD-08",
+        "answer": "③",
+        "clean_prompt": "위험측정 설명 중 틀린 것은? ① 표준편차는 평균 양쪽의 변동을 반영한다. ② 베타는 지정 시장에 대한 선형민감도다. ③ 관측수익의 최솟값·최댓값 두 숫자만 알면95% VaR과 표준편차가 각각 유일하게 정해진다. ④ 목표미달 편차만 보는 하락위험 지표도 있다.",
+        "claim_ids": [],
+        "review_note": "같은 최소·최대에서도 끝값의 빈도와 중간분포가 다르면 분산·95%분위수가 달라진다. 예컨대0과1의 발생확률을.01/.99와.5/.5로 바꾸면 분산이 다르다.",
+        "source_finding": "원문처럼 단순 범위폭만 보고 표준편차 순위를 확정하는 해설도 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "같은 최소·최대에서도 끝값의 빈도와 중간분포가 다르면 분산·95%분위수가 달라진다. 예컨대0과1의 발생확률을.01/.99와.5/.5로 바꾸면 분산이 다르다.",
+          "assumptions": "P3 398쪽. 분포와 극값을 구분.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S3C7-ADD-11",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "S3C7-ADD-11",
+        "answer": "③",
+        "clean_prompt": "상방변동을 분모에서 제외하고 지정 목표수익률 MAR 미달의 제곱편차를 사용하는 성과비율은? ①샤프 ②트레이너 ③소티노 ④RAROC",
+        "claim_ids": [],
+        "review_note": "소티노는 (평균수익-MAR)/sqrt(E[min(R-MAR,0)²])를 사용한다. 샤프는 전체표준편차, 트레이너는 베타를 사용한다.",
+        "source_finding": "비정규분포인 모든 펀드에 소티노만 유일하게 적합하다는 원문의 포괄적 설명을 지표의 정의로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "소티노는 (평균수익-MAR)/sqrt(E[min(R-MAR,0)²])를 사용한다. 샤프는 전체표준편차, 트레이너는 베타를 사용한다.",
+          "assumptions": "P3 399쪽. 전체확률에 대한 하방2차모멘트 정의.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "MOCK-1-Q088",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "MOCK-1-Q088",
+        "answer": "④",
+        "clean_prompt": "GIPS 원칙에 어긋나는 것은? ① 공정가치평가 ② 거래일 기준의 자산·부채 인식 ③ 이자수입 투자의 발생주의(현금·현금성 이자예외 제외) ④ 모든 이자수입 투자를 오직 현금수취일 기준으로만 처리",
+        "claim_ids": [
+          "L321"
+        ],
+        "review_note": "일반 이자수입 투자의 발생주의 요구에 반하는④가 틀리다.",
+        "source_finding": "거래일/체결일 중복 선택지를 정리하고 발생주의 예외를 명시했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "MOCK-1-Q089",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "MOCK-1-Q089",
+        "answer": "③",
+        "clean_prompt": "이 문제에서 하락편차는 MAR미달, 반편차는 평균미달 편차의 제곱평균 제곱근으로 정의한다. 틀린 것은? ①SD는 상하방 모두 본다. ②분포의 하방위험은 목표미달 지표로 따로 측정할 수 있다. ③MAR가 평균과 다르더라도 하락편차와 반편차는 항상 같다. ④SD(Rp-Rb)는 벤치마크 대비 추적오차다.",
+        "claim_ids": [],
+        "review_note": "기준점이 다르면 포함되는 관측과 편차크기가 달라질 수 있으므로③의 항상 같다는 주장은 틀리다.",
+        "source_finding": "비정규이면 표준편차가 언제나 부적합하다는 설명과 추적오차=회귀잔차라는 설명도 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "기준점이 다르면 포함되는 관측과 편차크기가 달라질 수 있으므로③의 항상 같다는 주장은 틀리다.",
+          "assumptions": "MOCK24쪽. 정의마다 다른 명칭 사용을 피하려고 기준을 명시.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "MOCK-2-Q090",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "MOCK-2-Q090",
+        "answer": "④",
+        "clean_prompt": "P는 펀드, B는 스타일벤치마크, M은 광범위시장 수익률이다. S=B-M,A=P-B로 정의한다. 가. P=M+S+A다. 나. 어떤 스타일지수를 완벽히 추종해도 S와A는 반드시 모두0이다. 다. B대비 초과수익P-B는 항상 S+A다. 틀린 것은? ①없음 ②나 ③다 ④나·다",
+        "claim_ids": [],
+        "review_note": "가는 항등식이다. B를 추종하면A=0이지만 B≠M이면S≠0일 수 있어나가 틀리다. P-B=A이므로다도 틀리다.",
+        "source_finding": "원문은 모든 패시브에서S=0이라고 해설해 정답③만 제시했지만 스타일지수추종 반례가 있다. 비교기준을B로 명시하고④로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "가는 항등식이다. B를 추종하면A=0이지만 B≠M이면S≠0일 수 있어나가 틀리다. P-B=A이므로다도 틀리다.",
+          "assumptions": "MOCK51쪽. 지정된 세 수익률의 항등식.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q014",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q014",
+        "answer": "하락위험",
+        "clean_prompt": "목표수익률보다 낮은 구간만의 손실·편차를 측정하는 위험분류는 무엇인가?",
+        "claim_ids": [],
+        "review_note": "상승편차와 달리 목표 미달 손실에 초점을 맞추므로 하락위험이다.",
+        "source_finding": "모든 VaR의 기준점이 같다는 설명 대신 목표미달 위험을 직접 정의했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "상승편차와 달리 목표 미달 손실에 초점을 맞추므로 하락위험이다.",
+          "assumptions": "NOTE76쪽. 목표수익률 고정.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q015",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q015",
+        "answer": "베타, 추적오차, 벤치마크 대비 손실의 VaR, 시장과의 공분산",
+        "clean_prompt": "①Cov(Rp,Rm)/Var(Rm), ②SD(Rp-Rb), ③Rb-Rp의 지정 신뢰수준 분위수, ④Cov(Rp,Rm)에 해당하는 상대위험 지표를 순서대로 쓰시오.",
+        "claim_ids": [],
+        "review_note": "①시장회귀 베타, ②추적오차, ③벤치마크 대비 손실VaR, ④시장공분산이다. 분모가 필요한①과 단순 공분산④를 구분한다.",
+        "source_finding": "기준 없는 네 칸에 임의 목록을 요구하던 발문을 명확한 수식 대응으로 교정했다. 추적오차와 회귀잔차위험을 동일시하지 않는다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "①시장회귀 베타, ②추적오차, ③벤치마크 대비 손실VaR, ④시장공분산이다. 분모가 필요한①과 단순 공분산④를 구분한다.",
+          "assumptions": "NOTE76쪽. 유한분산·양의 시장분산·정해진 벤치마크.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q018",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q018",
+        "answer": "전체위험, 하락위험, 상대위험",
+        "clean_prompt": "수익률 평균 양쪽의 변동, 목표수익 미달, 사전 벤치마크와의 차이를 각각 위험으로 정의한다. 세 분류의 이름을 순서대로 쓰시오.",
+        "claim_ids": [],
+        "review_note": "각 정의가 전체위험·하락위험·상대위험에 대응한다.",
+        "source_finding": "단지 목표수익이 있다는 사실만으로 특정 위험지표 하나만 적합하다고 단정하지 않도록 측정대상을 명시했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "각 정의가 전체위험·하락위험·상대위험에 대응한다.",
+          "assumptions": "NOTE76쪽 실제18번 확인.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q020",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q020",
+        "answer": "왜도, 첨도",
+        "clean_prompt": "표준화3차 중심모멘트 E[(R-μ)^3]/σ³, 표준화4차 중심모멘트 E[(R-μ)^4]/σ⁴의 이름을 순서대로 쓰시오. 후자는 초과첨도가 아니다.",
+        "claim_ids": [],
+        "review_note": "3차는 비대칭의 왜도, 4차는 첨도다. 정규분포의 두 값은0,3이며 초과첨도는 첨도-3이다.",
+        "source_finding": "첨도를 봉우리의 뾰족함만으로 정의하지 않고 꼬리 극단치의 영향을 반영하는 모멘트로 명시했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "3차는 비대칭의 왜도, 4차는 첨도다. 정규분포의 두 값은0,3이며 초과첨도는 첨도-3이다.",
+          "assumptions": "NOTE77쪽. 양의분산과 필요한 모멘트 존재.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q023",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q023",
+        "answer": "트레이너비율, 젠센의 알파",
+        "clean_prompt": "샤프=(Rp-rf)/σp, 트레이너=(Rp-rf)/βp, 젠센α=Rp-[rf+βp(Rm-rf)], 정보비율=(Rp-Rb)/SD(Rp-Rb)로 정의한다. 시장베타를 직접 사용하는 두 지표는?",
+        "claim_ids": [],
+        "review_note": "제시식에서 βp가 직접 들어가는 것은 트레이너와 젠센α다.",
+        "source_finding": "",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "제시식에서 βp가 직접 들어가는 것은 트레이너와 젠센α다.",
+          "assumptions": "NOTE77쪽. 각 분모 양수·정의 가능, 동일기간.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q025",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q025",
+        "answer": "X",
+        "clean_prompt": "월간수익률을36개 이상 모으면 그 수익률의 모집단 분포는 반드시 정규분포가 되고 샤프비율의 정규성 문제가 사라진다. O/X?",
+        "claim_ids": [],
+        "review_note": "매월 수익이+1% 또는-1%인 이항자료는 표본수를 늘려도 개별수익 분포가 정규분포로 바뀌지 않는다. 중심극한정리는 추가조건 아래 표본평균의 분포에 관한 근사다.",
+        "source_finding": "원문의3년이면 정규분포 속성을 갖춘다는 해설을 반례로 교정했다. GIPS의36개월 표준편차 공시요건과 별개다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "매월 수익이+1% 또는-1%인 이항자료는 표본수를 늘려도 개별수익 분포가 정규분포로 바뀌지 않는다. 중심극한정리는 추가조건 아래 표본평균의 분포에 관한 근사다.",
+          "assumptions": "NOTE77쪽. 표본평균과 원자료 분포를 구별.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q026",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q026",
+        "answer": "O",
+        "clean_prompt": "공통시장에 대해 βp>0, 잔차위험0, Rp-rf=βp(Rm-rf)인 포트폴리오들에서 샤프 Sp와 트레이너 Tp는 Sp=Tp/σm 관계이므로 순위가 같다. O/X?",
+        "claim_ids": [],
+        "review_note": "σp=βpσm에서 Sp=(Rp-rf)/(βpσm)=Tp/σm. 모든 비교대상에 같은 양의 상수1/σm를 곱하므로 순위가 같다.",
+        "source_finding": "비분산 포트폴리오면 서로 단위가 다른 비율 중 트레이너가 수치상 항상 더 크다는 원문 일반화를 삭제했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "σp=βpσm에서 Sp=(Rp-rf)/(βpσm)=Tp/σm. 모든 비교대상에 같은 양의 상수1/σm를 곱하므로 순위가 같다.",
+          "assumptions": "NOTE77쪽. 같은 기간·같은시장·양의베타·잔차0.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q027",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q027",
+        "answer": "모형상 비정상수익(알파), 순수 종목선택능력의 확정 입증은 아니다",
+        "clean_prompt": "시장모형 Rp-rf=α+β(Rm-rf)+ε에서 상수절편α는 무엇을 나타내는가? 이것만으로 순수한 종목선택능력이 확정 입증되는가?",
+        "claim_ids": [],
+        "review_note": "시장베타로 설명되지 않는 모형상 비정상수익이다. 누락요인·시장타이밍·표본오차가 절편에 영향을 줄 수 있으므로 순수 선택능력의 확정 입증은 아니다.",
+        "source_finding": "젠센알파가 종목선택능력만을 오염 없이 측정한다는 원문 단정을 교정했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "시장베타로 설명되지 않는 모형상 비정상수익이다. 누락요인·시장타이밍·표본오차가 절편에 영향을 줄 수 있으므로 순수 선택능력의 확정 입증은 아니다.",
+          "assumptions": "NOTE77쪽. 시장모형의 통계적 잔여성과.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q029",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q029",
+        "answer": "SD(Rp-Rb), SD(ε)",
+        "clean_prompt": "정보비율을 E[Rp-Rb]/SD(Rp-Rb), 회귀기반 평가비율을 α/SD(ε)로 정의한다. 두 분모를 순서대로 쓰시오.",
+        "claim_ids": [],
+        "review_note": "각 정의에서 첫째는 벤치마크 대비 추적오차, 둘째는 해당 회귀모형의 잔차표준편차다. 두 값은 일반적으로 같지 않다.",
+        "source_finding": "벤치마크가 없으면 자동으로 정보비율을 α/잔차위험으로 바꾼다는 표현을 서로 다른 지표의 정의로 교정했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "각 정의에서 첫째는 벤치마크 대비 추적오차, 둘째는 해당 회귀모형의 잔차표준편차다. 두 값은 일반적으로 같지 않다.",
+          "assumptions": "NOTE78쪽. 평가비율 정의와 기준 회귀를 명시.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q031",
+      "reason": "Original TARGET correspondence audit: restore original scope and record only needed corrections.",
+      "moved_at": "2026-10-14T00:04:51.300413+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q031",
+        "answer": "포트폴리오 특성분석, 주식비중만으로 전망 확정 불가",
+        "clean_prompt": "A펀드 주식비중95%, 동류 평균80%라는 보유내역을 비교하는 분석은 무엇인가? 이 차이만으로 운용자의 낙관적 전망이 확정되는가?",
+        "claim_ids": [],
+        "review_note": "보유내역에 근거한 포트폴리오 특성분석이다. 의무비중·전략·유입자금 등도 비중차이를 만들 수 있어 전망을 확정할 수 없다.",
+        "source_finding": "95% 보유가 반드시 낙관적 전망을 뜻한다는 원문 단정과 정량자료 분석을 무조건 정성평가로 분류하는 단정을 제거했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "보유내역에 근거한 포트폴리오 특성분석이다. 의무비중·전략·유입자금 등도 비중차이를 만들 수 있어 전망을 확정할 수 없다.",
+          "assumptions": "NOTE78쪽. 관측노출과 의도 추론을 구분.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S3C7T08-SUP-01",
+      "reason": "Original full TARGET option set restored with minimal corrections.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "S3C7T08-SUP-01",
+        "answer": "④",
+        "clean_prompt": "x=Rb-rf, Rp-rf=α+βx+γx²+ε라는 회귀다. 틀린 것은? ① α는 이 지정모형의 절편이다. ② γ>0이면 조건부회귀곡선은 볼록하다. ③ γ의 값과 추정불확실성을 함께 보고 타이밍 특성을 해석한다. ④ 제곱항이 아니라 더미 교차항을 쓰는 Henriksson-Merton 식 자체다.",
+        "claim_ids": [
+          "L328"
+        ],
+        "review_note": "제곱항을 추가한 Treynor-Mazuy 형태이므로④가 틀리다. 곡률은2γ이며 계수값도 추정 가능하다.",
+        "source_finding": "원문③의 '타이밍 정도를 측정할 수 없다'도 일반적으로 틀려 단일정답이 무너진다. 계수의 크기·오차를 함께 평가하는 진술로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7-ADD-01",
+      "reason": "Original full TARGET option set restored with minimal corrections.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "S3C7-ADD-01",
+        "answer": "①",
+        "clean_prompt": "GIPS 기준의 성과측정을 위한 일반 원칙과 어긋나는 것은? ① 현재 공정가치 변화와 무관하게 모든 자산을 취득원가로 고정한다. ② 이자수입 투자의 발생주의를 적용한다(현금·현금성자산 이자 예외 제외). ③ 체결로 발생한 자산·부채를 거래일 기준으로 인식한다. ④ 발생주의에서는 비용을 실제 현금지급일에만 인식하지 않는다.",
+        "claim_ids": [
+          "L321"
+        ],
+        "review_note": "공정가치 평가와 모순인①이 틀리다.",
+        "source_finding": "모든 장부가라는 용어를 틀린 것으로 처리하지 않고 취득원가 고정과 공정가치 평가를 구별했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "MOCK-1-Q091",
+      "reason": "Original full TARGET option set restored with minimal corrections.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "MOCK-1-Q091",
+        "answer": "③",
+        "clean_prompt": "젠센α와 관련한 설명 중 틀린 것은? ①α는 CAPM 기준을 넘는 부호 있는 비정상수익이다. ②α=Rp-[rf+βp(Rm-rf)]로 쓴다. ③월수익률30개만 확보하면 α의 통계적 유의성이 반드시 보장된다. ④α/회귀잔차표준편차를 평가비율로 정의할 수 있다.",
+        "claim_ids": [],
+        "review_note": "α가0인 모집단에서도30개 관측은 가능하며 표준오차·효과크기·유의수준이 필요하다. 표본수만으로 유의성을 보장하는③이 틀리다.",
+        "source_finding": "원문 전항목 정답④를 교정했다. α는 수학적 절댓값이 아니고30개는 유의성 보장이 아니다. 정보비율과 평가비율의 용어·분모를 명시했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "α가0인 모집단에서도30개 관측은 가능하며 표준오차·효과크기·유의수준이 필요하다. 표본수만으로 유의성을 보장하는③이 틀리다.",
+          "assumptions": "MOCK24쪽. 단위 동일·잔차표준편차 양수.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S3C7T05-CORE",
+      "reason": "원문② 벤치마크로 상대성과를 평가한다는 명제는 CFA 근거에 부합한다. 원답②를 유지하려 ②를 반대문장으로 바꾼 이전안은 원문 검증이 아니다.④ 정상포트폴리오의 정의·투자가능성 전제를 입증할 세부근거도 부족해 원래 전보기에서 유일한 오답 확정 불가.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "S3C7T05-CORE",
+        "answer": "②",
+        "clean_prompt": "벤치마크 설명 중 틀린 것은? ① 운용전략의 지침·비교기준으로 쓸 수 있다. ② 벤치마크 대비 초과수익은 기준과 비교하는 상대성과가 아니다. ③ 평가 전에 정하고 전략 적합성을 확인한다. ④ 명확하고 측정·복제투자가 가능한 기준을 지향한다.",
+        "claim_ids": [
+          "L326"
+        ],
+        "review_note": "벤치마크와의 차이인 초과수익은 상대성과다. 따라서 이를 부정한②가 틀리다.",
+        "source_finding": "원문은 벤치마크 비교가 상대평가라는 올바른 진술을 오답처리한다. 그 부정문으로 교정했다. 정상포트폴리오를 특정 유동성 분류와 배타적으로 연결하지 않았다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "S3C7T05-SUP-01",
+      "reason": "원문④ 정상포트폴리오와 맞춤형포트폴리오의 구분은 해당 용어 정의·투자가능성 설명 근거가 필요하다. CFA 일반 벤치마크 적합성 요건만으로 양자 구분과 원답④를 입증할 수 없으며 아무 시장지수나 적합하다는 전혀 다른 문장으로 바꾼 이전안 철회.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "S3C7T05-SUP-01",
+        "answer": "④",
+        "clean_prompt": "벤치마크 선택 설명 중 틀린 것은? ① 광범위 시장 운용에는 해당 시장지수를 검토할 수 있다. ② 특정 섹터·스타일 운용에는 그 노출을 반영한 지수를 검토한다. ③ 혼합 운용에는 사전가중·산식이 분명한 복합기준을 검토할 수 있다. ④ 특수 제약이 있는 펀드도 제약을 무시한 아무 시장지수나 반드시 적합하다.",
+        "claim_ids": [
+          "L326"
+        ],
+        "review_note": "벤치마크의 전략 적합성 요건에 반하는④가 틀리다. 제약에 맞춘 명확한 기준을 별도로 검토해야 한다.",
+        "source_finding": "맞춤형과 정상포트폴리오라는 이름만으로 적합성을 배타 판정하던 설명을 실제 전략·제약 적합성으로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q022",
+      "reason": "정상포트폴리오라는 명칭만으로 명확성·측정가능성이 언제나 낮아진다는 원문 명제 근거 부족. 구성가중치가 불명확하다는 조건을 새로 넣으면 명확성 결여는 자명하지만 원래 명제의 검증은 아니다. 용어범위 및 원분류표 근거 필요.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q022",
+        "answer": "명확성",
+        "clean_prompt": "벤치마크를 정상포트폴리오라는 이름으로 제시했지만 구성자산과 가중치가 명시되지 않았다. 무엇으로 이루어졌는지 분명해야 한다는 어떤 속성이 직접 부족한가?",
+        "claim_ids": [
+          "L326"
+        ],
+        "review_note": "구성·비중의 불명확성은 벤치마크 명확성 요건 위반이다. 정상포트폴리오라는 명칭 자체가 언제나 이 요건을 위반하는 것은 아니다.",
+        "source_finding": "정상포트폴리오는 본질적으로 명확성·측정가능성이 낮다는 단정을 구체적 누락사례로 교정했다.",
+        "answer_kind": "text",
+        "concept_review": null
+      }
+    },
+    {
+      "id": "MOCK-2-Q091",
+      "reason": "실제 MOCK52쪽④는 집중포트폴리오의 샤프순위가 높아도 트레이너순위는 낮을 수 있다는 가능성이다. A 초과.1 β2 σ.3,B 초과.05 β.5 σ.2는 실제로 샤프A>B·트레이너A<B여서④가 참인 반례다. 원해설은 서로 단위가 다른 위험수치를 비교해 오류.④를 두순위 항상같다로 바꿔 원답을 유지하는 것은 최소교정이 아니므로 원문 유일오답 확정 보류.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "MOCK-2-Q091",
+        "answer": "④",
+        "clean_prompt": "같은 시장·기간에서 초과수익이 양수인 포트폴리오를 비교한다. 틀린 것은? ①샤프는 초과수익/총표준편차다. ②트레이너는 초과수익/베타다. ③양의베타·잔차위험0이면 샤프는 트레이너를 공통 시장표준편차로 나눈 값이다. ④잔차위험이 다른 포트폴리오도 두 지표의 순위는 반드시 같다.",
+        "claim_ids": [],
+        "review_note": "A 초과수익.10,β2,σ.30이면 샤프.333·트레이너.05; B 초과수익.05,β.5,σ.20이면 샤프.25·트레이너.10으로 순위가 반대다. 따라서④가 틀리다.",
+        "source_finding": "원문④의 '샤프순위가 높아도 트레이너순위가 낮을 수 있다'는 가능한 사실이다. 이를 불가능하게 단정하는 진술로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "A 초과수익.10,β2,σ.30이면 샤프.333·트레이너.05; B 초과수익.05,β.5,σ.20이면 샤프.25·트레이너.10으로 순위가 반대다. 따라서④가 틀리다.",
+          "assumptions": "MOCK52쪽. 양의분모·동일시장σ=.1로 두 조합의 비음수 잔차분산이 가능하다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q030",
+      "reason": "원문 Jensen·Treynor-Mazuy·Henriksson-Merton·가상포트폴리오 네 빈칸 중 마지막 방식의 구체적 정의/성과기여 측정 산식 근거 부족. P3 390쪽 설명만으로 회귀모형은 기여크기 측정불가라는 단정을 검증할 수 없다. TM모형 이름 하나만 묻던 대체안을 원문완료로 취급하지 않고 철회.",
+      "moved_at": "2026-10-14T00:06:06.981486+00:00",
+      "review": {
+        "id": "NOTE-S3C7-Q030",
+        "answer": "Treynor-Mazuy, 계수와 추정불확실성을 함께 평가",
+        "clean_prompt": "시장초과수익x의 선형항과 제곱항을 넣은 Rp-rf=α+βx+γx²+ε 모형의 이름은? γ의 부호만 보고 실력을 확정해도 되는가?",
+        "claim_ids": [
+          "L328"
+        ],
+        "review_note": "Treynor-Mazuy 모형이며 γ는 곡률을 추정한다. 그 크기·표준오차·모형설정 등을 함께 보아야 하므로 부호만으로 실력을 확정하지 않는다.",
+        "source_finding": "모형은 존재 여부만 알고 정도를 측정하지 못한다는 단정을 수정했다. 가상포트폴리오만 크기측정이 가능하다는 범용 주장을 사용하지 않았다.",
+        "answer_kind": "text",
+        "concept_review": null
+      }
+    }
+  ]
+}

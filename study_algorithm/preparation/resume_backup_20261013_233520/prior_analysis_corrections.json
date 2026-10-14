@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-10-13",
+  "items": [
+    {
+      "id": "A001",
+      "claim_id": "L069",
+      "reason": "공식 별표 분모를 확인하여 이전 해석을 철회함",
+      "changes": [
+        {
+          "path": "target_analysis/review_updates/s3c2_topics01_14.json",
+          "before": {
+            "assistant_delivery": "곧 갚아야 할 외화부채일수록 바로 쓸 수 있는 외화자산이 더 필요하다. 부채100에 자산90이면 1개월 기준의 교재 비율90%다. 부족액10이 부채100의10%라는 뜻이며 부채가 자산90보다10% 많다는 계산과 다르다.",
+            "check": "외화자산90·부채100에서 A/B와(B-A)/B와B/A를 모두 계산."
+          }
+        },
+        {
+          "path": "target_analysis/chapter_reviews/S3C2.json",
+          "before": {
+            "assistant_delivery": "곧 갚아야 할 외화부채일수록 바로 쓸 수 있는 외화자산이 더 필요하다. 부채100에 자산90이면 1개월 기준의 교재 비율90%다. 부족액10이 부채100의10%라는 뜻이며 부채가 자산90보다10% 많다는 계산과 다르다.",
+            "check": "외화자산90·부채100에서 A/B와(B-A)/B와B/A를 모두 계산."
+          }
+        },
+        {
+          "path": "target_analysis/chapter_reviews/S3C2.json",
+          "before": {
+            "memory": "교재3개월80·1개월90·7일100. 이사회 제정. 등록자본30억초과·순자본150이상·영업소7일전·한도위반3영업일.",
+            "trap": "초과비율의 분모 누락·자산90 부채100을 부채/자산110%라고 계산·외화부채5%예외.",
+            "embedded_examples": [
+              [
+                84,
+                "표 원본80/90/100 확인; 보충문장 초과라는 표현은 부정확"
+              ]
+            ]
+          }
+        },
+        {
+          "path": "target_analysis/review_updates/s3c2_topics01_14.json",
+          "before": {
+            "memory": "교재3개월80·1개월90·7일100. 이사회 제정. 등록자본30억초과·순자본150이상·영업소7일전·한도위반3영업일.",
+            "trap": "초과비율의 분모 누락·자산90 부채100을 부채/자산110%라고 계산·외화부채5%예외.",
+            "embedded_examples": [
+              [
+                84,
+                "표 원본80/90/100 확인; 보충문장 초과라는 표현은 부정확"
+              ]
+            ]
+          }
+        }
+      ],
+      "corrected_explanation": "3개월 외화유동성비율은 3개월 외화자산/3개월 외화부채다. 반면 1개월 만기불일치비율은 (1개월 외화자산−1개월 외화부채)/총외화자산이며 −10% 이상이어야 한다. 예시용으로 80·100·200을 대입하면 −10%로 경계를 충족한다. 80/100=80%라는 비율과 다르다.",
+      "corrected_probe": "1개월 외화자산80·외화부채100·총외화자산200일 때 만기불일치비율과 적용 경계를 계산하고, 총외화자산을100으로 바꾸면 어떻게 달라지는지 설명한다."
+    },
+    {
+      "id": "A002",
+      "claim_ids": [
+        "L114",
+        "L124",
+        "L125"
+      ],
+      "reason": "기존 검토 메모의 잘못된 오류 귀속과 개정 전 통계, 미확인 지수 상태를 갱신",
+      "changes": [
+        {
+          "path": "preparation\\target_analysis\\chapter_reviews\\S3C7.json",
+          "before": {
+            "refs": [
+              "P3:395-396"
+            ],
+            "issue": "GIPS 1년미만 연율화는 단순 권고, 비수수료 전부의무·추정거래비용불가",
+            "resolution": "GIPS2.A.12 금지, 2.A.13 실제비용 모를 때 추정허용, 3.A.4 비수수료 재량 편입가능. 보충1 고정채점격리"
+          }
+        },
+        {
+          "path": "preparation\\target_analysis\\chapter_reviews\\S3C8.json",
+          "before": {
+            "refs": [
+              "P3:419-420",
+              "P3:429:additional8",
+              "NOTE:82:30",
+              "MOCK:26:95"
+            ],
+            "issue": "한국은 국외순수취음수·GNI<GDP라는 오래된 단정",
+            "resolution": "한국은행2026-03-10의2025잠정 명목국외순수취45.8조원은양수. 출제연도 없는 고정정답은 격리"
+          }
+        },
+        {
+          "path": "preparation\\target_analysis\\chapter_reviews\\S2C2.json",
+          "before": {
+            "refs": [
+              "P12:281-282",
+              "P12:299-300"
+            ],
+            "issue": "MSCI는 시가총액 방식이 아니라는 이분법, 통화 버전 일반화, 국가분류·WGBI 편입·2026/2024 날짜 혼재",
+            "resolution": "유동시가총액도 시가총액 가중 방식이다. MSCI 공식 페이지로 World의 선진시장·유동시가총액 범위만 확인. 국가분류·WGBI 일정은 별도 공식 검증 전 교재 기준으로 표시."
+          }
+        }
+      ],
+      "do_not_rebuild_from_stale_review_scripts": true
+    }
+  ]
+}

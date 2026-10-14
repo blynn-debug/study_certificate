@@ -1,0 +1,13 @@
+{
+  "id": "s3_cboe_skew_whitepaper",
+  "requested_url": "https://cdn.cboe.com/resources/indices/documents/SKEWwhitepaperjan2011.pdf",
+  "retrieved_url": "https://cdn.cboe.com/resources/indices/documents/SKEWwhitepaperjan2011.pdf",
+  "retrieved_at": "2026-10-14T09:21:39.002709+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 35618,
+  "content_sha256": "a5ae9fac91f1209f744eb3c1db176367fe1cc4e05f15d8efdeee43fcb16c9b34",
+  "evidence_unit": "Whitepaper2011",
+  "version_selection": "January2011 SKEW whitepaper; historical pre/post1987 comparison on printed page2, not universal current cross-asset shape.",
+  "status": "retrieved_not_claim_verified"
+}

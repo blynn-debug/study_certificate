@@ -1,0 +1,14 @@
+{
+  "url": "https://license.kofia.or.kr/examInfo/ajax/examMstPrdInfo.do?licenseCd=FWM006&examinationPrd=1",
+  "as_of": "2026-10-13",
+  "sha256": "7b901dcec09a31081019196b8b0d886681c56f55a6dfb599c11673ada2d995cd",
+  "data": {
+    "examMstPrd": {
+      "licenseCd": "FWM006",
+      "examinationPrd": 1,
+      "itemCnt": 100,
+      "examinationTm": 120,
+      "uLessonCnt": 3
+    }
+  }
+}

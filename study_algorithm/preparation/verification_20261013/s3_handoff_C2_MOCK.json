@@ -1,0 +1,748 @@
+{
+  "count": 22,
+  "items": [
+    {
+      "id": "MOCK-1-Q056",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T03"
+      ],
+      "document": "MOCK",
+      "question_page": 16,
+      "demand": "투자계약 타인·손익",
+      "publisher_answer": "④",
+      "explanation_text": "56    ’타인, 손익’이다. 공동사업은 ‘타인이 주로 수행하며 '손익을 귀속 받는다（손실이 발생할 수 있으므로 금융투자상품에\n       해당）.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-14",
+        "S3C2-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        16,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q057",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T04"
+      ],
+      "document": "MOCK",
+      "question_page": 16,
+      "demand": "온라인중개 타인계산·투자계약증권",
+      "publisher_answer": "④",
+      "explanation_text": "57    '타인, 투자계약증권'이다.\n\n     암기 TIP 온라인소액투자중개업의 대상이 되는 증권    : '채 / 지 / 투'",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-14",
+        "S3C2-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        16,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q058",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T04"
+      ],
+      "document": "MOCK",
+      "question_page": 16,
+      "demand": "청약중개 본업과 대행인/거래소/K-OTC 적용배제",
+      "publisher_answer": "①",
+      "explanation_text": "58  ①은 투자중개업 본업에 해당하며, ② ③ ④는 투자중개업 적용이 배제된다（2권, p.86 참조）.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-14",
+        "S3C2-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        16,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q059",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T09"
+      ],
+      "document": "MOCK",
+      "question_page": 17,
+      "demand": "적자2년 레버리지900 권고/1100 요구",
+      "publisher_answer": "③",
+      "explanation_text": "59  레버리지비율로만 본다면 1,10〇% 초과 시 권고, 1,300% 초과 시 '요구'이다. 그런데 2년 연속 적자요건이 추가될 경우\n\n    레버리지비율이 900% 초과 시 '권고', 1,100% 초과 시 '요구'이다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-38"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        17,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q060",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T13"
+      ],
+      "document": "MOCK",
+      "question_page": 17,
+      "demand": "상장40일과 인수3개월 기산점",
+      "publisher_answer": "④",
+      "explanation_text": "60     '40 일-3개월'이다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-38"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        17,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q061",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T13"
+      ],
+      "document": "MOCK",
+      "question_page": 17,
+      "demand": "상장채권은2평가사 기반·ETF는종가예외",
+      "publisher_answer": "③",
+      "explanation_text": "61   채권과 주식의 평가방법이 다름에 주의한다（상장채권 및 공모파생결합증권은 '둘 이상의 채권평가회사가 제공하는 가\n    격정보를 기초로 증권회사가 산정한 가격'으로 평가）.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-38"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        17,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q062",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T15",
+        "S3C2T26"
+      ],
+      "document": "MOCK",
+      "question_page": 17,
+      "demand": "일반사무관리 발행·명의개서·계산·소집과 채권평가 구별",
+      "publisher_answer": "③",
+      "explanation_text": "62     '가, 나, 다는 일반사무관리회사의 업무（'발, 명, 계, 소로 암기）, 라는 채권평가회사의 업무이다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-38"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        17,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q063",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T21",
+        "S3C2T22"
+      ],
+      "document": "MOCK",
+      "question_page": 18,
+      "demand": "운용보고·일임보고3개월·매매월간다음달20일·자문제외",
+      "publisher_answer": "①",
+      "explanation_text": "63  투자자문업은 자산의 운용과 관계없으므로 해당되지 않는다. 차례대로  ' 집합투자업자 - 투자일임업자 - 투자매매업자\n    또는 투자중개업자'이다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        18,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q064",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T23"
+      ],
+      "document": "MOCK",
+      "question_page": 18,
+      "demand": "증권신고서 발행인 제출",
+      "publisher_answer": "①",
+      "explanation_text": "64  증권신고서의 제출의무자는 언제나 해당 증권의 발행인이다. 다만, 증권예탁증권을 발행함에 있어서는 그 기초가 되는\n    증권을 발행하였거나 발행하고자 하는 자를 말한다（2023 기본서, 3권, p.291 인용）.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        18,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q065",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T23",
+        "S3C2T25",
+        "S3C2T27",
+        "S3C2T28"
+      ],
+      "document": "MOCK",
+      "question_page": 18,
+      "demand": "발행시장 설명서와 유통시장 공시",
+      "publisher_answer": "③",
+      "explanation_text": "65   증권신고서, 투자설명서는 발행시장 공시이다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        18,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q066",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T27"
+      ],
+      "document": "MOCK",
+      "question_page": 18,
+      "demand": "집합투자증권 제외·500/300·기한",
+      "publisher_answer": "①",
+      "explanation_text": "66  집합투자증권의 경우 예외가 적용되어 사업보고서 대상이 아니다. 그리고 ②에서, 500인 이상이었던 발행인이 300인\n\n    미만으로 되기 전까지는 사업보고서 제출대상이 된다.",
+      "question_text": "",
+      "answer_pages": [
+        62
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        18,
+        62
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q056",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T03"
+      ],
+      "document": "MOCK",
+      "question_page": 42,
+      "demand": "파생결합증권 정의와 파생결합사채",
+      "publisher_answer": "②",
+      "explanation_text": "56   파생결합증권（ELS, ELW, DLS 등）의 정의에 해당된다. 참고로 ELB는 파생결합사채에 해당한다.",
+      "question_text": "",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        42,
+        72
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q057",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T06"
+      ],
+      "document": "MOCK",
+      "question_page": 42,
+      "demand": "중개인가·일반사모/온라인/일임등록",
+      "publisher_answer": "①",
+      "explanation_text": "57  ①은 인가, 나머지는 등록대상이다.\n\n             • 인가대상    : 투자매매업/투자중개업/집합투자업/신탁업\n\n             • 등록대상    : 투자자문업/투자일 임업/ 일반사모 집합투자업 /온라인소액투자중개업\n\n     참고    2021.10.21 사모펀드체계 개편    : 전문투자 사모 집합투자기 구 一 일반사모 집합투자기 구",
+      "question_text": "",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        42,
+        72
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q058",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T09"
+      ],
+      "document": "MOCK",
+      "question_page": 42,
+      "demand": "부실처분/신규업무제한 권고·점포폐쇄/조직축소 요구",
+      "publisher_answer": "④",
+      "explanation_text": "58   '가/다는 경영개선권고, '나/라'는 경영개선요구 조치에 해당한다（상세분류는 본문내용 참조）.",
+      "question_text": "",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        42,
+        72
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q059",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T07"
+      ],
+      "document": "MOCK",
+      "question_page": 43,
+      "demand": "고정이하평가와 회수의문/추정손실상각",
+      "publisher_answer": "③",
+      "explanation_text": "59  상각대상은 ’회수의문, 추정손실'이다.",
+      "question_text": "",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15",
+        "S3C2-ISSUE-35"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        43,
+        72
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q060",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T13"
+      ],
+      "document": "MOCK",
+      "question_page": 43,
+      "demand": "자기자본신용한도·융자140",
+      "publisher_answer": "④",
+      "explanation_text": "60   '자기자본. 100분의 140'이다. 위험관리차원에서 총자산이 아닌 자기자본을 한도로 하고, 신용융자 시 담보비율은\n       140% 이상을 유지해야 한다（140% 미만 시 반대매매를 통해 신용융자금액을 회수. 참고로 신용대주 시 담보비율은\n\n       105% 이상이다）.",
+      "question_text": "",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15",
+        "S3C2-ISSUE-35"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        43,
+        72
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q061",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T14"
+      ],
+      "document": "MOCK",
+      "question_page": 43,
+      "demand": "예탁금분리·겸영자기신탁·양도예외·우선지급",
+      "publisher_answer": "②",
+      "explanation_text": "61   '투자자예탁금을 신탁업자에 신탁할 수 있는 금융투자업자（겸영금융투자업자）'는 은행, 한국산업은행, 중소기업은행,\n     보험회사이며, 신탁법 제2조에도 불구하고 자기계약을 할 수 있다（2023 기본서, 3권, p.227 참조）. 즉, 겸영금융투자업\n\n    자는 자신이 신탁업자로서 투자자예탁금을 보관할 수 있다.\n\n\n\n\n\n72 부록 최종모의고사",
+      "question_text": "",
+      "answer_pages": [
+        72,
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C1-ISSUE-09",
+        "S3C1-ISSUE-15",
+        "S3C2-ISSUE-35"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        43,
+        72,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q062",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T16"
+      ],
+      "document": "MOCK",
+      "question_page": 44,
+      "demand": "동일종목10·지방채30",
+      "publisher_answer": "②",
+      "explanation_text": "62  동일종목 투자한도는 10%이며 그 예외로서 100%와 30%가 인정된다.\n              •  100% 예외     : 국채, 통안채, 정부보증채, 주택저당채권담보부채권（부동산펀드가 투자 시） 등\n\n             ・ 30% 예외   : 지방채, 특수채, 파생결합증권, 금융기관이 발행하는또는 보증하는） 채권, 어음, 주택저당채권담보부채권\n\n     （부동산펀드가 아닌 펀드가 투자 시） 등",
+      "question_text": "",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-29",
+        "S3C4-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        44,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q063",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T18"
+      ],
+      "document": "MOCK",
+      "question_page": 44,
+      "demand": "계열배우자·6개월·유리거래·자기증권/수익증권",
+      "publisher_answer": "④",
+      "explanation_text": "63  취득할 수 없다. 단, 수익증권은 취득금지에서 제외된다（법 제84조 제4항）.",
+      "question_text": "",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-29",
+        "S3C4-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        44,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q064",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T27"
+      ],
+      "document": "MOCK",
+      "question_page": 44,
+      "demand": "사업보고 대상500·90/45/5",
+      "publisher_answer": "④",
+      "explanation_text": "64  차례대로 ’500인-90일-45일-5일'이다.",
+      "question_text": "",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-29",
+        "S3C4-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        44,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q065",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T29",
+        "S3C2T33"
+      ],
+      "document": "MOCK",
+      "question_page": 45,
+      "demand": "PB는공개매수제외·정보이용규제포함",
+      "publisher_answer": "②",
+      "explanation_text": "65   이익 참가부사채 （PB） 는 주식전환권이 없어 공개매수의무의 적용대상 증권온 아니다（ 미공개중요정보금지대상에는 포함됨）.",
+      "question_text": "",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-29",
+        "S3C4-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        45,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q066",
+      "kind": "mock",
+      "chapter_id": "S3C2",
+      "topic_ids": [
+        "S3C2T34"
+      ],
+      "document": "MOCK",
+      "question_page": 45,
+      "demand": "시장질서교란의 다차수령·목적요건·프로그램매매; 설명과징금현행확인대기",
+      "publisher_answer": "③",
+      "explanation_text": "66  목적성이 없다 하더라도 시세에 부당한 영향을 준 경우（回 프로그램매매, ETF유동성지원업무, 파생상품 헤지거래 등）\n\n    도 규제대상이 된다.\n\n      X 시장질서교란행위 규제의 의의\n\n      ⑴ 처벌대상 확대（정부수령자의 범위를 1차수령자가 아니라 다차수령자로 확대）\n\n               （2） 목적성이 없어도 처벌문제의 보기 ②, ③ 참조",
+      "question_text": "",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C2-ISSUE-29",
+        "S3C4-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        45,
+        73
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    }
+  ]
+}

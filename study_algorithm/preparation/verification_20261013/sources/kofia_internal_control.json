@@ -1,0 +1,17 @@
+{
+  "id": "kofia_internal_control",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1795&seq=150",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1795&seq=150",
+  "retrieved_at": "2026-10-13T00:04:50.076986+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 63530,
+  "content_sha256": "76ada4eddd253ce7de8681d7af26259f96561c7d6548c5ec83554e9f8bb7407f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자회사 표준내부통제기준",
+  "kofia_seq": "150",
+  "history_seq": "1795",
+  "version_selection": "공식 최신본; 부칙의 시행조건 별도 확인",
+  "version_selection_source": "sources/kofia_tree.html"
+}

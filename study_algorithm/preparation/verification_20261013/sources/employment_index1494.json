@@ -1,0 +1,12 @@
+{
+  "id": "employment_index1494",
+  "requested_url": "https://index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1494",
+  "retrieved_url": "https://index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1494",
+  "retrieved_at": "2026-10-13T16:15:29.374623+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 15081,
+  "content_sha256": "0d5961335a5eb07efb6ad00e40f6cac65bdc00e50960bf2be1df034e0915f6be",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

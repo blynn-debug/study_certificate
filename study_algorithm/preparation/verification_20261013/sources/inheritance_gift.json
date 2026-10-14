@@ -1,0 +1,18 @@
+{
+  "id": "inheritance_gift",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276123&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:40.896805+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 133048,
+  "content_sha256": "f4bf04ff9f30e949ea415819ad767e4d9f61516f03fed20d54074c1545203f81",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

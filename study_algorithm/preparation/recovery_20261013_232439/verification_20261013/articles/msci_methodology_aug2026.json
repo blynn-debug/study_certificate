@@ -1,0 +1,42 @@
+{
+  "source_id": "msci_methodology_aug2026",
+  "source_metadata": {
+    "id": "msci_methodology_aug2026",
+    "requested_url": "https://www.msci.com/eqb/methodology/meth_docs/MSCI_GIMIMethodology_Aug2026.pdf",
+    "retrieved_url": "https://www.msci.com/eqb/methodology/meth_docs/MSCI_GIMIMethodology_Aug2026.pdf",
+    "retrieved_at": "2026-10-13T01:13:05.208156+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "9ff15223be61ad4f10be6aaf8a9865bf8c962aa1c3668fdeae836622a4a58897",
+    "binary_sha256": "9ff15223be61ad4f10be6aaf8a9865bf8c962aa1c3668fdeae836622a4a58897",
+    "text_sha256": "38db985d81e6945cf0f705e9a9b7fabca054b051e772fa1aa15e7fb7d737747f",
+    "pages": 192,
+    "characters": 431667,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "msci_methodology_aug2026:Construction_objectives",
+      "source_id": "msci_methodology_aug2026",
+      "article": "Construction_objectives",
+      "heading": "Construction_objectives",
+      "text": "[PDF page 13]\n \n \n \n \nMSCI GIMI™ Methodology | August 2026 \nmsci.com  Page 13 of 192\n© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. \n• \nThe creation of sector and industry indexes using the Global Industry Classification \nStandard (GICS®). \n• \nMinimum free float requirements for eligibility and free float-adjusted capitalization \nweighting to appropriately reflect the size of each investment opportunity and facilitate the \nreplicability of the Indexes. \n• \nTimely and consistent treatment of corporate events and synchronized rebalancings, \nglobally. \nIn November 2010, MSCI also introduced a Micro Cap Size-Segment for developed markets as \nwell as the MSCI World All Cap Index consisting of the Large, Mid, Small and Micro Cap Size-\nSegments in order to further broaden the coverage of the international equity markets.",
+      "start": 34244,
+      "end": 35128,
+      "sha256": "a571aa22f939ea24e7b541be07b1746db845c49d6bf7a024879714bdadf9a35a"
+    },
+    {
+      "id": "msci_methodology_aug2026:Composite_indexes",
+      "source_id": "msci_methodology_aug2026",
+      "article": "Composite_indexes",
+      "heading": "Composite_indexes",
+      "text": "[PDF page 33]\n \n \n \n \nMSCI GIMI™ Methodology | August 2026 \nmsci.com  Page 33 of 192\n© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. \nThe MSCI IMI™ Indexes are composed of the MSCI Standard Indexes and the MSCI Small Cap \nIndexes. The MSCI Standard Indexes are further subdivided into the MSCI Large Cap and the \nMSCI Mid Cap Indexes. \nFor example, the MSCI USA IMI™, MSCI USA Index, MSCI USA Large Cap Index, MSCI USA Mid \nCap Index, MSCI USA Small Cap Index. \n \n2.5.2 \nComposite Indexes13 \nTwo or more Market Indexes can be combined to form Composite Indexes. \nMarket Indexes can be grouped either on the basis of Market Classification 14 definition, \ngeographical regions, economic regions or other criteria. For example, by combining all Market \nIndexes from each Market Classification, i.e. Developed, Emerging and Frontier Markets, we \nobtain the MSCI World 15, the MSCI Emerging Markets and the MSCI Frontier Markets Indexes \nrespectively for each size-segment.  \nExamples of regional or other types of indexes grouping multiple markets are the MSCI Asia \nPacific Index, the MSCI North America Index or the MSCI GCC Index. Market Classification \ngrouping can also be overlaid with regional grouping. Some examples would be the MSCI EM \nAsia Index or the MSCI All Countries16 Americas Index. Some regional indexes may be formed \nby excluding specific markets, for instance, MSCI World ex USA Index or the MSCI Asia Pacific \nex Japan Index. A list of standard defined Regions can be found in \nhttps://www.msci.com/index-country-membership-tool. MSCI may also create custom regions \nat client’s request. \n \n2.5.3 \nGICS®-Based Indexes \nAll securities in the Global Investable Equity Universe are assigned to the industry that best \ndescribes their business activities. To this end, MSCI has designed, in conjunction with S&P \nDow Jones Indices, the Global Industry Classification Standard (GICS). The GICS currently \nconsists of 11 Sectors, 25 Industry Groups, 74 Industries and 163 Sub-Industries. Under the \nGICS, each company is assigned uniquely to one Sub-Industry according to its principal \nbusiness activity.  \n \n13 Composite Indexes covered in this section refer to market capitalization weighted indexes created by combining individual \nMarket Indexes. \n14 Please refer to Appendix II for the MSCI Market Classification Framework. \n15 The MSCI World Index is made up of all the Markets Indexes classified as Developed Markets. \n16 All Countries include both Developed Markets and Emerging Markets Indexes.",
+      "start": 80173,
+      "end": 82745,
+      "sha256": "4cf11d33a295c1f7a4b89eb27d9d5a184ac7f986c639b94bb27b7f4e4a8e6930"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

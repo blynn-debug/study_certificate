@@ -1,0 +1,12 @@
+{
+  "id": "fb_sec_bond_risks",
+  "requested_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+  "retrieved_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+  "retrieved_at": "2026-10-14T00:10:30.482068+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 21332,
+  "content_sha256": "886388635b32ba53284205cc7c2cc6986e2fa34d3a4a966ab618852757271e92",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

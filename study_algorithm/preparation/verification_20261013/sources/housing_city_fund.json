@@ -1,0 +1,18 @@
+{
+  "id": "housing_city_fund",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286599&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286599&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:43.998220+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 27916,
+  "content_sha256": "77e83f926c4155b40ef1f57820f043ac6877fbeb633c62dcb455ad38ce90d54e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "6",
+      "2"
+    ]
+  ]
+}

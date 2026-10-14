@@ -1,0 +1,12 @@
+{
+  "id": "koreit_collateral_trust",
+  "requested_url": "https://www.koreit.co.kr/land-trust/non-develop/non-land-trust",
+  "retrieved_url": "https://www.koreit.co.kr/land-trust/non-develop/non-land-trust",
+  "retrieved_at": "2026-10-13T04:19:13.324307+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 112,
+  "content_sha256": "43e80b20e1027d1c59a4f47225782f7a2ed00e885efc8fdd3102967163516133",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

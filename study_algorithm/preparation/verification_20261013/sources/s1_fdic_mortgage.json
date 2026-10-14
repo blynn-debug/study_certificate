@@ -1,0 +1,12 @@
+{
+  "id": "s1_fdic_mortgage",
+  "requested_url": "https://www.fdic.gov/consumer-resource-center/mortgages",
+  "retrieved_url": "https://www.fdic.gov/consumer-resource-center/mortgages",
+  "retrieved_at": "2026-10-13T23:51:05.219227+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 31208,
+  "content_sha256": "f6ca4bbffd696abab12a436994d428acacede10f90f7729e86127497349f40b0",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

@@ -1,0 +1,1143 @@
+{
+  "chapter_id": "S3C7",
+  "title": "투자운용결과분석",
+  "status": "semantic_review_complete_within_identified_chapter_ranges",
+  "global_cross_reference_audit": "pass; completion_audit.json",
+  "current_law_validation": "선택 GIPS 조항·지수산출방법 확인; 국내 평가규정과 시험적용판 전체확정은 별도",
+  "reviewed_pages": {
+    "P3": [
+      [
+        369,
+        400
+      ]
+    ],
+    "CALC": [
+      [
+        74,
+        83
+      ]
+    ],
+    "NOTE": [
+      [
+        75,
+        78
+      ]
+    ],
+    "MOCK_questions": [
+      [
+        24,
+        24
+      ],
+      [
+        51,
+        52
+      ]
+    ],
+    "MOCK_answers": [
+      [
+        64,
+        65
+      ],
+      [
+        75,
+        75
+      ]
+    ]
+  },
+  "standalone_question_counts": {
+    "core": 11,
+    "supplement": 22,
+    "additional": 12,
+    "calculation_including_unnumbered_variant": 10,
+    "mock": 8,
+    "warmup": 35,
+    "total": 98
+  },
+  "count_policy": "독립번호·별도계산예시 계수. 본문 OX·그림·예시는 주제내 기록. 공식기출 인증 아님.",
+  "chapter_demand": "공통 입력→현금흐름 조정→위험의 기준→단위 맞춘 지표→조건부 비교→보고. 문제의 일반화·정답충돌은 격리.",
+  "topics": [
+    {
+      "number": 1,
+      "title": "성과평가 7단계",
+      "pages": [
+        370,
+        370
+      ],
+      "core": [
+        370,
+        "성과비교는정량"
+      ],
+      "supplement": [],
+      "demand": "순서를 외운 뒤 각 단계의 입력·출력을 구별한다.",
+      "assistant_delivery": "계좌를 먼저 같은 가격기준으로 평가한다. 그 장부로 수익률과 위험을 구하고, 비교 대상을 정해 성과를 비교한다. 왜 그런 결과가 났는지와 운용 절차를 조사한 뒤 보고한다. 단계 5의 성과요인 분석에도 수량모형을 쓴다.",
+      "memory": "회계→수익률→위험→비교→특성→정성→보고",
+      "trap": "5~7을 모두 비수량적 작업으로 오해",
+      "check": "벤치마크와 수익률 비교는 몇 단계인가? 4단계.",
+      "repair": "장부·수익률·비교표·보고서 네 산출물부터 연결한다.",
+      "embedded_examples": [
+        [
+          370,
+          "7단계 흐름도"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "title": "펀드 회계처리",
+      "pages": [
+        371,
+        372
+      ],
+      "core": [
+        371,
+        "매매일기준"
+      ],
+      "supplement": [
+        [
+          372,
+          "Q1 공정가치·발생·매매일"
+        ]
+      ],
+      "demand": "공정가치·발생주의·매매일 기준을 구별한다.",
+      "assistant_delivery": "월요일 매매하고 수요일 결제해도 거래 인식은 매매일 기준이다. 아직 현금으로 받지 않은 발생이자도 해당 기간에 반영한다. 공정가치는 신뢰할 시장가격이 있으면 이를 쓰고 없으면 정해진 평가기법을 적용한다.",
+      "memory": "매매일·발생주의·공정가치",
+      "trap": "공정가치=항상 거래소 가격; 아무 거래나 즉시 이익",
+      "check": "이자가 발생했지만 입금되지 않았을 때 누락하는가? 아니다.",
+      "repair": "거래일·현금결제일·이자 귀속기간을 달력에 따로 표시한다."
+    },
+    {
+      "number": 3,
+      "title": "투자수익률 계산",
+      "pages": [
+        373,
+        375
+      ],
+      "core": [
+        373,
+        "TWR와MWR"
+      ],
+      "supplement": [
+        [
+          375,
+          "Q1 산술40·기하38.56"
+        ],
+        [
+          375,
+          "Q2 복합연평균44.91"
+        ],
+        [
+          375,
+          "Q3 선별·생존편향"
+        ]
+      ],
+      "demand": "외부현금흐름을 구분해 TWR·MWR·기간수익률을 계산한다.",
+      "assistant_delivery": "1만원이 8천원으로 내려갔다가 다시 1만원이 되면 시간가중 누적수익률은 0이다. 하락 후 돈을 더 넣었다면 개인의 금액가중수익률은 달라진다. 각 외부현금흐름 직전·직후 평가액을 나누어 기간 수익률을 구하고 곱해 연결한다.",
+      "memory": "TWR=기간 연결; MWR=현금흐름 IRR; 누적과 연평균 구분",
+      "trap": "산술평균으로 복리 계산; 2기 상승만으로 MWR>TWR 단정",
+      "check": "+20%,+60%의 2년 누적92%, 연평균 약38.56%를 설명하라.",
+      "repair": "원금100의 100→120→192 경로를 먼저 계산한다.",
+      "embedded_examples": [
+        [
+          374,
+          "3개월4% 연율단리·복리·TWR/MWR"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "title": "투자위험 측정",
+      "pages": [
+        376,
+        378
+      ],
+      "core": [
+        376,
+        "위험분류"
+      ],
+      "supplement": [
+        [
+          377,
+          "Q1 연율화·첨도"
+        ],
+        [
+          378,
+          "Q2 하방위험"
+        ],
+        [
+          378,
+          "Q3 목표위험"
+        ],
+        [
+          378,
+          "Q4 하방편차식"
+        ],
+        [
+          378,
+          "Q5 TE와잔차"
+        ]
+      ],
+      "demand": "전체·하방·벤치마크 대비 위험을 구분한다.",
+      "assistant_delivery": "표준편차는 평균 양쪽의 흔들림이다. 목표수익률 MAR 아래의 부족분만 제곱하면 하방위험을 잰다. 추적오차는 펀드와 벤치마크 수익률 차이의 표준편차이며, 회귀식에서 남은 잔차위험과 일반적으로 다르다.",
+      "memory": "TE=sd(Rp−Rb); DD는 min(R−MAR,0); β는 민감도",
+      "trap": "VaR를 절대최대손실로 해석; TE=회귀잔차로 고정",
+      "check": "β=2이고 잔차가 0이어도 TE가 0인가? 시장이 움직이면 아니다.",
+      "repair": "Rp=2Rb를 두 시점에 대입하여 차이와 잔차를 각각 구한다.",
+      "embedded_examples": [
+        [
+          376,
+          "절대/상대위험표"
+        ],
+        [
+          378,
+          "DD 분모n−1 표본관례"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "title": "벤치마크 설정",
+      "pages": [
+        379,
+        380
+      ],
+      "core": [
+        379,
+        "벤치마크비교용어"
+      ],
+      "supplement": [
+        [
+          380,
+          "Q1 벤치마크유형"
+        ]
+      ],
+      "demand": "투자 가능하고 사전에 정한 적합한 비교기준을 선택한다.",
+      "assistant_delivery": "소형 가치주 펀드를 전체 대형주 지수와만 비교하면 스타일 효과를 운용 능력으로 오인할 수 있다. 실제 전략을 대표하고 투자 가능한 기준을 성과를 보기 전에 정한다.",
+      "memory": "명확·투자가능·측정가능·적합·사전설정·견해반영",
+      "trap": "교재의 절대평가 용어를 벤치마크 대비 상대수익률 부정으로 확대",
+      "check": "소형 가치주 펀드의 비교기준을 고르고 이유를 설명한다.",
+      "repair": "투자대상·제약·전략이 같은지 세 칸으로 대조한다."
+    },
+    {
+      "number": 6,
+      "title": "샤프·트레이너·젠센",
+      "pages": [
+        381,
+        385
+      ],
+      "core": [
+        381,
+        "샤프.9"
+      ],
+      "supplement": [
+        [
+          384,
+          "Q1 연율샤프"
+        ],
+        [
+          384,
+          "Q2 샤프와트레이너단위"
+        ],
+        [
+          385,
+          "Q3 알파해석"
+        ],
+        [
+          385,
+          "Q4 SML"
+        ],
+        [
+          385,
+          "Q5 비체계위험"
+        ]
+      ],
+      "demand": "분자·분모·단위를 구분해 계산하고 비교한다.",
+      "assistant_delivery": "수익률12%, 무위험4%, 표준편차8%, 베타2이면 샤프는 1, 트레이너는 0.04 즉 베타당 4%포인트이다. 서로 다른 자의 숫자를 직접 비교하지 않는다. 젠센 알파는 실제 수익률에서 CAPM 요구수익률을 뺀 값이다.",
+      "memory": "샤프=(Rp−Rf)/σ; 트레이너=(Rp−Rf)/β; α=Rp−[Rf+β(Rm−Rf)]",
+      "trap": "베타에 %를 붙임; 분산투자면 두 값 동일; 관측30개면 정규성 보장",
+      "check": "Rp8%, Rf3%, Rm6%, β1.2의 알파는1.4%포인트.",
+      "repair": "요구수익6.6%와 실제8%를 각각 만든 뒤 차이를 구한다.",
+      "embedded_examples": [
+        [
+          382,
+          "효율적곡선 A B C D"
+        ],
+        [
+          383,
+          "β2 단위 오류와 집중투자OX"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "title": "정보비율·소티노비율",
+      "pages": [
+        386,
+        388
+      ],
+      "core": [
+        386,
+        "IR위험"
+      ],
+      "supplement": [
+        [
+          388,
+          "Q1 IR·appraisal"
+        ],
+        [
+          388,
+          "Q2 소티노"
+        ]
+      ],
+      "demand": "비교기준과 하방목표에 맞는 분모를 선택한다.",
+      "assistant_delivery": "벤치마크보다 평균3%포인트 잘하고 차이의 표준편차가6%이면 정보비율은0.5이다. 같은 펀드를 목표수익률 기준으로 평가한다면 소티노비율을 쓴다. 알파/회귀잔차표준편차인 appraisal ratio와 IR을 무조건 동일시하지 않는다.",
+      "memory": "IR=평균 active return/TE; Sortino=(평균수익−MAR)/DD",
+      "trap": "소티노가 높으면 큰 손실확률이 반드시 작다",
+      "check": "초과수익2%, TE4%의 IR=.5. 분모가 베타인가? 아니다.",
+      "repair": "먼저 무위험·벤치마크·MAR 중 기준을 표시한다.",
+      "embedded_examples": [
+        [
+          386,
+          "IR·appraisal 등식 조건"
+        ],
+        [
+          387,
+          "MAR와하방편차"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "title": "성과요인 분석",
+      "pages": [
+        389,
+        390
+      ],
+      "core": [
+        389,
+        "패시브도추적오차"
+      ],
+      "supplement": [
+        [
+          390,
+          "Q1 TM·HM"
+        ]
+      ],
+      "demand": "수익의 분해와 능력의 통계적 추정을 구별한다.",
+      "assistant_delivery": "시장수익 M, 스타일기준 B, 펀드 P라면 P=M+(B−M)+(P−B)이다. 스타일 효과가0이어도 이 항등식은 유지된다. 마지막 차이에는 수수료와 추적오차 등도 들어가므로 전부 종목선택 실력이라고 단정하지 않는다.",
+      "memory": "S=B−M; A=P−B; P=M+S+A",
+      "trap": "패시브면 언제나 S=A=0; 추정 알파를 실력의 증명으로 취급",
+      "check": "M5 B5 P6이면 S0 A1, 분해식은 성립하는가? 그렇다.",
+      "repair": "세 수익률을 수직선에 놓고 두 차이를 직접 뺀다.",
+      "embedded_examples": [
+        [
+          390,
+          "TM/HM 수식"
+        ]
+      ]
+    },
+    {
+      "number": 9,
+      "title": "포트폴리오·스타일분석",
+      "pages": [
+        391,
+        393
+      ],
+      "core": [
+        391,
+        "RBSA입력"
+      ],
+      "supplement": [
+        [
+          392,
+          "Q1 스타일지수"
+        ],
+        [
+          393,
+          "Q2 수익기반"
+        ],
+        [
+          393,
+          "Q3 규모·가치"
+        ]
+      ],
+      "demand": "보유종목 기반과 수익률 기반 분석을 구별한다.",
+      "assistant_delivery": "보유종목을 보면 실제 규모·가치 특성을 분류할 수 있다. 샤프 방식은 보유종목이 없어도 스타일지수 수익률 조합과 펀드 수익률의 관계로 스타일 노출을 추정한다. 추정 결과가 실제 보유내역을 입증하지는 않는다.",
+      "memory": "보유 기반=종목; 수익 기반=스타일지수와 수익률",
+      "trap": "높은 주식비중=반드시 낙관론; 높은 회전율=항상 고위험",
+      "check": "종목 공개 없이 월수익률만 있다면 가능한 분석은? 수익률 기반.",
+      "repair": "필요한 입력자료를 먼저 두 묶음으로 나눈다.",
+      "embedded_examples": [
+        [
+          392,
+          "RBSA 설명의 표 열 배치 오류"
+        ]
+      ]
+    },
+    {
+      "number": 10,
+      "title": "운용능력 정성평가",
+      "pages": [
+        394,
+        394
+      ],
+      "core": [
+        394,
+        "정성절차"
+      ],
+      "supplement": [],
+      "demand": "사람·조직·절차의 일관성을 확인한다.",
+      "assistant_delivery": "좋은 수익률만으로 재현 가능한 실력인지 알 수 없다. 의사결정 절차, 인력 변화, 리서치와 통제, 실제 실행이 일관되는지 조사한다.",
+      "memory": "사람·조직·운용철학·절차·통제",
+      "trap": "과거 성과나 좋은 조직이 미래수익 보장",
+      "check": "운용팀 이탈은 수익률 계산과 정성평가 중 어디인가? 정성평가.",
+      "repair": "과거 결과와 그 결과를 만든 절차를 별도 질문으로 만든다."
+    },
+    {
+      "number": 11,
+      "title": "성과발표·GIPS",
+      "pages": [
+        395,
+        396
+      ],
+      "core": [
+        395,
+        "1년미만연율화금지"
+      ],
+      "supplement": [
+        [
+          396,
+          "Q1 GIPS요건충돌"
+        ]
+      ],
+      "demand": "보고 요구사항과 권고·허용을 구분한다.",
+      "assistant_delivery": "실제 거래비용을 차감하고 같은 전략의 적격 포트폴리오를 일관되게 묶어 보고한다. 1년 미만 실적은 GIPS 보고에서 연율화하지 않는다. 비수수료 재량 포트폴리오는 편입할 수 있으며 무조건 편입 의무가 아니다.",
+      "memory": "MUST·MAY·권고를 구별; 1년 미만 연율화 금지",
+      "trap": "구판 요건 혼용; 임의 성과선별; 검증과 모든 성과의 보증 혼동",
+      "check": "비수수료 재량계좌를 모두 반드시 편입해야 하는가? 아니다.",
+      "repair": "요건마다 의무·허용·예외·적용판을 네 칸으로 표시한다.",
+      "embedded_examples": [
+        [
+          396,
+          "14개 GIPS항목"
+        ]
+      ]
+    }
+  ],
+  "additional_questions": [
+    {
+      "number": 1,
+      "page": 397,
+      "answer_page": 397,
+      "topics": [
+        2
+      ],
+      "test": "회계"
+    },
+    {
+      "number": 2,
+      "page": 397,
+      "answer_page": 397,
+      "topics": [
+        2
+      ],
+      "test": "발생주의"
+    },
+    {
+      "number": 3,
+      "page": 397,
+      "answer_page": 397,
+      "topics": [
+        3
+      ],
+      "test": "수익률"
+    },
+    {
+      "number": 4,
+      "page": 397,
+      "answer_page": 397,
+      "topics": [
+        4
+      ],
+      "test": "위험"
+    },
+    {
+      "number": 5,
+      "page": 398,
+      "answer_page": 399,
+      "topics": [
+        4
+      ],
+      "test": "왜도"
+    },
+    {
+      "number": 6,
+      "page": 398,
+      "answer_page": 399,
+      "topics": [
+        4
+      ],
+      "test": "첨도"
+    },
+    {
+      "number": 7,
+      "page": 398,
+      "answer_page": 399,
+      "topics": [
+        5
+      ],
+      "test": "유동주식지수"
+    },
+    {
+      "number": 8,
+      "page": 398,
+      "answer_page": 399,
+      "topics": [
+        4
+      ],
+      "test": "범위만으로위험단정"
+    },
+    {
+      "number": 9,
+      "page": 398,
+      "answer_page": 399,
+      "topics": [
+        6
+      ],
+      "test": "연율화"
+    },
+    {
+      "number": 10,
+      "page": 399,
+      "answer_page": 399,
+      "topics": [
+        5
+      ],
+      "test": "지수"
+    },
+    {
+      "number": 11,
+      "page": 399,
+      "answer_page": 399,
+      "topics": [
+        7
+      ],
+      "test": "소티노"
+    },
+    {
+      "number": 12,
+      "page": 399,
+      "answer_page": 399,
+      "topics": [
+        11
+      ],
+      "test": "GIPS공시"
+    }
+  ],
+  "calculation_questions": [
+    {
+      "number": "52",
+      "page": 74,
+      "answer_page": 75,
+      "topics": [
+        3
+      ],
+      "test": "MWR6.9694%",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "52-unnumbered-variant",
+      "page": 76,
+      "answer_page": 76,
+      "topics": [
+        3
+      ],
+      "test": "MWR−26.7949%",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "53",
+      "page": 77,
+      "answer_page": 77,
+      "topics": [
+        3
+      ],
+      "test": "누적40·연18.3216%",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "53-1",
+      "page": 78,
+      "answer_page": 78,
+      "topics": [
+        3
+      ],
+      "test": "기하40·산술62.5%",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "54",
+      "page": 78,
+      "answer_page": 78,
+      "topics": [
+        6
+      ],
+      "test": "샤프.3",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "54-1",
+      "page": 80,
+      "answer_page": 80,
+      "topics": [
+        6
+      ],
+      "test": "샤프.5",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "54-2",
+      "page": 80,
+      "answer_page": 80,
+      "topics": [
+        6
+      ],
+      "test": "연샤프8.66025",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "55",
+      "page": 81,
+      "answer_page": 81,
+      "topics": [
+        6
+      ],
+      "test": "알파3.4%",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "56",
+      "page": 82,
+      "answer_page": 82,
+      "topics": [
+        6,
+        7
+      ],
+      "test": "지표순위·잔차/TE충돌",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    },
+    {
+      "number": "56-1",
+      "page": 83,
+      "answer_page": 83,
+      "topics": [
+        6
+      ],
+      "test": "샤프A·트레이너C",
+      "source_claim": "출판사 기출/동일유형 또는 별도예시; 공식인증 아님"
+    }
+  ],
+  "mock_questions": [
+    {
+      "set": 1,
+      "number": 88,
+      "page": 24,
+      "answer_page": 64,
+      "topics": [
+        2
+      ],
+      "test": "GIPS발생주의"
+    },
+    {
+      "set": 1,
+      "number": 89,
+      "page": 24,
+      "answer_page": 65,
+      "topics": [
+        4
+      ],
+      "test": "위험구분"
+    },
+    {
+      "set": 1,
+      "number": 90,
+      "page": 24,
+      "answer_page": 65,
+      "topics": [
+        3
+      ],
+      "test": "TWR·MWR"
+    },
+    {
+      "set": 1,
+      "number": 91,
+      "page": 24,
+      "answer_page": 65,
+      "topics": [
+        6,
+        7
+      ],
+      "test": "성과지표혼동"
+    },
+    {
+      "set": 2,
+      "number": 88,
+      "page": 51,
+      "answer_page": 75,
+      "topics": [
+        3
+      ],
+      "test": "TWR·MWR"
+    },
+    {
+      "set": 2,
+      "number": 89,
+      "page": 51,
+      "answer_page": 75,
+      "topics": [
+        6,
+        7
+      ],
+      "test": "중간반올림오류"
+    },
+    {
+      "set": 2,
+      "number": 90,
+      "page": 51,
+      "answer_page": 75,
+      "topics": [
+        8
+      ],
+      "test": "분해항등식 정답충돌"
+    },
+    {
+      "set": 2,
+      "number": 91,
+      "page": 52,
+      "answer_page": 75,
+      "topics": [
+        6
+      ],
+      "test": "두지표순위반례"
+    }
+  ],
+  "warmup_mapping": [
+    {
+      "page": 75,
+      "numbers": [
+        1
+      ],
+      "topics": [
+        1
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 75,
+      "numbers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "topics": [
+        2
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 75,
+      "numbers": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        3
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 76,
+      "numbers": [
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        3
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 76,
+      "numbers": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "topics": [
+        4
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 77,
+      "numbers": [
+        19
+      ],
+      "topics": [
+        6
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 77,
+      "numbers": [
+        20
+      ],
+      "topics": [
+        4
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 77,
+      "numbers": [
+        21,
+        22
+      ],
+      "topics": [
+        5
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 77,
+      "numbers": [
+        23,
+        25,
+        26,
+        27
+      ],
+      "topics": [
+        6
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 77,
+      "numbers": [
+        24
+      ],
+      "topics": [
+        6,
+        7
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 78,
+      "numbers": [
+        28,
+        29
+      ],
+      "topics": [
+        7
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 78,
+      "numbers": [
+        30
+      ],
+      "topics": [
+        8
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 78,
+      "numbers": [
+        31,
+        32,
+        33
+      ],
+      "topics": [
+        9
+      ],
+      "test": "OX·빈칸·해설 대조"
+    },
+    {
+      "page": 78,
+      "numbers": [
+        34,
+        35
+      ],
+      "topics": [
+        11
+      ],
+      "test": "OX·빈칸·해설 대조"
+    }
+  ],
+  "cross_chapter_links": [
+    {
+      "source_topic_ids": [
+        "S3C7T04",
+        "S3C7T06",
+        "S3C7T07",
+        "S3C7T08"
+      ],
+      "target_topic_ids": [
+        "S3C9T01",
+        "S3C9T05",
+        "S3C9T06",
+        "S3C9T09"
+      ],
+      "reason": "분산·CAPM·성과지표",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "source_topic_ids": [
+        "S3C7T04",
+        "S3C7T07"
+      ],
+      "target_topic_ids": [
+        "S2C4T01",
+        "S2C4T03",
+        "S2C4T12"
+      ],
+      "reason": "하방위험·VaR",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "source_topic_ids": [
+        "S3C7T05",
+        "S3C7T08",
+        "S3C7T09"
+      ],
+      "target_topic_ids": [
+        "S3C4T14",
+        "S3C4T15",
+        "S3C4T16",
+        "S3C4T19"
+      ],
+      "reason": "패시브·스타일·성과분해",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    }
+  ],
+  "quality_flags": [
+    {
+      "refs": [
+        "P3:370"
+      ],
+      "issue": "5~7단계를 모두 정성으로 분류",
+      "resolution": "교재 단계구분은 보존하되 성과요인·스타일에 수량모형 사용도 설명"
+    },
+    {
+      "refs": [
+        "P3:371-372"
+      ],
+      "issue": "공정가치=시장가격, 기준가단위·평가기관 일반화",
+      "resolution": "비관측 공정가치 기법과 국내상품별 규정 구분; 현행 전체검증 아님"
+    },
+    {
+      "refs": [
+        "P3:374",
+        "CALC:75-76"
+      ],
+      "issue": "후기수익만으로 MWR/TWR 순서 단정",
+      "resolution": "추가입금·출금 방향과 시점 필요; 기간별 원금 재구성"
+    },
+    {
+      "refs": [
+        "P3:374-375"
+      ],
+      "issue": "복합펀드 자산비와 기간평균 공식 조건 누락",
+      "resolution": "외부흐름 조정 및 누적/연평균 구별; 선별편향과 생존편향 별개"
+    },
+    {
+      "refs": [
+        "P3:376-378",
+        "NOTE:76-77"
+      ],
+      "issue": "TE=잔차위험·상대VaR 동일시",
+      "resolution": "TE²=(β−1)²σb²+σε²(잔차 직교조건). β1 등에서만 잔차와 일치. VaR는 신뢰수준·기간 필요"
+    },
+    {
+      "refs": [
+        "P3:378:Q4"
+      ],
+      "issue": "하방편차를 하방 관측치만의 표준편차로 설명",
+      "resolution": "원본은 min함수의 제곱합/(n−1); 전체n과 표본n−1 관례를 명시하고 하방표본 자체평균으로 중심화하지 않음"
+    },
+    {
+      "refs": [
+        "P3:377",
+        "NOTE:77:20"
+      ],
+      "issue": "정규성·첨도·연율화 무조건 일반화",
+      "resolution": "Pearson첨도3/excess0; 꼬리4차모멘트. √시간에는 자기상관 등 가정"
+    },
+    {
+      "refs": [
+        "NOTE:76:16-17"
+      ],
+      "issue": "β1·시장−10% 설명에서 −2% 기재",
+      "resolution": "모형의 다른항0이면 −10%; β2와 혼합 금지"
+    },
+    {
+      "refs": [
+        "P3:379:core"
+      ],
+      "issue": "벤치마크비교를 상대평가라 하면 오답",
+      "resolution": "교재의 고정기준/동료집단 평가용어와 투자론 상대성과 구분"
+    },
+    {
+      "refs": [
+        "P3:399:additional7"
+      ],
+      "issue": "S&P500·TOPIX를 유동주식 조정하지 않는 지수로 대비",
+      "resolution": "공식 지수제공자에 따르면 둘 다 유동주식 시가총액 가중. 현행 고정채점 격리"
+    },
+    {
+      "refs": [
+        "P3:382-383",
+        "P3:384:Q2",
+        "CALC:82-83",
+        "MOCK:52:91"
+      ],
+      "issue": "σ와β를 직접 비교하고 완전분산이면 샤프=트레이너",
+      "resolution": "σp=|β|σm이며 단위 다름; 같은 양의β시장모형에서 순위 유사 조건 설명. β에% 부여 금지"
+    },
+    {
+      "refs": [
+        "P3:382-383",
+        "MOCK:24:91"
+      ],
+      "issue": "30개 관측/3년이면 정규성 보장·알파면실력",
+      "resolution": "표본수는 분포 보장 아님. 유의성·모형누락·비용·운 검토"
+    },
+    {
+      "refs": [
+        "P3:386-388",
+        "CALC:79",
+        "MOCK:24:91"
+      ],
+      "issue": "IR와 alpha/잔차 비율 동일시",
+      "resolution": "active return/TE와 appraisal ratio를 정의별로 분리"
+    },
+    {
+      "refs": [
+        "P3:388:Q2"
+      ],
+      "issue": "높은 소티노가 큰 손실확률 감소 보장",
+      "resolution": "분자·분모가 함께 변하므로 보장 불가; 원문 선택지의 절대표현 격리"
+    },
+    {
+      "refs": [
+        "P3:389:core",
+        "NOTE:78:30",
+        "MOCK:51:90"
+      ],
+      "issue": "패시브S=A0 및 S0일 때 S+A분해 불가",
+      "resolution": "M5 B5 P6의 반례. 모든 패시브가 시장전체 복제 아님. 모의2-90 교재③과 항등식상② 충돌 격리"
+    },
+    {
+      "refs": [
+        "P3:390"
+      ],
+      "issue": "TM/HM은 기여도 크기를 측정할 수 없다는 단정",
+      "resolution": "회귀계수·적합기여의 모형상 수량평가 가능; 인과적 능력의 독립 측정과 구분"
+    },
+    {
+      "refs": [
+        "P3:392"
+      ],
+      "issue": "샤프 RBSA 설명이 보유기반 표 열에 배치",
+      "resolution": "원본 확인; 입력은 펀드·스타일지수 수익률. 열 위치로 외우지 않음"
+    },
+    {
+      "refs": [
+        "P3:391-394"
+      ],
+      "issue": "주식비중·회전율에서 전망·위험·실력 단정",
+      "resolution": "운용제약·전략·거래목적 조건을 확인"
+    },
+    {
+      "refs": [
+        "P3:395-396"
+      ],
+      "issue": "GIPS 비수수료 계정 의무편입·추정 거래비용 전면 금지 및 연환산 대상 구분",
+      "resolution": "교재 핵심문제의 1년 미만 투자수익률 연환산 금지 해설은 맞다. 추정비용은 실제비용 미상 때 허용되고 비수수료 재량계정은 원칙적으로 편입 가능이다. 보충1 및 NOTE34는 교정 전 고정채점 보류. L114~L120 참조."
+    },
+    {
+      "refs": [
+        "P3:396"
+      ],
+      "issue": "TWR·검증·3년SD 일괄요구와 옛 조항 혼용",
+      "resolution": "적용보고형식·MWR허용조건·36월관측과 예외를 별도 확인. 독립검증은 준수주장의 필수와 구별"
+    },
+    {
+      "refs": [
+        "CALC:82:56"
+      ],
+      "issue": "잔차위험을 TE로 쓰며 σ·β·잔차가 동일시장모형과 불일치",
+      "resolution": "A로 계산한 시장분산.03과 B의.0075가 다름. 표 자체의 교재산술순위와 모형해석 분리"
+    },
+    {
+      "refs": [
+        "MOCK:51:89"
+      ],
+      "issue": "중간표준편차 .69282를 .69로 반올림하여 연샤프1.74",
+      "resolution": "마지막에 반올림하면 √3=1.73205. 선택지근사와 정확값 구별"
+    },
+    {
+      "refs": [
+        "P3:398:additional8"
+      ],
+      "issue": "수익률 범위만으로 표준편차 대소 확정",
+      "resolution": "분포·확률·관측빈도 없는 범위만으로 확정 불가"
+    },
+    {
+      "refs": [
+        "P3:382"
+      ],
+      "issue": "효율적곡선 두 자산을 위험조정지표만으로 보편순위",
+      "resolution": "지배가 없으면 선호·제약 또는 정한 지표의 기준 필요"
+    }
+  ],
+  "math_checks": "review_updates/s3c7_math_checks.json",
+  "primary_source_checks": [
+    {
+      "url": "https://www.gipsstandards.org/standards/gips-standards-for-firms/gips-standards-handbook-for-firms/",
+      "scope": "선택 조항2.A.12/13·3.A.4 확인; 전체핸드북 정독 아님",
+      "findings": "1년미만 연율화금지·비용추정 조건부허용·비수수료재량 편입가능"
+    },
+    {
+      "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+      "scope": "산출방법",
+      "findings": "유동주식 시가총액 가중"
+    },
+    {
+      "url": "https://www.jpx.co.jp/english/markets/indices/topix/",
+      "scope": "산출방법",
+      "findings": "유동주식 시가총액 가중"
+    }
+  ],
+  "algorithm_rules": [
+    "R02",
+    "R04",
+    "R24"
+  ],
+  "algorithm_effect": [
+    "기준수익률과 위험분모를 먼저 정하고 숫자를 대입한다.",
+    "단위·기간·현금흐름을 맞추고 중간반올림을 피한다.",
+    "정답충돌 문항은 성취도 채점에서 제외하고 수정조건을 제공한다.",
+    "학습자가 공식을 고르기 전에 각 지표가 답하는 질문을 짧은 사례로 설명한다."
+  ]
+}

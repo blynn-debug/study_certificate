@@ -1,0 +1,48 @@
+{
+  "source_id": "income_legacy_transition",
+  "source_metadata": {
+    "id": "income_legacy_transition",
+    "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+    "retrieved_at": "2026-10-12T23:55:23.798942+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 334014,
+    "content_sha256": "5912d8f08aae4d6ae7e7507402bc2887d7b20c4631ae047556106d9b4f0fb66d",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [
+      [
+        "2026",
+        "7",
+        "1"
+      ]
+    ],
+    "text_extractor_version": "2_preserve_statutory_image_alt",
+    "evidence_scope": "2017 amendment commencement and preserved long-bond transition only"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "income_legacy_transition:부칙15225시행일",
+      "source_id": "income_legacy_transition",
+      "article": "부칙15225시행일",
+      "heading": "부칙15225시행일",
+      "text": "부      칙  <법률 제15225호, 2017. 12. 19.>\n제1조(시행일) 이 법은 2018년 1월 1일부터 시행한다. 다만, 다음 각 호의 개정규정은 각 호의 구분에 따른 날부터 시행한다. <개정 2018. 12. 31.>\n1. 제64조제1항(제104조제7항 각 호의 어느 하나에 해당하는 세율을 적용받는 자산에 한정한다), 제95조제2항 각 표 외의 부분 본문, 제104조제4항제1호 및 제2호, 같은 조 제5항제2호, 같은 조 제7항ㆍ제8항 및 제104조의2제2항의 개정규정: 2018년 4월 1일\n2. 제156조의7제1항의 개정규정: 2018년 7월 1일\n3. 제59조의2제1항 및 제95조제2항 표 1의 개정규정: 2019년 1월 1일\n4. 제104조제1항제11호가목2)(제94조제1항제3호나목에 따른 중소기업의 주식등에 한정한다)의 개정규정: 2020년 1월 1일",
+      "start": 298375,
+      "end": 298814,
+      "sha256": "ef7d1c2ca15a2a24005dac2aac4a67a10a18e42b676a91a5027beafe7dd43a68"
+    },
+    {
+      "id": "income_legacy_transition:부칙15225제14조",
+      "source_id": "income_legacy_transition",
+      "article": "부칙15225제14조",
+      "heading": "부칙15225제14조",
+      "text": "제14조(원천징수세율에 관한 경과조치) 이 법 시행 전에 발행된 장기채권의 이자와 할인액에 대해서는 제14조제3항제3호 및 제129조제1항제1호가목의 개정규정에도 불구하고 종전의 규정에 따른다.",
+      "start": 300060,
+      "end": 300169,
+      "sha256": "c6236d67a82cbcac223a7ffca2754c297f5e46b3611ee43805b39adcdf5c2887"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

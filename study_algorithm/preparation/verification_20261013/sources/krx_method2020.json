@@ -1,0 +1,14 @@
+{
+  "id": "krx_method2020",
+  "requested_url": "https://securities.miraeasset.com/public/hks4000/1638249936936.pdf",
+  "retrieved_url": "https://securities.miraeasset.com/public/hks4000/1638249936936.pdf",
+  "retrieved_at": "2026-10-13T16:05:44.758780+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "373b478accfa4e5eca9e4d8f60ad93fac468ebc005ae1db6bbf72b33c45cf3d8",
+  "binary_sha256": "373b478accfa4e5eca9e4d8f60ad93fac468ebc005ae1db6bbf72b33c45cf3d8",
+  "text_sha256": "a00045787910899725236d7c7bcca68a487b2780f96587ef391dd68a0b655cde",
+  "pages": 14,
+  "characters": 9919,
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "s2_openstax_lifecycle",
+  "requested_url": "https://openstax.org/books/introduction-business-2e/pages/11-8-the-product-life-cycle",
+  "retrieved_url": "https://openstax.org/books/introduction-business-2e/pages/11-8-the-product-life-cycle",
+  "retrieved_at": "2026-10-13T17:20:47.582579+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "41c8d62631d40fa9270d3d8ca658fc633c3dd15cda18c03cb93a1a95ef08cfea",
+  "text_sha256": "9c55606b8dc5d3199f514de07a07b877d5865f7b29b89ffef5918109859c8579",
+  "status": "retrieved_not_claim_verified"
+}

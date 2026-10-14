@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_sec_bond_risks",
+  "source_metadata": {
+    "id": "fb_sec_bond_risks",
+    "requested_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+    "retrieved_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-are",
+    "retrieved_at": "2026-10-14T00:10:30.482068+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 21332,
+    "content_sha256": "886388635b32ba53284205cc7c2cc6986e2fa34d3a4a966ab618852757271e92",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_sec_bond_risks:투자위험",
+      "source_id": "fb_sec_bond_risks",
+      "article": "투자위험",
+      "heading": "투자위험",
+      "text": "What are some of the risks of corporate bonds?\nCredit or default risk\nCredit or default risk is the risk that a company will fail to timely make interest or principal payments and thus default on its bonds. Credit ratings try to estimate the relative credit risk of a bond based on the company's ability to pay. Credit rating agencies periodically review their bond ratings and may revise them if conditions or expectations change.\nThe corporate bond contract (called an indenture) often includes terms called covenants designed to limit credit risk. For instance, the terms may limit the amount of debt the company can take on, or may require it to maintain certain financial ratios. Violating the terms of a bond may constitute a default. The bond trustee monitors the company's compliance with the terms of its indenture. The trustee acts on behalf of the bondholders and pursues remedies if the bond covenants are violated.\nInterest rate risk\nAs discussed above, the price of a bond will fall if market interest rates rise. This presents investors with interest rate risk, which is common to all bonds, even U.S. Treasury bonds. A bond's maturity and coupon rate generally affect its sensitivity to changes in market interest rates.\nThe longer the bond's maturity, the more time there is for rates to change and, as a result, affect the price of the bond. Therefore, bonds with longer maturities generally present greater interest rate risk than bonds of similar credit quality that have shorter maturities. To compensate investors for this interest rate risk, long-term bonds generally offer higher interest rates than short-term bonds of the same credit quality.\nIf two bonds offer different coupon rates while all of their other characteristics are the same, the bond with the lower coupon rate will generally be more sensitive to changes in market interest rates. For example, imagine one bond that has a coupon rate of 2% while another bond has a coupon rate of 4%. All other features of the two bonds—when they mature, their level of credit risk, and so on—are the same. If market interest rates rise, then the price of the bond with the 2% coupon rate will fall by a greater percentage than that of the bond with the 4% coupon rate. This makes it particularly important for investors to consider interest rate risk when they purchase bonds in a low-interest rate environment.\nInflation risk\nInflation is a general rise in the prices of goods and services, which causes a decline in purchasing power. With inflation over time, the amount of money received on the bond's interest and principal payments will purchase fewer goods and services than before.\nLiquidity risk\nLiquidity is the ability to sell an asset, such as a bond, for cash when the owner chooses. Bonds that are traded frequently and at high volumes may have stronger liquidity than bonds that trade less frequently. Liquidity risk is the risk that investors seeking to sell their bonds may not receive a price that reflects the true value of the bonds (based on the bond's interest rate and creditworthiness of the company). If you own a bond that is not traded on an exchange, you may have to go to a broker when you want to sell it. In addition, the bond market does not have the same pricing transparency as the equity market, as the dissemination of pricing information is more limited for corporate bonds in comparison to equity securities such as common stock.\nCall risk\nThe terms of some bonds give the company the right to buy back the bond before the maturity date. This is known as calling the bond, and it represents \"call risk\" to bondholders. For example, a bond with a maturity of 10 years may have terms allowing the company to call the bond any time after the first five years. If it calls the bond, the company will pay back the principal (and possibly an additional premium depending on when the call occurs).\nOne reason the company may call the bond back is if market interest rates have fallen relative to the coupon rate on the bond. That same decline in market interest rates would likely make the bond more valuable to bondholders. Thus, what is financially advantageous to the company is likely to be financially disadvantageous to the bondholder. Bondholders may be unable to reinvest at a comparable interest rate for the same level of risk. Investors should check the terms of the bond for any call provisions or other terms allowing for prepayment.",
+      "start": 11406,
+      "end": 15857,
+      "sha256": "bfea307dbb50a2a087c984523bdd352211a58899da21ac689659a8f65403c2b4"
+    }
+  ]
+}

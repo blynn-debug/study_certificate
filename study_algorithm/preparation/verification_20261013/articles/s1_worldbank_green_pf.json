@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_worldbank_green_pf",
+  "source_metadata": {
+    "id": "s1_worldbank_green_pf",
+    "requested_url": "https://documents1.worldbank.org/curated/en/406791468339260446/pdf/806990PUB0Gree0379812B0Box00PUBLIC0.pdf",
+    "retrieved_url": "https://documents1.worldbank.org/curated/en/406791468339260446/pdf/806990PUB0Gree0379812B0Box00PUBLIC0.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "downloaded_bytes": 2204576,
+    "http_content_length": null,
+    "as_of": "2026-10-13",
+    "retrieved_at": "2026-10-13T16:24:30.151048+00:00",
+    "pdf_sha256": "e5e8c11b79d178129a599ac537928cbe0f55366429b1da72bebd116e055f5445",
+    "content_sha256": "111ec3ceb3d474ca9ceb60e7b9c97c029ba42502397a751e893a6ebdef6b8473",
+    "characters": 211539
+  },
+  "items": [
+    {
+      "id": "s1_worldbank_green_pf:PF위험구조",
+      "source_id": "s1_worldbank_green_pf",
+      "article": "PF위험구조",
+      "heading": "PF위험구조",
+      "text": "5.3.3. PROJECT FINANCE \n \nIn an effort to insulate their corporate balance sheets from the risks of a particular project, preserve debt \ncapacity at the corporate level, and limit their exposure to the amount of equity contributed to the project, \nproject sponsors may find it preferable to finance the project through the use of limited recourse project \nfinancing. \n \nProject finance is a commonly used debt financing technique selected to raise funds to build large capital-\nintensive infrastructure and energy projects. In 2011 alone, over USD 200 billion of project finance debt was \nraised to support projects worldwide. In project finance, lenders look at the cash flows of the project itself – in \nthis case, the mining-related infrastructure – as the source of the repayment of debt, rather than a corporate or \nsovereign entity. It is also described as a “contractually based” financing technique, because the obligations of \nthe different project participants are outlined in numerous contracts. Lenders make their funding decision based \non their assessment of the project company’s technical and financial ability to perform under these contracts.  \n \nA number of key general requirements must be met in order to successfully raise debt on a project finance basis \n(see Section 6). The primary advantage of project finance for the sponsor is that its balance sheet is protected \nfrom the non-performance of the project. As the sponsor’s balance sheet is not exposed, if the project does not \nperform according to expectations and cannot meet debt service, lenders would have no recourse to the project \nsponsor’s balance sheet. The no recourse threshold is only reached, however, once certain completion targets \nhave been met (typically these targets are triggered by the project's ability to operate and, hence, generate \nincome to service debt).  Before this point, the project sponsor has to provide completion support to the lenders \n- which in effect means that the sponsor is carrying project failure risk, including usually cost over-run risk. \n \nBecause lenders have to evaluate the project contracts much more closely, and because it is typically more time \nconsuming to underwrite a yet-to-be-constructed project than an existing corporate balance sheet, project \nfinance loans typically take longer to close.",
+      "start": 111255,
+      "end": 113588,
+      "sha256": "3a1ea02b8a5bafa0c8aca0eccbcc67c2bbdf5cff1fad1c8ae732d6c4a769f7e4"
+    }
+  ]
+}

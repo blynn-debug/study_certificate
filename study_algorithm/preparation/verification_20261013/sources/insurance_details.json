@@ -1,0 +1,18 @@
+{
+  "id": "insurance_details",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108939&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000108939&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T03:45:35.434735+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 88298,
+  "content_sha256": "e55f16d090a458024e75b177a72dd1a1268e6fcdf3f2ef313790d7e9e88fe919",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "9",
+      "10"
+    ]
+  ]
+}

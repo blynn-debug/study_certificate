@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-13",
+  "status": "in_progress",
+  "original_items": 2292,
+  "existing_issue_notes": 357,
+  "scoped_verified_claims": 645,
+  "recomputed_mathematical_prompt_variants": 129,
+  "individually_reasoned_concept_variants": 775,
+  "individually_released_items": 1994,
+  "confirmed_correction_records": 1359,
+  "items_held_for_confirmed_correction": 20,
+  "items_with_original_source_corrections": 1362,
+  "released_corrected_variants": 1342,
+  "items_with_related_correction_candidates": 2134,
+  "item_states": {
+    "adjudicated_current": 1994,
+    "whole_item_review_pending": 278,
+    "held_source_correction": 20
+  },
+  "live_natural_language_model_validation": "not_run_user_requested_offline_study",
+  "complete_current_law_item_verification": false,
+  "do_not_report": "Full claim verification or 2292 validated semantic grades."
+}

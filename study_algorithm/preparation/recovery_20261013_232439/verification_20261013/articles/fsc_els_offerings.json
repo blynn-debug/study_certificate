@@ -1,0 +1,30 @@
+{
+  "source_id": "fsc_els_offerings",
+  "source_metadata": {
+    "id": "fsc_els_offerings",
+    "requested_url": "https://www.fsc.go.kr/no010103/24480",
+    "retrieved_url": "https://www.fsc.go.kr/no010103/24480",
+    "retrieved_at": "2026-10-13T04:33:08.195030+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 11966,
+    "content_sha256": "b85d22bb055b12b406a30bef3de874786a1163937b6295658f894e8a78a0d4d2",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fsc_els_offerings:공모사모발행사례",
+      "source_id": "fsc_els_offerings",
+      "article": "공모사모발행사례",
+      "heading": "공모사모발행사례",
+      "text": "원금보장형, 원금비보장형 다 가능한데, 원금비보장형 상품이 차지하고 있고, 공모, 사모도 엇비슷합니다. 어떤 때는 공모가 더 많고 사모가 약간 더 높습니다만, 공·사모 비슷한 수준을 보이고 있고요.",
+      "start": 3454,
+      "end": 3565,
+      "sha256": "8277a45095c8116962cf9aa017ea4b1fa7bc8e553b5e6ec5cf6c6e2db9464206"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

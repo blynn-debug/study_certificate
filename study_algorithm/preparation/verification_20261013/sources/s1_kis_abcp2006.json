@@ -1,0 +1,14 @@
+{
+  "id": "s1_kis_abcp2006",
+  "requested_url": "https://www.bond.co.kr/KIS_Weekly/jVxedAjJ.pdf",
+  "retrieved_url": "https://www.bond.co.kr/KIS_Weekly/jVxedAjJ.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": "3483421",
+  "downloaded_bytes": 3483421,
+  "retrieved_at": "2026-10-13T16:52:01.613081+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "10b85eec5d5584501127d7f3a1459d508d0587daac0e688b140ca86ffa9601b7",
+  "content_sha256": "0961c060db7b4093e7c25039552e102370a1563c63caa6edd5b28be1f05360fa",
+  "characters": 49478
+}

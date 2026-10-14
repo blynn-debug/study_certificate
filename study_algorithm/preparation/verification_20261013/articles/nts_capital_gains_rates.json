@@ -1,0 +1,30 @@
+{
+  "source_id": "nts_capital_gains_rates",
+  "source_metadata": {
+    "id": "nts_capital_gains_rates",
+    "requested_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7711&mi=2458",
+    "retrieved_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7711&mi=2458",
+    "retrieved_at": "2026-10-13T01:49:28.815134+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 15433,
+    "content_sha256": "7612e293af2241902f692bb9105b52bc2e20e467c53bc25ee6f57516f23b2e36",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "nts_capital_gains_rates:Share_derivative_rates",
+      "source_id": "nts_capital_gains_rates",
+      "article": "Share_derivative_rates",
+      "heading": "Share_derivative_rates",
+      "text": "국내 주식등(소득세법 §104①11)\n국내 주식 등 - 구분, ~ ’15.12.31., ’16.1.1. ~’17.12.31., ’18.1.1.~, ’20.1.1.~ 포함\n구 분\n~ ’15.12.31.\n’16.1.1. ~’17.12.31.\n’18.1.1.~\n’20.1.1.~\n대주주\n중소기업\n상장·비상장\n10%\n20%\n20%\n과세표준 3억원 이하 20% 과세표준 3억원 초과 25% (누진공제 1천5백만원)\n중소기업 외\n상장·비상장\n20%\n과세표준 3억원 이하 20% 과세표준 3억원 초과 25% (누진공제 1천5백만원)\n1년 미만 보유\n30%\n대주주외\n중소기업\n상장&장외거래\n비상장\n10%\n중소기업 외\n상장&장외거래\n비상장\n20%\n국외 주식등(소득세법 §104①12)\n국외 주식 등 - 구분, 국외주식 등(중소기업주식 등, 그밖의 주식 등), 기타자산(특정주식 등) 포함\n구 분\n국외주식등\n기타자산(특정주식 등)\n중소기업주식등\n그밖의 주식등\n세 율\n10%\n20%\n누진세율(6∼45%)\n* 중소기업 내국법인이 국외에 상장한 주식 이외에 외국법인이 발행한 주식은 중소기업에 해당하지 않음\n파생상품 등 (소득세법 §104①13, 소득세법 시행령§167의9)\n파생상품 등 (소득세법 §104①13, 소득세법 시행령§167의9) - 구 분, ’16.1.1.~’18.3.31. 양도분, ’18.4.1. 이후 양도분 포함\n구 분\n’16.1.1.~’18.3.31. 양도분\n’18.4.1. 이후 양도분\n세 율\n5%*\n10%*\n기본세율은 20%이나 한시적 탄력세율 적용",
+      "start": 14191,
+      "end": 14948,
+      "sha256": "01a421f4e4bac84a95925a0f2564604359be72c5ad73ea64356d25d5d1d6bae3"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

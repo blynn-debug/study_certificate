@@ -1,0 +1,622 @@
+{
+  "status": "pass",
+  "audited_at": "2026-10-13T10:17:34.069188+09:00",
+  "counts": {
+    "documents": 5,
+    "pages": 1179,
+    "chapters": 16,
+    "topics": 285,
+    "standalone_questions": 2292,
+    "by_kind": {
+      "core": 285,
+      "supplement": 687,
+      "additional": 241,
+      "calculation": 129,
+      "mock": 200,
+      "warmup": 750
+    },
+    "visually_checked_pages": 229,
+    "review_notes": 357
+  },
+  "checks": [
+    {
+      "check": "P12: unchanged source",
+      "pass": true,
+      "detail": "32d1736fb708bedf7be9ac2074a6141002b5ce739a4c6d4797f5ed0c96ec8742"
+    },
+    {
+      "check": "P12: extracted sequence",
+      "pass": true,
+      "detail": 444
+    },
+    {
+      "check": "P12: recorded full reading",
+      "pass": true,
+      "detail": 444
+    },
+    {
+      "check": "P12: low-text visual review",
+      "pass": true,
+      "detail": [
+        444
+      ]
+    },
+    {
+      "check": "P3: unchanged source",
+      "pass": true,
+      "detail": "8043687ff6bce96d78c96d0e8ea8b9adcf819431a19a46ecda056d125e151265"
+    },
+    {
+      "check": "P3: extracted sequence",
+      "pass": true,
+      "detail": 468
+    },
+    {
+      "check": "P3: recorded full reading",
+      "pass": true,
+      "detail": 468
+    },
+    {
+      "check": "P3: low-text visual review",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "CALC: unchanged source",
+      "pass": true,
+      "detail": "b856c5eaee198e7cd6f314200d0a19d2b02ed694f0ced7a2571e21677f05aaa7"
+    },
+    {
+      "check": "CALC: extracted sequence",
+      "pass": true,
+      "detail": 104
+    },
+    {
+      "check": "CALC: recorded full reading",
+      "pass": true,
+      "detail": 104
+    },
+    {
+      "check": "CALC: low-text visual review",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "MOCK: unchanged source",
+      "pass": true,
+      "detail": "6707a94d0334fc0c525820a1a10414444807dafcbcd54bd6c1adde73780a0236"
+    },
+    {
+      "check": "MOCK: extracted sequence",
+      "pass": true,
+      "detail": 76
+    },
+    {
+      "check": "MOCK: recorded full reading",
+      "pass": true,
+      "detail": 76
+    },
+    {
+      "check": "MOCK: low-text visual review",
+      "pass": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "check": "NOTE: unchanged source",
+      "pass": true,
+      "detail": "d32f423c0d3e51d8bde51fda634c543bd47919c51c0cb4b731be84376e697e19"
+    },
+    {
+      "check": "NOTE: extracted sequence",
+      "pass": true,
+      "detail": 87
+    },
+    {
+      "check": "NOTE: recorded full reading",
+      "pass": true,
+      "detail": 87
+    },
+    {
+      "check": "NOTE: low-text visual review",
+      "pass": true,
+      "detail": [
+        1
+      ]
+    },
+    {
+      "check": "unique question IDs",
+      "pass": true,
+      "detail": 2292
+    },
+    {
+      "check": "16 chapters, 285 unique topics, 2292 standalone items",
+      "pass": true,
+      "detail": [
+        16,
+        285,
+        2292
+      ]
+    },
+    {
+      "check": "valid topic references",
+      "pass": true,
+      "detail": "All questions link to identified topics"
+    },
+    {
+      "check": "question/answer pages in bounds",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all topic route fields present",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "cross-chapter source and target topic IDs",
+      "pass": true,
+      "detail": 28
+    },
+    {
+      "check": "S1C1: type counts",
+      "pass": true,
+      "detail": {
+        "core": 13,
+        "supplement": 42,
+        "additional": 14,
+        "calculation": 5,
+        "mock": 14,
+        "warmup": 50
+      }
+    },
+    {
+      "check": "S1C1: warmup continuity",
+      "pass": true,
+      "detail": 50
+    },
+    {
+      "check": "S1C1: additional continuity",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "check": "S1C2: type counts",
+      "pass": true,
+      "detail": {
+        "core": 35,
+        "supplement": 117,
+        "additional": 25,
+        "calculation": 1,
+        "mock": 16,
+        "warmup": 68
+      }
+    },
+    {
+      "check": "S1C2: warmup continuity",
+      "pass": true,
+      "detail": 68
+    },
+    {
+      "check": "S1C2: additional continuity",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "S1C3: type counts",
+      "pass": true,
+      "detail": {
+        "core": 19,
+        "supplement": 62,
+        "additional": 17,
+        "calculation": 4,
+        "mock": 10,
+        "warmup": 44
+      }
+    },
+    {
+      "check": "S1C3: warmup continuity",
+      "pass": true,
+      "detail": 44
+    },
+    {
+      "check": "S1C3: additional continuity",
+      "pass": true,
+      "detail": 17
+    },
+    {
+      "check": "S2C1: type counts",
+      "pass": true,
+      "detail": {
+        "core": 14,
+        "supplement": 24,
+        "additional": 10,
+        "mock": 10,
+        "warmup": 27
+      }
+    },
+    {
+      "check": "S2C1: warmup continuity",
+      "pass": true,
+      "detail": 27
+    },
+    {
+      "check": "S2C1: additional continuity",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "S2C2: type counts",
+      "pass": true,
+      "detail": {
+        "core": 9,
+        "supplement": 13,
+        "additional": 11,
+        "calculation": 1,
+        "mock": 10,
+        "warmup": 19
+      }
+    },
+    {
+      "check": "S2C2: warmup continuity",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "check": "S2C2: additional continuity",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "check": "S2C3: type counts",
+      "pass": true,
+      "detail": {
+        "core": 30,
+        "supplement": 74,
+        "additional": 33,
+        "calculation": 23,
+        "mock": 24,
+        "warmup": 72
+      }
+    },
+    {
+      "check": "S2C3: warmup continuity",
+      "pass": true,
+      "detail": 72
+    },
+    {
+      "check": "S2C3: additional continuity",
+      "pass": true,
+      "detail": 33
+    },
+    {
+      "check": "S2C4: type counts",
+      "pass": true,
+      "detail": {
+        "core": 13,
+        "supplement": 21,
+        "additional": 16,
+        "calculation": 15,
+        "mock": 16,
+        "warmup": 25
+      }
+    },
+    {
+      "check": "S2C4: warmup continuity",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "S2C4: additional continuity",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "check": "S3C1: type counts",
+      "pass": true,
+      "detail": {
+        "core": 13,
+        "supplement": 46,
+        "additional": 10,
+        "mock": 10,
+        "warmup": 48
+      }
+    },
+    {
+      "check": "S3C1: warmup continuity",
+      "pass": true,
+      "detail": 48
+    },
+    {
+      "check": "S3C1: additional continuity",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "S3C2: type counts",
+      "pass": true,
+      "detail": {
+        "core": 37,
+        "supplement": 79,
+        "additional": 25,
+        "mock": 22,
+        "warmup": 109
+      }
+    },
+    {
+      "check": "S3C2: warmup continuity",
+      "pass": true,
+      "detail": 109
+    },
+    {
+      "check": "S3C2: additional continuity",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "S3C3: type counts",
+      "pass": true,
+      "detail": {
+        "core": 16,
+        "supplement": 26,
+        "additional": 11,
+        "mock": 6,
+        "warmup": 34
+      }
+    },
+    {
+      "check": "S3C3: warmup continuity",
+      "pass": true,
+      "detail": 34
+    },
+    {
+      "check": "S3C3: additional continuity",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "check": "S3C4: type counts",
+      "pass": true,
+      "detail": {
+        "core": 19,
+        "supplement": 33,
+        "additional": 12,
+        "calculation": 2,
+        "mock": 12,
+        "warmup": 48
+      }
+    },
+    {
+      "check": "S3C4: warmup continuity",
+      "pass": true,
+      "detail": 48
+    },
+    {
+      "check": "S3C4: additional continuity",
+      "pass": true,
+      "detail": 12
+    },
+    {
+      "check": "S3C5: type counts",
+      "pass": true,
+      "detail": {
+        "core": 18,
+        "supplement": 44,
+        "additional": 10,
+        "calculation": 21,
+        "mock": 12,
+        "warmup": 51
+      }
+    },
+    {
+      "check": "S3C5: warmup continuity",
+      "pass": true,
+      "detail": 51
+    },
+    {
+      "check": "S3C5: additional continuity",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "S3C6: type counts",
+      "pass": true,
+      "detail": {
+        "core": 19,
+        "supplement": 46,
+        "additional": 14,
+        "calculation": 20,
+        "mock": 12,
+        "warmup": 44
+      }
+    },
+    {
+      "check": "S3C6: warmup continuity",
+      "pass": true,
+      "detail": 44
+    },
+    {
+      "check": "S3C6: additional continuity",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "check": "S3C7: type counts",
+      "pass": true,
+      "detail": {
+        "core": 11,
+        "supplement": 22,
+        "additional": 12,
+        "calculation": 10,
+        "mock": 8,
+        "warmup": 35
+      }
+    },
+    {
+      "check": "S3C7: warmup continuity",
+      "pass": true,
+      "detail": 35
+    },
+    {
+      "check": "S3C7: additional continuity",
+      "pass": true,
+      "detail": 12
+    },
+    {
+      "check": "S3C8: type counts",
+      "pass": true,
+      "detail": {
+        "core": 10,
+        "supplement": 16,
+        "additional": 10,
+        "calculation": 7,
+        "mock": 8,
+        "warmup": 45
+      }
+    },
+    {
+      "check": "S3C8: warmup continuity",
+      "pass": true,
+      "detail": 45
+    },
+    {
+      "check": "S3C8: additional continuity",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "S3C9: type counts",
+      "pass": true,
+      "detail": {
+        "core": 9,
+        "supplement": 22,
+        "additional": 11,
+        "calculation": 20,
+        "mock": 10,
+        "warmup": 31
+      }
+    },
+    {
+      "check": "S3C9: warmup continuity",
+      "pass": true,
+      "detail": 31
+    },
+    {
+      "check": "S3C9: additional continuity",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "check": "MOCK-1: Q1-Q100",
+      "pass": true,
+      "detail": 100
+    },
+    {
+      "check": "MOCK-2: Q1-Q100",
+      "pass": true,
+      "detail": 100
+    },
+    {
+      "check": "CALC primary 01-70",
+      "pass": true,
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "check": "CALC all named variants unique",
+      "pass": true,
+      "detail": 129
+    }
+  ],
+  "errors": [],
+  "boundary": "Checks verify inventory, recorded reading and reference consistency; they are not an independent proof of perfect comprehension, current law or every inline subquestion being separately counted.",
+  "reading_scope": "All 1179 extracted page texts read; ambiguous formula/graph and low-text pages inspected visually. Not every page image was inspected.",
+  "count_policy": "Standalone stems counted once at their source location. Repeated concepts across books remain distinct source items. Inline worked examples are reviewed within page/topic coverage, not exhaustively enumerated as additional standalone questions.",
+  "omission_recheck": {
+    "artifact": "omission_audit.json",
+    "status": "pass_with_documented_scope",
+    "counts": {
+      "source_pages_accounted": 1179,
+      "unassigned_pages": 0,
+      "raw_signal_candidate_pages_reviewed": 99,
+      "OCR_stems_restored": 3,
+      "standalone_items": 2292,
+      "new_standalone_items_found_in_this_recheck": 0,
+      "existing_topic_embedded_records_exposed": 354,
+      "chapter_embedded_pages_routed": 16,
+      "new_explicit_embedded_records": 13,
+      "supplemental_records_total": 383
+    }
+  }
+}

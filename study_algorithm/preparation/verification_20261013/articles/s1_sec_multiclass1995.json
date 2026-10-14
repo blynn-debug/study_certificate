@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_sec_multiclass1995",
+  "source_metadata": {
+    "id": "s1_sec_multiclass1995",
+    "requested_url": "https://www.govinfo.gov/content/pkg/FR-1995-03-02/pdf/95-4997.pdf",
+    "retrieved_url": "https://www.govinfo.gov/content/pkg/FR-1995-03-02/pdf/95-4997.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "210666",
+    "downloaded_bytes": 210666,
+    "retrieved_at": "2026-10-13T16:48:45.369714+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "1b8d7916a502765b8b1c97d4478cc2f4145c0dc83b513dda1b9eb0f1b1cfeb8c",
+    "content_sha256": "fb4a22ba3544107460742d761d8dcc8773945602180842c30eb190231976132c",
+    "characters": 96110
+  },
+  "items": [
+    {
+      "id": "s1_sec_multiclass1995:종류형효율",
+      "source_id": "s1_sec_multiclass1995",
+      "article": "종류형효율",
+      "heading": "종류형효율",
+      "text": "increase investor choice,\nresult in efficiencies in the distribution\nof fund shares, and allow fund sponsors\nto tailor products more closely to\ndifferent investor markets. Fund\nsponsors assert that multiple classes\nmay enable funds to attract larger asset\nbases, permitting them to spread fixed\ncosts over more shares, qualify for\ndiscounts in advisory fees\n(‘‘breakpoints’’), and otherwise\nexperience economies of scale, resulting\nin lower fees and expenses. They also\nstate that multiple classes avoid the\nneed to create ‘‘clone’’ funds, which\nrequire duplicative portfolio and fund\nmanagement expenses. Furthermore,\nfund sponsors state that a larger asset\nbase permits greater portfolio liquidity\nand diversification.",
+      "start": 10131,
+      "end": 10851,
+      "sha256": "77b231fa764af019029fd3f4734cd8c80d36281e0a71410d135b2afa4dc4c275"
+    }
+  ]
+}

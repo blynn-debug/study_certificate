@@ -1,0 +1,52 @@
+{
+  "source_id": "s1_bnk_rp2025",
+  "source_metadata": {
+    "id": "s1_bnk_rp2025",
+    "requested_url": "https://www.bnkfn.co.kr/download/policies2/RP%ED%88%AC%EC%9E%90%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+    "retrieved_url": "https://www.bnkfn.co.kr/download/policies2/RP%ED%88%AC%EC%9E%90%EC%84%A4%EB%AA%85%EC%84%9C.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "1038785",
+    "downloaded_bytes": 1038785,
+    "retrieved_at": "2026-10-13T16:58:59.158607+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "1f6306bf175e5f77d32c5689de610dc49d76c680c676cd702efafdac538d01ba",
+    "content_sha256": "92b5a6bdb862d76da87f2126ab0c2e653285ce67d4782fbe1e33671a57a2aa8e",
+    "characters": 7,
+    "title": "BNK투자증권 RP 핵심·상품설명서 검토필2026-193호",
+    "document_date": "2026-05-26",
+    "image_read_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "note": "검색결과는2025판이었으나 실제 PDF는2026-05-26 심의판. 스캔이미지를 직접 읽었으며 아래본문은 추출문이나 직접인용이 아닌 검토자 요약이다."
+  },
+  "items": [
+    {
+      "id": "s1_bnk_rp2025:RP구조와이율",
+      "source_id": "s1_bnk_rp2025",
+      "article": "RP구조와이율",
+      "heading": "RP구조와이율(이미지 직접 독해 요약)",
+      "text": "[검토자 이미지 독해 요약, 원문 직접인용 아님] BNK투자증권2026-05-26심의 RP설명서1·3·4쪽은회사가 미래에 원금과 약정이자를 지급하여 다시 사는 조건으로 채권을 고객에게 매도하는 구조와 예금비보호를 설명한다.3쪽은 중도환매시 약정이율의 절반, 약정기간초과시 약정기간에는 약정이율, 초과기간에는 약정이율의 절반을 적용한다고 설명한다.3쪽은 거래내용을 통장·매도확인서 등으로 통지하고 조건부매도 거래시 고객에게 통장을 교부한다고 설명한다.1·4쪽은 회사 및 담보채권의 신용위험과 담보처분시 가격변동에 따른 원금손실 가능성을 명시한다.",
+      "sha256": "292e9ba453c91a21d7d9b1e3df97bb5f011c6dda48cda126aa15f91676287602",
+      "start": 0,
+      "end": 304,
+      "pages": [
+        1,
+        3,
+        4
+      ],
+      "evidence_kind": "reviewer_paraphrase_of_visually_read_pdf",
+      "exact_span_verified": false,
+      "reviewer": "codex_assistant_visual_read",
+      "pdf_sha256": "1f6306bf175e5f77d32c5689de610dc49d76c680c676cd702efafdac538d01ba",
+      "image_paths": [
+        "preparation/verification_20261013/sources/s1_bnk_rp2025_page1.png",
+        "preparation/verification_20261013/sources/s1_bnk_rp2025_page3.png",
+        "preparation/verification_20261013/sources/s1_bnk_rp2025_page4.png"
+      ]
+    }
+  ]
+}

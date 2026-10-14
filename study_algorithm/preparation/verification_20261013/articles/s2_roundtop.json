@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_roundtop",
+  "source_metadata": {
+    "id": "s2_roundtop",
+    "requested_url": "https://www.thepatternsite.com/roundingtop.html",
+    "retrieved_url": "https://www.thepatternsite.com/roundingtop.html",
+    "retrieved_at": "2026-10-13T17:17:05.400400+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "d191f6ba25ae311b505211227efe49196bb02bc1e21cb0b81a215f0efc150b55",
+    "text_sha256": "01b5d0d468739c227e42e160868dbd257a167e418d8d8f2b18ab9508db528449",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_roundtop:Shape",
+      "source_id": "s2_roundtop",
+      "article": "Shape",
+      "heading": "Shape",
+      "text": "Rounding Top: Identification Guidelines Characteristic Discussion Weekly or daily Rounding tops are large enough to appear on the weekly or daily chart. Price trend Upward leading to the chart pattern. Even ends The rims of the inverted bowl bottom near the same price, but 58% of the time the end is slightly higher than the start. Rounded turn Prices form a gentle curve, a half moon shape. Breakout A close above the highest high signals an upward breakout. Downward breakouts are a close below the lower of the two rims (the lowest low in the pattern).",
+      "start": 1987,
+      "end": 2544,
+      "sha256": "f1328da6321ad320520f3254b2e3caa8d1d009f7036928d3657a162119686e7f"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

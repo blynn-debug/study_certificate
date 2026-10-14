@@ -1,0 +1,42 @@
+{
+  "source_id": "s1_kocw_realestate2012",
+  "source_metadata": {
+    "id": "s1_kocw_realestate2012",
+    "requested_url": "https://contents.kocw.net/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+    "retrieved_url": "https://contents.kocw.net/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "133189",
+    "downloaded_bytes": 133189,
+    "retrieved_at": "2026-10-13T16:55:32.549719+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "b7e32986717e3cd0ccc829105a43cef20e1476bdaa0b7075f660827d63bdeb8e",
+    "content_sha256": "5428e59115d524d1de966e31f1af76d2da1db32963ccfb6b5332d0f7c06749be",
+    "characters": 2196,
+    "original_retrieval": {
+      "requested_url": "http://contents.kocw.or.kr/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+      "retrieved_url": "http://contents.kocw.or.kr/document/lec/2012/Sangmyung/ShimJaeYoung/02.pdf",
+      "retrieved_at": "2026-10-13T16:55:32.549719+00:00"
+    },
+    "https_revalidation": {
+      "timestamp": "2026-10-14T00:02:28.504574+00:00",
+      "status": 200,
+      "bytes": 133189,
+      "sha256": "b7e32986717e3cd0ccc829105a43cef20e1476bdaa0b7075f660827d63bdeb8e",
+      "identical_to_original_pdf": true,
+      "content_length": "133189"
+    }
+  },
+  "items": [
+    {
+      "id": "s1_kocw_realestate2012:부동산개념",
+      "source_id": "s1_kocw_realestate2012",
+      "article": "부동산개념",
+      "heading": "부동산개념",
+      "text": "■부동산의정의\n- 부동산= 토지와그정착물(fixture, 민법), 또는토지와그부착물(부속물, 개량물).\n민법에의하면부동산이외의물건은모두동산.\n- real estate, or real property, or realty.\nreal <-> personal\n- real estate: 부동산, 부동산산업, 부동산학\n□준부동산: 광의의부동산\n- 준부동산(의제부동산, 유사부동산): 동산이지만부동산과의유사성을가지고있어\n넓은의미의부동산에포함.\n협의의부동산과광의의부동산.\n예: 소유권이전에\n등기를필요, 저당의대상(담보권설정).\n선박·자동차·항공기, 광업권, 어업권등.\n■토지의개념\n- 토지라는용어는사용되는상황이나관계, 또는보는사람의관점에따라다양한\n개념으로인식.\n□물리적개념: 공간(지표, 공중, 지하), 자연, 위치\n□경제적개념: 생산요소, 소비재, 재산(자산), 자본\n□법률적개념: 협의의부동산, 광의의부동산",
+      "start": 22,
+      "end": 468,
+      "sha256": "ee634de8ffd1332b8340aa6cd856f372bebf72399cc5ca548855d9ab847fba9e"
+    }
+  ]
+}

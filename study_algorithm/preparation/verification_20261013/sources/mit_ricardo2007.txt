@@ -1,0 +1,262 @@
+[PDF page 1]
+14.452. Topic 10. Fiscal policy. Notes 
+Olivier Blanchard 
+May 9, 2007 
+Nr. 1
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 2]
+Motivation, and organization 
+Standard textbook treatment: 
+• In the short run: Increases in government spending, or decreases in 
+taxes, increase aggregate demand and output. 
+• In the medium/long run: Government debt crowds out capital, and leads 
+to a reduction in output. Distortionary taxes may have the same eﬀect. 
+• Twist (advanced undergraduate texts only... ). Fiscal deﬁcits, if associ­
+ated with the anticipation of large debt increases, may be contractionary. 
+And the reverse. 
+Explore the issues in three steps: 
+• Ricardian equivalence or non-equivalence. 
+• Standard RBC model. 
+• Standard NK model. 
+End with implications for optimal policy. 
+Nr. 2
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 3]
+1. Ricardian equivalence 
+• Take the budget constraint of a representative consumer. 
+Assume lump sum taxes, Tt. Assume the consumer can hold his wealth 
+in either an asset A (which can be capital, shares, private bonds,..) and 
+government bonds, B: 
+Bt+1 + At+1 = WtNt + Πt − Tt − Ct + (1 + Rt)Bt + (1 + RAt)At 
+• Consider the budget constraint of the government. 
+The government collects (lump sum) taxes Tt, spends Gt, and ﬁnances 
+the diﬀerence by issuing debt: 
+Bt+1 − Bt = (Gt − Tt) + RtBt 
+Nr. 3
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 4]
+Replace the government budget in the consumer’s budget constraint to get: 
+At+1 = WtNt + Πt − Gt − Ct + (1 + RAt)At 
+Note that the budget constraint depends on Gt but does not depend on either 
+Bt or Tt. This is the Ricardian equivalence proposition: 
+• For a given sequence of government spending, changes in the timing of 
+lump sum taxes have no eﬀect on the allocation. 
+• Equivalently: If the government saves less by decreasing Tt, consumers 
+will save more in exactly the same amount. Total saving (private plus 
+public saving) will be unaﬀected. 
+• Equivalently: If the government increases the deﬁcit by decreasing Tt 
+and issues debt, consumers will be willing to hold this additional debt 
+at the same interest rate. 
+• Equivalently: Debt will not crowd out capital accumulation. 
+Nr. 4
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 5]
+The obvious limits of the relevance of Ricardian equivalence. 
+• Finite horizons. Consider a decrease in Tt. Suppose some consumers do 
+not expect to be there when taxes are increased. Then the decrease in 
+Tt leads to a positive wealth eﬀect. 
+They will increase consumption and thus not increase saving by as much 
+as the decrease in taxes. Debt will have an eﬀect on the allocation. 
+(Diamond OLG, or Blanchard-Yaari). Empirical importance? 
+• Liquidity or cash constraints. If for some consumers, Ct ≤ WtNt +Πt − 
+Tt, then clearly changes in taxes will matter. 
+Need to understand the exact nature of the liquidity constraint. 
+• Bounded rationality. Tax increases may be far in the future, and not be 
+taken into account. Horizon does matter. 
+• Distortionary taxes. 
+Nr. 5
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 6]
+2. Government spending in RBC models 
+Modify the RBC model of Topic 3 to allow for government spending and taxes. 
+Assume lump sum taxes and so Ricardian equivalence, so we can just look at 
+the path of government spending, and look at the central planning problem: 
+∞ 
+max E[
+ 
+βi U(Ct+i, Lt+i)|Ωt] 
+0 
+subject to: 
+Nt+i + Lt+i = 1 
+Ct+i + St+i = Zt+iF(Kt+i, Nt+i) − Gt+i 
+Kt+i+1 = (1 − δ)Kt+i + St+i 
+Note the assumption that government spending does not enter the utility 
+function (does not aﬀect the marginal utility of either consumption or leisure). 
+Nr. 6
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 7]
+Familiar ﬁrst-order conditions (with usual further assumptions about utility 
+function): 
+v ′(Lt) = Wt/Ct 
+Ct 
+E[βRt+1 
+| Ωt] = 1 
+Ct+1 
+Implications: 
+• Higher government spending implies lower consumption. By how much 
+depends on persistence. (What about investment?) 
+• Lower consumption, negative wealth eﬀect, increase in labor supply. 
+• Investment. Suppose G increase is permanent. Investment goes up. 
+Suppose G is very temporary. Investment goes down (to smooth con­
+sumption). 
+• So higher employment, higher output, lower consumption. The more 
+transitory, the smaller the eﬀect on output. 
+Nr. 7
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 8]
+3. Government spending in NK models 
+Ignore, for simplicity, capital accumulation. And assume Ricardian equiva­
+lence. 
+Yt = Ct + Gt 
+Ct
+E[β(1 + rt+1) 
+| Ωt] = 1
+Ct+1 
+where rt+1 is determined by monetary policy. 
+• Higher government spending, if not permanent, leads to a less than one 
+for one decrease in consumption. 
+• It increases output and employment. 
+• The more transitory, the smaller the decrease in consumption, and the 
+larger the eﬀect on output. 
+• If Ricardian equivalence fails, and spending is deﬁcit ﬁnanced, more likely 
+to have an increase in consumption. 
+Nr. 8
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 9]
+Empirical evidence 
+Much of spending and taxes endogenous. Need to ﬁnd exogenous movements 
+in one or the other. 
+Conceptually easier than for monetary policy. Other objectives of ﬁscal policy 
+than macroeconomic stabilization. 
+Two main approaches. 
+• Ramey-Shapiro. Look at speciﬁc episodes. (Korean war, Vietnam war, 
+Carter-Reagan build up). 
+Extended to taxes by Romer-Romer. 
+exogenous (non cycle driven 
+changes in taxes) 
+• SVAR. Identify non-cycle induced changes in taxes, spending. (Wood­
+ford Rotemberg, Blanchard-Perotti) 
+Nr. 9
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 10]
+Evidence. Table from BP. Graphs from Ramey. 
+• Output increases with increases in spending, decreases in taxes. 
+• Consumption increases. Diﬀerence between the two methodologies. Im­
+portant to settle. Why? 
+Nr. 10
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 11]
+Table removed due to copyright restrictions. 
+Table VI: Responses of GDP components on page 1362 in Blanchard, O., and R. Perotti. 
+“An Empirical Characterization of the Dynamic Effects of Government Spending and Taxes on Output.” 
+Quarterly Journal of Economics 117, no. 4 (2002): 1329-1368. 
+Nr. 11
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 12]
+Gove
+rnm
+ent 
+sp
+endi
+ng,
+ GDP
+, 
+and T
+otal
+ Hou
+rs O
+ve
+r Tim
+e.
+	
+
+
+	 
+		
+	
+ 
+Figure by MIT OCW. 
+Nr. 12 
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 13]
+Cons
+um
+pt
+ion, 
+Inve
+stmen
+t, 
+and 
+Re
+al Wa
+ge
+s ov
+er t
+ime
+.
+	
+
+
+	 
+		
+	
+ 
+ 
+Figure by MIT OCW. 
+Nr. 13 
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 
+
+
+[PDF page 14]
+Many other issues. A partial list. 
+• Optimal ﬁscal policy in RBC models. 
+Optimal ﬁnancing of government spending if there is only distortionary 
+taxation. 
+Optimal labor and capital tax rates. 
+Tax smoothing and the potential role of contingent debt 
+Time consistency, and the potential role of contingent debt. 
+Relative roles of ﬁscal and monetary policy. 
+• Optimal ﬁscal policy in NK models. 
+Same plus 
+Relative stabilization roles of ﬁscal and monetary policy 
+Fiscal dominance of monetary policy 
+Nr. 14
+Cite as: Olivier Blanchard, course materials for 14.452 Macroeconomic Theory II, Spring 2007.  
+MIT OpenCourseWare (http://ocw.mit.edu/), Massachusetts Institute of Technology. Downloaded on [DD Month YYYY]. 

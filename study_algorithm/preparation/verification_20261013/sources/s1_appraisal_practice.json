@@ -1,0 +1,18 @@
+{
+  "id": "s1_appraisal_practice",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000229230&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000229230&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T16:15:28.294906+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 78085,
+  "content_sha256": "e4bf066193d885b3bf3aa502aa9696eb40d11c6a17836d08bfa1065ec7ce1823",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2023",
+      "9",
+      "13"
+    ]
+  ]
+}

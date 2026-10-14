@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-13",
+  "reason": "Original TARGET correspondence audit; baseline505 excluded",
+  "items": [
+    {
+      "id": "MOCK-1-Q049",
+      "reason": "원문 다의 모수방법 바람직성은 분포족·표본·측정목표 조건 없이 참거짓 확정 불가. BIS는 베타 모수모형을 제시하므로 출판사 비정규→모수불가 논증은 오류. 가·나만 틀린 조합도 보기에 없다. 기존 Bernoulli 대체문항은 원문 근거가 아니므로 active에서 제외.",
+      "evidence_checked": [
+        "MOCK:14",
+        "answer_packets:MOCK-1-Q049",
+        "s2_bis_credit1999:page23",
+        "s2_bis_credit1999:page32"
+      ],
+      "classification": "original_correspondence_unresolved"
+    },
+    {
+      "id": "S2C1T09-CORE",
+      "reason": "원문① 발표정보만 의존의 범위,②③ 현금합병과 고정비율 주식교환의 포지션 구별,④ 오직 이벤트위험이라는 절대주장이 혼재. 지급함수 계산만으로 원문 전체 진술을 검증할 수 없다. 원래 의미를 유지하는 최소교정 및 정보범위 공식근거가 더 필요하여 기존 지급함수 대체문항을 active에서 제외.",
+      "evidence_checked": [
+        "P12:253",
+        "answer_packets:S2C1T09-CORE"
+      ],
+      "classification": "original_correspondence_unresolved"
+    },
+    {
+      "id": "NOTE-S2C4-Q016",
+      "reason": "기하브라운운동을 몬테카를로에 사용할 수 있다는 수학적 사실은 가장 흔히 사용된다는 원문 경험적 빈도명제를 입증하지 않는다. 출판사 해설의 대표적 예와 발문의 최다사용을 구별하고 사용빈도 출처 확보 전 원문 승인 보류. 기존 가능성만의 대체문항은 history 보존.",
+      "evidence_checked": [
+        "NOTE:33",
+        "answer_packets:NOTE-S2C4-Q016"
+      ],
+      "classification": "original_correspondence_unresolved"
+    },
+    {
+      "id": "S2C3T14-SUP-03",
+      "reason": "원문 네 선택지는 정배열 추세해석·데드크로스·평활성·평균회귀 경향을 함께 요구한다. SMA 민감도 1/n 유도만으로 정배열 명칭과 평균회귀 경험적 경향까지 입증되지 않는다. 원래 기술적 분석 규칙의 명시적 출처 확보 필요. 기존 단일 민감도 대체문항은 history 보존.",
+      "evidence_checked": [
+        "P12:351",
+        "answer_packets:S2C3T14-SUP-03",
+        "s2_fidelity_glossary4:SMA"
+      ],
+      "classification": "original_correspondence_unresolved"
+    }
+  ]
+}

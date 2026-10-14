@@ -1,0 +1,14 @@
+{
+  "id": "lo_active_management2008",
+  "requested_url": "https://web.mit.edu/Alo/www/Papers/active_pub.pdf",
+  "retrieved_url": "https://web.mit.edu/Alo/www/Papers/active_pub.pdf",
+  "retrieved_at": "2026-10-13T15:56:42.281001+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "d4567f596bbc35755f2be529084e937364f72b2db3ca00bdd32e532c410518fa",
+  "binary_sha256": "d4567f596bbc35755f2be529084e937364f72b2db3ca00bdd32e532c410518fa",
+  "text_sha256": "6979f3a7a10f4d9ed62b0bf26642475a5a7493e365ca0eb9bb99deab55de57a1",
+  "pages": 29,
+  "characters": 83431,
+  "status": "retrieved_not_claim_verified"
+}

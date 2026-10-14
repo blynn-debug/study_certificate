@@ -1,0 +1,11 @@
+{
+  "id": "s2_nobel_ho",
+  "requested_url": "https://educationalgames-staging.nobelprize.org/educational/economic-sciences/trade/ohlin.php",
+  "retrieved_url": "https://educationalgames-staging.nobelprize.org/educational/economic-sciences/trade/ohlin.php",
+  "retrieved_at": "2026-10-13T17:15:48.853155+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "ea98e1b9f5706e3e00667136c4fef510cb6d731018ac563f3a53a72cc456b1fe",
+  "text_sha256": "ee6d9efcc1340dcebc6cd088320279d25569bebc3ba114f065236c4b95386f0b",
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "msci_accessibility2026",
+  "source_metadata": {
+    "id": "msci_accessibility2026",
+    "requested_url": "https://www.msci.com/downloads/web/msci-com/indexes/index-resources/market-classification/MSCI%202026%20GLOBAL%20MARKET%20ACCESSIBILITY%20REVIEW%20REPORT.pdf",
+    "retrieved_url": "https://www.msci.com/downloads/web/msci-com/indexes/index-resources/market-classification/MSCI%202026%20GLOBAL%20MARKET%20ACCESSIBILITY%20REVIEW%20REPORT.pdf",
+    "retrieved_at": "2026-10-13T01:03:07.705226+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "942a81a005e8ec30e5a845ee4afa7cca6637160fff955c62d0701f9275b16c8f",
+    "text_sha256": "ae43d75ed65851a73f30cedeab3d2e3ad802f61c0e39485fe13ab84c7c451061",
+    "binary_sha256": "942a81a005e8ec30e5a845ee4afa7cca6637160fff955c62d0701f9275b16c8f",
+    "pages": 78,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "msci_accessibility2026:Emerging_markets_2026",
+      "source_id": "msci_accessibility2026",
+      "article": "Emerging_markets_2026",
+      "heading": "Emerging_markets_2026",
+      "text": "[PDF page 16]\n \n \n2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026\n© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. \n \nmsci.com | Page 16 of 78\n \n3.2 Emerging Markets \nIn this review cycle, there were more rating improvements than \ndeteriorations across Emerging Markets. The deteriorations were driven \nby problems due to structural issues in the opacity in shareholding \nstructures and concerns about coordinated trading in Indonesia and \nTurkey impacting their Information Flow criterion.  \nIn Korea, authorities have continued implementing the reform agenda \nintroduced in prior years, with additional measures announced across \nseveral areas. However, underlying accessibility issues remain \nunresolved. \nBuilding on measures to align the FX framework with global practices, \nfurther initiatives have been outlined including the launch of a 24-hour \nFX market in mid-2026 and an Offshore KRW Settlement Institution pilot \nlater in 2026 with full launch targeted for 2027. A fully deliverable \noffshore currency market is not yet available. \nIn addition, the transition from the Investor Registration Certificate (IRC) \nto the Legal Entity Identifier (LEI), initiated in December 2023, remains \nongoing. The coexistence of both frameworks has constrained the \npractical adoption of omnibus account structures. \nThe mandatory English disclosure framework entered its second phase \nin 2026, while a third phase in 2027 will extend the requirement to all \nKOSPI-listed companies.  \nThe short selling ban was lifted in early 2025 alongside the \nimplementation of a new naked short selling detection system. As the \nframework has been put into use, however, frictions have emerged in \npractice, and refinements to operational processes and infrastructure are \nongoing. Furthermore, despite the reduction of the settlement progress \npayment amounts, there is a lack of clarity around the calculation of \nfunding amounts, creating inefficiency in the settlement process. \nLastly, derivatives products linked to Korean indexes have been \nlaunched on international exchanges, broadening the offering of \ninvestment instruments available to international investors. \nIn Indonesia, accessibility concerns have arisen from ongoing opacity in \nshareholding structures and indications of coordinated trading behavior \nthat undermines proper price formation. These issues materially limit",
+      "start": 28689,
+      "end": 31121,
+      "sha256": "3eb40aa56727b2f17c416d83af4fab75d22b81697942a69d22851072cba56ac6"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

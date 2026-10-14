@@ -1,0 +1,11 @@
+{
+  "id": "s2_ftse100",
+  "requested_url": "https://www.lseg.com/en/ftse-russell/indices/ftse100",
+  "retrieved_url": "https://www.lseg.com/en/ftse-russell/indices/ftse100",
+  "retrieved_at": "2026-10-13T16:12:30.191208+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "9947daa99b5528c1747622420d20d58ede11c074179c5c51ca61e68b72a88996",
+  "text_sha256": "70329dd6fb4c822f882f363f20b04df6ff1a6c6d21a0ca8ec136ef15b0cd7df1",
+  "status": "retrieved_not_claim_verified"
+}

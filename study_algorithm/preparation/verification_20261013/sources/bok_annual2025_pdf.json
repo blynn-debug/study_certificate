@@ -1,0 +1,14 @@
+{
+  "id": "bok_annual2025_pdf",
+  "requested_url": "https://www.bok.or.kr/fileSrc/portal/fa6cd94a5f06461b87e1e79a6a760c8c/2/9ad50b1510cd4f99914ba77a10e1c8ca.pdf",
+  "retrieved_url": "https://file-cdn.bok.or.kr/portal/fa6cd94a5f06461b87e1e79a6a760c8c/2/9ad50b1510cd4f99914ba77a10e1c8ca.pdf?token=st=1791853805~exp=1791857405~acl=/portal/fa6cd94a5f06461b87e1e79a6a760c8c/2/9ad50b1510cd4f99914ba77a10e1c8ca.pdf*~hmac=da333dcf45e8a77640c2ef2b7e930845d5f765631589843a9db2131fffd679fd",
+  "retrieved_at": "2026-10-13T01:10:05.475033+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "e8e4a298c1e5544407be37412eb86912c0887da38d3c164a20829754ac450bf3",
+  "binary_sha256": "e8e4a298c1e5544407be37412eb86912c0887da38d3c164a20829754ac450bf3",
+  "text_sha256": "dca72935cc2f44dd48f27465091be8d2ca0b640948c8f3716c90f2c1ffc5c17d",
+  "pages": 54,
+  "characters": 49601,
+  "status": "retrieved_not_claim_verified"
+}

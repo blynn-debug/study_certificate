@@ -1,0 +1,16 @@
+{
+  "id": "financial_investment_details_annex15",
+  "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167040117&bylClsCd=200201",
+  "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=167040117&bylClsCd=200201",
+  "retrieved_at": "2026-10-13T00:38:15.469928+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1888,
+  "content_sha256": "82d0bb9f9e5adfd7f8358591810b39c76a67969e7fb6a7fd0c16d5b698d7b5f9",
+  "status": "retrieved_not_claim_verified",
+  "parent_source": "financial_investment_details",
+  "parent_article": "제2-13조",
+  "title": "별표 15 외화유동성 관리",
+  "file_type": "pdf",
+  "evidence_unit": "별표15"
+}

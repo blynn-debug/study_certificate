@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-10-13",
+  "findings": [
+    {"id": "O01", "issue": "기존 검사는 작성된 분석 목록 내부의 합계·참조 검사가 중심이었다.", "repair": "원문 1179쪽에서 질문 기호를 별도로 추출해 목록과 대조하고 차이가 나는 페이지의 원인을 기록한다."},
+    {"id": "O02", "issue": "기존 주제별 본문 예제·확인사항 기록 354개가 HTML 보고서에 표시되지 않았다.", "repair": "별도 보조 학습요소 목록으로 정규화하고 각 주제와 보고서에서 원본 페이지를 열 수 있게 한다."},
+    {"id": "O03", "issue": "세제 단원의 장 단위 본문 확인사항 2묶음·16쪽이 개별 주제 경로에 전달되지 않았다.", "repair": "각 페이지의 실제 소속 주제에 연결하고 기존 요약은 여러 페이지를 묶은 설명임을 표시한다."},
+    {"id": "O04", "issue": "교재 앞부분의 시험 구성·학습전략·문제 중요도 의미와 CALC 표지의 화폐유통속도 예시가 별도 학습 근거로 연결되지 않았다.", "repair": "교재 주장과 공식 확인을 구별한 시험 구성 자료를 추가하고 모든 페이지의 역할을 지정한다."},
+    {"id": "O05", "issue": "일부 본문 속 계산·이유 질문은 페이지 읽기에 포함됐지만 보조 학습요소 목록에 독립 위치가 없었다.", "repair": "아래 추가 기록에 원본 위치·주제·설명 포인트·기존 문항과의 관계를 보강한다."},
+    {"id": "O06", "issue": "OCR에서 핵심문제 문장·그림 조건 일부가 빠진 3쪽을 확인했다. 3문항 자체는 기존 목록에 있다.", "repair": "원본 이미지로 문제 문장과 필요한 조건을 복원하고 해당 문항에 연결한다."},
+    {"id": "O07", "issue": "일부 문항의 answer_page가 비어 있어 '해설 없음'으로 오해할 수 있다.", "repair": "해설 페이지 미지정과 해설 부재를 구별하고, 원문 문제·해설·검토사항을 확인하기 전 자동 채점하지 않는 검색 절차를 명시한다. 미확인 위치를 임의로 채우지 않는다."}
+  ],
+  "extra_learning_elements": [
+    {"document": "P12", "pages": [93, 94], "topic_ids": ["S1C2T09"], "description": "ELW 손익분기율과 자본지지점의 비교 질문", "teaching_point": "자본지지점 6%는 기초자산의 연간 상승률에 관한 비교 기준이다. 94쪽의 'ELW가 6%만 상승'이라는 설명은 93쪽 정의와 다르므로 그대로 가르치지 않는다.", "relation": "existing supplementary Q5 explanation; not a new standalone stem"},
+    {"document": "P3", "pages": [100], "topic_ids": ["S3C2T16"], "description": "동일 법인 지분증권의 투자한도를 두는 이유", "teaching_point": "분산투자와 고객재산을 이용한 지배 문제를 구별해 설명한다. 실제 한도 수치는 적용 대상·예외·시점을 별도로 확인한다.", "relation": "embedded explanatory question"},
+    {"document": "P3", "pages": [238], "topic_ids": ["S3C4T17"], "description": "보유 종목 수가 많으면 인덱스펀드인지, 관리가 어려운지 묻는 두 질문", "teaching_point": "운용 목표·비중 결정 규칙과 종목 개수를 분리한다. 종목 수만으로 패시브 여부를 정하지 않으며 관리 부담은 시스템·비용에 따라 달라진다.", "relation": "two rhetorical checks in one explanatory block"},
+    {"document": "P3", "pages": [273], "topic_ids": ["S3C5T09"], "description": "연 표면금리 8%, 분기 복리의 실효 연수익률", "teaching_point": "(1+0.08/4)^4−1=0.08243216, 약 8.24%. 기간 이율과 연 복리 횟수를 분리한다.", "relation": "embedded worked example"},
+    {"document": "P3", "pages": [277], "topic_ids": ["S3C5T11"], "description": "3년 이표채의 듀레이션과 쿠폰 6%→4% 변경 비교", "teaching_point": "액면 10000, YTM 4%, 연 쿠폰 600이면 가격10555.0182원, PV 가중평균 기간은 약2.8381년이다. 쿠폰400이면 약2.8861년으로 커진다. 그림의 초기지급액10600원은 주어진 YTM으로 계산한 가격과 일치하지 않는다. 2.83은 절삭값, 소수둘째자리 반올림은2.84로 구분한다.", "relation": "two embedded calculation/comparison prompts"},
+    {"document": "P3", "pages": [280], "topic_ids": ["S3C5T12"], "description": "채권 포트폴리오의 듀레이션 헤지 55계약 예시", "teaching_point": "교재의 단순화된 조건에서 (100억×5.5)/(1억×10)=55계약 매도. 계약금액·민감도 단위가 일치해야 하며 실제 선물 가격·전환계수 등 조건 없이 액면만으로 일반화하지 않는다.", "relation": "embedded worked example"},
+    {"document": "P3", "pages": [385], "topic_ids": ["S3C7T06"], "description": "Rf 3%, Rp 8%, Rm 6%, β 1.2의 젠센 알파", "teaching_point": "8%−[3%+1.2×(6%−3%)]=1.4%포인트. 시장수익률을 단순히 뺀 2%포인트와 구별한다.", "relation": "embedded worked example"},
+    {"document": "CALC", "pages": [1], "topic_ids": ["S3C8T09"], "description": "표지의 MV=PY 및 통화유통속도 OX 예시", "teaching_point": "V=명목GDP/통화량=PY/M. 명목GDP를 실질GDP로 나누면 물가 수준에 관한 비율이므로 표지의 해당 진술은 X. 표지의 적중 효과·기출 회차는 출판사 주장으로만 보존한다.", "relation": "cover illustration of calculation and OX; not an additional numbered problem"},
+    {"document": "CALC", "pages": [8], "topic_ids": ["S1C2T35"], "description": "IRP 1억원의 첫해 연금수령한도 해설 반복", "teaching_point": "해당 교재의 조건에서 1억/(11−1)×120%=1200만원. 동일 입력의 기존 CALC-04 해설 반복으로 표시하고 연도별 법령 적용은 별도 확인한다.", "relation": "duplicate explanation of CALC-04", "represented_by_question_ids": ["CALC-04"]},
+    {"document": "CALC", "pages": [37], "topic_ids": ["S2C4T05"], "description": "95%·1일 VaR 1억원 → 99%·25일 VaR 예시", "teaching_point": "정규분포·독립 동일분포·일정 변동성 등 제곱근 시간확대 조건에서 1×(2.33/1.65)×√25≈7.0606억원.", "relation": "embedded variation separate from CALC-25 input"},
+    {"document": "CALC", "pages": [37], "topic_ids": ["S2C4T05"], "description": "99%·1일 VaR 1억원 → 95%·25일 VaR 예시", "teaching_point": "동일 모형 조건에서 1×(1.65/2.33)×√25≈3.5408억원. 신뢰수준 비율의 분자·분모를 반대로 넣지 않는다.", "relation": "embedded variation separate from preceding input"},
+    {"document": "CALC", "pages": [49], "topic_ids": ["S3C5T04"], "description": "전환비율 100%의 의미를 묻는 해설 질문", "teaching_point": "전환주수 계산에서 채권액면 중 전환되는 비율과 주식수·패리티를 구별한다. 패리티 계산에 사용하지 않는 전환사채 시장가격을 섞지 않는다.", "relation": "definition check within CALC-36 explanation", "represented_by_question_ids": ["CALC-36"]},
+    {"document": "CALC", "pages": [81], "topic_ids": ["S3C7T06"], "description": "실제 수익률이 균형 요구수익률을 얼마나 초과했는지 묻는 해설 질문", "teaching_point": "젠센 알파의 비교 대상은 같은 β에 해당하는 CAPM 요구수익률이다. 시장수익률 자체와의 차이로 바꾸지 않는다.", "relation": "conceptual question within CALC-55 explanation", "represented_by_question_ids": ["CALC-55"]}
+  ],
+  "ocr_recoveries": [
+    {"question_id": "S2C3T16-CORE", "document": "P12", "page": 354, "recovered_prompt": "그림에서 엘리어트 3번 파동에 가장 많이 나타나는 갭을 고른다.", "necessary_visual_conditions": "그림 ① 돌파, ② 급진, ③ 소멸, ④ 아일랜드. 교재 정답 ②.", "verification": "original PDF image inspected"},
+    {"question_id": "S3C5T14-CORE", "document": "P3", "page": 287, "recovered_prompt": "제시된 수익률곡선에 관한 설명 중 가장 적절하지 않은 것을 고른다.", "necessary_visual_conditions": "3/4/5년 회사채 수익률 7.0/7.6/8.0%, 국채 3.7/3.9/4.0%. 5년 신용스프레드 4.0%p, 회사채 4→5년 기간스프레드 0.4%p. 교재 정답 ②.", "verification": "original PDF image inspected"},
+    {"question_id": "S3C6T02-CORE", "document": "P3", "page": 312, "recovered_prompt": "배추 선도계약 후 3개월 인수 시점 현물가격이 포기당 5000원일 때 잘못된 설명을 고른다.", "necessary_visual_conditions": "배추 10000포기, 계약가격 포기당 3000원. 가공업자 계약손익 +2000원/포기. 교재 정답 ①. 제로섬과 신용위험을 동일시한 해설은 기존 검토 주의사항에 따라 수정한다.", "verification": "original PDF image inspected"}
+  ],
+  "publisher_exam_context": {
+    "source": {"document": "P12", "pages": [6, 7, 8, 9, 10, 11, 12]},
+    "status": "publisher_claim_only; not independently confirmed official exam rules",
+    "subject_question_counts": {"S1": 20, "S2": 30, "S3": 50},
+    "chapter_question_counts": {"S1C1": 7, "S1C2": 8, "S1C3": 5, "S2C1": 5, "S2C2": 5, "S2C3": 12, "S2C4": 8, "S3C1": 5, "S3C2": 11, "S3C3": 3, "S3C4": 6, "S3C5": 6, "S3C6": 6, "S3C7": 4, "S3C8": 4, "S3C9": 5},
+    "law_split_within_S3C2": {"capital_markets_act": 7, "financial_services_commission_rules": 4},
+    "total_questions": 100,
+    "printed_time": "10:00~12:00",
+    "duration_minutes_from_printed_time": 120,
+    "printed_subject_cutoff_numbers": {"S1": 8, "S2": 12, "S3": 20},
+    "cutoff_guard": "표의 과락 숫자를 그대로 보존했다. 부등호·공식 합격기준·면제 적용은 공식 확인 없이 추정하지 않는다.",
+    "importance_symbols": {"three_dots": "출판사가 최근 8년 실제 시험에 1회 이상 출제됐다고 표시", "two_dots": "최근 8년 미출제이나 출제가능성이 있다고 표시", "one_dot": "기본서 이해에 도움되지만 출제가능성이 낮다고 표시"},
+    "importance_guard": "해당 표시는 출판사의 분류다. 독립 인증한 기출 연도·실제 출제확률로 변환하지 않으며 모든 문항의 점·별 개수를 전수 전사한 상태도 아니다.",
+    "learning_strategies": "상품은 기관·구조별 비교, 대안투자는 포지션 구축, 채권은 가격→듀레이션→볼록성의 이유, 거시는 모형 이동 조건, 분산투자는 위험식과 곡선의 차이를 중심으로 설명한다.",
+    "study_plans": "4주·8주 계획은 출판사의 예시다. 학습자 시간·선행지식·오답 자료 없이 고정 일정으로 적용하지 않는다.",
+    "schedule_guard": "인쇄된 2026 시험일정은 원문에 보존하되 현재 일정이나 사용자의 응시 회차로 가정하지 않는다."
+  },
+  "source_issue_additions": [
+    {"chapter_id": "S1C2", "refs": ["P12:93-94"], "issue": "자본지지점의 정의는 기초자산 상승률인데 해설에서는 ELW가 6%만 상승한다고 바뀜", "resolution": "기초자산의 연간 상승률에 관한 비교 기준으로 정정한다. 현재 ELW 가격 6% 상승과 구별하고 수익 보장으로 설명하지 않는다.", "primary_url": "https://helpcheck.koscom.co.kr/KO/d9ac3059400eb238"},
+    {"chapter_id": "S3C5", "refs": ["P3:277"], "issue": "듀레이션 예시 그림의 초기지급액10600원과 주어진 YTM·현금흐름의 가격 불일치", "resolution": "원본 이미지 확인. 액면10000·쿠폰600·YTM4%·3년의 가격은10555.0182원, PV 가중평균은2.838126년이다. 2.83은 절삭값이고 반올림시2.84. 쿠폰400이면2.886095년. 그림의 가격을 그대로 분모로 사용하지 않는다."}
+  ]
+}

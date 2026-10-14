@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "id": "S3C6T01-CORE",
+      "reason": "신용위험상품의 국내외 장내상장 가능성과 표준화난도·거래규모를 비교하는 경험적현황 문제다. 기준일 KRX 상품목록·해외상장 및 통계 확인이 필요하며 교재의 장외만 존재 주장을 일반화할 수 없다.",
+      "evidence_checked": [
+        "P3:310",
+        "answer_packets:S3C6T01-CORE"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T01-SUP-01",
+      "reason": "통화선물 장내라는 기본구분은 확인되나 원해설의 모든금리옵션/스왑 장외라는 단정은 범위제한 필요. CME 공식 설명은 검색확인했으나 직접수신403이어서 전체증빙 게이트를 충족할 공식 대체원문 필요.",
+      "evidence_checked": [
+        "P3:311",
+        "answer_packets:S3C6T01-SUP-01"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T02-SUP-01",
+      "reason": "선도도 현금결제계약이 가능하므로③실물인수도와현금결제병행을 일괄오답 처리할 수 없다. 대부분 실물결제라는 빈도명제는③가능성의 부정근거가 아니며 조건별 유동성·헤지효과도 추가근거 필요.",
+      "evidence_checked": [
+        "P3:313",
+        "answer_packets:S3C6T02-SUP-01"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T03-CORE",
+      "reason": "원해설의 선물은제로섬아님·신용위험전혀없음은 오류. 원④를 유일한오답으로 만들려면 CCP가 위험을 관리하는 실제제도 근거와 언제든지청산의 유동성 조건을 최소교정해야 하며 공식원문 추가확보 필요.",
+      "evidence_checked": [
+        "P3:314",
+        "answer_packets:S3C6T03-CORE"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T03-SUP-02",
+      "reason": "④의 증거금계산70+80=150은 확인되지만②신용위험없이마음껏 및③언제든청산은 절대명제로 성립하지 않는다. 원네보기 유지한 최소교정과 공식청산위험·증거금근거 필요.",
+      "evidence_checked": [
+        "P3:316",
+        "answer_packets:S3C6T03-SUP-02"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T04-SUP-01",
+      "reason": "원②수출기업달러매수헤지는 방향상오류이고④파생상품은현금이동만기에만/주석부외처리일반은 현행공정가치회계·선물정산과 충돌한다. 복수오답을 회계공식기준으로 정리해야 하며 원답②만 승인불가.",
+      "evidence_checked": [
+        "P3:318",
+        "answer_packets:S3C6T04-SUP-01"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T07-CORE",
+      "reason": "양의보유비용·콘탱고는 정상무차익가격에서도 생겨 매수차익의 충분조건이 아니다. 원선택지 어디에도 시장선물가격>비용포함복제가격이 없고 기존③을 다른조건으로 바꾸면 문제변경이 커서 원답확정불가.",
+      "evidence_checked": [
+        "P3:325",
+        "answer_packets:S3C6T07-CORE"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T07-SUP-01",
+      "reason": "원③금리2point와초과차익3point 구분은 확인되나①한국배당무시가능의 경험적단정 및④합성채권절세는 기준일 과세주체·상품조건 없이 승인불가. 전보기 근거부족.",
+      "evidence_checked": [
+        "P3:326",
+        "answer_packets:S3C6T07-SUP-01"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T09-SUP-02",
+      "reason": "매수프리미엄·매도행사의무는 확인되나③양쪽증거금 및④작은금액얼마든지/프리미엄보다훨씬많은증거금은 거래소·투자자·만기조건별 규정이다. 국내현행 기본예탁금·계좌별 증거금 적용범위 공식근거 필요.",
+      "evidence_checked": [
+        "P3:332",
+        "answer_packets:S3C6T09-SUP-02"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "S3C6T10-SUP-03",
+      "reason": "내재0·시간.8 및 다른조건같은 콜가격의단조성은 확인.④매수증거금은 국내기본예탁금/프리미엄전액납입/개별위험증거금 구별이 필요한 제도명제여서 공식현행규정없이 유일오답 승인불가.",
+      "evidence_checked": [
+        "P3:335",
+        "answer_packets:S3C6T10-SUP-03"
+      ],
+      "classification": "original_error_or_missing_conditions"
+    },
+    {
+      "id": "S3C6T11-SUP-02",
+      "reason": "P3 339쪽 실제그래프는K80롱-K90숏 강세콜스프레드. 원①적극적의 주관성과 별개로②시간가치감소로부터자유롭다는명제는 순세타가일반적으로0아니어서거짓. 둘이상오답이며 프리미엄·잔존조건없이①만오답승인불가.",
+      "evidence_checked": [
+        "P3:339",
+        "answer_packets:S3C6T11-SUP-02"
+      ],
+      "classification": "original_error_or_missing_conditions"
+    },
+    {
+      "id": "S3C6T12-CORE",
+      "reason": "작은변동성에서스트래들숏이스트랭글숏/방향성스프레드보다항상최대수익이라는순위는행사가·프리미엄·만기종가·비교노출이없어확정불가. 스프레드가변동성과무관하다는해설도오류.",
+      "evidence_checked": [
+        "P3:343",
+        "answer_packets:S3C6T12-CORE"
+      ],
+      "classification": "original_error_or_missing_conditions"
+    },
+    {
+      "id": "S3C6T12-SUP-01",
+      "reason": "변동성증가에유리한포지션은스트래들롱뿐아니라스트랭글롱과표준풋롱도양의베가다. 원발문에가장/동일비용/조건없어①만선택하는근거부족·복수정답문제.",
+      "evidence_checked": [
+        "P3:345",
+        "answer_packets:S3C6T12-SUP-01"
+      ],
+      "classification": "original_error_or_missing_conditions"
+    },
+    {
+      "id": "S3C6T15-CORE",
+      "reason": "P3 349쪽실제보기C+B,P+S,전환사채,ELS확인. CB/ELS가일률적으로채권+콜또는원금보장형이아니므로상품조건·신용위험범위없이②만예외라고승인불가. 원래4상품분류를유지하는구조조건근거필요.",
+      "evidence_checked": [
+        "P3:349",
+        "answer_packets:S3C6T15-CORE"
+      ],
+      "classification": "original_error_or_missing_conditions"
+    },
+    {
+      "id": "S3C6T18-CORE",
+      "reason": "P3 356쪽실제그림x축K/S가상승하면IV상승하는정스큐다. 원③1987이후주식시장현상이라는경험적단정은통상주식음스큐와대조필요하며그래프만으로연혁증명불가.②그림판독은가능하나전체보기근거부족.",
+      "evidence_checked": [
+        "P3:356",
+        "answer_packets:S3C6T18-CORE"
+      ],
+      "classification": "original_error_or_evidence_gap"
+    },
+    {
+      "id": "S3C6T18-SUP-01",
+      "reason": "P3 357쪽실제그림은K/S=1최저인대칭스마일로①③은그림상확인.②1987블랙먼데이이전일반형태라는역사명제는그림/원해설만으로검증불가.④는ITM→ATM하락구간때문에단조증가가아님.전보기용역사공식자료필요.",
+      "evidence_checked": [
+        "P3:357",
+        "answer_packets:S3C6T18-SUP-01"
+      ],
+      "classification": "original_error_or_evidence_gap",
+      "status": "resolved_pending_integration",
+      "resolution": {
+        "claim_ids": [
+          "S3L164"
+        ],
+        "reason": "원문4보기·그림형태·답④유지.누락되었던역사자료를CBOE공식백서완전수신20쪽중2쪽그림으로확보했다.②의시대비교를S&P500시장역사도식으로한정하여모든기초자산에보편적이라는오해를제거했다. 원해설의스머크는언제나콜ITM→OTM상승이라는서술은일반정의가아니며,1987년후S&P500은반대방향스큐라는오류를별도명시한다.",
+        "review_module": "subject3_reviews.py"
+      }
+    },
+    {
+      "id": "S3C6T19-SUP-03",
+      "reason": "Black-Scholes PDE는Θ+.5σ²S²Γ+(r-q)SΔ-rV=0이며Γ+Θ가고정상수인것이아니다.금리/배당있는풋은세타부호도항상음수가아님. r=q=0로고쳐도베가·세타도반대부호여서원보기②유일정답보장불가.",
+      "evidence_checked": [
+        "P3:361",
+        "answer_packets:S3C6T19-SUP-03"
+      ],
+      "classification": "original_error_or_evidence_gap"
+    },
+    {
+      "id": "S3C6T19-SUP-04",
+      "reason": "ATM S=K의델타가정확.5,감마가정확최대,시간가치가무조건최대라는원보기/해설은금리·배당·잔존만기·변동성조건에의존한다.②델타1오류외③감마최대도일반정확명제아니므로유일오답확정불가.",
+      "evidence_checked": [
+        "P3:362",
+        "answer_packets:S3C6T19-SUP-04"
+      ],
+      "classification": "original_error_or_evidence_gap"
+    },
+    {
+      "id": "S3C6-ADD-01",
+      "reason": "선도의현금결제가능성을배제하는②실물인수도일괄단정과④자유로운청산을구분할계약조건필요.원해설④만오답으로하는완전한유일성입증불가.",
+      "evidence_checked": [
+        "P3:363",
+        "answer_packets:S3C6-ADD-01"
+      ],
+      "classification": "original_error_or_evidence_gap"
+    },
+    {
+      "id": "S3C6-ADD-05",
+      "reason": "순보유비용이음수여도시장선물이가격을반영한복제가격보다비싸면매수차익가능.①②④의양의베이시스도충분조건아니다. 원③불가능단정의반례가존재해원답승인불가.",
+      "evidence_checked": [
+        "P3:364",
+        "answer_packets:S3C6-ADD-05"
+      ],
+      "classification": "original_error_or_evidence_gap"
+    },
+    {
+      "id": "S3C6-ADD-12",
+      "reason": "원④콜델타=주식편입비율은 단위수와 자산금액비중을 혼동하고, 해설 S+P=C는 만기채권 B를 누락한다. 일반 동적보험의 주가상승-비중관계도 전략조건이 없어 원③만 유일오답으로 확정불가. 복제전략과 비중정의의 개별교정 필요.",
+      "evidence_checked": [
+        "P3:366-367",
+        "answer_packets:S3C6-ADD-12"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "MOCK-1-Q082",
+      "reason": "900만원과 OI+1 및 제로섬이 신용위험 정의가 아니라는 논리는 확인. 원①선물양방향증거금/옵션비교의 제도범위·전체공식근거 확보 전 승인보류. 제로섬 때문에 선도만 신용위험이 있다는 원해설은 오류.",
+      "evidence_checked": [
+        "MOCK:22,64",
+        "answer_packets:MOCK-1-Q082"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "MOCK-1-Q087",
+      "reason": "행사가·변동성·금리 없이 ATM20일을 감마최대로 단정불가. BS gamma=φ(d1)/(Sσ√T)이며 고정S에서 행사가별 최대는 d1=0이지 일반적으로 K=S가 아니다. 근접OTM20일이 더 클 수 있어 원④유일답 미확정.",
+      "evidence_checked": [
+        "MOCK:23,64",
+        "answer_packets:MOCK-1-Q087"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "MOCK-2-Q082",
+      "reason": "스왑장외만·장내언제든청산·어떤조건도합의가능·대부분딜러거래의 혼합사실문항이다. 시장/관할/일자를한정한 현행상품·제도·거래통계 근거가 없으며 ①만 오류라는 원답은 미확정.",
+      "evidence_checked": [
+        "MOCK:49,74",
+        "answer_packets:MOCK-2-Q082"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "MOCK-2-Q087",
+      "reason": "ATM콜델타정확히.5와 감마ATM최대가 모두일반적으로거짓. 풋감마도만기근접시OTM에서0으로감소가능하므로③을항상거짓으로 처리불가. 해설 감마와기초자산항상정관계도오류. 한보기교정만으로복원불가.",
+      "evidence_checked": [
+        "MOCK:50,75",
+        "answer_packets:MOCK-2-Q087"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "NOTE-S3C6-Q002",
+      "reason": "스왑은장외에만존재한다는현재전세계단정의근거부족. 법률상장내외정의만으로실제상장상품 부재를 입증할 수 없다. 시장·시점지정자료필요.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q002"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "NOTE-S3C6-Q003",
+      "reason": "대부분시장조성자-고객거래라는 빈도주장은 거래범위·시점·건수/금액지표가필요. 상품정의나교재문장만으로 경험적빈도 승인불가.",
+      "evidence_checked": [
+        "NOTE:70",
+        "answer_packets:NOTE-S3C6-Q003"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "NOTE-S3C6-Q014",
+      "reason": "F>S로콘탱고분류는되지만 매수차익거래가능조건은 F>복제비용 F*이다. F=S+정정보유비용인균형도콘탱고라무차익. 원두번째빈칸은 추가조건없이결정불가.",
+      "evidence_checked": [
+        "NOTE:71",
+        "answer_packets:NOTE-S3C6-Q014"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    },
+    {
+      "id": "NOTE-S3C6-Q036",
+      "reason": "ITM→ATM→OTM 변동성단조상승 및1987블랙먼데이이후현상이라는 역사적·경험적주장. 어떤기초자산·콜풋·행사가축인지없고일반주식스큐와부호혼동가능. P3 356그래프와함께공식역사자료 확인후수정필요. 명칭만다른문제로축소하지않음.",
+      "evidence_checked": [
+        "NOTE:74",
+        "P3:356-357",
+        "answer_packets:NOTE-S3C6-Q036"
+      ],
+      "classification": "individual_evidence_or_original_error_hold"
+    }
+  ]
+}

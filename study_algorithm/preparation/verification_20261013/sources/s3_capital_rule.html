@@ -1,0 +1,1221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+ <head></head>
+ <body>
+  <input type="hidden" id="lsNm" name="lsNm" value="자본시장과 금융투자업에 관한 법률 시행규칙" /> 
+  <input type="hidden" id="lsId" name="lsId" value="010820" /> 
+  <input type="hidden" id="lsiSeq" name="lsiSeq" value="271489" /> 
+  <input type="hidden" id="ancYd" name="ancYd" value="20250602" /> 
+  <input type="hidden" id="efYd" name="efYd" value="20250602" /> 
+  <input type="hidden" id="ancNo" name="ancNo" value="02034" /> 
+  <input type="hidden" id="lsBdyChrCls" name="lsBdyChrCls" value="010202" /> 
+  <input type="hidden" id="lumIsConOrdin" value="" /> 
+  <input type="hidden" id="nwYnValue" value="Y" /> 
+  <input type="hidden" id="hstLnkDpYn" value="0" /> 
+  <style>
+.byl_pop ul li {
+	padding: 7px;
+	margin-left: 10px;
+}
+</style> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	customResizePop(); // 본문 리사이즈
+	initEDotXPress('\uC790\uBCF8\uC2DC\uC7A5\uACFC \uAE08\uC735\uD22C\uC790\uC5C5\uC5D0 \uAD00\uD55C \uBC95\uB960 \uC2DC\uD589\uADDC\uCE59');
+});
+
+function customResizePop() {
+		// 본문 버튼 높이 만큼 제공한다. 13은 패딩값
+		var $contentHeight = $("#center").height() - ($('.body_top_area').height() + 13);
+		var $conTopHeight = $('#conTop').height() + 35;
+
+		var bdyValue = lsVO.bdyUpdValue.updateContentNm || 'lsBdy';
+		
+        //lsInfoP 가 열릴 때 본문은 무조건 조회 하기 때문에 조건문 밖에 위치 하도록 변경.
+		$('#viewwrapCenter').css('overflow-y', 'hidden');
+        $('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+        $('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+        
+        if (bdyValue == 'lsBdy') {
+			/* 본문에서는 법령명 고정 때문에 hidden 처리*/
+			$('#viewwrapCenter').css('overflow-y', 'hidden');
+			$('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+			if($('#viewwrapCenter2').height() != null || $('#viewwrapCenter2').height() == 0){
+				$('#bodyContentTOP > #viewwrapCenter2').height($contentHeight);
+				$('#conScroll').height($('#viewwrapCenter2').height() - $conTopHeight);
+				$('#viewwrapCenter2').css('overflow', 'hidden');
+			}
+			$('#bodyContent').css('width', 'inherit');
+		} else if (bdyValue == 'lsPtnThdCmp') {
+			lspttnThdCmpResize();
+		} else if (bdyValue == 'lumThdCmp') {
+			thdCmpNewScPResize();
+		} else if (bdyValue == 'lumThdCmpSc') {
+
+		} else if (bdyValue == 'thdCmpNew') {
+
+		} else if (bdyValue == 'lsOldAndNew') {				
+			// 신구법은 이전 이후 버튼 높이까지 마이너스 한다. 
+			$('#bodySideContent > #oldAndNewDiv').height(($contentHeight + $('#tmpWidth').height()-114));
+		} else if (bdyValue == 'lsRvsDocInfoR') {
+
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+			$('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+			$('#conTop').height($('.cont_top').height());
+			$('#rvsConScroll').height($('#viewwrapCenter').height() - $('#rvsConTop').height());
+			
+		} else {
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+		}
+}
+
+function fileLayer(temp){
+	var tempStr = $("#hwptext"+temp).attr("value");
+	if(tempStr.length > 32){
+ 		$("#hwptext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#hwpxtext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#pdftext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 	}
+
+ 	$(".byl_pop").css("display","none");
+
+ 	//레이어높이값
+ 	var height = $("#fileSaveLayer"+temp).height();
+ 	//본문 제일 하단 위치값 
+	var pagePos = document.querySelector('#center');
+	pagePos = pagePos.getBoundingClientRect().bottom;
+	//레이어버튼위치값
+	var layPos =document.querySelector('#imgPos'+temp);
+	layPos = layPos.getBoundingClientRect().bottom;
+	var lay_pop = $('#fileSaveLayer'+temp);
+	var pos = $('#imgPos'+temp).position();
+	
+	if(pagePos > height+layPos){ //레이어가 잘리지 않을 때 
+		lay_pop.css('top', (pos.top)+25 + 'px');
+		lay_pop.css('left', '250px')
+	}else{ //레이어가 잘릴 때
+		lay_pop.css('top', ((pos.top)-height)+ 'px');
+		lay_pop.css('left', (pos.left)+25+'px');
+	}
+	document.getElementById("fileSaveLayer"+temp).style.display="block";
+}
+
+function copyToClipBoard(temp2){
+	var content = document.getElementById('textarea'+temp2);
+	content.select();
+	document.execCommand('copy');
+	alert("주소가 클립보드에 저장되었습니다.");
+	content.setSelectionRange(0,0);
+}
+
+function delLayer(temp){
+	document.getElementById("fileSaveLayer"+temp).style.display="none";
+}
+
+</script> 
+  <div id="contentBody" class="scr_ctrl"> 
+   <div id="sideCenter" class="cont_area"> 
+    <ul class="cont_icon"> 
+     <li><a><img alt="판" src="/LSW/images/button/btn_jostmdico.gif" />판례</a></li> 
+     <li><a><img alt="연" src="/LSW/images/button/btn_year3.gif" />연혁</a></li> 
+     <li><a><img alt="행" src="/LSW/images/button/btn_entrust3_2.gif" />위임행정규칙</a></li> 
+     <li><a><img alt="규" src="/LSW/images/button/btn_entrust4_2.gif" />규제</a></li> 
+     <li><a><img alt="한" src="/LSW/images/button/btn_oneviewIcon.gif" />한눈보기</a></li> 
+    </ul> 
+    <!-- 연혁법령 안내문구 --> 
+    <!-- 법령명 --> 
+    <div id="conTop" class="cont_top"> 
+     <a id="top"></a> 
+     <!-- 국민신문고 연결배너 출력 --> 
+     <h2> 자본시장과 금융투자업에 관한 법률 시행규칙 <span>( 약칭: 자본시장법 시행규칙 )</span> </h2> 
+     <div class="ct_sub"> 
+      <span>[시행 2025. 6. 2.] [총리령 제2034호, 2025. 6. 2., 일부개정]</span> 
+     </div> 
+    </div> 
+    <!-- 소관부처 --> 
+    <div id="conScroll" class="scr_area" style="overflow-y: auto;"> 
+     <div class="cont_subtit"> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.fsc.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="http://www.fsc.go.kr" style="cursor: pointer;">금융위원회</span> (<span title="" style="cursor: pointer;">자본시장과-투자매매중개업, 증권발행</span>), 02-2100-2651 </a> </p> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.fsc.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="http://www.fsc.go.kr" style="cursor: pointer;">금융위원회</span> (<span title="" style="cursor: pointer;">자본시장과-파생상품</span>), 02-2100-2654 </a> </p> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.fsc.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="http://www.fsc.go.kr" style="cursor: pointer;">금융위원회</span> (<span title="" style="cursor: pointer;">자산운용과-집합투자, 신탁, 투자일임, 투자자문</span>), 02-2100-2661 </a> </p> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('http://www.fsc.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="http://www.fsc.go.kr" style="cursor: pointer;">금융위원회</span> (<span title="" style="cursor: pointer;">공정시장과-사업보고서, 상장회사특례, 불공정거래</span>), 02-2100-2681 </a> </p> 
+     </div> 
+     <!-- 조문정보 --> 
+     <a name="J1:0" id="J1:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0001', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="1:0:000100:93320645" /> <span class="bl"><label for="Y000100"> 제1조(목적) </label> </span> 이 규칙은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126183','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126185','ALLJO','');" href="javascript:;">같은 법 시행령</a>에서 위임된 사항과 그 시행에 관하여 필요한 사항을 규정함을 목적으로 한다. </p> 
+      </div> 
+     </div> 
+     <a name="J1:2" id="J1:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0001', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000102" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="1:2:000102:93320647" /> <span class="bl"><label for="Y000102"> 제1조의2(금융투자업의 적용배제) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126191','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률 시행령」</a>(이하 “영”이라 한다) <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126187','JO','');" href="javascript:;">제7조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126189','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126193','JO','');" href="javascript:;">제4호</a>에서 “총리령으로 정하는 발행요건 등”이란 해당 파생결합증권의 발행인이 전문투자자일 것을 말한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J2:0" id="J2:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0002', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320649', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0002', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0002', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="2:0:000200:93320649" /> <span class="bl"><label for="Y000200"> 제2조(인가심사기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126985','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a>(이하 “법”이라 한다) <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126989','JO','');" href="javascript:;">제13조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127007','JO','');" href="javascript:;">제3항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2011. 2. 7., 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126977','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126999','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126973','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126987','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126983','JO','');" href="javascript:;">제13조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126993','JO','');" href="javascript:;">제2항</a> 후단에 따라 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 금융투자업인가를 받으려는 자, 금융투자업인가를 받으려는 자의 대주주(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126969','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127001','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126991','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126975','JO','');" href="javascript:;">제6호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1028126981','JO','');" href="javascript:;">가목</a>에 따른 대주주를 말한다. 이하 같다) 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127003','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126995','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126979','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127005','JO','');" href="javascript:;">제1호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1028126997','JO','');" href="javascript:;">나목</a>에 따른 외국 금융투자업자(이하 “외국 금융투자업자”라 한다)를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126971','ALLJO','');" href="javascript:;">「금융위원회의 설치 등에 관한 법률」</a>에 따른 금융감독원(이하 “금융감독원”이라 한다) 등(외국 금융투자업자인 경우에는 이들에 준하는 본국의 감독기관 등을 포함한다)에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0002','00','010102','DEG','금융위원회가 정하여 고시하는','24325');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000200', '271489', '0002', '00', '010102')"><img id="delegatedAdmRul_img_000200" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000200" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J2:2" id="J2:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0002', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0002', '02', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000202" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="2:2:000202:93320651" /> <span class="bl"><label for="Y000202"> 제2조의2(업무 단위 추가등록 검토기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127011','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127015','JO','');" href="javascript:;">제16조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127019','JO','');" href="javascript:;">제7항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127021','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127009','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127013','JO','');" href="javascript:;">제2항</a> 각 호(같은 항 제3호 및 제6호는 제외한다)의 요건을 충족하는지를 확인하기 위해 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127025','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127017','JO','');" href="javascript:;">제16조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127023','JO','');" href="javascript:;">제3항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 금융투자업 업무 단위를 추가등록하려는 자를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0002','02','010102','DEG','금융위원회가 정하여 고시하는','24329');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000202', '271489', '0002', '02', '010102')"><img id="delegatedAdmRul_img_000202" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000202" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J3:0" id="J3:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0003', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320653', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0003', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="3:0:000300:93320653" /> <span class="bl"><label for="Y000300"> 제3조(예비인가심사기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127037','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127031','JO','');" href="javascript:;">제14조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127043','JO','');" href="javascript:;">제3항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2011. 2. 7., 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127029','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127035','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127041','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127039','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127033','JO','');" href="javascript:;">제14조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127027','JO','');" href="javascript:;">제2항</a> 후단에 따른 예비인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 예비인가를 받으려는 자, 예비인가를 받으려는 자의 대주주 또는 외국 금융투자업자를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등(외국 금융투자업자인 경우에는 이들에 준하는 본국의 감독기관 등을 포함한다)에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 예비인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0003','00','010102','DEG','금융위원회가 정하여 고시하는','24327');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000300', '271489', '0003', '00', '010102')"><img id="delegatedAdmRul_img_000300" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000300" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J4:0" id="J4:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0004', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320655', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0004', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0004', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="4:0:000400:93320655" /> <span class="bl"><label for="Y000400"> 제4조(등록검토기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127051','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127057','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127069','JO','');" href="javascript:;">제3항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2011. 2. 7., 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127055','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127065','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127063','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127053','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127061','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127047','JO','');" href="javascript:;">제2항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 금융투자업등록을 하려는 자, 금융투자업등록을 하려는 자의 대주주, <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127045','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127049','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127067','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127059','JO','');" href="javascript:;">제1호</a> 각 목 외의 부분 단서에 따른 외국 투자자문업자(이하 “외국 투자자문업자”라 한다) 또는 같은 호 각 목 외의 부분 단서에 따른 외국 투자일임업자(이하 “외국 투자일임업자”라 한다)를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등(외국 투자자문업자 또는 외국 투자일임업자인 경우에는 이들에 준하는 본국의 감독기관 등을 포함한다)에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 등록검토에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0004','00','010102','DEG','금융위원회가 정하여 고시하는','24331');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000400', '271489', '0004', '00', '010102')"><img id="delegatedAdmRul_img_000400" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000400" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J5:0" id="J5:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0005', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0005', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="5:0:000500:93320657" /> <span class="bl"><label for="Y000500"> 제5조(재무건전성 유지) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126209','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126211','JO','');" href="javascript:;">제30조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126215','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126213','JO','');" href="javascript:;">제1호</a>에서 “총리령으로 정하는 금액”이란 다음 각 호의 사항에 해당하는 금액을 말한다. </p>
+       <p class="pty1_de2h">1. 유동자산에 설정한 대손충당금 </p> 
+       <p class="pty1_de2h">2. 후순위 차입금 </p> 
+       <p class="pty1_de2h">3. 금융리스 부채 </p> 
+       <p class="pty1_de2h">4. 자산평가이익 </p> 
+       <p class="pty1_de2h">5. 제1호부터 제4호까지에서 규정한 사항 외에 자본적 성격을 가지는 부채 등 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126205','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126203','JO','');" href="javascript:;">제30조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126207','JO','');" href="javascript:;">제1항</a>에 따른 영업용순자본(이하 “영업용순자본”이라 한다)에 포함시킬 필요가 있다고 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('271489','0005','00','010102','NOT','금융위원회가 정하여 고시하는','37829');">금융위원회가 정하여 고시하는</a> 사항 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126195','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126197','JO','');" href="javascript:;">제30조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126199','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126201','JO','');" href="javascript:;">제2호</a>에서 “총리령으로 정하는 자산”이란 다음 각 호의 사항에 해당하는 금액을 말한다. </p> 
+       <p class="pty1_de2h">1. 선급금 </p> 
+       <p class="pty1_de2h">2. 선급비용 </p> 
+       <p class="pty1_de2h">3. 선급법인세 </p> 
+       <p class="pty1_de2h">4. 자산평가손실 </p> 
+       <p class="pty1_de2h">5. 제1호부터 제4호까지에서 규정한 사항 외에 단기간 내에 유동화가 곤란한 자산 등 영업용순자본에서 제외할 필요가 있다고 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('271489','0005','00','010102','NOT','금융위원회가 정하여 고시하는','37831');">금융위원회가 정하여 고시하는</a> 사항 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J6:0" id="J6:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0006', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320659', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0006', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="6:0:000600:93320659" /> <span class="bl"><label for="Y000600"> 제6조(회계기간 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127095','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127071','JO','');" href="javascript:;">제32조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127073','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127093','JO','');" href="javascript:;">제1호</a>(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127075','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127077','JO','');" href="javascript:;">제350조</a> 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127079','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127089','JO','');" href="javascript:;">제357조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127083','JO','');" href="javascript:;">제2항</a>에서 준용하는 경우를 포함한다)에서 “총리령으로 정하는 기간”이란 정관에서 정하는 기간을 말한다. <span class="sfon">&lt;개정 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127091','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127085','JO','');" href="javascript:;">제32조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127087','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127081','JO','');" href="javascript:;">제2호</a>에서 “총리령으로 정하는 투자자재산”이란 다음 각 호의 투자자재산을 말한다. </p> 
+       <p class="pty1_de2h">1. 투자자가 예탁한 재산 </p> 
+       <p class="pty1_de2h">2. 집합투자재산 </p> 
+       <p class="pty1_de2h">3. 제1호 및 제2호에서 규정한 사항 외에 고유재산, 신탁재산 및 제1호ㆍ제2호의 재산과 명확히 구분하여 회계처리할 필요가 있는 것으로서 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('271489','0006','00','010102','NOT','금융위원회가 정하여 고시하는','37341');">금융위원회가 정하여 고시하는</a> 투자자재산 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:0" id="J7:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0007', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:0:000700:93320661" /> <span class="bl"><label for="Y000700"> 제7조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126229','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126231','JO','');" href="javascript:;">제51조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126233','JO','');" href="javascript:;">제6항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126223','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126225','JO','');" href="javascript:;">제51조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126227','JO','');" href="javascript:;">제1항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126217','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126219','JO','');" href="javascript:;">제51조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126221','JO','');" href="javascript:;">제5항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:2" id="J7:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0007', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000702" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:2:000702:93320663" /> <span class="bl"><label for="Y000702"> 제7조의2(소유증권을 예탁하지 아니하여도 되는 경우) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126235','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126237','JO','');" href="javascript:;">제63조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126239','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126241','JO','');" href="javascript:;">제4호</a>에서 “총리령으로 정하는 경우”란 다음 각 호의 어느 하나에 해당하는 경우를 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 해당 증권이 투자계약증권인 경우 </p> 
+       <p class="pty1_de2h">2. 해당 증권이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126243','ALLJO','');" href="javascript:;">「상법」</a>에 따른 합자회사ㆍ유한책임회사ㆍ합자조합ㆍ익명조합의 출자지분이 표시된 것인 경우. 다만, 집합투자증권은 제외한다. </p> 
+       <p class="pty1_de2h">3. 해당 증권이 발행일부터 만기가 3일 이내에 도래하는 어음인 경우 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:3" id="J7:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0007', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320665', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000703" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:3:000703:93320665" /> <span class="bl"><label for="Y000703"> 제7조의3(최선집행기준이 적용되지 아니하는 거래) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126017','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126019','JO','');" href="javascript:;">제66조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127271','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127273','JO','');" href="javascript:;">제3호</a> 각 목 외의 부분에서 “총리령으로 정하는 금융투자상품”이란 다음 각 호의 어느 하나에 해당하는 금융투자상품을 말한다. <span class="sfon">&lt;개정 2025. 6. 2.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 채무증권 </p> 
+       <p class="pty1_de2h">2. 지분증권(주권 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127279','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127281','JO','');" href="javascript:;">제7조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127305','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127283','JO','');" href="javascript:;">제2호</a>에 해당하는 지분증권은 제외한다) </p> 
+       <p class="pty1_de2h">3. 수익증권(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127307','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127285','JO','');" href="javascript:;">제7조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127309','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127287','JO','');" href="javascript:;">제2호</a>에 해당하는 수익증권은 제외한다) </p> 
+       <p class="pty1_de2h">4. 투자계약증권 </p> 
+       <p class="pty1_de2h">5. 파생결합증권(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127301','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127275','JO','');" href="javascript:;">제7조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127303','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127277','JO','');" href="javascript:;">제3호</a>에 해당하는 파생결합증권은 제외한다) </p> 
+       <p class="pty1_de2h">6. 증권예탁증권(주권과 관련된 증권예탁증권은 제외한다) </p> 
+       <p class="pty1_de2h">7. 장내파생상품 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:4" id="J7:4"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0007', '04' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000704" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:4:000704:93320667" /> <span class="bl"><label for="Y000704"> 제7조의4(지정검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126261','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126251','JO','');" href="javascript:;">제77조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126253','JO','');" href="javascript:;">제5항</a>에서 “지정신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126255','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126257','JO','');" href="javascript:;">제77조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126259','JO','');" href="javascript:;">제1항</a> 각 호의 기준을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126245','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126247','JO','');" href="javascript:;">제77조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126249','JO','');" href="javascript:;">제4항</a> 후단에 따라 지정신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:5" id="J7:5"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0007', '05' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320669', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000705" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:5:000705:93320669" /> <span class="bl"><label for="Y000705"> 제7조의5(신용공여의 범위) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126263','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126265','JO','');" href="javascript:;">제77조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126267','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126269','JO','');" href="javascript:;">제2호</a>에서 “총리령으로 정하는 기간”이란 1년을 말한다. <span class="sfon">&lt;개정 2015. 1. 6.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J8:0" id="J8:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0008', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320671', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="8:0:000800:93320671" /> <span class="bl"><label for="Y000800"> 제8조(주식소유 제한의 예외) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126283','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126285','JO','');" href="javascript:;">제78조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126287','JO','');" href="javascript:;">제6항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126289','JO','');" href="javascript:;">제2호</a>에서 “총리령으로 정하는 금융기관, 금융투자업관계기관”이란 다음 각 호의 기관을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126273','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126275','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126277','JO','');" href="javascript:;">제2항</a> 각 호의 어느 하나에 해당하는 금융기관 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126279','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126281','JO','');" href="javascript:;">제283조</a>에 따라 설립된 한국금융투자협회 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126291','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126271','JO','');" href="javascript:;">제294조</a>에 따라 설립된 한국예탁결제원(이하 “예탁결제원”이라 한다) </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J9:0" id="J9:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0009', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0009', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="9:0:000900:93320673" /> <span class="bl"><label for="Y000900"> 제9조(자산배분명세 등에 관한 장부 및 서류 등) </label> </span> ① 투자신탁의 집합투자업자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126301','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126303','JO','');" href="javascript:;">제80조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126305','JO','');" href="javascript:;">제3항</a> 후단에 따라 투자대상자산의 취득ㆍ처분 등의 업무를 수행하기 전에 취득ㆍ처분 등을 하려는 투자대상자산에 대하여 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126293','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126295','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126297','JO','');" href="javascript:;">제18항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126299','JO','');" href="javascript:;">제1호</a>에 따른 투자신탁(이하 “투자신탁”이라 한다)의 재산(이하 “투자신탁재산”이라 한다)별로 주문금액, 가격, 수량 등을 기재한 취득ㆍ처분 등의 주문서와 투자신탁재산별로 배분내용을 기재한 자산배분명세서를 작성하여야 한다. 취득ㆍ처분 등의 주문 또는 배분내용을 정정하는 경우에도 같다. </p>
+       <p class="pty1_de2_1">② 집합투자업자의 준법감시인(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126863','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126861','JO','');" href="javascript:;">제28조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126865','JO','');" href="javascript:;">제2항</a>에 따른 준법감시인을 말한다)은 제1항에 따라 작성한 취득ㆍ처분 등의 주문서와 자산배분명세서의 적정성 및 그 이행여부를 확인하여야 한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:0" id="J10:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0010', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0010', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0010', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:0:001000:93320675" /> <span class="bl"><label for="Y001000"> 제10조(자산배분방법 등) </label> </span> ① 투자신탁의 집합투자업자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126319','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126321','JO','');" href="javascript:;">제80조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126323','JO','');" href="javascript:;">제3항</a>에 따라 취득ㆍ처분 등의 결과를 투자신탁재산별로 배분하는 경우에는 다음 각 호의 기준에 따라야 한다. </p>
+       <p class="pty1_de2h">1. 취득ㆍ처분 등을 한 투자대상자산을 균등한 가격으로 배분할 것 </p> 
+       <p class="pty1_de2h">2. 취득ㆍ처분 등을 한 투자대상자산의 수량이 취득ㆍ처분 등의 주문 수량에 미달하는 경우에는 미리 정한 자산배분명세에 따라 배분할 것 </p> 
+       <p class="pty1_de2_1">② 투자신탁의 집합투자업자는 자산배분명세에 관한 사항을 정하는 경우에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126307','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126309','JO','');" href="javascript:;">제238조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126311','JO','');" href="javascript:;">제2항</a>에 따른 평가위원회의 의결을 거쳐 다음 각 호의 기준에 따라 정하여야 한다. </p> 
+       <p class="pty1_de2h">1. 특정 수익자 또는 특정 투자신탁재산에 유리하거나 불리하지 아니할 것 </p> 
+       <p class="pty1_de2h">2. 투자신탁재산별 취득ㆍ처분 등의 주문서와 자산배분명세가 전산으로 기록ㆍ유지될 것 </p> 
+       <p class="pty1_de2_1">③ 투자신탁의 집합투자업자는 제2항에 따라 정한 자산배분명세에 관한 사항을 인터넷 홈페이지 등을 이용하여 공시하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 투자신탁의 집합투자업자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126313','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126315','JO','');" href="javascript:;">제80조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126317','JO','');" href="javascript:;">제3항</a>에 따른 투자대상자산의 취득ㆍ처분 등의 업무를 하는 경우에는 집합투자재산의 운용을 담당하는 직원과 투자대상자산의 취득ㆍ처분 등의 실행업무를 담당하는 직원을 구분하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우는 제외한다. </p> 
+       <p class="pty1_de2h">1. 증권에 관하여 그 종류에 따라 다수 종목의 가격수준을 종합적으로 표시하는 지수의 변화에 연동하여 운용하는 것을 목표로 하는 집합투자기구의 집합투자재산을 취득ㆍ처분 등을 하는 경우 </p> 
+       <p class="pty1_de2h">2. 제1호에서 규정한 사항 외에 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0010','00','010102','DEG','금융위원회가 정하여 고시하는','16909');">금융위원회가 정하여 고시하는</a> 경우 </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('001000', '271489', '0010', '00', '010102')"><img id="delegatedAdmRul_img_001000" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_001000" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:2" id="J10:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0010', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001002" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:2:001002:93320677" /> <span class="bl"><label for="Y001002"> 제10조의2(자산운용 한도 제한의 예외) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126325','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126327','JO','');" href="javascript:;">제80조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126329','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126331','JO','');" href="javascript:;">제2호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1028126333','JO','');" href="javascript:;">바목</a>에서 “투자자 보호 등을 고려하여 총리령으로 정하는 국가”란 중화인민공화국을 말한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2015. 10. 23.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:0" id="J11:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0011', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0011', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:0:001100:93320679" /> <span class="bl"><label for="Y001100"> 제11조(국내 연락책임자의 요건) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126371','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126373','JO','');" href="javascript:;">제100조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126375','JO','');" href="javascript:;">제2항</a>에서 “총리령으로 정하는 요건에 해당하는 연락책임자”란 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126335','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126337','JO','');" href="javascript:;">제100조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126339','JO','');" href="javascript:;">제1항</a>에 따른 역외투자자문업자 또는 역외투자일임업자의 대리인으로서 다음 각 호의 어느 하나에 해당하는 자를 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 다음 각 목의 어느 하나에 해당하는 금융기관 </p> 
+       <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126357','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126359','JO','');" href="javascript:;">제22조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126361','JO','');" href="javascript:;">제1호</a>에 따른 은행 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126369','ALLJO','');" href="javascript:;">「한국산업은행법」</a>에 따른 한국산업은행 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126381','ALLJO','');" href="javascript:;">「한국수출입은행법」</a>에 따른 한국수출입은행 <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126349','ALLJO','');" href="javascript:;">「중소기업은행법」</a>에 따른 중소기업은행 <span class="sfon"></span></p> 
+       <p class="pty1_de3">마. 금융투자업자(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126869','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126867','JO','');" href="javascript:;">제22조</a>에 따른 겸영금융투자업자는 제외한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">바. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126363','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126365','JO','');" href="javascript:;">제324조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126367','JO','');" href="javascript:;">제1항</a>에 따라 인가를 받은 증권금융회사(이하 “증권금융회사”라 한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">사. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126341','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126343','JO','');" href="javascript:;">제336조</a>에 따른 종합금융회사 <span class="sfon"></span></p> 
+       <p class="pty1_de3">아. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126347','ALLJO','');" href="javascript:;">「상호저축은행법」</a>에 따른 상호저축은행 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. 다음 각 목의 어느 하나에 해당하는 자 </p> 
+       <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126345','ALLJO','');" href="javascript:;">「변호사법」</a>에 따른 법무법인 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126379','ALLJO','');" href="javascript:;">「변호사법」</a>에 따른 법무법인(유한) <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126353','ALLJO','');" href="javascript:;">「변호사법」</a>에 따른 법무조합 <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126355','ALLJO','');" href="javascript:;">「변호사법」</a>에 따른 법무법인으로서 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126351','ALLJO','');" href="javascript:;">「소득세법」</a>에 따라 공동사업장으로 등록된 경우에는 그 공동사업장에 소속된 변호사 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126377','ALLJO','');" href="javascript:;">「공인회계사법」</a>에 따른 회계법인 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:2" id="J11:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0011', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320681', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0011', '02', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0011', '02');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001102" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:2:001102:93320681" /> <span class="bl"><label for="Y001102"> 제11조의2(등록검토기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127117','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127113','JO','');" href="javascript:;">제117조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127105','JO','');" href="javascript:;">제5항</a>에서 “등록신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127103','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127111','JO','');" href="javascript:;">제117조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127097','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127119','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127123','JO','');" href="javascript:;">제117조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127107','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 온라인소액투자중개업자 등록을 하려는 자, 온라인소액투자중개업자 등록을 하려는 자의 대주주 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127121','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127115','JO','');" href="javascript:;">제117조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127101','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127099','JO','');" href="javascript:;">제1호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1028127109','JO','');" href="javascript:;">나목</a>에 따른 외국 온라인소액투자중개업자(이하 이 조에서 “외국 온라인소액투자중개업자”라 한다)를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등(외국 온라인소액투자중개업자인 경우에는 이들에 준하는 본국의 감독기관 등을 포함한다)에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 등록검토에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0011','02','010102','DEG','금융위원회가 정하여 고시하는','24339');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2016. 1. 25.]<br />[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('001102', '271489', '0011', '02', '010102')"><img id="delegatedAdmRul_img_001102" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_001102" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J12:0" id="J12:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0012', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320683', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0012', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0012', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:0:001200:93320683" /> <span class="bl"><label for="Y001200"> 제12조(신고의 효력발생시기) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127183','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127143','JO','');" href="javascript:;">제120조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127135','JO','');" href="javascript:;">제1항</a>에 따른 증권신고의 효력발생시기는 그 증권신고서가 수리된 날부터 다음 각 호의 기간이 경과한 날로 한다. <span class="sfon">&lt;개정 2013. 8. 29.&gt;</span> </p>
+       <p class="pty1_de2h">1. 채무증권의 모집 또는 매출인 경우에는 7일. 다만, 다음 각 목의 어느 하나에 해당하는 채무증권인 경우에는 5일 </p> 
+       <p class="pty1_de3">가. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127205','ALLJO','');" href="javascript:;">「담보부사채신탁법」</a>에 따라 발행되는 담보부사채 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127173','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127161','JO','');" href="javascript:;">제362조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127153','JO','');" href="javascript:;">제8항</a>에 따른 보증사채권 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127139','ALLJO','');" href="javascript:;">「자산유동화에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127201','JO','');" href="javascript:;">제3조</a>에 따른 자산유동화계획에 따라 발행되는 사채권 <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127199','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127177','JO','');" href="javascript:;">제119조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127167','JO','');" href="javascript:;">제2항</a>에 따른 일괄신고서에 의하여 모집 또는 매출되는 채무증권 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">2. 지분증권의 모집 또는 매출인 경우에는 15일. 다만, 주권상장법인[법 제9조제18항제2호에 따른 투자회사(이하 “투자회사”라 한다)는 제외한다]의 주식의 모집 또는 매출인 경우에는 10일, 주주 또는 제3자에게 배정하는 방식의 주식(투자회사의 주식은 제외한다)의 모집 또는 매출인 경우에는 7일 </p> 
+       <p class="pty1_de2h">3. 증권시장에 상장된 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127169','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127155','JO','');" href="javascript:;">제230조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127203','JO','');" href="javascript:;">제1항</a>에 따른 환매금지형집합투자기구(이하 “환매금지형집합투자기구”라 한다)의 집합투자증권의 모집 또는 매출인 경우에는 10일, 주주 등 출자자 또는 수익자에게 배정하는 방식의 환매금지형집합투자기구의 집합투자증권의 모집 또는 매출인 경우에는 7일 </p> 
+       <p class="pty1_de2h">4. 제1호부터 제3호까지에 해당하는 증권의 모집 또는 매출 외의 경우에는 15일 </p> 
+       <p class="pty1_de2_1">② 다음 각 호의 어느 하나에 해당하는 경우에는 제1항 각 호에도 불구하고 각각 다음 각 호에서 정하는 날에 해당 증권신고의 효력이 발생한다. 다만, 다음 각 호에서 정하는 날이 제1항 각 호에서 정하는 날 이전인 경우에는 제1항 각 호에 따른다. <span class="sfon">&lt;개정 2019. 10. 21.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 모집가액, 매출가액, 발행이자율 및 이와 관련된 사항의 변경으로 인하여 정정신고서를 제출하는 경우에는 그 정정신고서가 수리된 날부터 3일이 지난 날 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127147','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127141','JO','');" href="javascript:;">제182조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127181','JO','');" href="javascript:;">제1항</a>에 따라 등록된 사항을 변경하기 위하여 정정신고서를 제출하는 경우에는 그 정정신고서가 수리된 다음 날(집합투자기구만 해당한다) </p> 
+       <p class="pty1_de2_1">③ 금융위원회는 다음 각 호의 어느 하나에 해당하여 증권신고의 효력발생시기를 앞당길 필요가 있는 경우에는 제1항 각 호 및 제2항 각 호에 따른 기간을 단축하여 효력발생시기를 따로 정하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0012','00','010102','DEG','고시할 수 있다','590');">고시할 수 있다</a>. <span class="sfon">&lt;개정 2021. 12. 9.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 해당 증권신고서의 내용이 이미 일반인에게 널리 알려져 있거나 쉽게 이해될 수 있을 것 </p> 
+       <p class="pty1_de2h">2. 해당 증권의 발행인이 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127175','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127163','JO','');" href="javascript:;">제119조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127165','JO','');" href="javascript:;">제1항</a> 각 호의 어느 하나에 해당하는 법률에 따라 직접 설립되었거나 국가ㆍ지방자치단체로부터 업무감독을 받는 자 또는 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0012','00','010102','DEG','금융위원회가 정하여 고시하는','3757');">금융위원회가 정하여 고시하는</a> 국제기구 또는 단체로서 이미 일반인에게 그 공공성을 널리 인정받고 있을 것 </p> 
+       <p class="pty1_de2h">3. 그 밖에 투자자 보호 또는 건전한 거래질서 유지를 위해 증권신고의 효력발생시기를 단축할 필요가 있다고 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0012','00','010102','DEG','금융위원회가 정하여 고시하는','24363');">금융위원회가 정하여 고시하는</a> 경우 </p> 
+       <p class="pty1_de2_1">④ 금융위원회는 증권의 발행인이 다음 각 호의 어느 하나에 해당하여 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127187','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127145','JO','');" href="javascript:;">제120조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127137','JO','');" href="javascript:;">제1항</a>에 따른 증권신고(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127171','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127157','JO','');" href="javascript:;">제122조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127159','JO','');" href="javascript:;">제1항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127195','JO','');" href="javascript:;">제3항</a>에 따른 정정신고를 포함한다)의 효력발생시기를 투자자 보호 또는 건전한 거래질서를 위하여 연장할 필요가 있는 경우에는 제1항 각 호 및 제2항 각 호에 따른 기간에서 3일을 연장할 수 있다. 다만, 제1항제1호가목ㆍ나목 또는 라목에 해당하는 채무증권을 모집 또는 매출하는 경우와 주권비상장법인이 증권시장에 상장하기 위하여 지분증권을 모집 또는 매출하는 경우에는 그러하지 아니하다. <span class="sfon">&lt;신설 2012. 3. 2., 2018. 11. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 최근 사업연도의 재무제표에 대한 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127179','ALLJO','');" href="javascript:;">「주식회사 등의 외부감사에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127207','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127191','JO','');" href="javascript:;">제7호</a>에 따른 감사인의 감사의견이 적정의견이 아닌 경우 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127197','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127151','JO','');" href="javascript:;">제159조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127189','JO','');" href="javascript:;">제1항</a> 본문에 따른 사업보고서 제출대상법인(이하 “사업보고서 제출대상법인”이라 한다)이 제출한 최근 사업연도의 사업보고서 또는 반기ㆍ분기보고서상 자본금 전액이 잠식된 경우 </p> 
+       <p class="pty1_de2h">3. 사업보고서 제출대상법인이 사업보고서, 반기보고서 또는 분기보고서를 법정기한 내에 제출하지 아니한 경우 </p> 
+       <p class="pty1_de2h">4. 그 밖에 투자자 보호 또는 건전한 거래질서를 위하여 증권신고의 효력발생시기를 연장할 필요가 있다고 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('271489','0012','00','010102','NOT','금융위원회가 정하여 고시하는','37343');">금융위원회가 정하여 고시하는</a> 경우 </p> 
+       <p class="pty1_de2_1">⑤ 제1항부터 제4항까지의 규정에 따른 기간에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127193','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127149','JO','');" href="javascript:;">제153조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127185','JO','');" href="javascript:;">제1항</a> 각 호에 해당하는 날을 산입하지 아니한다. 다만, 집합투자증권의 경우에는 그러하지 아니하다. <span class="sfon">&lt;신설 2012. 3. 2.&gt;</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('001200', '271489', '0012', '00', '010102')"><img id="delegatedAdmRul_img_001200" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_001200" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J13:0" id="J13:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0013', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0013', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="13:0:001300:93320685" /> <span class="bl"><label for="Y001300"> 제13조(투자설명서의 비치ㆍ공람 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126383','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126385','JO','');" href="javascript:;">제123조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126397','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127209','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127211','JO','');" href="javascript:;">제3항</a> 각 호 외의 부분 본문에서 “총리령으로 정하는 장소”란 각각 다음 각 호의 장소를 말한다. </p>
+       <p class="pty1_de2h">1. 해당 증권의 발행인의 본점 </p> 
+       <p class="pty1_de2h">2. 금융위원회 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126393','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126395','JO','');" href="javascript:;">제373조</a>에 따라 설립된 한국거래소(이하 “거래소”라 한다) </p> 
+       <p class="pty1_de2h">4. 청약사무를 취급하는 장소 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126399','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126387','JO','');" href="javascript:;">제123조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126389','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126391','JO','');" href="javascript:;">제1호</a>에서 “총리령으로 정하는 기간”이란 1년을 말한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J14:0" id="J14:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0014', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320687', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0014', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="14:0:001400:93320687" /> <span class="bl"><label for="Y001400"> 제14조(공개매수대상 주식등의 수의 산정방법) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126417','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126413','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126415','JO','');" href="javascript:;">제1항</a>에 따른 주식등(이하 “주식등”이라 한다)의 공개매수 여부를 판단할 때 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126407','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126409','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126411','JO','');" href="javascript:;">제3항</a>에 따른 주식등의 수는 다음 각 호의 구분에 따라 계산한 수로 한다. </p>
+       <p class="pty1_de2h">1. 주권인 경우：그 주식의 수 </p> 
+       <p class="pty1_de2h">2. 신주인수권이 표시된 것인 경우：신주인수권의 목적인 주식의 수(신주인수권의 목적인 주식의 발행가액총액 및 발행가격이 표시되어 있는 경우에는 해당 발행가액총액을 해당 발행가격으로 나누어 얻은 수를 말한다) </p> 
+       <p class="pty1_de2h">3. 전환사채권인 경우：권면액을 전환에 의하여 발행할 주식의 발행가격으로 나누어 얻은 수. 이 경우 1 미만의 단수는 계산하지 아니한다. </p> 
+       <p class="pty1_de2h">4. 신주인수권부사채권인 경우：신주인수권의 목적인 주식의 수 </p> 
+       <p class="pty1_de2h">5. 교환사채권인 경우：다음 각 목의 어느 하나에 해당하는 수 </p> 
+       <p class="pty1_de3">가. 교환대상 증권이 제1호부터 제4호까지, 제6호 및 제7호에 따른 증권인 경우에는 교환대상 증권별로 제1호부터 제4호까지, 제6호 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 교환대상 증권이 교환사채권인 경우에는 교환대상이 되는 교환사채권을 기준으로 하여 교환대상 증권별로 제1호부터 제4호까지, 제6호 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">6. 파생결합증권인 경우：다음 각 목의 어느 하나에 해당하는 수 </p> 
+       <p class="pty1_de3">가. 기초자산이 되는 증권이 제1호부터 제5호까지 및 제7호에 따른 증권인 경우에는 기초자산이 되는 증권별로 제1호부터 제5호까지 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 기초자산이 되는 증권이 파생결합증권인 경우에는 기초자산이 되는 파생결합증권을 기준으로 하여 기초자산이 되는 증권별로 제1호부터 제5호까지 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">7. 증권예탁증권인 경우：그 기초가 되는 증권별로 제1호부터 제6호까지에서 정하는 수 </p> 
+       <p class="pty1_de2_1">② 주식등의 공개매수 여부를 판단할 때 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126401','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126403','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126405','JO','');" href="javascript:;">제3항</a>에 따른 주식등의 총수는 의결권 있는 발행주식 총수(자기주식을 포함한다)와 해당 매수등(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126871','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126875','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126873','JO','');" href="javascript:;">제2항</a>에 따른 매수등을 말한다. 이하 같다)을 한 후에 본인과 그 특별관계자(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126401','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126403','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126405','JO','');" href="javascript:;">제3항</a>에 따른 특별관계자를 말한다. 이하 같다)가 보유(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126401','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126403','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126405','JO','');" href="javascript:;">제3항</a>에 따른 보유를 말한다. 이하 같다)하는 주식등[주권, 교환사채권의 교환대상이 되는 주권, 파생결합증권의 기초자산이 되는 주권 및 증권예탁증권의 기초가 되는 주권은 제외한다]의 수를 합하여 계산한 수로 한다. <span class="sfon">&lt;개정 2017. 3. 31.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 주식매수선택권을 부여받은 경우에는 제1항에 따른 주식등의 수와 제2항에 따른 주식등의 총수에 해당 주식매수선택권의 행사에 따라 매수할 의결권 있는 주식을 각각 더한다. 다만, 자기주식을 대상으로 하는 주식매수선택권의 경우에는 제2항에 따른 주식등의 총수에 더하지 아니한다. <span class="sfon">&lt;개정 2017. 3. 31.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J15:0" id="J15:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0015', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0015', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="15:0:001500:93320689" /> <span class="bl"><label for="Y001500"> 제15조(정정신고서의 제출) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126419','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126421','JO','');" href="javascript:;">제136조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126423','JO','');" href="javascript:;">제3항</a> 본문에서 “총리령으로 정하는 경우”란 다음 각 호의 어느 하나에 해당하는 경우를 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126425','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126427','JO','');" href="javascript:;">제134조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126429','JO','');" href="javascript:;">제2항</a>에 따른 공개매수신고서(이하 “공개매수신고서”라 한다)의 기재나 표시내용이 불분명하여 그 공개매수신고서를 이용하는 자로 하여금 중대한 오해를 일으킬 수 있는 내용이 있는 경우 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126431','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126433','JO','');" href="javascript:;">제134조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126435','JO','');" href="javascript:;">제2항</a>에 따른 공개매수자(이하 “공개매수자”라 한다)에게 불리한 정보를 생략하거나 유리한 정보만을 강조하는 등 과장되게 표현된 경우 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J16:0" id="J16:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0016', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0016', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="16:0:001600:93320691" /> <span class="bl"><label for="Y001600"> 제16조(공개매수설명서) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126443','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126445','JO','');" href="javascript:;">제137조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126447','JO','');" href="javascript:;">제1항</a> 전단에서 “총리령으로 정하는 장소”란 다음 각 호의 장소를 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126437','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126439','JO','');" href="javascript:;">제133조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126441','JO','');" href="javascript:;">제2항</a>에 따른 공개매수사무취급자의 본점과 지점, 그 밖의 영업소 </p> 
+       <p class="pty1_de2h">2. 금융위원회 </p> 
+       <p class="pty1_de2h">3. 거래소 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J17:0" id="J17:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0017', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320693', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0017', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:0:001700:93320693" /> <span class="bl"><label for="Y001700"> 제17조(대량보유 주식등의 수의 산정방법) </label> </span> ① 주식등의 대량보유 여부를 판단할 때 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126459','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126449','JO','');" href="javascript:;">제147조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126451','JO','');" href="javascript:;">제1항</a>에 따른 주식등의 수는 다음 각 호의 구분에 따라 계산한 수로 한다. </p>
+       <p class="pty1_de2h">1. 주권인 경우：그 주식의 수 </p> 
+       <p class="pty1_de2h">2. 신주인수권이 표시된 것인 경우：신주인수권의 목적인 주식의 수(신주인수권의 목적인 주식의 발행가액총액 및 발행가격이 표시되어 있는 경우에는 해당 발행가액총액을 해당 발행가격으로 나누어 얻은 수를 말한다) </p> 
+       <p class="pty1_de2h">3. 전환사채권인 경우：권면액을 전환에 의하여 발행할 주식의 발행가격으로 나누어 얻은 수. 이 경우 1 미만의 단수는 계산하지 아니한다. </p> 
+       <p class="pty1_de2h">4. 신주인수권부사채권인 경우：신주인수권의 목적인 주식의 수 </p> 
+       <p class="pty1_de2h">5. 교환사채권인 경우：다음 각 목의 어느 하나에 해당하는 수 </p> 
+       <p class="pty1_de3">가. 교환대상 증권이 제1호부터 제4호까지, 제6호 및 제7호에 따른 증권인 경우에는 교환대상 증권별로 제1호부터 제4호까지, 제6호 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 교환대상 증권이 교환사채권인 경우에는 교환대상이 되는 교환사채권을 기준으로 하여 교환대상 증권별로 제1호부터 제4호까지, 제6호 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">6. 파생결합증권인 경우：다음 각 목의 어느 하나에 해당하는 수 </p> 
+       <p class="pty1_de3">가. 기초자산이 되는 증권이 제1호부터 제5호까지 및 제7호에 따른 증권인 경우에는 기초자산이 되는 증권별로 제1호부터 제5호까지 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 기초자산이 되는 증권이 파생결합증권인 경우에는 기초자산이 되는 파생결합증권을 기준으로 하여 기초자산이 되는 증권별로 제1호부터 제5호까지 및 제7호에서 정하는 수 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">7. 증권예탁증권인 경우：그 기초가 되는 증권별로 제1호부터 제6호까지에서 정하는 수 </p> 
+       <p class="pty1_de2_1">② 주식등의 대량보유 여부를 판단할 때 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126453','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126455','JO','');" href="javascript:;">제147조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126457','JO','');" href="javascript:;">제1항</a>에 따른 주식등의 총수는 의결권 있는 발행주식 총수(자기주식을 포함한다)와 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126453','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126455','JO','');" href="javascript:;">제147조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126457','JO','');" href="javascript:;">제1항</a>에 따른 대량보유를 하게 된 날에 본인과 그 특별관계자가 보유하는 주식등[주권, 교환사채권의 교환대상이 되는 주권, 파생결합증권의 기초자산이 되는 주권 및 증권예탁증권의 기초가 되는 주권은 제외한다]의 수를 합하여 계산한 수로 한다. <span class="sfon">&lt;개정 2017. 3. 31.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 주식매수선택권을 부여받은 경우에는 제1항에 따른 주식등의 수와 제2항에 따른 주식등의 총수에 해당 주식매수선택권의 행사에 따라 매수할 의결권 있는 주식을 각각 더한다. 다만, 자기주식을 대상으로 하는 주식매수선택권의 경우에는 제2항에 따른 주식등의 총수에 더하지 아니한다. <span class="sfon">&lt;개정 2017. 3. 31.&gt;</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J18:0" id="J18:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0018', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="18:0:001800:93320695" /> <span class="bl"><label for="Y001800"> 제18조(위임장 용지 및 참고서류의 비치장소) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126461','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126463','JO','');" href="javascript:;">제153조</a>에서 “총리령으로 정하는 장소”란 다음 각 호의 장소를 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 주권상장법인의 본점과 지점, 그 밖의 영업소 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126465','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126467','JO','');" href="javascript:;">제365조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126469','JO','');" href="javascript:;">제1항</a>에 따라 등록을 한 명의개서대행회사 </p> 
+       <p class="pty1_de2h">3. 금융위원회 </p> 
+       <p class="pty1_de2h">4. 거래소 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J19:0" id="J19:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0019', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:0:001900:93320697" /> <span class="bl"><label for="Y001900"> 제19조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126483','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126485','JO','');" href="javascript:;">제182조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126487','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126477','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126479','JO','');" href="javascript:;">제182조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126481','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126471','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126473','JO','');" href="javascript:;">제182조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126475','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J20:0" id="J20:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0020', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0020', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="20:0:002000:93320699" /> <span class="bl"><label for="Y002000"> 제20조(서면의결 참고자료의 송부) </label> </span> ① 예탁결제원은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126489','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126499','JO','');" href="javascript:;">제220조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126491','JO','');" href="javascript:;">제3항</a>에 따라 수익자에게 다음 각 호의 자료를 보내야 한다. </p>
+       <p class="pty1_de2h">1. 수익자총회의 목적사항이 신탁계약 변경에 관한 사항인 경우에는 그 변경의 목적과 내용이 기재된 자료 </p> 
+       <p class="pty1_de2h">2. 수익자총회의 목적사항이 합병에 관한 사항인 경우에는 합병의 목적ㆍ경위와 합병계약서의 주요내용이 기재된 자료 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126493','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126495','JO','');" href="javascript:;">제193조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126497','JO','');" href="javascript:;">제4항</a> 각 호의 서류 </p> 
+       <p class="pty1_de2_1">② 제1항 각 호의 사항 중 이미 관보ㆍ신문 등에 공고된 내용에 대하여는 공고된 관보ㆍ신문의 명칭과 일자를 자료에 표기하는 방법으로 그 기재를 갈음할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J21:0" id="J21:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0021', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320701', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0021', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="21:0:002100:93320701" /> <span class="bl"><label for="Y002100"> 제21조(청산 재산목록 등의 작성기간) </label> </span> 청산인은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126907','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126909','JO','');" href="javascript:;">제203조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126905','JO','');" href="javascript:;">제1항</a>에 따라 재산목록과 재무상태표를 작성하여 청산인으로 취임한 날부터 15일 이내에 청산인회에 제출해야 한다. <span class="sfon">&lt;개정 2021. 10. 22.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="J22:0" id="J22:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0022', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0022', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="22:0:002200:93320703" /> <span class="bl"><label for="Y002200"> 제22조(상장지수집합투자기구의 상장폐지) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126501','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126503','JO','');" href="javascript:;">제250조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126505','JO','');" href="javascript:;">제3항</a> 전단에서 “총리령으로 정하는 기간”이란 10일을 말한다. </p> 
+      </div> 
+     </div> 
+     <a name="J23:0" id="J23:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0023', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="23:0:002300:93320705" /> <span class="bl"><label for="Y002300"> 제23조(환매청구방법) </label> </span> ① 투자자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126507','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126509','JO','');" href="javascript:;">제235조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126511','JO','');" href="javascript:;">제2항</a> 단서에 따라 집합투자업자 또는 그 집합투자업자가 해당 집합투자증권을 판매한 투자매매업자 또는 투자중개업자와 협의하여 결정한 다른 투자매매업자 또는 투자중개업자를 통하여 환매를 청구할 수 있다. </p>
+       <p class="pty1_de2_1">② 집합투자업자는 제1항에 따른 투자자의 환매청구에 응하는 데에 필요한 범위에서 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126513','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126515','JO','');" href="javascript:;">제235조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126517','JO','');" href="javascript:;">제2항</a>에 따른 해산등으로 인하여 환매청구에 응할 수 없는 투자매매업자 또는 투자중개업자의 인력, 전산설비 등의 물적 설비 및 투자자에 관한 정보 등을 사용할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J24:0" id="J24:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0024', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320707', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0024', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:0:002400:93320707" /> <span class="bl"><label for="Y002400"> 제24조(신탁업자의 확인 등) </label> </span> ① 신탁업자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126959','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126941','JO','');" href="javascript:;">제247조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126967','JO','');" href="javascript:;">제1항</a> 및 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126913','JO','');" href="javascript:;">제2항</a>에 따라 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126961','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126933','JO','');" href="javascript:;">제247조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126963','JO','');" href="javascript:;">제5항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126943','JO','');" href="javascript:;">제1호부터 제6호</a>까지 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126965','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126911','JO','');" href="javascript:;">제269조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126947','JO','');" href="javascript:;">제4항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126919','JO','');" href="javascript:;">제2호</a>의 사항에 대해서는 지체 없이, <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126925','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126957','JO','');" href="javascript:;">제269조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126931','JO','');" href="javascript:;">제4항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126939','JO','');" href="javascript:;">제1호</a>의 사항에 대해서는 매분기 말일을 기준으로 확인해야 하며, 확인 결과 법령 등에 위반된 사실이 있을 때에는 집합투자업자(투자회사의 법인이사인 집합투자업자는 제외한다)에 대하여 그 위반의 시정을 요구하거나 투자회사의 감독이사에게 그 위반의 사실을 지체 없이 보고해야 한다. <span class="sfon">&lt;개정 2021. 10. 22.&gt;</span> </p>
+       <p class="pty1_de2_1">② 신탁업자는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126923','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126953','JO','');" href="javascript:;">제247조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126929','JO','');" href="javascript:;">제5항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126937','JO','');" href="javascript:;">제5호</a>에 따른 기준가격 산정이 적정한지를 확인할 때 투자신탁이나 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126945','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126921','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126949','JO','');" href="javascript:;">제18항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126927','JO','');" href="javascript:;">제6호</a>에 따른 투자익명조합의 집합투자업자 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126935','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126915','JO','');" href="javascript:;">제182조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126951','JO','');" href="javascript:;">제1항</a>에 따른 투자회사등이 산정한 기준가격과 신탁업자가 산정한 기준가격의 편차가 1,000분의 3 이내인 경우에는 그 기준가격이 적정하게 산정된 것으로 보며, 그 편차가 1,000분의 3을 초과하는 경우에는 지체 없이 집합투자업자(투자회사의 법인이사인 집합투자업자는 제외한다)에게 시정을 요구하거나 투자회사의 감독이사에게 보고하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 집합투자업자(투자회사의 법인이사인 집합투자업자는 제외한다) 또는 투자회사의 감독이사는 제2항에 따라 시정요구 또는 보고를 받은 경우에는 그 사실을 해당 집합투자증권을 판매한 투자매매업자 또는 투자중개업자를 통하여 투자자에게 개별통지(투자자가 전자우편을 통하여 받는다는 의사표시를 한 경우에는 전자우편을 통한 통지를 포함한다)하여야 하며, 집합투자업자, 투자매매업자ㆍ투자중개업자 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126917','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126955','JO','');" href="javascript:;">제283조</a>에 따라 설립된 한국금융투자협회의 인터넷 홈페이지 등을 이용하여 공시하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 집합투자업자(투자회사의 법인이사인 집합투자업자는 제외한다) 또는 투자회사의 감독이사는 제3항에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 투자매매업자 또는 투자중개업자를 통하여 투자자에게 개별통지하지 아니할 수 있다. </p> 
+       <p class="pty1_de2h">1. 투자자가 통지에 대하여 미리 거부의 의사표시를 한 경우 </p> 
+       <p class="pty1_de2h">2. 투자자가 그 집합투자기구의 집합투자증권에 대한 추가매수나 환매청구를 하지 아니한 경우 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J24:2" id="J24:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0024', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320709', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0024', '02', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002402" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:2:002402:93320709" /> <span class="bl"><label for="Y002402"> 제24조의2(등록검토기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127225','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127219','JO','');" href="javascript:;">제249조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127217','JO','');" href="javascript:;">제5항</a>에서 “등록신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2021. 10. 22., 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127227','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127235','JO','');" href="javascript:;">제249조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127229','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127237','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127213','JO','');" href="javascript:;">제249조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127233','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 일반 사모집합투자업 등록을 하려는 자, 일반 사모집합투자업 등록을 하려는 자의 대주주 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127241','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127245','JO','');" href="javascript:;">제249조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127239','JO','');" href="javascript:;">제2항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028127243','JO','');" href="javascript:;">제1호</a> 나목에 따른 외국 집합투자업자(이하 이 조에서 “외국 집합투자업자”라 한다)를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등(외국 집합투자업자인 경우에는 이들에 준하는 본국의 감독기관 등을 포함한다)에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 등록검토에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0024','02','010102','DEG','금융위원회가 정하여 고시하는','24341');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2015. 10. 23.]<br />[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('002402', '271489', '0024', '02', '010102')"><img id="delegatedAdmRul_img_002402" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_002402" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J24:3" id="J24:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0024', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002403" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:3:002403:93320711" /> <span class="bl"><label for="Y002403"> 제24조의3(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126531','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126533','JO','');" href="javascript:;">제249조의15</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126535','JO','');" href="javascript:;">제4항</a>에서 “등록신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126525','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126527','JO','');" href="javascript:;">제249조의15</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126529','JO','');" href="javascript:;">제1항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126519','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126521','JO','');" href="javascript:;">제249조의15</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126523','JO','');" href="javascript:;">제3항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 업무집행사원으로 등록하려는 자를 상대로 형사소송 절차가 진행되고 있고, 그 소송의 내용이 등록검토에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2015. 10. 23.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:0" id="J25:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0025', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:0:002500:93320713" /> <span class="bl"><label for="Y002500"> 제25조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126543','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126545','JO','');" href="javascript:;">제254조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126553','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126547','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126549','JO','');" href="javascript:;">제254조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126551','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126537','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126539','JO','');" href="javascript:;">제254조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126541','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J26:0" id="J26:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0026', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="26:0:002600:93320715" /> <span class="bl"><label for="Y002600"> 제26조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126567','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126569','JO','');" href="javascript:;">제258조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126571','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126561','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126563','JO','');" href="javascript:;">제258조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126565','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126555','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126557','JO','');" href="javascript:;">제258조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126559','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J27:0" id="J27:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0027', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0027', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="27:0:002700:93320717" /> <span class="bl"><label for="Y002700"> 제27조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126573','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126575','JO','');" href="javascript:;">제263조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126577','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126585','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126587','JO','');" href="javascript:;">제263조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126589','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126579','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126581','JO','');" href="javascript:;">제263조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126583','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J28:0" id="J28:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0028', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320719', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="28:0:002800:93320719" /> <span class="bl"><label for="Y002800"> 제28조(외국 집합투자증권 판매적격 요건) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126895','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126897','JO','');" href="javascript:;">제301조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126901','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126903','JO','');" href="javascript:;">제2호</a><a title="팝업으로 이동" class="link sfon5" onclick="javascript:fncLsLawPop('1028126899','JO','');" href="javascript:;">가목</a>에서 “총리령으로 정하는 국가”란 중화인민공화국을 말한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2021. 8. 11.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J28:2" id="J28:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0028', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320721', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002802" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="28:2:002802:93320721" /> <span class="bl"><label for="Y002802"> 제28조의2 </label> </span> <input type="hidden" id="delJo93320721" value="삭제" /> 삭제 <span class="sfon">&lt;2015. 10. 23.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="J29:0" id="J29:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0029', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0029', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="29:0:002900:93320723" /> <span class="bl"><label for="Y002900"> 제29조(예탁자계좌부의 기재사항) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126591','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126593','JO','');" href="javascript:;">제309조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126595','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126597','JO','');" href="javascript:;">제3호</a>에서 “총리령으로 정하는 사항”이란 다음 각 호의 사항을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126599','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126601','JO','');" href="javascript:;">제309조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126603','JO','');" href="javascript:;">제3항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126605','JO','');" href="javascript:;">제2호</a>에 따른 예탁증권등(이하 “예탁증권등”이라 한다) 수량의 증감원인 </p> 
+       <p class="pty1_de2h">2. 예탁증권등을 질권의 목적으로 하는 경우에는 질권자의 성명과 주소 </p> 
+       <p class="pty1_de2h">3. 예탁증권등이 신탁재산인 경우에는 신탁재산이라는 표시 </p> 
+       <p class="pty1_de2h">4. 예탁증권등의 처분이 제한되는 경우에는 그에 관한 사항 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J30:0" id="J30:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0030', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0030', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="30:0:003000:93320725" /> <span class="bl"><label for="Y003000"> 제30조(투자자계좌부의 기재사항) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126607','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126609','JO','');" href="javascript:;">제310조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126611','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126613','JO','');" href="javascript:;">제3호</a>에서 “총리령으로 정하는 사항”이란 다음 각 호의 사항을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 예탁증권등 수량의 증감원인 </p> 
+       <p class="pty1_de2h">2. 예탁증권등을 질권의 목적으로 하는 경우에는 질권자의 성명과 주소 </p> 
+       <p class="pty1_de2h">3. 예탁증권등이 신탁재산인 경우에는 신탁재산이라는 표시 </p> 
+       <p class="pty1_de2h">4. 예탁증권등의 처분이 제한되는 경우에는 그에 관한 사항 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J31:0" id="J31:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0031', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320727', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="31:0:003100:93320727" /> <span class="bl"><label for="Y003100"> 제31조(투자자예탁증권등 반환 등의 제한) </label> </span> ① 예탁결제원은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126615','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126617','JO','');" href="javascript:;">제312조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126619','JO','');" href="javascript:;">제3항</a>에 따라 투자자 예탁분의 반환 또는 계좌 간 대체를 제한하는 경우에는 그 내용을 미리 공고하여야 한다. <span class="sfon">&lt;개정 2013. 8. 29.&gt;</span> </p>
+       <p class="pty1_de2_1">② 예탁결제원은 금융위원회가 인정하는 경우에는 예탁증권등의 종류별로 투자자 예탁분의 반환 또는 계좌 간 대체를 제한할 수 있다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J32:0" id="J32:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0032', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="32:0:003200:93320729" /> <span class="bl"><label for="Y003200"> 제32조(실질주주증명서의 발행) </label> </span> ① 예탁결제원은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126621','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126623','JO','');" href="javascript:;">제318조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126625','JO','');" href="javascript:;">제1항</a>에 따라 실질주주증명서의 발행신청을 받은 경우에는 예탁자의 자기소유분에 대하여는 예탁자계좌부에 의하여, 투자자 예탁분에 대하여는 해당 예탁자가 예탁결제원에 통지한 투자자계좌부에 의하여 실질주주증명서를 발행하여야 한다. </p>
+       <p class="pty1_de2_1">② 제1항에 따른 실질주주증명서에는 다음 각 호의 사항을 기재하여야 한다. </p> 
+       <p class="pty1_de2h">1. 실질주주의 성명이나 명칭과 주소 </p> 
+       <p class="pty1_de2h">2. 소유주식의 종류와 수 </p> 
+       <p class="pty1_de2h">3. 행사하려는 주주권의 내용 </p> 
+       <p class="pty1_de2h">4. 주주권 행사기간 </p> 
+       <p class="pty1_de2_1">③ 예탁결제원이 실질주주증명서를 발행하는 경우에는 제2항제4호에 따른 주주권 행사기간 동안 해당 주식의 처분이 제한된다는 뜻을 예탁자의 자기소유분에 대하여는 예탁결제원이 해당 예탁자의 예탁자계좌부상에, 투자자 예탁분에 대하여는 예탁자가 해당 투자자의 투자자계좌부상에 각각 표시하여야 하며, 그 주주권 행사기간 만료 전에 실질주주증명서를 반환하는 때에는 처분이 제한된다는 뜻의 표시를 말소하여야 한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J33:0" id="J33:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0033', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="33:0:003300:93320731" /> <span class="bl"><label for="Y003300"> 제33조(실질수익자증명서의 발행) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126627','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126629','JO','');" href="javascript:;">제319조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126631','JO','');" href="javascript:;">제8항</a>에 따른 실질수익자증명서의 발행에 관하여는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126633','JO','');" href="javascript:;">제32조</a>를 준용한다. 이 경우 “실질주주증명서”는 “실질수익자증명서”로, “실질주주”는 “실질수익자”로, “주식”은 “투자신탁의 수익증권”으로, “주주권”은 “투자신탁의 수익권”으로 본다. </p> 
+      </div> 
+     </div> 
+     <a name="J34:0" id="J34:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0034', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0034', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="34:0:003400:93320733" /> <span class="bl"><label for="Y003400"> 제34조(예탁결제원에 대한 통지사항) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126635','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126637','JO','');" href="javascript:;">제323조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126639','JO','');" href="javascript:;">제1항</a>에서 “총리령으로 정하는 사항”이란 다음 각 호의 사항을 말한다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126647','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126649','JO','');" href="javascript:;">제294조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126651','JO','');" href="javascript:;">제1항</a>에 따른 증권등(이하 이 조에서 “증권등”이라 한다)의 발행 회차, 권종 및 번호 </p> 
+       <p class="pty1_de2h">2. 발행가액총액 </p> 
+       <p class="pty1_de2h">3. 발행 조건 </p> 
+       <p class="pty1_de2h">4. 제1호부터 제3호까지에서 규정한 사항 외에 증권등의 발행 정보와 관련하여 예탁결제원이 필요하다고 인정하여 요청하는 사항 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126641','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126643','JO','');" href="javascript:;">제323조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126645','JO','');" href="javascript:;">제2항</a>에서 “총리령으로 정하는 사항”이란 다음 각 호의 사항을 말한다. </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126653','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126655','JO','');" href="javascript:;">제323조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126657','JO','');" href="javascript:;">제2항</a>에 따른 사고신고(이하 이 항에서 “사고신고”라 한다)가 접수된 증권등의 발행 회차, 권종 및 번호 </p> 
+       <p class="pty1_de2h">2. 사고신고를 한 자의 성명 및 주소 </p> 
+       <p class="pty1_de2h">3. 제1호 및 제2호에서 규정한 사항 외에 증권등의 사고정보와 관련하여 예탁결제원이 필요하다고 인정하여 요청하는 사항 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J34:2" id="J34:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0034', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003402" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="34:2:003402:93320735" /> <span class="bl"><label for="Y003402"> 제34조의2(인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126671','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126673','JO','');" href="javascript:;">제323조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126675','JO','');" href="javascript:;">제3항</a>에서 “인가신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126665','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126667','JO','');" href="javascript:;">제323조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126669','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126659','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126661','JO','');" href="javascript:;">제323조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126663','JO','');" href="javascript:;">제2항</a> 후단에 따라 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 금융투자상품거래청산업인가를 받으려는 자, 금융투자상품거래청산업인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 7. 5.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J34:3" id="J34:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0034', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003403" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="34:3:003403:93320737" /> <span class="bl"><label for="Y003403"> 제34조의3(예비인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126683','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126693','JO','');" href="javascript:;">제323조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126685','JO','');" href="javascript:;">제3항</a>에서 “예비인가신청과 관련된 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126677','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126679','JO','');" href="javascript:;">제323조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126681','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126687','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126689','JO','');" href="javascript:;">제323조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126691','JO','');" href="javascript:;">제2항</a> 후단에 따라 예비인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 예비인가를 받으려는 자, 예비인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 예비인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 7. 5.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J34:4" id="J34:4"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0034', '04' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('271489', '010820', '0034', '04');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003404" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="34:4:003404:93320739" /> <span class="bl"><label for="Y003404"> 제34조의4(금융투자상품거래청산회사의 보고사항) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126695','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126697','JO','');" href="javascript:;">제318조의9</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126699','JO','');" href="javascript:;">제4항</a>에서 “총리령으로 정하는 사항”이란 다음 각 호의 어느 하나에 해당하는 사항을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 청산대상업자(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126891','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126877','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126893','JO','');" href="javascript:;">제25항</a>에 따른 청산대상업자를 말한다. 이하 같다)가 금융투자상품거래청산회사(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126885','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126881','JO','');" href="javascript:;">제323조의3</a>에 따라 금융투자상품거래청산업의 인가를 받은 자를 말한다)에 결제를 이행하지 아니한 사항 </p> 
+       <p class="pty1_de2h">2. 청산대상업자가 청산업무규정(<a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126883','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126887','JO','');" href="javascript:;">제323조의11</a>에 따른 청산업무규정을 말한다. 이하 같다)에서 정하는 청산증거금 또는 손해배상공동기금을 납부하지 아니한 사항 </p> 
+       <p class="pty1_de2h">3. 청산대상업자의 재무상태가 청산업무규정에서 정하는 청산대상업자의 가입요건 또는 유지요건에 미달하게 된 사항 </p> 
+       <p class="pty1_de2h">4. 청산대상업자가 청산업무규정에서 정하는 미결제약정의 보유한도를 위반한 사항 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 7. 5.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J34:5" id="J34:5"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0034', '05' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003405" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="34:5:003405:93320741" /> <span class="bl"><label for="Y003405"> 제34조의5(주식소유 제한의 예외) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126701','ALLJO','');" href="javascript:;">영</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126703','JO','');" href="javascript:;">제318조의10</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1028126705','JO','');" href="javascript:;">제4호</a>에서 “총리령으로 정하는 금융기관 또는 금융투자업관계기관”이란 다음 각 호의 어느 하나에 해당하는 기관을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 예탁결제원 </p> 
+       <p class="pty1_de2h">2. 증권금융회사 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 7. 5.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J35:0" id="J35:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0035', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="35:0:003500:93320743" /> <span class="bl"><label for="Y003500"> 제35조(인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126707','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126709','JO','');" href="javascript:;">제324조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126711','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126717','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126719','JO','');" href="javascript:;">제324조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126721','JO','');" href="javascript:;">제1항</a>에 따른 인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송 또는 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126723','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126725','JO','');" href="javascript:;">제324조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126727','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126713','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126715','JO','');" href="javascript:;">제324조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126729','JO','');" href="javascript:;">제4항</a> 후단에 따른 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J36:0" id="J36:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0036', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="36:0:003600:93320745" /> <span class="bl"><label for="Y003600"> 제36조(금융투자업자 자금의 예탁 등) </label> </span> ① <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126741','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126743','JO','');" href="javascript:;">제330조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126745','JO','');" href="javascript:;">제1항</a>에서 “총리령으로 정하는 자”란 다음 각 호의 자를 말한다. </p>
+       <p class="pty1_de2h">1. 국가 또는 지방자치단체 </p> 
+       <p class="pty1_de2h">2. 법률에 따라 설립된 기금 및 그 기금을 관리ㆍ운용하는 법인 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126731','ALLJO','');" href="javascript:;">「보험업법」</a>에 따른 보험회사(이하 “보험회사”라 한다) </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126739','ALLJO','');" href="javascript:;">「근로자복지기본법」</a>에 따른 우리사주조합 </p> 
+       <p class="pty1_de2h">5. 금융투자업자에 거래 계좌를 개설한 자 </p> 
+       <p class="pty1_de2_1">② <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126733','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126735','JO','');" href="javascript:;">제330조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126737','JO','');" href="javascript:;">제2항</a>에서 “총리령으로 정하는 방법”이란 1년 이내에 만기가 도래하는 어음을 발행하는 방법을 말한다. </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J36:2" id="J36:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0036', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003602" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="36:2:003602:93320747" /> <span class="bl"><label for="Y003602"> 제36조의2(인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126763','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126753','JO','');" href="javascript:;">제335조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126755','JO','');" href="javascript:;">제3항</a>에서 “인가신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126757','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126759','JO','');" href="javascript:;">제335조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126761','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126747','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126749','JO','');" href="javascript:;">제335조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126751','JO','');" href="javascript:;">제2항</a> 후단에 따라 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 신용평가업인가를 받으려는 자 또는 신용평가업인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J36:3" id="J36:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0036', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003603" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="36:3:003603:93320749" /> <span class="bl"><label for="Y003603"> 제36조의3(예비인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126779','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126769','JO','');" href="javascript:;">제335조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126771','JO','');" href="javascript:;">제3항</a>에서 “예비인가신청과 관련된 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126765','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126777','JO','');" href="javascript:;">제335조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126767','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126773','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126775','JO','');" href="javascript:;">제335조의5</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126781','JO','');" href="javascript:;">제2항</a> 후단에 따라 예비인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 예비인가를 받으려는 자 또는 예비인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 예비인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J37:0" id="J37:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0037', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="37:0:003700:93320751" /> <span class="bl"><label for="Y003700"> 제37조(인가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126805','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126783','JO','');" href="javascript:;">제355조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126785','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126787','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126789','JO','');" href="javascript:;">제355조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126791','JO','');" href="javascript:;">제1항</a>에 따른 인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송 또는 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126799','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126803','JO','');" href="javascript:;">제355조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126801','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126793','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126795','JO','');" href="javascript:;">제355조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126797','JO','');" href="javascript:;">제4항</a> 후단에 따른 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J38:0" id="J38:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0038', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '010820', '271489', '93320753', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('271489', '0038', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="38:0:003800:93320753" /> <span class="bl"><label for="Y003800"> 제38조(인가심사기간에 넣지 않는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127259','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127255','JO','');" href="javascript:;">제360조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127261','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. <span class="sfon">&lt;개정 2021. 12. 9.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127265','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127251','JO','');" href="javascript:;">제360조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127253','JO','');" href="javascript:;">제1항</a>에 따른 인가를 받으려는 자 또는 그 인가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 인가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 소송이나 조사ㆍ검사 등과 관련하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('271489','0038','00','010102','DEG','금융위원회가 정하여 고시하는','24345');">금융위원회가 정하여 고시하는</a> 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127257','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127247','JO','');" href="javascript:;">제360조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127269','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028127249','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028127267','JO','');" href="javascript:;">제360조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028127263','JO','');" href="javascript:;">제4항</a> 후단에 따른 인가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[제목개정 2021. 12. 9.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('003800', '271489', '0038', '00', '010102')"><img id="delegatedAdmRul_img_003800" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_003800" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J39:0" id="J39:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0039', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="39:0:003900:93320755" /> <span class="bl"><label for="Y003900"> 제39조(등록검토기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126807','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126809','JO','');" href="javascript:;">제365조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126811','JO','');" href="javascript:;">제5항</a>에서 “총리령으로 정하는 기간”이란 다음 각 호의 어느 하나에 해당하는 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126813','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126815','JO','');" href="javascript:;">제365조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126817','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126819','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126821','JO','');" href="javascript:;">제365조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126823','JO','');" href="javascript:;">제4항</a> 후단에 따른 등록신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J40:0" id="J40:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0040', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y004000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="40:0:004000:93320757" /> <span class="bl"><label for="Y004000"> 제40조(허가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126839','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126825','JO','');" href="javascript:;">제373조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126827','JO','');" href="javascript:;">제3항</a>에서 “허가신청서 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126841','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126835','JO','');" href="javascript:;">제373조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126837','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126829','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126831','JO','');" href="javascript:;">제373조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126833','JO','');" href="javascript:;">제2항</a> 후단에 따라 허가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 거래소허가를 받으려는 자 또는 거래소허가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 허가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J41:0" id="J41:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('271489', '0041', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y004100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="41:0:004100:93320759" /> <span class="bl"><label for="Y004100"> 제41조(예비허가심사기간에 넣지 아니하는 기간) </label> </span> <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126851','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126853','JO','');" href="javascript:;">제373조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126855','JO','');" href="javascript:;">제3항</a>에서 “예비허가신청과 관련된 흠결의 보완기간 등 총리령으로 정하는 기간”이란 다음 각 호의 기간을 말한다. </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126843','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126845','JO','');" href="javascript:;">제373조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126847','JO','');" href="javascript:;">제2항</a> 각 호의 요건을 충족하는지를 확인하기 위하여 다른 기관 등으로부터 필요한 자료를 제공받는 데에 걸리는 기간 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1028126849','ALLJO','');" href="javascript:;">법</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1028126859','JO','');" href="javascript:;">제373조의4</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1028126857','JO','');" href="javascript:;">제2항</a> 후단에 따라 예비허가신청서 흠결의 보완을 요구한 경우에는 그 보완기간 </p> 
+       <p class="pty1_de2h">3. 예비허가를 받으려는 자 또는 예비허가를 받으려는 자의 대주주를 상대로 형사소송 절차가 진행되고 있거나 금융위원회, 공정거래위원회, 국세청, 검찰청 또는 금융감독원 등에 의한 조사ㆍ검사 등의 절차가 진행되고 있고, 그 소송이나 조사ㆍ검사 등의 내용이 예비허가심사에 중대한 영향을 미칠 수 있다고 인정되는 경우에는 그 소송이나 조사ㆍ검사 등의 절차가 끝날 때까지의 기간 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2013. 8. 29.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <!-- 조문정보 --> 
+     <!-- 부칙 영역 끝 --> 
+     <br /> 
+     <div id="arDivArea"> 
+      <a name="arArea"></a> 
+      <a name="J11669583" id="J11669583"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar11669583','<총리령 제885호, 2008. 8. 4.>'); return false;" href="#AJAX"> <img id="ar11669583btn" style="vertical-align: middle;" alt="부칙 <총리령 제885호, 2008. 8. 4.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk11669583" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제885호, 2008. 8. 4.>체크박스 " value="11669583" /> <a class="nun" onclick="javascript:arView('ar11669583','<총리령 제885호, 2008. 8. 4.>'); return false;" href="#AJAX"> <label for="chk11669583"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제885호, 2008. 8. 4.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar11669583','<총리령 제885호, 2008. 8. 4.>');return false;" href="#AJAX"> <img id="ar11669583MrBtn" style="vertical-align: middle;" alt="부칙 <총리령 제885호, 2008. 8. 4.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 규칙은 2009년 2월 4일부터 시행한다.</p>
+       <div id="ar11669583">
+        <p class="pty3_dep1"><span class="bl">제2조(폐지법령)</span> 다음 각 호의 법령을 각각 폐지한다.</p>
+        <p class="pty3_dep2"> 1. 「증권거래법 시행규칙」</p>
+        <p class="pty3_dep2"> 2. 「선물거래법 시행규칙」</p>
+        <p class="pty3_dep2"> 3. 「간접투자자산 운용업법 시행규칙」</p>
+        <p class="pty3_dep1"><span class="bl">제3조(일반적 경과조치)</span> ① 이 규칙 시행 당시 종전의 「증권거래법 시행규칙」, 종전의 「선물거래법 시행규칙」, 종전의 「간접투자자산 운용업법 시행규칙」에 따라 금융위원회, 증권선물위원회 또는 금융감독원장이 행한 승인, 그 밖의 행위는 이 규칙에 따라 금융위원회, 증권선물위원회 또는 금융감독원장이 행한 행위로 본다.</p>
+        <p class="pty3_dep2"> ② 이 규칙 시행 당시 종전의 「증권거래법 시행규칙」, 종전의 「선물거래법 시행규칙」, 종전의 「간접투자자산 운용업법 시행규칙」에 따라 금융위원회, 증권선물위원회 또는 금융감독원장에 대하여 행한 보고, 그 밖의 행위는 이 규칙에 따라 금융위원회, 증권선물위원회 또는 금융감독원장에 대하여 행한 행위로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조(간접투자기구 등에 관한 경과조치)</span> ① 이 규칙 시행 당시 종전의 「간접투자자산 운용업법」에 따라 설정 또는 설립된 투자신탁(보험회사가 설정한 특별계정은 제외한다) 및 투자회사에 대하여는 종전의 「간접투자자산 운용업법 시행규칙」에 따른다.</p>
+        <p class="pty3_dep2"> ② 이 규칙 시행 당시 종전의 「간접투자자산 운용업법」에 따라 금융위원회에 신고된 외국간접투자증권에 관하여는 종전의 「간접투자자산 운용업법 시행규칙」에 따른다.</p>
+        <p class="pty3_dep2"> ③ 재정경제부령 제374호 간접투자자산운용업법시행규칙 부칙 제2조 단서에 따른 증권투자신탁및 증권투자회사에 대하여는 종전의 「증권투자신탁업법 시행규칙」 또는 종전의 「증권투자회사법 시행규칙」에 따른다.</p>
+        <p class="pty3_dep1"><span class="bl">제5조(다른 법령의 개정)</span> ① 보험업법 시행규칙 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제37조제1호 중 “「증권거래법」”을 “「자본시장과 금융투자업에 관한 법률」”로 한다.</p>
+        <p class="pty3_dep2"> ② 신용정보의 이용 및 보호에 관한 법률 시행규칙 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제5항제5호 중 “「간접투자자산 운용업법」 제155조의 규정에 의한”을 “「자본시장과 금융투자업에 관한 법률」 제263조에 따른”으로 한다.</p>
+        <p class="pty3_dep2"> ③ 여신전문금융업법 시행규칙 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제8조제1항제2호 및 제3호 중 “한국증권거래소”를 각각 “한국거래소”로 한다.</p>
+        <p class="pty3_dep2"> ④ 화재로인한재해보상과보험가입에관한법률시행규칙 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조의2제1항제2호 중 “증권거래법에 의한”을 “「자본시장과 금융투자업에 관한 법률」에 따른”으로 한다.</p>
+        <p class="pty3_dep1"><span class="bl">제6조(다른 법령과의 관계)</span> 이 규칙 시행 당시 다른 법령에서 종전의 「증권거래법 시행규칙」, 종전의 「선물거래법 시행규칙」, 종전의 「간접투자자산 운용업법 시행규칙」 또는 그 규정을 인용하고 있는 경우에는 이 규칙 중 그에 해당하는 규정이 있는 때에는 종전의 규정을 갈음하여 이 규칙 또는 이 규칙의 해당 규정을 인용한 것으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J11669585" id="J11669585"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669585btn" style="vertical-align: middle;" alt="부칙<총리령 제949호, 2011. 2. 7.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669585" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제949호, 2011. 2. 7.>체크박스 " value="11669585" /> <a class="nun" onclick="javascript:arView('ar11669585','<총리령 제949호, 2011. 2. 7.>'); return false;" href="#AJAX"> <label for="chk11669585"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제949호, 2011. 2. 7.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다. 다만, 제6조제1항제1호 단서의 개정규정은 2013년 4월 1일부터 시행한다.</p> 
+      </div> 
+      <a name="J11669587" id="J11669587"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar11669587','<총리령 제973호, 2012. 3. 2.>'); return false;" href="#AJAX"> <img id="ar11669587btn" style="vertical-align: middle;" alt="부칙 <총리령 제973호, 2012. 3. 2.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk11669587" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제973호, 2012. 3. 2.>체크박스 " value="11669587" /> <a class="nun" onclick="javascript:arView('ar11669587','<총리령 제973호, 2012. 3. 2.>'); return false;" href="#AJAX"> <label for="chk11669587"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제973호, 2012. 3. 2.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar11669587','<총리령 제973호, 2012. 3. 2.>');return false;" href="#AJAX"> <img id="ar11669587MrBtn" style="vertical-align: middle;" alt="부칙 <총리령 제973호, 2012. 3. 2.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 규칙은 공포한 날부터 시행한다.</p>
+       <div id="ar11669587">
+        <p class="pty3_dep1"><span class="bl">제2조(증권신고의 효력발생기간 연장 등에 관한 적용례)</span> 제12조제4항 및 제5항의 개정규정은 이 규칙 시행 후 최초의 증권신고(법 제122조제1항 또는 제3항에 따른 정정신고를 포함한다)부터 적용한다.</p>
+       </div> 
+      </div> 
+      <a name="J11669589" id="J11669589"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669589btn" style="vertical-align: middle;" alt="부칙<총리령 제1028호, 2013. 7. 5.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669589" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1028호, 2013. 7. 5.>체크박스 " value="11669589" /> <a class="nun" onclick="javascript:arView('ar11669589','<총리령 제1028호, 2013. 7. 5.>'); return false;" href="#AJAX"> <label for="chk11669589"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1028호, 2013. 7. 5.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 2013년 7월 6일부터 시행한다.</p> 
+      </div> 
+      <a name="J11669591" id="J11669591"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669591btn" style="vertical-align: middle;" alt="부칙<총리령 제1031호, 2013. 8. 29.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669591" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1031호, 2013. 8. 29.>체크박스 " value="11669591" /> <a class="nun" onclick="javascript:arView('ar11669591','<총리령 제1031호, 2013. 8. 29.>'); return false;" href="#AJAX"> <label for="chk11669591"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1031호, 2013. 8. 29.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 2013년 8월 29일부터 시행한다.</p> 
+      </div> 
+      <a name="J11669793" id="J11669793"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669793btn" style="vertical-align: middle;" alt="부칙<총리령 제1119호, 2015. 1. 6.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669793" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1119호, 2015. 1. 6.>체크박스 " value="11669793" /> <a class="nun" onclick="javascript:arView('ar11669793','<총리령 제1119호, 2015. 1. 6.>'); return false;" href="#AJAX"> <label for="chk11669793"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1119호, 2015. 1. 6.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J11669795" id="J11669795"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669795btn" style="vertical-align: middle;" alt="부칙<총리령 제1200호, 2015. 10. 23.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669795" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1200호, 2015. 10. 23.>체크박스 " value="11669795" /> <a class="nun" onclick="javascript:arView('ar11669795','<총리령 제1200호, 2015. 10. 23.>'); return false;" href="#AJAX"> <label for="chk11669795"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1200호, 2015. 10. 23.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 2015년 10월 25일부터 시행한다.</p> 
+      </div> 
+      <a name="J11669797" id="J11669797"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669797btn" style="vertical-align: middle;" alt="부칙<총리령 제1248호, 2016. 1. 25.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669797" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1248호, 2016. 1. 25.>체크박스 " value="11669797" /> <a class="nun" onclick="javascript:arView('ar11669797','<총리령 제1248호, 2016. 1. 25.>'); return false;" href="#AJAX"> <label for="chk11669797"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1248호, 2016. 1. 25.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J11669799" id="J11669799"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669799btn" style="vertical-align: middle;" alt="부칙<총리령 제1384호, 2017. 3. 31.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669799" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1384호, 2017. 3. 31.>체크박스 " value="11669799" /> <a class="nun" onclick="javascript:arView('ar11669799','<총리령 제1384호, 2017. 3. 31.>'); return false;" href="#AJAX"> <label for="chk11669799"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1384호, 2017. 3. 31.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 2017년 3월 31일부터 시행한다.</p> 
+      </div> 
+      <a name="J11669801" id="J11669801"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar11669801','<총리령 제1497호,  2018. 11. 1.>'); return false;" href="#AJAX"> <img id="ar11669801btn" style="vertical-align: middle;" alt="부칙 <총리령 제1497호,  2018. 11. 1.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk11669801" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1497호,  2018. 11. 1.>체크박스 " value="11669801" /> <a class="nun" onclick="javascript:arView('ar11669801','<총리령 제1497호,  2018. 11. 1.>'); return false;" href="#AJAX"> <label for="chk11669801"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1497호, 2018. 11. 1.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('주식회사 등의 외부감사에 관한 법률 시행규칙', '20181101', '01497');" href="#AJAX"> <span class="sfon">(주식회사 등의 외부감사에 관한 법률 시행규칙) </span> </a> <a class="nun" onclick="javascript:arView('ar11669801','<총리령 제1497호,  2018. 11. 1.>');return false;" href="#AJAX"> <img id="ar11669801MrBtn" style="vertical-align: middle;" alt="부칙 <총리령 제1497호,  2018. 11. 1.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 규칙은 2018년 11월 1일부터 시행한다.</p>
+       <div id="ar11669801">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제6조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조(다른 법령의 개정)</span> 자본시장과 금융투자업에 관한 법률 시행규칙 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제1항제1호 단서 중 “「주식회사의 외부감사에 관한 법률」 제13조제1항제1호”를 “「주식회사 등의 외부감사에 관한 법률」 제5조제1항제1호”로 하고, 제12조제4항제1호 중 “「주식회사의 외부감사에 관한 법률」 제3조제1항”을 “「주식회사 등의 외부감사에 관한 법률」 제2조제7호”로 한다.</p>
+       </div> 
+      </div> 
+      <a name="J11669803" id="J11669803"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669803btn" style="vertical-align: middle;" alt="부칙<총리령 제1568호, 2019. 10. 21.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669803" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1568호, 2019. 10. 21.>체크박스 " value="11669803" /> <a class="nun" onclick="javascript:arView('ar11669803','<총리령 제1568호, 2019. 10. 21.>'); return false;" href="#AJAX"> <label for="chk11669803"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1568호, 2019. 10. 21.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J11669805" id="J11669805"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669805btn" style="vertical-align: middle;" alt="부칙<총리령 제1722호,  2021. 8. 11.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669805" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1722호,  2021. 8. 11.>체크박스 " value="11669805" /> <a class="nun" onclick="javascript:arView('ar11669805','<총리령 제1722호,  2021. 8. 11.>'); return false;" href="#AJAX"> <label for="chk11669805"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1722호, 2021. 8. 11.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포 후 15일이 경과한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J11669807" id="J11669807"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669807btn" style="vertical-align: middle;" alt="부칙<총리령 제1751호,  2021. 10. 22.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669807" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1751호,  2021. 10. 22.>체크박스 " value="11669807" /> <a class="nun" onclick="javascript:arView('ar11669807','<총리령 제1751호,  2021. 10. 22.>'); return false;" href="#AJAX"> <label for="chk11669807"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1751호, 2021. 10. 22.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J11669809" id="J11669809"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar11669809','<총리령 제1756호,  2021. 12. 9.>'); return false;" href="#AJAX"> <img id="ar11669809btn" style="vertical-align: middle;" alt="부칙 <총리령 제1756호,  2021. 12. 9.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk11669809" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제1756호,  2021. 12. 9.>체크박스 " value="11669809" /> <a class="nun" onclick="javascript:arView('ar11669809','<총리령 제1756호,  2021. 12. 9.>'); return false;" href="#AJAX"> <label for="chk11669809"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제1756호, 2021. 12. 9.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar11669809','<총리령 제1756호,  2021. 12. 9.>');return false;" href="#AJAX"> <img id="ar11669809MrBtn" style="vertical-align: middle;" alt="부칙 <총리령 제1756호,  2021. 12. 9.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 규칙은 2021년 12월 9일부터 시행한다.</p>
+       <div id="ar11669809">
+        <p class="pty3_dep1"><span class="bl">제2조(증권신고서 효력발생시기의 단축에 관한 적용례)</span> 제12조제3항제3호의 개정규정은 이 규칙 시행 이후 법 제120조제1항에 따른 증권신고를 하는 경우부터 적용한다.</p>
+        <p class="pty3_dep1"><span class="bl">제3조(금융투자업의 회계기간에 관한 경과조치)</span> 이 규칙 시행 당시 정관에서 회계기간을 정하고 있지 않은 금융투자업의 회계기간에 관하여는 제6조제1항의 개정규정에도 불구하고 종전의 규정에 따른다. 다만, 해당 금융투자업자는 이 규칙 시행 이후 1년 이내에 회계기간에 관한 사항을 정관에 규정해야 한다.</p>
+       </div> 
+      </div> 
+      <a name="J11669811" id="J11669811"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar11669811btn" style="vertical-align: middle;" alt="부칙<총리령 제2034호,  2025. 6. 2.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk11669811" style="vertical-align: middle;" type="checkbox" alt="부칙 <총리령 제2034호,  2025. 6. 2.>체크박스 " value="11669811" /> <a class="nun" onclick="javascript:arView('ar11669811','<총리령 제2034호,  2025. 6. 2.>'); return false;" href="#AJAX"> <label for="chk11669811"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;총리령 제2034호, 2025. 6. 2.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 규칙은 공포한 날부터 시행한다.</p> 
+      </div> 
+     </div> 
+     <!-- 부칙 영역 끝 --> 
+     <!-- 별표 서식 시작 --> 
+     <!-- 별표 서식 끝 --> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

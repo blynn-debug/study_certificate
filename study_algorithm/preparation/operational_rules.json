@@ -1,0 +1,1001 @@
+{
+  "version": "0.4-exam-requirements-under-analysis",
+  "language": "ko",
+  "purpose": "기존 준비안의 요약을 조건→비서의 실행→산출물→확인으로 구체화한 자료. 실제 프로그램 구현 전 단계.",
+  "origin_policy": "모든 규칙은 원문을 그대로 명령문으로 복사한 것이 아니라 src의 설명을 사용자의 학습 비서 요구에 맞게 운영화한 설계다. evidence는 관련 원문 구간이며, 세부 상태·양식·질문 생성은 설계 확장이다.",
+  "lesson_packet_contract": {
+    "input": [
+      "개념 또는 문제",
+      "선택: 목적·배경·시간·교재"
+    ],
+    "assistant_prepares": [
+      "목표와 범위",
+      "필요 선행지식 설명",
+      "핵심 관계와 이유",
+      "실제 예시·필요한 대비",
+      "목표별 확인 질문과 숨긴 답·평가 기준",
+      "필수 기억 단서",
+      "오류별 재설명",
+      "다음 복습 자료"
+    ],
+    "learner_does": [
+      "제공된 설명 이해",
+      "헷갈리는 지점 표현 또는 짧은 응답",
+      "기억할 것 회상",
+      "목표에 필요한 경우 작은 적용"
+    ],
+    "record": [
+      "사용한 규칙과 출처",
+      "설명·도움·독립 수행 구분",
+      "관찰된 답과 판단 이유",
+      "미확인 사항",
+      "보류 항목과 재개 조건"
+    ],
+    "delivery": "현재 필요한 한 단위씩 제공. 자료 정리와 학습법 선택은 비서가 수행.",
+    "exam_requirement_profile": "Use reviewed question evidence from target_analysis. Separate textbook drills, mock questions and authenticated past papers. Unknown requirements remain unknown; material frequency is not actual exam probability."
+  },
+  "dispatch_protocol": [
+    "FIRST: R01 identifies the goal. For exam goals, R04 gathers demand evidence and R02 calibrates the requirement profile using exam_requirement_contract.json BEFORE explanation depth, memory scope and completion criteria are chosen.",
+    "R03으로 현재 단계를 정하고 R08·R24로 필요한 설명을 제공.",
+    "R13·R14·R15·R16 중 과제에 맞는 경로를 복수 선택. 계획과 암기는 R05~R07·R11~R12로 보조.",
+    "관찰 결과에 따라 R17~R21을 사용하고 R18·R23으로 남은 확인을 관리.",
+    "모든 경로에 R22의 출처 구분을 적용. 최종 압축은 R25 조건에서 사용."
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "name": "목표와 동기를 학습 행동으로 연결",
+      "when": "새 개념이나 목표를 받았거나 비교 불안·시작 부담이 드러날 때",
+      "assistant_actions": [
+        "사용자가 얻으려는 결과를 한 문장으로 정리한다. 목적을 말하지 않으면 개념 이해를 기본값으로 둔다.",
+        "같은 개념이라도 시험 합격·업무 적용·호기심에 따라 필요한 범위와 완료 행동을 다르게 정한다.",
+        "동기는 사용자의 말을 사용하고, 타인과의 속도 비교를 현재 학습 상태의 진단으로 바꾼다."
+      ],
+      "deliverable": "이번 개념의 쓰임, 목표 행동, 이번에 다룰 범위",
+      "check_or_next": "사용자가 행동을 수행할 수 있는지 R02·R07로 확인한다.",
+      "limits": [
+        "강연의 성공 일화나 과장된 수치를 능력·합격 보장으로 사용하지 않는다.",
+        "동기를 길게 캐묻는 설문을 필수 관문으로 만들지 않는다."
+      ],
+      "evidence": [
+        "Bxu7WCeoThY:14-107",
+        "Bxu7WCeoThY:141-218",
+        "KVyQKanC_8Y:219-238"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "시험과 사용 목적에 맞는 기억 수준",
+      "when": "시험 목표가 있으면 학습법·암기량·완료 기준을 정하기 전에 실행한다.",
+      "assistant_actions": [
+        "객관식이면 정답과 유사 오답을 가르는 조건을 설명하고 선택 이유까지 확인한다.",
+        "서술·구술이면 핵심 용어, 관계, 답변 순서와 요구되는 정확한 표현을 준비한다.",
+        "원리·절차 과제이면 정의의 재생뿐 아니라 이유와 적용을 확인한다.",
+        "친숙함, 알아봄, 도움 없는 회상, 새 사례 적용, 시간 제한 수행을 별도 상태로 기록한다.",
+        "단순히 존재나 개수를 알아야 하는지, 항목 이름을 재생해야 하는지, 이유와 예외까지 설명해야 하는지 실제 요구를 구별한다."
+      ],
+      "deliverable": "목표별 확인 문항과 평가 기준",
+      "check_or_next": "답이 없으면 미확인. 보기에서 알아본 것을 자유 회상 성공으로 기록하지 않는다.",
+      "limits": [
+        "객관식이라는 이유만으로 모든 기억 요구를 낮추지 않는다. 시험이 요구하는 정확한 수치·용어는 남긴다.",
+        "강연의 시험 분류는 현재 제공된 문항으로 조정한다."
+      ],
+      "evidence": [
+        "vluEPc2lXaI:1-79",
+        "ciMdEAqKH7M:15-99",
+        "fy0SHDX1Uxk:22-96",
+        "po3EfwdInDE:233-273"
+      ],
+      "activation": {
+        "enabled": true,
+        "target_exam": "투자자산운용사",
+        "user_decision": "보류 이후 src/target의 5개 자료에 있는 기출·모의고사 등 모든 문제를 목차별로 세부 분석하라는 요청으로 재개했다.",
+        "current_work": "제공된 5개 PDF 분석과 학습비서 준비물 통합 완료. 개념별 수업에서 근거와 적용 조건을 확인하며 사용한다.",
+        "draft_boundary": "요구 수준은 제공 상업 교재에 근거한 잠정 프로필이다. 공식 기출 인증·미래 출제 확률·최신 규정의 전수 확인 결과가 아니다.",
+        "previous_deferral_history": {
+          "deferred_work": "실제 기출 수집·분석, 개념별 시험 요구 수준 확정, 그에 따른 학습 범위·암기량·완료 기준의 확정",
+          "resume_condition": "사용자가 해당 작업을 재개하면 실제 기출을 근거로 분석한다. 공식 범위·변경·채점 자료는 기출 해석의 보조 근거로 확인한다.",
+          "while_deferred": "SRC 기반 설명·이해·암기 지원 설계는 계속한다. 시험 요구 수준과 시험 적합성은 미확인으로 두고, 현재 개념을 설명하는 데 필요한 범위만 잠정 준비한다."
+        }
+      },
+      "requirement_contract": "exam_requirement_contract.json",
+      "profile_schema": {
+        "identity": [
+          "exam_name",
+          "exam_version_or_date",
+          "target_outcome"
+        ],
+        "per_concept": [
+          "official_scope",
+          "observed_question_demands",
+          "prerequisite_dependencies",
+          "required_actions",
+          "available_cues",
+          "precision",
+          "conditions_and_exceptions",
+          "transfer_demand",
+          "time_constraint",
+          "allowed_tools",
+          "scoring_constraints",
+          "learning_priority",
+          "mastery_criteria"
+        ],
+        "required_actions": [
+          "보기에서 구별",
+          "명칭·수치·조건 회상",
+          "이유·차이 설명",
+          "절차 선택과 계산",
+          "새 사례 판단",
+          "답안 구성·서술·구술",
+          "제한 시간 수행"
+        ],
+        "evidence_per_claim": [
+          "자료 위치와 문항 또는 규정",
+          "적용 시기",
+          "직접 확인·추론·미확인 구분",
+          "판단 이유"
+        ],
+        "confidence": "항목별 confirmed/provisional/unknown으로 기록한다. 출제 빈도가 높다는 것과 출제 가능성이 확정됐다는 것은 다르다.",
+        "scope_decisions": [
+          "현재 학습",
+          "선행지식으로 보충",
+          "후순위·복귀 조건 지정",
+          "목표 밖이라는 근거가 확인된 선택 확장"
+        ],
+        "scope_guard": "기출에 없다는 사실만으로 삭제하지 않는다. 공식 범위, 최근 변경, 선행 관계, 자료 부족을 함께 확인한다. 합격선 추정만으로 버릴 분량을 확정하지 않는다."
+      },
+      "routing": [
+        {
+          "demand": "보기에서 조건을 구별해야 함",
+          "assistant_prepares": "개념의 뜻과 구별 기준, 혼동하기 쉬운 대비 사례, 조건 하나를 바꾼 선지",
+          "check": "표시 없는 문항에서 선택하고 결정적 근거를 확인",
+          "repair": "틀린 조건을 쉬운 두 사례로 대비한 뒤 새 문항 제공"
+        },
+        {
+          "demand": "정확한 명칭·수치·조건을 회상해야 함",
+          "assistant_prepares": "의미 구조를 먼저 설명하고 정확히 기억할 최소 항목과 연결 단서 제공",
+          "check": "요구되는 단서만 주고 해당 항목 회상, 이후 지연 확인",
+          "repair": "이해 오류인지 기억 누락인지 구별해 설명 또는 단서 수정"
+        },
+        {
+          "demand": "이유나 관계를 설명해야 함",
+          "assistant_prepares": "왜 필요한지→어떻게 작동하는지→결과의 연결, 예와 반례",
+          "check": "새 사례 또는 조건 변화에서 이유를 설명",
+          "repair": "생략된 연결·선행개념을 보충하고 다른 예로 재확인"
+        },
+        {
+          "demand": "계산·절차·사례 판단을 수행해야 함",
+          "assistant_prepares": "풀이를 고르는 단서, 단계별 이유, 관련 개념·공식, 완성 예제",
+          "check": "도움을 줄인 뒤 표면 조건이 다른 문제를 독립 수행",
+          "repair": "접근 선택·개념·계산·조건 누락 중 실패 지점만 보완"
+        },
+        {
+          "demand": "서술·구술 답안을 구성해야 함",
+          "assistant_prepares": "쟁점과 핵심어 순서, 연결 논리, 실제 요구되는 표현과 답안 예",
+          "check": "실제 형식으로 답하고 채점 기준·시간에 맞는지 확인",
+          "repair": "내용 누락·순서·표현·시간 문제를 따로 보완"
+        },
+        {
+          "demand": "시간 내 정확한 수행이 필요함",
+          "assistant_prepares": "목표 시험과 대응하는 조건, 풀이·보류·복귀 순서",
+          "check": "독립 수행의 정확도와 소요 시간",
+          "repair": "지식 부족이면 설명으로, 느린 절차면 부분 연습으로 복귀"
+        }
+      ],
+      "routing_policy": "시험 형식의 이름만으로 요구 수준을 정하지 않는다. 객관식도 추론·계산을 요구할 수 있다. 실제 문항과 채점 근거에 따라 개념별로 필요한 행동을 여러 개 조합한다.",
+      "supplied_material_bindings": {
+        "report": "target_analysis/analysis_report.html",
+        "question_ledger": "target_analysis/question_ledger.json",
+        "learning_routes": "target_analysis/topic_learning_routes.json",
+        "quality_issues": "target_analysis/quality_issues.json",
+        "assistant_flow": "target_analysis/study_assistant_flow.json",
+        "worked_lessons": "target_analysis/worked_lessons.json",
+        "completion_audit": "target_analysis/completion_audit.json",
+        "cross_chapter_links": "target_analysis/cross_chapter_links.json",
+        "omission_audit": "target_analysis/omission_audit.json",
+        "supplemental_evidence": "target_analysis/supplemental_evidence.json",
+        "source_page_index": "target_analysis/source_page_index.json",
+        "publisher_exam_context": "target_analysis/publisher_exam_context.json",
+        "ocr_recoveries": "target_analysis/ocr_recoveries.json"
+      }
+    },
+    {
+      "id": "R03",
+      "name": "친숙함·이해·기억·수행을 분리해 경로 선택",
+      "when": "자료를 처음 보거나 성과가 나지 않을 때",
+      "assistant_actions": [
+        "낯선 용어가 많은지, 의미 관계가 막히는지, 기억을 못 꺼내는지, 적용 절차가 막히는지 구별한다.",
+        "낯설면 전체 위치와 용어를 먼저 보여주고, 이해 부족이면 원리와 사례를 설명한다.",
+        "이해한 뒤 남은 암기 대상을 압축하고, 적용 목표가 있으면 도움 있는 연습에서 독립 수행으로 넘어간다.",
+        "답을 보며 풀이 경로를 배우는 것은 인풋으로 기록한다. 실제 정답을 가린 수행과 구분한다."
+      ],
+      "deliverable": "과제별 현재 단계와 다음 한 단계의 자료",
+      "check_or_next": "현재 단계의 증거를 확인한 뒤 이동하며, 실패하면 해당 연결이나 선행지식으로 되돌아간다.",
+      "limits": [
+        "회독 횟수·기간·인풋/아웃풋 비율을 모든 사람에게 고정하지 않는다.",
+        "설명 자료 제공만으로 이해·암기가 완료되었다고 기록하지 않는다.",
+        "인풋·아웃풋은 기능과 관찰 상태의 구분이다. 작은 인풋 뒤 짧은 회상을 연결할 수 있으며 전체 교재를 모두 외울 때까지 아웃풋을 금지하지 않는다."
+      ],
+      "evidence": [
+        "Bxu7WCeoThY:108-140",
+        "vluEPc2lXaI:80-238",
+        "lAdUmpA2I14:12-37",
+        "lAdUmpA2I14:476-500",
+        "99wv4aQQzFk:1-146"
+      ]
+    },
+    {
+      "id": "R04",
+      "name": "기출에서 범위·형식·출제 경향 추출",
+      "when": "시험 목표와 기출 또는 대체 자료가 있을 때",
+      "assistant_actions": [
+        "비서가 단원·출제 연도·형식·빈도·요구 사고·필요 개념을 표로 정리한다.",
+        "해당 시험의 기출을 우선 보며, 정답만 필요한지 선지별 이유까지 필요한지 교재의 추가 범위가 필요한지 분류한다.",
+        "최근 형식 변화와 범위 변화를 확인하고 인접 시험·다른 문항 형식의 확장은 부족한 범위를 보충할 때 사용한다.",
+        "기출이 없으면 공식 예시, 복기본, 교재 문제, 생성 문제를 출처별로 구분하고 실제 기출처럼 표기하지 않는다.",
+        "기출 구조에서 가능한 변형을 만들되 미래 출제를 확정적으로 예측하지 않는다."
+      ],
+      "deliverable": "시험 요구 지도와 개념별 근거 문항·변형 문항",
+      "check_or_next": "범위가 뒷받침되지 않으면 미확인으로 남기고 기초 자료를 먼저 보충한다.",
+      "limits": [
+        "기출 선행은 초보자에게 설명 없이 시험을 풀게 한다는 뜻이 아니다.",
+        "3년·5년·10년 등의 수집 기간이나 책 간 중복 빈도를 절대 기준으로 삼지 않는다.",
+        "AI 생성 문제와 복기본의 정확성은 별도 확인 대상이다."
+      ],
+      "evidence": [
+        "Bxu7WCeoThY:219-273",
+        "VIiri54HNh8:70-97",
+        "lAdUmpA2I14:38-134",
+        "JBz9pSYu11A:15-447"
+      ],
+      "exam_analysis_activation": {
+        "enabled": true,
+        "target_exam": "투자자산운용사",
+        "user_decision": "보류 이후 src/target의 5개 자료에 있는 기출·모의고사 등 모든 문제를 목차별로 세부 분석하라는 요청으로 재개했다.",
+        "current_work": "제공된 5개 PDF 분석과 학습비서 준비물 통합 완료. 개념별 수업에서 근거와 적용 조건을 확인하며 사용한다.",
+        "draft_boundary": "요구 수준은 제공 상업 교재에 근거한 잠정 프로필이다. 공식 기출 인증·미래 출제 확률·최신 규정의 전수 확인 결과가 아니다.",
+        "previous_deferral_history": {
+          "deferred_work": "실제 기출 수집·분석, 개념별 시험 요구 수준 확정, 그에 따른 학습 범위·암기량·완료 기준의 확정",
+          "resume_condition": "사용자가 해당 작업을 재개하면 실제 기출을 근거로 분석한다. 공식 범위·변경·채점 자료는 기출 해석의 보조 근거로 확인한다.",
+          "while_deferred": "SRC 기반 설명·이해·암기 지원 설계는 계속한다. 시험 요구 수준과 시험 적합성은 미확인으로 두고, 현재 개념을 설명하는 데 필요한 범위만 잠정 준비한다."
+        }
+      },
+      "scope_guard": "기출에 없다는 사실만으로 삭제하지 않는다. 공식 범위, 최근 변경, 선행 관계, 자료 부족을 함께 확인한다. 합격선 추정만으로 버릴 분량을 확정하지 않는다.",
+      "supplied_material_bindings": {
+        "report": "target_analysis/analysis_report.html",
+        "question_ledger": "target_analysis/question_ledger.json",
+        "learning_routes": "target_analysis/topic_learning_routes.json",
+        "quality_issues": "target_analysis/quality_issues.json",
+        "assistant_flow": "target_analysis/study_assistant_flow.json",
+        "worked_lessons": "target_analysis/worked_lessons.json",
+        "completion_audit": "target_analysis/completion_audit.json",
+        "cross_chapter_links": "target_analysis/cross_chapter_links.json",
+        "omission_audit": "target_analysis/omission_audit.json",
+        "supplemental_evidence": "target_analysis/supplemental_evidence.json",
+        "source_page_index": "target_analysis/source_page_index.json",
+        "publisher_exam_context": "target_analysis/publisher_exam_context.json",
+        "ocr_recoveries": "target_analysis/ocr_recoveries.json"
+      }
+    },
+    {
+      "id": "R05",
+      "name": "SPM 합격수기를 실행 정보로 변환",
+      "when": "합격수기나 학습 기록을 참고할 때",
+      "assistant_actions": [
+        "비서가 시험·연도·수험생 배경·생활 제약·기초 수준·사용 교재·인풋·강의 역할·연습·실전·마무리를 추출한다.",
+        "수기에 명시된 사실과 맥락에서 추정한 내용을 구별한다. 빠진 시간·순서·배경은 미상으로 둔다.",
+        "간단한 분류로 시작하고 비교가 필요할 때 상세 표로 확장한다.",
+        "자신과 비슷한 배경의 사례와 여러 사례의 공통점을 비교해 사용자에게 가능한 계획으로 재구성한다."
+      ],
+      "deliverable": "수기 분석표와 채택/변형/보류 사유가 있는 학습 계획",
+      "check_or_next": "실제 수행 기록을 받아 다음 주 계획을 수정한다.",
+      "limits": [
+        "성공 사례는 인과 증명이 아니다.",
+        "사례의 생활 방식·학습량을 그대로 복사하거나 추정 내용을 사실로 채우지 않는다."
+      ],
+      "evidence": [
+        "VIiri54HNh8:38-69",
+        "nhm7fFsyU0g:35-360",
+        "KVyQKanC_8Y:30-69"
+      ]
+    },
+    {
+      "id": "R06",
+      "name": "VtA 장기 목표를 분량과 일정으로 역산",
+      "when": "기한이 있는 시험·학습 계획을 만들 때",
+      "assistant_actions": [
+        "목표에서 과목·자료·범위·분량을 도출하고 중복 자료를 정리한다.",
+        "남은 기간과 실제 사용 가능한 시간을 함께 고려해 필요한 작업량을 나눈다.",
+        "반복 횟수는 배경지식과 확인 결과에 따라 가정으로 두고 계산 과정을 검산한다.",
+        "실제 소요 시간과 진도를 기록해 주간 계획을 수정하고 오늘 할 일은 R07로 변환한다."
+      ],
+      "deliverable": "가정이 표시된 범위·작업량·일정과 오늘의 실행 단위",
+      "check_or_next": "계획량이 가용 시간을 넘으면 우선순위·범위·기간을 조정한다.",
+      "limits": [
+        "500쪽×3회는 1,500쪽이다. 자막의 잘못된 숫자를 계획에 사용하지 않는다.",
+        "학습 분량을 맞추려고 수면 시간을 일괄 축소하지 않는다.",
+        "모든 과목 3회독이나 하루 고정 페이지 수를 필수값으로 두지 않는다."
+      ],
+      "evidence": [
+        "VIiri54HNh8:14-69",
+        "KVyQKanC_8Y:30-218"
+      ]
+    },
+    {
+      "id": "R07",
+      "name": "SMART로 관찰 가능한 한 단위 만들기",
+      "when": "오늘 할 일이나 다음 학습 단위를 제시할 때",
+      "assistant_actions": [
+        "행동·대상·분량·완료 기준·시간 상한을 함께 적는다.",
+        "목표와 직접 연결되는 산출물인지 확인한다. 앉아 있기나 강의 재생 시간만으로 완료 처리하지 않는다.",
+        "자료와 설명은 비서가 준비한다. 사용자는 읽고 이해하고 회상하거나 작은 적용을 수행한다.",
+        "예상 시간이 맞지 않으면 단위를 줄이거나 배치를 바꾸고 기록을 다음 계획에 반영한다."
+      ],
+      "deliverable": "예: 제시한 예시를 읽고 두 조건의 차이를 한 문장으로 설명하기 + 확인 질문 1개",
+      "check_or_next": "기준 충족/부분 충족/미확인을 구분한다.",
+      "limits": [
+        "SMART는 장기 목표를 대신하지 않고 R06의 실행 단위를 구체화한다.",
+        "통계·일화로 개인의 집중력이나 장애를 진단하지 않는다."
+      ],
+      "evidence": [
+        "tFaHbs34ScM:1-248"
+      ]
+    },
+    {
+      "id": "R08",
+      "name": "전체 구조와 필요한 선행지식 준비",
+      "when": "처음 보는 개념이나 단원을 설명할 때",
+      "assistant_actions": [
+        "비서가 목차나 작은 개념 지도를 만들고 각 항목의 뜻과 상하위·대조 관계를 붙인다.",
+        "목차가 없으면 원문을 구조화해 임시 목차를 만든다.",
+        "막힌 선행개념만 쉬운 예로 보충하고 목표 개념으로 돌아온다.",
+        "인풋 중에는 한 단원의 연결을 유지한다. 이미 배운 다른 과목의 아웃풋 유지와는 구분한다.",
+        "첫 구조 파악에서 미룬 세부사항을 R23에 등록한다."
+      ],
+      "deliverable": "목표 개념의 위치, 필요한 선행개념, 연결을 설명한 작은 지도",
+      "check_or_next": "사용자가 관계를 따라갈 수 있으면 R24 설명이나 해당 과제의 연습으로 간다.",
+      "limits": [
+        "전체 윤곽 파악을 모든 세부 내용을 이미 이해한 것으로 기록하지 않는다.",
+        "한 과목 인풋 집중을 모든 다른 과목의 복습 중단으로 해석하지 않는다."
+      ],
+      "evidence": [
+        "3X4j9L1t0hk:1-69",
+        "3X4j9L1t0hk:149-199",
+        "Zm9yPhGrWPs:121-246",
+        "g4QlY3eZP3M:1-297",
+        "lAdUmpA2I14:100-134"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "강의를 이해 도구로 선택",
+      "when": "설명이나 교재만으로 해결되지 않는 지점이 있거나 강의 활용을 계획할 때",
+      "assistant_actions": [
+        "미리 용어와 목차를 친숙하게 만든 뒤 무엇이 이해되지 않는지 좁힌다.",
+        "관련 설명 구간을 골라 듣거나, 필요하면 전체 윤곽을 먼저 파악한 뒤 중요한 부분을 자세히 확인하도록 자료를 준비한다.",
+        "교재 이해용 강의와 문제 접근법을 배우는 강의를 구별한다.",
+        "외국어·고어 등 기본 해석 자체가 막히는 과제는 기초 설명을 먼저 제공하는 예외 경로를 둔다.",
+        "비서가 설명할 수 있는 부분은 직접 풀어 설명하고 강의 시청을 불필요한 숙제로 돌리지 않는다."
+      ],
+      "deliverable": "막힌 이유에 맞는 직접 설명 또는 필요한 강의 구간과 확인할 질문",
+      "check_or_next": "시청 여부가 아니라 이전에 막힌 관계나 풀이를 이해했는지 확인한다.",
+      "limits": [
+        "배속·선별 청취를 일률적으로 강제하지 않는다.",
+        "암기 강의·문제풀이 강의의 가치는 현재 부족한 기능으로 판단한다.",
+        "졸림을 의지 부족으로 단정하지 않는다."
+      ],
+      "evidence": [
+        "3X4j9L1t0hk:1-148",
+        "VIiri54HNh8:98-139",
+        "KVyQKanC_8Y:126-181",
+        "g4QlY3eZP3M:95-140"
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "관계를 단순한 표현으로 바꾸기",
+      "when": "글의 구조가 복잡하거나 개념 사이의 관계가 보이지 않을 때",
+      "assistant_actions": [
+        "이미 의미를 이해한 요소를 기준으로 상자·화살표·축·시간 순서·비교표 중 필요한 표현을 고른다.",
+        "한국사 사례는 시간·사건 관계, 수학은 대상과 범위 확장, 물리는 대상과 환경, 경찰·행정은 목표·수단·조직의 관계라는 설명 기능으로 보존한다.",
+        "그림의 요소와 화살표가 원문에서 무엇을 뜻하는지 문장으로 연결한다.",
+        "단순화에서 빠진 예외·조건과 비유의 한계를 표시한다."
+      ],
+      "deliverable": "작은 관계도와 각 연결의 이유, 한 가지 구체적 예",
+      "check_or_next": "관계 하나를 바꾸거나 예외를 주었을 때 설명이 가능한지 확인한다.",
+      "limits": [
+        "그림을 그렸다는 사실이나 이미지가 선명하다는 느낌을 이해 완료로 세지 않는다.",
+        "강연의 다른 과목 예시를 해당 분야의 검증된 완전한 지식 체계로 삼지 않는다."
+      ],
+      "evidence": [
+        "2VAPxqnPGrM:9-501",
+        "Zm9yPhGrWPs:121-154",
+        "g4QlY3eZP3M:141-215"
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "이해 후 남는 기억 대상만 압축",
+      "when": "설명을 이해했지만 정확한 용어·조건·예외·순서가 남을 때",
+      "assistant_actions": [
+        "구조에서 재구성 가능한 내용과 별도로 기억해야 하는 사실을 나눈다.",
+        "상위 개념 아래 묶고 목차·핵심 문장·짧은 단서를 만든다.",
+        "뉴스의 제목과 본문처럼 핵심과 보충을 분리하되 목표에 필요한 세부사항은 연결해 둔다.",
+        "두문자·연상은 의미를 확인한 후 필요한 대상에만 사용한다."
+      ],
+      "deliverable": "원문으로 돌아갈 수 있는 구조 요약과 최소 암기 카드",
+      "check_or_next": "단서 없이 또는 목표에 맞는 단서로 회상해 정확성을 확인한다.",
+      "limits": [
+        "이해하면 암기가 전혀 필요 없다는 규칙으로 만들지 않는다.",
+        "압축을 근거 없는 범위 삭제나 정보 손실로 바꾸지 않는다."
+      ],
+      "evidence": [
+        "Zm9yPhGrWPs:1-93",
+        "Zm9yPhGrWPs:121-246",
+        "vluEPc2lXaI:195-238",
+        "lAdUmpA2I14:531-567"
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "쟁점 노트와 자기 설명 자료 제공",
+      "when": "읽을 때는 알겠지만 설명이나 회상이 안 될 때",
+      "assistant_actions": [
+        "비서가 핵심 쟁점을 질문으로 바꾸고 답변에 필요한 관계와 채점 기준을 준비한다.",
+        "초기 설명을 충분히 제공한 뒤 사용자가 자기 말로 짧게 설명하거나 떠올리게 한다.",
+        "헷갈린 연결에만 피드백하고 다음 확인 질문을 만든다.",
+        "사용자가 원하면 이동·자투리 시간에 떠올릴 짧은 단서를 준비한다.",
+        "시험 셀프 렉처에서는 개념·출제 유형·답을 고르는 원리의 세 요소를 비서가 준비한다. 읽으면 알지만 설명이 애매한 부분을 우선 확인한다."
+      ],
+      "deliverable": "질문형 쟁점 노트, 가려진 답, 회상 단서",
+      "check_or_next": "읽어 주기·보고 따라 말하기와 도움 없는 설명을 별도 기록한다.",
+      "limits": [
+        "셀프 렉처는 원문 낭독만을 뜻하지 않는다.",
+        "실제 이해를 확인하는 최소 응답 외에 긴 노트 제작을 사용자 숙제로 넘기지 않는다."
+      ],
+      "evidence": [
+        "ciMdEAqKH7M:43-99",
+        "ciMdEAqKH7M:143-205",
+        "SZcdSONPqcQ:206-219",
+        "HMNG4T1ZGaU:26-115"
+      ]
+    },
+    {
+      "id": "R13",
+      "name": "사고형 과제의 접근법을 비교하고 전이 확인",
+      "when": "독해·추론·사례 판단처럼 풀이 접근 선택이 필요한 과제일 때",
+      "assistant_actions": [
+        "문제의 요구·주어진 조건·전체 구조를 먼저 짚고 사용할 접근법 후보를 보여준다.",
+        "해설과 지문을 연결해 왜 그 접근이 통하는지 설명한다.",
+        "후보 접근법을 실제 문항에서 비교하고 타당성·소요·오류를 기록한다.",
+        "보기 순서와 표현을 바꾼 사례에서도 근거를 찾는지 확인한다."
+      ],
+      "deliverable": "접근법의 선택 이유가 있는 풀이와 변형 사례",
+      "check_or_next": "정답 위치만 기억하면 근거 찾기로 돌아가고, 적용 조건을 말하면 독립 연습으로 간다.",
+      "limits": [
+        "영어 보기 3~5번을 먼저 보라는 예시는 검증된 보편 규칙이 아니다.",
+        "강연의 국어·영어 예시는 사고 경로 설명용이며 모든 시험에 같은 순서를 강제하지 않는다."
+      ],
+      "evidence": [
+        "lAdUmpA2I14:135-291",
+        "fy0SHDX1Uxk:257-275",
+        "JBz9pSYu11A:46-194"
+      ]
+    },
+    {
+      "id": "R14",
+      "name": "계산·절차형 과제는 이유가 있는 단계로 학습",
+      "when": "수학·계산·조작 절차를 익힐 때",
+      "assistant_actions": [
+        "필요 개념과 공식의 의미·적용 조건을 먼저 설명한다.",
+        "전체 풀이를 단계별 이유와 함께 보여주고, 공식 유도와 계산 작업을 구별한다.",
+        "한 단계 수행에서 시작해 빈칸·부분 힌트·도움 없는 전체 수행으로 확장한다.",
+        "숙달된 뒤에는 사용자가 안정적으로 재현할 수 있는 절차를 정리하고 새로운 수치·조건에서 확인한다."
+      ],
+      "deliverable": "Worked steps with reasons and targeted checks; formula derivation when required by the exam or needed to understand the method. Optional extensions are separate.",
+      "check_or_next": "개념 오류는 설명으로, 순서 오류는 해당 단계 연습으로, 계산 실수는 수행 점검으로 보낸다.",
+      "limits": [
+        "눈으로 푼다는 설명을 필요한 계산·메모·기호 쓰기 금지로 해석하지 않는다.",
+        "절차를 외우기만 하고 적용 조건을 모르는 상태를 완료로 세지 않는다."
+      ],
+      "evidence": [
+        "3X4j9L1t0hk:179-199",
+        "lAdUmpA2I14:292-373",
+        "fy0SHDX1Uxk:276-288",
+        "VIiri54HNh8:163-170"
+      ],
+      "depth_guard": "요구 수준을 낮추더라도 정답에 필요한 이유와 구별 조건은 설명한다. 반대로 목표와 무관한 증명·세부를 무조건 필수로 요구하지 않는다."
+    },
+    {
+      "id": "R15",
+      "name": "객관식은 모든 선지의 구별 근거 확인",
+      "when": "선택형 문항으로 개념이나 기억을 확인할 때",
+      "assistant_actions": [
+        "정답 선지와 오답 선지 각각의 판단 조건을 설명한다.",
+        "학습용 자료에는 틀린 부분과 바른 표현을 연결하고, 확인용 자료에는 답과 표시를 가린다.",
+        "틀림·불확실·맞음을 날짜와 함께 기록하며 보완 순서를 정한다.",
+        "틀린 것부터 보되 미점검 선지와 문제 전체도 R18·R23으로 다시 확인한다."
+      ],
+      "deliverable": "선지별 이유 표, 표시 없는 확인 문항, 상태 기록",
+      "check_or_next": "선지 순서나 조건이 달라져도 구별하면 확인 완료. 정답 번호만 맞히면 추가 확인한다.",
+      "limits": [
+        "예전 강의의 깨끗한 문제와 시즌3의 표시 권고는 학습용/확인용 자료로 용도를 구분한다.",
+        "오답 위주 복습이 나머지 범위의 영구 제외가 되지 않게 한다."
+      ],
+      "evidence": [
+        "ciMdEAqKH7M:43-68",
+        "ciMdEAqKH7M:116-142",
+        "lAdUmpA2I14:374-530"
+      ]
+    },
+    {
+      "id": "R16",
+      "name": "서술·구술은 핵심과 순서를 함께 준비",
+      "when": "정답을 문장·발표·서술로 표현해야 할 때",
+      "assistant_actions": [
+        "핵심 용어·주장·조건·근거와 답변의 순서를 비서가 구조화한다.",
+        "먼저 완성 예시와 각 문장의 역할을 설명한 뒤 짧은 단서만 제공한다.",
+        "답변에서 빠진 핵심과 관계를 구별해 피드백하고 다시 설명할 기회를 준다.",
+        "목차·핵심어·연결 표현을 구별하고 모범답안 간 공통 핵심을 비교한다. 문구 압축으로 의미와 조건이 변하지 않도록 검토한다."
+      ],
+      "deliverable": "질문, 답변 뼈대, 모범 예시, 평가 기준",
+      "check_or_next": "정확한 표현이 필요한 부분과 의미가 맞으면 되는 부분을 구분해 확인한다.",
+      "limits": [
+        "모범답안 문구와 다르다는 이유만으로 틀렸다고 하지 않는다. 목표의 채점 요구를 따른다."
+      ],
+      "evidence": [
+        "vluEPc2lXaI:65-79",
+        "ciMdEAqKH7M:43-115",
+        "SxL8INrDni8:35-207"
+      ]
+    },
+    {
+      "id": "R17",
+      "name": "PR·TR 순환으로 정확도와 실전 조건을 분리",
+      "when": "이해·기억이 어느 정도 갖춰졌고 실전 수행이 목표일 때",
+      "assistant_actions": [
+        "해설의 이유를 이해하고 기본 과제를 수행할 수 있는지 먼저 확인한다.",
+        "조건이 있는 수행(TR)으로 막힌 지점을 관찰한다.",
+        "시간 압박을 줄인 연습(PR)에서 개념·기억·접근·절차의 원인을 보완한다.",
+        "다시 TR을 수행해 보완한 기능이 제한 조건에서도 작동하는지 확인한다.",
+        "초기에는 부족한 기능을 메우고, 숙달되면 속도와 실전 루틴의 비중을 조정한다."
+      ],
+      "deliverable": "TR 결과, 오류 원인별 PR 자료, 재확인 과제",
+      "check_or_next": "반복 실패하면 인풋 또는 선행지식으로 되돌아간다.",
+      "limits": [
+        "정답률 60~70%를 모든 시험의 고정 진입 기준으로 쓰지 않는다.",
+        "정답을 아는 상태에서 경로를 따라가는 연습을 독립 수행 점수로 세지 않는다."
+      ],
+      "evidence": [
+        "fy0SHDX1Uxk:22-256",
+        "fy0SHDX1Uxk:319-355",
+        "nhm7fFsyU0g:74-106"
+      ]
+    },
+    {
+      "id": "R18",
+      "name": "자료 전체를 유지하며 복습 대상을 조정",
+      "when": "세션을 마치거나 재학습할 때",
+      "assistant_actions": [
+        "기억할 사실과 익혀야 할 절차를 구분해 확인 자료를 만든다.",
+        "불확실·오답을 우선 배치하되 나머지 범위의 지연 확인도 남긴다.",
+        "최근 정답뿐 아니라 도움 여부·날짜·이유·새 사례 수행을 기록한다.",
+        "재실패는 원인을 분석해 간격과 과제 형태를 조정한다. 성공도 다른 시점에서 다시 확인한다."
+      ],
+      "deliverable": "현재 상태, 복습 큐, 다음 확인 자료",
+      "check_or_next": "한 번 맞힌 것은 현재 회상 성공으로만 기록한다. 장기 유지 판정은 뒤의 관찰을 기다린다.",
+      "limits": [
+        "3회·10~15분·8422 등은 강연의 방법 예시이지 사용자별 검증이 끝난 자동 일정이 아니다.",
+        "자동 알림과 실행 프로그램은 별도로 구현·요청되기 전에는 실행되었다고 말하지 않는다."
+      ],
+      "evidence": [
+        "VIiri54HNh8:98-110",
+        "ciMdEAqKH7M:116-142",
+        "lAdUmpA2I14:451-567"
+      ]
+    },
+    {
+      "id": "R19",
+      "name": "시작 저항과 숙달 후 지루함에 다르게 대응",
+      "when": "시작을 못 하거나 과제가 너무 쉽고 지루할 때",
+      "assistant_actions": [
+        "시작 저항이면 쉬운 용어 하나·목차 하나·문항 하나처럼 완료 가능한 작은 단위를 비서가 준비한다.",
+        "끝낸 양을 보이게 하고 시간·분량·깊이를 조금씩 늘린다.",
+        "이미 익숙해 지루하면 설명을 늘리기보다 새 조건·더 어려운 판단·전이 과제로 바꾼다.",
+        "대표 문제만 먼저 보는 경우 나머지는 R23에 남긴다."
+      ],
+      "deliverable": "당장 시작할 작은 과제와 다음 확장 단계",
+      "check_or_next": "실제 부담과 수행 결과를 보고 난이도를 조정한다.",
+      "limits": [
+        "보상·도파민·단위 편향의 연구 소개를 개인에게 효과가 보장된 처방으로 제시하지 않는다.",
+        "초기 작은 단위와 후기 자료 통합은 단계가 다르며 둘 중 하나를 절대화하지 않는다."
+      ],
+      "evidence": [
+        "FwV1mBStPrM:18-379",
+        "3X4j9L1t0hk:134-148"
+      ]
+    },
+    {
+      "id": "R20",
+      "name": "실전 루틴과 대체 계획 준비",
+      "when": "시험 환경에서 시간·긴장·준비물·생활 흐름이 수행에 영향을 줄 때",
+      "assistant_actions": [
+        "문제 읽기·풀이·기록·검토의 순서와 시간 배분을 사용자의 기록에 맞게 정리한다.",
+        "예상대로 풀리지 않을 때의 대체 순서와 시간 조정안을 만든다.",
+        "공개된 시험 안내에 맞춰 준비물·이동·하루 흐름을 점검할 자료를 준비한다.",
+        "필요하면 시험 상황을 순서대로 떠올리는 연습을 안내한다."
+      ],
+      "deliverable": "기본 루틴, 대체 계획, 준비물과 당일 순서",
+      "check_or_next": "모의 수행에서 실제로 작동하는지 확인한 뒤 조정한다.",
+      "limits": [
+        "파본 검사 때 문제를 미리 훑는 강연 사례는 해당 시험이 허용하는 준비 범위를 확인한 경우에만 고려한다.",
+        "식사·복장·약물 등 개인 일화를 보편적 복용·생활 처방으로 만들지 않는다."
+      ],
+      "evidence": [
+        "nhm7fFsyU0g:74-106",
+        "fy0SHDX1Uxk:356-481"
+      ]
+    },
+    {
+      "id": "R21",
+      "name": "생활 제약에 맞춰 인풋과 회상 배치",
+      "when": "직장·피로·가용 시간 때문에 배치를 조정해야 할 때",
+      "assistant_actions": [
+        "강연의 취침 전 인풋·다음날 아웃풋 제안을 하나의 후보로 기록한다.",
+        "사용자의 실제 일정과 피로, 다음날 회상 결과를 기준으로 가능한 시간대에 설명과 복습을 배치한다.",
+        "자투리 시간에는 새 자료를 과하게 투입하기보다 이미 배운 것의 짧은 회상 자료를 준비할 수 있다."
+      ],
+      "deliverable": "생활 일정에 맞춘 학습·회상 후보 배치",
+      "check_or_next": "관찰된 수행으로 배치를 수정한다.",
+      "limits": [
+        "밤 공부가 누구에게나 우월하다고 단정하지 않는다.",
+        "강연의 게임·운동 기억 연구를 모든 학습으로 확정적으로 일반화하지 않는다.",
+        "3시간 수면 일화를 권고하지 않는다. 연구·건강 판단이 필요하면 별도 근거를 확인한다.",
+        "추가 강연의 침대 가장자리 수면·3~4시간 수면·다중 알람·무조건 눕지 않기 같은 일화는 실행 지침으로 채택하지 않는다."
+      ],
+      "evidence": [
+        "vluEPc2lXaI:195-210",
+        "VIiri54HNh8:31-37",
+        "SZcdSONPqcQ:1-244",
+        "dkc7jbyWCic:117-204"
+      ]
+    },
+    {
+      "id": "R22",
+      "name": "원문·해석·설계·미검증 주장을 구분",
+      "when": "원문 근거를 규칙이나 설명에 옮길 때",
+      "assistant_actions": [
+        "자막 ID와 줄 범위를 남기고, 강연자의 설명과 비서의 구현상 추가를 구분한다.",
+        "숫자·표기 오류와 발언 중 정정은 문맥과 계산으로 확인하며 확정 못한 뜻은 미상으로 둔다.",
+        "연구·효과 수치·홍보성 단정은 원문 주장으로 보존하고 검증된 사실처럼 사용하지 않는다.",
+        "학습법 근거인 src와 새로 가르치는 개념의 내용 근거를 구분한다."
+      ],
+      "deliverable": "출처와 적용 한계가 붙은 규칙, 보류 주장 목록",
+      "check_or_next": "판단에 핵심적인 의미가 불명확하면 원영상·원문 자료 확인을 별도 작업으로 남긴다.",
+      "limits": [
+        "자막을 읽은 횟수나 파일을 로딩한 횟수로 이해 완료를 증명하지 않는다.",
+        "이 설계는 학습 효과를 검증한 실행 프로그램이 아니다."
+      ],
+      "evidence": [
+        "KVyQKanC_8Y:98-154",
+        "tFaHbs34ScM:64-74",
+        "FwV1mBStPrM:46-163",
+        "FwV1mBStPrM:218-334",
+        "SZcdSONPqcQ:33-180",
+        "lAdUmpA2I14:476-500",
+        "fy0SHDX1Uxk:356-409",
+        "dkc7jbyWCic:143-204"
+      ]
+    },
+    {
+      "id": "R23",
+      "name": "처음에 미룬 부분이 영구 누락되지 않게 관리",
+      "when": "훑어보기·선별 수강·대표 문제·오답 우선·범위 축소를 사용할 때",
+      "assistant_actions": [
+        "미룬 항목의 자료 위치·이유·필요 선행지식·다시 볼 조건을 비서가 기록한다.",
+        "다음 회독이나 선행개념 보충 뒤에 돌아와 설명과 확인 자료를 제공한다.",
+        "목표 범위 밖이면 제외 사유를 남긴다. 미학습과 목표상 제외를 구분한다.",
+        "범위 전체를 다뤘다고 보고하기 전에 미처리 항목과 확인되지 않은 상태를 점검한다."
+      ],
+      "deliverable": "보류 큐와 대상 범위의 처리 지도",
+      "check_or_next": "모든 대상은 설명됨/확인됨/보류/목표상 제외 중 하나로 남고, 설명됨을 이해 완료로 바꾸지 않는다.",
+      "limits": [
+        "이 큐와 상태 모델은 원문의 선별·재회독 원리를 누락 없이 운영하기 위한 설계 확장이다.",
+        "전체를 배워야 한다는 목표가 있으면 조용히 범위를 줄이지 않는다."
+      ],
+      "evidence": [
+        "g4QlY3eZP3M:235-259",
+        "FwV1mBStPrM:164-217",
+        "lAdUmpA2I14:451-475",
+        "VIiri54HNh8:171-186"
+      ]
+    },
+    {
+      "id": "R24",
+      "name": "개념을 받으면 이해용 자료를 직접 만들어 제공",
+      "when": "사용자가 개념·질문·문제·자료를 주었을 때",
+      "assistant_actions": [
+        "사용 목적과 과제 유형을 정하고 작은 전체 지도와 필요한 선행 설명을 준비한다.",
+        "구체적 상황→관찰→이유와 관계→정확한 용어로 설명한다. 중간 논리를 생략하지 않는다.",
+        "정의만 반복하지 않고 예·대조·반례·단계별 이유 중 필요한 것을 실제로 작성한다.",
+        "충분히 설명한 뒤 한 가지 짧은 확인 질문을 내고, 틀리면 끊긴 연결을 찾아 다른 사례로 다시 설명한다.",
+        "필수 기억 자료와 다음 확인 자료를 비서가 만든다. 사용자에게 학습법을 실행할 준비 작업을 떠넘기지 않는다."
+      ],
+      "deliverable": "lesson_packet_contract에 맞는 실제 설명 묶음",
+      "check_or_next": "목표에 필요한 이해·회상·적용의 관찰 결과를 구분해 기록하고 다음 자료를 정한다.",
+      "limits": [
+        "모든 자료를 한 번에 길게 쏟지 않고 현재 막힌 단위부터 제공한다.",
+        "정답을 제시한 직후 같은 정답의 반복을 독립 이해로 판정하지 않는다.",
+        "세부 대화 순서와 확인 문항 설계는 src를 토대로 한 비서 설계 확장이다."
+      ],
+      "evidence": [
+        "g4QlY3eZP3M:141-281",
+        "2VAPxqnPGrM:9-43",
+        "ciMdEAqKH7M:43-99",
+        "fy0SHDX1Uxk:97-124"
+      ],
+      "calibrated_delivery": {
+        "first_line": "이번 개념은 [시험 근거]에 따라 [행동]을 [정확도·시간 조건]으로 할 수 있으면 된다. 미확인 부분은 별도로 밝힌다.",
+        "then": [
+          "비서가 쉬운 상황과 필요한 선행지식을 직접 설명",
+          "요구 수준에 필요한 이유·조건·예시 제공",
+          "필수 기억 대상과 이해로 복원할 부분 구분",
+          "작은 확인 질문 하나 제공",
+          "응답을 보고 재설명·암기·적용 중 다음 단계 결정"
+        ],
+        "avoid": "공부법 이름이나 자료 정리 숙제만 주고 실제 개념 설명을 생략하는 응답",
+        "understanding_floor": "요구 수준을 낮추더라도 정답에 필요한 이유와 구별 조건은 설명한다. 반대로 목표와 무관한 증명·세부를 무조건 필수로 요구하지 않는다."
+      },
+      "supplied_material_bindings": {
+        "report": "target_analysis/analysis_report.html",
+        "question_ledger": "target_analysis/question_ledger.json",
+        "learning_routes": "target_analysis/topic_learning_routes.json",
+        "quality_issues": "target_analysis/quality_issues.json",
+        "assistant_flow": "target_analysis/study_assistant_flow.json",
+        "worked_lessons": "target_analysis/worked_lessons.json",
+        "completion_audit": "target_analysis/completion_audit.json",
+        "cross_chapter_links": "target_analysis/cross_chapter_links.json",
+        "omission_audit": "target_analysis/omission_audit.json",
+        "supplemental_evidence": "target_analysis/supplemental_evidence.json",
+        "source_page_index": "target_analysis/source_page_index.json",
+        "publisher_exam_context": "target_analysis/publisher_exam_context.json",
+        "ocr_recoveries": "target_analysis/ocr_recoveries.json"
+      }
+    },
+    {
+      "id": "R25",
+      "name": "마무리 단계에서 통합·압축하되 원래 범위를 추적",
+      "when": "기초 이해가 갖춰졌고 시험 전 반복 범위를 정리할 때",
+      "assistant_actions": [
+        "흩어진 설명과 교재의 연결을 기준 자료에 통합한다.",
+        "이미 안정적인 부분과 불확실한 부분을 구분하고 다시 볼 수 있도록 출처를 남긴다.",
+        "반복할 때 구조·단서·쟁점 중심으로 시간을 줄이되 R18의 유지 확인과 R23의 보류 항목을 점검한다.",
+        "기준 자료는 시험과 자료에 따라 교재·문제집·개념 지도 중 선택할 수 있다. 새 설명과 기존 지식의 연결을 우선한다."
+      ],
+      "deliverable": "원자료와 연결된 최종 요약, 잔여 쟁점, 확인 순서",
+      "check_or_next": "미해결 선행지식이나 중요한 범위가 남으면 압축만 반복하지 않고 보충한다.",
+      "limits": [
+        "마지막 단계의 빠른 회독을 첫 학습부터 요구하지 않는다.",
+        "강연자의 특이한 암기 속도나 페이지 수를 개인의 합격 기준으로 삼지 않는다."
+      ],
+      "evidence": [
+        "Zm9yPhGrWPs:155-246",
+        "VIiri54HNh8:171-186",
+        "fy0SHDX1Uxk:319-355",
+        "kI0r-A1bA4c:102-137"
+      ]
+    },
+    {
+      "id": "R26",
+      "name": "목차 질문과 답으로 구조화 독서 수행",
+      "when": "긴 글·교재·목차만 있는 자료를 이해하기 쉽게 바꿀 때",
+      "assistant_actions": [
+        "전체에서 현재 항목의 위치를 정하고 같은 수준·상위·하위 항목의 관계를 설명한다.",
+        "본문의 의미가 바뀌는 경계를 나누고 목차가 없으면 한 단어 또는 한 문장의 제목을 비서가 만든다.",
+        "제목을 질문으로 바꿔 본문에서 답을 찾고, 같은 뜻의 표현·이유·대비·보충을 구별해 연결한다.",
+        "중복 표현을 줄여 핵심 단서를 만들되 의미의 조건·부정·범위가 손상되지 않았는지 원문과 대조한다.",
+        "전체 구조→해당 가지→단서→세부 내용으로 복원하는 실제 설명과 확인 질문을 제공한다."
+      ],
+      "deliverable": "관계가 설명된 목차, 문단별 질문과 답, 핵심 단서, 원문 위치",
+      "check_or_next": "사용자가 관계와 이유를 설명하거나 새 사례를 구별할 수 있는지 확인. 색·위치만 기억하면 이해 미확인.",
+      "limits": [
+        "인쇄된 목차를 무조건 올바른 분류로 믿지 않으며 임시 재분류는 추정임을 표시한다.",
+        "본문에 없다는 이유만으로 사실이 없거나 다른 시대와 동일하다고 추론하지 않는다.",
+        "비서가 분석 자료를 준비하고 사용자에게 형광펜 작업이나 노트 제작을 필수 숙제로 주지 않는다."
+      ],
+      "evidence": [
+        "g1N1_GFniLE:17-252",
+        "Toa43mkjhl8:9-72",
+        "Yf1KLCQFb1Y:43-203",
+        "BN8ii2giqm0:30-195",
+        "y4fyL8vAdbs:47-238",
+        "Vrs0pLJdDnQ:90-257"
+      ]
+    },
+    {
+      "id": "R27",
+      "name": "익숙한 지식·이미지·이야기로 기억 단서 만들기",
+      "when": "이해한 내용을 기억하거나 추상적 관계를 재구성해야 할 때",
+      "assistant_actions": [
+        "기존에 아는 지식과 새 개념의 공통점·차이를 설명하고 의미가 보존되는 묶음을 만든다.",
+        "이야기·시간 순서·공간·크기·그림 중 관계를 잘 드러내는 단서를 선택한다.",
+        "기억용 이야기와 실제 인과 설명을 분리한다. 외부 사실이나 인과를 만들어야만 연결된다면 다른 단서로 바꾼다.",
+        "핵심 단서에서 필요한 내용이 실제로 회상되는지 확인하고 안 되면 단서를 수정한다.",
+        "두문자는 의미 있는 연결로 해결되지 않는 잔여 암기에 제한적으로 고려한다."
+      ],
+      "deliverable": "원문과 연결된 기억 단서, 단서가 복원하는 내용, 설명용 비유의 한계",
+      "check_or_next": "낯선 사례·조건에서도 맞게 복원하는지 확인하고 단순 친숙함과 구별한다.",
+      "limits": [
+        "사진처럼 완벽한 기억, 특정 기간의 효과, 뇌 용량 수치를 보장하지 않는다.",
+        "강연의 역사·생물·법률 사례를 별도 확인 없이 사실 자료로 사용하지 않는다.",
+        "가르칠 개념의 정확한 조건과 예외를 이야기의 편의를 위해 제거하지 않는다."
+      ],
+      "evidence": [
+        "m1eieNzRZrg:69-169",
+        "g1N1_GFniLE:121-252",
+        "Yf1KLCQFb1Y:157-203",
+        "Vrs0pLJdDnQ:222-257",
+        "99wv4aQQzFk:309-416"
+      ]
+    },
+    {
+      "id": "R28",
+      "name": "자료를 한 지식 체계로 연결하고 필요한 만큼만 기록",
+      "when": "교재·강의·해설·요약·카드가 흩어지거나 필사가 학습 시간을 차지할 때",
+      "assistant_actions": [
+        "목표와 자료에 따라 교재·문제집·개념 지도 중 기준 자료를 정한다. 물리적 한 권보다 동일 개념과 출처로 연결되는 것이 우선이다.",
+        "기존 자료에 없는 설명만 해당 위치에 추가하고, 핵심과 부연은 본문·각주·링크 등으로 구분한다.",
+        "앞뒤에 흩어진 같은 개념을 양방향으로 연결하고 충돌하는 설명은 근거와 함께 보류한다.",
+        "암기 카드·쟁점 노트·비서의 요약을 원문 위치에 연결한다. 실제 회상에 도움 되는 단서는 이해가 갖춰진 뒤 선택한다.",
+        "반복 필사 대신 설명·비교표·계산·짧은 단어·정확한 표기·실제 답안 연습처럼 목적이 있는 기록만 준비한다."
+      ],
+      "deliverable": "기준 자료와 원문 링크, 추가 설명, 질문·답·기억 단서, 남은 충돌",
+      "check_or_next": "정리량보다 재설명·회상·수행 결과와 다음 확인에 필요한 시간으로 평가한다.",
+      "limits": [
+        "색깔·밑줄 비율·종이/디지털 양식을 고정하지 않는다.",
+        "서브노트를 없애라는 발언을 사용자 파일 삭제로 실행하지 않는다. 중복은 연결·통합하고 원자료는 보존한다.",
+        "객관식에서도 필요한 계산·비교를 허용하고 서술형은 실제 표현의 정확성과 시간 내 작성도 확인한다.",
+        "책에 이미 쓰인 것의 반복 기록은 줄이되 이해를 위한 유용한 외부 표현까지 금지하지 않는다."
+      ],
+      "evidence": [
+        "zEjCIVxXYP8:29-365",
+        "-Dw8cMKTp5Q:19-100",
+        "C-NFMuUv59w:27-142",
+        "fsvUJB8kp8g:9-96",
+        "SxL8INrDni8:35-207",
+        "m1eieNzRZrg:55-65",
+        "m1eieNzRZrg:248-284",
+        "kI0r-A1bA4c:102-137"
+      ]
+    },
+    {
+      "id": "R29",
+      "name": "일반 원리와 구체 사례에 다른 이해 자료 제공",
+      "when": "판례·규정 적용·정책 판단처럼 원리와 사례가 섞인 개념을 받았을 때",
+      "assistant_actions": [
+        "원리 자체를 정하는 내용인지, 주어진 원리를 사실에 적용한 사례인지 구별한다. 한 자료에 둘 다 있으면 나눠 다룬다.",
+        "일반 원리는 쟁점→결론→이유·조건·예외의 연결로 풀어 설명한다.",
+        "구체 사례는 비슷한 유형을 묶고 결과를 가르는 사실을 대비표로 만든다.",
+        "객관식에서도 이유를 묻는지 확인하고, 서술형에서는 논거를 연결한 답변까지 준비한다.",
+        "사실 하나를 바꾼 사례로 원리의 적용 범위를 확인한다."
+      ],
+      "deliverable": "쟁점·결론·논거 표, 유형별 사실 대비, 조건 변경 질문",
+      "check_or_next": "결론만 외우거나 눈에 띄는 단어만 매칭하면 판단 근거로 돌아간다.",
+      "limits": [
+        "선례/재판례는 강연의 학습상 분류이며 모든 법체계를 보편적으로 둘로 나눈다는 주장이 아니다.",
+        "판결문에 없는 논거를 원문이 말한 것처럼 만들어 넣지 않는다.",
+        "최근 6개월 판례는 안 나온다 같은 시기 주장을 현 시험의 확정 규칙으로 사용하지 않는다.",
+        "실제 법률 내용은 별도 공식 근거와 적용 시점을 확인해야 한다."
+      ],
+      "evidence": [
+        "SqOrTT_sJ0E:1-126",
+        "Xj76M1SReGA:1-88",
+        "kI0r-A1bA4c:18-101",
+        "kI0r-A1bA4c:138-173"
+      ]
+    },
+    {
+      "id": "R30",
+      "name": "객관식의 근거 학습과 실전 확인 순서를 구분",
+      "when": "객관식에서 정확도는 나오지만 제한 시간 내 수행이 어려울 때",
+      "assistant_actions": [
+        "학습 단계에서는 선지별 근거와 바뀌면 오답이 되는 지점을 설명한다. 필요한 경우 OX를 특정 이해 보완에 사용한다.",
+        "실전 단계에서는 바로 근거가 떠오르는 문항과 시간이 더 필요한 문항을 구별하고 보류·복귀 순서를 준비한다.",
+        "기출 패턴은 먼저 살펴볼 후보 순서로만 사용하고, 질문의 요구·부정 표현·조건·자료와 일치하는지 확인한다.",
+        "패턴이 맞지 않거나 근거가 불명확하면 본문과 전체 선지를 검토하는 경로로 즉시 전환한다.",
+        "시간 배분·재검토 기준을 모의 수행의 정확도와 시간으로 조정한다."
+      ],
+      "deliverable": "선지별 근거 자료, 표시 없는 확인 문항, 제한 시간의 풀이·보류·재검토 순서",
+      "check_or_next": "확인 순서를 바꾼 뒤 오답이 늘면 속도 전략을 수정하고 근거 학습으로 복귀한다.",
+      "limits": [
+        "최근 두 번 같은 답이었다는 이유로 다음 정답 확률이나 출제 의도를 확정하지 않는다.",
+        "선지만 보면 항상 풀린다·낯선 단어가 답이다·확신 80%면 충분하다는 규칙을 사용하지 않는다.",
+        "예상 커트라인으로 버릴 문항 수를 확정하지 않는다. 점수·배점·감점 방식과 불확실성을 고려한다.",
+        "정답을 표시한 마지막 워밍업 자료는 독립 수행 측정 자료와 별도다."
+      ],
+      "evidence": [
+        "TIxGJZPFsyc:40-62",
+        "m1eieNzRZrg:275-340",
+        "XwkBBpbAErI:26-214"
+      ]
+    },
+    {
+      "id": "R31",
+      "name": "부분 회독의 목적과 자료 순서를 조정",
+      "when": "교재를 반복해서 읽는데 연결이 남지 않거나 범위가 커서 부담스러울 때",
+      "assistant_actions": [
+        "현재 단위에서 친숙함→핵심 개념→빠진 연결→세부·사례→압축과 짧은 회상의 목표를 나눠 자료를 제공한다.",
+        "개념의 설명이 뒤에 있으면 앞뒤를 연결해 보여주고 해결 못한 곳은 위치·이유·복귀 조건과 함께 R23에 남긴다.",
+        "쉬운 요약이 개관을 도우면 먼저 사용한다. 지나친 축약으로 이해를 막으면 예시와 본문을 먼저 설명한 뒤 요약한다.",
+        "느린 독해에는 억지 속독보다 중요한 질문과 구조를 미리 준비한다. 속도·반복량은 실제 이해와 시간을 보고 조정한다.",
+        "긴 사고 과제는 기본에서 응용까지 연결을 유지할 수 있는 단위로 묶고, 짧은 독립 기억 과제는 별도로 배치할 수 있다.",
+        "종료 전에 비서가 핵심을 다시 연결하고 사용자가 짧게 떠올릴 자료를 마련한다."
+      ],
+      "deliverable": "목적별 읽기·설명 순서, 연결을 보충한 자료, 보류 목록, 마무리 회상 질문",
+      "check_or_next": "회독 숫자가 아니라 현재 목표의 증거를 확인한다. 전체→부분→전체로 관계가 이어지는지 점검한다.",
+      "limits": [
+        "10회·30회·20분·무제한 시간을 고정하지 않는다. 연결이 안 풀리면 설명 방식·선행지식·자료 정확성을 점검한다.",
+        "작은 단위로 제공하는 것은 사용자의 전체 학습 목표에서 일부를 영구 제외한다는 뜻이 아니다.",
+        "끝에 10분 더 하면 영구 기억된다는 효과를 보장하지 않는다.",
+        "피로를 의지나 의학적 진단으로 단정하지 않는다. 수면 단축·불편하거나 위험한 자세를 학습법으로 권고하지 않는다."
+      ],
+      "evidence": [
+        "rN0z4OQC-80:1-424",
+        "po3EfwdInDE:23-108",
+        "zVuvWKPwXVQ:1-60",
+        "dkc7jbyWCic:12-180",
+        "99wv4aQQzFk:147-308"
+      ]
+    }
+  ],
+  "additional_dispatch": [
+    "Use R26 for actual title-question-answer reconstruction and R27 for verified memory cues.",
+    "Use R28 to keep source material, notes and assistant-generated cards linked.",
+    "Use R29 for general-principle versus concrete-case reasoning.",
+    "Use R30 only when timed multiple-choice performance is a goal.",
+    "Use R31 to choose reading stages, manageable units and return paths."
+  ],
+  "target_analysis_artifacts": {
+    "report": "target_analysis/analysis_report.html",
+    "question_ledger": "target_analysis/question_ledger.json",
+    "learning_routes": "target_analysis/topic_learning_routes.json",
+    "quality_issues": "target_analysis/quality_issues.json",
+    "assistant_flow": "target_analysis/study_assistant_flow.json",
+    "worked_lessons": "target_analysis/worked_lessons.json",
+    "completion_audit": "target_analysis/completion_audit.json",
+    "cross_chapter_links": "target_analysis/cross_chapter_links.json",
+    "omission_audit": "target_analysis/omission_audit.json",
+    "supplemental_evidence": "target_analysis/supplemental_evidence.json",
+    "source_page_index": "target_analysis/source_page_index.json",
+    "publisher_exam_context": "target_analysis/publisher_exam_context.json",
+    "ocr_recoveries": "target_analysis/ocr_recoveries.json"
+  },
+  "eval_system": {
+    "specification": "preparation/eval/eval_spec.json",
+    "exam_goal": "preparation/eval/exam_goal.json",
+    "item_contracts": "preparation/eval/item_contracts.json",
+    "topic_rubrics": "preparation/eval/topic_rubrics.json",
+    "report": "preparation/eval/eval_report.html",
+    "executable": "preparation/eval/evaluator.py",
+    "semantic_grader": "preparation/eval/semantic_grader.py",
+    "assistant_grader": "preparation/eval/assistant_grader.py",
+    "verification": "preparation/verification_20261013/verification_summary.json",
+    "current_claims": "preparation/verification_20261013/verified_claims.json",
+    "item_releases": "preparation/verification_20261013/item_releases.json"
+  },
+  "offline_learning_integration": {
+    "status": "offline_preparation_and_assistant_delivery; no learner mastery recorded",
+    "as_of": "2026-10-13",
+    "user_preference": "별도 유료 API 없이 직접 검토하고 공부법에 연결한다.",
+    "paid_api_authorized": false,
+    "guide": "preparation/learning_integration_20261014/topic_teaching_guide.json",
+    "all_item_routes": "preparation/learning_integration_20261014/question_learning_routes.json",
+    "question_only": "preparation/learning_integration_20261014/learner_questions.json",
+    "pattern_lessons": "preparation/learning_integration_20261014/pattern_lessons.json",
+    "status_report": "preparation/learning_integration_20261014/learning_status.json",
+    "report": "preparation/learning_integration_20261014/learning_report.html",
+    "use": "주제 선택→원문·교정근거 확인→검토된 실제설명·예제→답가린확인질문→실제응답의 첫오류에 맞춘 보완→나중 회상·새조건 확인. 응답 없으면 미관측.",
+    "source_gate": "보류 원문은 채점·확정 암기에서 제외하고 같은 주제의 승인 예제와 복귀조건을 연결한다.",
+    "persistence": "파일에 근거와 학습 경로를 보존한다. 모델 파라미터의 영구학습 또는 모든 변형의 성능 검증을 뜻하지 않는다."
+  }
+}

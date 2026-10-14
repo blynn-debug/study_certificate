@@ -1,0 +1,30 @@
+{
+  "source_id": "sharpe_ratio_1994",
+  "source_metadata": {
+    "id": "sharpe_ratio_1994",
+    "requested_url": "https://stanford.edu/~wfsharpe/art/sr/sr.htm",
+    "retrieved_url": "https://stanford.edu/~wfsharpe/art/sr/sr.htm",
+    "retrieved_at": "2026-10-13T15:45:22.205236+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 36128,
+    "content_sha256": "42c66fd4f17a2cbc75ca00d6cfeb91c3c1d1580ab09db79b91b346da4ec3d7c7",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "sharpe_ratio_1994:알파와잔차분산",
+      "source_id": "sharpe_ratio_1994",
+      "article": "알파와잔차분산",
+      "heading": "알파와잔차분산",
+      "text": "2. Treynor and Black showed that if\nresources are allocated optimally, the SR2 of a\nportfolio will equal the sum of the SR2 values for its\ncomponents. This follows from the fact that the optimal holding\nof a component will be proportional to the ratio of its mean\ndifferential return to the square of the standard deviation of\nits differential return. Thus, for example, components with\nnegative means should be held in negative amounts. In this\ncontext, the product of the mean return and the optimal holding\nwill always be positive. For completeness, it should be noted\nthat Treynor and Black used the term appraisal ratio to\nrefer to what we term here the SR2 of a component and\nthe term Sharpe Ratio to refer to the SR2 of\nthe portfolio, although other authors have used the latter term\nfor both the portfolio and its components.",
+      "start": 31271,
+      "end": 32105,
+      "sha256": "6c74bf87700899ee7c540ff9e7fd13227422b188b07e775e52b8efc66ad1667e"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

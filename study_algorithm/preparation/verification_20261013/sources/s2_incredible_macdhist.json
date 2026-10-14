@@ -1,0 +1,11 @@
+{
+  "id": "s2_incredible_macdhist",
+  "requested_url": "https://www.incrediblecharts.com/indicators/macd_histogram.php",
+  "retrieved_url": "https://www.incrediblecharts.com/indicators/macd_histogram.php",
+  "retrieved_at": "2026-10-13T17:20:47.454930+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "709aaa8ca6724171fbb5a359d88d05eb9080c6e33f347e32762bb367d97a363f",
+  "text_sha256": "3bf23eba0e1349a57ddcc8888c948d4cac1a13659c02df6660d6dffdd66ad421",
+  "status": "retrieved_not_claim_verified"
+}

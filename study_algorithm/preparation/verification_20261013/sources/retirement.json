@@ -1,0 +1,19 @@
+{
+  "id": "retirement",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284455&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284455&chrClsCd=010202&urlMode=lsInfoP&efYd=20260918&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:37.704174+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 35763,
+  "content_sha256": "bd6ecab620fd422ebfbaf37cc6e4f3e75d301ee11a2f8012e8a499defa741d2f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "9",
+      "18"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

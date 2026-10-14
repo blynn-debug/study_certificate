@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_ifrs10_overview",
+  "source_metadata": {
+    "id": "s1_ifrs10_overview",
+    "requested_url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-10-consolidated-financial-statements/",
+    "retrieved_url": "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-10-consolidated-financial-statements/",
+    "retrieved_at": "2026-10-13T16:25:02.665765+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 14662,
+    "content_sha256": "bfc7e887fcdda5356e2e84ae71a6e5c4b13de2f396c6e346e5101752b3e9f05c",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_ifrs10_overview:연결원칙",
+      "source_id": "s1_ifrs10_overview",
+      "article": "연결원칙",
+      "heading": "연결원칙",
+      "text": "IFRS 10 establishes principles for presenting and preparing consolidated financial statements when an entity controls one or more other entities. IFRS 10:\nrequires an entity (the parent) that controls one or more other entities (subsidiaries) to present consolidated financial statements;\ndefines the principle of control, and establishes control as the basis for consolidation;\nsets out how to apply the principle of control to identify whether an investor controls an investee and therefore must consolidate the investee;\nsets out the accounting requirements for the preparation of consolidated financial statements; and\ndefines an investment entity and sets out an exception to consolidating particular subsidiaries of an investment entity.\nConsolidated financial statements are financial statements that present the assets, liabilities, equity, income, expenses and cash flows of a parent and its subsidiaries as those of a single economic entity.",
+      "start": 5368,
+      "end": 6319,
+      "sha256": "362c8b6b569c2967bb398c5fa91c164d91a24032a929a5e22dede48c8c16ff7e"
+    }
+  ]
+}

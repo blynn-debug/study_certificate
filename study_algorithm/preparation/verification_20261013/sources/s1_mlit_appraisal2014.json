@@ -1,0 +1,17 @@
+{
+  "id": "s1_mlit_appraisal2014",
+  "requested_url": "https://www.mlit.go.jp/common/001043585.pdf",
+  "retrieved_url": "https://www.mlit.go.jp/common/001043585.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "downloaded_bytes": 853435,
+  "ssl_verify_result": 0,
+  "pdf_sha256": "ead666281b2675f6f97251d64b9e71d25f56be1c5c849a5bd1b5c98c7562fb4c",
+  "retrieved_at": "2026-10-13T23:52:39.137217+00:00",
+  "as_of": "2026-10-13",
+  "title": "日本国土交通省 不動産鑑定評価基準 平成26年5月1日改正",
+  "document_date": "2014-05-01",
+  "scope": "교재와 일치하는 학술적 분류의 독립원전 확인에만 사용. 한국의 현행 강제기준으로 간주하지 않음.",
+  "content_sha256": "dfa3e301d291373ef5919f5c338d054c2a267df839d633ff0ad01fd0a8010d68",
+  "characters": 68970
+}

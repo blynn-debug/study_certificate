@@ -1,0 +1,12 @@
+{
+  "id": "korea_sec_protection",
+  "requested_url": "https://www.trueelw.com/main/customer/guide/Guide.jsp?type=3",
+  "retrieved_url": "https://www.trueelw.com/main/customer/guide/Guide.jsp?type=3",
+  "retrieved_at": "2026-10-13T10:29:35.551002+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10972,
+  "content_sha256": "38400e32ff7bbf2a24bb9baebdc8f28f50648d6130a0f357380de96981046242",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

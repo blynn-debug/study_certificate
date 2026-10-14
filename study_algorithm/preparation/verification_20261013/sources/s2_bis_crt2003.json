@@ -1,0 +1,14 @@
+{
+  "id": "s2_bis_crt2003",
+  "requested_url": "https://www.bis.org/publications/cgfs-paper-20-credit-risk-transfer.pdf",
+  "retrieved_url": "https://www.bis.org/publications/cgfs-paper-20-credit-risk-transfer.pdf",
+  "retrieved_at": "2026-10-13T17:00:38.163922+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "527b8f7af043bdc1dd3be21ee92a001a206871a7703e0ba4460f36b9b0025dcd",
+  "binary_sha256": "527b8f7af043bdc1dd3be21ee92a001a206871a7703e0ba4460f36b9b0025dcd",
+  "text_sha256": "6cad0ee7083d187d8cfa021ba7c475158ea3b2e0567abbdd4fb7621c4053dd51",
+  "pages": 57,
+  "characters": 205563,
+  "status": "retrieved_not_claim_verified"
+}

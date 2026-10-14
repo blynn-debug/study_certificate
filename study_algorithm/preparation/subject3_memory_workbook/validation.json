@@ -1,0 +1,186 @@
+{
+  "pdf": "C:\\Users\\djliz\\study_certificate\\study_algorithm\\output\\3과목_목차암기_공부법과_반복학습_문제집.pdf",
+  "pages": 35,
+  "chapters": 9,
+  "topics": 152,
+  "topic_coverage": "All original topic numbers covered once in each chapter grouping",
+  "korean_text_extraction": "passed",
+  "page_overflow": "none",
+  "page_index": [
+    {
+      "page": 1,
+      "title": "3과목 목차 암기",
+      "key": "cover"
+    },
+    {
+      "page": 2,
+      "title": "9개 장을 3개 묶음으로",
+      "key": "overview"
+    },
+    {
+      "page": 3,
+      "title": "오늘 25분, 이후에는 가리고 복원",
+      "key": "method"
+    },
+    {
+      "page": 4,
+      "title": "1장 직무윤리",
+      "key": "chapter-1-0"
+    },
+    {
+      "page": 5,
+      "title": "2장 자본시장과 금융투자업에 관한 법률 및 금융위원회규정 (1/2)",
+      "key": "chapter-2-0"
+    },
+    {
+      "page": 6,
+      "title": "2장 자본시장과 금융투자업에 관한 법률 및 금융위원회규정 (2/2)",
+      "key": "chapter-2-1"
+    },
+    {
+      "page": 7,
+      "title": "3장 한국금융투자협회규정",
+      "key": "chapter-3-0"
+    },
+    {
+      "page": 8,
+      "title": "4장 주식투자운용/투자전략",
+      "key": "chapter-4-0"
+    },
+    {
+      "page": 9,
+      "title": "5장 채권투자운용/투자전략",
+      "key": "chapter-5-0"
+    },
+    {
+      "page": 10,
+      "title": "6장 파생상품투자운용/투자전략",
+      "key": "chapter-6-0"
+    },
+    {
+      "page": 11,
+      "title": "7장 투자운용결과분석",
+      "key": "chapter-7-0"
+    },
+    {
+      "page": 12,
+      "title": "8장 거시경제",
+      "key": "chapter-8-0"
+    },
+    {
+      "page": 13,
+      "title": "9장 분산투자기법",
+      "key": "chapter-9-0"
+    },
+    {
+      "page": 14,
+      "title": "연습 A · 보기와 함께 전체 지도 만들기",
+      "key": "exercise-a"
+    },
+    {
+      "page": 15,
+      "title": "연습 B · 순서와 경계 구별하기",
+      "key": "exercise-b"
+    },
+    {
+      "page": 16,
+      "title": "1장 목차 복원 문제지",
+      "key": "worksheet-1-0"
+    },
+    {
+      "page": 17,
+      "title": "2장 목차 복원 문제지 (1/2)",
+      "key": "worksheet-2-0"
+    },
+    {
+      "page": 18,
+      "title": "2장 목차 복원 문제지 (2/2)",
+      "key": "worksheet-2-1"
+    },
+    {
+      "page": 19,
+      "title": "3장 목차 복원 문제지",
+      "key": "worksheet-3-0"
+    },
+    {
+      "page": 20,
+      "title": "4장 목차 복원 문제지",
+      "key": "worksheet-4-0"
+    },
+    {
+      "page": 21,
+      "title": "5장 목차 복원 문제지",
+      "key": "worksheet-5-0"
+    },
+    {
+      "page": 22,
+      "title": "6장 목차 복원 문제지",
+      "key": "worksheet-6-0"
+    },
+    {
+      "page": 23,
+      "title": "7장 목차 복원 문제지",
+      "key": "worksheet-7-0"
+    },
+    {
+      "page": 24,
+      "title": "8장 목차 복원 문제지",
+      "key": "worksheet-8-0"
+    },
+    {
+      "page": 25,
+      "title": "9장 목차 복원 문제지",
+      "key": "worksheet-9-0"
+    },
+    {
+      "page": 26,
+      "title": "최종 점검 ① · 전체 목차와 위치",
+      "key": "final-1"
+    },
+    {
+      "page": 27,
+      "title": "최종 점검 ② · 장 안의 구조 (1/2)",
+      "key": "final-2-1"
+    },
+    {
+      "page": 28,
+      "title": "최종 점검 ② · 장 안의 구조 (2/2)",
+      "key": "final-2-2"
+    },
+    {
+      "page": 29,
+      "title": "정답 · 연습 A와 B",
+      "key": "answer-ab"
+    },
+    {
+      "page": 30,
+      "title": "정답 · 1~3장 관계 회상",
+      "key": "answer-c-1"
+    },
+    {
+      "page": 31,
+      "title": "정답 · 4~6장 관계 회상",
+      "key": "answer-c-4"
+    },
+    {
+      "page": 32,
+      "title": "정답 · 7~9장 관계 회상",
+      "key": "answer-c-7"
+    },
+    {
+      "page": 33,
+      "title": "정답 · 최종 점검",
+      "key": "answer-final"
+    },
+    {
+      "page": 34,
+      "title": "반복 기록 · 목표를 달성할 때까지",
+      "key": "tracking"
+    },
+    {
+      "page": 35,
+      "title": "참조 자료와 적용 범위",
+      "key": "sources"
+    }
+  ]
+}

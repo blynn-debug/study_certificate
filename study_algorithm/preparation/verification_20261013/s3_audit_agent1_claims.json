@@ -1,0 +1,67 @@
+{
+  "claims": [
+    {
+      "id": "S3A1001",
+      "topic_ids": [
+        "S3C2T21"
+      ],
+      "verified_statement": "투자신탁·투자익명조합 집합투자업자는 분기 영업보고서를 분기 종료 후 2개월 이내, 회계기간 종료·계약 또는 존속기간 종료·해지 또는 해산의 결산서류를 사유 발생일부터 2개월 이내 금융위원회 및 협회에 제출한다.",
+      "article_refs": [
+        "capital:제90조"
+      ],
+      "issue_ids": [],
+      "scope_limit": "제90조제1항과 제2항의 보고서·결산서류 및 제출기산일을 구분한다.",
+      "effect": "confirmed",
+      "as_of": "2026-10-13",
+      "status": "claim_verified_against_official_text",
+      "method": "reviewer_read_current_article_and_scoped_the_claim",
+      "reviewer": "codex_assistant",
+      "independent_human_review": false,
+      "whole_item_release": false
+    },
+    {
+      "id": "S3A1002",
+      "topic_ids": [
+        "S3C1T05",
+        "S3C1T09"
+      ],
+      "verified_statement": "표준윤리준칙 제3조는 법규준수, 제4조는 정직·신뢰·신의성실에 입각한 충실업무, 제8조는 상호존중·원활한 소통·협조, 제13조는 회사품위·사회적 신뢰 훼손금지를 규정한다.",
+      "article_refs": [
+        "kofia_ethics:제3조",
+        "kofia_ethics:제4조",
+        "kofia_ethics:제8조",
+        "kofia_ethics:제13조"
+      ],
+      "issue_ids": [],
+      "scope_limit": "제7조 자기혁신과 네 보기의 명칭을 구별한다. 특정 형사제재의 자동성립 주장이 아니다.",
+      "effect": "confirmed",
+      "as_of": "2026-10-13",
+      "status": "claim_verified_against_official_text",
+      "method": "reviewer_read_current_article_and_scoped_the_claim",
+      "reviewer": "codex_assistant",
+      "independent_human_review": false,
+      "whole_item_release": false
+    },
+    {
+      "id": "S3A1003",
+      "topic_ids": [
+        "S3C1T10"
+      ],
+      "verified_statement": "표준내부통제기준 제53조는 회사경영·재무건전성 등에 중대한 영향을 미칠 수 있는 미공개 정보를 기록형태·유무와 관계없이 비밀정보로 본다. 제55조는 필요성이 인정되는 경우에 한하여 회사의 사전승인절차에 따라 제공하도록 한다.",
+      "article_refs": [
+        "kofia_ethics:제6조",
+        "kofia_internal_control:제53조",
+        "kofia_internal_control:제55조"
+      ],
+      "issue_ids": [],
+      "scope_limit": "불명확한 정보의 확인 전 비밀관리는 제54조제3항으로 별도 확인하며, 미공개 조건을 생략하지 않는다.",
+      "effect": "confirmed",
+      "as_of": "2026-10-13",
+      "status": "claim_verified_against_official_text",
+      "method": "reviewer_read_current_article_and_scoped_the_claim",
+      "reviewer": "codex_assistant",
+      "independent_human_review": false,
+      "whole_item_release": false
+    }
+  ]
+}

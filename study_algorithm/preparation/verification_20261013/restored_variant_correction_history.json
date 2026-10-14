@@ -1,0 +1,22 @@
+{
+  "reason": "Parallel duplicate variant was withdrawn; its correction is preserved here. Original defect remains covered by C024; baseline approved variant retained unchanged.",
+  "items": [
+    {
+      "id": "R-S2C2T02-CORE",
+      "item_ids": [
+        "S2C2T02-CORE"
+      ],
+      "refs": [
+        "P12:281"
+      ],
+      "claim_ids": [
+        "L121",
+        "L125"
+      ],
+      "classification": "individually_reviewed_source_correction",
+      "finding": "유동주식 가중과 시가총액 가중이 배타적이라는 원문 오류를 수정했다. MSCI 지수종류100개 단정 및 USD만 있다는 표현도 제거했다.",
+      "learner_treatment": "원문의 오류는 학습자에게 감점하지 않는다. 조건과 정답을 검토한 수정 문항에 한해 채점한다.",
+      "original_exam_answer_impact": "corrected_variant_only_original_not_retroactively_approved"
+    }
+  ]
+}

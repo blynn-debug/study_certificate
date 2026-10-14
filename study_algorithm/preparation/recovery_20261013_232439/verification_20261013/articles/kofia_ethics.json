@@ -1,0 +1,187 @@
+{
+  "source_id": "kofia_ethics",
+  "header": "금융투자협회 법규정보시스템 | 금융투자회사의 표준윤리준칙 | 규정내용\n금융투자회사의 표준윤리준칙\n",
+  "current_body_end": 1627,
+  "supplementary_provisions": "",
+  "count": 16,
+  "items": [
+    {
+      "id": "kofia_ethics:제1조",
+      "source_id": "kofia_ethics",
+      "article": "제1조",
+      "heading": "제1조(목적)",
+      "text": "제1조(목적)\n이 준칙은 금융투자회사(이하 \"회사\"라 한다)의 윤리경영 실천 및 임직원의 올바른 윤리의식 함양을 통해 금융인으로서의 책임과 의무를 성실히 수행하고, 투자자를 보호하여 자본시장의 건전한 발전 및 국가경제 발전에 기여함을 목적으로 한다.",
+      "start": 54,
+      "end": 194,
+      "sha256": "b3d5f52066fa3f87f2a9f3bbe9c40130c1b71495d9d7662cfbefb3a2f2a13c81"
+    },
+    {
+      "id": "kofia_ethics:제2조",
+      "source_id": "kofia_ethics",
+      "article": "제2조",
+      "heading": "제2조(고객우선)",
+      "text": "제2조(고객우선)\n회사와 임직원은 항상 고객의 입장에서 생각하고 고객에게 보다 나은 금융서비스를 제공하기 위해 노력하여야 한다.",
+      "start": 194,
+      "end": 266,
+      "sha256": "4e3094440bbe6f0d6954bd085dae47cf8f36ba69d78a0ea4efd86c1c72d5b61c"
+    },
+    {
+      "id": "kofia_ethics:제3조",
+      "source_id": "kofia_ethics",
+      "article": "제3조",
+      "heading": "제3조(법규준수)",
+      "text": "제3조(법규준수)\n회사와 임직원은 업무를 수행함에 있어 관련 법령 및 제 규정을 이해하고 준수하여야 한다.",
+      "start": 266,
+      "end": 326,
+      "sha256": "c7f78b1b51287bba5059c7a264152fcb74da846b8b5595668fb5adf57796c2c5"
+    },
+    {
+      "id": "kofia_ethics:제4조",
+      "source_id": "kofia_ethics",
+      "article": "제4조",
+      "heading": "제4조(신의성실)",
+      "text": "제4조(신의성실)\n회사와 임직원은 정직과 신뢰를 가장 중요한 가치관으로 삼고 신의성실의 원칙에 입각하여 맡은 업무를 충실히 수행하여야 한다.",
+      "start": 326,
+      "end": 405,
+      "sha256": "37f2e78a543ebde13c84dc4f76e0ed026323849879f35dd330708e1400ff5dfa"
+    },
+    {
+      "id": "kofia_ethics:제5조",
+      "source_id": "kofia_ethics",
+      "article": "제5조",
+      "heading": "제5조(시장질서 존중)",
+      "text": "제5조(시장질서 존중)\n회사와 임직원은 공정하고 자유로운 시장경제 질서를 존중하고, 이를 유지하기 위하여 노력하여야 한다.",
+      "start": 405,
+      "end": 474,
+      "sha256": "f3f90e4c298c6c6bd197439d2762089638be4860f732379a8e3013a7629d0782"
+    },
+    {
+      "id": "kofia_ethics:제6조",
+      "source_id": "kofia_ethics",
+      "article": "제6조",
+      "heading": "제6조(정보보호)",
+      "text": "제6조(정보보호)\n회사와 임직원은 업무수행 과정에서 알게 된 회사의 업무정보와 고객정보를 안전하게 보호하고 관리하여야 한다.",
+      "start": 474,
+      "end": 544,
+      "sha256": "b6f0b4edc3eff3e180f187b43a267d4a7849f684807bb2f7b8c3cf3929c676d9"
+    },
+    {
+      "id": "kofia_ethics:제7조",
+      "source_id": "kofia_ethics",
+      "article": "제7조",
+      "heading": "제7조(자기혁신)",
+      "text": "제7조(자기혁신)\n회사와 임직원은 경영환경 변화에 유연하게 적응하기 위하여 창의적 사고를 바탕으로 끊임없이 자기혁신에 힘써야 한다.",
+      "start": 544,
+      "end": 618,
+      "sha256": "1abd44c89a92b76694809e5bc07e6b308a98e05bddd9aa1e55e1ecd9c46881f2"
+    },
+    {
+      "id": "kofia_ethics:제8조",
+      "source_id": "kofia_ethics",
+      "article": "제8조",
+      "heading": "제8조(상호존중)",
+      "text": "제8조(상호존중)\n회사는 임직원 개개인의 자율과 창의를 존중하고 삶의 질 향상을 위하여 노력하여야 하며, 임직원은 서로를 존중하고 원활한 의사소통과 적극적인 협조 자세를 견지하여야 한다.",
+      "start": 618,
+      "end": 723,
+      "sha256": "67a37a55e85c0900a5a171808a7646067caa2d5d08444d8ff64bd578cba7b79a"
+    },
+    {
+      "id": "kofia_ethics:제9조",
+      "source_id": "kofia_ethics",
+      "article": "제9조",
+      "heading": "제9조(주주가치 극대화)",
+      "text": "제9조(주주가치 극대화)\n회사와 임직원은 합리적인 의사결정과 투명한 경영활동을 통하여 주주와 기타 이해관계자의 가치를 극대화하기 위하여 최선을 다하여야 한다.",
+      "start": 723,
+      "end": 812,
+      "sha256": "6246aceb908df8611c40a400ae2c4f6a426e7cc741ce6143b8d450b390e73a92"
+    },
+    {
+      "id": "kofia_ethics:제10조",
+      "source_id": "kofia_ethics",
+      "article": "제10조",
+      "heading": "제10조(사회적 책임)",
+      "text": "제10조(사회적 책임)\n회사와 임직원 모두 시민사회의 일원임을 인식하고, 사회적 책임과 역할을 다하여야 한다.",
+      "start": 812,
+      "end": 874,
+      "sha256": "4bc203c91f9a4094792c14f9500b7d03fce98ca804dd6f2ea68c432e3134b33f"
+    },
+    {
+      "id": "kofia_ethics:제11조",
+      "source_id": "kofia_ethics",
+      "article": "제11조",
+      "heading": "제11조(경영진의 책임)",
+      "text": "제11조(경영진의 책임)\n회사의 경영진은 직원을 대상으로 윤리교육을 실시하는 등 올바른 윤리문화 정착을 위하여 노력하여야 한다.",
+      "start": 874,
+      "end": 946,
+      "sha256": "395c105a4f09c4ade9d22b194fcf63a854097671d8cecd02f1557f8e20e6f527"
+    },
+    {
+      "id": "kofia_ethics:제12조",
+      "source_id": "kofia_ethics",
+      "article": "제12조",
+      "heading": "제12조(위반행위의 보고)",
+      "text": "제12조(위반행위의 보고)\n임직원은 업무와 관련하여 법규 또는 윤리강령의 위반 사실을 발견하거나 그 가능성을 인지한 경우, 회사가 정하는 절차에 따라 즉시 보고하여야 한다.",
+      "start": 946,
+      "end": 1043,
+      "sha256": "89f03aea153dfa0646ae1dfc065a77645520c9e624eb05e12449ac185ce5be38"
+    },
+    {
+      "id": "kofia_ethics:제13조",
+      "source_id": "kofia_ethics",
+      "article": "제13조",
+      "heading": "제13조(품위유지)",
+      "text": "제13조(품위유지)\n임직원은 회사의 품위나 사회적 신뢰를 훼손할 수 있는 일체의 행위를 하여서는 아니 된다.",
+      "start": 1043,
+      "end": 1104,
+      "sha256": "2ac69fe8ea69e2000754c59ef2ecf3ad073372e240f91243dac8cb6234b013b8"
+    },
+    {
+      "id": "kofia_ethics:제14조",
+      "source_id": "kofia_ethics",
+      "article": "제14조",
+      "heading": "제14조(사적이익 추구금지)",
+      "text": "제14조(사적이익 추구금지)\n임직원은 회사의 재산을 부당하게 사용하거나 자신의 지위를 이용하여 사적 이익을 추구하여서는 아니 된다.",
+      "start": 1104,
+      "end": 1178,
+      "sha256": "bed148c833eeff34d7599d9365223667bdb89335b731ebfdfbbf9e05f4584929"
+    },
+    {
+      "id": "kofia_ethics:제15조",
+      "source_id": "kofia_ethics",
+      "article": "제15조",
+      "heading": "제15조(고용계약 종료 후의 의무)",
+      "text": "제15조(고용계약 종료 후의 의무)\n임직원은 회사를 퇴직하는 경우 업무관련 자료의 반납 등 적절한 후속조치를 취하여야 하며, 퇴직 이후에도 회사와 고객의 이익을해하는 행위를 하여서는 아니된다.",
+      "start": 1178,
+      "end": 1286,
+      "sha256": "acfd8c0f75b4afd7ffd3e9f1db32ad495962480af36f23176b5b1376ae9519a1"
+    },
+    {
+      "id": "kofia_ethics:제16조",
+      "source_id": "kofia_ethics",
+      "article": "제16조",
+      "heading": "제16조(대외활동)",
+      "text": "제16조(대외활동)\n임직원이 외부강연이나 기고, 언론매체 접촉, Social Network Service(SNS) 등 전자통신수단을 이용한 대외활동을 하는 경우 다음 각 호의 사항을 준수하여야 한다.\n1.  회사의 공식의견이 아닌 경우 사견임을 명백히 표현하여야 한다.\n2.  대외활동으로 인하여 회사의 주된 업무 수행에 지장을 주어서는 아니 된다.\n3.  대외활동으로 인하여 금전적인 보상을 받게 되는 경우 회사에 신고하여야 한다.\n4.  공정한 시장질서를 유지하고 건전한 투자문화 조성을 위해 최대한 노력하여야 한다.\n5.  불확실한 사항을 단정적으로 표현하거나 다른 금융투자회사를 비방하여서는 아니 된다.",
+      "start": 1286,
+      "end": 1627,
+      "sha256": "7f24e99f6faf51be49a90e50ed2fddff874481f9fd52eeb563ed34689a8ba936"
+    }
+  ],
+  "warning": "별표·별지는 별도 파일일 수 있다. 본문 인덱스 존재는 검증 완료를 뜻하지 않는다.",
+  "source_metadata": {
+    "id": "kofia_ethics",
+    "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1048&seq=154",
+    "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1048&seq=154",
+    "retrieved_at": "2026-10-13T00:04:50.228513+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 1627,
+    "content_sha256": "ac5ead10ac41b687d195d27444f461842a9f2df11ddd5d7648edb8a4a3a0bd45",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [],
+    "name": "금융투자회사의 표준윤리준칙",
+    "kofia_seq": "154",
+    "history_seq": "1048",
+    "version_selection": "공식 최신본; 부칙의 시행조건 별도 확인",
+    "version_selection_source": "sources/kofia_tree.html"
+  }
+}

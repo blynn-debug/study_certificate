@@ -1,0 +1,36 @@
+{
+  "source_id": "kofia_isa_trust",
+  "source_metadata": {
+    "id": "kofia_isa_trust",
+    "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1615&seq=316",
+    "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1615&seq=316",
+    "retrieved_at": "2026-10-13T00:01:47.589684+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 26385,
+    "content_sha256": "71f5b2dd04bf1e36edae05b3c5dc0659fbe4c883861a35b163706e54d0fcf997",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [],
+    "name": "신탁형 개인종합자산관리계좌 실무지침",
+    "kofia_seq": "316",
+    "history_seq": "1615",
+    "version_selection": "official_current_law_tree; effective clauses require review",
+    "version_selection_source": "sources/kofia_tree.html",
+    "text_extractor_version": "2_preserve_statutory_image_alt"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kofia_isa_trust:신탁형운용자산정의",
+      "source_id": "kofia_isa_trust",
+      "article": "신탁형운용자산정의",
+      "heading": "신탁형운용자산정의",
+      "text": "2. 용어의 정의\n이 실무지침에서 사용하는 용어의 정의는 다음과 같다. 다만, 이 실무지침에서 정하지 아니한 용어는 관계법령등에서 정하는 바에 따른다.\n1)  \"집합투자증권\"이란 「소득세법」제17조제1항제5호에 따른 집합투자기구의 집합투자증권을 말한다.\n2)  \"파생결합증권\"이란 「소득세법」제17조제1항제10호에 따라 과세되는 증권 또는 증서를 말한다.\n3)  \"주식\"이란「소득세법」제88조제3호에 따른 주권상장법인의 주식을 말한다.\n4)  \"금융상품\"이란 예금·적금·예탁금, 주식, 집합투자증권, 파생결합증권, 조특법 시행령 제93조의4제7항제1호에 따른 예치금, 조특법 시행령 제93조의4제7항제2호에 따른 환매조건부로 매매하는 채권 또는 증권, 「부동산투자회사법」제2조제3호가목 중 부동산투자회사의 주식, 주식을 통해 취득한 법 제165조의6제3항에 따른 신주인수권 증서를 을 말한다.\n5)  \"적정성 원칙 대상상품\"이란 다음의 어느 하나에 해당하는 금융상품을 말한다.\n가.  금소법시행령 제12조제1항제2호 각 목의 금융투자상품\n나.  금소법시행령 제12조제1항제3호 각 목의 대출성 상품\n※ 회사참고사항 2-1\n▶ 이 실무지침에서 사용하는 \"파생결합증권\"의 정의와 금소법시행령 제12조제1항제2호가목에 따른 파생결합증권\"의 정의가 다름에 유의\n6)  \"고난도 투자신탁상품\"이란 금융위원회가 정하여 고시하는 방법으로 산정한 최대 원금손실 가능금액이 원금의 100분의 20을 초과하는 금전신탁계약 중 그 운용방법 및 그에 따른 위험을 투자자가 이해하기 어렵다고 인정되는 것으로서 금융위원회가 정하여 고시하는 기준에 해당하는 금전신탁계약을 말한다.  ☞ 법시행령 제2조제9호, 규정 제1-2의4제7항\n7)  \"채권\"이란 「소득세법」제16조제1항제1호 및 제2호에 따른 채권을 말한다.\n8)  \"K-OTC주식\"이란 협회가 행하는 법 제286조제1항제5호에 따른 장외매매거래를 통해 거래되는 다음의 어느 하나에 해당하는 주식을 말한다.\n가.  「중소기업기본법」제2조에 따른 중소기업의 주식\n나.  조특법 시행령 제6조의4제1항에 따른 중견기업의 주식",
+      "start": 668,
+      "end": 1705,
+      "sha256": "494a97fbbe349f8cca9f0e3f90c467f4e0017e3da71b01c1578c56f247836efc"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

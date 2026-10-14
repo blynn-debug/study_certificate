@@ -1,0 +1,20 @@
+{
+  "id": "s1_reits_sep2025",
+  "requested_url": "https://reits.molit.go.kr/pub/chart/searchChart01_1",
+  "retrieved_url": "https://reits.molit.go.kr/pub/chart/searchChart01_1",
+  "http_status": 200,
+  "http_complete": true,
+  "downloaded_bytes": 4724,
+  "http_content_length": null,
+  "request_method": "POST",
+  "request_parameters": {
+    "toYearMt": "20250901"
+  },
+  "as_of": "2026-10-13",
+  "retrieved_at": "2026-10-13T23:49:10.672238+00:00",
+  "content_sha256": "642379607b255f2d8472b4d4a3440215aef51eef3049980f00ffbc6252e238be",
+  "title": "국토교통부 리츠정보시스템 유형별 리츠 수 및 자산총계: 검색년도2025년9월",
+  "scope": "공개현황통계의2025년9월 선택 결과. 2026년10월 현재규모로 일반화하지 않음.",
+  "request_mapping_evidence": "s1_reits_chart_live.html fn_search1: selected toYearMt=YYYYMM에01을 덧붙여 searchChart01_1 POST; fn_print1 제목은 선택연월",
+  "characters": 4536
+}

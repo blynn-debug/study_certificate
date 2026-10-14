@@ -1,0 +1,13 @@
+{
+  "id": "wgbi_april2026",
+  "requested_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/fixed-income-country-classification-march-2026-results.pdf",
+  "retrieved_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/fixed-income-country-classification-march-2026-results.pdf",
+  "retrieved_at": "2026-10-13T01:03:08.232582+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "6a7844b0aaaee03b65158256da0e172a6fa711969259e368a04a7bbf221c45d3",
+  "text_sha256": "ec1262535613d4e88eb67267fd2e5c82a7626abe5d1931c698fc9c0cd451337c",
+  "binary_sha256": "6a7844b0aaaee03b65158256da0e172a6fa711969259e368a04a7bbf221c45d3",
+  "pages": 7,
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "s2_bis_mar10",
+  "requested_url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/10/inforce/2023-01-01/published/2020-03-27",
+  "retrieved_url": "https://www.bis.org/committees/bcbs/basel-framework/standard/mar/10/inforce/2023-01-01/published/2020-03-27",
+  "retrieved_at": "2026-10-13T16:05:42.735068+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "2632179018941a0e343e37a2c7dc4bf05245b16edc062f814286a225f4dd57a7",
+  "text_sha256": "7a0e965ff2222e84ea51d0d21ee05b87a0d131e95cd01b0b5d2681a1b85e0638",
+  "status": "retrieved_not_claim_verified"
+}

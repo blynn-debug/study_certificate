@@ -1,0 +1,18 @@
+{
+  "scope": "직접 산술 검산; 모든 원문의 정확성 증명 아님",
+  "results": {
+    "annual_compound": 12597.12,
+    "quarterly_compound": 12682.417945625455,
+    "coupon_price_y04": 10555.018206645425,
+    "duration_y04": 2.8381262970649273,
+    "convexity_3yr": 8.93983826535146,
+    "convexity_2yr": 4.764913849242084,
+    "convexity_inverse": 41.99999999999995,
+    "convexity_contribution": 0.000238,
+    "discount_1yr61days": 9578.5244233921,
+    "forward_1_2": 0.036008737864077434,
+    "forward_2_3": 0.12113919544321816,
+    "spot_inverse": 0.047008547008547064,
+    "net_asset_after_shock": 69.61538461538461
+  }
+}

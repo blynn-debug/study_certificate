@@ -1,0 +1,18 @@
+{
+  "id": "kofia_personnel_details",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1507&seq=139",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1507&seq=139",
+  "retrieved_at": "2026-10-13T00:01:47.039708+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 8704,
+  "content_sha256": "ae619afe52d08e4151ba998e31d2c4a3df0444056e6377a30b3d329fdd741f78",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자전문인력과 자격시험에 관한 규정 시행세칙",
+  "kofia_seq": "139",
+  "history_seq": "1507",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

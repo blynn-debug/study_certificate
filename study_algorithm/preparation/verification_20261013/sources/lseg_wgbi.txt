@@ -1,0 +1,486 @@
+FTSE World Government Bond Index (WGBI) Series | LSEG
+Skip navigation
+LSEG
+Data & Analytics
+FTSE Russell
+London Stock Exchange
+FX
+Post Trade
+Risk Intelligence
+Our businesses
+LSEG
+LSEG
+Data & Analytics
+FTSE Russell
+London Stock Exchange
+FX
+Post Trade
+Risk Intelligence
+FTSE Russell
+Benchmarks and Indices
+FTSE World Government Bond Index (WGBI) Series
+FTSE World Government Bond Index (WGBI) Series
+Measures the performance of fixed-rate, local currency, investment-grade sovereign bonds from 20+ countries.
+Request details
+Overview
+Overview
+WGBI Ecosystem
+Video
+WGBI Timeline
+Key resources
+Research and Insights
+Request details
+The FTSE World Government Bond Index (WGBI) is the recognised leading benchmark for global treasury exposure, widely followed by major fund managers and institutional investors seeking diversified sovereign debt allocations. It measures the performance of fixed-rate, local currency, investment-grade government bonds from over 20 countries, denominated in multiple currencies, and offers more than 40 years of historical data for robust trend analysis.
+The WGBI provides comprehensive coverage of the global sovereign fixed income market, making it a cornerstone for portfolio construction and risk management. Its modular design enables investors to tailor exposure through sub-indices by country, currency, maturity, and credit rating, supporting precise benchmarking and strategic allocation decisions.
+Beyond its role as a benchmark, the FTSE WGBI underpins a range of innovative investment solutions. These include sustainable fixed income strategies and smart beta overlays, allowing investors to integrate ESG objectives or factor-based approaches without sacrificing global sovereign exposure. This flexibility positions the WGBI as a critical tool for meeting evolving portfolio mandates and capturing long-term opportunities in government bond markets.
+Below are examples of the WGBI ecosystem:
+Useful links
+Index-linked products
+FTSE World Government Bond Index 2026 Q3 Quarterly Performance review
+910.7KB
+•
+PDF
+Research report: FTSE World Government Bond Index (WGBI): A global standard for the sovereign debt markets
+2.0MB
+•
+PDF
+Japanese WGBI website
+WGBI Ecosystem
+Market-cap WGBI
+Sustainable investment WGBI
+Alternatively weighted WGBI
+Bespoke WGBI
+The FTSE Ecosystem
+FTSE World Government Bond Index (FTSE WGBI)
+Measures the performance of fixed-rate, local currency, investment-grade sovereign bonds from over 20 countries, denominated in a variety of currencies.
+FTSE World Government Bond 0-1 Year Index
+Tracks ‘roll-down’ bonds from the FTSE WGBI (bonds with less than one year remaining until maturity), with a minimum maturity of one month.
+FTSE World Government 0-1 Year Index
+Combines the FTSE World Government Bond 0-1 Year Index with the associated Treasury Bill indices from the FTSE Global Treasury Bill 0-1 Year Index Series
+FTSE World Government Bond 0+ Years Index
+Combines the FTSE WGBI with the FTSE World Government Bond 0-1 Year Index.
+The FTSE Ecosystem
+FTSE Climate Risk-Adjusted World Government Bond Index
+Adjusts WGBI weights according to relative climate risk performance, assessed by three ‘pillars’ (physical risk, transition risk and resilience).
+FTSE ESG WGBI
+Incorporates a tilting methodology that adjusts index weights according to each country’s relative Environmental, Social and Governance (ESG) performance
+The FTSE Ecosystem
+FTSE Debt Capacity WGBI
+Focuses on countries with lower debt issuance relative to their GDP and stronger debt servicing capabilities.
+FTSE GDP-Weighted Government Bond Index Series
+Measures the performance of fixed-rate, local currency sovereign bonds, with country weights determined in proportion to each country’s PPP-adjusted GDP.
+FTSE Carry Tilt Government Bond Index Series
+Enhances carry exposure while controlling for duration and country allocations. It applies standardized fixed tilt approach to a range of government bond indices.
+The FTSE Ecosystem
+FTSE MPF WGBI
+Designed to help users meet the regulatory requirements of Hong Kong Mandatory Provident Fund (MPF) schemes.
+FTSE WGBI Japanese Investment Trust
+Designed to serve as a benchmark for performance evaluation by Japanese investment trusts. The calculation methodology is based on the evaluation standards of the Investment Trusts Association of Japan.
+A WGBI Timeline
+Chart view
+Table view
+Specific Dates
+1986
+Launch of WGBI with start date 12/84
+Markets at launch: US, Japan, UK, West Germany, France, Canada, Netherlands, Australia, Switzerland
+1989
+Denmark added to WGBI
+1992
+Belgium, Italy, Spain and Sweden added to WGBI, Switzerland excluded
+1993
+Austria added to WGBI
+1996
+Switzerland and Finland added to WGBI
+1997
+Ireland added to WGBI
+1998
+Portugal added to WGBI
+2000
+Greece added to WGBI
+2003
+Poland and Norway added to WGBI
+2005
+Singapore added to WGBI
+2007
+Malaysia added to WGBI
+2010
+Mexico added to WGBI
+Greece removed from WGBI after credit downgrade
+2012
+South Africa added to WGBI
+Portugal removed from WGBI after credit downgrade
+2018
+Switzerland removed from WGBI under market size criteria
+2020
+Israel added to WGBI
+South Africa removed from WGBI after credit downgrade
+2021
+Chinese government bonds added to WGBI with phased inclusion (2021-24)
+2022
+New Zealand added to WGBI
+2024
+Portugal rejoined WGBI
+2026
+South Korean government bonds added to WGBI
+Key resources
+Factsheets
+Methodology
+Index resources
+Factsheets
+See all factsheets
+FTSE World Government Bond Index (WGBI)
+FTSE World Government Bond Index (WGBI) - Chinese Translation
+FTSE World Inflation-Linked Securities Index (WorldILSI)
+FTSE World Broad Investment-Grade Bond Index (WorldBIG)
+FTSE World Government Bond 0+ Years Index
+FTSE UK Government 0-1 Year Index
+Show more
+FTSE US Treasury 0-1 Year Index
+FTSE Japanese Treasury 0-1 Year Index
+Methodology
+See all methodologies
+FTSE Fixed Income Index Guide
+1.5MB
+•
+PDF
+FTSE Fixed Income Index Guide - Japanese
+3.1MB
+•
+PDF
+FTSE 0+ Years Fixed Income Index Series Rules
+172.0KB
+•
+PDF
+FTSE Global Treasury Bill 0-1 Year Index Series Rules
+151.3KB
+•
+PDF
+Daily Preview Files
+94.2KB
+•
+PDF
+Index resources
+See all index resources
+Daily Returns
+WGBI Index Overview
+532.3KB
+•
+PDF
+Research and Insights
+Your index partner
+Fixed Income
+How can we help you to navigate this evolving asset class?​
+Learn more
+Learn more
+arrow-right
+Research
+Government debt sustainability
+An examination of the FTSE Debt Capacity World Government Bond Index after 10 years
+Read more
+Read more
+arrow-right
+Insights
+Safe harbour in a debt storm?
+The FTSE Debt Capacity World Govt Bond Index after 10 yrs
+Read more
+Read more
+arrow-right
+Insights
+Eight things you probably didn’t know about the FTSE World Government Bond Index
+Learn more
+Learn more
+arrow-right
+Insights
+From modest beginnings to market leader
+Read more
+Read more
+arrow-right
+Insights
+China is now the second-largest FTSE WGBI market
+Read more
+Read more
+arrow-right
+Request details
+Submit your details and one of our Sales experts will be in touch to start the conversation.
+If you are an existing client and have a query about your service, contact a Client Service representative at our Help Desk
+First name
+Last name
+Email address
+Phone number (numerals only; no dashes)
+Select one
+Aland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo, The Democratic Republic of the
+Cook Islands
+Costa Rica
+Cote D'Ivoire
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guernsey
+Guyana
+Heard and McDonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Rep
+Latvia
+Lebanon
+Lesotho
+Liberia
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Madagascar
+Malawi
+Malaysia
+Maldives
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory, Occupied
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Republic of North Macedonia
+Reunion
+Romania
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+South Africa
+Spain
+Sri Lanka
+Sth Georgia & Sth Sandwich Is
+St Vincent and the Grenadines
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Taiwan
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+US Minor Outlying Islands
+Uzbekistan
+Vanuatu
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Wallis and Futuna Islands
+Western Sahara
+Zambia
+Country/territory
+City (optional)
+Company
+Job title
+Area of interest: Help us connect you to the right expert(optional)
+By submitting this form, you agree to your personal data being shared within the London Stock Exchange Group of companies (LSEG) for the purpose of receiving communications via post, phone and electronic means from LSEG about event, resources, products, and/or services.
+Accept terms ()
+For more information on how LSEG uses your data, see our privacy statement. You can adjust your preferences at any time through the preference link in any electronic communication that you receive from us.
+Find out more
+Further information about LSEG
+Get in touch
+If you’d like to know more about how we can help you, please get in touch.
+Contact LSEG
+Contact LSEG
+LSEG Careers
+Create lasting opportunities and fulfil your potential.
+Find a role
+Find a role
+About LSEG
+Discover more about LSEG, our history, and what we do.
+About LSEG
+About LSEG
+Search
+FTSE Russell
+Discover FTSE Russell
+Contact sales
+Client Service Portal
+DDS for Clients
+CONNECT WITH US
+LinkedIn
+X
+Languages
+English
+日本語 – 日本
+简体中文 – 中国
+Corporate
+Who we are
+Careers
+Media Centre
+Investor Relations
+Office locations
+Security Centre
+Privacy Statement
+Cookie Statement
+Cookie Settings
+Sitemap
+Terms of Use
+Accessibility
+Whistleblowing
+UK Bribery Act
+Modern Slavery Act

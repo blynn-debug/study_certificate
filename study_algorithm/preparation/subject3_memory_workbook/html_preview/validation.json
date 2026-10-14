@@ -1,0 +1,185 @@
+{
+  "screen": {
+    "bodyFont": "\"Pretendard Variable\", Pretendard, -apple-system, sans-serif",
+    "titleFont": "\"Gowun Batang\", serif",
+    "answerRotation": "matrix(-1, 0, 0, -1, 0, 0)",
+    "topicBlanks": 152,
+    "topicAnswers": 152,
+    "missingFigureClass": 0,
+    "conceptCardsWithoutData": 0,
+    "loadedFonts": [
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "Gowun Batang",
+        "weight": "700"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "weight": "400"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "weight": "600"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      },
+      {
+        "family": "Pretendard Variable",
+        "weight": "45 920"
+      }
+    ],
+    "overflow": false,
+    "brokenAnchors": []
+  },
+  "mobile": {
+    "overflow": false,
+    "background": "none",
+    "metaColumns": "316.812px"
+  },
+  "print": {
+    "answerRotation": "matrix(-1, 0, 0, -1, 0, 0)",
+    "worksheetStart": "page",
+    "background": "none",
+    "printColor": "exact",
+    "headerDisplay": "table-header-group",
+    "oversizedFigures": [],
+    "overflowingTables": []
+  },
+  "console_errors": [],
+  "failed_requests": [],
+  "print_pages": 68,
+  "sparse_pages": []
+}

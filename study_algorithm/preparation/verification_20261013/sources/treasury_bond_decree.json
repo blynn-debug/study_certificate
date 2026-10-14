@@ -1,0 +1,18 @@
+{
+  "id": "treasury_bond_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280829&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280829&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:44.679706+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10266,
+  "content_sha256": "bb3f167efd21303c9728e6d26d42da8d901e83c17731aca3c3fd005a79942117",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

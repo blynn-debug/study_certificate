@@ -1,0 +1,42 @@
+{
+  "source_id": "ftse_equity_oct2026",
+  "source_metadata": {
+    "id": "ftse_equity_oct2026",
+    "requested_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-country-classification-update-2026.pdf",
+    "retrieved_url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-country-classification-update-2026.pdf",
+    "retrieved_at": "2026-10-13T01:12:02.346818+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "fd3af820dcb552839cc7ccf65a998d3329eb6d80879340b9a830550b2d51296a",
+    "binary_sha256": "fd3af820dcb552839cc7ccf65a998d3329eb6d80879340b9a830550b2d51296a",
+    "text_sha256": "0fb0388b37874f2035bd77ebfffaef4b823ffd2ce24a317fb5e4dad45baf09c4",
+    "pages": 9,
+    "characters": 27091,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "ftse_equity_oct2026:page4",
+      "source_id": "ftse_equity_oct2026",
+      "article": "page4",
+      "heading": "page4",
+      "text": "[PDF page 4]\nFTSE Equity Country Classification – Annual Announcement – October 2026 \nFTSE Russell  \n4 of 9 \n4. Other Markets \n \nIndonesia (Secondary Emerging market status)  \n \nFTSE Russell continues to closely monitor capital market integrity reforms in Indonesia. Following the postponement of \ncertain index changes for Indonesia at the March, June and September 2026 index reviews, FTSE Russell is assessing \nthe effectiveness of recently implemented reform measures in supporting an orderly and stable transition back to \nstandard index review processes, as outlined in the FTSE Russell FAQ on the Treatment of Indonesian Securities. \n \nIndonesia has implemented a broad range of market reforms, including enhanced shareholder disclosure, expanded \ninvestor classification categories, minimum free float requirements, and enhanced market surveillance tools. These \nmeasures are intended to address previously identified concerns relating to data transparency and replicability. FTSE \nRussell will continue to monitor implementation and effectiveness of these measures and engage with market \nparticipants to gather feedback. \n \nFTSE Russell will provide an update on the treatment of Indonesian securities ahead of the December 2026 index \nreview, taking into consideration the progress of market reforms and feedback received from stakeholders. \n \nIndonesia’s Secondary Emerging market status remains unchanged. FTSE Russell is not placing Indonesia on the \nWatch List and will continue monitoring market developments and engaging with market participants as part of its \nongoing assessment. \n \n \nSouth Korea (Developed market status) \n \nSettlement – Funding Requirement \n \nFTSE Russell continues to monitor settlement funding requirements in the South Korean market. The South Korean \nmarket authorities are implementing a range of reforms aimed at enhancing settlement liquidity and reducing funding \npressures associated with Settlement Progress Payments (SPPs), including the use of securities as collateral, the \nalignment of exchange and institutional settlement processes, and measures to facilitate KRW funding. While these \ninitiatives are intended to improve settlement efficiency and reduce liquidity requirements for international investors, \nimplementation remains ongoing and market participants have indicated that further operational experience is required \nto assess their effectiveness. FTSE Russell will continue to monitor developments and engage with market participants \non this issue. \n \nInvestment Alert / Investment Risk Lists \n \nFTSE Russell continues to monitor the operation of the Korea Exchange (KRX) Market Warning System, including \nInvestment Alert and Investment Risk designations. In response to feedback from market participants regarding the \npotential impact of these measures on index replication, FTSE Russell has updated the FTSE Global Equity Index \nSeries Ground Rules to provide greater clarity regarding the eligibility and treatment of securities subject to market \nwarning measures. FTSE Russell will continue to engage with market participants and monitor developments in this \narea.  \n \nFTSE Russell will continue to monitor developments in South Korea’s short selling, settlement, and market-warning \nframework, and welcomes feedback from market participants, as well as continued engagement with the South Korean \nmarket authorities to address the issues outlined above. \n \n \nTaiwan (Advanced Emerging market status)  \n \nFTSE Russell notes that the Central Bank of the Republic of China (Taiwan) (CBC) maintains a daily net New Taiwan \nDollars (TWD) purchase limit of US$100 million for Foreign Institutional Investors (FINIs) to support the orderly \nfunctioning and stability of the foreign exchange market. This limit can impact the ability of index trackers to replicate \nbenchmark treatment, such as significant corporate events and index reviews. FTSE Russell continues to engage with \nthe Taiwanese market authorities on this issue.",
+      "start": 5151,
+      "end": 9154,
+      "sha256": "9307fa4ac1375de94b06f2e061428675069b7a02acda01e5aa5c15f949f34fb6"
+    },
+    {
+      "id": "ftse_equity_oct2026:page6",
+      "source_id": "ftse_equity_oct2026",
+      "article": "page6",
+      "heading": "page6",
+      "text": "[PDF page 6]\nFTSE Equity Country Classification – Annual Announcement – October 2026 \nFTSE Russell  \n6 of 9 \nThe table below shows the markets classified within the FTSE Equity Country Classification scheme as at \n06 October 2026: \n \nDeveloped \n \nAdvanced Emerging \n \n \nSecondary Emerging \n \n \nFrontier \n \nAustralia \nBrazil \n \nChile \n \nBahrain \nAustria \nCzech Republic \n \nChina \n \nBangladesh \nBelgium/Luxembourg \nHungary \n \nColombia \n \nBotswana \nCanada \nMalaysia \n \nEgypt \n \nBulgaria \nDenmark \nMexico \n \nIceland \n \nCôte d’Ivoire \nFinland \nSouth Africa \n \nIndia \n \nCroatia \nFrance \nTaiwan \n \nIndonesia \n \nCyprus \nGermany \nThailand \n \nKuwait \n \nEstonia \nGreece* \nTürkiye \n \nPhilippines \n \nGhana \nHong Kong \n \n \nQatar \n \nJordan \nIreland \n \n \nRomania \n \nKazakhstan \nIsrael \n \n \nSaudi Arabia \n \nKenya \nItaly \n \n \nUnited Arab Emirates  \n \nLatvia \nJapan \n \n \nVietnam** \n \nLithuania \nNetherlands \n \n \n \n \nMalta \nNew Zealand \n \n \n \n \nMauritius \nNorway \n \n \n \n \nMongolia \nPoland \n \n \n \n \nMorocco \nPortugal \n \n \n \n \nNigeria*** \nSingapore \n \n \n \n \nOman \nSouth Korea \n \n \n \n \nPakistan \nSpain \n \n \n \n \nPalestine \nSweden \n \n \n \n \nPeru \nSwitzerland \n \n \n \n \nRepublic of North Macedonia \nUK \n \n \n \n \nSerbia \nUSA \n \n \n \n \nSlovak Republic \n \n \n \n \n \nSlovenia \n \n \n \n \n \nSri Lanka \n \n \n \n \n \nTanzania \n \n \n \n \n \nTunisia \n \n*Greece reclassified from Advanced Emerging to Developed market status, effective from Monday 21 September 2026. \n**Vietnam reclassified from Frontier to Secondary Emerging market status, effective from Monday 21 September 2026. \n***Nigeria reclassified from Unclassified to Frontier market status, effective from Monday 21 September 2026.",
+      "start": 11335,
+      "end": 12987,
+      "sha256": "1b8fed8cd5166a9f8c3a66e411790795e6785f60b4af0250680492b17f26da6c"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

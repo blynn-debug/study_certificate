@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_incredible_macdhist",
+  "source_metadata": {
+    "id": "s2_incredible_macdhist",
+    "requested_url": "https://www.incrediblecharts.com/indicators/macd_histogram.php",
+    "retrieved_url": "https://www.incrediblecharts.com/indicators/macd_histogram.php",
+    "retrieved_at": "2026-10-13T17:20:47.454930+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "709aaa8ca6724171fbb5a359d88d05eb9080c6e33f347e32762bb367d97a363f",
+    "text_sha256": "3bf23eba0e1349a57ddcc8888c948d4cac1a13659c02df6660d6dffdd66ad421",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_incredible_macdhist:Turns",
+      "source_id": "s2_incredible_macdhist",
+      "article": "Turns",
+      "heading": "Turns",
+      "text": "Trading Signals Use Stop Losses with all trades. Ranging Markets Signals are stronger if There is a bullish divergence on the Histogram; or The signal occurs far from the zero line. Disregard signals close to the zero line unless confirmed by a divergence . Go long when the MACD Histogram turns up below zero. Close the position when there is a signal to go short. Go short when MACD Histogram turns down above zero. Close the position when there is a signal to go long. Trending Markets Only trade in the direction of the trend. Signals close to the zero line are accepted provided the trend is intact. Go long when the MACD Histogram turns up below zero. Go short when MACD Histogram turns down above zero. Use a trend indicator, such as a moving average , to exit from trends.",
+      "start": 669,
+      "end": 1450,
+      "sha256": "9543479a0ebe6213bc8269c0d34a6e1d0dee16ad2bf9f0eea224e18624f14353"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

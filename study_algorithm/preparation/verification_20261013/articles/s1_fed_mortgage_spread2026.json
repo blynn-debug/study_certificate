@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_fed_mortgage_spread2026",
+  "source_metadata": {
+    "id": "s1_fed_mortgage_spread2026",
+    "requested_url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/why-mortgage-rates-exceed-treasury-yields",
+    "retrieved_url": "https://www.bostonfed.org/publications/current-policy-perspectives/2026/why-mortgage-rates-exceed-treasury-yields",
+    "retrieved_at": "2026-10-13T23:51:06.930882+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 16732,
+    "content_sha256": "ce5902da821ecf6155fb3253781e99761993e662f6391b3b8f9ce7630a508ff7",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_fed_mortgage_spread2026:금리격차구성",
+      "source_id": "s1_fed_mortgage_spread2026",
+      "article": "금리격차구성",
+      "heading": "금리격차구성",
+      "text": "The mortgage spread reflects several distinct factors stacked on top of each other. Lenders typically bundle mortgages that they originate into mortgage-backed securities (MBS) and sell them to investors. An MBS and a Treasury security have very different cash flows. First, a Treasury security returns the principal in a lump sum at maturity, while an MBS returns the principal gradually as borrowers amortize (make their monthly fixed payments) until they sell their homes and/or refinance. Second, an MBS carries credit risk because borrowers might default on their mortgages. Third, mortgage lenders incur intermediation costs to originate a loan, package it into an MBS, and sell the MBS to investors, and they charge borrowers a margin to cover these costs.\nEven after these three factors are accounted for, a large and volatile gap between mortgage rates and Treasury yields remains. I refer to this gap as the coupon spread, in reference to the difference between interest rates paid by mortgage-backed securities and Treasury yields when I control for the aforementioned factors. I argue that the coupon spread largely reflects the price of the prepayment option—a borrower’s right to pay off their mortgage at any time without incurring a penalty.",
+      "start": 1434,
+      "end": 2691,
+      "sha256": "ca99d1431045750ff888e9d78f34314f5622d85bc102b45f31544ecc48b02acf"
+    }
+  ]
+}

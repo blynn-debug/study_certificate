@@ -1,0 +1,12 @@
+{
+  "id": "bok_accounts2025lecture",
+  "requested_url": "https://www.bok.or.kr/portal/bbs/B0000217/view.do?menuNo=200144&nttId=11063016",
+  "retrieved_url": "https://www.bok.or.kr/portal/bbs/B0000217/view.do?menuNo=200144&nttId=11063016",
+  "retrieved_at": "2026-10-13T16:23:31.745495+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 33458,
+  "content_sha256": "f1f8c6c5573ab25466ce14747fa02f4bd29113ba62c887a6049d4b5c1d0dc380",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

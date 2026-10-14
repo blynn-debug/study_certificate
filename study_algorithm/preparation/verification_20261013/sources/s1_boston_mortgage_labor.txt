@@ -1,0 +1,92 @@
+How Resilient Is Mortgage Credit Supply? Evidence from the COVID-19 Pandemic - Federal Reserve Bank of Boston
+Skip to Content
+About Us
+new header
+Careers
+News & Events
+Publications & Data
+Menu
+Office of the President
+Monetary Policy & Economic Research
+Supervision & Credit
+Payments Innovation
+Community Development
+In the Region
+About Us
+Careers
+News & Events
+Publications & Data
+2021
+•
+21–4
+Research Department Working Papers
+How Resilient Is Mortgage Credit Supply? Evidence from the COVID-19 Pandemic
+By Andreas Fuster,  , Lauren Lambie-Hanson, James Vickery, and Paul S. Willen
+Full Text Document
+(pdf)
+The mortgage market experienced a historic boom in 2020, with record origination volumes and lender profits. While many borrowers benefited from record-low mortgage rates, the pass-through of lower rates to households was limited by a sustained increase in the markups charged by lenders. This paper studies the evolution of the mortgage market during the COVID-19 pandemic and evaluates the extent to which the events of the pandemic led to a contraction in mortgage credit supply. The analysis combines financial market data on prices and yields for mortgage-backed securities, time-series data on mortgage interest rates, microdata on mortgage rate offers and interest rate locks from the Optimal Blue platform, and several other data sets.
+see more
+share
+share
+share
+share
+collapse all
+expand all
+Key Findings
+An increase in the price of intermediation in the primary mortgage market more than accounts for the high mortgage-Treasury spread during the pandemic. This situation is different from 2008, when mortgage rates were elevated due to the high spread on mortgage-backed securities in financial markets.
+The elasticity of mortgage supply was abnormally low due at least in part to operational issues and labor market frictions related to the pandemic. Consistent with these frictions, fintech lenders gained market share among mortgages that are more complex and labor intensive to originate.
+The mortgage rate spread widened for loans bearing the greatest credit risk for financial intermediaries. These loans ranged from non-guaranteed jumbo mortgages to high-income borrowers to low-credit-score Federal Housing Administration mortgages. The number of lenders offering credit in these segments of the market also fell sharply.
+Mortgage-backed security purchases by the Federal Reserve (quantitative easing) lowered mortgage rates and supported mortgage credit supply.
+Implications
+Despite recent improvements in information technology, mortgage industry capacity constraints still bind during periods of peak demand, which leads to high markups for lenders and reduces the transmission of low rates to borrowers. Although mortgage rates fell to record lows in 2020, this paper’s results imply that rates paid by borrowers would have been even lower under a system where rates adjust automatically with market yields during an economic downturn or in a system with a larger role for adjustable-rate mortgages.
+The fact that fintech lenders gained market share during the pandemic, particularly for complex loans, suggests that technology helps ameliorate capacity constraints and overcome operational bottlenecks.
+While government guarantees supported intermediation and lowered rates during the pandemic, this paper’s results highlight the limits of these guarantees. Because lenders are not fully indemnified against risk, especially with respect to Federal Housing Administration mortgages, the pandemic resulted in a contraction in supply for the riskiest borrowers.
+Abstract
+We study the evolution of US mortgage credit supply during the COVID-19 pandemic. Although the mortgage market experienced a historic boom in 2020, we show there was also a large and sustained increase in intermediation markups that limited the pass-through of low rates to borrowers. Markups typically rise during periods of peak demand, but this historical relationship explains only part of the large increase during the pandemic. We present evidence that pandemic-related labor market frictions and operational bottlenecks contributed to unusually inelastic credit supply, and that technology-based lenders, likely less constrained by these frictions, gained market share. Rising forbearance and default risk did not significantly affect rates on “plain-vanilla” conforming mortgages, but it did lead to higher spreads on mortgages without government guarantees and loans to the riskiest borrowers. Mortgage-backed securities purchases by the Federal Reserve also supported the flow of credit in the conforming segment.
+Resources
+Full Text Document
+(pdf)
+Site Topics
+Monetary Policy & Economic Research
+Keywords
+mortgage
+,
+credit
+,
+financial intermediation
+,
+fintech
+,
+COVID-19
+JEL Codes
+G21
+,
+G23
+,
+G28
+Citation
+Fuster, Andreas, Aurel Hizmo, Lauren Lambie-Hanson, James Vickery, and Paul Willen. 2021. “How Resilient Is Mortgage Credit Supply? Evidence from the COVID-19 Pandemic.” Federal Reserve Bank of Boston Research Department Working Papers No. 21-4. https://doi.org/10.29412/res.wp.2021.04
+Contributing business areas
+Research
+new footer
+About Us
+Leadership & Organization
+Doing Business With Us
+Reserve Bank Services
+Cash Services
+Wholesale Payments
+Careers
+Contact Us
+Visitor Information & Directions
+600 Atlantic Avenue
+Boston, MA 02210-2204
+map
+(617) 973-3000
+Get Email Updates From The Boston Fed
+Terms of Use &
+Privacy
+Data Privacy
+Site
+Accessibility
+Feedback
+©  Federal Reserve Bank of Boston

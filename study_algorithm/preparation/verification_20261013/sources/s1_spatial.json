@@ -1,0 +1,18 @@
+{
+  "id": "s1_spatial",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284007&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=284007&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_at": "2026-10-13T15:35:43.387161+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 94607,
+  "content_sha256": "9d19ea7ad9c0652adf8439ff9025aef577eca028ddc74b330b8f29c10963589b",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "1"
+    ]
+  ]
+}

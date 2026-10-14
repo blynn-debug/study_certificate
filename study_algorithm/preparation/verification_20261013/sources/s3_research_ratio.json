@@ -1,0 +1,14 @@
+{
+  "id": "s3_research_ratio",
+  "requested_url": "https://www.kofia.or.kr/npboard/m_18/view.do?bbsId=BBSMSTR_000000000203&nttId=109264",
+  "retrieved_url": "https://www.kofia.or.kr/npboard/m_18/view.do?bbsId=BBSMSTR_000000000203&nttId=109264",
+  "retrieved_at": "2026-10-14T00:02:25.373263+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1447,
+  "content_sha256": "82246651c99ee6fa5e5b3eddcb456652175a51aa6e6508b5a8726726e4e47e26",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "evidence_unit": "Release20150320",
+  "version_selection": "Historical introduction and expected purpose, not current regulation"
+}

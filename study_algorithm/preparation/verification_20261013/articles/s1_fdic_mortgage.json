@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_fdic_mortgage",
+  "source_metadata": {
+    "id": "s1_fdic_mortgage",
+    "requested_url": "https://www.fdic.gov/consumer-resource-center/mortgages",
+    "retrieved_url": "https://www.fdic.gov/consumer-resource-center/mortgages",
+    "retrieved_at": "2026-10-13T23:51:05.219227+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 31208,
+    "content_sha256": "f6ca4bbffd696abab12a436994d428acacede10f90f7729e86127497349f40b0",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_fdic_mortgage:고정금리상환",
+      "source_id": "s1_fdic_mortgage",
+      "article": "고정금리상환",
+      "heading": "고정금리상환",
+      "text": "Fixed-rate loans generally have repayment terms of 15, 20, or 30 years. Both the interest rate and the monthly payments (for principal and interest) stay the same during the life of the loan.",
+      "start": 27863,
+      "end": 28054,
+      "sha256": "271c11312c38af12fd0596f318e06d7bbec588a24ddf9ee6c5c215f23869e4e3"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "els_issuer_risk_20260616",
+  "requested_url": "https://kind.krx.co.kr/external/2026/06/16/000072/20260616000083/10601.htm",
+  "retrieved_url": "https://kind.krx.co.kr/external/2026/06/16/000072/20260616000083/10601.htm",
+  "retrieved_at": "2026-10-13T02:25:45.001689+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 874016,
+  "content_sha256": "e5843d7a6ebe9e3e404650f39b550aed4b13d34aa38c7c3173a2d7fbe8894609",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

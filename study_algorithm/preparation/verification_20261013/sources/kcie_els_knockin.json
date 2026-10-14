@@ -1,0 +1,12 @@
+{
+  "id": "kcie_els_knockin",
+  "requested_url": "https://www.kcie.or.kr/guide/2/14/web_view?content_idx=886&series_idx=",
+  "retrieved_url": "https://www.kcie.or.kr/guide/2/14/web_view?content_idx=886&series_idx=",
+  "retrieved_at": "2026-10-13T04:06:26.243300+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 3982,
+  "content_sha256": "e5819e17d0640c328e9092f86e6b87b39ca56cbb9878c7f6d4602033b70dd018",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

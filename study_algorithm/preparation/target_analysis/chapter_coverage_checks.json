@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "chapters": [
+    {
+      "chapter": "S1C1",
+      "topics": 13,
+      "questions": 138
+    },
+    {
+      "chapter": "S1C2",
+      "topics": 35,
+      "questions": 262
+    },
+    {
+      "chapter": "S1C3",
+      "topics": 19,
+      "questions": 156
+    },
+    {
+      "chapter": "S2C1",
+      "topics": 14,
+      "questions": 85
+    },
+    {
+      "chapter": "S2C2",
+      "topics": 9,
+      "questions": 63
+    },
+    {
+      "chapter": "S2C3",
+      "topics": 30,
+      "questions": 256
+    },
+    {
+      "chapter": "S2C4",
+      "topics": 13,
+      "questions": 106
+    },
+    {
+      "chapter": "S3C1",
+      "topics": 13,
+      "questions": 127
+    },
+    {
+      "chapter": "S3C2",
+      "topics": 37,
+      "questions": 272
+    },
+    {
+      "chapter": "S3C3",
+      "topics": 16,
+      "questions": 93
+    },
+    {
+      "chapter": "S3C4",
+      "topics": 19,
+      "questions": 126
+    },
+    {
+      "chapter": "S3C5",
+      "topics": 18,
+      "questions": 156
+    },
+    {
+      "chapter": "S3C6",
+      "topics": 19,
+      "questions": 155
+    },
+    {
+      "chapter": "S3C7",
+      "topics": 11,
+      "questions": 98
+    },
+    {
+      "chapter": "S3C8",
+      "topics": 10,
+      "questions": 96
+    },
+    {
+      "chapter": "S3C9",
+      "topics": 9,
+      "questions": 103
+    }
+  ],
+  "boundary": "Mapping and count validation only; not an independent semantic or current-law review."
+}

@@ -1,0 +1,1104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+ <head></head>
+ <body>
+  <input type="hidden" id="lsNm" name="lsNm" value="국토기본법" /> 
+  <input type="hidden" id="lsId" name="lsId" value="009293" /> 
+  <input type="hidden" id="lsiSeq" name="lsiSeq" value="286527" /> 
+  <input type="hidden" id="ancYd" name="ancYd" value="20260602" /> 
+  <input type="hidden" id="efYd" name="efYd" value="20260602" /> 
+  <input type="hidden" id="ancNo" name="ancNo" value="21738" /> 
+  <input type="hidden" id="lsBdyChrCls" name="lsBdyChrCls" value="010202" /> 
+  <input type="hidden" id="lumIsConOrdin" value="Y" /> 
+  <input type="hidden" id="nwYnValue" value="Y" /> 
+  <input type="hidden" id="hstLnkDpYn" value="0" /> 
+  <style>
+.byl_pop ul li {
+	padding: 7px;
+	margin-left: 10px;
+}
+</style> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	customResizePop(); // 본문 리사이즈
+	initEDotXPress('\uAD6D\uD1A0\uAE30\uBCF8\uBC95');
+});
+
+function customResizePop() {
+		// 본문 버튼 높이 만큼 제공한다. 13은 패딩값
+		var $contentHeight = $("#center").height() - ($('.body_top_area').height() + 13);
+		var $conTopHeight = $('#conTop').height() + 35;
+
+		var bdyValue = lsVO.bdyUpdValue.updateContentNm || 'lsBdy';
+		
+        //lsInfoP 가 열릴 때 본문은 무조건 조회 하기 때문에 조건문 밖에 위치 하도록 변경.
+		$('#viewwrapCenter').css('overflow-y', 'hidden');
+        $('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+        $('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+        
+        if (bdyValue == 'lsBdy') {
+			/* 본문에서는 법령명 고정 때문에 hidden 처리*/
+			$('#viewwrapCenter').css('overflow-y', 'hidden');
+			$('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+			if($('#viewwrapCenter2').height() != null || $('#viewwrapCenter2').height() == 0){
+				$('#bodyContentTOP > #viewwrapCenter2').height($contentHeight);
+				$('#conScroll').height($('#viewwrapCenter2').height() - $conTopHeight);
+				$('#viewwrapCenter2').css('overflow', 'hidden');
+			}
+			$('#bodyContent').css('width', 'inherit');
+		} else if (bdyValue == 'lsPtnThdCmp') {
+			lspttnThdCmpResize();
+		} else if (bdyValue == 'lumThdCmp') {
+			thdCmpNewScPResize();
+		} else if (bdyValue == 'lumThdCmpSc') {
+
+		} else if (bdyValue == 'thdCmpNew') {
+
+		} else if (bdyValue == 'lsOldAndNew') {				
+			// 신구법은 이전 이후 버튼 높이까지 마이너스 한다. 
+			$('#bodySideContent > #oldAndNewDiv').height(($contentHeight + $('#tmpWidth').height()-114));
+		} else if (bdyValue == 'lsRvsDocInfoR') {
+
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+			$('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+			$('#conTop').height($('.cont_top').height());
+			$('#rvsConScroll').height($('#viewwrapCenter').height() - $('#rvsConTop').height());
+			
+		} else {
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+		}
+}
+
+function fileLayer(temp){
+	var tempStr = $("#hwptext"+temp).attr("value");
+	if(tempStr.length > 32){
+ 		$("#hwptext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#hwpxtext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#pdftext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 	}
+
+ 	$(".byl_pop").css("display","none");
+
+ 	//레이어높이값
+ 	var height = $("#fileSaveLayer"+temp).height();
+ 	//본문 제일 하단 위치값 
+	var pagePos = document.querySelector('#center');
+	pagePos = pagePos.getBoundingClientRect().bottom;
+	//레이어버튼위치값
+	var layPos =document.querySelector('#imgPos'+temp);
+	layPos = layPos.getBoundingClientRect().bottom;
+	var lay_pop = $('#fileSaveLayer'+temp);
+	var pos = $('#imgPos'+temp).position();
+	
+	if(pagePos > height+layPos){ //레이어가 잘리지 않을 때 
+		lay_pop.css('top', (pos.top)+25 + 'px');
+		lay_pop.css('left', '250px')
+	}else{ //레이어가 잘릴 때
+		lay_pop.css('top', ((pos.top)-height)+ 'px');
+		lay_pop.css('left', (pos.left)+25+'px');
+	}
+	document.getElementById("fileSaveLayer"+temp).style.display="block";
+}
+
+function copyToClipBoard(temp2){
+	var content = document.getElementById('textarea'+temp2);
+	content.select();
+	document.execCommand('copy');
+	alert("주소가 클립보드에 저장되었습니다.");
+	content.setSelectionRange(0,0);
+}
+
+function delLayer(temp){
+	document.getElementById("fileSaveLayer"+temp).style.display="none";
+}
+
+</script> 
+  <div id="contentBody" class="scr_ctrl"> 
+   <div id="sideCenter" class="cont_area"> 
+    <ul class="cont_icon"> 
+     <li><a><img alt="판" src="/LSW/images/button/btn_jostmdico.gif" />판례</a></li> 
+     <li><a><img alt="연" src="/LSW/images/button/btn_year3.gif" />연혁</a></li> 
+     <li><a><img alt="행" src="/LSW/images/button/btn_entrust3_2.gif" />위임행정규칙</a></li> 
+     <li><a><img alt="규" src="/LSW/images/button/btn_entrust4_2.gif" />규제</a></li> 
+     <li><a><img alt="한" src="/LSW/images/button/btn_oneviewIcon.gif" />한눈보기</a></li> 
+    </ul> 
+    <!-- 연혁법령 안내문구 --> 
+    <!-- 법령명 --> 
+    <div id="conTop" class="cont_top"> 
+     <a id="top"></a> 
+     <!-- 국민신문고 연결배너 출력 --> 
+     <h2> 국토기본법 </h2> 
+     <div class="ct_sub"> 
+      <span>[시행 2026. 6. 2.] [법률 제21738호, 2026. 6. 2., 타법개정]</span> 
+     </div> 
+    </div> 
+    <!-- 소관부처 --> 
+    <div id="conScroll" class="scr_area" style="overflow-y: auto;"> 
+     <div class="cont_subtit"> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('www.molit.go.kr'); return false;" href="#AJAX" target="_blank"> <span title="www.molit.go.kr" style="cursor: pointer;">국토교통부</span> (<span title="" style="cursor: pointer;">국토정책과</span>), 044-201-4951 </a> </p> 
+     </div> 
+     <!-- 조문정보 --> 
+     <a name="pjuk:98139087" id="pjuk:98139087"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="000100" data-joseq="98139087">         제1장 총칙 <span class="sfon">&lt;개정 2011. 5. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J1:0" id="J1:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0001', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="1:0:000100:98139089" /> <span class="bl"><label for="Y000100"> 제1조(목적) </label> </span> 이 법은 국토에 관한 계획 및 정책의 수립ㆍ시행에 관한 기본적인 사항을 정함으로써 국토의 건전한 발전과 국민의 복리향상에 이바지함을 목적으로 한다. </p> 
+      </div> 
+     </div> 
+     <a name="J2:0" id="J2:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0002', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139091', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="2:0:000200:98139091" /> <span class="bl"><label for="Y000200"> 제2조(국토관리의 기본 이념) </label> </span> 국토는 모든 국민의 삶의 터전이며 후세에 물려줄 민족의 자산이므로, 국토에 관한 계획 및 정책은 개발과 환경의 조화를 바탕으로 국토를 균형 있게 발전시키고 국가의 경쟁력을 높이며 국민의 삶의 질을 개선함으로써 국토의 지속가능한 발전을 도모할 수 있도록 수립ㆍ집행하여야 한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J3:0" id="J3:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0003', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139093', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="3:0:000300:98139093" /> <span class="bl"><label for="Y000300"> 제3조(국토의 균형 있는 발전) </label> </span> ① 국가와 지방자치단체는 각 지역이 특성에 따라 개성 있게 발전하고, 자립적인 경쟁력을 갖추도록 함으로써 국민 모두가 안정되고 편리한 삶을 누릴 수 있는 국토 여건을 조성하여야 한다. </p>
+       <p class="pty1_de2_1">② 국가와 지방자치단체는 수도권과 비수도권(非首都圈), 도시와 농촌ㆍ산촌ㆍ어촌, 대도시와 중소도시 간의 균형 있는 발전을 이룩하고, 생활 여건이 현저히 뒤떨어진 지역이 발전할 수 있는 기반을 구축하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 국가와 지방자치단체는 지역 간의 교류협력을 촉진시키고 체계적으로 지원함으로써 지역 간의 화합과 공동 번영을 도모하여야 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J4:0" id="J4:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0004', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139095', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="4:0:000400:98139095" /> <span class="bl"><label for="Y000400"> 제4조(경쟁력 있는 국토 여건의 조성) </label> </span> ① 국가와 지방자치단체는 도로, 철도, 항만, 공항, 용수(用水) 시설, 물류 시설, 정보통신 시설 등 국토의 기간시설(基幹施設)을 체계적으로 확충하여 국가경쟁력을 강화하고 국민생활의 질적 향상을 도모하여야 한다. </p>
+       <p class="pty1_de2_1">② 국가와 지방자치단체는 농지, 수자원, 산림자원, 식량자원, 광물자원, 생태자원, 해양수산자원 등 국토자원의 효율적인 이용과 체계적인 보전ㆍ관리를 위하여 노력하여야 한다. <span class="sfon">&lt;개정 2017. 4. 18.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국가와 지방자치단체는 국제교류가 활발히 이루어질 수 있는 국토 여건을 조성함으로써 대륙과 해양을 잇는 국토의 지리적 특성을 최대한 살리도록 하여야 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J4:2" id="J4:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0004', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000402" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="4:2:000402:98139097" /> <span class="bl"><label for="Y000402"> 제4조의2(국민의 삶의 질 향상을 위한 국토 여건 조성) </label> </span> 국가와 지방자치단체는 국민의 삶의 질을 향상하기 위하여 국민 모두가 생활에 필요한 적정한 수준의 서비스를 제공받을 수 있는 국토 여건을 조성하여야 한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2020. 4. 7.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J5:0" id="J5:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0005', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139099', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('286527', '0005', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="5:0:000500:98139099" /> <span class="bl"><label for="Y000500"> 제5조(환경친화적 국토관리) </label> </span> ①국가와 지방자치단체는 국토에 관한 계획 또는 사업을 수립ㆍ집행할 때에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393409','ALLJO','');" href="javascript:;">「환경정책기본법」</a>에 따른 환경계획의 내용을 고려하여 자연환경과 생활환경에 미치는 영향을 사전에 검토함으로써 환경에 미치는 부정적인 영향을 최소화하고 환경정의가 실현될 수 있도록 하여야 한다. <span class="sfon">&lt;개정 2016. 12. 2., 2019. 8. 20., 2021. 1. 5.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국가와 지방자치단체는 국토의 무질서한 개발을 방지하고 국민생활에 필요한 토지를 원활하게 공급하기 위하여 토지이용에 관한 종합적인 계획을 수립하고 이에 따라 국토 공간을 체계적으로 관리하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 국가와 지방자치단체는 산, 하천, 호수, 늪, 연안, 해양으로 이어지는 자연생태계를 통합적으로 관리ㆍ보전하고 훼손된 자연생태계를 복원하기 위한 종합적인 시책을 추진함으로써 인간이 자연과 더불어 살 수 있는 쾌적한 국토 환경을 조성하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 국토교통부장관은 제1항에 따른 국토에 관한 계획과 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393411','ALLJO','');" href="javascript:;">「환경정책기본법」</a>에 따른 환경계획의 연계를 위하여 필요한 경우에는 적용범위, 연계 방법 및 절차 등을 기후에너지환경부장관과 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('286527','0005','00','010102','DEG','공동으로 정할 수 있다','15354');">공동으로 정할 수 있다</a>. <span class="sfon">&lt;신설 2016. 12. 2., 2021. 1. 5., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000500', '286527', '0005', '00', '010102')"><img id="delegatedAdmRul_img_000500" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000500" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J5:2" id="J5:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0005', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139101', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000502" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="5:2:000502:98139101" /> <span class="bl"><label for="Y000502"> 제5조의2(지속가능한 국토관리의 평가지표 및 기준) </label> </span> ① 국토교통부장관은 국토의 지속가능하고 균형 있는 발전을 위하여 국토관리의 현황 및 지속가능성을 측정ㆍ평가하기 위한 지표 및 기준을 설정(변경하는 경우를 포함한다. 이하 이 조에서 같다)하여 공고하여야 한다. 이 경우 국토교통부장관은 미리 관계 중앙행정기관의 장과 협의하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2020. 4. 7.&gt;</span> </p>
+       <p class="pty1_de2_1">② 지방자치단체의 장은 지역의 특수성을 고려하여 필요하다고 인정할 때에는 제1항에 따른 지표 및 기준을 충분히 고려하여 별도의 지표 및 기준을 설정하여 공고할 수 있다. 이 경우 지방자치단체의 장은 미리 관계 행정기관의 장과 협의한 후 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393311','ALLJO','');" href="javascript:;">「국토의 계획 및 이용에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393309','JO','');" href="javascript:;">제113조</a>에 따라 그 지방자치단체에 설치된 지방도시계획위원회의 심의를 거쳐야 한다. </p> 
+       <p class="pty1_de2_1">③ 지방자치단체의 장은 제2항에 따라 지표 및 기준을 설정ㆍ공고하였을 때에는 지체 없이 국토교통부장관에게 보고하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 관계 행정기관의 장은 국토에 관한 계획 및 정책을 수립할 때에는 제1항과 제2항에 따라 설정ㆍ공고한 지표 및 기준을 고려하여야 한다. </p> 
+       <p class="pty1_de2_1">⑤ 국토교통부장관과 지방자치단체의 장은 제1항과 제2항에 따른 지표 및 기준을 활용하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108255');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토관리의 지속가능성을 측정ㆍ평가할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:98139103" id="pjuk:98139103"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="000600" data-joseq="98139103">         제2장 국토계획의 수립 등 </p> 
+     </div> 
+     <a name="J6:0" id="J6:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0006', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139105', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="6:0:000600:98139105" /> <span class="bl"><label for="Y000600"> 제6조(국토계획의 정의 및 구분) </label> </span> ① 이 법에서 “국토계획”이란 국토를 이용ㆍ개발 및 보전할 때 미래의 경제적ㆍ사회적 변동에 대응하여 국토가 지향하여야 할 발전 방향을 설정하고 이를 달성하기 위한 계획을 말한다. </p>
+       <p class="pty1_de2_1">② 국토계획은 다음 각 호의 구분에 따라 국토종합계획, 초광역권계획, 도종합계획, 시ㆍ군 종합계획, 지역계획 및 부문별계획으로 구분한다. <span class="sfon">&lt;개정 2011. 4. 14., 2021. 8. 10., 2022. 2. 3.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 국토종합계획: 국토 전역을 대상으로 하여 국토의 장기적인 발전 방향을 제시하는 종합계획 </p> 
+       <p class="pty1_de2h">1의2. 초광역권계획: 지역의 경제 및 생활권역의 발전에 필요한 연계ㆍ협력사업 추진을 위하여 2개 이상의 지방자치단체가 상호 협의하여 설정하거나 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393359','ALLJO','');" href="javascript:;">「지방자치법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393361','JO','');" href="javascript:;">제199조</a>의 특별지방자치단체가 설정한 권역으로, 특별시ㆍ광역시ㆍ특별자치시 및 도ㆍ특별자치도의 행정구역을 넘어서는 권역(이하 “초광역권”이라 한다)을 대상으로 하여 해당 지역의 장기적인 발전 방향을 제시하는 계획 </p> 
+       <p class="pty1_de2h">2. 도종합계획: 도 또는 특별자치도의 관할구역을 대상으로 하여 해당 지역의 장기적인 발전 방향을 제시하는 종합계획 </p> 
+       <p class="pty1_de2h">3. 시ㆍ군종합계획: 특별시ㆍ광역시ㆍ특별자치시ㆍ시 또는 군(광역시의 군은 제외한다)의 관할구역을 대상으로 하여 해당 지역의 기본적인 공간구조와 장기 발전 방향을 제시하고, 토지이용, 교통, 환경, 안전, 산업, 정보통신, 보건, 후생, 문화 등에 관하여 수립하는 계획으로서 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393363','ALLJO','');" href="javascript:;">「국토의 계획 및 이용에 관한 법률」</a>에 따라 수립되는 도시ㆍ군계획 </p> 
+       <p class="pty1_de2h">4. 지역계획: 특정 지역을 대상으로 특별한 정책목적을 달성하기 위하여 수립하는 계획 </p> 
+       <p class="pty1_de2h">5. 부문별계획: 국토 전역을 대상으로 하여 특정 부문에 대한 장기적인 발전 방향을 제시하는 계획 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:0" id="J7:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0007', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139107', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:0:000700:98139107" /> <span class="bl"><label for="Y000700"> 제7조(국토계획의 상호 관계 등) </label> </span> ① 국토종합계획은 초광역권계획, 도종합계획 및 시ㆍ군종합계획의 기본이 되며, 부문별계획과 지역계획은 국토종합계획과 조화를 이루어야 한다. <span class="sfon">&lt;개정 2022. 2. 3.&gt;</span> </p>
+       <p class="pty1_de2_1">② 도종합계획은 해당 도의 관할구역에서 수립되는 시ㆍ군종합계획의 기본이 된다. </p> 
+       <p class="pty1_de2_1">③ 국토종합계획은 20년을 단위로 하여 수립하며, 초광역권계획, 도종합계획, 시ㆍ군종합계획, 지역계획 및 부문별계획의 수립권자는 국토종합계획의 수립 주기를 고려하여 그 수립 주기를 정하여야 한다. <span class="sfon">&lt;개정 2022. 2. 3.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 국토계획의 계획기간이 만료되었음에도 불구하고 차기 계획이 수립되지 아니한 경우에는 해당 계획의 기본이 되는 계획과 저촉되지 아니하는 범위에서 종전의 계획을 따를 수 있다. <span class="sfon">&lt;신설 2021. 8. 10.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]<br />[제목개정 2021. 8. 10.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J8:0" id="J8:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0008', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139229', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="8:0:000800:98139229" /> <span class="bl"><label for="Y000800"> 제8조(다른 법령에 따른 계획과의 관계) </label> </span> 이 법에 따른 국토종합계획은 다른 법령에 따라 수립되는 국토에 관한 계획에 우선하며 그 기본이 된다. 다만, 군사에 관한 계획에 대하여는 그러하지 아니하다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J9:0" id="J9:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0009', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139231', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="9:0:000900:98139231" /> <span class="bl"><label for="Y000900"> 제9조(국토종합계획의 수립) </label> </span> ① 국토교통부장관은 국토종합계획을 수립하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국토교통부장관은 국토종합계획을 수립하려는 경우에는 중앙행정기관의 장 및 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사 또는 특별자치도지사(이하 “시ㆍ도지사”라 한다)에게 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108268');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토종합계획에 반영되어야 할 정책 및 사업에 관한 소관별 계획안의 제출을 요청할 수 있다. 이 경우 중앙행정기관의 장 및 시ㆍ도지사는 특별한 사유가 없으면 요청에 따라야 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2021. 8. 10.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따라 받은 소관별 계획안을 기초로 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108269');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 이를 조정ㆍ총괄하여 국토종합계획안을 작성하며, 제출된 소관별 계획안의 내용 외에 국토종합계획에 포함되는 것이 타당하다고 인정하는 사항은 관계 행정기관의 장과 협의하여 국토종합계획안에 반영할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 이미 수립된 국토종합계획을 변경하는 경우에는 제2항과 제3항을 준용한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:0" id="J10:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0010', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139233', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:0:001000:98139233" /> <span class="bl"><label for="Y001000"> 제10조(국토종합계획의 내용) </label> </span> 국토종합계획에는 다음 각 호의 사항에 대한 기본적이고 장기적인 정책방향이 포함되어야 한다. <span class="sfon">&lt;개정 2017. 4. 18., 2018. 4. 17.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 국토의 현황 및 여건 변화 전망에 관한 사항 </p> 
+       <p class="pty1_de2h">2. 국토발전의 기본 이념 및 바람직한 국토 미래상의 정립에 관한 사항 </p> 
+       <p class="pty1_de2h">2의2. 교통, 물류, 공간정보 등에 관한 신기술의 개발과 활용을 통한 국토의 효율적인 발전 방향과 혁신 기반 조성에 관한 사항 </p> 
+       <p class="pty1_de2h">3. 국토의 공간구조의 정비 및 지역별 기능 분담 방향에 관한 사항 </p> 
+       <p class="pty1_de2h">4. 국토의 균형발전을 위한 시책 및 지역산업 육성에 관한 사항 </p> 
+       <p class="pty1_de2h">5. 국가경쟁력 향상 및 국민생활의 기반이 되는 국토 기간 시설의 확충에 관한 사항 </p> 
+       <p class="pty1_de2h">6. 토지, 수자원, 산림자원, 해양수산자원 등 국토자원의 효율적 이용 및 관리에 관한 사항 </p> 
+       <p class="pty1_de2h">7. 주택, 상하수도 등 생활 여건의 조성 및 삶의 질 개선에 관한 사항 </p> 
+       <p class="pty1_de2h">8. 수해, 풍해(風害), 그 밖의 재해의 방제(防除)에 관한 사항 </p> 
+       <p class="pty1_de2h">9. 지하 공간의 합리적 이용 및 관리에 관한 사항 </p> 
+       <p class="pty1_de2h">10. 지속가능한 국토 발전을 위한 국토 환경의 보전 및 개선에 관한 사항 </p> 
+       <p class="pty1_de2h">11. 그 밖에 제1호부터 제10호까지에 부수(附隨)되는 사항 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:0" id="J11:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0011', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139235', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:0:001100:98139235" /> <span class="bl"><label for="Y001100"> 제11조(공청회의 개최) </label> </span> ① 국토교통부장관은 국토종합계획안을 작성하였을 때에는 공청회를 열어 일반 국민과 관계 전문가 등으로부터 의견을 들어야 하며, 공청회에서 제시된 의견이 타당하다고 인정하면 국토종합계획에 반영하여야 한다. 다만, 국방상 기밀을 유지하여야 하는 사항으로서 국방부장관이 요청한 사항은 그러하지 아니하다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항에 따른 공청회의 개최에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108270');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J12:0" id="J12:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0012', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139237', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:0:001200:98139237" /> <span class="bl"><label for="Y001200"> 제12조(국토종합계획의 승인) </label> </span> ① 국토교통부장관은 국토종합계획을 수립하거나 확정된 계획을 변경하려면 미리 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393251','JO','');" href="javascript:;">제26조</a>에 따른 국토정책위원회(이하 “국토정책위원회”라 한다)와 국무회의의 심의를 거친 후 대통령의 승인을 받아야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국토교통부장관은 제1항에 따라 국토정책위원회의 심의를 받으려는 경우에는 미리 심의안에 대하여 관계 중앙행정기관의 장과 협의하여야 하며 시ㆍ도지사의 의견을 들어야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제2항에 따른 심의안을 받은 관계 중앙행정기관의 장 및 시ㆍ도지사는 특별한 사유가 없으면 심의안을 받은 날부터 30일 이내에 국토교통부장관에게 의견을 제시하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 국토교통부장관은 제1항에 따라 국토종합계획을 승인받았을 때에는 지체 없이 그 주요 내용을 관보에 공고하고, 관계 중앙행정기관의 장, 시ㆍ도지사, 시장 및 군수(광역시의 군수는 제외한다. 이하 이 장에서 같다)에게 국토종합계획을 보내야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J12:2" id="J12:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0012', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001202" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:2:001202:98139239" /> <span class="bl"><label for="Y001202"> 제12조의2(초광역권계획의 수립) </label> </span> ① 초광역권을 구성하고자 하는 시ㆍ도지사 또는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393369','ALLJO','');" href="javascript:;">「지방자치법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393371','JO','');" href="javascript:;">제199조</a>의 특별지방자치단체의 장(이하 “초광역권계획 수립주체”라 한다)은 초광역권의 발전을 위하여 필요한 경우에는 구성 지방자치단체의 장과 협의하여 다음 각 호의 사항에 관한 초광역권계획을 수립(확정된 계획을 변경하는 경우를 포함한다. 이하 이 조에서 같다)할 수 있다. </p>
+       <p class="pty1_de2h">1. 초광역권의 범위 및 발전목표 </p> 
+       <p class="pty1_de2h">2. 초광역권의 현황 및 여건변화 전망 </p> 
+       <p class="pty1_de2h">3. 초광역권 발전전략에 관한 사항 </p> 
+       <p class="pty1_de2h">4. 초광역권의 공간구조 정비 및 기능분담에 관한 사항 </p> 
+       <p class="pty1_de2h">5. 초광역권의 교통, 물류, 정보통신망 등 기반시설의 구축에 관한 사항 </p> 
+       <p class="pty1_de2h">6. 초광역권의 산업 발전 및 육성에 관한 사항 </p> 
+       <p class="pty1_de2h">7. 초광역권 문화ㆍ관광 기반의 조성에 관한 사항 </p> 
+       <p class="pty1_de2h">8. 재원조달방안 등 계획의 집행 및 관리에 관한 사항 </p> 
+       <p class="pty1_de2h">9. 그 밖에 초광역권의 상호 기능연계 및 발전을 위하여 필요한 사항으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('177217');" href="javascript:;">대통령령</a>으로 정하는 사항 </p> 
+       <p class="pty1_de2_1">② 초광역권계획 수립주체가 제1항에 따라 초광역권계획을 수립하려는 때에는 초광역권계획의 수립에 관한 협의 및 조정 등을 위하여 초광역권계획위원회를 구성ㆍ운영하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 초광역권계획에 대한 공청회의 개최 및 국토교통부장관의 승인에 관하여는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393367','JO','');" href="javascript:;">제11조</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393373','JO','');" href="javascript:;">제15조</a>를 준용한다. 이 경우 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393365','JO','');" href="javascript:;">제11조</a> 중 “국토교통부장관”은 “초광역권계획 수립주체”로, “국토종합계획”은 “초광역권계획”으로 보고, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393373','JO','');" href="javascript:;">제15조</a> 중 “도지사”는 “초광역권계획 수립주체”로, “도종합계획”은 “초광역권계획”으로, “시장 및 군수”는 “시장ㆍ군수(광역시의 군수를 포함한다)ㆍ구청장(자치구의 구청장을 말한다)”으로 본다. </p> 
+       <p class="pty1_de2_1">④ 그 밖에 초광역권계획의 수립 기준 및 작성 방법 등과 제2항에 따른 초광역권계획위원회의 구성ㆍ운영에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('177219');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2022. 2. 3.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J13:0" id="J13:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0013', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139241', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="13:0:001300:98139241" /> <span class="bl"><label for="Y001300"> 제13조(도종합계획의 수립) </label> </span> ① 도지사(특별자치도의 경우에는 특별자치도지사를 말한다. 이하 같다)는 다음 각 호의 사항에 대한 도종합계획을 수립하여야 한다. 다만, 다른 법률에 따라 따로 계획이 수립된 도로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108271');" href="javascript:;">대통령령</a>으로 정하는 도는 도종합계획을 수립하지 아니할 수 있다. </p>
+       <p class="pty1_de2h">1. 지역 현황ㆍ특성의 분석 및 대내외적 여건 변화의 전망에 관한 사항 </p> 
+       <p class="pty1_de2h">2. 지역발전의 목표와 전략에 관한 사항 </p> 
+       <p class="pty1_de2h">3. 지역 공간구조의 정비 및 지역 내 기능 분담 방향에 관한 사항 </p> 
+       <p class="pty1_de2h">4. 교통, 물류, 정보통신망 등 기반시설의 구축에 관한 사항 </p> 
+       <p class="pty1_de2h">5. 지역의 자원 및 환경 개발과 보전ㆍ관리에 관한 사항 </p> 
+       <p class="pty1_de2h">6. 토지의 용도별 이용 및 계획적 관리에 관한 사항 </p> 
+       <p class="pty1_de2h">7. 그 밖에 도의 지속가능한 발전에 필요한 사항으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108272');" href="javascript:;">대통령령</a>으로 정하는 사항 </p> 
+       <p class="pty1_de2_1">② 도지사는 제1항에 따라 도종합계획을 수립할 때에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393253','ALLJO','');" href="javascript:;">「국토의 계획 및 이용에 관한 법률」</a>에 따라 도에 설치된 도시계획위원회의 심의를 거쳐야 한다. </p> 
+       <p class="pty1_de2_1">③ 도종합계획의 수립 기준 및 작성 방법은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108273');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('286527','0013','00','010102','NOT','국토교통부장관이 정한다','34503');">국토교통부장관이 정한다</a>. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J14:0" id="J14:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0014', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139243', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="14:0:001400:98139243" /> <span class="bl"><label for="Y001400"> 제14조(도종합계획의 수립을 위한 공청회) </label> </span> 도종합계획의 수립에 관하여는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393255','JO','');" href="javascript:;">제11조</a>를 준용한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J15:0" id="J15:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0015', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139245', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="15:0:001500:98139245" /> <span class="bl"><label for="Y001500"> 제15조(도종합계획의 승인) </label> </span> ① 도지사는 도종합계획을 수립하였을 때에는 국토교통부장관의 승인을 받아야 한다. 승인받은 도종합계획을 변경할 때에도 또한 같다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국토교통부장관은 제1항에 따라 도종합계획을 승인하려면 미리 관계 중앙행정기관의 장과 협의한 후 국토정책위원회의 심의를 거쳐야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제2항에 따라 협의 요청을 받은 관계 중앙행정기관의 장은 특별한 사유가 없으면 그 요청을 받은 날부터 30일 이내에 국토교통부장관에게 의견을 제시하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 도지사는 제1항에 따른 승인을 받으면 지체 없이 그 주요 내용을 공보에 공고하고, 관할구역에 있는 시장 및 군수에게 도종합계획을 보내야 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J16:0" id="J16:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0016', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139247', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="16:0:001600:98139247" /> <span class="bl"><label for="Y001600"> 제16조(지역계획의 수립) </label> </span> ① 중앙행정기관의 장 또는 지방자치단체의 장은 지역 특성에 맞는 정비나 개발을 위하여 필요하다고 인정하면 관계 중앙행정기관의 장과 협의하여 관계 법률에서 정하는 바에 따라 다음 각 호의 구분에 따른 지역계획을 수립할 수 있다. <span class="sfon">&lt;개정 2014. 6. 3.&gt;</span> </p>
+       <p class="pty1_de2h">1. 수도권 발전계획: 수도권에 과도하게 집중된 인구와 산업의 분산 및 적정배치를 유도하기 위하여 수립하는 계획 </p> 
+       <p class="pty1_de2h">2. 지역개발계획: 성장 잠재력을 보유한 낙후지역 또는 거점지역 등과 그 인근지역을 종합적ㆍ체계적으로 발전시키기 위하여 수립하는 계획 </p> 
+       <p class="pty1_de2h">3. 삭제 <span class="sfon">&lt;2014. 6. 3.&gt;</span> </p> 
+       <p class="pty1_de2h">4. 삭제 <span class="sfon">&lt;2014. 6. 3.&gt;</span> </p> 
+       <p class="pty1_de2h">5. 그 밖에 다른 법률에 따라 수립하는 지역계획 </p> 
+       <p class="pty1_de2_1">② 중앙행정기관의 장 또는 지방자치단체의 장은 제1항에 따라 지역계획을 수립하거나 변경한 때에는 이를 지체 없이 국토교통부장관에게 알려야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J17:0" id="J17:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0017', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139249', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:0:001700:98139249" /> <span class="bl"><label for="Y001700"> 제17조(부문별계획의 수립) </label> </span> ① 중앙행정기관의 장은 국토 전역을 대상으로 하여 소관 업무에 관한 부문별계획을 수립할 수 있다. </p>
+       <p class="pty1_de2_1">② 중앙행정기관의 장은 제1항에 따른 부문별계획을 수립할 때에는 국토종합계획의 내용을 반영하여야 하며, 이와 상충(相衝)되지 아니하도록 하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 중앙행정기관의 장은 제1항에 따라 부문별계획을 수립하거나 변경한 때에는 지체 없이 국토교통부장관에게 알려야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J17:2" id="J17:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0017', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001702" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:2:001702:98139251" /> <span class="bl"><label for="Y001702"> 제17조의2(국민의 의견 청취 등) </label> </span> ① 국토교통부장관은 국토에 관한 계획 및 정책을 수립하는 과정에서 국민들의 의견이 반영될 수 있도록 노력하여야 한다. </p>
+       <p class="pty1_de2_1">② 국토교통부장관은 국토계획 등에 관한 국민들의 이해를 돕기 위하여 필요한 경우 관련 교육과 홍보를 할 수 있다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2020. 4. 7.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:98139253" id="pjuk:98139253"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="001800" data-joseq="98139253">         제3장 국토계획의 효율적 추진 </p> 
+     </div> 
+     <a name="J18:0" id="J18:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0018', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139255', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="18:0:001800:98139255" /> <span class="bl"><label for="Y001800"> 제18조(실천계획의 수립 및 평가) </label> </span> ① 중앙행정기관의 장 및 시ㆍ도지사는 국토종합계획의 내용을 소관 업무와 관련된 정책 및 계획에 반영하여야 하며, <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108274');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토종합계획을 실행하기 위한 소관별 실천계획을 수립하여 국토교통부장관에게 제출하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 중앙행정기관의 장 및 시ㆍ도지사는 소관별 실천계획의 추진 실적서를 작성하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108275');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토교통부장관에게 제출하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따라 받은 추진 실적을 종합하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108276');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토종합계획의 성과를 정기적으로 평가하고 그 결과를 국토정책의 수립ㆍ집행에 반영하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 국토교통부장관은 제3항에 따른 평가를 효율적으로 하기 위하여 이에 필요한 조사ㆍ분석 등을 전문기관에 의뢰할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J19:0" id="J19:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0019', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139257', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:0:001900:98139257" /> <span class="bl"><label for="Y001900"> 제19조(국토종합계획의 정비) </label> </span> 국토교통부장관은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393257','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393259','JO','');" href="javascript:;">제3항</a>에 따른 평가 결과와 사회적ㆍ경제적 여건 변화를 고려하여 5년마다 국토종합계획을 전반적으로 재검토하고 필요하면 정비하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J19:2" id="J19:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0019', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139259', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001902" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:2:001902:98139259" /> <span class="bl"><label for="Y001902"> 제19조의2(국토계획평가의 대상 및 기준) </label> </span> ① 국토교통부장관은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108277');" href="javascript:;">대통령령</a>으로 정하는 중장기적ㆍ지침적 성격의 국토계획이 국토관리의 기본 이념에 따라 수립되었는지를 평가(이하 “국토계획평가”라 한다)하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2020. 4. 7.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국토계획평가의 기준은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393321','JO','');" href="javascript:;">제2조부터 제4조</a>까지, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393315','JO','');" href="javascript:;">제4조의2</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393313','JO','');" href="javascript:;">제5조</a>의 규정에 따른 국토관리의 기본 이념을 고려하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108278');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2020. 4. 7.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관이 국토계획평가를 실시할 때에는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393317','JO','');" href="javascript:;">제25조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393319','JO','');" href="javascript:;">제1항</a>에 따른 국토모니터링 결과를 우선적으로 활용하여야 한다. <span class="sfon">&lt;신설 2020. 4. 7.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J19:3" id="J19:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0019', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139261', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001903" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:3:001903:98139261" /> <span class="bl"><label for="Y001903"> 제19조의3(국토계획평가의 절차) </label> </span> ① <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393415','JO','');" href="javascript:;">제19조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393413','JO','');" href="javascript:;">제1항</a>에 따른 국토계획평가 대상이 되는 국토계획의 수립권자는 해당 국토계획을 수립하거나 변경하기 전에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108279');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 국토계획평가 요청서를 작성하여 국토교통부장관에게 제출하여야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항에 따라 국토계획평가 요청서를 제출받은 국토교통부장관은 국토계획평가를 실시한 후 그 결과에 대하여 국토정책위원회의 심의를 거쳐야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따라 국토계획평가를 실시할 때 필요한 경우에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393417','ALLJO','');" href="javascript:;">「정부출연연구기관 등의 설립ㆍ운영 및 육성에 관한 법률」</a>에 따라 설립된 정부출연연구기관이나 관계 전문가에게 현지조사를 의뢰하거나 의견을 들을 수 있으며, 제1항에 따른 국토계획평가 요청서 중 환경친화적인 국토관리에 관한 사항은 대통령령으로 정하는 바에 따라 기후에너지환경부장관의 의견을 들어야 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 제1항에 따른 국토계획평가 요청서 제출 시기, 제2항에 따른 국토계획평가 결과의 통보 절차 및 그 밖에 국토계획평가 절차에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108291');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J20:0" id="J20:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0020', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139263', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="20:0:002000:98139263" /> <span class="bl"><label for="Y002000"> 제20조(계획 간의 조정) </label> </span> ① 국토교통부장관은 초광역권계획, 도종합계획, 시ㆍ군종합계획, 지역계획 및 부문별계획이 다음 각 호의 어느 하나에 해당하는 경우에는 중앙행정기관의 장 또는 지방자치단체의 장에게 해당 계획을 조정할 것을 요청할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23., 2016. 12. 2., 2021. 1. 5., 2022. 2. 3.&gt;</span> </p>
+       <p class="pty1_de2h">1. 서로 상충되거나 국토종합계획에 부합하지 아니한다고 판단되는 경우 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393379','JO','');" href="javascript:;">제19조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393381','JO','');" href="javascript:;">제2항</a>에 따른 국토계획평가 실시 결과 해당 국토계획을 보완ㆍ조정할 필요가 있다고 인정되는 경우 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393377','ALLJO','');" href="javascript:;">「환경정책기본법」</a>에 따른 환경계획과의 연계성이 부족하여 상호 보완ㆍ조정할 필요가 있다고 인정되는 경우 </p> 
+       <p class="pty1_de2_1">② 제1항에 따라 계획을 조정할 것을 요청받은 중앙행정기관의 장 또는 지방자치단체의 장이 특별한 사유 없이 이를 반영하지 아니하는 경우에는 국토교통부장관이 국토정책위원회의 심의를 거쳐 이를 조정할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제2항에 따른 조정을 하려면 미리 관계 중앙행정기관의 장 또는 해당 지방자치단체의 장의 의견을 들어야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J21:0" id="J21:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0021', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139265', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="21:0:002100:98139265" /> <span class="bl"><label for="Y002100"> 제21조(국토계획에 관한 처분 등의 조정) </label> </span> ① 국토교통부장관은 중앙행정기관의 장 또는 지방자치단체의 장이 국토계획의 시행을 위하여 하는 처분이나 사업이 상충되어 국토계획의 원활한 실시에 지장을 줄 우려가 있다고 인정하는 경우에는 국토정책위원회의 심의를 거쳐 그 처분이나 사업을 조정할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 관계 중앙행정기관의 장 또는 지방자치단체의 장은 국토교통부장관에게 제1항에 따른 처분이나 사업의 조정을 요청할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 제1항에 따른 조정을 하려면 미리 관계 중앙행정기관의 장 또는 해당 지방자치단체의 장의 의견을 들어야 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J22:0" id="J22:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0022', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139267', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="22:0:002200:98139267" /> <span class="bl"><label for="Y002200"> 제22조(재정상의 조치) </label> </span> 중앙행정기관의 장과 지방자치단체의 장은 국토계획이 실효성 있게 추진될 수 있도록 필요한 재정상의 조치를 마련하여야 한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:98139269" id="pjuk:98139269"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="002300" data-joseq="98139269">         제4장 국토의 계획 및 이용에 관한 연차보고 등 <span class="sfon">&lt;개정 2020. 4. 7.&gt;</span> </p> 
+     </div> 
+     <a name="J23:0" id="J23:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0023', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139271', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="23:0:002300:98139271" /> <span class="bl"><label for="Y002300"> 제23조 </label> </span> <input type="hidden" id="delJo98139271" value="삭제" /> 삭제 <span class="sfon">&lt;2009. 2. 6.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="J24:0" id="J24:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0024', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139273', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:0:002400:98139273" /> <span class="bl"><label for="Y002400"> 제24조(국토의 계획 및 이용에 관한 연차보고) </label> </span> ① 정부는 국토의 계획 및 이용의 주요 시책에 관한 보고서(이하 “연차보고서”라 한다)를 작성하여 매년 정기국회 개회 전까지 국회에 제출하여야 한다. </p>
+       <p class="pty1_de2_1">② 제1항의 보고서에는 다음 각 호의 내용이 포함되어야 한다. </p> 
+       <p class="pty1_de2h">1. 국토계획의 수립 및 관리 </p> 
+       <p class="pty1_de2h">2. 국토의 계획 및 이용에 관하여 추진된 시책과 추진하려는 시책 </p> 
+       <p class="pty1_de2h">3. 지역개발 현황 및 주요 시책 </p> 
+       <p class="pty1_de2h">4. 사회간접자본의 현황 </p> 
+       <p class="pty1_de2h">5. 국토자원의 이용 현황 </p> 
+       <p class="pty1_de2h">6. 국토 환경 현황 및 주요 시책 </p> 
+       <p class="pty1_de2h">7. 용도지역별 토지이용 현황 및 토지거래 동향 </p> 
+       <p class="pty1_de2h">8. 그 밖에 국토계획 및 국토 이용에 관한 중요 사항 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:0" id="J25:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0025', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139275', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:0:002500:98139275" /> <span class="bl"><label for="Y002500"> 제25조(국토 조사) </label> </span> ① 국토교통부장관은 국토에 관한 계획 또는 정책의 수립, <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393323','ALLJO','');" href="javascript:;">「국가공간정보 기본법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393325','JO','');" href="javascript:;">제32조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393327','JO','');" href="javascript:;">제2항</a>에 따른 공간정보의 제작, 연차보고서의 작성 등을 위하여 필요할 때에는 미리 인구, 경제, 사회, 문화, 교통, 환경, 토지이용, 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108292');" href="javascript:;">대통령령</a>으로 정하는 사항에 대하여 조사할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23., 2014. 6. 3.&gt;</span> </p>
+       <p class="pty1_de2_1">② 국토교통부장관은 중앙행정기관의 장 또는 지방자치단체의 장에게 국토 조사에 필요한 자료의 제출을 요청하거나 제1항의 국토 조사 사항 중 일부를 직접 조사하도록 요청할 수 있다. 이 경우 요청을 받은 중앙행정기관의 장 또는 지방자치단체의 장은 특별한 사유가 없으면 요청에 따라야 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2020. 4. 7.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 효율적인 국토 조사를 위하여 필요하면 제1항에 따른 조사를 전문기관에 의뢰할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 중앙행정기관의 장 및 지방자치단체의 장은 국토계획을 수립하기 위한 기초조사 등을 실시할 때 국토 조사 결과를 활용할 수 있다. <span class="sfon">&lt;신설 2020. 4. 7.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 제1항에 따른 국토 조사의 종류와 방법 등에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108293');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2020. 4. 7.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:2" id="J25:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0025', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002502" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:2:002502:98139277" /> <span class="bl"><label for="Y002502"> 제25조의2(국토모니터링의 추진 등) </label> </span> ① 국토교통부장관은 국토의 변화상과 국토계획 및 국토정책에 대한 추진상황을 주기적 또는 수시로 점검(이하 “국토모니터링”이라 한다)할 수 있다. </p>
+       <p class="pty1_de2_1">② 중앙행정기관의 장 및 지방자치단체의 장은 국토계획 및 국토정책을 수립할 때, 국토모니터링 결과를 반영하도록 노력하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 국토교통부장관은 체계적이고 효율적인 국토계획의 수립과 국토정책의 추진을 위하여 국토모니터링체계를 구축ㆍ운영할 수 있다. </p> 
+       <p class="pty1_de2_1">④ 국토교통부장관은 국토모니터링체계를 구축ㆍ운영하기 위하여 필요한 경우 관계 기관에 자료제공을 요청할 수 있다. 이 경우 이를 요청받은 관계 기관은 정당한 사유가 없으면 이에 따라야 한다. </p> 
+       <p class="pty1_de2_1">⑤ 제1항부터 제4항까지에서 규정한 사항 외에 국토모니터링의 추진 및 국토모니터링체계의 구축ㆍ운영에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('161405');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2020. 4. 7.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:98139279" id="pjuk:98139279"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="002600" data-joseq="98139279">         제5장 국토정책위원회 <span class="sfon">&lt;신설 2011. 5. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J26:0" id="J26:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0026', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139281', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="26:0:002600:98139281" /> <span class="bl"><label for="Y002600"> 제26조(국토정책위원회) </label> </span> ① 국토계획 및 정책에 관한 중요 사항을 심의하기 위하여 국무총리 소속으로 국토정책위원회를 둔다. </p>
+       <p class="pty1_de2_1">② 국토정책위원회는 다음 각 호의 사항을 심의한다. 다만, 제3호와 제4호의 경우 다른 법률에서 다른 위원회의 심의를 거치도록 한 경우에는 국토정책위원회의 심의를 거치지 아니한다. <span class="sfon">&lt;개정 2022. 2. 3.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 국토종합계획에 관한 사항 </p> 
+       <p class="pty1_de2h">1의2. 초광역권계획에 관한 사항 </p> 
+       <p class="pty1_de2h">2. 도종합계획에 관한 사항 </p> 
+       <p class="pty1_de2h">3. 지역계획에 관한 사항 </p> 
+       <p class="pty1_de2h">4. 부문별계획에 관한 사항 </p> 
+       <p class="pty1_de2h">5. 국토계획평가에 관한 사항 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393389','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393387','JO','');" href="javascript:;">제2항</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393385','JO','');" href="javascript:;">제21조</a>에 따른 국토계획 및 국토계획에 관한 처분 등의 조정에 관한 사항 </p> 
+       <p class="pty1_de2h">7. 이 법 또는 다른 법률에서 국토정책위원회의 심의를 거치도록 한 사항 </p> 
+       <p class="pty1_de2h">8. 그 밖에 국토정책위원회 위원장 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393383','JO','');" href="javascript:;">제28조</a>에 따른 분과위원회 위원장이 회의에 부치는 사항 </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J27:0" id="J27:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0027', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139283', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="27:0:002700:98139283" /> <span class="bl"><label for="Y002700"> 제27조(구성 등) </label> </span> ① 국토정책위원회는 위원장 1명, 부위원장 2명을 포함한 42명 이내의 위원으로 구성하고, 위원은 당연직위원과 위촉위원으로 구성한다. 다만, 지역계획에 관한 사항을 심의하는 경우에는 해당 시ㆍ도지사는 위원 정수에도 불구하고 해당 사항에 한정하여 위원이 된다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 위원장은 국무총리가 되고, 부위원장은 국토교통부장관과 위촉위원 중에서 호선으로 선정된 위원으로 한다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 위원은 다음 각 호의 사람으로 한다. <span class="sfon">&lt;개정 2013. 3. 23., 2018. 3. 20., 2023. 6. 9., 2026. 6. 2.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 당연직위원: <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108294');" href="javascript:;">대통령령</a>으로 정하는 중앙행정기관의 장과 국무조정실장, 「지방자치분권 및 균형성장에 관한 특별법」에 따른 지방시대위원회 위원장 </p> 
+       <p class="pty1_de2h">2. 위촉위원: 국토계획 및 정책에 관하여 학식과 경험이 풍부한 사람으로서 국무총리가 위촉한 사람 </p> 
+       <p class="pty1_de2_1">④ 위촉위원의 임기는 2년으로 하되, 사임 등으로 인하여 새로 위촉된 위원의 임기는 전임위원 임기의 남은 기간으로 한다. </p> 
+       <p class="pty1_de2_1">⑤ 제1항부터 제4항까지에서 규정한 사항 외에 국토정책위원회의 구성 및 운영 등에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108295');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J28:0" id="J28:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0028', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139285', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="28:0:002800:98139285" /> <span class="bl"><label for="Y002800"> 제28조(분과위원회 및 전문위원 등) </label> </span> ① 국토정책위원회의 업무를 효율적으로 수행하기 위하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108296');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 분야별로 분과위원회를 둔다. </p>
+       <p class="pty1_de2_1">② 분과위원회의 심의는 국토정책위원회의 심의로 본다. </p> 
+       <p class="pty1_de2_1">③ 국토정책위원회와 분과위원회의 주요 심의사항에 관하여 자문하기 위하여 국토정책위원회의 위원장은 국토계획 및 정책에 관한 전문지식 및 경험이 있는 사람 중에서 전문위원을 위촉할 수 있다. </p> 
+       <p class="pty1_de2_1">④ 전문위원은 국토정책위원회와 분과위원회에 출석하여 발언할 수 있으며, 필요한 경우 위원회에 서면으로 의견을 제출할 수 있다. </p> 
+       <p class="pty1_de2_1">⑤ 분과위원회의 구성ㆍ운영 및 전문위원의 임기 등에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108297');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J29:0" id="J29:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0029', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139287', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="29:0:002900:98139287" /> <span class="bl"><label for="Y002900"> 제29조 </label> </span> <input type="hidden" id="delJo98139287" value="삭제" /> 삭제 <span class="sfon">&lt;2008. 2. 29.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="J30:0" id="J30:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0030', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139289', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="30:0:003000:98139289" /> <span class="bl"><label for="Y003000"> 제30조 </label> </span> <input type="hidden" id="delJo98139289" value="삭제" /> 삭제 <span class="sfon">&lt;2008. 2. 29.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="pjuk:98139291" id="pjuk:98139291"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="003100" data-joseq="98139291">         제6장 보칙 <span class="sfon">&lt;개정 2011. 5. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J31:0" id="J31:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0031', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139293', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="31:0:003100:98139293" /> <span class="bl"><label for="Y003100"> 제31조(비용 부담의 원칙) </label> </span> 국토계획의 수립, 국토 조사 등에 관한 비용은 이 법 또는 다른 법률에 특별한 규정이 있는 경우를 제외하고는 이를 수행하는 자가 부담하는 것을 원칙으로 한다. 다만, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393301','JO','');" href="javascript:;">제25조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393303','JO','');" href="javascript:;">제2항</a>에 따라 지방자치단체가 국토 조사를 하는 경우에는 국고에서 그 비용의 일부를 보조할 수 있다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J32:0" id="J32:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0032', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139295', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="32:0:003200:98139295" /> <span class="bl"><label for="Y003200"> 제32조(「공간정보의 구축 및 관리 등에 관한 법률」의 준용) </label> </span> ① 국토계획의 수립 등을 위한 국토 조사에 필요한 자료의 제출, 국토 조사의 통지ㆍ공고, 토지 등의 출입, 장애물 등의 변경ㆍ제거, 토지 등의 일시 사용, 국토 조사로 인한 손실 보상, 표지의 설치ㆍ관리ㆍ보호에 관하여는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393335','ALLJO','');" href="javascript:;">「공간정보의 구축 및 관리 등에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393355','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393337','JO','');" href="javascript:;">제2항</a>ㆍ제6항ㆍ제7항, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393353','JO','');" href="javascript:;">제9조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393329','JO','');" href="javascript:;">제11조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393333','JO','');" href="javascript:;">제12조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393357','JO','');" href="javascript:;">제101조</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393331','JO','');" href="javascript:;">제102조</a>를 각각 준용한다. <span class="sfon">&lt;개정 2014. 6. 3., 2020. 2. 18.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항에 규정된 사항 중 표지의 보호, 토지 등의 출입 및 그 일시 사용에 관한 사항의 위반에 대한 벌칙에 관하여는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393397','ALLJO','');" href="javascript:;">「공간정보의 구축 및 관리 등에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393393','JO','');" href="javascript:;">제108조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033393401','JO','');" href="javascript:;">제1호</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393399','JO','');" href="javascript:;">제111조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1033393391','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1033393395','JO','');" href="javascript:;">제18호</a>를 각각 준용한다. <span class="sfon">&lt;개정 2014. 6. 3.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]<br />[제목개정 2014. 6. 3.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J33:0" id="J33:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('286527', '0033', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '009293', '286527', '98139297', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="33:0:003300:98139297" /> <span class="bl"><label for="Y003300"> 제33조(권한의 위임 및 업무의 위탁) </label> </span> ① 이 법에 따른 국토교통부장관의 권한은 그 일부를 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('108298');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 소속 기관의 장 또는 시ㆍ도지사에게 위임할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p>
+       <p class="pty1_de2_1">② 이 법에 따른 국토교통부장관, 시ㆍ도지사, 시장 또는 군수의 업무는 그 일부를 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('137031');" href="javascript:;">대통령령</a> 또는 해당 지방자치단체의 <a href="#AJAX" title="팝업으로 이동" class="delegatedOrdin_link" onclick="javascript:joDelegateOrdinPop('286527','009293','0033','00','010103','','조례로');">조례</a>로 정하는 바에 따라 다른 행정청이나 행정청이 아닌 자에게 위탁할 수 있다. <span class="sfon">&lt;개정 2013. 3. 23.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제2항에 따라 위탁을 받은 자로서 행정청이 아닌 자나 그에 소속된 직원은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1033393305','ALLJO','');" href="javascript:;">「형법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1033393307','JO','');" href="javascript:;">제129조부터 제132조</a>까지의 규정을 적용할 때에는 각각 공무원으로 본다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2011. 5. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <!-- 조문정보 --> 
+     <!-- 부칙 영역 끝 --> 
+     <br /> 
+     <div id="arDivArea"> 
+      <a name="arArea"></a> 
+      <a name="J12677565" id="J12677565"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677565','<법률 제6654호, 2002. 2. 4.>'); return false;" href="#AJAX"> <img id="ar12677565btn" style="vertical-align: middle;" alt="부칙 <법률 제6654호, 2002. 2. 4.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677565" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제6654호, 2002. 2. 4.>체크박스 " value="12677565" /> <a class="nun" onclick="javascript:arView('ar12677565','<법률 제6654호, 2002. 2. 4.>'); return false;" href="#AJAX"> <label for="chk12677565"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제6654호, 2002. 2. 4.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677565','<법률 제6654호, 2002. 2. 4.>');return false;" href="#AJAX"> <img id="ar12677565MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제6654호, 2002. 2. 4.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조 (시행일)</span> 이 법은 2003년 1월 1일부터 시행한다.</p>
+       <div id="ar12677565">
+        <p class="pty3_dep1"><span class="bl">제2조 (다른 법률의 폐지)</span> 국토건설종합계획법은 이를 폐지한다.</p>
+        <p class="pty3_dep1"><span class="bl">제3조 (일반적 경과조치)</span> 이 법 시행 당시 종전의 국토건설종합계획법의 규정에 의한 처분ㆍ절차 그밖의 행위는 이 법의 규정에 의하여 행하여진 것으로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조 (국토종합계획 및 도종합계획에 관한 경과조치)</span> 이 법 시행 당시 종전의 국토건설종합계획법에 의하여 수립된 국토건설종합계획 및 도건설종합계획은 이 법에 의하여 수립된 국토종합계획 및 도종합계획으로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제5조 (국토정책위원회에 관한 경과조치)</span> 이 법에 의한 국토정책위원회를 구성하기 전까지는 이 법 시행 당시 종전의 국토건설종합계획법에 의한 국토건설종합계획심의회를 이 법에 의하여 구성된 국토정책위원회로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제6조 (다른 법률의 개정)</span> ①공업배치및공장설립에관한법률중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제4항제1호중 “국토건설종합계획법에 의한 국토건설종합계획”을 “국토기본법에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ②공유수면관리법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제1호중 “국토건설종합계획법 제6조제2항의 규정에 의하여 지정된 특정지역안의 공유수면”을 “국토기본법 제16조제3호의 규정에 의하여 특정지역개발계획이 수립된 지역안의 공유수면”으로 한다.</p>
+        <p class="pty3_dep2"> ③공유수면매립법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조 본문중 “국토건설종합계획법에 의한 국토건설종합계획”을 “국토기본법에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ④교통체계효율화법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제1항중 “국토건설종합계획법에 의한 국토건설종합계획”을 “국토기본법에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑤농어촌도로정비법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제3항 전단중 “국토건설종합계획법등에”를 “국토기본법 등에”로 한다.</p>
+        <p class="pty3_dep2"> ⑥농어촌정비법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제30조제2항중 “국토이용관리법에 의한 국토건설종합계획”을 “국토기본법에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑦도서개발촉진법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제1항 단서중 “국토건설종합계획법”을 “국토기본법”으로 한다.</p>
+        <p class="pty3_dep2"> ⑧석탄산업법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제39조의12중 “국토건설종합계획법에 의한 국토건설종합계획”을 “국토기본법에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑨수도권정비계획법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제2호중 “국토건설종합계획법 제3조의 규정에 의한 전국건설종합계획”을 “국토기본법 제6조제2항제1호의 규정에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑩수질환경보전법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제32조의2의 제목중 “국토건설종합계획”을 “국토계획”으로 하고, 동조중 “도지사 또는 군수는 국토건설종합계획법에 의하여 도건설종합계획 또는 군건설종합계획을”을 “특별시장ㆍ광역시장ㆍ시장 또는 군수는 국토기본법에 의하여 도종합계획 또는 시군종합계획을”로, “당해 건설종합계획에”를 “당해 종합계획에”로 한다.</p>
+        <p class="pty3_dep2"> 제32조의3중 “도건설종합계획”을 “도종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑪오지개발촉진법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조 단서중 “국토건설종합계획법”을 “국토기본법”으로 한다.</p>
+        <p class="pty3_dep2"> ⑫유통단지개발촉진법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제1항중 “국토건설종합계획법 제2조의 규정에 의한 국토건설종합계획”을 “국토기본법 제6조제2항제1호의 규정에 의한 국토종합계획”으로 한다.</p>
+        <p class="pty3_dep2"> ⑬자연공원법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제2항중 “국토건설종합계획법 제7조의 규정에 의한 국토건설종합계획심의회”를 “국토기본법 제26조의 규정에 의한 국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> ⑭접경지역지원법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조 단서중 “국토건설종합계획법”을 “국토기본법”으로 한다.</p>
+        <p class="pty3_dep2"> ⑮지역균형개발및지방중소기업육성에관한법률중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제2조제1호 가목을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 가. 국토기본법 제6조제2항제2호 및 제3호의 규정에 의하여 수립하는 도종합계획과 시군종합계획</p>
+        <p class="pty3_dep2"> 제4조제3항 전단중 “국토건설종합계획법 제7조의 규정에 의한 국토건설종합계획심의회(이하 "심의회"라 한다)”를 “국토기본법 제26조의 규정에 의한 국토정책위원회(이하 "위원회"라 한다)”로 한다.</p>
+        <p class="pty3_dep2"> 제5조제4항ㆍ제8조제2항ㆍ제11조제1항 본문ㆍ제14조제4항ㆍ제26조의3제3항 및 제26조의4제2항중 “심의회”를 각각 “위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제27조제3항중 “심의회(특별시ㆍ광역시와 구의 경우에는 도시계획법에 의한 지방도시계획위원회를, 도와 시ㆍ군의 경우에는 도건설종합계획심의회를 말한다)”를 “위원회(특별시ㆍ광역시ㆍ도와 시ㆍ군ㆍ구의 경우에는 국토의계획및이용에관한법률에 의한 지방도시계획위원회를 말한다)”로 한다.</p>
+        <p class="pty3_dep2"> 제55조의 제목중 “국토건설종합계획심의회”를 “국토정책위원회”로 하고, 동조제1항중 “심의회”를 “위원회”로, “국토건설종합계획법 제11조”를 “국토기본법 제28조”로 하며, 동조제2항중 “심의회”를 각각 “위원회”로 한다.</p>
+        <p class="pty3_dep2"> ⑯폐기물처리시설설치촉진및주변지역지원등에관한법률중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조의 제목중 “국토건설종합계획”을 “국토계획”으로 하고, 동조 본문중 “도지사 또는 군수는 국토건설종합계획법에 의하여 도건설종합계획 또는 군건설종합계획을”을 “특별시장ㆍ광역시장ㆍ시장 또는 군수는 국토기본법에 의하여 도종합계획 또는 시군종합계획을”로, “당해 건설종합계획에”를 “당해 종합계획에”로 한다.</p>
+        <p class="pty3_dep2"> 제4조중 “도건설종합계획”을 “도종합계획”으로 한다.</p>
+        <p class="pty3_dep1"><span class="bl">제7조 (다른 법률과의 관계)</span> 이 법 시행 당시 다른 법률에서 종전의 국토건설종합계획법 또는 그 규정을 인용하고 있는 경우 이 법중 그에 해당하는 규정이 있는 때에는 종전의 규정에 갈음하여 이 법 또는 이 법의 해당 규정을 인용한 것으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12677567" id="J12677567"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12677567btn" style="vertical-align: middle;" alt="부칙<법률 제8122호, 2006. 12. 28.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12677567" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8122호, 2006. 12. 28.>체크박스 " value="12677567" /> <a class="nun" onclick="javascript:arView('ar12677567','<법률 제8122호, 2006. 12. 28.>'); return false;" href="#AJAX"> <label for="chk12677567"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8122호, 2006. 12. 28.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포 후 1년이 경과한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12677569" id="J12677569"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677569','<법률 제8870호, 2008. 2. 29.>'); return false;" href="#AJAX"> <img id="ar12677569btn" style="vertical-align: middle;" alt="부칙 <법률 제8870호, 2008. 2. 29.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677569" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8870호, 2008. 2. 29.>체크박스 " value="12677569" /> <a class="nun" onclick="javascript:arView('ar12677569','<법률 제8870호, 2008. 2. 29.>'); return false;" href="#AJAX"> <label for="chk12677569"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8870호, 2008. 2. 29.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677569','<법률 제8870호, 2008. 2. 29.>');return false;" href="#AJAX"> <img id="ar12677569MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제8870호, 2008. 2. 29.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다.</p>
+       <div id="ar12677569">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법률의 개정)</span> 지역균형개발 및 지방중소기업 육성에 관한 법률 일부를 다음과 같이 개정한다. </p>
+        <p class="pty3_dep2"> 제4조제3항 본문 전단 중 “관계중앙행정기관의 장 및 광역시장 또는 도지사와 협의한 후 「국토기본법」 제26조의 규정에 의한 국토정책위원회(이하 "위원회"라 한다)의 심의를 거쳐야 한다.”를 “관계 중앙행정기관의 장 및 광역시장 또는 도지사와 협의하여야 한다.”로 한다. </p>
+        <p class="pty3_dep2"> 제5조제4항 본문 중 “관계중앙행정기관의 장과 협의한 후 위원회의 심의를 거쳐 이를 확정하여야 하며”를 “관계 중앙행정기관의 장과 협의하여 이를 확정하여야 하며”로 한다. </p>
+        <p class="pty3_dep2"> 제8조제2항 중 “집행결과를 평가하여 위원회에 보고하여야 한다.”를 “집행결과를 평가한다.”로 한다.</p>
+        <p class="pty3_dep2"> 제11조제1항 본문 전단 중 “관계중앙행정기관의 장과 협의한 후 위원회의 심의를 거쳐야 한다.”를 “관계 중앙행정기관의 장과 협의하여야 한다.”로 한다. </p>
+        <p class="pty3_dep2"> 제14조제4항 본문 중 “관계중앙행정기관의 장과 협의한 후 위원회의 심의를 거쳐야 하며”를 “관계 중앙행정기관의 장과 협의하여야 하며”로 한다. </p>
+        <p class="pty3_dep2"> 제26조의3제3항 본문 중 “관계중앙행정기관의 장 및 당해 광역시장 또는 도지사와 협의한 후 위원회의 심의를 거쳐야 하며”를 “관계 중앙행정기관의 장 및 당해 광역시장 또는 도지사와 협의하여야 하며”로 한다.</p>
+        <p class="pty3_dep2"> 제26조의4제2항 본문 중 “관계중앙행정기관의 장 및 당해 광역시장 또는 도지사와 협의한 후 위원회의 심의를 거쳐 이를 확정하여야 하며”를 “관계 중앙행정기관의 장 및 당해 광역시장 또는 도지사와 협의하여 이를 확정하여야 하며”로 한다.</p>
+        <p class="pty3_dep2"> 제27조제3항 본문을 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 제1항에 따라 민자유치계획을 작성한 경우에는 중앙행정기관의 장은 관계 행정기관의 장과 협의하여 이를 확정하여야 하고, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 관계행정기관의 장과 협의한 후「국토의 계획 및 이용에 관한 법률」에 따른 지방도시계획위원회의 심의를 거쳐 이를 확정하여야 한다. </p>
+        <p class="pty3_dep2"> 제38조의2제3항 중 “관계 중앙행정기관의 장과 협의한 후 위원회의 심의를 거쳐야 한다.”를 “관계 중앙행정기관의 장과 협의하여야 한다.”로 한다.</p>
+        <p class="pty3_dep2"> 제38조의3제3항 중 “ 관계 중앙행정기관의 장과 협의한 후 위원회의 심의를 거쳐야 한다.”를 “관계 중앙행정기관의 장과 협의하여야 한다.”로 한다.</p>
+        <p class="pty3_dep2"> 제55조를 삭제한다.</p>
+       </div> 
+      </div> 
+      <a name="J12677571" id="J12677571"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677571','<법률 제9440호,  2009. 2. 6.>'); return false;" href="#AJAX"> <img id="ar12677571btn" style="vertical-align: middle;" alt="부칙 <법률 제9440호,  2009. 2. 6.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677571" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제9440호,  2009. 2. 6.>체크박스 " value="12677571" /> <a class="nun" onclick="javascript:arView('ar12677571','<법률 제9440호,  2009. 2. 6.>'); return false;" href="#AJAX"> <label for="chk12677571"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제9440호, 2009. 2. 6.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국가공간정보에 관한 법률', '20090206', '09440');" href="#AJAX"> <span class="sfon">(국가공간정보에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677571','<법률 제9440호,  2009. 2. 6.>');return false;" href="#AJAX"> <img id="ar12677571MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제9440호,  2009. 2. 6.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12677571">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 및 제3조 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조(다른 법률의 개정)</span> ① 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제23조를 삭제한다.</p>
+        <p class="pty3_dep2"> ② 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677573" id="J12677573"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677573','<법률 제9774호,  2009. 6. 9.>'); return false;" href="#AJAX"> <img id="ar12677573btn" style="vertical-align: middle;" alt="부칙 <법률 제9774호,  2009. 6. 9.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677573" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제9774호,  2009. 6. 9.>체크박스 " value="12677573" /> <a class="nun" onclick="javascript:arView('ar12677573','<법률 제9774호,  2009. 6. 9.>'); return false;" href="#AJAX"> <label for="chk12677573"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제9774호, 2009. 6. 9.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('측량ㆍ수로조사 및 지적에 관한 법률', '20090609', '09774');" href="#AJAX"> <span class="sfon">(측량ㆍ수로조사 및 지적에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677573','<법률 제9774호,  2009. 6. 9.>');return false;" href="#AJAX"> <img id="ar12677573MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제9774호,  2009. 6. 9.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12677573">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제17조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제18조(다른 법률의 개정)</span> ① 부터 ⑨ 까지 생략</p>
+        <p class="pty3_dep2"> ⑩ 국토기본법 일부를 다음과 같이 개정한다. </p>
+        <p class="pty3_dep2"> 제32조의 제목 중 “측량법”을 “「측량ㆍ수로조사 및 지적에 관한 법률」”로 하고, 같은 조 제1항 중 “측량법 제8조 내지 제12조ㆍ제14조 내지 제16조ㆍ제18조의 규정을”을 “「측량ㆍ수로조사 및 지적에 관한 법률」 제8조제2항ㆍ제3항ㆍ제6항ㆍ제7항, 제9조, 제11조, 제12조, 제101조 및 제102조를”로 하며, 같은 조 제2항 중 “측량법 제64조제3호 및 제68조제1항제4호ㆍ제5호의 규정을”을 “「측량ㆍ수로조사 및 지적에 관한 법률」 제108조제1호 및 제111조제1항제18호를”로 한다.</p>
+        <p class="pty3_dep2"> ⑪ 부터 ㊹ 까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제19조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677575" id="J12677575"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677575','<법률 제10599호,  2011. 4. 14.>'); return false;" href="#AJAX"> <img id="ar12677575btn" style="vertical-align: middle;" alt="부칙 <법률 제10599호,  2011. 4. 14.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677575" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제10599호,  2011. 4. 14.>체크박스 " value="12677575" /> <a class="nun" onclick="javascript:arView('ar12677575','<법률 제10599호,  2011. 4. 14.>'); return false;" href="#AJAX"> <label for="chk12677575"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제10599호, 2011. 4. 14.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국토의 계획 및 이용에 관한 법률', '20110414', '10599');" href="#AJAX"> <span class="sfon">(국토의 계획 및 이용에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677575','<법률 제10599호,  2011. 4. 14.>');return false;" href="#AJAX"> <img id="ar12677575MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제10599호,  2011. 4. 14.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1년이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12677575">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제7조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제8조(다른 법률의 개정)</span> ①부터 ⑪까지 생략</p>
+        <p class="pty3_dep2"> ⑫ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제2항제3호 중 “도시계획”을 “도시ㆍ군계획”으로 한다.</p>
+        <p class="pty3_dep2"> 제12조제1항 중 “변경하고자 하는 때에는”을 “변경하려는 경우에는 ”으로, “얻어야”를 “받아야”로 한다.</p>
+        <p class="pty3_dep2"> ⑬부터 &lt;83&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제9조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677577" id="J12677577"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677577','<법률 제10758호, 2011. 5. 30.>'); return false;" href="#AJAX"> <img id="ar12677577btn" style="vertical-align: middle;" alt="부칙 <법률 제10758호, 2011. 5. 30.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677577" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제10758호, 2011. 5. 30.>체크박스 " value="12677577" /> <a class="nun" onclick="javascript:arView('ar12677577','<법률 제10758호, 2011. 5. 30.>'); return false;" href="#AJAX"> <label for="chk12677577"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제10758호, 2011. 5. 30.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677577','<법률 제10758호, 2011. 5. 30.>');return false;" href="#AJAX"> <img id="ar12677577MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제10758호, 2011. 5. 30.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. 다만, 제12조, 제15조, 제19조의2, 제19조의3, 제20조, 제21조, 제26조부터 제28조까지의 개정규정 및 부칙 제3조는 공포 후 1년이 경과한 날부터 시행한다.</p>
+       <div id="ar12677577">
+        <p class="pty3_dep1"><span class="bl">제2조(국토계획평가에 관한 적용례)</span> 제19조의2 및 제19조의3의 개정규정은 이 법 시행 후에 최초로 수립 또는 변경하여 관계 행정기관과 협의 중인 국토계획분부터 적용한다.</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법률의 개정)</span> ① 동ㆍ서ㆍ남해안 및 내륙권 발전 특별법 일부를 다음과 같이 개정한다. </p>
+        <p class="pty3_dep2"> 제6조제1항 전단 중 “제21조에 따른 동ㆍ서ㆍ남해안 및 내륙권 발전위원회(이하 "발전위원회"라 한다)”를 “「국토기본법」 제26조에 따른 국토정책위원회(이하 "국토정책위원회"라 한다)”로 한다.</p>
+        <p class="pty3_dep2"> 제7조제1항 각 호 외의 부분 전단 중 “발전위원회”를 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제9조제1항 각 호 외의 부분 본문 및 단서 중 “발전위원회”를 각각 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제12조제3항 중 “승인한 경우에는”을 “승인하려면 국토정책위원회의 심의를 거쳐야 하고, 개발계획을 승인한 경우에는”으로 한다.</p>
+        <p class="pty3_dep2"> 제4장의 제목 “동ㆍ서ㆍ남해안 및 내륙권 발전위원회 등”을 “동ㆍ서ㆍ남해안권 또는 내륙권 발전공동협의회 등”으로 한다.</p>
+        <p class="pty3_dep2"> 제21조를 삭제한다. </p>
+        <p class="pty3_dep2"> 제23조제1항 각 호 외의 부분 중 “발전위원회를 실무적으로 보좌하는 업무”를 “해안권 또는 내륙권 발전과 관련된 업무”로 하고, 같은 조 제2항제3호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 3. 제6조제1항, 제7조제1항, 제9조제1항, 제12조제3항, 제24조제1항, 제25조제1항 및 제26조제1항에 따른 국토정책위원회의 심의 사항에 대한 의안 작성 등의 보좌</p>
+        <p class="pty3_dep2"> 제24조제1항 전단 및 후단 중 “발전위원회”를 각각 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제25조제1항 중 “발전위원회”를 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제26조제1항 중 “발전위원회”를 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제31조제3항 중 “발전위원회”를 “국토정책위원회”로 한다. </p>
+        <p class="pty3_dep2"> ② 신발전지역 육성을 위한 투자촉진 특별법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제5조제2항 전단 중 “제22조에 따른 신발전지역위원회”를 “「국토기본법」 제26조에 따른 국토정책위원회(이하 "국토정책위원회"라 한다)”로 한다.</p>
+        <p class="pty3_dep2"> 제7조제1항 중 “제22조에 따른 신발전지역위원회”를 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제8조제4항 전단 중 “제22조에 따른 신발전지역위원회”를 “국토정책위원회”로 한다.</p>
+        <p class="pty3_dep2"> 제4장(제22조부터 제25조까지)을 삭제한다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조(폐지된 위원회에 관한 경과조치)</span> 이 법 시행 당시 종전의 「동ㆍ서ㆍ남해안 및 내륙권 발전 특별법」에 따른 동ㆍ서ㆍ남해안 및 내륙권 발전위원회 또는 「신발전지역 육성을 위한 투자촉진 특별법」에 따른 신발전지역위원회의 심의를 거친 경우 이 법에 따른 국토정책위원회의 심의를 거친 것으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12677579" id="J12677579"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677579','<법률 제11690호,  2013. 3. 23.>'); return false;" href="#AJAX"> <img id="ar12677579btn" style="vertical-align: middle;" alt="부칙 <법률 제11690호,  2013. 3. 23.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677579" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제11690호,  2013. 3. 23.>체크박스 " value="12677579" /> <a class="nun" onclick="javascript:arView('ar12677579','<법률 제11690호,  2013. 3. 23.>'); return false;" href="#AJAX"> <label for="chk12677579"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제11690호, 2013. 3. 23.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('정부조직법', '20130323', '11690');" href="#AJAX"> <span class="sfon">(정부조직법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677579','<법률 제11690호,  2013. 3. 23.>');return false;" href="#AJAX"> <img id="ar12677579MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제11690호,  2013. 3. 23.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> ① 이 법은 공포한 날부터 시행한다. </p>
+       <div id="ar12677579">
+        <p class="pty3_dep2"> ② 생략</p>
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제5조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제6조(다른 법률의 개정)</span> ①부터 &lt;564&gt;까지 생략</p>
+        <p class="pty3_dep2"> &lt;565&gt; 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제5조의2제1항 전단 및 후단, 같은 조 제3항ㆍ제5항, 제9조제1항, 같은 조 제2항 전단, 같은 조 제3항, 제11조제1항 본문, 제12조제1항부터 제4항까지, 제13조제3항, 제15조제1항 전단, 같은 조 제2항ㆍ제3항, 제16조제2항, 제17조제3항, 제18조제1항부터 제4항까지, 제19조, 제19조의2제1항, 제19조의3제1항부터 제3항까지, 제20조제1항 각 호 외의 부분, 같은 조 제2항ㆍ제3항, 제21조제1항부터 제3항까지, 제25조제1항, 같은 조 제2항 전단, 같은 조 제3항, 제27조제2항 및 제33조제1항ㆍ제2항 중 “국토해양부장관”을 각각 “국토교통부장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제27조제1항 중 “40명”을 “42명”으로 한다.</p>
+        <p class="pty3_dep2"> 제27조제3항제1호 중 “국무총리실장”을 “국무조정실장”으로 한다.</p>
+        <p class="pty3_dep2"> &lt;566&gt;부터 &lt;710&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677581" id="J12677581"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677581','<법률 제12736호,  2014. 6. 3.>'); return false;" href="#AJAX"> <img id="ar12677581btn" style="vertical-align: middle;" alt="부칙 <법률 제12736호,  2014. 6. 3.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677581" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제12736호,  2014. 6. 3.>체크박스 " value="12677581" /> <a class="nun" onclick="javascript:arView('ar12677581','<법률 제12736호,  2014. 6. 3.>'); return false;" href="#AJAX"> <label for="chk12677581"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제12736호, 2014. 6. 3.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국가공간정보 기본법', '20140603', '12736');" href="#AJAX"> <span class="sfon">(국가공간정보 기본법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677581','<법률 제12736호,  2014. 6. 3.>');return false;" href="#AJAX"> <img id="ar12677581MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제12736호,  2014. 6. 3.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1년이 경과한 날부터 시행한다.</p>
+       <div id="ar12677581">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법률의 개정)</span> ① 생략</p>
+        <p class="pty3_dep2"> ② 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제25조제1항 중 “「국가공간정보에 관한 법률」 제25조제2항”을 “「국가공간정보 기본법」 제32조제2항”으로 한다.</p>
+        <p class="pty3_dep2"> ③부터 ⑥까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677583" id="J12677583"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677583','<법률 제12737호,  2014. 6. 3.>'); return false;" href="#AJAX"> <img id="ar12677583btn" style="vertical-align: middle;" alt="부칙 <법률 제12737호,  2014. 6. 3.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677583" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제12737호,  2014. 6. 3.>체크박스 " value="12677583" /> <a class="nun" onclick="javascript:arView('ar12677583','<법률 제12737호,  2014. 6. 3.>'); return false;" href="#AJAX"> <label for="chk12677583"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제12737호, 2014. 6. 3.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('지역 개발 및 지원에 관한 법률', '20140603', '12737');" href="#AJAX"> <span class="sfon">(지역 개발 및 지원에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677583','<법률 제12737호,  2014. 6. 3.>');return false;" href="#AJAX"> <img id="ar12677583MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제12737호,  2014. 6. 3.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 2015년 1월 1일부터 시행한다.</p>
+       <div id="ar12677583">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제8조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제9조(다른 법률의 개정)</span> ①부터 ③까지 생략</p>
+        <p class="pty3_dep2"> ④ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제16조제1항제2호를 다음과 같이 하고, 같은 항 제3호 및 제4호를 각각 삭제한다.</p>
+        <p class="pty3_dep2"> 2. 지역개발계획: 성장 잠재력을 보유한 낙후지역 또는 거점지역 등과 그 인근지역을 종합적ㆍ체계적으로 발전시키기 위하여 수립하는 계획</p>
+        <p class="pty3_dep2"> ⑤부터 ⑬까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제10조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677585" id="J12677585"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677585','<법률 제12738호,  2014. 6. 3.>'); return false;" href="#AJAX"> <img id="ar12677585btn" style="vertical-align: middle;" alt="부칙 <법률 제12738호,  2014. 6. 3.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677585" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제12738호,  2014. 6. 3.>체크박스 " value="12677585" /> <a class="nun" onclick="javascript:arView('ar12677585','<법률 제12738호,  2014. 6. 3.>'); return false;" href="#AJAX"> <label for="chk12677585"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제12738호, 2014. 6. 3.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('공간정보의 구축 및 관리 등에 관한 법률', '20140603', '12738');" href="#AJAX"> <span class="sfon">(공간정보의 구축 및 관리 등에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677585','<법률 제12738호,  2014. 6. 3.>');return false;" href="#AJAX"> <img id="ar12677585MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제12738호,  2014. 6. 3.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1년이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12677585">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법률의 개정)</span> ①부터 ⑭까지 생략</p>
+        <p class="pty3_dep2"> ⑮ 국토기본법 일부를 다음과 같이 개정한다. </p>
+        <p class="pty3_dep2"> 제32조의 제목 중 “「측량ㆍ수로조사 및 지적에 관한 법률」”을 “「공간정보의 구축 및 관리 등에 관한 법률」”로 하고, 같은 조 제1항 중 “「측량ㆍ수로조사 및 지적에 관한 법률」 제8조제2항ㆍ제3항ㆍ제6항ㆍ제7항, 제9조, 제11조, 제12조, 제101조 및 제102조”를 “「공간정보의 구축 및 관리 등에 관한 법률」 제8조제2항ㆍ제3항ㆍ제6항ㆍ제7항, 제9조, 제11조, 제12조, 제101조 및 제102조”로 하며, 같은 조 제2항 중 “「측량ㆍ수로조사 및 지적에 관한 법률」 제108조제1호 및 제111조제1항제18호”를 “「공간정보의 구축 및 관리 등에 관한 법률」 제108조제1호 및 제111조제1항제18호”로 한다.</p>
+        <p class="pty3_dep2"> ⑯부터 &lt;65&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677587" id="J12677587"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677587','<법률 제14335호, 2016. 12. 2.>'); return false;" href="#AJAX"> <img id="ar12677587btn" style="vertical-align: middle;" alt="부칙 <법률 제14335호, 2016. 12. 2.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677587" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제14335호, 2016. 12. 2.>체크박스 " value="12677587" /> <a class="nun" onclick="javascript:arView('ar12677587','<법률 제14335호, 2016. 12. 2.>'); return false;" href="#AJAX"> <label for="chk12677587"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제14335호, 2016. 12. 2.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677587','<법률 제14335호, 2016. 12. 2.>');return false;" href="#AJAX"> <img id="ar12677587MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제14335호, 2016. 12. 2.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다.</p>
+       <div id="ar12677587">
+        <p class="pty3_dep1"><span class="bl">제2조(계획 간의 조정에 관한 적용례)</span> 제20조제1항제3호의 개정규정은 이 법 시행 이후 제26조제2항에 따라 국토정책위원회 또는 다른 위원회가 심의하는 국토계획부터 적용한다.</p>
+       </div> 
+      </div> 
+      <a name="J12677589" id="J12677589"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677589','<법률 제14804호,  2017. 4. 18.>'); return false;" href="#AJAX"> <img id="ar12677589btn" style="vertical-align: middle;" alt="부칙 <법률 제14804호,  2017. 4. 18.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677589" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제14804호,  2017. 4. 18.>체크박스 " value="12677589" /> <a class="nun" onclick="javascript:arView('ar12677589','<법률 제14804호,  2017. 4. 18.>'); return false;" href="#AJAX"> <label for="chk12677589"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제14804호, 2017. 4. 18.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('해양수산발전 기본법', '20170418', '14804');" href="#AJAX"> <span class="sfon">(해양수산발전 기본법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677589','<법률 제14804호,  2017. 4. 18.>');return false;" href="#AJAX"> <img id="ar12677589MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제14804호,  2017. 4. 18.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12677589">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법률의 개정)</span> ① 및 ② 생략</p>
+        <p class="pty3_dep2"> ③ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제2항 및 제10조제6호 중 “해양자원”을 각각 “해양수산자원”으로 한다.</p>
+        <p class="pty3_dep2"> ④부터 ⑨까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677591" id="J12677591"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677591','<법률 제15489호,  2018. 3. 20.>'); return false;" href="#AJAX"> <img id="ar12677591btn" style="vertical-align: middle;" alt="부칙 <법률 제15489호,  2018. 3. 20.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677591" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제15489호,  2018. 3. 20.>체크박스 " value="12677591" /> <a class="nun" onclick="javascript:arView('ar12677591','<법률 제15489호,  2018. 3. 20.>'); return false;" href="#AJAX"> <label for="chk12677591"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제15489호, 2018. 3. 20.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국가균형발전 특별법', '20180320', '15489');" href="#AJAX"> <span class="sfon">(국가균형발전 특별법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677591','<법률 제15489호,  2018. 3. 20.>');return false;" href="#AJAX"> <img id="ar12677591MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제15489호,  2018. 3. 20.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12677591">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제5조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제6조(다른 법률의 개정)</span> ①부터 ③까지 생략</p>
+        <p class="pty3_dep2"> ④ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제27조제3항제1호 중 “「국가균형발전 특별법」에 따른 지역발전위원회 위원장”을 “「국가균형발전 특별법」에 따른 국가균형발전위원회 위원장”으로 한다.</p>
+        <p class="pty3_dep2"> ⑤부터 ⑳까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677593" id="J12677593"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677593','<법률 제15598호, 2018. 4. 17.>'); return false;" href="#AJAX"> <img id="ar12677593btn" style="vertical-align: middle;" alt="부칙 <법률 제15598호, 2018. 4. 17.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677593" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제15598호, 2018. 4. 17.>체크박스 " value="12677593" /> <a class="nun" onclick="javascript:arView('ar12677593','<법률 제15598호, 2018. 4. 17.>'); return false;" href="#AJAX"> <label for="chk12677593"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제15598호, 2018. 4. 17.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677593','<법률 제15598호, 2018. 4. 17.>');return false;" href="#AJAX"> <img id="ar12677593MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제15598호, 2018. 4. 17.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다.</p>
+       <div id="ar12677593">
+        <p class="pty3_dep1"><span class="bl">제2조(국토종합계획에 관한 적용례)</span> 제10조제2호의2의 개정규정은 이 법 시행 후 최초로 국토종합계획을 수립하거나 변경하는 경우부터 적용한다.</p>
+       </div> 
+      </div> 
+      <a name="J12677595" id="J12677595"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12677595btn" style="vertical-align: middle;" alt="부칙<법률 제16491호, 2019. 8. 20.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12677595" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제16491호, 2019. 8. 20.>체크박스 " value="12677595" /> <a class="nun" onclick="javascript:arView('ar12677595','<법률 제16491호, 2019. 8. 20.>'); return false;" href="#AJAX"> <label for="chk12677595"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제16491호, 2019. 8. 20.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12677597" id="J12677597"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677597','<법률 제17063호,  2020. 2. 18.>'); return false;" href="#AJAX"> <img id="ar12677597btn" style="vertical-align: middle;" alt="부칙 <법률 제17063호,  2020. 2. 18.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677597" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제17063호,  2020. 2. 18.>체크박스 " value="12677597" /> <a class="nun" onclick="javascript:arView('ar12677597','<법률 제17063호,  2020. 2. 18.>'); return false;" href="#AJAX"> <label for="chk12677597"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제17063호, 2020. 2. 18.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('해양조사와 해양정보 활용에 관한 법률', '20200218', '17063');" href="#AJAX"> <span class="sfon">(해양조사와 해양정보 활용에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12677597','<법률 제17063호,  2020. 2. 18.>');return false;" href="#AJAX"> <img id="ar12677597MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제17063호,  2020. 2. 18.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1년이 경과한 날부터 시행한다.</p>
+       <div id="ar12677597">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제16조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제17조(다른 법률의 개정)</span> ①부터 ④까지 생략</p>
+        <p class="pty3_dep2"> ⑤ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제32조제1항 중 “「공간정보의 구축 및 관리 등에 관한 법률」 제8조제2항ㆍ제3항”을 “「공간정보의 구축 및 관리 등에 관한 법률」 제8조제2항”으로 한다.</p>
+        <p class="pty3_dep2"> ⑥부터 ⑨까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제18조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677599" id="J12677599"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12677599btn" style="vertical-align: middle;" alt="부칙<법률 제17228호, 2020. 4. 7.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12677599" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제17228호, 2020. 4. 7.>체크박스 " value="12677599" /> <a class="nun" onclick="javascript:arView('ar12677599','<법률 제17228호, 2020. 4. 7.>'); return false;" href="#AJAX"> <label for="chk12677599"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제17228호, 2020. 4. 7.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12677601" id="J12677601"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677601','<법률 제17857호,  2021. 1. 5.>'); return false;" href="#AJAX"> <img id="ar12677601btn" style="vertical-align: middle;" alt="부칙 <법률 제17857호,  2021. 1. 5.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677601" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제17857호,  2021. 1. 5.>체크박스 " value="12677601" /> <a class="nun" onclick="javascript:arView('ar12677601','<법률 제17857호,  2021. 1. 5.>'); return false;" href="#AJAX"> <label for="chk12677601"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제17857호, 2021. 1. 5.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('환경정책기본법', '20210105', '17857');" href="#AJAX"> <span class="sfon">(환경정책기본법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677601','<법률 제17857호,  2021. 1. 5.>');return false;" href="#AJAX"> <img id="ar12677601MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제17857호,  2021. 1. 5.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12677601">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 및 제3조 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조(다른 법률의 개정)</span> ① 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제5조제1항ㆍ제4항 및 제20조제1항제3호 중 “환경보전계획”을 각각 “환경계획”으로 한다.</p>
+        <p class="pty3_dep2"> ②부터 ⑤까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677603" id="J12677603"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677603','<법률 제18387호,  2021. 8. 10.>'); return false;" href="#AJAX"> <img id="ar12677603btn" style="vertical-align: middle;" alt="부칙 <법률 제18387호,  2021. 8. 10.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677603" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제18387호,  2021. 8. 10.>체크박스 " value="12677603" /> <a class="nun" onclick="javascript:arView('ar12677603','<법률 제18387호,  2021. 8. 10.>'); return false;" href="#AJAX"> <label for="chk12677603"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제18387호, 2021. 8. 10.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12677603','<법률 제18387호,  2021. 8. 10.>');return false;" href="#AJAX"> <img id="ar12677603MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제18387호,  2021. 8. 10.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다.</p>
+       <div id="ar12677603">
+        <p class="pty3_dep1"><span class="bl">제2조(특별자치시에서 수립한 도시ㆍ군계획에 대한 경과조치)</span> 이 법 시행 이전에 특별자치시에서 수립한 「국토의 계획 및 이용에 관한 법률」 제2조제2호의 도시ㆍ군계획은 이 법에 따라 수립된 시ㆍ군종합계획으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12677605" id="J12677605"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12677605btn" style="vertical-align: middle;" alt="부칙<법률 제18829호,  2022. 2. 3.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12677605" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제18829호,  2022. 2. 3.>체크박스 " value="12677605" /> <a class="nun" onclick="javascript:arView('ar12677605','<법률 제18829호,  2022. 2. 3.>'); return false;" href="#AJAX"> <label for="chk12677605"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제18829호, 2022. 2. 3.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12677607" id="J12677607"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677607','<법률 제19430호,  2023. 6. 9.>'); return false;" href="#AJAX"> <img id="ar12677607btn" style="vertical-align: middle;" alt="부칙 <법률 제19430호,  2023. 6. 9.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677607" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제19430호,  2023. 6. 9.>체크박스 " value="12677607" /> <a class="nun" onclick="javascript:arView('ar12677607','<법률 제19430호,  2023. 6. 9.>'); return false;" href="#AJAX"> <label for="chk12677607"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제19430호, 2023. 6. 9.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('지방자치분권 및 지역균형발전에 관한 특별법', '20230609', '19430');" href="#AJAX"> <span class="sfon">(지방자치분권 및 지역균형발전에 관한 특별법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677607','<법률 제19430호,  2023. 6. 9.>');return false;" href="#AJAX"> <img id="ar12677607MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제19430호,  2023. 6. 9.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1개월이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12677607">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제20조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제21조(다른 법률의 개정)</span> ①부터 ⑫까지 생략</p>
+        <p class="pty3_dep2"> ⑬ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제27조제3항제1호 중 “「국가균형발전 특별법」에 따른 국가균형발전위원회 위원장”을 “「지방자치분권 및 지역균형발전에 관한 특별법」에 따른 지방시대위원회 위원장”으로 한다.</p>
+        <p class="pty3_dep2"> ⑭부터 &lt;54&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제22조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677609" id="J12677609"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677609','<법률 제21065호,  2025. 10. 1.>'); return false;" href="#AJAX"> <img id="ar12677609btn" style="vertical-align: middle;" alt="부칙 <법률 제21065호,  2025. 10. 1.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677609" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제21065호,  2025. 10. 1.>체크박스 " value="12677609" /> <a class="nun" onclick="javascript:arView('ar12677609','<법률 제21065호,  2025. 10. 1.>'); return false;" href="#AJAX"> <label for="chk12677609"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제21065호, 2025. 10. 1.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('정부조직법', '20251001', '21065');" href="#AJAX"> <span class="sfon">(정부조직법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677609','<법률 제21065호,  2025. 10. 1.>');return false;" href="#AJAX"> <img id="ar12677609MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제21065호,  2025. 10. 1.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. 다만, 부칙 제7조에 따라 개정되는 법률 중 이 법 시행 전에 공포되었으나 시행일이 도래하지 아니한 법률을 개정한 부분은 각각 해당 법률의 시행일부터ㆍㆍㆍ&lt;생략&gt;ㆍㆍㆍ 시행한다.</p>
+       <div id="ar12677609">
+        <p class="pty3_dep2"> 1. 및 2. 생략</p>
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제6조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조(다른 법률의 개정)</span> ①부터 &lt;452&gt;까지 생략</p>
+        <p class="pty3_dep2"> &lt;453&gt; 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제5조제4항 및 제19조의3제3항 중 “환경부장관”을 각각 “기후에너지환경부장관”으로 한다.</p>
+        <p class="pty3_dep2"> &lt;454&gt;부터 &lt;626&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제8조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12677611" id="J12677611"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12677611','<법률 제21738호,  2026. 6. 2.>'); return false;" href="#AJAX"> <img id="ar12677611btn" style="vertical-align: middle;" alt="부칙 <법률 제21738호,  2026. 6. 2.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12677611" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제21738호,  2026. 6. 2.>체크박스 " value="12677611" /> <a class="nun" onclick="javascript:arView('ar12677611','<법률 제21738호,  2026. 6. 2.>'); return false;" href="#AJAX"> <label for="chk12677611"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제21738호, 2026. 6. 2.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('지방자치분권 및 균형성장에 관한 특별법', '20260602', '21738');" href="#AJAX"> <span class="sfon">(지방자치분권 및 균형성장에 관한 특별법) </span> </a> <a class="nun" onclick="javascript:arView('ar12677611','<법률 제21738호,  2026. 6. 2.>');return false;" href="#AJAX"> <img id="ar12677611MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제21738호,  2026. 6. 2.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. 다만, ㆍㆍㆍ&lt;생략&gt;ㆍㆍㆍ, 부칙 제3조에 따라 개정되는 법률 중 이 법 시행 전에 공포되었으나 시행일이 도래하지 아니한 법률을 개정한 부분은 각각 해당 법률의 시행일부터 시행한다.</p>
+       <div id="ar12677611">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법률의 개정)</span> ①부터 ⑪까지 생략</p>
+        <p class="pty3_dep2"> ⑫ 국토기본법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제27조제3항제1호 중 “「지방자치분권 및 지역균형발전에 관한 특별법」”을 “「지방자치분권 및 균형성장에 관한 특별법」”으로 한다.</p>
+        <p class="pty3_dep2"> ⑬부터 &lt;58&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제4조</span> 생략</p>
+       </div> 
+      </div> 
+     </div> 
+     <!-- 부칙 영역 끝 --> 
+     <!-- 별표 서식 시작 --> 
+     <!-- 별표 서식 끝 --> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

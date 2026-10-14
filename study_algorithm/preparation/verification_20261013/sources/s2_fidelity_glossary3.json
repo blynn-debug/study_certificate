@@ -1,0 +1,11 @@
+{
+  "id": "s2_fidelity_glossary3",
+  "requested_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_3.shtml",
+  "retrieved_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_3.shtml",
+  "retrieved_at": "2026-10-13T16:26:27.626474+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "a51d65a27f43f02c0ebb523f3111d5ac8da0f6d086631da6d00e51ca6d204cff",
+  "text_sha256": "da75971b0aeb9b0bdacc1029a475038027580f76ecdcf372de25c7d17b139fc6",
+  "status": "retrieved_not_claim_verified"
+}

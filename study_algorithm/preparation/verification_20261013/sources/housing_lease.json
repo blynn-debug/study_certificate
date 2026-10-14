@@ -1,0 +1,18 @@
+{
+  "id": "housing_lease",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276291&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:42.835813+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 23609,
+  "content_sha256": "b266c63127c4bc269300870e496a4a151222cce8de8214acb9c273b22a244e70",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

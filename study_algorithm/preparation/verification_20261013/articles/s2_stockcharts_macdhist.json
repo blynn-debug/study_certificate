@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_stockcharts_macdhist",
+  "source_metadata": {
+    "id": "s2_stockcharts_macdhist",
+    "requested_url": "https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-histogram",
+    "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-histogram",
+    "retrieved_at": "2026-10-13T17:20:48.043125+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "2abdf1b616cff04c206f344eea38eef076b7e86fd90b32e1ff5105a012c78af1",
+    "text_sha256": "c28b17e5bb998264f3f121672e2e0db472009573011d4e2696a52f59d37cedfd",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_stockcharts_macdhist:Formula",
+      "source_id": "s2_stockcharts_macdhist",
+      "article": "Formula",
+      "heading": "Formula",
+      "text": "What Is the MACD Histogram? The MACD-Histogram measures the distance between the Moving Average Convergence/Divergence (MACD) and its signal line (the 9-day EMA of MACD). Like MACD, the MACD-Histogram is also an oscillator that fluctuates above and below the zero line. Thomas Aspray developed the MACD-Histogram to anticipate signal line crossovers in MACD. Because MACD uses moving averages and moving averages lag price, signal line crossovers can come late and affect the reward-to-risk ratio of a trade. Bullish or bearish divergences in the MACD-Histogram can alert you to an imminent signal line crossover in MACD. How Do You Calculate the MACD Histogram? Copy MACD: (12-day EMA - 26-day EMA) Signal Line: 9-day EMA of MACD MACD Histogram: MACD - Signal Line Standard MACD is the 12-day Exponential Moving Average (EMA) less the 26-day EMA. Closing prices are used to form the MACD's moving averages. A 9-day EMA of MACD is plotted along side to act as a signal line to identify turns in the indicator. Since the MACD-Histogram represents the difference between MACD and its 9-day EMA (signal line), the histogram is positive when MACD is above its 9-day EMA and negative when MACD is below its 9-day EMA. Example of the MACD.",
+      "start": 2070,
+      "end": 3304,
+      "sha256": "e239c1b1e55a9d1474761ea5a6f4effc71966560f0f8fa925677876e5d8c6da3"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

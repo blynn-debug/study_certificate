@@ -1,0 +1,5855 @@
+[PDF page 1]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 1 of 78
+ 
+ 
+ 
+ 
+MSCI GLOBAL 
+MARKET 
+ACCESSIBILITY 
+REVIEW  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+
+[PDF page 2]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 2 of 78
+ 
+ 
+ 
+ 
+1 
+Introduction ....................................................................................... 3 
+2 
+Assessing Accessibility .................................................................... 5 
+3 
+Review Summary ............................................................................ 12 
+4 
+Developed Markets ......................................................................... 25 
+5 
+Emerging Markets ...........................................................................28 
+6 
+Frontier Markets ............................................................................. 46 
+7 
+Standalone Markets ........................................................................56 
+8 
+Appendices .....................................................................................65 
+ 
+ 
+ 
+ 
+Contents
+
+[PDF page 3]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 3 of 78
+1 
+Introduction 
+The MSCI 2026 Global Market Accessibility Review Report includes 
+updated assessments for all markets included in the MSCI Indexes as 
+well as comparisons to the 2025 review. This report provides analysis of 
+the evolution of Developed, Emerging, Frontier and Standalone Markets 
+with respect to each market's level of accessibility.1 
+The MSCI Global Market Accessibility Review aims to assess and track 
+the evolution of accessibility in individual markets, and to inform market 
+authorities about areas that global institutional investors perceive as not 
+meeting international standards and would welcome improvements. 
+On an annual basis, the MSCI Global Market Accessibility Review Report 
+provides a detailed assessment of market accessibility for each equity 
+market included in the MSCI Indexes and evaluates the following five 
+market accessibility criteria: 
+• Openness to foreign ownership 
+• Ease of capital inflows and outflows 
+• Efficiency of the operational framework 
+• Availability of investment instruments 
+• Stability of the institutional framework 
+These five criteria reflect the areas that international institutional 
+investors strongly emphasize when evaluating a market's investment 
+accessibility. These include equal treatment of investors, free flow of 
+capital, cost of investment, unrestrictive use of stock market data, and 
+market-specific risk. 
+MSCI uses 18 distinct accessibility measures (outlined below) to assess 
+these five criteria. The evaluation of the accessibility measures is 
+primarily based on investor experience as documented through 
+feedback from market participants including active and passive asset 
+managers, asset owners, brokers, custodians, stock exchanges and 
+regulators.  
+ 
+1 The information and analysis in this report are based on data and market conditions as of May 31, 2026. Any 
+changes in accessibility occurring after this date will be addressed and incorporated into subsequent reports. 
+
+[PDF page 4]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 4 of 78
+The analysis and assessment of each individual accessibility measure 
+were performed in the same way across all markets, regardless of 
+current market classification. The aggregate assessment of where a 
+market stands with respect to the five criteria allows MSCI to determine 
+if a market’s accessibility level meets Developed, Emerging or Frontier 
+Market standards. MSCI welcomes feedback from the investment 
+community to ensure that its market accessibility assessment continues 
+to reflect international institutional investors’ experience of investing in a 
+given equity market. The MSCI Global Market Accessibility Review is 
+updated annually in June with interim updates released as necessary. 
+ 
+ 
+
+[PDF page 5]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 5 of 78
+2 
+Assessing Accessibility 
+This section describes the rationale underlying each of the accessibility 
+criteria and related measures and the principles used in their 
+assessment. In some cases, the existence (or the lack of) certain 
+practices systematically defaults to a negative assessment in the 
+relevant category. 
+2.1 
+Openness to Foreign Investors  
+In general, one of the most desirable features that international investors 
+would like to see in a market is that no distinction is made between local 
+and international investors. To assess this level of openness the 
+following characteristics need to be analyzed and measured. 
+2.1.1 Investor Qualification Requirement 
+The international standard for Developed Markets is the absence of any 
+investor qualification requirement. Near the other end of the spectrum, a 
+Qualified Foreign Institutional Investor (QFII) license system is highly 
+problematic as it discriminates not only between domestic and foreign 
+investors, but also among different international investors. The 
+requirement of a QFII license would lead to a low assessment. 
+2.1.2 Foreign Ownership Limit Level 
+Ideally, international investors would like to see no difference in the 
+opportunity set available to them and to local investors. Foreign 
+ownership restrictions tend to be placed on specific industries which 
+may result in an important sector bias in the opportunity set for foreign 
+investors. MSCI has also considered the proportion of a market that is 
+restricted in order to assess the materiality of the restrictions, using the 
+pro forma data from the most recent index review. In its assessment, 
+MSCI assigns a negative rating when more than ten percent of a market 
+is closed to foreign investors. A restriction between three and ten is 
+viewed as a matter of some concern, while less than three percent is 
+considered not to be a material issue. In general, changes in criteria’s 
+rating driven solely by price movement are reflected only if the market 
+consistently breaches the relevant thresholds for three consecutive 
+years. These levels were established after analyzing the varying market 
+impacts resulting from the foreign ownership limits across all markets. 
+
+[PDF page 6]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 6 of 78
+2.1.3 Foreign Room Level 
+When the foreign ownership limit is reached, investors face a significant 
+challenge. In some cases, the most recent buyers may be forced to sell. 
+More commonly, however, breaching the limit has historically resulted in 
+unequal treatment between existing and new investors, as managers 
+may be unable to allocate the same number of shares across funds. This 
+can be mitigated by the presence of a foreign board or by the listing of 
+depositary receipts in another market where foreign investors could 
+trade with each other, but these solutions may introduce another layer of 
+problems as transactions tend to take place at a premium over the 
+official listing. To assess the materiality of the problem, MSCI has 
+considered the impact on the respective country Investable Market Index 
+resulting from the exclusion or partial exclusion of securities from such 
+index due to low foreign room using pro forma data from the most recent 
+index review. More than one percent impact on the MSCI country 
+Investable Market Index (IMI) has resulted in a negative rating, between 
+one and 0.3 percent impact has been considered as a matter of some 
+concern, while less than 0.3 percent impact has been considered as not 
+being a material issue. In general, changes in criteria’s rating driven 
+solely by price movement will be reflected if the market consistently 
+breaches the relevant thresholds for three consecutive years. These 
+levels were set after analyzing the different impacts of low foreign room 
+across all markets. 
+2.1.4 Equal Rights to Foreign Investors 
+Restrictions on foreign investors can take the form of separate share 
+classes with those with reduced voting rights being the only ones 
+available to foreign investors. International investors seek equal 
+treatment in terms of economic and voting rights. As a practical matter, 
+the exercise of equal economic rights requires, among other things, 
+equal treatment in the case of corporate actions which implies proper 
+access to information in English. Equality of voting rights is impacted not 
+only by voting restrictions specific to foreign investors, but also by other 
+limitations imposed on minority shareholders in general. Low foreign 
+ownership limits, generalized use of share classes with different voting 
+rights to facilitate the control of companies, other forms of discrimination 
+against foreign and minority shareholders, as well as major corporate 
+
+[PDF page 7]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 7 of 78
+governance problems, generally would lead to lower ratings in this 
+measure. 
+2.2 
+Ease of Capital Inflows and Outflows 
+International investors want to be in a position to move capital in and out 
+of a market without disruption, delay and cost inefficiency. This is 
+measured by the following: 
+2.2.1 Capital Flows Restriction Levels 
+Countries that currently impose or have a record of recent imposition of 
+capital controls to restrict inflows or outflows of capital into or from their 
+equity markets are assessed negatively. 
+2.2.2 Foreign Exchange Market Liberalization Level 
+In Developed Markets, the standard is the existence of a fully convertible 
+currency, which includes an active offshore deliverable currency market. 
+Developed Markets investors are used to the simultaneous execution of 
+all their FX trades with the counterparty of their choice, based on best 
+execution. The absence of an offshore currency market leads to a 
+negative assessment, as it forces parties to transact onshore at a higher 
+cost, very often through a limited choice of intermediaries, and therefore 
+often not on the basis of best execution. In addition, requirements linking 
+FX transactions to underlying security trades represent a further barrier 
+to market liberalization, as they limit the ability to manage currency risk 
+independently, constrain hedging, and complicate the repatriation of 
+funds, reducing liquidity and efficiency in the FX market while raising 
+costs and impeding best execution. Limited foreign exchange liquidity 
+available to foreign investors would also contribute to a negative 
+assessment. 
+2.3 Efficiency of the Operational Framework 
+This category reflects the features an international investor views as 
+necessary to ensure their holdings are clearly identified and well 
+protected, operational risks are minimized as much as possible, and that 
+the processes of trading, clearing, settlement and custody function 
+properly and cost effectively. In the context of Developed Markets, high 
+levels of efficiency have enabled the management of equity funds at 
+extremely low cost. As a result, maintaining this efficiency—rather than 
+
+[PDF page 8]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 8 of 78
+compromising it by adding less cost-effective markets—has become a 
+key priority for a significant segment of the investment management 
+industry. 
+2.3.1 Market Entry 
+2.3.1.1              Investor Registration & Account Set Up 
+The number and the type of required documents as well as the time to 
+complete the full process are the key considerations for this measure. 
+The time to complete the process includes the preparation of the 
+documents. These requirements can be extremely onerous for asset 
+owners with multiple mandates and for asset managers with multiple 
+funds. 
+2.3.2 Market Organization 
+2.3.2.1 
+Market Regulations 
+In addition to the level of advancement of the legal and regulatory 
+framework governing the financial market, the stock exchange and the 
+various other entities involved in the financial markets, significant weight 
+is assigned to ease of access (including availability in English), lack of 
+ambiguity in and prompt enforcement of laws and regulations. In 
+contrast, inconsistency and unexpected changes in policy, in particular 
+those targeting foreign investors, are assessed negatively. 
+2.3.2.2 
+Information Flow 
+A strong flow of information is essential for protecting shareholder rights, 
+supporting sound investment decisions, and promoting overall market 
+efficiency. Quality, timeliness, granularity, availability in English, and 
+affordability of information all play a role in this assessment. In addition, 
+the quality of local accounting standards, as assessed, for example, by 
+the adoption of International Financial Reporting Standard (IFRS), is also 
+important for international investors. This assessment also considers the 
+integrity of the information underpinning price formation: practices that 
+obscure beneficial ownership or distort reported free float, including 
+indications of coordinated trading, are viewed negatively, as they reduce 
+transparency and generate distortions in market processes. 
+
+[PDF page 9]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 9 of 78
+2.3.3 Market Infrastructure 
+2.3.3.1 
+Clearing and Settlement 
+A well-functioning clearing and settlement system based on the broad 
+framework published by the Bank for International Settlements including 
+Delivery Versus Payment (DVP), the absence of pre-funding 
+requirements/practices, the possibility of using overdrafts and the 
+availability of real omnibus structures are considered in this category. 
+2.3.3.2 
+Custody 
+An important requirement is an efficient mechanism that prevents 
+brokers from having unlimited access to the investor’s accounts and that 
+guarantees the safekeeping of the investor’s assets. The level of 
+competition among custodian banks within each market is measured by 
+the number of active custodian banks as well as the presence of global 
+custodian banks. 
+2.3.3.3 
+Registry / Depository 
+The existence of a well-functioning central registry or of independent 
+registrars and a central depository are important characteristics of a 
+robust market infrastructure. A central depository acting as a central 
+registry is also considered as a standard feature. Registration at the 
+issuer level or instances where a custodian (or some other financial 
+institution) acts as a central registry are not desirable. 
+2.3.3.4 
+Trading 
+An important desired feature is the ability to execute grouped trades at 
+the same price for the various accounts of a fund manager. The level of 
+competition amongst brokers is also measured by the number of active 
+brokers, the presence of global brokers ensuring high quality services 
+and competitive fees. 
+2.3.3.5 
+Transferability 
+There are significant cost savings and efficiency gains associated with 
+the possibility of off-exchange transactions and "in-kind" transfers. 
+These are important in case of manager transitions, mergers of funds 
+and in the creation and redemptions of ETF shares, an increasingly 
+important segment of the investment management industry. 
+
+[PDF page 10]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 10 of 78
+2.3.3.6 
+Stock Lending/Short Selling 
+The existence of well-functioning stock lending and short selling 
+mechanisms has become a standard in certain markets that help support 
+direct hedging practices and quantitative asset management. More 
+broadly, they have become a recognized ingredient in the efficiency of 
+markets, by allowing arbitrage between different instruments (futures, 
+ETFs, etc.) 
+The presence of rules and regulations governing these activities alone is 
+insufficient. Stock lending and short selling activities must also have 
+adequate infrastructure, established practices, and unrestricted 
+execution to be considered fully efficient.  
+2.4 Availability of Investment Instruments 
+Investors are increasingly using a wide range of investment 
+instruments—such as exchange-traded funds, futures, options, swaps, 
+and structured products, both onshore and offshore—to complement 
+direct equity investments. These instruments have become an integral 
+part of their overall investment strategies. Today, the availability of such 
+instruments has become critical to international investors for a number of 
+their investment activities such as gaining exposure to markets, hedging 
+of investments, equitization of cash positions or overlay strategies. 
+Hence, it is expected that stock exchanges, which often have legal or 
+natural monopolies, would not impose clauses in their provision of stock 
+market data, such as securities’ prices, that could lead directly or 
+indirectly to restricting the availability of investment instruments globally. 
+These clauses typically restrict investors’ access to derived stock 
+exchange information, data and products, including, for example, the 
+provision of independently calculated indexes or the creation of 
+investment instruments based on such indexes. In addition, the 
+imposition of these types of clauses can result in global or regional 
+investment instruments breaching local market rules, regulations or other 
+restrictions. The existence of these types of practices will lead to a 
+negative assessment. 
+2.5 
+Stability of Institutional Framework 
+Long-term investors commit their capital to a country’s market for 
+extended periods, making market stability essential to their investment 
+
+[PDF page 11]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 11 of 78
+decisions. The track record of government interventions and the current 
+level of foreign investment restrictions are used as indicators of the 
+stability of the “free-market” economic system. This assessment is not a 
+forward-looking statement but rather, it considers a country’s history of 
+actions by market-authorities as an indicator of a potential risk that 
+foreign investors may be impacted by discriminatory measures in times 
+of crisis. 
+ 
+ 
+
+[PDF page 12]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 12 of 78
+3 
+Review Summary 
+The MSCI Global Market Accessibility Review provides an assessment of 
+each individual market as well as a summary of changes in market 
+accessibility across 802 evaluated markets. The methodology applied by 
+MSCI for this review is consistent with the prior year’s review. 
+For the purposes of the Market Accessibility Review, a market is 
+evaluated not as a geographic entity, but as a framework of rules, 
+infrastructure, and institutional practices that determine how international 
+institutional investors gain and maintain market access. Its accessibility is 
+reflected in the interaction between Openness to Foreign Ownership, 
+Ease of Capital Inflows and Outflows, Efficiency of the Operational 
+Framework, Availability of Investment Instruments, and Stability of the 
+Institutional Framework. 
+The effectiveness of reforms depends not only on their underlying policy 
+rationale, but also on how they are implemented, and how that 
+implementation is experienced. Even when reforms are grounded in a 
+sound macroeconomic assessment and designed to improve market 
+accessibility, their intended benefits may not materialize if 
+implementation is not aligned with the accessibility challenges they seek 
+to address, if reforms are not effectively operationalized, or if the 
+process does not incorporate feedback from international institutional 
+investors. This review cycle highlighted three relevant trends in market 
+development and accessibility.  
+In some cases, authorities successfully translated policy objectives into 
+effective implementation, addressing the specific frictions affecting 
+market accessibility and delivering reforms that became operational for 
+international institutional investors. In others, market accessibility 
+deteriorated as weaknesses in governance and oversight allowed 
+practices and structures to emerge that reduced transparency, increased 
+opacity, and impaired the efficient functioning of market mechanisms, 
+ultimately hindering investor access. 
+A third group of markets continued to pursue reforms aimed at 
+addressing accessibility challenges through novel or less conventional 
+ 
+2 81 markets are covered in total, as China is evaluated as ‘China International’ and ‘China A’. 
+
+[PDF page 13]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 13 of 78
+approaches. While these efforts demonstrate an ongoing commitment to 
+market development, they have yet to produce a meaningful 
+improvement in the experience of international institutional investors. 
+These trends were reflected in the rating changes observed during this 
+review cycle and, in some cases, in the absence of rating changes where 
+reforms have not yet translated into measurable improvements in 
+accessibility. 
+In this review, there were more improvements than deteriorations in 
+market accessibility ratings. 
+A significant portion of those improvements are attributed to 
+improvements in Stability of Institutional Framework, as Colombia and 
+several Frontier Markets have maintained a consistent absence of 
+discriminatory measures affecting international institutional investors. 
+As in previous reviews, Developed Markets continue to offer the highest 
+levels of market accessibility, with shortfalls in market accessibility 
+identified in only a handful of markets.  
+Overall, the distribution of ratings in Emerging Markets and Frontier 
+Markets reflects a lower level of market accessibility compared to 
+Developed Markets. In the Emerging Markets, the main market 
+accessibility issues are in Openness to Foreign Ownership and Market 
+Infrastructure, the latter also being the area where Frontier Markets show 
+the most significant shortcomings. 
+ 
+
+[PDF page 14]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 14 of 78
+Table 1: Summary Assessment Table (number of markets)    
+ 
+++
++
+-
+++
++
+-
+++
++
+-
+++
++
+-
+Openness to foreign ownership
+Investor qualification requirement
+23
+     
+-
+   
+-
+   
+22
+     
+3
+      
+-
+   
+20
+     
+1
+      
+-
+   
+11
+     
+1
+      
+-
+   
+Foreign ownership limit (FOL) level
+22
+     
+1
+      
+-
+   
+13
+     
+4
+      
+8
+      
+19
+     
+-
+   
+2
+      
+11
+     
+-
+   
+1
+      
+Foreign room level
+21
+     
+-
+   
+2
+      
+18
+     
+3
+      
+4
+      
+19
+     
+-
+   
+2
+      
+12
+     
+-
+   
+-
+   
+Equal rights to foreign investors
+22
+     
+1
+      
+-
+   
+3
+      
+18
+     
+4
+      
+14
+     
+6
+      
+1
+      
+4
+      
+8
+      
+-
+   
+Ease of capital inflows / outflows
+Capital flow restriction level
+23
+     
+-
+   
+-
+   
+23
+     
+2
+      
+-
+   
+18
+     
+3
+      
+-
+   
+7
+      
+2
+      
+3
+      
+Foreign exchange market liberalization level
+23
+     
+-
+   
+-
+   
+12
+     
+5
+      
+8
+      
+9
+      
+4
+      
+8
+      
+4
+      
+1
+      
+7
+      
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+23
+     
+-
+   
+-
+   
+9
+      
+10
+     
+6
+      
+9
+      
+8
+      
+4
+      
+5
+      
+4
+      
+3
+      
+Market organization
+Market regulations
+23
+     
+-
+   
+-
+   
+14
+     
+11
+     
+-
+   
+15
+     
+6
+      
+-
+   
+5
+      
+6
+      
+1
+      
+Information flow
+21
+     
+2
+      
+-
+   
+10
+     
+12
+     
+3
+      
+12
+     
+5
+      
+4
+      
+2
+      
+6
+      
+4
+      
+Market infrastructure
+Clearing and Settlement
+23
+     
+-
+   
+-
+   
+6
+      
+13
+     
+6
+      
+6
+      
+7
+      
+8
+      
+3
+      
+1
+      
+8
+      
+Custody
+23
+     
+-
+   
+-
+   
+21
+     
+4
+      
+-
+   
+19
+     
+2
+      
+-
+   
+4
+      
+3
+      
+5
+      
+Registry / Depository
+23
+     
+-
+   
+-
+   
+23
+     
+2
+      
+-
+   
+20
+     
+1
+      
+-
+   
+5
+      
+6
+      
+1
+      
+Trading
+23
+     
+-
+   
+-
+   
+23
+     
+2
+      
+-
+   
+10
+     
+5
+      
+6
+      
+3
+      
+3
+      
+6
+      
+Transferability
+23
+     
+-
+   
+-
+   
+8
+      
+8
+      
+9
+      
+7
+      
+4
+      
+10
+     
+2
+      
+3
+      
+7
+      
+Stock lending
+22
+     
+1
+      
+-
+   
+8
+      
+9
+      
+8
+      
+-
+   
+-
+   
+21
+     
+-
+   
+-
+   
+12
+     
+Short selling
+21
+     
+2
+      
+-
+   
+4
+      
+11
+     
+10
+     
+-
+   
+-
+   
+21
+     
+-
+   
+-
+   
+12
+     
+Availability of investment instruments
+23
+     
+-
+   
+-
+   
+20
+     
+2
+      
+3
+      
+21
+     
+-
+   
+-
+   
+11
+     
+-
+   
+1
+      
+Stability of institutional framework
+23
+     
+-
+   
+-
+   
+5
+      
+18
+     
+2
+      
+7
+      
+10
+     
+4
+      
+1
+      
+5
+      
+6
+      
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Developed Markets
+Emerging Markets
+Frontier Markets
+Standalone Markets
+
+[PDF page 15]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 15 of 78
+3.1 
+Developed Markets 
+This cycle saw notable developments in the openness to foreign 
+investors' ownership. Canada's ratings for the Foreign Ownership Limit 
+Level and Foreign Room Level criteria both improved this year. Foreign 
+ownership limits, while still applicable to certain sectors at up to 49 
+percent, have affected less than three percent of the Canadian equity 
+market for three consecutive years. Additionally, following the increase in 
+foreign room for BCE Inc. the MSCI Canada IMI is no longer impacted by 
+low foreign room. In contrast, a reduction in Ryanair Holdings' foreign 
+room led to a deterioration in the Foreign Room Level criterion for Ireland. 
+Israel observed an improvement in the Clearing and Settlement criterion 
+as its trading week transitioned from a Sunday-Thursday to a Monday-
+Friday schedule. In addition, its T+1 settlement cycle is no longer an 
+outlier characteristic, as the United States and Canada's moves toward 
+shorter settlement cycles have prompted a growing number of markets 
+to evaluate or advance similar plans. 
+The European Union and the United Kingdom have both confirmed a 
+coordinated transition to T+1 on October 11, 2027, with the EU transition 
+pending approval by the European Parliament. 
+For the Hong Kong market, HKEX published a consultation paper in April 
+2026 proposing a transition from T+2 to T+1, with an indicative 
+implementation date of Q4 2027, subject to market readiness and 
+regulatory approval. 
+In Australia, the industry has begun consulting on the potential move to 
+T+1, however any transition is expected to follow the completion of the 
+CHESS replacement project, with its settlement and sub register 
+component currently targeted for 2029. 
+In Japan, industry bodies and regulators have begun preliminary 
+discussions on the potential implications of a shift to T+1, though no 
+formal consultation paper has been published and no implementation 
+timeline has been defined. 
+MSCI continues to closely monitor these developments. Feedback 
+received from market participants reemphasized that shorter settlement 
+cycles should not introduce further operational challenges and risks, 
+such as pre-funding requirements. At the same time, many market 
+participants stressed that a lack of alignment of equity settlement cycles 
+within global equity markets is undesirable. 
+
+[PDF page 16]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 16 of 78
+ 
+3.2 Emerging Markets 
+In this review cycle, there were more rating improvements than 
+deteriorations across Emerging Markets. The deteriorations were driven 
+by problems due to structural issues in the opacity in shareholding 
+structures and concerns about coordinated trading in Indonesia and 
+Turkey impacting their Information Flow criterion.  
+In Korea, authorities have continued implementing the reform agenda 
+introduced in prior years, with additional measures announced across 
+several areas. However, underlying accessibility issues remain 
+unresolved. 
+Building on measures to align the FX framework with global practices, 
+further initiatives have been outlined including the launch of a 24-hour 
+FX market in mid-2026 and an Offshore KRW Settlement Institution pilot 
+later in 2026 with full launch targeted for 2027. A fully deliverable 
+offshore currency market is not yet available. 
+In addition, the transition from the Investor Registration Certificate (IRC) 
+to the Legal Entity Identifier (LEI), initiated in December 2023, remains 
+ongoing. The coexistence of both frameworks has constrained the 
+practical adoption of omnibus account structures. 
+The mandatory English disclosure framework entered its second phase 
+in 2026, while a third phase in 2027 will extend the requirement to all 
+KOSPI-listed companies.  
+The short selling ban was lifted in early 2025 alongside the 
+implementation of a new naked short selling detection system. As the 
+framework has been put into use, however, frictions have emerged in 
+practice, and refinements to operational processes and infrastructure are 
+ongoing. Furthermore, despite the reduction of the settlement progress 
+payment amounts, there is a lack of clarity around the calculation of 
+funding amounts, creating inefficiency in the settlement process. 
+Lastly, derivatives products linked to Korean indexes have been 
+launched on international exchanges, broadening the offering of 
+investment instruments available to international investors. 
+In Indonesia, accessibility concerns have arisen from ongoing opacity in 
+shareholding structures and indications of coordinated trading behavior 
+that undermines proper price formation. These issues materially limit 
+
+[PDF page 17]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 17 of 78
+international institutional investors' ability to assess true free float and to 
+rely on observed market prices for portfolio construction and index 
+replication. Similar behaviors have been observed in Turkey, particularly 
+among small-cap listed companies. These issues may impair price 
+formation and amplify volatility. As a result, the Information Flow criterion 
+has been downgraded for both markets, reflecting ongoing concerns 
+around free float transparency and proper price formation.  
+Furthermore, on March 2, 2026, Borsa Istanbul reinstated a market-wide 
+ban on short selling for all securities listed on the Turkish market. The 
+prohibition has been extended multiple times. Frequent changes in rules 
+and the continuous imposition of restrictions are not a desirable feature 
+of a well-functioning short selling framework. 
+The Capital Market Authority (CMA) in Saudi Arabia has further opened 
+the market for foreign investment with the removal of the Qualified 
+Foreign Investor concept in the Main Market, allowing foreign investors 
+to access the market without the need to meet qualification 
+requirements, effective February 1, 2026. This led to an improvement in 
+the Investor Qualification Requirement criterion for Saudi Arabia. 
+In Chile, the repatriation process has improved materially in recent years, 
+with FX liquidity increasing and repatriation timelines shortening to 
+same-day processing. These developments were reflected in an 
+upgrade of Chile’s Capital Flow Restriction Level assessment.  
+The shortening of settlement cycles is also being evaluated across 
+several Emerging Markets. 
+Borsa Istanbul in Turkey launched a formal evaluation process for a 
+potential transition to a T+1 settlement cycle, opening end-to-end testing 
+environments in January 2026. All market participants are required to 
+complete their preparations by December 31, 2026, though no 
+implementation date has been confirmed.  
+The Central Bank of Brazil opened a public consultation in October 2025 
+on the potential shortening of the settlement cycle, with results yet to be 
+announced. The stock exchange (B3) has separately indicated a target 
+of February 2028 for a transition to T+1.  
+A discussion paper on the potential shortening of the settlement cycle 
+was published by South Africa in January 2026, marking an early step in 
+the market's evaluation of a transition to T+1. 
+
+[PDF page 18]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 18 of 78
+The Stock Exchange of Thailand is in the process of establishing a 
+dedicated working group to assess the feasibility and implications of a 
+transition to T+1.  
+Nuam Exchange, integrating the markets of Chile, Colombia and Peru 
+has targeted a transition to T+1 in the second half of 2027. 
+ 
+3.3 Frontier Markets 
+Vietnam continued to advance its capital market reform agenda during 
+the review period. Key developments include the introduction of a global 
+broker trading model allowing foreign investors to access the market 
+without a domestic account, the formal establishment of a Central 
+Counterparty (CCP) company with a go-live in early 2027, and continued 
+progress on the phased rollout of English-language disclosure 
+requirements. On foreign ownership limits, new regulation prevents 
+companies from voluntarily restricting foreign ownership below the 
+applicable legal limit, public companies are required to publish their 
+applicable limits by September 2026 and the authorities are looking to 
+loosen restrictions across a number of sectors. MSCI will continue to 
+monitor the implementation of these reforms closely. 
+In July 2022, a floor price mechanism was reintroduced across all listed 
+securities in the Bangladesh equity market. Over the following years, the 
+mechanism rendered a significant portion of the market effectively 
+untradable, as securities could not transact below their floor levels. In 
+June 2026, all floor prices were removed from remaining securities.  
+The Ministry of Finance of the Republic of Croatia and the Croatian 
+Financial Services Supervisory Agency (HANFA) have made notable 
+progress in advancing their strategic framework for the development of 
+the Croatian capital market. The new Credit Institutions Act, which 
+entered into force on March 13, 2026, introduced an amendment 
+allowing shares of credit institutions to be held through omnibus custody 
+accounts; this improvement has been reflected in the Clearing and 
+Settlement criterion. Additionally, the Stability of Institutional Framework 
+criterion has been upgraded to recognize the Croatian market's 
+consistent track record of systemic stability. MSCI is assessing the 
+clarifications announced in April 2026 regarding tax ID requirements for 
+the Investor Registration & Account Set Up criterion, and the potential 
+amendments to the Capital Markets Act expected in June 2026 that 
+
+[PDF page 19]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 19 of 78
+would require issuers to disclose regulated information in both Croatian 
+and English. 
+Settlement cycle developments have also been observed across several 
+Frontier Markets. Pakistan completed its transition to a T+1 settlement 
+cycle in February 2026. The Bourse Régionale des Valeurs Mobilières 
+(BRVM) completed its transition from T+3 to T+2 in December 2025, 
+serving the eight member states of the West African Economic and 
+Monetary Union (WAEMU). Oman announced a move to T+2 across all 
+securities listed on the Muscat Stock Exchange, effective September 
+2026, as part of a broader strategy to modernize the market's 
+operational framework. 
+ 
+3.3.1 Advanced Frontier Markets 
+Following the MSCI 2026 Global Market Accessibility Review, there are 
+no changes to the composition of the Advanced Frontier Markets 
+subcategory. The members remain Estonia, Latvia, Lithuania, Romania 
+and Slovenia. 
+Among the accessibility developments observed in this review cycle, 
+Romania and Slovenia both recorded an improvement in their Stability of 
+Institutional Framework rating. In both markets, the institutional 
+framework is considered to be in line with other European Developed 
+Markets, with no known government interventions challenging the 
+stability of the free-market economy in recent years. 
+ 
+3.4 Standalone Markets 
+Market developments in some Standalone Markets have been noted in 
+this review. 
+On January 1, 2026, Bulgaria joined the Eurozone and transitioned its 
+official currency to the euro. All trading and post-trading operations were 
+successfully transitioned and now operate in euros, with no operational 
+frictions encountered. This development has been noted in the Foreign 
+Exchange Market Liberalization Level criterion. In addition, MSCI has 
+upgraded the Custody criterion as custody and trading accounts are 
+separate following the adoption of MiFID II in Bulgaria. 
+Panama rating for Investor Registration & Account Set up has been 
+upgraded as the process has improved, with account opening now 
+
+[PDF page 20]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 20 of 78
+typically completed within approximately two business days under 
+normal conditions. 
+The Trinidad and Tobago Securities and Exchange Commission (TTSEC) 
+website centralizes all acts, bye-laws, rules, orders and guidelines 
+governing the securities market in a single, publicly accessible location. 
+The regulatory framework operates entirely in English and does not 
+present material ambiguity or barriers for foreign investors seeking to 
+understand the applicable rules, resulting in an upgrade of Trinidad and 
+Tobago's Market Regulations assessment. 
+Nigeria advanced its settlement cycle in phases. Following a transition 
+from T+3 to T+2 in November 2025, the market completed a further 
+move to T+1 in June 2026. 
+ 
+3.5 Summary of the rating changes 
+Table 2 shows the market assessment evolution, from last year to date, 
+by summarizing the total number of improvements and deteriorations in 
+various assessment categories for the analyzed markets. Most of the 
+changes were related to Stability of Institutional Framework, followed by 
+changes related to Capital Flow Restriction Level.  
+ 
+ 
+
+[PDF page 21]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 21 of 78
+Table 2: Summary of Improvements/Deteriorations Table (number of 
+markets) 
+ 
+   
+ 
+There were three improvements and one deterioration in the Developed 
+Markets, while there were five improvements and two deteriorations in 
+the Emerging Markets. In the Frontier Markets, there were six 
+improvements and no deteriorations. There were five improvements in 
+the Standalone Markets. 
+Table 3 illustrates the overall trends in ratings improvements and 
+deteriorations in recent years. The number of changes has increased 
+compared to last year, in which there were twelve improvements and 
+five deteriorations. 
+ 
+ 
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Openness to foreign ownership
+Investor qualification requirement
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Foreign ownership limit (FOL) level
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Foreign room level
+1
+                     
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Equal rights to foreign investors
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Ease of capital inflows / outflows
+Capital flow restriction level
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+1
+                     
+-
+                  
+1
+                     
+-
+                  
+Foreign exchange market liberalization level
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+Market organization
+Market regulations
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+Information flow
+-
+                  
+-
+                  
+-
+                  
+2
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Market infrastructure
+Clearing and Settlement
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+Custody
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+Registry / Depository
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Trading
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Transferability
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Stock lending
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Short selling
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Availability of Investment Instruments
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Stability of institutional framework
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+4
+                     
+-
+                  
+-
+                  
+-
+                  
+Total
+3
+                     
+1
+                     
+5
+                     
+2
+                     
+6
+                     
+-
+                  
+5
+                     
+-
+                  
+Developed Markets
+Emerging Markets
+Frontier Markets
+Standalone Markets
+
+[PDF page 22]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 22 of 78
+Table 3: Trends in Ratings Improvements and Deteriorations 
+ 
+ 
+Tables 4, 5, 6, and 7 detail the improvements and deteriorations 
+observed across the assessed criteria for Developed, Emerging, Frontier 
+and Standalone Markets, respectively. A total of nineteen markets 
+exhibited changes in at least one measure.  
+ 
+ 
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Improvements
+Deteriorations
+Openness to foreign ownership
+Investor qualification requirement
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Foreign ownership limit (FOL) level
+1
+                     
+-
+                  
+1
+                     
+1
+                     
+2
+                     
+-
+                  
+-
+                  
+-
+                  
+Foreign room level
+1
+                     
+1
+                     
+1
+                     
+2
+                     
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+Equal rights to foreign investors
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Ease of capital inflows / outflows
+Capital flow restriction level
+3
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Foreign exchange market liberalization level
+1
+                     
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Market organization
+Market regulations
+2
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+3
+                     
+1
+                     
+Information flow
+-
+                  
+2
+                     
+3
+                     
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Market infrastructure
+Clearing and Settlement
+2
+                     
+-
+                  
+2
+                     
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+Custody
+1
+                     
+-
+                  
+1
+                     
+-
+                  
+1
+                     
+-
+                  
+2
+                     
+-
+                  
+Registry / Depository
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+2
+                     
+-
+                  
+-
+                  
+-
+                  
+Trading
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+Transferability
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+1
+                     
+-
+                  
+Stock lending
+-
+                  
+-
+                  
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Short selling
+-
+                  
+-
+                  
+2
+                     
+-
+                  
+-
+                  
+1
+                     
+1
+                     
+-
+                  
+Availability of Investment Instruments
+1
+                     
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+-
+                  
+Stability of institutional framework
+5
+                     
+-
+                  
+-
+                  
+-
+                  
+3
+                     
+-
+                  
+-
+                  
+-
+                  
+Total
+19
+                   
+3
+                     
+12
+                   
+5
+                     
+11
+                   
+1
+                     
+8
+                     
+1
+                     
+2025
+2024
+2023
+2026
+
+[PDF page 23]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 23 of 78
+Table 4: Summary of Improvements/Deteriorations Table for Developed 
+Markets 
+ 
+ 
+ 
+ 
+Table 5: Summary of Improvements/Deteriorations Table for Emerging 
+Markets 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Canada
+Ireland
+Israel
+Openness to foreign ownership
+Foreign ownership limit (FOL) level
+I
+-
+-
+Foreign room level
+I
+D
+-
+Efficiency of the operational framework
+Market infrastructure
+Clearing and Settlement
+-
+-
+I
+-: No change; I: Improvement; D: Deterioration
+Chile
+Colombia
+Egypt
+Saudi Arabia
+Turkey
+Indonesia
+Korea
+Openness to foreign ownership
+Investor qualification requirement
+-
+-
+-
+I
+-
+-
+-
+Ease of capital inflows / outflows
+Capital flow restriction level
+I
+-
+-
+-
+-
+-
+-
+Efficiency of the operational framework
+Market organization
+Market regulations
+-
+-
+I
+-
+-
+-
+-
+Information flow
+-
+-
+-
+-
+D
+D
+-
+Availability of Investment Instruments
+-
+-
+-
+-
+-
+-
+I
+Stability of institutional framework
+-
+I
+-
+-
+-
+-
+-
+-: No change; I: Improvement; D: Deterioration
+
+[PDF page 24]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 24 of 78
+ 
+ 
+Table 6: Summary of Improvements/Deteriorations Table for Frontier 
+Markets 
+ 
+ 
+ 
+Table 7: Summary of Improvements/Deteriorations Table for Standalone 
+Markets 
+ 
+ 
+ 
+ 
+ 
+Romania
+Slovenia
+Croatia
+Kazakhstan
+Kenya
+Ease of capital inflows / outflows
+Capital flow restriction level
+-
+-
+-
+-
+I
+Efficiency of the operational framework
+Market infrastructure
+Clearing and Settlement
+-
+-
+I
+-
+-
+Stability of institutional framework
+I
+I
+I
+I
+-
+-: No change; I: Improvement; D: Deterioration
+Panama
+Trinidad & 
+Tobago
+Bulgaria
+Nigeria
+Ease of capital inflows / outflows
+Capital flow restriction level
+-
+-
+-
+I
+Foreign exchange market liberalization level
+-
+-
+I
+-
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+I
+-
+-
+-
+Market organization
+Market regulations
+-
+I
+-
+-
+Market infrastructure
+Custody
+-
+-
+I
+-
+-: No change; I: Improvement; D: Deterioration
+
+[PDF page 25]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 25 of 78
+4 
+Developed Markets 
+The following comments should be read in conjunction with the market-
+by-market assessment results that can be found in Appendix II of this 
+document. 
+4.1 
+Americas 
+4.1.1 Canada 
+Improvement 
+Foreign Ownership Limit Level: “+” to “++”. While some sectors are still 
+subject to foreign ownership limits for up to 49 percent, these limitations 
+have been less than three percent of the Canadian equity market for 
+three consecutive years.  
+Foreign Room Level: “+ to “++”. Following the increase of the adjustment 
+factor for BCE Inc. to 1, the MSCI Canada IMI is no longer impacted by 
+low foreign room. 
+4.1.2 USA 
+Foreign Ownership Limit Level: Airline companies are subject to a 25 
+percent foreign ownership limit. However, this did not result in a negative 
+assessment due to the very limited impact of these ownership limits on 
+the US market. 
+4.2 Europe, Middle East, and Africa 
+European airline companies are in general subject to a 50 percent 
+foreign ownership limit for non-European investors but the impact on the 
+different markets is very limited, with the exception of Ireland. 
+Consequently, the presence of these ownership limits did not result in 
+any negative assessments for most of the individual markets.  
+4.2.1 Ireland 
+Foreign Ownership Limit Level: Ryanair Holdings is subject to an 80 
+percent foreign ownership limit for non-EU investors. Currently, this 
+affects more than three percent of the Irish equity market. 
+Deterioration 
+Foreign Room Level: “++“ to “-”. Following a deterioration in the foreign 
+room of Ryanair Holdings, more than one percent of the MSCI Ireland IMI 
+is currently affected by foreign room issues. 
+
+[PDF page 26]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 26 of 78
+4.2.2 Israel 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Improvement 
+Clearing and Settlement: “+” to “++”. The T+1 settlement cycle is no 
+longer an outlier characteristic, as Developed Markets have broadly 
+adopted or are in the process of adopting this cycle. In addition, Israel 
+transitioned its trading week from Sunday-Thursday to Monday-Friday 
+as of January 2026. 
+4.2.3 Portugal 
+Stock Lending: Is restricted to certain securities. 
+Short Selling: Is allowed but is restricted to certain securities. 
+4.2.4 Spain 
+Foreign Room Level: The MSCI Spain IMI is impacted by low foreign 
+room due to the adjustment factor applied to International Airlines Group. 
+Short Selling: Is allowed but is not an established market practice. 
+4.3 Asia Pacific 
+4.3.1 Japan 
+Foreign Ownership Limit Level: The airlines, media and 
+telecommunications industries are impacted by foreign ownership limits. 
+These limitations represent less than three percent of the Japanese 
+equity market. 
+Equal Rights to Foreign Investors: Company-related information is not 
+always readily available in English. The Tokyo Stock Exchange (TSE) 
+Prime Market issuers are now required to disclose simultaneously in both 
+languages. Additionally, the TSE-led reforms are supporting gradual 
+improvement on corporate governance standards. For securities subject 
+to foreign ownership limits, voting rights may be prorated when the 
+aggregate limit is reached. 
+Information Flow: Detailed stock market information is in general 
+disclosed in a timely manner, though not always in English. Tokyo Stock 
+Exchange (TSE) Prime Market issuers are now required to disclose 
+simultaneously in both languages. Japanese dividends are usually 
+declared in advance, yet final amounts may be confirmed after the ex-
+
+[PDF page 27]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 27 of 78
+date, which is uncharacteristic of Developed Markets; estimated 
+amounts are generally available and broadly used by the market.   
+
+[PDF page 28]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 28 of 78
+5 
+Emerging Markets 
+The following comments should be read in conjunction with the market-
+by-market assessment results that can be found in Appendix II of this 
+document.  
+5.1 
+Americas 
+5.1.1 Brazil 
+Foreign Ownership Limit Level: Certain banking companies are subject to 
+a 30 percent foreign ownership limit. These limitations affect more than 
+three percent of the Brazilian equity market.  
+Equal Rights to Foreign Investors: Foreign investors are, in general, 
+limited to the non-voting shares of Brazilian banks and, hence, do not 
+have the same voting rights as domestic investors. The general 
+segregation between voting and non-voting shares also negatively 
+impacts the voting rights of minority shareholders due to their limited 
+access to the voting shares. Company related information is not always 
+readily available in English. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions).  
+Investor Registration & Account Set Up: Registration is mandatory, and 
+all foreign investors need to appoint a legal and tax representative prior 
+to entering the market. Following a normative resolution issued in 
+October 2025, ultimate beneficial owner (UBO) disclosure requirements 
+were further tightened, which has added complexity to the registration 
+process.   
+Market Regulations: Not all regulations can be found in English. 
+Clearing and Settlement: There is an absence of true omnibus structures 
+in the market. Overdraft facilities are prohibited. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Transferability: In-kind transfers are allowed but with some restrictions.  
+
+[PDF page 29]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 29 of 78
+Availability of Investment Instruments: Restrictions imposed on the use 
+of stock market data have led to limited availability of investment 
+instruments. 
+5.1.2 Chile 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+deliverable currency market. 
+Investor Registration & Account Set Up: Registration is mandatory and 
+foreign investors need to obtain a tax ID and provide additional 
+documents to set up local accounts (e.g., power of attorney and letter of 
+good standing from investor's local authority) depending on the 
+registration mechanism chosen by the foreign investor.  
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Transferability: In-kind transfers and off-exchange transactions are 
+allowed but not an established market practice. 
+Stock Lending: Is allowed with restrictions and is not an established 
+market practice.  
+Short Selling: Is allowed with restrictions and is not an established market 
+practice. 
+Improvement 
+Capital Flow Restriction Level: “+” to “++”. The repatriation process is 
+efficient and can now be completed on the same day.  
+5.1.3 Colombia 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Capital Flow Restriction Level: Due to some administrative requirements, 
+repatriation of funds can take up some time to be cleared.  
+Foreign Exchange Market Liberalization Level: The offshore market is 
+restricted and there are constraints on the onshore currency market 
+(e.g., foreign exchange transactions must be linked to security 
+transactions and registered with the Central Bank). 
+
+[PDF page 30]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 30 of 78
+Investor Registration & Account Set Up: Registration is mandatory, and 
+all documents must be filed in Spanish. The process of setting up 
+accounts may be lengthy. 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English.  
+Clearing and Settlement: There is no nominee concept as well as a lack 
+of a clear legal basis for omnibus accounts. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers are possible with certain restrictions. 
+Stock Lending: Is allowed but with some restrictions.  
+Short Selling: Is allowed with restrictions.  
+Improvement 
+Stability of Institutional Framework: “-“ to “+”. Colombia's institutional 
+framework has demonstrated sustained stability over an extended 
+period.  
+5.1.4 Mexico 
+Foreign Ownership Limit Level: Restrictions on foreign investment affect 
+a significant proportion of the Mexican equity market. Foreign ownership 
+in a number of companies is only possible through Participation 
+Certificates (CPOs), which, in general, do not provide voting rights.  
+Equal Rights to Foreign Investors: Holders of CPOs have, in general, no 
+voting rights and, hence, are not at par with domestic investors. In 
+addition, the general segregation between voting and non-voting shares 
+also negatively impacts the voting rights of minority shareholders due to 
+their limited access to the voting shares. 
+Investor Registration & Account Set Up: Registration is mandatory and 
+foreign investors must have a contract with local agents. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Short Selling: Is allowed, however, a stock lending trade must be in place 
+in Valpre (electronic securities lending system managed by the Central 
+Securities Depository) before a short selling transaction can be 
+executed. 
+
+[PDF page 31]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 31 of 78
+5.1.5 Peru 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English.  
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. All documents, however, must be filed in 
+Spanish.  
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: Omnibus structures and nominee concept are 
+not available. In addition, there is an absence of a real DVP system on the 
+Lima Stock Exchange. 
+Trading: Limited level of competition among brokers which can lead to 
+relatively higher trading costs. 
+Transferability: In-kind transfers are allowed but with some restrictions. 
+Stock Lending: Stock lending through the Lima Stock Exchange (BVL) is 
+only available for highly liquid stocks included in the TVR (Tabla de 
+Valores de Referencia) table. This lending service is not widely used.  
+Short Selling: Is allowed but is not an established market practice due to 
+the limited capacity.  
+5.2 
+Europe, Middle East, and Africa 
+5.2.1 Czech Republic 
+Investor Registration & Account Set Up: Registration is not required, but 
+the account setup process can take a significant amount of time. 
+Market Regulations: Not all regulations can be found in English. 
+Clearing and Settlement: There is no nominee concept as well as a lack 
+of a clear legal basis for omnibus accounts.  
+Stock Lending: Is allowed but is not an established market practice due 
+to the limited capacity. 
+Short Selling: Is allowed but is not an established market practice due to 
+the limited capacity. 
+
+[PDF page 32]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 32 of 78
+5.2.2 Egypt 
+Equal rights to foreign investors: Company related information is not 
+always available in English. 
+Foreign Exchange Market Liberalization Level: There is a lack of 
+efficiency on the offshore currency market. Liquidity in the onshore 
+currency market has improved and there is no FX backlog outstanding 
+for foreign investors. MSCI will continue to closely monitor the liquidity of 
+the Egyptian FX market and the capacity of international institutional 
+investors to repatriate their capital without delays. In addition, there are 
+constraints on the onshore currency market (e.g., foreign exchange 
+transactions must be linked to security transactions). 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Information Flow: Lack of robustness and enforcement of local 
+accounting standards. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available for custody purposes.  
+Trading: Limited level of competition among brokers which can lead to 
+relatively higher trading costs. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers can only be executed if there is no change in beneficial owner 
+and subject to the Financial Regulatory Authority's approval. 
+Stock Lending: Is allowed but is not an established market practice due 
+to the limited capacity.  
+Short Selling: Is allowed but is not an established market practice due to 
+the limited capacity.  
+Stability of Institutional Framework: There have been instances of 
+government interventions that challenged the stability of the “free-
+market” economy as illustrated by frequently changing market 
+regulations. 
+Improvement 
+Market Regulations: “-“ to “+”. There are no regulatory restrictions 
+limiting foreign participation in the market, with the exception of 
+companies incorporated in the Sinai Peninsula. However, relevant 
+
+[PDF page 33]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 33 of 78
+regulations are not available in English, although some progress has 
+been made with certain ones. 
+5.2.3 Hungary 
+Foreign Ownership Limit Level: Wizz Air Holding is subject to a 49 
+percent foreign ownership limit. Currently, this affects more than three 
+percent of the Hungarian equity market. 
+Foreign Room Level: The MSCI Hungary IMI is impacted by low foreign 
+room due to the adjustment factor applied to Wizz Air Holdings. 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Market Regulations: Not all regulations, particularly recent ones, can be 
+found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Registry / Depository: There is an absence of a central registry, with 
+some registration done by financial institutions. 
+Stock Lending: Is allowed but is not an established market practice. 
+Short Selling: Is allowed but is not an established market practice. 
+5.2.4 Kuwait 
+Equal Rights to Foreign Investors: The presence of large strategic 
+shareholders in many Kuwaiti companies may limit the level of 
+transparency and governance in the market. 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Information Flow: Company related information is not always readily 
+available in English. 
+Clearing and Settlement: Overdraft facilities are prohibited. 
+Custody: The introduction of the false trade mechanism has eliminated 
+the need for segregated custody and trading accounts, which were 
+previously required in order to mitigate the risk deriving from local 
+brokers having unlimited access to trading accounts. More time is 
+needed to assess the efficiency of the process. 
+
+[PDF page 34]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 34 of 78
+Transferability: In-kind transfers and off-exchange transactions are 
+allowed with some restrictions and are not yet common practice. 
+Stock Lending: Is allowed but with some restrictions and is not yet a 
+common practice. In August 2024, the Capital Markets Authority (CMA) 
+issued a resolution to introduce bilateral securities lending and 
+borrowing.  
+Short Selling: Is allowed with restrictions and is not an established market 
+practice. 
+5.2.5 Poland 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: There is no nominee status. The use of 
+omnibus accounts may be restricted to certain foreign entities. 
+Registry / Depository: There is an absence of a central registry, with 
+some registration done by financial institutions. 
+Transferability: Off-exchange transactions are allowed but may be 
+subject to a tax. 
+Stock Lending: Is allowed but is not an established market practice. 
+Short Selling: Is allowed but is not an established market practice. 
+5.2.6 Qatar 
+Foreign Ownership Limit Level: A few companies are subject to a foreign 
+ownership limit of 49 percent. These limitations affect more than three 
+percent but less than ten percent of the Qatari equity market. 
+Equal Rights to Foreign Investors: The presence of large strategic 
+shareholders in many Qatari companies may limit the level of 
+transparency and governance in the market. 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available. Overdraft facilities are prohibited. 
+
+[PDF page 35]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 35 of 78
+Custody: There are inefficiencies in the local custody workflow that 
+impact pre- and post-trade processes and can result in failed trades. 
+There are also inefficiencies in the existing false trade mechanism. 
+Transferability: In-kind transfers and off-exchange transactions are 
+allowed with restrictions. 
+Stock Lending: Securities lending and borrowing facilities are currently 
+only available for use by liquidity providers and as a mechanism to 
+prevent settlement failures. 
+Short Selling: Is allowed with restrictions and is not an established market 
+practice. 
+5.2.7 Saudi Arabia 
+Foreign Ownership Limit Level: Listed companies are generally subject to 
+a foreign ownership limit of 49 percent, while a few companies are fully 
+closed to foreign investors. This affects more than ten percent of the 
+Saudi market. 
+Equal Rights to Foreign Investors: The rights of foreign investors are 
+limited as a result of the stringent foreign ownership limits. 
+Investor Registration & Account Set Up: Recent reforms have led to a 
+material improvement in account setup times. Registration is mandatory, 
+but the process is efficient. 
+Information Flow: Some information is still available only in Arabic. 
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are not available for custody purposes. 
+Custody: There are inefficiencies in the local custody workflow that 
+impact pre- and post-trade processes and can result in failed trades. 
+There are also inefficiencies in the existing false trade mechanism. 
+Transferability: In-kind transfers and off-exchange transactions are 
+prohibited. 
+Stock Lending: Is allowed but is not an established market practice. 
+Short Selling: Is allowed but is not an established market practice. 
+Improvement 
+Investor Qualification Requirement: “+“ to “++”. Following a consultation, 
+effective on February 1, 2026, the Capital Market Authority eliminated the 
+concept of the Qualified Foreign Investor (QFI) in the Main Market, 
+
+[PDF page 36]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 36 of 78
+allowing foreign investors to access the market without the need to meet 
+qualification requirements. 
+5.2.8 South Africa 
+Clearing and Settlement: Restrictions on the use of overdrafts may be 
+applicable to non-residents. 
+Transferability: Off-exchange transactions and in-kind transfers are 
+allowed but with some restrictions. 
+5.2.9 Turkey 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: There have been several 
+interventions by the authorities restricting the functioning of the foreign 
+exchange market, including the delay in settlement of some foreign 
+exchange transactions. 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Market Regulations: Not all regulations can be found in English. 
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are not available. 
+Stock Lending: Is restricted to certain securities. 
+Short Selling: In March 2026, Borsa Istanbul reimposed a ban on short 
+selling across all listed securities. Repeated extensions of the suspension 
+weigh negatively on the long-term assessments of the regulatory 
+framework governing short selling securities. 
+Availability of Investment Instruments: Restrictions imposed on the use 
+of stock market data have led to limited availability of investment 
+instruments. 
+Stability of Institutional Framework: Government interventions may call 
+into question the stability of the country's institutional framework. 
+Deterioration 
+Information Flow: “+“ to “-”. Investability concerns remain due to limited 
+transparency in shareholding structures and coordinated trading 
+behavior that undermines proper price formation. In addition, detailed 
+stock market information is not always disclosed in English. 
+
+[PDF page 37]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 37 of 78
+5.2.10 United Arab Emirates 
+Foreign Ownership Limit Level: Listed companies are in general subject 
+to a foreign ownership limit of 49 percent, but companies may choose to 
+set a lower limit. These limitations affect more than ten percent of the 
+UAE market. 
+Foreign Room Level: More than 0.3 percent, but less than one percent of 
+the MSCI UAE IMI is impacted by low foreign room due to adjustment 
+factors in several companies. 
+Equal Rights to Foreign Investors: The rights of foreign investors are 
+limited as a result of the stringent foreign ownership limits and some 
+companies that do not allow foreign investors to vote. 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Clearing and Settlement: Nominee status and omnibus structures are not 
+available. Omnibus structures were introduced in the Dubai Financial 
+Market in March 2023. However, the Abu Dhabi Securities Exchange and 
+Nasdaq Dubai have not yet introduced these structures. 
+Custody: There are inefficiencies in the local custody workflow that 
+impact pre- and post-trade processes and can result in failed trades. 
+There are also inefficiencies in the existing false trade mechanism. 
+Transferability: In-kind transfers are prohibited. 
+Stock Lending: Is allowed with restrictions and is not an established 
+market practice. In May 2025, the Dubai Financial Market introduced a 
+centralized securities lending and borrowing program. 
+Short Selling: Is allowed with restrictions and is not an established market 
+practice.  
+ 
+5.3 Asia Pacific 
+5.3.1 China (international) 
+The assessment of the accessibility of the China (international) market 
+considers only the Hong Kong listed portion of the China market (e.g., H-
+shares, Red-Chips and P-Chips). 
+Foreign Ownership Limit Level: The proportion of Chinese companies’ 
+share capital freely accessible to foreign investors is in general limited. 
+
+[PDF page 38]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 38 of 78
+Foreign investors can acquire shares of Chinese companies listed in the 
+Hong Kong Stock exchange, which represents a portion of the total 
+market capitalization of Chinese companies.  
+Equal Rights to Foreign Investors: Foreign investors have in general 
+limited voting power due to the limited shares available to them. 
+Market Regulations: Not all regulations can be found in English. 
+5.3.2 China A Market  
+Investor Qualification Requirement: Foreign institutional investors are 
+required to apply for a Qualified Foreign Investor (QFI) qualification, 
+which involves meeting specific eligibility requirements. However, there 
+is no qualification requirement for foreign institutional investors 
+accessing the China A market via Stock Connect. In late 2025, the China 
+Securities Regulatory Commission (CSRC) introduced a One-Stop 
+Service to streamline QFI registration, reducing typical approval 
+timelines, and an Express Entry channel to expedite CSRC approval for 
+designated long-term Foreign Patient Capital. More time is needed to 
+assess the efficiency of these measures. 
+Foreign Ownership Limit Level: A-shares held by all QFIs as well as 
+through the Stock Connect program in a listed company cannot exceed 
+30% of the total outstanding shares of the company. 
+Foreign Room Level: More than one percent of the MSCI China A 
+International IMI is impacted by low foreign room. Also, the current 
+threshold of disclosure of foreign holdings does not provide sufficient 
+transparency for the upward revision of the adjustment factors. The 
+threshold of foreign holding disclosure was lowered to 24% from 26% 
+previously since October 2020. 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. In addition, the corporate governance 
+standards of some Chinese companies have been questioned by some 
+international institutional investors.  
+Capital Flow Restriction Level: While regulations on capital flows for QFIs 
+have been simplified and QFIs can independently import funds to invest 
+in securities after registration with China’s SAFE (State Administration of 
+Foreign Exchange), there are still reporting requirements for capital 
+repatriation. Notably, under the Stock Connect Northbound channel, 
+there are no such repatriation requirements. 
+
+[PDF page 39]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 39 of 78
+Foreign Exchange Market Liberalization Level: The RMB is not fully 
+convertible onshore, but investors are able to tap into the offshore RMB 
+market in Hong Kong (CNH) for securities settlement through Stock 
+Connect. 
+Investor Registration & Account Set Up: Registration is mandatory and 
+subject to the China Securities Regulatory Commission (CSRC) approval, 
+but the process is efficient.  
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: The DVP practice in mainland China remains 
+different from other global markets, and the T+0/T+1 settlement cycle 
+continues to pose operational challenges for some institutional investors. 
+On the Master Special Segregated Account (Master SPSA), there are still 
+areas for improvement on the management of multiple accounts.  
+Transferability: Off-exchange transactions are prohibited. 
+Stock Lending: Is allowed with restrictions and is not an established 
+market practice. 
+Short Selling: Is allowed with restrictions and is not an established market 
+practice. 
+Availability of Investment Instruments: The existing derivative products 
+provide international institutional investors with a range of investment 
+instruments. However, restrictions on the use of stock market data 
+remain. 
+5.3.3 India 
+Investor Qualification Requirement: Foreign investors must register as a 
+Foreign Portfolio Investor (FPI) and obtain a Permanent Account Number 
+(PAN). 
+Foreign Ownership Limit Level: Several companies are subject to foreign 
+ownership limits depending on sector; these limitations affect more than 
+10 percent of the Indian equity market. 
+Foreign Room Level: The equity market is significantly impacted by 
+foreign room issues and there is no active formal foreign board allowing 
+foreign investors to trade among themselves. More than one percent of 
+the MSCI India IMI is impacted by low foreign room. The Central 
+
+[PDF page 40]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 40 of 78
+Depository Service Limited (CDSL) and National Securities Depository 
+Limited (NSDL) monitor foreign ownership levels and issue a warning 
+once the levels are close to being breached. 
+Equal Rights to Foreign Investors: Rights of foreign investors are limited 
+as a result of the foreign ownership limits. 
+Foreign Exchange Market Liberalization Level: There is no efficient 
+offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+Investor Registration & Account Set Up: Registration is mandatory and 
+subject to Securities and Exchange Board of India (SEBI) approval. A new 
+framework for low-risk foreign investors has recently been introduced, 
+following various initiatives over the past few years to streamline the 
+registration process. Overall, the full account setup process continues to 
+require a significant amount of time and remains complex for the broader 
+foreign investor base. 
+Market Regulations: The regulatory framework governing foreign 
+investments in India is complex and subject to frequent changes and 
+clarifications.  
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are not available; overdraft facilities are also prohibited. The 
+current settlement cycle continues to generate operational challenges, 
+including pre-funding requirements and liquidity constraints.  
+Transferability: In-kind and off-exchange transfers are allowed with 
+restrictions. 
+Short Selling: Is allowed but all transactions must be reported to the 
+Securities and Exchange Board of India.  
+Availability of Investment Instruments: Restrictions imposed on the use 
+of stock market data have led to limited availability of investment 
+instruments. 
+5.3.4 Indonesia  
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: There is no efficient 
+offshore currency market and there are constraints on the onshore 
+
+[PDF page 41]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 41 of 78
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+Clearing and Settlement: Overdraft facilities for foreign investors are 
+prohibited.  
+Transferability: In-kind transfers are only allowed in certain cases.  
+Stock Lending: Is allowed but is restricted to certain securities and to 90-
+day lending contracts. 
+Short Selling: Is allowed but with some restrictions. 
+Deterioration 
+Information Flow: “+” to “-“. Investability concerns remain due to limited 
+transparency in shareholding structures and coordinated trading 
+behavior that undermines proper price formation. Detailed stock market 
+information is not always disclosed in English. 
+5.3.5 Korea 
+Foreign Room Level: More than 0.3%, but less than 1% of the MSCI 
+Korea IMI is impacted by low foreign room. 
+Equal Rights to Foreign Investors: Company-related information is not 
+always readily available in English. The phased mandatory English 
+disclosure framework was introduced in 2023. The second phase started 
+in May 2026, and a third phase planned for 2027 would extend the 
+requirement to all KOSPI-listed companies. The effectiveness will need 
+to be assessed once full implementation is completed.  
+Foreign Exchange Market Liberalization Level: A fully deliverable 
+offshore currency market is still not available, and constraints persist on 
+the onshore FX market. Building on the MOEF's FX reform announced in 
+2023 and subsequent measures implemented through 2024–2025, the 
+authorities have outlined further initiatives to align the FX framework with 
+global practices, including plans for 24-hour onshore trading in July 
+2026 and offshore KRW settlement targeted for 2027. 
+Investor Registration & Account Set Up: Registration is mandatory. Since 
+December 2023, foreign investors must obtain a Legal Entity Identifier 
+(LEI), which superseded the previous Investor Registration Certificate 
+(IRC) system. The transition between both frameworks remains ongoing, 
+and their coexistence continues to create operational friction, with 
+implications for the use of omnibus account structures.  
+
+[PDF page 42]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 42 of 78
+Information Flow: Detailed stock market information is not always 
+disclosed in English. A phased mandatory English disclosure framework 
+introduced in 2023 has progressively improved disclosure practices. The 
+first phase has concluded. The second phase expands coverage in 
+2026, with a further phase expected in 2027. Additionally, adoption of 
+the revised dividend distribution procedure remains partial but is 
+progressing. 
+Clearing and Settlement: Despite recent regulatory measures, settlement 
+is still predominantly conducted on a per-investor-ID basis. Overdraft 
+and omnibus mechanisms are permitted but practical adoption remains 
+limited. The Korea Securities Depository (KSD) recently advanced its 
+settlement start time and reduced the settlement progress payment 
+amounts, partially easing broker pre-settlement funding requirements. 
+However, there is a lack of clarity around the calculation of funding 
+amounts, creating inefficiency in the settlement process. 
+Transferability: Following regulatory reforms of 2023, in-kind transfers 
+and off-exchange transactions are allowed with restrictions. However, 
+they are not yet common practice. 
+Short Selling: Is allowed with restrictions. Since the lifting of the ban in 
+early 2025, significant operational friction, compliance burden and 
+regulatory complexity have emerged. MSCI will continue monitoring the 
+effectiveness and stability over time. 
+Improvement 
+Availability of Investment Instruments: “-“ to “+”. Derivatives products 
+linked to Korean indexes have recently been listed on international 
+exchanges. Some restrictions on the use of exchange data for the 
+creation of financial products persist. 
+5.3.6 Malaysia 
+Foreign Ownership Limit Level: Industries that are of strategic 
+importance, including the brokerage, insurance, and telecommunication 
+industries, are subject to foreign ownership restrictions ranging from 30 
+to 70 percent. These limitations still affect more than three percent but 
+less than ten percent of the Malaysian equity market. 
+Equal Rights to Foreign Investors: Foreign investors holding shares that 
+exceed the foreign ownership limits are not treated equally in terms of 
+voting rights compared with domestic investors holding the same shares 
+in the same company. 
+
+[PDF page 43]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 43 of 78
+Foreign Exchange Market Liberalization Level: There is no efficient 
+offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+Transferability: In-kind transfers and off-exchange transactions are 
+allowed with restrictions. 
+Short Selling: Is allowed but is restricted to certain securities. 
+5.3.7 Philippines 
+Foreign Ownership Limit Level: All industries are in general subject to a 
+40 percent foreign ownership limit. These limitations affect more than 
+ten percent of the Philippine equity market. 
+Foreign Room Level: More than one percent of the MSCI Philippines IMI 
+is impacted by low foreign room. 
+Equal Rights to Foreign Investors: Rights of foreign investors are limited 
+as a result of the stringent foreign ownership limits. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions). 
+Clearing and Settlement: Overdraft facilities for foreign investors are 
+prohibited.  
+Stock Lending: The Philippines Stock Exchange Short Selling Program 
+was implemented in November 2023. However, it is not yet an 
+established market practice. 
+Short Selling: The Philippines Stock Exchange Short Selling Program was 
+implemented in November 2023. However, it is not yet an established 
+market practice. 
+5.3.8 Taiwan 
+Investor Qualification Requirement: Foreign investors must formally 
+apply for a Foreign Institutional Investor (FINI) or a Foreign Individual 
+Investor (FIDI) qualification, but the process is efficient. 
+Equal Rights to Foreign Investors: Despite recent reforms, company-
+related information is not always readily available in English. 
+
+[PDF page 44]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 44 of 78
+Foreign Exchange Market Liberalization Level: The New Taiwan Dollar 
+(TWD) is not freely convertible, there is no efficient offshore currency 
+market and there are constraints on the onshore currency market (e.g., 
+foreign exchange transactions must be linked to security transactions). 
+Investor Registration & Account Set Up: Registration is mandatory and 
+approval from the Taiwan Stock Exchange is required. The full account 
+setup process may be lengthy. 
+Information Flow: Despite recent reforms, company-related information 
+is not always readily available in English. 
+Clearing and Settlement: There is no nominee status, and the ID system 
+makes it difficult to use omnibus structures. Overdrafts are available with 
+restrictions. Pre-funding practices persist. 
+Transferability: In-kind transfers and off-exchange transactions are 
+allowed with restrictions and are not yet common practice. 
+Stock Lending: Is allowed with restrictions. 
+Short Selling: Is allowed with restrictions. 
+5.3.9 Thailand 
+Foreign Ownership Limit Level: Restrictions on foreign investment affect 
+a significant proportion of the Thailand equity market. However, foreign 
+investors can obtain access to Thai companies through Non-Voting 
+Depository Receipts (NVDRs). 
+Foreign Room Level: There are companies from specific sectors that are 
+unable to issue NVDRs or have limits on NVDR issuance. Prolonged low 
+level of foreign room is found in Bangkok Bank, a major company within 
+the banking industry that is subject to limits on NVDR issuance. More 
+than one percent of the MSCI Thailand IMI is impacted by low foreign 
+room.  
+Equal Rights to Foreign Investors: By definition, foreign investors holding 
+NVDRs are not treated equally in terms of voting rights compared with 
+domestic investors holding common stock in the same company. In 
+addition, company related information is not always readily available in 
+English. 
+Foreign Exchange Market Liberalization Level: There is no efficient 
+offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+
+[PDF page 45]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 45 of 78
+Clearing and Settlement: There is no nominee status in the market. 
+Stock Lending: Is allowed with restrictions. 
+Short Selling: Is allowed with restrictions. 
+ 
+
+[PDF page 46]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 46 of 78
+6 
+Frontier Markets 
+The following comments should be read in conjunction with the market-
+by-market assessment results that can be found in Appendix II of this 
+document.3 
+6.1 
+Advanced Frontier Markets  
+6.1.1 Romania 
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are available, but with special conditions. 
+Transferability: Free-of-Payment (FOP) transfers can only be executed if 
+there is no change in beneficial owner. 
+Improvement 
+Stability of Institutional Framework: “+“ to “++”. The market stability is in 
+line with other markets in the Eurozone. 
+6.1.2 Slovenia 
+Trading: There is a limited level of competition among brokers which can 
+lead to relatively higher trading costs. 
+Improvement 
+Stability of Institutional Framework: “+“ to “++”. The market stability is in 
+line with other markets in the Eurozone. 
+6.2 Frontier Markets – Europe, Middle East, and Africa 
+6.2.1 Bahrain 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. A new investor onboarding platform was planned 
+for launch in early 2026. More time is needed to assess the impact on 
+the timeliness of investor registration from this reform. 
+Information Flow: Stock market information is often not complete and 
+often is not disclosed in a timely manner. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available. 
+ 
+3 Stock lending and short selling are activities that are either not developed or are completely prohibited in all 
+Frontier Markets and the summary does not highlight these issues on a market-by-market basis. 
+
+[PDF page 47]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 47 of 78
+Custody: There are inefficiencies in the local custody workflow 
+connected with the existing dual account structure. These can at times 
+impact pre-trade processes in the market. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers are possible with certain restrictions. 
+6.2.2 Croatia 
+Investor Registration & Account Set Up: Registration is mandatory and 
+the account setup process can take a significant amount of time. More 
+time is needed to assess the clarifications for the tax ID requirements 
+released in April 2026. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. The transposition of EU Directive 2024/2811 into 
+Croatian law, expected by June 5, 2026, may have implications for the 
+availability of English-language information. 
+Trading: Limited level of competition among brokers which can lead to 
+relatively higher trading costs. 
+Improvement 
+Clearing and Settlement: “+“ to “++”. Following amendments to the 
+Credit Institutions Act effective on March 13, 2026, shares of local credit 
+institutions may now be held either in segregated or omnibus custody 
+account structures. 
+Stability of Institutional Framework: “+“ to “++”. The market stability is in 
+line with other markets in the Eurozone. 
+6.2.3 Iceland 
+Foreign ownership limit (FOL) level: Fisheries companies are impacted by 
+a 25 percent foreign ownership limit. In addition, aviation companies are 
+subject to a foreign ownership limit of 49 percent. These restrictions now 
+impact more than ten percent of the Iceland equity market. 
+Foreign room level: The adjustment factors applied to the fisheries 
+companies for low foreign room impact over one percent of the MSCI 
+Iceland IMI. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and liquidity can at times be limited in the onshore 
+currency market. 
+
+[PDF page 48]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 48 of 78
+Investor Registration & Account Set Up: Registration is required, but the 
+process is efficient. 
+6.2.4 Jordan 
+Equal Rights to Foreign Investors: The presence of large strategic 
+shareholders in many Jordanian companies may limit the level of 
+transparency and governance in the market. 
+Information Flow: Detailed stock market information is not always 
+available in English. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available. Overdraft facilities are not available 
+for foreign investors. 
+Trading: There is a limited level of competition among brokers which can 
+lead to relatively higher trading costs. 
+Transferability: In-kind transfers and off-exchange transactions are 
+prohibited. 
+6.2.5 Kazakhstan 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market. 
+Investor Registration & Account Set Up: Registration is mandatory, and 
+documents must be legalized and translated into Kazakh or Russian.  
+Information Flow: Detailed stock market information is not always 
+available in English. 
+Clearing and Settlement: T+2 settlement is available for liquid equity 
+securities. However, partial pre-funding is still required for these 
+transactions.  
+Transferability: In-kind transfers with change of beneficial ownership are 
+possible either through the central depository or the central registry. Off-
+exchange transactions are possible but with some restrictions. 
+Improvement 
+Stability of Institutional Framework: “-“ to “+”. There have been no 
+known interventions from the government that challenged the stability of 
+the “free-market” economy in recent years. 
+
+[PDF page 49]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 49 of 78
+6.2.6 Kenya 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market. Market participants have indicated that liquidity in the 
+FX market and the ability to repatriate capital from Kenya has improved. 
+Investor Registration & Account Set Up: The process to set up accounts 
+can take up to one week. 
+Clearing and Settlement: Short-term overdrafts are not permitted and 
+pre-funding is required. In addition, there are operational concerns 
+related to the use of omnibus accounts. 
+Registry / Depository: There is an absence of a central registry, with 
+some registration done by financial institutions. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers are allowed with restrictions. 
+Improvement 
+Capital Flow Restriction Level: “+” to “++”. Market participants confirm 
+that the process of moving capital in and out of Kenya is efficient. 
+6.2.7 Mauritius 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions).  
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are not available. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are prohibited. There are 
+restrictions on in-kind transfers. 
+6.2.8 Morocco  
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+
+[PDF page 50]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 50 of 78
+Capital Flow Restriction Level: In general, there are no capital flow 
+restrictions but the absence of evidence of foreign currency inflows may 
+result in restrictions on the capital outflows. Repatriation has to be 
+performed only using convertible Moroccan Dirham accounts. 
+Investments funded by inward remittance are required to be reported to 
+the Exchange Control Office. 
+Foreign Exchange Market Liberalization Level: There are restrictions on 
+the offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: There is no legal recognition of nominee status. 
+In addition, there are restrictions on overdraft facilities for foreign 
+investors.  
+Trading: The limited level of competition among brokers may lead to 
+relatively higher trading costs. 
+Transferability: Off-exchange transactions are allowed with restrictions. 
+6.2.9 Oman 
+Equal Rights to Foreign Investors: The presence of large strategic 
+shareholders in many Omani companies may limit the level of 
+transparency and governance in the market. 
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available. Overdraft facilities are not available 
+for foreign investors. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers can only be executed if there is no change in beneficial owner. 
+6.2.10 Serbia 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+
+[PDF page 51]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 51 of 78
+Capital Flow Restriction Level: Due to some administrative requirements, 
+repatriation of funds can be lengthy. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market. 
+Investor Registration & Account Setup: The process of setting up 
+accounts may be lengthy. Registration is mandatory, and all foreign 
+investors need to appoint a legal and tax representative. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: Overdraft facilities are restricted to foreign 
+banks. 
+Trading: There is a limited level of competition among brokers which can 
+lead to high trading costs.  
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers and overdraft facilities are available with restrictions.  
+6.2.11 Tunisia 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market.  
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: There is a lack of robustness in, and enforcement of, 
+local accounting standards. In addition, detailed stock market information 
+is not always disclosed in English. 
+Clearing and Settlement: There is no nominee status and overdraft 
+facilities for foreign investors are prohibited. 
+Custody: There are limited active custodians available in the market.  
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are prohibited. Free-of-
+Payment (FOP) transfers can only be executed if there is no change in 
+beneficial owner. 
+
+[PDF page 52]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 52 of 78
+Stability of Institutional Framework: Inability to enforce some provisions 
+of the country’s Constitution has put into question the stability of the 
+institutional framework. 
+6.2.12 WAEMU4 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market. 
+Investor Registration & Account Set Up: The process of setting up 
+accounts may be lengthy. 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Lack of robustness and enforcement of local 
+accounting standards. In addition, detailed stock market information is 
+not always available in English. 
+Clearing and Settlement: There is no nominee status in the market and 
+overdraft facilities are prohibited. 
+Trading: There is a limited level of competition among brokers which can 
+lead to high trading costs. 
+Transferability: Off-exchange transactions are prohibited. In-kind 
+transfers are possible but must be approved by the stock exchange. 
+6.3 Frontier Markets - Asia Pacific 
+6.3.1 Bangladesh 
+Capital Flow Restriction level: The shares of an issuer held by foreign 
+investors, at the time of according consent to the IPO, shall be subject to 
+a one-year lock-in from the first trading day at the exchange. 
+Foreign Exchange Market Liberalization Level: There is no efficient 
+offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be linked to 
+security transactions). 
+ 
+4 The West African Economic and Monetary Union (WAEMU) consists of the following countries: Benin, 
+Burkina Faso, Guinea-Bissau, Ivory Coast, Mali, Niger, Senegal, and Togo. 
+
+[PDF page 53]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 53 of 78
+Investor Registration & Account Set Up: There are heavy documentation 
+requirements and a need to apply for a Non-Resident Investor’s Taka 
+Account (NITA).  
+Market Regulations: Not all regulations can be found in English. 
+Clearing and Settlement: There is no nominee status and omnibus 
+structures are not available. Overdraft facilities are prohibited. 
+Trading: There is a limited level of competition among brokers which can 
+lead to higher trading costs. Floor prices have been removed across all 
+remaining stocks. 
+Transferability: Off-exchange transactions are prohibited. 
+Stability of Institutional Framework: There have been instances of 
+government interventions that challenged the stability of the “free-
+market” economy as illustrated by frequently changing market 
+regulations. A floor price mechanism was reintroduced across all listed 
+securities in July 2022 and subsequently lifted in June 2026. During the 
+restriction, a significant portion of the market was effectively untradable 
+as securities could not transact below their floor levels. 
+6.3.2 Pakistan 
+Foreign exchange market liberalization level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions). Currency conversions must be executed through a Special 
+Convertible Rupee Account. 
+Investor Registration & Account Set Up: Registration is mandatory. The 
+process of setting up accounts may be lengthy.  
+Market Regulations: Regulations have frequently changed over the past 
+few years. 
+Clearing and Settlement: Omnibus structures are not available. Direct 
+overdraft facilities remain prohibited. 
+Stability of Institutional Framework: There have been instances of 
+interventions that challenged the stability of the “free-market” economy 
+as illustrated by frequently changing market regulations.  
+
+[PDF page 54]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 54 of 78
+6.3.3 Sri Lanka 
+Investor Qualification Requirement: International institutional investors 
+are required to obtain approval from the Sri Lanka Securities Exchange 
+Commission (SEC) prior to entering the market. 
+Foreign Exchange Market Liberalization Level: There are constraints on 
+the onshore currency market (e.g., foreign exchange transactions must 
+be linked to security transactions).  
+Investor Registration & Account Set Up: Registration is mandatory. The 
+process of setting up accounts may be lengthy. 
+Clearing and Settlement: Overdraft facilities for foreign investors are 
+prohibited. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange and in-kind transfers are allowed with 
+restrictions and require prior approval from the SEC. 
+6.3.4 Vietnam 
+Foreign Ownership Limit Level: Companies in certain conditional and 
+sensitive sectors are subject to foreign ownership limits ranging from 
+zero to 75 percent. These limitations still affect more than ten percent of 
+the Vietnamese equity market. Recent regulations prohibit companies 
+from self-imposing foreign ownership limits below the legal maximum 
+and require public companies to disclose applicable limits by September 
+2026.  
+Foreign Room Level: The equity market is significantly impacted by 
+foreign room issues. More than one percent of the MSCI Vietnam IMI is 
+impacted by low foreign room. 
+Equal Rights to Foreign Investors: Some company related information is 
+not always readily available in English. In addition, the rights of foreign 
+investors are limited as a result of the stringent foreign ownership limits 
+imposed on both total as well as individual foreign investors. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions).  
+
+[PDF page 55]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 55 of 78
+Investor Registration & Account Set Up: Registration is mandatory and 
+account setup requires the approval of the Vietnam Securities 
+Depository and Clearing Corporation (VSDC). 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Stock market information is not always disclosed in 
+English and occasionally is not detailed enough. In September 2024, the 
+Ministry of Finance outlined a roadmap requiring public companies to 
+disclose information in English. This will be done in phases starting 
+January 1, 2025 and ending January 1, 2028. MSCI will monitor the 
+implementation of this change. As Vietnam is a low free float market, 
+certain companies with low free float have been flagged to create 
+investability, transparency and price discovery concerns. 
+Clearing and Settlement: There are no overdraft facilities. While Vietnam 
+has implemented a short-term non-prefunding solution, a full, long-term 
+non-prefunding framework is expected to be introduced with the full 
+implementation of the Central Clearing Counterparty (CCP) model, 
+currently targeted for 2027. 
+Transferability: Following changes in regulation, more types of off-
+exchange transactions and in-kind transfers can be executed without the 
+need for regulatory pre-approval, leading to volumes for these 
+transactions increasing significantly in recent years. However, VSDC 
+typically takes several days to review required documentation before 
+these transactions can be executed. 
+ 
+
+[PDF page 56]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 56 of 78
+7 
+Standalone Markets 
+The following comments should be read in conjunction with the market-
+by-market assessment results that can be found in Appendix II of this 
+document.5 
+Standalone Markets include all markets covered by MSCI but not 
+included in the MSCI Composite Indexes. This category includes 
+potential candidates for the MSCI Frontier Markets Indexes that currently 
+do not meet the minimum liquidity requirements as well as markets that 
+are currently partially or fully closed to foreign investors. 
+7.1 
+Americas 
+7.1.1 
+Argentina 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Capital Flow Restriction Level: While the easing of capital controls in 
+April 2025 allowed foreign investors to repatriate new proceeds from 
+equity investments, this remains subject to documentary conditions. 
+Furthermore, prior earnings remain subject to restrictions and may not be 
+freely repatriated.  
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions). 
+Investor Registration & Account Setup: All documents must be filed in 
+Spanish.  
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: There is no nominee status in the market. 
+Overdraft facilities remain prohibited.  
+Trading: Limited level of competition among brokers which can lead to 
+relatively higher trading costs. 
+ 
+5 Stock lending and short selling are activities that are either not developed or are completely prohibited in 
+Standalone Markets and the summary does not highlight these issues on a market-by-market basis. 
+
+[PDF page 57]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 57 of 78
+Transferability: Off-exchange transactions are allowed with restrictions.  
+Availability of Investment Instruments: Restrictions imposed on the use 
+of stock market data have led to limited availability of investment 
+instruments. 
+Stability of Institutional Framework: There have been instances of 
+government interventions that challenged the stability of the “free-
+market” economy, including with respect to investment activities of 
+foreign investors. 
+7.1.2 Jamaica 
+Clearing and Settlement: Omnibus structures are not available. In 
+addition, there is an absence of a real DVP system.  
+Custody: Absence of active local custodians. 
+Registry / Depository: There is an absence of a central registry, with 
+some registration done by financial institutions. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are limited and not an 
+established market practice. 
+7.1.3 Panama 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: Pre-funding of trades is required. 
+Custody: There is only one active custodian available to foreign 
+investors. 
+Registry / Depository: There is an absence of a central registry, with 
+some registry at issuer level. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are allowed but are not a 
+common practice. In-kind transfers are possible with certain restrictions. 
+
+[PDF page 58]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 58 of 78
+Improvement 
+Investor Registration & Account Set Up: “-“ to “+”. The account opening 
+process can now be completed in a short timeframe. Registration 
+remains mandatory, but the process is efficient.  
+7.1.4 Trinidad and Tobago 
+Foreign Exchange Market Liberalization Level: There is an absence of an 
+offshore currency market and there are constraints on the onshore 
+currency market (e.g., foreign exchange transactions must be executed 
+by the local custodian). 
+Investor Registration & Account Set Up: Registration is mandatory and 
+approval from the Ministry of Finance is required. The process of setting 
+up accounts may be lengthy. 
+Information Flow: Occasionally stock market information is not disclosed 
+in a timely manner. 
+Clearing and Settlement: Omnibus structures are not available. Overdraft 
+facilities are prohibited. 
+Custody: The Trinidad and Tobago Central Depository is the only 
+registered custodian. 
+Registry / Depository: There is an absence of a central registry, with 
+some registry at issuer level.  
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: Off-exchange transactions are prohibited, and in-kind 
+transfers are restricted. 
+Improvement 
+Market Regulations: “+” to “++”. Acts, byelaws, rules, orders and 
+guidelines governing the securities market are centralized and publicly 
+available on the Trinidad & Tobago Securities and Exchange Commission 
+(TTSEC) website. 
+ 
+
+[PDF page 59]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 59 of 78
+7.2 
+Europe, Middle East, and Africa 
+7.2.1 Bosnia and Herzegovina 
+Equal Rights to Foreign Investors: Company related information is not 
+readily available in English at the Banja Luka Stock Exchange (BLSE). 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market. 
+Market Regulations: Not all regulations can be found in English. Financial 
+system is quite fragmented as the country continues to have two semi-
+autonomous political entities, judicial system and stock exchange.  
+Information Flow: Stock market information, including dividend 
+information, is often not complete and is not always disclosed in English. 
+There is no central source for this type of information. 
+Clearing and Settlement: Pre-funding of trades is required by the 
+Registry of Securities of the Federation of Bosnia and Herzegovina. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+ 
+Transferability: In-kind transfers and off-exchange transactions are 
+restricted. 
+7.2.2 Bulgaria 
+Investor Registration & Account Set Up: The process to set up an 
+account is lengthy due to the requirement to provide several documents 
+in notarized form. 
+Information Flow: Stock market information is occasionally not disclosed 
+in a timely manner and there is no central source of such information. 
+Improvement 
+Foreign Exchange Market Liberalization Level: “+” to “++”. On January 1, 
+2026, Bulgaria joined the Eurozone and transitioned its official currency 
+to the euro. All trading and post-trading operations were successfully 
+transitioned and now operate in euros, with no operational frictions 
+encountered. 
+Custody: “-” to “+”. Custody and trading accounts are separate following 
+adoption of MiFID II in Bulgaria. Omnibus account structures are available 
+but its utility and convenience for international institutional investors 
+remain to be assessed. 
+
+[PDF page 60]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 60 of 78
+7.2.3 Lebanon 
+Investor Qualification Requirement: Israeli nationals are formally 
+prohibited from investing in Lebanese companies. 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Capital Flow Restriction Level: Since October 2019, restrictions were 
+implemented on the repatriation of funds outside Lebanon. This has 
+impacted the ability of foreign investors to repatriate funds from 
+investments in the local equity market. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign investors are not allowed to hold Lebanese pound 
+balances and foreign exchange transactions must be linked to security 
+transactions). 
+Investor Registration & Account Set Up: Registration is mandatory and 
+may take up to five days. 
+Market Regulations: Not all regulations can be found in English. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: There is no functioning nominee status and 
+omnibus structures are not available. Overdraft facilities remain 
+prohibited. 
+Custody: Segregated custody and trading accounts are required in order 
+to mitigate the risk deriving from local brokers having unlimited access to 
+trading accounts. In addition, there is an absence of global custodians in 
+the market. 
+Registry / Depository: There is an absence of a central registry, with 
+some registry at issuer level. Not all listed shares are dematerialized.  
+Transferability: In-kind transfers and off-exchange transactions are 
+prohibited. 
+Stability of Institutional Framework: The political situation in the country 
+may call into question the stability of its institutional framework. 
+
+[PDF page 61]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 61 of 78
+7.2.4 Nigeria 
+Equal Rights to Foreign Investors: In general, the rights of minority 
+shareholders are negatively impacted by the scarcity of relevant 
+information. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions). 
+Market Regulations: Not all relevant information is readily available to 
+foreign investors. 
+Information Flow: There is limited information available to foreign 
+investors regarding market regulations and the shareholding structure for 
+Nigerian banks. 
+Registry / Depository: Nigeria operates a central securities depository 
+that functions as the de facto registry for listed equities, with issuer-level 
+registrars maintaining legal records. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: In-kind transfers and off-exchange transactions are 
+restricted. 
+Stability of Institutional Framework: There have been instances of 
+government interventions that challenged the stability of the “free-
+market” economy as illustrated by frequently changing market 
+regulations. 
+Improvement 
+Capital Flow Restriction Level: “-” to “+”. A certificate of foreign currency 
+inflow is required for any capital repatriation. Following the liberalization 
+of the Nigerian FX market, the capital repatriation process has improved.  
+7.2.5 Palestine 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Foreign Exchange Market Liberalization Level: All transactions are 
+carried out in foreign currency as the country does not issue its own 
+currency. 
+
+[PDF page 62]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 62 of 78
+Investor Registration & Account Set Up: Registration is mandatory, but 
+the process is efficient. 
+Information Flow: Detailed stock market information is not always 
+disclosed in English. 
+Clearing and Settlement: Overdraft facilities for foreign investors are 
+prohibited. In addition, there is no nominee status and omnibus 
+structures are not available. 
+Custody: A number of global and local custodian banks currently operate 
+in the market. More time is needed to assess the efficiency of the local 
+custody process. 
+Trading: There is a limited level of competition among brokers which can 
+lead to higher trading costs. 
+Transferability: In-kind transfers and off-exchange transactions are 
+prohibited. 
+Stability of Institutional Framework: Instability in the political landscape 
+may call into question the stability of the country’s institutional 
+framework. 
+7.2.6 Ukraine 
+Equal Rights to Foreign Investors: Company related information is not 
+always readily available in English. 
+Capital Flow Restriction Level: Following the liberalization of the foreign 
+exchange framework in 2019, capital flow restrictions were introduced 
+from February 2022 under martial law. These measures include 
+limitations on the timing and size of capital outflows, particularly for 
+dividend repatriation, as well as enhanced onshore FX processing 
+requirements. While some easing has occurred, restrictions on capital 
+outflows remain in place. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to security 
+transactions). 
+Investor Registration & Account Set Up: Registration is mandatory and 
+requires a significant amount of manual paperwork. The process is 
+difficult and requires a lot of time to complete. 
+
+[PDF page 63]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 63 of 78
+Market Regulations: Regulations are not fully enforced by the 
+supervisory authority resulting in many investors trading over the 
+counter. In addition, not all relevant information can be found in English. 
+Information Flow: Stock market information is often not complete and is 
+often not disclosed in a timely manner. In addition, the information is 
+often not in English. 
+Clearing and Settlement: Equity settlement is conducted on a T+0 basis 
+and relies on a prefunded model. Overdrafts are not permitted. 
+Custody: There is no formal segregation between custody and trading 
+accounts. 
+Registry / Depository: The depository and registry workflow remain 
+inefficient.  
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: In-kind transfers are allowed but with some restrictions.  
+Stability of Institutional Framework: There have been instances of 
+government interventions that challenged the stability of the “free-
+market” economy. 
+7.2.7 Zimbabwe 
+Foreign Ownership Limit Level: Listed companies are, in general, subject 
+to a 49 percent foreign ownership limit. Currently, this affects more than 
+ten percent of the Zimbabwe equity market. 
+Equal Rights to Foreign Investors: Rights of foreign investors are limited 
+as a result of the stringent foreign ownership limits. 
+Capital Flow Restriction Level: Repatriation costs via the repatriation 
+mechanism are relatively high and the process takes a long time. 
+Foreign Exchange Market Liberalization Level: There is no offshore 
+currency market and there are constraints on the onshore currency 
+market (e.g., foreign exchange transactions must be linked to an external 
+payment and executed through authorized dealers). The Reserve Bank 
+of Zimbabwe (RBZ) introduced the Zimbabwe Gold (ZiG) in April 2024; 
+however, the ZiG remains illiquid and has not materially improved 
+convertibility or foreign exchange market efficiency. 
+Information Flow: Detailed stock market information is not always 
+disclosed in a timely manner. 
+
+[PDF page 64]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 64 of 78
+Market Regulations: Most regulations are publicly available. However, 
+the regulatory framework has frequently changed over the past few 
+years (e.g., FX market), and there are concerns about the full 
+enforcement of laws and regulations. 
+Clearing and Settlement: Omnibus structures are not available and pre-
+funding of trades is required. Overdraft facilities are not available for 
+foreign investors. 
+Registry / Depository: The central securities depository and the central 
+registry are not yet fully efficient. 
+Custody: There are limited active custodians available in the market. 
+Trading: There is a very limited level of competition among brokers 
+which can lead to high trading costs. 
+Transferability: In-kind transfers and off-exchange transactions are 
+prohibited. 
+Stability of Institutional Framework: There is a lack of enforcement of the 
+rule of law. 
+ 
+
+[PDF page 65]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 65 of 78
+8 
+Appendices 
+8.1 
+Appendix I: MSCI Market Classification Framework 
+The classification of markets is a key input in the process of index 
+construction as it drives the composition of the investment opportunity 
+sets to be represented. The approach used by MSCI aims to reflect the 
+views and practices of the international investment community by 
+striking a balance between a country’s economic development and the 
+accessibility of its market while preserving index stability.  
+The MSCI Market Classification Framework consists of three criteria: 
+Economic Development, Size and Liquidity Requirements as well as 
+Market Accessibility. 
+In order to be classified in a given investment universe, a country must 
+meet the requirements of all three criteria as described in the table 
+below. 
+ 
+  
+The economic development criterion is only used in determining the 
+classification of Developed Markets while that distinction is not relevant 
+between Emerging and Frontier Markets given the very wide variety of 
+development levels within each of these two universes.  
+
+[PDF page 66]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 66 of 78
+The Size and Liquidity Requirements are based on the minimum 
+investability requirements for the MSCI Global Standard Indexes. The 
+Size and Liquidity Entry Requirements are used for evaluating markets 
+for reclassification, requiring a minimum number of companies meeting 
+Standard Index criteria over each of the last 8 Index Reviews. On the 
+other hand, Size and Liquidity Maintenance Requirements assess the 
+current classification of markets using a minimum number of companies 
+meeting Standard Index criteria and minimum number of securities in the 
+Market Investable Equity Universe based on latest data. For additional 
+details, please refer to the MSCI Global Investable Market Indexes 
+methodology book at www.msci.com/index-methodology. 
+For Developed Markets consolidated at the regional level (e.g., DM 
+Europe), MSCI applies Size and Liquidity Requirements on each 
+individual market within the region. For Emerging or Frontier Markets 
+consolidated at the regional level (e.g., WAEMU and Baltic States), the 
+Size and Liquidity Requirements are assessed on a consolidated basis 
+(i.e., treated as a single market).  
+While the Size and Liquidity Entry and Maintenance Requirements will 
+serve as general triggers for a potential consultation, MSCI will assess 
+each unique case independently to decide on whether to consult based 
+on this criterion. 
+Market accessibility aims to reflect international institutional investors’ 
+experience of investing in a given market and as a result, this criterion 
+includes several sub-criteria. These criteria are generally based on 
+qualitative measures that are reviewed for all markets at least once a 
+year during the MSCI Global Market Accessibility Review. 
+MSCI regularly reviews the market classification of all markets included 
+in the MSCI Indexes to ensure that they remain reflective of the evolution 
+of the different markets. In particular, changes in the assessments under 
+the classification framework serve as the basis for determining the 
+markets that will be reviewed for potential market reclassification as part 
+of the Annual Market Classification Review. 
+MSCI will only consider markets for upgrade if a change in classification 
+status can be viewed as irreversible. Every June, MSCI will communicate 
+its conclusions from the discussions with the investment community on 
+the list of markets under review and announce the new list of markets, if 
+any, under review for potential market reclassification in the upcoming 
+cycle. While adhering to the regular timeline for such communication 
+
+[PDF page 67]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+ 
+msci.com | Page 67 of 78
+helps provide greater predictability and is less disruptive to a market’s 
+normal functioning, MSCI may from time to time exercise prudent 
+discretion and consider off-cycle communications should significant 
+market events take place outside the regular review cycle. 
+ 
+Advanced Frontier Markets  
+Beginning with the 2025 MSCI Market Classification Review, MSCI 
+introduced a new subcategory within the Frontier Markets universe: 
+Advanced Frontier Markets (Advanced FM). 
+This subcategory identifies Frontier Markets that demonstrate market 
+accessibility characteristics closely aligned with those of Developed 
+Markets but remain classified as Frontier Markets due to their size and 
+liquidity constraints. 
+To be classified as an Advanced FM, a market must meet the following 
+criteria: 
+• Market Accessibility assessments must show no more than two 
+deviations from the highest rating (++), across the key focus areas 
+of efficiency of the operational framework (excluding stock 
+lending and short selling), openness to foreign ownership, and 
+ease of capital inflows/outflows. 
+• The market must be rated ++ on capital flow restriction levels, 
+indicating no constraints. 
+MSCI will announce and review any changes to the composition of the 
+Advanced FM subcategory annually, in conjunction with the publication 
+of the MSCI Global Market Accessibility Review. 
+The MSCI Frontier Markets classification and the MSCI Frontier Market 
+Indexes are not impacted by this subcategory. 
+ 
+
+[PDF page 68]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+8.2 Appendix II: Assessment Results 
+8.2.1 Developed Markets 
+ 
+Canada
+USA
+Austria
+Belgium
+Denmark
+Finland
+France
+Germany
+Ireland
+Israel
+Italy
+Netherlands
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign ownership limit (FOL) level
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+++
+Foreign room level
+++
+++
+++
+++
+++
+++
+++
+++
+-
+++
+++
+++
+Equal rights to foreign investors
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign exchange market liberalization level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Market organization
+Market regulations
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Information flow
+++
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+Market infrastructure
+Clearing and Settlement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Custody
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Trading
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Transferability
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stock lending
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Short selling
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Availability of Investment Instruments
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Americas
+EMEA
+
+[PDF page 69]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+ 
+ 
+ 
+ 
+Norway
+Portugal
+Spain
+Sweden
+Switzerland
+United 
+Kingdom
+Australia
+Hong 
+Kong
+Japan
+New 
+Zealand
+Singapore
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign ownership limit (FOL) level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign room level
+++
+++
+-
+++
+++
+++
+++
+++
+++
+++
+++
+Equal rights to foreign investors
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign exchange market liberalization level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Market organization
+Market regulations
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Information flow
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+Market infrastructure
+Clearing and Settlement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Custody
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Trading
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Transferability
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stock lending
+++
++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Short selling
+++
++
++
+++
+++
+++
+++
+++
+++
+++
+++
+Availability of Investment Instruments
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Asia Pacific
+EMEA
+
+[PDF page 70]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+8.2.2 Emerging Markets
+Brazil
+Chile
+Colombia
+Mexico
+Peru
+Czech 
+Republic
+Egypt
+Greece
+Hungary
+Kuwait
+Poland
+Qatar
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign ownership limit (FOL) level
++
+++
+++
+-
+++
+++
+++
+++
++
+++
+++
++
+Foreign room level
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+++
+Equal rights to foreign investors
+-
++
++
+-
++
+++
++
+++
++
++
++
++
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
+++
++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign exchange market liberalization level
+-
++
+-
+++
+++
+++
+-
+++
+++
+++
+++
+++
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+-
+-
+-
++
++
++
++
+++
+++
++
+++
++
+Market organization
+Market regulations
++
++
++
+++
++
++
++
+++
++
+++
+++
+++
+Information flow
++
++
++
++
++
+++
++
+++
++
++
++
+++
+Market infrastructure
+Clearing and Settlement
+-
+++
++
+++
+-
++
++
+++
+++
++
++
++
+Custody
+++
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
++
+++
+Trading
+++
+++
+++
+++
++
+++
++
+++
+++
+++
+++
+++
+Transferability
++
+-
+-
+++
++
+++
+-
+++
+++
+-
++
+-
+Stock lending
+++
+-
++
+++
+-
++
+-
+++
++
+-
++
++
+Short selling
+++
+-
++
++
+-
++
+-
+++
++
+-
++
+-
+Availability of Investment Instruments
+-
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
++
+++
++
++
++
+++
+-
+++
+++
++
+++
++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+EMEA
+Americas
+
+[PDF page 71]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+ 
+Saudi 
+Arabia
+South 
+Africa
+Turkey
+United Arab 
+Emirates
+China
+China A
+India
+Indonesia
+Korea
+Malaysia
+Philippines
+Taiwan
+Thailand
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
++
++
+++
+++
+++
+++
++
+++
+Foreign ownership limit (FOL) level
+-
+++
+++
+-
+-
+-
+-
+++
+++
++
+-
+++
+-
+Foreign room level
+++
+++
+++
++
+++
+-
+-
+++
++
+++
+-
+++
+-
+Equal rights to foreign investors
+-
+++
++
++
++
++
++
++
++
++
++
++
+-
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
+++
+++
+++
+++
++
+++
+++
+++
+++
+++
+++
+++
+Foreign exchange market liberalization level
+++
+++
++
+++
+++
++
+-
+-
+-
++
+-
+-
++
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
++
+++
++
++
+++
++
+-
+++
+-
+++
+++
+-
+++
+Market organization
+Market regulations
+++
+++
++
+++
++
++
++
+++
+++
+++
+++
+++
+++
+Information flow
++
+++
+-
+++
+++
++
+++
+-
+-
+++
+++
++
+++
+Market infrastructure
+Clearing and Settlement
++
++
++
++
+++
+-
+-
++
+-
+++
++
+-
++
+Custody
++
+++
+++
++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Trading
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Transferability
+-
++
+++
++
+++
+-
+-
++
+-
++
+++
++
+++
+Stock lending
+-
+++
++
+-
+++
+-
+++
++
+++
+++
+-
++
++
+Short selling
+-
+++
+-
+-
+++
+-
++
++
++
++
+-
++
++
+Availability of Investment Instruments
+++
+++
+-
+++
+++
++
+-
+++
++
+++
+++
+++
+++
+Stability of institutional framework
++
++
+-
++
++
++
++
++
++
++
++
++
++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Asia Pacific
+EMEA
+
+[PDF page 72]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+8.2.3 Frontier Markets 
+ 
+Estonia
+Latvia
+Lithuania
+Romania
+Slovenia
+Bahrain
+Croatia
+Iceland
+Jordan
+Kazakhstan
+Kenya
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign ownership limit (FOL) level
+++
+++
+++
+++
+++
+++
+++
+-
+++
+++
+++
+Foreign room level
+++
+++
+++
+++
+++
+++
+++
+-
+++
+++
+++
+Equal rights to foreign investors
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+++
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Foreign exchange market liberalization level
+++
+++
+++
+++
+++
+++
+++
+-
+++
+-
+-
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+++
+++
+++
+++
+++
++
+-
++
+++
++
++
+Market organization
+Market regulations
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Information flow
+++
+++
+++
+++
+++
+-
++
+++
++
++
+++
+Market infrastructure
+Clearing and Settlement
+++
+++
+++
++
+++
++
+++
+++
+-
++
+-
+Custody
+++
+++
+++
+++
+++
++
+++
+++
+++
+++
+++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
++
+Trading
+++
+++
+++
+++
++
+++
++
+++
++
+++
+-
+Transferability
+++
+++
+++
++
+++
+-
+++
+++
+-
++
+-
+Stock lending
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Short selling
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Availability of Investment Instruments
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
+++
+++
+++
+++
+++
++
+++
+++
++
++
++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Advanced Frontier Markets
+Frontier Markets - EMEA
+
+[PDF page 73]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+ 
+ 
+ 
+Mauritius
+Morocco
+Oman
+Serbia
+Tunisia
+WAEMU
+Bangladesh
+Pakistan
+Sri Lanka
+Vietnam
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
+++
+++
++
+++
+Foreign ownership limit (FOL) level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+-
+Foreign room level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+-
+Equal rights to foreign investors
+++
++
++
++
++
++
+++
+++
+++
+-
+Ease of capital inflows / outflows
+Capital flow restriction level
+++
++
+++
++
+++
+++
++
+++
+++
+++
+Foreign exchange market liberalization level
+-
++
+++
++
++
++
+-
+-
+-
+-
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+++
+++
++
+-
+++
++
+-
++
+-
++
+Market organization
+Market regulations
+++
++
+++
+++
++
++
++
++
+++
++
+Information flow
+++
++
+++
++
+-
+-
+++
+++
+++
+-
+Market infrastructure
+Clearing and Settlement
++
+-
++
++
+-
+-
+-
+-
++
+-
+Custody
+++
+++
+++
+++
++
+++
+++
+++
+++
+++
+Registry / Depository
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Trading
+-
++
+++
++
+-
+-
+-
+++
+-
+++
+Transferability
+-
+-
+-
+-
+-
+-
++
+++
+-
++
+Stock lending
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Short selling
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Availability of Investment Instruments
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
++
++
++
++
+-
+-
+-
+-
++
++
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Frontier Markets - Asia Pacific
+Frontier Markets - EMEA
+
+[PDF page 74]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+ 
+8.2.4 Standalone Markets 
+ 
+ 
+ 
+Argentina
+Jamaica
+Panama
+Trinidad & 
+Tobago
+Bosnia and 
+Herzegovina
+Bulgaria
+Lebanon
+Malta
+Nigeria
+Palestine
+Ukraine
+Zimbabwe
+Openness to foreign ownership
+Investor qualification requirement
+++
+++
+++
+++
+++
+++
++
+++
+++
+++
+++
+++
+Foreign ownership limit (FOL) level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+-
+Foreign room level
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Equal rights to foreign investors
++
+++
++
+++
++
+++
++
+++
++
++
++
++
+Ease of capital inflows / outflows
+Capital flow restriction level
+-
+++
+++
+++
+++
+++
+-
+++
++
+++
++
+-
+Foreign exchange market liberalization level
+-
+++
+++
+-
++
+++
+-
+++
+-
+-
+-
+-
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
++
+++
++
+-
+++
++
+-
+++
+++
++
+-
+++
+Market organization
+Market regulations
++
+++
++
+++
++
+++
++
+++
++
+++
+-
++
+Information flow
++
+++
+-
++
+-
++
++
+++
+-
++
+-
++
+Market infrastructure
+Clearing and Settlement
+-
+-
++
+-
+-
+++
+-
+++
+++
+-
+-
+-
+Custody
+++
+-
+-
+-
+++
++
+-
+++
+++
++
+-
++
+Registry / Depository
+++
++
++
++
+++
+++
+-
+++
++
+++
++
++
+Trading
++
+-
++
+-
+-
+++
+++
+++
+-
++
+-
+-
+Transferability
++
++
+-
+-
+-
+++
+-
+++
+-
+-
++
+-
+Stock lending
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Short selling
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Availability of Investment Instruments
+-
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+++
+Stability of institutional framework
+-
++
++
++
++
++
+-
+++
+-
+-
+-
+-
+++: no issues; +: no major issues, improvements possible;  -: improvements needed
+Americas
+EMEA
+
+[PDF page 75]
+ 
+ 
+2026 GLOBAL MARKET ACCESSIBILITY REVIEW | JUNE 2026
+ 
+8.3 Appendix III: Market Accessibility Measures 
+ 
+ 
+ 
+Definition
+Openness to foreign ownership
+Investor qualification requirement
+Existence of qualifying conditions for international investors. Existence of a level playing field for all international investors.
+Foreign ow nership limit (FOL) level
+Proportion of the market being accessible to non-domestic investors.
+Foreign room level
+Proportion of shares still available for non-domestic investors. Existence of a foreign board w here non-domestic investors could trade w ith each other.
+Equal rights to foreign investors 
+Equal economic and voting rights as w ell as availability of information in English. Equal rights for minority shareholders.
+Ease of capital inflows / outflows
+Capital flow restriction level
+Existence of restriction on inflow s and outflow s of foreign capital to/from the local stock market (excluding foreign currency exchange restrictions).
+Foreign exchange market liberalization level
+Existence of a developed onshore and offshore foreign exchange market.
+Efficiency of the operational framework
+Market entry
+Investor registration & account set up
+Existence/level of complexity of registration requirements for international investors such as Tax IDs as w ell as ease/complexity for setting up local accounts (e.g., documents to be provided,
+approvals required). The time to complete the process includes the preparation of the documents.
+Market organization
+Market regulations
+Level of advancement of the legal and regulatory framew ork governing the financial market, the stock exchange and the various other entities involved in the financial markets, an important
+w eight is assigned to: ease of access (including in English), lack of ambiguity and prompt enforcement of law s and regulations, as w ell as consistency over time.
+Information flow
+Timely disclosure of complete stock market information items (e.g., stock exchange alerts, corporate new s, float information, dividend information) in English and under reasonable commercial
+terms.
+Market infrastructure
+Clearing and Settlement
+Well functioning clearing and settlement system based on the broad framew ork published by the Bank for International Settlements including Delivery Versus Payment (DVP), the absence of pre-
+funding requirements/practices and the possibility to use overdrafts.  Availability of real omnibus structures.
+Custody
+Level of competition amongst local custodian banks as w ell as the presence of global custodian banks. Existence of an efficient mechanism that prevents brokers to have unlimited access to
+the investor's accounts and guarantees the safekeeping of its assets.
+Registry / Depository
+Well functioning central registry or independent registrars and a central depository.
+Trading
+Level of competition amongst brokers ensuring high quality services (e.g., cost efficient trading, ability to execute grouped trades at the same price for the various accounts of a fund manager).
+Transferability
+Possibility of off-exchange transactions and "in-kind" transfers.
+Stock lending
+Existence of a regulatory framew ork as w ell as an efficient mechanism allow ing extensive use of stock lending.
+Short selling
+Existence of a regulatory and practical framew ork allow ing short selling.
+Availability of Investment Instruments
+Existence of restrictions on access to derived stock exchange information, data and products that prevents the creation of investment instruments.
+Stability of institutional framework
+Basic institutional principles such as the rule of law and its enforcement as w ell as the stability of the "free-market" economic system. Track record of government intervention w ith regards to
+foreign investors.
+
+[PDF page 76]
+ 
+ 
+msci.com  76
+© 2026 MSCI Inc. All rights reserved. 
+2026 Global Market Accessibility Review | June 2026
+ 
+ 
+ 
+ 
+ 
+ 
+Contact Us 
+About MSCI 
+MSCI (NYSE: MSCI Inc.) strengthens global 
+markets by connecting participants across 
+the financial ecosystem with a common 
+language. Our research-based data, 
+analytics and indexes, supported by 
+advanced technology, set standards for 
+global investors and help our clients 
+understand risks and opportunities so they 
+can make better decisions and unlock 
+innovation. We serve asset managers and 
+owners, private-market sponsors and 
+investors, hedge funds, wealth managers, 
+banks, insurers and corporates. 
+ 
+To learn more, please visit www.msci.com. 
+msci.com/contact-us 
+ 
+The process for submitting a formal index 
+complaint can be found on the index 
+regulation page of MSCI’s website 
+at: https://www.msci.com/index-regulation. 
+ 
+AMERICA 
+United States 
+Canada 
+Brazil 
+Mexico 
++ 1 888 588 4567 * 
++ 1 416 687 6270 
++ 55 11 4040 7830 
++ 52 81 1253 4020 
+EUROPE, MIDDLE EAST & AFRICA 
+South Africa 
+Germany 
+ 
+Switzerland 
+United Kingdom 
+Italy 
+France 
++ 27 21 673 0103 
++ 49 69 133 859 00 
++ 41 22 817 9777 
++ 44 20 7618 2222 
++ 39 02 5849 0415 
++ 33 17 6769 810 
+ASIA PACIFIC 
+China 
+Hong Kong 
+India 
+Malaysia 
+South Korea 
+Singapore 
+Australia 
+Taiwan 
+ 
+Thailand 
+Japan 
+* toll-free 
++ 86 21 61326611 
++ 852 2844 9333 
++ 91 22 6784 9160 
+1800818185 * 
++ 82 70 4769 4231 
++ 65 67011177 
++ 612 9033 9333 
+008 0112 7513 * 
+0018 0015 6207 7181 
+* 
++ 81 3 4579 0333 
+
+[PDF page 77]
+ 
+ 
+2026 Global Market Accessibility Review | June 2026
+Information Classification: GENERAL
+Notice and Disclaimer 
+The data, data feeds, databases, reports, text, graphs, charts, images, videos, recordings, models, metrics, analytics, indexes, ratings, scores, cases, 
+estimates, assessments, software, websites, products, services and other information and materials contained herein or delivered in connection with this 
+notice (collectively, the “Information”) are copyrighted, trade secrets (when not publicly available), trademarks and proprietary property of MSCI Inc. or its 
+subsidiaries (collectively, “MSCI”), MSCI’s licensors, direct or indirect suppliers and authorized sources, and/or any third party contributing to the Information 
+(collectively, with MSCI, the “Information Providers”). All rights in the Information are reserved by MSCI and its Information Providers and user(s) shall not, nor 
+assist others to, challenge or assert any rights in the Information.   
+Unless you contact MSCI and receive its prior written permission, you must NOT use the Information, directly or indirectly, in whole or in part (i) for 
+commercial purposes, (ii) in a manner that competes with MSCI or impacts its ability to commercialize the Information or its services, (iii) to provide a service 
+to a third party, (iv) to permit a third party to directly or indirectly access, use or resell the Information, (v) to redistribute or resell the Information in any form, 
+(vi) to include the Information in any materials for public dissemination such as fund factsheets, market presentations, prospectuses, and investor information 
+documents (e.g. KIIDs or KIDs), (vii) to create or as a component of any financial products, whether listed or traded over the counter or on a private 
+placement basis or otherwise, (viii) to create any indexes, ratings or other data products, including in derivative works combined with other indexes or data or 
+as a policy, product or performance benchmarks for active, passive or other financial products, (ix) to populate a database, or (x) to train, use as an input to, 
+or otherwise in connection with any artificial intelligence, machine learning, large language models or similar technologies except as licensed and expressly 
+authorized under MSCI’s AI Contracting Supplement at https://www.msci.com/legal/supplemental-terms-for-client-use-of-artificial-intelligence. 
+The intellectual property rights of MSCI and its Information Providers may not be misappropriated or used in a competitive manner through the use of third-
+party data or financial products linked to the Information, including by using an MSCI index-linked future or option in a competing third-party index to provide 
+an exposure to the underlying MSCI index or by using an MSCI index-linked ETF to create a financial product that provides an exposure to the underlying 
+MSCI index without obtaining a license from MSCI.  
+The user or recipient of the Information assumes the entire risk of any use it may make, permit or cause to be made of the Information. NONE OF THE 
+INFORMATION PROVIDERS MAKES ANY EXPRESS OR IMPLIED WARRANTIES OR REPRESENTATIONS WITH RESPECT TO THE INFORMATION (OR THE 
+RESULTS TO BE OBTAINED BY THE USE THEREOF), AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EACH INFORMATION 
+PROVIDER EXPRESSLY DISCLAIMS ALL IMPLIED WARRANTIES (INCLUDING ANY IMPLIED WARRANTIES OF ORIGINALITY, ACCURACY, TIMELINESS, 
+SUITABILITY, NON-INFRINGEMENT, COMPLETENESS, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE) WITH RESPECT TO ANY OF 
+THE INFORMATION. Without limiting any of the foregoing and to the maximum extent permitted by applicable law, in no event shall MSCI or any other 
+Information Provider have any liability arising out of or relating to any of the Information, including for any direct, indirect, special, punitive, consequential 
+(including lost profits) or any other damages, even if notified of the possibility of such damages. The foregoing shall not exclude or limit any liability that may 
+not by applicable law be excluded or limited.  
+The Information, including index construction, ratings, historical data, or analysis, is not a prediction or guarantee of future performance, and must not be 
+relied upon as such. Past performance is not indicative of future results. The Information may contain back tested data. Back-tested performance based on 
+back-tested data is not actual performance but is hypothetical. There are frequently material differences between back tested performance results and 
+actual results subsequently achieved by any investment strategy. The Information may include “Signals,” defined as quantitative attributes or the product of 
+methods or formulas that describe or are derived from calculations using historical data. Signals are inherently backward-looking because of their use of 
+historical data, and they are inherently inaccurate, not intended to predict the future and must not be relied upon as such. The relevance, correlations and 
+accuracy of Signals frequently change materially over time.   
+The Information may include data relating to indicative prices, evaluated pricing or other information based on estimates or evaluations (collectively, 
+“Evaluations”) that are not current and do not reflect real-time traded prices. No evaluation method, including those used by the Information Providers, may 
+consistently generate evaluations or estimates that correspond to actual “traded” prices of any relevant securities or other assets. Evaluations are subject to 
+change at any time without notice and without any duty to update or inform you, may not reflect prices at which actual transactions or collateral calls may 
+occur or have occurred. The market price of securities, financial instruments, and other assets can be determined only if and when executed in the market. 
+There may be no, or may not have been any, secondary trading market for the relevant securities, financial instruments or other assets. Private capital, equity, 
+credit and other assets and their prices may be assessed infrequently, may not be priced on a secondary market, and shall not be relied upon as an explicit or 
+implicit valuation of a particular instrument. Any reliance on fair value estimates and non-market inputs introduces potential biases and subjectivity. Internal 
+Rate of Return metrics are not fully representative without full disclosure of fund cash flows, assumptions, and time horizons.  
+The Information does not constitute, and must not be relied upon as, investment advice, credit ratings, or proxy advisory or voting services. None of the 
+Information Providers, their products or services, are fiduciaries or make any recommendation, endorsement, or approval of any investment decision or asset 
+allocation. Likewise, the Information does not represent an offer to sell, a solicitation to buy, or an endorsement of any security, financial product, instrument, 
+investment vehicle, or trading strategy, whether or not linked to or in any way based on any MSCI index, rating, subcomponent, or other Information 
+(collectively, “Linked Investments”).The Information should not be relied on and is not a substitute for the skill, judgment and experience of any user when 
+making investment and other business decisions. MSCI is not responsible for any user’s compliance with applicable laws and regulations. All Information is 
+impersonal, not tailored to the needs of any person, entity or group of persons, not objectively verifiable in every respect, and may not be based on 
+information that is important to any user.  
+It is not possible to invest in an index. Exposure to an asset class or trading strategy or other category represented by an index is only available through third 
+party investable instruments (if any) based on that index. MSCI makes no assurance that any Linked Investments will accurately track index performance or 
+provide positive investment returns. Index returns do not represent results of actual trading of investible assets/securities. MSCI maintains and calculates 
+indexes but does not manage assets. The calculation of indexes and index returns may deviate from the stated methodology. Index returns do not reflect 
+payment of any sales charges or fees an investor may pay to purchase securities underlying the index or Linked Investments. The imposition of these fees 
+and charges would cause the performance of a Linked Investment to be different than the MSCI index performance.  
+Information provided by MSCI Solutions LLC and certain related entities (“MSCI Solutions”), including materials utilized in MSCI sustainability and climate 
+products, have not been submitted to, nor received approval from any regulatory body. MSCI sustainability and climate offerings, research and data are 
+produced by, and ratings are solely the opinion of MSCI Solutions. Other MSCI products and services may utilize information from MSCI Solutions, Barra LLC 
+or other affiliates. More information can be found in the relevant methodologies on www.msci.com. MSCI Indexes are administered by MSCI Limited (UK) and 
+MSCI Deutschland GmbH. No regulated use of any MSCI private real assets indexes in any jurisdiction is permitted without MSCI’s express written 
+authorization. The process for applying for MSCI’s express written authorization can be found at: https://www.msci.com/index-regulation. 
+MSCI receives compensation in connection with licensing its indexes and other Information to third parties. MSCI Inc.’s revenue includes fees based on 
+assets in Linked Investments. Information can be found in MSCI Inc.’s company filings on the Investor Relations section of msci.com. Issuers mentioned in 
+MSCI Solutions materials or their affiliates may purchase research or other products or services from one or more MSCI affiliates, manage financial products 
+such as mutual funds or ETFs rated by MSCI Solutions or its affiliates or are based on MSCI Indexes. Constituents of MSCI equity indexes are listed 
+companies, which are included in or excluded from the indexes according to the application of the relevant index methodologies. Constituents in MSCI Inc. 
+
+[PDF page 78]
+ 
+ 
+ 
+equity indexes may include MSCI Inc., clients of MSCI or suppliers to MSCI. MSCI Solutions has taken steps to mitigate potential conflicts of interest and 
+safeguard the integrity and independence of its research and ratings.  
+MIFID2/MIFIR notice: MSCI Solutions does not distribute or act as an intermediary for financial instruments or structured deposits, nor does it deal on its own 
+account, provide execution services for others or manage client accounts. No MSCI product or service supports, promotes or is intended to support or 
+promote any such activity. MSCI Solutions is an independent provider of sustainability and climate data. All use of indicative prices for carbon credits must 
+comply with any rules specified by MSCI. All transactions in carbon credits must be traded “over-the-counter” (i.e. not on a regulated market, trading venue 
+or platform that performs a similar function to a trading venue) and result in physical delivery of the carbon credits.  
+You may not remove, alter, or obscure any attribution to MSCI or notices or disclaimers that apply to the Information. MSCI, Barra, RiskMetrics, and other 
+MSCI brands and product names are the trademarks, service marks, or registered trademarks of MSCI or its subsidiaries in the United States and other 
+jurisdictions. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P Dow Jones Indices. “Global 
+Industry Classification Standard (GICS)” is a service mark of MSCI and S&P Dow Jones Indices. Terms such as including, includes, for example, such as and 
+similar terms used herein are without limitation.  
+MSCI and its Information Providers may use automated technologies and artificial intelligence to help generate content and output incorporated in the 
+Information.  
+Privacy notice: For information about how MSCI collects and uses personal data, please refer to our Privacy Notice at: https://www.msci.com/privacy-pledge. 
+For copyright infringement claims contact us at dmca@msci.com. This notice is governed by the laws of the State of New York without regard to conflict of 
+laws principles. 

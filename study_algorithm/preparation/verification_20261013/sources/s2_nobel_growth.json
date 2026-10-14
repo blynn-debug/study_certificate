@@ -1,0 +1,14 @@
+{
+  "id": "s2_nobel_growth",
+  "requested_url": "https://www.nobelprize.org/uploads/2018/10/advanced-economicsciencesprize2018.pdf",
+  "retrieved_url": "https://www.nobelprize.org/uploads/2018/10/advanced-economicsciencesprize2018.pdf",
+  "retrieved_at": "2026-10-13T17:15:54.194119+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "47edcec17318af336b8f7cb2a40259a20c618a947761599e86afc81435ebc53a",
+  "binary_sha256": "47edcec17318af336b8f7cb2a40259a20c618a947761599e86afc81435ebc53a",
+  "text_sha256": "e76f417e85cba98f9dc38c54d19c0ab22f3087cbe4b6b208c90fd957177e79bc",
+  "pages": 52,
+  "characters": 142845,
+  "status": "retrieved_not_claim_verified"
+}

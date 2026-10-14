@@ -1,0 +1,18 @@
+{
+  "id": "s1_mining",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283921&chrClsCd=010202&urlMode=lsInfoP&efYd=20260310&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283921&chrClsCd=010202&urlMode=lsInfoP&efYd=20260310&ancYnChk=0",
+  "retrieved_at": "2026-10-13T15:35:43.330049+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 48414,
+  "content_sha256": "1c3019c92616245245b01499bca08ffa1f0e3da51bab1d35f9dfd5e7e3a15475",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "3",
+      "10"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_id": "s2_gips_verification",
+  "source_metadata": {
+    "id": "s2_gips_verification",
+    "requested_url": "https://www.gipsstandards.org/wp-content/uploads/2021/04/gips-standards-handbook-firms.pdf",
+    "retrieved_url": "https://www.gipsstandards.org/wp-content/uploads/2021/04/gips-standards-handbook-firms.pdf",
+    "retrieved_at": "2026-10-14T00:02:23.947630+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "6984e2f6502b211f51ab5b458ed51772dd840a8b92f93050305f9e63e7071001",
+    "binary_sha256": "6984e2f6502b211f51ab5b458ed51772dd840a8b92f93050305f9e63e7071001",
+    "text_sha256": "9fbd95a4f1c340313dd03519abb04e1c27f1ef36a615abd6845f5e9a50bacccb",
+    "pages": 566,
+    "characters": 1403493,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_gips_verification:IndependentVerifier",
+      "source_id": "s2_gips_verification",
+      "article": "IndependentVerifier",
+      "heading": "IndependentVerifier",
+      "text": "[PDF page 71]\nwww.cfainstitute.org\b\n© 2020 CFA Institute. All rights reserved.  |  63\n1. Fundamentals of Compliance\nDiscussion\nFirms must notify CFA Institute of their claim of compliance by submitting the GIPS Compliance \nNotification Form, which can be found on the CFA Institute website (cfainstitute.org).\nWhen a firm is first coming into compliance, the firm must submit the GIPS Compliance \nNotification Form to CFA Institute once it has met all of the requirements of the GIPS standards \nand is at the point of initially claiming compliance with the GIPS standards. The firm must not \nclaim compliance with the GIPS standards unless the GIPS Compliance Notification Form has \nbeen submitted to CFA Institute.\nAfter the initial filing, the form must be filed annually by 30 June. Information provided in the \nGIPS Compliance Notification Form must be as of the most recent 31 December, with the excep-\ntion of the firm’s contact information. Contact information must be current as of the form’s \nsubmission date. The period of any verification performed would not impact the notification sub-\nmission date or the date as of which the information is provided. Firms must establish policies and \nprocedures to ensure the form is submitted by the deadline.\nThe GIPS Compliance Notification Form must reflect the definition of the firm used to determine \nfirm-wide compliance with the GIPS standards even when the definition of the firm is different \nfrom the legal entity of the firm. If the overall legal entity contains multiple GIPS firms for GIPS \ncompliance purposes, a separate GIPS Compliance Form must be submitted for each defined firm.\nProvision 1.A.39\nIf the firm chooses to be verified, it must gain an understanding of the verifier’s policies for \nmaintaining independence and must consider the verifier’s assessment of independence.\nDiscussion\nVerification is a process by which a verification firm (verifier) conducts testing of a firm on a firm-\nwide basis, in accordance with the required verification procedures of the GIPS Standards for \nVerifiers. Verification provides assurance on whether the firm’s policies and procedures related to \ncomposite and pooled fund maintenance, as well as the calculation, presentation, and distribution \nof performance, have been designed in compliance with the GIPS standards and have been imple-\nmented on a firm-wide basis. Crucial to the verification process is the assumption by all interested \nparties that the verifier performs its service in an unbiased manner and is not testing its own work. \nTherefore, verification must be performed by an independent third party. If a firm chooses to be \nverified, the firm must understand the verifier’s policies for ensuring that the verifier is independent \nfrom the firm. To do so, the firm should obtain a summary of the verifier’s policies for ensuring \nindependence and should have sufficient discussions with the verifier to understand the policies.",
+      "start": 179559,
+      "end": 182521,
+      "sha256": "50732abd1a6acda8ab16959a099873b8ddf24278e5ec11263decce9b6ff69394"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

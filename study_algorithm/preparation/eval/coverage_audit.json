@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "checks": {
+    "2292_unique_packets": true,
+    "ledger_and_review_exact_set": true,
+    "every_answer_and_rationale_present": true,
+    "16_chapters_logged": true,
+    "chapter_receipts_match_exact_question_sets": true,
+    "285_unique_topics": true,
+    "all_questions_in_topics": true,
+    "all_contract_topics_exist": true,
+    "383_embedded_groups": true,
+    "every_embedded_group_linked": true,
+    "31_SRC_rules_bound": true,
+    "no_raw_prompt_auto_release": true
+  },
+  "meaning": "전수 검토 기록·집합·근거 연결의 검사. 전 문항 gold 승인이나 의미 정확성의 자동 증명이 아니다.",
+  "counts": {
+    "questions": 2292,
+    "topics": 285,
+    "chapters": 16,
+    "embedded_groups": 383,
+    "override_records": 497,
+    "manual_rationale_recoveries": 311,
+    "calibration_cases": 12
+  },
+  "input_sha256": {
+    "answer_packets.json": "e57193e6923e57afc64ac31496f7d86e08250926073b7bf85caf7b466971b5e0",
+    "review_log.json": "e963c06b7287dc321e68f0e039bc26af5567c89f4f36390a37c0e4acd9164628",
+    "exam_goal.json": "1645c0d96a10fdca783fe4b39118031e072a29edf154df28ef279273385f38d4"
+  }
+}

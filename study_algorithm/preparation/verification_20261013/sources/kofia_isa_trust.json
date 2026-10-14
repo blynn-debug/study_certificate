@@ -1,0 +1,18 @@
+{
+  "id": "kofia_isa_trust",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1615&seq=316",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1615&seq=316",
+  "retrieved_at": "2026-10-13T00:01:47.589684+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 26385,
+  "content_sha256": "71f5b2dd04bf1e36edae05b3c5dc0659fbe4c883861a35b163706e54d0fcf997",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "신탁형 개인종합자산관리계좌 실무지침",
+  "kofia_seq": "316",
+  "history_seq": "1615",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

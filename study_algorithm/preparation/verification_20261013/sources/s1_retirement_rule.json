@@ -1,0 +1,18 @@
+{
+  "id": "s1_retirement_rule",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=243903&chrClsCd=010202&urlMode=lsInfoP&efYd=20220712&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=243903&chrClsCd=010202&urlMode=lsInfoP&efYd=20220712&ancYnChk=0",
+  "retrieved_at": "2026-10-13T16:13:45.948798+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10150,
+  "content_sha256": "07bfc360dd86653cfc413f0d8ed147eb8a71b141bebf9c011e339c8d7a3f5496",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2022",
+      "7",
+      "12"
+    ]
+  ]
+}

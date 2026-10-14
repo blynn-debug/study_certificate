@@ -1,0 +1,12 @@
+{
+  "id": "oic_bull_call",
+  "requested_url": "https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread",
+  "retrieved_url": "https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread",
+  "retrieved_at": "2026-10-13T04:33:10.139951+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 12182,
+  "content_sha256": "90070492158b9a20d91d6c03720696c0e6a81d7be863f747e11ddf0711fd234c",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

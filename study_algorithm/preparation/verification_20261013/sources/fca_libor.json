@@ -1,0 +1,12 @@
+{
+  "id": "fca_libor",
+  "requested_url": "https://www.fca.org.uk/markets/libor-transition",
+  "retrieved_url": "https://www.fca.org.uk/markets/libor-transition",
+  "retrieved_at": "2026-10-13T01:02:21.370565+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 13272,
+  "content_sha256": "99b4abed3a00538042534e260b5d8267d00bebab588f83e6acb7f14fd3527559",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

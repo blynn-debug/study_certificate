@@ -1,0 +1,17 @@
+{
+  "kind": null,
+  "chapter": "S3C2",
+  "start": 265,
+  "next_start": 272,
+  "displayed_ids": [
+    "NOTE-S3C2-Q103",
+    "NOTE-S3C2-Q104",
+    "NOTE-S3C2-Q105",
+    "NOTE-S3C2-Q106",
+    "NOTE-S3C2-Q107",
+    "NOTE-S3C2-Q108",
+    "NOTE-S3C2-Q109"
+  ],
+  "characters": 1142,
+  "review_status": "displayed_only_not_yet_semantically_reviewed"
+}

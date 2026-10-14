@@ -1,0 +1,469 @@
+{
+  "count": 28,
+  "items": [
+    {
+      "id": "S3C2-LINK-01",
+      "source_topic_ids": [
+        "S3C2T37"
+      ],
+      "target_topic_ids": [
+        "S3C1T08"
+      ],
+      "reason": "금소법 중복설명을 통합하되 각 원문문항은 별도위치로 보존; 철회·해지조건 누락 상호보완",
+      "legacy_evidence": {
+        "from": "S3C2T37",
+        "to": "S3C1T08",
+        "reason": "금소법 중복설명을 통합하되 각 원문문항은 별도위치로 보존; 철회·해지조건 누락 상호보완"
+      }
+    },
+    {
+      "id": "S3C2-LINK-02",
+      "source_topic_ids": [
+        "S3C2T02"
+      ],
+      "target_topic_ids": [
+        "S1C2T32"
+      ],
+      "reason": "일반사무관리의 발행·명의개서·계산·소집 설명 재사용",
+      "legacy_evidence": {
+        "from": "MOCK:1 Q62",
+        "to": "S1C2",
+        "reason": "일반사무관리의 발행·명의개서·계산·소집 설명 재사용"
+      }
+    },
+    {
+      "id": "S3C2-LINK-03",
+      "source_topic_ids": [
+        "S3C2T06"
+      ],
+      "target_topic_ids": [
+        "S1C2T19"
+      ],
+      "reason": "신탁/익명조합과 법인·단체형 등록주체 차이를 연결",
+      "legacy_evidence": {
+        "from": "NOTE:49 Q69",
+        "to": "S1C2",
+        "reason": "신탁/익명조합과 법인·단체형 등록주체 차이를 연결"
+      }
+    },
+    {
+      "id": "S3C2-LINK-04",
+      "source_topic_ids": [
+        "S3C2T16",
+        "S3C2T17"
+      ],
+      "target_topic_ids": [
+        "S1C2T24",
+        "S1C2T30",
+        "S1C3T15"
+      ],
+      "reason": "펀드운용한도·부동산특례의 분모와 적용예외 교차검사",
+      "legacy_evidence": {
+        "from": "S3C2T16-17",
+        "to": "S1C2,S1C3",
+        "reason": "펀드운용한도·부동산특례의 분모와 적용예외 교차검사"
+      }
+    },
+    {
+      "id": "S3C3-LINK-01",
+      "source_topic_ids": [
+        "S3C3T02",
+        "S3C3T03",
+        "S3C3T05",
+        "S3C3T06",
+        "S3C3T08",
+        "S3C3T09",
+        "S3C3T11"
+      ],
+      "target_topic_ids": [
+        "S3C1T06",
+        "S3C1T08",
+        "S3C1T09",
+        "S3C1T11"
+      ],
+      "reason": "판매규율·이해상충·독립성·재산상이익 재등장;문항 중복계수 없이 개념 연결",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C3-LINK-02",
+      "source_topic_ids": [
+        "S3C3T02",
+        "S3C3T04",
+        "S3C3T06",
+        "S3C3T08",
+        "S3C3T14",
+        "S3C3T15",
+        "S3C3T16"
+      ],
+      "target_topic_ids": [
+        "S3C2T04",
+        "S3C2T06",
+        "S3C2T12",
+        "S3C2T23",
+        "S3C2T25",
+        "S3C2T33",
+        "S3C2T37"
+      ],
+      "reason": "업무범위·등록·미공개정보·인수·약관 법령과 자율규정 구별",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C3-LINK-03",
+      "source_topic_ids": [
+        "S3C3T03",
+        "S3C3T14",
+        "S3C3T15"
+      ],
+      "target_topic_ids": [
+        "S1C2T18",
+        "S1C2T20",
+        "S1C2T32"
+      ],
+      "reason": "펀드판매·관계회사·공모시장 구조 연결",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C4-LINK-01",
+      "source_topic_ids": [
+        "S3C4T02",
+        "S3C4T05",
+        "S3C4T08",
+        "S3C4T09",
+        "S3C4T15",
+        "S3C4T17"
+      ],
+      "target_topic_ids": [
+        "S2C3T02",
+        "S2C3T04",
+        "S2C3T08",
+        "S2C3T09",
+        "S2C3T11",
+        "S2C3T17"
+      ],
+      "reason": "통계·DDM·PER·기술분석·기업가치의 적용",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C4-LINK-02",
+      "source_topic_ids": [
+        "S3C4T04",
+        "S3C4T06",
+        "S3C4T11",
+        "S3C4T12",
+        "S3C4T18",
+        "S3C4T19"
+      ],
+      "target_topic_ids": [
+        "S2C4T01",
+        "S2C4T04",
+        "S2C4T05",
+        "S2C4T06",
+        "S2C4T12"
+      ],
+      "reason": "총위험·요인위험·추정오차·비선형·시간가정",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C4-LINK-03",
+      "source_topic_ids": [
+        "S3C4T10",
+        "S3C4T11",
+        "S3C4T12"
+      ],
+      "target_topic_ids": [
+        "S3C6T06",
+        "S3C6T13",
+        "S3C6T15",
+        "S3C6T19"
+      ],
+      "reason": "풋콜패리티·델타·선물동적헤지",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C4-LINK-04",
+      "source_topic_ids": [
+        "S3C4T13",
+        "S3C4T19"
+      ],
+      "target_topic_ids": [
+        "S3C7T04",
+        "S3C7T06",
+        "S3C7T07",
+        "S3C7T09"
+      ],
+      "reason": "초과수익·추적오차·정보비율",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C4-LINK-05",
+      "source_topic_ids": [
+        "S3C4T04",
+        "S3C4T06",
+        "S3C4T07",
+        "S3C4T18",
+        "S3C4T19"
+      ],
+      "target_topic_ids": [
+        "S3C9T02",
+        "S3C9T03",
+        "S3C9T04",
+        "S3C9T05",
+        "S3C9T06"
+      ],
+      "reason": "효율적기회선·시장포트폴리오·요인분산",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C5-LINK-01",
+      "source_topic_ids": [
+        "S3C5T08",
+        "S3C5T09",
+        "S3C5T15"
+      ],
+      "target_topic_ids": [
+        "S2C3T01",
+        "S2C3T03",
+        "S2C3T08"
+      ],
+      "reason": "현금흐름 할인과IRR",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C5-LINK-02",
+      "source_topic_ids": [
+        "S3C5T11",
+        "S3C5T12",
+        "S3C5T13",
+        "S3C5T14"
+      ],
+      "target_topic_ids": [
+        "S2C4T04",
+        "S2C4T05",
+        "S2C4T06",
+        "S2C4T13"
+      ],
+      "reason": "민감도·비선형·신용위험",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C5-LINK-03",
+      "source_topic_ids": [
+        "S3C5T04",
+        "S3C5T05",
+        "S3C5T12"
+      ],
+      "target_topic_ids": [
+        "S3C6T05",
+        "S3C6T06",
+        "S3C6T09",
+        "S3C6T15"
+      ],
+      "reason": "옵션·선물·헤지",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C5-LINK-04",
+      "source_topic_ids": [
+        "S3C5T17",
+        "S3C5T18"
+      ],
+      "target_topic_ids": [
+        "S3C9T02",
+        "S3C9T05",
+        "S3C9T06",
+        "S3C9T08"
+      ],
+      "reason": "분산투자와 위험노출",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C6-LINK-01",
+      "source_topic_ids": [
+        "S3C6T06",
+        "S3C6T16",
+        "S3C6T19"
+      ],
+      "target_topic_ids": [
+        "S2C4T04",
+        "S2C4T05",
+        "S2C4T06"
+      ],
+      "reason": "최소분산·민감도·비선형위험",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C6-LINK-02",
+      "source_topic_ids": [
+        "S3C6T13",
+        "S3C6T15",
+        "S3C6T19"
+      ],
+      "target_topic_ids": [
+        "S3C4T10",
+        "S3C4T11",
+        "S3C4T12"
+      ],
+      "reason": "포트폴리오보험과ΔS/V",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C6-LINK-03",
+      "source_topic_ids": [
+        "S3C6T05",
+        "S3C6T07",
+        "S3C6T13",
+        "S3C6T15"
+      ],
+      "target_topic_ids": [
+        "S3C5T05",
+        "S3C5T08",
+        "S3C5T12",
+        "S3C5T15"
+      ],
+      "reason": "보유비용·합성채권·복제·현재가치",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C7-LINK-01",
+      "source_topic_ids": [
+        "S3C7T04",
+        "S3C7T06",
+        "S3C7T07",
+        "S3C7T08"
+      ],
+      "target_topic_ids": [
+        "S3C9T01",
+        "S3C9T05",
+        "S3C9T06",
+        "S3C9T09"
+      ],
+      "reason": "분산·CAPM·성과지표",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C7-LINK-02",
+      "source_topic_ids": [
+        "S3C7T04",
+        "S3C7T07"
+      ],
+      "target_topic_ids": [
+        "S2C4T01",
+        "S2C4T03",
+        "S2C4T12"
+      ],
+      "reason": "하방위험·VaR",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C7-LINK-03",
+      "source_topic_ids": [
+        "S3C7T05",
+        "S3C7T08",
+        "S3C7T09"
+      ],
+      "target_topic_ids": [
+        "S3C4T14",
+        "S3C4T15",
+        "S3C4T16",
+        "S3C4T19"
+      ],
+      "reason": "패시브·스타일·성과분해",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C8-LINK-01",
+      "source_topic_ids": [
+        "S3C8T05",
+        "S3C8T06",
+        "S3C8T07"
+      ],
+      "target_topic_ids": [
+        "S3C5T09",
+        "S3C5T14",
+        "S3C5T15",
+        "S3C5T16"
+      ],
+      "reason": "금리·기간구조·프리미엄",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C8-LINK-02",
+      "source_topic_ids": [
+        "S3C8T08",
+        "S3C8T09",
+        "S3C8T10"
+      ],
+      "target_topic_ids": [
+        "S2C3T01",
+        "S2C3T02",
+        "S2C3T23",
+        "S2C3T26"
+      ],
+      "reason": "경제분석·지표",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C8-LINK-03",
+      "source_topic_ids": [
+        "S3C8T09",
+        "S3C8T10"
+      ],
+      "target_topic_ids": [
+        "S3C7T05",
+        "S3C7T09"
+      ],
+      "reason": "지수·통계해석",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C9-LINK-01",
+      "source_topic_ids": [
+        "S3C9T04",
+        "S3C9T05",
+        "S3C9T08",
+        "S3C9T09"
+      ],
+      "target_topic_ids": [
+        "S3C7T03",
+        "S3C7T04",
+        "S3C7T06",
+        "S3C7T07"
+      ],
+      "reason": "성과지표·TWR·MWR·정보비율",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C9-LINK-02",
+      "source_topic_ids": [
+        "S3C9T05",
+        "S3C9T08"
+      ],
+      "target_topic_ids": [
+        "S3C4T05",
+        "S3C4T06",
+        "S3C4T08",
+        "S3C4T12",
+        "S3C4T18"
+      ],
+      "reason": "주식평가·전략",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    },
+    {
+      "id": "S3C9-LINK-03",
+      "source_topic_ids": [
+        "S3C9T01",
+        "S3C9T02",
+        "S3C9T06",
+        "S3C9T07"
+      ],
+      "target_topic_ids": [
+        "S2C4T01",
+        "S2C4T03",
+        "S2C4T05",
+        "S2C4T12"
+      ],
+      "reason": "분산·VaR·요인노출",
+      "legacy_note": "Legacy topics described the source chapter; explicit source and target IDs replace the ambiguous field."
+    }
+  ]
+}

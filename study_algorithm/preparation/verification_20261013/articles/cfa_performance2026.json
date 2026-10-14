@@ -1,0 +1,30 @@
+{
+  "source_id": "cfa_performance2026",
+  "source_metadata": {
+    "id": "cfa_performance2026",
+    "requested_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-performance-evaluation",
+    "retrieved_url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-performance-evaluation",
+    "retrieved_at": "2026-10-13T15:50:21.458900+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 10448,
+    "content_sha256": "cdd98cd445bb8d5749422227fa25cd0a5203b8f05cfdae56948edbe0050a007f",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "cfa_performance2026:성과평가와벤치마크",
+      "source_id": "cfa_performance2026",
+      "article": "성과평가와벤치마크",
+      "heading": "성과평가와벤치마크",
+      "text": "Summary\nPerformance evaluation is an essential tool for understanding the quality of the investment process. Practitioners must take care, however, to understand how performance results are generated. They need a good understanding of the performance methods used, the data inputs, and the limitations of those methods. They particularly need to be careful not to infer results beyond the capabilities of the methods or the accuracy of the data. In this reading, we have discussed the following:\nPerformance measurement provides an overall indication of the portfolio’s performance.\nPerformance attribution builds on performance measurement to explain how the performance was achieved.\nPerformance appraisal leverages both returns and attribution to infer the quality of the investment process.\nAn effective attribution process must reconcile to the total portfolio return/risk, reflect the investment decision-making process, quantify the active portfolio management decisions, and provide a complete understanding of the excess return/risk of the portfolio.\nReturn attribution analyzes the impact of investment decisions on the returns, whereas risk attribution analyzes the risk consequences of the investment decisions.\nMacro attribution considers the decisions of the fund sponsor, whereas micro attribution considers the decisions of the individual portfolio manager.\nReturns-based attribution uses returns to identify the factors that have generated those returns.\nHoldings-based attribution uses the holdings over time to evaluate the decisions that contributed to the returns.\nTransactions-based attribution uses both holdings and transactions to fully explain the performance over the evaluation period.\nThere are various techniques for interpreting the sources of portfolio returns using a specified attribution approach.\nFixed-income attribution considers the unique factors that drive bond returns, including interest rate risk and default risk.\nWhen selecting a risk attribution approach, practitioners should consider the investment decision-making process and the type of attribution analysis.\nAttribution is used to calculate and interpret the contribution to portfolio return and volatility from the asset allocation and within-asset-class active/passive decisions.\nLiability-based benchmarks focus on the cash flows that the assets are required to generate.\nAsset-based benchmarks contain a collection of assets to compare against the portfolio’s assets.\nValid benchmarks should be unambiguous, investable, measurable, appropriate, reflective of current investment opinions, specified in advance, and accountable.\nBenchmark misspecification creates subsequent incorrect performance measurement and invalidates the attribution and appraisal analyses.\nAlternative investments are difficult to benchmark because they are typically less liquid, have fewer available market benchmarks, and often lack transparency.\nInvestment performance appraisal ratios—including the Sortino ratio, upside/downside capture ratios, maximum drawdown, and drawdown duration—measure investment skill.\nAppraisal ratios must be used with care, noting the assumptions of each ratio and affording the appropriateness to the measured investment process, risk tolerance, and investor time horizon.\nAlthough appraisal ratios help identify manager skill (as opposed to luck), they often are based on investment return data, which are often limited and subject to error.\nEvaluation of investment manager skill requires the use of a broad range of analysis tools, with fundamental understanding of how the tools work, how they complement each other, and their specific limitations.",
+      "start": 5908,
+      "end": 9575,
+      "sha256": "c25dcaf583aff7ec02001601dc7305579551938c475a6a17abe95391d1c3ffed"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

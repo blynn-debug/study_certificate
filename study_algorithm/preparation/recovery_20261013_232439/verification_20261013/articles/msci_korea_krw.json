@@ -1,0 +1,42 @@
+{
+  "source_id": "msci_korea_krw",
+  "source_metadata": {
+    "id": "msci_korea_krw",
+    "requested_url": "https://www.msci.com/documents/10199/255599/msci-korea-index-krw-gross.pdf",
+    "retrieved_url": "https://www.msci.com/documents/10199/255599/msci-korea-index-krw-gross.pdf",
+    "retrieved_at": "2026-10-13T01:12:01.059330+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "9bea7657577c8831cc997bac6729ae102ca5bfea59ca68636312bb6bf6604b95",
+    "binary_sha256": "9bea7657577c8831cc997bac6729ae102ca5bfea59ca68636312bb6bf6604b95",
+    "text_sha256": "2775001114029eb4320d356ce9110b9fd24cd45290c7a53d083d15a540879c22",
+    "pages": 3,
+    "characters": 6590,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "msci_korea_krw:page1",
+      "source_id": "msci_korea_krw",
+      "article": "page1",
+      "heading": "page1",
+      "text": "[PDF page 1]\nIndex Factsheet\nMSCI Korea Index (KRW)\nMSCI Korea Index (KRW) | msci.com\nThe MSCI Korea Index is designed to measure the performance of the large and mid cap segments of the South Korean market. With 74\nconstituents, the index covers about 85% of the Korean equity universe .\nFor a complete description of the index methodology, please see Index methodology - MSCI.\nCUMULATIVE INDEX PERFORMANCE — GROSS RETURNS   (KRW)\n(SEP 2011 – SEP 2026)\nSep 11\nDec 12\nMar 14\nJun 15\nSep 16\nDec 17\nMar 19\nJun 20\nSep 21\nDec 22\nMar 24\nJun 25\n Sep 26\n50\n200\n400\n600\n800\nMSCI Korea\nMSCI Emerging Markets\nMSCI ACWI IMI\n673.06\n646.63\n337.35\nANNUAL PERFORMANCE (%)\nYear\nMSCI Korea\nMSCI\nEmerging\nMarkets\nMSCI\nACWI IMI\n2025\n96.45\n31.47\n19.97\n2024\n-12.09\n23.51\n33.62\n2023\n25.88\n12.31\n24.45\n2022\n-24.41\n-14.62\n-12.78\n2021\n0.77\n7.00\n29.91\n2020\n36.40\n11.49\n9.73\n2019\n17.22\n23.21\n31.66\n2018\n-17.10\n-10.61\n-5.79\n2017\n31.01\n22.10\n10.43\n2016\n12.53\n14.96\n12.24\n2015\n-0.04\n-8.90\n4.89\n2014\n-6.99\n2.26\n8.70\n2013\n2.70\n-3.66\n22.41\n2012\n12.89\n10.24\n8.77\nINDEX PERFORMANCE — GROSS RETURNS   (%) (SEP 30, 2026)\nANNUALIZED\n1 Mo\n3 Mo\n1 Yr\nYTD\n3 Yr\n5 Yr\n10 Yr\nSince\nMay 31, 1994\nMSCI Korea\n2.03\n-20.86\n143.68\n86.32\n52.47\n25.01\n18.73\n10.58\nMSCI Emerging Markets\n-1.60\n-12.85\n25.07\n16.25\n24.82\n12.41\n11.81\n8.35\nMSCI ACWI IMI\n-2.46\n-11.62\n12.93\n6.47\n21.92\n14.58\n14.93\n10.37\nFUNDAMENTALS  (SEP 30, 2026)\nDiv Yld (%)\nP/E\nP/E Fwd\nP/BV\n0.81\n10.25\n4.95\n2.29\n2.02\n14.90\n9.72\n2.39\n1.63\n21.55\n16.20\n3.43\nINDEX RISK AND RETURN CHARACTERISTICS  (SEP 30, 2026)\nANNUALIZED STD DEV (%) 2\nMAXIMUM DRAWDOWN\nTurnover\n(%) 1\n3 Yr\n5 Yr\n10 Yr\n(%)\nPeriod YYYY-MM-DD\nMSCI Korea\n2.98\n44.83\n37.82\n29.39\n67.53\n1994-10-31—1998-06-30\nMSCI Emerging Markets\n5.52\n15.55\n14.23\n14.15\n52.59\n1997-12-31—1998-08-31\nMSCI ACWI IMI\n2.62\n11.07\n12.16\n13.19\n46.92\n1997-12-23—2002-10-09\n1 Last 12 months\n2 Based on monthly gross returns data\nThe MSCI Korea Index was launched on Mar 31, 1989. Data prior to the launch date is back-tested test (i.e. calculations of how the index might have performed over that time\nperiod had the index existed). There are frequently material differences between back-tested performance and actual results. Past performance -- whether actual or back-tested\n-- is no indication or guarantee of future performance.",
+      "start": 0,
+      "end": 2272,
+      "sha256": "28b9ef31ce1eeef38ec62663cfc5696f6a0c846751cfb1d6e4a2a71abf4adf6e"
+    },
+    {
+      "id": "msci_korea_krw:page2",
+      "source_id": "msci_korea_krw",
+      "article": "page2",
+      "heading": "page2",
+      "text": "[PDF page 2]\nSEP 30, 2026\nIndex Factsheet\nMSCI Korea Index (KRW) | msci.com\nINDEX CHARACTERISTICS\nMSCI Korea\nNumber of\nConstituents\n74 \nMkt Cap ( KRW Millions)\nIndex\n3,556,729,366.01 \nLargest\n1,255,780,645.00 \nSmallest\n1,541,733.74 \nAverage\n48,063,910.35 \nMedian\n10,115,354.70 \nTOP 10 CONSTITUENTS\nFloat Adj Mkt\nCap\n( KRW Billions)\nIndex\nWt. (%)\nSector\nSAMSUNG ELECTRONICS CO\n1,255,780.64\n35.31\nInfo Tech\nSK HYNIX\n980,963.54\n27.58\nInfo Tech\nSAMSUNG ELECTRONICS PREF\n156,622.86\n4.40\nInfo Tech\nSK SQUARE CO\n105,210.42\n2.96\nIndustrials\nSAMSUNG ELECTRO-MECH. CO\n84,758.67\n2.38\nInfo Tech\nKB FINANCIAL GROUP\n56,877.73\n1.60\nFinancials\nHYUNDAI MOTOR CO\n45,916.93\n1.29\nCons Discr\nSHINHAN FINANCIAL GROUP\n44,065.72\n1.24\nFinancials\nDOOSAN ENERBILITY\n36,588.85\n1.03\nIndustrials\nHANA FINANCIAL HOLDINGS\n34,776.11\n0.98\nFinancials\nTotal\n2,801,561.47\n78.77\nFACTORS - KEY EXPOSURES THAT DRIVE RISK AND RETURN\nMSCI FACTOR BOX\nMSCI Korea\nMSCI Emerging Markets\nUNDERWEIGHT\nNEUTRAL\nOVERWEIGHT\n<-1.5\n0\n+1.5<\nMSCI FaCS\nVALUE\nRelatively Inexpensive Stocks\nLOW SIZE\nSmaller Companies\nMOMENTUM\nRising Stocks\nQUALITY\nSound Balance Sheet Stocks\nYIELD\nCash Flow Paid Out\nLOW VOLATILITY\nLower Risk Stocks\nMSCI FaCS provides absolute factor exposures\nrelative to a\nbroad global index - MSCI ACWI IMI.\nNeutral factor exposure (FaCS = 0) represents\nMSCI ACWI IMI.\nSECTOR WEIGHTS\nInformation Technology 71.3%\nIndustrials 12.18%\nFinancials 6.77%\nConsumer Discretionary 3.67%\nHealth Care 1.68%\nCommunication Services 1.61%\nConsumer Staples 0.94%\nMaterials 0.94%\nEnergy 0.69%\nUtilities 0.22%\n71.3%\n12.18%\n6.77%\n3.67%\n1.68%\n1.61%\n0.94%\n0.94%\n0.69%\n0.22%",
+      "start": 2272,
+      "end": 3890,
+      "sha256": "b56ae5015ee983face91267f8eccfc7263c81e52a4b915fb21d830772030eac2"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

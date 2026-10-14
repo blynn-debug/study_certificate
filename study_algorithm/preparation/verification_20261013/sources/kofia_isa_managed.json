@@ -1,0 +1,18 @@
+{
+  "id": "kofia_isa_managed",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1616&seq=317",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1616&seq=317",
+  "retrieved_at": "2026-10-13T00:01:47.571624+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 29318,
+  "content_sha256": "e02f4ccf86e39ce30202dcae8bd7d8ec1f743caf5803248eb41b13afadfeb740",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "일임형 개인종합자산관리계좌 실무지침",
+  "kofia_seq": "317",
+  "history_seq": "1616",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

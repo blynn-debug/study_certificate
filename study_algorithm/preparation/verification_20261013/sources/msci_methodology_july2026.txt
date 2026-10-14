@@ -1,0 +1,1689 @@
+[PDF page 1]
+ 
+ 
+ 
+ 
+ 
+ 
+MSCI Global Investable 
+Market Indexes 
+Methodology Summary 
+ 
+ 
+ 
+ 
+Index Methodology Summary
+July 2026
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+
+
+[PDF page 2]
+ 
+ 
+ 
+ 
+msci.com  Page 2 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Contents 
+Introduction........................................................................................................................................ 3 
+Index Maintenance Overview ........................................................................................................... 3 
+Market Classification ............................................................................................................................................... 4 
+Economic Development ............................................................................................................................................... 4 
+Size and Liquidity Requirements ................................................................................................................................ 4 
+Market Accessibility and Review................................................................................................................................ 5 
+Market Classifications as of June 2026* .................................................................................................................. 5 
+Index Review Process ....................................................................................................................... 6 
+1. Update Equity Universe ....................................................................................................................................... 6 
+Identifying Eligible Listings .......................................................................................................................................... 6 
+2. Determine Market Investable Equity Universes ............................................................................................. 7 
+3. Determine Segment Number of Companies (NOC) and the Market Size-Segment Cutoffs ................. 9 
+Determine Segment Number of Companies ........................................................................................................... 11 
+Assigning Size Segment Cutoffs .............................................................................................................................. 14 
+4. Assign Companies to Appropriate Size-Segments ..................................................................................... 14 
+5. Assess Conformity with Final Size-Segment Investability Requirements ............................................... 16 
+Apply Adjustment Factors to Constituents with low Foreign Room .............................................................. 16 
+Treatment of Securities that Exhibit Extreme Price Increase .......................................................................... 17 
+Intra-Review Additions and Deletions ................................................................................................................ 18 
+Fast Entry of Large IPOs ............................................................................................................................................ 18 
+Other Early Inclusions and Deletions ....................................................................................................................... 19 
+Further Methodology Notes and Definitions ..................................................................................................... 20 
+Market Investability Requirements........................................................................................................................... 20 
+Index Data Cutoff Dates ............................................................................................................................................ 22 
+List of Common Abbreviations ................................................................................................................................. 22 
+Appendix I: Methodology Set ...............................................................................................................................24 
+Appendix II: Changes to this Document ............................................................................................................. 25 
+Contact Us ....................................................................................................................................... 26 
+Notice and Disclaimer ...................................................................................................................... 27 
+ 
+ 
+ 
+
+
+[PDF page 3]
+ 
+ 
+ 
+ 
+msci.com  Page 3 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Introduction 
+This document is a summary of selected rules and sections of the MSCI Global Investable Market Indexes 
+Methodology 1 . It is provided for informational purposes only in order to highlight elements of the 
+methodology’s framework. It does not contain nor purport to contain all elements of the methodology and 
+does not purport to contain all details relating to each element. For a complete understanding of the 
+methodology, please refer to the full methodology book available at MSCI’s web site at the following link: 
+ 
+http://www.msci.com/index/methodology/latest/GIMI  
+ 
+Index Maintenance Overview 
+The MSCI Global Investable Market Indexes are maintained with the objective of reflecting the evolution 
+of the underlying equity markets and segments on a timely basis, while remaining replicable and stable. In 
+particular, index maintenance involves:  
+• 
+Quarterly Index Reviews (Index Reviews) in February, May, August and November (Figure 1) 
+• 
+Ongoing event-related changes, which are generally implemented in the indexes as they occur. 
+ 
+Figure 1. Index Review Process  
+ 
+ 
+Methodology Book Sections: 
+ 
+ 
+ 
+ 
+1   The Indexes are governed by a set of methodology and policy documents (“Methodology Set”), including the present index 
+methodology document. Please refer to Appendix I for more details. 
+1. Update Equity 
+Universe
+2. Determine 
+Market 
+Investable 
+Equity 
+Universes
+3. Determine 
+Segment 
+Number of 
+Companies 
+(NOC) and the 
+Market Size-
+Segment 
+Cutoffs
+4.Assign 
+Companies to 
+Appropriate 
+Size-Segments
+5. Assess 
+Conformity with 
+Final Size-
+Segment 
+Investability 
+Requirements
+2.1, 3.1.1
+2.2, 3.1.2
+2.3.3, 3.1.4
+2.3.4, 3.1.5
+2.3.6, 3.1.6
+
+
+[PDF page 4]
+ 
+ 
+ 
+ 
+msci.com  Page 4 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Market Classification 
+A market’s classification as a Developed (DM), Emerging (EM) or Frontier Market (FM) determines the 
+opportunity set each composite index represents and is a key input to the GIMI review. It is governed by 
+the separate MSCI Market Classification Framework, which rests on three criteria: Economic 
+Development, Size and Liquidity Requirements, and Market Accessibility.  
+For a complete understanding of the market classification process, please refer to MSCI’s market 
+classification web site at the following link: 
+ 
+https://www.msci.com/indexes/index-resources/market-classification 
+ 
+Economic Development  
+Economic Development is used only to determine DM status (GNI per capita 25% above the World Bank 
+high-income threshold for three consecutive years); it is not used to distinguish EM from FM. 
+Classifications are reviewed annually in June. 
+ 
+Size and Liquidity Requirements 
+Based on the minimum investability requirements for the MSCI Global Standard Indexes. Entry 
+Requirements (used for reclassification) require a minimum number of companies meeting Standard 
+Index criteria over each of the last 8 Index Reviews; Maintenance Requirements assess current 
+classification on the latest data. Thresholds below were in use for the May 2026 Index Review and are 
+updated quarterly. 
+Table 1. Size and Liquidity Requirements 
+Requirement 
+Frontier 
+Emerging 
+Developed 
+Entry / Maintenance companies 
+meeting Standard Index criteria 
+1 / – 
+3 / 1 
+5 / 1 
+Company size (full market cap) 
+USD 232 mm 
+USD 3,937 mm 
+USD 7,874 mm 
+Security size (float market cap) 
+USD 116 mm 
+USD 1,969 mm 
+USD 3,937 mm 
+Security liquidity (ATVR) 
+2.5% 
+15% 
+20% 
+Min. securities in Market 
+Investable Equity Universe 
+1 
+3 
+5 
+Note: For Developed Markets consolidated at the regional level (e.g., DM Europe), MSCI applies Size and Liquidity 
+Requirements on each individual market within the region. For Emerging or Frontier Markets consolidated at the regional 
+level (e.g., WAEMU and Baltic States), the Size and Liquidity Requirements are assessed on a consolidated basis (i.e., 
+treated as a single market). 
+
+
+[PDF page 5]
+ 
+ 
+ 
+ 
+msci.com  Page 5 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+ 
+Market Accessibility and Review 
+Market Accessibility reflects international institutional investors’ experience of a market, assessed 
+qualitatively in the annual MSCI Global Market Accessibility Review across five areas: openness to 
+foreign ownership, ease of capital inflows/outflows, efficiency of the operational framework, availability 
+of investment instruments, and stability of the institutional framework. The required standard rises from 
+Frontier (e.g. “at least some” openness, “modest” institutional stability) through Emerging to Developed 
+(“very high” on most measures). 
+MSCI reviews classifications annually and only upgrades where a change is judged irreversible, 
+announcing the countries under review each June. The 2025 review also introduced an Advanced 
+Frontier Markets sub-category for FM markets whose accessibility is closely aligned with DM but which 
+remain FM on size and liquidity; it does not affect the Frontier Markets classification or indexes. 
+Market Classifications as of June 2026* 
+ 
+
+
+[PDF page 6]
+ 
+ 
+ 
+ 
+msci.com  Page 6 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+*Greece will be promoted to Developed Market status and Bulgaria will be promoted to Frontier Market 
+status effective with the May 2027 review. 
+Index Review Process 
+1. Update Equity Universe 
+The Equity Universe is updated during Index Reviews by (1) identifying eligible equity securities and (2) 
+classifying these eligible equity securities into the appropriate country (Table 2).  
+ 
+Table 2. Security Eligibility and Country Classification 
+Eligible Equity Securities 
+Security Country Classification 
+ 
+• 
+Includes listed equity and equity-like 
+securities  
+• 
+Real Estate Investment Trusts and certain 
+income trusts in Canada are also eligible for 
+inclusion  
+• 
+Excludes: mutual funds, ETFs, equity 
+derivatives, limited partnerships*, and most 
+investment trusts 
+For details, please refer to Appendix I of the 
+methodology 
+ 
+• 
+Generally determined by the country of 
+incorporation of the issuing company and the 
+primary listing of the security (when matching).  
+• 
+Each company and its securities are classified 
+in only one country 
+• 
+Country specific rules are implemented for 
+some markets (e.g. Europe, China, US) 
+• 
+In cases where the country of incorporation and 
+primary listing of the security point to different 
+markets, additional factors are considered to 
+determine country classification. 
+For details, please refer to Appendix III of the 
+methodology 
+*Limited partnerships, limited liability companies, and business trusts, which are listed in the USA and are not structured to 
+be taxed as limited partnerships, are eligible for inclusion. 
+ 
+Identifying Eligible Listings 
+A security may have a listing in the country where it is classified (i.e. “local listing”) and/or in a different 
+country (i.e. “foreign listing”). A security may be represented by a foreign listing only if the following 
+conditions are met:  
+• 
+The security is classified in a country that meets the Foreign Listing Materiality Requirement, and  
+• 
+The security’s foreign listing is traded on an eligible stock exchange of:  
+⁃ 
+A DM country if the security is classified in a DM country, or  
+⁃ 
+A DM or an EM country if the security is classified in an EM country, or  
+⁃ 
+A DM or an EM or a FM country if the security is classified in a FM country.  
+ 
+
+
+[PDF page 7]
+ 
+ 
+ 
+ 
+msci.com  Page 7 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+If a country does not meet the Foreign Listing Materiality Requirement, then securities in that country 
+cannot be represented by a foreign listing in the Global Investable Equity Universe.  
+ 
+Please refer to Appendix I: Equity Markets and Universe and Appendix IV: Foreign Listing Materiality 
+Requirement for further details. 
+ 
+Only one listing per security may be included in the Market Investable Equity Universe. In instances when 
+a security has two or more eligible listings that meet the above liquidity requirements, then the following 
+priority rules are used to determine which listing will be used for potential inclusion of the security in the 
+Market Investable Equity Universe: 
+• 
+Local listing 
+• 
+Foreign listing in the same geographical region 
+• 
+Foreign listing in a different geographical region 
+ 
+2. Determine Market Investable Equity Universes 
+The Market Investable Equity Universes are updated during the Index Reviews. Investability requirements 
+are applied at the overall company level such as full company market capitalization represented by the 
+aggregation of all eligible listed and unlisted securities of a company and at the individual security level, 
+such as free float-adjusted market capitalization (“float MCap”) and liquidity measures. 
+ 
+Table 3. Equity Universe Eligibility Requirements 
+Requirements 
+Non-Constituents 
+Existing Constituents 
+Meth. 
+Book Section 
+Equity Universe Minimum 
+Size Requirement (UMSR) 
+Equivalent to the full market 
+capitalization of the company at 
+which cumulative free float-
+adjusted market capitalization 
+coverage of 99% of the DM 
+Equity Universe is reached 
+DM & EM: USD 537 Million* 
+(revised at each Index Review) 
+FM: USD 13 Million* (revised at 
+each Index Review) 
+*as of the close of April 20, 2026 for May 2026 Index Review 
+Not Evaluated 
+2.2.3 
+3.1.2.2 
+5.2.1 
+
+
+[PDF page 8]
+ 
+ 
+ 
+ 
+msci.com  Page 8 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Equity Universe Minimum 
+Free Float–Adjusted 
+Market Capitalization 
+½ of UMSR 
+ 
+Not Evaluated 
+2.2.4 
+3.1.2.3 
+Minimum Liquidity 
+Requirement: 
+ 
+ 
+ 
+12 Month Annual Traded 
+Value Ratio (ATVR) 
+DM: ≥ 20% 
+EM & FM Average Liq: ≥ 15% 
+FM Low Liq ≥ 5% 
+FM Very Low Liq ≥ 2.5% 
+DM: ≥ 2/3 of 20% 
+EM & FM Average Liq: ≥ 2/3 of 
+15% 
+FM Low Liq ≥ 2/3 of 5% 
+FM Very Low Liq ≥ 1% 
+2.2.5 
+3.1.2.4 
+5.2.3.1 
+5.2.3.2 
+3 Month ATVR 
+DM: ≥ 20%, last four quarters 
+EM: ≥ 15%, last four quarters 
+FM: NA 
+Non-constituents suspended in 
+the latest 3 months are not 
+eligible 
+DM: ≥ 5%, most recent quarter 
+EM: ≥ 5%, most recent quarter 
+FM: NA 
+2.2.5 
+3.1.2.4 
+ 
+3 Month Frequency of 
+Trading (FOT) 
+DM: ≥ 90%, last four quarters 
+EM: ≥ 80%, last four quarters 
+FM: NA 
+DM: ≥ 80%, most recent quarter 
+EM: ≥ 70%, most recent quarter 
+FM: NA 
+2.2.5 
+3.1.2.4 
+12 Month Frequency of 
+Trading (FOT) 
+DM: NA 
+EM: NA 
+FM: 50% 
+DM: NA 
+EM: NA 
+FM: 10% 
+5.2.3.1 
+5.2.3.2 
+Maximum Stock Price 
+≤  USD10,000 
+Not Evaluated 
+2.2.5 
+Global Minimum Foreign 
+Inclusion Factor (FIF) 
+≥ 0.15; If < 0.15, float MCap must 
+be ≥ 1.8× one-half of the 
+Standard Index Interim Size-
+Segment Cutoff 
+ 
+Not Evaluated (see section on 
+final size-segment requirements) 
+2.2.6 
+3.1.2.5 
+ 
+Minimum Length of 
+Trading 
+≥ 3 months before 
+implementation date, except IPOs 
+with company and float MCap ≥ 
+Not Applicable 
+2.2.7 
+3.1.2.7 
+
+
+[PDF page 9]
+ 
+ 
+ 
+ 
+msci.com  Page 9 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+1.8x of the Interim Standard Index 
+Cutoffs post sizable offering 
+Minimum Foreign Room 
+Requirement 
+≥ 15%; if < 25%, a FIF adjustment 
+factor will be applied 
+≥ 3.75% (for more information on 
+foreign room, see Table 7) 
+2.2.8 
+3.1.2.6 
+Financial Reporting 
+Requirement 
+Companies classified in the US 
+must file a Form 10-K/10-Q to be 
+eligible for inclusion in the USA 
+Investable Equity Universe 
+Not Applicable 
+2.2.9 
+Note:  
+• 
+DM and EM refer to Developed Markets and Emerging Markets, respectively. 
+• 
+All investability requirements apply at the individual security level with the exception of the Equity UMSR. 
+• 
+Existing constituents of a Standard Index in Emerging Markets having a weight of more than 10% in the respective country 
+index and float adjusted market capitalization above 0.5 times Global Minimum Size Reference for EM but failing liquidity 
+requirements may remain in the index with an adjustment factor of 0.5. Please refer to the methodology book, Section 
+3.1.2.4. An existing constituent of a Standard Index in FM with float adjusted market capitalization above 0.5 times Global 
+Minimum Size Reference for FM and having a weight of more than 10% in the respective country index or more than 1% in 
+the FM Composite index but failing liquidity requirements will remain in the index with an adjustment factor of 0.5. Please 
+refer to the methodology book, Section 5.2.3.2 
+ 
+ 
+ 
+3. Determine Segment Number of Companies (NOC) and the Market Size-
+Segment Cutoffs 
+In each market, MSCI first creates a Large Cap Index, a Standard Index (Large + Mid) and an Investable 
+Market Index (Large + Mid + Small Cap). The Mid Cap Index is then derived from the difference between 
+the Standard Index and the Large Cap Index, while the Small Cap Index is derived from the difference 
+between IMI and the Standard Index. The resulting Large Cap, Mid Cap and Small Cap Indexes are non-
+overlapping. In order to create size components that can be meaningfully aggregated into composites, 
+individual market size segments are designed to balance the following two objectives:  
+ 
+1. 
+Achieving global size integrity by including companies of comparable and relevant sizes in a given 
+size segment across all markets in a composite index. 
+2. Achieving consistent market coverage by representing each market’s size segment in its 
+proportional weight in the underlying investable equity universe. 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 10]
+ 
+ 
+ 
+ 
+msci.com  Page 10 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Market Coverage Target Range 
+Large Cap Index (65% to 75%) 
+Standard Index (80% to 90%) 
+Investable Market Index (98.5% to 100%) 
+Mid Cap Index (difference between Standard and 
+Cumulative 
+Free Float-
+Adjusted 
+Market 
+Coverage 
+Full Market Capitalization 
+Global 
+Minimum 
+Size 
+Range  
+Size and Coverage 
+Target Area 
+Upper Bound:  
+GMSR x 1.15 
+ 
+ 
+ 
+ 
+Lower Bound:  
+GMSR x 0.5 
+ 
+ 
+ 
+The general process below is followed prior to assigning companies to appropriate size-segments: 
+ 
+ 
+ 
+The size and coverage area is derived from the Market Coverage Target Range (or Coverage Range) and 
+the Global Minimum Size Range for each size-segment (see figure 2). The Global Minimum Size Range is 
+defined based on the Global Minimum Size Reference (GMSR). The definition of the GMSR is provided in 
+Table 4. 
+Figure 2. Size and Coverage Target Area 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Define Market 
+Coverage Target 
+Range for Each 
+Size-Segment
+Determine the 
+Global Minimum 
+Size Range for 
+Each Size-
+Segment
+Determine the 
+Segment Number 
+of Companies
+Determine Market 
+Size-Segment 
+Cutoffs
+Determine Size and Coverage Target Area 
+Determine Market Size-Segment Cutoffs 
+
+
+[PDF page 11]
+ 
+ 
+ 
+ 
+msci.com  Page 11 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Table 4. Global Minimum Size Reference 
+Index Review 
+Methodology Book Section 3.1.3 
+1. 
+GMSR is reset based on the fully updated Developed Market (DM) Equity Investable Universe. 
+2. 
+For each size-segment (IMI, Standard, Large), the GMSRs for DM are set as the full market capitalization ("MCap") 
+of the company at the same rank that determined the corresponding GMSR at the previous Index Review, provided 
+the cumulative free float-adjusted market capitalization coverage falls within the following range: 
+• 
+Large Cap: 70% and 72% 
+• 
+Standard: 85% and 87% 
+• 
+IMI: 99% and 99.25% 
+3. 
+If not, the rank is reset to the company that reaches a cumulative free float-adjusted MCap coverage at or within the 
+specified range above. GMSR is set to the full MCap of this company. 
+4. 
+For EM, the GMSR is set at ½ of DM GMSR.  
+5. 
+For FM, the GMSR is derived using the same steps above but are based on the FM Investable Equity Universe. 
+ 
+ 
+Determine Segment Number of Companies 
+The Market Size-Segment Cutoffs (Cutoff) used for segment allocation of companies are based on the 
+Number of Companies (NOC). NOC is reviewed at every Index review.  
+The objectives of the NOC Review at every Index Review are to: 
+• 
+Reflect the changes in the MSCI Equity Investable Universe (Initial NOC) 
+• 
+Achieve the size and coverage requirements specified above (Final NOC) 
+ 
+More specifically, the following outlines the process to determine the NOC during Index Review: 
+# 
+Step 
+Note 
+1 
+Determine the 
+Current NOC  
+This is the NOC as of the Price Cutoff Date of the Index Review prior to any Index 
+Review related adjustments and would be the same NOC reflected in the daily files 
+made available the day after the Price Cutoff Date.  
+Current NOC
+•NOC prior to any 
+adjustments  
+Initial NOC
+•NOC adjusted for 
+the changes in the 
+Investable 
+Universe 
+Final NOC
+•NOC adjusted for 
+compliance with 
+size and coverage 
+requirements
+
+
+[PDF page 12]
+ 
+ 
+ 
+ 
+msci.com  Page 12 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+2 
+Determine the 
+Interim Market 
+Size-Segment 
+Cutoff (“Interim 
+Cutoff”) 
+The Interim Cutoff corresponds to the full market capitalization of the company 
+ranked at the Current NOC (as noted in step 1) reflecting updated Number of Shares 
+(NOS) data for that Index Review. It is based on the current Investable Equity 
+Universe. 
+3 
+Determine the 
+Initial NOC 
+The Initial NOC is equal to the number of companies in the updated Equity 
+Investable Universe with full company market capitalization above or equal to the 
+Interim Cutoff, excluding non-current constituents with full company market 
+capitalization below 0.5x GMSR. 
+4 
+Make adjustments 
+to the Initial NOC 
+if needed 
+Depending on the location of the Market Size-Segment Cutoff derived from the Initial 
+NOC relative to the Size and Coverage Area, an increase in, or reduction of, the 
+Segment NOC may be required (see Figure 3 and Table 5). 
+No adjustments needed if: 
+• 
+The full market cap of the company at the Initial NOC is either within the size and 
+coverage area or within the lower or upper size range boundary proximity area. 
+• 
+The full market cap of the company at the Initial NOC is above the upper bound 
+of the GMSR (or 1.15x GMSR) and there are no investable companies between 
+this cutoff and the upper boundary of the GMSR 
+ 
+ 
+Figure 3. Changing NOC to Comply with the Size and Coverage Target Area 
+ 
+ 
+ 
+ 
+Nb. of Companies
+  
+Additions
+No Changes
+Deletions
+Low er Size Range Boundary Proximity Area
+Full Market Capitalization
+Upper Size Range Boundary Proximity Area
+80%
+85%
+90%
+Cumulative Free Float-Adjusted Market Coverage 
+0.50X GMSR
+0.575X GMSR
+GMSR
+1.15x GMSR
+
+
+[PDF page 13]
+ 
+ 
+ 
+ 
+msci.com  Page 13 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Table 5. Making Adjustments to the Final NOC 
+Position Relative the Size-
+Coverage Area 
+Required 
+Adjustment 
+to the NOC2 
+Magnitude of the Adjustment 
+ > 1.15x GMSR and there are 
+investable companies between 
+the company corresponding to 
+the Initial NOC and 1.15x GMSR 
+Increase 
+Add all companies with full MCap > 1.15x GMSR 
+< the lower boundary of the 
+Market Coverage Target Range 
+Increase 
+Add all companies with full MCap > upper limit of the 
+lower size range boundary proximity area, if any, that are 
+required to reach the lower boundary of the market 
+coverage target range 
+< 0.5x GMSR 
+Decrease 
+Delete no more than 5% of the Initial NOC to bring the 
+market size-segment cutoff into compliance with size 
+and coverage target area. If this brings the market size-
+segment cutoff into compliance or if at least half of the 
+free float MCap that lies between the smallest company 
+before the adjustment of the Initial NOC and the lower 
+bound of the global minimum size range is removed then 
+no further reduction is necessary. 
+If not, a reduction of not more than 20% of the Initial 
+NOC is made to remove no more than half of the free-
+float adjusted MCap that lies between the smallest 
+company before the adjustment of the Initial NOC and 
+the lower bound of the Global Minimum Size Range. 
+> the upper boundary of the 
+Market Coverage Target Range 
+Decrease 
+Delete no more than 5% of the Initial NOC to bring the 
+market size segment cutoff into compliance with size 
+and coverage target area. Only companies with full 
+MCap lower than the lower limit of the Upper Size Range 
+Boundary Proximity area can be removed. 
+Note: In market segments with a small number of companies (i.e., 20 or fewer initial NOC), the deletion of the first two 
+companies is not subject to the limits described above. 
+ 
+2 Additions are made in descending order of full market capitalization. 
+
+
+[PDF page 14]
+ 
+ 
+ 
+ 
+msci.com  Page 14 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Assigning Size Segment Cutoffs 
+Once the NOC is determined, the Cutoff is set to the full company market capitalization of the company 
+with the rank corresponding to that NOC. The Cutoffs used at the time of the Index Review as well as for 
+ongoing index maintenance are bounded by the Global Minimum Size Range.  
+ 
+4. Assign Companies to Appropriate Size-Segments 
+In order to manage index turnover, buffer zones are used for migration of companies between Size-
+Segment Indexes. An existing constituent may be allowed to remain in its current size-segment even if its 
+full company market capitalization falls above or below its Market Size-Segment, as long as its full 
+company market capitalization falls within the upper or lower buffer zone of the respective Market Size-
+Segment Cutoff (see note 1 below on determining buffer zones). However, companies located in the buffer 
+zones may migrate to another Size-Segment as required in order to reach the necessary Segment NOC 
+(see priority rule 5 below). Companies are initially assigned to the Standard, Large Cap and IMI segments 
+and then assigned to the Mid and Small Cap segments. 
+ 
+In addition, a Small Cap Entry Buffer Zone is used for the entry in the Small Cap Indexes of non-current 
+constituents of the IMI. It is defined with a boundary of 1.5 times the Market Size-Segment Cutoff for the 
+Investable Market Index. Non-current constituents of the IMI within the Small Cap Entry Buffer Zone which 
+are assigned to the Small Cap Segment are included in the Small Cap Indexes only to the extent that they 
+replace current constituents which have fallen below the Small Cap Lower Buffer. The remaining 
+companies are not included in the Investable Market Indexes but are still taken into account to determine 
+the Segment Number of Companies. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 15]
+ 
+ 
+ 
+ 
+msci.com  Page 15 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+ 
+During Index Reviews, the following diagram shows the prioritization rules involved in the allocation 
+process: 
+Figure 4. Size-Segment Allocation Priority Rules 
+     
+ 
+ 
+Notes: 
+1. 
+Buffer zones are determined as follows: 
+a. 
+Upper Buffer Zone of Size-Segment: Multiply the next immediate larger size-segment cutoff by 1.5 to determine 
+the upper bound of the zone. The cutoff and this upper bound define the zone. For example, to determine the upper 
+bound of the upper buffer zone of the small cap size segment, take the Standard Cutoff and multiply it by 1.5x. 
+b. 
+Lower Buffer Zone of Size-Segment: Multiply the size-segment cutoff by 0.67x to determine the lower bound of 
+the zone. The cutoff and this lower bound define the zone. 
+For migration rules applicable to potential constituents of the Small Cap Size-Segment and the concept of the Small Cap 
+Entry Buffer Zone, please refer to the methodology book, section 3.1.5.1. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                    
+                 
+       
+          
+        
+        
+             
+         
+           
+         
+                  
+           
+         
+ 
+                                                      
+                                         
+         
+  
+                                                  
+                                               
+                                                      
+                                             
+      
+  
+     
+          
+         
+    
+ 
+    
+      
+                                                   
+  
+                                             
+                                                  
+                                                
+                                                
+                     
+  
+                                                  
+                                                  
+                                                      
+                                               
+                                                  
+               
+  
+                                             
+                  
+
+
+[PDF page 16]
+ 
+ 
+ 
+ 
+msci.com  Page 16 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+5. Assess Conformity with Final Size-Segment Investability Requirements 
+In order to enhance the replicability of Size-Segment Indexes, additional size-segment investability 
+requirements are set for the Investable Market and the Standard Indexes as defined in the table below: 
+ 
+Table 6. Final Size-Segment Investability Requirement 
+Requirement 
+Non-Constituents & 
+Migrating Constituents 
+Existing Constituents 
+Meth. 
+Book 
+Section 
+Minimum Free Float-Adjusted 
+Market Capitalization 
+Requirement 
+> Float MCap Cutoff (set to 1/2 of 
+the Market Size-Segment Cutoff) 
+> 1.8x Float MCap Cutoff if 
+FIF<0.15 
+≥ 2/3 of the threshold set for non-
+constituents 
+≥ 1.8 x 2/3 of the threshold set for 
+non-constituents if FIF<0.15 
+ 
+2.3.6.1 
+3.1.6.2 
+Global Minimum FIF 
+See above, securities with a FIF 
+below 0.15 are ineligible for 
+inclusion within the Small Cap 
+Size-Segment 
+Small Cap: ≥ 0.15  
+ 
+3.1.6.2 
+Note: 
+1. 
+Existing Standard Index constituents in the lower buffer (i.e., within area of Small Cap Size-Segment or allocation 
+priority #4, see Figure 4) that fail additional investability requirements of the Standard Index are moved to Small 
+Cap instead of being deleted from the IMI.  
+ 
+ 
+Apply Adjustment Factors to Constituents with low Foreign Room 
+During Index Reviews, current constituents with less than 25% foreign room are subject to an adjustment 
+factor based on Table 7 below. Conformity with the minimum free float-adjusted market capitalization 
+requirements for Investable Market Index constituents will be assessed using the free float-adjusted 
+market capitalization before the application of the adjustment factor. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 17]
+ 
+ 
+ 
+ 
+msci.com  Page 17 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Table 7. Adjustment Factors for Index Constituents 
+ 
+Post Review Adjustment Factor 
+Current Adjustment 
+Factor 
+≥ 25% 
+≥ 15%, < 25% 
+≥ 7.5%, < 15% 
+≥ 3.75%, < 7.5% 
+< 3.75% 
+1 
+1 
+1 
+0.5 
+0.25 
+0 
+0.5 
+1 
+0.5 
+0.5 
+0.25 
+0 
+0.25 
+1 
+0.5 
+0.25 
+0.25 
+0 
+Notes: 
+1. 
+An upward movement of the adjustment factor following a previous reduction in foreign room will only be 
+considered 12 months after the weight reduction unless the upward movement of the adjustment factor is primarily 
+driven by a change in FOL. 
+2. 
+A security deleted from the index given a foreign room < 3.75% will only be considered for inclusion 12 months 
+after its deletion unless it is primarily driven by FOL. 
+3. 
+In the case of #1 and #2, increases in adjustment factor or re-inclusion due to FOL increase will only be considered 
+in an index review if the FOL increase occurred prior to the price cutoff date of the previous index review. 
+Minimum free float requirements for Index Constituents are checked before the application of the adjustment factor. In 
+contrast, minimum free float requirements for Non-Constituents are checked after the application of the adjustment factor. 
+ 
+Treatment of Securities that Exhibit Extreme Price Increase 
+For additions to the Standard indexes, MSCI will evaluate their excess returns for specific monitoring 
+periods against relevant thresholds as per the below table. Securities with a FIF below 0.75 that exhibit 
+extreme price increase will not be eligible for addition into the Standard Indexes but will continue to be 
+considered as part of the market investable universe. 
+ 
+Table 8. Monitoring Periods and Thresholds for Extreme Price Increase 
+Period* 
+5D 
+10D 
+15D 
+20D 
+25D 
+30D 
+35D 
+40D 
+45D 
+50D 
+55D 
+60D 
+Excess 
+Returns 
+Threshold 
+100% 
+100% 
+100% 
+100% 
+200% 
+200% 
+200% 
+200% 
+400% 
+400% 
+400% 
+400% 
+Period* 
+90D 
+120D 
+150D 
+180D 
+250D 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Excess 
+Returns 
+Threshold 
+500% 
+800% 
+1500% 
+1500% 
+2500% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* Number of days (Mon-Fri) prior to the price cutoff date of the Index Review 
+** The extended measurement period of 90D, 120D, 150D, 180D and 250D is effective from May 2024 Index Review 
+ 
+
+
+[PDF page 18]
+ 
+ 
+ 
+ 
+msci.com  Page 18 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+IPOs that do not meet the minimum length of trading requirements but meet all other criteria for Standard 
+Index inclusion are not subject to this requirement. 
+ 
+Intra-Review Additions and Deletions 
+Most constituent changes occur at the quarterly Index Reviews, but MSCI also implements certain 
+event-driven changes between reviews so the indexes can reflect the market on a timely basis. The 
+most significant of these is the early (“fast entry”) inclusion of large IPOs and offerings; securities can 
+also be deleted between reviews following specific corporate events. Full detail is in the MSCI Corporate 
+Events Methodology (Section 6) and Sections 3.2.6–3.2.7 of the GIMI methodology book. 
+For full information on corporate events treatment, please visit the following link: 
+https://www.msci.com/index/methodology/latest/CE 
+These event-driven decisions rely on the Interim Market Size-Segment Cutoff – a daily-maintained 
+version of the size-segment cutoffs that MSCI uses between reviews to judge eligibility for early 
+inclusion and to assign companies to size-segments after corporate events. Each day, a Market Size-
+Segment Cutoff is set to the full market capitalization of the company ranked at the Segment Number of 
+Companies for that segment in the Market Investable Equity Universe; the Interim Cutoff is then that 
+value, bounded by the Global Minimum Size Range (set to the lower bound if it falls below the range, the 
+upper bound if above, and the cutoff itself if within). It is calculated daily for the Large Cap, Standard and 
+Investable Market Indexes using the prior trading day’s data and so plays the same role between reviews 
+that the Market Size-Segment Cutoff plays at a review. References to thresholds below are to the 
+Standard Index Interim Cutoff. 
+Fast Entry of Large IPOs 
+Small new issues must satisfy the Minimum Length of Trading Requirement (at least three months of 
+trading before an Index Review) and are normally only considered at a review. Large IPOs are exempt 
+from both the length-of-trading and liquidity screens and may be added to the Market Investable Equity 
+Universe and the Standard Index outside of a review (“fast entry”), provided they meet all other eligibility 
+criteria and clear the size thresholds below, measured as of the close of the first or second trading day. 
+ 
+Table 9. Fast Entry IPO Size Thresholds (Standard Index) 
+Measure 
+Threshold 
+Full company market capitalization 
+≥ 1.8x the Interim Market Size-Segment Cutoff 
+Free float-adjusted market capitalization 
+≥ 1.8x one-half of the Interim Market Size-Segment Cutoff 
+ 
+
+
+[PDF page 19]
+ 
+ 
+ 
+ 
+msci.com  Page 19 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+An over-allotment (greenshoe) publicly announced as exercised before MSCI’s announcement on the 
+first or second trading day is counted in the capitalization calculations. An IPO with a FIF below 0.15 must 
+meet the same thresholds as one with a FIF of 0.15 or higher. 
+A qualifying IPO is added at the close of its tenth day of trading. To limit turnover, an inclusion that would 
+fall 5 trading days before, or 3 trading days after, the effective date of a regularly scheduled Index 
+Review is instead implemented to coincide with that review. For securities trading on a conditional 
+(when-issued) basis, MSCI assesses inclusion on the first day of conditional trading. A direct listing 
+qualifies for fast entry only if enough information is public to estimate its free float-adjusted market 
+capitalization on the first or second trading day; otherwise, it is considered at the next Index Review. 
+Other Early Inclusions and Deletions 
+The same size thresholds apply to large primary or secondary offerings of already-listed securities and 
+to large new companies arising from mergers and acquisitions. The offering size must exceed 1.8x one-
+half of the Interim Market Size-Segment Cutoff at the close of the subscription period (offering size = the 
+institutional issue price multiplied by the number of shares offered), and the post-event company must 
+meet the full and float market capitalization thresholds above. MSCI’s decision uses offering and over-
+allotment results made public within up to two business days of the close of subscription, and the 
+addition is implemented with 10 business days’ notice. 
+Securities may also be deleted between reviews. Early deletion applies to companies that file for 
+bankruptcy or creditor protection (or are suspended with little prospect of resuming normal trading), and 
+to companies announced for delisting after failing exchange listing requirements. A security is also 
+deleted following a corporate event where its Foreign Inclusion Factor falls below 0.15 (or decreases 
+further for a Standard Index constituent already below 0.15), subject to the relevant minimum float-
+adjusted market capitalization test, or where it is suspended for a prolonged period. 
+ 
+
+
+[PDF page 20]
+ 
+ 
+ 
+ 
+msci.com  Page 20 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Further Methodology Notes and Definitions 
+Market Investability Requirements 
+Equity Universe Minimum Size Requirement (UMSR) and Minimum Free Float-Adjusted Market 
+Capitalization 
+1. 
+Sort companies in DM Equity Universe in descending order of full market capitalization (“Full MCap”) 
+2. 
+Calculate cumulative coverage of the free float-adjusted market capitalization (“Float MCap”) at each company.  
+3. 
+Once cumulative Float MCap coverage of 99% is achieved, the Full MCap of the company at that point defines 
+UMSR. This rank is noted for the UMSR adjustment during the next Index Review. 
+• 
+During the next Index Review, the coverage at the noted rank will determine the new UMSR as well as the new rank 
+as follows: 
+o 
+99% to 99.25%, UMSR is set to the current Full MCap of the company at that rank 
+o 
+Below 99%, UMSR and rank is reset to the Full MCap and rank of the company at the 99% coverage. 
+o 
+Above 99.25%, UMSR and rank is reset to the Full MCap and rank of the company at the 99.25% coverage. 
+• 
+Same UMSR is used for both DM and EM. 
+• 
+Minimum Float MCap requirement is equal to 50% of UMSR 
+ 
+Annual Traded Value Ratio and Frequency of Trading 
+• 
+Monthly median traded values (MMTV) = median daily traded value x number of days in the month the security 
+traded 
+o 
+Daily traded value = number of shares traded intra-day x closing price 
+• 
+Monthly median traded value ratio (MMTVR) = MMTV / free float adjusted security MCap 
+• 
+12-Month ATVR = average of the MMTVR for the previous 12 months (or months this data is available – 6, 3 or 1 
+month) x 12 (to annualize) 
+• 
+3-Month ATVR = average of the MMTVR for the previous 3 months (or 1 month if unavailable) x 12 
+• 
+ATVR values and thresholds are not rounded 
+• 
+FOT = Number of days a Security Traded vs. Number of market trading days during a 3 month period 
+• 
+Adjustments are done where ATVR/FOT are decisive elements for inclusion or exclusion: 
+o 
+Suspended securities: suspension days are excluded 
+o 
+Large public offerings: trading volumes after public offering are used 
+o 
+Deleted Securities (last 12 months): excludes trading volumes of the month in which the security's deletion was 
+announced and the security was deleted. 
+ 
+
+
+[PDF page 21]
+ 
+ 
+ 
+ 
+msci.com  Page 21 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Foreign Inclusion Factor 
+• 
+Free Float: Proportion of shares outstanding that is available for purchase in the public equity markets by 
+international investors (accounts for free float and/or foreign ownership limits) 
+• 
+Foreign Inclusion Factor (FIF): Free float adjusted for any applicable Foreign Ownership Limit (FOL) and/or foreign 
+room present on the security. 
+• 
+Securities with a FIF below 0.15 must additionally have a free float-adjusted market capitalization at least 1.8 times 
+one-half the minimum free float-adjusted market capitalization required for the Standard Index. 
+• 
+For securities with free float greater than 25% and not subject to FOL, the FIF is equal to the estimated free float, 
+rounded to the closest 2.5% 
+• 
+For securities with free float between 5% and 25% and not subject to FOL, the FIF is equal to the estimated free 
+float, rounded to the closest 0.5%. 
+• 
+For securities with free float less than 5%, the FIF is equal to the estimated free float, rounded to the closest 0.1%. 
+• 
+For securities subject to FOLs, the FIF is equal to the lesser of: 
+o 
+Estimated free float available to foreign investors, 
+▪ 
+Rounded to the closest 2.5%, if the free float is greater than 25% 
+▪ 
+Rounded to the closest 0.5%, if the free float is between 5% and 25% 
+▪ 
+Rounded to the closest 0.1%, if the free float is less than 5% 
+o 
+FOL rounded to the closest 0.1%. 
+ 
+Foreign Room 
+• 
+Proportion of shares still available to foreign investors relative to the maximum allowed 
+• 
+Conformity with minimum free float-adjusted MCap for constituents will be assessed before the application of 
+adjustment factor (see table on final size segment investability) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 22]
+ 
+ 
+ 
+ 
+msci.com  Page 22 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Index Data Cutoff Dates 
+The following are the general guidelines on cutoff dates used for the Index Reviews. 
+ 
+Table 10. Data Cutoff Dates 
+ 
+February  
+May  
+August  
+November  
+Equity Universe 
+Update  
+End of November 
+End of February 
+End of May 
+End of August 
+Data for Calculating 
+Liquidity 
+Requirements 
+End of December 
+End of March 
+End of June 
+End of September 
+Price Cutoff Date 
+(includes FIF and 
+NOS) 
+Any of the last 10 
+business days of 
+January 
+Any of the last 10 
+business days of 
+April 
+Any of the last 10 
+business days of July 
+Any of the last 10 
+business days of 
+October 
+Note:  
+1. 
+For details, please refer to the Global Investable Market Indexes methodology book, sections 3.1.9 and 3.2.3. 
+2. A business day is defined as a day from Monday to Friday where markets cumulatively constituting of more than 
+80% of the market capitalization of the MSCI ACWI Index are expected to be open. 
+ 
+List of Common Abbreviations 
+Abbreviation 
+Meaning 
+ACWI 
+All Country World Index  
+ATVR 
+Annual Traded Value Ratio (12-month and 3-month) 
+DM 
+Developed Markets 
+DR 
+Depositary Receipt 
+EM 
+Emerging Markets 
+ETF 
+Exchange-Traded Fund 
+FIF 
+Foreign Inclusion Factor 
+
+
+[PDF page 23]
+ 
+ 
+ 
+ 
+msci.com  Page 23 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+FM 
+Frontier Markets 
+FOL 
+Foreign Ownership Limit 
+FOT 
+Frequency of Trading (3-month and 12-month) 
+GICS3 
+Global Industry Classification Standard 
+GMSR 
+Global Minimum Size Reference 
+IMI 
+Investable Market Index (Large + Mid + Small Cap) 
+IPO 
+Initial Public Offering 
+MCap 
+Market Capitalization (e.g. full MCap, float MCap) 
+MMTV 
+Monthly Median Traded Value 
+MMTVR 
+Monthly Median Traded Value Ratio 
+NOC 
+Number of Companies 
+NOS 
+Number of Shares 
+UMSR 
+Equity Universe Minimum Size Requirement 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 “GICS is the global industry classification standard jointly developed by MSCI Inc. and S&P Dow Jones Indices.” 
+
+
+[PDF page 24]
+ 
+ 
+ 
+ 
+msci.com  Page 24 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Appendix I: Methodology Set  
+The Indexes are governed by a set of methodology and policy documents (“Methodology Set”), including 
+the present index methodology document as mentioned below:  
+• 
+Description of methodology set –  
+www.msci.com/index/methodology/latest/ReadMe 
+• 
+MSCI Corporate Events Methodology –  
+http://www.msci.com/index/methodology/latest/CE 
+• 
+MSCI Fundamental Data Methodology – 
+https://www.msci.com/index/methodology/latest/FundData 
+• 
+MSCI Index Calculation Methodology –  
+http://www.msci.com/index/methodology/latest/IndexCalc 
+• 
+MSCI Index Glossary of Terms –  
+http://www.msci.com/index/methodology/latest/IndexGlossary 
+• 
+MSCI Index Policies –  
+http://www.msci.com/index/methodology/latest/IndexPolicy 
+• 
+MSCI Global Industry Classification Standard (GICS) Methodology – 
+https://www.msci.com/index/methodology/latest/GICS 
+• 
+MSCI Global Investable Market Indexes Methodology –  
+http://www.msci.com/index/methodology/latest/GIMI 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 25]
+ 
+ 
+ 
+ 
+msci.com  Page 25 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+Appendix II: Changes to this Document 
+ The following sections have been updated effective July 2026:  
+• 
+First published version 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+[PDF page 26]
+ 
+ 
+ 
+ 
+msci.com  Page 26 of 28
+© 2026 MSCI Inc. All rights reserved. Please refer to the disclaimer at the end of this document. 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+ 
+ 
+ 
+ 
+Contact Us 
+About MSCI Inc. 
+MSCI (NYSE: MSCI Inc.) strengthens global 
+markets by connecting participants across the 
+financial ecosystem with a common language. 
+Our research-based data, analytics and indexes, 
+supported by advanced technology, set 
+standards for global investors and help our clients 
+understand risks and opportunities so they can 
+make better decisions and unlock innovation. We 
+serve asset managers and owners, private-
+market sponsors and investors, hedge funds, 
+wealth managers, banks, insurers and corporates. 
+To learn more, please visit www.msci.com 
+msci.com/contact-us 
+The process for submitting a formal index 
+complaint can be found on the index regulation 
+page of MSCI’s website at: 
+https://www.msci.com/index-regulation. 
+AMERICA 
+United States 
+Canada 
+Brazil 
+Mexico 
++ 1 888 588 4567 * 
++ 1 416 687 6270 
++ 55 11 4040 7830 
++ 52 81 1253 4020 
+EUROPE, MIDDLE EAST & AFRICA 
+South Africa 
+Germany 
+ 
+Switzerland 
+United Kingdom 
+Italy 
+France 
++ 27 21 673 0103 
++ 49 69 133 859 00 
++ 41 22 817 9777 
++ 44 20 7618 2222 
++ 39 02 5849 0415 
++ 33 17 6769 810 
+ASIA PACIFIC 
+China 
+Hong Kong 
+India 
+Malaysia 
+South Korea 
+Singapore 
+Australia 
+Taiwan  
+Thailand 
+Japan 
+* toll-free 
++ 86 21 61326611 
++ 852 2844 9333 
++ 91 22 6784 9160 
+1800818185 * 
++ 82 70 4769 4231 
++ 65 67011177 
++ 612 9033 9333 
+008 0112 7513 * 
+0018 0015 6207 7181 * 
++ 81 3 4579 0333 
+
+
+[PDF page 27]
+ 
+ 
+ 
+ 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+msci.com  Page 27 of 28
+© 2026 MSCI Inc. All rights reserved. 
+Notice and Disclaimer 
+The data, data feeds, databases, reports, text, graphs, charts, images, videos, recordings, models, metrics, analytics, indexes, ratings, scores, cases, 
+estimates, assessments, software, websites, products, services and other information and materials contained herein or delivered in connection with this 
+notice (collectively, the “Information”) are copyrighted, trade secrets (when not publicly available), trademarks and proprietary property of MSCI Inc. or its 
+subsidiaries (collectively, “MSCI”), MSCI’s licensors, direct or indirect suppliers and authorized sources, and/or any third party contributing to the Information 
+(collectively, with MSCI, the “Information Providers”). All rights in the Information are reserved by MSCI and its Information Providers and user(s) shall not, nor 
+assist others to, challenge or assert any rights in the Information.    
+Unless you contact MSCI and receive its prior written permission, you must NOT use the Information, directly or indirectly, in whole or in part (i) for 
+commercial purposes, (ii) in a manner that competes with MSCI or impacts its ability to commercialize the Information or its services, (iii) to provide a service 
+to a third party, (iv) to permit a third party to directly or indirectly access, use or resell the Information, (v) to redistribute or resell the Information in any form, 
+(vi) to include the Information in any materials for public dissemination such as fund factsheets, market presentations, prospectuses, and investor information 
+documents (e.g. KIIDs or KIDs), (vii) to create or as a component of any financial products, whether listed or traded over the counter or on a private 
+placement basis or otherwise, (viii) to create any indexes, ratings or other data products, including in derivative works combined with other indexes or data or 
+as a policy, product or performance benchmarks for active, passive or other financial products, (ix) to populate a database, or (x) to train, use as an input to, 
+or otherwise in connection with any artificial intelligence, machine learning, large language models or similar technologies except as licensed and expressly 
+authorized under MSCI’s AI Contracting Supplement at https://www.msci.com/legal/supplemental-terms-for-client-use-of-artificial-intelligence.  
+The intellectual property rights of MSCI and its Information Providers may not be misappropriated or used in a competitive manner through the use of third-
+party data or financial products linked to the Information, including by using an MSCI index-linked future or option in a competing third-party index to provide 
+an exposure to the underlying MSCI index or by using an MSCI index-linked ETF to create a financial product that provides an exposure to the underlying 
+MSCI index without obtaining a license from MSCI.   
+The user or recipient of the Information assumes the entire risk of any use it may make, permit or cause to be made of the Information. NONE OF THE 
+INFORMATION PROVIDERS MAKES ANY EXPRESS OR IMPLIED WARRANTIES OR REPRESENTATIONS WITH RESPECT TO THE INFORMATION (OR THE 
+RESULTS TO BE OBTAINED BY THE USE THEREOF), AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EACH INFORMATION 
+PROVIDER EXPRESSLY DISCLAIMS ALL IMPLIED WARRANTIES (INCLUDING ANY IMPLIED WARRANTIES OF ORIGINALITY, ACCURACY, TIMELINESS, 
+SUITABILITY, NON-INFRINGEMENT, COMPLETENESS, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE) WITH RESPECT TO ANY OF 
+THE INFORMATION. Without limiting any of the foregoing and to the maximum extent permitted by applicable law, in no event shall MSCI or any other 
+Information Provider have any liability arising out of or relating to any of the Information, including for any direct, indirect, special, punitive, consequential 
+(including lost profits) or any other damages, even if notified of the possibility of such damages. The foregoing shall not exclude or limit any liability that may 
+not by applicable law be excluded or limited.   
+The Information, including index construction, ratings, historical data, or analysis, is not a prediction or guarantee of future performance, and must not be 
+relied upon as such. Past performance is not indicative of future results. The Information may contain back tested data. Back-tested performance based on 
+back-tested data is not actual performance but is hypothetical. There are frequently material differences between back tested performance results and 
+actual results subsequently achieved by any investment strategy. The Information may include “Signals,” defined as quantitative attributes or the product of 
+methods or formulas that describe or are derived from calculations using historical data. Signals are inherently backward-looking because of their use of 
+historical data, and they are inherently inaccurate, not intended to predict the future and must not be relied upon as such. The relevance, correlations and 
+accuracy of Signals frequently change materially over time.    
+The Information may include data relating to indicative prices, evaluated pricing or other information based on estimates or evaluations (collectively, 
+“Evaluations”) that are not current and do not reflect real-time traded prices. No evaluation method, including those used by the Information Providers, may 
+consistently generate evaluations or estimates that correspond to actual “traded” prices of any relevant securities or other assets. Evaluations are subject to 
+change at any time without notice and without any duty to update or inform you, may not reflect prices at which actual transactions or collateral calls may 
+occur or have occurred. The market price of securities, financial instruments, and other assets can be determined only if and when executed in the market. 
+There may be no, or may not have been any, secondary trading market for the relevant securities, financial instruments or other assets. Private capital, equity, 
+credit and other assets and their prices may be assessed infrequently, may not be priced on a secondary market, and shall not be relied upon as an explicit or 
+implicit valuation of a particular instrument. Any reliance on fair value estimates and non-market inputs introduces potential biases and subjectivity. Internal 
+Rate of Return metrics are not fully representative without full disclosure of fund cash flows, assumptions, and time horizons.   
+The Information does not constitute, and must not be relied upon as, investment advice, credit ratings, or proxy advisory or voting services. None of the 
+Information Providers, their products or services, are fiduciaries or make any recommendation, endorsement, or approval of any investment decision or asset 
+allocation. Likewise, the Information does not represent an offer to sell, a solicitation to buy, or an endorsement of any security, financial product, instrument, 
+investment vehicle, or trading strategy, whether or not linked to or in any way based on any MSCI index, rating, subcomponent, or other Information 
+(collectively, “Linked Investments”).The Information should not be relied on and is not a substitute for the skill, judgment and experience of any user when 
+making investment and other business decisions. MSCI is not responsible for any user’s compliance with applicable laws and regulations. All Information is 
+impersonal, not tailored to the needs of any person, entity or group of persons, not objectively verifiable in every respect, and may not be based on 
+information that is important to any user.   
+It is not possible to invest in an index. Exposure to an asset class or trading strategy or other category represented by an index is only available through third 
+party investable instruments (if any) based on that index. MSCI makes no assurance that any Linked Investments will accurately track index performance or 
+provide positive investment returns. Index returns do not represent results of actual trading of investible assets/securities. MSCI maintains and calculates 
+indexes but does not manage assets. The calculation of indexes and index returns may deviate from the stated methodology. Index returns do not reflect 
+payment of any sales charges or fees an investor may pay to purchase securities underlying the index or Linked Investments. The imposition of these fees 
+and charges would cause the performance of a Linked Investment to be different than the MSCI index performance.   
+Information provided by MSCI Solutions LLC and certain related entities (“MSCI Solutions”), including materials utilized in MSCI sustainability and climate 
+products, have not been submitted to, nor received approval from any regulatory body. MSCI sustainability and climate offerings, research and data are 
+produced by, and ratings are solely the opinion of MSCI Solutions. Other MSCI products and services may utilize information from MSCI Solutions, Barra LLC 
+or other affiliates. More information can be found in the relevant methodologies on www.msci.com. MSCI Indexes are administered by MSCI Limited (UK) and 
+MSCI Deutschland GmbH. No regulated use of any MSCI private real assets indexes in any jurisdiction is permitted without MSCI’s express written 
+authorization. The process for applying for MSCI’s express written authorization can be found at: https://www.msci.com/index-regulation.  
+MSCI receives compensation in connection with licensing its indexes and other Information to third parties. MSCI Inc.’s revenue includes fees based on 
+assets in Linked Investments. Information can be found in MSCI Inc.’s company filings on the Investor Relations section of msci.com. Issuers mentioned in 
+MSCI Solutions materials or their affiliates may purchase research or other products or services from one or more MSCI affiliates, manage financial products 
+such as mutual funds or ETFs rated by MSCI Solutions or its affiliates or are based on MSCI Indexes. Constituents of MSCI equity indexes are 
+listed companies, which are included in or excluded from the indexes according to the application of the relevant index methodologies. Constituents in MSCI 
+
+
+[PDF page 28]
+ 
+ 
+ 
+ 
+MSCI Global Investable Market Indexes Methodology Summary | July 2026
+msci.com  Page 28 of 28
+© 2026 MSCI Inc. All rights reserved. 
+Inc. equity indexes may include MSCI Inc., clients of MSCI or suppliers to MSCI. MSCI Solutions has taken steps to mitigate potential conflicts of interest and 
+safeguard the integrity and independence of its research and ratings.   
+MIFID2/MIFIR notice: MSCI Solutions does not distribute or act as an intermediary for financial instruments or structured deposits, nor does it deal on its own 
+account, provide execution services for others or manage client accounts. No MSCI product or service supports, promotes or is intended to support or 
+promote any such activity. MSCI Solutions is an independent provider of sustainability and climate data. All use of indicative prices for carbon credits must 
+comply with any rules specified by MSCI. All transactions in carbon credits must be traded “over-the-counter” (i.e. not on a regulated market, trading venue 
+or platform that performs a similar function to a trading venue) and result in physical delivery of the carbon credits.   
+You may not remove, alter, or obscure any attribution to MSCI or notices or disclaimers that apply to the Information. MSCI, Barra, RiskMetrics, and other 
+MSCI brands and product names are the trademarks, service marks, or registered trademarks of MSCI or its subsidiaries in the United States and other 
+jurisdictions. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P Dow Jones Indices. “Global 
+Industry Classification Standard (GICS)” is a service mark of MSCI and S&P Dow Jones Indices. Terms such as including, includes, for example, such as and 
+similar terms used herein are without limitation.   
+MSCI and its Information Providers may use automated technologies and artificial intelligence to help generate content and output incorporated in the 
+Information.   
+Privacy notice: For information about how MSCI collects and uses personal data, please refer to our Privacy Notice at: https://www.msci.com/privacy-pledge. 
+For copyright infringement claims contact us at dmca@msci.com. This notice is governed by the laws of the State of New York without regard to conflict of 
+laws principles.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

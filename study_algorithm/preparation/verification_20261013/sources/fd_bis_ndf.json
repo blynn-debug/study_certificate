@@ -1,0 +1,14 @@
+{
+  "id": "fd_bis_ndf",
+  "requested_url": "https://www.bis.org/publications/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform_1.pdf",
+  "retrieved_url": "https://www.bis.org/publications/non-deliverable-forwards-impact-currency-internationalisation-and-derivatives-reform_1.pdf",
+  "retrieved_at": "2026-10-14T00:24:10.985897+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "0eaddeb2ae71cdc2c62a0e593c07d5c32a43c1c8c9bbfd8b66ed5e7f299633cb",
+  "binary_sha256": "0eaddeb2ae71cdc2c62a0e593c07d5c32a43c1c8c9bbfd8b66ed5e7f299633cb",
+  "text_sha256": "4446cf9fcc95b88b9c5cb37bb4a3a65bde5833905203f7feb0678a6c75f80dbe",
+  "pages": 13,
+  "characters": 38055,
+  "status": "retrieved_not_claim_verified"
+}

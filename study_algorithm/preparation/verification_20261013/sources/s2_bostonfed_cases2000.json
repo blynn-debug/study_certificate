@@ -1,0 +1,11 @@
+{
+  "id": "s2_bostonfed_cases2000",
+  "requested_url": "https://www.bostonfed.org/publications/regional-review/2000/quarter-2/issues-in-finance-perils-and-pitfalls-in-risk-management.aspx",
+  "retrieved_url": "https://www.bostonfed.org/publications/regional-review/2000/quarter-2/issues-in-finance-perils-and-pitfalls-in-risk-management.aspx",
+  "retrieved_at": "2026-10-13T16:02:06.556488+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "b7db17ad82ec256ab680f5716e9d5368c00595199fbbc731fab198b131d7287c",
+  "text_sha256": "71bd496e53411554ac05f8da87556e7fde9deddc6196840ad117d2c3a9fa186f",
+  "status": "retrieved_not_claim_verified"
+}

@@ -1,0 +1,315 @@
+IFRS - IAS 39 Financial Instruments: Recognition and Measurement
+Skip to content
+Sign in or register
+Update to our sign-in process
+Phrase search
+Word search
+ABOUT US
+The IFRS Foundation is a not-for-profit, public interest organisation established to develop high-quality, understandable, enforceable and globally accepted accounting and sustainability disclosure standards.
+Our Standards are developed by our two standard-setting boards, the International Accounting Standards Board (IASB) and International Sustainability Standards Board (ISSB).
+About the IFRS Foundation
+About us
+How we set IFRS Standards
+Post-implementation Reviews
+How we support the application of our Standards
+Annual reports
+IFRS Foundation governance
+IFRS Foundation Trustees
+IFRS Foundation advisory groups
+Our structure
+Due process
+Funding
+Stay updated
+Latest news
+IFRS Foundation meeting and events calendar
+Media enquiries, press releases and speeches
+Enquiries
+Contact us
+Join our team
+Speaking requests
+IFRS ACCOUNTING
+IFRS Accounting Standards are developed by the International Accounting Standards Board (IASB). The IASB is an independent standard-setting body within the IFRS Foundation.
+IFRS Accounting Standards are, in effect, a global accounting language—companies in more than 140 jurisdictions are required to use them when reporting on their financial health. The IASB is supported by technical staff and a range of advisory bodies.
+IFRS Accounting
+International Accounting Standards Board
+IFRS Interpretations Committee
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Accounting Standards
+IFRS for SMEs Accounting Standard
+Management Commentary
+Digital financial reporting
+IFRS translations
+Integrated reporting
+Using the Standards
+Application support
+Agenda decisions
+Project work
+Open and future projects
+Open consultations
+Completed projects
+IASB prioritisation framework
+Products and services
+Products overview
+IFRS Accounting licensing
+IFRS Digital subscription
+IFRS Foundation shop
+IFRS SUSTAINABILITY
+IFRS Sustainability Disclosure Standards are developed by the International Sustainability Standards Board (ISSB). The ISSB is an independent standard-setting body within the IFRS Foundation.
+IFRS Sustainability Disclosure Standards are developed to enhance investor-company dialogue so that investors receive decision-useful, globally comparable sustainability-related disclosures that meet their information needs. The ISSB is supported by technical staff and a range of advisory bodies.
+IFRS Sustainability
+International Sustainability Standards Board
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Sustainability Disclosure Standards
+Digital financial reporting
+IFRS translations
+SASB Standards
+CDSB guidance and framework
+Integrated reporting
+TCFD recommendations
+Using the Standards
+Application support
+Knowledge hub
+Working with others
+Project work
+Open projects
+Open consultations
+Completed projects
+Products and services
+Sustainability education products overview
+IFRS Sustainability licensing
+Alliance Membership Programme
+FSA Credential
+ISSB Training Partner Programme
+ABOUT US
+About the IFRS Foundation
+About us
+How we set IFRS Standards
+Post-implementation Reviews
+How we support the application of our Standards
+Annual reports
+IFRS Foundation governance
+IFRS Foundation Trustees
+IFRS Foundation advisory groups
+Our structure
+Due process
+Funding
+Stay updated
+Latest news
+IFRS Foundation meeting and events calendar
+Media enquiries, press releases and speeches
+Enquiries
+Contact us
+Join our team
+Speaking requests
+IFRS ACCOUNTING
+IFRS Accounting
+International Accounting Standards Board
+IFRS Interpretations Committee
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Accounting Standards
+IFRS for SMEs Accounting Standard
+Management Commentary
+Digital financial reporting
+IFRS translations
+Integrated reporting
+Using the Standards
+Application support
+Agenda decisions
+Project work
+Open and future projects
+Open consultations
+Completed projects
+IASB prioritisation framework
+Products and services
+Products overview
+IFRS Accounting licensing
+IFRS Digital subscription
+IFRS Foundation shop
+IFRS SUSTAINABILITY
+IFRS Sustainability
+International Sustainability Standards Board
+Consultative bodies
+Connected information
+Around the world
+News
+Meeting and events calendar
+Updates and podcasts
+Standards and frameworks
+IFRS Sustainability Disclosure Standards
+Digital financial reporting
+IFRS translations
+SASB Standards
+CDSB guidance and framework
+Integrated reporting
+TCFD recommendations
+Using the Standards
+Application support
+Knowledge hub
+Working with others
+Project work
+Open projects
+Open consultations
+Completed projects
+Products and services
+Sustainability education products overview
+IFRS Sustainability licensing
+Alliance Membership Programme
+FSA Credential
+ISSB Training Partner Programme
+Home
+IFRS Accounting Standards Navigator
+IAS 39 Financial Instruments: Recognition and Measurement
+IAS 39 Financial Instruments: Recognition and Measurement
+Follow
+Standard 2026 Issued
+Follow - IAS 39 Financial Instruments: Recognition and Measurement ×
+You need to Sign in to use this feature
+Close
+Show Sections
+About
+Standard
+News
+About
+IAS 39 was superseded by IFRS 9 subject to:
+the accounting policy choice about whether or not to continue applying the hedge accounting requirements in IAS 39 in accordance with paragraph 7.2.21 or paragraph 6.1.3 of IFRS 9; and
+the temporary exemption in paragraph 20A of IFRS 4 that provides a temporary exemption to some insurers from applying IFRS 9 until they apply IFRS 17.
+IAS 39 establishes principles for recognising and measuring financial assets, financial liabilities and some contracts to buy or sell non-financial items. It also prescribes principles for derecognising financial instruments and for hedge accounting. The presentation and the disclosure of financial instruments are the subjects of IAS 32 and IFRS 7 respectively.
+Recognition and derecognition
+A financial instrument is recognised in the financial statements when the entity becomes a party to the financial instrument contract. An entity removes a financial liability from its statement of financial position when its obligation is extinguished. An entity removes a financial asset from its statement of financial position when its contractual rights to the asset’s cash flows expire; when it has transferred the asset and substantially all the risks and rewards of ownership; or when it has transferred the asset, and has retained some substantial risks and rewards of ownership, but the other party may sell the asset. The risks and rewards retained are recognised as an asset.
+Measurement
+A financial asset or financial liability is measured initially at fair value. Subsequent measurement depends on the category of financial instrument. Some categories are measured at amortised cost, and some at fair value. In limited circumstances other measurement bases apply, for example, certain financial guarantee contracts.
+The following are measured at amortised cost:
+held to maturity investments—non-derivative financial assets that the entity has the positive intention and ability to hold to maturity;
+loans and receivables—non-derivative financial assets with fixed or determinable payments that are not quoted in an active market; and
+financial liabilities that are not carried at fair value through profit or loss or otherwise required to be measured in accordance with another measurement basis.
+The following are measured at fair value:
+financial assets and financial liabilities held for trading—this category includes derivatives not designated as hedging instruments and financial assets and financial liabilities that the entity has designated for measurement at fair value. All changes in fair value are reported in profit or loss.
+available for sale financial assets—all financial assets that do not fall within one of the other categories. These are measured at fair value. Unrealised changes in fair value are reported in other comprehensive income. Realised changes in fair value (from sale or impairment) are reported in profit or loss at the time of realisation.
+IAS 39 sets out the conditions where special hedge accounting is permitted, and the procedures for doing hedge accounting.
+Standard history
+In April 2001 the International Accounting Standards Board (Board) adopted IAS 39 Financial Instruments: Recognition and Measurement, which had originally been issued by the International Accounting Standards Committee (IASC) in March 1999. That Standard had replaced the original IAS 39 Financial Instruments: Recognition and Measurement, which had been issued in December 1998. That original IAS 39 had replaced some parts of IAS 25 Accounting for Investments, which had been issued in March 1986.
+In December 2003 the Board issued a revised IAS 39 as part of its initial agenda of technical projects. The revised IAS 39 also incorporated an Implementation Guidance section, which replaced a series of Questions & Answers that had been developed by the IAS 39 Implementation Guidance Committee.
+Following that, the Board made further amendments to IAS 39:
+(a)            in March 2004, to enable fair value hedge accounting to be used for a portfolio hedge of interest rate risk;
+(b)            in June 2005, relating to when the fair value option could be applied;
+(c)             in July 2008, to provide application guidance to illustrate how the principles underlying hedge accounting should be applied;
+(d)            in October 2008, to allow some types of financial assets to be reclassified; and
+(e)             in March 2009, to address how some embedded derivatives should be measured if they were previously reclassified.
+In August 2005 the Board issued IFRS 7 Financial Instruments: Disclosures. Consequently, the disclosure requirements that were in IAS 39 were moved to IFRS 7.
+In September 2019 the Board amended IFRS 9 and IAS 39 by issuing Interest Rate Benchmark Reform to provide specific exceptions to hedge accounting requirements in IFRS 9 and IAS 39 for (a) highly probable requirement; (b) prospective assessments; (c) retrospective assessment (IAS 39 only); and (d) separately identifiable risk components. Interest Rate Benchmark Reform also amended IFRS 7 to add specific disclosure requirements for hedging relationships to which an entity applies the exceptions in IFRS 9 or IAS 39.
+In August 2020 the Board issued Interest Rate Benchmark Reform―Phase 2 which amended requirements in IFRS 9, IAS 39, IFRS 7, IFRS 4 and IFRS 16 relating to:
+•                changes in the basis for determining contractual cash flows of financial assets, financial liabilities and lease liabilities;
+•                hedge accounting; and
+•                disclosures.
+The Phase 2 amendments apply only to changes required by the interest rate benchmark reform to financial instruments and hedging relationships.
+Other Standards have made minor consequential amendments to IAS 39. They include IAS 1 Presentation of Financial Statements (issued September 2007), IAS 27 Consolidated and Separate Financial Statements (issued January 2008), Improvements to IFRSs (issued May 2008), Eligible Hedged Items (Amendment to IAS 39 Financial Instruments: Recognition and Measurement) (issued July 2008), Improvements to IFRSs (issued April 2009), IFRS 13 Fair Value Measurement (issued May 2011), Investment Entities (Amendments to IFRS 10, IFRS 12 and IAS 27) (issued October 2012), Novation of Derivatives and Continuation of Hedge Accounting (Amendments to IAS 39) (issued June 2013), IFRS 9 Financial Instruments (Hedge Accounting and amendments to IFRS 9, IFRS 7 and IAS 39) (issued November 2013), IFRS 15 Revenue from Contracts with Customers (issued May 2014) and IFRS 9 Financial Instruments (issued July 2014).
+In response to requests from interested parties that the accounting for financial instruments should be improved quickly, the Board divided its project to replace IAS 39 into three main phases. As the Board completed each phase, it issued chapters in IFRS 9 that replaced the corresponding requirements in IAS 39. The Board had always intended that IFRS 9 Financial Instruments would replace IAS 39 in its entirety. However, IFRS 9 permits an entity to choose as its accounting policy either to apply the hedge accounting requirements of IFRS 9 or to continue to apply the hedge accounting requirements in IAS 39. Consequently, although IFRS 9 is effective (with limited exceptions for entities that issue insurance contracts and entities applying the IFRS for SMEs Standard), IAS 39, which now contains only its requirements for hedge accounting, also remains effective.
+Related active projects
+Related completed projects
+Application of the Highly Probable Requirement when a Specific Derivative is Designated as a Hedging Instrument (IFRS 9 and IAS 39)
+Centrally Cleared Client Derivatives (IAS 32)
+Disclosures—Transfers of Financial Assets (Amendments to IFRS 7)
+Eligible Hedged Items (Amendments to IAS 39)
+Embedded Derivatives (Amendments to IFRIC 9 and IAS 39)
+IBOR Reform and its Effects on Financial Reporting—Phase 1
+IBOR Reform and its Effects on Financial Reporting—Phase 2
+IFRS Taxonomy Update—Interest Rate Benchmark Reform (Amendments to IFRS 9, IAS 39 and IFRS 7)
+IFRS Taxonomy Update—Interest Rate Benchmark Reform—Phase 2
+Novation of Derivatives and Continuation of Hedge Accounting (Amendments to IAS 39 and IFRS 9)
+Reclassification of Financial Assets (Amendments to IAS 39 and IFRS 7)
+Related IFRS Standards
+IFRS 9 Financial Instruments
+Related IFRIC Interpretations
+IFRIC 10 Interim Financial Reporting and Impairment
+IFRIC 16 Hedges of a Net Investment in a Foreign Operation
+IFRIC 19 Extinguishing Financial Liabilities with Equity Instruments
+IFRIC 9 Reassessment of Embedded Derivatives
+Unconsolidated amendments
+Implementation support
+IAS 39 supporting material
+Your privacy
+IFRS Foundation cookies
+We use cookies on ifrs.org to ensure the best user experience possible. For example, cookies allow us to manage registrations, meaning you can watch meetings and submit comment letters. Cookies that tell us how often certain content is accessed help us create better, more informative content for users.
+We do not use cookies for advertising, and do not pass any individual data to third parties.
+Some cookies are essential to the functioning of the site. Other cookies are optional, and we would like to set such cookies to help us understand how our website is used so we can make improvements to our services and to personalise your experience on our website.
+If you choose to “Accept optional cookies”, you agree to our usage of optional cookies. If you choose to “Reject optional cookies”, we will not use optional cookies.
+Select “Manage Preferences” to see additional information about cookies we use on our website and to manage which cookies you wish to allow to be used on our website.
+You can always revisit your choice on our privacy policy page.
+Accept optional cookies
+Reject optional cookies
+Manage preferences
+Cookie preferences
+Essential cookies
+Always active
+Essential cookies are required for the website to function, and therefore cannot be switched off. They include managing registrations.
+Cookie details
+Accept optional cookies
+We use analytics cookies to generate information about the usage of our website. This helps guide our content strategy to provide better, more informative content for our users. It also helps us ensure that the website is functioning correctly and that it is available as widely as possible.
+Cookie details
+Preference cookies
+Preference cookies allow us to offer additional functionality to improve the user experience on the site. Examples include choosing to stay logged in for longer than one session, or following specific content.
+Cookie details
+Accept optional cookies
+Reject optional cookies
+Save preferences
+View privacy policy page
+Cookie preferences
+Back
+Accept optional cookies
+Reject optional cookies
+Save preferences
+Share this page
+About us
+Around the world
+Contact us
+Funding
+IFRS Accounting Standards
+IFRS Sustainability Standards
+IFRS translations
+Jobs
+News and events
+Products and services
+Projects
+Shop
+Speaking requests
+Supporting implementation
+Academics
+Accounting profession
+Investors
+Media
+National standard-setters
+Preparers
+Regulators
+Students
+Stay in touch
+Register for news alerts
+The IFRS Foundation's logo and the IFRS for SMEs® logo, the IASB® logo, the ‘Hexagon Device’, IAS®, IASB®, ISSB™, IFRIC®, IFRS®, IFRS for SMEs®, IFRS Foundation®, International Accounting Standards®, International Financial Reporting Standards®,  NIIF® and SIC® are registered trade marks of the IFRS Foundation, further details of which are available from the IFRS Foundation on request.
+The International Financial Reporting Standards Foundation is a not-for-profit corporation incorporated in the State of Delaware, United States of America, with the Delaware Division of Companies (file no: 3353113), and is registered as an overseas company in England and Wales (reg no: FC023235). Head office: Columbus Building, 7 Westferry Circus, Canary Wharf, London E14 4HD, UK.
+© IFRS Foundation 2026
+Accessibility
+Modern slavery statement
+GHG emissions
+Policies
+Privacy and cookies policy
+Terms and conditions
+Trade mark guidelines
+Using our website
+Make a data protection complaint

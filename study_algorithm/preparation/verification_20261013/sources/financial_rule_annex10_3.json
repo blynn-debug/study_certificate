@@ -1,0 +1,14 @@
+{
+  "id": "financial_rule_annex10_3",
+  "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196497&bylClsCd=200201",
+  "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196497&bylClsCd=200201",
+  "retrieved_at": "2026-10-13T01:19:15.566946+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "f504ce6cab3067d94f85a9b289edeec265acc187bde6498a154c1cf8facbeaca",
+  "binary_sha256": "f504ce6cab3067d94f85a9b289edeec265acc187bde6498a154c1cf8facbeaca",
+  "text_sha256": "04fc6cd6fea2fb329e547616119df8652e4f19f42e1dd2cfac39b14ad32e3271",
+  "pages": 2,
+  "characters": 618,
+  "status": "retrieved_not_claim_verified"
+}

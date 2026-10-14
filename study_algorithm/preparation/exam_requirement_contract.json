@@ -1,0 +1,326 @@
+{
+  "version": "0.1",
+  "status": "analysis_resumed_for_supplied_target_materials",
+  "activation": {
+    "enabled": true,
+    "target_exam": "투자자산운용사",
+    "user_decision": "보류 이후 src/target의 5개 자료에 있는 기출·모의고사 등 모든 문제를 목차별로 세부 분석하라는 요청으로 재개했다.",
+    "current_work": "제공된 5개 PDF 분석과 학습비서 준비물 통합 완료. 개념별 수업에서 근거와 적용 조건을 확인하며 사용한다.",
+    "draft_boundary": "요구 수준은 제공 상업 교재에 근거한 잠정 프로필이다. 공식 기출 인증·미래 출제 확률·최신 규정의 전수 확인 결과가 아니다.",
+    "previous_deferral_history": {
+      "deferred_work": "실제 기출 수집·분석, 개념별 시험 요구 수준 확정, 그에 따른 학습 범위·암기량·완료 기준의 확정",
+      "resume_condition": "사용자가 해당 작업을 재개하면 실제 기출을 근거로 분석한다. 공식 범위·변경·채점 자료는 기출 해석의 보조 근거로 확인한다.",
+      "while_deferred": "SRC 기반 설명·이해·암기 지원 설계는 계속한다. 시험 요구 수준과 시험 적합성은 미확인으로 두고, 현재 개념을 설명하는 데 필요한 범위만 잠정 준비한다."
+    }
+  },
+  "priority": "시험 목표가 있으면 학습법·암기량·완료 기준을 정하기 전에 실행한다.",
+  "purpose": "시험이 실제로 요구하는 행동을 기준으로 비서가 설명의 깊이, 필수 기억 대상, 연습 형식과 종료 조건을 준비한다.",
+  "origin": "src의 필요한 만큼 공부하기·시험별 기억 수준·기출 분석을 사용자 요청에 맞게 구체화한 설계. 세부 데이터 형식은 설계 확장이다.",
+  "source_evidence": [
+    "Bxu7WCeoThY:141-273",
+    "vluEPc2lXaI:1-79",
+    "ciMdEAqKH7M:15-99",
+    "lAdUmpA2I14:38-134"
+  ],
+  "intake": {
+    "reuse_known_context": true,
+    "ask_only_missing_decisive_information": [
+      "시험명과 응시 시기 또는 적용 버전",
+      "목표가 합격인지 특정 점수인지",
+      "판단을 바꿀 공식 범위·예시·기출·채점 자료"
+    ],
+    "assistant_work": "자료 수집·분류·기출 요구 분석·계산은 비서가 담당한다. 모든 자료를 사용자가 분석해 오도록 요구하지 않는다.",
+    "when_missing": "확인된 범위에서 개념 설명을 시작하고 요구 수준은 잠정으로 표시한다. 자료가 없는 상태에서 출제 제외, 합격 충분성, 최종 암기량을 확정하지 않는다.",
+    "non_exam_goal": "시험을 억지로 가정하지 않고 업무·호기심 등 사용 목적의 완료 행동을 정한다.",
+    "current_information": "실제 시험 자료를 조사할 때 공식 기관 자료와 적용 시기를 확인한다. src의 과거 시험 사례를 현재 시험 사실로 사용하지 않는다."
+  },
+  "requirement_profile": {
+    "identity": [
+      "exam_name",
+      "exam_version_or_date",
+      "target_outcome"
+    ],
+    "per_concept": [
+      "official_scope",
+      "observed_question_demands",
+      "prerequisite_dependencies",
+      "required_actions",
+      "available_cues",
+      "precision",
+      "conditions_and_exceptions",
+      "transfer_demand",
+      "time_constraint",
+      "allowed_tools",
+      "scoring_constraints",
+      "learning_priority",
+      "mastery_criteria"
+    ],
+    "required_actions": [
+      "보기에서 구별",
+      "명칭·수치·조건 회상",
+      "이유·차이 설명",
+      "절차 선택과 계산",
+      "새 사례 판단",
+      "답안 구성·서술·구술",
+      "제한 시간 수행"
+    ],
+    "evidence_per_claim": [
+      "자료 위치와 문항 또는 규정",
+      "적용 시기",
+      "직접 확인·추론·미확인 구분",
+      "판단 이유"
+    ],
+    "confidence": "항목별 confirmed/provisional/unknown으로 기록한다. 출제 빈도가 높다는 것과 출제 가능성이 확정됐다는 것은 다르다.",
+    "scope_decisions": [
+      "현재 학습",
+      "선행지식으로 보충",
+      "후순위·복귀 조건 지정",
+      "목표 밖이라는 근거가 확인된 선택 확장"
+    ],
+    "scope_guard": "기출에 없다는 사실만으로 삭제하지 않는다. 공식 범위, 최근 변경, 선행 관계, 자료 부족을 함께 확인한다. 합격선 추정만으로 버릴 분량을 확정하지 않는다."
+  },
+  "routing_policy": "시험 형식의 이름만으로 요구 수준을 정하지 않는다. 객관식도 추론·계산을 요구할 수 있다. 실제 문항과 채점 근거에 따라 개념별로 필요한 행동을 여러 개 조합한다.",
+  "routing": [
+    {
+      "demand": "보기에서 조건을 구별해야 함",
+      "assistant_prepares": "개념의 뜻과 구별 기준, 혼동하기 쉬운 대비 사례, 조건 하나를 바꾼 선지",
+      "check": "표시 없는 문항에서 선택하고 결정적 근거를 확인",
+      "repair": "틀린 조건을 쉬운 두 사례로 대비한 뒤 새 문항 제공"
+    },
+    {
+      "demand": "정확한 명칭·수치·조건을 회상해야 함",
+      "assistant_prepares": "의미 구조를 먼저 설명하고 정확히 기억할 최소 항목과 연결 단서 제공",
+      "check": "요구되는 단서만 주고 해당 항목 회상, 이후 지연 확인",
+      "repair": "이해 오류인지 기억 누락인지 구별해 설명 또는 단서 수정"
+    },
+    {
+      "demand": "이유나 관계를 설명해야 함",
+      "assistant_prepares": "왜 필요한지→어떻게 작동하는지→결과의 연결, 예와 반례",
+      "check": "새 사례 또는 조건 변화에서 이유를 설명",
+      "repair": "생략된 연결·선행개념을 보충하고 다른 예로 재확인"
+    },
+    {
+      "demand": "계산·절차·사례 판단을 수행해야 함",
+      "assistant_prepares": "풀이를 고르는 단서, 단계별 이유, 관련 개념·공식, 완성 예제",
+      "check": "도움을 줄인 뒤 표면 조건이 다른 문제를 독립 수행",
+      "repair": "접근 선택·개념·계산·조건 누락 중 실패 지점만 보완"
+    },
+    {
+      "demand": "서술·구술 답안을 구성해야 함",
+      "assistant_prepares": "쟁점과 핵심어 순서, 연결 논리, 실제 요구되는 표현과 답안 예",
+      "check": "실제 형식으로 답하고 채점 기준·시간에 맞는지 확인",
+      "repair": "내용 누락·순서·표현·시간 문제를 따로 보완"
+    },
+    {
+      "demand": "시간 내 정확한 수행이 필요함",
+      "assistant_prepares": "목표 시험과 대응하는 조건, 풀이·보류·복귀 순서",
+      "check": "독립 수행의 정확도와 소요 시간",
+      "repair": "지식 부족이면 설명으로, 느린 절차면 부분 연습으로 복귀"
+    }
+  ],
+  "lesson_delivery": {
+    "first_line": "이번 개념은 [시험 근거]에 따라 [행동]을 [정확도·시간 조건]으로 할 수 있으면 된다. 미확인 부분은 별도로 밝힌다.",
+    "then": [
+      "비서가 쉬운 상황과 필요한 선행지식을 직접 설명",
+      "요구 수준에 필요한 이유·조건·예시 제공",
+      "필수 기억 대상과 이해로 복원할 부분 구분",
+      "작은 확인 질문 하나 제공",
+      "응답을 보고 재설명·암기·적용 중 다음 단계 결정"
+    ],
+    "avoid": "공부법 이름이나 자료 정리 숙제만 주고 실제 개념 설명을 생략하는 응답",
+    "understanding_floor": "요구 수준을 낮추더라도 정답에 필요한 이유와 구별 조건은 설명한다. 반대로 목표와 무관한 증명·세부를 무조건 필수로 요구하지 않는다."
+  },
+  "stage_bindings": {
+    "explain": "요구 행동을 가능하게 하는 이유·조건·선행개념을 실제로 설명한다. 불필요한 세부는 선택 확장으로 둔다.",
+    "check_understanding": "요구 행동의 작은 표본을 확인한다. 구별 목표라면 결정 조건, 계산 목표라면 접근과 한 단계, 서술 목표라면 핵심 연결을 확인한다. 모든 목표에 긴 구술 설명을 강요하지 않는다.",
+    "memory": "시험에서 제공되는 단서와 정확한 표현 요구를 반영해 반드시 회상할 항목을 고른다. 의미·조건을 잃는 압축은 하지 않는다.",
+    "guided_application": "요구되는 행동을 완성 예제로 보여준 뒤 도움을 줄인다. 관련 없는 문제 유형을 일률적으로 추가하지 않는다.",
+    "independent_application": "실제 요구 행동과 조건에 맞는 새 사례를 사용한다. 시험에서 허용되는 자료·도구와 비서의 도움을 구분한다.",
+    "training": "기본 정확성이 관찰된 뒤 실제 시간 조건을 적용한다. 느린 이유가 개념 부족이면 설명으로 돌아간다.",
+    "wrap_up": "요구 행동별 관찰된 성취와 미확인을 나눠 기록한다. 이 개념의 확인 결과만으로 전체 시험 준비 완료를 선언하지 않는다."
+  },
+  "stage_selection": "모든 단계를 매번 기계적으로 통과시키지 않는다. 확인된 요구 행동과 학습자의 관찰된 상태에 따라 필요한 단계만 선택한다. 생략된 단계가 불필요한 것인지 아직 미확인인 것인지 기록한다.",
+  "worked_example": {
+    "status": "설계 예시. 아래 요구 수준은 가정이며 실제 시험의 출제·채점 기준을 조사한 결과가 아니다.",
+    "concept": "비례관계 y = kx",
+    "shared_explanation": "공책 한 권이 3천 원이고 추가 요금이 없다면 x권의 가격 y는 3x천 원이다. 한 권을 늘릴 때마다 3천 원이 더해지고, 두 배로 사면 가격도 두 배가 된다. x가 0이 아닐 때 y/x가 늘 3이라는 점이 핵심이다. 추가 포장비 2천 원이 붙는 y=3x+2는 이 비율이 일정하지 않으므로 비례관계가 아니다.",
+    "by_requirement": [
+      {
+        "assumed_demand": "비례관계 구별",
+        "assistant_prepares": "y=3x와 y=3x+2를 위 설명으로 대비한다. 증가한다는 사실만으로 비례라고 할 수 없음을 보여준다.",
+        "memory_target": "y=kx; x가 0이 아닐 때 y/x가 일정",
+        "check_prompt": "y=5x+1이 비례관계인지 판단하고 결정 조건 하나를 짚어 보세요.",
+        "private_criterion": "비례가 아님. x=1과 2일 때 비율이 각각 6과 5.5로 달라진다는 등 타당한 근거. 답변 전 정답은 노출하지 않는다."
+      },
+      {
+        "assumed_demand": "주어진 비례관계에서 값 계산",
+        "assistant_prepares": "x=2일 때 y=6이면 한 단위당 값 k=6/2=3이다. 따라서 x=4이면 y=3×4=12다. 나눗셈으로 한 단위 값을 찾고 곱셈으로 전체 값을 복원하는 이유를 설명한다.",
+        "check_prompt": "비례관계에서 x=3일 때 y=12입니다. x=5일 때 y는 얼마인가요?",
+        "private_criterion": "k=4, y=20. 접근 선택과 계산을 구분해 확인. 다른 수치에서 독립 수행해야 한다."
+      },
+      {
+        "assumed_demand": "비례하지 않는 이유 서술",
+        "assistant_prepares": "답안 예: y=3x+2에서는 x가 1, 2일 때 y/x가 각각 5, 4이므로 비율이 일정하지 않아 비례관계가 아니다. 주장→비교 근거→결론의 연결을 설명한다.",
+        "check_prompt": "y=2x+3이 비례관계가 아닌 이유를 새로운 수치 두 개로 설명해 보세요.",
+        "private_criterion": "비율의 차이를 타당하게 보여주고 정의와 연결한다. 실제 채점 기준이 없다면 특정 문구를 필수 정답으로 확정하지 않는다."
+      }
+    ],
+    "completion_limit": "예제 설명이나 확인 문항의 준비는 학습 완료의 증거가 아니다. 사용자 응답이 오기 전 성취는 미확인이다."
+  },
+  "completion_and_revision": {
+    "criterion": "해당 목표 행동이 요구된 단서·정확성·조건·시간에서 관찰되어야 완료로 판단한다.",
+    "separate": [
+      "자료 제공 완료",
+      "도움 받아 수행",
+      "지금 독립 수행",
+      "나중에도 회상",
+      "시험 조건 수행"
+    ],
+    "not_sufficient": [
+      "정답 번호만 기억",
+      "답을 본 직후 그대로 반복",
+      "읽은 횟수",
+      "답변 없는 확인 질문",
+      "비서가 대신 완성한 풀이"
+    ],
+    "revisit_triggers": [
+      "새 공식 범위·기출·채점 기준 확보",
+      "시험 변경",
+      "새 유형에서 실패",
+      "목표 점수·응시 시기 변경"
+    ],
+    "revision_action": "영향받은 개념의 요구 수준과 자료·완료 판정만 재검토한다. 기존 성취 기록은 보존하고 더 높은 요구에 대한 확인을 추가한다."
+  },
+  "supplied_material_analysis": {
+    "status": "completed_for_supplied_materials",
+    "manifest": "target_analysis/target_manifest.json",
+    "outline": "target_analysis/outline.json",
+    "progress": "target_analysis/review_progress.json",
+    "chapter_reviews": [
+      "target_analysis/chapter_reviews/S1C1.json",
+      "target_analysis/chapter_reviews/S1C2.json",
+      "target_analysis/chapter_reviews/S1C3.json",
+      "target_analysis/chapter_reviews/S2C1.json",
+      "target_analysis/chapter_reviews/S2C2.json",
+      "target_analysis/chapter_reviews/S2C3.json",
+      "target_analysis/chapter_reviews/S2C4.json",
+      "target_analysis/chapter_reviews/S3C1.json",
+      "target_analysis/chapter_reviews/S3C2.json",
+      "target_analysis/chapter_reviews/S3C3.json",
+      "target_analysis/chapter_reviews/S3C4.json",
+      "target_analysis/chapter_reviews/S3C5.json",
+      "target_analysis/chapter_reviews/S3C6.json",
+      "target_analysis/chapter_reviews/S3C7.json",
+      "target_analysis/chapter_reviews/S3C8.json",
+      "target_analysis/chapter_reviews/S3C9.json"
+    ],
+    "integration": "개념을 받으면 목차·세부주제와 실제 문항의 demand/test를 찾고 assistant_delivery를 실제 설명으로 구현한다. memory/memorize는 기억 대상으로, check는 확인 문제로, repair는 실패 원인별 재설명으로 사용한다. 공식성·시점·정답 충돌이 미확인인 항목은 권위 있는 채점 기준으로 사용하지 않는다.",
+    "pending": [],
+    "counts": {
+      "documents": 5,
+      "pages": 1179,
+      "chapters": 16,
+      "topics": 285,
+      "standalone_questions": 2292,
+      "by_kind": {
+        "core": 285,
+        "supplement": 687,
+        "additional": 241,
+        "calculation": 129,
+        "mock": 200,
+        "warmup": 750
+      },
+      "visually_checked_pages": 229,
+      "review_notes": 357
+    },
+    "artifacts": {
+      "report": "target_analysis/analysis_report.html",
+      "question_ledger": "target_analysis/question_ledger.json",
+      "learning_routes": "target_analysis/topic_learning_routes.json",
+      "quality_issues": "target_analysis/quality_issues.json",
+      "assistant_flow": "target_analysis/study_assistant_flow.json",
+      "worked_lessons": "target_analysis/worked_lessons.json",
+      "completion_audit": "target_analysis/completion_audit.json",
+      "cross_chapter_links": "target_analysis/cross_chapter_links.json",
+      "omission_audit": "target_analysis/omission_audit.json",
+      "supplemental_evidence": "target_analysis/supplemental_evidence.json",
+      "source_page_index": "target_analysis/source_page_index.json",
+      "publisher_exam_context": "target_analysis/publisher_exam_context.json",
+      "ocr_recoveries": "target_analysis/ocr_recoveries.json"
+    },
+    "separate_followups": [
+      "실제 응시일 기준 법령·공식 범위·출판사 정오표 전수 확인",
+      "학습자 응답을 통한 실제 수업과 난이도 보정"
+    ],
+    "quality_gate": "검토 주의사항과 원문 조건을 확인하기 전 문항의 출판사 정답을 자동 채점 정답으로 승인하지 않는다.",
+    "omission_recheck": {
+      "source_pages_accounted": 1179,
+      "unassigned_pages": 0,
+      "raw_signal_candidate_pages_reviewed": 99,
+      "OCR_stems_restored": 3,
+      "standalone_items": 2292,
+      "new_standalone_items_found_in_this_recheck": 0,
+      "existing_topic_embedded_records_exposed": 354,
+      "chapter_embedded_pages_routed": 16,
+      "new_explicit_embedded_records": 13,
+      "supplemental_records_total": 383
+    }
+  },
+  "eval_system": {
+    "specification": "preparation/eval/eval_spec.json",
+    "exam_goal": "preparation/eval/exam_goal.json",
+    "item_contracts": "preparation/eval/item_contracts.json",
+    "topic_rubrics": "preparation/eval/topic_rubrics.json",
+    "report": "preparation/eval/eval_report.html",
+    "executable": "preparation/eval/evaluator.py",
+    "semantic_grader": "preparation/eval/semantic_grader.py",
+    "assistant_grader": "preparation/eval/assistant_grader.py",
+    "verification": "preparation/verification_20261013/verification_summary.json",
+    "current_claims": "preparation/verification_20261013/verified_claims.json",
+    "item_releases": "preparation/verification_20261013/item_releases.json"
+  },
+  "confirmed_exam_goal": {
+    "exam": "투자자산운용사",
+    "source": "사용자 확인 및 금융투자협회 자격시험센터의 공개 시험정보 응답",
+    "confirmation": "user_confirmed_and_officially_cross_checked_2026_10_13",
+    "official_evidence": {
+      "page": "https://license.kofia.or.kr/examInfo/examInfo.do",
+      "license_code": "FWM006",
+      "structure_snapshot": "../verification_20261013/exam_structure.json",
+      "duration_snapshot": "../verification_20261013/exam_duration.json",
+      "scope": "면제 없는 전체 시험의 구성·시간·합격 하한. 사용자 응시일을 추정하지 않는다."
+    },
+    "overall_minimum_correct_ratio": 0.7,
+    "each_subject_minimum_correct_ratio": 0.4,
+    "boundary_rule": "70%와 40%는 포함한다. 과목별 40% 미만이면 전체 점수와 관계없이 과락이다.",
+    "publisher_exam_format": {
+      "subject_question_counts": {
+        "S1": 20,
+        "S2": 30,
+        "S3": 50
+      },
+      "total_questions": 100,
+      "duration_minutes": 120,
+      "minimum_correct_counts": {
+        "overall": 70,
+        "S1": 8,
+        "S2": 12,
+        "S3": 20
+      }
+    },
+    "evaluation_priority": [
+      "자료오류와 정답노출을 먼저 통제한다.",
+      "닫힌 시험에서 과목별 40% 미달과 전체 70% 미달을 각각 판정한다.",
+      "실측 과목 점수의 최소기준까지 남은 문항수와 총점 부족분을 함께 보고한다.",
+      "과락 위험 과목의 반복 오개념과 기본 문항을 우선 보완하고, 총점 향상을 위한 학습시간 대비 회복 가능한 문항을 선택한다.",
+      "학습자 설명·회상·전이는 합격 점수를 안정적으로 확보하기 위한 진단이다. 모든 개념의 완벽한 설명을 합격의 추가 조건으로 만들지 않는다.",
+      "한 회차 점수만으로 실제 합격 확률이나 안정 합격을 보장하지 않는다."
+    ],
+    "score_integrity": [
+      "2292개 학습문항의 단순 평균을 실제100문항 시험점수로 간주하지 않는다.",
+      "미완료 연습, 힌트 사용, 이미 본 문제의 재시험, 신규 문제 시험을 구분한다.",
+      "확정되지 않은 문항은 조용히 분모에서 빼지 않고 최소·최대 가능점수와 판정보류 여부를 보고한다.",
+      "표본이 작은 주제별 정답률에 전체 시험 가중치를 임의로 적용하지 않는다."
+    ]
+  }
+}

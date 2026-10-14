@@ -1,0 +1,1918 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Consent Mode v2 - must initialize before GTM -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W59BBZV');</script>
+<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Bull Call Spread (Debit Call Spread)</title>
+    <link rel="canonical" href="https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread">
+    <meta property="og:title" content="Bull Call Spread (Debit Call Spread)">
+    <meta property="og:url" content="https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread">
+<meta property="og:type" content="website">
+    <meta property="twitter:title" content="Bull Call Spread (Debit Call Spread)">
+    <script type="application/ld&#x2B;json">
+        {"@context":"https://schema.org","@type":"WebPage","name":"Bull Call Spread (Debit Call Spread)","url":"https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread","sourceOrganization":{"@type":"Organization"}}
+    </script>
+
+
+
+    <link href="/thirdparty/pro.fontawesome.com/v5.6.3/css/all.subset.css?v=9695xK_mWG8g4uOF1jQmdBjyidxUmrYRR2SvvVky-RA" rel="stylesheet">
+<style>
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoqJ2nOeZ.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoqt2nOeZ.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoqB2nOeZ.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoqF2nOeZ.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoq92nA.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0CoqJ2nOeZ.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coqt2nOeZ.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0CoqB2nOeZ.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0CoqF2nOeZ.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Lora';
+		font-style: italic;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coq92nA.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJMkq1umA.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJFkq1umA.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJOkq1umA.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJPkq1umA.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkq0.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJMkq1umA.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJFkq1umA.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJOkq1umA.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJPkq1umA.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Lora';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/lora/v15/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkq0.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 100;
+		src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7p29NNpQ.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 100;
+		src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7g29NNpQ.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 100;
+		src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7r29NNpQ.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 100;
+		src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7q29NNpQ.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 100;
+		src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUOjIg1_i6t8kCHKm459WxZqh7k29M.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8fZwnCo.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z-PZwnCo.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8_ZwnCo.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z8vZwnCo.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZBg_z_PZw.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 300;
+		src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8fZwnCo.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 300;
+		src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz-PZwnCo.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 300;
+		src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8_ZwnCo.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 300;
+		src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz8vZwnCo.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: italic;
+		font-weight: 300;
+		src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzz_PZw.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 100;
+		src: local('Montserrat Thin'), local('Montserrat-Thin'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxC7mw9c.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 100;
+		src: local('Montserrat Thin'), local('Montserrat-Thin'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRzS7mw9c.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 100;
+		src: local('Montserrat Thin'), local('Montserrat-Thin'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxi7mw9c.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 100;
+		src: local('Montserrat Thin'), local('Montserrat-Thin'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRxy7mw9c.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 100;
+		src: local('Montserrat Thin'), local('Montserrat-Thin'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRyS7m.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3g3D_u50.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gbD_u50.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gfD_u50.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 200;
+		src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat Light'), local('Montserrat-Light'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gTD_u50.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat Light'), local('Montserrat-Light'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3g3D_u50.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat Light'), local('Montserrat-Light'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gbD_u50.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat Light'), local('Montserrat-Light'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat Light'), local('Montserrat-Light'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		src: local('Montserrat Medium'), local('Montserrat-Medium'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gTD_u50.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		src: local('Montserrat Medium'), local('Montserrat-Medium'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3g3D_u50.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		src: local('Montserrat Medium'), local('Montserrat-Medium'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gbD_u50.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		src: local('Montserrat Medium'), local('Montserrat-Medium'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gfD_u50.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		src: local('Montserrat Medium'), local('Montserrat-Medium'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gTD_u50.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3g3D_u50.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gbD_u50.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 600;
+		src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+		font-display: swap;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+		font-display: swap;
+	}
+	/* greek-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2') format('woff2');
+		unicode-range: U+1F00-1FFF;
+		font-display: swap;
+	}
+	/* greek */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2') format('woff2');
+		unicode-range: U+0370-03FF;
+		font-display: swap;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+		font-display: swap;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		font-display: swap;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 300;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		font-display: swap;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+		font-display: swap;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+		font-display: swap;
+	}
+	/* greek-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2') format('woff2');
+		unicode-range: U+1F00-1FFF;
+		font-display: swap;
+	}
+	/* greek */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2') format('woff2');
+		unicode-range: U+0370-03FF;
+		font-display: swap;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+		font-display: swap;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		font-display: swap;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		font-display: swap;
+	}
+	/* cyrillic-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufA5qW54A.woff2') format('woff2');
+		unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+		font-display: swap;
+	}
+	/* cyrillic */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufJ5qW54A.woff2') format('woff2');
+		unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+		font-display: swap;
+	}
+	/* greek-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufB5qW54A.woff2') format('woff2');
+		unicode-range: U+1F00-1FFF;
+		font-display: swap;
+	}
+	/* greek */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufO5qW54A.woff2') format('woff2');
+		unicode-range: U+0370-03FF;
+		font-display: swap;
+	}
+	/* vietnamese */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufC5qW54A.woff2') format('woff2');
+		unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+		font-display: swap;
+	}
+	/* latin-ext */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufD5qW54A.woff2') format('woff2');
+		unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+		font-display: swap;
+	}
+	/* latin */
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		font-weight: 700;
+		src: url('https://fonts.gstatic.com/s/robotoslab/v13/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2') format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		font-display: swap;
+	}
+
+	/* fallback */
+	@font-face {
+		font-family: 'Material Icons';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/materialicons/v85/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2');
+	}
+	/* fallback */
+	@font-face {
+		font-family: 'Material Icons Outlined';
+		font-style: normal;
+		font-weight: 400;
+		src: url('https://fonts.gstatic.com/s/materialiconsoutlined/v56/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2') format('woff2');
+	}
+
+	.material-icons {
+		font-family: 'Material Icons';
+		font-weight: normal;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 1;
+		letter-spacing: normal;
+		text-transform: none;
+		display: inline-block;
+		white-space: nowrap;
+		word-wrap: normal;
+		direction: ltr;
+		-webkit-font-feature-settings: 'liga';
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.material-icons-outlined {
+		font-family: 'Material Icons Outlined';
+		font-weight: normal;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 1;
+		letter-spacing: normal;
+		text-transform: none;
+		display: inline-block;
+		white-space: nowrap;
+		word-wrap: normal;
+		direction: ltr;
+		-webkit-font-feature-settings: 'liga';
+		-webkit-font-smoothing: antialiased;
+	}
+
+    @import url("//hello.myfonts.net/count/37a6c2");
+	
+	/* Gilroy */
+	@font-face {
+		font-family: 'Gilroy-Thin';
+		src: url('/fonts/Gilroy-Thin.woff2') format('woff2'),
+				 url('/fonts/37A6C2_0_0.eot'),
+				 url('/fonts/37A6C2_0_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-UltraLightItalic';
+		src: url('/fonts/37A6C2_1_0.eot');
+		src: url('/fonts/37A6C2_1_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-ThinItalic';
+		src: url('/fonts/37A6C2_2_0.eot');
+		src: url('/fonts/37A6C2_2_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-SemiBoldItalic';
+		src: url('/fonts/37A6C2_3_0.eot');
+		src: url('/fonts/37A6C2_3_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-SemiBold';
+		src: url('/fonts/37A6C2_4_0.eot');
+		src: url('/fonts/Gilroy-Semibold.woff2') format('woff2'),
+				 url('/fonts/Gilroy-Semibold.woff') format('woff'),
+				 url('/fonts/Gilroy-Semibold.ttf') format('truetype'),
+				 url('/fonts/37A6C2_4_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-UltraLight';
+		src: url('/fonts/37A6C2_5_0.eot');
+		src: url('/fonts/37A6C2_5_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Regular';
+		src: url('/fonts/37A6C2_6_0.eot');
+		src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+				 url('/fonts/Gilroy-Regular.woff') format('woff'),
+				 url('/fonts/Gilroy-Regular.ttf') format('truetype'),
+				 url('/fonts/37A6C2_6_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-RegularItalic';
+		src: url('/fonts/37A6C2_7_0.eot');
+		src: url('/fonts/37A6C2_7_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-MediumItalic';
+		src: url('/fonts/37A6C2_8_0.eot');
+		src: url('/fonts/37A6C2_8_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Medium';
+		src: url('/fonts/37A6C2_9_0.eot');
+		src: url('/fonts/Gilroy-Medium.woff2') format('woff2'),
+				 url('/fonts/Gilroy-Medium.woff') format('woff'),
+				 url('/fonts/Gilroy-Medium.ttf') format('truetype'),
+				 url('/fonts/37A6C2_9_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-LightItalic';
+		src: url('/fonts/37A6C2_A_0.eot');
+		src: url('/fonts/37A6C2_A_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Light';
+		src: url('/fonts/37A6C2_B_0.eot');
+		src: url('/fonts/37A6C2_B_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-HeavyItalic';
+		src: url('/fonts/37A6C2_C_0.eot');
+		src: url('/fonts/37A6C2_C_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Heavy';
+		src: url('/fonts/37A6C2_D_0.eot');
+		src: url('/fonts/37A6C2_D_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-ExtraBoldItalic';
+		src: url('/fonts/37A6C2_E_0.eot');
+		src: url('/fonts/37A6C2_E_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-ExtraBold';
+		src: url('/fonts/37A6C2_F_0.eot');
+		src: url('/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+				 url('/fonts/Gilroy-Extrabold.woff') format('woff'),
+				 url('/fonts/37A6C2_F_0.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/Gilroy-Extrabold.ttf') format('truetype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-BoldItalic';
+		src: url('/fonts/37A6C2_10_0.eot');
+		src: url('/fonts/37A6C2_10_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Bold';
+		src: url('/fonts/37A6C2_11_0.eot');
+		src: url('/fonts/Gilroy-Bold.woff2') format('woff2'),
+				 url('/fonts/Gilroy-Bold.woff') format('woff'),
+				 url('/fonts/37A6C2_11_0.eot?#iefix') format('embedded-opentype'),
+				 url('/fonts/Gilroy-Bold.ttf') format('truetype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-BlackItalic';
+		src: url('/fonts/37A6C2_12_0.eot');
+		src: url('/fonts/37A6C2_12_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gilroy-Black';
+		src: url('/fonts/37A6C2_13_0.eot');
+		src: url('/fonts/37A6C2_13_0.eot?#iefix') format('embedded-opentype');
+		font-display: swap;
+	}
+</style>
+<link id="maincss" href="/dist/styles/main.css?v=s4LXZw-sPCsDO15rzqeq8cXApMGy0Sah0xblu0T5_mQ" rel="preload" as="style" onload="this.rel='stylesheet'">
+<script>
+	const html = document.documentElement;
+	const head = html.querySelector('head');
+	const css = document.getElementById('maincss');
+
+	html.classList.add('no-css');
+	head.insertAdjacentHTML("beforeend", "<style>.no-css header {visibility: hidden}</style>")
+	if (css.rel === 'stylesheet' || css.sheet) {
+		html.classList.remove('no-css');
+	} else {
+		css.addEventListener("load", () => {
+			html.classList.remove('no-css');
+		});
+	}
+</script>
+<link href="/dist/styles/legacy.css?v=Ec4XM4oPx4ZUBe3UzC4-hiE-JczIRHFRHnSnhnxVVyg" rel="stylesheet">
+
+    
+    
+
+    
+
+    <link href="/getContentAsset/64cecc19-5797-4427-b442-dcbec1b960c9/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/oic-favicon.ico?language=en-US" rel="shortcut icon" type="image/x-icon" /><link href="/getContentAsset/64cecc19-5797-4427-b442-dcbec1b960c9/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/oic-favicon.ico?language=en-US" rel="icon" type="image/x-icon" />
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W59BBZV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="page ">
+        <header class="header">
+            <div class="header-rail">
+    <a class="header-logo" href="/" aria-label="Go to the Home page">
+        <img class="logo-img" src="/img/logo-light.svg?v=fYLu-uTM1O9TLdkXvYkhCncuArHuPKaHH1ChrGfVUo8" alt="The Options Industry Council" />
+    </a>
+    <div class="header-controls">
+        <div class="header-nav">
+            <button type="button" class="nav-toggle" aria-controls="primary-nav-panel" aria-expanded="false"><img src="/img/explore-white.svg" alt=""><span>Explore</span></button>
+            <div class="nav-inner" id="primary-nav-panel" role="region" aria-label="Main menu">
+                <div class="nav-rail">
+                    <a class="nav-logo" href="/" aria-label="Go to the Home page">
+                        <img src="/img/logo-dark.svg?v=2mFoKrdex0l6rEUk9pdfC6nYE0FHGE2wHvZnFlxYGZI" alt="The Options Industry Council">
+                    </a>
+                    <button type="button" class="nav-toggle" aria-controls="primary-nav-panel" aria-expanded="false"><i class="fas fa-times"></i><span>Close</span></button>
+                </div>
+
+                <div class="nav-search">
+                    <h6 class="nav-searchHeading">Search</h6>
+                    <form class="nav-searchForm" method="get" action="/search" role="search">
+                        <input name="searchtext" type="text" id="searchtext" class="nav-searchInput" placeholder="Keyword or Phrase" aria-label="Search"/>
+                        <button class="nav-searchSubmit js-searchBtn" id="btnSearch" aria-label="Search"><span class="hideVisually">Submit Search</span><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                
+<nav class="nav-main">
+    <ul class="nav-list">
+            <li class="nav-item">
+                    <a class="nav-label" href="/Home" aria-label="Home">
+                        <span>Home</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                        <a class="nav-label" href="/optionsprofessionals/options-professionals">
+                            <span>Options Professionals</span>
+                        </a>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsprofessionals/advisor-resources" aria-label="Financial Advisor Resources">
+                                                <i class="fas fa-arrow-right"></i><span>Financial Advisor Resources </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsprofessionals/institutional-investor-resources-1" aria-label="Institutional Investor Resources">
+                                                <i class="fas fa-arrow-right"></i><span>Institutional Investor Resources </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-label" href="/news" aria-label="Articles and Updates">
+                        <span>Articles and Updates</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-label" href="/Podcasts" aria-label="Podcasts">
+                        <span>Podcasts</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-label" href="/videolibrary" aria-label="Video Library">
+                        <span>Video Library</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Events</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/events/upcoming-events" aria-label="Upcoming Events">
+                                                <i class="fas fa-arrow-right"></i><span>Upcoming Events </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/events/on-demand-webinars" aria-label="On-Demand Webinars">
+                                                <i class="fas fa-arrow-right"></i><span>On-Demand Webinars </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>The Options Education Center</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/theoptionseducationcenter/occ-learning" aria-label="OCC Learning">
+                                                <i class="fas fa-arrow-right"></i><span>OCC Learning </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Options Overview</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/getting-started-with-options" aria-label="Getting Started with Options">
+                                                <i class="fas fa-arrow-right"></i><span>Getting Started with Options </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/what-is-an-option" aria-label="What is an Option?">
+                                                <i class="fas fa-arrow-right"></i><span>What is an Option? </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/options-basics" aria-label="Options Basics">
+                                                <i class="fas fa-arrow-right"></i><span>Options Basics </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/leverage-risk" aria-label="Leverage &amp; Risk">
+                                                <i class="fas fa-arrow-right"></i><span>Leverage &amp; Risk </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/exercising-options" aria-label="Exercising Options">
+                                                <i class="fas fa-arrow-right"></i><span>Exercising Options </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/what-are-the-benefits-risks" aria-label="What are the Benefits &amp; Risks?">
+                                                <i class="fas fa-arrow-right"></i><span>What are the Benefits &amp; Risks? </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/how-leaps-work" aria-label="How LEAPS&#xAE; Work">
+                                                <i class="fas fa-arrow-right"></i><span>How LEAPS&#xAE; Work </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/options-pricing" aria-label="Options Pricing">
+                                                <i class="fas fa-arrow-right"></i><span>Options Pricing </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/leaps-overview" aria-label="LEAPS&#xAE; - Options for the Long Term">
+                                                <i class="fas fa-arrow-right"></i><span>LEAPS&#xAE; - Options for the Long Term </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/availability-of-leaps" aria-label="Availability of LEAPS&#xAE;">
+                                                <i class="fas fa-arrow-right"></i><span>Availability of LEAPS&#xAE; </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/leaps-pricing" aria-label="LEAPS&#xAE; Pricing">
+                                                <i class="fas fa-arrow-right"></i><span>LEAPS&#xAE; Pricing </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/leaps-time-erosion-versus-delta-effect" aria-label="Time Erosion vs. Delta Effect">
+                                                <i class="fas fa-arrow-right"></i><span>Time Erosion vs. Delta Effect </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/optionsoverview/leaps-strategies" aria-label="LEAPS&#xAE; Strategies">
+                                                <i class="fas fa-arrow-right"></i><span>LEAPS&#xAE; Strategies </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Strategies</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/choosing-the-right-strategy" aria-label="Choosing the Right Strategy">
+                                                <i class="fas fa-arrow-right"></i><span>Choosing the Right Strategy </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/all-strategies-en" aria-label="All Strategies">
+                                                <i class="fas fa-arrow-right"></i><span>All Strategies </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/bullish-outlook" aria-label="Bullish Outlook">
+                                                <i class="fas fa-arrow-right"></i><span>Bullish Outlook </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/bearish-outlook" aria-label="Bearish Outlook">
+                                                <i class="fas fa-arrow-right"></i><span>Bearish Outlook </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/neutral-outlook" aria-label="Neutral Outlook">
+                                                <i class="fas fa-arrow-right"></i><span>Neutral Outlook </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/hedge-stock" aria-label="Hedge Stock">
+                                                <i class="fas fa-arrow-right"></i><span>Hedge Stock </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/acquire-stock" aria-label="Acquire Stock">
+                                                <i class="fas fa-arrow-right"></i><span>Acquire Stock </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/produce-income" aria-label="Produce Income">
+                                                <i class="fas fa-arrow-right"></i><span>Produce Income </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/implied-volatility-increase" aria-label="Implied Volatility Increase">
+                                                <i class="fas fa-arrow-right"></i><span>Implied Volatility Increase </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/implied-volatility-decrease" aria-label="Implied Volatility Decrease">
+                                                <i class="fas fa-arrow-right"></i><span>Implied Volatility Decrease </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/sharp-move-up-or-down" aria-label="Sharp Move Up or Down">
+                                                <i class="fas fa-arrow-right"></i><span>Sharp Move Up or Down </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/strategies/buying-index-calls-puts" aria-label="Buying Index Calls &amp; Puts">
+                                                <i class="fas fa-arrow-right"></i><span>Buying Index Calls &amp; Puts </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Advanced Concepts</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/getting-started" aria-label="Getting Started">
+                                                <i class="fas fa-arrow-right"></i><span>Getting Started </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/index-options" aria-label="Index Options">
+                                                <i class="fas fa-arrow-right"></i><span>Index Options </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/equity-vs-index-options" aria-label="Equity vs. Index Options">
+                                                <i class="fas fa-arrow-right"></i><span>Equity vs. Index Options </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/understanding-options-greeks" aria-label="Understanding Options Greeks">
+                                                <i class="fas fa-arrow-right"></i><span>Understanding Options Greeks </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/delta" aria-label="Delta">
+                                                <i class="fas fa-arrow-right"></i><span>Delta </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/gamma" aria-label="Gamma">
+                                                <i class="fas fa-arrow-right"></i><span>Gamma </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/theta" aria-label="Theta">
+                                                <i class="fas fa-arrow-right"></i><span>Theta </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/vega" aria-label="Vega">
+                                                <i class="fas fa-arrow-right"></i><span>Vega </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/rho" aria-label="Rho">
+                                                <i class="fas fa-arrow-right"></i><span>Rho </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/putting-it-all-together" aria-label="Putting It All Together">
+                                                <i class="fas fa-arrow-right"></i><span>Putting It All Together </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/volatility-the-greeks" aria-label="Volatility &amp; the Greeks">
+                                                <i class="fas fa-arrow-right"></i><span>Volatility &amp; the Greeks </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/put-call-parity" aria-label="Put/Call Parity">
+                                                <i class="fas fa-arrow-right"></i><span>Put/Call Parity </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/advancedconcepts/black-scholes-formula" aria-label="Black-Scholes Formula">
+                                                <i class="fas fa-arrow-right"></i><span>Black-Scholes Formula </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <a class="nav-label" href="/options-quotes-calculators">
+                            <span>Option Quotes &amp; Calculators</span>
+                        </a>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/trending-options-volume" aria-label="Trending Options Volume">
+                                                <i class="fas fa-arrow-right"></i><span>Trending Options Volume </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/options-monitor" aria-label="Options Monitor">
+                                                <i class="fas fa-arrow-right"></i><span>Options Monitor </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/stock-monitor" aria-label="Stock Monitor">
+                                                <i class="fas fa-arrow-right"></i><span>Stock Monitor </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/options-calculator" aria-label="Options Calculator">
+                                                <i class="fas fa-arrow-right"></i><span>Options Calculator </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/probability-calculator" aria-label="Probability Calculator">
+                                                <i class="fas fa-arrow-right"></i><span>Probability Calculator </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/pnl-calculator" aria-label="Position Profit &amp; Loss Simulator">
+                                                <i class="fas fa-arrow-right"></i><span>Position Profit &amp; Loss Simulator </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/toolsoptionquotes/historical-and-implied-volatility-new" aria-label="Historical and Implied Volatility">
+                                                <i class="fas fa-arrow-right"></i><span>Historical and Implied Volatility </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Reference Library</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/expiration-calendar" aria-label="Options Expiration Calendar">
+                                                <i class="fas fa-arrow-right"></i><span>Options Expiration Calendar </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/optionsglossary" aria-label="Options Glossary">
+                                                <i class="fas fa-arrow-right"></i><span>Options Glossary </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/faq" aria-label="FAQ">
+                                                <i class="fas fa-arrow-right"></i><span>FAQ </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/odd-quick-guide" aria-label="ODD Quick Guide">
+                                                <i class="fas fa-arrow-right"></i><span>ODD Quick Guide </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/options-product-specifications" aria-label="Options Product Specifications">
+                                                <i class="fas fa-arrow-right"></i><span>Options Product Specifications </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/brochures-and-literature" aria-label="Brochures &amp; Literature">
+                                                <i class="fas fa-arrow-right"></i><span>Brochures &amp; Literature </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/white-papers" aria-label="White Papers">
+                                                <i class="fas fa-arrow-right"></i><span>White Papers </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/research-articles" aria-label="Research">
+                                                <i class="fas fa-arrow-right"></i><span>Research </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/market-data" aria-label="Market Data">
+                                                <i class="fas fa-arrow-right"></i><span>Market Data </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/referencelibrary/related-links" aria-label="Related Links">
+                                                <i class="fas fa-arrow-right"></i><span>Related Links </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>About The Options Industry Council</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/abouttheoptionsindustrycouncil/about-oic" aria-label="About OIC">
+                                                <i class="fas fa-arrow-right"></i><span>About OIC </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/abouttheoptionsindustrycouncil/oic-biographies-en" aria-label="OIC Biographies">
+                                                <i class="fas fa-arrow-right"></i><span>OIC Biographies </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/abouttheoptionsindustrycouncil/investor-services" aria-label="Investor Education">
+                                                <i class="fas fa-arrow-right"></i><span>Investor Education </span>
+                                            </a>
+                                        </li>
+                    </ul>
+            </li>
+            <li class="nav-item">
+                        <span class="nav-label"><span>Contact</span></span>
+                    <ul class="nav-subList">
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/feedback" aria-label="Feedback &amp; Contact">
+                                                <i class="fas fa-arrow-right"></i><span>Feedback &amp; Contact </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-subItem">
+                                            <a class="nav-subLabel" href="/account/subscription-center" aria-label="Subscription Preferences">
+                                                <i class="fas fa-arrow-right"></i><span>Subscription Preferences </span>
+                                            </a>
+                                        </li>
+                                    <ul class="nav-social">
+                                            <li class="nav-socialItem">
+                                                <a class="nav-socialLabel" href="https://www.youtube.com/optionsedu" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-youtube"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-socialItem">
+                                                <a class="nav-socialLabel" href="https://www.linkedin.com/company/the-options-industry-council-oic-" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-socialItem">
+                                                <a class="nav-socialLabel" href="https://www.facebook.com/OptionsIndustryCouncil" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-socialItem">
+                                                <a class="nav-socialLabel" href="https://twitter.com/options_edu" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fab fa-x-twitter"></i>
+                                                </a>
+                                            </li>
+                                    </ul>
+                    </ul>
+            </li>
+    </ul>
+</nav>
+
+            </div>
+        </div>
+        <div id="p_lt_WebPartZone3_Login_OIC_SignIn_PnlSignIn">
+            <button id="p_lt_WebPartZone3_Login_OIC_SignIn_BtnSignIn" class="header-profile js-login-button" aria-label="Go to Login" disabled>
+								<i class="fas fa-user"></i>
+								<span>Profile</span>
+						</button>
+        </div>
+    </div>
+</div>
+ 
+        </header>
+
+        
+
+
+<main class="content legacy contentMain">
+    <div class="pageContent">
+        
+
+
+
+    
+    
+
+
+
+
+<section class="section--split section--split-desktop-swap">
+    <div class="section__inner">
+            <div class="section__rail">
+                <blue-component>
+                    <div class="strategy-highlights">
+                        <h3 class="strategy-highlights__heading">Strategy Highlights</h3>
+                        <ul class="strategy-highlights__items">
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/motivation.svg" alt="Motivation">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Motivation</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">Profit from a gain in the underlying stock&#x27;s price without the up-front capital outlay and downside risk of outright stock ownership.</div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/bullish-outlook.svg" alt="Bullish Outlook">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Bullish Outlook</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">Looking for a steady or rising stock price during the life of the options. </div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/max-gain.svg" alt="Maximum Gain">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Maximum Gain</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">The maximum gain is capped at expiration, should the stock price do even better than hoped and exceed the higher strike price. </div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/max-loss.svg" alt="Maximum Loss">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Maximum Loss</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">The maximum loss is very limited. The worst that can happen is for the stock to be below the lower strike price at expiration.</div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/time-decay.svg" alt="Time Decay">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Time Decay</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">The passage of time hurts the position, though not as much as it does a plain long call position.</div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/volatility.svg" alt="Volatility Impact">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Volatility Impact</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">Slight, all other things being equal.</div>
+                                </li>
+                                <li class="strategy-highlights__item">
+                                    <div class="strategy-highlights__item-heading">
+                                            <div class="strategy-highlights__item-icon-wrapper">
+                                                <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/expiration.svg" alt="Expiration Scenarios">
+                                            </div>
+                                        <div class="strategy-highlights__item-title">Expiration Scenarios</div>
+                                    </div>
+                                    <div class="strategy-highlights__item-description">If held into expiration this strategy entails added risk. The problem is most acute if the stock is trading just below, at or just above the short call strike.</div>
+                                </li>
+                        </ul>
+                    </div>
+                </blue-component>
+            </div>
+
+        <div class="section__main">
+            <h1 class="subPage-title">Bull Call Spread (Debit Call Spread)</h1>
+
+                <p class="subHeading">This strategy consists of buying one call option and selling another at a higher strike price to help pay the cost.</p>
+
+                <div class="strategy-highlights">
+                    <h3 class="strategy-highlights__heading">Strategy Highlights</h3>
+                    <ul class="strategy-highlights__items">
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/motivation.svg" alt="Motivation">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Motivation</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">Profit from a gain in the underlying stock&#x27;s price without the up-front capital outlay and downside risk of outright stock ownership.</div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/bullish-outlook.svg" alt="Bullish Outlook">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Bullish Outlook</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">Looking for a steady or rising stock price during the life of the options. </div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/max-gain.svg" alt="Maximum Gain">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Maximum Gain</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">The maximum gain is capped at expiration, should the stock price do even better than hoped and exceed the higher strike price. </div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/max-loss.svg" alt="Maximum Loss">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Maximum Loss</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">The maximum loss is very limited. The worst that can happen is for the stock to be below the lower strike price at expiration.</div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/time-decay.svg" alt="Time Decay">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Time Decay</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">The passage of time hurts the position, though not as much as it does a plain long call position.</div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/volatility.svg" alt="Volatility Impact">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Volatility Impact</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">Slight, all other things being equal.</div>
+                            </li>
+                            <li class="strategy-highlights__item">
+                                <div class="strategy-highlights__item-heading">
+                                        <div class="strategy-highlights__item-icon-wrapper">
+                                            <img class="strategy-highlights__item-icon" src="/img/content-images/strategy-icons/expiration.svg" alt="Expiration Scenarios">
+                                        </div>
+                                    <div class="strategy-highlights__item-title">Expiration Scenarios</div>
+                                </div>
+                                <div class="strategy-highlights__item-description">If held into expiration this strategy entails added risk. The problem is most acute if the stock is trading just below, at or just above the short call strike.</div>
+                            </li>
+                    </ul>
+                </div>
+
+                <blue-component>
+                    <div class="table-of-contents">
+                        <button class="table-of-contents__toggle" type="button" id="toc-toggle" aria-expanded="true" aria-controls="toc-content">
+                            <span class="table-of-contents__toggle-icon" aria-hidden="true"></span><span>On This Page</span>
+                        </button>
+                        <div class="table-of-contents__content" id="toc-content" role="region" aria-labelledby="toc-toggle" aria-hidden="false">
+                            <ol id="ol-toc" class="table-of-contents__list"></ol>
+                        </div>
+                    </div>
+                </blue-component>
+
+            <div class="description">
+                    <h3>Description</h3>
+<p>A bull call spread is a type of vertical spread. It contains two calls with the same expiration but different strikes. The strike price of the short call is higher than the strike of the <a href="/strategies/all-strategies/long-call">long call</a>, which means this strategy will always require an initial outlay (debit). The short call&#39;s main purpose is to help pay for the long call&#39;s upfront cost.</p>
+
+<p>Up to a certain stock price, the bull call spread works a lot like its long call component would as a standalone strategy. However, unlike with a plain long call, the upside potential is capped. That is part of the tradeoff; the short call premium mitigates the overall cost of the strategy but also sets a ceiling on the profits.</p>
+
+<p>A different pair of strike prices might work, provided that the short call strike is above the long call&#39;s. The choice is a matter of balancing risk/reward tradeoffs and a realistic forecast.</p>
+
+<div class="strategybg">
+<figure class="figure--right"><img alt="Bull Call Spread P&amp;L chart; Long 60 call (red dot), Short 65 call (green dot); Max profit above 65, Max loss below 60" height="260px" src="/getContentAsset/49d0b13f-dc64-4072-a669-53722731301b/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Bull-Call-Spread-PnL?language=en-US" title="Bull Call Spread P&amp;L chart; Long 60 call (red dot), Short 65 call (green dot); Max profit above 65, Max loss below 60" width="260px">
+<figcaption>Net Position (at expiration)</figcaption>
+</figure>
+
+<h3>Example</h3>
+
+<ul>
+	<li class="strategylinktwo">Long 1 XYZ 60 call</li>
+	<li class="strategylink">Short 1 XYZ 65 call</li>
+</ul>
+
+<p class="strategymax"><strong>MAXIMUM GAIN</strong></p>
+
+<ul>
+	<li class="strategymaxtext">High strike - low strike - net premium paid</li>
+</ul>
+
+<p class="strategymax"><strong>MAXIMUM LOSS</strong></p>
+
+<ul>
+	<li class="strategymaxtext">Net premium paid</li>
+</ul>
+</div>
+
+<p>The benefit of a higher short call strike is a higher maximum to the strategy&#39;s potential profit. The disadvantage is that the premium received is smaller, the higher the short call&#39;s strike price.&nbsp;&nbsp;</p>
+
+<p>It is interesting to compare this strategy to the <a href="/strategies/all-strategies/bull-put-spread-credit-put-spread">bull put spread</a>. The profit/loss payoff profiles are exactly the same, once adjusted for the net cost to carry. The chief difference is the timing of the cash flows. The bull call spread requires a known initial outlay for an unknown eventual return; the bull put spread produces a known initial cash inflow in exchange for a possible outlay later on.</p>
+
+<h3>Outlook</h3>
+
+<p>Looking for a steady or rising stock price during the life of the options. As with any limited-time strategy, the investor&#39;s long-term forecast for the underlying stock isn&#39;t as important, but this is probably not a suitable choice for those who have a bullish outlook past the immediate future. It would require an accurately timed forecast to pinpoint the turning point where a coming short-term dip will turn around and a long-term rally will start.</p>
+
+<h3>Summary</h3>
+
+<p>This strategy consists of buying one call option and selling another at a higher strike price to help pay the cost. The spread generally profits if the stock price moves higher, just as a regular long call strategy would, up to the point where the short call caps further gains.</p>
+
+<h3>Motivation</h3>
+
+<p>Profit from a gain in the underlying stock&#39;s price without the up-front capital outlay and downside risk of outright stock ownership.</p>
+
+<h3>Variations</h3>
+
+<p>A vertical call spread can be a bullish or bearish strategy, depending on how the strike prices are selected for the long and short positions. See <a href="/strategies/all-strategies/bear-call-spread-credit-call-spread">bear call spread</a> for the bearish counterpart.</p>
+
+<h3>Max Loss</h3>
+
+<p>The maximum loss is very limited. The worst that can happen is for the stock to be below the lower strike price at expiration.&nbsp; In that case, both call options expire worthless, and the loss incurred is simply the initial outlay for the position (the net debit).</p>
+
+<h3>Max Gain</h3>
+
+<p>The maximum gain is capped at expiration, should the stock price do even better than hoped and exceed the higher strike price. If the stock price is at or above the higher (short call) strike at expiration, in theory, the investor would exercise the long call component and presumably would be assigned on the short call. As a result, the stock is bought at the lower (long call strike) price and simultaneously sold at the higher (short call strike) price. The maximum profit then is the difference between the two strike prices, less the initial outlay (the debit) paid to establish the spread.</p>
+
+<h3>Profit/Loss</h3>
+
+<p>Both the potential profit and loss for this strategy are very limited and very well-defined: the net premium paid at the outset establishes the maximum risk, and the short call strike price sets the upper boundary beyond which further stock gains won&#39;t improve the profitability. The maximum profit is limited to the difference between the strike prices, less the debit paid to put on the position.</p>
+
+<h3>Breakeven</h3>
+
+<p>This strategy breaks even at expiration if the stock price is above the lower strike by the amount of the initial outlay (the debit). In that case, the short call would expire worthless and the long call&#39;s intrinsic value would equal the debit.</p>
+
+<p>Breakeven = long call strike + net debit paid</p>
+
+<h3>Volatility</h3>
+
+<p>Slight, all other things being equal.&nbsp; Since the strategy involves being long one call and short another with the same expiration, the effects of volatility shifts on the two contracts may offset each other to a large degree.</p>
+
+<p>Note, however, that the stock price can move in such a way that a volatility change would affect one price more than the other.</p>
+
+<h3>Time Decay</h3>
+
+<p>The passage of time hurts the position, though not as much as it does a plain long call position. Since the strategy involves being long one call and short another with the same expiration, the effects of time decay on the two contracts may offset each other to a large degree.</p>
+
+<p>Regardless of the theoretical price impact of time erosion on the two contracts, it makes sense to think the passage of time would be somewhat of a negative. This strategy requires a non-refundable initial investment. If there are to be any returns on the investment, they must be realized by expiration. As expiration nears, so does the deadline for achieving any profits.</p>
+
+<h3>Assignment Risk</h3>
+
+<p>Early assignment, while possible at any time, generally occurs only when the stock goes ex-dividend. Be warned, however, that using the long call to cover the short call assignment will require establishing a short stock position for one business day, due to the delay in assignment notification.</p>
+
+<p>And be aware, any situation where a stock is involved in a restructuring or capitalization event, such as a merger, takeover, spin-off or special dividend, could completely upset typical expectations regarding early exercise of options on the stock.</p>
+
+<h3>Expiration Risk</h3>
+
+<p>Yes. If held into expiration this strategy entails added risk. The investor cannot know for sure until the following Monday whether or not the short call was assigned. The problem is most acute if the stock is trading just below, at or just above the short call strike.</p>
+
+<p>Assume that the long call is in-the-money and that the short call is roughly at-the-money. Exercise (stock purchase) is certain, but assignment (stock sale) isn&#39;t. If the investor guesses wrong, the new position on Monday will be wrong, too. Say, assignment is expected but fails to occur; the investor will unexpectedly be long the stock on the following Monday, subject to an adverse move in the stock over the weekend. Now assume the investor bet against assignment and sold the stock in the market instead; come Monday, if assignment occurred, the investor has sold the same shares twice for a net short stock position, and is exposed to a rally in the stock price.</p>
+
+<p>Two ways to prepare: close the spread out early or be prepared for either outcome on Monday. Either way, it&#39;s important to monitor the stock, especially over the last day of trading.</p>
+
+<h3>Related Position</h3>
+
+<p>Comparable Position: <a href="/strategies/all-strategies/bull-put-spread-credit-put-spread">Bull Put Spread</a></p>
+
+<p>Opposite Position: <a href="/strategies/all-strategies/bear-call-spread-credit-call-spread">Bear Call Spread</a></p>
+
+                
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <script>
+        const mainElement = document.querySelector('main .section__main');
+        const olElement = document.getElementById('ol-toc');
+
+        if (mainElement) {
+            const h3TagsInMain = mainElement.querySelectorAll('h3');
+
+            h3TagsInMain.forEach((h3, index) => {
+                var headingId = `h3-item-${index + 1}`;
+
+                h3.id = headingId;
+
+                const li = document.createElement('li');
+                li.className = 'table-of-contents__item';
+
+                const link = document.createElement("a");
+                link.href = "#" + headingId;
+                link.textContent = h3.textContent;
+                link.ariaLabel = h3.textContent;
+                link.className = 'table-of-contents__link';
+                li.appendChild(link);
+
+                if (olElement) {
+                    olElement.appendChild(li);
+                }
+            });
+        } else {
+            console.log('No <main> element found in the document.');
+        }
+    </script>
+
+    </div>
+
+        <button class="back-top"> <i class="fal fa-long-arrow-up"></i><span>To Top</span></button>
+</main>
+
+
+
+
+
+<footer class="footer">   
+    <div class="footer-inner">
+    <nav class="footer-logos">
+        <div class="footer-logoGroups">
+            <div class="footer-logoGroup">
+                <a href="https://www.theocc.com/" target="_blank" aria-label="Go to: OCC" class="footer-logo footer-logo--occ">
+                    <img src="/getContentAsset/5ae7d693-c2f4-42bd-ab86-e195599a717f/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/logo-footer.svg?language=en-US" alt="OCC" class="footer-img" />
+                </a>
+                <p class="footer-logoGroupTitle">OCC Participant Exchanges:</p>
+            </div>
+            <div class="footer-logoGroup">
+                        <a href="https://boxoptions.com/" target="_blank" aria-label="Go to: BOX" class="footer-logo">
+                            <img src="/getContentAsset/2570bcc2-873d-4f11-a650-3c6188fd8c63/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/logo-box.png?language=en-US" alt="BOX" class="footer-img" />
+                        </a>
+                        <a href="https://www.cboe.com/" target="_blank" aria-label="Go to: Cboe" class="footer-logo">
+                            <img src="/getContentAsset/402988dd-cec5-4f58-940d-f4b837436d33/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/logo-cboe.png?language=en-US" alt="Cboe" class="footer-img" />
+                        </a>
+                        <a href="https://memx.com/" target="_blank" aria-label="Go to: MEMX" class="footer-logo">
+                            <img src="/getContentAsset/de16545b-0e18-446a-81ed-95efeea55438/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/MEMX_Logo_RBG_blueandyellow-75.png?language=en-US" alt="MEMX" class="footer-img" />
+                        </a>
+                        <a href="https://www.miaxoptions.com/" target="_blank" aria-label="Go to: Miax" class="footer-logo">
+                            <img src="/getContentAsset/39c349d4-4f96-4075-9d8c-607c27aa94b7/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/MIAX-NewLogo-Charcoal-Final-RGB-175x75.png?language=en-US" alt="Miax" class="footer-img" />
+                        </a>
+                        <a href="https://www.nasdaq.com/" target="_blank" aria-label="Go to: NASDAQ" class="footer-logo">
+                            <img src="/getContentAsset/b5fee9c4-1ba3-4e93-b677-8918af13edbf/50c2bc4c-a8ff-46ba-95c2-0e74752d147f/Nasdaq.png?language=en-US" alt="NASDAQ" class="footer-img" />
+                        </a>
+                        <a href="https://www.nyse.com/markets/nyse" target="_blank" aria-label="Go to: NYSE" class="footer-logo">
+                            <img src="/getContentAsset/99227f8d-4b70-42b9-ae23-50819701b5d8/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/logo-nyse.png?language=en-US" alt="NYSE" class="footer-img" />
+                        </a>
+            </div>
+        </div>
+    </nav>
+    <small class="footer-legal">
+        <p>OCC 125 South Franklin Street, Suite 1200 | Chicago, IL 60606</p><p></p>
+        <p>This web site discusses exchange-traded options issued by The Options Clearing Corporation. No statement in this web site is to be construed as a recommendation to purchase or sell a security, or to provide investment advice. Options involve risk and are not suitable for all investors. Prior to buying or selling an option, a person must receive a copy of <u><strong><a alt="Characteristics and Risks of Standardized Options" href="https://www.theocc.com/Company-Information/Documents-and-Archives/Options-Disclosure-Document" target="_blank">Characteristics and Risks of Standardized Options</a></strong></u>. Copies of this document may be obtained from your broker, from any exchange on which options are traded or by contacting The Options Clearing Corporation, 125 S. Franklin Street, Suite 1200, Chicago, IL 60606.<br />
+<br />
+All OIC material is provided for educational purposes only. Completing or viewing any OIC content does not guarantee that an individual has obtained a minimum level of knowledge or skill, is not an indication of investor suitability to trade options, and should not be used to determine an individual&rsquo;s trading or investing competency or sophistication. Any strategies discussed, including examples using actual securities and price data, are strictly for illustrative and educational purposes. Past performance is not a guarantee of future results.</p>
+
+        &copy;2026 The Options Clearing Corporation. All rights reserved.<br />
+&nbsp;
+        <p>User acknowledges review of the <u><strong><a href="/specialpages/termsandconditions">Terms and Conditions</a></strong></u>&nbsp;and <a href="/specialpages/privacypolicy"><b><u>Privacy Policy</u></b></a>&nbsp;governing this site. Continued use constitutes acceptance of the terms and conditions stated therein.</p>
+
+<p>&nbsp;</p>
+
+    </small>
+    <nav class="footer-social">
+                <a class="footer-socialLink" target="_blank" href="https://www.facebook.com/OptionsIndustryCouncil/" title="Facebook" aria-label="Facebook">
+                    <img aria-hidden="true" alt="" src="/getContentAsset/a5fcaddd-1071-4178-881a-029d16cf49cf/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/icon-facebook.svg?language=en-US" />
+                    <span class="hideVisually">Facebook</span>
+                </a>
+                <a class="footer-socialLink" target="_blank" href="https://twitter.com/Options_Edu" title="Twitter" aria-label="Twitter">
+                    <img aria-hidden="true" alt="" src="/getContentAsset/f626a0e7-9cc9-42bf-8e78-183baab4fff0/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/icon-x-black.svg?language=en-US" />
+                    <span class="hideVisually">Twitter</span>
+                </a>
+                <a class="footer-socialLink" target="_blank" href="https://www.linkedin.com/showcase/the-options-industry-council-oic-" title="LinkedIn" aria-label="LinkedIn">
+                    <img aria-hidden="true" alt="" src="/getContentAsset/fe19a5e5-3f94-4c8c-88af-d4dcd7102c22/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/icon-linkedin.svg?language=en-US" />
+                    <span class="hideVisually">LinkedIn</span>
+                </a>
+                <a class="footer-socialLink" target="_blank" href="https://www.youtube.com/user/OptionsEdu" title="Youtube" aria-label="Youtube">
+                    <img aria-hidden="true" alt="" src="/getContentAsset/14c999cd-325b-4834-8ee7-a04fc128b4bb/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/icon-youtube.svg?language=en-US" />
+                    <span class="hideVisually">Youtube</span>
+                </a>
+    </nav>
+</div>
+</footer>
+
+
+
+
+
+
+
+        
+    
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer crossorigin="anonymous"></script>
+<script src="/static/legacy-vendor.js?v=MDRbpm5opWXwGTSBOF8dYgdQd7lMzUz95d-nF27nuME" defer></script>
+<script src="/dist/js/polyfills.js?v=0bmiWuUBolpa0h-ycNwk3pvcYrtRa7M_zR_goeFRhT8" defer></script>
+<script src="/dist/js/index.js?v=D5YwnWxIWQPtUpOTu0lXQUZ8SvJLdBS8quh40yTJQKA" defer></script>
+<script src="/static/legacy.js?v=ROwjTmzZMFQjs4fW4Z1Bo4CDUFwUkd9mcASZPaOb46c" defer></script>
+
+
+        
+    
+
+
+
+        
+        <script type="text/javascript" src="/Kentico.Resource/Activities/KenticoActivityLogger/LoggerV2.js?webPageIdentifier=2797e6c6-fe2b-4670-b901-2684d2776c46&amp;languageName=en-US&amp;logPageVisit=True&amp;logCustomActivity=True&amp;functionName=kxt" async></script><script type="text/javascript">window['kxt']=window['kxt']||function(){(window['kxt'].q=window['kxt'].q||[]).push(arguments)};</script>
+
+        <style type="text/css">
+            .embeddedServiceHelpButton .helpButton .uiButton {
+                background-color: #005290;
+                font-family: "Arial", sans-serif;
+            }
+
+                .embeddedServiceHelpButton .helpButton .uiButton:focus {
+                    outline: 1px solid #005290;
+                }
+
+            .slds-icon_container {
+                min-height: 32px;
+                min-width: 32px;
+            }
+        </style>
+        
+        
+<div class="login-page-wrapper">
+    <link href="/styles/loginPage.css?v=JaF5dcaDsVULQbJfM-7kBKIcg3uG3a3KzWTxs2SvC_I" rel="stylesheet" />
+    <script type="module" src="/js/loginPage.js?v=8YPdXrE6bV2AJPagGHG6jkLtRNAJk0Zsyz18pWQR4P8"></script>
+    <div id="loginPage" data-token="CfDJ8GbbGJ2_nqFAnAK3iXmGISyhOGvvnOxNNIj3sPNc0Sb7xWuW8701DoPGb6ilC5b7vOwzOE_u4WFOvSkjBXMcvoDvcqbeI7aJDdWDheRAYqQPrISqljB3uyi5unnPQKzcoRPBcAyrFY3KFyOOWLgHxhI">
+        &nbsp;
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GbbGJ2_nqFAnAK3iXmGISyhOGvvnOxNNIj3sPNc0Sb7xWuW8701DoPGb6ilC5b7vOwzOE_u4WFOvSkjBXMcvoDvcqbeI7aJDdWDheRAYqQPrISqljB3uyi5unnPQKzcoRPBcAyrFY3KFyOOWLgHxhI" />
+    </div>
+</div>
+
+
+            
+
+     </div>
+     
+</body>
+</html>

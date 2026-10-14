@@ -1,0 +1,683 @@
+{
+  "count": 12,
+  "items": [
+    {
+      "id": "E01",
+      "source_question_ids": [
+        "CALC-05"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "최초 투자액은1,000원, 임대수입의 현재가치는300원, 미래 매각대금은1,250원이다. 매각대금의 현재가치계수는0.8이다. 수익성지수PI를 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "1.3",
+        "accepted_units": {
+          "ratio": "1",
+          "배": "1"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "PI는 오늘 내는 돈1원에 대해 들어올 돈의 현재가치가 얼마인지를 비교한다. 300원은 이미 오늘 가치이고 매각대금만1,250×0.8=1,000원으로 바꾼다. 따라서(300+1,000)/1,000=1.3이다."
+      },
+      "criteria": [
+        {
+          "id": "E01-01",
+          "dimension": "conditions",
+          "required_relation": "300원은 이미 현재가치이므로 다시 할인하지 않는다.",
+          "critical": true,
+          "evidence": "PI는 오늘 내는 돈1원에 대해 들어올 돈의 현재가치가 얼마인지를 비교한다. 300원은 이미 오늘 가치이고 매각대금만1,250×0.8=1,000원으로 바꾼다. 따라서(300+1,000)/1,000=1.3이다."
+        },
+        {
+          "id": "E01-02",
+          "dimension": "procedure",
+          "required_relation": "매각 현가1,000과 임대 현가300을 합해 투자액1,000으로 나눈다.",
+          "critical": true,
+          "evidence": "PI는 오늘 내는 돈1원에 대해 들어올 돈의 현재가치가 얼마인지를 비교한다. 300원은 이미 오늘 가치이고 매각대금만1,250×0.8=1,000원으로 바꾼다. 따라서(300+1,000)/1,000=1.3이다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "PI는 오늘 내는 돈1원에 대해 들어올 돈의 현재가치가 얼마인지를 비교한다. 300원은 이미 오늘 가치이고 매각대금만1,250×0.8=1,000원으로 바꾼다. 따라서(300+1,000)/1,000=1.3이다.",
+        "contrast": "(300+1,250)×0.8/1,000=1.24는 임대 현가를 두 번 할인한 오류다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "투자액500원, 임대 현가100원, 매각대금600원, 현재가치계수0.75일 때PI는?",
+          "withheld_answer": "1.1"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-05",
+          "document": "CALC",
+          "pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "source_question_ids": [
+        "CALC-14"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "판매량이200에서400으로, 영업이익이10에서50으로 증가했다. 이 구간의 영업레버리지도DOL을 변화율의 비로 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "4",
+        "accepted_units": {
+          "ratio": "1",
+          "배": "1"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "민감도는 단위가 다른 증가량을 직접 비교하지 않는다. 영업이익은 처음10의4배만큼 늘었고 판매량은 처음200의1배만큼 늘었다. 비율끼리 비교하면4/1=4다."
+      },
+      "criteria": [
+        {
+          "id": "E02-01",
+          "dimension": "procedure",
+          "required_relation": "영업이익 변화율(50-10)/10과 판매량 변화율(400-200)/200을 나눈다.",
+          "critical": true,
+          "evidence": "민감도는 단위가 다른 증가량을 직접 비교하지 않는다. 영업이익은 처음10의4배만큼 늘었고 판매량은 처음200의1배만큼 늘었다. 비율끼리 비교하면4/1=4다."
+        },
+        {
+          "id": "E02-02",
+          "dimension": "numeric_execution",
+          "required_relation": "400%/100%=4이며 증가량40/200이 아니다.",
+          "critical": false,
+          "evidence": "민감도는 단위가 다른 증가량을 직접 비교하지 않는다. 영업이익은 처음10의4배만큼 늘었고 판매량은 처음200의1배만큼 늘었다. 비율끼리 비교하면4/1=4다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "민감도는 단위가 다른 증가량을 직접 비교하지 않는다. 영업이익은 처음10의4배만큼 늘었고 판매량은 처음200의1배만큼 늘었다. 비율끼리 비교하면4/1=4다.",
+        "contrast": "40/200=0.2는 이익과 판매량의 단위가 섞인다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "판매량100→120, 영업이익20→28이면 변화율 기준DOL은?",
+          "withheld_answer": "2"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-14",
+          "document": "CALC",
+          "pages": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "source_question_ids": [
+        "CALC-21"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "시장점유율이 같은5개 기업의 HHI를 구하라. 0~1 척도 또는0~10,000 척도를 단위로 명시하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "0.2",
+        "accepted_units": {
+          "0_to_1": "1",
+          "0_to_10000": "0.0001"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "HHI는 큰 기업의 비중을 더 크게 반영하려고 각 점유율을 제곱한 뒤 더한다. 점유율20%를0.2로 쓰면5×0.04=0.2다. 20으로 쓰면5×400=2,000이다. 두 값은 척도만 다르므로 단위까지 보고 채점한다."
+      },
+      "criteria": [
+        {
+          "id": "E03-01",
+          "dimension": "procedure",
+          "required_relation": "각 점유율을 제곱해서 합한다.",
+          "critical": true,
+          "evidence": "HHI는 큰 기업의 비중을 더 크게 반영하려고 각 점유율을 제곱한 뒤 더한다. 점유율20%를0.2로 쓰면5×0.04=0.2다. 20으로 쓰면5×400=2,000이다. 두 값은 척도만 다르므로 단위까지 보고 채점한다."
+        },
+        {
+          "id": "E03-02",
+          "dimension": "numeric_execution",
+          "required_relation": "5×0.2²=0.2와5×20²=2,000의 척도를 구별한다.",
+          "critical": false,
+          "evidence": "HHI는 큰 기업의 비중을 더 크게 반영하려고 각 점유율을 제곱한 뒤 더한다. 점유율20%를0.2로 쓰면5×0.04=0.2다. 20으로 쓰면5×400=2,000이다. 두 값은 척도만 다르므로 단위까지 보고 채점한다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "HHI는 큰 기업의 비중을 더 크게 반영하려고 각 점유율을 제곱한 뒤 더한다. 점유율20%를0.2로 쓰면5×0.04=0.2다. 20으로 쓰면5×400=2,000이다. 두 값은 척도만 다르므로 단위까지 보고 채점한다.",
+        "contrast": "0.2와2,000을 단위 없이 비교하면 같은 집중도를 다른 답으로 오판한다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "동일 점유율10개 기업의 HHI를0~1척도로 구하라.",
+          "withheld_answer": "0.1"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-21",
+          "document": "CALC",
+          "pages": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "source_question_ids": [
+        "CALC-32"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "현재 자산110억원, 1년 뒤 보호할 금액100억원, 1년 무위험수익률2%, CPPI 승수3이다. 현재 위험자산 투자액을 구하라. 중간 반올림을 하지 말고 억원 단위로 답하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "35.88235294117649",
+        "accepted_units": {
+          "억원": "1",
+          "원": "0.00000001"
+        },
+        "absolute_tolerance": "0.00001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "만기에100억원을 만들려면 오늘은100/1.02≈98.039216억원이면 된다. 현재 쿠션은110-98.039216≈11.960784억원이다. 교재의 CPPI 규칙에 따라 위험투자액은 쿠션의3배, 약35.882353억원이다. 이 계산이 모든 시장에서 원금 보장을 뜻하지는 않는다."
+      },
+      "criteria": [
+        {
+          "id": "E04-01",
+          "dimension": "conditions",
+          "required_relation": "만기 보호금액100을 현재Floor100/1.02로 할인한다.",
+          "critical": true,
+          "evidence": "만기에100억원을 만들려면 오늘은100/1.02≈98.039216억원이면 된다. 현재 쿠션은110-98.039216≈11.960784억원이다. 교재의 CPPI 규칙에 따라 위험투자액은 쿠션의3배, 약35.882353억원이다. 이 계산이 모든 시장에서 원금 보장을 뜻하지는 않는다."
+        },
+        {
+          "id": "E04-02",
+          "dimension": "procedure",
+          "required_relation": "현재 자산에서 현재Floor를 뺀 쿠션에 승수3을 곱한다.",
+          "critical": true,
+          "evidence": "만기에100억원을 만들려면 오늘은100/1.02≈98.039216억원이면 된다. 현재 쿠션은110-98.039216≈11.960784억원이다. 교재의 CPPI 규칙에 따라 위험투자액은 쿠션의3배, 약35.882353억원이다. 이 계산이 모든 시장에서 원금 보장을 뜻하지는 않는다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "만기에100억원을 만들려면 오늘은100/1.02≈98.039216억원이면 된다. 현재 쿠션은110-98.039216≈11.960784억원이다. 교재의 CPPI 규칙에 따라 위험투자액은 쿠션의3배, 약35.882353억원이다. 이 계산이 모든 시장에서 원금 보장을 뜻하지는 않는다.",
+        "contrast": "(110-100)×3=30은 오늘 자산과 미래Floor를 섞었다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "현재 자산100억원, 만기Floor90억원, 금리0%, 승수2일 때 위험투자액은?",
+          "withheld_answer": "20억원"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-32",
+          "document": "CALC",
+          "pages": [
+            45
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "source_question_ids": [
+        "CALC-63-1"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "X 표준편차0.1, Y 표준편차0.2, 상관계수0이다. 두 자산의 합계비중은1이다. 최소분산 포트폴리오의 X비중을 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "0.8",
+        "accepted_units": {
+          "ratio": "1",
+          "%": "0.01"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다."
+      },
+      "criteria": [
+        {
+          "id": "E05-01",
+          "dimension": "conditions",
+          "required_relation": "상관0으로 공분산항이 사라지지만 각 자산 분산은 남는다.",
+          "critical": true,
+          "evidence": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다."
+        },
+        {
+          "id": "E05-02",
+          "dimension": "procedure",
+          "required_relation": "X비중의 분자는Y분산이며0.04/(0.01+0.04)=0.8이다.",
+          "critical": true,
+          "evidence": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다.",
+        "contrast": "표준편차0.2를 분산0.04 대신 쓰거나 X·Y분자를 바꾸면 다른 비중이 나온다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "상관0이고 두 표준편차가 모두0.2이면X비중은?",
+          "withheld_answer": "0.5"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-63-1",
+          "document": "CALC",
+          "pages": [
+            92
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "source_question_ids": [
+        "CALC-67-1"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "무위험수익률2%, 시장 기대수익률6%, 시장 표준편차0.4, 주식과 시장 수익률의 공분산0.20이다. CAPM의 요구수익률을 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "0.07",
+        "accepted_units": {
+          "ratio": "1",
+          "%": "0.01"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "베타는 시장과 함께 움직이는 정도인 공분산을 시장 자체의 분산으로 나눈다. 따라서0.20/0.16=1.25다. 기본 보상2%에 시장 위험보상4%의1.25배를 더하면7%다."
+      },
+      "criteria": [
+        {
+          "id": "E06-01",
+          "dimension": "procedure",
+          "required_relation": "β분모는 시장분산0.4²이며β=1.25이다.",
+          "critical": true,
+          "evidence": "베타는 시장과 함께 움직이는 정도인 공분산을 시장 자체의 분산으로 나눈다. 따라서0.20/0.16=1.25다. 기본 보상2%에 시장 위험보상4%의1.25배를 더하면7%다."
+        },
+        {
+          "id": "E06-02",
+          "dimension": "conditions",
+          "required_relation": "시장수익률6% 전체가 아니라 위험프리미엄6%-2%에β를 곱한다.",
+          "critical": true,
+          "evidence": "베타는 시장과 함께 움직이는 정도인 공분산을 시장 자체의 분산으로 나눈다. 따라서0.20/0.16=1.25다. 기본 보상2%에 시장 위험보상4%의1.25배를 더하면7%다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "베타는 시장과 함께 움직이는 정도인 공분산을 시장 자체의 분산으로 나눈다. 따라서0.20/0.16=1.25다. 기본 보상2%에 시장 위험보상4%의1.25배를 더하면7%다.",
+        "contrast": "0.20/0.4는 표준편차를 분모로 잘못 썼다. 2%+1.25×6%도 시장프리미엄을 혼동했다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "무위험2%, 시장6%, 베타0.5이면 요구수익률은?",
+          "withheld_answer": "4%"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-67-1",
+          "document": "CALC",
+          "pages": [
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "source_question_ids": [
+        "CALC-59"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "취업자20명, 실업자5명, 비경제활동인구25명이다. 실업률을 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "0.2",
+        "accepted_units": {
+          "ratio": "1",
+          "%": "0.01"
+        },
+        "absolute_tolerance": "0.000001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "실업률은 일하고 있거나 일을 구하는 사람 중 실업자의 비중이다. 경제활동인구는20+5=25명이고 그중5명이 실업자이므로5/25=20%다. 50명을 분모로 쓰는 경제활동참가율은25/50=50%로 다른 질문이다."
+      },
+      "criteria": [
+        {
+          "id": "E07-01",
+          "dimension": "conditions",
+          "required_relation": "실업률 분모는 경제활동인구20+5이다.",
+          "critical": true,
+          "evidence": "실업률은 일하고 있거나 일을 구하는 사람 중 실업자의 비중이다. 경제활동인구는20+5=25명이고 그중5명이 실업자이므로5/25=20%다. 50명을 분모로 쓰는 경제활동참가율은25/50=50%로 다른 질문이다."
+        },
+        {
+          "id": "E07-02",
+          "dimension": "concept_reason",
+          "required_relation": "비경제활동인구25명을 실업률 분모에 넣지 않는다.",
+          "critical": false,
+          "evidence": "실업률은 일하고 있거나 일을 구하는 사람 중 실업자의 비중이다. 경제활동인구는20+5=25명이고 그중5명이 실업자이므로5/25=20%다. 50명을 분모로 쓰는 경제활동참가율은25/50=50%로 다른 질문이다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "실업률은 일하고 있거나 일을 구하는 사람 중 실업자의 비중이다. 경제활동인구는20+5=25명이고 그중5명이 실업자이므로5/25=20%다. 50명을 분모로 쓰는 경제활동참가율은25/50=50%로 다른 질문이다.",
+        "contrast": "5/50=10%는 생산가능인구 대비 실업자 비율이지 여기서 묻는 실업률이 아니다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "취업자18명, 실업자2명, 비경제활동인구30명이면 실업률은?",
+          "withheld_answer": "10%"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-59",
+          "document": "CALC",
+          "pages": [
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "source_question_ids": [
+        "CALC-60"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "BSI 조사100명 중 호전40명, 악화30명, 변화없음30명이다. 100+(호전-악화)/전체×100 방식의 BSI를 구하라.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "110",
+        "accepted_units": {
+          "index": "1",
+          "지수": "1"
+        },
+        "absolute_tolerance": "0"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "BSI는 긍정과 부정이 같을 때100이다. 여기서는 호전이 악화보다10명 더 많고 전체100명의10%에 해당하므로 기준100에10을 더해110이다. 변화없음30명도 전체응답자 분모에는 들어간다."
+      },
+      "criteria": [
+        {
+          "id": "E08-01",
+          "dimension": "conditions",
+          "required_relation": "중립 응답이 있으므로 호전비중×200 약식을 사용하지 않는다.",
+          "critical": true,
+          "evidence": "BSI는 긍정과 부정이 같을 때100이다. 여기서는 호전이 악화보다10명 더 많고 전체100명의10%에 해당하므로 기준100에10을 더해110이다. 변화없음30명도 전체응답자 분모에는 들어간다."
+        },
+        {
+          "id": "E08-02",
+          "dimension": "procedure",
+          "required_relation": "100+(40-30)/100×100=110으로 계산한다.",
+          "critical": true,
+          "evidence": "BSI는 긍정과 부정이 같을 때100이다. 여기서는 호전이 악화보다10명 더 많고 전체100명의10%에 해당하므로 기준100에10을 더해110이다. 변화없음30명도 전체응답자 분모에는 들어간다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "BSI는 긍정과 부정이 같을 때100이다. 여기서는 호전이 악화보다10명 더 많고 전체100명의10%에 해당하므로 기준100에10을 더해110이다. 변화없음30명도 전체응답자 분모에는 들어간다.",
+        "contrast": "40/100×200=80은 중립 응답이 없는 교재 예시의 약식을 잘못 확장했다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "전체100명 중 호전30명, 악화30명, 중립40명이면BSI는?",
+          "withheld_answer": "100"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-60",
+          "document": "CALC",
+          "pages": [
+            88
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "source_question_ids": [
+        "MOCK-2-Q089"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "월간 펀드수익률12%, 무위험수익률2%, 표준편차20%이다. 수익률은12배, 표준편차는√12배로 연율화한다는 가정에서 연간 샤프비율을 구하라. 중간 반올림 금지.",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 필드로 입력. 이해 진단 모드에서는 풀이를 별도로 받는다.",
+      "answer": {
+        "type": "numeric",
+        "value": "1.7320508075688772",
+        "accepted_units": {
+          "ratio": "1"
+        },
+        "absolute_tolerance": "0.00001"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "월간 초과수익률은12%-2%=10%, 월간 샤프는10%/20%=0.5다. 명시한 연율화에서는 분자가12배, 분모가√12배여서 전체는√12배, 약1.732051이다. 교재의1.74는 분모를0.69로 먼저 반올림해서 생긴 차이다."
+      },
+      "criteria": [
+        {
+          "id": "E09-01",
+          "dimension": "conditions",
+          "required_relation": "월간 초과수익률과 월간 표준편차의 기간을 일치시킨다.",
+          "critical": true,
+          "evidence": "월간 초과수익률은12%-2%=10%, 월간 샤프는10%/20%=0.5다. 명시한 연율화에서는 분자가12배, 분모가√12배여서 전체는√12배, 약1.732051이다. 교재의1.74는 분모를0.69로 먼저 반올림해서 생긴 차이다."
+        },
+        {
+          "id": "E09-02",
+          "dimension": "numeric_execution",
+          "required_relation": "0.5×√12≈1.7320508로 마지막에 반올림한다.",
+          "critical": false,
+          "evidence": "월간 초과수익률은12%-2%=10%, 월간 샤프는10%/20%=0.5다. 명시한 연율화에서는 분자가12배, 분모가√12배여서 전체는√12배, 약1.732051이다. 교재의1.74는 분모를0.69로 먼저 반올림해서 생긴 차이다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "월간 초과수익률은12%-2%=10%, 월간 샤프는10%/20%=0.5다. 명시한 연율화에서는 분자가12배, 분모가√12배여서 전체는√12배, 약1.732051이다. 교재의1.74는 분모를0.69로 먼저 반올림해서 생긴 차이다.",
+        "contrast": "연율화 가정은 수익률 자기상관 등 실제 조건과 따로 검토해야 한다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "같은 연율화 가정에서 월간 샤프가1이면 연간 샤프는?",
+          "withheld_answer": "sqrt(12)≈3.464102"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "MOCK-2-Q089",
+          "document": "MOCK",
+          "pages": [
+            51,
+            75
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "source_question_ids": [
+        "S3C9T06-CORE"
+      ],
+      "origin": "source_conflict_control",
+      "prompt_reviewed": true,
+      "prompt": "출판사 정답④와 별개로③의 '베타=최적 위험보상비율'도 부적절하다는 이의가 있다. 이 원문 문항의 단일 정답을 학습자 자동 채점에 사용할 수 있는가?",
+      "response_format": "비서 품질 진단용. 채점 보류 사유를 서술한다.",
+      "answer": {
+        "type": "choice",
+        "value": "④"
+      },
+      "release": {
+        "state": "conflicting_or_ambiguous",
+        "reason": "단일정답 전제가 해결되지 않았다.",
+        "evidence": "P3 PDF452; review_log.json S3C9"
+      },
+      "criteria": [
+        {
+          "id": "E10-01",
+          "dimension": "source_issue",
+          "critical": true,
+          "required_relation": "출판사 의도와 검증된 단일정답을 구별하고 학습자 점수 판정을 보류한다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "베타는 시장수익률 변화에 대한 민감도다. 위험보상비율과 동일하지 않다.",
+        "next_probe": {
+          "prompt": "공분산0.02, 시장분산0.01이면베타는?",
+          "withheld_answer": "2"
+        }
+      },
+      "source_locations": [
+        {
+          "id": "S3C9T06-CORE",
+          "document": "P3",
+          "pages": [
+            452
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "source_question_ids": [
+        "CALC-63-1"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "X 표준편차0.1, Y 표준편차0.2, 상관계수0이다. 두 자산의 합계비중은1이다. 최소분산 포트폴리오의 X비중을 구하라. ①0.2 ②0.4 ③0.6 ④0.8",
+      "prompt_reviewed": true,
+      "response_format": "선택지 번호 하나",
+      "answer": {
+        "type": "choice",
+        "value": "④"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시한 조건에서 직접 재계산한 수치·관계. 실제 법령이나 투자 권고가 아니다.",
+        "evidence": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다."
+      },
+      "criteria": [
+        {
+          "id": "E11-01",
+          "dimension": "exam_answer",
+          "required_relation": "④를 선택한다. 이유 미제출은 이해 미관측이며 시험점수 감점이 아니다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "X가 덜 흔들리므로 최소분산 조합에서는X비중이 더 높다. V(w)=0.01w²+0.04(1-w)²를 최소화하면0.02w-0.08(1-w)=0, w=0.8이다. 교재 첫줄60%와 달리 뒤의 계산과 정답은80%다.",
+        "contrast": "표준편차0.2를 분산0.04 대신 쓰거나 X·Y분자를 바꾸면 다른 비중이 나온다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "상관0이고 두 표준편차가 모두0.2이면X비중은?",
+          "withheld_answer": "0.5"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-63-1",
+          "document": "CALC",
+          "pages": [
+            92
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "source_question_ids": [
+        "CALC-43-2"
+      ],
+      "origin": "reviewer_authored_clean_restatement_or_variant",
+      "prompt": "개시증거금120억원, 유지증거금80억원, 일일정산 후 잔액90억원이다. 잔액이 유지증거금 미만일 때만 개시증거금까지 보충하는 규칙이다. 추가 납부액은?",
+      "prompt_reviewed": true,
+      "response_format": "수치와 단위를 별도 입력",
+      "answer": {
+        "type": "numeric",
+        "value": "0",
+        "accepted_units": {
+          "억원": "1",
+          "원": "0.00000001"
+        },
+        "absolute_tolerance": "0"
+      },
+      "release": {
+        "state": "adjudicated_under_explicit_assumptions",
+        "reason": "명시 조건에서 독립 산술 검증",
+        "evidence": "개시증거금은 처음 맡기는 기준이고 유지증거금은 추가 납부가 발생하는 문턱이다. 현재90은 유지80보다 높아 문턱을 넘지 않았다. 따라서 추가 납부는0이다. 개시120과의 차이30은 마진콜이 발생한 경우에만 보충액이 될 수 있다."
+      },
+      "criteria": [
+        {
+          "id": "E12-01",
+          "dimension": "conditions",
+          "required_relation": "90이80보다 작지 않으므로 마진콜 조건이 성립하지 않는다.",
+          "critical": true,
+          "evidence": "개시증거금은 처음 맡기는 기준이고 유지증거금은 추가 납부가 발생하는 문턱이다. 현재90은 유지80보다 높아 문턱을 넘지 않았다. 따라서 추가 납부는0이다. 개시120과의 차이30은 마진콜이 발생한 경우에만 보충액이 될 수 있다."
+        },
+        {
+          "id": "E12-02",
+          "dimension": "procedure",
+          "required_relation": "조건이 거짓이면 개시액과 차이30을 계산해 납부시키지 않는다.",
+          "critical": true,
+          "evidence": "개시증거금은 처음 맡기는 기준이고 유지증거금은 추가 납부가 발생하는 문턱이다. 현재90은 유지80보다 높아 문턱을 넘지 않았다. 따라서 추가 납부는0이다. 개시120과의 차이30은 마진콜이 발생한 경우에만 보충액이 될 수 있다."
+        }
+      ],
+      "repair": {
+        "actual_explanation": "개시증거금은 처음 맡기는 기준이고 유지증거금은 추가 납부가 발생하는 문턱이다. 현재90은 유지80보다 높아 문턱을 넘지 않았다. 따라서 추가 납부는0이다. 개시120과의 차이30은 마진콜이 발생한 경우에만 보충액이 될 수 있다.",
+        "contrast": "개시액에 못 미치면 항상 보충한다고 생각하면30억원을 잘못 납부시킨다.",
+        "memory_card": "공식 이름만 외우지 말고, 이 사례에서 조건→분모·시점→출력의 연결을 회상한다.",
+        "next_probe": {
+          "prompt": "같은 개시120·유지80에서 잔액이70이면 추가 납부액은?",
+          "withheld_answer": "50억원"
+        },
+        "sequence": "비서가 설명과 대비를 제공→한 단계 확인→답을 숨긴 확인→노출 시각을 기록한 지연 확인"
+      },
+      "source_locations": [
+        {
+          "id": "CALC-43-2",
+          "document": "CALC",
+          "pages": [
+            62
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-10-14",
+  "items": [
+    {
+      "id": "S3C1T02-CORE",
+      "status": "held",
+      "finding": "P3:7의 가~라 실질업무종사자4유형과출판답④를재독했다. 윤리가자격·유급여부만으로사라지지않는다는교육취지와개별윤리준칙의적용·제재대상은다르다. CFA공식Code페이지는회원·CFA응시자·CIPM응시자에게준수의무를부과하므로무보수·무고용·무자격의모든사람까지독립적으로확정하는근거가되지않는다. 일반도덕적권고를법정의무로바꾸거나회원자격을새로넣어원문범위를줄이지않고유지한다.",
+      "new_evidence": ["sources/s3_cfa_ethics_scope.txt", "https://www.cfainstitute.org/standards/professionals/code-ethics-standards"],
+      "remaining_evidence": "TARGET가사용한일체의자에관한공식국내교육기준또는해당정의의원전; 네유형모두를동일규범범위에서다루는직접근거"
+    },
+    {
+      "id": "S3C4T19-CORE",
+      "status": "held",
+      "finding": "P3:242전보기재독. 무위험수익0,벤치마크Rm,자산배분을재량으로정하는활성운용펀드들이모두Rp=0.5Rm를선택하는가능한표본을생각하면모두총위험이낮아상하가동수일필요가없다. 모두같은액티브규칙을택한표본은수익분포도동일하므로②③대등빈도는정의가아닌실증가정이다. 또한회귀잔차ε=Rp-βRm=0이어도추적오차sd(Rp-Rm)=0.5σm>0이므로잔차위험=TE혼용도교정해야한다. 보기②③을새명제로교체해야단일답④가되므로보류.",
+      "new_evidence": ["독립대수계산: beta=0.5, residual=0, total_sigma=0.5*benchmark_sigma, TE=0.5*benchmark_sigma"],
+      "remaining_evidence": "교재가가정한액티브·패시브펀드표본,시점,분포도및잔차위험정의"
+    },
+    {
+      "id": "S3C4T19-SUP-01",
+      "status": "held",
+      "finding": "P3:243의ETF/Enhanced/LargeCap/SmallCap네명칭만으로잔차위험의크기를정할수없다. 작은주식들로구성한SmallCap지수를정확히복제하면해당지수에대한잔차0도가능하고,대형주한종목집중운용에는잔차가남을수있다. ETF는거래형식이며자동으로모든상품이패시브인것도아니다. 스타일명이최대잔차를함의하지않으므로④를보편정답으로승인하지않는다.",
+      "new_evidence": ["독립구성반례: 동일벤치마크와완전복제면Rp=Rb, 잔차=0"],
+      "remaining_evidence": "네상품의실제벤치마크·편입내역·활성비중·잔차모형과원문이의도한비교표본"
+    },
+    {
+      "id": "NOTE-S3C4-Q047",
+      "status": "held",
+      "finding": "액티브총위험이패시브보다큰것과작은것의비율이대등하다는것은정의로도출되지않는다. 액티브재량으로전부β=0.5노출을택한표본은σp=0.5σb여서전부낮을수있다. 위아래빈도는기간·표본이필요하다.",
+      "new_evidence": ["독립대수반례 Rp=0.5Rb"],
+      "remaining_evidence": "원문의대등빈도를지지하는동일기간·표본통계"
+    },
+    {
+      "id": "NOTE-S3C4-Q048",
+      "status": "held",
+      "finding": "β=0.5인Rp=0.5Rm는시장모형잔차0이나벤치마크추적오차0.5σm이다. 비체계적잔차와벤치마크차이의표준편차를동일어로암기하면틀린다. 원문잔차의뜻과표본미확정이므로보류.",
+      "new_evidence": ["독립대수반례 epsilon=0, TE=0.5sigma_m"],
+      "remaining_evidence": "교재잔차위험정의및패시브와비교하는회귀벤치마크"
+    },
+    {
+      "id": "S3C6T18-CORE",
+      "status": "held",
+      "finding": "P3:356실제그림은K/S가증가할수록IV상승하는양의스큐다. CBOE백서2쪽의1987후S&P500도식은반대로낮은행사가풋쪽이높고높은행사가콜쪽이낮다. 따라서그림판독①참·②거짓과함께역사명제③도그대로참이라고할수없다. 그림을반전하고①도바꾸면원문핵심그림과보기범위를함께변경하게되므로②단일답승인보류.",
+      "new_evidence": ["P3:356 PDF직접시각확인", "sources/s3_cboe_skew_whitepaper.pdf:2", "https://cdn.cboe.com/resources/indices/documents/SKEWwhitepaperjan2011.pdf"],
+      "remaining_evidence": "출판사정오표또는원문그림이실제로다른기초자산·시장·축을뜻했다는원전"
+    },
+    {
+      "id": "NOTE-S3C6-Q036",
+      "status": "held",
+      "finding": "원문은양의스큐형태와1987년이후역사명제를묶었다. 단조비대칭곡선을스머크라부르는명칭과,1987년후S&P500에서나타난음의행사가스큐는구별해야한다. CBOE직접근거로그방향충돌을확인했으므로용어정답만맞다고전체발문승인하지않는다.",
+      "new_evidence": ["NOTE:74원문", "sources/s3_cboe_skew_whitepaper.pdf:2"],
+      "remaining_evidence": "기초자산및콜/풋·가로축방향명시를포함한출판사최소교정"
+    }
+  ]
+}

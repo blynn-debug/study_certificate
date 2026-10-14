@@ -1,0 +1,18 @@
+{
+  "id": "income_2017_legacy",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=188354&chrClsCd=010202&urlMode=lsInfoP&efYd=20170101&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=188354&chrClsCd=010202&urlMode=lsInfoP&efYd=20170101&ancYnChk=0",
+  "retrieved_at": "2026-10-13T03:26:56.350404+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 245271,
+  "content_sha256": "66d0d3566a04e874c87bd2c9ec755f8103527bda1575180e59fd37f8ac8667c2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2017",
+      "1",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "kofia_terms",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1334&seq=141",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1334&seq=141",
+  "retrieved_at": "2026-10-13T00:01:47.158318+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 4609,
+  "content_sha256": "6ba965dbc6aa97cb6df84ccc292de4eb45989801c5408c7e6ca29bfee9cb2a22",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자회사의 약관운용에 관한 규정",
+  "kofia_seq": "141",
+  "history_seq": "1334",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

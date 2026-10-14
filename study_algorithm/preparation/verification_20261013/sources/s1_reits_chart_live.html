@@ -1,0 +1,3018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>리츠정보시스템 대국민 홈페이지</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+          name="viewport">
+    <meta content="strict-origin-when-cross-origin" name="referrer">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+
+    <!-- 공통 css 위치 -->
+    <link rel="shortcut icon" href="/pub/static/pub/img/favicon.png"/>
+
+    <link rel="stylesheet" href="/pub/static/pub/css/reset.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/swiper.min.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/ui.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/style.css"/>
+    <link rel="stylesheet" href="/pub/static/css/datepicker.min.css"/>
+
+    <link rel="stylesheet" href="/pub/static/pub/css/header.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/footer.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/stat.css"/>
+    <link rel="stylesheet" href="/pub/static/css/reitsAccessibility.css"/>
+
+    <link rel="stylesheet" href="/pub/static/pub/css/header.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/footer.css"/>
+    <link rel="stylesheet" href="/pub/static/pub/css/stat.css"/>
+
+    <!-- 컨텐츠페이지의 css 영역 -->
+    
+    
+
+    <!-- 공통으로 쓰이는 script 영역 -->
+    <script src="/pub/static/js/jquery/jquery.min.js"></script>
+    <script src="/pub/static/js/cmm/jquery.extend.js"></script>
+    <script src="/pub/static/js/jquery/jquery-ui-1.12.1.js"></script>
+
+    <script src="/pub/static/js/kendo-ui/kendo.all.min.js"></script>
+    <script src="/pub/static/js/kendo-ui/cultures/kendo.culture.ko-KR.min.js"></script>
+    <script src="/pub/static/js/kendo-ui/messages/kendo.messages.ko-KR.js"></script>
+    <script src="/pub/static/webjars/echarts/5.4.2/dist/echarts.min.js"></script>
+    <script src="/pub/static/webjars/echarts/5.4.2/i18n/langKO.js"></script>
+    <script src="/pub/static/webjars/echarts/5.4.2/i18n/langKO-obj.js"></script>
+
+    <script src="/pub/static/js/swiperjs/swiperjs.js"></script>
+    <script src="/pub/static/js/datepicker/datepicker.min.js"></script>
+    <script src="/pub/static/js/datepicker/datepicker.ko.js"></script>
+    <script src="/pub/static/webjars/moment/2.29.4/min/moment.min.js"></script>
+    <script src="/pub/static/webjars/moment/2.29.4/locale/ko.js"></script>
+    <script src="/pub/static/raonkupload/js/raonkupload.js"></script>
+    <script src="/pub/static/raonkupload/js/jszip/jszip.js"></script>
+    <script src="/pub/static/js/cmm/REITS.js?ver=20261014"></script>
+    <script src="/pub/static/js/cmm/PAGING.js"></script>
+    <script src="/pub/static/js/cmm/ECHARTS.js"></script>
+
+    <!--<script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=ylk476tm7k&submodules=geocoder" type="text/javascript"></script>-->
+
+    <script src="/pub/static/pub/js/ui.js"></script>
+    <script src="/pub/static/pub/js/header.js"></script>
+    <script src="/pub/static/pub/js/include.js"></script>
+
+    <script src="/pub/static/pub/js/jquery.rwdImageMaps.min.js"></script>
+    <script src="/pub/static/pub/js/waypoints.min.js"></script>
+    <script src="/pub/static/pub/js/jquery.counterup.min.js"></script>
+    <script src="/pub/static/pub/js/interact.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-14E6EPV0QS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-14E6EPV0QS');
+    </script>
+
+    <!--  휴대폰본인인증 운영 URL :-->
+    <script src="https://cert.mobile-ok.com/resources/js/index.js"></script>
+
+    <script type="text/javascript">
+        const contextPath = "/pub";
+        REITS.setContextPath(contextPath);
+
+        $('.list-toggle-btn').on('click', function () {
+            if ($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                $('.form-wrap .list-wrap').removeClass('active');
+
+            } else {
+                $(this).addClass('active');
+                $('.form-wrap .list-wrap').addClass('active');
+            }
+        })
+
+        const dataRowToggle = (e) => {
+            // 전체 non active
+            let obj = $(e).parents('.data-body-box');
+
+            obj.children().each(function (x) {
+                $(this).removeClass('active');
+            });
+
+            // 선택객체 active
+            let _target = $(e).parents('.data-item-box');
+            _target.addClass('active');
+        }
+        
+        const dataRowToggleNew = (event, e) => {
+
+        const _source = $(e || event.currentTarget || event.target);
+        const _eventTarget = event && event.target ? $(event.target) : _source;
+        if (!_eventTarget.closest('.toggle-btn').length && _eventTarget.closest('a, button, input, select, textarea, label').length) {
+            return;
+        }
+
+        if (event && event.preventDefault) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+
+        let _target = _source.closest('.data-item-box');
+        let _button = _target.find('> .data-item-cell > .item-head-box .toggle-btn').first();
+
+        if (_target.hasClass('active')) {
+            _target.removeClass('active');
+            _button.attr('aria-expanded', 'false');
+        } else {
+            const _body = _target.closest('.data-body-box');
+            _body.find('.data-item-box.active').not(_target).each(function () {
+                $(this).removeClass('active');
+                $(this).find('> .data-item-cell > .item-head-box .toggle-btn').first().attr('aria-expanded', 'false');
+            });
+            _target.addClass('active');
+            _button.attr('aria-expanded', 'true');
+        }
+    }
+    </script>
+
+    <!-- 컨텐츠페이지의 스크립트 라이브러리 영역 -->
+    
+
+    <!-- 컨텐츠페이지의 스크립트 영역 -->
+    <script>
+    let g_chart1_data = { max_cnt: 0, max_cost: 0, cost_rate: [] };
+    let g_chart2_data = { max_cnt: 0, max_cost: 0, cost_rate: [] };
+
+    let echart1_1, echart1_2, echart2_1, echart2_2, echart3;
+
+    $(document).ready(() => {
+        let dom1_1 = document.getElementById('chart01_1');
+        echart1_1 = echarts.init(dom1_1, null, { renderer: 'canvas', useDirtyRect: false });
+
+        let dom1_2 = document.getElementById('chart01_2');
+        echart1_2 = echarts.init(dom1_2, null, { renderer: 'canvas', useDirtyRect: false });
+
+        let dom2_1 = document.getElementById('chart02_1');
+        echart2_1 = echarts.init(dom2_1, null, { renderer: 'canvas', useDirtyRect: false });
+
+        let dom2_2 = document.getElementById('chart02_2');
+        echart2_2 = echarts.init(dom2_2, null, { renderer: 'canvas', useDirtyRect: false });
+
+        let dom3 = document.getElementById('chart03');
+        echart3 = echarts.init(dom3, null, { renderer: 'canvas', useDirtyRect: false });
+
+        fn_init_selectbox();
+
+        fn_search1();
+        fn_search2();
+        fn_search3();
+
+        REITS.getElId('#toYearMt').on('change', function() {
+            fn_search1();
+            fn_search2();
+            fn_search3();
+        });
+    });
+
+    function fn_init_selectbox() {
+        let from = 2017, to = new Date().getFullYear();
+        let now_mon = new Date().getMonth();
+        let full_mon = '';
+
+        for (let x = to; x >= from; x--) {
+            if (x === 2017) {
+                REITS.getElId('#toYearMt').append('<option value="201712">2017년 12월</option>');
+                REITS.getElId('#toYearMt').append('<option value="201711">2017년 11월</option>');
+                REITS.getElId('#toYearMt').append('<option value="201710">2017년 10월</option>');
+                REITS.getElId('#toYearMt').append('<option value="201709">2017년 09월</option>');
+                REITS.getElId('#toYearMt').append('<option value="201708">2017년 08월</option>');
+                REITS.getElId('#toYearMt').append('<option value="201707">2017년 07월</option>');
+
+            } else if (x === to) {
+                for (let z = now_mon; z >= 1; z--) {
+                    if (z < 10) {
+                        full_mon = '0' + z;
+
+                    } else {
+                        full_mon = z;
+                    }
+
+                    REITS.getElId('#toYearMt').append('<option value=' + x + full_mon + '>' + x + '년 ' + full_mon + '월' + '</option>');
+                }
+
+            } else {
+                for (let z = 12; z >= 1; z--) {
+                    if (z < 10) {
+                        full_mon = '0' + z;
+
+                    } else {
+                        full_mon = z;
+                    }
+
+                    REITS.getElId('#toYearMt').append('<option value=' + x + full_mon + '>' + x + '년 ' + full_mon + '월' + '</option>');
+                }
+            }
+        }
+
+        REITS.getElId('#toYearMt option:eq(0)').prop('selected', true);
+    }
+
+    //리츠 유형별 리츠 수 및 자산총계
+    function fn_search1() {
+        let param = REITS.getElId('#frmChart1').serializeObject();
+        param.toYearMt += '01';
+
+        /* let year = Number(param.toYearMt.substr(0, 4));
+        let mt = Number(param.toYearMt.slice(-2));
+
+        // 스케줄러가 매달 시작일 0시에 실행되기 때문에 조회시 이전달의 정보를 조회해야 함
+        if (mt == 12) {
+            // 다음년도 + 01월로 검색
+            param.toYearMt = String(year+1) + '01';
+
+        } else {
+            mt = mt + 1;       // 1달후로 설정하여 검색
+            param.toYearMt = String(year) + mt.toString().padStart(2, '0');
+        } */
+
+        REITS.submitData(REITS.getContextPath() + '/chart/searchChart01_1', 'POST', param, (result) => {
+            if(result.code === "SCC") {
+                g_chart1_data = { max_cnt: 0, max_cost: 0, cost_rate: [] };
+                g_chart2_data = { max_cnt: 0, max_cost: 0, cost_rate: [] };
+
+                fn_print1(result.data);
+
+                fn_set_chart1_1(result.data);
+                fn_set_chart1_2();
+
+            } else {
+                REITS.pubHomeUiAlert('오류코드 : ' + result.code, result.msg);
+            }
+        }, '', true);
+    }
+
+    function fn_merge_row() {
+        let merge_item = '';
+        let merge_count = 0, merge_row = 0;
+
+        $('tr', 'table').each(function(row) {
+            let thisTr = $(this);
+            let item = $(':first-child', thisTr).html();
+
+            if (merge_item !== item) {
+                merge_count = 1;
+                merge_item = item;
+                merge_row = Number(row);
+
+            } else {
+                merge_count = Number(merge_count) + 1;
+
+                $('tr:eq(' + merge_row + ') > td:first-child').attr('rowspan', merge_count);
+                $('td:first-child', thisTr).remove();
+
+                //$('tr:eq(' + merge_row + ')').css('background-color', '#ffffd2');
+            }
+        });
+    }
+
+    //data : json
+    function fn_print1(res_data) {
+        let res_str = '', res_str_sum = '';
+
+        //let sum_cost = res_data.filter(cost  => cost.dataGubun == null).map(cost => cost.dataCost);
+        let all_sum_cost = res_data.filter(cost => cost.dataGubun === '합계').map(cost => cost.dataCost);
+        let sum_cost = res_data.filter(cost => cost.dataGubun === '소계').map(cost => cost.dataCost);
+
+        let sum_cost_rate, cost_rate = 0;
+
+        REITS.getElId('#title1').html('유형별 리츠 수 및 자산총계 (' + REITS.getElId('#toYearMt option:selected').text() + ')');
+
+        for (const v of res_data) {
+            //console.log(v.dataGubun)
+            res_str += '<tr>';
+
+            if (v.dataGubun === '합계' || v.dataGubun === '소계') {            // 합계
+                //sum_cost_rate = Math.round(v.dataCost/all_sum_cost[0]*10000)/10000*100;
+                sum_cost_rate = (v.dataCost/all_sum_cost[0]*10000)/10000*100;
+                sum_cost_rate = Number(sum_cost_rate.toFixed(2));
+
+                let rgb = (v.dataGubun === '합계') ? '#EFF4FC' : '#FAFFFF';
+
+                res_str += `<tr style="background: ${rgb};">`;
+
+                res_str += `  <td class=""><b>${v.dataGubun}</b></td>`;
+                res_str += `  <td class=""></td>`;
+
+                res_str += `  <td class="right-align">${Number(v.dataCnt).toLocaleString()}</td>`;
+                res_str += `  <td class="right-align">${Number(v.dataCost).toLocaleString()}</td>`;
+                res_str += `  <td class="right-align">${sum_cost_rate}</td>`;
+
+                if (v.dataGubun === '합계') {
+                    g_chart1_data.max_cnt = Number(v.dataCnt);
+                    g_chart1_data.max_cost = Number(v.dataCost);
+
+                } else if (v.dataGubun === '소계') {
+                    g_chart1_data.cost_rate.push(
+                        {
+                            gubun: v.dataGubun2,
+                            rate: sum_cost_rate,
+                            rate_str: `${v.dataGubun2}(${sum_cost_rate} %)`
+                        }
+                    );
+                }
+
+            } else {
+                if (v.dataGubun === '상장리츠') {
+                    // 자산기준 비율 계산
+                    sum_cost_rate = (v.dataCost/all_sum_cost[0]*10000)/10000*100;
+                    sum_cost_rate = Number(sum_cost_rate.toFixed(2));
+
+                    res_str += `  <td class="accent">(${v.dataGubun})</td>`;
+                    res_str += `  <td class=""></td>`;
+                    res_str += `  <td class="right-align">(${Number(v.dataCnt).toLocaleString()})</td>`;
+                    res_str += `  <td class="right-align">(${Number(v.dataCost).toLocaleString()})</td>`;
+                    res_str += `  <td class="right-align">(${sum_cost_rate})</td>`;
+
+                } else {
+                    // 자산기준 비율 계산
+                    cost_rate = Math.round(v.dataCost/sum_cost[v.rnum-1]*10000)/10000*100;
+                    cost_rate = Number(cost_rate.toFixed(2));
+
+                    res_str += `  <td class="accent">${v.dataGubun}</td>`;
+                    res_str += `  <td class="">${v.dataGubun2}</td>`;
+                    res_str += `  <td class="right-align">${Number(v.dataCnt).toLocaleString()}</td>`;
+                    res_str += `  <td class="right-align">${Number(v.dataCost).toLocaleString()}</td>`;
+                    res_str += `  <td class="right-align">${cost_rate}</td>`;
+                }
+            }
+
+            res_str += '</tr>';
+        }
+
+        REITS.getElId('#result_tbody1').empty().append(res_str);
+
+        fn_merge_row();
+    }
+
+    //data : json array
+    function fn_set_chart1_1(res_data) {
+        let option = ECHARTS.fn_get_chart_option('');
+        let data_group_names = [];
+
+        option.xAxis = [
+            { type: 'value', gridIndex: 0, interval: 15, max: g_chart1_data.max_cost },     // 자산총계
+            { type: 'value', gridIndex: 1, interval: 50, max: g_chart1_data.max_cnt }       // 리츠 수
+        ];
+
+        //option.toolbox.feature.saveAsImage.name = '유형별 리츠 수 및 자산총계';
+
+        if (isMobile) {
+            //$('#chart02').width(270);
+
+            option.toolbox = {};
+            option.grid = [ { bottom: '55%' }, { top: '55%' } ];
+
+            option.yAxis = [
+                { gridIndex: 0, data: [''], type: 'category' },
+                { gridIndex: 1, data: [''], type: 'category' }
+            ];
+
+        } else {
+            //option.toolbox.feature.saveAsImage.name = '유형별 리츠 수 및 자산총계';
+            option.grid = [ { bottom: '55%' }, { top: '55%' } ];
+
+            option.yAxis = [
+                { gridIndex: 0, data: ['자산총계\n\n (조원)'], type: 'category' },
+                { gridIndex: 1, data: ['리츠 수\n\n (개)'], type: 'category' }
+            ];
+        }
+
+        for (const v of res_data) {
+            // if (v.rnum === 0 && v.dataGubun != null) {
+            if (v.dataGubun === '소계') {
+                data_group_names.push(v.dataGubun2);
+
+                // 자산총계
+                option.series.push({
+                    name: v.dataGubun2,
+                    type: 'bar',
+                    stack: 'total',
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: [ v.dataCost ],
+                    xAxisIndex: 0,
+                    yAxisIndex: 0
+                });
+
+                // 리츠 수
+                option.series.push({
+                    name: v.dataGubun2,
+                    type: 'bar',
+                    stack: 'x',
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: [ v.dataCnt ],
+                    xAxisIndex: 1,
+                    yAxisIndex: 1
+                });
+            }
+        }
+
+        if (option && typeof option === 'object') {
+          echart1_1.setOption(option);
+
+          ECHARTS.fn_set_pub_group_chart_keyboard(echart1_1, 'chart01_1', data_group_names);
+        }
+
+        window.addEventListener('resize', echart1_1.resize);
+    }
+
+    function fn_set_chart1_2() {
+        let option = {
+            aria: {
+                show: true,             //웹접근성 기능 활성화
+                description: '',
+                decal: { show: true }   //색약자를 위한 패턴 적용
+            },
+            title:{
+                text: '자산기준 비율(%)',
+                textStyle: { fontSize: 16, color: 'black', textShadowBlur: 4, textShadowColor: 'white' },
+                left:'center',
+                top: 'center'
+            },
+            tooltip: { trigger: 'item' },
+            legend: { show:false, left: 'left' },
+            //toolbox: { feature: { saveAsImage: { title: '이미지 저장', name: '유형별 리츠 자산기준 비율' }} },
+            series: [
+                {
+                    name: '자산기준비율',
+                    type: 'pie',
+                    radius: ['30%', '60%'],
+                    legend: false,
+                    avoidLabelOverlap: true,
+                    tooltip: { trigger: 'item' },
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: []
+                }
+            ]
+        };
+
+        if (isMobile) {
+            option.toolbox = {};
+            option.series[0].radius = ['20%', '40%'];
+        }
+
+        for (const v of g_chart1_data.cost_rate) {
+            // 자산총계
+            option.series[0].data.push({
+                value: v.rate,
+                name: v.gubun     //rate_str
+            });
+        }
+
+        if (option && typeof option === 'object') {
+            echart1_2.setOption(option);
+
+            const len_data = option.series[0].data.length;
+            ECHARTS.fn_set_pub_chart_keyboard(echart1_2, 'chart01_2', len_data);
+        }
+
+        window.addEventListener('resize', echart1_2.resize);
+    }
+
+    //운용부동산 유형별 리츠 수 및 자산총계
+    function fn_search2() {
+        let param = REITS.getElId('#frmChart1').serializeObject();
+        param.toYearMt += '01';
+
+        REITS.submitData(REITS.getContextPath() + '/chart/searchChart01_2', 'POST', param, (result) => {
+            if(result.code === "SCC") {
+                fn_print2(result.data);
+
+                fn_set_chart2_1(result.data);
+                fn_set_chart2_2();
+
+            } else {
+                REITS.pubHomeUiAlert('오류코드 : ' + result.code, result.msg);
+            }
+        }, '', true);
+    }
+
+    //data : json
+    function fn_print2(res_data) {
+        let res_str = '', res_str_sum = '';
+        let sum_cost = res_data.filter(cost => cost.dataGubun == null).map(cost => cost.dataCost);
+
+        let cost_rate = 0;
+
+        REITS.getElId('#title2').html('운용부동산 유형별 리츠 수 및 자산총계 (' + REITS.getElId('#toYearMt option:selected').text() + ')');
+
+        for (const v of res_data) {
+            // 자산기준 비율 계산
+            cost_rate = (Math.round(v.dataCost/sum_cost[0]*10000)/10000*100).toFixed(2);
+
+            // 자산기준 비율 변수 저장
+            if (v.dataGubun != null) {
+                g_chart2_data.cost_rate.push(
+                    {
+                        gubun: v.dataGubun,
+                        rate: cost_rate,
+                        rate_str: `${v.dataGubun}(${cost_rate} %)`
+                    }
+                );
+
+            } else {
+                g_chart2_data.max_cnt = Number(v.dataCnt);
+                g_chart2_data.max_cost = Number(v.dataCost);
+            }
+
+            if (v.dataGubun == null) {            // 합계
+                res_str_sum += '<tr>';
+                res_str_sum += `  <td><b>합계</b></td>`;
+                res_str_sum += `  <td class="right-align">${Number(v.dataCnt).toLocaleString()}</td>`;
+                res_str_sum += `  <td class="right-align">${Number(v.dataCost).toLocaleString()}</td>`;
+                res_str_sum += `  <td class="right-align">100</td>`;
+                res_str_sum += '</tr>';
+
+            } else {
+                res_str += '<tr>';
+                res_str += `  <td class="accent">${v.dataGubun}</td>`;
+                res_str += `  <td class="right-align">${Number(v.dataCnt).toLocaleString()}</td>`;
+                res_str += `  <td class="right-align">${Number(v.dataCost).toLocaleString()}</td>`;
+                res_str += `  <td class="right-align">${cost_rate}</td>`;
+                res_str += '</tr>';
+            }
+        }
+
+        REITS.getElId('#result_tbody2').empty().append(res_str);
+        REITS.getElId('#result_tfoot2').empty().append(res_str_sum);
+    }
+
+    //data : json array
+    function fn_set_chart2_1(res_data) {
+        let option = ECHARTS.fn_get_chart_option('');
+        let data_group_names = [];
+
+        option.xAxis = [
+            { type: 'value', gridIndex: 0, interval: 15, max: g_chart2_data.max_cost },     // 자산총계
+            { type: 'value', gridIndex: 1, interval: 50, max: g_chart2_data.max_cnt }       // 리츠 수
+        ];
+
+        if (isMobile) {
+            option.toolbox = {};
+            option.grid = [ { bottom: '55%' }, { top: '55%' } ];
+
+            option.yAxis = [
+                { gridIndex: 0, data: [''], type: 'category' },
+                { gridIndex: 1, data: [''], type: 'category' }
+            ];
+
+        } else {
+            //option.toolbox.feature.saveAsImage.name = '운용부동산 유형별 리츠 수 및 자산총계';
+            option.grid = [ { bottom: '55%' }, { top: '55%' } ];
+
+            option.yAxis = [
+                { gridIndex: 0, data: ['자산총계\n\n (조원)'], type: 'category' },
+                { gridIndex: 1, data: ['리츠 수\n\n (개)'], type: 'category' }
+            ];
+        }
+
+        for (const v of res_data) {
+            if (v.dataGubun != null) {
+                data_group_names.push(v.dataGubun);
+
+                // 자산총계
+                option.series.push({
+                    name: v.dataGubun,
+                    type: 'bar',
+                    stack: 'total',
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: [ v.dataCost ],
+                    xAxisIndex: 0,
+                    yAxisIndex: 0
+                });
+
+                // 리츠 수
+                option.series.push({
+                    name: v.dataGubun,
+                    type: 'bar',
+                    stack: 'x',
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: [ v.dataCnt ],
+                    xAxisIndex: 1,
+                    yAxisIndex: 1
+                });
+            }
+        }
+
+        if (option && typeof option === 'object') {
+          echart2_1.setOption(option);
+
+          ECHARTS.fn_set_pub_group_chart_keyboard(echart2_1, 'chart02_1', data_group_names);
+        }
+
+        window.addEventListener('resize', echart2_1.resize);
+    }
+
+    function fn_set_chart2_2() {
+        let option = {
+                aria: {
+                show: true,             //웹접근성 기능 활성화
+                description: '',
+                decal: { show: true }   //색약자를 위한 패턴 적용
+            },
+            title:{
+                text: '자산기준 비율(%)',
+                textStyle: { fontSize: 16, color: 'black', textShadowBlur: 4, textShadowColor: 'white' },
+                left:'center',
+                top: 'center'
+            },
+            tooltip: { trigger: 'item' },
+            legend: { show:false, left: 'left' },
+            //toolbox: { feature: { saveAsImage: { title: '이미지 저장', name: '운용부동산 유형별 리츠 자산기준 비율' }} },
+            series: [
+                {
+                    name: '자산기준비율',
+                    type: 'pie',
+                    radius: ['30%', '60%'],
+                    legend: false,
+                    avoidLabelOverlap: false,
+                    tooltip: { trigger: 'item' },
+                    label: { show: true },
+                    emphasis: { focus: 'series' },
+                    data: []
+                }
+            ]
+        };
+
+        if (isMobile) {
+            option.toolbox = {};
+            option.series[0].radius = ['20%', '40%'];
+        }
+
+        for (const v of g_chart2_data.cost_rate) {
+            // 자산총계
+            option.series[0].data.push({
+                value: v.rate,
+                name: v.gubun     //rate_str
+            });
+        }
+
+        if (option && typeof option === 'object') {
+            echart2_2.setOption(option);
+
+            const len_data = option.series[0].data.length;
+            ECHARTS.fn_set_pub_chart_keyboard(echart2_2, 'chart02_2', len_data);
+        }
+
+        window.addEventListener('resize', echart2_2.resize);
+    }
+
+    //리츠 수 및 자산규모 변동추이
+    function fn_search3() {
+        let param = REITS.getElId('#frmChart1').serializeObject();
+
+        param.fromYear = '2012';
+        param.toYear = String(param.toYearMt.substr(0, 4) - 1);
+        param.toYearMtTxt = REITS.getElId('#toYearMt option:selected').text();
+        param.toYearMt += '01';
+
+        REITS.submitData(REITS.getContextPath() + '/chart/searchChart01_3', 'POST', param, (result) => {
+            if(result.code === "SCC") {
+                fn_print3(result.data);
+                fn_set_chart3(result.data);
+
+            } else {
+                REITS.pubHomeUiAlert('오류코드 : ' + result.code, result.msg);
+            }
+        }, '', true);
+    }
+
+    //data : json
+    function fn_print3(res_data) {
+        let res_str = '', res_str_sum = '';
+
+        for (const v of res_data) {
+            // print result
+            res_str += '<tr>';
+
+            //res_str += `  <td class="accent">${v.toYearMt.indexOf(v.dataGubun) > -1 ? v.toYearMt : v.dataGubun}</td>`;
+            res_str += `  <td class="accent">${v.dataGubun}</td>`;
+            res_str += `  <td class="right-align">${Number(v.dataCnt).toLocaleString()}</td>`;
+            res_str += `  <td class="right-align">${Number(v.dataCost).toLocaleString()}</td>`;
+
+            res_str += '</tr>';
+        }
+
+        REITS.getElId('#result_tbody3').empty().append(res_str);
+        //REITS.getElId('#result_tfoot3').empty().append(res_str_sum);
+    }
+
+    function fn_set_chart3(res_data) {
+        let option = ECHARTS.fn_get_chart_option('');
+
+        option.xAxis = [
+            {
+                type: 'category',
+                boundaryGap: false,
+                data: Array.from(new Set(res_data.map(item => item.dataGubun)))
+                //data: Array.from(new Set(res_data.map(item => (item.toYearMt.indexOf(item.dataGubun) > -1) ? item.toYearMt: item.dataGubun)))
+            }
+        ];
+
+        //option.toolbox.feature.saveAsImage.name = '리츠 수 및 자산규모 추이';
+
+        option.legend = { data: ['자산총계(조원)', '리츠 수(개)'] };
+        option.tooltip = { trigger: 'axis', axisPointer: { type: 'cross', label: { backgroundColor: '#6a7985' } } };
+
+        option.series.push({
+            name: '리츠 수(개)',
+            type: 'line',
+            stack: 'total',
+            color: ['#4f81bd'],
+            areaStyle: {},
+            data: res_data.map(item => item.dataCnt)
+            //data: Array.from(new Set(res_data.map(item => item.dataCnt)))
+        });
+
+        // 리츠 수
+        option.series.push({
+            name: '자산총계(조원)',
+            type: 'line',
+            stack: 'total',
+            color: ['#c0504d'],
+            areaStyle: {},
+            data: res_data.map(item => item.dataCost)
+            //data: Array.from(new Set(res_data.map(item => item.dataCost)))
+        });
+
+        if (option && typeof option === 'object') {
+            echart3.setOption(option);
+
+            const len_data = option.xAxis[0].data.length;
+            ECHARTS.fn_set_pub_chart_keyboard(echart3, 'chart03', len_data);
+        }
+
+        window.addEventListener('resize', echart3.resize);
+    }
+
+
+    // backup
+    function fn_set_chart1_21() {
+        let option = ECHARTS.fn_get_chart_option('');
+
+        const del_key = ['grid', 'xAxis', 'yAxis'];
+        for (x=0; x<del_key.length; x++) {
+            delete option[del_key[x]];
+        }
+
+        option.toolbox.feature.saveAsImage.name = '유형별 리츠 자산기준 비율';
+
+        option.title = { text: '자산기준 비율(%)', left:'center', top: 'center' };
+        option.tooltip = { trigger: 'item'/*, formatter: '{a} <br/>{b}'*/ };   //{ trigger: 'axis', axisPointer: { type: 'shadow' } }
+        option.legend = { show: false };
+
+        let series =
+            {
+                name: '자산기준 비율',
+                type: 'pie',
+                radius: ['80%', '30%'],
+                avoidLabelOverlap: true,
+                itemStyle: { borderRadius: 1, borderColor: '#fff', borderWidth: 2 },
+                label: { position: 'outter', fontWeight: 'bold', fontSize: 14 },
+                lableLine:{ show: true },
+                data: []
+            };
+
+        for (const v of g_chart1_data.cost_rate) {
+            // 자산총계
+            series.data.push({
+                value: v.rate,
+                name: v.rate     //rate_str
+            });
+        }
+
+        option.series.push(series);
+
+        if (option && typeof option === 'object') {
+            echart1_2.setOption(option);
+        }
+
+        window.addEventListener('resize', echart1_2.resize);
+    }
+
+    // backup
+    function fn_set_chart2_21() {
+        let option = ECHARTS.fn_get_chart_option('');
+
+        const del_key = ['grid', 'xAxis', 'yAxis'];
+        for (x=0; x<del_key.length; x++) {
+            delete option[del_key[x]];
+        }
+
+        option.toolbox.feature.saveAsImage.name = '운용부동산 유형별 리츠 자산기준 비율';
+
+        option.title = { text: '자산기준 비율(%)', left:'center', top: 'center' };
+        option.tooltip = { trigger: 'item' };   //{ trigger: 'axis', axisPointer: { type: 'shadow' } }
+        option.legend = { show: false };
+
+        let series =
+            {
+                name: '자산기준 비율',
+                type: 'pie',
+                radius: ['80%', '30%'],
+                avoidLabelOverlap: true,
+                itemStyle: { borderRadius: 1, borderColor: '#fff', borderWidth: 2 },
+                label: { position: 'outter', fontWeight: 'bold', fontSize: 14 },
+                lableLine:{ show: true },
+                data: []
+            };
+
+        for (const v of g_chart2_data.cost_rate) {
+            // 자산총계
+            series.data.push({
+                value: v.rate,
+                name: v.rate_str
+            });
+        }
+
+        option.series.push(series);
+
+        if (option && typeof option === 'object') {
+            echart2_2.setOption(option);
+        }
+
+        window.addEventListener('resize', echart2_2.resize);
+    }
+</script>
+
+</head>
+<body>
+<div class="container">
+    <header>
+    <!-- 시스템 팝업영역 -->
+    <article class="popup-layer2 layer-name">
+        <div class="popup-wrapper">
+            <a href="javascript: popupSetClose('reits_pub_popup', 'popup-layer2.layer-name', 'popupCookie');" class="popup-close-btn">
+                <span class="blind">닫기</span>
+            </a>
+
+            <div class="popup-contents">
+                <div class="popup-msg-group">
+                    <div class="popup-terms-box">
+                        <div class="terms-head-box" style="color: #ff4848;">
+                            리츠정보시스템 보안 강화 안내
+                        </div>
+
+                        <div class="terms-con-box">
+                            <div class="terms-item-list">
+                                <div class="terms-item-box">
+                                    <div class="con-box"><b>사이버 공격(DDoS) 대응 강화를 위해<br>리츠정보시스템에 상시 보안 필터링이 적용됩니다.</b> <br/></div>
+                                </div>
+                            </div>
+
+                            <div class="terms-desc-box">
+                                <table>
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <td><b> - 적용일시 : </b></td>
+                                        <td>2026.03.24 16:00 ~ 상시 적용</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b> - 적용내용 : </b></td>
+                                        <td>DDoS 공격 탐지 및 차단을 위한 실시간 보안 필터링 적용</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b> - 이용현황 : </b></td>
+                                        <td>일시적인 접속 지연 또는 화면 새로고침 발생 가능</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <br/>
+                                안전한 서비스 제공을 위한 조치이오니 이용에 참고하여 주시기 바랍니다.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-foot-box">
+                        <div class="popup-terms-menu">
+                            <div class="cbox">
+                                <label>
+                                    <input name="popupCookie" type="checkbox" onclick="popupSetClose('reits_pub_popup', 'popup-layer2.layer-name', 'popupCookie')"><i></i>
+                                    <span class="txt">오늘하루 보지 않기</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- 사용자 시스템 팝업영역 모바일 -->
+    <article class="popup-layer2 layer-name-mobile">
+        <div class="popup-wrapper">
+            <a href="javascript: popupSetClose('reits_pub_popup', 'popup-layer2.layer-name-mobile', 'popupCookie');" class="popup-close-btn"></a>
+
+            <div class="popup-contents">
+                <div class="popup-msg-group">
+                    <div class="popup-terms-box">
+                        <div class="terms-head-box" style="color: #ff4848;">
+                            리츠정보시스템 보안 강화 안내
+                        </div>
+
+                        <div class="terms-con-box">
+                            <div class="terms-item-list">
+                                <div class="terms-item-box">
+                                    <div class="con-box"><b>사이버 공격(DDoS) 대응 강화를 위해<br>리츠정보시스템에 상시 보안 필터링이 적용됩니다.</b> <br/></div>
+                                </div>
+                            </div>
+
+                            <div class="terms-desc-box">
+                                <table>
+                                    <colgroup><col></colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <td><b> - 적용일시 : </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2026.03.24 16:00 ~ 상시 적용</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b> - 적용내용 : </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>DDoS 공격 탐지 및 차단을 위한 실시간 보안 필터링 적용</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b> - 이용현황 : </b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>일시적인 접속 지연 또는 화면 새로고침 발생 가능</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <br/>
+                                안전한 서비스 제공을 위한 조치이오니 이용에 참고하여 주시기 바랍니다.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-foot-box">
+                        <div class="popup-terms-menu">
+                            <div class="cbox">
+                                <label>
+                                    <input name="popupCookie" type="checkbox" onclick="popupSetClose('reits_pub_popup', 'popup-layer2.layer-name-mobile', 'popupCookie')"><i></i>
+                                    <span class="txt">오늘하루 보지 않기</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    
+    <!-- 20261013 서버 점검 팝업 -->
+    <article class="popup-layer2 pub_popup_20261013">
+        <div class="popup-wrapper">
+            <a href="javascript: popupSetClose('reits_pub_popup_20261013', 'popup-layer2.pub_popup_20261013', 'popupCookie');" class="popup-close-btn">
+                <span class="blind">닫기</span>
+            </a>
+
+            <div class="popup-contents">
+                <div class="popup-msg-group">
+                    <div class="popup-terms-box" style="padding: 37px 17px 26px;">
+                        <div class="terms-head-box" style="color: #ff4848;">
+                            리츠정보시스템 안내
+                        </div>
+
+                        <div class="terms-con-box">
+                            <div class="terms-item-list">
+                                <div class="terms-item-box">
+                                    <div class="con-box"><b>안정적인 서비스 제공을 위한 시스템 점검 작업이 아래와 같이 진행될 예정입니다.</b><br/></div>
+                                </div>
+                            </div>
+
+                            <div class="terms-desc-box">
+                                <table>
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td><b>< 작업 일시 ></b></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 4px 0 0 15px">- (1차) 2026.10.30.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 15px">- (2차) 2026.11.06.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 15px">- (3차) 2026.11.13.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br/>
+                                작업 시간 중 시스템 접속이 일시적으로 지연되거나 중단될 수 있으니 이용에 참고하여 주시기 바랍니다.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-foot-box">
+                        <div class="popup-terms-menu">
+                            <div class="cbox">
+                                <label>
+                                    <input name="popupCookie" type="checkbox" value="" onclick="popupSetClose('reits_pub_popup_20261013', 'popup-layer2.pub_popup_20261013', 'popupCookie');"><i></i>
+                                    <span class="txt">오늘하루 보지 않기</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- 20261013 서버 점검 팝업(모바일) -->
+    <article class="popup-layer2 pub_popup_mobile_20261013">
+        <div class="popup-wrapper">
+            <a href="javascript: popupSetClose('reits_pub_popup_20261013', 'popup-layer2.pub_popup_mobile_20261013', 'popupCookie');" class="popup-close-btn"></a>
+
+            <div class="popup-contents">
+                <div class="popup-msg-group">
+                    <div class="popup-terms-box" style="padding: 52px 13px 13px 10px;">
+                        <div class="terms-head-box" style="color: #ff4848;">
+                            리츠정보시스템 안내
+                        </div>
+
+                        <div class="terms-con-box">
+                            <div class="terms-item-list">
+                                <div class="terms-item-box">
+                                    <div class="con-box"><b>안정적인 서비스 제공을 위한 시스템 점검 작업이 아래와 같이 진행될 예정입니다.</b> <br/><br/></div>
+                                </div>
+                            </div>
+
+                            <div class="terms-desc-box">
+                                <table>
+                                    <colgroup><col></colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td><b>< 작업 일시 ></b></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 4px 0 0 10px">(1차) 2026.10.30.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 10px">(2차) 2026.11.06.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-left: 10px">(3차) 2026.11.13.(금) 21:00 ~ 익일 06:00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br/>
+                                작업 시간 중 시스템 접속이 일시적으로 지연되거나 중단될 수 있으니 이용에 참고하여 주시기 바랍니다.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popup-foot-box">
+                        <div class="popup-terms-menu">
+                            <div class="cbox">
+                                <label>
+                                    <input name="popupCookie" type="checkbox" value="" onclick="popupSetClose('reits_pub_popup_20261013', 'popup-layer2.pub_popup_mobile_20261013', 'popupCookie');"><i></i>
+                                    <span class="txt">오늘하루 보지 않기</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="new-header">
+        <div class="header-wrap">
+            <div class="header-info">
+                <div class="skip-nav">
+                <!--	<a href="#lnbBox">대메뉴 바로가기</a>-->
+                    <a href="#content_move">본문 바로가기</a>
+                </div>
+                <a href="javascript: fn_go_home();">
+                    <img alt="리츠정보시스템" src="/pub/static/pub/img/img_logo.svg">
+                </a>
+                <!--<h1 class="header-logo">
+                    <a href="#none" class="logo" onclick="fn_go_home();"></a>
+                </h1>-->
+
+                <div class="header-nav">
+                    <!--<ul>-->
+                        <!--<li th:each="menu : ${pubMenuList}">-->
+                            <div class="nav-list">
+                                <ul class="depth1">
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/intro/info/infoReits01?pmn=4">소개</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">소개</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/intro/info/infoReits01?pmn=11">리츠소개</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/info/infoReits01?pmn=12">리츠(Reits)란</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/info/infoReits02?pmn=13">도입 및 배경</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/info/infoReits03?pmn=14">리츠 구조</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/intro/cnfm/cnfmOrdrTab01?pmn=25">인가등록절차</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/cnfm/cnfmOrdrTab01?pmn=26">리츠 영업인가(등록)</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/amc/amcOrdrTab01?pmn=27">AMC 인가</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/icb/icbOrdrTab01?pmn=28">투자자문회사 등록</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/intro/assets/assetsOpratnTab01?pmn=8">자산운용전문인력</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/assets/assetsOpratnTab01?pmn=57">소개 및 자격요건</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/assets/assetsRegist?pmn=58">등록절차</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/intro/assets/assetsRegistSearch?pmn=61">수료(등록) 조회</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/reits/prmpc/prmpcOperSearch?pmn=5">리츠정보</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">리츠정보</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/reits/prmpc/prmpcOperSearch?pmn=30">리츠조회</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/reits/prmpc/prmpcOperSearch?pmn=71">개발·운영리츠</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/reits/prmpc/prmpcInvtCnfmSearch?pmn=86">접수현황</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/reits/pblntf/cmpny/pblntfCmpnySearch?pmn=36">공시정보</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/reits/pblntf/cmpny/pblntfCmpnySearch?pmn=37">수시공시</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/reits/pblntf/invtReprt/pblntfInvtReprtSearch?pmn=38">투자보고서(리츠)</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/reits/pblntf/bsnReprt/pblntfBsnReprtSearch?pmn=39">영업보고서(자산관리회사 등)</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/reits/cmpny/cmpnyAncprSearch?pmn=41">자산관리회사</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/reits/cmpny/cmpnyIcbSearch?pmn=42">투자자문회사</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/gis/gisMapSearch?pmn=6">GIS정보</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">GIS정보</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/gis/gisMapSearch?pmn=70">GIS 맵</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/invt/lsted/lstedReitsSearch?pmn=7">투자정보</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">투자정보</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/invt/lsted/lstedReitsSearch?pmn=49">상장리츠</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/invt/lsted/lstedReitsSearch?pmn=50">상장리츠 현황</a>
+                                                                        </li>
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/invt/lsted/lstedCdltSearch?pmn=51">신용평가결과</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/invt/pssrp/pssrpSttusSearch?pmn=52">공모현황</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        <li class="depth2-box">
+                                                                            <a class="item-btn"
+                                                                               href="/pub/invt/pssrp/pssrpSttusSearch?pmn=53">공모일정</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/chart/chartSearch01?pmn=9">리츠통계</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">리츠통계</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/chart/chartSearch01?pmn=62">리츠 현황통계</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/chart/chartSearch02_6?pmn=80">상장리츠현황</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/chart/chartSearch02_1?pmn=2">연도별 리츠현황</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth1-box">
+                                        <div class="nav-box">
+                                            <!--<a href="#none" class="nav-btn">소개</a>-->
+                                            <a class="nav-btn" href="/pub/bbs/bbsNoticeSearch?pmn=10">게시판</a>
+
+                                            <div class="sub-nav">
+                                                <div class="sub-nav-wrap">
+                                                    <div class="sub-label">게시판</div>
+
+                                                    <div class="sub-list">
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/bbs/bbsNoticeSearch?pmn=65">공지사항</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/bbs/bbsReportSearch?pmn=66">보도자료</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/bbs/bbsFaqSearch?pmn=67">FAQ</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/bbs/bbsLawSearch?pmn=68">관련법률</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sub-item">
+                                                            <a class="item-head-box"
+                                                               href="/pub/bbs/bbsSttemntInfo?pmn=69">리츠신고·상담</a>
+                                                            <!--<a href="#none" class="item-head-box">리츠소개</a>-->
+
+                                                            <div class="item-body-box">
+                                                                <div class="item-list">
+                                                                    <ul class="depth2">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        <!--</li>-->
+                    <!--</ul>-->
+                </div>      <!--header-nav-->
+            </div>  <!--header-info-->
+
+            <div class="header-option">
+                <div class="option-list">
+                    <!--<a href="#none" class="option-btn">-->
+                    <a class="option-btn" href="https://www.molit.go.kr" target="_blank" title="새창 이동">
+                        <img src="/pub/static/pub/img/img_header_link1.svg" alt="국토교통부" />
+                    </a>
+                    <!--<a href="#none" class="option-btn">-->
+                    <a class="option-btn" href="https://www.reb.or.kr" target="_blank" title="새창 이동">
+                        <img src="/pub/static/pub/img/img_header_link2.svg" alt="한국부동산원" />
+                    </a>
+                    <!--<a href="#none" class="option-btn">-->
+                    <a class="option-btn" target="_blank" href="https://reits.molit.go.kr/cmpny/login" title="(리츠정보시스템)새창 이동">
+                        <span class="btn-txt">사업자 전용</span>
+                        <i class="ic ic-link"></i>
+                    </a>
+
+                </div>
+
+                <div class="menu-list">
+                    <div class="all-box">
+                        <!--<a class="option-btn" href="javascript: allMenuOpen()">
+                            <span class="blind">메뉴</span>
+                            <i class="ic ic-menu"></i>
+                        </a>-->
+                        <button type="button" class="all-btn" onclick="allMenuOpen()">
+                        <!--<button type="button" class="all-btn" onclick="headerFeature.headerAllOpen()">-->
+                            <i class="ic ic-all"></i>
+                            <span class="btn-txt">메뉴</span>
+                        </button>
+                    </div>
+                </div>
+            </div>  <!--header-option-->
+        </div>      <!--header-warp-->
+
+        <!-- 검색 -->
+        <!--<div class="header-search">
+            <div class="search-wrap">
+
+                <button type="button" class="search-close-btn" onclick="headerSearch.close();"></button>
+
+                <div class="search-input-box">
+                    <span class="input-label">리츠검색</span>
+                    <input placeholder="검색어를 입력하세요">
+                    <button type="button" class="search-btn"></button>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="header-all">
+            <div class="all-wrap">
+                <div class="all-head-box">
+                    <button type="button" class="all-close-btn" onclick="headerFeature.headerAllClose();"></button>
+                </div>
+
+                <div class="all-body-box">
+                    <div class="all-nav-list">
+                        <ul class="">   <!--depth1-->
+                            <li class="">   <!--depth1-box-->
+                                
+                                    <div class="nav-box is-selected" data-nav="nav0">
+                                        <a class="nav-btn" href="#none">소개</a>
+                                    </div>
+                                
+
+                                
+                            </li>
+                            <li class="">   <!--depth1-box-->
+                                
+
+                                
+                                    <div class="nav-box" data-nav="nav1">
+                                        <a class="nav-btn" href="#none">리츠정보</a>
+                                    </div>
+                                
+                            </li>
+                            <li class="">   <!--depth1-box-->
+                                
+
+                                
+                                    <div class="nav-box" data-nav="nav2">
+                                        <a class="nav-btn" href="#none">GIS정보</a>
+                                    </div>
+                                
+                            </li>
+                            <li class="">   <!--depth1-box-->
+                                
+
+                                
+                                    <div class="nav-box" data-nav="nav3">
+                                        <a class="nav-btn" href="#none">투자정보</a>
+                                    </div>
+                                
+                            </li>
+                            <li class="">   <!--depth1-box-->
+                                
+
+                                
+                                    <div class="nav-box" data-nav="nav4">
+                                        <a class="nav-btn" href="#none">리츠통계</a>
+                                    </div>
+                                
+                            </li>
+                            <li class="">   <!--depth1-box-->
+                                
+
+                                
+                                    <div class="nav-box" data-nav="nav5">
+                                        <a class="nav-btn" href="#none">게시판</a>
+                                    </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-nav-list">
+                        <div class="sub-nav-wrap">
+                            <div class="sub-list">
+                                <ul class="">   <!--depth1-->
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav0">
+                                            <div class="item-head-box">
+                                                <div class="head-box">소개</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">리츠소개</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/info/infoReits01?pmn=12" class="menu-item">리츠(Reits)란</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/info/infoReits02?pmn=13" class="menu-item">도입 및 배경</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/info/infoReits03?pmn=14" class="menu-item">리츠 구조</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">인가등록절차</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/cnfm/cnfmOrdrTab01?pmn=26" class="menu-item">리츠 영업인가(등록)</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/amc/amcOrdrTab01?pmn=27" class="menu-item">AMC 인가</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/icb/icbOrdrTab01?pmn=28" class="menu-item">투자자문회사 등록</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">자산운용전문인력</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/assets/assetsOpratnTab01?pmn=57" class="menu-item">소개 및 자격요건</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/assets/assetsRegist?pmn=58" class="menu-item">등록절차</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/intro/assets/assetsRegistSearch?pmn=61" class="menu-item">수료(등록) 조회</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav1">
+                                            <div class="item-head-box">
+                                                <div class="head-box">리츠정보</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">리츠조회</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/reits/prmpc/prmpcOperSearch?pmn=71" class="menu-item">개발·운영리츠</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/reits/prmpc/prmpcInvtCnfmSearch?pmn=86" class="menu-item">접수현황</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">공시정보</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/reits/pblntf/cmpny/pblntfCmpnySearch?pmn=37" class="menu-item">수시공시</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/reits/pblntf/invtReprt/pblntfInvtReprtSearch?pmn=38" class="menu-item">투자보고서(리츠)</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/reits/pblntf/bsnReprt/pblntfBsnReprtSearch?pmn=39" class="menu-item">영업보고서(자산관리회사 등)</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/reits/cmpny/cmpnyAncprSearch?pmn=41" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">자산관리회사</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/reits/cmpny/cmpnyIcbSearch?pmn=42" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">투자자문회사</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav2">
+                                            <div class="item-head-box">
+                                                <div class="head-box">GIS정보</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/gis/gisMapSearch?pmn=70" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">GIS 맵</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav3">
+                                            <div class="item-head-box">
+                                                <div class="head-box">투자정보</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">상장리츠</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/invt/lsted/lstedReitsSearch?pmn=50" class="menu-item">상장리츠 현황</a>
+                                                    </div>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/invt/lsted/lstedCdltSearch?pmn=51" class="menu-item">신용평가결과</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="#" class="menu-tit-box with-list ">
+
+                                                        <div class="tit-txt">공모현황</div>
+                                                    </a>
+
+                                                    <div class="menu-list-box">
+                                                        <a href="/pub/invt/pssrp/pssrpSttusSearch?pmn=53" class="menu-item">공모일정</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav4">
+                                            <div class="item-head-box">
+                                                <div class="head-box">리츠통계</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/chart/chartSearch01?pmn=62" class="menu-tit-box  is-selected">
+
+                                                        <div class="tit-txt">리츠 현황통계</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/chart/chartSearch02_6?pmn=80" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">상장리츠현황</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/chart/chartSearch02_1?pmn=2" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">연도별 리츠현황</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                    <li class="">
+                                        <!-- 리츠 소개 -->
+                                        <div class="sub-item" data-nav="nav5">
+                                            <div class="item-head-box">
+                                                <div class="head-box">게시판</div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/bbs/bbsNoticeSearch?pmn=65" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">공지사항</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/bbs/bbsReportSearch?pmn=66" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">보도자료</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/bbs/bbsFaqSearch?pmn=67" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">FAQ</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/bbs/bbsLawSearch?pmn=68" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">관련법률</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="item-body-box">
+                                                <div class="menu-group">
+                                                    <!--class="menu-tit-box with-list is-selected"-->
+                                                    <a href="/pub/bbs/bbsSttemntInfo?pmn=69" class="menu-tit-box  ">
+
+                                                        <div class="tit-txt">리츠신고·상담</div>
+                                                    </a>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  <!--sub-item-->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <article class="header-all-form" style="width: 99.8%">
+            <div class="form-head-box">
+                <div class="head-menu-box home">
+                    <!-- <a class="head-menu-btn" href="">
+                        <i class="ic ic-home"></i>
+                    </a> -->
+                </div>
+
+                <div class="head-menu-box close">
+                    <a class="head-menu-btn" href="javascript:allMenuClose()">
+                        닫기<i class="ic ic-close"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="form-body-box scroll-effect">
+                <div class="mobile-menu-group">
+                    <ul class="mobile-menu-list">
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu1">소개</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu2">리츠정보</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu3">GIS정보</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu4">투자정보</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu5">리츠통계</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-btn" data-menu="menu6">게시판</a>
+                        </li>
+                    </ul>
+
+                    <div class="mobile-sub-list">
+                        <a class="sub-menu-btn" href="#none">개인정보 보호정책</a>
+                        <a class="sub-menu-btn" href="#none">사이트 이용약관</a>
+                        <a class="sub-menu-btn" href="#none">이메일집단수집거부</a>
+                    </div>
+                </div>
+
+                <div class="all-menu-list">
+                    <!-- 리츠 안내 -->
+                    <div class="all-menu-box" data-menu="menu1">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">소개</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">리츠소개</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/info/infoReits01?pmn=12">리츠(Reits)란</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/info/infoReits02?pmn=13">도입 및 배경</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/info/infoReits03?pmn=14">리츠 구조</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">인가등록절차</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/cnfm/cnfmOrdrTab01?pmn=26">리츠 영업인가(등록)</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/amc/amcOrdrTab01?pmn=27">AMC 인가</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/icb/icbOrdrTab01?pmn=28">투자자문회사 등록</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">자산운용전문인력</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/assets/assetsOpratnTab01?pmn=57">소개 및 자격요건</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/assets/assetsRegist?pmn=58">등록절차</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/intro/assets/assetsRegistSearch?pmn=61">수료(등록) 조회</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-menu-box" data-menu="menu2">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">리츠정보</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">리츠조회</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/reits/prmpc/prmpcOperSearch?pmn=71">개발·운영리츠</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/reits/prmpc/prmpcInvtCnfmSearch?pmn=86">접수현황</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">공시정보</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/reits/pblntf/cmpny/pblntfCmpnySearch?pmn=37">수시공시</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/reits/pblntf/invtReprt/pblntfInvtReprtSearch?pmn=38">투자보고서(리츠)</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/reits/pblntf/bsnReprt/pblntfBsnReprtSearch?pmn=39">영업보고서(자산관리회사 등)</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/reits/cmpny/cmpnyAncprSearch?pmn=41">자산관리회사</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/reits/cmpny/cmpnyIcbSearch?pmn=42">투자자문회사</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-menu-box" data-menu="menu3">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">GIS정보</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/gis/gisMapSearch?pmn=70">GIS 맵</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-menu-box" data-menu="menu4">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">투자정보</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">상장리츠</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/invt/lsted/lstedReitsSearch?pmn=50">상장리츠 현황</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/invt/lsted/lstedCdltSearch?pmn=51">신용평가결과</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="#">공모현황</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            <li class="depth2-box">
+                                                <a class="depth2-btn"
+                                                   href="/pub/invt/pssrp/pssrpSttusSearch?pmn=53">공모일정</a>
+                                                <ul class="depth3">
+                                                    
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-menu-box" data-menu="menu5">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">리츠통계</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/chart/chartSearch01?pmn=62">리츠 현황통계</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/chart/chartSearch02_6?pmn=80">상장리츠현황</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/chart/chartSearch02_1?pmn=2">연도별 리츠현황</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="all-menu-box" data-menu="menu6">
+                        <div class="subject-box">
+                            <div class="subject-txt-box">게시판</div>
+                        </div>
+
+                        <div class="con-box">
+                            <div class="menu-list-wrap">
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/bbs/bbsNoticeSearch?pmn=65">공지사항</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/bbs/bbsReportSearch?pmn=66">보도자료</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/bbs/bbsFaqSearch?pmn=67">FAQ</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/bbs/bbsLawSearch?pmn=68">관련법률</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="menu-group-box">
+                                    <div class="menu-head-box">
+                                        <a class="menu-head-btn"
+                                           href="/pub/bbs/bbsSttemntInfo?pmn=69">리츠신고·상담</a>
+                                    </div>
+
+                                    <div class="menu-body-box">
+                                        <ul class="depth2">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+    </div>
+    
+    <script>
+	    $(function () {
+            // active 상태인 a 태그에 title= 적용
+            function setActiveTitle() {
+                // active 상태인 a 태그에 선택됨 title 적용
+                $('a.active').not('.swiper-toggle-btn').attr('title', '선택됨');
+                $('span.swiper-pagination-bullet-active').attr('title', '선택됨');
+
+                // 현재 active가 아니면 title 제거
+                $('a[title="선택됨"]').not('.active').removeAttr('title');
+                $('span[title="선택됨"]').not('.swiper-pagination-bullet-active').removeAttr('title');
+                
+                // 메인 슬라이드 정지/재생 링크 텍스트 적용
+                $('.swiper-toggle-btn').each(function () {
+                   var $btn = $(this);
+                   
+                   // active 상태일 때 누르면 재생되는 버튼이라고 가정
+                    var text = $btn.hasClass('active') ? '슬라이드 재생' : '슬라이드 정지';
+                    
+                    $btn.attr('title', text);
+                    $btn.attr('aria-label', text);
+                });
+            }
+            
+            setActiveTitle();
+            
+            // 비동기 처리로 class가 바뀌는 경우 감지
+            var observer = new MutationObserver(function () {
+               setActiveTitle(); 
+            });
+            
+            observer.observe(document.body, {
+               childList: true,
+               subtree: true,       
+               attributes: true,
+               attributeFilter: ['class'] 
+            });
+
+            /* ***** 좌측 아코디언 메뉴  aria-expanded 속성 부여 ***** */
+            
+            // 최초 로딩 시 상태 반영
+            setAccordionExpanded();
+            
+            // 클릭 후 active 상태가 변경된 다음 aria-expaned 반영
+            $('div.lnb-list-wrap a.with-sub').on('click', function() {
+                setTimeout(function () {
+                    setAccordionExpanded();
+                }, 0);
+            });
+            
+            function setAccordionExpanded() {
+                var $a = $('div.lnb-list-wrap a.with-sub');
+                
+                $a.filter('.active').attr('aria-expanded', 'true');
+                $a.not('.active').attr('aria-expanded', 'false');
+            }
+        });
+        
+    </script>
+</header>
+    <div class="wrapper">
+        <div class="inner wrap bg-1">
+            <section class="lnb">
+        <div class="lnb-wrap">
+            <div class="lnb-list-wrap">
+                
+                
+                
+                
+                <div class="lnb-group-box">
+                    <div class="lnb-head-box">리츠통계</div>
+                    <div class="lnb-body-box">
+                        <ul class="depth1">
+                            <li class="depth1-box">
+                                
+                                
+                                    <a href="/pub/chart/chartSearch01?pmn=62" class="depth1-btn  active">리츠 현황통계</a>
+                                
+                                
+                                
+                            </li>
+                            <li class="depth1-box">
+                                
+                                
+                                    <a href="/pub/chart/chartSearch02_6?pmn=80" class="depth1-btn  ">상장리츠현황</a>
+                                
+                                
+                                
+                            </li>
+                            <li class="depth1-box">
+                                
+                                
+                                    <a href="/pub/chart/chartSearch02_1?pmn=2" class="depth1-btn  ">연도별 리츠현황</a>
+                                
+                                
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+            <div class="contents" id="content_move">
+                <article class="page-mobile-navigation-layout">
+                    <div class="list-wrap">
+                        <div class="navigation-box">
+                            <a class="navigation-home" href="/pub/main/mainPage"></a>
+                        </div>
+                        <div class="navigation-box">
+                            <div class="navigation-selector-box">
+                                <a class="set-btn bold">리츠통계</a>
+                                <ul>
+                                    <li><a
+                                            href="/pub/intro/info/infoReits01?pmn=4">소개</a></li>
+                                    <li><a
+                                            href="/pub/reits/prmpc/prmpcOperSearch?pmn=5">리츠정보</a></li>
+                                    <li><a
+                                            href="/pub/gis/gisMapSearch?pmn=6">GIS정보</a></li>
+                                    <li><a
+                                            href="/pub/invt/lsted/lstedReitsSearch?pmn=7">투자정보</a></li>
+                                    <li><a
+                                            href="/pub/chart/chartSearch01?pmn=9">리츠통계</a></li>
+                                    <li><a
+                                            href="/pub/bbs/bbsNoticeSearch?pmn=10">게시판</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="navigation-box">
+                            <div class="navigation-selector-box">
+                                
+                                    
+                                    
+                                        
+                                            <a class="set-btn bold">리츠 현황통계</a>
+                                        
+                                        
+                                    
+                                    <ul>
+                                        <li><a
+                                                href="/pub/chart/chartSearch01?pmn=62">리츠 현황통계</a></li>
+                                        <li><a
+                                                href="/pub/chart/chartSearch02_6?pmn=80">상장리츠현황</a></li>
+                                        <li><a
+                                                href="/pub/chart/chartSearch02_1?pmn=2">연도별 리츠현황</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                
+                    <article class="m-depth2-box">
+                        <div class="form-tab-list">
+                            <ul>
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                                
+                            </ul>
+                        </div>
+                    </article>
+                
+
+                <article class="page-head-layout">
+                    <div class="bg-box bg-1"></div>
+                    <div class="head-wrap">
+                        <div class="head-tit-box">
+                            
+                            
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+                                        <h1 class="tit-box">리츠 현황통계</h1>
+                                    
+                                
+                                    
+                                
+                            
+                            
+                        </div>
+                        <div class="head-navi-box">
+                            <div class="navi-box">
+                                <i class="ic ic-home" aria-hidden="true"></i><span class="blind">홈</span>
+                            </div>
+                            
+                            
+                                <div class="navi-box">리츠통계</div>
+                                <div class="navi-box">리츠 현황통계</div>
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                            
+                            
+                        </div>
+
+                    </div>
+
+                </article>
+                <section class="contents">
+
+    <article class="search-form-layout" style="margin-bottom: 32px;">
+        <form id="frmChart1">
+            <div class="form-body-box">
+                <div class="form-wrap">
+                    <div class="list-wrap">
+                        <div class="item-box" style="width: auto;">
+                            <div class="subject-box">검색년도</div>
+                        </div>
+                        <div class="item-box" style="display: inline-flex;flex-direction: row;align-content: center;justify-content: center;align-items: center;">
+                            <div class="con-box">
+                                <div class="sbox small">
+                                    <select id="toYearMt" name="toYearMt" title="검색년도"></select>
+                                </div>
+                            </div>
+
+                            <!-- <div class="con-box">
+                                <button class="form-menu-btn type-gray" id="btnDownload" type="button">
+                                    <span class="txt">PDF 다운로드</span>
+                                </button>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="form-menu">
+                    <button class="form-menu-btn type-gray" id="btnClear" type="button">
+                        <span class="txt">초기화</span>
+                    </button>
+                    <button class="form-menu-btn type-primary" id="btnSearch" type="button">
+                        <i class="ic ic-search"></i>
+                        <span class="txt">검색</span>
+                    </button>
+                </div> -->
+            </div>
+
+            <!--<div class="form-head-box">&lt;!&ndash;padding-top: 20px&ndash;&gt;
+                <div class="note-box">
+                    <div class="note-msg-box">
+                        <i class="ic ic-note"></i>
+                        <span class="txt">현재 신고된 프로젝트 리츠만 신고수리 중이며, 등록은 특례등록(대토리츠)을 포함한 현황임</span>
+                    </div>
+                </div>
+            </div>-->
+        </form>
+    </article>
+
+    <!-- 유형별 리츠 수 및 자산총계 -->
+    <article class="contents-head-layout1">
+        <div class="wrap">
+            <div class="head-group-box">
+                <div class="head-tit-box">
+                    <div id="title1" class="tit-box">유형별 리츠 수 및 자산총계</div>
+                </div>
+
+                <!--<div class="form-head-box">
+                    <div class="note-box">
+                        <div class="note-msg-box">
+                            <i class="ic ic-note"></i>
+                            <span class="txt">현재 운영중인 리츠정보로 해산·취소된 리츠는 검색대상에서 제외됩니다</span>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!--<div class="head-sub-box">기준일 : 2023-09-30</div>-->
+            </div>
+        </div>
+    </article>
+
+    <article class="contents-table-layout">
+        <div class="table-box with-mobile-scroll">
+            <table summary="유형별 리츠 수 및 자산총계">
+                <caption></caption>
+                <colgroup>
+                    <col style="width:300px;" class="m200">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>세부구분</th>
+                    <th>리츠 수(개)</th>
+                    <th>자산총계(조원)</th>
+                    <th>자산기준 비율(%)</th>
+                </tr>
+                </thead>
+                <tbody id="result_tbody1"></tbody>
+                <!-- <tfoot id="result_tfoot1"></tbody> -->
+            </table>
+        </div>
+
+        <!-- 안내 메시지 - 임시 주석 -->
+        <div class="table-note-box">
+            <div class="note-txt-box">
+                <div class="ic-box">
+                    <i class="ic ic-info"></i>
+                </div>
+                <div class="txt-box">현재 신고된 <b>프로젝트 리츠</b>만 신고수리 중이며, 등록은 <b>특례등록(대토리츠)</b>을 포함한 현황임</div>
+            </div>
+
+            <!--<div class="note-txt-box">
+                <div class="ic-box">
+                    <i class="ic ic-info"></i>
+                </div>
+                <div class="txt-box">부동산투자회사법상 공모 예정인 리츠 : <b>16개</b></div>
+            </div>-->
+        </div>
+    </article>
+
+    <article class="contents-chart-layout1">
+        <div class="chart-wrap">
+            <div class="chart-view-box">
+                <div id="chart01_1" class="chart-item" style="height: 300px;" tabindex="0" aria-label="유형별 리츠 자산총계 & 리츠수 막대차트 표현 (키보드 방향키 좌/우 조정)">
+                </div>
+                <div id="chart01_2" class="chart-item" style="height: 300px;" tabindex="0" aria-label="유형별 리츠 자산총계 비율 원형차트 표현 (키보드 방향키 좌/우 조정)">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- 여백 -->
+    <article class="space-block w80 m50"></article>
+
+    <!-- 운용부동산 유형별 리츠 수 및 자산총계 -->
+    <article class="contents-head-layout1">
+        <div class="wrap">
+            <div class="head-group-box">
+                <div class="head-tit-box">
+                    <div id="title2" class="tit-box">운용부동산 유형별 리츠 수 및 자산총계</div>
+                </div>
+
+                <!-- <div class="head-sub-box">기준일 : 2023-09-30</div> -->
+            </div>
+        </div>
+    </article>
+
+    <article class="contents-table-layout">
+        <div class="table-box with-mobile-scroll">
+            <table summary="운용부동산 유형별 리츠 수 및 자산총계">
+                <caption></caption>
+                <colgroup>
+                    <col style="width:300px;" class="m200">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>리츠 수(개)</th>
+                    <th>자산총계(조원)</th>
+                    <th>자산기준 비율(%)</th>
+                </tr>
+                </thead>
+
+                <tbody id="result_tbody2"></tbody>
+                <tfoot id="result_tfoot2"></tfoot>
+            </table>
+        </div>
+    </article>
+
+    <article class="contents-chart-layout1">
+        <div class="chart-wrap">
+            <div class="chart-view-box">
+                <div id="chart02_1" class="chart-item" style="height: 300px;" tabindex="0" aria-label="운영부동산별 리츠 자산총계 & 리츠수 막대차트 표현 (키보드 방향키 좌/우 조정)">
+                </div>
+                <div id="chart02_2" class="chart-item" style="height: 300px;" tabindex="0" aria-label="운영부동산별 리츠 자산총계 비율 원형차트 표현 (키보드 방향키 좌/우 조정)">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- 여백 -->
+    <article class="space-block w80 m50"></article>
+
+    <!-- 리츠 수 및 자산규모 변동추이 -->
+    <article class="contents-head-layout1">
+        <div class="wrap">
+            <div class="head-group-box">
+                <div class="head-tit-box">
+                    <div class="tit-box">리츠 수 및 자산규모 변동추이</div>
+                </div>
+
+                <!-- <div class="head-sub-box">기준일 : 2023-09-30</div> -->
+            </div>
+        </div>
+    </article>
+
+    <article class="contents-table-layout">
+        <div class="table-box with-mobile-scroll">
+            <table summary="리츠 수 및 자산규모 변동추이">
+                <caption></caption>
+                <colgroup>
+                    <col style="width:300px;" class="m230">
+                    <col style="width:310px;" class="m120">
+                    <col style="width:310px;" class="m120">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>리츠 수(개)</th>
+                    <th>자산총계(조원)</th>
+                </tr>
+                </thead>
+
+                <tbody id="result_tbody3"></tbody>
+            </table>
+        </div>
+    </article>
+
+    <article class="contents-chart-layout">
+        <div class="chart-wrap">
+            <div class="chart-view-box">
+                <div id="chart03" class="chart-item" style="height: 500px;" tabindex="0" aria-label="연도별 리츠 자산총계 & 리츠수 추이차트 표현 (키보드 방향키 좌/우 조정)">
+                </div>
+            </div>
+        </div>
+    </article>
+
+</section>
+            </div>
+        </div>
+    </div>
+    <!--<aside class="floating-top">
+        <a class="floating-top-btn" href="#">
+            <span class="blind">페이지 상단으로 이동</span>
+        </a>
+    </aside>-->
+    <footer>
+    <div class="footer-wrap">
+        <div class="footer-top">
+            <div class="footer-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="footer-information">
+                <div class="information-contents">
+                    <div class="contents-group">
+                        <div class="row">
+                            <div class="subject-box">주무부처</div>
+                            <div class="con-box">
+                                <div class="txt-item">국토교통부</div>
+                            </div>
+                            <div class="txt-item">(30064) 세종특별자치시 도움6로 11</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="subject-box">운영기관</div>
+                            <div class="con-box">
+                                <div class="txt-item">한국부동산원</div>
+                            </div>
+                            <div class="txt-item">(41068) 대구광역시 동구 이노밸리로291 (신서동 1145)</div>
+                        </div>
+                    </div>
+
+                    <div class="contents-group">
+                        <div class="row">
+                            <div class="subject-box">대표전화</div>
+                            <div class="con-box">
+                                <div class="txt-item">053-961-9514</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="information-way">
+                    <a href="#none" class="way-btn" onclick="fn_go_link('83');">
+                        <span class="btn-txt">찾아오시는 길</span>
+                        <i class="ic ic-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-group">
+				<div class="footer-left">
+					<div class="footer-nav">
+						<a href="#none" class="nav-btn accent" onclick="fn_go_link('80');">개인정보 보호처리방침</a>
+						<a href="#none" class="nav-btn" onclick="fn_go_link('81');">사이트이용약관</a>
+						<a href="#none" class="nav-btn" onclick="fn_go_link('82');">이메일무단수집거부</a>
+					</div>
+				</div>
+
+				<div class="footer-right">
+					<div class="wa-img">
+                        <a title="새창" href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank">
+						    <img src="/pub/static/pub/img/footer/img_wa.png" alt="(사)한국장애인단체총연합회 한국정보접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)">
+                        </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-copyright">
+				<div class="copyright-txt">© Ministry of Land. Infrastructure and Transport. all Rights reserved</div>
+			</div>
+        </div>
+    </div>
+
+    <input type="hidden" id="pageOnceToken" name="onceToken" value=""/>
+    <script>
+        $(document).ready(() => {
+            REITS.submitData(REITS.getContextPath() + '/sys/pubMenuAccesHist/searchPubMenuAccesHist01', 'POST', {}, (result) => {
+                if (result.code === "SCC") {
+                    REITS.getElId("#pub_todayCnt").text(Number(result.data.todayCnt).toLocaleString());
+                    REITS.getElId("#pub_allCnt").text(Number(result.data.allCnt).toLocaleString());
+
+                } else {
+                    REITS.pubHomeUiAlert('오류코드 : ' + result.code, result.msg);
+                }
+            }, {}, async = false);
+
+            $("<div id='kuploader' style='display: none'></div>")
+                .appendTo($('body'));
+
+            const config = {
+                divId: 'kuploader',  // 파일업로드가 위치할 dvi ID
+                atchFileId: "",  // 고정값
+                mode: 'view', // edit (업로드), view(다운로드)
+                width: '0px', // 가로 기본(800)
+                height: '0px', // 높이 기본(400)
+            }
+
+            REITS.useFileUpload(config, (key) => {
+                atchFileIdStr2 = key;
+            })
+        });
+    </script>
+</footer>
+    <aside class="floating-top">
+        <a class="floating-top-btn" href="#">
+            <span class="blind">페이지 상단으로 이동</span>
+        </a>
+    </aside>
+
+    <article class="loading-layer" style="display: none;">
+        <div class="loading-view">
+            <div class="img-box">
+                <img alt="이미지" src="/pub/static/pub/img/img_loading.gif">
+            </div>
+            <div class="txt-box">loading</div>
+        </div>
+    </article>
+
+    <article class="popup-layer layer-name" style="display: none;">
+        <div class="popup-wrapper">
+            <a class="popup-close-btn" href="javascript:$('.popup-layer.layer-name').hide();"></a>
+
+            <div class="popup-contents">
+                <div class="popup-msg-group">
+                    <div class="popup-view-box">
+                        <div class="img-box">
+                            <img alt="이미지" src="/pub/static/pub/img/img_error.svg">
+                        </div>
+
+                        <div class="msg-box">다음과 같은 오류가 발생했습니다.</div>
+
+                        <div class="detail-box">
+                            <div class="detail-txt-box"></div>
+                        </div>
+
+                        <div class="desc-box"></div>
+                    </div>
+
+                    <div class="popup-foot-box">
+                        <div class="popup-menu-box">
+                            <a class="popup-menu-btn" href="javascript:$('.popup-layer.layer-name').hide();">닫기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(() => {
+
+        $('#mobile-main-menu-list').change(() => {
+            console.log('sss')
+        })
+
+    })
+
+</script>
+</body>
+</html>

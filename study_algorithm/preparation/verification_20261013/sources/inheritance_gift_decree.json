@@ -1,0 +1,18 @@
+{
+  "id": "inheritance_gift_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290845&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=290845&chrClsCd=010202&urlMode=lsInfoP&efYd=20261001&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:40.897860+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 219766,
+  "content_sha256": "a9ef26f65ecb8465361b94ab6af6608721b6ab22d6e59fd810e0cefa14a6cded",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "1"
+    ]
+  ]
+}

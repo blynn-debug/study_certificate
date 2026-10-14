@@ -1,0 +1,14 @@
+{
+  "id": "nh_mmda_2025",
+  "requested_url": "https://img.nonghyup.com/file/ebank/product/guide/10000028_pi.pdf",
+  "retrieved_url": "https://img.nonghyup.com/file/ebank/product/guide/10000028_pi.pdf",
+  "retrieved_at": "2026-10-13T04:25:49.559998+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "c432281d2e7851597352288070daae2939a28daa10c7f2793e9cb5cd91393a8c",
+  "binary_sha256": "c432281d2e7851597352288070daae2939a28daa10c7f2793e9cb5cd91393a8c",
+  "text_sha256": "c0f1ad73aae8117a03db9545c2362bf8a985934d0e85e9309a2bba83862a3724",
+  "pages": 4,
+  "characters": 3961,
+  "status": "retrieved_not_claim_verified"
+}

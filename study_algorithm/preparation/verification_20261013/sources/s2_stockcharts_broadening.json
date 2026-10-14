@@ -1,0 +1,11 @@
+{
+  "id": "s2_stockcharts_broadening",
+  "requested_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/broadening-top-or-megaphone-top",
+  "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/broadening-top-or-megaphone-top",
+  "retrieved_at": "2026-10-13T16:48:18.990553+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "de1ad29c9af9e30b2e2f505766f0e12e94370e1f9165e2dd41849df1f807f801",
+  "text_sha256": "e9229bdaa3366ed4865be1bc1680bf576d018338056953736e6aa19afd0289a2",
+  "status": "retrieved_not_claim_verified"
+}

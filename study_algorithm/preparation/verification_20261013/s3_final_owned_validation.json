@@ -1,0 +1,9 @@
+{
+  "active_reviews": 548,
+  "claims": 163,
+  "audit_total": 91,
+  "restored": 83,
+  "withdrawn": 8,
+  "holds": 84,
+  "checks": "unique IDs, valid topics, all article references and complete HTTP, claim references, concept gate fields, 4 original choice labels, 91 previous reviews, withdrawal exclusion and hold coverage passed"
+}

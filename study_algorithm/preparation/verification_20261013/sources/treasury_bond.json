@@ -1,0 +1,18 @@
+{
+  "id": "treasury_bond",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276093&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=276093&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:43.703928+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 6344,
+  "content_sha256": "f7f2cd745de285eff8b162efe108c6f92d87781b4fe0b97ae8d44d75321f1dd3",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ]
+}

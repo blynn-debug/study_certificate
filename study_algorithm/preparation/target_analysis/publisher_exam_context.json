@@ -1,0 +1,60 @@
+{
+  "source": {
+    "document": "P12",
+    "pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "status": "publisher_claim_only; not independently confirmed official exam rules",
+  "subject_question_counts": {
+    "S1": 20,
+    "S2": 30,
+    "S3": 50
+  },
+  "chapter_question_counts": {
+    "S1C1": 7,
+    "S1C2": 8,
+    "S1C3": 5,
+    "S2C1": 5,
+    "S2C2": 5,
+    "S2C3": 12,
+    "S2C4": 8,
+    "S3C1": 5,
+    "S3C2": 11,
+    "S3C3": 3,
+    "S3C4": 6,
+    "S3C5": 6,
+    "S3C6": 6,
+    "S3C7": 4,
+    "S3C8": 4,
+    "S3C9": 5
+  },
+  "law_split_within_S3C2": {
+    "capital_markets_act": 7,
+    "financial_services_commission_rules": 4
+  },
+  "total_questions": 100,
+  "printed_time": "10:00~12:00",
+  "duration_minutes_from_printed_time": 120,
+  "printed_subject_cutoff_numbers": {
+    "S1": 8,
+    "S2": 12,
+    "S3": 20
+  },
+  "cutoff_guard": "표의 과락 숫자를 그대로 보존했다. 부등호·공식 합격기준·면제 적용은 공식 확인 없이 추정하지 않는다.",
+  "importance_symbols": {
+    "three_dots": "출판사가 최근 8년 실제 시험에 1회 이상 출제됐다고 표시",
+    "two_dots": "최근 8년 미출제이나 출제가능성이 있다고 표시",
+    "one_dot": "기본서 이해에 도움되지만 출제가능성이 낮다고 표시"
+  },
+  "importance_guard": "해당 표시는 출판사의 분류다. 독립 인증한 기출 연도·실제 출제확률로 변환하지 않으며 모든 문항의 점·별 개수를 전수 전사한 상태도 아니다.",
+  "learning_strategies": "상품은 기관·구조별 비교, 대안투자는 포지션 구축, 채권은 가격→듀레이션→볼록성의 이유, 거시는 모형 이동 조건, 분산투자는 위험식과 곡선의 차이를 중심으로 설명한다.",
+  "study_plans": "4주·8주 계획은 출판사의 예시다. 학습자 시간·선행지식·오답 자료 없이 고정 일정으로 적용하지 않는다.",
+  "schedule_guard": "인쇄된 2026 시험일정은 원문에 보존하되 현재 일정이나 사용자의 응시 회차로 가정하지 않는다."
+}

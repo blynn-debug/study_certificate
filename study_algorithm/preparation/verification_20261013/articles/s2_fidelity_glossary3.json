@@ -1,0 +1,43 @@
+{
+  "source_id": "s2_fidelity_glossary3",
+  "source_metadata": {
+    "id": "s2_fidelity_glossary3",
+    "requested_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_3.shtml",
+    "retrieved_url": "https://scs.fidelity.com/webcontent/ap010098-etf-content/18.05.0/help/research/learn_er_glossary_3.shtml",
+    "retrieved_at": "2026-10-13T16:26:27.626474+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "a51d65a27f43f02c0ebb523f3111d5ac8da0f6d086631da6d00e51ca6d204cff",
+    "text_sha256": "da75971b0aeb9b0bdacc1029a475038027580f76ecdcf372de25c7d17b139fc6",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_text_extract",
+  "count": 3,
+  "items": [
+    {
+      "id": "s2_fidelity_glossary3:MACD",
+      "source_id": "s2_fidelity_glossary3",
+      "article": "MACD",
+      "heading": "Moving Average Convergence Divergence indicator.",
+      "text": "Moving Average Convergence Divergence indicator. MACD is a momentum oscillator, yet its primary use is to trade trends. Although it is an oscillator is not used as an over brought or oversold indicator. It appears on the chart as two lines which oscillates without boundaries. The crossover of the two lines give trading signals similar to a two moving average system. The two lines are called, MACD Line or fast line and MACD Signal or slow line. The MACD line is displayed as a solid line on the chart, and the MACD signal line is displayed as a dashed line on the chart. Interpretation: MACD crossing above zero is considered bullish and crossing below zero bearish. Secondly, when MACD turns up from below zero it is considered bullish. When it turns down from above zero this is considered bearish. Enter a long position and close any short positions when the MACD fast line crosses from below to above the signal line. The further below the zero line the stronger the signal. Enter a short position and close any long positions when the MACD fast line crosses from above to below the signal line. The further above the zero line the stronger the signal. Divergence between the MACD and the price action is a strong signal when it confirms the crossover signals. During trading ranges the MACD will whipsaw, the fast line crosses back and forth across the signal line. Avoid trading or cut your losses very quickly.",
+      "sha256": "ffc4f25e1bb05ab7942ba37a7683739acb058ded818916cfcc00c46669d2de94"
+    },
+    {
+      "id": "s2_fidelity_glossary3:RSI",
+      "source_id": "s2_fidelity_glossary3",
+      "article": "RSI",
+      "heading": "Relative Strength Index",
+      "text": "Relative Strength Index (RSI) The RSI function returns the Relative Strength Index indicator. RSI is one of the classic momentum indicators and was developed by Wells Wilder. RSI measures a market's internal strength by dividing the average of the sum of the up day closing prices by the average of the sum of the down day closing prices over a specific period of time. It returns a value within the range of 0 to 100. The RSI is a leading or a coincidental indicator. Popular averaging periods for the RSI are 9, 14 and 25. Wilder used 14 periods. Use the Period that works best for you. The indicator becomes more volatile and amplitude widens with fewer periods used. Interpretation: The classic way to interpret RSI is to look for oversold levels below 30 and overbought levels above 70. These normally occur before the underlying price chart forms a top or a bottom. Note you should change the levels depending on market conditions. Ensure the level lines cut across the highest peaks and the lowest troughs. During strong trends the RSI may remain in overbought or oversold for extended periods. RSI also often forms chart patterns which may not show on the underlying price chart, such as double tops and bottoms and trend lines. Also look for support or resistance on the RSI. If underlying prices make a new high or low that isn't confirmed by the RSI this divergence can signal a price reversal. RSI divergences from price indicates very strong buy or sell signal. Swing Failures. If the RSI makes a lower high followed buy a downside move below a previous low, then a Top Swing Failure has occurred. If the RSI makes a higher low followed buy a upside move above a previous high, then a Bottom Swing Failure has occurred. The mid point level of 50 will often act as support or resistance if the RSI bounce off the 50 level. Crosses of the 50 level can be used as a buying or selling signal. When RSI cross above then buy, when RSI crosses below then sell. RSI can be use to find dips in strong trends. Use trend indicator to determine a strong up trend then if the RSI is below 50, you have a dip in the up trend. In strong down trends use RSI above 50 to detect small rallies. Buy the dip and sell the small rally.",
+      "sha256": "8be2a59f0f1955c5b40ae0bf0c760cf35fda145e158f052140f8b65e945a849d"
+    },
+    {
+      "id": "s2_fidelity_glossary3:QuickRatio",
+      "source_id": "s2_fidelity_glossary3",
+      "article": "QuickRatio",
+      "heading": "Quick Ratio",
+      "text": "Quick Ratio A measure of a company's liquidity, used to evaluate credit worthiness. Also known as the Acid Test Ratio, Quick Ratio is determined by totaling cash, short-term investments, and accounts receivable for the most recent fiscal year, and dividing by the total current liabilities for the same period. Quick Ratio does not apply to banks, insurance companies, and other companies that do not distinguish between current and long-term assets and liabilities.",
+      "sha256": "5a7589b87f4df37914b662bcff4f7af9d81c38928597a20e7ccb6d6b96aee9df"
+    }
+  ],
+  "warning": "Archived platform glossary; only stable definitions and conventional uses reviewed, no predictive performance claims."
+}

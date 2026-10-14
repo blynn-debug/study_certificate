@@ -1,0 +1,12 @@
+{
+  "id": "fb_ktb_otc",
+  "requested_url": "https://ktb.mofe.go.kr/curbMrkt.do",
+  "retrieved_url": "https://ktb.mofe.go.kr/curbMrkt.do",
+  "retrieved_at": "2026-10-14T00:08:19.347718+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 4850,
+  "content_sha256": "7557f08a618460b9b23250f34cae81b0c660e2b40b19b5724185a1008ab07939",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

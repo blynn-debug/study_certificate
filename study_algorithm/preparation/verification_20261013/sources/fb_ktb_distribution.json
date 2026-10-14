@@ -1,0 +1,12 @@
+{
+  "id": "fb_ktb_distribution",
+  "requested_url": "https://ktb.mofe.go.kr/distbMrktIntrcn.do",
+  "retrieved_url": "https://ktb.mofe.go.kr/distbMrktIntrcn.do",
+  "retrieved_at": "2026-10-14T00:08:19.572241+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 2733,
+  "content_sha256": "9ac092746ac0926b39854efe1cf8bae117ea09637d47f83a07cfc87bbf861ab1",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

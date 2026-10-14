@@ -1,0 +1,28 @@
+{
+  "source_id": "s2_fidelity_macd",
+  "source_metadata": {
+    "id": "s2_fidelity_macd",
+    "requested_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/macd",
+    "retrieved_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/macd",
+    "retrieved_at": "2026-10-13T16:24:45.098203+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": false,
+    "capture_method": "web.run rendered main-content excerpt",
+    "content_sha256": "63ae862d4dadc2c4cb2d1954e9efc55e0694810943c89de99934353489c674dc",
+    "text_sha256": "63ae862d4dadc2c4cb2d1954e9efc55e0694810943c89de99934353489c674dc",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "publisher_web_excerpt",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_fidelity_macd:Overview",
+      "source_id": "s2_fidelity_macd",
+      "article": "Overview",
+      "heading": "macd",
+      "text": "L242: ### Description\nL243: \nL244: The Moving Average Convergence/Divergence indicator is a momentum oscillator primarily used to trade trends. Although it is an oscillator, it is not typically used to identify over bought or oversold conditions. It appears on the chart as two lines which oscillate without boundaries. The crossover of the two lines give trading signals similar to a two moving average system.\nL245: \nL246: \ue200cite\ue202117\u2020Image\ue201 L247: ### How this indicator works\nL248: \nL249:   * MACD crossing above zero is considered bullish, while crossing below zero is bearish. Secondly, when MACD turns up from below zero it is considered bullish. When it turns down from above zero it is considered bearish.\nL250: \nL251: \ue200cite\ue202118\u2020Image\ue201 L252:   * When the MACD line crosses from below to above the signal line, the indicator is considered bullish. The further below the zero line the stronger the signal.\nL253:   * When the MACD line crosses from above to below the signal line, the indicator is considered bearish. The further above the zero line the stronger the signal.\nL254: \nL255: \ue200cite\ue202119\u2020Image\ue201 L256:   * During trading ranges the MACD will whipsaw, with the fast line crossing back and forth across the signal line. Users of the MACD generally avoid trading in this situation or close positions to reduce volatility within the portfolio.\nL257:   * Divergence between the MACD and the price action is a stronger signal when it confirms the crossover signals.\nL258: \nL259: \ue200cite\ue202120\u2020Image\ue201 L260: ### Calculation\nL261: \nL262: An approximated MACD can be calculated by subtracting the value of a 26 period Exponential Moving Average (EMA) from a 12 period EMA. The shorter EMA is constantly converging toward, and diverging away from, the longer EMA. This causes MACD to oscillate around the zero level. A signal line is created with a 9 period EMA of the MACD line.\nL263: \nL264: Note: The sample calculation above is the default. You can adjust the parameters based upon your own criteria.\nL265: \n",
+      "sha256": "63ae862d4dadc2c4cb2d1954e9efc55e0694810943c89de99934353489c674dc"
+    }
+  ],
+  "warning": "Rendered web.run excerpt, not full raw HTTP response."
+}

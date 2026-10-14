@@ -1,0 +1,12 @@
+{
+  "id": "fsc_financial_map",
+  "requested_url": "https://www.fsc.go.kr/no010101/76968",
+  "retrieved_url": "https://www.fsc.go.kr/no010101/76968",
+  "retrieved_at": "2026-10-13T03:45:33.624547+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 6086,
+  "content_sha256": "f98f53d6ca31f5f177de1e2c750efbf828e2a17f54080144273a75eac21349f3",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

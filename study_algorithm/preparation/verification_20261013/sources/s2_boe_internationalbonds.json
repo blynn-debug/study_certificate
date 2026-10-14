@@ -1,0 +1,14 @@
+{
+  "id": "s2_boe_internationalbonds",
+  "requested_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1991/the-international-bond-market.pdf",
+  "retrieved_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1991/the-international-bond-market.pdf",
+  "retrieved_at": "2026-10-13T16:54:57.351020+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "17a22adfa01dff13ceac4e298ffbf7c96936ef6c66bab4930da2d8c988e9c80a",
+  "binary_sha256": "17a22adfa01dff13ceac4e298ffbf7c96936ef6c66bab4930da2d8c988e9c80a",
+  "text_sha256": "6ed0093a9e6ea3bda9296c9a385ceb7ba44bea0c06996b251c50c5a47aceae6a",
+  "pages": 8,
+  "characters": 41131,
+  "status": "retrieved_not_claim_verified"
+}

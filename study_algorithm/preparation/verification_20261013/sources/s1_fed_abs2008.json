@@ -1,0 +1,12 @@
+{
+  "id": "s1_fed_abs2008",
+  "requested_url": "https://www.federalreserve.gov/newsevents/speech/kroszner20080606a.htm",
+  "retrieved_url": "https://www.federalreserve.gov/newsevents/speech/kroszner20080606a.htm",
+  "retrieved_at": "2026-10-13T23:57:31.057722+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 32680,
+  "content_sha256": "abbbaeb16513fd3dba30fb6d90f93c4897859b744649398b9641f677e745566e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

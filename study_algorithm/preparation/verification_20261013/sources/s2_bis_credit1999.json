@@ -1,0 +1,14 @@
+{
+  "id": "s2_bis_credit1999",
+  "requested_url": "https://www.bis.org/publications/199904-consultation-credit-risk-modelling-current-practices-and-applications.pdf",
+  "retrieved_url": "https://www.bis.org/publications/199904-consultation-credit-risk-modelling-current-practices-and-applications.pdf",
+  "retrieved_at": "2026-10-13T23:47:45.841461+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "ab95b26b6dd8f5bb75ad10c2f72e014e8c66128898bc0607a982ab093791bce9",
+  "binary_sha256": "ab95b26b6dd8f5bb75ad10c2f72e014e8c66128898bc0607a982ab093791bce9",
+  "text_sha256": "4a9f1c8f7c49860af458c32c55707429758275b4ca41239ba13c3a1e22db7068",
+  "pages": 65,
+  "characters": 133471,
+  "status": "retrieved_not_claim_verified"
+}

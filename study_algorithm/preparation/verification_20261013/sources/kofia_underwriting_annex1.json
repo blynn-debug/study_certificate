@@ -1,0 +1,14 @@
+{
+  "id": "kofia_underwriting_annex1",
+  "requested_url": "https://law.kofia.or.kr/download.do?gubun=102&seq=27577",
+  "retrieved_url": "https://law.kofia.or.kr/download.do?gubun=102&seq=27577",
+  "retrieved_at": "2026-10-13T00:51:36.165882+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "b674e53fc32a9015b76fc5b28457ba345a2db71278fee99642b3af5ad8e0332e",
+  "binary_sha256": "5d642a84050f4b8593f81ef87370ab69b0722bd23185f61c4f06d706a0487497",
+  "evidence_unit": "별표1",
+  "extraction": "HWP BodyText paragraph records; no embedded scripts executed",
+  "status": "retrieved_not_claim_verified",
+  "parent_id": "kofia_underwriting"
+}

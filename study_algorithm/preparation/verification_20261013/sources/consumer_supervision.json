@@ -1,0 +1,19 @@
+{
+  "id": "consumer_supervision",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285608&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285608&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:00:11.185064+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 43360,
+  "content_sha256": "502b76d93522072dba19a776a9cc6863c18ace05946916c7e34b69ed0546c1f2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "2"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

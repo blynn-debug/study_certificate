@@ -1,0 +1,12 @@
+{
+  "id": "fb_fed_creditcycle",
+  "requested_url": "https://www.federalreserve.gov/econresdata/notes/feds-notes/2016/recession-risk-and-the-excess-bond-premium-20160408.html",
+  "retrieved_url": "https://www.federalreserve.gov/econresdata/notes/feds-notes/2016/recession-risk-and-the-excess-bond-premium-20160408.html",
+  "retrieved_at": "2026-10-14T00:19:12.352420+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 23989,
+  "content_sha256": "75a135109639f9d2014fbfac483f203a29b3d6fb79351d69becfd7704f9ae5ed",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

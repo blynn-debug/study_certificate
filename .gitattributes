@@ -1,0 +1,7 @@
+* -text
+study_algorithm/preparation/pdf_tools/playwright/driver/node.exe filter=lfs diff=lfs merge=lfs -text
+study_algorithm/src/target/1과목_2과목.pdf filter=lfs diff=lfs merge=lfs -text
+study_algorithm/src/target/3과목.pdf filter=lfs diff=lfs merge=lfs -text
+study_algorithm/src/target/계산문제.pdf filter=lfs diff=lfs merge=lfs -text
+study_algorithm/src/target/모의고사.pdf filter=lfs diff=lfs merge=lfs -text
+study_algorithm/src/target/핵심정리노트.pdf filter=lfs diff=lfs merge=lfs -text

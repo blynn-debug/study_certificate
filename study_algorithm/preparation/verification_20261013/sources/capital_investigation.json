@@ -1,0 +1,19 @@
+{
+  "id": "capital_investigation",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000286744&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000286744&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:00:11.116284+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 26172,
+  "content_sha256": "67f1ed989c6e60da10503e2e5b45b253553b291a43f9c7e26fb56be2dcc181cd",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "7"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

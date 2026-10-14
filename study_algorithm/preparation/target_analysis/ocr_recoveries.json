@@ -1,0 +1,29 @@
+{
+  "count": 3,
+  "items": [
+    {
+      "question_id": "S2C3T16-CORE",
+      "document": "P12",
+      "page": 354,
+      "recovered_prompt": "그림에서 엘리어트 3번 파동에 가장 많이 나타나는 갭을 고른다.",
+      "necessary_visual_conditions": "그림 ① 돌파, ② 급진, ③ 소멸, ④ 아일랜드. 교재 정답 ②.",
+      "verification": "original PDF image inspected"
+    },
+    {
+      "question_id": "S3C5T14-CORE",
+      "document": "P3",
+      "page": 287,
+      "recovered_prompt": "제시된 수익률곡선에 관한 설명 중 가장 적절하지 않은 것을 고른다.",
+      "necessary_visual_conditions": "3/4/5년 회사채 수익률 7.0/7.6/8.0%, 국채 3.7/3.9/4.0%. 5년 신용스프레드 4.0%p, 회사채 4→5년 기간스프레드 0.4%p. 교재 정답 ②.",
+      "verification": "original PDF image inspected"
+    },
+    {
+      "question_id": "S3C6T02-CORE",
+      "document": "P3",
+      "page": 312,
+      "recovered_prompt": "배추 선도계약 후 3개월 인수 시점 현물가격이 포기당 5000원일 때 잘못된 설명을 고른다.",
+      "necessary_visual_conditions": "배추 10000포기, 계약가격 포기당 3000원. 가공업자 계약손익 +2000원/포기. 교재 정답 ①. 제로섬과 신용위험을 동일시한 해설은 기존 검토 주의사항에 따라 수정한다.",
+      "verification": "original PDF image inspected"
+    }
+  ]
+}

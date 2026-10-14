@@ -1,0 +1,12 @@
+{
+  "id": "kyobo_increasing_benefit",
+  "requested_url": "https://news.kyobo.com/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85-%EC%86%90%EC%A3%BC%EC%82%AC%EB%9E%91-%EA%B1%B4%EA%B0%95-%EC%A2%85%EC%8B%A0%EB%B3%B4%ED%97%98-2%EC%A2%85-%EC%B6%9C%EC%8B%9C/",
+  "retrieved_url": "https://news.kyobo.com/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85-%EC%86%90%EC%A3%BC%EC%82%AC%EB%9E%91-%EA%B1%B4%EA%B0%95-%EC%A2%85%EC%8B%A0%EB%B3%B4%ED%97%98-2%EC%A2%85-%EC%B6%9C%EC%8B%9C/",
+  "retrieved_at": "2026-10-13T04:10:53.272367+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 6376,
+  "content_sha256": "2e5ad259fb845f2a542f44f6d3b48feb6664d7da825b2877cb4cfe311276b10f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

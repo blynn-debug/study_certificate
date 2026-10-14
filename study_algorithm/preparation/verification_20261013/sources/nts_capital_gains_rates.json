@@ -1,0 +1,12 @@
+{
+  "id": "nts_capital_gains_rates",
+  "requested_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7711&mi=2458",
+  "retrieved_url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7711&mi=2458",
+  "retrieved_at": "2026-10-13T01:49:28.815134+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 15433,
+  "content_sha256": "7612e293af2241902f692bb9105b52bc2e20e467c53bc25ee6f57516f23b2e36",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

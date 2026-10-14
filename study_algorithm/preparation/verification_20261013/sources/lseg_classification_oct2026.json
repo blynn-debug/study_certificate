@@ -1,0 +1,12 @@
+{
+  "id": "lseg_classification_oct2026",
+  "requested_url": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-country-classification-review-september-2026",
+  "retrieved_url": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-country-classification-review-september-2026",
+  "retrieved_at": "2026-10-13T01:08:16.889959+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 9028,
+  "content_sha256": "2f06c867a51276f08a1f6813f2fc82ad13188a4375819b5865199fa64cc9f45d",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

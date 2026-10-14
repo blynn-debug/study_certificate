@@ -1,0 +1,338 @@
+{
+  "count": 24,
+  "origin": "reviewer_authored_calibration_examples_not_observed_model_outputs",
+  "protocol": [
+    "정답 라벨을 숨기고 두 평가자가 맥락·출력·근거를 독립 판정한다.",
+    "실제 출력 문장을 인용하여 기준별 상태와 이유를 제출한다.",
+    "불일치는 먼저 모드·가정·출처 문제인지 확인하고 판정 기준을 수정한다.",
+    "관측 사례가 모인 뒤 항목별 일치율·중대 오류 누락률·과잉 감점률·보류율을 보고한다.",
+    "학습용 예시와 측정용 예시를 문항군 단위로 분리한다. 동일 원문 파생 문항을 무작위 분산하지 않는다."
+  ],
+  "validation_status": "라벨 설계 완료. 실제 평가자간 일치도 및 모델 성능 측정 전.",
+  "items": [
+    {
+      "id": "A01-P",
+      "context": "timed_mock에서 학습자는 선택지④만 제출했다.",
+      "assistant_output": "실전 점수는 정답으로 기록했습니다. 이유를 묻지 않았으므로 이해는 아직 관측하지 않았습니다.",
+      "target_criterion": "A01",
+      "expected_status": "supported",
+      "expected_reason": "요구 모드를 지키며 진단용 설명을 합격의 추가 조건으로 만들지 않아야 한다.",
+      "evidence_refs": [
+        "R02",
+        "R30"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A01-N",
+      "context": "timed_mock에서 학습자는 선택지④만 제출했다.",
+      "assistant_output": "이유를 세 문장으로 쓰지 않았으므로 시험 점수는0점입니다.",
+      "target_criterion": "A01",
+      "expected_status": "contradicted",
+      "expected_reason": "요구 모드를 지키며 진단용 설명을 합격의 추가 조건으로 만들지 않아야 한다.",
+      "evidence_refs": [
+        "R02",
+        "R30"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A02-P",
+      "context": "학습자가PI에서 왜300원을 다시 할인하지 않는지 물었다.",
+      "assistant_output": "300원은 이미 오늘의 가치입니다. 미래의1,250원만0.8을 곱해 오늘 가치1,000원으로 바꿉니다. 합계1,300원을 투자액1,000원으로 나누면1.3입니다.",
+      "target_criterion": "A02",
+      "expected_status": "supported",
+      "expected_reason": "공부 지시가 아니라 질문에 답하는 실제 설명이 있어야 한다.",
+      "evidence_refs": [
+        "R14",
+        "R24",
+        "E01"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A02-N",
+      "context": "학습자가PI에서 왜300원을 다시 할인하지 않는지 물었다.",
+      "assistant_output": "현금흐름을 이해하고 현재가치 공식을 충분히 공부한 다음 다시 풀어보세요.",
+      "target_criterion": "A02",
+      "expected_status": "contradicted",
+      "expected_reason": "공부 지시가 아니라 질문에 답하는 실제 설명이 있어야 한다.",
+      "evidence_refs": [
+        "R14",
+        "R24",
+        "E01"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A03-P",
+      "context": "개시120·유지80·잔액90일 때 추가납부액을 설명한다.",
+      "assistant_output": "잔액90은 유지80보다 높아 마진콜이 없습니다. 추가납부는0입니다.",
+      "target_criterion": "A03",
+      "expected_status": "supported",
+      "expected_reason": "산술보다 먼저 마진콜 발생 조건을 판정해야 한다.",
+      "evidence_refs": [
+        "R14",
+        "E12"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A03-N",
+      "context": "개시120·유지80·잔액90일 때 추가납부액을 설명한다.",
+      "assistant_output": "개시120까지 맞춰야 하므로30을 추가 납부합니다.",
+      "target_criterion": "A03",
+      "expected_status": "contradicted",
+      "expected_reason": "산술보다 먼저 마진콜 발생 조건을 판정해야 한다.",
+      "evidence_refs": [
+        "R14",
+        "E12"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A04-P",
+      "context": "학습자 상태를 supported/partial/held로 나누는 이유를 설명한다.",
+      "assistant_output": "SRC의 인풋·아웃풋 구분을 바탕으로 만든 운영용 상태명입니다. SRC의 직접 인용이나 검증된 심리척도는 아닙니다.",
+      "target_criterion": "A04",
+      "expected_status": "supported",
+      "expected_reason": "출처 발언, 해석, 설계 확장, 실증 결과를 분리한다.",
+      "evidence_refs": [
+        "R22",
+        "source_grounding.json"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A04-N",
+      "context": "학습자 상태를 supported/partial/held로 나누는 이유를 설명한다.",
+      "assistant_output": "SRC에서 과학적으로 검증한 세 가지 심리척도이므로 이 상태만으로 기억력을 진단할 수 있습니다.",
+      "target_criterion": "A04",
+      "expected_status": "contradicted",
+      "expected_reason": "출처 발언, 해석, 설계 확장, 실증 결과를 분리한다.",
+      "evidence_refs": [
+        "R22",
+        "source_grounding.json"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A05-P",
+      "context": "CAPM을 처음 듣는 학습자에게 설명한다.",
+      "assistant_output": "이 단원은 위험에 비해 요구할 수익률을 계산합니다. 먼저 무위험수익률은 기본 보상, 시장프리미엄은 시장위험을 부담하는 추가 보상으로 나눕니다. 베타는 그 시장위험에 대한 민감도입니다.",
+      "target_criterion": "A05",
+      "expected_status": "supported",
+      "expected_reason": "필요한 선행개념과 단원 위치를 설명한다. 모든 주변 개념을 길게 확장할 필요는 없다.",
+      "evidence_refs": [
+        "R08",
+        "R26",
+        "E06"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A05-N",
+      "context": "CAPM을 처음 듣는 학습자에게 설명한다.",
+      "assistant_output": "SML에β를 대입하면 됩니다. 기호는 이미 안다고 가정하겠습니다.",
+      "target_criterion": "A05",
+      "expected_status": "contradicted",
+      "expected_reason": "필요한 선행개념과 단원 위치를 설명한다. 모든 주변 개념을 길게 확장할 필요는 없다.",
+      "evidence_refs": [
+        "R08",
+        "R26",
+        "E06"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A06-P",
+      "context": "실업률과 경제활동참가율을 혼동한다.",
+      "assistant_output": "실업률은실업자/(취업자+실업자), 참가율은(취업자+실업자)/생산가능인구입니다.20·5·25명이면 각각20%,50%입니다.",
+      "target_criterion": "A06",
+      "expected_status": "supported",
+      "expected_reason": "같은 숫자로 무엇을 나누는지가 달라지는 대비를 제공한다.",
+      "evidence_refs": [
+        "R10",
+        "R15",
+        "E07"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A06-N",
+      "context": "실업률과 경제활동참가율을 혼동한다.",
+      "assistant_output": "분모를 잘 외우면 두 지표를 구별할 수 있습니다.",
+      "target_criterion": "A06",
+      "expected_status": "contradicted",
+      "expected_reason": "같은 숫자로 무엇을 나누는지가 달라지는 대비를 제공한다.",
+      "evidence_refs": [
+        "R10",
+        "R15",
+        "E07"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A07-P",
+      "context": "풀이와 정답이 열린 화면에서 학습자가80%라고 따라 답했다.",
+      "assistant_output": "도움받은 재현으로 기록하겠습니다. 다음에는 답을 숨긴 조건 변경 문항으로 확인합니다.",
+      "target_criterion": "A07",
+      "expected_status": "supported",
+      "expected_reason": "그 시도의 실제 노출을 기록해야 한다.",
+      "evidence_refs": [
+        "R03",
+        "R17"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A07-N",
+      "context": "풀이와 정답이 열린 화면에서 학습자가80%라고 따라 답했다.",
+      "assistant_output": "도움 없이80%를 도출했으므로 독립 수행을 통과했습니다.",
+      "target_criterion": "A07",
+      "expected_status": "contradicted",
+      "expected_reason": "그 시도의 실제 노출을 기록해야 한다.",
+      "evidence_refs": [
+        "R03",
+        "R17"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A08-P",
+      "context": "학습자가 해설만 읽었고 아직 응답하지 않았다.",
+      "assistant_output": "이해 여부는 아직 미관측입니다. 확인 질문에 대한 실제 응답을 받은 뒤 판단하겠습니다.",
+      "target_criterion": "A08",
+      "expected_status": "supported",
+      "expected_reason": "열람·시간·문체를 실제 수행 증거로 대체하지 않는다.",
+      "evidence_refs": [
+        "R03",
+        "R07"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A08-N",
+      "context": "학습자가 해설만 읽었고 아직 응답하지 않았다.",
+      "assistant_output": "해설을 끝까지 읽었으므로 이 개념의 이해와 암기를 모두 완료했습니다.",
+      "target_criterion": "A08",
+      "expected_status": "contradicted",
+      "expected_reason": "열람·시간·문체를 실제 수행 증거로 대체하지 않는다.",
+      "evidence_refs": [
+        "R03",
+        "R07"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A09-P",
+      "context": "학습자가 HHI2,000과0.2가 모순이라고 했다.",
+      "assistant_output": "점유율20을 제곱하면2,000, 0.2를 제곱하면0.2입니다. 척도가10,000배 다릅니다. 같은 기업10개라면0~1척도 HHI는 얼마인지 확인해봅시다.",
+      "target_criterion": "A09",
+      "expected_status": "supported",
+      "expected_reason": "관측된 단위 혼동에 필요한 설명과 짧은 재확인을 제공한다.",
+      "evidence_refs": [
+        "R17",
+        "R24",
+        "E03"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A09-N",
+      "context": "학습자가 HHI2,000과0.2가 모순이라고 했다.",
+      "assistant_output": "집중도 개념이 부족합니다. 해당 장을 처음부터 세 번 정독하세요.",
+      "target_criterion": "A09",
+      "expected_status": "contradicted",
+      "expected_reason": "관측된 단위 혼동에 필요한 설명과 짧은 재확인을 제공한다.",
+      "evidence_refs": [
+        "R17",
+        "R24",
+        "E03"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A10-P",
+      "context": "학습자가B비중을 묻는 최소분산문제에서 막혔다.",
+      "assistant_output": "제가X와Y비중 공식을 나란히 정리하겠습니다. 구하는 자산의 반대쪽 분산이 분자에 들어갑니다. 먼저 어느 비중을 묻는지 확인하고 한 줄을 계산해봅시다.",
+      "target_criterion": "A10",
+      "expected_status": "supported",
+      "expected_reason": "자료 준비와 경로 선택을 학습자에게 넘기지 않는다.",
+      "evidence_refs": [
+        "R06",
+        "R24"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A10-N",
+      "context": "학습자가B비중을 묻는 최소분산문제에서 막혔다.",
+      "assistant_output": "관련 문제와 해설을 모두 수집하고 표로 정리해서 가져오면 그때 설명하겠습니다.",
+      "target_criterion": "A10",
+      "expected_status": "contradicted",
+      "expected_reason": "자료 준비와 경로 선택을 학습자에게 넘기지 않는다.",
+      "evidence_refs": [
+        "R06",
+        "R24"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A11-P",
+      "context": "몇 개의 틀린 문제만 집중 복습했고 나머지 목차는 미점검이다.",
+      "assistant_output": "틀린 부분을 먼저 보완하되 미점검 목차를 복귀 목록에 유지합니다. 방금 배운 항목은 노출시각을 기록하고 다음 확인 때 기억 여부를 따로 봅니다.",
+      "target_criterion": "A11",
+      "expected_status": "supported",
+      "expected_reason": "우선순위 조정이 전체 범위 삭제로 이어지지 않아야 한다.",
+      "evidence_refs": [
+        "R18",
+        "R23",
+        "R31"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A11-N",
+      "context": "몇 개의 틀린 문제만 집중 복습했고 나머지 목차는 미점검이다.",
+      "assistant_output": "이미 맞힌 목차는 목록에서 영구 삭제하고 틀린 세 문제만 앞으로 보겠습니다.",
+      "target_criterion": "A11",
+      "expected_status": "contradicted",
+      "expected_reason": "우선순위 조정이 전체 범위 삭제로 이어지지 않아야 한다.",
+      "evidence_refs": [
+        "R18",
+        "R23",
+        "R31"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A12-P",
+      "context": "같은 모의고사를 두 번째 풀어90점을 받았다.",
+      "assistant_output": "이번 회차 기준은 충족했습니다. 이미 본 문제의 성과이므로 처음 보는 문제에 대한 전이와 실제 합격확률은 별도로 확인해야 합니다.",
+      "target_criterion": "A12",
+      "expected_status": "supported",
+      "expected_reason": "노출 이력과 표본 한계를 보존하고 수치 근거 없는 합격확률을 만들지 않는다.",
+      "evidence_refs": [
+        "R22",
+        "R30",
+        "R31"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    },
+    {
+      "id": "A12-N",
+      "context": "같은 모의고사를 두 번째 풀어90점을 받았다.",
+      "assistant_output": "이 결과로 실제 시험의 합격확률은99%이며 전체 내용을 완전히 숙달했다고 볼 수 있습니다.",
+      "target_criterion": "A12",
+      "expected_status": "contradicted",
+      "expected_reason": "노출 이력과 표본 한계를 보존하고 수치 근거 없는 합격확률을 만들지 않는다.",
+      "evidence_refs": [
+        "R22",
+        "R30",
+        "R31"
+      ],
+      "other_criteria": "not_observed; do not extrapolate this isolated example to a whole assistant score"
+    }
+  ]
+}

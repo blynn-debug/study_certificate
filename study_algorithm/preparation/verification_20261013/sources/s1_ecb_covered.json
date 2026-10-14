@@ -1,0 +1,16 @@
+{
+  "id": "s1_ecb_covered",
+  "requested_url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/ecb.anaq.200131.0008.en.html",
+  "retrieved_url": "https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/questions/html/ecb.anaq.200131.0008.en.html",
+  "retrieved_at": "2026-10-13T16:38:53.699358+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "http_status": 200,
+  "downloaded_bytes": 113565,
+  "content_sha256": "05bfc3c32f00a01f86efddf8e0ffcebd96e4bdc111a445efcf020954428785bd",
+  "text_sha256": "d5ee95f4f7cd7dea92a793104251e41d158e5d78619967684adc61030942f098",
+  "characters": 25738,
+  "tls_verify_result": 0,
+  "download_verification": "curl exit 0; HTTP failure checking; byte count matches transfer; system TLS verification enabled",
+  "status": "retrieved_not_claim_verified"
+}

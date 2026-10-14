@@ -1,0 +1,12 @@
+{
+  "id": "s1_hf_faq",
+  "requested_url": "https://www.hf.go.kr/ko/sub03/sub03_02_05_04.do?mode=list&pager.offset=40&pagerLimit=10",
+  "retrieved_url": "https://www.hf.go.kr/ko/sub03/sub03_02_05_04.do?mode=list&pager.offset=40&pagerLimit=10",
+  "retrieved_at": "2026-10-13T15:56:47.642205+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 17751,
+  "content_sha256": "29850b292394a07c54e207bd71901526a8e2487d70c47cf86e4ce1364b46340c",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

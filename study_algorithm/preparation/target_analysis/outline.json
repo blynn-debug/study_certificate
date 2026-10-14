@@ -1,0 +1,5011 @@
+{
+  "chapter_count": 16,
+  "topic_count": 285,
+  "chapters": [
+    {
+      "id": "S1C1",
+      "document": "P12",
+      "name": "세제관련 법규/세무전략",
+      "toc_page": 15,
+      "pdf_end": 60,
+      "additional_questions_start": 55,
+      "topics": [
+        {
+          "id": "S1C1T01",
+          "number": 1,
+          "title_ocr": "조세의 분류",
+          "printed_start": 4,
+          "pdf_start": 16,
+          "pdf_end": 18,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "조세의 분류"
+        },
+        {
+          "id": "S1C1T02",
+          "number": 2,
+          "title_ocr": "납세의무",
+          "printed_start": 7,
+          "pdf_start": 19,
+          "pdf_end": 22,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "납세의무"
+        },
+        {
+          "id": "S1C1T03",
+          "number": 3,
+          "title_ocr": "기타의 조세제도",
+          "printed_start": 11,
+          "pdf_start": 23,
+          "pdf_end": 25,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기타의 조세제도"
+        },
+        {
+          "id": "S1C1T04",
+          "number": 4,
+          "title_ocr": "소득세법 개요",
+          "printed_start": 14,
+          "pdf_start": 26,
+          "pdf_end": 28,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "소득세법 개요"
+        },
+        {
+          "id": "S1C1T05",
+          "number": 5,
+          "title_ocr": "소득세 과세방법",
+          "printed_start": 17,
+          "pdf_start": 29,
+          "pdf_end": 30,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "소득세 과세방법"
+        },
+        {
+          "id": "S1C1T06",
+          "number": 6,
+          "title_ocr": "이자소득의 종류",
+          "printed_start": 19,
+          "pdf_start": 31,
+          "pdf_end": 33,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이자소득의 종류"
+        },
+        {
+          "id": "S1C1T07",
+          "number": 7,
+          "title_ocr": "배당소득의 종류",
+          "printed_start": 22,
+          "pdf_start": 34,
+          "pdf_end": 36,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "배당소득의 종류"
+        },
+        {
+          "id": "S1C1T08",
+          "number": 8,
+          "title_ocr": "금융소득에 대한 과세방법",
+          "printed_start": 25,
+          "pdf_start": 37,
+          "pdf_end": 40,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융소득에 대한 과세방법"
+        },
+        {
+          "id": "S1C1T09",
+          "number": 9,
+          "title_ocr": "종합소득 과세제도",
+          "printed_start": 29,
+          "pdf_start": 41,
+          "pdf_end": 43,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "종합소득 과세제도"
+        },
+        {
+          "id": "S1C1T10",
+          "number": 10,
+          "title_ocr": "양도소득세 개요",
+          "printed_start": 32,
+          "pdf_start": 44,
+          "pdf_end": 46,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "양도소득세 개요"
+        },
+        {
+          "id": "S1C1T11",
+          "number": 11,
+          "title_ocr": "양도소득세 과세흐름",
+          "printed_start": 35,
+          "pdf_start": 47,
+          "pdf_end": 49,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "양도소득세 과세흐름"
+        },
+        {
+          "id": "S1C1T12",
+          "number": 12,
+          "title_ocr": "증권거래세",
+          "printed_start": 38,
+          "pdf_start": 50,
+          "pdf_end": 51,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "증권거래세"
+        },
+        {
+          "id": "S1C1T13",
+          "number": 13,
+          "title_ocr": "절세전략",
+          "printed_start": 40,
+          "pdf_start": 52,
+          "pdf_end": 54,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C1.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "절세전략"
+        }
+      ]
+    },
+    {
+      "id": "S1C2",
+      "document": "P12",
+      "name": "금융상품",
+      "toc_page": 61,
+      "pdf_end": 172,
+      "additional_questions_start": 163,
+      "topics": [
+        {
+          "id": "S1C2T01",
+          "number": 1,
+          "title_ocr": "금융기관의 분류",
+          "printed_start": 50,
+          "pdf_start": 62,
+          "pdf_end": 65,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융기관의 분류"
+        },
+        {
+          "id": "S1C2T02",
+          "number": 2,
+          "title_ocr": "개인종합자산관리 계조KISA)",
+          "printed_start": 54,
+          "pdf_start": 66,
+          "pdf_end": 67,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "개인종합자산관리계좌 ISA"
+        },
+        {
+          "id": "S1C2T03",
+          "number": 3,
+          "title_ocr": "비과세 상품",
+          "printed_start": 56,
+          "pdf_start": 68,
+          "pdf_end": 69,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "비과세 상품"
+        },
+        {
+          "id": "S1C2T04",
+          "number": 4,
+          "title_ocr": "은행의 금융상품",
+          "printed_start": 58,
+          "pdf_start": 70,
+          "pdf_end": 73,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "은행의 금융상품"
+        },
+        {
+          "id": "S1C2T05",
+          "number": 5,
+          "title_ocr": "시장성상품",
+          "printed_start": 62,
+          "pdf_start": 74,
+          "pdf_end": 75,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "시장성상품"
+        },
+        {
+          "id": "S1C2T06",
+          "number": 6,
+          "title_ocr": "신탁상품",
+          "printed_start": 64,
+          "pdf_start": 76,
+          "pdf_end": 79,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "신탁상품"
+        },
+        {
+          "id": "S1C2T07",
+          "number": 7,
+          "title_ocr": "연금저축신탁",
+          "printed_start": 68,
+          "pdf_start": 80,
+          "pdf_end": 82,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "연금저축신탁"
+        },
+        {
+          "id": "S1C2T08",
+          "number": 8,
+          "title_ocr": "주가지수연동형 상품",
+          "printed_start": 71,
+          "pdf_start": 83,
+          "pdf_end": 89,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주가지수연동형 상품"
+        },
+        {
+          "id": "S1C2T09",
+          "number": 9,
+          "title_ocr": "ELW(주식워런트증권)",
+          "printed_start": 78,
+          "pdf_start": 90,
+          "pdf_end": 94,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "ELW"
+        },
+        {
+          "id": "S1C2T10",
+          "number": 10,
+          "title_ocr": "랩어카운트(Wrap Account)",
+          "printed_start": 83,
+          "pdf_start": 95,
+          "pdf_end": 96,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "랩어카운트"
+        },
+        {
+          "id": "S1C2T11",
+          "number": 11,
+          "title_ocr": "예금자보호제도",
+          "printed_start": 85,
+          "pdf_start": 97,
+          "pdf_end": 99,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "예금자보호제도"
+        },
+        {
+          "id": "S1C2T12",
+          "number": 12,
+          "title_ocr": "생명보험상품의 개요",
+          "printed_start": 88,
+          "pdf_start": 100,
+          "pdf_end": 101,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "생명보험상품의 개요"
+        },
+        {
+          "id": "S1C2T13",
+          "number": 13,
+          "title_ocr": "생명보험상품의 종류",
+          "printed_start": 90,
+          "pdf_start": 102,
+          "pdf_end": 103,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "생명보험상품의 종류"
+        },
+        {
+          "id": "S1C2T14",
+          "number": 14,
+          "title_ocr": "손해보험의 특징",
+          "printed_start": 92,
+          "pdf_start": 104,
+          "pdf_end": 105,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "손해보험의 특징"
+        },
+        {
+          "id": "S1C2T15",
+          "number": 15,
+          "title_ocr": "손해보험의 종류-⑴ 화재보험",
+          "printed_start": 94,
+          "pdf_start": 106,
+          "pdf_end": 109,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "화재보험"
+        },
+        {
+          "id": "S1C2T16",
+          "number": 16,
+          "title_ocr": "손해보험의 종류-(2) 자동차보험",
+          "printed_start": 98,
+          "pdf_start": 110,
+          "pdf_end": 111,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자동차보험"
+        },
+        {
+          "id": "S1C2T17",
+          "number": 17,
+          "title_ocr": "장기손해보험의 특징",
+          "printed_start": 100,
+          "pdf_start": 112,
+          "pdf_end": 113,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "장기손해보험"
+        },
+        {
+          "id": "S1C2T18",
+          "number": 18,
+          "title_ocr": "집합투자의 정의",
+          "printed_start": 102,
+          "pdf_start": 114,
+          "pdf_end": 115,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자의 정의"
+        },
+        {
+          "id": "S1C2T19",
+          "number": 19,
+          "title_ocr": "집합투자기구의 법적형태 등",
+          "printed_start": 104,
+          "pdf_start": 116,
+          "pdf_end": 117,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자기구의 법적 형태"
+        },
+        {
+          "id": "S1C2T20",
+          "number": 20,
+          "title_ocr": "투자신탁의 3면 관계",
+          "printed_start": 106,
+          "pdf_start": 118,
+          "pdf_end": 119,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 20,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자신탁의 3면 관계"
+        },
+        {
+          "id": "S1C2T21",
+          "number": 21,
+          "title_ocr": "집합투자증권의 발행(투자신탁의 수익 증권발행/투자회사의 주식발행)",
+          "printed_start": 108,
+          "pdf_start": 120,
+          "pdf_end": 121,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 21,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자증권의 발행"
+        },
+        {
+          "id": "S1C2T22",
+          "number": 22,
+          "title_ocr": "수익자총회",
+          "printed_start": 110,
+          "pdf_start": 122,
+          "pdf_end": 123,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 22,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "수익자총회"
+        },
+        {
+          "id": "S1C2T23",
+          "number": 23,
+          "title_ocr": "투자회사의 설립과 해산",
+          "printed_start": 112,
+          "pdf_start": 124,
+          "pdf_end": 125,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 23,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자회사의 설립과 해산"
+        },
+        {
+          "id": "S1C2T24",
+          "number": 24,
+          "title_ocr": "5가지 자본시장법상의 펀드유형",
+          "printed_start": 114,
+          "pdf_start": 126,
+          "pdf_end": 129,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 24,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자본시장법상 펀드 유형과 MMF"
+        },
+        {
+          "id": "S1C2T25",
+          "number": 25,
+          "title_ocr": "특수한 형태의 집합투자기구 5유형",
+          "printed_start": 118,
+          "pdf_start": 130,
+          "pdf_end": 135,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 25,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "특수한 형태의 집합투자기구"
+        },
+        {
+          "id": "S1C2T26",
+          "number": 26,
+          "title_ocr": "집합투자증권의 환매(매도)",
+          "printed_start": 124,
+          "pdf_start": 136,
+          "pdf_end": 139,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 26,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자증권의 환매"
+        },
+        {
+          "id": "S1C2T27",
+          "number": 27,
+          "title_ocr": "집합투자재산의 평가",
+          "printed_start": 128,
+          "pdf_start": 140,
+          "pdf_end": 141,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 27,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자재산의 평가"
+        },
+        {
+          "id": "S1C2T28",
+          "number": 28,
+          "title_ocr": "집합투자재산의 회계",
+          "printed_start": 130,
+          "pdf_start": 142,
+          "pdf_end": 143,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 28,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자재산의 회계"
+        },
+        {
+          "id": "S1C2T29",
+          "number": 29,
+          "title_ocr": "집합투자재산의 보관 및 관리",
+          "printed_start": 132,
+          "pdf_start": 144,
+          "pdf_end": 145,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 29,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자재산의 보관 및 관리"
+        },
+        {
+          "id": "S1C2T30",
+          "number": 30,
+          "title_ocr": "사모집합투자기구에 대한 특례",
+          "printed_start": 134,
+          "pdf_start": 146,
+          "pdf_end": 147,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 30,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "사모집합투자기구의 특례"
+        },
+        {
+          "id": "S1C2T31",
+          "number": 31,
+          "title_ocr": "집합투자기구의 명칭",
+          "printed_start": 136,
+          "pdf_start": 148,
+          "pdf_end": 149,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 31,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자기구의 명칭"
+        },
+        {
+          "id": "S1C2T32",
+          "number": 32,
+          "title_ocr": "집합투자기구의 관계회사",
+          "printed_start": 138,
+          "pdf_start": 150,
+          "pdf_end": 151,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 32,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자기구의 관계회사"
+        },
+        {
+          "id": "S1C2T33",
+          "number": 33,
+          "title_ocr": "자산유동화증권 (ABS)",
+          "printed_start": 140,
+          "pdf_start": 152,
+          "pdf_end": 156,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 33,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자산유동화증권 ABS"
+        },
+        {
+          "id": "S1C2T34",
+          "number": 34,
+          "title_ocr": "주택저당증권 (MBS)",
+          "printed_start": 145,
+          "pdf_start": 157,
+          "pdf_end": 160,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 34,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주택저당증권 MBS"
+        },
+        {
+          "id": "S1C2T35",
+          "number": 35,
+          "title_ocr": "퇴직연금제도",
+          "printed_start": 149,
+          "pdf_start": 161,
+          "pdf_end": 162,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C2.json",
+              "topic_number": 35,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "퇴직연금제도"
+        }
+      ]
+    },
+    {
+      "id": "S1C3",
+      "document": "P12",
+      "name": "부동산관련 상품",
+      "toc_page": 173,
+      "pdf_end": 232,
+      "additional_questions_start": 227,
+      "topics": [
+        {
+          "id": "S1C3T01",
+          "number": 1,
+          "title_ocr": "부동산의 개념",
+          "printed_start": 162,
+          "pdf_start": 174,
+          "pdf_end": 176,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산의 개념"
+        },
+        {
+          "id": "S1C3T02",
+          "number": 2,
+          "title_ocr": "부동산과 동산의 법률상 차이",
+          "printed_start": 165,
+          "pdf_start": 177,
+          "pdf_end": 178,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산과 동산의 법률상 차이"
+        },
+        {
+          "id": "S1C3T03",
+          "number": 3,
+          "title_ocr": "부동산의 자연적 특성, 인문적 특성",
+          "printed_start": 167,
+          "pdf_start": 179,
+          "pdf_end": 180,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산의 자연적·인문적 특성"
+        },
+        {
+          "id": "S1C3T04",
+          "number": 4,
+          "title_ocr": "부동산 권리（부동산의 법률적 측면）",
+          "printed_start": 169,
+          "pdf_start": 181,
+          "pdf_end": 184,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산 권리"
+        },
+        {
+          "id": "S1C3T05",
+          "number": 5,
+          "title_ocr": "부동산 공부",
+          "printed_start": 173,
+          "pdf_start": 185,
+          "pdf_end": 186,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산 공부"
+        },
+        {
+          "id": "S1C3T06",
+          "number": 6,
+          "title_ocr": "부동산시장의 특징",
+          "printed_start": 175,
+          "pdf_start": 187,
+          "pdf_end": 188,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산시장의 특징"
+        },
+        {
+          "id": "S1C3T07",
+          "number": 7,
+          "title_ocr": "부동산의 경기변동",
+          "printed_start": 177,
+          "pdf_start": 189,
+          "pdf_end": 191,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산의 경기변동"
+        },
+        {
+          "id": "S1C3T08",
+          "number": 8,
+          "title_ocr": "부동산투자결정 프로세스",
+          "printed_start": 180,
+          "pdf_start": 192,
+          "pdf_end": 195,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산투자결정 프로세스"
+        },
+        {
+          "id": "S1C3T09",
+          "number": 9,
+          "title_ocr": "토지이용계획 관련법의 체계",
+          "printed_start": 184,
+          "pdf_start": 196,
+          "pdf_end": 197,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "토지이용계획 관련법의 체계"
+        },
+        {
+          "id": "S1C3T10",
+          "number": 10,
+          "title_ocr": "도시계획",
+          "printed_start": 186,
+          "pdf_start": 198,
+          "pdf_end": 201,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "도시계획"
+        },
+        {
+          "id": "S1C3T11",
+          "number": 11,
+          "title_ocr": "개발행위와 개발행위허가",
+          "printed_start": 190,
+          "pdf_start": 202,
+          "pdf_end": 203,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "개발행위와 개발행위허가"
+        },
+        {
+          "id": "S1C3T12",
+          "number": 12,
+          "title_ocr": "건축법",
+          "printed_start": 192,
+          "pdf_start": 204,
+          "pdf_end": 205,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "건축법"
+        },
+        {
+          "id": "S1C3T13",
+          "number": 13,
+          "title_ocr": "부동산 개발사업방식",
+          "printed_start": 194,
+          "pdf_start": 206,
+          "pdf_end": 207,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산 개발사업방식"
+        },
+        {
+          "id": "S1C3T14",
+          "number": 14,
+          "title_ocr": "부동산투자회사（R 티 Ts）",
+          "printed_start": 196,
+          "pdf_start": 208,
+          "pdf_end": 209,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산투자회사 REITs"
+        },
+        {
+          "id": "S1C3T15",
+          "number": 15,
+          "title_ocr": "대출형 부동산펀드（PF형 부동산펀드）",
+          "printed_start": 198,
+          "pdf_start": 210,
+          "pdf_end": 212,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "대출형 PF 부동산펀드"
+        },
+        {
+          "id": "S1C3T16",
+          "number": 16,
+          "title_ocr": "부동산 포트폴리오 분산투자의 효과",
+          "printed_start": 201,
+          "pdf_start": 213,
+          "pdf_end": 214,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산 포트폴리오와 분산투자"
+        },
+        {
+          "id": "S1C3T17",
+          "number": 17,
+          "title_ocr": "부동산의 가치평가一⑴ 부동산가치의 발생 및 형성요인",
+          "printed_start": 203,
+          "pdf_start": 215,
+          "pdf_end": 217,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산가치의 발생·형성요인"
+        },
+        {
+          "id": "S1C3T18",
+          "number": 18,
+          "title_ocr": "가치평가一（2） 부동산의 부동산의 가치추계원칙",
+          "printed_start": 206,
+          "pdf_start": 218,
+          "pdf_end": 218,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산의 가치추계원칙"
+        },
+        {
+          "id": "S1C3T19",
+          "number": 19,
+          "title_ocr": "가치평기一（3） 부동산의 부동산 감정평가의 3방식",
+          "printed_start": 207,
+          "pdf_start": 219,
+          "pdf_end": 226,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S1C3.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산 감정평가의 3방식"
+        }
+      ]
+    },
+    {
+      "id": "S2C1",
+      "document": "P12",
+      "name": "대안투자운용/투자전략",
+      "toc_page": 233,
+      "pdf_end": 276,
+      "additional_questions_start": 272,
+      "topics": [
+        {
+          "id": "S2C1T01",
+          "number": 1,
+          "title_ocr": "대안투자상품의 개요",
+          "printed_start": 222,
+          "pdf_start": 234,
+          "pdf_end": 235,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "대안투자 개요"
+        },
+        {
+          "id": "S2C1T02",
+          "number": 2,
+          "title_ocr": "투자분석의 종류",
+          "printed_start": 224,
+          "pdf_start": 236,
+          "pdf_end": 237,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산투자분석"
+        },
+        {
+          "id": "S2C1T03",
+          "number": 3,
+          "title_ocr": "",
+          "printed_start": 226,
+          "pdf_start": 238,
+          "pdf_end": 240,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부동산투자금융"
+        },
+        {
+          "id": "S2C1T04",
+          "number": 4,
+          "title_ocr": "개념 및 사원구성 등",
+          "printed_start": 229,
+          "pdf_start": 241,
+          "pdf_end": 243,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "PEF 개념과 GP·LP"
+        },
+        {
+          "id": "S2C1T05",
+          "number": 5,
+          "title_ocr": "재산운용",
+          "printed_start": 232,
+          "pdf_start": 244,
+          "pdf_end": 245,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "PEF 운용"
+        },
+        {
+          "id": "S2C1T06",
+          "number": 6,
+          "title_ocr": "자금조달 및 투자회수(EXIT)",
+          "printed_start": 234,
+          "pdf_start": 246,
+          "pdf_end": 247,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "PEF 자금조달과 EXIT"
+        },
+        {
+          "id": "S2C1T07",
+          "number": 7,
+          "title_ocr": "전략의 종류",
+          "printed_start": 236,
+          "pdf_start": 248,
+          "pdf_end": 249,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "헤지펀드전략 분류"
+        },
+        {
+          "id": "S2C1T08",
+          "number": 8,
+          "title_ocr": "Long/Short Equity",
+          "printed_start": 238,
+          "pdf_start": 250,
+          "pdf_end": 252,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "Long/Short Equity"
+        },
+        {
+          "id": "S2C1T09",
+          "number": 9,
+          "title_ocr": "합병 차익거래",
+          "printed_start": 241,
+          "pdf_start": 253,
+          "pdf_end": 254,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "합병차익거래"
+        },
+        {
+          "id": "S2C1T10",
+          "number": 10,
+          "title_ocr": "전환증권 차익거래",
+          "printed_start": 243,
+          "pdf_start": 255,
+          "pdf_end": 256,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전환차익거래"
+        },
+        {
+          "id": "S2C1T11",
+          "number": 11,
+          "title_ocr": "채권 차익거래",
+          "printed_start": 245,
+          "pdf_start": 257,
+          "pdf_end": 259,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "채권차익거래"
+        },
+        {
+          "id": "S2C1T12",
+          "number": 12,
+          "title_ocr": "",
+          "printed_start": 248,
+          "pdf_start": 260,
+          "pdf_end": 262,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "특별자산펀드와 Commodity"
+        },
+        {
+          "id": "S2C1T13",
+          "number": 13,
+          "title_ocr": "Structure-«) CDS, FTD, TRS,",
+          "printed_start": 251,
+          "pdf_start": 263,
+          "pdf_end": 265,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "CDS·FTD·TRS·CLN"
+        },
+        {
+          "id": "S2C1T14",
+          "number": 14,
+          "title_ocr": "Structure-(2) CDO",
+          "printed_start": 254,
+          "pdf_start": 266,
+          "pdf_end": 271,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C1.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "CDO와 트랜치"
+        }
+      ]
+    },
+    {
+      "id": "S2C2",
+      "document": "P12",
+      "name": "해외증권투자운용/투자전략",
+      "toc_page": 277,
+      "pdf_end": 304,
+      "additional_questions_start": 299,
+      "topics": [
+        {
+          "id": "S2C2T01",
+          "number": 1,
+          "title_ocr": "국제분산투자의 개념",
+          "printed_start": 266,
+          "pdf_start": 278,
+          "pdf_end": 280,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "국제분산투자의 개념"
+        },
+        {
+          "id": "S2C2T02",
+          "number": 2,
+          "title_ocr": "국가주가지수와 국제주가 지수",
+          "printed_start": 269,
+          "pdf_start": 281,
+          "pdf_end": 282,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "국가주가지수와 국제주가지수"
+        },
+        {
+          "id": "S2C2T03",
+          "number": 3,
+          "title_ocr": "해외투자와 환위험",
+          "printed_start": 271,
+          "pdf_start": 283,
+          "pdf_end": 285,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "해외투자와 환위험"
+        },
+        {
+          "id": "S2C2T04",
+          "number": 4,
+          "title_ocr": "환위험헤징전략",
+          "printed_start": 274,
+          "pdf_start": 286,
+          "pdf_end": 287,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "환위험헤징전략"
+        },
+        {
+          "id": "S2C2T05",
+          "number": 5,
+          "title_ocr": "해외주식발행",
+          "printed_start": 276,
+          "pdf_start": 288,
+          "pdf_end": 289,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "해외주식발행"
+        },
+        {
+          "id": "S2C2T06",
+          "number": 6,
+          "title_ocr": "유로채와 외국채",
+          "printed_start": 278,
+          "pdf_start": 290,
+          "pdf_end": 291,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "유로채와 외국채"
+        },
+        {
+          "id": "S2C2T07",
+          "number": 7,
+          "title_ocr": "해외주식투자 시 과세방법 등",
+          "printed_start": 280,
+          "pdf_start": 292,
+          "pdf_end": 294,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "해외주식투자 시 과세방법 등"
+        },
+        {
+          "id": "S2C2T08",
+          "number": 8,
+          "title_ocr": "해외채권투자 시 유의사항",
+          "printed_start": 283,
+          "pdf_start": 295,
+          "pdf_end": 296,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "해외채권투자 시 유의사항"
+        },
+        {
+          "id": "S2C2T09",
+          "number": 9,
+          "title_ocr": "해외증권투자전략",
+          "printed_start": 285,
+          "pdf_start": 297,
+          "pdf_end": 298,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C2.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "해외증권투자전략"
+        }
+      ]
+    },
+    {
+      "id": "S2C3",
+      "document": "P12",
+      "name": "투자분석기법",
+      "toc_page": 305,
+      "pdf_end": 404,
+      "additional_questions_start": 393,
+      "topics": [
+        {
+          "id": "S2C3T01",
+          "number": 1,
+          "title_ocr": "분석］ 가치평가와 현금흐름",
+          "printed_start": 294,
+          "pdf_start": 306,
+          "pdf_end": 307,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기본적 분석: 가치평가와 현금흐름"
+        },
+        {
+          "id": "S2C3T02",
+          "number": 2,
+          "title_ocr": "위한 통계용어",
+          "printed_start": 296,
+          "pdf_start": 308,
+          "pdf_end": 309,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "증권분석을 위한 통계용어"
+        },
+        {
+          "id": "S2C3T03",
+          "number": 3,
+          "title_ocr": "분석］ 유가증권의 가치평가",
+          "printed_start": 298,
+          "pdf_start": 310,
+          "pdf_end": 311,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기본적 분석: 유가증권의 가치평가"
+        },
+        {
+          "id": "S2C3T04",
+          "number": 4,
+          "title_ocr": "분석］ 보통주의 가치평가",
+          "printed_start": 300,
+          "pdf_start": 312,
+          "pdf_end": 317,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기본적 분석: 보통주의 가치평가"
+        },
+        {
+          "id": "S2C3T05",
+          "number": 5,
+          "title_ocr": "분석］ 기업분석-⑴ 재무비율",
+          "printed_start": 306,
+          "pdf_start": 318,
+          "pdf_end": 323,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기업분석: 재무비율"
+        },
+        {
+          "id": "S2C3T06",
+          "number": 6,
+          "title_ocr": "분석］ 기업분석-(2) 레버리지 분석",
+          "printed_start": 312,
+          "pdf_start": 324,
+          "pdf_end": 326,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기업분석: 레버리지 분석"
+        },
+        {
+          "id": "S2C3T07",
+          "number": 7,
+          "title_ocr": "분석］ 기업분석-(3) 현금흐름분석",
+          "printed_start": 315,
+          "pdf_start": 327,
+          "pdf_end": 328,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기업분석: 현금흐름분석"
+        },
+        {
+          "id": "S2C3T08",
+          "number": 8,
+          "title_ocr": "분석］ 기업분석-(4) 잉여현금흐름 모형",
+          "printed_start": 317,
+          "pdf_start": 329,
+          "pdf_end": 330,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기업분석: 잉여현금흐름 모형"
+        },
+        {
+          "id": "S2C3T09",
+          "number": 9,
+          "title_ocr": "분석］ 기업분석T5) 상대가치평가모형",
+          "printed_start": 319,
+          "pdf_start": 331,
+          "pdf_end": 335,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기업분석: 상대가치평가모형"
+        },
+        {
+          "id": "S2C3T10",
+          "number": 10,
+          "title_ocr": "분석］ EVA모형",
+          "printed_start": 324,
+          "pdf_start": 336,
+          "pdf_end": 340,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기본적 분석: EVA모형"
+        },
+        {
+          "id": "S2C3T11",
+          "number": 11,
+          "title_ocr": "분석］ 기술적 분석의 개념",
+          "printed_start": 329,
+          "pdf_start": 341,
+          "pdf_end": 342,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기술적 분석의 개념"
+        },
+        {
+          "id": "S2C3T12",
+          "number": 12,
+          "title_ocr": "분석］ 다우 이론",
+          "printed_start": 331,
+          "pdf_start": 343,
+          "pdf_end": 345,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "다우 이론"
+        },
+        {
+          "id": "S2C3T13",
+          "number": 13,
+          "title_ocr": "분석］ 추세 분석",
+          "printed_start": 334,
+          "pdf_start": 346,
+          "pdf_end": 347,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "추세 분석"
+        },
+        {
+          "id": "S2C3T14",
+          "number": 14,
+          "title_ocr": "분석］ 이동평균선 분석",
+          "printed_start": 336,
+          "pdf_start": 348,
+          "pdf_end": 351,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이동평균선 분석"
+        },
+        {
+          "id": "S2C3T15",
+          "number": 15,
+          "title_ocr": "매매신호",
+          "printed_start": 340,
+          "pdf_start": 352,
+          "pdf_end": 353,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "그랜빌의 매매신호"
+        },
+        {
+          "id": "S2C3T16",
+          "number": 16,
+          "title_ocr": "분석］ 갭이론과 되돌림",
+          "printed_start": 342,
+          "pdf_start": 354,
+          "pdf_end": 355,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "갭이론과 되돌림"
+        },
+        {
+          "id": "S2C3T17",
+          "number": 17,
+          "title_ocr": "분석］ 패턴 분석",
+          "printed_start": 344,
+          "pdf_start": 356,
+          "pdf_end": 361,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "패턴 분석"
+        },
+        {
+          "id": "S2C3T18",
+          "number": 18,
+          "title_ocr": "차트",
+          "printed_start": 350,
+          "pdf_start": 362,
+          "pdf_end": 363,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "캔들 차트"
+        },
+        {
+          "id": "S2C3T19",
+          "number": 19,
+          "title_ocr": "분석］ 시장구조이론「엘리어트 파동이론",
+          "printed_start": 352,
+          "pdf_start": 364,
+          "pdf_end": 366,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "엘리어트 파동이론"
+        },
+        {
+          "id": "S2C3T20",
+          "number": 20,
+          "title_ocr": "분석］ 지표분석-⑴ 거래량 관련 지표",
+          "printed_start": 355,
+          "pdf_start": 367,
+          "pdf_end": 368,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 20,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "거래량 관련 지표"
+        },
+        {
+          "id": "S2C3T21",
+          "number": 21,
+          "title_ocr": "분석］ 지표분석-(2) 이동평균선 지표",
+          "printed_start": 357,
+          "pdf_start": 369,
+          "pdf_end": 370,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 21,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이동평균선 지표"
+        },
+        {
+          "id": "S2C3T22",
+          "number": 22,
+          "title_ocr": "분석］ 지표분석-(3) 추세반전형 지표",
+          "printed_start": 359,
+          "pdf_start": 371,
+          "pdf_end": 373,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 22,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "추세반전형 지표"
+        },
+        {
+          "id": "S2C3T23",
+          "number": 23,
+          "title_ocr": "산업분석의 개념",
+          "printed_start": 362,
+          "pdf_start": 374,
+          "pdf_end": 375,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 23,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업분석의 개념"
+        },
+        {
+          "id": "S2C3T24",
+          "number": 24,
+          "title_ocr": "산업구조 변화분석",
+          "printed_start": 364,
+          "pdf_start": 376,
+          "pdf_end": 377,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 24,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업구조 변화분석"
+        },
+        {
+          "id": "S2C3T25",
+          "number": 25,
+          "title_ocr": "산업구조 변화의 근본원인",
+          "printed_start": 366,
+          "pdf_start": 378,
+          "pdf_end": 380,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 25,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "요소경쟁력과 산업구조 변화"
+        },
+        {
+          "id": "S2C3T26",
+          "number": 26,
+          "title_ocr": "산업연관 분석",
+          "printed_start": 369,
+          "pdf_start": 381,
+          "pdf_end": 383,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 26,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업연관분석"
+        },
+        {
+          "id": "S2C3T27",
+          "number": 27,
+          "title_ocr": "산업분석］ 라이프사이클 분석 제품수명주기 이론",
+          "printed_start": 372,
+          "pdf_start": 384,
+          "pdf_end": 385,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 27,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "제품수명주기와 라이프사이클"
+        },
+        {
+          "id": "S2C3T28",
+          "number": 28,
+          "title_ocr": "산업경쟁력 분석",
+          "printed_start": 374,
+          "pdf_start": 386,
+          "pdf_end": 388,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 28,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업경쟁력 분석"
+        },
+        {
+          "id": "S2C3T29",
+          "number": 29,
+          "title_ocr": "산업정책 분석-⑴ 산업구조정책",
+          "printed_start": 377,
+          "pdf_start": 389,
+          "pdf_end": 390,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 29,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업정책과 산업구조정책"
+        },
+        {
+          "id": "S2C3T30",
+          "number": 30,
+          "title_ocr": "산업정책 분석-(2) 산업조직정책",
+          "printed_start": 379,
+          "pdf_start": 391,
+          "pdf_end": 392,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C3.json",
+              "topic_number": 30,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "산업조직정책과 시장집중도"
+        }
+      ]
+    },
+    {
+      "id": "S2C4",
+      "document": "P12",
+      "name": "리스크관리",
+      "toc_page": 405,
+      "pdf_end": 443,
+      "additional_questions_start": 437,
+      "topics": [
+        {
+          "id": "S2C4T01",
+          "number": 1,
+          "title_ocr": "리스크의 정의",
+          "printed_start": 394,
+          "pdf_start": 406,
+          "pdf_end": 406,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "리스크의 정의"
+        },
+        {
+          "id": "S2C4T02",
+          "number": 2,
+          "title_ocr": "리스크 관리의 실패사례",
+          "printed_start": 395,
+          "pdf_start": 407,
+          "pdf_end": 411,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "리스크 관리 실패사례"
+        },
+        {
+          "id": "S2C4T03",
+          "number": 3,
+          "title_ocr": "시장리스크의 측정-⑴ VaR의 정의",
+          "printed_start": 400,
+          "pdf_start": 412,
+          "pdf_end": 413,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "VaR의 정의"
+        },
+        {
+          "id": "S2C4T04",
+          "number": 4,
+          "title_ocr": "시장리스크의 측정-(2) 부분가치 평가 VS 완전가치 평가",
+          "printed_start": 402,
+          "pdf_start": 414,
+          "pdf_end": 416,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "부분가치평가와 완전가치평가"
+        },
+        {
+          "id": "S2C4T05",
+          "number": 5,
+          "title_ocr": "측정-(3) 델타분석법-델타 시장리스크의 노말 분석법",
+          "printed_start": 405,
+          "pdf_start": 417,
+          "pdf_end": 419,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "델타노말 분석법"
+        },
+        {
+          "id": "S2C4T06",
+          "number": 6,
+          "title_ocr": "시장리스크의 측정-(4) 델타■감마 분석법",
+          "printed_start": 408,
+          "pdf_start": 420,
+          "pdf_end": 421,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "델타감마 분석법"
+        },
+        {
+          "id": "S2C4T07",
+          "number": 7,
+          "title_ocr": "시장리스크의 측정-(5) 역사적 시뮬레이 션 분석법",
+          "printed_start": 410,
+          "pdf_start": 422,
+          "pdf_end": 424,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "역사적 시뮬레이션"
+        },
+        {
+          "id": "S2C4T08",
+          "number": 8,
+          "title_ocr": "시장리스크의 측정-(6) 몬테카를로 시뮬 레이션 분석법",
+          "printed_start": 413,
+          "pdf_start": 425,
+          "pdf_end": 425,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "몬테카를로 시뮬레이션"
+        },
+        {
+          "id": "S2C4T09",
+          "number": 9,
+          "title_ocr": "시장리스크의 측정-(7) 스트레스 검증법",
+          "printed_start": 414,
+          "pdf_start": 426,
+          "pdf_end": 426,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "스트레스 검증법"
+        },
+        {
+          "id": "S2C4T10",
+          "number": 10,
+          "title_ocr": "측정방법의 비교 VaR",
+          "printed_start": 415,
+          "pdf_start": 427,
+          "pdf_end": 428,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "VaR 측정방법 비교"
+        },
+        {
+          "id": "S2C4T11",
+          "number": 11,
+          "title_ocr": "VaR의 유용성",
+          "printed_start": 417,
+          "pdf_start": 429,
+          "pdf_end": 430,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "VaR의 유용성"
+        },
+        {
+          "id": "S2C4T12",
+          "number": 12,
+          "title_ocr": "VaR모형의 한계점",
+          "printed_start": 419,
+          "pdf_start": 431,
+          "pdf_end": 432,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "VaR모형의 한계"
+        },
+        {
+          "id": "S2C4T13",
+          "number": 13,
+          "title_ocr": "신용리스크 측정",
+          "printed_start": 421,
+          "pdf_start": 433,
+          "pdf_end": 436,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S2C4.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "신용리스크 측정"
+        }
+      ]
+    },
+    {
+      "id": "S3C1",
+      "document": "P3",
+      "name": "직무윤리",
+      "toc_page": 3,
+      "pdf_end": 58,
+      "additional_questions_start": 53,
+      "topics": [
+        {
+          "id": "S3C1T01",
+          "number": 1,
+          "title_ocr": "직무윤리의 필요성",
+          "printed_start": 4,
+          "pdf_start": 4,
+          "pdf_end": 6,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "직무윤리의 필요성"
+        },
+        {
+          "id": "S3C1T02",
+          "number": 2,
+          "title_ocr": "직무윤리의 적용대상",
+          "printed_start": 7,
+          "pdf_start": 7,
+          "pdf_end": 7,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "직무윤리의 적용대상"
+        },
+        {
+          "id": "S3C1T03",
+          "number": 3,
+          "title_ocr": "'금융투자회사 표준윤리준칙‘의 분류",
+          "printed_start": 8,
+          "pdf_start": 8,
+          "pdf_end": 9,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자회사 표준윤리준칙의 분류"
+        },
+        {
+          "id": "S3C1T04",
+          "number": 4,
+          "title_ocr": "'금융투자업 직무윤리'의 체계",
+          "printed_start": 10,
+          "pdf_start": 10,
+          "pdf_end": 11,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자업 직무윤리의 체계"
+        },
+        {
+          "id": "S3C1T05",
+          "number": 5,
+          "title_ocr": "'금융투자업 직무윤리’의 체계-⑴ 기본원칙",
+          "printed_start": 12,
+          "pdf_start": 12,
+          "pdf_end": 13,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기본원칙과 법제화"
+        },
+        {
+          "id": "S3C1T06",
+          "number": 6,
+          "title_ocr": "'금융투자업 직무윤리의 체계T2) 이해상충방지의무",
+          "printed_start": 14,
+          "pdf_start": 14,
+          "pdf_end": 17,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이해상충방지의무"
+        },
+        {
+          "id": "S3C1T07",
+          "number": 7,
+          "title_ocr": "직무윤리의 '금융투자업 체계-(3) 금융소비자보호 의무YD 개요",
+          "printed_start": 18,
+          "pdf_start": 18,
+          "pdf_end": 20,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융소비자보호 내부통제 조직"
+        },
+        {
+          "id": "S3C1T08",
+          "number": 8,
+          "title_ocr": "직무윤리의 '금융투자업 체계-(3) 금융소비자보호 의무々 상품판매 전단계에 걸친 이행의무",
+          "printed_start": 21,
+          "pdf_start": 21,
+          "pdf_end": 32,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "상품판매 전 단계에 걸친 소비자보호"
+        },
+        {
+          "id": "S3C1T09",
+          "number": 9,
+          "title_ocr": "'금융투자업 직무윤리의 체계-(4) 회사 사 본인, 및 윤리Y) 회에 대한 본인에 대한 윤리",
+          "printed_start": 33,
+          "pdf_start": 33,
+          "pdf_end": 36,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "본인에 대한 윤리"
+        },
+        {
+          "id": "S3C1T10",
+          "number": 10,
+          "title_ocr": "'금융투자업 직무윤리의 체계-(4) 본인, 회사 사 및 윤리ゼ 회에 대한 회사에 대한 윤리",
+          "printed_start": 37,
+          "pdf_start": 37,
+          "pdf_end": 41,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "회사에 대한 윤리"
+        },
+        {
+          "id": "S3C1T11",
+          "number": 11,
+          "title_ocr": "'금융투자업 직무윤리의 체계-(4) 회사 사 본인, 및 윤리や 회에 대한 사회에 대한 윤리",
+          "printed_start": 42,
+          "pdf_start": 42,
+          "pdf_end": 43,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "사회에 대한 윤리"
+        },
+        {
+          "id": "S3C1T12",
+          "number": 12,
+          "title_ocr": "직무윤리위반 시 제재-⑴ 내부통제",
+          "printed_start": 44,
+          "pdf_start": 44,
+          "pdf_end": 49,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "직무윤리 위반과 내부통제"
+        },
+        {
+          "id": "S3C1T13",
+          "number": 13,
+          "title_ocr": "직무윤리위반 시 제재-(2) 외부통제",
+          "printed_start": 50,
+          "pdf_start": 50,
+          "pdf_end": 52,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C1.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "직무윤리 위반과 외부통제"
+        }
+      ]
+    },
+    {
+      "id": "S3C2",
+      "document": "P3",
+      "name": "자본시장과 금융투자업에 관한 법률 및 금융위원회규정",
+      "toc_page": 59,
+      "pdf_end": 160,
+      "additional_questions_start": 151,
+      "topics": [
+        {
+          "id": "S3C2T01",
+          "number": 1,
+          "title_ocr": "자본시장법의 기본 제정방향",
+          "printed_start": 60,
+          "pdf_start": 60,
+          "pdf_end": 61,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자본시장법의 기본 제정방향"
+        },
+        {
+          "id": "S3C2T02",
+          "number": 2,
+          "title_ocr": "금융투자업 감독기관 및 관련기관",
+          "printed_start": 62,
+          "pdf_start": 62,
+          "pdf_end": 64,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "감독기관 및 관련기관"
+        },
+        {
+          "id": "S3C2T03",
+          "number": 3,
+          "title_ocr": "금융투자상품의 3단계 정의",
+          "printed_start": 65,
+          "pdf_start": 65,
+          "pdf_end": 67,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자상품의 3단계 정의"
+        },
+        {
+          "id": "S3C2T04",
+          "number": 4,
+          "title_ocr": "금융투자업",
+          "printed_start": 68,
+          "pdf_start": 68,
+          "pdf_end": 71,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자업의 분류와 적용 배제"
+        },
+        {
+          "id": "S3C2T05",
+          "number": 5,
+          "title_ocr": "투자자",
+          "printed_start": 72,
+          "pdf_start": 72,
+          "pdf_end": 73,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전문투자자와 일반투자자"
+        },
+        {
+          "id": "S3C2T06",
+          "number": 6,
+          "title_ocr": "금융투자업 인가 등록 요건 ・",
+          "printed_start": 74,
+          "pdf_start": 74,
+          "pdf_end": 76,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자업 인가·등록 요건"
+        },
+        {
+          "id": "S3C2T07",
+          "number": 7,
+          "title_ocr": "건전성 규제-⑴ 자산건전성 분류",
+          "printed_start": 77,
+          "pdf_start": 77,
+          "pdf_end": 78,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자산건전성 분류"
+        },
+        {
+          "id": "S3C2T08",
+          "number": 8,
+          "title_ocr": "건전성 규제-(2) 순자본비율 규제",
+          "printed_start": 79,
+          "pdf_start": 79,
+          "pdf_end": 80,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "순자본비율 규제"
+        },
+        {
+          "id": "S3C2T09",
+          "number": 9,
+          "title_ocr": "적기시정조치",
+          "printed_start": 81,
+          "pdf_start": 81,
+          "pdf_end": 83,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "적기시정조치"
+        },
+        {
+          "id": "S3C2T10",
+          "number": 10,
+          "title_ocr": "금융투자회사 위험관리체제 구축 및 외환건전성 규제",
+          "printed_start": 84,
+          "pdf_start": 84,
+          "pdf_end": 85,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "위험관리체제와 외환건전성"
+        },
+        {
+          "id": "S3C2T11",
+          "number": 11,
+          "title_ocr": "업무보고서와 경영공시에 관한 규정",
+          "printed_start": 86,
+          "pdf_start": 86,
+          "pdf_end": 87,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "업무보고서와 경영공시"
+        },
+        {
+          "id": "S3C2T12",
+          "number": 12,
+          "title_ocr": "공통영업행위 규칙",
+          "printed_start": 88,
+          "pdf_start": 88,
+          "pdf_end": 90,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "공통영업행위 규칙"
+        },
+        {
+          "id": "S3C2T13",
+          "number": 13,
+          "title_ocr": "투자매매업자 및 투자중개업자에 대한 영업행위규제 丨",
+          "printed_start": 91,
+          "pdf_start": 91,
+          "pdf_end": 93,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "매매·중개업 영업행위 규제 I"
+        },
+        {
+          "id": "S3C2T14",
+          "number": 14,
+          "title_ocr": "투자매매업자 투자중개업자에 대한 영업행위규제 및 II",
+          "printed_start": 94,
+          "pdf_start": 94,
+          "pdf_end": 96,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "매매·중개업 영업행위 규제 II: 투자자예탁금"
+        },
+        {
+          "id": "S3C2T15",
+          "number": 15,
+          "title_ocr": "집합투자기구의 영업행위 규칙-⑴ 자산운용의 지시와 실행",
+          "printed_start": 97,
+          "pdf_start": 97,
+          "pdf_end": 98,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 자산운용의 지시와 실행"
+        },
+        {
+          "id": "S3C2T16",
+          "number": 16,
+          "title_ocr": "집합투자기구의 영업행위 규칙-(2) 자산운용의 제한",
+          "printed_start": 99,
+          "pdf_start": 99,
+          "pdf_end": 102,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 자산운용의 제한"
+        },
+        {
+          "id": "S3C2T17",
+          "number": 17,
+          "title_ocr": "집합투자기구의 영업행위 규칙-(3) 금전차입 및 대여의 제한",
+          "printed_start": 103,
+          "pdf_start": 103,
+          "pdf_end": 104,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 금전·증권 차입과 대여"
+        },
+        {
+          "id": "S3C2T18",
+          "number": 18,
+          "title_ocr": "집합투자기구의 영업행위 규칙T4) 이해관계인과의 거래 제한 및 불건전 영업행위의 금지",
+          "printed_start": 105,
+          "pdf_start": 105,
+          "pdf_end": 106,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 이해관계인 거래와 불건전행위"
+        },
+        {
+          "id": "S3C2T19",
+          "number": 19,
+          "title_ocr": "집합투자기구의 영업행위 규칙-(5) 성과보수의 제한",
+          "printed_start": 107,
+          "pdf_start": 107,
+          "pdf_end": 107,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 성과보수 제한"
+        },
+        {
+          "id": "S3C2T20",
+          "number": 20,
+          "title_ocr": "집합투자기구의 영업행위 규칙-(6) 의결권의 제한",
+          "printed_start": 108,
+          "pdf_start": 108,
+          "pdf_end": 108,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 20,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 의결권 제한"
+        },
+        {
+          "id": "S3C2T21",
+          "number": 21,
+          "title_ocr": "집합투자기구의 영업행위 규칙-(7) 자산운용과 장부서류 등에 관한 공시",
+          "printed_start": 109,
+          "pdf_start": 109,
+          "pdf_end": 110,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 21,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "집합투자 보고·공시와 장부열람"
+        },
+        {
+          "id": "S3C2T22",
+          "number": 22,
+          "title_ocr": "투자자문업자 및 투자일임업자의 영업행위 규칙",
+          "printed_start": 111,
+          "pdf_start": 111,
+          "pdf_end": 114,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 22,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자문·일임업자의 영업행위"
+        },
+        {
+          "id": "S3C2T23",
+          "number": 23,
+          "title_ocr": "발행시장 공시제도-⑴ 증권신고서제도-W 개요",
+          "printed_start": 115,
+          "pdf_start": 115,
+          "pdf_end": 116,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 23,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "증권신고서 개요"
+        },
+        {
+          "id": "S3C2T24",
+          "number": 24,
+          "title_ocr": "발행시장 공시제도-⑴ 증권신고서제도T② 간주모집",
+          "printed_start": 117,
+          "pdf_start": 117,
+          "pdf_end": 118,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 24,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "간주모집과 전매제한"
+        },
+        {
+          "id": "S3C2T25",
+          "number": 25,
+          "title_ocr": "발행시장 공시제도-(2) 투자설명서제도",
+          "printed_start": 119,
+          "pdf_start": 119,
+          "pdf_end": 120,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 25,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자설명서제도"
+        },
+        {
+          "id": "S3C2T26",
+          "number": 26,
+          "title_ocr": "발행시장 공시제도-(3) 증권분석기관",
+          "printed_start": 121,
+          "pdf_start": 121,
+          "pdf_end": 122,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 26,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "증권분석기관"
+        },
+        {
+          "id": "S3C2T27",
+          "number": 27,
+          "title_ocr": "유통시장 공시제도-⑴ 사업보고서",
+          "printed_start": 123,
+          "pdf_start": 123,
+          "pdf_end": 124,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 27,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "사업보고서 등 정기공시"
+        },
+        {
+          "id": "S3C2T28",
+          "number": 28,
+          "title_ocr": "유통시장 공시제도-(2) 주요사항보고제도, 수시공시 제도",
+          "printed_start": 125,
+          "pdf_start": 125,
+          "pdf_end": 126,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 28,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주요사항보고와 수시공시"
+        },
+        {
+          "id": "S3C2T29",
+          "number": 29,
+          "title_ocr": "기업의 인수합병 관련 제도-⑴ 공개매수제도",
+          "printed_start": 127,
+          "pdf_start": 127,
+          "pdf_end": 129,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 29,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "공개매수제도"
+        },
+        {
+          "id": "S3C2T30",
+          "number": 30,
+          "title_ocr": "기업의 인수합병 관련 제도-(2) 주식의 대량보유상황 보 고제도(5% Rule)",
+          "printed_start": 130,
+          "pdf_start": 130,
+          "pdf_end": 132,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 30,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "대량보유상황 보고: 5% Rule"
+        },
+        {
+          "id": "S3C2T31",
+          "number": 31,
+          "title_ocr": "공공적 법인에 대한 주식소유 제한",
+          "printed_start": 133,
+          "pdf_start": 133,
+          "pdf_end": 134,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 31,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "공공적 법인의 주식소유 제한"
+        },
+        {
+          "id": "S3C2T32",
+          "number": 32,
+          "title_ocr": "장외거래",
+          "printed_start": 135,
+          "pdf_start": 135,
+          "pdf_end": 136,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 32,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "장외거래 규제"
+        },
+        {
+          "id": "S3C2T33",
+          "number": 33,
+          "title_ocr": "불공정거래행위 규제-⑴ 내부자거래 규제",
+          "printed_start": 137,
+          "pdf_start": 137,
+          "pdf_end": 139,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 33,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "내부자거래와 단기매매차익 반환"
+        },
+        {
+          "id": "S3C2T34",
+          "number": 34,
+          "title_ocr": "규제-(2) 불공정거래행위 시세조종행위 규제 등",
+          "printed_start": 140,
+          "pdf_start": 140,
+          "pdf_end": 141,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 34,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "시세조종·부정거래·시장질서교란"
+        },
+        {
+          "id": "S3C2T35",
+          "number": 35,
+          "title_ocr": "금융기관 검사 및 제재에 관한 규정",
+          "printed_start": 142,
+          "pdf_start": 142,
+          "pdf_end": 143,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 35,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융기관 검사 및 제재 규정"
+        },
+        {
+          "id": "S3C2T36",
+          "number": 36,
+          "title_ocr": "자본시장 조사업무규정",
+          "printed_start": 144,
+          "pdf_start": 144,
+          "pdf_end": 145,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 36,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자본시장 조사업무규정"
+        },
+        {
+          "id": "S3C2T37",
+          "number": 37,
+          "title_ocr": "금융소비자보호법 주요 내용",
+          "printed_start": 146,
+          "pdf_start": 146,
+          "pdf_end": 150,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C2.json",
+              "topic_number": 37,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융소비자보호법 주요 내용"
+        }
+      ]
+    },
+    {
+      "id": "S3C3",
+      "document": "P3",
+      "name": "한국금융투자협회규정",
+      "toc_page": 161,
+      "pdf_end": 202,
+      "additional_questions_start": 198,
+      "topics": [
+        {
+          "id": "S3C3T01",
+          "number": 1,
+          "title_ocr": "한국금융투자협회 개요",
+          "printed_start": 162,
+          "pdf_start": 162,
+          "pdf_end": 162,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "한국금융투자협회 개요"
+        },
+        {
+          "id": "S3C3T02",
+          "number": 2,
+          "title_ocr": "투자권유와 관련된 협회규정(설명의무)",
+          "printed_start": 163,
+          "pdf_start": 163,
+          "pdf_end": 166,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자권유와 설명의무"
+        },
+        {
+          "id": "S3C3T03",
+          "number": 3,
+          "title_ocr": "펀드판매와 관련된 협회규정",
+          "printed_start": 167,
+          "pdf_start": 167,
+          "pdf_end": 168,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "펀드판매 규정"
+        },
+        {
+          "id": "S3C3T04",
+          "number": 4,
+          "title_ocr": "투자권유대행인과 관련한 협회규정",
+          "printed_start": 169,
+          "pdf_start": 169,
+          "pdf_end": 170,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자권유대행인"
+        },
+        {
+          "id": "S3C3T05",
+          "number": 5,
+          "title_ocr": "공표-⑴ 조사분석자료 작성 및 작성 원칙",
+          "printed_start": 171,
+          "pdf_start": 171,
+          "pdf_end": 172,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "조사분석자료 작성 원칙"
+        },
+        {
+          "id": "S3C3T06",
+          "number": 6,
+          "title_ocr": "조사분석자료 작성 및 공표-(2) 조사분석 자료 금지 및 제한대상",
+          "printed_start": 173,
+          "pdf_start": 173,
+          "pdf_end": 174,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "조사분석 금지·제한대상"
+        },
+        {
+          "id": "S3C3T07",
+          "number": 7,
+          "title_ocr": "조사분석자료 작성 및 공표-(3) 조사분석 자료의 의무공표",
+          "printed_start": 175,
+          "pdf_start": 175,
+          "pdf_end": 176,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "조사분석자료 의무공표"
+        },
+        {
+          "id": "S3C3T08",
+          "number": 8,
+          "title_ocr": "조사분석자료 작성 및 공표-(4) 금융투자 분석사의 매매제한",
+          "printed_start": 177,
+          "pdf_start": 177,
+          "pdf_end": 178,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자분석사 매매제한"
+        },
+        {
+          "id": "S3C3T09",
+          "number": 9,
+          "title_ocr": "투자광고와 관련된 협회규정-⑴ 의무표 시사항과 금지사항",
+          "printed_start": 179,
+          "pdf_start": 179,
+          "pdf_end": 180,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자광고 표시·금지사항"
+        },
+        {
+          "id": "S3C3T10",
+          "number": 10,
+          "title_ocr": "투자광고와 관련된 협회규정-(2) 운용실 적의 표시 및 투자광고 심의",
+          "printed_start": 181,
+          "pdf_start": 181,
+          "pdf_end": 182,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "운용실적 표시·광고심의"
+        },
+        {
+          "id": "S3C3T11",
+          "number": 11,
+          "title_ocr": "재산상 이익의 제공 및 수령과 관련된 협 회규정",
+          "printed_start": 183,
+          "pdf_start": 183,
+          "pdf_end": 185,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "재산상 이익 제공·수령"
+        },
+        {
+          "id": "S3C3T12",
+          "number": 12,
+          "title_ocr": "신상품 보호",
+          "printed_start": 186,
+          "pdf_start": 186,
+          "pdf_end": 186,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "신상품 보호"
+        },
+        {
+          "id": "S3C3T13",
+          "number": 13,
+          "title_ocr": "유사해 외통화선물거래와 관련된 협회규정",
+          "printed_start": 187,
+          "pdf_start": 187,
+          "pdf_end": 188,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "유사해외통화선물거래"
+        },
+        {
+          "id": "S3C3T14",
+          "number": 14,
+          "title_ocr": "금융투자전문인력과 자격시험에 관한 협회 규정",
+          "printed_start": 189,
+          "pdf_start": 189,
+          "pdf_end": 192,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "금융투자전문인력·자격시험"
+        },
+        {
+          "id": "S3C3T15",
+          "number": 15,
+          "title_ocr": "증권 인수업무에 관한 협회규정",
+          "printed_start": 193,
+          "pdf_start": 193,
+          "pdf_end": 196,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "증권 인수업무"
+        },
+        {
+          "id": "S3C3T16",
+          "number": 16,
+          "title_ocr": "금융투자회사의 약관운용에 관한 협회규정",
+          "printed_start": 197,
+          "pdf_start": 197,
+          "pdf_end": 197,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C3.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "약관운용"
+        }
+      ]
+    },
+    {
+      "id": "S3C4",
+      "document": "P3",
+      "name": "주식투자운용/투자전략",
+      "toc_page": 203,
+      "pdf_end": 250,
+      "additional_questions_start": 244,
+      "topics": [
+        {
+          "id": "S3C4T01",
+          "number": 1,
+          "title_ocr": "자산운용조직의 변화",
+          "printed_start": 204,
+          "pdf_start": 204,
+          "pdf_end": 205,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자산운용조직의 변화"
+        },
+        {
+          "id": "S3C4T02",
+          "number": 2,
+          "title_ocr": "주식투자와 효율적 시장가설",
+          "printed_start": 206,
+          "pdf_start": 206,
+          "pdf_end": 207,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주식투자와 효율적 시장가설"
+        },
+        {
+          "id": "S3C4T03",
+          "number": 3,
+          "title_ocr": "자산배분의 개념",
+          "printed_start": 208,
+          "pdf_start": 208,
+          "pdf_end": 209,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자산배분의 개념"
+        },
+        {
+          "id": "S3C4T04",
+          "number": 4,
+          "title_ocr": "자산운용의 기본준비-⑴ 자산집단의 요건",
+          "printed_start": 210,
+          "pdf_start": 210,
+          "pdf_end": 211,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "자산집단의 요건"
+        },
+        {
+          "id": "S3C4T05",
+          "number": 5,
+          "title_ocr": "자산운용의 기본준비-(2) 기대수익률의 추정",
+          "printed_start": 212,
+          "pdf_start": 212,
+          "pdf_end": 213,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기대수익률 추정"
+        },
+        {
+          "id": "S3C4T06",
+          "number": 6,
+          "title_ocr": "전략적 자산배분-⑴ 개념 및 이론적 배경",
+          "printed_start": 214,
+          "pdf_start": 214,
+          "pdf_end": 215,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전략적 자산배분의 이론"
+        },
+        {
+          "id": "S3C4T07",
+          "number": 7,
+          "title_ocr": "전략적 자산배분-(2) 실행방법",
+          "printed_start": 216,
+          "pdf_start": 216,
+          "pdf_end": 216,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전략적 자산배분 실행방법"
+        },
+        {
+          "id": "S3C4T08",
+          "number": 8,
+          "title_ocr": "전술적 자산배분-⑴ 개념 및 이론적 배경",
+          "printed_start": 217,
+          "pdf_start": 217,
+          "pdf_end": 218,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전술적 자산배분의 이론"
+        },
+        {
+          "id": "S3C4T09",
+          "number": 9,
+          "title_ocr": "전술적 자산배분-(2) 실행방법",
+          "printed_start": 219,
+          "pdf_start": 219,
+          "pdf_end": 221,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "전술적 자산배분 실행방법"
+        },
+        {
+          "id": "S3C4T10",
+          "number": 10,
+          "title_ocr": "보험자산배분전략-⑴ 개요",
+          "printed_start": 222,
+          "pdf_start": 222,
+          "pdf_end": 223,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "보험자산배분 개요"
+        },
+        {
+          "id": "S3C4T11",
+          "number": 11,
+          "title_ocr": "보험자산배분전략-(2) 옵션 모형을 이용한 포트폴리오 보험(OBPI)",
+          "printed_start": 224,
+          "pdf_start": 224,
+          "pdf_end": 225,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션모형 보험 OBPI"
+        },
+        {
+          "id": "S3C4T12",
+          "number": 12,
+          "title_ocr": "보험자산배분전략-(3) 고정비율 포트폴리 오 보험(CPPI)",
+          "printed_start": 226,
+          "pdf_start": 226,
+          "pdf_end": 227,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "고정비율 포트폴리오보험 CPPI"
+        },
+        {
+          "id": "S3C4T13",
+          "number": 13,
+          "title_ocr": "주식포트폴리오 운용전략의 종류",
+          "printed_start": 228,
+          "pdf_start": 228,
+          "pdf_end": 230,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주식운용전략 종류·혼합"
+        },
+        {
+          "id": "S3C4T14",
+          "number": 14,
+          "title_ocr": "패시브 운용Passive Management)",
+          "printed_start": 231,
+          "pdf_start": 231,
+          "pdf_end": 232,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "패시브운용·인덱싱"
+        },
+        {
+          "id": "S3C4T15",
+          "number": 15,
+          "title_ocr": "액티브 운용(Active Management)",
+          "printed_start": 233,
+          "pdf_start": 233,
+          "pdf_end": 235,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "액티브·스타일투자"
+        },
+        {
+          "id": "S3C4T16",
+          "number": 16,
+          "title_ocr": "운용(Semi-active 준액티브 Management)",
+          "printed_start": 236,
+          "pdf_start": 236,
+          "pdf_end": 237,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "준액티브·계량운용"
+        },
+        {
+          "id": "S3C4T17",
+          "number": 17,
+          "title_ocr": "주식포트폴리오의 구성",
+          "printed_start": 238,
+          "pdf_start": 238,
+          "pdf_end": 239,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주식포트폴리오 구성"
+        },
+        {
+          "id": "S3C4T18",
+          "number": 18,
+          "title_ocr": "주식포트폴리오 모형",
+          "printed_start": 240,
+          "pdf_start": 240,
+          "pdf_end": 241,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주식포트폴리오 모형"
+        },
+        {
+          "id": "S3C4T19",
+          "number": 19,
+          "title_ocr": "운용형태별 수익과 위험",
+          "printed_start": 242,
+          "pdf_start": 242,
+          "pdf_end": 243,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C4.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "운용형태별 수익·위험"
+        }
+      ]
+    },
+    {
+      "id": "S3C5",
+      "document": "P3",
+      "name": "채권투자운용/투자전략",
+      "toc_page": 251,
+      "pdf_end": 308,
+      "additional_questions_start": 304,
+      "topics": [
+        {
+          "id": "S3C5T01",
+          "number": 1,
+          "title_ocr": "채권의 분류와 종류-⑴ 발행주체별 분류",
+          "printed_start": 252,
+          "pdf_start": 252,
+          "pdf_end": 253,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "발행주체별 분류"
+        },
+        {
+          "id": "S3C5T02",
+          "number": 2,
+          "title_ocr": "채권의 분류와 종류-(2) 이자지급별 분류",
+          "printed_start": 254,
+          "pdf_start": 254,
+          "pdf_end": 256,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이자지급별 분류"
+        },
+        {
+          "id": "S3C5T03",
+          "number": 3,
+          "title_ocr": "채권의 분류와 종류-(3) 분류 기타의",
+          "printed_start": 257,
+          "pdf_start": 257,
+          "pdf_end": 258,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기타 분류와 신용등급"
+        },
+        {
+          "id": "S3C5T04",
+          "number": 4,
+          "title_ocr": "주식관련채권(CB, BW, EB)",
+          "printed_start": 259,
+          "pdf_start": 259,
+          "pdf_end": 261,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "주식관련채권 CB·BW·EB"
+        },
+        {
+          "id": "S3C5T05",
+          "number": 5,
+          "title_ocr": "기타의 합성채권(PB, 옵션부사채)",
+          "printed_start": 262,
+          "pdf_start": 262,
+          "pdf_end": 264,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "PB와 옵션부사채"
+        },
+        {
+          "id": "S3C5T06",
+          "number": 6,
+          "title_ocr": "발행시장(Primary Market)",
+          "printed_start": 265,
+          "pdf_start": 265,
+          "pdf_end": 267,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "발행시장과 입찰"
+        },
+        {
+          "id": "S3C5T07",
+          "number": 7,
+          "title_ocr": "유통시장(Secondary Market)",
+          "printed_start": 268,
+          "pdf_start": 268,
+          "pdf_end": 269,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "유통시장과 국채딜러"
+        },
+        {
+          "id": "S3C5T08",
+          "number": 8,
+          "title_ocr": "채권가격계산",
+          "printed_start": 270,
+          "pdf_start": 270,
+          "pdf_end": 271,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "채권가격 계산"
+        },
+        {
+          "id": "S3C5T09",
+          "number": 9,
+          "title_ocr": "채권수익률의 종류와 계산",
+          "printed_start": 272,
+          "pdf_start": 272,
+          "pdf_end": 273,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "채권수익률"
+        },
+        {
+          "id": "S3C5T10",
+          "number": 10,
+          "title_ocr": "말킬의 채권가격정리",
+          "printed_start": 274,
+          "pdf_start": 274,
+          "pdf_end": 275,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "말킬의 가격정리"
+        },
+        {
+          "id": "S3C5T11",
+          "number": 11,
+          "title_ocr": "맥컬레이 듀레이션(Macaulay Duration)",
+          "printed_start": 276,
+          "pdf_start": 276,
+          "pdf_end": 278,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "맥컬레이 듀레이션"
+        },
+        {
+          "id": "S3C5T12",
+          "number": 12,
+          "title_ocr": "듀레이션으로 측정하는 가격변동률",
+          "printed_start": 279,
+          "pdf_start": 279,
+          "pdf_end": 280,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "듀레이션 가격변동과 헤지"
+        },
+        {
+          "id": "S3C5T13",
+          "number": 13,
+          "title_ocr": "볼록성 (Convexity)",
+          "printed_start": 281,
+          "pdf_start": 281,
+          "pdf_end": 286,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "볼록성"
+        },
+        {
+          "id": "S3C5T14",
+          "number": 14,
+          "title_ocr": "수익률곡선(Yield Curve)",
+          "printed_start": 287,
+          "pdf_start": 287,
+          "pdf_end": 289,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "수익률곡선과 위험"
+        },
+        {
+          "id": "S3C5T15",
+          "number": 15,
+          "title_ocr": "현물이자율과 선도이자율",
+          "printed_start": 290,
+          "pdf_start": 290,
+          "pdf_end": 291,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "현물이자율과 선도이자율"
+        },
+        {
+          "id": "S3C5T16",
+          "number": 16,
+          "title_ocr": "수익률곡선의 기간구조이론",
+          "printed_start": 292,
+          "pdf_start": 292,
+          "pdf_end": 297,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기간구조 이론"
+        },
+        {
+          "id": "S3C5T17",
+          "number": 17,
+          "title_ocr": "채권운용전략-⑴ 적극적인 전략",
+          "printed_start": 298,
+          "pdf_start": 298,
+          "pdf_end": 301,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "적극적 채권전략"
+        },
+        {
+          "id": "S3C5T18",
+          "number": 18,
+          "title_ocr": "채권운용전략-(2) 소극적인 전략",
+          "printed_start": 302,
+          "pdf_start": 302,
+          "pdf_end": 303,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C5.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "소극적 전략과 면역"
+        }
+      ]
+    },
+    {
+      "id": "S3C6",
+      "document": "P3",
+      "name": "파생상품투자운용/투자전략",
+      "toc_page": 309,
+      "pdf_end": 368,
+      "additional_questions_start": 363,
+      "topics": [
+        {
+          "id": "S3C6T01",
+          "number": 1,
+          "title_ocr": "파생상품의 개요",
+          "printed_start": 310,
+          "pdf_start": 310,
+          "pdf_end": 311,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "파생상품의 개요"
+        },
+        {
+          "id": "S3C6T02",
+          "number": 2,
+          "title_ocr": "선도(Forward) 거래",
+          "printed_start": 312,
+          "pdf_start": 312,
+          "pdf_end": 313,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선도거래"
+        },
+        {
+          "id": "S3C6T03",
+          "number": 3,
+          "title_ocr": "선물거래 메커니즘",
+          "printed_start": 314,
+          "pdf_start": 314,
+          "pdf_end": 316,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선물거래 메커니즘"
+        },
+        {
+          "id": "S3C6T04",
+          "number": 4,
+          "title_ocr": "선물(Futures)거래의 경제적 기능",
+          "printed_start": 317,
+          "pdf_start": 317,
+          "pdf_end": 318,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선물거래의 기능"
+        },
+        {
+          "id": "S3C6T05",
+          "number": 5,
+          "title_ocr": "선물거래의 균형가격",
+          "printed_start": 319,
+          "pdf_start": 319,
+          "pdf_end": 320,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선물의 균형가격"
+        },
+        {
+          "id": "S3C6T06",
+          "number": 6,
+          "title_ocr": "선물거래전략-⑴ 투기거래, 헤지거래",
+          "printed_start": 321,
+          "pdf_start": 321,
+          "pdf_end": 324,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선물의 투기와 헤지"
+        },
+        {
+          "id": "S3C6T07",
+          "number": 7,
+          "title_ocr": "선물거래전략-(2) 차익거래",
+          "printed_start": 325,
+          "pdf_start": 325,
+          "pdf_end": 326,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "선물 차익거래"
+        },
+        {
+          "id": "S3C6T08",
+          "number": 8,
+          "title_ocr": "선물거래 전략-(3) 스프레드거래",
+          "printed_start": 327,
+          "pdf_start": 327,
+          "pdf_end": 329,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "스프레드거래"
+        },
+        {
+          "id": "S3C6T09",
+          "number": 9,
+          "title_ocr": "옵션기초",
+          "printed_start": 330,
+          "pdf_start": 330,
+          "pdf_end": 332,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션기초"
+        },
+        {
+          "id": "S3C6T10",
+          "number": 10,
+          "title_ocr": "옵션내재가치와 옵션가격",
+          "printed_start": 333,
+          "pdf_start": 333,
+          "pdf_end": 336,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션 내재가치와 가격"
+        },
+        {
+          "id": "S3C6T11",
+          "number": 11,
+          "title_ocr": "옵션합성전략-⑴ 방향성전략",
+          "printed_start": 337,
+          "pdf_start": 337,
+          "pdf_end": 342,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션 방향성 합성전략"
+        },
+        {
+          "id": "S3C6T12",
+          "number": 12,
+          "title_ocr": "옵션합성전략-(2) 변동성전략",
+          "printed_start": 343,
+          "pdf_start": 343,
+          "pdf_end": 345,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 12,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션 변동성 전략"
+        },
+        {
+          "id": "S3C6T13",
+          "number": 13,
+          "title_ocr": "풋一콜 패리티(Put-Call Parity)",
+          "printed_start": 346,
+          "pdf_start": 346,
+          "pdf_end": 347,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 13,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "풋콜패리티"
+        },
+        {
+          "id": "S3C6T14",
+          "number": 14,
+          "title_ocr": "玉콜 패리티를 활용한 차익거래(컨버 전과 리버설)",
+          "printed_start": 348,
+          "pdf_start": 348,
+          "pdf_end": 348,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 14,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "컨버전과 리버설"
+        },
+        {
+          "id": "S3C6T15",
+          "number": 15,
+          "title_ocr": "풋-콜 패리티와 포트폴리오보험",
+          "printed_start": 349,
+          "pdf_start": 349,
+          "pdf_end": 350,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 15,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "포트폴리오보험"
+        },
+        {
+          "id": "S3C6T16",
+          "number": 16,
+          "title_ocr": "옵션가격결정-⑴ 이항모형",
+          "printed_start": 351,
+          "pdf_start": 351,
+          "pdf_end": 353,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 16,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이항모형"
+        },
+        {
+          "id": "S3C6T17",
+          "number": 17,
+          "title_ocr": "옵션가격결정-(2) 블랙-숄즈모형",
+          "printed_start": 354,
+          "pdf_start": 354,
+          "pdf_end": 355,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 17,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "블랙숄즈모형"
+        },
+        {
+          "id": "S3C6T18",
+          "number": 18,
+          "title_ocr": "기초자산의 변동성",
+          "printed_start": 356,
+          "pdf_start": 356,
+          "pdf_end": 357,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 18,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기초자산의 변동성"
+        },
+        {
+          "id": "S3C6T19",
+          "number": 19,
+          "title_ocr": "옵션의 민감도 지표",
+          "printed_start": 358,
+          "pdf_start": 358,
+          "pdf_end": 362,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C6.json",
+              "topic_number": 19,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "옵션 민감도"
+        }
+      ]
+    },
+    {
+      "id": "S3C7",
+      "document": "P3",
+      "name": "투자운용결과분석",
+      "toc_page": 369,
+      "pdf_end": 400,
+      "additional_questions_start": 397,
+      "topics": [
+        {
+          "id": "S3C7T01",
+          "number": 1,
+          "title_ocr": "성과평가 7단계 개요",
+          "printed_start": 370,
+          "pdf_start": 370,
+          "pdf_end": 370,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "성과평가 7단계"
+        },
+        {
+          "id": "S3C7T02",
+          "number": 2,
+          "title_ocr": "성과평가 1단계（펀드의 회계처리）",
+          "printed_start": 371,
+          "pdf_start": 371,
+          "pdf_end": 372,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "펀드 회계처리"
+        },
+        {
+          "id": "S3C7T03",
+          "number": 3,
+          "title_ocr": "성과평가 2단계（투자수익률의 계산）",
+          "printed_start": 373,
+          "pdf_start": 373,
+          "pdf_end": 375,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자수익률 계산"
+        },
+        {
+          "id": "S3C7T04",
+          "number": 4,
+          "title_ocr": "성과평가 3단계（투자 위험 측정）",
+          "printed_start": 376,
+          "pdf_start": 376,
+          "pdf_end": 378,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자위험 측정"
+        },
+        {
+          "id": "S3C7T05",
+          "number": 5,
+          "title_ocr": "성과평가 4단계（기준지표의 설정）",
+          "printed_start": 379,
+          "pdf_start": 379,
+          "pdf_end": 380,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "벤치마크 설정"
+        },
+        {
+          "id": "S3C7T06",
+          "number": 6,
+          "title_ocr": "성과평가 4단계（위험조정성과지표）-⑴ 샤프비율, 트레이너비율, 젠센의 알파",
+          "printed_start": 381,
+          "pdf_start": 381,
+          "pdf_end": 385,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "샤프·트레이너·젠센"
+        },
+        {
+          "id": "S3C7T07",
+          "number": 7,
+          "title_ocr": "성과평가 4단계（위험조정성과지표）-（2） 정보비율, 소티노 비율",
+          "printed_start": 386,
+          "pdf_start": 386,
+          "pdf_end": 388,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "정보비율·소티노비율"
+        },
+        {
+          "id": "S3C7T08",
+          "number": 8,
+          "title_ocr": "분석）-⑴ 성과평가 5단계（성과특성 성 과요인 분석",
+          "printed_start": 389,
+          "pdf_start": 389,
+          "pdf_end": 390,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "성과요인 분석"
+        },
+        {
+          "id": "S3C7T09",
+          "number": 9,
+          "title_ocr": "성과평가 5단계（성과특성 분석）-（2） 포 트폴리오 및 스타일분석",
+          "printed_start": 391,
+          "pdf_start": 391,
+          "pdf_end": 393,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "포트폴리오·스타일분석"
+        },
+        {
+          "id": "S3C7T10",
+          "number": 10,
+          "title_ocr": "성과평가 6단계（정성평가 : 운용자의 운 용능력평가）",
+          "printed_start": 394,
+          "pdf_start": 394,
+          "pdf_end": 394,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "운용능력 정성평가"
+        },
+        {
+          "id": "S3C7T11",
+          "number": 11,
+          "title_ocr": "성과평가 7단계（성과발표 방법）",
+          "printed_start": 395,
+          "pdf_start": 395,
+          "pdf_end": 396,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C7.json",
+              "topic_number": 11,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "성과발표·GIPS"
+        }
+      ]
+    },
+    {
+      "id": "S3C8",
+      "document": "P3",
+      "name": "거시경제",
+      "toc_page": 401,
+      "pdf_end": 432,
+      "additional_questions_start": 427,
+      "topics": [
+        {
+          "id": "S3C8T01",
+          "number": 1,
+          "title_ocr": "경제분석모형",
+          "printed_start": 402,
+          "pdf_start": 402,
+          "pdf_end": 403,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "경제분석모형"
+        },
+        {
+          "id": "S3C8T02",
+          "number": 2,
+          "title_ocr": "IS-LM 모형",
+          "printed_start": 404,
+          "pdf_start": 404,
+          "pdf_end": 406,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "IS-LM 모형"
+        },
+        {
+          "id": "S3C8T03",
+          "number": 3,
+          "title_ocr": "거시정책이론-⑴ 구축효과(Crowding Out Effect)",
+          "printed_start": 407,
+          "pdf_start": 407,
+          "pdf_end": 408,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "구축효과"
+        },
+        {
+          "id": "S3C8T04",
+          "number": 4,
+          "title_ocr": "유동성함정(Liquidity 거시정책이론-(2) Trap)",
+          "printed_start": 409,
+          "pdf_start": 409,
+          "pdf_end": 411,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "유동성함정·정책이론"
+        },
+        {
+          "id": "S3C8T05",
+          "number": 5,
+          "title_ocr": "이자율 결정이론",
+          "printed_start": 412,
+          "pdf_start": 412,
+          "pdf_end": 414,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이자율 결정이론"
+        },
+        {
+          "id": "S3C8T06",
+          "number": 6,
+          "title_ocr": "이자율의 기간구조",
+          "printed_start": 415,
+          "pdf_start": 415,
+          "pdf_end": 416,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "이자율 기간구조"
+        },
+        {
+          "id": "S3C8T07",
+          "number": 7,
+          "title_ocr": "통화량 증가에 의한 이자율변동",
+          "printed_start": 417,
+          "pdf_start": 417,
+          "pdf_end": 418,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "통화량과 금리변동"
+        },
+        {
+          "id": "S3C8T08",
+          "number": 8,
+          "title_ocr": "주요경제변수",
+          "printed_start": 419,
+          "pdf_start": 419,
+          "pdf_end": 421,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "국민소득·고용"
+        },
+        {
+          "id": "S3C8T09",
+          "number": 9,
+          "title_ocr": "경기지수, 물가지수 및 통화관련 지표",
+          "printed_start": 422,
+          "pdf_start": 422,
+          "pdf_end": 423,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "경기·물가·통화지표"
+        },
+        {
+          "id": "S3C8T10",
+          "number": 10,
+          "title_ocr": "경기순환(Business Cycle)",
+          "printed_start": 424,
+          "pdf_start": 424,
+          "pdf_end": 426,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C8.json",
+              "topic_number": 10,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "경기순환·예측"
+        }
+      ]
+    },
+    {
+      "id": "S3C9",
+      "document": "P3",
+      "name": "분산투자기법",
+      "toc_page": 433,
+      "pdf_end": 468,
+      "additional_questions_start": 464,
+      "topics": [
+        {
+          "id": "S3C9T01",
+          "number": 1,
+          "title_ocr": "기대수익률과 위험",
+          "printed_start": 434,
+          "pdf_start": 434,
+          "pdf_end": 436,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 1,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "기대수익률과 위험"
+        },
+        {
+          "id": "S3C9T02",
+          "number": 2,
+          "title_ocr": "포트폴리오의 위험분산효과",
+          "printed_start": 437,
+          "pdf_start": 437,
+          "pdf_end": 439,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 2,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "위험분산·최소분산"
+        },
+        {
+          "id": "S3C9T03",
+          "number": 3,
+          "title_ocr": "최적증권의 선택 원리",
+          "printed_start": 440,
+          "pdf_start": 440,
+          "pdf_end": 443,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 3,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "효율적·최적 포트폴리오"
+        },
+        {
+          "id": "S3C9T04",
+          "number": 4,
+          "title_ocr": "자본자산가격 결정모형(CAPM)-⑴ 자본 시장선 (CML)",
+          "printed_start": 444,
+          "pdf_start": 444,
+          "pdf_end": 447,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 4,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "무위험자산·CAL·CML"
+        },
+        {
+          "id": "S3C9T05",
+          "number": 5,
+          "title_ocr": "자본자산가격 결정모형(CAPM)T2) 증권 시장선 (SML)",
+          "printed_start": 448,
+          "pdf_start": 448,
+          "pdf_end": 451,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 5,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "CAPM·SML"
+        },
+        {
+          "id": "S3C9T06",
+          "number": 6,
+          "title_ocr": "샤프의 단일지표모형",
+          "printed_start": 452,
+          "pdf_start": 452,
+          "pdf_end": 454,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 6,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "샤프 단일지표모형"
+        },
+        {
+          "id": "S3C9T07",
+          "number": 7,
+          "title_ocr": "차익거래 가격결정이론(APT)",
+          "printed_start": 455,
+          "pdf_start": 455,
+          "pdf_end": 457,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 7,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "APT·요인과 차익"
+        },
+        {
+          "id": "S3C9T08",
+          "number": 8,
+          "title_ocr": "포트폴리오 투자전략",
+          "printed_start": 458,
+          "pdf_start": 458,
+          "pdf_end": 460,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 8,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "투자전략·리밸런싱"
+        },
+        {
+          "id": "S3C9T09",
+          "number": 9,
+          "title_ocr": "포트폴리오 투자성과평가",
+          "printed_start": 461,
+          "pdf_start": 461,
+          "pdf_end": 463,
+          "review_status": "semantic_review_complete_within_identified_ranges",
+          "question_analysis": [
+            {
+              "artifact": "chapter_reviews/S3C9.json",
+              "topic_number": 9,
+              "cross_document_links": "chapter artifact includes additional, calculation, mock and warmup mappings"
+            }
+          ],
+          "title_reviewed": "수익률·성과평가"
+        }
+      ]
+    }
+  ]
+}

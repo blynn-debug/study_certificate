@@ -1,0 +1,27 @@
+{
+  "source_id": "fb_ktb_fungible",
+  "source_metadata": {
+    "id": "fb_ktb_fungible",
+    "requested_url": "https://ktb.mofe.go.kr/ntndbtUnityIsu.do",
+    "retrieved_url": "https://ktb.mofe.go.kr/ntndbtUnityIsu.do",
+    "retrieved_at": "2026-10-14T00:08:04.251796+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 2922,
+    "content_sha256": "e6b1f1e7eef56ed37ca4f0b29d5dcb6cdeddbec15f1051014df90e1b5701c207",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "fb_ktb_fungible:통합발행",
+      "source_id": "fb_ktb_fungible",
+      "article": "통합발행",
+      "heading": "통합발행",
+      "text": "통합발행이란 국고채의 유동성을 제고하기 위해 일정 기간동안 발행하는 국고채의 만기일과 표면금리를 단일화하여 통합함으로써 종목당 발행규모를 대형화하는 제도입니다.\n종전에는 국고채를 발행할 때마다 만기일과 표면금리가 달라서 국고채 종목이 지나치게 많아지고 개별 종목당 발행금액이 작아서 유동성이 저하되는 문제점이 있었습니다. 이와 같은 문제점을 해결하기 위해 2000년 5월 국고채 통합발행제도를 도입하였습니다. 통합발행제도 도입으로 동일한 종목의 국고채 발행 물량이 확대됨으로써 국고채의 유동성이 높아지고 지표금리가 보다 안정적으로 형성되게 되었습니다.",
+      "start": 1703,
+      "end": 2011,
+      "sha256": "03acae91b724bb5cedcef4728eab956e0d249872616e5cba6d38041b50db343e"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "kb_housing_savings",
+  "requested_url": "https://oland.kbstar.com/quics?cc=b030657%3Ab029684&isNew=N&page=C029533&prcode=DP01000620",
+  "retrieved_url": "https://oland.kbstar.com/quics?cc=b030657%3Ab029684&isNew=N&page=C029533&prcode=DP01000620",
+  "retrieved_at": "2026-10-13T10:29:24.226417+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 12091,
+  "content_sha256": "a16d347bca569fd2f4eef41f6ed67ede5813eecf6516ce34c69cf1abb00652f5",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

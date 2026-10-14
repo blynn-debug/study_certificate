@@ -1,0 +1,41 @@
+{
+  "source_id": "s3_nikkei225",
+  "header": "Nikkei Stock Average Index Guidebook GB-101-E-20261001",
+  "current_body_end": 40696,
+  "supplementary_provisions": "",
+  "count": 1,
+  "items": [
+    {
+      "id": "s3_nikkei225:Methodology",
+      "source_id": "s3_nikkei225",
+      "article": "Methodology",
+      "heading": "Price weighting",
+      "text": " \nCopyright © Nikkei Inc. All rights reserved. \n \n2 \n1: Summary \n(1) Introduction \nThe Nikkei Stock Average (Nikkei 225) is used around the globe as the most popular \nbenchmark of the Japanese stock market.  It is comprised of 225 stocks listed on the \nTokyo Stock Exchange Prime Market and calculated as an adjusted price weight index.   \n \nThe 225 constituent stocks are reviewed periodically by the liquidity in the market \nand sector balance.  By calculating with highly liquid stocks, the index is aimed at \nfulfilling two objectives, one is to maintain its long-term continuity and the other is \nto reflect the changes in the industry structure.  \n \nThe index started on September 7, 1950.  It was retroactively calculated back to May \n16, 1949 which is the day the Tokyo Stock Exchange reopened for the first time after \nthe Second World War.  The index has been calculated and published by Nikkei since \n1970, succeeding it from the Tokyo Stock Exchange. \n(2) Name \n(Japanese) \nOfficial: \n \n日経平均株価（Nikkei Heikin Kabuka） \nAbbreviation: \n日経平均（Nikkei Heikin）, 日経225（Nikkei 225）  \n \n(English) \nOfficial: \n \nNikkei Stock Average \nAbbreviation: \nNikkei Average, Nikkei 225 \n \n \n2: Constituents Management \n \nIn principle, constituents of the Nikkei 225 are reshuffled based on the following rules.  \nThere are two types of changes in the constituents.  One is “Periodic Review” \nconducted twice a year, and the other is “Extraordinary Replacement” where the \nvacancies of the constituents created by delisting or other reasons are filled. \n \nThis section is a summary of the constituents management and the official text is \nfound in the “Nikkei Stock Average Constituents Selection Rules” attached hereto, \nwhich supersedes the explanation below. \n(1) Necessary Conditions of the constituents \nStocks (old share, domestic) listed on the Tokyo Stock Exchange Prime Market.  \n",
+      "start": 1086,
+      "end": 2963,
+      "sha256": "3d321752aab7e125afcb7464936fda8a70d73a159f73262f3464196362f6e34f",
+      "page": 2
+    }
+  ],
+  "warning": "Official index methodology, not legislation; full 23-page PDF archived.",
+  "source_metadata": {
+    "id": "s3_nikkei225",
+    "name": "Nikkei Stock Average Index Guidebook GB-101-E-20261001",
+    "requested_url": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_guidebook_en.pdf",
+    "retrieved_url": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_guidebook_en.pdf",
+    "retrieved_at": "2026-10-13T23:47:07.938502+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 40696,
+    "content_sha256": "04d2fbdccd8ae5aeac486ad21aec63efea9af3120020b4d7ead9d452646bd7ef",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [
+      "2026-10-01"
+    ],
+    "retrieval_method": "urllib HTTPS full PDF response; 23 pages extracted with PyMuPDF",
+    "version_selection": "Guidebook created 2026-10-01, preceding as_of 2026-10-13",
+    "http_status": 200,
+    "bytes": 305719,
+    "binary_sha256": "51bd05a2683365a4abde1e92f1d2953cd1c7bb151424b8546c4ce7dc589fd2ca"
+  }
+}

@@ -1,0 +1,20 @@
+L242: ### Description
+L243: 
+L244: The Moving Average Convergence/Divergence indicator is a momentum oscillator primarily used to trade trends. Although it is an oscillator, it is not typically used to identify over bought or oversold conditions. It appears on the chart as two lines which oscillate without boundaries. The crossover of the two lines give trading signals similar to a two moving average system.
+L245: 
+L246: cite117†Image L247: ### How this indicator works
+L248: 
+L249:   * MACD crossing above zero is considered bullish, while crossing below zero is bearish. Secondly, when MACD turns up from below zero it is considered bullish. When it turns down from above zero it is considered bearish.
+L250: 
+L251: cite118†Image L252:   * When the MACD line crosses from below to above the signal line, the indicator is considered bullish. The further below the zero line the stronger the signal.
+L253:   * When the MACD line crosses from above to below the signal line, the indicator is considered bearish. The further above the zero line the stronger the signal.
+L254: 
+L255: cite119†Image L256:   * During trading ranges the MACD will whipsaw, with the fast line crossing back and forth across the signal line. Users of the MACD generally avoid trading in this situation or close positions to reduce volatility within the portfolio.
+L257:   * Divergence between the MACD and the price action is a stronger signal when it confirms the crossover signals.
+L258: 
+L259: cite120†Image L260: ### Calculation
+L261: 
+L262: An approximated MACD can be calculated by subtracting the value of a 26 period Exponential Moving Average (EMA) from a 12 period EMA. The shorter EMA is constantly converging toward, and diverging away from, the longer EMA. This causes MACD to oscillate around the zero level. A signal line is created with a 9 period EMA of the MACD line.
+L263: 
+L264: Note: The sample calculation above is the default. You can adjust the parameters based upon your own criteria.
+L265: 

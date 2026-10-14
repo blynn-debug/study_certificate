@@ -1,0 +1,941 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>The Sharpe Ratio</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 align="center">The Sharpe Ratio</h1>
+
+<h2 align="center">William F. Sharpe<br>
+Stanford University<br>
+</h2>
+
+<h3 align="center">Reprinted from<em>The Journal of Portfolio
+Management</em>, Fall 1994 </h3>
+
+<p align="center"><font size="1"><em><strong>&nbsp;</strong></em></font><font
+size="2"><sup><strong>This copyrighted material has been
+reprinted with permission from </strong><em><strong>The Journal
+of Portfolio Management.</strong></em><strong> <br>
+Copyright � Institutional Investor, Inc., 488 Madison Avenue,
+New York, N.Y. 10022,<br>
+a Capital Cities/ABC, Inc. Company. Phone (212) 224-3599.</strong></sup></font></p>
+
+<p align="center">&nbsp;</p>
+
+<p>. Over 25 years ago, in <a href="SR.htm#Sharpe66">Sharpe
+[1966]</a>, I introduced a measure for the performance of mutual
+funds and proposed the term <em>reward-to-variability ratio</em>
+to describe it (the measure is also described in <a
+href="SR.htm#Sharpe75">Sharpe [1975]</a> ). While the measure has
+gained considerable popularity, the name has not. Other authors
+have termed the original version the Sharpe Index (<a
+href="SR.htm#Radcliff">Radcliff</a> [1990, p. 286] and <a
+href="SR.htm#Haugen">Haugen</a> [1993, p. 315]), the Sharpe
+Measure (<a href="SR.htm#Bodie">Bodie, Kane and Marcus</a> [1993,
+p. 804], <a href="SR.htm#Elton">Elton and Gruber</a> [1991, p.
+652], and <a href="SR.htm#Reilly">Reilly</a> [1989, p.803]), or
+the Sharpe Ratio (<a href="SR.htm#Morningstar">Morningstar</a>
+[1993, p. 24]). Generalized versions have also appeared under
+various names (see. for example, <a href="SR.htm#BARRA">BARRA</a>
+[1992, p. 21] and <a href="SR.htm#Capaul">Capaul, Rowley and
+Sharpe</a> [1993, p. 33]). </p>
+
+<p>Bowing to increasingly common usage, this article refers to
+both the original measure and more generalized versions as the
+Sharpe Ratio. My goal here is to go well beyond the discussion of
+the original measure in <a href="SR.htm#Sharpe66">Sharpe [1966]</a>
+and <a href="SR.htm#Sharpe75">Sharpe [1975]</a>, providing more
+generality and covering a broader range of applications. </p>
+
+<h3>THE RATIO</h3>
+
+<p>Most performance measures are <em>computed</em> using historic
+data but <em>justified</em> on the basis of predicted
+relationships. Practical implementations use ex post results
+while theoretical discussions focus on ex ante values. Implicitly
+or explicitly, it is assumed that historic results have at least
+some predictive ability. </p>
+
+<p>For some applications, it suffices for future values of a
+measure to be related monotonically to past values -- that is, if
+fund X had a higher historic measure than fund Y, it is assumed
+that it will have a higher future measure. For other applications
+the relationship must be proportional - - that is, it is assumed
+that the future measure will equal some constant (typically less
+than 1.0) times the historic measure. </p>
+
+<p>To avoid ambiguity, we define here both ex ante and ex post
+versions of the Sharpe Ratio, beginning with the former. With the
+exception of this section, however, we focus on the use of the
+ratio for making decisions, and hence are concerned with the ex
+ante version. The important issues associated with the
+relationships (if any) between historic Sharpe Ratios and
+unbiased forecasts of the ratio are left for other expositions. </p>
+
+<p>Throughout, we build on Markowitz' mean-variance paradigm,
+which assumes that the mean and standard deviation of the
+distribution of one-period return are sufficient statistics for
+evaluating the prospects of an investment portfolio. Clearly,
+comparisons based on the first two moments of a distribution do
+not take into account possible differences among portfolios in
+other moments or in distributions of outcomes across states of
+nature that may be associated with different levels of investor
+utility. </p>
+
+<p>When such considerations are especially important, return mean
+and variance may not suffice, requiring the use of additional or
+substitute measures. Such situations are, however, beyond the
+scope of this article. Our goal is simply to examine the
+situations in which two measures (mean and variance) can usefully
+be summarized with one (the Sharpe Ratio). </p>
+
+<h4>The Ex Ante Sharpe Ratio</h4>
+
+<p>Let R<sub>f</sub> represent the return on fund F in the
+forthcoming period and R<sub>B</sub> the return on a benchmark
+portfolio or security. In the equations, the tildes over the
+variables indicate that the exact values may not be known in
+advance. Define d, the <em>differential return</em>, as: </p>
+
+<p><img src="sr_1.gif" width="140" height="45"> </p>
+
+<p>Let d-bar be the expected value of d and sigma<sub>d</sub> be
+the predicted standard deviation of d. The ex ante Sharpe Ratio
+(S) is: </p>
+
+<p><img src="sr_2.gif" width="110" height="67"> </p>
+
+<p>In this version, the ratio indicates the expected differential
+return per unit of risk associated with the differential return. </p>
+
+<h4>The Ex Post Sharpe Ratio</h4>
+
+<p>Let R<sub>Ft</sub> be the return on the fund in period t, R<sub>Bt</sub>
+the return on the benchmark portfolio or security in period t,
+and D<sub>t</sub> the differential return in period t: </p>
+
+<p><img src="sr_3.gif" width="156" height="38"> </p>
+
+<p>Let D-bar be the average value of D<sub>t</sub> over the
+historic period from t=1 through T: </p>
+
+<p><img src="sr_4.gif" width="158" height="65"> </p>
+
+<p>and sigma<sub>D</sub> be the standard deviation over the
+period <a href="SR.htm#fn1"><sup>1</sup></a>: </p>
+
+<p><img src="sr_5.gif" width="217" height="96"> </p>
+
+<p>The ex post, or historic Sharpe Ratio (S<sub>h</sub>) is: </p>
+
+<p><img src="sr_6.gif" width="119" height="63"> </p>
+
+<p>In this version, the ratio indicates the historic average
+differential return per unit of historic variability of the
+differential return. </p>
+
+<p>It is a simple matter to compute an ex post Sharpe Ratio using
+a spreadsheet program. The returns on a fund are listed in one
+column and those of the desired benchmark in the next column. The
+differences are computed in a third column. Standard functions
+are then utilized to compute the components of the ratio. For
+example, if the differential returns were in cells C1 through
+C60, a formula would provide the Sharpe Ratio using Microsoft's
+Excel spreadsheet program: </p>
+
+<blockquote>
+    <p>AVERAGE(C1:C60)/STDEV(C1:C60) </p>
+</blockquote>
+
+<p>The historic Sharpe Ratio is closely related to the
+t-statistic for measuring the statistical significance of the
+mean differential return. The t-statistic will equal the Sharpe
+Ratio times the square root of T (the number of returns used for
+the calculation). If historic Sharpe Ratios for a set of funds
+are computed using the same number of observations, the Sharpe
+Ratios will thus be proportional to the t-statistics of the
+means. </p>
+
+<h4>Time Dependence</h4>
+
+<p>The Sharpe Ratio is not independent of the time period over
+which it is measured. This is true for both ex ante and ex post
+measures. </p>
+
+<p>Consider the simplest possible case. The one-period mean and
+standard deviation of the differential return are, respectively,
+d-bar<sub>1</sub> and sigma<sub>d1</sub>. Assume that the
+differential return over T periods is measured by simply summing
+the one-period differential returns and that the latter have zero
+serial correlation. Denote the mean and standard deviation of the
+resulting T-period return, respectively, d-bar<sub>T</sub> and
+sigma<sub>dT</sub>. Under the assumed conditions: </p>
+
+<p><img src="sr_7.gif" width="122" height="47"> </p>
+
+<p><img src="sr_8.gif" width="150" height="54"> </p>
+
+<p>and: </p>
+
+<p><img src="sr_9.gif" width="173" height="53"> </p>
+
+<p>Letting S<sub>1</sub> and S<sub>T</sub> denote the Sharpe
+Ratios for 1 and T periods, respectively, it follows that: </p>
+
+<p><img src="sr_10.gif" width="143" height="44"> </p>
+
+<p>In practice, the situation is likely to be more complex.
+Multiperiod returns are usually computed taking compounding into
+account, which makes the relationship more complicated. Moreover,
+underlying differential returns may be serially correlated. Even
+if the underlying process does not involve serial correlation, a
+specific ex post sample may. </p>
+
+<p>It is common practice to &quot;annualize&quot; data that apply
+to periods other than one year, using equations (7) and (8).
+Doing so before computing a Sharpe Ratio can provide at least
+reasonably meaningful comparisons among strategies, even if
+predictions are initially stated in terms of different
+measurement periods. </p>
+
+<p>To maximize information content, it is usually desirable to
+measure risks and returns using fairly short (e.g. monthly)
+periods. For purposes of standardization it is then desirable to
+annualize the results. </p>
+
+<p>To provide perspective, consider investment in a broad stock
+market index, financed by borrowing. Typical estimates of the
+annual excess return on the stock market in a developed country
+might include a mean of 6% per year and a standard deviation of
+15%. The resulting excess return Sharpe Ratio of &quot;the stock
+market&quot;, stated in annual terms would then be 0.40. </p>
+
+<h4>Correlations</h4>
+
+<p>The ex ante Sharpe Ratio takes into account both the expected
+differential return and the associated risk, while the ex post
+version takes into account both the average differential return
+and the associated variability. Neither incorporates information
+about the correlation of a fund or strategy with other assets,
+liabilities, or previous realizations of its own return. For this
+reason, the ratio may need to be supplemented in certain
+applications. Such considerations are discussed in later
+sections. </p>
+
+<h4>Related Measures</h4>
+
+<p>The literature surrounding the Sharpe Ratio has,
+unfortunately, led to a certain amount of confusion. To provide
+clarification, two related measures are described here. The first
+uses a different term to cover cases that include the construct
+that we call the Sharpe Ratio. The second uses the same term to
+describe a different but related construct. </p>
+
+<p>Whether measured ex ante or ex post, it is essential that the
+Sharpe Ratio be computed using the mean and standard deviation of
+a <em>differential return</em> (or, more broadly, the return on
+what will be termed a zero investment strategy). Otherwise it
+loses its <em>raison d'etre</em>. Clearly, the Sharpe Ratio can
+be considered a special case of the more general construct of the
+ratio of the mean of any distribution to its standard deviation. </p>
+
+<p>In the investment arena, a number of authors associated with
+BARRA (a major supplier of analytic tools and databases) have
+used the term <em>information ratio</em> to describe such a
+general measure. In some publications , the ratio is defined to
+apply only to differential returns and is thus equivalent to the
+measure that we call the Sharpe Ratio (see, for example, <a
+href="SR.htm#Rudd">Rudd and Clasing</a> [1982, p. 513] and <a
+href="SR.htm#Grinold">Grinold</a> [1989, p. 31]). In others, it
+is also encompasses the ratio of the mean to the standard
+deviation of the distribution of the return on a single
+investment, such as a fund or a benchmark (see, for example, <a
+href="SR.htm#BARRA">BARRA</a> [1993, p. 22]). While such a
+&quot;return information ratio&quot; may be useful as a
+descriptive statistic, it lacks a number of the key properties of
+what might be termed a &quot;differential return information
+ratio&quot; and may in some instances lead to wrong decisions. </p>
+
+<p>For example, consider the choice of a strategy involving cash
+and one of two funds, X and Y. X has an expected return of 5% and
+a standard deviation of 10%. Y has an expected return of 8% and a
+standard deviation of 20%. The riskless rate of interest is 3%.
+According to the ratio of expected return to standard deviation,
+X (5/10, or 0.50) is superior to Y (8/20, or 0.40). According to
+the Sharpe Ratios using excess return, X (2/10, or 0.20) is
+inferior to Y (5/20, or 0.25). </p>
+
+<p>Now, consider an investor who wishes to attain a standard
+deviation of 10%. This can be achieved with fund X, which will
+provide an expected return of 5.0%. It can also be achieved with
+an investment of 50% of the investor's funds in Y and 50% in the
+riskless asset. The latter will provide an expected return of
+5.5% -- clearly the superior alternative. </p>
+
+<p>Thus the Sharpe Ratio provides the correct answer (a strategy
+using Y is preferred to one using X), while the &quot;return
+information ratio&quot; provides the wrong one. </p>
+
+<p>In their seminal work, <a href="SR.htm#Treynor">Treynor and
+Black</a> [1973], defined the term &quot;Sharpe Ratio&quot; as
+the <em>square</em> of the measure that we describe. Others, such
+as <a href="SR.htm#Rudd">Rudd and Clasing</a> [1982, p. 518] and <a
+href="SR.htm#Grinold">Grinold</a> [1989, p. 31], also use such a
+definition. </p>
+
+<p>While interesting in certain contexts, this construct has the
+curious property that all values are positive -- even those for
+which the mean differential return is negative. It thus obscures
+important information concerning performance. We prefer to follow
+more common practice and thus refer to the Treynor-Black measure
+as the Sharpe Ratio squared (SR<sup>2</sup>). <a
+href="SR.htm#fn2"><sup>2</sup></a>: </p>
+
+<p>We focus here on the Sharpe Ratio, which takes into account
+both risk and return without reference to a market index. [<a
+href="SR.htm#Sharpe66">Sharpe</a> 1966, 1975] discusses both the
+Sharpe Ratio and measures based on market indices, such as
+Jensen's alpha and Treynor's average excess return to beta ratio.
+</p>
+
+<h3>Scale Independence</h3>
+
+<p>Originally, the benchmark for the Sharpe Ratio was taken to be
+a riskless security. In such a case the <em>differential return</em>
+is equal to the <em>excess return</em> of the fund over a
+one-period riskless rate of interest. Many of the descriptions of
+the ratio in <a href="SR.htm#Sharpe66">Sharpe</a> [1966, 1975]
+focus on this case . </p>
+
+<p>More recent applications have utilized benchmark portfolios
+designed to have a set of &quot;factor loadings&quot; or an
+&quot;investment style&quot; similar to that of the fund being
+evaluated. In such cases the differential return represents the
+difference between the return on the fund and the return that
+would have been obtained from a &quot;similar&quot; passive
+alternative. The difference between the two returns may be termed
+an &quot;active return&quot; or &quot;selection return&quot;,
+depending on the underlying procedure utilized to select the
+benchmark. </p>
+
+<p><a href="SR.htm#Treynor">Treynor and Black</a> [1973] cover
+the case in which the benchmark portfolio is, in effect, a
+combination of riskless securities and the &quot;market
+portfolio&quot;. <a href="SR.htm#Rudd">Rudd and Clasing</a>
+[1982] describe the use of benchmarks based on factor loadings
+from a multifactor model. <a href="SR.htm#Sharpe92">Sharpe</a>
+[1992] uses a procedure termed <em>style analysis</em> to select
+a mix of asset class index funds that have a &quot;style&quot;
+similar to that of the fund. When such a mix is used as a
+benchmark, the differential return is termed the fund's <em>selection
+return</em>. The Sharpe Ratio of the selection return can then
+serve as a measure of the fund's performance over and above that
+due to its investment style. <a href="SR.htm#fn3"><sup>3</sup></a>:
+</p>
+
+<p>Central to the usefulness of the Sharpe Ratio is the fact that
+a differential return represents the result of a <em>zero-investment
+strategy</em>. This can be defined as any strategy that involves
+a zero outlay of money in the present and returns either a
+positive, negative or zero amount in the future, depending on
+circumstances. A differential return clearly falls in this class,
+since it can be obtained by taking a long position in one asset
+(the fund) and a short position in another (the benchmark), with
+the funds from the latter used to finance the purchase of the
+former. </p>
+
+<p>In the original applications of the ratio, where the benchmark
+is taken to be a one- period riskless asset, the differential
+return represents the payoff from a unit investment in the fund,
+financed by borrowing. <a href="SR.htm#fn4"><sup>4</sup></a>:
+More generally, the differential return corresponds to the payoff
+obtained from a unit investment in the fund, financed by a short
+position in the benchmark. For example, a fund's <em>selection
+return</em> can be considered to be the payoff from a unit
+investment in the fund, financed by short positions in a mix of
+asset class index funds with the same style. </p>
+
+<p>A differential return can be obtained explicitly by entering
+into an agreement in which a party and a counterparty agree to <em>swap</em>
+the return on the benchmark for the return on the fund and
+vice-versa. A <em>forward contract</em> provides a similar
+result. Arbitrage will insure that the return on such a contract
+will be very close to the excess return on the underlying asset
+for the period ending on the delivery date. <a href="SR.htm#fn5"><sup>5</sup></a>:
+A similar relationship holds approximately for traded contracts
+such as stock index futures , which clearly represent
+zero-investment strategies. <a href="SR.htm#fn6"><sup>6</sup></a>:
+</p>
+
+<p>To compute the return for a zero-investment strategy the
+payoff is divided by a <em>notional value</em>. For example, the
+dollar payoff for a swap is often set to equal the difference
+between the dollar return on an investment of $X in one asset and
+that on an investment of $X in another. The net difference can
+then be expressed as a proportion of $X, which serves as the
+notional value. Returns on futures positions are often computed
+in a similar manner, using the initial value of the underlying
+asset as a base. In effect, the same approach is utilized when
+the difference between two returns is computed. </p>
+
+<p>Since there is zero net investment in any such strategy, the <em>percent</em>
+return can be made as large or small as desired by simply
+changing the notional value used in such a computation. The <em>scale</em>
+of the return thus depends on the more- or-less arbitrary choice
+of the notional value utilized for its computation. <a
+href="SR.htm#fn7"><sup>7</sup></a>: </p>
+
+<p>Changes in the notional value clearly affect the mean and the
+standard deviation of the distribution of return, but the changes
+are of the same magnitude, leaving the Sharpe Ratio unaffected.
+The ratio is thus <em>scale independent</em>. <a
+href="SR.htm#fn8"><sup>8</sup></a>: </p>
+
+<h3>The Influence of a Zero Investment Strategy on Asset Risk and
+Return</h3>
+
+<p>Scale independence is more than a mathematical artifact. It is
+key to understanding why the Sharpe Ratio can provide an
+efficient summary statistic for a zero- investment strategy. To
+show this, we consider the case of an investor with a
+pre-existing portfolio who is considering the choice of a zero
+investment strategy to augment current investments. </p>
+
+<h4>The Relative Position in a Zero Investment Strategy</h4>
+
+<p>Assume that the investor has $A in assets and has placed this
+money in an investment portfolio with a return of R<sub>I</sub>.
+She is considering investment in a zero-investment strategy that
+will provide a return of d per unit of notional value. Denote the
+notional value chosen as V (e.g. investment of V in a fund
+financed by a short position of V in a benchmark). Define the <em>relative
+position</em>, p, as the ratio of the notional value to the
+investor's assets: </p>
+
+<p><img src="sr_11.gif" width="119" height="57"> </p>
+
+<p>The end-of-period payoff will be: </p>
+
+<p><img src="sr_12.gif" width="186" height="38"> </p>
+
+<p>Let R<sub>A</sub> denote the total return on the investor's
+initial assets. Then: </p>
+
+<p><img src="sr_13.gif" width="166" height="44"> </p>
+
+<p>If R-bar<sub>A</sub> denotes the expected return on assets and
+R- bar<sub>I</sub> the expected return on the investment: </p>
+
+<p><img src="sr_14.gif" width="161" height="41"> </p>
+
+<p>Now, let sigma<sub>A</sub>, sigma<sub>I</sub> and sigma<sub>d</sub>
+denote the standard deviations of the returns on assets, the
+investment and the zero-investment strategy, respectively, and
+rho<sub>Id</sub> the correlation between the return on the
+investment and the return on the zero-investment strategy. Then: </p>
+
+<p><img src="sr_15.gif" width="321" height="44"> </p>
+
+<p>or, rewriting slightly: </p>
+
+<p><img src="sr_16.gif" width="333" height="49"> </p>
+
+<h4>The Risk Position in a Zero Investment Strategy</h4>
+
+<p>The parenthesized expression (p sigma<sub>d</sub>) is of
+particular interest. It indicates the risk of the position in the
+zero-investment strategy relative to the investor's overall
+assets. Let k denote this <em>risk position</em> </p>
+
+<p><img src="sr_17.gif" width="123" height="38"> </p>
+
+<p>For many purposes it is desirable to consider k as the
+relevant decision variable. Doing so states the magnitude of a
+zero-investment strategy in terms of its risk relative to the
+investor's overall assets. In effect, one first determines k, the
+level of risk of the zero- investment strategy. Having answered
+this fundamental question, the relative (p) and absolute (V)
+amounts of notional value for the strategy can readily be
+determined, using equations (17) and (11). <a href="SR.htm#fn9"><sup>9</sup></a>:
+</p>
+
+<h4>Asset Risk and Expected Return</h4>
+
+<p>It is straightforward to determine the manner in which asset
+risk and expected return are related to the risk position of the
+zero investment strategy, its correlation with the investment,
+and its Sharpe Ratio. </p>
+
+<p>Substituting k in equation (16) gives the relationship between
+1) asset risk and 2) the risk position and the correlation of the
+strategy with the investment: </p>
+
+<p><img src="sr_18.gif" width="252" height="49"> </p>
+
+<p>To see the relationship between asset expected return and the
+characteristics of the zero investment strategy, note that the
+Sharpe Ratio is the ratio of d-bar to sigma<sub>d</sub>. It
+follows that </p>
+
+<p><img src="sr_19.gif" width="120" height="37"> </p>
+
+<p>Substituting equation (19) in equation (14) gives: </p>
+
+<p><img src="sr_20.gif" width="183" height="39"> </p>
+
+<p>or: </p>
+
+<p><img src="sr_21.gif" width="152" height="37"> </p>
+
+<p>which shows that the expected return on assets is related
+directly to the product of the risk position times the Sharpe
+Ratio of the strategy. </p>
+
+<p>By selecting an appropriate scale, any zero investment
+strategy can be used to achieve a desired level (k) of relative
+risk. This level, plus the strategy's Sharpe Ratio, will
+determine asset expected return, as shown by equation (21). Asset
+risk, however, will depend on both the relative risk (k) and the
+correlation of the strategy with the other investment (rho<sub>Id</sub>
+). In general, the Sharpe Ratio, which does not take that
+correlation into account, will not by itself provide sufficient
+information to determine a set of decisions that will produce an
+optimal combination of asset risk and return, given an investor's
+tolerance of risk. </p>
+
+<h3>Adding a Zero-Investment Strategy to an Existing Portfolio</h3>
+
+<p>Fortunately, there are important special cases in which the
+Sharpe Ratio will provide sufficient information for decisions on
+the optimal risk/return combination: one in which the
+pre-existing portfolio is riskless, the other in which it is
+risky. </p>
+
+<h4>Adding a Strategy to a Riskless Portfolio</h4>
+
+<p>Suppose first that an investor plans to allocate money between
+a riskless asset and a single risky fund (e.g. a
+&quot;balanced&quot; fund). This is, in effect, the case analyzed
+in <a href="sr.htm#Sharpe66">Sharpe</a> [1966,1975]. </p>
+
+<p>We assume that there is a pre-existing portfolio invested
+solely in a riskless security, to which is to be added a zero
+investment strategy involving a long position in a fund, financed
+by a short position in a riskless asset (i.e., borrowing).
+Letting R<sub>c</sub> denote the return on such a &quot;cash
+equivalent&quot;, equations (1) and (13) can be written as: </p>
+
+<p><img src="sr_22.gif" width="141" height="42"> </p>
+
+<p>and </p>
+
+<p><img src="sr_23.gif" width="150" height="43"> </p>
+
+<p>Since the investment is riskless, its standard deviation of
+return is zero, so both the first and second terms on the
+right-hand side of equation (18) become zero, giving: </p>
+
+<p><img src="sr_24.gif" width="116" height="38"> </p>
+
+<p>The investor's total risk will thus be equal to that of the
+position taken in the zero investment strategy, which will in
+turn equal the risk of the position in the fund. </p>
+
+<p>Letting S<sub>F</sub> represent the Sharpe Ratio of fund F,
+equation (21) can be written: </p>
+
+<p><img src="sr_25.gif" width="156" height="42"> </p>
+
+<p>It is clear from equations (24) and (25) that the investor
+should choose the desired level of risk (k), then obtain that
+level of risk by using the fund (F) with the greatest excess
+return Sharpe Ratio. Correlation does not play a role since the
+remaining holdings are riskless. </p>
+
+<p>This is illustrated in the Exhibit. Points X and Y represent
+two (mutually exclusive) strategies. The desired level of risk is
+given by k. It can be obtained with strategy X using a relative
+position of p<sub>x</sub> (shown in the figure at point PxX) or
+with strategy Y using a relative position of p<sub>Y</sub> (shown
+in the figure at point PyY). An appropriately-scaled version of
+strategy X clearly provides a higher mean return (shown at point
+MRx) than an appropriately-scaled version of strategy Y (shown at
+point MRy). Strategy X is hence to be preferred. </p>
+
+<p><img src="sr_ex.gif" width="549" height="323"> </p>
+
+<p>The Exhibit shows that the mean return associated with <em>any</em>
+desired risk position will be greater if strategy X is adopted
+instead of strategy Y. But the slope of such a line <em>is</em>
+the Sharpe Ratio. Hence, as long as only the mean return and the
+risk position of the zero-investment strategy are relevant, the
+optimal solution involves maximization of the Sharpe Ratio of the
+zero-investment strategy. </p>
+
+<p>Consider, for example, a choice between fund XX, with a risk
+of 10% and an excess return Sharpe Ratio of 0.20 and fund YY with
+a risk of 20% and an excess return Sharpe Ratio of 0.25. Assume
+the investor has $100 to invest and desires a level of risk
+(here, k) equal to 15%. </p>
+
+<p>The optimal strategy involves investment of $100 in the
+riskless asset plus a zero-investment strategy based on fund YY.
+To make the risk of the latter equal to 15%, a relative position
+(p) of 0.75 should be taken. This, in turn, requires an
+investment of $75 in the fund, financed by $75 of borrowing (i.e.
+a short position in the riskless asset). The net position in the
+riskless asset will thus be $25 ($100 - $75), with $75 invested
+in Fund YY. </p>
+
+<p>In this case the investor's tasks include the selection of the
+fund with the greatest Sharpe Ratio and the allocation of wealth
+between this fund and borrowing or lending, as required to obtain
+the desired level of asset risk. </p>
+
+<h4>Adding a Strategy to a Risky Portfolio</h4>
+
+<p>Consider now the case in which a single fund is to be selected
+to complement a pre-existing group of risky investments. For
+example, an investor might have $100, with $80 already committed
+(e.g. to a group of bond and stock funds). The goal is to
+allocate the remaining $20 between a riskless asset
+(&quot;cash&quot;) and a single risky fund (e.g. a &quot;growth
+stock fund&quot;), accepting the possibility that the amount
+allocated to cash might be positive, zero or negative, depending
+on the desired risk and the risk of the chosen fund. </p>
+
+<p>In this case the investment should be taken as the
+pre-existing investment plus a riskless asset (in the example,
+$80 in the initial investments plus $20 in cash equivalents). The
+return on this total portfolio will be R<sub>I</sub>. The zero-
+investment strategy will again involve a long position in a risky
+fund and a short position in the riskless asset. </p>
+
+<p>As stated earlier, in such a case it will not necessarily be
+optimal to select the fund with the largest possible Sharpe
+Ratio. While the ratio takes into account two key attributes of
+the predicted performance of a zero-investment strategy (its
+expected return and its risk), it does not include information
+about the correlation of its return with that of the investor's
+other holdings (rho<sub>Id</sub>). It is entirely possible that a
+fund with a smaller Sharpe Ratio could have a sufficiently
+smaller correlation with the investor's other assets that it
+would provide a higher expected return on assets for any given
+level of overall asset risk. </p>
+
+<p>However, if the alternative funds being analyzed have similar
+correlations with the investor's other assets, it will still be
+optimal to select the fund with the greatest Sharpe Ratio. To see
+this, note that with rho<sub>Id</sub> taken as given, equation
+(18) shows that there is a one-to-one correspondence between
+sigma<sub>A</sub> and k. Thus, for any desired level of asset
+risk, the investor chooses the corresponding risk position k
+given by equation (18), regardless of the fund to be employed. </p>
+
+<p>But, as before, the expected return on assets will be: </p>
+
+<p><img src="sr_26.gif" width="161" height="40"> </p>
+
+<p>which can be maximized by selecting the fund with the largest
+Sharpe Ratio. </p>
+
+<p>The practical implication is clear. When choosing one from
+among a group of funds of a particular type for inclusion in a
+larger set of holdings, the one with the largest predicted excess
+return Sharpe Ratio may reasonably be chosen, if it can be
+assumed that all the funds in the set have similar correlations
+with the other holdings. If this condition is not met, some
+account should be taken of the differential levels of such
+correlations. </p>
+
+<h4>The Choice of a Set of Uncorrelated Strategies</h4>
+
+<p>Suppose finally that an investor has a pre-existing set of
+investments and is considering taking positions in one or more
+zero-investment strategies, each of which is uncorrelated both
+with the existing investments and with each of the other such
+strategies. Such lack of correlation is generally assumed for
+residual returns from an assumed factor model and hence applies
+to strategies in which long and short positions are combined to
+obtain zero exposures to all underlying factors in such a model. </p>
+
+<p>In particular, this is assumed to hold for the
+&quot;non-market returns&quot; which are the residual returns in
+one-factor &quot;market models&quot; of the type employed in <a
+href="sr.htm#Treynor">Treynor-Black</a> [1973]. It is also
+assumed to hold for the &quot;active returns&quot; that
+constitute the residual returns in a model of the type used by
+BARRA (described, for example, in <a href="sr.htm#Grinold">Grinold</a>
+[1989]). </p>
+
+<p>Most germane, perhaps, for selecting funds, this is assumed to
+hold for the &quot;selection returns&quot; that constitute the
+residuals from the asset class factor model used in the style
+analysis procedure described in <a
+href="sr.htm#Sharpe92&gt;Sharpe&lt;/A&gt;  [1992].  Note, however that the key results apply to all     three      cases.      &lt;A HREF="
+sr.htm#fn10"><sup>10</sup></a>: </p>
+
+<p>Under the assumed conditions, the counterpart to equation (13)
+is: </p>
+
+<p><img src="sr_27.gif" width="191" height="53"> </p>
+
+<p>where p<sub>i</sub> represents the relative position taken in
+strategy i and d<sub>i</sub> represents its return. </p>
+
+<p>Letting sigma<sub>di</sub> represent the risk of position i,
+asset risk is given by: </p>
+
+<p><img src="sr_28.gif" width="206" height="53"> </p>
+
+<p>and expected asset return by: </p>
+
+<p><img src="sr_29.gif" width="176" height="47"> </p>
+
+<p>Adding subscriptions to equations (21) and (18), and
+substituting the results gives: </p>
+
+<p><img src="sr_30.gif" width="186" height="51"> </p>
+
+<p>and </p>
+
+<p><img src="sr_31.gif" width="172" height="52"> </p>
+
+<p>Now, assume that the investor's goal is to maximize a standard
+risk- adjusted expected return of the form: </p>
+
+<p><img src="sr_32.gif" width="157" height="47"> </p>
+
+<p>where tau represents risk tolerance (the marginal rate of
+substitution of variance for expected return). Substituting
+equations (30) and (31) in (32) gives: </p>
+
+<p><img src="sr_33.gif" width="275" height="52"> </p>
+
+<p>Since the terms involving the initial investment will be
+unaffected by the decisions (k<sub>i</sub>'s) concerning the zero
+investment strategies, it suffices to maximize: </p>
+
+<p><img src="sr_34.gif" width="201" height="60"> </p>
+
+<p>To do so, the partial derivative with respect to each decision
+variable (k<sub>i</sub>) should be set to zero: </p>
+
+<p><img src="sr_35.gif" width="173" height="45"> </p>
+
+<p>The optimal risk position in strategy i is thus: </p>
+
+<p><img src="sr_36.gif" width="122" height="56"> </p>
+
+<p>Hence the risk levels of the strategies should be proportional
+to their Sharpe Ratios. Strategies with zero predicted Sharpe
+Ratios should be ignored. Those with positive ratios should be
+&quot;held long&quot;, and those with negative ratios &quot;held
+short&quot;. If strategy X has a positive Sharpe Ratio that is
+twice as large as that of strategy Y, twice as much risk should
+be taken with X as with Y. The overall scale of all the positions
+should, in turn, be proportional to the investor's risk
+tolerance. </p>
+
+<p>An interesting application occurs when long and short
+positions can be taken (e.g. via financial futures) in the asset
+classes that underlie a style analysis model of the type
+described in <a href="sr.htm#Sharpe92">Sharpe</a> [1992]. In
+principle, funds should be selected based only on their selection
+returns, with the respective amounts of selection risk set in
+proportion to the funds' selection return Sharpe Ratios. The net
+exposures to asset classes required to implement this mixture of
+zero investment strategies can then be compared with the
+investor's desired passive asset mix to determine needed net
+positions. </p>
+
+<h3>Summary</h3>
+
+<p>The Sharpe Ratio is designed to measure the expected return
+per unit of risk for a <em>zero investment strategy</em>. The
+difference between the returns on two investment assets
+represents the results of such a strategy. The Sharpe Ratio does
+not cover cases in which only one investment return is involved. </p>
+
+<p>Clearly, any measure that attempts to summarize even an
+unbiased prediction of performance with a single number requires
+a substantial set of assumptions for justification. In practice,
+such assumptions are, at best, likely to hold only approximately.
+Certainly, the use of unadjusted historic (ex post) Sharpe Ratios
+as surrogates for unbiased predictions of ex ante ratios is
+subject to serious question. Despite such caveats, there is much
+to recommend a measure that at least takes into account both risk
+and expected return over any alternative that focuses only on the
+latter. </p>
+
+<p>For a number of investment decisions, ex ante Sharpe Ratios
+can provide important inputs. When choosing one from among a set
+of funds to provide representation in a particular market sector,
+it makes sense to favor the one with the greatest predicted
+Sharpe Ratio, as long as the correlations of the funds with other
+relevant asset classes are reasonably similar. When allocating
+funds among several such funds, it makes sense to allocate funds
+such that the selection (residual) risk levels are proportional
+to the predicted Sharpe Ratios for the selection (residual)
+returns. If some of the implied net positions are infeasible or
+involve excessive transactions costs, of course, the decision
+rules must be modified. Nonetheless, Sharpe Ratios may still
+provide useful guidance. </p>
+
+<p>Whatever the application, it is essential to remember that the
+Sharpe Ratio does not take correlations into account. When a
+choice may affect important correlations with other assets in an
+investor's portfolio, such information should be used to
+supplement comparisons based on Sharpe Ratios. </p>
+
+<p>All the same, the ratio of expected added return per unit of
+added risk provides a convenient summary of two important aspects
+of any strategy involving the difference between the return of a
+fund and that of a relevant benchmark. The Sharpe Ratio is
+designed to provide such a measure. Properly used, it can improve
+the process of managing investments. </p>
+
+<h3>Endnotes</h3>
+
+<p><a name="fn1">1.</a> We use the formula for the standard
+deviation of a population, taking the observations as a sample.
+For applications in which the value of T is the same for all the
+funds being measured, the standard deviation of the historic data
+(in which the denominator is T rather than T-1) can generally be
+used instead, since the relative magnitudes of the resulting
+measures would be the same. </p>
+
+<p><a name="fn2">2.</a> Treynor and Black showed that if
+resources are allocated optimally, the SR<sup>2</sup> of a
+portfolio will equal the sum of the SR<sup>2</sup> values for its
+components. This follows from the fact that the optimal holding
+of a component will be proportional to the ratio of its mean
+differential return to the square of the standard deviation of
+its differential return. Thus, for example, components with
+negative means should be held in negative amounts. In this
+context, the product of the mean return and the optimal holding
+will always be positive. For completeness, it should be noted
+that Treynor and Black used the term <em>appraisal ratio</em> to
+refer to what we term here the SR<sup>2</sup> of a component and
+the term <em>Sharpe Ratio</em> to refer to the SR<sup>2</sup> of
+the portfolio, although other authors have used the latter term
+for both the portfolio and its components. </p>
+
+<p><a name="fn3">3.</a> This type of application is described in
+BARRA [1992, p. 21]. </p>
+
+<p><a name="fn4">4.</a> In this context, maximization of the
+Sharpe Ratio is the normative equivalent to the separation
+theorem first put forth in Tobin [1958] in a positive context. </p>
+
+<p><a name="fn5">5.</a> To see this, note that by borrowing money
+to purchase the underlying asset, one can obtain precisely the
+same asset at the delivery date. The ending value of such a
+strategy will be perfectly correlated with the value of the
+forward contract and neither will require any outlay. If the
+payoffs at the end of the period differ, one could take a long
+position in one combination (e.g. the forward contract or the
+asset/borrowing combination) and a short position in the other
+and obtain a guaranteed payment at the end of the period with no
+outlay at any other time. This is unlikely to be the case in a
+market populated by astute investors. In practice, transactions
+costs will limit the precision of the relationship. </p>
+
+<p><a name="fn6">6.</a> Futures contracts are often not protected
+against changes in value due to (for example) dividend payments.
+They also generally require daily marking to market. For these
+reasons they differ from forward contracts with dividend
+protection, for which the arbitrage relationship will hold within
+the bounds of transactions costs. Futures contracts generally
+require that margin be posted. However, this is not an investment
+in the underlying asset. </p>
+
+<p><a name="fn7">7.</a> Despite this drawback, once a notional
+value has been selected, the actual rate of return can be used
+for comparison purposes. </p>
+
+<p><a name="fn8">8.</a> Indeed, a Sharpe Ratio can be computed
+without regard to notional value by simply using the mean and
+standard deviation of the distribution of the final payoff. </p>
+
+<p><a name="fn9">9.</a> To see the advantages of concentration on
+the risk position of a strategy, consider two funds. One (X)
+invests directly, the other (Y) borrows money at the riskless
+rate and invests in X, with a leverage ratio of 2 to 1. Let k<sub>x</sub>
+be the optimal position in fund X. Clearly the optimal position
+in fund Y will be half as large. However, the standard deviation
+of return on fund Y will be twice that of fund X. Thus the
+optimal risk position in Y will be the same as that in X. </p>
+
+<p><a name="fn10">10.</a> In fact, the basic relationship on
+which this section builds was first obtained by Treynor and Black
+[1973]. </p>
+
+<h3>References</h3>
+
+<p>BARRA <em>Newsletter</em>, September/October 1992, May/June
+1993, BARRA, Berkeley, Ca. </p>
+
+<p>Bodie, Zvi, Alex Kane and Alan J. Marcus. <em>Investments</em>,
+2d edition. Homewood, IL: Richard D. Irwin, 1993. </p>
+
+<p>Capaul, Carlo, Ian Rowley, and William F. Sharpe.
+&quot;International Value and Growth Stock Returns,&quot; <em>Financial
+Analysts Journal</em>, January/February 1993, pp. 27-36. </p>
+
+<p>Elton, Edwin J., and Martin J. Gruber. <em>Modern Portfolio
+Theory and Investment Analysis</em>, 4th edition. New York: John
+Wiley &amp; Sons, 1991. </p>
+
+<p>Grinold, Richard C. &quot;The Fundamental Law of Active
+Management,&quot; <em>Journal of Portfolio Management</em>,
+Spring 1989, pp. 30-37. </p>
+
+<p>Haugen, Robert A. <em>Modern Investment Theory</em>, 3d
+edition. Englewood Cliffs, NJ: Prentice-Hall, 1993. </p>
+
+<p>&quot;Morningstar Mutual Funds User's Guide.&quot; Chicago:
+Morningstar Inc., 1993. </p>
+
+<p>Radcliff, Robert C. <em>Investment Concepts, Analysis,
+Strategy</em>, 3d edition. New York: HarperCollins, 1990. </p>
+
+<p>Reilly, Frank K. <em>Investment Analysis and Portfolio
+Management</em>, 3d edition. Chicago: The Dryden Press, 1989. </p>
+
+<p>Rudd, Andrew, and Henry K. Clasing. <em>Modern Portfolio
+Theory, The Principles of Investment Management</em>. Homewood,
+IL: Dow-Jones Irwin, 1982. </p>
+
+<p>Sharpe, William F. &quot;Mutual Fund Performance.&quot; <em>Journal
+of Business</em>, January 1966, pp. 119-138. </p>
+
+<p>-----. &quot;Adjusting for Risk in Portfolio Performance
+Measurement.&quot; <em>Journal of Portfolio Management</em>,
+Winter 1975, pp. 29-34. </p>
+
+<p>-----. &quot;Asset allocation: Management Style and
+Performance Measurement,&quot; <em>Journal of Portfolio
+Management</em>, Winter 1992, pp. 7-19. </p>
+
+<p>Tobin, James. &quot;Liquidity Preference as Behavior Toward
+Risk.&quot; <em>Review of Economic Studies</em>, February 1958,
+pp. 65-86. </p>
+
+<p>Treynor, Jack L., and Fischer Black. &quot;How to Use Security
+Analysis to Improve Portfolio Selection.&quot; <em>Journal of
+Business</em>, January 1973, pp. 66-85. </p>
+
+<hr>
+
+<h4 align="center"><a href="../../mia/../home.htm"><img
+src="../../home.jpg" border="0"></a></h4>
+</body>
+</html>

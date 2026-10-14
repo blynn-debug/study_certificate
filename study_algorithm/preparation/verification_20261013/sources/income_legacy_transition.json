@@ -1,0 +1,20 @@
+{
+  "id": "income_legacy_transition",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=280405&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:23.798942+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 334014,
+  "content_sha256": "5912d8f08aae4d6ae7e7507402bc2887d7b20c4631ae047556106d9b4f0fb66d",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "1"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt",
+  "evidence_scope": "2017 amendment commencement and preserved long-bond transition only"
+}

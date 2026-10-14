@@ -1,0 +1,12 @@
+{
+  "id": "bok_annual2025",
+  "requested_url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?menuNo=201264&nttId=10098382",
+  "retrieved_url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?menuNo=201264&nttId=10098382",
+  "retrieved_at": "2026-10-13T01:09:41.843050+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7703,
+  "content_sha256": "b36564185d4d296b2e840c66084ffdbb1e78ca5a9e3168f215bea7215d8859dc",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

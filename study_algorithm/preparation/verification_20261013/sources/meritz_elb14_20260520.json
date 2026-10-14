@@ -1,0 +1,14 @@
+{
+  "id": "meritz_elb14_20260520",
+  "requested_url": "https://home.imeritz.com/include/resource/comm/ctcn/nfiles/MBSAP22002_A1044_20260520104605661.pdf",
+  "retrieved_url": "https://home.imeritz.com/include/resource/comm/ctcn/nfiles/MBSAP22002_A1044_20260520104605661.pdf",
+  "retrieved_at": "2026-10-13T02:32:14.732775+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "c50d3d2f1ef65dabac9c6d68651a93c4a8c4e068a8846788f5562dde24c945c2",
+  "binary_sha256": "c50d3d2f1ef65dabac9c6d68651a93c4a8c4e068a8846788f5562dde24c945c2",
+  "text_sha256": "3798d3ae1b63545cb7ca80c165f0a58203ef91d9fe8a8e323914c69d081fa654",
+  "pages": 22,
+  "characters": 15707,
+  "status": "retrieved_not_claim_verified"
+}

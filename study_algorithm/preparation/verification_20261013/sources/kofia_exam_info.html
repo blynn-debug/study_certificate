@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<script>
+/*
+var pageUrl = location.href;
+if (pageUrl.indexOf('https://') < 0 && pageUrl.indexOf('localhost') < 0) {
+	pageUrl = pageUrl.replace('http://', 'https://');
+	location.href = pageUrl;
+}
+*/
+
+var browse = navigator.userAgent.toLowerCase();
+
+if( (navigator.appName == 'Netscape' && browse.indexOf('trident') != -1) || (browse.indexOf("msie") != -1)) {
+     alert("자격시험 홈페이지는 크롬 브라우저에 최적화되어 있습니다.\n크롬 브라우저를 권장합니다.");
+}
+</script>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="금융투자협회 자격시험센터">
+		<meta property="og:description" content="자격시험 소개, 시험일정, 원서접수, 고사장 등 안내">
+		<meta property="og:image" content="/resources/images/favicon.ico">
+		<meta property="og:url" content=" https://license.kofia.or.kr/ ">
+		<meta name="keywords" content="자격시험,투자상담사,자산운용사,금융투자협회 ">
+		<meta name="description" content="자격시험 소개, 시험일정, 원서접수, 고사장 등 안내">
+		<meta name="naver-site-verification" content="4db754325c71a7cbce70de7b775c16320a79958f" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' ;
+		font-src 'self' data:;
+		script-src 'self' 'unsafe-inline' https://dapi.kakao.com https://t1.daumcdn.net https://stdpay.inicis.com https://stdux.inicis.com https://www.kofia.or.kr https://agent-lib.stclab.com https://wait.kofia.or.kr/assets/nf-setting/1/nf-setting.json https://wait.kofia.or.kr/ts.wseq;
+		script-src-elem 'self' 'unsafe-inline' https://dapi.kakao.com https://t1.daumcdn.net https://stdpay.inicis.com https://stdux.inicis.com https://www.kofia.or.kr https://agent-lib.stclab.com https://wait.kofia.or.kr/assets/nf-setting/1/nf-setting.json https://wait.kofia.or.kr/ts.wseq;
+		connect-src 'self' 'unsafe-inline' https://dapi.kakao.com https://t1.daumcdn.net https://agent-lib.stclab.com https://nf-setting-bucket.stclab.com https://kofia-8341.netfunnel.stclab.com https://wait.kofia.or.kr/assets/nf-setting/1/nf-setting.json https://wait.kofia.or.kr/ts.wseq;
+		img-src *;
+		frame-src *;
+		style-src 'self' 'unsafe-inline' https://stdpay.inicis.com https://stdux.inicis.com;
+		style-src-elem 'self' 'unsafe-inline' https://stdpay.inicis.com https://stdux.inicis.com;">
+		<title>금융투자협회 자격시험센터</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/resources/images/favicon.ico">
+		
+		<link rel="stylesheet" href="/resources/css/common.css?1.0.1" type="text/css">
+		<link rel="stylesheet" href="/resources/css/plugin.css?1.0.1" type="text/css">
+		<link rel="stylesheet" href="/resources/css/layout.css?1.0.1" type="text/css">
+		<link rel="stylesheet" href="/resources/css/style.css?1.0.1" type="text/css">
+		<link rel="stylesheet" href="/resources/css/custom.css?1.0.1" type="text/css">
+		<link rel="stylesheet" href="/resources/css/m.css?1.0.1" type="text/css">
+		<script src="/resources/js/common.js"></script>
+		<script src="/resources/js/common/json2.js"></script>
+		<script src="/resources/js/common/StringUtil.js"></script>
+		<script src="/resources/js/jquery/jquery.form.js"></script>
+		<script src="/resources/js/jquery/jquery.key.js"></script>
+
+		<script src="/resources/js/printThis.js"></script>
+		<script src="/resources/js/jspdf.min.js"></script>
+		<script src="/resources/js/html2canvas.js"></script>	
+
+		<script src="/resources/js/front.js"></script>
+		<script src="/resources/js/com.js"></script>
+		
+		<script src="/resources/js/function.js"></script>
+		<script src="/resources/js/message.js"></script>
+		<script src="/resources/js/validator.js"></script>
+		
+		<script src="/resources/js/mobile-detect.min.js"></script>
+		<!-- <script src="https://js.tosspayments.com/v1"></script> -->
+		<script
+		    src="/netfunnel-statics/agents/client/javascript/netfunnel-javascript-agent.js"
+		    data-nf-server-url="https://wait.kofia.or.kr"
+		    data-nf-setting-url="https://wait.kofia.or.kr/assets/nf-setting/1/nf-setting.json"
+		    data-nf-vwr-page-url="/netfunnel-statics/assets/vwr-page/1/index.html"
+		    data-nf-error-page-url="/netfunnel-statics/assets/vwr-page/error/errorPage.html"
+		    data-nf-retry-count="0"
+		    data-nf-network-timeout="3000"
+		></script>
+	</head>
+	<body>
+</head>
+
+<body onload="fnLoad();">
+	<!-- header// -->
+	<!-- 헤더 -->
+<!-- 팝업 공지부분 -->
+<div id="dvTopNoticeList"></div>
+
+<header>
+	<div class="h-wrap inner">
+		<div class="fx-jcsb fx-aic h-logo-wrap">
+			<div class="vbar-01">
+				<h1 class="h-logo"><a href="/main/main.do"><img src="/resources/images/img/img_logo.png"></a></h1>
+				<strong><a href="/main/main.do">자격시험센터</a></strong>
+			</div>
+			<ul class="h-util pc vbar-02">
+				<!-- 로그인 전 -->
+				<li><a href="javascript:fnLoginForm();">로그인</a></li>
+				<li><a href="javascript:fnSignup();">회원가입</a></li>
+				<!-- 로그인 후 -->
+				<li><a href="https://law.kofia.or.kr/service/law/lawView.do?seq=138&historySeq=0&gubun=cur&tree=part" target="_blank"  class="fx-gap-8">자격시험규정<i class="ic-lnk"></i></a></li>
+			</ul>
+			<div class="mobile tablet fx-aic h-btn">
+				<button type="button" class="h-sch-btn" data-self="click" data-tta="hsearch"><i class="ic-sch">찾기</i></button>
+				<button type="button" data-tta="panel"><i class="ic-menu">메뉴</i></button>
+			</div>
+		</div>
+		<!-- <div class="fx-jcsb fx-aifs mt28 pc"> -->
+		<div class="fx-jcsb fx-aifs mt28">
+			<nav class="h-gnb">
+				<ul id="gnb" class="h-menu-od"> <li id="menu_M001">
+						<a style="cursor: pointer;">시험안내</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/examInfo/examYearly.do">시험일정</a>
+									</li>
+								<li>
+										<a href="/examInfo/examInfo.do">시험개요</a>
+									</li>
+								</ul>
+							</li>
+					<li id="menu_M002">
+						<a style="cursor: pointer;">원서접수</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/examRcpt/LICExamRcptStpOne.do">원서접수</a>
+									</li>
+								<li>
+										<a href="/examRcpt/LICRcptCfrm.do">접수확인/취소</a>
+									</li>
+								<li>
+										<a href="/examRcpt/rfdReq/getRfdReqPage.do">환불신청</a>
+									</li>
+								</ul>
+							</li>
+					<li id="menu_M003">
+						<a style="cursor: pointer;">합격조회</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/scsInquiry/scsCfrm/getScsCfrmPage.do">합격확인</a>
+									</li>
+								<li>
+										<a href="/scsInquiry/ablNoOrg/getAblNoOrgPage.do">합격증원본대조</a>
+									</li>
+								</ul>
+							</li>
+					<li id="menu_M004">
+						<a style="cursor: pointer;">교재안내</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/textBookInfo/getExamTextBookList.do">시험교재</a>
+									</li>
+								<li>
+										<a href="/textBookInfo/getTextBookEditDesc.do">개정내역</a>
+									</li>
+								</ul>
+							</li>
+					<li id="menu_M005">
+						<a style="cursor: pointer;">알림마당</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/notifyYard/notice/getNoticePage.do">공지사항</a>
+									</li>
+								<li>
+										<a href="/notifyYard/faq/getFaqPage.do">자주하는 질문(FAQ)</a>
+									</li>
+								<li>
+										<a href="/notifyYard/personAdv/getPersonAdvPage.do">1:1상담</a>
+									</li>
+								<li>
+										<a href="/notifyYard/hire/getHirePage.do">채용정보마당</a>
+									</li>
+								<li>
+										<a href="/notifyYard/contactUs/getContactUsPage.do">Contact Us</a>
+									</li>
+								</ul>
+							</li>
+					<li id="menu_M006">
+						<a style="cursor: pointer;">MY자격정보</a>
+						<ul class="h-menu-td">
+								<li>
+										<a href="/qualify/qualifyInquiry/getQualifyInfoPage.do">자격조회</a>
+									</li>
+								<li>
+										<a href="/qualify/memInfo/getMemInfoPage.do">정보수정</a>
+									</li>
+								<li>
+										<a href="/qualify/renameReq/getRenameReqPage.do">개명신청</a>
+									</li>
+								</ul>
+							</li>
+					</ul></nav>
+			<div class="fx-gap-24 fx-aic pc">
+				<a href="/examInfo/examYearly.do" class="btn- h-cal"><i class="ic-calendar"></i>시험일정</a>
+				<button type="button" class="h-sch-btn" data-self="click" data-tta="hsearch"><i class="ic-sch">찾기</i></button>
+				<a href="javascript:;" data-tta="allmenu" ><i class="ic-menu">메뉴</i></a>
+			</div>
+		</div>
+	</div>
+	<div class="h-sch" data-ttatg="hsearch">
+		<div class="inner">
+			<div class="inp-sch">
+				<input type="text" id="searchTxt" onkeypress="pressEnter();"  placeholder="검색어를 입력하세요.">
+				<button type="button" class="ic-ct-del">삭제</button>
+				<a href="javascript:search();" class="ic-ct-sch"></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- 모바일 전용 -->
+	<div class="mobile tablet pn-wrap" data-ttatg="panel">
+		<div class="pn-top">
+			
+			<p>Way to Dream 당신의 꿈을 향한 도전!</p>
+			<ul class="pn-top-menu">
+				<li><a href="javascript:fnLoginForm();"><i class="ic-login"></i><p>로그인</p></a></li>
+				<li><a href="javascript:fnSignup();"><i class="ic-join"></i><p>회원가입</p></a></li>
+				<li><a href="https://law.kofia.or.kr/service/law/lawView.do?seq=138&historySeq=0&gubun=cur&tree=part"><i class="ic-rule"></i><p>자격시험규정</p></a></li>
+				<li><a href="/examInfo/examYearly.do"><i class="ic-date"></i><p>시험일정</p></a></li>
+			</ul>
+		</div>
+		<nav class="pn-nav">
+			<ul id="gnb" class="pn-od"> <li>
+					<button type="button">시험안내</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/examInfo/examYearly.do">시험일정</a>
+								</li>
+							<li>
+									<a href="/examInfo/examInfo.do">시험개요</a>
+								</li>
+							</ul>
+						</li>
+				<li>
+					<button type="button">원서접수</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/examRcpt/LICExamRcptStpOne.do">원서접수</a>
+								</li>
+							<li>
+									<a href="/examRcpt/LICRcptCfrm.do">접수확인/취소</a>
+								</li>
+							<li>
+									<a href="/examRcpt/rfdReq/getRfdReqPage.do">환불신청</a>
+								</li>
+							</ul>
+						</li>
+				<li>
+					<button type="button">합격조회</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/scsInquiry/scsCfrm/getScsCfrmPage.do">합격확인</a>
+								</li>
+							<li>
+									<a href="/scsInquiry/ablNoOrg/getAblNoOrgPage.do">합격증원본대조</a>
+								</li>
+							</ul>
+						</li>
+				<li>
+					<button type="button">교재안내</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/textBookInfo/getExamTextBookList.do">시험교재</a>
+								</li>
+							<li>
+									<a href="/textBookInfo/getTextBookEditDesc.do">개정내역</a>
+								</li>
+							</ul>
+						</li>
+				<li>
+					<button type="button">알림마당</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/notifyYard/notice/getNoticePage.do">공지사항</a>
+								</li>
+							<li>
+									<a href="/notifyYard/faq/getFaqPage.do">자주하는 질문(FAQ)</a>
+								</li>
+							<li>
+									<a href="/notifyYard/personAdv/getPersonAdvPage.do">1:1상담</a>
+								</li>
+							<li>
+									<a href="/notifyYard/hire/getHirePage.do">채용정보마당</a>
+								</li>
+							<li>
+									<a href="/notifyYard/contactUs/getContactUsPage.do">Contact Us</a>
+								</li>
+							</ul>
+						</li>
+				<li>
+					<button type="button">MY자격정보</button>
+						
+						<ul class="pn-td">
+							<li>
+									<a href="/qualify/qualifyInquiry/getQualifyInfoPage.do">자격조회</a>
+								</li>
+							<li>
+									<a href="/qualify/memInfo/getMemInfoPage.do">정보수정</a>
+								</li>
+							<li>
+									<a href="/qualify/renameReq/getRenameReqPage.do">개명신청</a>
+								</li>
+							</ul>
+						</li>
+				</ul></nav>
+		<button type="button" class="pn-ic-ct-close" data-tta="panel"></button>
+	</div>
+</header>
+<div class="pop-type pop-menu " data-ttatg="allmenu">
+	<div class="pop-contain">
+		<div class="pop-cont">
+			<div class="pop-cont-in">
+                <div class="fx-1 menu-wrap">
+                	<div class="menu-grp">
+	                        <h3>시험안내</h3>
+	                        <ul>
+	                        	<li><a href="/examInfo/examYearly.do">시험일정</a></li>
+	                            <li><a href="/examInfo/examInfo.do">시험개요</a></li>
+	                            </ul>
+	                        </div>
+                    <div class="menu-grp">
+	                        <h3>원서접수</h3>
+	                        <ul>
+	                        	<li><a href="/examRcpt/LICExamRcptStpOne.do">원서접수</a></li>
+	                            <li><a href="/examRcpt/LICRcptCfrm.do">접수확인/취소</a></li>
+	                            <li><a href="/examRcpt/rfdReq/getRfdReqPage.do">환불신청</a></li>
+	                            </ul>
+	                        </div>
+                    <div class="menu-grp">
+	                        <h3>합격조회</h3>
+	                        <ul>
+	                        	<li><a href="/scsInquiry/scsCfrm/getScsCfrmPage.do">합격확인</a></li>
+	                            <li><a href="/scsInquiry/ablNoOrg/getAblNoOrgPage.do">합격증원본대조</a></li>
+	                            </ul>
+	                        </div>
+                    <div class="menu-grp">
+	                        <h3>교재안내</h3>
+	                        <ul>
+	                        	<li><a href="/textBookInfo/getExamTextBookList.do">시험교재</a></li>
+	                            <li><a href="/textBookInfo/getTextBookEditDesc.do">개정내역</a></li>
+	                            </ul>
+	                        </div>
+                    <div class="menu-grp">
+	                        <h3>알림마당</h3>
+	                        <ul>
+	                        	<li><a href="/notifyYard/notice/getNoticePage.do">공지사항</a></li>
+	                            <li><a href="/notifyYard/faq/getFaqPage.do">자주하는 질문(FAQ)</a></li>
+	                            <li><a href="/notifyYard/personAdv/getPersonAdvPage.do">1:1상담</a></li>
+	                            <li><a href="/notifyYard/hire/getHirePage.do">채용정보마당</a></li>
+	                            <li><a href="/notifyYard/contactUs/getContactUsPage.do">Contact Us</a></li>
+	                            </ul>
+	                        </div>
+                    <div class="menu-grp">
+	                        <h3>MY자격정보</h3>
+	                        <ul>
+	                        	<li><a href="/qualify/qualifyInquiry/getQualifyInfoPage.do">자격조회</a></li>
+	                            <li><a href="/qualify/memInfo/getMemInfoPage.do">정보수정</a></li>
+	                            <li><a href="/qualify/renameReq/getRenameReqPage.do">개명신청</a></li>
+	                            </ul>
+	                        </div>
+                    </div>
+			</div>
+		</div>
+		<button type="button" class="pop-close">닫기</button>
+	</div>
+</div>
+<div class="quick-menu" >
+	<button>
+		<div class="open">
+			<span>즐겨 찾는 편리한</span><em>MY MENU </em>
+			<i class="ic-quick"></i>
+		</div>
+		<div class="close">
+			<i class="ic-close"></i>
+			<p>close</p>
+		</div>
+	</button>
+	
+	<div class="Qmenu-cont" style="display: none;">
+		<h3>
+			즐겨 찾는<em>편리한 MY메뉴</em>
+		</h3>
+		<ul id="userMyMenuList"></ul>
+	</div>
+</div>
+
+<form id="headerFrm" name="headerFrm">
+	<input type="hidden" id="statementId" name="statementId" /> 
+</form>
+
+<script type="text/javascript">
+
+//*********************************
+//LOAD
+//*********************************
+var c_webSocket = null;
+var g_webSocket = null;
+$(document).ready(function() {
+	$(".Qmenu-cont").hide();
+	
+	// 상단공지팝업
+	topNoticeList();
+	//connectWsHe();
+});
+window.addEventListener("beforeunload",function (e){
+	/*
+	if (c_webSocket != null) {
+		c_webSocket.close();    
+	}
+	*/
+	if ( g_webSocket != null) {
+	    g_webSocket.close();    
+	}
+})
+
+$.fn.quick = function () {
+	var $obj = $(this);
+
+	$obj.find(".quick-menu button").on("click", function () {
+		var userId = "";
+		if(userId === "" || userId == null) {
+			userMyMenuDataSet(userId);
+		} else {
+			userMyMenuDataSet(userId);
+		}
+		
+		$(this).parents("div").toggleClass("active");
+		if(!$(".quick-menu").hasClass("active")) {
+			$(".Qmenu-cont").hide();
+		} else {
+			$(".Qmenu-cont").show();
+		}
+	});
+};
+
+//*********************************
+//	로그인
+//*********************************
+function fnLoginForm() {
+	var params = JSON.parse('{"examCd":"FWM006"}');
+	postGoto("/login/loginForm.do", params);
+}
+
+// 검색관련 
+function search() {
+	if($.trim($("#searchTxt").val()) == "") {
+		alert("검색어를 입력해주세요.");
+		$("#searchTxt").val("");
+		$("#searchTxt").focus();
+		return;
+	}                                                        
+	location.href = '/search/getSearchConts.do?searchTxt='+$("#searchTxt").val();
+}
+
+// 검색관련 enter키 처리
+function pressEnter() {
+    if(event.keyCode == "13") {	    
+    	search();
+    }
+}
+
+// TOP공지사항 상세페이지 이동
+function goBoardDetail(statementId) {
+	$("#headerFrm").find('#statementId').val(statementId);
+	$('#headerFrm').attr("action", "/notifyYard/notice/getNoticeDetail.do").submit();
+}
+
+// 정보수정페이지 이동
+function goMemInfo() {
+	location.href = "/qualify/memInfo/getMemInfoPage.do";
+}
+
+//*********************************
+//회원가입
+//*********************************
+function fnSignup () {
+	var param = {
+		loginType : "01"	
+	};
+	postGoto("/login/termagree01.do", param);
+}
+/*
+var connectWsHe = function() {
+var userId = "";
+	if(!StringUtil.isEmpty(userId)) {
+	    setTimeout(function(){
+		    c_webSocket = new WebSocket("wss://license.kofia.or.kr/websocket/connect/check/"+userId);
+			   
+		   
+		     c_webSocket.onopen = function(message) {
+		        //addLineToChatBox("Server is connected.");
+		    };
+		    
+		    
+		     c_webSocket.onmessage = function(message) {
+		        //addLineToChatBox(message.data);
+		        if(message.data.indexOf("count") > -1){
+		        	console.log(message.data.split(":")[1]+"/"+message.data.split(":")[2])
+		        	$(".h-util.pc.vbar-02 li:eq(0)").text("대기 :"+message.data.split(":")[1]+"/접속:"+message.data.split(":")[2])
+		        }
+		    };
+	    },2000)
+	}
+}
+*/
+</script><!-- //header -->
+
+	
+	<!-- wrap// -->
+	<!-- LNB 있는 경우 -->
+<div id="container">
+	<div class="inner">
+		<div class="lnb">
+			<h2 class="l-tit tit-01">시험안내</h2>
+			<ul class="l-nav">
+			</ul>
+		</div>
+		<div class="contents">
+			<div class="sub-top">
+				<h3 class="tit-03">시험개요</h3>
+				<ol class="page-loc">
+					<li><i class="ic-home"></i></li>
+					<li>1Depth</li>
+					<li>2Depth</li>
+				</ol>
+			</div>
+            <div class="brd-wrap">
+                <ul class="tab-menu02 mt30">
+                
+	                <!-- 투자권유대행인  -->
+    	            <!-- 투자권유자문인력  -->
+	                <!-- 전역변수 설정 -->
+                		<li class="licCheckCls" id="li_FCS005"><a href="javascript:selectLicenseSub('FCS005');">투자권유자문인력</a></li>
+	                			 <!-- 전역변수 설정 -->
+                		<!-- 전역변수 설정 -->
+                		<!-- 전역변수 설정 -->
+                		<li class="licCheckCls" id="li_SCS003" ><a href="javascript:selectLicenseSub('SCS003');">투자권유대행인</a></li>
+	                			 <!-- 전역변수 설정 -->
+                		<!-- 전역변수 설정 -->
+                		<li class="licCheckCls" id="li_FWM006" ><a href="javascript:selectLicenseSub('FWM006');">투자자산운용사</a></li>
+	                		<!-- 전역변수 설정 -->
+                		<li class="licCheckCls" id="li_FWR005" ><a href="javascript:selectLicenseSub('FWR005');">금융투자분석사</a></li>
+	                		<!-- 전역변수 설정 -->
+                		<li class="licCheckCls" id="li_FWD003" ><a href="javascript:selectLicenseSub('FWD003');">재무위험관리사</a></li>
+	                		</ul>
+               <ul class="tab-menu03 vbar-01 mt20" id="subExamMenu">
+                    <!-- <li class="active"><a href="#">펀드</a></li>
+                    <li><a href="#">증권</a></li>
+                    <li><a href="#">파생상품</a></li> -->
+                </ul>
+                <div class="brd-wrap">
+                    <div class="view-cont">
+                        <div class="text-cont">
+                            <h3 class="tit-02" id="licenseNm"></h3>
+                            <div id="licenseDesc"></div>
+                        </div>
+                        <div id="licenseCard">
+                            <ul class="brd-lst05" id="examRcpt1"></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="mt72">
+                        <h1 class="tit-02"><span class="-fmint">01</span> 시험과목 및 합격기준</h1>
+                        <table class="tbl-type02 mt20">
+                            <colgroup>
+                                <col style="width:28.47%;">
+                                <col>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">
+                                    	<!-- 시험기간 / 과목 -->
+                                        <div class="vbar-02" id="examPrd1"></div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- 시험과목 및 합격기준 정보 -->
+                            <tbody id="examSubjectInfo"></tbody>
+                        </table>
+                        <div class="bul-cir mt20">
+                         <!--  <p>적용범위/제외범위관련 문구노출 </p> -->
+                            <p id="examScsStd"></p>
+                        </div>
+                    </div>
+                    <div class="mt72">
+                        <h1 class="tit-02"><span class="-fmint">02</span> 응시대상</h1>
+                        <div class="tbl-wrap mt20">
+                            <table class="tbl-type02">
+                                <colgroup>
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>응시제한대상(응시부적격자)</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="appTarget1"></tbody>
+                               
+                            </table>
+                            <table class="tbl-type02" id="tbSubjectTarget1">
+                                <colgroup>
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>과목면제대상</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="lsnTarget1"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mt72">
+                        <h1 class="tit-02"><span class="-fmint">03</span> 시험일정</h1>
+                        <table class="brd-lst01 mt20">
+                            <colgroup>
+                                <col style='width:19%;'>
+                                <col style='width:10%;'>
+                                <col style='width:10%;'>
+                                <col style='width:10%;'>
+                                <col style='width:12%;'>
+                                <col >
+                                <col style='width:10%;'>
+                                <col style='width:12%;'>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>시험명</th>
+                                    <th>회차</th>
+                                    <th>실시공고</th>
+                                    <th>시험일자</th>
+                                    <th>응시지역</th>
+                                    <th>접수기간</th>
+                                    <th>접수상태</th>
+                                    <th>합격자<br>발표</th>
+                                </tr>
+                            </thead>
+                            <tbody id="examRcptAll1"></tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="mt72" id="dvExamRelTxb">
+                        <h1 class="tit-02"><span class="-fmint">04</span> 관련교재</h1>
+                        <ul class="brd-lst04 mt20" id="examRelTxb1"> </ul>
+                    </div>
+                    <div class="grybox mt20">
+                        <ul>
+                            <li><p class="txt-ic-impo">협회 사정에 따라 부득이한 경우 세부 내역은 변경될 수 있습니다.</p></li>
+                            <li><p class="txt-ic-impo">관련교재는 시험문제를 출제하는 표준교재로서 서점이나 출판사(박영사)에서 구입가능하며, 전자책(Ebook)은 3개월 단위로 전권 또는 chapter별로 대여 가능합니다.   </p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<form id="examInfoFrm" name="examInfoFrm" method="post" action="/textBookInfo/getExamTextBookDetail.do">
+	<input type="hidden" id="licenseCd" name="licenseCd">
+	<input type="hidden" id="textbookCd" name="textbookCd">
+</form>
+
+<form id="examTpyNtcRcptFrm" method="post">
+	<input type="hidden" id="selExaminationCd" name="selExaminationCd" value="" />
+</form>
+
+<script src="/resources/js/asjs/comutil.js"></script>
+<script>
+
+//*********************************
+//LOAD
+//*********************************
+
+// 전역변수
+var licenseCdFCS = 'FCS005';
+var licenseCdFCF = 'FCF008';
+var licenseCdFCD = 'FCD006';
+var licenseCdSCS = 'SCS003';
+var licenseCdSCF = 'SCF003';
+var licenseCdFWM = 'FWM006';
+var licenseCdFWR = 'FWR005';
+var licenseCdFWD = 'FWD003';
+	
+$(function() {
+	var selLicenseCd = '';
+	if(selLicenseCd != null && selLicenseCd != "") {
+		selectLicenseSub(selLicenseCd);
+	} else {
+		// 첫번쨰 종목 선택 
+		selectLicenseSub('FCS005');
+	}
+});
+
+// 교시, 과목 가져오기 
+var setPrdInfo = function(psLicenseCd, psExamPrd) {
+	
+	  var strRtnPrdHtml = "";
+	  var params = {
+		  licenseCd      : psLicenseCd,
+		  examinationPrd : psExamPrd
+      };	
+	  
+	  common.ajaxCallbackSubmit("/examInfo/ajax/examMstPrdInfo.do", params, function(data) {
+		  strRtnPrdHtml = "<b>시험시간 :" + data.examMstPrd.examinationTm + "분</b>";
+		  strRtnPrdHtml += "<b>총  " + data.examMstPrd.uLessonCnt + "과목 , " + data.examMstPrd.itemCnt + "문항</b>" ;
+		  $("#examPrd1").html(strRtnPrdHtml);
+	  });
+	  return strRtnPrdHtml;
+}
+
+// 시험 종목 내용 
+var selectLicense = function(psLicenseCd) {
+	var params = {
+			  licenseCd : psLicenseCd
+	    };	
+	//   
+    common.ajaxCallbackSubmit("/examInfo/ajax/examMstInfo.do", params, function(data) {
+	    	
+    	if(data.examMst.engLicensenm != undefined && data.examMst.engLicensenm != null) {
+    		$("#licenseNm").html(data.examMst.koreanLicensenm + "<br>(" + data.examMst.engLicensenm + ")");
+ 	  	} else {
+ 	  		$("#licenseNm").html(data.examMst.koreanLicensenm);
+ 	  	}
+    	
+    	$("#licenseDesc").html(""+data.examMst.licenseDesc+"");
+    	
+    	// 10. 합격기준
+    	var vsScsStdHtml = "합격기준: 응시과목별 정답비율이 " + data.examMst.rejectStd +"% 이상인 자 중에서, 응시 과목의 전체 정답 비율이 "+data.examMst.successStd 
+            +"%("+  data.examMst.successItmCnt  
+            +"문항) 이상인 자. 과락 기준은 상단의 과목정보 참조.";
+    	
+   		var totalcount     = 0;
+   		var roofCount      = 0;		
+   		var strPrePdrCd    = "";
+   		var strPreLsnNo    = "";
+   		var vLsnDetStr     = "";
+   		var vLsnFormStr    = "";  
+   		
+   		// 20. 접수/대기 시험 일정 
+   		var vsExamRcptHtml = "";
+   		
+   	    // 접수/대기 시험 일정 
+
+   	    if(data.examRcptList.length != 0) {
+   	    	$("#examRcpt1").show();
+	   	    $.each(data.examRcptList, function(i, examRcpt){
+	   	    	var vsEaminationTm    = examRcpt.examinationTm;
+	   	    	var vsExaminationDt   = examRcpt.examinationDt;
+	   	    	var title = "제" + examRcpt.timeCnt + "회 " + examRcpt.koreanExamNm;
+	   	    	
+	   	    	vsExamRcptHtml += "<li class='active'>";
+	   	    	vsExamRcptHtml += "	<div class='fx-gap-10'>";
+	   	    	
+	 	  		// 실시공고여부 
+	
+	 	  		
+	 	  	  	if(examRcpt.examinationSttLic >= "110" && examRcpt.examinationPblYn =="Y") {
+	 		  	  	if (examRcpt.uReceipSttNm !="END") {
+	  		  	 		vsExamRcptHtml += "<span class='bage-02-blu'><a href='javascript:goExamAncmtPop(\""+ examRcpt.examinationCd +"\");'>공고</a></span>";
+	 		  	  	} else {
+	 		  	  		vsExamRcptHtml += "<span class='bage-02-gry03'><a href='javascript:goExamAncmtPop(\""+ examRcpt.examinationCd +"\");'>공고</a></span>";
+	 		  	  	}
+	 	  	  	} else {
+	 	  	  		vsExamRcptHtml += "<span class='bage-02-lgry'>대기중</span>";
+	 	  	  	}	  		
+	 	  		
+	   	    	vsExamRcptHtml += "		 <h3 class='brd-tit elps-02'>"+title+"</h3>";
+	   	    	vsExamRcptHtml += "	</div>";
+	   	    	
+	   	    	vsExamRcptHtml += "<div class='fx-row fx-gap-10'>";   
+	   	    	vsExamRcptHtml += "	<div class='fx-gap-10 fx-aifs'>";
+	   	    	vsExamRcptHtml += "		<i class='ic-cal'></i>";   
+	   	    	vsExamRcptHtml += " 	<div class='brd-info'>";   
+	   	    	vsExamRcptHtml += " 		<div class='fx-gap-20 fx-aic'>";   
+	   	    	vsExamRcptHtml += "				<small>시험</small>"+ ymdFormat3(examRcpt.examinationDt, ".") + "(" + getDayOfWeek(examRcpt.examinationDt) + ")";   
+	   	    	vsExamRcptHtml += "			</div>";
+	   	    	
+	   	    	vsExamRcptHtml += "			<div class='fx-gap-20 fx-aic'>";
+	   	    	vsExamRcptHtml += "				<small>합격자발표</small>"+ymdFormat3(examRcpt.successAnnDt, ".") + "(" + getDayOfWeek(examRcpt.successAnnDt) +")";
+	   	    	vsExamRcptHtml += "			</div>";
+	   	    	vsExamRcptHtml += "			<div class='fx-gap-20 fx-aic'>";
+	   	    	vsExamRcptHtml += "			 	<small>접수</small>"+ ymdFormat2(examRcpt.receiptSrtDtTm, ".") + " ~ " + ymdFormat2(examRcpt.receiptEndDtTm, ".");
+	   	    	vsExamRcptHtml += "			</div>";
+	   	    	vsExamRcptHtml += "		</div>";
+	   	    	vsExamRcptHtml += "</div>";
+	   	    	
+	   	    	vsExamRcptHtml += "<div class='fx-gap-10'>";
+	   	    	vsExamRcptHtml += "	<i class='ic-loc'></i>";
+	   	    	vsExamRcptHtml += "	<div class='fx-c fx-gap-10'>";
+	   	    	vsExamRcptHtml += " 	<span>"+examRcpt.codeShtNm+"포함"+examRcpt.itemCnt+"</span>";
+	   	   	    vsExamRcptHtml += " 	<div class='ttip-ui-'>";
+	   	   	    vsExamRcptHtml += "			<button type='button' class='btncus-ic-ct-plus ttip-ic-ct-btn'></button>";
+	   	    	vsExamRcptHtml += "      	<div class='ttip-cont'>";
+	   	    	vsExamRcptHtml += 				examRcpt.uExaminationRgnNm;
+	   	   	    vsExamRcptHtml += "				<button type='button' class='ttip-ic-ct-close'>닫기</button>";
+	   	   	    vsExamRcptHtml += "			</div>";
+	  	    	vsExamRcptHtml += "		</div>";
+	   	    	vsExamRcptHtml += "	</div>";
+	   	    	vsExamRcptHtml += "</div>";
+	   	    	vsExamRcptHtml += "</div>";
+	   	    	
+	   	    	if(examRcpt.uReceipSttNm == "RCPT") {
+	   	    		vsExamRcptHtml += "<a href='javascript:examRcptGo(\"" + examRcpt.examinationCd + "\");' class='btn-b- btn-sz01'>접수 바로가기</a>";	
+	   	    	} else if (examRcpt.uReceipSttNm == "ADD") {
+	   	    		vsExamRcptHtml += "<a href='javascript:examRcptGo(\"" + examRcpt.examinationCd + "\");' class='btn-b- btn-sz01'>추가접수 바로가기</a>";
+	   	    	}else if(examRcpt.uReceipSttNm == "DDAY"){
+	   	    		vsExamRcptHtml +="<span class=\"btn-b-blgry btn-sz01\">접수까지 <em>D-"+ examRcpt.udDay +"</em>일 남았습니다.</span>"
+		 	    }else if(examRcpt.uReceipSttNm == "END"){
+		 	    	vsExamRcptHtml +="<span disabled=\"\" class=\"btn-b- btn-sz01\">접수마감</span>"
+		 	   	}else if(examRcpt.uReceipSttNm == "CANCEL"){
+		 	   	vsExamRcptHtml +="<span disabled=\"\" class=\"btn-b- btn-sz01\">취소</span>"
+			   	}
+	   	    	
+	   	    	vsExamRcptHtml += "</li>";
+	   	    });
+
+	  	  	// 접수/대기 시험 일정 
+	  	  	$("#examRcpt1").html(vsExamRcptHtml);
+			/* $("[class*='ttip-ui-']").each(function () {
+				$(this).tooltipUI(); // 툴팁
+			});  */  	  
+	} else {
+		$("#examRcpt1").hide();
+	} 	    
+  		var strExaminationPrd = "";
+   		var strExamPrd1Html = "";
+   		
+    	// 30. 교시, 과목  
+    	var f = 0;
+    	var examSubjectInfoHtml = "";
+    	    
+   	    // 시험과목 
+   	    $.each(data.examDetailList, function(i, examDetail) {
+   	    	var vsLessonNo    = examDetail.lessonNo;
+   	    	var vsDetailLsnno = examDetail.detailLsnno;
+   	    	
+   	    	if(StringUtil.isEmpty(strExaminationPrd)){
+   	    		strExaminationPrd = examDetail.examinationPrd;
+   	    		// 교시 정보 서버 
+   	    		setPrdInfo(psLicenseCd, strExaminationPrd);
+   	     	}
+   	    	
+   	    	$("#examSubjectInfo").html("");
+   	    	
+   	    	// 과목
+   	    	if(vsDetailLsnno == "000") {
+   	    		if(examDetail.ulessoncnt > 0) {
+   	    			f = 1;	
+   	    		} 
+   	    		examSubjectInfoHtml += "<tr>"; 
+   	    		examSubjectInfoHtml += "<th><strong>"+ vsLessonNo.substr(1,1) + "과목</strong></th>";
+   	    		examSubjectInfoHtml += "<td>";
+   	    		examSubjectInfoHtml += "	<div class='fx-jcsb m-fx-row'>";
+   	    		examSubjectInfoHtml += "	<strong>" + examDetail.koreanDetlsnnm + "</strong>";
+   	    		examSubjectInfoHtml += "	<div class='vbar-02'>";
+   	    		examSubjectInfoHtml += "		<p><small>총 문항 수</small> " + examDetail.itemCnt + "</p>";
+   	    		examSubjectInfoHtml += "		<p><small>과락</small> " + examDetail.rejectItmcnt + "</p>";
+   	    		examSubjectInfoHtml += "	</div>";
+   	    		examSubjectInfoHtml += "</td>";
+   	    		examSubjectInfoHtml += "</tr>"; 
+   	    	}else{
+   	    		examSubjectInfoHtml += "<tr>"; 
+   	    		if(f == 1) {
+   	    			examSubjectInfoHtml += "<th rowspan='"+examDetail.ulessoncnt+"'>세부과목</th>";
+   	    			f= 0;	
+   	    		} 
+   	    		
+   	    		examSubjectInfoHtml += "<td>";
+   	    		examSubjectInfoHtml += "	<div class='fx-jcsb m-fx-row'>";
+   	    		examSubjectInfoHtml += "	<p>" + examDetail.koreanDetlsnnm + "</p>";
+   	    		examSubjectInfoHtml += "	<div class='vbar-02'>";
+   	    		examSubjectInfoHtml += "		<p><small>문항 수</small> " + examDetail.itemCnt + "</p>";
+   	    		examSubjectInfoHtml += "	</div>";
+   	    		examSubjectInfoHtml += "</td>";
+   	    		examSubjectInfoHtml += "</tr>"; 
+   	    	}	
+   	    });
+   	    $("#examSubjectInfo").html(examSubjectInfoHtml);
+   	  
+  		// 50. 시험 일정(전체일정) 
+ 		var vsExamRcptAllHtml = "";
+  		
+ 	    // 시험전체 일정 
+ 	    var f = 0;
+ 	    $.each(data.examRcptAllList, function(i, examRcptAll){
+ 	    	var vsEaminationTm    = examRcptAll.examinationTm;
+ 	    	var vsExaminationDt   = examRcptAll.examinationDt;
+ 	   		var vsUReceipSttNm    = examRcptAll.uReceipSttNm;
+ 	   		var vsSttNm = "";
+ 	
+ 	   		vsExamRcptAllHtml += "<tr>";
+ 	   		
+ 	   		if(f == 0) {
+ 	 	   		vsExamRcptAllHtml += "	 <td rowspan='" + examRcptAll.itemCnt + "'>";
+ 	 	   		vsExamRcptAllHtml += "		<p class='brd-tit'>" + examRcptAll.koreanExamNm + "</p>";
+ 	 	   		vsExamRcptAllHtml += "	 </td>";
+ 	 	   		f = 1;
+ 	   		}
+ 	   		vsExamRcptAllHtml += "	 <td>";
+ 	   		vsExamRcptAllHtml += "		<small class='brd-lst-th'>회차</small>";
+ 	   		vsExamRcptAllHtml += 		examRcptAll.timeCnt;
+ 	   		vsExamRcptAllHtml += "	 </td>";
+ 	   		vsExamRcptAllHtml += "	 <td>";
+ 	  		vsExamRcptAllHtml += "	 	<small class='brd-lst-th'>실시공고</small>";
+ 	  		
+ 	  		// 실시공고여부 
+ /*  	  		if(examRcptAll.examinationSttLic >= "110" && examRcptAll.examinationPblYn =="Y") {
+ 	  			vsExamRcptAllHtml += "<span class='bage-02-blu'><a href='javascript:goExamAncmtPop(\""+ examRcptAll.examinationCd +"\");'>공고</a></span>";
+ 	  			
+ 	  		} else {
+ 	  			vsExamRcptAllHtml += "<span class='bage-02-gry03'>공고</span>";
+ 	  		}  */
+ 	 		
+  	  	if(examRcptAll.examinationSttLic >= "110" && examRcptAll.examinationPblYn =="Y") {
+	  	  	if (vsUReceipSttNm !="END") {
+	  	  	vsExamRcptAllHtml += "<span class='bage-02-blu'><a href='javascript:goExamAncmtPop(\""+ examRcptAll.examinationCd +"\");'>공고</a></span>";
+	  	  	} else {
+	  	  	vsExamRcptAllHtml += "<span class='bage-02-gry03'><a href='javascript:goExamAncmtPop(\""+ examRcptAll.examinationCd +"\");'>공고</a></span>";
+	  	  	}
+  	  	} else {
+  	  		vsExamRcptAllHtml += "<span class='bage-02-lgry'>대기중</span>";
+  	  	}
+
+ 	  		
+ 			vsExamRcptAllHtml += " 	 </td>";
+ 			vsExamRcptAllHtml += "	 <td>";
+ 			vsExamRcptAllHtml += "		<small class='brd-lst-th'>시험일자</small>";
+ 			vsExamRcptAllHtml += 		ymdFormat3(examRcptAll.examinationDt, ".") + "(" + getDayOfWeek(examRcptAll.examinationDt) + ")";
+ 			vsExamRcptAllHtml += "	 </td>";
+ 			vsExamRcptAllHtml += "	 <td>";
+ 			vsExamRcptAllHtml += "	 <small class='brd-lst-th'>응시지역</small>";
+ 			vsExamRcptAllHtml += "	 <div class='fx-c fx-gap-10'>";
+ 			
+ 			vsExamRcptAllHtml += "	 	<span>"+ examRcptAll.codeShtNm  +"포함" + examRcptAll.itemCnt + "</span>";
+ 			vsExamRcptAllHtml += "	 	<div class='ttip-ui-'>";
+ 			vsExamRcptAllHtml += "	 		<button type='button' class='btncus-ic-ct-plus ttip-ic-ct-btn'></button>";
+ 			vsExamRcptAllHtml += "	 		<div class='ttip-cont'>";
+ 			vsExamRcptAllHtml += 				examRcptAll.uExaminationRgnNm;
+ 			vsExamRcptAllHtml += "	 			<button type='button' class='ttip-ic-ct-close'>닫기</button>";
+ 			vsExamRcptAllHtml += "	 		</div>";
+ 			vsExamRcptAllHtml += "	  	</div>";
+ 			vsExamRcptAllHtml += "	 </div>";
+ 			vsExamRcptAllHtml += "	 </div>";
+ 			vsExamRcptAllHtml += "</td>";
+ 			
+ 			vsExamRcptAllHtml += "</td>";
+ 			vsExamRcptAllHtml += "<td>";
+ 			vsExamRcptAllHtml += "	<small class='brd-lst-th'>접수기간</small>";
+ 			vsExamRcptAllHtml += ymdFormat2(examRcptAll.receiptSrtDtTm, ".") + " ~ " + ymdFormat2(examRcptAll.receiptEndDtTm, ".");
+ 			vsExamRcptAllHtml += "</td>";
+ 	   		
+ 			vsExamRcptAllHtml += "<td>";
+ 			vsExamRcptAllHtml += "	<small class='brd-lst-th'>접수상태</small>";
+ 			
+ 	    	if(vsUReceipSttNm=="RCPT") {
+ 	    		vsExamRcptAllHtml += "	 <a href='javascript:examRcptGo(\"" + examRcptAll.examinationCd + "\");' class='btn-b- btn-sz03'>접수</a>";
+ 	    	}else if(vsUReceipSttNm=="ADD") {
+ 	    		vsExamRcptAllHtml += "	 <a href='javascript:examRcptGo(\"" + examRcptAll.examinationCd + "\");' class='btn-b- btn-sz03'>추가접수</a>";
+ 	    	}else if(vsUReceipSttNm=="DDAY") {
+ 	    		vsExamRcptAllHtml += "	<small>D-" + examRcptAll.udDay+ "</small>";
+ 	    	}else if(vsUReceipSttNm=="END") {
+ 	    		vsExamRcptAllHtml += "	<small>마감</small>";
+ 	   		}else if(vsUReceipSttNm=="CANCEL") {
+ 	   			vsExamRcptAllHtml += "	<small>취소</small>";
+	    	}
+ 	    	
+ 			vsExamRcptAllHtml += "</td>";
+ 			vsExamRcptAllHtml += "<td>";
+ 			vsExamRcptAllHtml += "	<small class='brd-lst-th'>합격자발표</small>";
+ 			vsExamRcptAllHtml += "	<small>" + ymdFormat3(examRcptAll.successAnnDt, ".") + "(" + getDayOfWeek(examRcptAll.successAnnDt) + ")</small>";
+ 			vsExamRcptAllHtml += "</td>";
+ 	   		
+ 	   		vsExamRcptAllHtml += "</tr>";
+ 	    });
+ 	    
+		if(data.examRcptAllList.length == 0) {
+			vsExamRcptAllHtml = "<tr><td colspan='8'>시험일정이 없습니다</td></tr>";
+	 	}
+ 	    
+ 		// 전체 시험 일정 
+ 		$("#examRcptAll1").html(vsExamRcptAllHtml);
+		$("[class*='ttip-ui-']").each(function () {
+			$(this).tooltipUI(); // 툴팁
+		});
+ 	    	
+ 		// 60. 관련 교재
+ 		var vsExamRelTxbHtml = "";
+ 	    // 관련 교재
+ 	    $.each(data.examRelateTxbList, function(i, examRelTxb){
+ 	    	var vsTextbookTtl    = examRelTxb.textbookTtl;
+ 	    	var vsTextbookCd	 = examRelTxb.textbookCd;
+ 	    	var pagCnt 			 = examRelTxb.pageCnt;
+ 	    	var vsTextbookWrtr 	 = examRelTxb.textbookWrtr;
+ 	    	var textbookPortSaveFileNm = examRelTxb.textbookPortSaveFileNm;
+ 	    	
+ 			var url = "/file/downloadImage.do?fileRepoId=txtB.img&saveFileName="+textbookPortSaveFileNm;
+ 	    	vsExamRelTxbHtml += "<li>";
+ 	    	vsExamRelTxbHtml += "	<div class='thumb-01'>";
+ 	    	vsExamRelTxbHtml += "		<img src=" + url + " />";
+ 	    	vsExamRelTxbHtml += "	</div>";
+ 	    	vsExamRelTxbHtml += "	<div class='brd-cont'>";
+ 	    	vsExamRelTxbHtml += "		<h3 class='brd-tit'>" + vsTextbookTtl + "</h3>";
+ 	    	vsExamRelTxbHtml += "		<div class='brd-info'>";
+ 	    	vsExamRelTxbHtml += "			<div class='fx-gap-20'>";
+ 	    	vsExamRelTxbHtml += "				<small>저자</small>"+vsTextbookWrtr+"";
+ 	    	vsExamRelTxbHtml += "			</div>";
+ 	    	vsExamRelTxbHtml += "			<div class='fx-gap-20'>";
+ 	    	vsExamRelTxbHtml += "				<small>페이지 수</small>" + pagCnt + " page";
+ 	    	vsExamRelTxbHtml += "			</div>";
+ 	   		vsExamRelTxbHtml += "		</div>";
+ 	   		vsExamRelTxbHtml += "		<div class='fx-gap-10'>";
+ 	   		vsExamRelTxbHtml += "			<a href='javascript:goTxtBDet(\""+vsTextbookCd+"\",\""+psLicenseCd+"\");' class='btn-b-blgry btn-sz01'>교재안내</a>";
+ 	   	
+ 	   		if(examRelTxb.linkYn == 'Y') {
+ 	   			vsExamRelTxbHtml += "	 		<a href='javascript:fnGoEbookLink(\""+ examRelTxb.linkUrl +"\")' class='btncus-ic-lnk02 btn-b-blgry btn-sz01'>e-Book<i class='ic-lnk'></i></a>";
+ 	   		}
+ 	   		
+ 	  		vsExamRelTxbHtml += "		</div>";
+ 	  		vsExamRelTxbHtml += "	</div>";
+ 	    	vsExamRelTxbHtml += "</li>";
+	    });
+   	    	
+	  // 합격기준
+	  $("#examScsStd").html(vsScsStdHtml);
+	  
+	  // 관련교재
+	  if(data.examRelateTxbList.length > 0) {
+		  $("#examRelTxb1").html(vsExamRelTxbHtml);
+		  $("#dvExamRelTxb").show();
+	  } else {
+		  $("#dvExamRelTxb").hide();
+	  }
+	 
+    });
+
+    // 응시대상 셋팅
+    setAppTarget(psLicenseCd);
+    // 과목면제 셋팅
+    setLsnTarget(psLicenseCd);
+}
+
+//응시대상 셋팅
+function setAppTarget(vLicenseCd){
+	var strAppTarget = "";
+	strAppTarget += "<tr>";
+	strAppTarget += "	<td>";
+
+	if( vLicenseCd.startsWith("SCF") ){			// 펀드투자권유대행인
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>";  
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함. <br/> 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음";
+	} else if( vLicenseCd.startsWith("FCF") ){	// 펀드투자권유자문인력
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>"; 
+		strAppTarget += "4) 투자권유자문인력 적격성 인증 시험의 경우 『금융투자전문인력과자격시험에관한규정』 제5-2조에 따라 투자자 보호 교육의 수강 대상이 아니거나, 해당 교육을 수료하지 못한 자<br/>";
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함. 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음<br/>";
+		strAppTarget += "※ 상기 시험은 시험 접수 시 해당 시험 관련 투자자 보호 교육 이수 여부를 확인하며, 이에 부적합할 시 시험접수가 제한됨<br/>";
+	}else if( vLicenseCd.startsWith("SCS") ){		// 증권투자권유대행인
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>";  
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함. <br/>또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음";
+	}else if( vLicenseCd.startsWith("FCS") ){		// 증권투자권유자문인력
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>"; 
+		strAppTarget += "4) 투자권유자문인력 적격성 인증 시험의 경우 『금융투자전문인력과자격시험에관한규정』 제5-2조에 따라 투자자 보호 교육의 수강 대상이 아니거나, 해당 교육을 수료하지 못한 자<br/>";
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함.<br/> 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음<br/>";
+		strAppTarget += "※ 상기 시험은 시험 접수 시 해당 시험 관련 투자자 보호 교육 이수 여부를 확인하며, 이에 부적합할 시 시험접수가 제한됨<br/>";
+	}else if( vLicenseCd.startsWith("FCD") ){		// 파생상품투자권유자문인력
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>"; 
+		strAppTarget += "4) 투자권유자문인력 적격성 인증 시험의 경우 『금융투자전문인력과자격시험에관한규정』 제5-2조에 따라 투자자 보호 교육의 수강 대상이 아니거나, 해당 교육을 수료하지 못한 자<br/>";
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함. 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음<br/>";
+			strAppTarget += "※ 상기 시험은 시험 접수 시 해당 시험 관련 투자자 보호 교육 이수 여부를 확인하며, 이에 부적합할 시 시험접수가 제한됨<br/>";
+	}else if( vLicenseCd.startsWith("FWM") ){		// 투자자산운용사
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>";  
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함. <br/>또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음";
+	}else if( vLicenseCd.startsWith("FWR") ){		// 금융투자분석사
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>";  
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함.<br/> 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음<br/>";
+	}else if( vLicenseCd.startsWith("FWD") ){		// 재무위험관리사
+		strAppTarget += "1) 시험에 합격한 후 동일 시험에 재응시하려는 자<br/>";
+		strAppTarget += "2) 『금융투자전문인력과자격시험에관한규정』 제3-13조 및 제3-15조의 자격제재에 따라 응시가 제한된 자<br/>";  
+		strAppTarget += "3) 『금융투자전문인력과자격시험에관한규정』 제4-21조제3항 및 제4항에 따라 부정행위 등으로 시험응시가 제한된 자<br/>";  
+		strAppTarget += "※ 상기 응시 부적격자는 응시할 수 없으며, 합격하더라도 추후 응시 부적격자로 판명되는 경우 합격 무효 처리함.<br/> 또한 5년의 범위 내에서 본회 주관 시험응시를 제한할 수 있음<br/>";
+	}
+	
+	strAppTarget += "</td>";
+	strAppTarget += "</tr>";
+	$('#appTarget1').html(strAppTarget);
+}
+
+//과목면제대상 셋팅
+function setLsnTarget(vLicenseCd){
+	var strLsnTarget = "";
+	
+	// 증권투자권유대행인, 증권투자권유자문인력, 파생상품투자권유자문인력
+	if(vLicenseCd.startsWith("SCS") ||  vLicenseCd.startsWith("FCS") || vLicenseCd.startsWith("FCD")) {
+		strLsnTarget += "<tr>";
+		strLsnTarget += "	<td>";
+	}
+
+   if(  vLicenseCd.startsWith("FWM") ) {				// 투자자산운용사
+		strLsnTarget += "1) 종전의 일임투자자산운용사(금융자산관리사)의 자격요건을 갖춘 자는 제1, 3과목 면제<br>";
+		strLsnTarget += "2) 종전의 집합투자자산운용사의 자격요건을 갖춘 자는 제2, 3과목 면제<br>";  
+		strLsnTarget += "3) 상기 시험과목 및 문항수는 2013년도부터 시행되는 시험에 적용<br>";  
+	}else if( vLicenseCd.startsWith("FWR") ) {			// 금융투자분석사
+		strLsnTarget += "1) 2009년 2월 4일 이후 시행된 증권투자상담사 시험 및 증권투자권유자문인력 적격성 인증시험 합격자에 대해서는 증권법규 및 직무윤리과목(제4과목)을 면제<br>";
+	}else if( vLicenseCd.startsWith("FWD") ) {			// 재무위험관리사
+		strLsnTarget += "1) 파생상품투자권유자문인력(구 파생상품투자상담사) 시험 합격자에 대해서는 금융선물 및 옵션과목(제2과목) 면제<br>";
+	}else if( vLicenseCd.startsWith("FCF") ){			// 펀드투자권유자문인력
+		strLsnTarget += "1) 종전의 증권펀드투자상담사(간접투자증권판매인력)의 자격요건을 갖춘 자는 펀드일반 과목(제1과목) 면제<br>";
+		strLsnTarget += "2) 종전의 파생상품펀드투자상담사의 자격요건을 갖춘 자는 파생상품펀드 과목(제 1, 2과목) 면제<br>";  
+		strLsnTarget += "3) 종전의 부동산펀드투자상담사의 자격요건을 갖춘 자는 부동산펀드 과목(제 1, 3과목) 면제<br>";  
+		strLsnTarget += ". �

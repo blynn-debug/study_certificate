@@ -1,0 +1,2447 @@
+CBOE Proprietary Information 
+Copyright (c) 2010, Chicago Board Options Exchange, Incorporated. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+THE CBOE SKEW INDEX®SM - SKEW®SM 
+ 
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+2
+ 
+THE CBOE SKEW INDEX®SM - SKEW®SM 
+Introduction  
+ 
+Since it emerged from a smile in the wake of the crash of October 1987, the curve of 
+S&P 500® implied volatilities, a.k.a. the smile or “skew”, has been one the most-
+studied features of S&P 500 option prices. As illustrated in Chart 1, the smile has lost 
+its symmetry and it is biased towards the put side.   
+ 
+Chart 1. The S&P 500 Implied Volatility Curve Pre-and Post- 1987 
+ 
+Implied Volatility
+Out-of-the-Money Call Strikes
+Smile Pre -October1987
+Skew Post-October 1987
+At-the-Money
+Strike
+
+
+Out-of-the-Money Put Strikes
+ 
+                         Source: CBOE 
+ 
+To get at the core of the skew, the Chicago Board Exchange® (CBOE®) is introducing a 
+new benchmark, the CBOE Skew Index® (SKEW). SKEW is a global, strike-
+independent measure of the slope of the implied volatility curve that increases as this 
+curve tends to steepen. This is illustrated in Figure 2 with snapshots of the S&P 500 
+implied volatility curve, SKEW and the CBOE Volatility Index® (VIX®) from March 2009 
+to June 2009. There is no significant change in SKEW or the overall slope of the 
+implied volatility curve between March and May 2009.  By mid-June, SKEW is 
+significantly higher, and the implied volatility curve is noticeably steeper. Chart 2 also 
+illustrates the low correlation between variations in SKEW and VIX.  SKEW is 
+calculated from S&P 500 option prices using a method similar to that used for VIX.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+3
+Chart 2. Snapshots of Curve of S&P 500 Implied Volatilities, May to June 2009 
+ 
+S&P 500 Implied Volatility Skew
+0.23
+0.33
+0.43
+0.53
+0.63
+0.73
+0.83
+58%
+60%
+62%
+64%
+66%
+68%
+70%
+72%
+74%
+76%
+78%
+80%
+82%
+84%
+86%
+88%
+90%
+92%
+94%
+96%
+98%
+100%
+98%
+96%
+94%
+92%
+90%
+88%
+86%
+84%
+82%
+80%
+78%
+76%
+Option Moneyness
+Implied Volatility
+3/9/2009, SKEW = 112.95, VIX = 49.68
+4/09/09, SKEW =  108.21 VIX = 38.35
+5/07/09, SKEW  = 112.71, VIX = 33.44
+6/16/09, SKEW = 125.11, VIX = 32.68
+ 
+9-Mar-09
+9-Apr-09
+7-May-09
+16-Jun-09
+(90% IV -110% IV) / 100% IV
+0.27
+0.25
+0.30
+0.48
+SKEW
+112.95
+108.21
+112.71
+125.11
+VIX
+49.68
+38.35
+33.44
+32.68
+Scaled Differences of Implied Volatilities (IV), SKEW and VIX
+ 
+Source: CBOE 
+ 
+To understand SKEW, it helps to recall why the curve of S&P 500 implied volatilities no 
+longer smiles. The change reflects the fact that investors now prize low strike puts 
+more than they do high strike calls. Why? Because the October 1987 crash has 
+sensitized the market to the possibility of large downwards jumps in the S&P 500. The 
+distribution of S&P 500 log-returns (“S&P 500 distribution”) is unlikely to be normal if 
+there are large jumps in returns.  Jumps fatten the weights of the tails and 
+asymmetric jumps skew the distribution. The standard deviation of returns is then 
+insufficient to characterize risk and the probability of returns two or three standard 
+deviations below the mean is not negligible, as it is under a normal distribution.  
+ 
+Chart 3 confirms that the S&P 500 distribution is far from normal.  It carries “tail risk”: 
+(a) the frequency of outlier returns is greater than for a normal distribution and (b) 
+the distribution has a negative skew. This means that VIX, a proxy for the standard 
+deviation of the S&P 500 distribution, may not fully capture the perceived risk of a 
+cash or derivative investment in the S&P 500 or in correlated assets. In light of this, 
+CBOE has developed a complementary indicator that measures perceived tail risk. 
+That indicator is SKEW.  
+ 
+ 
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+4
+Chart 3.  Frequency Distribution of S&P 500 Log-Return 
+ 
+. 
+ 
+S&P 500 Monthly-Log Return, 1990 - 2009 & Normal Return, 
+Same  Mean and Std.Deviation as S&P 500
+0%
+2%
+4%
+6%
+8%
+10%
+12%
+14%
+-37%
+-34%
+-31%
+-28%
+-25%
+-22%
+-19%
+-16%
+-13%
+-10%
+-7%
+-4%
+-1%
+2%
+5%
+8%
+11%
+14%
+17%
+20%
+One-Month Return
+Frequency 
+S&P 500 One-Month Log-Return
+Normal One-Month Return
+ 
+   Source: CBOE 
+ 
+ 
+Similar to VIX, SKEW is calculated from the price of a tradable portfolio of out-of-the-
+money S&P 500 (SPXSM) options. This portfolio constitutes an exposure to the 
+skewness of S&P 500 returns and its price encapsulates how the market prices tail 
+risk. A detailed description of the SKEW methodology and the derivation of the SKEW 
+portfolio are in Appendix I.  A numerical example of the calculation of SKEW is in 
+Appendix II.  
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+5
+ 
+1. Definition of SKEW  
+ 
+SKEW is derived from the price of S&P 500 skewness, denoted by S. S is defined 
+similarly to a coefficient of statistical skewness: 
+]
+)
+[(
+3
+σ
+µ
+−
+=
+R
+E
+S
+ 
+ 
+R is the 30-day log-return of the S&P 500, µ is its mean, and σ is its standard 
+deviation;     x =
+3)
+(
+σ
+µ
+−
+R
+ represents a skewness payoff, and S = E[x] is its market 
+price, a risk adjusted expectation of x.    
+ 
+S is calculated from a portfolio of S&P 500 options that mimics an exposure to a 
+skewness payoff.  Since S tends to be negative and to vary within a narrow range (-
+4.69 to - .10 between 1990 and 2010), it is inconvenient to use it as an index. S is 
+therefore transformed to SKEW by the following linear function: 
+ 
+SKEW = 100 – 10 * S 
+ 
+With this definition, SKEW increases as S becomes more negative and tail risk 
+increases.  
+ 
+Chart 4. SKEW 1990 – 2010 
+ 
+01/31/08
+06/23/97
+03/22/91
+03/16/06
+10/16/98
+06/21/90
+100
+105
+110
+115
+120
+125
+130
+135
+140
+145
+150
+1/2/1990
+1/2/1991
+1/2/1992
+1/2/1993
+1/2/1994
+1/2/1995
+1/2/1996
+1/2/1997
+1/2/1998
+1/2/1999
+1/2/2000
+1/2/2001
+1/2/2002
+1/2/2003
+1/2/2004
+1/2/2005
+1/2/2006
+1/2/2007
+1/2/2008
+1/2/2009
+1/2/2010
+SKEW
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+VIX
+SKEW
+VIX
+ 
+Source: CBOE 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+6
+ 
+2. Behavior of SKEW  
+ 
+a. Level of SKEW 
+ 
+Chart 4 follows the history of SKEW and VIX from 1990 to 2010. The minimum value 
+of SKEW over this period is 101 and its maximum is 147. Table 1, a table of the 
+historical frequencies of SKEW values provides further information about the range of 
+SKEW. In this table, the frequency associated with a value of SKEW is the percentage 
+of times that SKEW lied in the range between that value and the value above. For 
+example, 17.55% of the time, SKEW ranged between 115 and 117.5.  
+ 
+Table 1. Historical Frequencies of SKEW 
+ 
+SKEW
+Frequency 
+1990 - 2010
+SKEW
+Frequency
+1990 - 2010
+100.00
+0.00%
+127.50
+3.07%
+102.50
+0.10%
+130.00
+1.55%
+105.00
+0.42%
+132.50
+0.79%
+107.50
+1.59%
+135.00
+0.40%
+110.00
+7.21%
+137.50
+0.30%
+112.50
+15.38%
+140.00
+0.10%
+115.00
+20.47%
+142.50
+0.02%
+117.50
+17.55%
+145.00
+0.04%
+120.00
+14.96%
+147.50
+0.02%
+122.50
+10.14%
+150.00
+0.00%
+125.00
+5.90%
+ 
+                                Source: CBOE 
+ 
+b. Annual Range of SKEW 
+ 
+Chart 5 shows the annual highs and lows of SKEW and VIX from 1990 to 2010.  
+ 
+Chart 5. Annual Highs and Lows of SKEW and VIX 
+ 
+SKEW Year by Year, 1990 - 2010
+3/16/2006
+6/21/1990
+10/16/1998
+100
+105
+110
+115
+120
+125
+130
+135
+140
+145
+150
+1990
+1992
+1994
+1996
+1998
+2000
+2002
+2004
+2006
+2008
+2010
+Max
+Min
+Average
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+7
+VIX Year by Year, 1990 - 2010
+5
+15
+25
+35
+45
+55
+65
+75
+85
+1990
+1992
+1994
+1996
+1998
+2000
+2002
+2004
+2006
+2008
+2010
+Max
+Min
+Average
+ 
+Source: CBOE 
+ 
+c. Interpretation of SKEW 
+ 
+To get a sense of what high or very high tail risk means, one can translate the value 
+of SKEW to a risk-adjusted probability that the one-month S&P 500 log-return falls 
+two or three standard deviations below the mean, and use VIX as an indicator of the 
+magnitude of the standard deviation. When SKEW is equal to 100, the distribution of 
+S&P 500 log-returns is normal, and the probability of returns two standard devations 
+below or above the mean is 4.6% (2.3% on each side); the probability decreases to 
+.3% (.15% on each side) for three standard deviations. For a non-normal distribution, 
+comparable probabilities are approximated1 by adding a skewness term to the normal 
+distribution. The resulting probabilities are shown in Table 2. The probability of a 
+return two standard deviations below the mean gradually increases from 2.3% to 
+14.45% as SKEW increases from 100 to 145. The probability of a return three 
+standard deviations below the mean increases from .15% to .45% as SKEW increases 
+from 100 to 105 and increases to 2.81% when SKEW reaches 145.   
+                                                          
+1 The probabilities shown  are risk-adjusted estimates based on overlaying risk-neutral skewness over a 
+normal distribution, as done in a Gram-Charlier expansion of the normal distribution, as in D. Backus, S. 
+Fioresi  and K. Li (1997).  The risk-neutral kurtosis is omitted from the expansion because, as shown by      
+G. Bakshi, N. Kapadia and D. Madan (2003), it is empirically not significant.  
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+8
+Table 2. Estimated Risk-Adjusted Probabilities of S&P 500 Log Returns 
+Two and Three Standard Deviations below the Mean 
+ 
+SKEW
+2 Std. Dev 
+3 Std. Dev. 
+100
+2.30%
+0.15%
+105
+3.65%
+0.45%
+110
+5.00%
+0.74%
+115
+6.35%
+1.04%
+120
+7.70%
+1.33%
+125
+9.05%
+1.63%
+130
+10.40%
+1.92%
+135
+11.75%
+2.22%
+140
+13.10%
+2.51%
+145
+14.45%
+2.81%
+Estimated  Risk Adjusted Probability 
+S&P 500 30-Day Log Return
+ 
+                                      Source: CBOE 
+ 
+ 
+The probabilities in Table 2 apply to return variations measured in standard deviation 
+units. VIX, a proxy for the standard deviation is therefore needed to complete the 
+picture of risk.  VIX captures the first layer of perceived risk, as it tells how far on 
+average the S&P 500 log-return is likely to stray on either side of its mean, including 
+the risky downside. Once this is gauged, SKEW catches the additional layer of risk 
+implied by the left tail of the distribution.   
+ 
+Perceived tail risk increases when market participants increase their probability of a 
+catastrophic market decline, what has come to be called a “black swan”. As illustrated 
+by Chart 6, a scatter plot of VIX and SKEW, high values of SKEW occur in conjunction 
+with both low or high values of VIX. Note that the upper bound of SKEW values 
+decreases as VIX rises to extreme values above 40. The probable reason is that VIX 
+surges during periods of crashing stock prices, when a repeat crash may not be 
+viewed as that likely.  
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+9
+ 
+Chart 6. Scatter plot of SKEW and VIX, 1990 – 2010  
+100
+105
+110
+115
+120
+125
+130
+135
+140
+145
+150
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+VIX
+SKEW
+ 
+ 
+Source: CBOE 
+ 
+d. Volatility of SKEW 
+ 
+The definition of SKEW magnifies variations of S by 10, but it reduces its daily 
+percentage variations as well as its realized volatility. To illustrate, the absolute daily 
+change in S varies between .0001 and 3.40 around an average of .18 and that of 
+SKEW varies between .001 and 34 around an average of 1.76 . The absolute daily rate 
+of change of S varies between .004% and 375% around an average of 11.1%, that of 
+SKEW varies between .001% and 25% around an average of 1.49%. The 30–day 
+realized volatility of S is 872, and that of SKEW is 110. This compares to a 30-day 
+realized volatility of 372 for VIX. 
+ 
+3. One Last Thing You Should Know About SKEW 
+ 
+CBOE calculates a daily term structure of SKEW. Historical prices for the SKEW Index 
+and for this term structure can be found on the CBOE website at 
+http://www.cboe.com/micro/IndexSites.aspx under CBOE SKEW Indexes. 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+10
+ 
+APPENDIX     I. DERIVATION OF SKEW & SKEW PORTFOLIO 
+ 
+ 
+Derivation of SKEW 
+ 
+SKEW is defined as SKEW = 100 – 10 * S, where 
+]
+)
+([
+3
+3
+σ
+µ
+−
+=
+R
+E
+S
+, R is the 30-day 
+log-return of the S&P 500, µ = E[R] is its expected value, and σ = E[(R- µ)2 ] ½   is its 
+standard deviation, with all expectations E[x] taken under the risk-neutral density.  
+ 
+S is easily recognized as the risk-neutral version of a coefficient of statistical 
+skewness.  S is also the expectation, or market price of a skewness payoff2 
+determined by the asymmetry of the S&P 500 log-return.  When the S&P 500 log-
+return is symmetric, the payoff is equal to 0, and when the S&P 500 log-return is 
+biased toward negative (positive) values, the payoff is negative (positive). 
+ 
+In general, 30-day options are not available and S is derived by inter or extrapolation 
+from Snear and Snext, the prices of skewness at adjacent expirations:  
+ 
+S = w Snear + (1-w) Snext 
+ 
+where w = (Tnext- T30)/(Tnext- Tnear), and Tnear, Tnext and T30 are the times to expiration of 
+the near and next term options expressed in minutes, and T is the number of minutes 
+in 30 days. 
+ 
+To streamline exposition, in what follows, S refers to either Snear or Snext. 
+ 
+S is expanded as the following function of the prices P1, P2, and P3 of the power payoffs 
+R, R2, and R3 : 
+ 
+2
+/
+3
+2
+1
+2
+3
+1
+2
+1
+3
+2
+/
+3
+2
+2
+3
+2
+3
+)
+(
+2
+3
+])
+[
+]
+[
+(
+]
+[
+2
+]
+[
+]
+[
+3
+]
+[
+P
+P
+P
+P
+P
+P
+R
+E
+R
+E
+R
+E
+R
+E
+R
+E
+R
+E
+S
+−
++
+−
+=
+−
++
+−
+=
+  
+ 
+ 
+Similar to realized variance, power payoffs can be replicated by delta-hedging 
+portfolios of at- and out-of-the money options3. Hence, the calculation of P1, P2, and 
+P3, and from there SKEW, is analogous to the calculation of VIX.  The selection of S&P 
+500 contract months and the screening of S&P 500 series are the same, as is the inter 
+or extrapolation of SKEW from SKEW-like measures at option expiration dates 
+adjacent to 30 calendar days  Where the two calculations diverge is in the equations 
+that are applied to the option prices to derive P1 , P2 and P3: 
+ 
+                                                          
+2 See G. Bakshi, N. Kapadia and D. Madan, Stock Return Characteristics, Skew Laws, and the Differential 
+Pricing of Individual Equity Options, The Review of Financial  Studies, 16(1), 101-143, 2003.  
+  
+3 P. Carr and D. Madan, Towards a Theory of Volatility Trading, Volatility, Robert Jarrow, ed., Risk 
+Publications, pp. 417-427, 2002 show that any continuous payoff can be expanded in terms of sums of option 
+payoffs.  This is sufficient to expand power returns as sum of option payoffs. For realized variance, one also 
+needs to apply Ito’s lemma. 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+11
+ (1) 
+1
+2
+1
+)
+1
+(
+]
+[
+ε
+µ
++
+∆
+−
+=
+=
+=
+∑
+i
+K
+K
+i
+rT
+T
+i
+i
+Q
+K
+e
+R
+E
+P
+ 
+ 
+(2) 
+2
+0
+2
+2
+2
+)
+))
+(
+ln
+1(
+2
+(
+]
+[
+ε
++
+∆
+−
+=
+=
+∑
+i
+i
+K
+K
+i
+i
+i
+rT
+T
+Q
+F
+K
+K
+e
+R
+E
+P
+ 
+ 
+(3) 
+3
+0
+2
+0
+2
+3
+3
+)
+)}
+(
+ln
+)
+(
+ln
+2
+{
+3
+(
+]
+[
+ε
++
+∆
+−
+=
+=
+∑
+i
+i
+K
+K
+i
+i
+i
+i
+rT
+T
+Q
+F
+K
+F
+K
+K
+e
+R
+E
+P
+ 
+ 
+where  
+ 
+F0  
+ 
+ 
+Forward index level derived from index option prices 
+ 
+K0  
+ 
+ 
+First listed strike below F0 
+ 
+Ki  
+Strike price of ith out-of-the-money option; a call if Ki>K0 and a 
+put if Ki< K0; both put and call if Ki=K0. 
+ 
+∆Ki  
+Half the difference between the strike on either side of Ki: 
+ 
+1
+1
+(
+2
+1
+−
++ −
+=
+∆
+i
+i
+i
+K
+K
+K
+) 
+(Note: For the minimum (maximum) strike, ∆Ki is simply the 
+distance to the next strike above (below). 
+ 
+r 
+ 
+  
+Risk-free interest rate to expiration  
+ 
+Q(Ki)  
+The midpoint of the bid-ask spread for each option with strike Ki.  
+ 
+T 
+ 
+ 
+The time to expiration expressed as a fraction of a year. 
+ 
+εj  
+Adjustment terms compensating for the difference between K0 
+and F0 
+ 
+ 
+ 
+ 
+ 
+)
+1
+)
+ln(
+3
+1
+(
+)
+(
+ln
+3
+)
+6
+(
+),
+(
+ln
+2
+1
+)1
+)(
+ln(
+2
+)
+5
+(
+),
+)
+ln(
+1(
+)
+4
+(
+2
+3
+2
+2
+1
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+K
+F
+F
+K
+F
+K
+F
+K
+K
+F
+F
+K
+K
+F
+K
+F
++
+−
+=
++
+−
+=
+−
++
+−
+=
+ε
+ε
+ε
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+12
+ 
+ 
+SKEW Portfolio 
+ 
+Recall that SKEW = 100 – 10 S, where S prices a portfolio that replicates an exposure 
+to 30 day-skewness, which we call the “skewness” portfolio. This implies that SKEW is 
+also the price of a portfolio, namely the portfolio that overlays a position short 10 
+times the skewness portfolio over a money market position. 
+ 
+To determine the composition of the skewness portfolio, note that its payoff is a linear 
+function of the power payoffs R, R2 and R3   
+ 
+ 
+3
+3
+3
+2
+2
+1
+3
+3
+2
+2
+3
+3
+3
+)
+(
+3
+3
+)
+(
+σ
+µ
+σ
+µ
+µ
+µ
+σ
+µ
+−
++
++
+=
+−
++
+−
+=
+−
+R
+a
+R
+a
+R
+a
+R
+R
+R
+R
+. 
+ 
+ 
+where µ = E[R] = P1, and σ = E[(R- µ)2 ] ½ = E[R2]- E[R]2= P2 -  P1
+2 .  
+ 
+Each power payoff is replicated by a portfolio of SPX options. Hence, the skewness 
+portfolio is obtained by aggregating the three power portfolios and overlaying the 
+combination on a money market position with payoff  
+3)
+(σ
+µ
+−
+.  
+ 
+The compositions of the power portfolios are implicit in equations (1) to (3). Each 
+consists of a strip of at- and out-of-the-money S&P 500 puts and calls weighted by 
+different coefficients. The first strip is delta-hedged by a static position in S&P 500 
+forward contracts. The number of put or call options at strike K held in the three 
+power strips are as follows: 
+ 
+R:   
+ b1K= 
+2
+K
+K
+∆
+−
+  
+R2:  
+b2K =
+)
+ln
+1(
+*
+2
+0
+2
+F
+K
+K
+K
+−
+∆
+,  
+R3:  
+b3K =
+))
+(
+ln
+)
+ln(
+2
+(
+*
+3
+0
+2
+0
+2
+F
+K
+F
+K
+K
+K
+−
+∆
+ 
+ 
+An exposure to the skewness payoff is constructed by aggregating the number of calls 
+or puts at each strike.  
+ 
+ 
+ 
+The number of puts or calls held at strike K is equal to α K =a1 b1K  + a2 b2K + a3 b3K.  
+Afer substituting the expressions for ai and biK,  α K is found equal to:  
+ 
+ 
+ 
+ 
+ 
+)}
+2
+(
+)}
+1
+)(
+ln(
+2
+)
+(
+ln
+{
+3
+0
+0
+2
+2
+3
++
+−
++
++
+−
+∆
+=
+µ
+µ
+µ
+σ
+α
+F
+K
+F
+K
+K
+K
+K
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+13
+ 
+ 
+Substituting the different option and money market positions in SKEW, and taking into 
+account the $100 multiplier of S&P 500 options, we finally obtain the SKEW portfolio: 
+ 
+ 
+Money market position :  e-rT {100 – 10 [w*( 
+)
+)
+(
+3
+near
+near
+σ
+µ
+−
++ (1-w) * ( 
+)
+)
+(
+3
+next
+next
+σ
+µ
+−
+]} 
+ 
+Portfolio of OTM options : - .01* 10 * w *  αK near    of near term option with strike K , 
+and 
+                                            - .01* 10 * (1-w )*  αK next    of next term option with 
+strike K .                                        
+ 
+The options at the near and next expiration are delta hedged by shorting 10 / M S&P 
+500 forward contracts, where M is the multiplier of an S&P 500 forward contract with 
+the same expiration. 
+ 
+ 
+ 
+APPENDIX II   THE SKEW CALCULATION STEP-BY-STEP 
+ 
+ 
+ 
+ 
+ 
+ 
+The calculation of SKEW proceeds in two parts. The first is to determine the 
+composition of the portfolio of S&P 500 puts and calls to be used. This part proceeds 
+exactly as for VIX. Once the portfolio is established, formulas (1) to (6) are applied to 
+put and call prices to find Snear and Snext. This leads directly to SKEW. The 
+determination of the SKEW portfolio is a by-product of the calculation.  
+ 
+The following hypothetical example of the calculation of SKEW on July 28, 2010, at 
+10:45 am Chicago time illustrates the calculation step-by step. An extract of the data 
+used is shown in the example.  
+ 
+Step 1: Determinination of options in SKEW portfolio.  
+ 
+ Selection of option months: The near and next-term options are usually the first 
+and second SPX contract months. “Near-term” options must have at least one 
+week to expiration; this requirement is intended to minimize pricing anomalies that 
+might occur close to expiration. When the near-term options have less than a week 
+to expiration, SKEW “rolls” to the second and third SPX contract months.  For 
+example, on the second Friday in June, SKEW would be calculated using SPX 
+options expiring in June and July.  On the following Monday, July would replace 
+June as the “near-term” and August would replace July as the “next-term.”.  
+ 
+On July 28, 2010, August 2010 and September 2010 options are selected 
+as the near and next term options. 
+ 
+ Calculation of time to expiration: The time to expiration of the selected options is 
+calculated next. This is needed to calculated interest rate factors and also to 
+interpolate between values at adjacent months to get the 30-day SKEW. The time 
+to expiration is expressed as a fraction of a year, based on the number of minutes 
+to expiration. The options are deemed to expire at 8:30 am Chicago time on the 
+third Friday and a year is deemed to have 365 days.   
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+14
+ 
+August 2010 options expire on the 20th and September 2010 options 
+expire on the 17th . At 10:45 am on July 28, 2010, the times to expiration 
+of August and September 2010 options are equal to 0.065 and 0.142.  
+ 
+ Interest rate used: The second piece of data to calculate interest rate discount 
+factors is the risk-free interest rate, r. r is the bond-equivalent yield of the U.S. T-
+bill maturing closest to the expiration dates of relevant SPX options.  As such, the 
+SKEW calculation may use different risk-free interest rates for near- and next-term 
+options.  
+ 
+ In this example, R = 0.00155 for both sets of options.  
+ 
+ Calculation of S&P 500 forward price and determination of at-the-money strike: 
+Similar to VIX, is calculated from at and out-of-the-money puts and calls. The at-
+the-money strike is defined as the listed strike immediately below the S&P 500 
+forward price.  To find the forward price, find the strike for which the difference 
+between the midquotes of the call and put is at a minimum. Then calculate the 
+forward price as 
+ F = erT * (C – P) +K, where T is the time to expiration, C and P are the call and 
+put midquotes, and K is the strike at which minimum occurs.   
+ 
+As seen in Table 1 below, for August 2010 options, the strike at which the 
+minimum of the midquote difference is attained is 1105. The 1105 row is 
+highlighted in green. The forward price for August 2010 is equal to 
+ 
+FAug = e.00155 * 0.65 * (23.7 – 21.85) + 1105 =1106.85. 
+ 
+The strike for September 2010 options also turns out to be 1105. By a 
+similar calculation, FSep = 1106.45. Thus the at-the-money strike for both 
+August and September is 1105. Puts at 1105 or below and calls at 1105 or 
+above will be included in the calculation. 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+15
+ 
+ 
+ 
+Table 1. Extract from August 2010 option data on July 28, 2010, 10:45 am 
+Chicago time. 
+ 
+Strike
+Put Bid
+Put Ask
+Put 
+Midquote
+delta k 
+Call Bid
+Call Ask
+Call 
+Midquote
+midcall -
+midput
+690
+0
+0
+0
+414.4
+418.5
+416.45
+695
+0
+0
+0
+410
+414.1
+412.05
+700
+0.05
+0.1
+0.075
+5
+405.3
+410.3
+407.8 407.725
+705
+0.05
+0.1
+0.075
+5
+401.6
+405.7
+403.65 403.575
+710
+0.05
+0.1
+0.075
+5
+396.3
+400.3
+398.3 398.225
+715
+0.05
+0.1
+0.075
+5
+389.6
+393.7
+391.65 391.575
+720
+0.05
+0.1
+0.075
+5
+385.3
+390.3
+387.8 387.725
+…
+…
+…
+…
+…
+…
+…
+…
+…
+1095
+16.7
+19.2
+17.95
+5
+28.9
+31.2
+30.05
+12.1
+1100
+19
+20.5
+19.75
+5
+25.7
+27.6
+26.65
+6.9
+1105
+20
+23.7
+21.85
+5
+22.5
+24.9
+23.7
+1.85
+1110
+23.5
+25
+24.25
+5
+20.6
+22.1
+21.35
+-2.9
+1115
+25.1
+28
+26.55
+5
+18.5
+20.8
+19.65
+-6.9
+1120
+28.3
+30.1
+29.2
+5
+14.3
+17.8
+16.05
+-13.15
+1125
+30.9
+32.9
+31.9
+5
+13.7
+14.9
+14.3
+-17.6
+1130
+34
+36.1
+35.05
+5
+11.3
+12.6
+11.95
+-23.1
+1135
+36.6
+38.8
+37.7
+5
+9.2
+10.7
+9.95
+-27.75
+…
+…
+…
+…
+…
+…
+…
+…
+…
+1205
+97
+100.2
+98.6
+5
+0.05
+0.9
+0.475
+-98.125
+1210
+100.2
+104.1
+102.15
+5
+0
+0
+0
+-102.15
+1215
+106.9
+110.1
+108.5
+5
+0.05
+1
+0.525
+-107.98
+1220
+111.9
+115.1
+113.5
+5
+0
+0
+0
+-113.5
+1225
+116.8
+120
+118.4
+5
+0.1
+0.3
+0.2
+-118.2
+1230
+121.8
+125.3
+123.55
+5
+0.05
+0.3
+0.175
+-123.38
+1235
+125.3
+129.3
+127.3
+5
+0.05
+0.25
+0.15
+-127.15
+1240
+130.7
+134.7
+132.7
+5
+0.05
+0.7
+0.375
+-132.33
+1245
+136.7
+140.7
+138.7
+5
+0.05
+0.2
+0.125
+-138.58
+1250
+140.7
+144.7
+142.7
+5
+0.05
+0.1
+0.075
+-142.63
+1255
+146.7
+150
+148.35
+5
+0.05
+0.3
+0.175
+-148.18
+1260
+151.7
+155
+153.35
+5
+0
+0.9
+0
+1265
+156.7
+160
+158.35
+5
+0
+0.25
+0
+ 
+Source : CBOE 
+ 
+ 
+ Elimination of strikes. The SKEW calculation only uses at or out-of-the money 
+strikes. In addition, only options with non-zero bid prices are used, and once two 
+consecutive puts with 0 bid prices are found, all puts with lower strike prices are 
+eliminated.  Similarly, once two consecutive calls with 0 bid prices are found, all 
+calls with higher strike prices are eliminated. In Table 1, all data for eliminated 
+strikes are grayed out, and puts and calls eliminated because they were below and 
+above two consecutive strikes with zero bids are not shown. Data for strikes 
+ranging from 720 to 1095 and from 1135 to 1205 are replaced by dots (…) to 
+provide a more compact display. 
+      
+For August 2010 options, this elimination process leaves puts with strikes 
+from 700 to 1105 and calls with strikes from 1105 to 1255.  Also leave out 
+calls with strikes 1210 and 1220 because they have 0 bids. For September 
+2010 options, use puts with strikes from 725 to 1105 and calls with 
+strikes from 1105 to 1280.  
+ 
+ 
+One important note:  as volatility rises and falls, the strike price range of options 
+with non-zero bids tends to expand and contract.  As a result, the number of 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+16
+options used in the SKEW calculation may vary from month-to-month, day-to-day 
+and possibly, even minute-to-minute. 
+ 
+Step 2 – Calculate SKEW for both near-term and next-term options 
+ 
+Recall that SKEW = 100 – 10 S, where S the price of skewness can be derived from 
+the prices of S&P 500 options: 
+ 
+2
+/
+3
+2
+1
+2
+3
+1
+2
+1
+3
+2
+/
+3
+2
+2
+3
+2
+3
+)
+(
+2
+3
+])
+[
+]
+[
+(
+]
+[
+2
+]
+[
+]
+[
+3
+]
+[
+P
+P
+P
+P
+P
+P
+R
+E
+R
+E
+R
+E
+R
+E
+R
+E
+R
+E
+S
+−
++
+−
+=
+−
++
+−
+=
+ 
+ (1) 
+1
+2
+1
+)
+1
+(
+]
+[
+ε
+µ
++
+∆
+−
+=
+=
+=
+∑
+i
+K
+K
+i
+rT
+T
+i
+i
+Q
+K
+e
+R
+E
+P
+ 
+ 
+(2) 
+2
+0
+2
+2
+2
+)
+))
+(
+ln
+1(
+2
+(
+]
+[
+ε
++
+∆
+−
+=
+=
+∑
+i
+i
+K
+K
+i
+i
+i
+rT
+T
+Q
+F
+K
+K
+e
+R
+E
+P
+ 
+ 
+(3) 
+3
+0
+2
+0
+2
+3
+3
+)
+)}
+(
+ln
+)
+(
+ln
+2
+{
+3
+(
+]
+[
+ε
++
+∆
+−
+=
+=
+∑
+i
+i
+K
+K
+i
+i
+i
+i
+rT
+T
+Q
+F
+K
+F
+K
+K
+e
+R
+E
+P
+ 
+ 
+ 
+ 
+ 
+)
+1
+)
+ln(
+3
+1
+(
+)
+(
+ln
+3
+)
+6
+(
+),
+(
+ln
+2
+1
+)1
+)(
+ln(
+2
+)
+5
+(
+),
+)
+ln(
+1(
+)
+4
+(
+2
+3
+2
+2
+1
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+O
+K
+F
+F
+K
+F
+K
+F
+K
+K
+F
+F
+K
+K
+F
+K
+F
++
+−
+=
++
+−
+=
+−
++
+−
+=
+ε
+ε
+ε
+ 
+ 
+For this calculation, we need the interest rate factor, the relevant option prices, the at-
+the-money strike K0, the forward price F0 and the strike intervals ∆K. All but the strike 
+intervals have already been determined. At the smallest and largest strike, the strike 
+interval is specified as the difference between that strike and the next.  At all other 
+strikes the strike interval is specified as half the distance between adjacent strikes.  
+ 
+ 
+As seen in Table 1, on July 28, 2010, the strike intervals at the extreme 
+strikes as well as at intermediate strikes are all equal to 5 for S&P 500 
+August 2010 options selected for the calculation of SKEW.  
+ 
+With strikes intervals determined, all that remains to be done is : 
+ 
+ Calculate each of the components of the sums in P1, P2, P3.  
+ Add the components up, multiply by the interest rate factor and add the 
+adjustment term, the epsilons.  
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+17
+ Use the formula for S to calculate the price of skewness from P1, P2, P3 at each 
+expiration  
+ 
+ Interpolate or extrapolate the 30-day value of S. 
+ 
+ Calculate SKEW as 100 – 10S 
+ 
+ 
+The calculated values of the components of the three sums are shown in Table 2. The 
+column labeled “for P1” contains the value 
+uote
+OptionMidq
+K
+K
+x
+*
+2
+∆
+=
+ at each strike, 
+and it picks up the put midquote for strikes below the money, the call midquote for 
+strikes above the money, and the average midquote at -the- money.  
+ 
+The column labeled “for P2” contains the value y =
+)
+ln(
+1(
+*
+2
+0
+F
+K
+x
+−
+at each strike.  
+ 
+The column labeled “for P3” contains the value z = 
+))
+(
+ln
+)
+ln(
+2
+(
+*
+3
+0
+2
+0
+F
+K
+F
+K
+x
+−
+ at each 
+strike. 
+ 
+ 
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+ 
+Table 2. Sample of calculated values of components of SKEW 
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+18
+Strike
+Put 
+Midquote
+delta k 
+Call 
+Midquote
+midcall -
+midput
+for P1
+for P2
+for P3
+Exposure to -10 * 
+skewness 
+portfolio
+690
+0
+416.45
+695
+0
+412.05
+700
+0.075
+5
+407.8 407.725
+7.6531E-07
+2.23E-06 -2.59E-06
+0.009930169
+705
+0.075
+5
+403.65 403.575
+7.5449E-07
+2.19E-06
+-2.5E-06
+0.009681804
+710
+0.075
+5
+398.3 398.225
+7.4390E-07
+2.15E-06 -2.42E-06
+0.009438799
+715
+0.075
+5
+391.65 391.575
+7.3353E-07
+2.11E-06 -2.34E-06
+0.00920102
+720
+0.075
+5
+387.8 387.725
+7.2338E-07
+2.07E-06 -2.27E-06
+0.008968339
+…
+…
+…
+…
+…
+1095
+17.95
+5
+30.05
+12.1
+7.4852E-05 0.000151 -4.86E-06
+0.000103684
+1100
+19.75
+5
+26.65
+6.9
+8.1612E-05 0.000164 -3.05E-06
+5.1038E-05
+1105
+21.85
+5
+23.7
+1.85
+9.3262E-05 0.000187 -9.37E-07
+-6.63095E-07
+1110
+24.25
+5
+21.35
+-2.9
+8.6641E-05 0.000173
+1.48E-06
+-5.14376E-05
+1115
+26.55
+5
+19.65
+-6.9
+7.9028E-05 0.000157
+3.47E-06
+-0.000101303
+1120
+29.2
+5
+16.05
+-13.15
+6.3975E-05 0.000126
+4.51E-06
+-0.000150277
+1125
+31.9
+5
+14.3
+-17.6
+5.6494E-05 0.000111
+5.47E-06
+-0.000198376
+1130
+35.05
+5
+11.95
+-23.1
+4.6793E-05
+9.16E-05
+5.75E-06
+-0.000245616
+1135
+37.7
+5
+9.95
+-27.75
+3.8619E-05
+7.53E-05
+5.75E-06
+-0.000292014
+…
+…
+…
+…
+…
+1205
+98.6
+5
+0.475
+-98.125
+1.6356E-06
+2.99E-06
+7.98E-07
+-0.000861405
+1210
+102.15
+5
+0
+-102.15
+0.0000E+00
+0
+0
+0
+1215
+108.5
+5
+0.525
+-107.98
+1.7782E-06
+3.22E-06
+9.48E-07
+-0.000931744
+1220
+113.5
+5
+0
+-113.5
+0.0000E+00
+0
+0
+0
+1225
+118.4
+5
+0.2
+-118.2
+6.6639E-07
+1.2E-06
+3.85E-07
+-0.000999623
+1230
+123.55
+5
+0.175
+-123.38
+5.7836E-07
+1.03E-06
+3.47E-07
+-0.001032668
+1235
+127.3
+5
+0.15
+-127.15
+4.9173E-07
+8.76E-07
+3.06E-07
+-0.001065131
+1240
+132.7
+5
+0.375
+-132.33
+1.2194E-06
+2.16E-06
+7.84E-07
+-0.001097021
+1245
+138.7
+5
+0.125
+-138.58
+4.0322E-07
+7.12E-07
+2.68E-07
+-0.001128349
+1250
+142.7
+5
+0.075
+-142.63
+2.4000E-07
+4.22E-07
+1.64E-07
+-0.001159126
+1255
+148.35
+5
+0.175
+-148.18
+5.5555E-07
+9.72E-07
+3.92E-07
+-0.00118936
+1260
+153.35
+5
+0
+1265
+158.35
+5
+0
+ 
+Source: CBOE 
+ 
+ 
+Table 3. Final Results from August and September 2010 S&P 500 options 
+ 
+Trade Date
+07/28/10 P1 = E[R] 
+-0.00173 Trade Date
+07/28/10 P1 = E[R] 
+-0.0041
+Expiration Date
+08/20/10 P2=E[R^2]
+0.003606 Expiration Date
+09/17/10 P2=E[R^2]
+0.00864
+Time to Expiration= tau
+0.065 P3=E[R^3]
+-0.00049 Time to Expiration= tau 0.142 P3=E[R^3]
+-0.001
+Treasury Bill Rate
+0.00155 Std. Dev. [R]
+0.060021 Treasury Bill Rate
+0.00155 Std. Dev. [R]
+9.29%
+Forward Price 
+1106.85 Skewness
+-2.19656 Forward Price 
+1106.45 Skewness
+-1.68
+Center Strike
+1105 SKEW @ 23 days
+121.9656 Center Strike
+1105 SKEW @ 51days
+116.75
+Epsilon 1
+1.40E-06 VIX @ 23 days
+22.98 Epsilon 1
+8.61E-07 VIX @ 51 days
+24.01
+Epsilon 2
+-4.2E-06
+Delta Hedge 
+Position
+-0.41 Epsilon 2
+-2.58E-06
+Delta Hedge 
+Position
+-0.62984
+Epsilon 3
+1.176E-11
+TBill Position
+100.00 Epsilon 3
+4.442E-12
+TBill Position
+100.00
+ 
+Source: CBOE 
+ 
+Table 3 shows the calculated values of the epsilons using equations (4) to (6) and 
+based on forward prices and at-the-money strikes for the August and September 
+2010 expirations, and the final results from summing up the elements of P1, P2, 
+P3 in each of their corresponding columns.  
+ 
+P1= -erT sum x + ε1   P2 = erT sum y + ε2     P3 = erT sum z + ε3 
+ 
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+19
+The three P values are now substituted in the formula for S to get the value of 
+skewness at each expiration.  The SKEW- like value for each expiration is shown in the 
+table.  
+ 
+Note that the value of VIX is also shown in the table. VIX is easily derived from the 
+elements in column 1.  Specifically VIX = 100 * sqrt{-(T-1 ) * P1} 
+ 
+Oops.. .we almost forgot  
+ 
+ 
+Last Step of Calculation  – Calculate the 30-day weighted average of S1 and S 2.  
+Then take the difference between 100 and 10 times that weighted average to get 
+SKEW. 
+ 
+{
+}
+2
+2
+1
+)
+1(
+*
+10
+100
+100
+S
+w
+S
+w
+S
+SKEW
+−
++
+−
+=
+−
+=
+ 
+ 
+irations
+term
+near
+next
+btw
+utes
+days
+to
+utes
+iration
+next
+to
+utes
+w
+exp
+&
+min
+30
+min
+exp
+min
+−
+=
+ 
+ 
+When the near-term options have less than 30 days to expiration and the next-term 
+options have more than 30 days to expiration, the resulting SKEW value reflects an 
+interpolation of S1 and S 2 ; i.e., each individual weight is less than or equal to 1 and 
+the sum of the weights equals 1.   
+ 
+At the time of the SKEW “roll,” both the near-term and next-term options have more 
+than 30 days to expiration.  The same formula is used to calculate the 30-day 
+weighted average, but the result is an extrapolation of S1 and S2 ; i.e., the sum of the 
+weights is still 1, but the near-term weight is greater than 1 and the next-term weight 
+is negative (e.g., 1.25 and –0.25). 
+ 
+ 
+Continuing with the July 28, 2010 example, 
+ 
+S =  0.730208333 * (-2.19656) + 0.269791667 *(-1.68) =  -2.056 
+ 
+ 
+ 
+SKEW = 100 – 10*(-2.056) = 120.56 
+ 
+ 
+ 
+ 
+Special Note:  All CBOE Volatility Indexes – SKEW,VIX, VXD, VXN, RVX, VXV, OVX, 
+GVZ and EVZ – are calculated using option price quotes from CBOE exclusively.  
+
+
+CBOE Proprietary Information 
+Copyright (c) 2010 Chicago Board Options Exchange, Incorporated. All rights reserved. 
+20
+References 
+ 
+D.Backus, K. Li, S. Foresi and L.Wu, “Accounting for Biases in Black Scholes,” 
+Fordham University Working Paper 30, 1997. 
+ 
+Bakshi, G., Kapadia, N. and Madan, D., “Stock Return Characteristics, Skew Laws, and 
+the Differential Pricing of Individual Equity Options,”, The Review of Financial Studies 
+16(1):2003,  101–143. 
+ 
+ 
+ 
+The information in this document is provided solely for informational purposes.  Past 
+performance is not indicative of future results.  This document contains index 
+performance data based on back-testing, i.e., calculations of how the index might 
+have performed prior to launch. Backtested performance information is purely 
+hypothetical and is provided in this document solely for informational purposes. 
+Backtested performance does not represent actual performance, and should not be 
+interpreted as an indication of actual performance.  The methodologies of the CBOE 
+SKEW Index and the CBOE volatility indexes are owned by Chicago Board Options 
+Exchange, Incorporated (CBOE) and may be covered by one or more patents or 
+pending patent applications. CBOE®, Chicago Board Options Exchange®, CBOE 
+Volatility Index® and VIX® are registered trademarks and CBOE SKEW Index, SKEW 
+and SPX are servicemarks of CBOE.   Standard & Poor's, S&P® and S&P 500® are 
+trademarks of The McGraw-Hill Companies, Inc. and have been licensed for use by 
+CBOE. 
+ 
+Options involve risk and are not suitable for all investors. Prior to buying or selling an 
+option, a person must receive a copy of Characteristics and Risks of Standardized 
+Options. Copies are available from your broker, by calling 1-888-OPTIONS, or from 
+The Options Clearing Corporation at www.theocc.com. Supporting documentation for 
+any claims, comparisons, statistics or other technical data in this document is 
+available by visiting www.cboe.com or contacting CBOE at www.cboe.com/Contact. 
+ 
+ 
+ 
+ 
+ 

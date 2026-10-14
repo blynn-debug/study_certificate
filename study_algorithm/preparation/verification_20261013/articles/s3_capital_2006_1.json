@@ -1,0 +1,39 @@
+{
+  "source_id": "s3_capital_2006_1",
+  "header": "2006 legislative explanatory materials",
+  "current_body_end": 80469,
+  "supplementary_provisions": "",
+  "count": 1,
+  "items": [
+    {
+      "id": "s3_capital_2006_1:BasicDirection",
+      "source_id": "s3_capital_2006_1",
+      "article": "BasicDirection",
+      "heading": "Four legislative directions",
+      "text": "Ⅱ. 제정의 기본 방향\n\n\n포괄주의 규율체제로 전환\n○ 금융투자상품 개념을 추상적으로 정의하여 향후 출현할 모든 금융투자상품을 법률의 규율대상으로 포괄\n* 금융투자회사의 취급가능 상품과 투자자 보호 규율의 대상을 대폭 확대\n기능별 규율 체제 도입\n○ 금융투자업, 금융투자상품, 투자자를 경제적 실질에 따라 각각 재분류\n○ 취급 금융기관을 불문하고 경제적 실질이 동일한 금융기능*을 동일하게 규율\n* 금융기능 = 금융투자업 + 금융투자상품 + 투자자\n업무범위의 확대\n○ 모든 금융투자업* 상호간 겸영 허용\n* 투자매매업, 투자중개업, 집합투자업, 투자일임업, 투자자문업, 신탁업\n○ 모든 부수 업무의 영위 허용\n○ 투자권유대행자 제도의 도입\n○ 금융투자업 관련 모든 외국환업무 허용\n자본시장 관련 법률을\n단일 법률로 통합\n자본시장의 규제 개혁 + 투자자 보호의 강화\n투자자 보호제도 선진화\n○ 투자 권유 규제 도입\n* 설명의무 신설, 적합성원칙 도입 등\n○ 이해상충 방지체제 마련\n○ 발행공시의 적용 범위 확대\n* 은행채, 집합투자증권, 수익증권 등\n",
+      "start": 4656,
+      "end": 5187,
+      "sha256": "211eee321638ddb6a27f7659037efdeda4f7256dfbd5d633d444f2b339938285"
+    }
+  ],
+  "warning": "Historical 2006 proposal: current obligations require current statutes.",
+  "source_metadata": {
+    "id": "s3_capital_2006_1",
+    "name": "MOFE 2006-06 Capital Market Act Draft Explanatory Materials",
+    "requested_url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=67907&fileTy=ATTACH&fileNo=1",
+    "retrieved_url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=67907&fileTy=ATTACH&fileNo=1",
+    "retrieved_at": "2026-10-13T23:55:11.311999+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "http_status": 200,
+    "characters": 80469,
+    "content_sha256": "9d2ebf128e1009503f503cfc1013aeae8be21945e169a66d6433e3dff34988db",
+    "binary_sha256": "9ed1331c8ab72c8d7730c89d20eb0734d659db939af94f9ac054e3febd7ec46c",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": [
+      "2006-06-30"
+    ],
+    "retrieval_method": "full HWP response; OLE BodyText HWP paragraph record extraction with control payload skipped",
+    "version_selection": "Historical legislative direction only; not current law"
+  }
+}

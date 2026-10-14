@@ -1,0 +1,18 @@
+{
+  "id": "kofia_consumer",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1762&seq=346",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1762&seq=346",
+  "retrieved_at": "2026-10-13T00:01:47.691452+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 21036,
+  "content_sha256": "f74142ab9007167b23fb944e2101474b1fa2d23f9f5d5ef3f121328fd83dafe2",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [],
+  "name": "금융투자회사의 금융소비자보호 표준내부통제기준",
+  "kofia_seq": "346",
+  "history_seq": "1762",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

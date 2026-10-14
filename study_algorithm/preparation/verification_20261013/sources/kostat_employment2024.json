@@ -1,0 +1,14 @@
+{
+  "id": "kostat_employment2024",
+  "requested_url": "https://kostat.go.kr/boardDownload.es?bid=67&list_no=434306&seq=1",
+  "retrieved_url": "https://mods.go.kr/boardDownload.es?bid=67&list_no=434306&seq=1",
+  "retrieved_at": "2026-10-13T16:31:57.449073+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "253c43123248022b081b910064bb6bb6562452962bb75e6d0ae0366ccc336396",
+  "binary_sha256": "253c43123248022b081b910064bb6bb6562452962bb75e6d0ae0366ccc336396",
+  "text_sha256": "03bc5447f1877fba2884b8decf22a2da4ad85a856077bf05de58b55e295027f6",
+  "pages": 54,
+  "characters": 40317,
+  "status": "retrieved_not_claim_verified"
+}

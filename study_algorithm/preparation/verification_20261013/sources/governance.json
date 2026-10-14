@@ -1,0 +1,19 @@
+{
+  "id": "governance",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277253&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=277253&chrClsCd=010202&urlMode=lsInfoP&efYd=20260102&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:55:32.056294+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 50726,
+  "content_sha256": "533a3ab41e3770ece4a1cf7265ca75cdd1839abb26cbc27c10ffc78d613e3402",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "1",
+      "2"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

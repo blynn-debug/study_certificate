@@ -1,0 +1,32 @@
+{
+  "source_id": "kcie_financial_products",
+  "source_metadata": {
+    "id": "kcie_financial_products",
+    "requested_url": "https://kcie.or.kr/assets/download/main_down/fc_2021.pdf",
+    "retrieved_url": "https://kcie.or.kr/assets/download/main_down/fc_2021.pdf",
+    "retrieved_at": "2026-10-13T03:45:33.665470+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "320a7d85ce971132d7fe75a3b7471304567308c3e495c82dcab646f2e6be6d08",
+    "binary_sha256": "320a7d85ce971132d7fe75a3b7471304567308c3e495c82dcab646f2e6be6d08",
+    "text_sha256": "ccb8dfb355c1050768404b82e550aed4ef5cd60b40b1485cb431dabc85e95c11",
+    "pages": 36,
+    "characters": 18984,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "kcie_financial_products:기관분류표",
+      "source_id": "kcie_financial_products",
+      "article": "기관분류표",
+      "heading": "기관분류표",
+      "text": "[PDF page 29]\n27\n구 분\n기관수\n비고\n은행\n일반은행\n시중은행/지방은행/인터넷전문은행\n6/6/2\n2021.3\n외국은행지점\n36\n2021.3\n특수은행\n산업/수출입/중소기업/농협/수협\n각 1\n비은행 \n예금취급기관\n상호저축은행\n79\n신용협동기구\n신용협동조합\n876\n2021.3\n새마을금고\n1,315\n상호금융(농협·수협·산림조합)\n1,351\n2021.3\n우체국예금\n1\n종합금융회사\n1\n금융투자회사\n증권회사\n57\n2021.3\n선물회사\n4\n2021.3\n자산운용회사\n328\n2021.3\n부동산신탁회사\n14\n2021.3\n투자일임자문회사\n228\n2021.3\n보험회사\n생명보험\n24\n2021.3\n손해보험/재보험/보증보험\n19/10/3\n우체국보험\n1\n공제기관\n3\n농협/신협/\n새마을\n기타 금융기관\n금융지주\n은행지주/비은행지주\n8/1\n여신전문\n리스/카드\n26/3\n2021.3\n할부금융/신기술금융\n23/64\n2021.3\n벤처캐피탈\n중소기업창업투자회사\n120\n증권금융\n1\n공적금융기관\n무역보험공사/주택금융공사/자산관리공\n사/투자공사/서민금융진흥원\n각 1\n* (『한국의 금융제도』, 2017.12 한국은행)\n* 금융감독원 금융통계정보시스템을 참고하여 자료 업데이트(2021.3)\n 우리나라 금융회사(기관) 현황\n부록 2",
+      "start": 15213,
+      "end": 15835,
+      "sha256": "7f14f655154112168d9732ba8d0af32d70b001613718d1d8b1ab96c0de0983ee"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

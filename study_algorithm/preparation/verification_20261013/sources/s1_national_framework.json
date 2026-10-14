@@ -1,0 +1,18 @@
+{
+  "id": "s1_national_framework",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286527&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=286527&chrClsCd=010202&urlMode=lsInfoP&efYd=20260602&ancYnChk=0",
+  "retrieved_at": "2026-10-13T15:35:43.599543+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 26291,
+  "content_sha256": "02cbda80c67bb2b80c6ef65ac694231c78546efb04f66f57944744e6b40dca59",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "6",
+      "2"
+    ]
+  ]
+}

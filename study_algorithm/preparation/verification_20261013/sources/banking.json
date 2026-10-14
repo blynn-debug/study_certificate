@@ -1,0 +1,18 @@
+{
+  "id": "banking",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282001&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=282001&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:17.900333+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 83435,
+  "content_sha256": "e825287f308215468ed622767ba7c2eaa5c1cfc8bd0e31312faf3d5fb20bbd44",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mit_ricardo2007",
+  "requested_url": "https://ocw.mit.edu/courses/14-452-macroeconomic-theory-ii-spring-2007/3381c120a66b4eefe6fbff29b432cc1d_slides10.pdf",
+  "retrieved_url": "https://ocw.mit.edu/courses/14-452-macroeconomic-theory-ii-spring-2007/3381c120a66b4eefe6fbff29b432cc1d_slides10.pdf",
+  "retrieved_at": "2026-10-13T16:30:10.014298+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "9993c94c63a070425d5827781e9a554e16d9e4a3e22214d8af42dc2eabcba560",
+  "binary_sha256": "9993c94c63a070425d5827781e9a554e16d9e4a3e22214d8af42dc2eabcba560",
+  "text_sha256": "d94b79a0d6509940b8148f1ff065216d34a4c038fd7e0ad19842953d2faeb529",
+  "pages": 14,
+  "characters": 9654,
+  "status": "retrieved_not_claim_verified"
+}

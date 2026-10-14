@@ -1,0 +1,18 @@
+{
+  "id": "trust",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=198564&chrClsCd=010202&urlMode=lsInfoP&efYd=20181101&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=198564&chrClsCd=010202&urlMode=lsInfoP&efYd=20181101&ancYnChk=0",
+  "retrieved_at": "2026-10-13T00:17:42.936206+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 44002,
+  "content_sha256": "542e18b165325efca3e68bd3a857fe8293891d88741496df5fa2c70c2361c28e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2018",
+      "11",
+      "1"
+    ]
+  ]
+}

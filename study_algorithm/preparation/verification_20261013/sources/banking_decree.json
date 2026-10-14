@@ -1,0 +1,18 @@
+{
+  "id": "banking_decree",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=287003&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=287003&chrClsCd=010202&urlMode=lsInfoP&efYd=20260701&ancYnChk=0",
+  "retrieved_at": "2026-10-13T04:13:17.966876+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 81668,
+  "content_sha256": "f1962b4297aff6f0a94f91eb76ca022b893a8e81267fdfaf34f9f15d81db6f3e",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "7",
+      "1"
+    ]
+  ]
+}

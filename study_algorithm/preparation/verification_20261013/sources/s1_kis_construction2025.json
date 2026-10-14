@@ -1,0 +1,14 @@
+{
+  "id": "s1_kis_construction2025",
+  "requested_url": "https://kisrating.com/fileDown.do?fileName=rs20250618-1.pdf&gubun=2&menuCd=R8",
+  "retrieved_url": "https://kisrating.com/fileDown.do?fileName=rs20250618-1.pdf&gubun=2&menuCd=R8",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "http_status": 200,
+  "downloaded_bytes": 795277,
+  "pdf_sha256": "0e32d8a6b9fbc0491c0518614b4a7e27060d266ef8ef72ed87fb6698fe4b2b61",
+  "content_sha256": "62e755541238786f8ea131ffb2d645fcb09b373f57aae8abe6119d966c871b93",
+  "page_count": 12,
+  "download_verification": "curl exit0 HTTP200 TLSverification0 size_download795277 equals saved PDF; digital text extracted with PyMuPDF",
+  "scope": "KIS 2025-06-18 Lotte Construction rating report; historic example of contractor PF obligations, not present financial condition"
+}

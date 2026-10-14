@@ -1,0 +1,3194 @@
+[PDF page 1]
+JOIM
+www.joim.com
+JOURNAL OF INVESTMENT MANAGEMENT, Vol. 6, No. 2, (2008), pp. 1–29
+© JOIM 2008
+WHERE DO ALPHAS COME FROM?: A MEASURE OF
+THE VALUE OF ACTIVE INVESTMENT MANAGEMENT∗
+Andrew W. Lo†
+The value of active investment management is traditionally measured by alpha, beta,
+volatility, tracking error, and the Sharpe and information ratios. These are essentially
+static characteristics of the marginal distributions of returns at a single point in time,
+and do not incorporate dynamic aspects of a manager’s investment process. In this paper,
+I propose a measure of the value of active investment management that captures both
+static and dynamic contributions of a portfolio manager’s decisions. The measure is based
+on a decomposition of a portfolio’s expected return into two distinct components: a static
+weighted-average of the individual securities’ expected returns, and the sum of covariances
+between returns and portfolio weights. The former component measures the portion of the
+manager’s expected return due to static investments in the underlying securities, while the
+latter component captures the forecast power implicit in the manager’s dynamic investment
+choices. This measure can be computed for long-only investments, long/short portfolios,
+and asset allocation rules, and is particularly relevant for hedge-fund strategies where both
+components are signiﬁcant contributors to their expected returns, but only one should garner
+the high fees that hedge funds typically charge. Several analytical and empirical examples
+are provided to illustrate the practical relevance of this decomposition.
+∗I thank Nicholas Chan, John Cox, Arnout Eikeboom, Lisa
+Goldberg, Mark Grinblatt, Stephanie Hogue, Rajnish Kamat,
+Philippe Luedi, Sara Salem, Nils Tuchschmid, an anonymous
+referee, and participants at the Le Club B 2006 Conference
+and the JOIM 2007 Spring Conference for their helpful com-
+ments and discussion. Research support from AlphaSimplex
+Group is gratefully acknowledged.
+†Harris & Harris Group Professor, MIT Sloan School of
+Management, and Chief Scientiﬁc Ofﬁcer, AlphaSimplex
+Group, LLC. AlphaSimplex Group, One Cambridge Center,
+Cambridge, MA 02142.
+1
+Introduction
+With the growing popularity of hedge funds and
+other absolute-return investment strategies, there
+is a widening gap between the performance met-
+rics of traditional investment management and
+alternatives. While alpha, beta, volatility, track-
+ing error, the Sharpe ratio, and the information
+ratio have become the standard tools for gauging
+the value-added of long-only portfolio managers,
+THIRD QUARTER 2008
+1
+
+
+[PDF page 2]
+2
+ANDREW W. LO
+they have not had as much impact among investors
+of absolute-return strategies. Part of this gap is
+no doubt cultural in origin; the growth of the
+mutual-fund industry was accelerated by the broad
+acceptance of portfolio theory and the beneﬁts
+of diversiﬁcation. This, in turn, led to the push
+for indexation and benchmark-based performance
+attribution, from which many of the current per-
+formance measures emerged.
+However, another possible reason for the lack of
+impact of traditional performance measures for
+alternative investments is the fact that such mea-
+sures are static, and do not capture the dynamic
+and predictive nature of active investment strate-
+gies. Speciﬁcally, measures such as alpha, beta,
+tracking error, and the information ratio are all
+functions of parameters of the portfolio-return and
+benchmark-return distributions at a single point in
+time, e.g., expected returns, covariances, and vari-
+ances. None of these measures involves the relation
+between returns at multiple points in time, yet such
+multi-point statistics are often the central focus of
+active investment strategies. For example, the most
+admired portfolio managers of our time are revered
+for their ability to foresee certain market trends well
+in advance of the public, or to detect mispriced
+securities and exploit them ahead of the market, or
+to enter and exit certain investments before oth-
+ers recognize the opportunities. In every case, these
+investment skills involve forecasts or predictions,
+yet the standard performance measures listed above
+do not depend explicitly on the forecast power of
+the portfolio manager.
+In this paper, I propose an explicit measure of
+the economic value of active management—an
+active/passive or “AP” decomposition—that takes
+into account forecast power explicitly. Using an
+insight that ﬁrst appeared in studies by Grin-
+blatt and Titman (1989, 1993), I decompose
+the expected return of a portfolio into two com-
+ponents: one that depends only on the average
+values of portfolio weights and asset returns, and
+another that depends on the correlation between
+portfolio weights and returns. It is this latter com-
+ponent that measures directly the value of active
+management—the portfolio weights of a success-
+ful manager will generally be positively correlated
+with returns, yielding a positive contribution to
+the portfolio’s expected return. This correlation is
+directly affected by the manager’s forecasting abil-
+ities because portfolio weights are functions of the
+manager’spriorinformation.Therefore, thecorrela-
+tion between portfolio weights and returns at date t
+is a measure of the predictive power of the infor-
+mation used by the manager to select his date-t
+portfolio weights. In short, it is a measure of the
+manager’s asset-timing ability.
+Of course, it is possible to generate positive expected
+returns without any variability in portfolio weights:
+a ﬁxed-weight strategy in assets with positive risk
+premia such as the S&P 500 will yield a positive
+expected return. In this case, the active component
+described above will contribute nothing to the port-
+folio’s expected return, hence the portfolio can be
+said to be passive. This is a novel deﬁnition of pas-
+sive and active investing, and has little to do with
+the standard deﬁnitions involving deviations from
+a benchmark portfolio. I show that a more natural
+deﬁnition for a passive portfolio is one where the
+portfolio weights are uncorrelated with returns. If
+weights have no forecast power, then active man-
+agement is adding no value and the only source of
+expected return is risk premia, which can usually be
+generated by a buy-and-hold portfolio.
+The AP decomposition is a simple consequence
+of the deﬁnition of covariance,
+and is triv-
+ial for active managers to implement. In fact,
+position-level information is not necessary—only
+average portfolio weights and individual-asset aver-
+age returns are needed to perform the decomposi-
+tion. Moreover, because the decomposition is based
+on an identity, the empirical version holds exactly,
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 3]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+3
+allowing us to attribute realized or ex-post perfor-
+mance accurately and exhaustively to active and
+passive components.
+Finally, if asset returns are assumed to satisfy a
+linear K -factor model such as the Capital Asset
+Pricing Model (CAPM), the Arbitrage Pricing The-
+ory (APT), or any other linear pricing model, the
+AP decomposition yields several additional insights.
+In particular, a portfolio’s expected return can be
+decomposed into three distinct components when
+returns exhibit a linear factor structure: security
+selection, factor-timing ability, and risk premia.
+The ﬁrst two components may be interpreted as
+the result of active management, and the last com-
+ponent is passive. This decomposition provides one
+explanation for the seemingly persistent differences
+between long-only and alternative investments—
+the long-only constraint imposes a limit to the
+amount of factor timing that can be accomplished,
+and this limit may be a severe handicap in environ-
+ments where factor risk premia change sign, i.e.,
+periods of time-varying expected returns. A factor-
+based AP decomposition also addresses a recent
+concern of many institutional investors, that they
+are paying hedge funds for alpha but are getting
+beta instead. The relevant question is whether the
+beta exposure is time-varying or ﬁxed—if it is the
+former, then it may be considered a genuine source
+of active value, but if it is the latter, it may be possi-
+ble to achieve the same exposures in a more passive
+manner.
+I begin in Section 2 with a brief review of the perfor-
+mance attribution literature, and present the main
+results of the paper in Section 3. I provide several
+analyticalexamplesinSection4, andthenshowhow
+to implement the decomposition in Section 5. Sec-
+tion 6 contains a detailed empirical example of the
+AP decomposition applied to a statistical arbitrage
+strategy using daily data for NASDAQ size-deciles
+from January 2, 1990 to December 29, 1995. I
+conclude in Section 7.
+2
+Literature review
+The origins of performance attribution can be
+traced back to the Capital Asset Pricing Model of
+Sharpe (1964) and Lintner (1965), who derived
+a linear relation between the excess return of an
+investment and its systematic risk or market beta,
+i.e., the security market line:
+Rpt −Rf = βp(Rmt −Rf ) + ϵpt,
+E[ϵt|Rmt] = 0.
+(1)
+Departures from this linear relation were generically
+termed “alpha,”
+Rpt −Rf = αp + βp(Rmt −Rf ) + ϵpt
+(2)
+and Treynor (1965), Sharpe (1966), and Jensen
+(1968, 1969) applied this measure to gauge the
+economic value-added of mutual-fund managers.
+Since then, a variety of related measures have been
+proposed, including
+E[Rpt] −Rf
+σp
+= Sharpe Ratio
+(3)
+E[Rpt] −Rf
+βp
+= Treynor Ratio
+(4)
+αp
+σ(ϵpt) = Information Ratio,
+(5)
+where σp and σ(ϵpt) denote the standard devia-
+tions of Rpt and the residual ϵpt in (2), respectively.
+Graham and Harvey (1997) and Modigliani and
+Modigliani (1997) have derived risk-adjusted trans-
+formations of these basic measures, and Sharpe
+(1992) has proposed a constrained-regression
+framework for performing style analysis.
+All of these measures are essentially static in
+nature because they are based on characteristics of
+the marginal distributions of returns at a single
+date t, e.g., means, variances, and contempo-
+raneous covariances of the portfolio and market
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 4]
+4
+ANDREW W. LO
+returns.1 Even Sharpe’s (1992) regression-based
+decomposition—which is a conditional measure
+by construction—is static, because the condition-
+ing information is contemporaneous to portfolio
+returns at date t. None of these measures cap-
+tures the time-series dependence between dates t
+and t + 1, which should be the central focus
+of any forecasting measure of investment skill.
+Moreover, Dybvig and Ross (1985a, 1985b) raise
+additional doubts about whether deviations from
+linear pricing relations like the CAPM security mar-
+ket line can truly distinguish superior performance
+from luck.
+In contrast to these static measures, Treynor and
+Mazuy (1966) were among the ﬁrst to propose a
+dynamic measure of active management. To pick
+up market-timing skills, Treynor and Mazuy (1966)
+augmented the linear framework of (1) with a
+quadratic term (Rmt −Rf )2. Formally, this is still a
+contemporaneous regression, hence its parameters
+do not involve any time-series properties, but the
+motivation—to detect asymmetries in up and down
+markets—is distinctly dynamic.
+In a recent comment on the fundamental index-
+ation approach of Arnott et al. (2005), Treynor
+(2005) does focus on the covariance between port-
+folio weights and returns, but only in the speciﬁc
+context of explaining the potential improvements of
+fundamental indexation over market-capitalization
+weights. The AP decomposition described in this
+paper provides a considerably more general frame-
+work for thinking about the beneﬁts and costs of
+any indexation algorithm.
+A more explicit measure of market-timing skill is
+given by Merton (1981), Henriksson and Merton
+(1981), and Henriksson (1984), who showed that
+perfect market-timing is equivalent to a buy-and-
+hold investment in the market that is fully protected
+by put options on the market with a riskless-rate
+strike. Imperfect market-timing skill may then be
+modeled as a partially insured investment in the
+market. Although this measure may also seem like
+a static one because it involves parameters at a
+single point in time of the multivariate distribution
+of market returns and corresponding put-option
+prices, it is, in fact, dynamic due to the multi-
+period nature of options prices.2 In other words, the
+dynamics of market-timing have been compressed
+into the put-option price, which is then used as
+the “numeraire” for market-timing skill in Merton’s
+(1981) framework.
+Two other related studies are by Brinson et al.
+(1986) and Brinson et al. (1991), in which they
+decompose the realized return of a portfolio into
+three components: a benchmark return, the return
+from asset allocation (measured by the product
+of returns and the deviations of the portfolio’s
+asset-class weights from the benchmark’s asset-
+class weights), and the return of security selection
+(measured by the product of returns and the devi-
+ations of individual portfolio weights from the
+benchmark’s portfolio weights within each asset
+class):
+Rpt = Rbt + Rat + Rst.
+(6)
+Although this decomposition seems to be simi-
+lar in spirit to the one proposed in this paper,
+there is an important difference: the deﬁnitions of
+“security selection” and “asset allocation” in Brin-
+son et al. (1986) are measures deﬁned with respect
+to a benchmark, not time-series measures of a
+manager’s forecast power in each of these cate-
+gories. However, by taking expectations of (6) and
+using the decomposition described in Section 3,
+it is possible to extend the framework of Brinson
+et al. (1986) to yield measures of forecast power
+for security-selection and asset-allocation decisions
+separately. Another difference between (6) and
+the approach described in this paper is the criti-
+cal dependence of (6) on the benchmark, which
+may be appropriate for managers whose invest-
+ment mandates specify such benchmarks explicitly,
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 5]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+5
+but is less natural for absolute-return strategies
+such as those of hedge funds and other alternative
+investments.
+Grinold and Kahn (2000, Chapter 17) describe
+a bottom-up approach to performance attribution
+within a linear-factor model framework in which
+benchmark-timing is a component. Although they
+do not focus explicitly on the covariance between
+portfolio weights and returns, it is implicit in their
+time-series expression of “active benchmark timing
+return,”3 and in a footnote, they acknowledge that
+the same type of decomposition can be applied to
+individual securities.4
+However, the most relevant study for our approach
+is by Grinblatt and Titman (1993), in which
+they observe that the covariance between port-
+folio weights and returns should be positive for
+an informed investor, who can “proﬁt from these
+changing expected returns by tilting his portfolio
+weights over time in favor of assets with expected
+returns that have increased, and away from assets
+with expected returns that have decreased.” Rather
+than using the covariance to decompose expected
+returns, they propose the following “Portfolio
+Change Measure” to measure performance5:
+Portfolio Change Measure
+=
+
+j
+
+t
+[Rjt(ωjt −ωjt−k)]/T .
+Although this measure does not capture the same
+information as the covariance between weights and
+returns, they were clearly aware of the possibil-
+ity of decomposing expected returns using this
+covariance.6
+The measure of active management proposed in
+Section 3 is a more direct version of these last two
+notions of market timing, in which each portfo-
+lio weight is viewed as a bet on the future return
+of a given asset, and bets that yield positive proﬁts
+overtime, i.e., asset-timingability, areindicationsof
+investment skill. Moreover, we show that a portfo-
+lio’s total expected return is completely determined
+by the sum of these bets and the passive returns from
+each asset’s expected returns weighted by its average
+portfolio weight, hence there are no other sources
+of expected return besides these two.
+3
+The AP decomposition
+Consider a portfolio P invested in n securities
+indexed by i = 1, . . . , n, and deﬁned by its weights
+{ωit} in those securities at date t. Denote by Rpt the
+portfolio’s return between dates t −1 and t, which
+is given by:
+Rpt =
+n
+
+i=1
+ωitRit,
+(7)
+where Rit is the date-t return of security i. Assum-
+ing that the means, variances, and covariances of
+individual securities’ returns are well-deﬁned, the
+main result of the paper follows almost immedi-
+ately from the deﬁnition of expected return, and is
+presented in Section 3.1. This very general result
+implies a new way of deﬁning passive and active
+investing, which is described in Section 3.2. And
+by imposing additional structure on asset returns—
+a linear factor structure, in particular—we show in
+Section 3.3 that our decomposition provides a new
+way of distinguishing between alpha and beta.
+3.1
+The general result
+We start with the following assumptions:
+(A1) The returns {Rit} for each security i form a sta-
+tionary and ergodic stochastic process with ﬁnite
+moments up to order 4.
+(A2) Date-t portfolioweights{ωit}arestationaryand
+ergodic stochastic processes that are functions of
+state variables Xt−1.
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 6]
+6
+ANDREW W. LO
+Assumption (A1) is standard, and implies that
+the means, variances, and covariances for all asset
+returns are well-deﬁned, and that estimators of
+those parameters will have well-behaved limiting
+distributions with ﬁnite variances, which is useful
+for conducting statistical inferences.
+Assumption (A2) requires more discussion. Begin-
+ning with Markowitz (1952), much of the invest-
+ments literature has assumed that portfolio weights
+are non-stochastic. The motivation for this start-
+ing point is the focus on portfolio optimization, in
+which the portfolio weights are the choice variables
+with respect to which a mean–variance objective
+function is optimized. From this perspective, the
+expected return of a portfolio is simply a weighted
+average of the expected returns of each component
+security, weighted by the fraction of the portfolio
+devoted to that security.
+But in practice, portfolio weights are not ﬁxed
+parameters—they represent decisions taken by a
+portfolio manager, and, as such, depend on a
+number of inputs. Therefore, from an investor’s
+perspective, the statistical properties of a portfolio’s
+return is determined not just by the return distri-
+butions of the component securities, but also by
+the characteristics of the portfolio weights. In fact,
+the investor in an active investment product pays
+dearly for the services of the portfolio manager,
+and is paying largely for that manager’s portfolio
+weights! Accordingly, unless a manager’s portfolio
+weights depend on inputs that are non-stochastic
+and known to us, and we have complete knowl-
+edge of the functional relationship between inputs
+and weights, we must view portfolio weights as
+random variables. And if portfolio weights are ran-
+dom variables, it is not surprising that the stochastic
+relation between weights and returns can have sig-
+niﬁcant implications for the properties of their
+product, which we shall demonstrate shortly in
+Proposition 1.
+Assumption (A2) provides a simple but impor-
+tant set of restrictions for the kind of randomness
+that a well-deﬁned set of portfolio weights can
+exhibit. Perhaps the most important restriction is
+the fact that the date-t weights {ωt} can depend on
+information only prior to date t, otherwise unlim-
+ited arbitrage opportunities will abound. To see
+why, suppose that we remove this restriction. Then
+consider the following portfolio:
+ωit =
+Max[0, Rit]
+n
+j=1 Max[0, Rjt],
+Rpt =
+n
+
+i=1
+ωitRit ≥0
+(8)
+which places positive weight at date t on only
+those securities with positive return at date t.
+This is clearly an arbitrage if returns are not
+all degenerate. Assumption (A2) eliminates such
+possibilities,
+and is equivalent to ruling out
+“look-ahead” bias in the construction of portfolio
+weights.
+Given these assumptions, we have the following
+general decomposition for a portfolio’s expected
+return:
+Proposition 1 Under assumptions (A1)–(A2), the
+expected return of any portfolio P satisﬁes the following
+decomposition:
+E[Rpt] =
+n
+
+i=1
+E[ωitRit]
+=
+n
+
+i=1
+
+Cov[ωit, Rit] + E[ωit]E[Rit]
+
+(9)
+=
+n
+
+i=1
+Cov[ωit, Rit] +
+n
+
+i=1
+E[ωit]E[Rit]
+≡δp + νp,
+(10)
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 7]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+7
+where
+δp ≡
+n
+
+i=1
+Cov[ωit, Rit]
+(Active Component)
+νp ≡
+n
+
+i=1
+E[ωit]E[Rit]
+(Passive Component)
+θp ≡
+δp
+δp + νp
+(Active Ratio).
+(11)
+Proposition 1 is a simple decomposition of a
+portfolio’s expected return into two components:
+the sum of the covariances between portfolio
+weights and returns, and the sum of the prod-
+ucts of expected portfolio weights and expected
+returns.
+Although this active/passive or “AP”
+decomposition follows trivially from the deﬁ-
+nition of covariance, it has some surprisingly
+useful implications for identifying the relative
+contributions of active and passive investment
+management.
+The motivation for attributing the covariance terms
+δp in (10) to active management is the fact that,
+by deﬁnition, “active” implies a conscious decision
+on the part of the portfolio manager to buy, sell,
+or avoid a security—summarized in the portfolio
+weights {ωit}—and the impact of those decisions
+on a portfolio’s total expected return E[Rpt] is cap-
+tured by the covariances in (10). In particular, if a
+manager has positive weights when security returns
+are positive and negative weights when security
+returns are negative on average, this implies positive
+covariances between portfolio weights and returns,
+and will have a positive impact on the portfolio’s
+expected return. In effect, the covariance term cap-
+tures the manager’s timing ability, asset by asset,
+and while perfect timing of the sort described in
+(8) is not possible, imperfect timing certainly is (see
+Grinblatt and Titman, 1989, and 1993 for further
+discussion).
+However,
+there is another source of positive
+expected return that has nothing to do with
+asset timing: the manager may be holding passive
+long positions in securities with positive expected
+returns, and passive short positions in securities
+with negative expected returns. For example, buy-
+and-hold investors in the S&P 500 should expect
+a positive expected return over time because of
+the equity risk premium. This passive source of
+expected return is captured by the second term νp
+in (10), which has no timing component whatso-
+ever, but involves only the ﬁrst moments of the
+marginal distributions of returns and weights. Sim-
+ilarly, a dedicated shortseller whose sole investment
+mandate is to identify and short over-valued compa-
+nies faces a signiﬁcant challenge from the negative
+equity risk premium implicit in any passive short
+equity position.
+The distinction between timing and risk premia is
+more obvious from a slightly modiﬁed version of
+the AP decomposition (10):
+E[Rpt] =
+n
+
+i=1
+σ(ωit)σ(Rit)Corr[ωit, Rit]
++
+n
+
+i=1
+E[ωit]E[Rit].
+(12)
+If the portfolio weights {ωit} are constant through
+time, it is difﬁcult to argue that such a portfolio is
+beingactivelymanaged, and(12)supportsthisintu-
+ition: a constant portfolio implies zero variance for
+the portfolio weights, which implies no active com-
+ponent according to (12). Nevertheless, constant
+portfolioscanstillgeneratepositiveexpectedreturns
+simply by holding securities with positive expected
+returns, as captured by the passive component. But
+(12) shows that the larger the correlation between
+weights and returns, and the larger the variances
+of returns and weights, the bigger the contribution
+from active management.
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 8]
+8
+ANDREW W. LO
+Alternatively,
+(12) implies that negative cor-
+relation between weights and returns detracts
+from a portfolio’s expected return, and higher
+return- and weight-volatility make this worse.
+This suggests one possible approach to improv-
+ing the active component of a portfolio strat-
+egy:
+decreasing (increasing) the volatility of
+weights for those securities where the correla-
+tions between weights and returns are negative
+(positive).
+The quantity θp deﬁned in (11)—which we call the
+“active ratio”—provides a useful summary statis-
+tic for the degree to which a portfolio is actively
+managed. Unlike the traditional static measures of
+active performance such as the Sharpe or informa-
+tion ratios (see Section 2), θp is dynamic, unit-free,
+and independent of the choice of benchmark. The
+dynamic nature of θp is clear from the decompo-
+sition (12)—the time series properties of returns
+affect θp directly, in contrast to static performance
+measures.
+The fact that θp is unit-free is obvious from a simple
+dimensional analysis of this ratio: both the numer-
+ator and denominator are deﬁned as returns per
+unit time, hence the ratio is invariant to any unit
+of measurement. In other words, if θp is estimated
+to be 28%, then this is the fraction of the portfo-
+lio’s return due to active management, irrespective
+of whether we estimate θp with daily, weekly, or
+monthly data. Contrast this with the information
+ratio—if an investment has an IR of 0.28, it mat-
+ters a great deal whether this is a daily, monthly, or
+annual estimate.
+Finally, θp requires no benchmark for its deﬁni-
+tion, although certainly it is trivial to compute
+θp relative to a benchmark by simply applying
+(10) to the excess returns of a portfolio. However,
+one of the most important implications of (10)
+is that active investment management is not sim-
+ply adding value in excess of a passive benchmark,
+which can be done passively by taking on non-
+benchmark factor exposures in a multi-factor world.
+We shall return to this issue in Section 3.3
+when we impose a linear factor structure on asset
+returns.
+It is worth emphasizing that because (10) is an
+identity—both in theory and in sample—it must
+hold for all portfolios at all times, and that there
+are no sources of expected return other than the
+two identiﬁed in (10). In this sense, the AP decom-
+position is a complete and exhaustive measure of
+investment performance.
+3.2
+A new deﬁnition of passive investing
+The AP decomposition (10) implies that con-
+stant portfolios have no active component, but
+what about portfolios with time-varying weights
+that are traditionally considered to be passive? For
+example, a value-weighted portfolio of all securi-
+ties is clearly a passive portfolio, yet the portfolio
+weights change according to the market values of
+the component securities hence σ(ωit) is generally
+positive for all securities in this case. Does this
+portfolio’s expected return have a non-zero active
+component?
+The answer is no, as long as the individual secu-
+rities’ returns are serially independent, i.e., as long
+as the Random Walk Hypothesis holds for all secu-
+rities. To see why, let Pit and Sit denote the price
+and shares outstanding of asset i at date t, respec-
+tively, and observe that the value-weighted portfolio
+is given by:
+ωit =
+Pit−1Sit−1
+n
+j=1 Pjt−1Sjt−1
+=
+Pit−2(1 + Rit−1)Sit−1
+n
+j=1 Pjt−2(1 + Rjt−1)Sjt−1
+,
+(13)
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 9]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+9
+which depends on returns at date t −1.
+If
+returns are serially independent, then the correla-
+tions Corr[ωit, Rit] are all zero, hence the active
+component in (12) is zero despite the fact that the
+volatilities of the weights are nonzero.
+If, on the other hand, returns are not serially
+independent, then it is possible for the AP decom-
+position to yield a nonzero active component to a
+buy-and-hold portfolio. This is a sensible outcome
+because the presence of serial correlation implies
+that past returns do contain forecast power for
+future returns; hence, a portfolio strategy with
+weightsthatchangeasafunctionofpastreturnsmay
+beneﬁt from (or be hurt by) such serial correlation.
+This suggests a broader but more precise deﬁnition
+for a passive portfolio:
+Deﬁnition 1
+A passive portfolio is any portfo-
+lio with weights ωit that are uncorrelated with its
+corresponding returns Rit for all i = 1, . . . , n.7
+Under this deﬁnition, a portfolio is passive if its
+weights do not contain any information related
+to future returns. Whether or not the portfolio
+is benchmarked is irrelevant. For example, con-
+sider a portfolio with a market beta of 1.00,
+achieved through S&P 500 futures contracts, that
+also happens to include a diversiﬁed buy-and-
+hold basket of commodities.8 The expected return
+of such a portfolio is likely to exceed the S&P
+500 because of the positive risk premium associ-
+ated with the commodities component, but should
+the excess return be attributed to active manage-
+ment? Using traditional performance measures, this
+portfolio is likely to exhibit positive “alpha,” but
+the AP decomposition will yield a very different
+conclusion.
+Deﬁnition 3.2 can be reﬁned by distinguish-
+ing between portfolios that are intentionally
+uncorrelated with returns and those that are
+unintentionally
+uncorrelated.9
+Consider,
+for
+example, a completely unsuccessful active man-
+ager who attempts to exploit information that
+has already been impounded into asset returns.
+Although the AP decomposition will correctly cap-
+ture the fact that the active component of this
+manager’s portfolio is zero, it would be mislead-
+ing to conclude that this manager is passive. To
+distinguish between intentionally and unintention-
+ally passive portfolios, we must obviously rely on
+the manager’s stated intentions. The main thrust
+of Deﬁnition 3.2 is not so much to characterize
+unintentionally passive portfolios, but rather to
+broaden the notion of passive to include portfo-
+lios with time-varying weights but where the time
+variation is not information-based. One example of
+such a passive portfolio is the “life-cycle” or “target-
+date” fund that is designed for a speciﬁc cohort
+of investors according to their planned retirement
+date.10 Such target-date funds are not static, but
+neither are they actively managed, and the lack
+of correlation between their portfolio weights and
+asset returns is the key characteristic that suggests
+that they are passive, i.e., their portfolio weights
+contain no incremental information about future
+returns.
+Alternatively, the crucial characteristic of an active
+portfolioisthedeliberateandsuccessfuluseofinfor-
+mation for forecasting returns—this is usually what
+we have in mind when we speak of “investment
+skill.” Inthenextsection, wesharpenthedistinction
+between alpha and other sources of expected return
+by assuming a linear factor structure for individual
+asset returns.
+3.3
+Alpha vs. beta
+To
+distinguish
+explicitly
+between
+alpha
+and
+beta,
+we have to impose additional structure
+on the return-generating processes for individual
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 10]
+10
+ANDREW W. LO
+assets:
+(A3) For each asset i, the return Rit satisﬁes a linear
+K -factor model11:
+Rit = αi + βi1F1t + · · · + βiK FKt + ϵit
+(14)
+0 = E[ϵit|F1t, . . . , FKt],
+(15)
+where the factors Fkt are stationary and ergodic
+stochastic processes.
+Although the linear K -factor structure is presented
+as an assumption, several authors have derived the-
+ories to support such a speciﬁcation, including
+Merton’s (1973) Intertemporal Capital Asset Pric-
+ing Model, Ross’s (1976) Arbitrage Pricing Theory,
+and Lo and Wang’s (2006) dynamic equilibrium
+model of returns and trading volume. However, in
+Assumption (A3), we leave room for the presence
+of an intercept αi, which most other equilibrium
+asset-pricing models rule out because the presence
+of nonzero αi may create arbitrage opportunities.12
+Since the AP decomposition is considerably more
+general than any particular asset-pricing model or
+linear factor structure, for our purposes, we remain
+agnostic about whether or not αi is zero for all
+assets, and merely leave it as a possibility within our
+framework.
+Under Assumption (A3), the return Rpt of an
+arbitrary portfolio of assets may be written as:
+Rpt =
+n
+
+i=1
+ωitRit
+(16a)
+=
+n
+
+i=1
+ωitαi +
+ n
+
+i=1
+ωitβi1
+
+F1t + · · ·
++
+ n
+
+i=1
+ωitβiK
+
+FKt +
+n
+
+i=1
+ωitϵit
+(16b)
+= αpt +
+K
+
+k=1
+βpk,tFkt + ϵpt,
+(16c)
+where
+βpk,t ≡
+n
+
+i=1
+ωitβik,
+αpt ≡
+n
+
+i=1
+ωitαi.
+(16d)
+Armed with this return decomposition, the corre-
+sponding AP decomposition for expected returns
+follows immediately:
+Proposition 2 Under Assumptions (A1)–(A3), the
+expected return of any portfolio P satisﬁes the following
+decomposition:
+E[Rpt] =
+n
+
+i=1
+αiE[ωit] +
+K
+
+k=1
+Cov[βpk,t, Fkt]
++
+K
+
+k=1
+E[βpk,t]E[Fkt]
+= Security Selection + Factor Timing
++ Risk Premia,
+(17)
+where
+Security Selection ≡
+n
+
+i=1
+αiE[ωit]
+(18a)
+Factor Timing ≡
+K
+
+k=1
+Cov[βpk,t, Fkt]
+(18b)
+Risk Premia ≡
+K
+
+k=1
+E[βpk,t]E[Fkt]
+(18c)
+and
+E[βpk,t] =
+n
+
+i=1
+βikE[ωit],
+k = 1, . . . , K
+(19a)
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 11]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+11
+Cov[βpk,t, Fkt] =
+n
+
+i=1
+βikCov[ωit, Fkt],
+k = 1, . . . , K .
+(19b)
+Proposition 2 provides a more reﬁned decomposi-
+tion than Proposition 1, thanks to the linear K -
+factor structure assumed in (A3). Expected returns
+are now the sum of three components: a security-
+selection component (18a) that depends on the
+αi’s, a factor-timing component (18b) that depends
+on the covariance between the portfolio betas and
+factors, and a risk-premia component (18c) that
+represents the expected return from passive expo-
+sures to factor risks. The ﬁrst two components
+can be viewed as active sources of expected return,
+with the third being the passive component as in
+Proposition 1.
+This factor-based AP decomposition clariﬁes several
+issues surrounding the measurement of active man-
+agement. The ﬁrst is the well-known implication
+of any multi-factor model that expected returns in
+excess of a benchmark need not be due to invest-
+ment acumen, but may simply be passive exposures
+tonon-marketriskfactors(see, forexample, Merton
+(1973) and Ross (1976)). For example, if a portfo-
+lio with unit market-beta has a passive credit-factor
+beta of 0.5 (in other words, no time-variation in
+this beta), then (18c) shows that this portfolio will
+yield half the risk premium of the credit factor in
+addition to the equity risk premium. Such outper-
+formance can be achieved purely through passive
+means.
+A second issue that Proposition 2 resolves is the
+historical disparity between the expected returns
+of long-only investments and hedge funds. Some
+have argued that the distinction is due to the
+outsize rewards from hedge-fund fee structures,
+which tend to draw the most talented portfolio
+managers from the long-only world, along with
+their alpha sources. Whether or not this exodus of
+talent from mutual funds to hedge funds is real is
+debatable, but (17) provides another explanation
+which is at least as compelling: the long-only con-
+straint is a severe handicap from the perspective
+of expected returns, because it hampers a portfo-
+lio manager’s ability to engage in factor timing.
+By allowing weights to be negative, a hedge-
+fund manager can create negative factor-betas for
+his portfolio, which will yield positive expected
+returns if the corresponding factor risk-premia are
+negative. Long-only managers cannot easily do
+this if factor-betas are largely positive, hence one
+source of positive expected return is unavailable
+to them. Therefore, we should not expect long-
+only managers to be able to generate the level of
+expected returns that unconstrained managers can
+produce.
+A third issue on which Proposition 2 sheds signiﬁ-
+cant light is the recent concern of many institutional
+investors that they are paying hedge funds for alpha
+but are getting beta instead. Proposition 2 shows
+how to assess the value-added of hedge funds that
+make directional bets: check the covariances of their
+portfolio betas with the factors. If hedge funds
+possess factor-timing ability or “allocation alpha”
+(Leibowitz, 2005a, 2005b), this should be viewed
+as legitimate “alpha” or active management. But if
+the beta exposures are being generated passively, i.e.,
+not with covariances (18b) but with relatively stable
+weights in (18c), then there are cheaper alterna-
+tives such as the “beta grazers” in Leibowitz (2005a,
+2005b), the “swing assets” in Leibowitz and Bova
+(2005), or the futures-based hedge-fund beta repli-
+cation strategies described in Hasanhodzic and Lo
+(2006). This suggests the following deﬁnition of
+passive investing in the context of a linear K -factor
+model:
+Deﬁnition 2
+A portfolio is said to have passive
+factor exposure to factor k if its portfolio beta βpk,t
+is uncorrelated with the factor Fkt.
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 12]
+12
+ANDREW W. LO
+Note that Deﬁnition 3.3 leaves open the possibility
+that a portfolio is passive with respect to one factor
+but active with respect to another. This is particu-
+larly important for the hedge-fund industry which
+is extraordinarily heterogeneous, and where highly
+specialized investment expertise can and should
+thrive.
+Of course, passive beta exposures to non-traditional
+betas such as credit, liquidity, volatility, and yield-
+curve twists may be more difﬁcult to generate and
+manageforatypicalpensionplansponsorthanS&P
+500 beta, in which case higher management fees
+may be justiﬁable. But unless the manager is pro-
+viding some form of active management — unique
+sources of αi’s or factor-timing ability — there
+should be downward pressure on the correspond-
+ing management fees, and certainly incentive fees
+cannot be justiﬁed.
+One ﬁnal insight provided by Proposition 2 is
+that investment expertise can manifest itself in two
+distinct formats: identifying untapped sources of
+expected return (the αi’s) and creating additional
+expected return through factor timing (the time-
+varying βpk,t’s). Even if all αi’s are zero, as some
+academic studies claim, there can still be substan-
+tial value-added from active management as long
+as risk premia vary over time and as functions of
+market conditions.
+4
+Some analytical examples
+In this section, I provide three examples of the
+AP decomposition where active and passive com-
+ponents can be evaluated analytically. Section 4.1
+contains a simple numerical example that high-
+lights the basic computations involved in the
+decomposition. In Section 4.2, I consider mean-
+reversion and momentum strategies, and in Sec-
+tion 4.3, I provide an analysis of a stop-loss
+strategy.
+4.1
+A numerical example
+Consider a portfolio of two assets, one which yields
+a monthly return that alternates between 1% and
+2% (Asset 1) and the other which yields a ﬁxed
+monthly return of 0.15% (Asset 2). Let the weights
+of this portfolio, called A1, be given by 75% in
+Asset 1 and 25% in Asset 2. The chart and table
+in Figure 1 illustrates the dynamics of this portfolio
+over a 12-month period, where the expected return
+of the portfolio is 1.16% per month, none of which
+is due to the active component. Therefore θp = 0%
+in this case.
+Now consider portfolio A2, which differs from
+A1 only in that the portfolio weight for Asset
+1 alternates between 50% and 100% as Asset
+1’s return alternatives between 1% and 2% (see
+the chart in Figure 2). In this case, the total
+expected return is 1.29% per month, of which
+0.13% is due to the positive correlation between
+the portfolio weight for Asset 1 and its return.
+This yields an active ratio θp of 9.71%. Note
+that this ratio does not depend on the sampling
+interval of the returns, in contrast to the ﬁgures
+1.29% and 0.13%, both of which are monthly
+returns.
+Finally, consider a third portfolio A3 which also
+has alternating weights for Asset 1, but exactly in
+the opposite direction to Asset 1’s returns: when
+the return is 1%, the portfolio weight is 100%, and
+when the return is 2%, the portfolio weight is 50%.
+This is obviously counterproductive, and Figure 3
+conﬁrms this intuition. Portfolio A3 loses 0.13%
+per month from its active component, and its active
+ratio θp = −12.05%.
+Note that in all three cases, the passive components
+are identical at 1.16% per month because the aver-
+age weight for each asset is the same across all three
+portfolios. The only differences among A1, A2, and
+A3 are the dynamics of the portfolio weights, and
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 13]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+13
+Month
+ω 1
+R 1
+ω 2
+R 2
+R p
+1      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+2      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+3      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+4      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+5      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+6      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+7      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+8      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+9      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+10      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+11      
+75%   
+1.00%  
+25%   
+0.15%  
+0.79%  
+12      
+75%   
+2.00%  
+25%   
+0.15%  
+1.54%  
+Mean:
+75.00%  
+1.50%  
+25.00%  
+0.15%  
+1.16%  
+SD:
+0.00%  
+0.52%  
+0.00%  
+0.00%  
+0.39%  
+Corr[ω,R]:
+Cov[ω ,R]:
++
+=
+0.00%  
+E[ ω]E[R]:
++
+=
+1.16%  
+Total:
+1.16%  
+θ:
+0.00%  
+Strategy A1
+0.00%  
+0.00%  
+1.13%  
+0.00%  
+0.00%  
+0.04%  
+0%   
+20%   
+40%   
+60%   
+80%   
+100%   
+1      2      3      4      5      6      7      8      9      10     11     12     
+Portfolio Weight 1
+0.00%  
+0.50%  
+1.00%  
+1.50%  
+2.00%  
+2.50%  
+Asset Return 1
+Weight 1
+Asset Return 1
+Figure 1 The expected return of a constant portfolio does not contain any active component.
+these differences give rise to different values for the
+active component δp and the active ratio θp.
+4.2
+Mean reversion and momentum strategies
+Consider a simple asset-allocation example where
+one asset is the risk-free asset that yields Rf and the
+other is a risky asset with return Rt that satisﬁes
+a stationary autoregressive process with one lag or
+AR(1):
+Rt = µ + ρ(Rt−1 −µ) + ϵt,
+ϵt IID WN(0, σ2
+ϵ)
+(20)
+ωt = γ1 + γ2Rt−1
+(21)
+Rpt = ωtRt + (1 −ωt)Rf .
+(22)
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 14]
+14
+ANDREW W. LO
+Month
+ω1
+R 1
+ω2
+R 2
+R p
+1      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+2      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+3      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+4      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+5      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+6      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+7      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+8      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+9      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+10      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+11      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+12      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+Mean:
+75.00%  
+1.50%  
+25.00%  
+0.15%  
+1.29%  
+SD:
+26.11%  
+0.52%  
+26.11%  
+0.00%  
+0.74%  
+Corr[ω,R]:
+Cov[ω,R]:
++
+=
+0.13%  
+E[ω]E[R]:
++
+=
+1.16%  
+Total:
+1.29%  
+θ:
+9.71%  
+Strategy A2
+0.13%  
+0.00%  
+1.13%  
+100.00%  
+0.00%  
+0.04%  
+0%   
+20%   
+40%   
+60%   
+80%   
+100%   
+1      2      3      4      5      6      7      8      9      10     11     12     
+Portfolio Weight 1
+0.00%  
+0.50%  
+1.00%  
+1.50%  
+2.00%  
+2.50%  
+Asset Return 1
+Weight 1
+Asset Return 1
+Figure 2 The portfolio weights are positively correlated with returns, which adds value to the portfolio
+and yields a positive active component.
+The asset-allocation strategy (21) is a simple linear
+function of last period’s return plus a constant, and
+covers two important cases: a mean-reversion strat-
+egy (γ2 < 0), and a momentum strategy (γ2 > 0).
+The expected return of this strategy can be easily
+derived as:
+E[Rpt] = Cov[ωt, Rt] + E[ωt]E[Rt]
++ (1 −E[ωt])Rf
+(23a)
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 15]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+15
+Month
+ω1
+R 1
+ω2
+R 2
+R p
+1      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+2      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+3      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+4      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+5      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+6      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+7      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+8      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+9      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+10      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+11      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+12      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+Mean:
+75.00%  
+1.50%  
+25.00%  
+0.15%  
+1.04%  
+SD:
+26.11%  
+0.52%  
+26.11%  
+0.00%  
+0.04%  
+Corr[ω,R]:
+Cov[ω,R]:
++
+=
+-0.13%  
+E[ω ]E[R]:
++
+=
+1.16%  
+Total:
+1.04%  
+θ:
+-12.05%  
+Strategy A3
+-0.13%  
+0.00%  
+1.13%  
+-100.00%  
+0.00%  
+0.04%  
+0%   
+20%   
+40%   
+60%   
+80%   
+100%   
+1      2      3      4      5      6      7      8      9      10     11     12     
+Portfolio Weight 1
+0.00%  
+0.50%  
+1.00%  
+1.50%  
+2.00%  
+2.50%  
+Asset Return 1
+Weight 1
+Asset Return 1
+Figure 3 The portfolio weights are negatively correlated with returns, which subtracts value to the portfolio
+and yields a negative active component.
+= γ2ρVar[Rt] + (γ1 + γ2µ)µ
++ (1 −γ1 −γ2µ)Rf .
+(23b)
+This expression shows that the passive component
+is a weighted average of the two assets using the
+expected values of the weights ωt and 1−ωt. On
+the other hand, the active component is a function
+of γ2, ρ, and the return variance of the risky asset.
+These three parameters represent the sum total of
+the information content in the strategy (21). If γ2
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 16]
+16
+ANDREW W. LO
+is of the same sign as ρ, then the active compo-
+nent is positive—the strategy will be a momentum
+strategy when returns exhibit momentum (ρ >
+0) and will be a mean-reversion strategy when
+returns exhibit mean reversion (ρ < 0). If, on
+the other hand, γ2 is of opposite sign to ρ, then
+the active component will subtract value because
+the strategy will be exactly out of phase with the
+risky asset. And as the variance of Rt increases
+the active component becomes larger in absolute
+value, magnifying both positive and negative timing
+ability.
+4.3
+A stop-loss policy
+Suppose that a portfolio manager implements a
+stop-loss policy on an existing portfolio strategy
+with return Rt so that if the strategy’s return falls
+below a threshold ζ at date t −1, the entire port-
+folio will be invested in the riskfree asset at date t,
+and if the strategy’s return is greater than or equal to
+ζ, the entire portfolio will be invested in the strat-
+egy. Assuming that the strategy’s return-generating
+process is an AR(1), we can specify the dynam-
+ics Rpt of the combined portfolio-plus-stop-loss
+strategy as:
+Rt = µ + ρ(Rt−1 −µ) + ϵt,
+ϵt IID N(0, σ2
+ϵ)
+(24)
+ωt =
+
+1
+if Rt−1 > ζ
+0
+if Rt−1 ≤ζ
+(25)
+Rpt = ωtRt + (1 −ωt)Rf ,
+(26)
+where we have assumed that ϵt is Gaussian so that
+we can solve for expected return in closed form.
+Under these speciﬁcations, the expected return of
+Rpt is given by:
+E[Rpt] = Cov[ωt, Rt] + E[ωt]E[Rt]
++ (1 −E[ωt])Rf
+= ρσφ
+α −µ
+σ
+	
++ µ
+
+1 −
+α −µ
+σ
+		
++ Rf 
+α −µ
+σ
+	
+.
+(27)
+The ﬁrst term in (27) is the active component,
+and the second two terms are the passive compo-
+nent. As long as ρ > 0, implying momentum for
+the risky asset, the active component will increase
+the expected return of the portfolio. This result
+makes intuitive sense because the stop-loss policy
+(25) activates when past returns fall below ζ, and a
+lower past return implies lower future returns when
+ρ ≥0. If, however, ρ < 0, then the stop-loss pol-
+icy(25)becomescounterproductivebecausereturns
+are mean-reverting, hence the time to switch to the
+riskless asset is after a very large positive return in
+the most recent past.
+Table 1 provides a numerical illustration of the
+AP decomposition for various values of the two
+parameters ζ and ρ. When ρ = −25%, the active
+component is negative regardless of the threshold ζ,
+although higher values of ζ make the active compo-
+nent more costly because more upside is eliminated
+by the stop-loss policy. When ρ = 0, the active
+component is 0 because returns follow a random
+walk in this case, and any portfolio strategy based
+on prior returns will be uncorrelated with current
+returns. And when ρ is positive, the active compo-
+nent becomes positive as well, and as predicted by
+(27), the larger the threshold and the larger the ρ,
+the more valuable is the stop-loss, and the larger is
+the active ratio.
+See Kaminski and Lo (2007) for a more detailed
+analysis of the performance of stop-loss policies.
+5
+Implementing the AP decomposition
+The AP decomposition in Section 3 is a simple
+function of means, variances, and covariances of
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 17]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+17
+Table 1 Measures of the value of a stop-loss policy for a portfolio with monthly returns
+that follow an AR(1), and monthly parameter values Rf = 5%/12, E[Rt] = 10%/12,
+and Var[Rt] = (20%)2/12.
+Annualized (%)
+α (%)
+ρ (%)
+E[Rpt]
+Active
+Passive
+%Active
+E[ωt]
+1 −E[ωt]
+−1.0
+−25
+1.6
+−6.6
+8.1
+−423.1
+62.5
+37.5
+−0.5
+−25
+1.2
+−6.7
+8.0
+−547.6
+59.1
+40.9
+0.0
+−25
+0.9
+−6.8
+7.8
+−720.9
+55.7
+44.3
+0.5
+−25
+0.7
+−6.9
+7.6
+−962.5
+52.3
+47.7
+1.0
+−25
+0.5
+−6.9
+7.4
+−1290.0
+48.8
+51.2
+−1.0
+0
+8.1
+0.0
+8.1
+0.0
+62.5
+37.5
+−0.5
+0
+8.0
+0.0
+8.0
+0.0
+59.1
+40.9
+0.0
+0
+7.8
+0.0
+7.8
+0.0
+55.7
+44.3
+0.5
+0
+7.6
+0.0
+7.6
+0.0
+52.3
+47.7
+1.0
+0
+7.4
+0.0
+7.4
+0.0
+48.8
+51.2
+−1.0
+25
+14.7
+6.6
+8.1
+44.7
+62.5
+37.5
+−0.5
+25
+14.7
+6.7
+8.0
+45.8
+59.1
+40.9
+0.0
+25
+14.6
+6.8
+7.8
+46.8
+55.7
+44.3
+0.5
+25
+14.5
+6.9
+7.6
+47.5
+52.3
+47.7
+1.0
+25
+14.3
+6.9
+7.4
+48.1
+48.8
+51.2
+−1.0
+50
+21.3
+13.1
+8.1
+61.8
+62.5
+37.5
+−0.5
+50
+21.4
+13.5
+8.0
+62.8
+59.1
+40.9
+0.0
+50
+21.5
+13.7
+7.8
+63.7
+55.7
+44.3
+0.5
+50
+21.4
+13.8
+7.6
+64.4
+52.3
+47.7
+1.0
+50
+21.3
+13.8
+7.4
+65.0
+48.8
+51.2
+portfolio weights and returns, hence its implemen-
+tation is a straightforward exercise in estimating
+unconditional ﬁrst and second moments. In fact,
+in Section 5.1 we show that the properly deﬁned
+sample moments of portfolio weights and returns
+are related in exactly the same way as their pop-
+ulation counterparts in (10), hence the decom-
+position must hold exactly as an identity when
+applied to the data. However, there is one sub-
+tlety in implementing (10) that is not addressed
+by the population version, which is the selection
+of the sampling interval, and this is considered in
+Section 5.3.
+5.1
+Population vs. sample moments
+Assumptions (A1) and (A2) are generally sufﬁcient
+to ensure that the usual sample means, variances,
+and covariances of portfolio weights and returns
+will be well-behaved estimators for their population
+values (see, for example, White (1984)). Therefore,
+implementingthefundamentaldecomposition(10)
+involves nothing more challenging than estimat-
+ing ﬁrst and second moments. Moreover, the fact
+that sample moments are related to each other in
+the same way that population moments are related
+makes the application of (10) to the data almost
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 18]
+18
+ANDREW W. LO
+trivial. For example, consider the sample covariance
+between portfolio weights and returns for asset i:
+1
+T
+T
+
+t=1
+(ωit −ωi)(Rit −Ri)
+= 1
+T
+T
+
+t=1
+(ωitRit −ωiRit −ωitRi + ωiRi)
+(28a)
+= 1
+T
+T
+
+t=1
+ωitRit −ωi
+T
+T
+
+t=1
+Rit
+−Ri
+T
+T
+
+t=1
+ωit + ωiRi
+(28b)
+= 1
+T
+T
+
+t=1
+ωitRit −ωiRi.
+(28c)
+Therefore,
+1
+T
+T
+
+t=1
+ωitRit = 1
+T
+T
+
+t=1
+(ωit −ωi)(Rit −Ri)+ωiRi
+(29)
+which is the sample-moment counterpart to (10)
+for a single asset i. Repeated applications of (28c)
+to the sample average of a portfolio will result in
+the sample version of (10), hence the AP decom-
+position must also hold in-sample. With properly
+deﬁned ﬁrst and second moments, (10) is an iden-
+tity for sample moments as well as for population
+moments.
+However, there is an even simpler approach to esti-
+mating the AP decomposition that eliminates the
+need for second moments altogether, and that is
+to infer the active component by subtracting the
+passive component from the total expected return:
+δp = E[Rpt] −νp.
+(30)
+Because the right side of (30) involves only ﬁrst
+moments, the active component δp and the active
+ratio θp may be computed solely from the average
+weights and average returns of the portfolio, hence:
+ˆδp = 1
+T
+T
+
+t=1
+Rpt −
+n
+
+i=1
+ωiRi,
+(31)
+where
+ωi ≡1
+T
+T
+
+t=1
+ωit,
+Ri ≡1
+T
+T
+
+t=1
+Rit
+ˆθp =
+ˆδp
+1
+T
+T
+t=1 Rpt
+.
+(32)
+In particular, it is not necessary for a manager to
+provide position-level transparency to give investors
+a clear sense of the value of his investment pro-
+cess. This is a particularly important characteris-
+tic of the fundamental decomposition (10) when
+applied to hedge-fund strategies because of secrecy
+surrounding such strategies. Few hedge-fund man-
+agers should balk at divulging average weights and
+returns, unless, of course, the manager’s average
+weights do not vary much over time, in which case
+the investors should reconsider paying hedge-fund
+fees to such a manager.
+5.2
+GMM estimation
+The simplicity of the estimators (31) and (32) may
+suggest that statistical inference is not needed, but
+there is still the issue of assessing the accuracy
+of these estimators to address. Fortunately, given
+Assumptions (A1) and (A2), it is possible to derive
+the asymptotic distributions of (31) and (32) under
+fairly general conditions. These results are summa-
+rized in the following proposition (see the Appendix
+for a proof):
+Proposition 3 Under (A1) and (A2), the active com-
+ponent δp and active ratio θp of any portfolio P may
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 19]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+19
+be estimated consistently by their sample counterparts
+(31) and (32), and both estimators are asymptotically
+normal with variances that may be consistently esti-
+mated via the Generalized Method of Moments.
+5.3
+The sampling interval
+One important practical issue surrounding the
+implementation of the AP decomposition is the
+choice of sampling interval for weights and returns.
+This obviously does not affect the population ver-
+sion of the decomposition, but is of critical impor-
+tance in practical applications. However, even for
+the population version, the relevance of the sam-
+pling interval can be understood in the context of
+time aggregation. Consider a portfolio strategy in
+which the weights {ωit(Xt−1)} vary each period,
+but we only observe portfolio weights and returns
+every q periods. If we now apply the AP decompo-
+sition to this subset of weights and returns, would
+we arrive at the same values for δp and νp, appro-
+priately scaled? The answer is no. To see why, we
+must ﬁrst deﬁne the precise set of observables at
+each q-period interval, and then ask whether these
+observables satisfy the same relation (10) as their
+one-period counterparts.
+First, consider aggregating the portfolio return Rpt
+over q periods and ignore the effects of compound-
+ing for simplicity:
+Rpt =
+n
+
+i=1
+ωitRit
+(33)
+Rpτ(q) =
+τq
+
+t=(τ−1)q+1
+Rpt =
+τq
+
+t=(τ−1)q+1
+n
+
+i=1
+ωitRit
+(34)
+=
+n
+
+i=1
+τq
+
+t=(τ−1)q+1
+ωitRit.
+(35)
+Then the expected value of the q-period portfolio
+return is given by:
+E[Rpτ(q)] =
+n
+
+i=1
+τq
+
+t=(τ−1)q+1
+E[ωitRit]
+(36)
+=
+n
+
+i=1
+qE[ωitRit]
+from stationarity
+(37)
+=
+n
+
+i=1
+qCov[ωit, Rit]
++
+n
+
+i=1
+qE[ωit]E[Rit].
+(38)
+The equality (38) shows that (10) aggregates lin-
+early over time, so that the q-period expected return
+of a portfolio is equal to the sum of q times the active
+component and q times the passive component.
+However, the question we started with is whether
+(10) remains the same with q-period inputs, and
+(38) has q-period returns only on the left side. To
+address our original problem, let us rewrite the right
+side of (34) with q-period variables as well:
+Rpτ(q) =
+n
+
+i=1
+τq
+
+t=(τ−1)q+1
+ωit
+Rit
+Riτ(q)Riτ(q)
+(39)
+=
+n
+
+i=1
+ωiτ(q) Riτ(q)
+where
+ωiτ(q) ≡
+τq
+
+t=(τ−1)q+1
+ωit
+Rit
+Riτ(q).
+(40)
+In (40), the q-period portfolio return Rpτ(q) is
+shown to be equal to the product of q-period asset
+returns Riτ(q) and q-period weights ωiτ(q), but
+note that these weights are not simply averages of
+ωit over q periods, but are return-weighted aver-
+ages. In fact, the only set of q-period portfolio
+weights that, when multiplied by q-period asset
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 20]
+20
+ANDREW W. LO
+returns, willyieldthesameq-periodportfolioreturn
+as the time-aggregated portfolio return Rpτ(q) is
+the return-weighted average deﬁned in (40). Now
+we are prepared to answer the question we ﬁrst
+posed regarding the effect of time aggregation on
+(10). Suppose we apply the decomposition to q-
+period weights and returns—will we arrive at a
+scaled version of the one-period decomposition?
+The q-period version is given by:
+E[Rpτ(q)] =
+n
+
+i=1
+E[ωiτ(q)Riτ(q)]
+(41)
+=
+n
+
+i=1
+Cov[ωiτ(q), Riτ(q)]
++
+n
+
+i=1
+E[ωiτ(q)]E[Riτ(q)]
+(42)
+and from (42) it is easy to see that the q-period
+version does not reduce to q times the one-period
+version as in (40). In particular, the covariances of
+q-period weights and returns involve complex cross-
+products of one-period weights and returns within
+the q-period interval, and even the expected value
+of q-period weights involve co-moments between
+weights and returns across the interval. In fact,
+much of the complexity of (42) is an artifact of
+the time aggregation, and has little to do with the
+underlying investment process.
+For this reason, it is critical that the sampling inter-
+val be at least as ﬁne as the ﬁnest decision interval
+of the investment process (see Figures 4a and 4b).
+If portfolio decisions are made on a weekly basis,
+then (10) must be implemented with data sampled
+at least once a week. If, on the other hand, the strat-
+egy employs daily information, then weekly data
+will not sufﬁce (see Figure 4c).
+Sampling more ﬁnely than the ﬁnest decision inter-
+val is always acceptable because an unchanged
+portfolio weight may always be viewed as an active
+decision to maintain a position, i.e., “let it ride.”
+Figure 4 Illustration of all possible conﬁgurations
+of sampling and decision intervals: (a) matched
+sampling and decision intervals; (b) more fre-
+quent sampling intervals; (c) less frequent sampling
+intervals.
+Although Warren Buffett changes his portfolio
+weights rather slowly over time, this is quite deliber-
+ate and not due to lethargy or inertia. However, one
+useful implication of this longer decision interval is
+that we are unlikely to be misled by applying our
+decomposition to the monthly returns and weights
+of his portfolio, whereas the same cannot be said
+for the legendary day-trader Steven Cohen of SAC
+Capital (see Figure 5).
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 21]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+21
+Month
+ω 1
+R 1
+ω 2
+R 2
+R p
+1      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+2      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+3      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+4      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+5      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+6      
+50%   
+2.00%  
+50%   
+0.15%  
+1.08%  
+7      
+50%   
+1.00%  
+50%   
+0.15%  
+0.58%  
+8      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+9      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+10      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+11      
+100%   
+1.00%  
+0%   
+0.15%  
+1.00%  
+12      
+100%   
+2.00%  
+0%   
+0.15%  
+2.00%  
+Mean:
+70.83%  
+1.50%  
+29.17%  
+0.15%  
+1.13%  
+SD:
+25.75%  
+0.52%  
+25.75%  
+0.00%  
+0.57%  
+Corr[ω,R]:
+Cov[ ω,R]:
++
+=
+0.02%  
+E[ω ]E[R]:
++
+=
+1.11%  
+Total:
+1.13%  
+θ:
+1.85%  
+Strategy A4
+0.02%  
+0.00%  
+1.06%  
+16.90%  
+0.00%  
+0.04%  
+0%   
+20%   
+40%   
+60%   
+80%   
+100%   
+1      2      3      4      5      6      7      8      9      10     11     12     
+Portfolio Weight 1
+0.00%  
+0.50%  
+1.00%  
+1.50%  
+2.00%  
+2.50%  
+Asset Return 1
+Weight 1
+Asset Return 1
+Figure 5
+Sampling more frequently than the decision interval does not create any biases in the active ratio
+estimator.
+Moreover, random shifts in portfolio weights in
+between decision intervals may add noise to the
+estimates (31) and (32), but will not affect the con-
+sistency of the estimators since, by deﬁnition, the
+noise is independent of returns (if they are corre-
+lated with returns, then they are considered part
+of the information in portfolio weights and will
+count toward the active component). Therefore,
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 22]
+22
+ANDREW W. LO
+more ﬁnely sampled data is always preferred, but
+at a minimum, the data must be sampled at least
+as ﬁnely as the investment decision interval, oth-
+erwise the AP decomposition may not accurately
+reﬂect the true active and passive contributions of
+the manager.
+6
+An empirical application
+To develop a better understanding of the charac-
+teristics of the AP decomposition, we apply our
+framework to a speciﬁc market-neutral equity trad-
+ing strategy that, by construction, is particularly
+dynamic. The strategy, ﬁrst proposed by Lo and
+MacKinlay (1990), is an example of a “statisti-
+cal arbitrage” program, consisting of buying losers
+and selling winners in proportion to their under-
+or over-performance relative to the cross-section
+mean. Speciﬁcally, let:
+ωit = −1
+n(Rit−1 −Rt−1),
+Rt−1 ≡1
+n
+n
+
+i=1
+Rit−1,
+(43)
+which implies that the weights sum to 0 at each date
+t, hence these are arbitrage portfolios. The fact that
+these weights are so directly tied to returns implies
+veryactivetrading, andthefactthattheweightssum
+to 0 implies very little market-beta exposure. These
+two implications suggest that much of this portfo-
+lio’s return should be due to active management,
+and that θ should be quite large.
+6.1
+Trading NASDAQ size-deciles
+We apply this strategy to the daily returns of the
+ﬁve smallest size-decile portfolios of all NASDAQ
+stocks, as constructed by the University of Chicago’s
+Center for Research in Security Prices (CRSP), from
+January 2, 1990 to December 29, 1995.13 Table 2
+reports the cross-autocorrelations of these ﬁve decile
+Table 2 First-order cross-autocorrelation matrix
+of the daily returns of the ﬁve smallest CRSP-
+NASDAQ size deciles, from January 2, 1990 to
+December 29, 1995. Decile 1 is the smallest-
+capitalization decile.
+R1t+1
+R2t+1
+R3t+1
+R4t+1
+R5t+1
+R1t
+10.0%
+21.5%
+15.8%
+18.1%
+16.7%
+R2t
+23.4%
+15.4%
+20.2%
+19.7%
+15.8%
+R3t
+26.2%
+25.0%
+15.2%
+23.9%
+21.6%
+R4t
+25.4%
+27.0%
+24.3%
+18.2%
+18.7%
+R5t
+25.4%
+26.6%
+26.5%
+26.2%
+19.4%
+returns, and the lead/lag pattern that emerges
+from this table—the fact that larger-decile returns
+today are more highly correlated with smaller-decile
+returns tomorrow than smaller-decile returns today
+with larger-decile returns tomorrow—underscores
+the likely proﬁtability of the contrarian strategy
+(43). Of course, trading NASDAQ size-deciles is
+obviously unrealistic in practice, but our purpose
+is to illustrate the performance of our expected-
+return decomposition (10), not to derive an imple-
+mentable trading strategy.
+Figure 6 illustrates the remarkable performance of
+the contrarian strategy (43) over the 1990 to 1995
+sample period, and Table 3 contains summary stat-
+istics for the daily returns of the ﬁve deciles and
+the strategy. With an annualized average return of
+31.4% and standard deviation of 7.9%, this strat-
+egy’s performance is considerably better than that
+of any of the ﬁve deciles, which is one indication
+that active management is playing a signiﬁcant role
+in this case.
+This intuition is conﬁrmed by the AP decom-
+position of the strategy’s expected return into
+active and risk-premia components in Table 4. On
+an annualized basis, the active component yields
+32% which exceeds the strategy’s total expected
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 23]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+23
+0
+1
+2
+3
+4
+5
+6
+7
+19900103
+19910103
+19920103
+19930104
+19940103
+19950104
+Cumulative Return
+Figure 6
+Cumulative return of a daily mean-reversion strategy of Lo and MacKinlay (1990) applied to
+the ﬁve smallest CRSP-NASDAQ size deciles from January 2, 1990 to December 29, 1995.
+Table 3 Summary statistics of the daily returns of the ﬁve smallest CRSP-NASDAQ size deciles,
+and the daily returns of a mean-reversion strategy of Lo and MacKinlay (1990) applied to those
+decile returns, from January 2, 1990 to December 29, 1995. Decile 1 is the smallest-capitalization
+decile.
+Statistic
+Decile 1
+Decile 2
+Decile 3
+Decile 4
+Decile 5
+Rpt
+Mean*250
+27.4%
+17.5%
+14.0%
+13.7%
+12.8%
+31.4%
+SD*sqrt(250)
+12.2%
+9.8%
+8.9%
+9.1%
+9.5%
+7.9%
+SR*sqrt(250)
+2.25
+1.78
+1.58
+1.50
+1.35
+3.95
+Min
+−2.9%
+−2.7%
+−2.7%
+−3.3%
+−3.5%
+−2.2%
+Median
+0.1%
+0.1%
+0.1%
+0.1%
+0.1%
+0.1%
+Max
+6.7%
+3.6%
+2.0%
+2.1%
+2.3%
+2.4%
+Skew
+0.6
+0.0
+−0.5
+−0.7
+−0.9
+−0.1
+XSKurt
+5.1
+2.4
+2.1
+3.1
+3.9
+1.7
+ρ1
+10.0%
+15.4%
+15.2%
+18.2%
+19.4%
+4.7%
+ρ2
+10.3%
+7.7%
+10.1%
+13.9%
+10.5%
+0.9%
+ρ3
+5.7%
+4.2%
+7.5%
+9.2%
+11.0%
+7.5%
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 24]
+24
+ANDREW W. LO
+Table 4 GMM estimates of the active ratio θ (in percent) of the daily
+and monthly returns of a mean-reversion strategy of Lo and MacKinlay
+(1990) applied to the ﬁve smallest CRSP-NASDAQ size-decile returns,
+from January 2, 1990 to December 29, 1995. Daily estimates employ a
+truncation lag of 6 in the computation of the Newey-West asymptotic
+standard errors, and monthly estimates employ a truncation lag of 3.
+Statistic
+Estimate (%)
+SE (%)
+t-stat
+Daily
+Portfolio Mean*250
+31.4
+0.3
+91.00
+Risk Premia*250
+−0.6
+3.5
+−0.17
+Active Component*250
+32.0
+3.5
+9.24
+Active Ratio
+101.9
+0.3
+354.40
+Monthly
+Portfolio Mean*12
+−4.0
+1.0
+−3.98
+Risk Premia*12
+0.1
+4.0
+0.03
+Active Component*12
+−4.1
+4.1
+−1.01
+Active Ratio
+102.6
+11.8
+8.66
+return of 31.4%, implying an active ratio of
+101.9% and a slightly negative risk-premia compo-
+nent. In this case, more than all of the strategy’s
+expected return is coming from active manage-
+ment, andtherisk-premiacomponentissubtracting
+value. The explanation for this rather unusual
+phenomenon was provided by Lo and MacKinlay
+(1990, Section 5.3.1), who observed that because
+the contrarian strategy holds losers and shorts win-
+ners, on average it will be buying the low-mean
+assets and shorting the high-mean assets. There-
+fore, the risk-premia component—which is the
+sum of average portfolio weights multiplied by
+average returns—will consist of positive average
+weights for low-mean stocks and negative aver-
+age weights for high-mean stocks for this strat-
+egy. Fortunately, the positive correlation between
+weights and returns is more than sufﬁcient to com-
+pensate for the negative risk-premia, as Table 4
+conﬁrms.
+6.2
+Daily vs. monthly transparency
+To illustrate the importance of the sampling inter-
+val in the measurement of the active ratio, suppose
+that we are given only the following monthly infor-
+mation for this daily strategy: month-end portfolio
+weights, and the monthly returns of each of the ﬁve
+deciles. Table 5 shows that the strategy’s expected
+return cannot be correctly computed from this
+information because much of the return comes
+from daily bets that are not captured by month-
+end portfolio weights. The decomposition of the
+incorrect expected return of −4.0% is reported
+in the lower panel of Table 4 and also has no
+bearing to the daily strategy—the estimates imply
+that the active component yields −4.1%, which is
+clearly false. By observing only month-end weights
+and cumulative returns, we have no way of infer-
+ring the proﬁtability of decisions made at a daily
+frequency.
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 25]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+25
+Table 5 Summary statistics of the monthly returns of the ﬁve smallest CRSP-NASDAQ size
+deciles, and the monthly returns of a mean-reversion strategy of Lo and MacKinlay (1990)
+applied to those decile returns, from January 1990 to December 1995. Decile 1 is the
+smallest-capitalization decile.
+Statistic
+Decile 1
+Decile 2
+Decile 3
+Decile 4
+Decile 5
+Rpt
+Mean*12
+27.5%
+17.4%
+13.9%
+13.7%
+12.8%
+−4.0%
+SD*sqrt(12)
+20.6%
+17.7%
+15.6%
+15.0%
+15.9%
+8.8%
+SR*sqrt(12)
+1.34
+0.98
+0.89
+0.91
+0.80
+−0.45
+Min
+−8.0%
+−11.3%
+−9.0%
+−9.7%
+−11.4%
+−6.6%
+Median
+1.6%
+1.0%
+1.2%
+1.0%
+1.5%
+−0.5%
+Max
+26.4%
+21.5%
+18.1%
+16.8%
+16.2%
+9.7%
+Skew
+1.2
+0.9
+0.7
+0.5
+0.1
+1.2
+XSKurt
+3.3
+3.0
+2.1
+2.0
+1.2
+4.7
+ρ1
+36.4%
+43.7%
+43.2%
+41.4%
+45.0%
+8.2%
+ρ2
+17.3%
+16.6%
+18.9%
+10.1%
+13.7%
+15.7%
+ρ3
+−5.6%
+−2.7%
+−3.1%
+−7.8%
+−7.0%
+−3.2%
+7
+Conclusion
+The investment management industry has devel-
+oped a series of measures to gauge the performance
+of portfolio managers. Most of these measures are
+based on characteristics of the marginal distribu-
+tions of asset and portfolio returns at a single point
+in time. Also, the typical statistical procedures used
+to estimate these characteristics implicitly assume
+that the data are independently and identically
+distributed, which eliminates any possibility of
+dynamic effects such as intertemporal correlations
+and forecast power.
+In contrast to these static measures, the AP decom-
+position and active ratio—which are based on the
+deﬁnition of covariance—are multi-point statistics
+that capture the very essence of active management:
+time-series predictability. A successful portfolio
+manager is one whose decisions are more often right
+than wrong, but “right” and “wrong” have spe-
+ciﬁc meanings in this context: positive correlation
+between portfolio weights and returns. Given that
+portfolio weights are functions of a manager’s prior
+and proprietary information, positive correlation
+between weights and returns is a clear indication of
+forecast power and, consequently, active investment
+skills.
+This deﬁnition of active management provides
+a natural dichotomy between active and passive
+investing. A passive portfolio has no forecast power,
+and can therefore be implemented more easily than
+an active portfolio. This is a sensible generalization
+of the standard deﬁnition of a passive portfolio, i.e.,
+a constant mix of liquid benchmarks.
+If asset returns are assumed to satisfy a linear multi-
+factor model, the AP decomposition shows that
+a portfolio’s expected returns can be decomposed
+into three components: deviations from the lin-
+ear factor model or “alpha,” positive correlation
+between portfolio betas and factor realizations or
+“factor timing,” and static factor exposures times
+risk premia. This decomposition provides a clear
+and simple framework for resolving the question of
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 26]
+26
+ANDREW W. LO
+whether hedge-fund investors are paying for alpha
+and getting beta from their investments. Moreover,
+the AP decomposition provides one explanation for
+the historical differences in performance between
+long-only and long/short portfolios: the long-only
+restriction severely limits a manager’s factor-timing
+ability, which can be a substantial performance drag
+during periods where risk premia change sign.
+Finally, because the AP decomposition is an identity
+in any given sample of data, it can be used to con-
+duct detailed performance attributions, factor by
+factor, and asset by asset. By separating the active
+and passive components of a portfolio, it should be
+possible to study and improve the performance of
+both.
+Appendix
+Throughout the Appendix, the following conven-
+tions are maintained: (1) all vectors are column
+vectors unless otherwise indicated; (2) vectors and
+matrices are always typeset in boldface, i.e., X and
+µ are scalars and X and µ are vectors or matrices.
+GMM estimators for the AP decomposition
+Denote by Xt the vector of period-t portfo-
+lio weights and returns [ω1t · · · ωnt
+R1t · · · Rnt]′,
+and let {Xt} be a stochastic process that satisﬁes the
+following conditions:
+(H1) {Xt
+: t
+∈(−∞, ∞)} is stationary and
+ergodic.
+(H2) γ o ∈ is an open subset of ℜk.
+(H3) ∀γ ∈, ϕ(·, γ ) and ϕγ (·, γ ) are Borel-
+measurable and ϕγ (X, ·) is continuous on 
+for all X.
+(H4) ϕγ
+is ﬁrst-moment continuous at γ o,
+E[ϕγ (X, ·)] exists, is ﬁnite, and is of full
+rank.
+(H5) Let ϕt ≡ϕ(Xt, γ o) and
+vj ≡E[ϕ0|ϕ−1, ϕ−2, . . .]
+−E[ϕ0|ϕ−j−1, ϕ−j−2, . . .]
+and assume:
+(i) E[ϕ0ϕ′
+0] exists and is ﬁnite.
+(ii) vj converges in mean square to 0.
+(iii) ∞
+j=0 E[v′
+jvj]1/2 is ﬁnite.
+which implies E[ϕ(Xt, γ o)] = 0.
+(H6) Let ˆγ solve 1
+T
+T
+t=1 ϕ(Xt, γ ) = 0.
+Then Hansen (1982) shows that:
+√
+T ( ˆγ −γ o)
+a∼N(0, Vγ),
+Vγ ≡H−1H−1′,
+(A.1)
+where
+H ≡
+lim
+T →∞E
+
+1
+T
+T
+
+t=1
+ϕγ (Xt, γ o)
+
+(A.2)
+ ≡
+lim
+T →∞E
+
+1
+T
+T
+
+t=1
+T
+
+s=1
+ϕ(Xt, γ o)ϕ(Xs, γ o)′
+
+.
+(A.3)
+and ϕγ (Rt, γ ) denotes the derivative of ϕ(Rt, γ )
+with respect to γ .14 Speciﬁcally, let ϕ(Rt, γ ) denote
+the following vector function:
+ϕ(ωt, Rt, γ ) ≡[ω1t −µω1 · · · ωnt −µωn
+R1t −µ1 · · · Rnt −µn]′, (A.4)
+where γ ≡[µω1 · · · µωn
+µ1 · · · µn]′. The GMM
+estimator of γ , denoted by ˆγ , is given implicitly by
+the solution to:
+1
+T
+T
+
+t=1
+ϕ(ωt, Rt, γ ) = 0,
+(A.5)
+whichyieldsthestandardestimatorsωi andRi given
+in (31). For the moment conditions in (A.4), H is
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 27]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+27
+given by:
+H = −I,
+(A.6)
+where I is a (2n × 2n) identity matrix. There-
+fore, Vγ =  and the asymptotic distribution of
+the active ratio estimator ˆθ follows from the delta
+method:
+√
+T (ˆθ −θ)
+a∼N(0, VGMM),
+VGMM = ∂g
+∂γ  ∂g
+∂γ ′,
+(A.7)
+where ∂g/∂γ is given by:
+∂g
+∂γ = [µ1 · · · µn
+µω1 · · · µωn].
+(A.8)
+An estimator for ∂g/∂γ may be obtained by sub-
+stituting ˆγ into (A.8), and an estimator for 
+may be obtained using Newey and West’s (1987)
+procedure:
+ = 0 +
+m
+
+j=1
+ω( j, m)(j + ′
+j),
+m ≪T
+(A.9)
+j ≡1
+T
+T
+
+t=j+1
+ϕ(Rt, ˆγ )ϕ(Rt−j, ˆγ )′
+(A.10)
+ω( j, m) ≡1 −
+j
+m + 1
+(A.11)
+and m is the truncation lag, which must satisfy
+the condition m/T →∞as T increases with-
+out bound to ensure consistency. An estimator for
+VGMM can then be constructed as:
+VGMM = ∂g( ˆγ )
+∂γ
+∂g( ˆγ )
+∂γ ′ .
+(A.12)
+Notes
+1 Of course, data spanning many dates are used to esti-
+mate these parameters, but the parameters themselves are
+single-point statistics, as opposed to multi-point statistics
+such as autocorrelations. Moreover, the estimates for the
+standard performance metrics are almost always computed
+under the assumption that the data are independently and
+identically distributed, which rules out any non-random-
+walk behavior, the starting point of any active investment
+strategy.
+2 In particular, one of the option-pricing parameters is the
+maturity date, which renders the option price a multi-
+point statistic.
+3 Equation (17.27) of Grinold and Kahn (2000, p. 504) is
+proportional to the covariance between factor betas and
+returns, and is the sample counterpart to (18b).
+4 See footnote 9 of Grinold and Kahn (2000, p. 504). I am
+grateful to Lisa Goldberg for this citation.
+5 See Grinblatt and Titman (1993, p. 51), Eq. (4b).
+6 Part of the motivation for this less direct performance mea-
+sure is to relate it to the “Event Study Measure” from
+the prior literature by Cornell (1979) and Copeland and
+Mayers (1982). See also Grinblatt and Titman (1989) for
+additional theoretical motivation for their measure.
+7 We deﬁne constant-weight portfolios to be uncorrelated
+with returns since their covariances with returns are zero,
+even though in this case the correlation coefﬁcient is
+undeﬁned because the variance of the portfolio weight is
+zero.
+8 Commodities have historically exhibited very little corre-
+lation to the S&P 500, hence including a buy-and-hold
+portfolio of commodities is unlikely to affect the overall
+market beta of the portfolio.
+9 I thank the referee for raising this distinction.
+10 For example, the investment policy of the VanguardTarget
+Retirement 2015 Fund (VTXVX) is summarized by the
+following passage (see http://www.vanguard.com):
+The fund invests in Vanguard mutual funds using
+an asset allocation strategy designed for investors
+planning to retire between 2013 and 2017. The
+fund’s asset allocation will become more conser-
+vative over time. Within seven years after 2015,
+the fund’s asset allocation should resemble that of
+the Target Retirement Income Fund. The underly-
+ing funds are: Vanguard Total Bond Market Index
+Fund, Vanguard Total Stock Market Index Fund,
+Vanguard European Stock Index Fund, Vanguard
+Paciﬁc Stock Index Fund, and Vanguard Emerging
+Markets Stock Index Fund.
+11 For notational simplicity, we omit the riskless rate Rf from
+this speciﬁcation, but without any loss in generality, some
+readers may prefer to interpret both the asset return Rit
+and the factor returns Fkt as excess returns, in excess of Rf .
+12 In particular, if the magnitudes of αi are too large, or
+there are too many assets with nonzero αi, then it may be
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT
+
+
+[PDF page 28]
+28
+ANDREW W. LO
+possible to construct a portfolio that has no factor risks
+and no idiosyncratic risk but a nonzero intercept, which
+implies arbitrage.
+13 Weselectedthistimeperiodpurposelybecauseoftheemer-
+gence of day-trading in the early 1990’s, an important
+source of proﬁtability for statistical arbitrage strategies.
+14 See Magnus and Neudecker (1988) for the speciﬁc deﬁni-
+tions and conventions of vector and matrix derivatives of
+vector functions.
+References
+Arnott, R., Hsu, J., and Moore, P. (2005). “Fundamental
+Indexation.” Financial Analysts Journal 61, 83–99.
+Brinson, G., Hood, R., and Beebower, G. (1986). “Determi-
+nants of Portfolio Performance.” Financial Analysts Journal
+42, 39–48.
+Brinson, G., Singer, B., and Beebower, G. (1991). “Determi-
+nants of Portfolio Performance II: An Update.” Financial
+Analysts Journal 47, 40–48.
+Campbell, J., Lo, A., and MacKinlay, C. (1997). The
+Econometrics of Financial Markets. Princeton, NJ: Princeton
+University Press.
+Copeland, T. and Mayers, D. (1982). “The Value Line
+Enigma (1965–1978):
+A Case Study of Performance
+Evaluation Issues.” Journal of Financial Economics 10,
+289–321.
+Cornell, B. (1979). “Asymmetric Information and Portfolio
+Performance Measurement.” Journal of Financial Economics
+7, 381–390.
+Dybvig, P. and Ross, S. (1985a). “Differential Information
+and Performance Measurement Using a Security Market
+Line.” Journal of Finance 40, 383–399.
+Dybvig, P. and Ross, S. (1985b). “The Analytics of Per-
+formance Measurement Using a Security Market Line.”
+Journal of Finance 40, 401–416.
+Graham, J. and Harvey, C. (1997). “Grading the Performance
+of Market Timing Newsletters.” Financial Analysts Journal
+53, 54–66.
+Grinblatt, M. and Titman, S. (1989). “Portfolio Perfor-
+mance Evaluation: Old Issues and New Insights.” Review
+of Financial Studies 2, 393–421.
+Grinblatt,
+M. and Titman,
+S. (1993).
+“Performance
+Measurement without Benchmarks: An Examination of
+Mutual
+Fund
+Returns.”
+Journal
+of
+Business
+66,
+47–68.
+Grinold, R. and Kahn, R. (2000). Active Portfolio Man-
+agement: A Quantitative Approach for Producing Superior
+Returns and Controlling Risk. New York: McGraw-Hill.
+Hansen, L. (1982). “Large Sample Properties of Generalized
+Method of Moments Estimators.” Econometrica 50, 1029–
+1054.
+Harvey, A. (1981) Time Series Models. New York: John Wiley
+& Sons.
+Hasanhodzic, J. and Lo, A. (2006). “Can Hedge-Fund
+Returns be Replicated?: The Linear Case.” to appear in
+Journal of Investment Management.
+Henriksson, R. (1984). “Market Timing and Mutual Fund
+Performance: An Empirical Investigation.” Journal of Busi-
+ness 57, 73–96.
+Henriksson, R. and Merton, R. (1981). “On Market Tim-
+ing and Investment Performance II: Statistical Procedures
+for Evaluating Forecast Skills.” Journal of Business 54,
+513–533.
+Jensen, M. (1968). “The Performance of Mutual Funds
+in the Period 1945–1964.”
+Journal of Finance 23,
+389–416.
+Jensen, M. (1969). “Risk, the Pricing of Capital Assets,
+and the Evaluation of Investment Performance.” Journal
+of Business 42, 167–247.
+Kaminski, K. and Lo, A. (2007). “When Do Stop-Loss
+Rules Stop Losses?” Unpublished Working Paper, MIT
+Laboratory for Financial Engineering.
+Leibowitz, M. (2005a). “Allocation Betas.” Financial Analysts
+Journal 61, 70–82.
+Leibowitz, M. (2005b). “Alpha Hunters and Beta Grazers.”
+Financial Analysts Journal 61, 32–39.
+Leibowitz, M. and Bova, A. (2007). “Gathering Implicit
+Alphas in a Beta World.” Journal of Portfolio Management
+33, 10–21.
+Leibowitz, M. and Hammond, B. (2004). “The β-Plus Mea-
+sure in Asset Allocation.” Journal of Portfolio Management
+30, 26–36.
+Lintner, J. (1965). “The Valuation of Risky Assets and the
+Selection of Risky Investments in Stock Portfolios and
+Capital Budgets.” Review of Economics and Statistics 47,
+13–37.
+Lo, A. (2002). “The Statistics of Sharpe Ratios.” Financial
+Analysts Journal 58, 36–52.
+Lo, A. and MacKinlay, C. (1999). A Non-RandomWalk Down
+Wall Street. Princeton, NJ: Princeton University Press.
+Lo, A. and Wang, J. (2006). “Trading Volume: Implications
+of an Intertemporal Capital Asset Pricing Model.” Journal
+of Finance 61, 2805–2840.
+JOURNAL OF INVESTMENT MANAGEMENT
+THIRD QUARTER 2008
+
+
+[PDF page 29]
+WHERE DO ALPHAS COME FROM?: A MEASURE OF THE VALUE OF ACTIVE INVESTMENT MANAGEMENT
+29
+Lo, A. and MacKinlay, C. (1990). “When Are Contrar-
+ian Proﬁts Due to Stock Market Overreaction?” Review of
+Financial Studies 3, 175–206.
+Magnus, J. and Neudecker, H. (1988). Matrix Differential
+Calculus: With Applications in Statistics and Economics. New
+York: John Wiley & Sons.
+Markowitz, H. (1952). “Portfolio Selection.” Journal of
+Finance 7, 77–91.
+Merton, R. (1973). “An Intertemporal Capital Asset Pricing
+Model.” Econometrica 41, 867–887.
+Merton, R. (1981). “On Market Timing and Investment Per-
+formance I: An Equilibrium Theory of Value for Market
+Forecasts.”Journal of Business 54, 363–406.
+Modigliani, F. and Modigliani, L. (1997). “Risk-Adjusted
+Performance.” Journal of Portfolio Management, Winter,
+45–54.
+Newey, W. and West, K. (1987). “A Simple Positive Def-
+inite Heteroscedasticity and Autocorrelation Consistent
+Covariance Matrix.” Econometrica 55, 703–705.
+Ross, S. (1976). “The Arbitrage Theory of Capital Asset
+Pricing.” Journal of Economic Theory 13, 341–360.
+Sharpe, W. (1964). “Capital Asset Prices: A Theory of Mar-
+ket Equilibrium under Conditions of Risk.” Journal of
+Finance 19, 425–442.
+Sharpe, W. (1966). “Mutual Fund Performance.” Journal of
+Business 39, 119–138.
+Sharpe, W. (1991). “The Arithmetic of Active Management.”
+Financial Analysts Journal 47, 7–9.
+Sharpe, W. (1992). “Asset Allocation: Management Style and
+Performance Measurement.” Journal of Portfolio Manage-
+ment 18, 7–19.
+Sharpe, W. (1994). “The Sharpe Ratio.” Journal of Portfolio
+Management 21, 49–58.
+Treynor, J. (1965). “How to Rate Management of Investment
+Funds.” Harvard Business Review 43, 63–75.
+Treynor,
+J. (2005).
+“Why Market-Valuation-Indifferent
+Indexing Works.” Financial Analysts Journal 61, 65–69.
+Treynor, J. and Black, F. (1973). “How to Use Security Anal-
+ysis to Improve Portfolio Selection.” Journal of Business 46,
+66–86.
+Treynor, J. and Mazuy, K. (1966). “Can Mutual Funds
+Outguess the Market?”
+Harvard Business Review 44,
+131–163.
+White, H. (1984). Asymptotic Theory for Econometricians.
+New York: Academic Press.
+Keywords: Performance attribution; performance
+measurement; alpha; beta; active/passive; timing;
+forecasting
+THIRD QUARTER 2008
+JOURNAL OF INVESTMENT MANAGEMENT

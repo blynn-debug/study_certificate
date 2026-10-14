@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-10-13",
+  "count": 7,
+  "items": [
+    {
+      "id": "V001",
+      "state": "future_version_excluded",
+      "source_id": "kofia_business",
+      "selected_history_seq": 1803,
+      "excluded_history_seq": 1811,
+      "reason": "현행 목록의 최신 등록본이 2026-12-01 시행이므로 2026-10-13 기준에서 제외한다.",
+      "evidence": [
+        {
+          "source_id": "kofia_business_future_20261201",
+          "url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1811&seq=136",
+          "quote": "부 칙 (2026. 9. 10)\n이 규정은 2026년 12월 1일부터 시행한다.",
+          "content_sha256": "e4e0430dc18ba099de71ab12d7691ac0d7a8b404ca8525b13fde1fde8284e284"
+        },
+        {
+          "source_id": "kofia_business",
+          "url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1803&seq=136",
+          "quote": "이 규정은 2026년 8월 19일부터 시행한다.",
+          "content_sha256": "5a424e8a20b41fef06c63c67d7613fd556d94afc66bdd2e3323ba06cf1301544"
+        }
+      ]
+    },
+    {
+      "id": "V002",
+      "state": "future_version_excluded_prior_version_effectivity_followup",
+      "source_id": "kofia_complex",
+      "selected_history_seq": 1745,
+      "excluded_history_seq": 1812,
+      "reason": "2026-12-01 개정은 제외. 2025-09-11 개정본의 연동 감독규정 시행일은 별도 확인한다.",
+      "evidence": [
+        {
+          "source_id": "kofia_complex_future_20261201",
+          "url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1812&seq=339",
+          "quote": "부 칙 (2026. 9. 10)\n이 규정은 2026년 12월 1일부터 시행한다.",
+          "content_sha256": "a5cb350da7fe46af4c8224ae5ec4a67a757d898cb3dc741cfc3ba50dc9345d65"
+        },
+        {
+          "source_id": "kofia_complex",
+          "url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1745&seq=339",
+          "quote": "이 규정은 규정변경예고(금융위원회 공고 제2025-528호)된 「금융소비자 보호에 관한 감독규정」일부개정고시(안)의 시행일부터 시행한다.",
+          "content_sha256": "5d1c8b77d8a3ffb46061828fdf144a291f481de59d8eee94054f9ccfec03c88e"
+        }
+      ]
+    },
+    {
+      "id": "V003",
+      "state": "transition_confirmed",
+      "claim_ids": [
+        "L012"
+      ],
+      "reason": "현재 시행 조문만으로 2026-06-30 이전 지정납부기한 경과분을 새 산식으로 계산하지 않는다.",
+      "evidence": [
+        {
+          "source_id": "tax_framework",
+          "url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=289999&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+          "quote": "<법률 제21212호, 2025. 12. 23.>\n제1조(시행일) 이 법은 2026년 1월 1일부터 시행한다. 다만, 제21조제2항, 제22조제4항, 제35조제2항, 제47조의4 및 제47조의5의 개정규정은 2026년 7월 1일부터 시행하고, 법률 제9911호 국세기본법 일부개정법률 제21조의 개정규정은 법률 제9346호 교통ㆍ에너지ㆍ환경세법 폐지법률의 시행일부터 시행한다.\n제2조(가산세 납세의무의 성립시기에 관한 경과조치) 2026년 6월 30일 이전에 지정납부기한이 경과한 경우의 납부지연가산세 및 원천징수 등 납부지연가산세 납세의무의 성립시기에 관하여는 제21조제2항제11호의 개정규정에도 불구하고 종전의 규정에 따른다.\n제3조(납부지연가산세에 관한 경과조치) 2026년 6월 30일 이전에 지정납부기한이 경과한 경우의 납부지연가산세의 세액 계산에 관하여는 제47조의4제1항 및 제8항의 개정규정에도 불구하고 종전의 규정에 따른다.\n제4조(원천징수 등 납부지연가산세에 관한 경과조치) 2026년 6월 30일 이전에 지정납부기한이 경과한 경우의 원천징수 등 납부지연가산세의 세액 계산에 관하여는 제47조의5제1항 및 제5항의 개정규정에도 불구하고 종전의 규정에 따른다.",
+          "content_sha256": "33644840f34b875e15696c428b8fb1703fbe1374fd20545b1609cce9eccc3b88"
+        }
+      ]
+    },
+    {
+      "id": "V004",
+      "state": "image_checked_alt_text_incomplete",
+      "claim_ids": [
+        "L027"
+      ],
+      "reason": "소득세법 제55조 최고구간 HTML 대체텍스트에 누적세액이 빠져 있다. 공식 이미지에서 3억8,406만원 + 10억원 초과액의 45%를 확인했다.",
+      "image_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=123278409",
+      "local_image": "income_tax_rates.png",
+      "image_sha256": "dc4b5dbc3860b83da1c53971893e5d9adfbba49b16da3f6b9e4f8edefc30bb0b"
+    },
+    {
+      "id": "V005",
+      "state": "image_checked",
+      "claim_ids": [
+        "L015"
+      ],
+      "reason": "고배당 특례세율의 이미지 표를 확인했다. 누진구간별 누적세액 280만원, 5,880만원, 123,380만원을 유지한다.",
+      "image_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=159288931",
+      "local_image": "special_dividend_rates.png",
+      "image_sha256": "3ff97e1baee9ce5248ea2acca334837af8d3833a0ef6e91bd231f768efbc8992"
+    },
+    {
+      "id": "V006",
+      "state": "mixed_effective_dates_require_clause_gate",
+      "claim_ids": [
+        "L025"
+      ],
+      "reason": "현행 소득세법 제14조에도 2027-01-01 시행 주석이 붙은 조각이 있다. 가상자산 등 해당 미래 조각을 현재 시행 주장으로 사용하지 않는다.",
+      "source_id": "income"
+    },
+    {
+      "id": "V007",
+      "state": "first_filing_transition_confirmed",
+      "source_id": "kofia_underwriting",
+      "claim_ids": [
+        "L089",
+        "L090",
+        "L091"
+      ],
+      "reason": "2025-12-04 및 2026-03-12 부칙을 읽고 시행일과 최초 증권신고서 적용일·유효기간을 분리했다.",
+      "evidence": [
+        {
+          "source_id": "kofia_underwriting",
+          "url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1782&seq=140",
+          "quote": "부 칙 (2025.  12.  4)\n제1조(시행일)\n이 규정은 2025년 12월 5일부터 시행한다. 다만, 제9조제14항, 제15항의 개정규정은 2025년 12월 5일 이후 최초 증권신고서 제출분부터 적용하고, 제9조제1항제5호, 같은 조 제2항제4호·제6호나목의 개정규정은 2026년 1월 1일 이후 최초 증권신고서 제출분부터 적용한다.\n제2조(불성실 수요예측참여자 지정에 관한 적용례)\n<별표1>의 개정규정은 2026년 1월 1일 이후 최초 증권신고서 제출분부터 적용하되, 그 이전에 발생한 불성실 수요예측행위에 대해서 개정규정을 적용하는 것이 불성실 수요예측 참여자에게 제재의 감면이 더 큰 경우에는 개정규정을 적용한다.\n제3조 (고위험고수익투자신탁등에 관한 적용기한)\n2023. 6.8. 부칙 제2조에도 불구하고 제2조제18호, 제5조의2제1항의 단서, 같은 조 제7항, 제9조제1항제4호, 같은 조 제2항제3호·제6호가목, 같은 조 제7항·제9항 및 제17조의2제1항제8호의 규정은 2028년 12월 31일까지 기업공개 또는 공모증자에 대한 최초 증권신고서를 제출한 경우 그 효력을 가진다.\n제4조(벤처기업투자신탁에 관한 적용기한)\n2023. 4.27. 부칙 제4조에도 불구하고 제2조제20호, 제9조제1항제5호, 같은 조 제2항제4호·제6호나목, 같은 조 제8항·제9항·제10항 및 제17조의2제1항제6호ㆍ제7호의 규정은 2028년 12월 31일까지 기업공개 또는 공모증자에 대한 최초 증권신고서를 제출한 경우 그 효력을 가진다.\n부 칙 (2026.  3.  12)\n제1조(시행일)\n이 규정은 2026년 3월 13일부터 시행한다.\n제2조(적용례)\n①  제9조제1항제7호·제7호다목, 제9조제14항 및 제9조제15항제3호의 개정규정은 2026년 4월 1일 이후 최초 증권신고서 제출분부터 적용한다.\n②  제5조제10항의 신설규정은 2026년 1월 1일 이후 코스닥시장에 상장된 건부터 적용한다.\n제3조(불성실 수요예측참여자 지정에 관한 적용례)\n제17조의2제1항제2호가목, 제3호, 제10호, 제11호, 같은 조 제4항 및 <별표1> 중 I.1.표의 개정규정(단, 비고 제외)은 2026년 4월 1일 이후 최초 증권신고서 제출분부터 적용하되, 그 이전에 발생한 불성실 수요예측행위에 대하여 개정규정을 적용하는 것이 불성실 수요예측 참여자에게 제재의 감면이 더 큰 경우에는 개정규정을 적용한다.",
+          "content_sha256": "2f224aa12936cbbe52f59151eed94ee5d212cb57c425af02ad38ca1921eb102b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_id": "s1_fed_riskretention",
+  "source_metadata": {
+    "id": "s1_fed_riskretention",
+    "requested_url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.html",
+    "retrieved_url": "https://www.federalreserve.gov/boarddocs/rptcongress/securitization/riskretention.html",
+    "retrieved_at": "2026-10-13T15:59:04.801089+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 195916,
+    "content_sha256": "2768eb92a887d93b1a27f96955939ea9a9e75cb36babdeb4e4ee8e4bb4d01aa6",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_fed_riskretention:신용보강",
+      "source_id": "s1_fed_riskretention",
+      "article": "신용보강",
+      "heading": "신용보강",
+      "text": "Common mechanisms include overcollateralization, subordination, third-party credit enhancement, R&W, conditional cash flows, and retention of credit risk. Some of these mechanisms may lead the securitizer or the originator to retain part of the credit risk of a securitization. Each mechanism is described as follows:\nTo implement overcollateralization the securitizer backs a deal with collateral that has a par value greater than the value of the liabilities sold to investors. For example, a deal with outstanding liabilities having a face value of $100 might be backed by loans with a combined principal of $110. In the event of default, the overcollateralization is available to support contractual payments to investors. In the event of no default, the overcollateralization may be returned to the securitizer.\nSubordination is related to overcollateralization. The securitizer structures the securitization so that the senior liabilities take losses only if the junior liabilities providing credit support have been completely exhausted by losses; the greater the amount of the credit support below the senior liabilities, the greater the subordination. The most junior liability in a structure is sometimes referred to as the equity piece. Having the originator or the securitizer retain the equity piece may act as an incentive alignment mechanism, because the party retaining the equity piece bears the first loss risk on the underlying assets.\nThird-party guarantees, or wraps, are insurance usually written on the seniormost tranche of a securitization. In theory, the insurers providing wraps for asset-backed securities had an incentive, through their exposure to default losses, to monitor the quality of loans backing the securities. It appears, however, that during the height of asset-backed issuance, some of these insurers did not perform adequate due diligence, suffering large losses as a result.\nRepresentations and warranties are factual statements that describe the underwriting standards and other matters with respect to the assets that are the subject of the securitization. R&W may not have begun as incentive alignment or credit enhancement mechanisms. However, the originator is, in principle, required to refund at par the value of the loan should it violate the originator's R&W about its features or should it default within a specified time from origination. During the crisis, some originators failed to repurchase loans that violated R&W.\nConditional cash flows are provisions in securities that release cash from the pool to junior securities or the originator based on the deal's performance. Should delinquency rates fall below predefined trigger levels, for example, cash reserves trapped in the trust, either supplied in advance by the securitizer or created by accumulating excess spread, would be remitted back to the securitizer.27 These conditional cash flows serve the purpose of providing extra credit support to the senior tranche holders should the underlying loans perform worse than expected. They also should, in principle, give the originator and the securitizer the incentive to deliver lower-risk loans to the pool, in hopes of meeting the triggers and, thereby, receiving the conditional cash flows themselves. The conditions under which cash is released can be quite complex, with some securities applying a series of tests at a single point in time and others applying tests each month. Examples of conditional cash flows include releases from cash reserve accounts, shifting interest structure, and early amortization.",
+      "start": 74215,
+      "end": 77793,
+      "sha256": "b03174196cc9220e390719fac55595a4d6026948ec430d2618c573325cee3dc0"
+    },
+    {
+      "id": "s1_fed_riskretention:카드리볼빙",
+      "source_id": "s1_fed_riskretention",
+      "article": "카드리볼빙",
+      "heading": "카드리볼빙",
+      "text": "The credit card ABS issued by the master trust generally have maturities ranging from 1 to 10 years. Initially, investors in these securities receive only interest payments, and the securitizer uses the principal payments to purchase new receivables from the accounts designated to the master trust. Toward the end of the security's life, the principal payments accumulate in an account and are released to the investor in one \"bullet\" payment at the end.",
+      "start": 45609,
+      "end": 46064,
+      "sha256": "0e7200051fbd8e88e4c5951ff52cd4c3157804f305523be9f7319cd4ffbdbdb6"
+    },
+    {
+      "id": "s1_fed_riskretention:CLO",
+      "source_id": "s1_fed_riskretention",
+      "article": "CLO",
+      "heading": "CLO",
+      "text": "CLOs involve the securitization of senior secured corporate loans that are typically made to non-investment-grade borrowers. CLOs can be divided into two subcategories: broadly syndicated CLOs and middle-market CLOs. Broadly syndicated CLOs are collateralized by syndicated loans to large borrowers. These loans may be purchased in the primary or secondary market. Consistent with the underlying loans being syndicated, a CLO typically owns a partial interest in a particular loan, while the remainder of the loan is held by other investors, including banks, institutional investors, and other CLOs. Middle-market CLOs are collateralized by loans to relatively smaller borrowers and tend to be securitized by the originator of the loans (for example, a finance company).",
+      "start": 51910,
+      "end": 52680,
+      "sha256": "bc78b79d6620d722ec44427199c0c382004604c1c71bcad515fa96b0f851e0e5"
+    },
+    {
+      "id": "s1_fed_riskretention:외부지원",
+      "source_id": "s1_fed_riskretention",
+      "article": "외부지원",
+      "heading": "외부지원",
+      "text": "Securitizers of ABCP conduits generally are large U.S. and foreign banks, although mortgage lenders, finance companies, and asset managers have also been active to some extent. The assets may be originated by the bank securitizer (for example, credit card receivables), or the securitizer may aggregate assets from various originators for securitization (for example, trade receivables from various clients of the bank). Securitizers may provide liquidity and credit support to the ABCP conduit, either directly if it is a financial institution or by obtaining lines from other entities.",
+      "start": 58758,
+      "end": 59345,
+      "sha256": "9495347c700f94c2a4f0ecc22ec618711c402b7b9f26b6c624a610b8b6c22f1e"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "capital_law",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=288615&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=288615&chrClsCd=010202&urlMode=lsInfoP&efYd=20261002&ancYnChk=0",
+  "retrieved_at": "2026-10-12T23:53:27.646992+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 1650,
+  "content_sha256": "574d07fdc927a3a3cf1c1d23b5082624c89ae38d7da67ca263dad89756fd4430",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "2"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

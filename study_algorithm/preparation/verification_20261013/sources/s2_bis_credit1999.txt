@@ -1,0 +1,2609 @@
+[PDF page 1]
+CREDIT RISK MODELLING:
+CURRENT PRACTICES
+AND
+APPLICATIONS
+Basle Committee on Banking Supervision
+Basle
+April 1999
+
+
+[PDF page 2]
+TABLE OF CONTENTS
+List of Participants
+Executive Summary
+Part I:
+Introduction
+1. Overview ...............................................................................................   8
+2. Internal Applications of Credit Risk Models ........................................   9
+3. Key Challenges to Regulatory Application............................................ 10
+4. Organisation of Report ........................................................................... 11
+Part II:
+Overview of Conceptual Approaches to Credit Risk Modelling
+1. Economic Capital Allocation ................................................................. 13
+A. Probability Density Function of Credit Losses ............................. 13
+B. Key Issues ...................................................................................... 16
+2. Measuring Credit Loss ........................................................................... 16
+A. Time Horizon ................................................................................ 16
+B. Default-Mode Paradigm................................................................. 17
+An Illustration: The Mean/Standard Deviation Approach ............ 18
+Internal Risk Rating Systems, EDFs, Transition Matrices ............ 19
+C. Mark-to-Market Paradigm ............................................................. 22
+Discounted Contracual Cash Flow Approach............................... 22
+Risk-Neutral Valuation Approach.................................................. 23
+D. Key Issues...................................................................................... 24
+3. Probability Density Functions................................................................ 26
+A. Measurement.................................................................................. 26
+B. Key Issues ...................................................................................... 27
+4. Conditional versus Unconditional Models............................................. 28
+A. Definition of Approaches............................................................... 28
+B. Key Issues ...................................................................................... 29
+
+
+[PDF page 3]
+5. Approaches to Credit Risk Aggregation ................................................ 29
+A. Top-Down and Bottom-Up Approaches........................................ 29
+B. Key Issues ...................................................................................... 30
+6. Correlations between Credit Events....................................................... 31
+A. Overview........................................................................................ 31
+B. Cross-Correlations between Different Events................................ 31
+C. Correlations Among Defaults or Ratings Migrations .................... 32
+Structural Models........................................................................... 32
+Reduced-Form Models................................................................... 32
+D. Key Issues...................................................................................... 33
+Part III:
+Parameter Specification and Estimation
+1. LGDs (loss rate given defaults).............................................................. 35
+A. Modelling Assumptions................................................................. 36
+B. Estimation ...................................................................................... 36
+C. Key Issues ...................................................................................... 37
+2. Defaults/Rating Migrations.................................................................... 38
+A. Estimation of EDFs/Transition Matrices ....................................... 38
+Actuarial-Based Approaches ......................................................... 38
+Equity-Based Approach ................................................................. 39
+B. Key Issues ...................................................................................... 39
+3. Correlations Among Default and/or Rating Transitions ........................ 41
+A. Estimation...................................................................................... 41
+Actuarial-Based Methods............................................................... 42
+Equity-Based Method..................................................................... 43
+B. Key Issues ...................................................................................... 43
+4. Credit Spreads ........................................................................................ 45
+A. Overview........................................................................................ 45
+B. Key Issues ...................................................................................... 45
+5. Exposure Levels ..................................................................................... 45
+A. Overview........................................................................................ 45
+B. Key Issues ...................................................................................... 46
+
+
+[PDF page 4]
+6. Implemetation: Data Gathering and System Capabilities ...................... 47
+A. Data Availability and System Capabilities .................................... 47
+B. Key Issues ...................................................................................... 48
+Part IV:
+Validation
+1. Summary of Validation Policies and Issues........................................... 50
+A. Differences in Credit Versus Market Risk Models........................ 50
+B. Key Issues ...................................................................................... 50
+2. Backtesting............................................................................................. 51
+A. Overview........................................................................................ 51
+B. Key Issues ...................................................................................... 51
+3. Stress Testing ......................................................................................... 53
+A. Overview........................................................................................ 53
+B. Key Issues ...................................................................................... 53
+4. Sensitivity Analysis................................................................................ 53
+A. Overview........................................................................................ 53
+B. Key Issues ...................................................................................... 53
+5. Management Oversight and Reporting................................................... 54
+A. Overview........................................................................................ 54
+B. Key Issues ...................................................................................... 54
+Appendix: Matrix of Key Issues .............................................................................
+ 55
+
+
+[PDF page 5]
+Models Task Force
+Chairperson:
+Danièle Nouy, Secretary General
+Basle Committee on Banking Supervision
+Commission Bancaire et Financière, Brussels
+Patrick Massin
+Office of the Superintendent of Financial Institutions, Ottawa
+Richard Gresser
+Commission Bancaire,
+Evelyn Guilly
+Paris
+C. K. Tran
+Deutsche Bundesbank, Frankfurt am Main
+Roland Raskopf
+Bundesaufsichtsamt für das Kreditwesen, Berlin
+Uwe Traber
+Banca d’Italia, Rome
+Sebastiano Laviola
+The Bank of Japan, Tokyo
+Akira Ieda
+Financial Supervisory Agency, Tokyo
+Tomomichi Tomiie
+Commission de Surveillance du Secteur Financier, Luxembourg
+Isabelle Goubin
+De Nederlandsche Bank N.V., Amsterdam
+Ad Huijser
+Finansinspektionen, Stockholm
+Mats Stenhammar
+Sekretariat der Eidgenössische Bankenkommission, Bern
+Uwe Steinhauser
+Swiss National Bank, Zürich
+Christian Braun
+Financial Services Authority, London
+Alan Cathcart
+Bank of England, London
+Pamela Nickell
+Board of Governors of the Federal Reserve System,
+James Houpt
+Washington, DC
+David Jones
+Federal Reserve Bank of New York,
+Brian Peters
+New York
+Marc Saidenberg
+Office of the Comptroller of the Currency, Washington, DC
+Roger Tufts
+Federal Deposit Insurance Corporation, Washington, DC
+Miguel Brown
+Secretariat of the Basle Committee on Banking
+Zahra El-Mekkawy
+Supervision, Bank for International Settlements
+Former Members who Participated in the Study
+The Bank of Japan, Tokyo
+Nobuyuki Oda
+Financial Supervisory Agency, Tokyo
+Kozo Ishimura
+Sekretariat der Eidgenössische Bankenkommission, Bern
+Susanne Brandenberger
+Swiss National Bank, Zürich
+Christian Walter
+Office of the Comptroller of the Currency, London
+Ron Pasch
+Secretariat of the Basle Committee on Banking
+Erik Musch (former Chairperson)
+Supervision, Bank for International Settlements
+Kim Olson
+
+
+[PDF page 6]
+Credit Risk Modelling: Current Practices and Applications
+Executive Summary
+1.
+Summary and objectives
+Over the last decade, a number of the world’s largest banks have developed
+sophisticated systems in an attempt to model the credit risk arising from important aspects of
+their business lines. Such models are intended to aid banks in quantifying, aggregating and
+managing risk across geographical and product lines. The outputs of these models also play
+increasingly important roles in banks’ risk management and performance measurement
+processes, including performance-based compensation, customer profitability analysis, risk-
+based pricing and, to a lesser (but growing) degree, active portfolio management and capital
+structure decisions. The Task Force recognises that credit risk modelling may indeed prove to
+result in better internal risk management, and may have the potential to be used in the
+supervisory oversight of banking organisations. However, before a portfolio modelling
+approach could be used in the formal process of setting regulatory capital requirements for
+credit risk, regulators would have to be confident not only that models are being used to
+actively manage risk, but also that they are conceptually sound, empirically validated, and
+produce capital requirements that are comparable across institutions. At this time, significant
+hurdles, principally concerning data availability and model validation, still need to be cleared
+before these objectives can be met, and the Committee sees difficulties in overcoming these
+hurdles in the timescale envisaged for amending the Capital Accord.
+Models have already been incorporated into the determination of capital requirements
+for market risk. However, credit risk models are not a simple extension of their market risk
+counterparts for two key reasons:
+• Data limitations: Banks and researchers alike report data limitations to be a key
+impediment to the design and implementation of credit risk models. Most credit
+instruments are not marked to market, and the predictive nature of a credit risk model
+does not derive from a statistical projection of future prices based on a
+comprehensive record of historical prices. The scarcity of the data required to
+estimate credit risk models also stems from the infrequent nature of default events
+and the longer-term time horizons used in measuring credit risk. Hence, in specifying
+
+
+[PDF page 7]
+2
+model parameters, credit risk models require the use of simplifying assumptions and
+proxy data. The relative size of the banking book – and the potential repercussions on
+bank solvency if modelled credit risk estimates are inaccurate – underscore the need
+for a better understanding of a model’s sensitivity to structural assumptions and
+parameter estimates.
+• Model validation: The validation of credit risk models is fundamentally more
+difficult than the backtesting of market risk models. Where market risk models
+typically employ a horizon of a few days, credit risk models generally rely on a time
+frame of one year or more. The longer holding period, coupled with the higher
+confidence intervals used in credit risk models, presents problems to model-builders
+in assessing the accuracy of their models. By the same token, a quantitative
+validation standard similar to that in the Market Risk Amendment would require an
+impractical number of years of data, spanning multiple credit cycles.
+The Committee welcomes additional efforts in addressing these and other key issues,
+and looks forward to a constructive dialogue with the industry. The Committee is seeking
+comments on this report from all interested parties by 1 October 1999.
+* * * * * * * *
+
+
+[PDF page 8]
+3
+This report on credit risk modelling will serve two primary purposes:
+• Provide a description of current practices and issues in credit risk modelling. The
+foundation for this review includes material culled from public conferences and
+private presentations by market practitioners, including banking institutions, model
+vendors and researchers. The report is also based on the results of an extensive
+survey conducted by the Task Force of modelling practices at 20 large international
+banks located in 10 countries.
+• Assess the potential applications and limitations of credit risk models for supervisory
+and/or regulatory purposes. In this regard, the future analysis and conclusions of the
+Task Force will be considered in the context of the Basle Committee’s overall review
+of the Capital Accord.
+2.
+Potential benefits of credit risk models
+• Banks’ credit exposures typically cut across geographical locations and product lines.
+The use of credit risk models offers banks a framework for examining this risk in a
+timely manner, centralising data on global exposures and analysing marginal and
+absolute contributions to risk. These properties of models may contribute to an
+improvement in a bank’s overall ability to identify, measure and manage risk.
+• Credit risk models may provide estimates of credit risk (such as unexpected loss)
+which reflect individual portfolio composition; hence, they may provide a better
+reflection of concentration risk compared to non-portfolio approaches.
+• By design, models may be both influenced by, and be responsive to, shifts in
+business lines, credit quality, market variables and the economic environment.
+Consequently, modelling methodology holds out the possibility of providing a more
+responsive and informative tool for risk management.
+• In addition, models may offer: (a) the incentive to improve systems and data
+collection efforts; (b) a more informed setting of limits and reserves; (c) more
+accurate risk- and performance-based pricing, which may contribute to a more
+transparent decision-making process; and (d) a more consistent basis for economic
+capital allocation.
+• From a supervisory perspective, the development of modelling methodology and the
+consequent improvements in the rigour and consistency of the risk management
+
+
+[PDF page 9]
+4
+processes relating to some parts of banks’ credit portfolios also hold significant
+appeal. In contrast to the current approach of the Capital Accord, a models-based
+approach may bring capital requirements into closer alignment with the perceived
+riskiness of underlying assets and portfolio concentrations. As such, it may allow a
+more comprehensive measure of capital requirements for credit risk and an improved
+distribution of capital within the financial system. Furthermore, the flexibility of
+models in adapting to changes in the economic environment and innovations in
+financial products may reduce the incentive for banks to engage in regulatory capital
+arbitrage.
+While the above points highlight various benefits of the modelling process, there are
+still a number of significant hurdles, discussed below, that need to be overcome before a
+modelling approach may be evaluated for use in the setting of regulatory capital requirements.
+3. 
+Summary of issues
+In its evaluation of models, the Task Force separated the issues it identified into three
+main categories: conceptual methodology, parameter specification and estimation, and
+validation. Some major points regarding these categories are discussed in the subsequent
+section. (The Appendix to the report provides a matrix summary of other key issues.)
+Conceptual methodology
+The Task Force observed a range of practices in the conceptual approaches to
+modelling. We would welcome a dialogue with the industry in order to assess the materiality
+of these choices on a model’s accuracy and their impact on the size of required capital if
+models were to be used for regulatory purposes. The different choices observed include the
+following:
+• Different approaches to the measurement of credit loss. Most banks employ either of
+two conceptual definitions of credit loss: the default-mode paradigm, in which a
+credit loss arises only if a borrower defaults within the planning horizon, and the
+mark-to-market (or more accurately, mark to model) paradigm, in which credit
+deterioration short of default is also incorporated. Banks may also choose to adopt
+different time horizons for monitoring credit risk.
+• Different methodologies for the measurement of exposure and loss given default. For
+example, in measuring exposure to a line of credit, some banks employ a largely
+
+
+[PDF page 10]
+5
+judgemental approach for estimating recovery values of loans in the event of default,
+while others rely on more empirically based techniques.
+• Unconditional and conditional models. Unconditional models typically reflect
+(relatively limited) borrower or facility-specific information, while conditional
+models also incorporate information on the state of the economy.
+• Different approaches to the aggregation of credit risk. Credit risk may be measured at
+the individual asset level, as is typically the case with large corporate and capital
+market instruments; conversely, aggregate (pooled) data may be used to quantify the
+risk of smaller loans with similar risk profiles.
+• Different techniques for measuring the interdependence of factors that contribute to
+credit losses. For example, banks may utilise various methods for measuring the
+correlation between defaults and rating migrations.
+Parameter specification and estimation
+• The specification of the process of default and rating migration is severely
+constrained by a lack of data on the historical performance of loans and other
+modelled variables. The difficulties in the estimation of key parameters are
+exacerbated by the long time horizons used in credit risk models, which suggest that
+many years of data, spanning multiple credit cycles, may be needed to estimate the
+process of default. Even if individual default probabilities could be modelled
+accurately, the process of combining these for a portfolio might still be hampered by
+the scarcity of data with which to estimate reliably the correlations between
+numerous variables.
+• The data limitations also encourage the use of various simplifying assumptions, for
+example: (a) the determinants of credit loss are assumed to be independent from one
+another; (b) certain variables, such as the level of loss given default in some models,
+are treated as non-random variables, while estimated parameters and structural model
+assumptions are treated as if they were “true” (i.e. known with certainty); (c)
+borrowers within pre defined risk segments are taken to be statistically identical; and
+(d) model parameters are assumed to be stable. These assumptions are often based on
+subjective judgements, and there is generally little empirical analysis supporting the
+choices made by model-builders. It is also not yet standard practice to conduct
+sensitivity testing of a model’s vulnerability to such assumptions. In practice, the
+
+
+[PDF page 11]
+6
+estimation of some model parameters, such as the assignment of an internal loan
+grading or assignment of an obligor to one or more industry sectors, may also require
+some judgement. The impact of such judgements or assumptions on model accuracy
+is not well understood.
+• Due to the current limitations on internal default data, model parameters often
+reflect, to some degree, the pooling of information from several sources. The
+reliability of such data, and its comparability with a bank’s own portfolio
+characteristics or default experience, is a key consideration in evaluating model
+accuracy.
+Validation
+• If internal models were to be used in setting regulatory capital requirements,
+regulators would need some means of ensuring that a bank’s internal model
+represents accurately the level of risk inherent in the portfolio and the required
+regulatory capital. For market risk models, backtesting provides a way of continually
+checking model performance.
+• Banks have indicated the use of higher confidence intervals in the measurement of
+credit risk than those used for market risk. It is unclear whether such high confidence
+intervals can be estimated reasonably accurately, and it is not yet well understood
+what the effect of modelling assumptions is on the extreme tails of the distributions,
+and hence on the amount of capital needed to support risk-taking. Furthermore, there
+is still an issue as to whether the use of high confidence intervals would produce
+capital requirements that are highly model-dependent, or are not comparable across
+institutions. It is this and other constraints that highlight the challenges and
+importance of both the internal and external validation processes.
+• At present, there is no commonly accepted framework for periodically verifying the
+accuracy of credit risk models; going forward, methods such as sensitivity testing are
+likely to play an important role in this process. Finally, it is important to note that the
+internal environment in which a model operates – including the amount of
+management oversight, the quality of internal controls, the rigour of stress testing,
+the reporting process and other traditional features of the credit culture – will also
+continue to play a key part in the evaluation of a bank’s risk management framework.
+
+
+[PDF page 12]
+7
+PART I: INTRODUCTION
+
+
+[PDF page 13]
+8
+1.
+Overview
+Over the last decade, a number of the world’s major banks have developed sophisticated
+systems to quantify and aggregate credit risk across geographical and product lines. The
+initial interest in credit risk models stemmed from the desire to develop more rigorous
+quantitative estimates of the amount of economic capital needed to support a bank’s risk-
+taking activities. As the outputs of credit risk models have assumed an increasingly large role
+in the risk management processes of large banking institutions, the issue of their potential
+applicability for supervisory and regulatory purposes has also gained prominence.
+This report provides a description of the state of practice in credit risk modelling, and
+assesses the potential uses of credit risk models for supervisory and/or regulatory purposes,
+including the setting of regulatory capital requirements. In preparing this report, the Basle
+Committee’s Models Task Force (the “Task Force”) reviewed material culled from numerous
+public conferences and private presentations by market practitioners, and conducted an
+extensive survey of modelling practices at 20 banking institutions located in 10 countries.
+This review highlighted the wide range of practices both in the methodology used to develop
+the models and in the internal applications of the models’ output. This exercise also
+underscored a number of challenges and limitations to current modelling practices.
+ From a supervisory perspective, the development of modelling methodology and
+the consequent improvements in the rigour and consistency of credit risk measurement hold
+significant appeal. These improvements in risk management may, according to national
+discretion, be acknowledged in supervisors’ assessment of banks’ internal controls and risk
+management practices.
+From a regulatory perspective, the flexibility of models in responding to changes
+in the economic environment and innovations in financial products may reduce the incentive
+for banks to engage in regulatory capital arbitrage. Furthermore, a models-based approach
+may also bring capital requirements into closer alignment with the perceived riskiness of
+underlying assets, and may produce estimates of credit risk that better reflect the composition
+of each bank’s portfolio. However, before a portfolio modelling approach could be used in the
+formal process of setting regulatory capital requirements, regulators would have to be
+
+
+[PDF page 14]
+9
+confident that models are not only well integrated with banks’ day-to-day credit risk
+management, but are also conceptually sound, empirically validated, and produce capital
+requirements that are comparable across institutions. At this time, significant hurdles –
+principally concerning data limitations and weaknesses in model validation – still need to be
+cleared before these objectives can be met. Indeed, it is these two key issues that differentiate
+credit risk models from their market risk counterparts. The Task Force sees difficulties in
+overcoming these hurdles in the timescale envisaged for amending the Accord.
+2.
+Internal Applications of Credit Risk Models
+Credit risk modelling methodologies allow a tailored and flexible approach to price
+measurement and risk management. Models are, by design, both influenced by and responsive
+to shifts in business lines, credit quality, market variables and the economic environment.
+Furthermore, models allow banks to analyse marginal and absolute contributions to risk, and
+reflect concentration risk within a portfolio. These properties of models may contribute to an
+improvement in a bank’s overall credit culture.
+The degree to which models have been incorporated into the credit management and
+economic capital allocation process varies greatly between banks. While some banks have
+implemented systems that capture most exposures throughout the organisation, others only
+capture exposures within a given business line or legal entity. Additionally, banks have
+frequently developed separate models for corporate and retail exposures, and not all banks
+capture both kinds of exposures.
+The internal applications of model output also span a wide range, from the simple to the
+complex. For example, only a small proportion of the banks surveyed by the Task Force is
+currently using outputs from credit risk models in active portfolio management; however, a
+sizable number noted they plan to do so in the future. Current applications included: (a)
+setting of concentration and exposure limits; (b) setting of hold targets on syndicated loans;
+(c) risk-based pricing; (d) improving the risk/return profiles of the portfolio; (e) evaluation of
+risk-adjusted performance of business lines or managers using risk-adjusted return on capital
+(“RAROC”); and (f) economic capital allocation. Institutions also rely on model estimates for
+setting or validating loan loss reserves, either for direct calculations or for validation
+purposes.
+
+
+[PDF page 15]
+10
+3.
+Key Challenges to Regulatory Application
+The Task Force recognises that credit risk modelling may indeed prove to result in
+better internal risk management at banking institutions. However, key hurdles, principally
+concerning data limitations and model validation, must be cleared before models may be used
+in the process of setting regulatory capital requirements.
+The specification of the process of default and other factors leading to changes in credit
+quality is severely constrained by a lack of data on the historical performance of loans and
+other modelled variables. The difficulties in specification are exacerbated by the longer-term
+time horizons used in measuring credit risk, which suggest that many years of data, spanning
+multiple credit cycles, may be needed to estimate key parameters accurately. Therefore, due
+to the current limitations, model parameters often reflect, to some degree, the use of
+simplifying assumptions and the pooling of information from several sources. The materiality
+of these choices on the model’s estimate of risk is unclear as it is not yet standard practice to
+conduct sensitivity testing of a model’s vulnerability to such assumptions.
+Before internal models could be used to set regulatory capital requirements, regulators
+would need some means of ensuring that a bank’s internal models accurately represent the
+level of risk inherent in the portfolio. The effect of modelling assumptions on estimates of the
+extreme tails of the distributions is not well understood. It is unclear whether the high target
+credit loss quantiles used in the measurement of credit risk, and the resulting estimates of
+economic capital, can be estimated with an acceptable degree of precision. For market risk
+models, backtesting provides a way of continually checking model performance. At present,
+there is no commonly accepted framework for periodically verifying the accuracy of credit
+risk models. Were models to be used for regulatory purposes, supervisors would need to rely
+on internal and external validation procedures, and might be required to develop both
+qualitative and quantitative standards to ensure that modelling processes are reasonable and
+the quality of output is comparable across banking institutions.
+The Task Force welcomes additional efforts in addressing these and other key issues,
+and hopes to engage the industry in a constructive dialogue going forward. .The Committee is
+seeking comments on this report from all interested parties by 1 October 1999.
+
+
+[PDF page 16]
+11
+4.
+Organisation of The Report
+The remainder of this report is organised as follows: Part II presents an analysis of the
+conceptual approaches to credit risk modelling. Part III focuses on the various methodologies
+used for parameter estimation. Finally, Part IV addresses model validation practices at major
+banking institutions. In each section of the report, the discussion of the concepts and practices
+is followed by a subsection that highlights the key issues raised. The Appendix contains a
+matrix summary of the key issues.
+
+
+[PDF page 17]
+12
+PART II: OVERVIEW OF CONCEPTUAL APPROACHES TO
+CREDIT RISK MODELLING
+
+
+[PDF page 18]
+13
+In surveying a significant number of credit risk models, the Task Force encountered a
+range of conceptual modelling approaches.  In this report, we do not propose to make a
+taxonomy of these approaches, but aim to discuss key elements of the different methodologies
+we reviewed. We begin this section by introducing the concepts of economic capital
+allocation and the probability density function of credit loses, then move on to a discussion of
+various constituent elements of credit risk models. These are:  (1) choice of time horizon and
+review of default-mode and mark-to-market approaches to measuring credit loss; (2)
+probability density functions; (3) conditional/unconditional models; (4) approaches to credit
+aggregation; and (5) approaches to dependence between default events (default correlations,
+etc.).
+The choices of conceptual methodology that a bank makes when building a credit risk
+model are largely subjective ones, based on considerations such as the characteristics of the
+bank’s loan portfolio and its credit culture. While this section raises many conceptual issues
+regarding the various approaches, the question of the materiality of each is an empirical one.
+As such, the Committee welcomes further dialogue with the industry in order to assess the
+impact of these choices on a model’s accuracy and performance.
+1.
+Economic Capital Allocation for Credit Risk
+A.
+Probability density function of credit losses
+When estimating the amount of economic capital needed to support their credit risk
+activities, many large sophisticated banks employ an analytical framework that relates the
+overall required economic capital for credit risk to their portfolio’s probability density
+function of credit losses (PDF), which is the primary output of a credit risk model. Exhibit 1
+illustrates this relationship. A bank would use its credit risk modelling system (described in
+detail below) to estimate such a PDF. An important property of a PDF is that the probability
+of credit losses exceeding a given amount X (along the x-axis) is equal to the (shaded) area
+under the PDF to the right of X. A risky portfolio, loosely speaking, is one whose PDF has a
+relatively long and fat tail. The expected credit loss (shown as the left-most vertical line)
+shows the amount of credit loss the bank would expect to experience on its credit portfolio
+over the chosen time horizon. Banks typically express the risk of the portfolio with a measure
+of unexpected credit loss (i.e. the amount by which actual losses exceed the expected loss)
+
+
+[PDF page 19]
+14
+such as the standard deviation of losses or the difference between the expected loss and some
+selected target credit loss quantile.
+The estimated economic capital needed to support a bank’s credit risk exposure is
+generally referred to as its required economic capital for credit risk. The process for
+determining this amount is analogous to value at risk (VaR) methods used in allocating
+economic capital against market risks. Specifically, the economic capital for credit risk is
+determined so that the estimated probability of unexpected credit loss exhausting economic
+capital is less than some target insolvency rate.1
+Capital allocation systems generally assume that it is the role of reserving policies to
+cover expected credit losses, while it is that of economic capital to cover unexpected credit
+losses. Thus, required economic capital is the additional amount of capital necessary to
+achieve the target insolvency rate, over and above that needed for coverage of expected
+losses. In Exhibit 1, for a target insolvency rate equal to the shaded area, the required
+economic capital equals the distance between the two dotted lines.2 Broadly defined, a credit
+risk model encompasses all of the policies, procedures and practices used by a bank in
+estimating a credit portfolio’s PDF.
+                                                
+1
+ In practice, the target insolvency rate is often chosen to be consistent with the bank’s desired credit rating,
+although this insolvency rate would have to take into account risks other than credit risk in order to be
+meaningful. For example, if the desired credit rating is AA, the target insolvency rate might equal the historical
+one-year default rate for AA-rated corporate bonds (about 3 basis points).
+2
+The majority of banks considers economic and regulatory capital to be independent from one another and
+thus does not incorporate regulatory capital requirements in the calculation of economic capital. However, a few
+institutions appear to incorporate the costs of regulatory capital into their pricing methodology. This may be
+reflected in the inclusion of a regulatory capital “surcharge” when allocating capital across product lines. This
+add-on aims to reflect a regulatory burden if regulatory capital requirements exceed economic capital
+requirements. (In theory, banks could also include a regulatory capital credit in instances where economic capital
+calculations are higher.) Furthermore, while approximately half the surveyed banks allocated economic capital
+against credit risks, a few of these banks continue to use regulatory – rather than economic – capital
+requirements for risk-adjusted performance measurement, though they plan on moving towards the latter.
+
+
+[PDF page 20]
+15
+Exhibit 1
+
+
+[PDF page 21]
+16
+B.
+Key Issues
+• 
+Given that most of the credit risk models reviewed are still in an introductory
+phase, most of the institutions surveyed by the Task Force have not fully allocated
+capital along various product types or business lines. The frequency with which
+banks revisit economic capital allocation decisions also varies, from monthly to
+yearly. Most allocate capital and profit/loss on a somewhat micro basis, such as at
+a sub-portfolio, business or product line level, rather than at the bank level.
+2.
+Measuring Credit Loss
+In general, a portfolio’s credit loss is defined as the difference between (a) the
+portfolio’s current value and (b) its future value at the end of some time horizon. The
+estimation of the current portfolio’s PDF involves estimating (a) the portfolio’s current value
+and (b) the probability distribution of its future value at the end of the planning horizon. The
+precise definitions of current and future values – and, hence, virtually all of the operational
+details of the credit risk model – follow from the specific concept of credit loss that is of
+interest to the model-builder. Within the current generation of credit risk models, banks
+employ either of two conceptual definitions of credit loss, termed the default mode (DM)
+paradigm or the mark-to-market (MTM) paradigm. The remainder of this section discusses
+the choice of time horizon, followed (in sections B and C) by a discussion of the alternative
+loss paradigms.
+A.
+Time horizon
+A bank’s decision on the time horizon over which it monitors credit risk can follow one
+of two approaches. First is the “liquidation period” approach, in which each facility is
+associated with a unique interval, coinciding with the instrument’s maturity or with the time
+needed for its orderly liquidation. Alternatively, an institution may choose to apply a common
+time horizon across all asset classes.
+Most of the banks surveyed adopt a one-year time horizon across all asset classes. A
+minority utilise a five-year approach or modelled losses over the maturity of the exposure. A
+small number use other horizons, while some noted they might run their models for more than
+one horizon. A number of vendor models allow users to select an asset-specific (or portfolio-
+specific) holding period horizon based on the unique structure of each underlying exposure.
+
+
+[PDF page 22]
+17
+The considerations mentioned for the choice of a modelling horizon of one year were
+that this reflected the typical interval over which: (a) new capital could be raised; (b) loss
+mitigating action could be taken to eliminate future risk from the portfolio; (c) new obligor
+information could be revealed; (d) default rate data may be published; (e) internal budgeting,
+capital planning and accounting statements are prepared; and (f) credits are normally
+reviewed for renewal. For the banks that chose a “hold-to-maturity” approach, the
+considerations included the following: (a) exposures were intended to be held to maturity; and
+(b) there were limited markets in which the credits could be traded.
+B.
+Default mode paradigm
+Within the DM paradigm, a credit loss arises only if a borrower defaults within the
+planning horizon. To illustrate, consider a standard term loan. In the absence of a default
+event, no credit loss would be incurred. In the event that a borrower defaults, the credit loss
+would reflect the difference between the bank’s credit exposure (the amount it is owed at the
+time of default) and the present value of future net recoveries (cash payments from the
+borrower less workout expenses).
+The current and future values of credit instruments in the DM paradigm are defined in a
+manner consistent with the underlying two-state (default vs. non-default) notion of credit
+losses. For a term loan, the current value would typically be measured as the bank’s credit
+exposure (e.g., book value). The (uncertain) future value of the loan, however, would depend
+on whether or not the borrower defaults during the planning horizon. If the borrower does not
+default, the loan’s future value would normally be measured as the bank’s credit exposure at
+the end of the planning horizon, adjusted so as to add back any principal payments made over
+the period. On the other hand, if the borrower were to default, the loan’s future value (per
+dollar of current value at the beginning of the horizon) would be measured as one minus its
+loss rate given default (LGD). The lower the LGD, the higher the recovery rate following
+default.
+Note that at the time the credit risk model is being used to estimate the portfolio’s PDF
+– the beginning of the planning horizon – the current values of credit instruments are assumed
+to be known, but their future values are uncertain. Within DM-type credit risk models,
+therefore, for each separate credit facility (e.g. loan vs. commitment vs. counterparty risk) a
+bank must impose or estimate the joint probability distribution with respect to three types of
+
+
+[PDF page 23]
+18
+random variables: (1) the bank’s associated credit exposure,3 (2) a zero/one indicator denoting
+whether the facility defaults during the planning horizon, and (3) in the event of default, the
+associated LGD. In addition, to derive the PDF for the bank as a whole, the model-builder
+must determine the joint distribution of these variables across the different facilities
+comprising the portfolio.
+An illustration: the mean/standard deviation approach
+To illustrate the above concepts, it is useful to relate the above variables to the mean
+and standard deviation of a portfolio’s credit losses.4 Some systems for allocating economic
+capital against credit risk typically assume that the shape of the PDF is well-approximated by
+some family of distributions (e.g. the beta distribution) that could be parameterised by the
+mean and standard deviation of the portfolio’s losses.5 Market practitioners generally term
+this methodology the unexpected losses (UL) approach. Under the UL approach, the
+economic capital allocation process generally simplifies to setting capital at some multiple of
+the estimated standard deviation of the portfolio’s credit losses.
+Within the DM paradigm, the UL approach requires estimates of a portfolio’s expected
+and unexpected credit loss. A portfolio’s expected credit loss 
+)
+( µ over the assumed time
+horizon equals the summation of the expected losses for the individual credit facilities:
+LGD
+LEE
+EDF
+ 
+=
+ 
+   
+(1)
+i
+i
+i
+N
+=1
+i
+ 
+ 
+∑
+µ
+where for the ith facility, LGDi is the expected loss rate given default, EDF i is the facility’s
+expected probability of default (often termed the expected default frequency or EDF), and
+LEEi is the bank’s expected credit exposure (often termed the loan equivalent exposure or
+LEE).
+                                                
+3 
+As described below, for certain types of credit instruments, such as commitments and OTC derivatives, a
+bank’s credit exposure over the planning horizon is generally not known with certainty.
+4 
+At some risk of inconsistent terminology, practitioners often refer to the standard deviation of credit losses as
+the portfolio’s unexpected loss.
+5
+ Recent advances in computing capabilities have made it more feasible to estimate PDFs using Monte Carlo
+simulation methods.
+
+
+[PDF page 24]
+19
+The portfolio’s standard deviation of credit losses (σ ) can be decomposed into the
+contribution from each of the individual credit facilities:
+ρ
+σ
+σ
+i
+i
+N
+=1
+i
+ 
+ 
+=
+ 
+   
+(2)
+∑
+,
+whereσ i denotes the stand-alone standard deviation of credit losses for the ith facility, and ρi
+denotes the correlation between credit losses on the ith facility and those on the overall
+portfolio.6 The parameter ρi captures the ith facility’s correlation/diversification effects with
+the other instruments in a bank’s credit portfolio. Other things being equal, higher correlations
+among credit instruments – represented by higher ρi – lead to a higher standard deviation of
+credit losses for the portfolio as a whole.
+Under the further assumptions that (a) each facility’s exposure is known with certainty,
+(b) customer defaults and LGDs are independent of one another, and (c) LGDs are
+independent across borrowers, the stand-alone standard deviation of credit losses for the ith
+facility can be expressed as
+VOL
+ 
+EDF
+ 
++
+ 
+LGD
+ )
+EDF
+ - 
+(1
+ 
+EDF
+ 
+LEE
+ 
+=
+ 
+   
+(3)
+2
+i
+i
+2
+i
+i
+i
+i
+i
+σ
+,
+where VOL is the standard deviation of the facility’s LGD.
+These equations provide a convenient way of summarising the overall portfolio’s credit
+risk (within the DM framework) in terms of each instrument’s 
+VOL,
+ ,
+LGD
+ ,
+ 
+EDF, ρ
+ and LEE.
+They also serve to highlight those aspects of the credit risk modelling process that determine
+its overall reliability, namely (a) the accuracy of parameter estimates as representations of the
+future, and (b) the validity of the model’s underlying assumptions, such as assumptions of
+independence among random variables, assumptions that certain variables are known with
+certainty, and the distributional assumption that maps UL to a target credit loss quantile.
+Internal risk rating systems, EDFs and rating transition matrices
+As illustrated by the UL approach, the EDF – the probability of a particular credit
+facility defaulting during the time horizon – is a critical model input. This is true not only for
+DM-type credit risk models, but also for MTM-type models (discussed below). Within most
+                                                
+6 
+Typically, the economic capital allocation (for credit risk) against the ith facility would be set at some
+multiple of that facility’s marginal contribution to the portfolio’s overall standard deviation of credit losses.
+
+
+[PDF page 25]
+20
+credit risk modelling systems, a customer’s internal credit risk rating (as determined by a
+bank’s credit staff) is a key – if not the sole – criterion for determining the EDFs applicable to
+the various credit facilities associated with that customer; generally all the customer’s
+facilities are presumed to default concurrently, or not at all.
+Most of the large, internationally active banks reviewed by the Task Force assign risk
+ratings to each large corporate customer. Each large corporate customer, for example, might
+be placed into one of, say, 10 possible risk rating categories or buckets. In general, the process
+of arriving at a credit rating for a customer or facility can be described as containing one or
+more of the following three elements: (a) the traditional “spreading of numbers” in which
+financial and other characteristics of the customer (e.g. country and business sector code) are
+incorporated into a relatively subjective approach to determining grades; (b) the use of
+vendor-supplied commercial credit scoring models; or (c) the use of internally developed
+credit scoring models. Increasingly, banks are also assigning internal risk ratings, or their
+equivalent, to small- and middle-market business customers, and even to individual retail
+customers based on credit scoring models and other information (see below).
+Often, a bank will establish a concordance schedule that relates its internal risk rating
+categories to some external rating standard, such as S&P’s or Moody’s ratings for corporate
+bonds. For example, a grade-1 loan may be deemed roughly equivalent to an S&P bond rating
+from AA to AAA, a grade-2 loan equivalent to a bond rating of single-A, and so on. Under
+such a scheme, the worst internal grade, say grade-10, would typically correspond to the
+“worst state”, termed the “default” state. Given this concordance, an EDF can be interpreted
+as representing a loan’s probability of migrating from its current internal rating grade to
+default within the credit model’s time horizon.
+The likelihood of a customer migrating from its current risk rating category to any other
+category within the time horizon is frequently expressed in terms of a rating transition matrix
+similar to that depicted in Exhibit 2. Given the customer’s current credit rating (delineated by
+each row), the probability of migrating to another grade (delineated by the columns) is shown
+within the intersecting cell. Thus, in the exhibit, the likelihood of a BBB-rated loan migrating
+to single-B within one year would be 0.32%. Since under the DM paradigm only rating
+migrations into the default state lead to changes in the values of loans, only the last column of
+this matrix would be relevant. Within the MTM paradigm (discussed below), however, the
+other columns of the transition matrix also play a critical role.
+
+
+[PDF page 26]
+21
+Exhibit 2
+Sample credit rating transition matrix
+(Probability of migrating to another rating within one year as a percentage)
+Credit rating one year in the future
+AAA
+AA
+A
+BBB
+BB
+B
+CCC
+Default
+AAA
+87.74
+10.93
+0.45
+0.63
+0.12
+0.10
+0.02
+0.02
+AA
+0.84
+88.23
+7.47
+2.16
+1.11
+0.13
+0.05
+0.02
+A
+0.27
+1.59
+89.05
+7.40
+1.48
+0.13
+0.06
+0.03
+BBB
+1.84
+1.89
+5.00
+84.21
+6.51
+0.32
+0.16
+0.07
+BB
+0.08
+2.91
+3.29
+5.53
+74.68
+8.05
+4.14
+1.32
+B
+0.21
+0.36
+9.25
+8.29
+2.31
+63.89
+10.13
+5.58
+Current
+credit
+rating
+CCC
+0.06
+0.25
+1.85
+2.06
+12.34
+24.86
+39.97
+18.60
+Source: Greg M Gupton, Christopher C Finger and Mickey Bhatia, CreditMetrics –
+Technical Document, Morgan Guaranty Trust Co., New York, April 1997, p.76.
+Note: The credit rating transition matrix is based on the historical migration frequencies of
+publicly rated corporate bonds.
+
+
+[PDF page 27]
+22
+C.
+Mark-to-market paradigm
+In contrast to the DM paradigm, within the MTM paradigm a credit loss can arise in
+response to deterioration in an asset’s credit quality short of default. In effect, the MTM
+paradigm treats the credit portfolio as being marked to market (or, more accurately, marked to
+model) at the beginning and end of the planning horizon, with the concept of credit loss
+reflecting the difference between these valuations.
+MTM-type models recognise that changes in an asset’s creditworthiness, and its
+potential impact on a bank’s financial position, may occur due to events short of default.
+Hence, in addition to EDFs, these models must also incorporate (through the rating transition
+matrix described above) the probabilities of credit rating migrations to non-default states.
+Given the rating transition matrix associated with each customer, Monte Carlo methods are
+generally used to simulate migration paths for each credit position in the portfolio. For each
+position, the simulated migration (and the risk premium associated with the instrument’s end-
+of-period rating grade) is used, in effect, to mark the position to market as of the end of the
+time horizon.
+Most MTM-type credit models employ either a discounted contractual cash flow
+(DCCF) approach or a risk-neutral valuation (RNV) approach for purposes of modelling the
+current and future (mark-to-market) values of credit instruments.  
+Discounted contractual cash flow approach
+The DCCF methodology is commonly associated with J.P. Morgan’s CreditMetricsTM
+framework. The current value of a loan that has not defaulted is represented as the present
+discounted value of its future contractual cash flows. For a loan having a particular internal
+risk rating (comparable to, say, BBB), the credit spreads used in discounting the contractual
+cash flows would equal the market-determined term structure of credit spreads associated
+with corporate bonds having that same grade. The current value of a loan would be treated as
+known, while its future value would depend on its uncertain end-of-period risk rating and the
+term structure of credit spreads associated with that rating. Thus, the value of a loan can
+change over the time horizon, reflecting either a migration of the borrower to a different risk
+rating grade or a change in the market-determined term structure of credit spreads. One of the
+rating grades to which a loan can migrate over the planning horizon is “default”. Obviously,
+the present value of a defaulted loan would not be based on the discounting of contractual
+
+
+[PDF page 28]
+23
+cash flows. Rather, as with DM-type models, in the event of default, the future value of a loan
+(in dollar terms) would be given by its recovery value, equal to one minus the LGD.
+Risk-neutral valuation approach
+Although it is easily understood and implemented, the DCCF approach is not fully
+consistent with modern finance theory. Typically, identical discount rates are assigned to all
+loans to firms having the same internal risk rating or EDF. Consequently, if a firm has not
+defaulted as of the planning horizon, the future values of its loans do not depend on the
+expected LGDs of the loans. Senior and subordinated loans to a single firm would have the
+same future discount price, regardless of differences in expected recovery in the event of
+future default. Furthermore, finance theory holds that the value of an asset depends on the
+correlation of its return with that of the market. Under DCCF, however, loans to two
+identically rated firms receive the same discount rates, even if the two firms are not equally
+sensitive to the business cycle or to other systematic factors.
+To avoid these problems, the RNV approach imposes a structural model of firm value
+and bankruptcy based on the work of Robert Merton.7 In this framework, a firm goes into
+default when the value of its underlying assets falls beneath the level needed to support its
+debt. Instead of discounting contractual payments, the RNV method discounts contingent
+payments: if a payment is contractually due at date t, the payment actually received by the
+lender will be the contractual amount only if the firm has not defaulted by date t; the lender
+receives a portion of the loan’s face value equal to 1-LGD if the borrower defaults at date t,
+and the lender receives nothing at date t if the borrower has defaulted prior to date t. A loan
+can thus be viewed as a set of derivative contracts on the underlying value of the borrower’s
+assets. The value of the loan equals the sum of the present values of these derivative contracts.
+The discount rate applied to the contracts’ contingent cash flows is determined using the risk-
+free term structure of interest rates and the risk-neutral pricing measure.
+Intuitively, the risk-neutral pricing measure can be thought of as an adjustment to the
+probabilities of borrower default at each horizon, which incorporates the market risk premium
+associated with the borrower’s default risk. The size of the adjustment depends on the
+                                                
+7 
+The RNV approach is commonly associated with KMV’s PortfolioManagerTM framework and KPMG’s Loan
+Analysis SystemTM, but has also long been used by market participants to price derivatives.
+
+
+[PDF page 29]
+24
+expected return and volatility of the borrower’s asset value. If asset return is modelled
+consistent with the Capital Asset Pricing Model (CAPM) framework, then the expected return
+can be expressed in terms of the market expected return and the firm’s correlation with the
+market. Thus, consistent with standard finance theory, the pricing of loans under RNV adjusts
+not only for the EDF and LGD of the borrower, but also for the correlation between borrower
+risk and systematic risk.
+D.
+Key Issues
+Interpretation of default
+• 
+In credit risk models, a loan is deemed to be in default once it migrates to a pre
+defined “worst state”. However, the definition of the “worst state” is not precise,
+and varies between institutions, thus affecting relative measures of default, credit
+loss and, ultimately, the PDF.8 The comparability of credit loss estimates between
+different institutions is also affected by the choice of adjustments that banks may
+incorporate in the measurement of credit loss, such as workout expenses or
+carrying costs.
+Choice of time horizon
+• 
+As noted earlier, most banks in the survey measure credit loss over a one-year
+time horizon. The reasons put forward for this choice generally favour
+computational convenience rather than model optimisation; furthermore, banks do
+not appear to test the sensitivity of their model output to the chosen horizon. The
+reasonableness of this decision rests on whether one year is indeed a period over
+which either (a) fresh capital can be raised to fully offset portfolio credit losses
+beyond that horizon, or (b) risk-mitigating actions, such as loan sales or the
+purchase of credit protection, can be taken to eliminate the possibility of further
+credit losses. In assessing the capacity of models to meet various risk management
+and capital allocation needs, the choice of horizon would appear to be an
+important decision variable.
+                                                
+8 
+Note that the definition of default used in credit risk models is not equivalent to that used for legal purposes.
+Depending on the particular banking institution, a loan may be deemed to be in “default” if the loan is classified
+“substandard”, if payments are past due, if the loan is placed on non-accrual status, or if recovery proceedings
+are initiated.
+
+
+[PDF page 30]
+25
+• 
+The ability of a default mode model to capture the effects of potentially adverse
+credit events, due to the model’s “two-state” nature (i.e. default and non-default),
+may be particularly sensitive to the assumed length of the planning horizon. For
+example, it is not clear whether a DM-type model with a one-year horizon is
+capable of accurately representing the riskiness of a portfolio of multi-year term
+loans. In order to increase the sensitivity of the DM approach to maturity
+differences among exposures, banks sometimes apply various ad hoc adjustments,
+such as measuring an instrument’s EDF over its entire maturity (e.g. measuring a
+one-year EDF for a one-year loan, a two-year EDF for a two-year loan, and so
+forth.) A possible concern is that adjustments of this sort may lead to internal
+inconsistencies within the modelling framework, as multi-year EDFs may be used
+in combination with loss correlations calculated on the basis, say, of one-year time
+horizons.
+DM versus MTM models
+• 
+Both the DM and MTM paradigms attempt to measure losses from adverse
+changes in credit quality. While various justifications are put forward in support
+of one paradigm vs. another (e.g. the multi-state nature of a MTM model, the
+simplicity of a DM type model), the determination of model “superiority” is
+largely influenced by the fit between model output and model application. For
+example, an institution that utilises credit risk models for performance
+measurement purposes associated with a buy-and-hold portfolio might reasonably
+opt for a (simpler) DM model. In contrast, certain pricing decisions for a portfolio
+of more liquid credits may require a loss measurement definition that incorporates
+potential shifts in credit spreads.
+Discounted cash flow vs. risk-neutral valuation approaches
+• 
+The dichotomy between the DCCF and RNV approaches to pricing may be
+sharper in theory than in practice. In each methodology, a loan’s value is
+constructed as a discounted present value of its future cash flows. The approaches
+differ mainly in how the discount factors are calculated. The DCCF method takes
+a nonparametric approach to estimating these discount factors. Public issuers of
+debt are grouped into rating categories. Credit spreads on the issuers are then
+averaged within each “bucket”. Alternatively, the RNV method is highly
+
+
+[PDF page 31]
+26
+structural – it imposes a model that prices each loan simultaneously in a single
+unified framework. In practice, the calibration of the market risk premium in the
+model typically makes use of credit spreads from the debt market.
+• 
+Econometric theory shows that highly structural estimators make efficient use of
+available data but are vulnerable to model misspecification, whereas
+nonparametric estimators make minimal use of modelling assumptions but
+perform poorly where data are scant or noisy. The two approaches will, in general,
+assign different values to any given loan. Nonetheless, if debt markets are
+reasonably efficient and the assumptions of the RNV model are approximately
+valid, then the two methods ought to produce similar aggregate values for well-
+diversified portfolios.
+3.
+Probability Density Functions
+A.
+Measurement
+Each model examined aims to quantify a portfolio’s credit risk via the concept of a PDF
+of credit losses over a chosen time horizon. Many models reviewed seek to estimate explicitly
+the full PDF; statistics such as the mean and standard deviation or a chosen target credit loss
+quantile can then be calculated readily. Examples of this approach include the vendor models
+CreditRisk+TM, PortfolioManagerTM, CreditPortfolioViewTM, and CreditMetricsTM in its
+Monte Carlo formulation.
+Other proprietary and vendor models (including the unexpected losses approach and
+CreditMetricsTM in its analytical formulation) aim only to generate the first two moments of
+the distribution, i.e. its mean and standard deviation; the full PDF remains implicit in the
+model. There seem to be two main reasons for this technique: (a) for purposes of analytical
+simplicity or computational speed, the model seeks to establish only the mean and standard
+deviation from the outset; no particular functional form for the PDF is assumed; (b) due to
+data or computational constraints, the full PDF is available for some but not all sub-portfolios;
+for the other sub-portfolios, only the means and standard deviations are calculated;
+consequently, only the mean and standard deviations are calculated for the total portfolio.
+A consensus within the industry about a “standard” shape of the PDF has yet to emerge.
+This stands in contrast with market risk models, where the normal distribution is frequently
+used as a standard or benchmark. Observed portfolio credit loss distributions are markedly
+
+
+[PDF page 32]
+27
+non-normal. They are typically skewed towards large losses, and leptokurtic (i.e. for a given
+mean and standard deviation, the probability of large losses occurring is greater than would be
+the case if the distribution were normal). One reason why no industry “standard” portfolio
+credit loss PDF has emerged is that the modelling of losses from individual credit exposures
+is more difficult than is the case for market risk, and a wide range of simplifying assumptions
+is made. Individual losses might be assumed to be binary, or else to follow one of a range of
+continuous distributions. The portfolio PDF that results from aggregating these individual
+credit exposure losses will depend strongly upon these assumptions (and upon assumptions
+made in estimating credit correlations).
+B.
+Key Issues
+• 
+The precision with which it is possible to estimate the very high quantiles of
+distributions used in credit risk models is a key consideration. In discussions with
+the Task Force, banks indicated a choice of target credit loss quantiles in the range
+of 99-99.98%, with the majority converging in the middle. This contrasts with the
+range of target loss quantiles chosen for internal (as opposed to regulatory)
+purposes in market VaR models, which fell in the range of 95-99%.9 There are
+two conceptual reasons which stress the importance of this issue given the higher
+quantiles used in credit risk: the size of the estimation error, and the impact of the
+shape of distributional tails.10 (Another issue is the ability of a particular model to
+estimate a PDF; this is essentially an empirical question, which is discussed in the
+validation section.)
+• 
+The second consideration is that, owing to the sensitivity of the tail of the PDF to
+modelling assumptions, alternative assumptions that appear reasonable may
+nevertheless imply large differences in estimates of very high quantiles.
+                                                
+9 
+Note that due to the long-tailed nature of the distributions of credit risk models, the range of required capital
+corresponding to choice of a target loss quantile within the 99.0–99.8 interval can be wider than the range
+corresponding to the 95.0–99.0 interval used in market risk models.
+10 These difficulties are exacerbated by the sensitivity of a PDF’s tail to parameter estimates. See Michel
+Crouhy and Robert Mark, “A Comparative Analysis of Current Credit Risk Models”, September 1998.
+
+
+[PDF page 33]
+28
+4.
+Conditional versus Unconditional Models
+A.
+Definition of approaches
+In a sense, all models are conditional:they seek to incorporate some current information
+about the credit quality of each borrower and credit facility. That being said, it is nevertheless
+possible to distinguish between unconditional models that reflect relatively limited borrower-
+or facility-specific information, and conditional models that also attempt to incorporate
+information on the state of the economy, such as levels and trends in domestic and
+international employment, inflation, stock prices and interest rates, and even indicators of the
+financial health of particular sectors.
+Examples of unconditional credit risk models are the UL approach, CreditMetricsTM and
+CreditRisk+TM. All three modelling frameworks base EDFs and derived correlation effects on
+relationships between historical defaults and borrower-specific information such as internal
+risk ratings. The data is estimated over (ideally) many credit cycles. Whatever the point in the
+credit cycle, these approaches will predict similar values for the standard deviation of losses
+arising from a portfolio of obligors having similar internal risk ratings. Such models are
+currently not designed to capture business cycle effects, such as the tendency for internal
+ratings to improve (deteriorate) more during cyclical upturns (downturns). Note, however,
+that this does not assert that the models will predict the same standard deviation of portfolio
+losses for an unchanging set of obligors throughout a cycle. As obligors are upgraded and
+downgraded, their expected default rates will be revised downwards or upwards.
+One example of a conditional credit risk model is McKinsey and Company’s
+CreditPortfolioViewTM. Within its modelling framework, rating transition matrices are
+functionally related to the state of the economy, as the matrices are modified to give an
+increased likelihood of an upgrade (and decreased likelihood of a downgrade) during an
+upswing (downswing) in a credit cycle. This qualitative phenomenon accords with intuition
+and is borne out by some research. Other vendors follow different conditional approaches. In
+KMV’s PortfolioManagerTM, for example, the estimates of asset values, rates of return and
+volatility are based, in part, on current equity prices, which are inherently forward-looking.
+B.
+Key Issues
+• 
+Most credit risk models implemented to date reflect actuarial-based unconditional
+estimates of EDFs/rating transitions and correlations that are designed to capture
+
+
+[PDF page 34]
+29
+long-run average values of these parameters. At a given point in time, however,
+such long-run averages may seriously misrepresent the short-term outlook, which
+may well be highly dependent on the state of the economy.11 Both EDFs and
+correlations are likely to vary systematically with the course of the business cycle.
+In contrast to actuarial-based unconditional models, a conditional model of the
+type set out above incorporates in its formulation the possibility that the holding
+period interval may be a period of high expected default. Additionally,
+unconditional approaches to estimating EDFs will not reflect important variables
+known to affect loan performance. On the other hand, conditional techniques may
+also have drawbacks; for example, a conditional model may underestimate losses
+just as the credit cycle enters a downturn and overestimate losses just as the cycle
+bottoms out. Further, a full reflection of business cycle effects is a complex and
+difficult process, raising the possibility that parameter estimates may be subject to
+considerable uncertainty.
+• 
+Ultimately, the question of whether unconditional or conditional approaches to
+credit risk modelling offer a bank the best prospects for model stability and
+reliability is an empirical one.
+5.
+Approaches to Credit Risk Aggregation
+A.
+Top-down and bottom-up approaches
+Within most credit risk models, broadly the same conceptual framework is used in
+modelling individual-level credit risk for different product lines; differences in
+implementation arise primarily in the ways the underlying parameters are estimated using
+available data (see Part III for a discussion of parameter estimation).  For most of the banks
+surveyed, credit risk is measured at the individual asset level for corporate and capital market
+instruments (a so-called “bottom-up” approach), while aggregate data is used for quantifying
+risk in consumer, credit card or other retail portfolios (a so-called “top-down” approach).
+However, while the literature on credit risk models tends to make a distinction between these
+                                                
+11 See Pamela Nickell, William Perraudin and Simone Varotto, “Stability of Ratings Transitions”, September
+1998. This study identifies and quantifies (using Moody’s ratings histories) various factors, such as domicile and
+industry of obligor, which influence rating transitions probabilities. The study also demonstrates, using ordered
+probit models, that estimates of transition matrices can be improved by conditioning on the stage of the business
+cycle.
+
+
+[PDF page 35]
+30
+two approaches, the differences are less clear-cut in practice. For example, different models
+may be classified as “bottom-up” given their use of borrower-specific information to “slot”
+loans into buckets, even though underlying parameters may be calibrated using aggregate
+data.
+Models adopting a bottom-up approach attempt to measure credit risk at the level of
+each loan based on an explicit evaluation of the creditworthiness of the portfolio’s constituent
+debtors. Each specific position in the portfolio is associated with a particular risk rating,12
+which is typically treated as a proxy for its EDF and/or probability of rating migration. These
+models could also utilise a micro approach in estimating each instrument’s LGD. The data is
+then aggregated to the portfolio level taking into account diversification effects.
+For retail customers, the modelling process is conceptually similar; however, due to the
+sheer number of exposures, models tend to adopt a more top-down empirical approach. In this
+instance, loans with similar risk profiles, such as credit scores, age and geographical location,
+are aggregated into buckets, and credit risk is quantified at the level of these buckets. Loans
+within each bucket are treated as statistically identical. In estimating the distribution of credit
+losses, the model-builder would attempt to model both the (annual) aggregate default rate and
+the LGD rate using historical time-series data for that risk segment taken as a whole, rather
+than by arriving at this average through the joint consideration of default and migration risk
+factors for each individual loan in the pool.
+B.
+Key Issues
+• 
+As noted above, the distinction between top-down and bottom-up models is
+typically not precise; the key consideration is the degree to which a bank can
+distinguish meaningfully between borrower classes. Even in so-called bottom-up
+models, banks frequently rely on aggregate data to estimate individual borrower
+parameters; an example is the practice of mapping individual borrower ratings (a
+bottom-up methodology) to a transition matrix calculated from pooled data,
+whether published by rating agencies or calculated from internal statistics (an
+average of aggregate top-down data). Also of key importance is the accuracy of
+aggregate data, and its comparability to a bank’s actual portfolio; if these two
+                                                
+12 For simplification, the assumption made throughout the report is that ratings are associated with borrowers.
+In practice, however, the rating process is more complex, and a rating may be associated with each specific
+facility belonging to a borrower. See Part III for additional detail.
+
+
+[PDF page 36]
+31
+standards are not met, the use of aggregate data can potentially disguise
+idiosyncratic loan-specific effects to which a bank is exposed.
+6.
+Correlations between Credit Events
+A.
+Overview
+While no bank with a diversified portfolio would expect all – or even nearly all – of its
+obligors to default at once, experience shows that the factors affecting the creditworthiness of
+obligors sometimes behave in a related manner. Consequently, in measuring credit risk, the
+calculation of a measure of the dispersion of credit risk (i.e. its standard deviation, or indeed
+the full PDF) requires consideration of the dependencies between the factors determining
+credit-related losses, such as correlations among defaults or rating migrations, LGDs and
+exposures, both for the same borrower and among different borrowers.13 Various models
+achieve this in very different ways, and authors have sought to draw comparisons and
+contrasts between the methodologies.14
+B.
+Cross-Correlations between Different types of Credit Events
+At least in theory, across different bank customers, one might expect to observe
+significant correlations among (a) default events/rating migrations, (b) LGDs and (c)
+exposures. For example, the financial condition of firms in the same industry or within the
+same country may reflect similar factors, and so may improve or deteriorate in a correlated
+fashion. Similarly, for firms within the same industry, LGDs, as well as exposures due to
+drawdowns of credit lines, may tend to increase (decrease) relative to their long-run averages
+in periods when the average condition of firms in that sector is deteriorating (improving).15
+While banks tend to be well aware of these potential relationships, their ability to model
+such correlations is often limited in practice. In general, owing to data limitations, credit risk
+models do not attempt to explicitly model correlations between different types of risk factors.
+                                                
+13 This treatment stands in contrast to calculation of the expected loss for a portfolio, which is simply equal to
+the sum of the expected losses for the separate obligors.
+14 See for example Crouhy and Mark .
+15 In principle, within MTM-type models, correlations among credit spread term structures, and between credit
+spreads and defaults/rating migrations, LGDs, and exposure levels would also be relevant. As discussed below,
+however, virtually all applications of MTM models treat the term structure of credit spreads as fixed and known
+over the time horizon, thus abstracting from such correlation effects.
+
+
+[PDF page 37]
+32
+Specifically, correlations between defaults/rating migrations and LGDs, between
+defaults/rating migrations and exposures and between LGDs and exposures are typically
+assumed to equal zero. According to the Task Force’s findings in virtually all credit risk
+models the only correlation effects considered at present are the correlations between
+defaults/rating migrations of different customers. Broadly, banks have adopted either a
+structural approach or a reduced-form approach for handling default/rating migration
+correlations.
+C.
+Correlations among defaults or rating migrations
+Structural models
+As exemplified by the CreditMetricsTM and PortfolioManagerTM modelling frameworks,
+under the structural approach the model-builder would typically posit some explicit
+microeconomic model of the process determining defaults or rating migrations of individual
+customers. A customer might be assumed to default if the underlying value of its assets falls
+below some threshold, such as the level of the customer’s liabilities. Within the MTM
+framework, the change in the value of a customer’s assets in relation to various thresholds is
+often assumed to determine the change in its risk rating over the planning horizon. For
+example, given a customer’s current risk rating (say, equivalent to BBB), an extremely large
+positive change to its net worth (appropriately scaled) might correspond to an upgrade to
+AAA, while an extremely large negative realisation might generate a downgrade to default,
+etc.
+In general, the random variable assumed to determine the change in a customer’s risk
+rating, including default (e.g. customer asset value or net worth) is called the migration risk
+factor. Thus, within structural models, it is the correlations between migration risk factors
+(across borrowers) that must be specified (estimated or assumed) by the model-builder. In
+turn, these correlations between migration risk factors determine, implicitly, the correlations
+among borrowers’ defaults or rating migrations.
+Reduced-Form Models
+Examples of the reduced-form approach are the CreditRisk+TM and CreditPortfolioViewTM
+credit risk modelling frameworks. In contrast to structural models, which assume a specific
+microeconomic process generating customers’ defaults and rating migrations, reduced-form
+models typically assume a particular functional relationship between customers’ expected
+
+
+[PDF page 38]
+33
+default rate/migration matrix (or a sub-portfolio’s expected default rate) and so-called
+background factors.16 These background factors may represent either (a) observable
+variables, such as indicators of macroeconomic activity, or (b) unobservable random risk
+factors. Within reduced-form models, it is the dependence of the financial condition of
+individual customers on common or correlated background factors that gives rise to
+correlations among customers’ default rates and rating migrations.
+D.
+Key Issues
+• 
+Although the above discussion may suggest that the structural and reduced-form
+approaches are based on irreconcilable views of the world, recent literature on the
+subject suggests they are not.17 It is ultimately an empirical issue whether one
+approach performs better or worse in specific circumstances.
+• 
+The assumptions and approximations used in estimating default correlations
+highlight various conceptual and empirical questions, including: (a) whether the
+choice of risk factor distribution functions, e.g. normality or gamma, makes a
+material difference to model output; (b) whether the technical approximations
+introduced have a material impact; and (c) whether the default correlations
+generated by the different models are within the same range, result in a correct
+correlation structure, and are stable over the planning period.
+                                                
+16 Conditional on the values of these background factors, reduced-form models typically assume independence
+among the defaults and rating migrations of different customers.
+17 Recent studies argue that there is good agreement between the CreditMetricsTM and CreditRisk+TM PDFs, at
+least in the region above two standard deviations from the mean. See for example Koyluoglu, H. Ugur and
+Andrew Hickman, “A Generalised Framework for Credit Risk Portfolio Models”, draft, September 1998, and
+Michael Gordy, “A Comparative Anatomy of Credit Risk Models”, Board of Governors of the Federal Reserve
+System, December 1998.
+
+
+[PDF page 39]
+34
+PART III:  PARAMETER SPECIFICATION AND
+ESTIMATION
+
+
+[PDF page 40]
+35
+There are four main types of credit events which may contribute to the level of credit
+losses in credit risk models: (1) a change in LGD; (2) a change in creditworthiness (reflected
+in a credit rating migration or a change in EDF) over the planning horizon; (3) a change in the
+applicable credit spread for MTM models; and (4) a change in a bank’s exposure with respect
+to a particular credit facility.
+Credit risk models tend to be modular – involving completely separate sub-models for
+each of these four credit events. This treatment follows market practice: while correlations
+between obligors due to credit events are introduced in various ways (see the previous
+section), most models assume zero correlation between credit events of different types,
+although such correlations may in fact be significant; for example, defaults are assumed to be
+uncorrelated with LGDs, changes in spreads and exposures. Given this assumption, the sub-
+models for each credit event generally do not interact with one another. Below, we discuss
+various modelling issues pertaining to each sub-model type. The Task Force encourages
+additional study by the industry to assess the materiality of these issues and the effects of the
+various estimation methods on model output.18
+1.
+LGDs (loss rate given defaults)
+The availability of historical loss data typically dictates the degree of complexity and
+the choice of methodology in modelling LGDs. Parameters may be estimated from data on the
+historical performance of individual loans or corporate bonds (common for wholesale credits),
+or from aggregate time-series data for pools of loans (common for consumer credits).
+                                                
+18 Practitioners have observed that measurement of credit risk in a portfolio typically depends more on the
+quality of model inputs than on details of the modelling approach. As a rule, model outputs are most sensitive to
+assigned EDFs, expected LGDs and default correlations. Most important is that these model inputs be unbiased
+estimates of their true values. Consider first a static portfolio of non-traded instruments. Say, for example, that a
+particular rating grade is associated with EDFs ranging from 8 to 16 basis points, and that the user inputs a single
+average EDF of 12 basis points for all borrowers of this grade. Even though the assigned EDF may significantly
+overstate or understate a given borrower’s true default likelihood, the individual errors will tend to wash out at
+the aggregate portfolio level. Much more damaging is a systematic error. Under some rating schemes, an average
+EDF over the business cycle may systematically overstate or understate a grade’s true conditional EDF at a
+particular point in time. Similarly, poorly constructed factor models may miss significant components of
+systematic risk, and thereby systematically bias downwards the input default correlations. These types of errors
+can cause required capital to be substantially underestimated.
+
+
+[PDF page 41]
+36
+A.
+Modelling assumptions
+Within the current generation of credit risk models, LGDs are usually assumed to
+depend on a limited set of variables characterising the structure of a particular credit facility.
+These variables may include the type of product (e.g. business loan or credit card loan), its
+seniority, collateral and country of origination. For a given credit exposure, the values of
+these facility variables would determine the credit facility’s expected LGD.19
+In some models, LGDs may be treated as deterministic and known in advance, while in
+others they may be treated as random. In the latter case, for a given set of facility
+characteristics, the random components of LGDs are usually assumed to be identically
+distributed over time and across all borrowers. The probability distribution for each LGD is
+sometimes assumed to take a specific parametric form, such as that of a beta distribution.
+Models generally assume zero correlation among the LGDs of different borrowers, and
+hence no systematic risk due to LGD volatility. Furthermore, it is common to assume
+independence among LGDs associated with the same borrower. As noted above, model-
+builders also generally assume that LGDs are independent of the other three types of credit
+events (e.g. the LGD associated with the default of a firm in a particular sector would be
+independent of the degree to which other firms in that sector were defaulting or being
+downgraded).
+B.
+Estimation
+For a given set of facility characteristics, the underlying parameters of the probability
+distribution for LGDs are generally inferred by pooling information from several sources,
+including: (a) internal data on the bank’s own historical LGDs, by risk segment, when
+available; (b) loss data from trade association reports and publicly available regulatory
+reports; (c) consultants’ proprietary data on client LGDs; (d) published rating agency data on
+the historical LGDs of corporate bonds; and (f) the intuitive judgements of experienced
+lending officers.
+                                                
+19 Within the group of banks surveyed, obligors’ internal risk ratings are typically combined with facility-
+specific LGDs that reflect seniority, collateral and other obligor characteristics. Most banks use broad facility
+ratings as an approximation of expected loss. However, a few institutions appear to incorrectly adjust for
+seniority in both ratings and LGDs.
+
+
+[PDF page 42]
+37
+The sophistication of estimation methods varies considerably across banks.20 The
+weights associated with each source also differ greatly. While some banks appear to rely
+almost exclusively on LGD parameters set intuitively, other institutions with access to large
+amounts of historical data may rely heavily on objective empirical analysis. Even in the latter
+case, however, data limitations and other issues generally imply that the LGD parameters, to
+some degree, reflect the pooling of quantitative information from several sources and
+subjective judgement.
+C.
+Key Issues
+• 
+The reliability of pooled LGD data is a key consideration, as it will affect the
+accuracy of estimation results. This issue is particularly important for
+international exposures and institutions: in setting parameters for corporate
+customers, even those located outside the United States, some banks appear to
+rely almost entirely on historical loss studies for publicly rated US corporate
+bonds. Extrapolating these results to other countries may be problematic, owing to
+differences in bankruptcy laws and workout practices.
+• 
+For portfolios characterised by distributions of exposure sizes that are highly
+skewed, the assumption that LGDs are known with certainty may tend to bias
+downwards the estimated tail of the PDF of credit losses.
+• 
+More problematically, the assumption that LGDs between borrowers are mutually
+independent may represent a serious shortcoming when the bank has significant
+industry concentrations of credits (e.g. commercial real estate loans within the
+same geographical region). Furthermore, the independence assumption is clearly
+false with respect to LGDs associated with similar (or equally ranked) facilities to
+the same borrower.
+                                                
+20 This is particularly the case for complex financial instruments supporting securitisation activities. For
+example, it is not uncommon for banks to assume that the LGD for a subordinated loan functioning as a credit
+enhancement for a pool of securitised assets would be comparable to the LGD of a corporate loan secured by
+similar assets. In the event of default, however, the subordinated loan will tend to exhibit a much greater
+expected loss rate and loss rate volatility than would the senior corporate loan. This is because the former is
+typically thinly traded, and will, by design, generally absorb a disproportionately larger share of the credit losses
+on the underlying asset pool.
+
+
+[PDF page 43]
+38
+• 
+The assumption of independence of default intensities may contribute to an
+understatement of losses to the extent that LGDs associated with borrowers in a
+particular industry may increase when the industry as a whole is under stress.
+• 
+The sample periods for estimating LGDs are often relatively short.
+2.
+Defaults/Rating Migrations
+Credit risk models generally relate the process determining customer defaults or rating
+migrations to two types of parameters: (1) for each customer, the EDF or rating transition matrix, and
+(2) across customers, the correlations among defaults and rating migrations. Procedures for estimating
+these parameters are described below.
+A.
+Estimation of EDFs/rating transition matrices
+Two methods are generally used for mapping observable data historically into
+customer-specific EDFs/transition matrices: actuarial-based methods and equity-based
+methods.
+Actuarial-based approaches
+Actuarial-based methods are used to calibrate EDFs or rating transition matrices in both
+structural and reduced-form models. The basic approach involves using historical data on the
+default rates of borrowers to predict the expected default rates/rating migrations for customers
+having similar characteristics.21 One such approach utilises formal credit scoring models to
+predict corporate and/or retail customer EDFs. While some banks have developed their own
+in-house credit scoring models for corporate and/or retail customers, others purchase credit
+scores from external vendors. For corporate customers, historical data for developing internal
+credit scoring models are generally based either on the bank’s own historical data on loan
+performance (relatively rare), or on the historical default experience within the corporate bond
+market. Techniques for estimating borrower default models are well researched within the
+economics literature; data availability tends to be the critical limiting factor.
+                                                
+21 In the case of structural credit risk models, EDFs and/or rating transition matrices and default correlations are
+not the actual parameters used in specifying the model. Rather, the actual parameters represent the means,
+variances and correlations associated with the underlying migration risk factors. However, in general, there is a
+one-to-one mapping between the two sets of parameters and, in practice, actuarial-based methods calibrate the
+latter by “reverse-engineering” them from the former. (See Gupton et al., op.cit., p.92.) Likewise, in reduced-
+form models, the underlying model parameters are typically calibrated to be consistent with assumed or
+estimated EDF/transition matrices and default correlations for individual assets or pools of assets.    
+
+
+[PDF page 44]
+39
+A second actuarial approach (referred to herein as “risk segmentation”) involves
+grouping borrowers into discrete “buckets” or “risk segments” based on observable
+characteristics. Within any risk segment, all borrowers, and the stochastic properties of their
+underlying migration risk factors, are assumed to be statistically identical. Thus, all customers
+in the same risk segment would be assumed to have the same EDF/transition matrix. For large
+corporate borrowers, risk segments are typically defined on the basis of factors such as the
+borrower’s internal credit rating, size, country and industrial sector. For retail customers, risk
+segmentation would normally be based on the product category (e.g. credit cards or residential
+mortgages) and borrower-specific information, such as credit score (if available), country and
+state/province. Given the assumption that all borrowers within a segment have the same EDF
+and/or rating transition matrix, the model-builder would attempt to estimate these parameters
+from average historical default and/or rating migration data of borrowers in that segment. In
+practice, however, data availability may severely limit the length of time over which such an
+average can be calculated, especially if the risk segments are defined very narrowly.
+Equity-based approach
+This approach, most often associated with the Merton model, is used exclusively for
+estimating the EDFs of large and middle-market business customers (within structural
+models), and is often used to cross-check estimates generated by actuarial-based methods.
+This technique uses publicly available information on a firm’s liabilities, the historical and
+current market value of its equity and the historical volatility of its equity to estimate the
+level, rate of change and volatility (at an annual rate) of the economic value of the firm’s
+assets. Under the assumption that default occurs when the value of a firm’s assets falls below
+its liabilities, expected default probabilities can be inferred from the option models.
+Alternatively, using an approach pioneered by KMV Corporation, it is possible to calculate
+the number of standard deviations the current asset value is away from the default threshold,
+termed the “distance to default.” Given a firm’s estimated distance to default, its EDF is
+calculated as the historical default frequency for firms having the same distance to default,
+derived from a proprietary KMV database on the historical default experience of publicly
+rated businesses.
+B.
+Key Issues
+• 
+In estimating EDFs for retail customers, banks typically rely on internal historical
+data, supplemented with publicly available loss or default rate information from
+
+
+[PDF page 45]
+40
+other lenders or consultants. When using such supplemental information, the
+model-builder must usually determine judgementally whether the underlying
+population to which these data apply is similar to the risk segment under study; if
+not, the model-builder will often attempt to make the data more comparable
+through subjective adjustments. It is sometimes the case that, for a particular risk
+segment, historical data are available for loss rates but not for default rates. In this
+event, model-builders may attempt to infer the historical default rates from the
+loss rate data by making assumptions regarding the historical LGDs.22
+Furthermore, the degree to which banks rely on empirical data (such as financial
+statement analysis) in assigning particular credits to risk segments –
+corresponding to the credit’s main industry, or location of revenue – varies
+greatly. Typically, the process involves a high degree of subjectivity.
+• 
+Data availability generally dictates the methods used to estimate EDFs/transition
+matrices. With regard to large corporate customers, at most banks internal credit
+ratings are a key variable – or in some cases the sole criterion – for assigning
+borrowers to risk segments. However, most banks have retained historical
+aggregate performance data by broad loan types or lines of business, but not by
+risk grade. Furthermore, while banks with internal economic capital allocation
+systems have generally been warehousing performance data by risk grade, such
+databases generally go back only a few  years, at best. In addition, some banks do
+not re-evaluate the assignment of exposures to particular risk segments in a timely
+or consistent manner.
+• 
+Since banks typically have comparatively little useful default/migration data
+internally, they often attempt to estimate EDFs/transition matrices using historical
+performance studies published by the rating agencies and, sometimes, other
+researchers. Such studies often report historical default, loss and rating migration
+experience, by rating category, over time spans covering 20 or more years.
+However, in some cases, the geographical and industry composition of these
+published data may not be appropriate to the characteristics of the loan portfolio
+being modelled. (For example, published rating agency data are often dominated
+                                                
+22 For example, a bank may rely on aggregate data on loss rates, and make an assumption on the typical LGD
+associated with a given portfolio. If the LGD is assumed to be fixed, the default rate is given by the loss rate
+divided by the LGD.
+
+
+[PDF page 46]
+41
+by US experience.) Using inappropriate transition matrices will result in incorrect
+assessments of credit risk.23 Where possible, the migration data for corporate
+bonds are sometimes adjusted judgementally to incorporate either information
+from a bank’s own internal loan performance databases, or analysis of historical
+migrations at peer institutions.
+• 
+To use bond experience data, a bank must first develop or assume some
+correspondence between its internal rating categories and the grading systems
+used by the rating agencies. Such correspondences are commonly developed using
+four basic methods, either singly or in combination. The first method involves
+matching historical default frequencies within each internal rating grade to the
+default frequencies, by rating category, reported by the agencies. The second
+method compares a bank’s own internal grades with those of the rating agencies
+for borrowers that are rated by both. However, such comparisons may not be
+possible for major segments of the portfolio, such as middle-market customers, or
+non-US business firms. The third approach attempts to expand the population of
+firms for which such comparisons are possible by constructing pseudo-credit
+agency ratings for firms not formally rated by the agencies. This is accomplished
+by estimating the relationship between agency ratings and financial and other
+characteristics of firms using publicly available data for agency-rated firms.
+Lastly, the fourth approach involves subjective comparison of the bank’s criteria
+for assigning internal grades with the rating agencies’ published rating criteria.
+3.
+Correlations among Defaults and/or Rating Transitions
+A.
+Estimation
+Within both structural and reduced-form models, the interdependence between defaults
+and/or rating transitions is a key determinant of a portfolio’s PDF. Structural models
+parametrise this interdependence in terms of the correlations among customers’ migration risk
+factors, which are often interpreted as being represented by customers’ asset values or net
+                                                
+23 See Pamela Nickell, William Perraudin and Simone Varotto, “Stability of Ratings Transitions”, September
+1998. This study examines Moody’s ratings histories over a 27-year period, indicating the influence of shifts in
+geographical and industrial composition of the data set upon published “average” transition matrices, and
+develops an ordered probit technique for deriving transition matrices which are appropriate to the characteristics
+of the credit exposures in the portfolio (e.g. industry and domicile of obligor, and stage of business cycle).
+
+
+[PDF page 47]
+42
+worth positions. In the context of reduced-form models, the interdependence between
+customers’ defaults/rating migrations reflects the assumed or estimated processes relating
+observable and unobservable background factors to EDFs or rating transition matrices. The
+effects of interdependence may be modelled at the level of either individual credit exposures
+(common for middle-market and large corporate customers) or pools of relatively
+homogeneous exposures (common for retail portfolios).
+While some banks appear to set correlations among migration risk factors largely
+through a judgmental process, most banks appear to use approaches that, while retaining some
+subjectivity, rely heavily on empirical analysis. Among the banks interviewed by the Task
+Force, empirical approaches to calibrating models’ correlation parameters tend to be actuarial-
+based or equity-based; sometimes both types of approach are used to cross-check one another.
+Actuarial-based method
+The first approach is an extension of the risk segmentation approach to estimating
+EDFs/transition matrices (discussed above), and is used in calibrating correlation parameters
+in both structural and reduced-form models. Within each risk segment, borrowers are assumed
+to be statistically identical. Given the EDF for a particular risk segment, mathematically there
+is a one-to-one relationship between the variance of the risk segment’s default rate and the
+correlation of the migration risk factors associated with the loans in that risk segment.24 Thus,
+an estimate of the default correlation among the loans is often reverse-engineered from an
+estimate of the historical variability of the risk segment’s aggregate default rate.25 A broadly
+similar reverse engineering method can be used to infer migration risk factor correlations
+between borrowers in different risk segments from the historical covariance between the
+aggregate (annual) default rates for those risk segments.
+                                                
+24 This result requires that the overall default rate for the loans within the risk segment be serially uncorrelated
+from one year to the next (assuming the modelling horizon for migrations is one year).
+25 This procedure involves a two-stage process. In the first stage, the means, variances and covariances of
+aggregate default rates are used to estimate default correlations between loans of various types. (For loans within
+the same bucket, this technique is illustrated in Gupton et al., op.cit., Appendix F: Inferring Default Correlations
+from Default Volatilities.) In the second stage, correlations between migration risk factors are inferred from the
+default correlations generated in the first step. The relationship between default correlations and migration risk
+factor correlations is developed in Chunsheng Zhou, “Default Correlation: An Analytical Result,” Board of
+Governors of the Federal Reserve System, May 1997. See also Gordy .
+
+
+[PDF page 48]
+43
+Equity-based method
+This methodology, used solely within structural models, is based on Merton’s model of
+firm equity values, and assumes that the underlying migration risk factor for each borrower
+equals the underlying value of the firm’s assets. In principle, therefore, an estimate of this
+correlation can be calculated from estimates of firms’ historical asset values, as inferred from
+historical equity prices using the Merton model. In practice, however, some vendors have
+observed that such estimates tend to be quite unstable. To mitigate this problem, KMV
+econometrically averages the asset value correlations across the customers within various risk
+segments, defined in terms of the borrower’s industry and country, and possibly other
+characteristics.26
+B.
+Key Issues
+• 
+Specification of the process of defaults/rating migrations is severely constrained
+by a lack of data on the historical performance of loans. Reflecting the longer-
+term nature of credit cycles, even in the best of circumstances – assuming no
+model mis specifications or parameter instability – many years of data, spanning
+multiple credit cycles, would be needed to precisely estimate EDFs/rating
+transitions and correlation parameters. At most banks, however, data on historical
+loan experience tends to cover only a few years, at best.
+• 
+To make the estimation process manageable, model-builders tend to invoke many
+critical simplifying assumptions. These often include the following: (a) joint
+normality or other parametric assumptions on the probability distributions of the
+migration risk factors; (b) cross-independence between migration risk factors and
+LGDs, credit spreads and exposures; (c) the assumption that borrowers within pre
+defined risk segments are statistically identical; (d) the assumption that within risk
+segments, default and rating migration frequencies are independent from one year
+to the next; and (e) stability of model parameters.
+• 
+To an unknown degree, estimation of the extreme tail of a credit portfolio’s PDF
+(the focus of credit risk models) may be quite sensitive to these assumptions. In
+practice there is generally little analysis supporting the assumptions. Nor is it
+                                                
+26 More rigorously, it is assumed that firms’ asset values conform to a linear variance-components or factor
+model.
+
+
+[PDF page 49]
+44
+standard practice to conduct sensitivity testing of a model’s vulnerability to key
+parameters or assumptions. Moreover, when estimating credit risk, practitioners
+generally presume that all parameters and assumptions are known with certainty,
+thus ignoring credit risk issues arising from parameter and model uncertainty
+and/or instability.27
+• 
+Actuarial-based parameter estimates are inherently backward-looking, while in
+theory, the equity-based approaches are forward-looking. However, many of the
+assumptions underlying the equity model appear stylistic. These include the belief
+that:  (a) all equity price movements reflect changes in the underlying economic
+values of firms, rather than any changes in the market price of equity risk; and (b)
+equity prices fully reflect all available information –  this efficient market
+assumption may be particularly questionable in countries without strong public
+disclosure policies. Ultimately, the relative accuracy of actuarial-based versus
+equity-based methods is an empirical issue.
+• 
+Outside the United States, there is less historical data on corporate bond
+performance for use in calibrating EDFs and correlations. Historical data on loan
+performance is even less readily available. Use of US data for obligors in other
+countries is likely to be highly problematic, owing to differences in bankruptcy
+laws and banking practices. Furthermore, even within the United States, there are
+reasons to suspect that publicly rated corporate bonds may exhibit lower EDFs
+and different correlation patterns than, for example, loans to middle-market
+borrowers, which tend to be smaller and less diversified.
+                                                
+27 Accounting for uncertainty in parameter estimates can significantly increase measured credit risk. See
+Gregory R Duffee, “On Measuring Credit Risks of Derivative Instruments,” Journal of Banking and Finance,
+20, pp. 805-833 (1996).
+
+
+[PDF page 50]
+45
+4.
+Credit Spreads
+A.
+Overview
+This area appears to be at an early stage of development. Most users of MTM models
+appear to treat the term structures of the credit spreads as fixed and known for purposes of
+credit risk modelling.28
+B.
+Key Issues
+• 
+It is difficult to obtain reliable credit spread data, even for more developed
+markets. Spreads between the yield of an obligation and that of a risk-free bond
+do not typically correct for differences in liquidity. At the time of writing, the
+Task Force is unaware of any study that evaluates the potential sensitivity of PDF
+estimates to the assumption that spreads are fixed and known under the MTM
+approach.
+5.
+Exposure Levels
+A.
+Overview
+For many types of credit instruments, a bank’s exposure is not known with certainty,
+but rather may depend on the occurrence of future random events. One example of such
+“credit-related optionality” is a committed line of credit where, for a fixed period of time, a
+bank agrees to advance funds, up to a predefined limit, at the customer’s discretion. An
+observed characteristic of such lines is that a customer’s drawdown rate tends to increase as
+the customer’s credit quality deteriorates, reflecting the reduced availability or higher costs of
+alternative sources of funding.29
+                                                
+28 Some studies have begun to question the efficiency of bond markets, and hence the utility of estimates of
+default probabilities based on the term structure of credit spreads. See also the preceding discussion on issues
+related to modelling correlations of defaults/rating migrations.
+29 A second example is a derivative transaction, where a bank’s counterparty credit risk will typically vary
+randomly over the life of the contract, reflecting changes in the amount by which the contract is “in the money.”
+A further example of credit-related optionality, relevant in an MTM setting, is a change in a facility’s terms due
+to changes in a customer’s financial condition. Under “grid pricing”, for example, credit spreads are reset
+periodically based on changes in the underlying customer’s credit rating or other indicators of financial
+condition. Similarly, prepayment options embedded in loans may generate credit-related optionality, since
+customers experiencing rating upgrades may tend to exercise the prepayment option in order to refinance at
+lower credit risk spreads, whereas customers experiencing downgrades will not.
+
+
+[PDF page 51]
+46
+The credit-related optionality associated with a line of credit is usually represented by
+treating the drawdown rate as a known function of the customer’s end-of-period credit rating.
+To illustrate, consider a one-year line of credit that is, initially, completely undrawn.
+Conditional on the customer’s credit grade at the end of the planning horizon, the assumed
+end-of-period drawdown rate would be based on the average historical drawdown experience
+of customers having that future grade.
+In the DM framework, since only two future credit “ratings” are relevant – default and
+non-default – a somewhat simpler approach is often employed. In effect, the undrawn credit
+facility is converted into a loan equivalent exposure (LEE) to make it comparable to a term
+loan. Ideally, the LEE would be calculated as the expected drawdown under the line in the
+event that the customer were to become insolvent by the end of the period.30 (Note that if the
+customer remains solvent, the size of the drawdown is irrelevant in DM models, since credit
+losses would equal zero.)
+B.
+Key Issues
+• 
+Methods for dealing with credit-related optionality are still evolving. The Task
+Force observed great diversity in practice. For example, with respect to committed
+lines of credit, some banks implicitly assume that future drawdown rates are
+independent of future changes in the customer’s credit quality. Such assumptions
+may lead to systematic underestimates of the LEEs for lines of credit that, in turn,
+lead to underestimates of the credit risks associated with such instruments.
+• 
+Issues also arise in the treatment of credit-related optionality in derivative
+contracts. Given current technologies, it is very difficult to conduct simultaneous
+Monte Carlo simulations of both the credit risk model and the bank’s VaR
+model(s), which could be used to simulate random changes in the contract’s mark-
+to-market value over its lifetime. Thus, optionality is generally incorporated into
+credit risk models by associating with each derivative instrument a non-random
+LEE, which equals the instrument’s current mark-to-market value plus an add-on
+for future exposure. Methods for calculating this add-on vary greatly in terms of
+sophistication. Some banks set these add-ons to zero, effectively ignoring
+                                                
+30 For a plain vanilla term loan, the LEE would equal the amount of the loan.
+
+
+[PDF page 52]
+47
+potential future exposures, while at other institutions they reflect in some way the
+historical price volatility of the underlying reference asset. 31
+• 
+Within most credit risk models, model-builders assume that any unexpected future
+change in the bank’s exposure with respect to a given OTC derivative contract is
+independent of both (a) changes in all other OTC contracts and (b) changes in the
+credit quality of the bank’s counterparty. Both assumptions may bias the output of
+credit risk models. For example, counterparty credit risk exposures may be
+positively correlated across contracts (e.g. a bank having a large positive exposure
+with respect to oil futures contracts could expect a significant change in oil prices
+to move these contracts into or out of the money together).   Similarly, in certain
+contracts, the extent to which a bank is “in the money” may be negatively
+correlated with changes in the credit quality of its counterparty.32
+6.
+Implementation: Data Gathering and System Capabilities
+A.
+Data availability and system capabilities
+An extensive historical picture is required to build an accurate credit risk model given
+the infrequency of default events. As such, it is important that model parameters are updated
+in a timely manner in order to capture all current available information. Due to data
+limitations, however, in practice parameter re-estimation occurs on a somewhat infrequent
+basis, ranging from monthly to yearly; some banks have only just begun to systematically
+collect the necessary data. The modelling of portfolio credit risk also requires considerable
+systems capabilities; in some cases, collecting the data needed takes several weeks.
+The degree of difficulty faced by institutions in culling required data was in part
+contingent on the methodology of the chosen model. For example, models which use
+actuarial-based methods and rely on the correlation structure between industries to introduce
+                                                
+31 For example, at some banks the add-on is such that the implied LEE generates a standard deviation of credit
+losses for that facility (on a stand-alone basis) that is identical to that obtained by a VaR-type model in which
+both the borrower’s default and the contract’s mark-to-market value are jointly simulated (through Monte Carlo
+simulation).
+32 Such transactions are termed “wrong-way” derivative contracts. To illustrate, consider an interest rate swap
+(with a cyclically sensitive counterparty) where the bank pays a floating rate and receives a fixed rate. A large
+negative macro economic shock might tend to generate a mark-to-market gain on the derivative position (as
+short-term interest rates fall in the economy), while at the same time tending to lower the counterparty’s credit
+quality.  
+
+
+[PDF page 53]
+48
+dependence between obligors may be limited in the frequency with which new data becomes
+available, while those using equity-based estimation methods may be updated in a more
+timely manner.
+B.
+Key Issues
+• 
+As noted above, the time commitment needed to run the models varies according
+to the chosen methodology. Models that attempt to approximate the PDF
+analytically may be executed in minutes. However, many of the models reviewed
+use Monte Carlo simulation to characterise the full distribution of portfolio losses.
+Given the number of sources of variability and the number of positions to be
+estimated, this process can be computationally burdensome and can take several
+days or longer. Therefore many banks are unable to explicitly estimate the
+portfolio PDF, and instead adopt various simplifying assumptions which permit
+an analytical approximation of the distribution, perhaps at the cost of including
+certain sources of variability. Banks in the future may be able to solve
+computational problems to some extent by fine-tuning the simulation algorithms
+actually used, and introducing more efficient programming techniques.
+• 
+Other institutions estimate the PDF of credit losses at a point in time, and
+presuppose that the composition of the portfolio will remain static over a given
+interval. In such instances, PDFs are subsequently re-estimated relatively
+infrequently, from weekly to yearly. In extreme cases, the initial PDF has never
+been updated. In determining the optimal frequency of PDF re-estimation, the
+speed and magnitude of change in the composition of a given bank’s credit
+portfolio appears to be key factor which should be considered.
+
+
+[PDF page 54]
+49
+PART IV: VALIDATION
+
+
+[PDF page 55]
+50
+1.
+Summary of Validation Policies and Issues
+The components of model validation can be grouped into four broad categories: (a)
+backtesting, or verifying that the ex-ante estimation of expected and unexpected losses is
+consistent with ex-post experience; (b) stress testing, or analysing the results of model output
+given various economic scenarios; (c) assessing the sensitivity of credit risk estimates to
+underlying parameters and assumptions; and (d) ensuring the existence of independent review
+and oversight of a model. At present, few banks possess processes that both span the range of
+validation efforts listed and address all elements of model uncertainty. This suggests that the
+area of validation will prove to be a key challenge for banking institutions in the foreseeable
+future.
+A.
+Differences in credit versus market risk models
+The Market Risk Amendment outlined both qualitative and quantitative standards for
+the use of models in assessing regulatory capital requirements. In reviewing the applicability
+of such requirements to the credit risk arena, it appears that qualitative standards – such as
+management oversight – will play a similarly important role in assessing the accuracy of
+credit risk models. However, the application of quantitative standards to credit risk models is
+likely to pose a key challenge.
+B.
+Key Issues
+• 
+Banks and researchers alike report data limitations to be a key impediment to the
+design and implementation of credit risk models. Most credit instruments are not
+marked to market; hence, the predictive nature of a credit risk model does not
+derive from a statistical projection of future prices based on comprehensive
+historical experience. The scarcity of the data required to estimate credit risk
+models also stems from the infrequent nature of default events and the longer-
+term time horizons used in measuring credit risk. Thus, in specifying model
+parameters, credit risk models require the use of simplifying assumptions and
+proxy data. The relative size of the banking book – and the potential repercussions
+on bank solvency if modelled credit risk estimates are inaccurate – underscores
+the need for a better understanding of a model’s sensitivity to structural
+assumptions and parameter estimates.
+
+
+[PDF page 56]
+51
+• 
+The validation of credit risk models is also fundamentally more difficult than the
+backtesting of market risk models. Where market risk models typically employ a
+horizon of a few days, credit risk models generally rely on a time frame of one
+year or more. The longer holding period, coupled with the higher target loss
+quantiles used in credit risk models, presents problems to model-builders in
+assessing the accuracy of their models. A quantitative validation standard similar
+to that in the Market Risk Amendment would require an impractical number of
+years of data, spanning multiple credit cycles.
+• 
+At most institutions, the relative size of the banking book and the length of the
+relevant planning horizon are much greater than those of the trading account.
+Hence, errors in measuring credit risk are more likely to affect the assessment of
+the bank’s overall soundness. Moreover, it is more likely that significant losses
+can accumulate unnoticed in the banking book, as it is not marked to market.
+2.
+Backtesting
+A.
+Overview
+The methodology applied to backtesting market risk VaR models is not easily
+transferable to credit risk models due to the data constraints noted above.33 The Market Risk
+Amendment requires a minimum of 250 trading days of forecasts and realised losses. A
+similar standard for credit risk models would require an impractical number of years of data
+given the models’ longer time horizons.
+B.
+Key Issues
+• 
+Given the limited availability of data for out-of-sample testing, backtesting
+estimates of unexpected credit loss is certain to be problematic in practice. This
+was reflected in the responses to the Task Force survey:  none of the participating
+banks indicated that a formal backtesting programme for validating estimates of
+credit risk – or unexpected loss – was operational. Where analyses of exante
+estimates and expost experience are made, banks typically compare estimated
+credit risk losses to a historical series of actual credit losses captured over some
+                                                
+33 The term “backtesting” is used in a broader sense in the context of credit risk models, compared to its
+definition in the context of market risk modelling and its respective regulatory framework.
+
+
+[PDF page 57]
+52
+years. However, the comparison of expected and actual credit losses does not
+address the accuracy of the model’s prediction of unexpected losses, against
+which economic capital is allocated. While such independent work on backtesting
+is limited, some literature indicates the difficulty of ensuring that capital
+requirements generated using credit risk models will provide an adequately large
+capital buffer.34
+• 
+Banks employ various alternative means of validating credit risk models,
+including so-called “market-based reality checks” such as peer group analysis,
+rate of return analysis and comparisons of market credit spreads with those
+implied by the bank’s own pricing models.35 However, the assumption underlying
+these approaches is that prevailing market perceptions of appropriate capital levels
+(for peer analysis) or credit spreads (for rate of return analysis) are substantially
+accurate and economically well founded. If this is not so, reliance on such
+techniques raises questions as to the comparability and consistency of credit risk
+models, an issue which may be of particular importance to supervisors. 36
+                                                
+34 See Pamela Nickell, William Perraudin and Simone Varotto, “Ratings Versus Equity-Based Credit Risk
+Modelling: An Empirical Analysis,” September 1998. This empirical study implemented and evaluated
+representative examples of two of the main types of credit risk models (ratings-based and equity price-based)
+and assessed their performance on an out-of-sample basis using large portfolios of eurobonds. Both models
+failed to provide an adequately large capital buffer across the 10-year sample period; the portfolios experienced
+“exceptions” at several times the rate predicted by VaR calculations based on the models’ output.
+35 Peer group analysis attempts to estimate the capital needed to achieve a hypothetical target credit rating for a
+given activity (complete business lines or broad product groupings) from the capitalisation rates of competitors
+engaged in that activity. Banks may also compare the internal hurdle rate with the expected risk-adjusted rate of
+return that could be achieved by investing in corporate bonds having a particular credit rating. This exercise may
+point out the need to re-estimate the model’s parameters, depending on the implied level of capital allocation.
+See Federal Reserve System Task Force on Internal Credit Risk Models, “Credit Risk Models at Major U.S.
+Banking Institutions: Current State of the Art and Implications for Assessments of Capital Adequacy,” May
+1998.
+36 A few survey participants relied on such alternative methods for backtesting. These included:  (a) comparing
+loan pricing implied by the model with market pricing; (b) attempting to check the consistency of the main
+drivers of modelling output (internal ratings and recovery rates) through comparison with external benchmarks
+such as Moody’s and S&P; and (c) backtesting on virtual portfolios given the scarcity of data on credit events.
+See for example Jose Lopez and Marc Saidenberg, “Evaluating Credit Risk Models”, September 1998.
+
+
+[PDF page 58]
+53
+3.
+Stress Testing
+A.
+Overview
+Stress tests aim to overcome some of the major uncertainties in credit risk models –
+such as the estimation of default rates or the joint probability distribution of risk factors – by
+specifying particular economic scenarios and judging the adequacy of bank capital against
+those scenarios, regardless of the probability that such events may occur. Stress tests could
+cover a range of scenarios, including the performance of certain sectors during crises, or the
+magnitude of losses at extreme points of the credit cycle.
+B.
+Key Issues
+• 
+In theory, a robust process of stress testing could act as a complement to
+backtesting given the limitations inherent in current backtesting methods.
+However, it does not appear that banks have dedicated a significant amount of
+resources to devising appropriate stress testing procedures. Of the banks
+participating in the survey, approximately half claimed to conduct stress testing on
+the portfolio, and a number of other institutions indicated they are in the process
+of developing such methods. However, in most cases, the procedure is not
+formally developed, or is carried out only sporadically. Scenarios covered include
+deterioration in credit ratings or market spreads, changes in LGDs, shifts in
+default probabilities and changes in correlation structures.
+4.
+Sensitivity Analysis
+A.
+Overview
+The practice of testing the sensitivity of model output to parameter values or to critical
+assumptions is also not common. In the case of certain proprietary models, some parameter
+(and even structural) assumptions are unknown to the user, and thus sensitivity testing and
+parameter modification are difficult.
+B.
+Key Issues
+• 
+A minority of banks indicated they conduct sensitivity analysis on a number of
+factors, including:  (a) EDF and volatility of EDF; (b) LGD, and (c) assignment of
+internal rating categories. However, the depth of the analysis differed between
+
+
+[PDF page 59]
+54
+banks. Furthermore, none of the respondents attempted to quantify the degree of
+potential error in the estimation of the probability distribution of credit losses,
+though a few compared the results generated by the internal model with those
+from a vendor model.
+5.
+Management Oversight and Reporting
+A.
+Overview
+Much of the above discussion has focused on the mathematical and technical aspects of
+validation. Equally as important, however, is the internal environment in which a model
+operates. The amount of senior manager oversight, the proficiency of loan officers, the quality
+of internal controls and other traditional features of the credit culture will continue to play a
+key part in the risk management framework.
+B.
+Key Issues
+• 
+Given that the current generation of credit risk models is in its infancy, many of
+the individuals involved in model development currently also function as the
+ultimate users – the banks’ risk managers. However, few banks have subjected
+their models to an independent review and audit. As credit risk models become an
+integral part of an active business performance measurement and compensation
+scheme, banks will need to ensure proper oversight over the models in order to
+avoid potential conflicts of interest. This potential is apparent in the area of
+internal loan rating systems. While a number of institutions are currently
+attempting to validate their internal ratings through the use of credit scoring
+models, the majority continue to assign ratings to counterparties solely according
+to the judgement of a loan officer.
+• 
+Banks typically maintain documentation on the credit risk modelling process and
+the underlying methodology, as well as the results of any stress testing
+procedures. However, in estimating model parameters, banks at times rely on
+proprietary consultant data derived via undisclosed methodologies. Furthermore,
+the fact that validation analyses are generally undeveloped also raises concerns
+regarding the effective quality and completeness of the oversight process.
+
+
+[PDF page 60]
+55
+APPENDIX
+
+
+[PDF page 61]
+Credit Risk Modelling - Conceptual Issues
+Item:
+Description:
+Range of Practice:
+Issues/concerns:
+Page 
+#
+Reference
+Credit Loss Definition
+How is loss defined?
+• 
+Both M-T-M and Default Mode
+(DM) 
+processes 
+are 
+ 
+used/
+promoted.
+• 
+Some 
+banks 
+include 
+workout
+expenses and carrying costs while
+others don’t.
+• 
+Materiality of loss definition (i.e.
+should we use M-T-M or DM) not
+clear.
+16
+Time Horizon
+Over what time period
+should losses be measured?
+• 
+Most use a one-year horizon.
+• 
+Very little sensitivity analysis
+done to date.
+• 
+What horizon should be used for
+capital (e.g. one year, life of loan,
+etc.)?
+16
+Credit Risk
+Aggregation
+The distinction between
+entering individual loan
+attributes vs. attributes of a
+pool.
+• 
+Most 
+banks 
+enter 
+individual
+characteristics 
+of 
+commercial
+credits and pool real portfolios.
+• 
+Reliability of pooled data.
+• 
+Pooled data hide “credit-specific”
+risks.
+29
+Probability Density
+Function (PDF)
+The 
+method 
+used 
+to
+generate, and the use of,
+the PDF.
+• 
+Models do not specify the specific
+distribution
+• 
+No agreement on the “family” of
+distributions to use.
+26
+Credit Quality
+Correlations
+How co-movement among
+credit ratings and defaults
+is considered.
+• 
+Implicit vs. explicit
+• 
+Explicit (ratings vs. sector)
+• 
+Is one method better than the
+other?
+• 
+Is there significant difference in
+reported results?
+31
+
+
+[PDF page 62]
+57
+Conditional vs.
+Unconditional
+Are the results of the
+model dependent on the
+current 
+state 
+of 
+the
+economy?
+• 
+Currently 
+most 
+models 
+are
+unconditional and a few are
+conditional.
+• 
+Depending on the method chosen,
+risk 
+can 
+be 
+understated 
+or
+overstated 
+depending 
+on 
+the
+location within the business cycle.
+28
+Internal Applications
+Does the process provide
+company-wide
+application/use 
+of 
+the
+model, or is it only applied
+to exposures within certain
+businesses?
+How are banks using their
+credit models internally?
+• 
+Very few (if any) banks have
+developed 
+a 
+fully 
+integrated
+company-wide model to measure
+credit risk.
+• 
+Usage varies significantly. Some
+of uses noted include: credit
+concentration 
+limits, 
+ALL
+guideline, and RAROC input.
+• 
+If banks do not use these systems
+for internal allocations of credit,
+how much confidence can be
+placed in the processes?
+
+
+[PDF page 63]
+58
+Credit Risk Modelling - Parameter Specification Issues
+Item:
+Description:
+Range of Perspective:
+Issues/concerns:
+Page 
+#
+Reference:
+Loss Given
+Default Rates
+(LGDs)
+Determination of how much
+loss will occur once a credit
+has defaulted
+• 
+Most banks use a combination of
+historical data and intuition to
+determine LGD rates.
+• 
+LGD modelling methodology varies;
+however, most models use beta
+distribution.
+• 
+Lack of sensitivity analysis.
+• 
+Lack of historical information.
+35
+Risk Ratings and
+Expected
+Default
+Frequency
+Determination of what the
+expected default risk is within
+individual credits and/or pools
+of assets.
+• 
+Internal risk and public debt ratings
+are used in most cases for individual
+credits.
+• 
+For pools of credits, the bank’s
+internal historical charge-off rates
+are typically used.
+• 
+Questionable accuracy of internal
+systems being able to determine EDF.
+Most systems combine EDF and
+LGD.
+38
+Risk Rating
+Transitions
+Projection 
+of 
+future
+movements in risk ratings and
+to default.
+• 
+A number of banks rely on public
+debt 
+rating 
+information 
+(i.e.
+historical information).
+• 
+Other 
+banks 
+have 
+produced
+transition matrices based on internal
+historical information.
+• 
+Public debt rating transition matrices
+may not be appropriate for bank
+credits.
+• 
+Internal systems may not be accurate
+or have enough history.
+38
+Credit
+Correlations
+Determine the co-movement
+between assets. For M-T-M
+process, need to measure
+correlation 
+between 
+risk
+rating movements, as well as
+default.
+• 
+Most models use correlation data
+generated 
+from 
+equity 
+price
+movements.
+• 
+Other banks rely on their judgement
+to establish correlations.
+• 
+Is it reasonable to use equity
+information to estimate correlations
+for bank credits?
+• 
+Lack of historical data is a very
+significant 
+problem 
+for 
+this
+parameter.
+• 
+Outside the United States, there is
+even less information.
+41
+
+
+[PDF page 64]
+59
+Credit Spreads
+Determine 
+the 
+appropriate
+credit spreads to use to
+discount future cash flows for
+M-T-M purposes.
+• 
+Banks tend to use credit spreads
+commonly quoted in the market for
+loans that fall into public debt rating
+buckets.
+• 
+How is “liquidity” element of credit
+spreads taken into consideration?
+45
+Exposure Levels
+(e.g. amount
+drawn at
+default)
+Determine 
+the 
+appropriate
+exposure 
+amount 
+to 
+use
+within the model.
+• 
+Banks attempt to determine a credit
+equivalency when the exposure is
+not known with certainty (e.g.
+undrawn commitments).
+• 
+Banks attempt to determine future
+and average exposure amounts or
+estimate a credit equivalent amount
+on market-driven instruments.
+• 
+Accuracy of estimates.
+45
+Characterisation
+of Credit
+Determine 
+the 
+appropriate
+industry and country in which
+to slot the credit.
+• 
+Banks using a combination of
+judgement and financial statement
+information based on sales and
+assets.
+• 
+Accuracy 
+of 
+judgement-based
+characterisations.
+• 
+Lack of information to fully support
+industry/country assignments.
+43
+System Capacity
+Are bank systems able to
+capture needed data and can
+data from multiple systems be
+combined?
+• 
+Significant 
+differences 
+in 
+how
+information is collected and what is
+collected.
+• 
+Insufficient 
+information 
+being
+collected.
+• 
+Significant system upgrades/changes
+needed if information is to be
+collected.
+47
+Management
+Information
+Systems
+Is 
+accurate, 
+timely 
+and
+understandable 
+information
+being 
+prepared 
+for
+management?
+• 
+Reporting processes tend to be in the
+very early stages of development.
+• 
+Some applications take a great length
+of time to run analysis.
+47
+
+
+[PDF page 65]
+60
+Credit Risk Modelling - Validation Issues
+Item:
+Description:
+Range of Practice:
+Issues/concerns:
+Page 
+#
+Reference:
+Management
+Oversight
+What is the current state of
+bank management’s ability to
+provide reasonable oversight
+to this area?
+• 
+Most 
+knowledge/expertise 
+of
+modelling process currently lies in
+backroom analytics.
+• 
+Line 
+management 
+and 
+senior
+management 
+need 
+to 
+gain
+understanding 
+of 
+strengths 
+and
+weaknesses.
+54
+Backtesting
+Verification that actual losses
+correspond 
+to 
+projected
+losses.
+• 
+No banks have completed any
+significant backtesting.
+• 
+Limited availability of historical
+data is a big hurdle.
+• 
+To date there is no way to verify
+accuracy.
+• 
+Questions remain as to how to
+adequately backtest.
+51
+Stress testing
+Determine the model results
+under 
+various 
+economic
+scenarios.
+• 
+Some institutions are doing work in
+this area; however, to date, we have
+not seen comprehensive work.
+• 
+Few institutions are doing stress
+testing.
+53
+Sensitivity
+Analysis
+Assess 
+the 
+sensitivity 
+of
+results to changes in the
+inputs (parameters)
+• 
+Very limited work completed in this
+area to date.
+• 
+Sensitivity 
+information 
+is 
+very
+limited. 
+Significant 
+enhancements
+needed to understand effects of
+parameter changes.
+53
+Internal Review
+and 
+Audit 
+of
+Models
+Does 
+bank 
+have 
+an
+independent review process to
+determine the reasonableness
+of the models?
+• 
+Most banks do not have an internal
+review process in place.
+• 
+Lack of independence in reviewing
+these processes.
+54

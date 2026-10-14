@@ -1,0 +1,18 @@
+{
+  "id": "s1_land_use",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283679&chrClsCd=010202&urlMode=lsInfoP&efYd=20260227&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=283679&chrClsCd=010202&urlMode=lsInfoP&efYd=20260227&ancYnChk=0",
+  "retrieved_at": "2026-10-13T15:35:44.050354+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 53706,
+  "content_sha256": "32edc5b44b3c831ba3729a167a3401b9e54f0e2a1ac99c80d0d3572b4c5c50b0",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "2",
+      "27"
+    ]
+  ]
+}

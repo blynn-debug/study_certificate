@@ -1,0 +1,11 @@
+{
+  "id": "s2_sec_hedgefund",
+  "requested_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds",
+  "retrieved_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/private-investment-funds/hedge-funds",
+  "retrieved_at": "2026-10-13T16:30:51.251052+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "3c196bc31166213fade008ff5f698b5bd39a83e1384c3341bfc11fa850152673",
+  "text_sha256": "44ffd6f57935c567c0916c31dec55a2ea036ed247b4216f90edb5f96805eedce",
+  "status": "retrieved_not_claim_verified"
+}

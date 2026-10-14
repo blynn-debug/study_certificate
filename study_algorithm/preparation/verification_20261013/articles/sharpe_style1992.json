@@ -1,0 +1,30 @@
+{
+  "source_id": "sharpe_style1992",
+  "source_metadata": {
+    "id": "sharpe_style1992",
+    "requested_url": "https://web.stanford.edu/~wfsharpe/art/sa/sa.htm",
+    "retrieved_url": "https://web.stanford.edu/~wfsharpe/art/sa/sa.htm",
+    "retrieved_at": "2026-10-13T15:56:17.627431+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 41833,
+    "content_sha256": "af736f075acf916555a50b5eafa262f4519fb22cf7c6b4c67f4ff51a3e2e8166",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "sharpe_style1992:수익률기반스타일",
+      "source_id": "sharpe_style1992",
+      "article": "수익률기반스타일",
+      "heading": "수익률기반스타일",
+      "text": "The use of quadratic programming for the purpose of\ndetermining a fund's exposures to changes in the returns of major\nasset classes is termed style analysis (see Sharpe[1988]). The goal is to find the\n\"best\" set of asset class exposures (bij\nvalues) that totals to 100% and conforms with rudimentary\ninformation concerning the fund's policies (typically, no net\nshort positions in any asset class; for funds known to employ\nshort positions, other bounds may be invoked).. In this context,\nthe best such set of exposures is the one for which the the\nvariance of ei is the least.\nRearranging Equation (1):\nThe term on the left can be interpreted as the difference\nbetween the return on the fund (the first term on the right) and\nthat of a passive portfolio with the same style (shown by sum of\nthe terms in the brackets). The goal of style analysis is to\nselect the style (set of asset class exposures) that minimizes\nthe variance of this difference. Such a difference can be termed\nthe fund's \"tracking error\" and its variance the fund's\n\"tracking variance\".\nNote that the objective of such an analysis is not to minimize\neither the average value of this difference or the sum of the\nsquared differences. Thus the method is not designed to find a\nstyle that \"makes the fund look bad\" (or good). Rather,\nthe goal is to infer as much as possible about the fund's\nexposures to variations in the returns of the asset classes\nduring the period studied.\nWe have noted that a quadratic programming algorithm must be\nused for such an analysis. For an exact solution, one can\nimplement Markowitz' critical line method1(see Markowitz [1987]). This study uses the\nsimpler gradient method described in Sharpe\n[1987]. Although in principle the latter produces only an\napproximate solution, differences between the results obtained\nwith the two methods prove to be of no practical importance in\nthis application.\nMUTUAL FUND STYLES\nFigure 3 provides a graphical summary of the results shown in\nthe final column of Table 2. The bar chart indicates the\nestimated style of the fund, and the pie chart the associated\nR-squared value. In the latter the R-squared value is identified\nas attributable to the fund's style and the remainder (1\n- R-squared) to selection.\nIt is important to note that the style identified in such an\nanalysis is, in a sense, an average of potentially changing\nstyles over the period covered. Month-to-month deviations of the\nfund's return from that of style itself can arise from selection\nof specific securities within one or more asset classes, rotation\namong asset classes, or both security selection and asset class\nrotation . For the sake of simplicity, we use the term selection\nto cover all such sources of tracking differences.\nIt is sometimes helpful to examine the behavior of a manager's\naverage exposures to asset classes over time. To do so, one can\nperform a series of style analyses, using a fixed number of\nmonths for each analysis through time. Figure 4 shows the results\nfrom such a study for Trustee's Commingled U.S. Fund.\nThe point at the far right of the diagram represents the style\ndescribed when the sixty months ending in December 1989 are\nanalyzed. This corresponds to the style shown in Figure 3. Every\nother point represents the results of an analysis using a\ndifferent set of sixty monthly returns (note, however, that each\nsuch set has fifty-eight months in common with its predecessor).\nAs Figure 4 shows, this fund's style appeared to remain quite\nconstant",
+      "start": 17539,
+      "end": 21037,
+      "sha256": "95151d20b957a0dfa91b73bca6514bf372f620f5389e98216d833773dfe95f28"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

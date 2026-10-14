@@ -1,0 +1,32 @@
+{
+  "source_id": "financial_rule_annex10_2",
+  "source_metadata": {
+    "id": "financial_rule_annex10_2",
+    "requested_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196489&bylClsCd=200201",
+    "retrieved_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169196489&bylClsCd=200201",
+    "retrieved_at": "2026-10-13T01:19:15.597264+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "7c4433e4e102731dedf0fee339b0af89782438e216c72c2ab61f6747ea8a2dc1",
+    "binary_sha256": "7c4433e4e102731dedf0fee339b0af89782438e216c72c2ab61f6747ea8a2dc1",
+    "text_sha256": "ccb6e7ded94553597aeaf6ef91417953caad82e62c228901e5fe9186973728f8",
+    "pages": 1,
+    "characters": 731,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "financial_rule_annex10_2:기준",
+      "source_id": "financial_rule_annex10_2",
+      "article": "기준",
+      "heading": "기준",
+      "text": "[PDF page 1]\n<별표10의2> <신설2014.11.4>\n1종금융투자업자에대한적기시정조치기준\n(제3-26조제1항, 제3-27조제1항, 제3-28조제1항관련)\n1. 경영개선권고\n가. 순자본비율이100% 미만인경우\n나. 제3-25조에따른경영실태평가결과종합평가등급이3등급(보통)이상으로서자본적\n정성부문의평가등급을4등급(취약)이하로판정받은경우\n다. 거액의금융사고또는부실채권의발생으로가목또는나목의기준에해당될것이\n명백하다고판단되는경우\n라. 직전2 회계연도간연속하여당기순손실이발생하고, 레버리지비율이900%를초과\n하는경우. 다만, 직전2회계연도간발생한당기순손실의합계액이직전3회계연도말\n자기자본(구체적인산정방식은금융감독원장이정한다)의5% 미만인경우는제외한다.\n마. 레버리지비율이1100%를초과하는경우\n2. 경영개선요구\n가. 순자본비율이50% 미만인경우\n나. 제3-25조에따른경영실태평가결과종합평가등급을4등급(취약) 이하로판정받은\n경우\n다. 거액의금융사고또는부실채권의발생으로가목또는나목의기준에해당될것이\n명백하다고판단되는경우\n라. 직전2회계연도간연속하여당기순손실이발생하고, 레버리지비율이1100%를초과\n하는경우. 다만, 직전2회계연도간발생한당기순손실의합계액이직전3회계연도말\n자기자본(구체적인산정방식은금융감독원장이정한다)의5% 미만인경우는제외한다.\n마. 레버리지비율이1300%를초과하는경우\n3. 경영개선명령\n가. 순자본비율이0% 미만인경우\n나.「금융산업의구조개선에관한법률」제2조제2호에서정하는부실금융기관에해당하\n는경우",
+      "start": 0,
+      "end": 731,
+      "sha256": "8c71a75a02dbd3c1a10e47cd09d8f3b4fc96a33e149f6d54d344c0bd0bd3e762"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

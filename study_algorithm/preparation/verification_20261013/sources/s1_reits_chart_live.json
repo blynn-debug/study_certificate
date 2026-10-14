@@ -1,0 +1,12 @@
+{
+  "id": "s1_reits_chart_live",
+  "requested_url": "https://reits.molit.go.kr/pub/chart/chartSearch01?pmn=62",
+  "retrieved_url": "https://reits.molit.go.kr/pub/chart/chartSearch01?pmn=62",
+  "retrieved_at": "2026-10-13T23:48:19.340628+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 2531,
+  "content_sha256": "c486d926fdb3ae3ea9f99ab3c0ae5bd97373314f5e43c294c9b598274ae3c2ae",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

@@ -1,0 +1,1048 @@
+<html>
+<head>
+<title>ELWAVE&reg; Elliott Wave Software</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="/javascript/showonce.js"></script>
+<script language="JavaScript" src="/javascript/menu.js"></script>
+<script language="JavaScript" src="/javascript/functions.js"></script>
+
+
+<style type="text/css">
+<!--
+h1 {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #000000}
+h2 {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000}
+body, p, td, ul, ol, li, dd, dt, .text {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #222222 }
+dt { font-weight: bold; }
+dd { line-height: 18px; }
+
+a { text-decoration: none; color: blue }
+a:hover   { color: red }
+a:visited { color: navy }
+a:active  { color: red }
+a:visited:hover { color: red }
+
+.bigtext {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #222222}
+.smallHeader { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000099; }
+
+.nHeader { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #413D31; font-weight: bold; }
+.nSectionHeader { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #413D31; font-weight: bold; }
+.nLink { 
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 11px;
+    COLOR: #004444;
+    text-decoration: none
+    }
+.nLink:hover { text-decoration: underline; color: black; }
+
+.nLinkSelected {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold; 
+    color: black;
+    text-decoration: underline
+    }
+
+.spanWhite   { color: white }
+.spanGrey    { color: 666666 }
+.spanRed     { color: #a00000 }
+.spanBig     { font-size: 16px; }
+.spanBigger  { font-size: 20px; }
+.spanSmall   { font-size: 10px; }
+.spanSmaller { font-size: 8px; }
+
+.footer { font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 12px; color: #666666}
+.smTblHead {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #666666; }
+.smTbl { font-family: Arial, Helvetica, sans-serif; font-size: 10px; line-height: 12px; color: #666666}
+.smTbl  { list-style-type: square; }
+.smTbl A { text-decoration: none; color: #666666 }
+.smTbl A:hover { text-decoration: underline; color: black }
+
+.pageTitle    { font-family: "Arial Black", Arial, Helvetica, sans-serif; font-size: 18px; font-weight: normal; line-height: 20px; color: #002a2a; margin-bottom: 5px; }
+.pageSubTitle { font-family: tahoma, Arial, Helvetica, sans-serif; font-size: 12px; color: #002222; margin-bottom: 10px }
+
+.textMainHeader   { font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #002a2a; margin-bottom: 10px; }
+.textMainHeader A { color: #002a2a; }
+.textSubHeader    { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #000099; }
+.textSubHeader A  { color: #000099; }
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: transparent; /*lightyellow;*/
+padding: 5px;
+/*left: -1000px;*/
+border: 0px; /*1px solid black;*/ /*1px dashed gray;*/
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 0;
+left: 0px; /*60px*/ /*position where enlarged image should offset horizontally */
+}
+
+-->
+</style>
+
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('/asset/topnav/elwave-over.gif', '/asset/topnav/order-over.gif', '/asset/topnav/support-over.gif'); showonce('disclaimer'); init();">
+<div id="disclaimer" style="visibility:hidden; position:absolute; z-index:10; background-color: #D4D0C8; left: 204px; top: 0px; height: 43px; width: 469px;"><a href="http://www.prognosis.com"><img src="/asset/topnav/prognosisoverlay.png" width="471" height="45" border="0"></a></div>
+<div id="submenu0" style="position:absolute; z-index:10; width: 168px; top: 64px; left: 287px; visibility: hidden"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="168">
+    <tr> 
+      <td valign="top" bgcolor="#D9F3F3" width="10">&nbsp;</td>
+      <td valign="top" bgcolor="#D9F3F3" width="157"> 
+        <p class="homeMenuGreen">
+		  &#149;&nbsp;&nbsp;<a href="/elwave/index.html">ELWAVE</a><br>
+		  &#149;&nbsp;&nbsp;<a href="/bloomberg">ELWAVE for Bloomberg</a><br>          
+		  &#149;&nbsp;&nbsp;<a href="/elwave/elwave75forMetaStock.html">Add-on for MetaStock</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/uds.html">Data feeds/formats</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/service.html">Service Contracts</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/tour/index.html">Guided Tour</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/demo/index.html">Download Demo</a><br>
+          &#149;&nbsp;&nbsp;<a href="/order/index.html">Store</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/testimonials/index.html">Testimonials</a><br>
+          &#149;&nbsp;&nbsp;<a href="/elwave/reviews/index.html">Reviews</a>
+		</p>
+      </td>
+      <td valign="top" bgcolor="#5FA2A2" width="1"><img src="/asset/spacer.gif" width="1" alt=""></td>
+    </tr>
+    <tr> 
+      <td width="10" bgcolor="#5FA2A2"><img src="/asset/spacer.gif" width="10" height="1" alt=""></td>
+      <td width="157" bgcolor="#5FA2A2"><img src="/asset/spacer.gif" width="157" height="1" alt=""></td>
+      <td width="1" bgcolor="#5FA2A2"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+    </tr>
+  </table>
+</div>
+<div id="submenu1" style="position:absolute; z-index:10; width: 108px; top: 64px; left: 411px; visibility: hidden"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="108">
+    <tr> 
+      <td valign="top" bgcolor="#FFF9E4" width="10">&nbsp;</td>
+      <td valign="top" bgcolor="#FFF9E4" width="107"> 
+        <p class="homeMenuYellow">
+		  &#149;&nbsp;&nbsp;<a href="/support/faq/index.html">FAQ</a><br>
+          &#149;&nbsp;&nbsp;<a href="/support/downloads/index.html">Downloads</a><br>
+		</p>
+      </td>
+      <td valign="top" bgcolor="#BFBBAB" width="1"><img src="/asset/spacer.gif" width="1" alt=""></td>
+    </tr>
+    <tr> 
+      <td width="10" bgcolor="#BFBBAB"><img src="/asset/spacer.gif" width="10" height="1" alt=""></td>
+      <td width="107" bgcolor="#BFBBAB"><img src="/asset/spacer.gif" width="107" height="1" alt=""></td>
+      <td width="1" bgcolor="#BFBBAB"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+    </tr>
+  </table>
+</div>
+<div id="submenu2" style="position:absolute; z-index:10; width: 145px; top: 64px; left: 532px; visibility: hidden"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="145">
+    <tr> 
+      <td valign="top" bgcolor="#D9E8ED" width="10">&nbsp;</td>
+      <td valign="top" bgcolor="#D9E8ED" width="134"> 
+        <p class="homeMenuSteel">
+		  &#149;&nbsp;&nbsp;<a href="/order/index.html">Online shop</a><br>
+          &#149;&nbsp;&nbsp;<a href="/order/30daytrial.html">30-Day Trial</a><br>
+          <!--&#149;&nbsp;&nbsp;<a href="/order/promotion.html">Promotional deals!</a><br>-->
+          &#149;&nbsp;&nbsp;<a href="/elwave/service.html">Service Contracts</a><br>
+		</p>
+      </td>
+      <td valign="top" bgcolor="#5F8592" width="1"><img src="/asset/spacer.gif" width="1" alt=""></td>
+    </tr>
+	<tr> 
+      <td width="10" bgcolor="#5F8592"><img src="/asset/spacer.gif" width="10" height="1" alt=""></td>
+      <td width="134" bgcolor="#5F8592"><img src="/asset/spacer.gif" width="134" height="1" alt=""></td>
+      <td width="1" bgcolor="#5F8592"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+    </tr>
+  </table>
+</div>
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FF0000">
+  <tr>
+    <td rowspan="2"><a href="/index.html"><img src="/asset/topnav/ELWAVE-prognosis-software-developm.png" width="208" height="64" alt="Prognosis Software Development" border="0"></a></td>
+    <td rowspan="2"><img src="/asset/topnav/trading-tools.gif" alt="Trading tools" width="78" height="64" border="0"></td>
+	<td rowspan="1" height="43" colspan="3" align=top><img src="/asset/topnav/vul.jpg" width="191" height="43" border="0" align=top></td>
+    <td colspan="3" height="43" ><img src="/asset/topnav/toolbar_new.png" width="152" align=top height="43" usemap="#minitool" border="0"></td>
+	<td rowspan="2" width="100%" bgcolor="#FAF8F1"><img src="/asset/topnav/vul-06.jpg" width="55" height="64"></td>
+  </tr>
+	<tr>
+    <td ><a href="/elwave/index.html" onMouseOut="MM_swapImgRestore(); menuRoll(0,false)" onMouseOver="MM_swapImage('navElwave','','/asset/topnav/elwave-over.gif',0); menuRoll(0,true)">
+      <img src="/asset/topnav/elwave-over.gif" alt="Elwave product information" name="navElwave" width="97" height="21" border="0"></a></td>
+	<td><img src="/asset/topnav/vul-09.jpg" width="26" height="21"></td>
+    <td colspan="2"><a href="/support/faq/index.html" onMouseOut="MM_swapImgRestore(); menuRoll(1,false)" onMouseOver="MM_swapImage('navSupport','','/asset/topnav/support-over.gif',0); menuRoll(1,true)"><img src="/asset/topnav/support.gif" alt="Support and customer download section" name="navSupport" width="97" height="21" border="0"></a></td>
+	<td><img name="vul013" src="/asset/topnav/vul-13.jpg" width="25" height="21"></td>
+    <td><a href="/order/index.html" onMouseOut="MM_swapImgRestore(); menuRoll(2,false)" onMouseOver="MM_swapImage('navOrder','','/asset/topnav/order-over.gif',0); menuRoll(2,true)" target="_parent"><img src="/asset/topnav/order.gif" alt="Order / upgrade" name="navOrder" width="98" height="21" border="0"></a></td>
+  </tr>
+
+  <tr bgcolor="#00B1B1"> 
+    <td width="208"><img src="/asset/topnav/spacer.gif" width="208" height="6"></td>
+    <td width="78"><img src="/asset/topnav/spacer.gif" width="78" height="1"></td>
+    <td width="97"><img src="/asset/topnav/spacer.gif" width="97" height="1"></td>
+    <td width="26"><img src="/asset/topnav/spacer.gif" width="26" height="1"></td>
+    <td width="68"><img src="/asset/topnav/spacer.gif" width="68" height="1"></td>
+    <td width="29"><img src="/asset/topnav/spacer.gif" width="29" height="1"></td>
+    <td width="25"><img src="/asset/topnav/spacer.gif" width="25" height="1"></td>
+    <td width="98"><img src="/asset/topnav/spacer.gif" width="98" height="1"></td>
+    <td width="100%"><img src="/asset/topnav/spacer.gif" width="55" height="1"></td>
+  </tr>
+</table>
+<map name="minitool"> 
+ <area shape="rect" coords="4,9,57,31" href="/contact.html" alt="contact" title="contact"> 
+ <area shape="rect" coords="56,9,109,31" href="http://www.elwave.de" alt="To German site" title="To German site"> 
+ <area shape="rect" coords="108,9,151,31" href="http://www.elwave.com.ar" alt="To Spanish site" title="To Spanish site"> 
+</map>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="130" valign="top" background="/asset/leftnav/column-bg-lines.gif"> 
+      <table width="130" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td colspan="3" bgcolor="#F5F1E6" height="35"><img src="/asset/nav/elwave/special.gif" width="130" height="35"></td>
+        </tr>
+        <tr> 
+          <td width="6" bgcolor="#F5F1E6"><img src="/asset/spacer.gif" width="6" height="1" alt=""></td>
+          <td width="114" bgcolor="#F5F1E6"><img src="/asset/spacer.gif" width="114" height="1" alt=""></td>
+          <td width="10" bgcolor="#F5F1E6"><img src="/asset/spacer.gif" width="10" height="1" alt=""></td>
+        </tr>
+        <tr bgcolor="#C3B793"> 
+          <td class="nHeader">&nbsp;</td>
+          <td height="30"> 
+            <div class="nHeader">in this section</div>
+          </td>
+          <td class="nHeader">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="3" bgcolor="#E1DBC7" height="1"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+        </tr>
+        <tr bgcolor="#DACDA4" onmouseover="this.style.cursor='hand';this.style.backgroundColor='#E1DBC7';" onmouseout="this.style.backgroundColor='#DACDA4';"> 
+          <td height="30" class="nLink">&nbsp;</td>
+          <td onclick="location.href='/elwave/faq/index.html'"><a href="/elwave/faq/index.html" class="nLink">FAQ</a></td>
+          <td valign="top" class="nLink">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="3" bgcolor="#E1DBC7" height="1"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+        </tr>
+        <tr bgcolor="#DACDA4" onmouseover="this.style.cursor='hand';this.style.backgroundColor='#E1DBC7';" onmouseout="this.style.backgroundColor='#DACDA4';"> 
+          <td height="30" class="nLink">&nbsp;</td>
+          <td onclick="location.href='/elwave/faq/ddelinks.html'"><a href="/elwave/faq/ddelinks.html" class="nLink">Example DDE-Links</a></td>
+          <td valign="top" class="nLink">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="3" bgcolor="#E1DBC7" height="1"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+        </tr>
+        <tr bgcolor="#E1DBC7"> 
+          <td height="30" class="nLink">&nbsp;</td>
+          <td onclick="location.href='/elwave/faq/principle/index.html'"><a href="/elwave/faq/principle/index.html" class="nLink">The Elliott Wave Principle</a></td>
+          <td class="nLink"><img src="/asset/leftnav/select.gif" width="10" height="20" alt=""></td>
+        </tr>
+        <tr> 
+          <td colspan="3" bgcolor="#E1DBC7" height="1"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+        </tr>
+        <tr bgcolor="#DACDA4" onmouseover="this.style.cursor='hand';this.style.backgroundColor='#E1DBC7';" onmouseout="this.style.backgroundColor='#DACDA4';"> 
+          <td height="30" class="nLink">&nbsp;</td>
+          <td onclick="location.href='/elwave/faq/principle_nl/index.html'"><a href="/elwave/faq/principle_nl/index.html" class="nLink">Het Elliott Wave Principe</a></td>
+          <td valign="top" class="nLink">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td colspan="3" bgcolor="#94928B"><img src="/asset/spacer.gif" width="1" height="1" alt=""></td>
+        </tr>
+      </table>
+
+    </td>
+    <td valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+          <td background="/asset/nav/elwave/subnav-left-fill.gif" height="35">&nbsp;</td>
+          <td background="/asset/nav/elwave/subnav-left-fill.gif"> 
+<a href="/elwave/index.html" class="nLink">ELWAVE</a> | <a href="/elwave/features/index.html" class="nLink">Features</a> | <a href="/elwave/tour/index.html" class="nLink">Guided Tour</a> | <a href="/elwave/testimonials/index.html" class="nLink">Testimonials</a> | <a href="/elwave/reviews/index.html" class="nLink">Reviews</a> | <a href="/elwave/faq/index.html" class="nLinkSelected">FAQ</a> | <a href="/elwave/demo/index.html" class="nLink">Get Demo</a>          </td>
+          <td valign="top"><img src="/asset/nav/elwave/subnav-schuin.gif" width="40" height="35"></td>
+          <td width="40%" rowspan="2" valign="top"> 
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+              <tr> 
+                <td width="100%" height="20" background="/asset/nav/elwave/subnav-right-fill.gif"><img src="/asset/spacer.gif" width="125" height="1" alt=""></td>
+              </tr>
+              <tr> 
+                <td background=""><span class="nSectionHeader"></span></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td width="20" height="1"><img src="/asset/spacer.gif" width="20" height="1" alt=""></td>
+          <td width="60%"><img src="/asset/spacer.gif" width="425" height="1" alt=""></td>
+          <td width="40"><img src="/asset/spacer.gif" width="40" height="1" alt=""></td>
+        </tr>
+        <tr> 
+          <td colspan="4" height="20"></td>
+        </tr>
+
+        <tr> 
+          <td></td>
+          <td colspan="3" valign="top"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td colspan="2" valign="top"> 
+                  <h1 class="pageTitle">The Elliott Wave Principle</h1>
+                </td>
+                <td>&nbsp;</td>
+                <td width="15%" valign="top">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="25" height="20"><img src="/asset/spacer.gif" width="25" height="1"></td>
+                <td width="85%"></td>
+                <td width="17"><img src="/asset/spacer.gif" width="17" height="1"></td>
+                <td width="15%"></td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td valign="top"> 
+                  <table width="99%" cellspacing="0">
+                    <tr> 
+                      <td colspan="2" height="15"></td>
+                    </tr>
+                    <tr> 
+                      <td>This Chapter:</td>
+                      <td rowspan="2"> 
+                        <pre>   </pre>
+                      </td>
+                      <td rowspan="2" valign="top">Next Chapter:<br>
+                        <b><a href="trading_ew.html">Trading the Elliott Wave</a></b></td>
+                    </tr>
+                    <tr> 
+                      <td> 
+                        <ol>
+                          <li><a href="index.html#general">General</a></li>
+                          <li><a href="index.html#basictheory">Basic Theory</a></li>
+                          <li><a href="#patterns">Patterns</a></li>
+                          <ul>
+                            <li><a href="#classic">Classic Elliott Wave patterns</a></li>
+                            <ul>
+                              <li><a href="#classic_trends">Trends</a></li>
+                              <li><a href="#classic_corrections">Corrections</a></li>
+                            </ul>
+                            <li><a href="#modern">Modern Elliott Wave patterns</a></li>
+                            <ul>
+                              <li><a href="#modern_trends">Trends</a></li>
+                              <li><a href="#modern_corrections">Corrections</a></li>
+                            </ul>
+                          </ul>
+                          <li><a href="principle3.html#channeling">Channeling</a></li>
+                          <li><a href="principle3.html#fibonacci">Fibonacci ratios</a></li>
+                        </ol>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td></td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="50">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td colspan="2"> 
+                  <h2 class="textMainHeader"><b><a name="patterns">3. Patterns</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text">:: 
+                    <a href="#top">top</a> ::</span></b></b></h2>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td height="20">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td valign="top"> 
+                  <p>Studying the patterns is very important in order to apply 
+                    the Elliott Wave Principle correctly. The pattern of the market 
+                    action, if correctly determined, not only tells you to what 
+                    price levels the market will rise or decline, but also in 
+                    which way (or pattern) this will happen.</p>
+                  <p>When you are able to recognize the patterns, and apply these 
+                    patterns correctly, you can trade the Elliott Wave Principle. 
+                    This is not easy to accomplish, but after some study and with 
+                    the help of the &quot;<i>ELWAVE</i> &quot; tool you will find 
+                    it easier. Humans, with sufficient experience, can analyse 
+                    markets in an instance, which is a requirement for trading.</p>
+                  <p><i>ELWAVE </i>restricts itself mainly to the patterns mentioned 
+                    in the <b>Classic Elliott Wave patterns</b>. These patterns 
+                    have been programmed in our <b>Classic Rules</b> version. 
+                  </p>
+                  <p>In our <b>Modern Rules</b> version, as mentioned under <b>Modern 
+                    Elliott Wave patterns</b>, we have defined more patterns, 
+                    which we have found after more than 10 years of research and 
+                    experience, which definitions are more profitable in our view. 
+                    This way we make available our knowledge and experience without 
+                    any extra costs.</p>
+                  <p>It is up to the user to determine which rules are preferable. 
+                    We think it is important that the user has the opportunity 
+                    of using his preferred set of rules.</p>
+                  <p>Explaining the following descriptions, on the left you will 
+                    find a picture of a bull market, at the right one of a bear 
+                    market. </p>
+                  <p>The <b><i>pattern</i></b> section depicts the structure, 
+                    while the <b><i>description</i></b> gives additional information. 
+                    The pattern should follow the <b><i>rules and guidelines</i></b>, 
+                    which can also be derived from the picture. Furthermore the 
+                    section, <b><i>in which wave</i></b> explains in which wave, 
+                    as a part of a larger wave degree, the patterns normally occur. 
+                    Last but not least the pattern must have an <b><i>internal 
+                    structure</i></b> as described. This is very important to 
+                    determine which pattern you are dealing with.</p>
+                </td>
+                <td></td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="50">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td colspan="2"> 
+                  <p class="textSubHeader"><b><i><a name="classic">Classic Elliott 
+                    Wave patterns</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text">:: 
+                    <a href="#top">top</a> ::</span></b></i></b></p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td height="20">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td valign="top"> Below we have depicted all Elliott Wave patterns 
+                  that are allowed under a <b>very strict interpretation</b> of 
+                  the Elliott Wave Principle. Elliott detected most of these patterns, 
+                  except for the Diagonal 2 pattern. The WXY and WXYXZ pattern 
+                  have not been defined as such by Elliott, but he already had 
+                  discovered these sort of combinations. 
+                  <p>In our Automatic analysis engine we use the WXY and WXYXZ 
+                    also for Double and Triple Zigzags. This is a much more consistent 
+                    way of labeling these patterns, since now the ABC waves in 
+                    waves W and Y are sub waves and an unfitting Wave X has been 
+                    eliminated.</p>
+                  <p>Because of this the Automatic analysis no longer has to search 
+                    for more than five waves. Using the old definition of for 
+                    example a Triple Zigzag, the search was for eleven waves, 
+                    apart from inconsistencies this would have slowed down the 
+                    analysis considerably.</p>
+                  <p><b><a name="classic_trends">I. Trends</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:: 
+                    <a href="#top">top</a> ::</b></b></p>
+                  <p><i><b>a. Impulse</b></i></p>
+                  <p><i><b>Pattern</b></i></p>
+                  <p>&#9;<img src="Image66.gif" width=244 height=143>&#9;&#9;<img src="Image67.gif" width=254 height=153></p>
+                  <p><b>Description</b></p>
+                  <p>Impulses are always composed of five waves, labeled 1,2,3,4,5. 
+                    Waves 1, 3 and 5 are themselves each impulsive patterns and 
+                    are approximately equal in length. Waves 2 and 4 on the contrary 
+                    are always corrective patterns. </p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The most important rules and guidelines are:</p>
+                  <ul>
+                    <ul>
+                      <li>Wave 2 cannot be longer in price than wave 1, and it 
+                        must not go beyond the origin of wave 1.</li>
+                      <li>Wave 3 is never the shortest when compared to waves 
+                        1 and 5.</li>
+                      <li>Wave 4 cannot overlap wave 1, except in diagonal triangles 
+                        and sometimes in wave 1 or A waves, but never in a third 
+                        wave. In most cases there should not be an overlap between 
+                        wave 1 and A.</li>
+                      <li>As a guideline the third wave shows the greatest momentum, 
+                        except when the fifth is the extended wave.</li>
+                      <li>Wave 5 must exceed the end of wave 3.</li>
+                      <li>As a guideline the internal wave structure should show 
+                        alternation, which means different kind of corrective 
+                        structures in wave 2 and 4.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Impulse patterns occur in waves 1, 3, 5 and in waves A and 
+                    C of a correction( this correction could be a wave 2, 4 or 
+                    a wave B, D, E or wave X).</p>
+                  <p><b>Internal structure</b></p>
+                  <p>It is composed of five waves. The internal structure of these 
+                    waves is 5-3-5-3-5. Note that the mentioned 3s are corrective 
+                    waves, which should be composed of 5 waves in a corrective 
+                    triangle.</p>
+                  <p><b><i>b. Extension</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p><img src="Image68.gif" width=299 height=182 vspace="4"> <img src="Image69.gif" width=306 height=183 vspace="4"></p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>By definition an extension occurs in an impulsive wave, where 
+                    waves 1, 3 or 5 can be extended, being much longer than the 
+                    other waves. It is quite common that one of these waves will 
+                    extend, which is normally the third wave. The two other waves 
+                    then tend to equal each other.</p>
+                  <p>In our pattern definitions we call it an Extension1 if the 
+                    first wave extends, an Extension3 if the 3<sup>rd</sup> wave 
+                    extends and an Extension5 if the 5<sup>th</sup> wave extends.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The most important rules and guidelines concerning an extended 
+                    wave are:</p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 5, 9, 13 or 17 waves.</li>
+                      <li>Wave 2 cannot be longer in price length than wave 1, 
+                        so it should not go beyond the origin of wave 1.</li>
+                      <li>Wave 3 is never the shortest when compared to waves 
+                        1 and 5.</li>
+                      <li>Wave 4 cannot overlap wave 1.</li>
+                      <li>Wave 5 exceeds the end of wave 3.</li>
+                      <li>The extended wave normally shows the highest acceleration.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Extensions occur in waves 1, 3, 5, and in A and C waves, 
+                    when compared to each other.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>As a minimum it is composed of 9 waves, though 13 or 17 waves 
+                    could occur. So the minimal internal structure of the 9 waves 
+                    is 5-3-5-3-5-3-5-3-5. Note that the 3s mentioned are corrective 
+                    waves, which could be composed of 5 waves in the case of a 
+                    corrective triangle.</p>
+                  <p><b><i>c. Diagonal triangle type 1</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p><img src="Image70.gif" width=268 height=161>&#9;<img src="Image71.gif" width=276 height=161></p>
+                  <p><b>Description</b></p>
+                  <p>Diagonals are sort of impulsive patterns, which normally 
+                    occur in terminal waves like a fifth or a C wave. Don?t confuse 
+                    them with corrective triangles.</p>
+                  <p>Diagonals are relatively rare phenomena for large wave degrees, 
+                    but they do occur often in lower wave degrees on intra-day 
+                    charts. Usually Diagonal triangles are followed by a violent 
+                    change in market direction. </p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The most important rules and guidelines are:</p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 5 waves.</li>
+                      <li>Waves 4 and 1 do overlap. </li>
+                      <li>Wave 4 can?t go beyond the origin of wave 3.</li>
+                      <li>Wave 3) cannot be the shortest wave.</li>
+                      <li>Internally all waves of the diagonal have a corrective 
+                        wave structure.</li>
+                      <li>Wave 1 is the longest wave and wave 5 the shortest.</li>
+                      <li>The channel lines of Diagonals must converge.</li>
+                      <li>As a guideline the internal wave structure should show 
+                        alternation, which means different kind of corrective 
+                        structures.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Diagonal triangles type 1 occur in waves 5, C and sometimes 
+                    in wave 1.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>The internal structure of the five waves is 3-3-3-3-3.</p>
+                  <p><b><i>d. Diagonal triangle type 2</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p><img src="Image72.gif" width=276 height=155> &#9;<img src="Image73.gif" width=279 height=160></p>
+                  <p><b>Description</b></p>
+                  <p>Diagonal type 2 is a sort of impulsive pattern, which normally 
+                    occurs in the first or A wave. The main difference with the 
+                    Diagonal Triangle type 1 is the fact that <b>waves 1, 3 and 
+                    5</b> have an internal structure of <b>five</b> waves instead 
+                    of three. Experience shows it can also occur in a wave 5 or 
+                    C, though the Elliott Wave Principle does not allow this. 
+                    Don?t confuse this with corrective triangles.</p>
+                  <p>Diagonals are relatively rare phenomena for large wave degrees, 
+                    but they do occur often in lower wave degrees in intra day 
+                    charts. These Diagonal triangles are not followed by a violent 
+                    change in market direction, because it is not the end of a 
+                    trend, except when it occurs in a fifth or a C wave.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The most important rules and guidelines are:</p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 5 waves.</li>
+                      <li>Wave 4 and 1 do overlap.</li>
+                      <li>Wave 4 can?t go beyond the origin of wave 3.</li>
+                      <li>Wave 3) cannot be the shortest wave.</li>
+                      <li>Internally waves 1, 3 and 5 have an impulsive wave structure.</li>
+                      <li>Wave 1 is the longest wave and wave 5 the shortest.</li>
+                      <li>As a guideline the internal wave structure should show 
+                        alternation, which means that wave 2 and 4 show a different 
+                        kind of corrective structure.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Diagonal triangles type 2 occur in waves 1 and A.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>The five waves of the diagonal type 2 show an internal structure 
+                    of 5-3-5-3-5.</p>
+                  <p><b><i>e. Failure or Truncated 5th</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;<img src="Image74.gif" width=256 height=140>&#9;&#9;<img src="Image75.gif" width=250 height=132></p>
+                  <p><b>Description</b></p>
+                  <p>A failure is an impulsive pattern in which the fifth wave 
+                    does not exceed the third wave. Fifth waves, which travel 
+                    only slightly beyond the top of wave 3, can also be classified 
+                    as a kind of failure. It indicates that the trend is weak 
+                    and that the market will show acceleration in the opposite 
+                    direction.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The most important rules and guidelines are:</p>
+                  <ul>
+                    <ul>
+                      <li>Wave 2 cannot be longer in price distance than wave 
+                        1, so it should not go beyond the origin of wave 1.</li>
+                      <li>Wave 3 is never the shortest when compared to waves 
+                        1 and 5.</li>
+                      <li>Wave 4 cannot overlap wave 1, except for diagonal triangles 
+                        and sometimes in waves 1 or A, but never in a third wave. 
+                        There should not be overlap between wave 1 and A.</li>
+                      <li>Wave 5 fails to go beyond the end of wave 3.</li>
+                      <li>As a guideline the third wave shows the greatest momentum.</li>
+                      <li>As a guideline the internal wave structure should show 
+                        alternation, which means different kinds of corrective 
+                        structures.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>A failure can only occur in a fifth wave or a C wave, but 
+                    normally not in the fifth wave of wave 3. </p>
+                  <p><b>Internal structure</b></p>
+                  <p>It must be composed of five waves. </p>
+                  <p><b><a name="classic_corrections">II. Corrections</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:: 
+                    <a href="#top">top</a> ::</b></b></p>
+                  <p><i><b>a. Zigzag</b></i></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;&#9;<img src="Image76.gif" width=218 height=202>&#9;&#9;<img src="Image77.gif" width=216 height=209></p>
+                  <p><b>Description</b></p>
+                  <p>A Zigzag is the most common corrective structure, which starts 
+                    a sharp reversal. Often it looks like an impulsive wave, because 
+                    of the acceleration it shows. A zigzag can extend itself into 
+                    a double or triple zigzag, although this is not very common, 
+                    because it lacks alternation (the same two patterns follow 
+                    each other). Notice that the zigzag can only be the first 
+                    part of a corrective structure.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 3 waves.</li>
+                      <li>Waves A and C are impulses, wave B is corrective.</li>
+                      <li>The B wave retraces no more then 61.8% of A.</li>
+                      <li>The C wave must go beyond the end of A.</li>
+                      <li>The C wave normally is at least equal to A.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Most of the time it happens in A, X or 2. Also quite common 
+                    in B waves as a part of a Flat, (part of) Triangles and sometimes 
+                    in 4.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>A single Zigzag is composed of 3 waves, a double of 7 waves 
+                    separated by an X wave in the middle, a triple of 11 waves 
+                    separated by two X waves (see pictures below). The internal 
+                    structure of the 3 waves is 5-3-5 in a single Zigzag, 5-3-5-3-5-3-5 
+                    in a double.</p>
+                  <p>Example of a <b>Double Zigzag</b></p>
+                  <p>&#9;<img src="Image78.gif" width=271 height=190>&#9;&#9;<img src="Image79.gif" width=212 height=203></p>
+                  <p>&nbsp;</p>
+                  <p>As you have noticed we have a more modern representation 
+                    of the Double Zigzag using the labels WXY instead of ABCXABC. 
+                    This is more consistent, since this way 2 zigzags of lower 
+                    degree get connected to each other by waves of higher degree. 
+                    On top if that, our automatic analysis needed such a consistent 
+                    method of labeling to reach maximum performance. Instead of 
+                    labeling 7 waves (ABCXABC), the Automatic analysis needs to 
+                    label only 3 waves (WXY). According to the same method a Triple 
+                    Zigzag is represented by WXYXZ instead of ABCXABCXABC. This 
+                    way the number of waves was reduced to five instead of eleven.</p>
+                  <p><b><i>b. Flat</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;<img src="Image80.gif" width=261 height=165>&#9;<img src="Image81.gif" width=261 height=162></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>Flats are very common forms of corrective patterns, which 
+                    generally show a sideways direction. Waves A and B of the 
+                    Flat are both corrective patterns. Wave C on the contrary 
+                    is an impulsive pattern. Normally wave C will not go beyond 
+                    the end of wave A.</p>
+                  <p>&nbsp;</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 3 waves.</li>
+                      <li>Wave C is an impulse, wave A and B are corrective.</li>
+                      <li>Wave B retraces more then 61.8% of A.</li>
+                      <li>Wave B often shows a complete retracement to the end 
+                        of the previous impulse wave.</li>
+                      <li>Wave C shouldn?t go beyond the end of A.</li>
+                      <li>Normally wave C is at least equal to A.</li>
+                    </ul>
+                  </ul>
+                  <p>&nbsp;</p>
+                  <p><b>In which wave</b></p>
+                  <p>It occurs mostly in B waves, though also quite common in 
+                    4 and 2.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>As mentioned before a Flat consists of 3 waves. The internal 
+                    structure of these waves is 3-3-5. Both waves A and B normally 
+                    are Zigzags.</p>
+                  <p><b><i>c. Expanded Flat or Irregular Flat</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;<img src="Image82.gif" width=243 height=195>&#9;<img src="Image83.gif" width=11 height=11> 
+                    <img src="Image84.gif" width=247 height=199>&#9;</p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>This is a common special type of Flat. Here the B wave is 
+                    extended and goes beyond the (orthodox) end of the previous 
+                    impulsive wave. The strength of the B wave shows that the 
+                    market wants to go in the direction of B. Often a strong acceleration 
+                    will take place, which starts a third wave or an extended 
+                    fifth. If the C wave is much longer then A, the strength will 
+                    be less.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 3 waves.</li>
+                      <li>Wave C is an impulse, waves A and B are corrective.</li>
+                      <li>Wave B retraces beyond the end of the previous impulse, 
+                        which is the start of wave A. The C wave normally is much 
+                        longer then A.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>This corrective pattern can happen in 2, 4, B and X. If it 
+                    happens in 2 and C is relatively short, normally an acceleration 
+                    in the third will take place.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>It is composed of five waves, which have an internal structure 
+                    of 3-3-5.</p>
+                  <p><b><i>d. Triangles </i></b></p>
+                  <p><i>Contracting Triangle:</i></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p><img src="Image85.gif" width=302 height=174> <img src="Image86.gif" width=300 height=173></p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>A triangle is a corrective pattern, which can contract or 
+                    expand. Furthermore it can ascend or descend. It is composed 
+                    of five waves, each of them has a corrective nature.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>It is composed of 5 waves.</li>
+                      <li>Wave 4 and 1 do overlap.</li>
+                      <li>Wave 4 can?t go beyond the origin of wave 3.</li>
+                      <li>Wave 3 cannot be the shortest wave.</li>
+                      <li>Internally all waves of the diagonal have a corrective 
+                        wave structure.</li>
+                      <li>In a contracting Triangle, wave 1 is the longest wave 
+                        and wave 5 the shortest. In an expanding Triangle, wave 
+                        1 is the shortest and wave 5 the longest.</li>
+                      <li>Triangles normally have a wedged shape, which follows 
+                        from the previous.</li>
+                      <li>As a guideline the internal wave structure should show 
+                        alternation.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Triangles occur only in waves B, X and 4. Never in wave 2 
+                    or A.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>It is composed of five waves, of which the internal structure 
+                    is 3-3-3-3-3.</p>
+                  <p>&nbsp;</p>
+                  <p><i>Expanding</i><i> Triangle:</i></p>
+                  <p><img src="Image87.gif" width=302 height=171 vspace="4"> <img src="Image88.gif" width=302 height=171 vspace="4"></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><i>Ascending Triangle:</i></p>
+                  <p>This is a triangle, which slopes upwards. This pattern has 
+                    been implemented in the <b>Modern Rules</b>.</p>
+                  <p>&nbsp;</p>
+                  <p><i>Descending Triangle:</i></p>
+                  <p>This is a triangle, which slopes downwards. This pattern 
+                    has been implemented in the <b>Modern Rules</b>.</p>
+                  <p>&nbsp;</p>
+                  <p><i>Running Triangle:</i></p>
+                  <p>This is a triangle where the B wave exceeds the origin of 
+                    wave A.</p>
+                  <p><b><i>e. WXY or Combination</i></b></p>
+                  <p>Many kinds of combinations are possible. Below a rather complex 
+                    example has been depicted.</p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;&#9;&#9;&#9;<img src="Image89.gif" width=584 height=202></p>
+                  <p><b>Description</b></p>
+                  <p>A Combination combines several types of corrections. These 
+                    corrections are labeled as WXY and WXYXZ if it is even more 
+                    complex. It starts for example with a Zigzag (wave W), then 
+                    an intermediate X wave, then a Flat (wave Y) and so on. A 
+                    so-called double or triple three is also a Combination, but 
+                    this pattern combines Flats separated by X waves.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>All types of corrective patterns can combine to form 
+                        a bigger corrective pattern.</li>
+                      <li>The rules and guidelines, as mentioned for other corrective 
+                        patterns apply.</li>
+                      <li>A triangle in a Combination should normally occur at 
+                        the end.</li>
+                      <li>Corrective patterns in a Combination normally show alternation.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Generally a Combination occurs mostly in B, X and 4, it is 
+                    less common in A and rare in 2.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>For example a Zigzag, followed by a Flat, followed by a Triangle 
+                    has the following internal structure: </p>
+                  <p>5-3-5(Zigzag)-5-3-5(X)-3-3-5(Flat)-3-3-3-3-3(Triangle).</p>
+                  <p>&nbsp;</p>
+                  <p><b><i>f. Running Flat</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&#9;&#9;<img src="Image90.gif" width=222 height=195>&#9;&#9;<img src="Image91.gif" width=230 height=180></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>The Running correction is a rare special form of a failure. 
+                    This pattern is a kind of Flat, with an elongated B wave and 
+                    a very small C wave. According to theory wave C should be 
+                    so short that it doesn?t get to the price territory of wave 
+                    A. <i>ELWAVE</i> does not except a C wave that fails to reach 
+                    the price territory of wave A. </p>
+                  <p>Instead of a running correction this could in theory be an 
+                    extension in an impulsive wave, where the wave has subdivided 
+                    in two (or more) 1,2 combinations. If the B is a clear three 
+                    wave, then it is a Running correction, otherwise an extension. 
+                    In practice there will not be any difference in market direction: 
+                    in both scenarios the market will explode in the direction 
+                    of the B wave, therefore <i>ELWAVE</i> prefers to label it 
+                    as an extension. For the sake of correctness we have included 
+                    this pattern, it has been implemented in the <b>Classic Rules</b>, 
+                    not in the <b>Modern Rules</b>.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>The B wave must be composed of three waves.</li>
+                      <li>The C wave must be composed of five waves.</li>
+                      <li>Wave C must be very short and normally will not reach 
+                        the price territory of A.</li>
+                      <li>Wave C must not retrace more than 100% of wave B but 
+                        more than 60% of wave A.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Most of the time it should occur in wave 2 or B.</p>
+                  <p><b>Internal structure</b></p>
+                  <p>It is a three-wave structure. The internal structure is <br>
+                    3-3-5.</p>
+                  <p><b><i>X wave</i></b></p>
+                  <p><b>Description</b></p>
+                  <p>An X wave is an intermediate wave in a more complex correction. 
+                    This wave is always corrective and can take many forms like 
+                    a Zigzag, Double Zigzag, Flat, Expanded Flat, combination 
+                    and a triangle.</p>
+                  </td>
+                <td></td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td height="50">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td colspan="2"> 
+                  <p class="textSubHeader"><b><i><a name="modern">Modern Elliott 
+                    Wave patterns</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text">:: 
+                    <a href="#top">top</a> ::</span></b></i></b></p>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td height="20">&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td valign="top"> 
+                  <p>In our <b>Modern Rules</b> engine we have defined extra patterns 
+                    that are mostly hybrid patterns derived from the known patterns 
+                    that have existed from the beginning. In addition, we allow 
+                    for the occurrence of more patterns in some waves. For example, 
+                    wave 1 may also contain a diagonal1, diagonal2 and impulse 
+                    2 pattern, in addition to the other trend patterns, that a 
+                    classic interpretation accepts.</p>
+                  <p><b><a name="modern_trends">I. Trends</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:: 
+                    <a href="#top">top</a> ::</b></b></p>
+                  <p><i><b>a. Impulse 2</b></i></p>
+                  <p><b>Pattern</b></p>
+                  <p>&#9;<img src="Image92.gif" width=244 height=143>&#9;&#9;<img src="Image93.gif" width=254 height=153></p>
+                  <p><b>Description</b></p>
+                  <p>An Impulse 2 is an uncommon pattern that resembles a normal 
+                    impulse considerably. In our Automatic analysis we allow for 
+                    a maximum retracement of 51.5% for wave 4 in an impulse or 
+                    other trend pattern. Of course sometimes the retracement of 
+                    wave 4 could be 51.6% and an impulse would then be eliminated, 
+                    in spite of the fact that the limit was exceeded by 0.1% only. 
+                    Naturally the Elliott Wave does not apply this strictly and 
+                    the Impulse 2 pattern corrects for this problem. Apart from 
+                    this, we have witnessed a retracement up to 62% for a wave 
+                    4 frequently in intra day charts.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <p>The same rules and guidelines apply as with a normal impulse 
+                    except for the following:</p>
+                  <ul>
+                    <ul>
+                      <li>Wave 4 is allowed to retrace between 51.5% and 62%, 
+                        without penetrating the region of wave 1.</li>
+                      <li>As a guideline, wave 4 very often is a Zigzag.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Impulse 2 patterns mostly occur in waves 1,A or C, never 
+                    in a wave 3!</p>
+                  <p><b>Internal structure</b></p>
+                  <p>It is composed of five waves. The internal structure of these 
+                    waves is 5-3-5-3-5. Note that the mentioned 3s are corrective 
+                    waves, which could be composed of 5 waves in a corrective 
+                    triangle.</p>
+                  <p><b><a name="modern_corrections">II. Corrections</a><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:: 
+                    <a href="#top">top</a> ::</b></b></p>
+                  <p><i><b>a. ZigzagFlat</b></i></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;&#9;<img src="Image94.gif" width=218 height=202>&#9;&#9;<img src="Image95.gif" width=216 height=209></p>
+                  <p><b>Description</b></p>
+                  <p>It is a common pattern that is exactly the same as a Zigzag, 
+                    except for the fact that the B wave is allowed to retrace 
+                    more than 61.8% of wave A.</p>
+                  <p><b><i>b. Running Zigzag</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&#9;&#9;<img src="Image96.gif" width=194 height=168>&#9;&#9;&#9;<img src="Image97.gif" width=190 height=182></p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>Apart from contracting Triangles, a failure in a corrective 
+                    pattern happens when the C wave is shorter than wave A and 
+                    fails to go beyond the end of A. This mostly happens in Running 
+                    Flats and or in Zigzags. It indicates strength in the direction 
+                    of the main trend.</p>
+                  <p><b>Rules and guidelines</b></p>
+                  <ul>
+                    <ul>
+                      <li>The rules as mentioned with other corrective patterns 
+                        apply.</li>
+                      <li>Wave C fails to go beyond the end of wave A.</li>
+                    </ul>
+                  </ul>
+                  <p><b>In which wave</b></p>
+                  <p>Failures can occur in a C wave of wave 2, in a C or E wave 
+                    of wave 4, in a C wave of wave B or X.</p>
+                  <p></p>
+                  <p><b><i>c. Failed Flat</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&nbsp;</p>
+                  <p>&#9;<img src="Image98.gif" width=260 height=164>&#9;<img src="Image99.gif" width=260 height=161></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>This pattern is exactly the same as a Flat, except for the 
+                    fact that wave C does not reach the end of wave A and therefore 
+                    is shorter than wave B.</p>
+                  <p><b><i>d. Running Flat (modern)</i></b></p>
+                  <p><b>Pattern</b></p>
+                  <p>&#9;&#9;<img src="Image100.gif" width=242 height=183>&#9;&#9;<img src="Image101.gif" width=244 height=168></p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><b>Description</b></p>
+                  <p>This pattern is exactly the same as a Running Flat, except 
+                    for the fact that it must retrace more than 60%, if not <i>ELWAVE</i> 
+                    considers it to be a normal Running Flat. This distinction 
+                    is necessary, because normally a Running Flat is rare. But 
+                    if it retraces more than 60% and still fails to reach the 
+                    end of wave A, it suddenly becomes a much more probable the 
+                    pattern will occur. In which case it will get a much higher 
+                    score.</p>
+                  <p><b><i>e. Ascending and descending Triangles</i></b></p>
+                  <p><b>Description</b></p>
+                  <p>These are mentioned under the Triangles description in the 
+                    Classic patterns section. Basically these patterns are the 
+                    same as common contracting triangles, except for the fact 
+                    that ascending and descending triangles slope up or down. 
+                  </p>
+                  <p>&nbsp;</p>
+                  <p align="right"><b>Next</b>: 4. <a href="principle3.html">Channeling</a> 
+                  </p>
+                </td>
+                <td></td>
+                <td valign="top">&nbsp;</td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellspacing="0" cellpadding="0" height="50" width="300">
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="2" cellpadding="5" bgcolor="#DACDA4">
+  <tr>
+    <td align="right" height="30"> 
+      <p class="footer">&copy; 1995-2024 Prognosis Software Development</p>
+    </td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3047012-1";
+urchinTracker();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "source_id": "s2_nobel_growth",
+  "source_metadata": {
+    "id": "s2_nobel_growth",
+    "requested_url": "https://www.nobelprize.org/uploads/2018/10/advanced-economicsciencesprize2018.pdf",
+    "retrieved_url": "https://www.nobelprize.org/uploads/2018/10/advanced-economicsciencesprize2018.pdf",
+    "retrieved_at": "2026-10-13T17:15:54.194119+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "47edcec17318af336b8f7cb2a40259a20c618a947761599e86afc81435ebc53a",
+    "binary_sha256": "47edcec17318af336b8f7cb2a40259a20c618a947761599e86afc81435ebc53a",
+    "text_sha256": "e76f417e85cba98f9dc38c54d19c0ab22f3087cbe4b6b208c90fd957177e79bc",
+    "pages": 52,
+    "characters": 142845,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_nobel_growth:EndogenousAccumulation",
+      "source_id": "s2_nobel_growth",
+      "article": "EndogenousAccumulation",
+      "heading": "EndogenousAccumulation",
+      "text": "Sustained long-run growth\nRomer’s 1990 formulation, and his papers more gener-\nally, emphasized the endogeneity of the long-run growth rate. To arrive at a technology-\nproduction model with this property, Romer not only incorporated the fundamental features\nof ideas discussed above. He also came up with a more technical, though highly inﬂuential,\ninsight: the return to accumulated factors, such as capital, must remain strictly positive\nfor the model to deliver sustained growth. For the equilibrium growth rate to be constant\nin the long run when growth comes from endogenous accumulation of a production factor,\nthe accumulation technology has to be linear. This point is readily illustrated by the Solow\nmodel, where growth will peter out with decreasing returns to scale α < 1, but will continue\nat a constant rate with α = 1.\nThis technical point – which helped others produce endogenous-growth models of many\nvarieties – is clearly worked out in Romer’s ﬁrst journal publication on growth (Romer,\n1986). If the only change to the model is to make the production function linear in capital\n(say, by simply setting α = 1 in the Solow model), however, it simultaneously makes non-\naccumulated factors, such as labor, less important. In his 1986 paper, Romer remedied this\nshortcoming by introducing a spillover eﬀect of capital formation. As a result, growth came\nabout as a by-product of regular capital accumulation, but with no explicit decisions to\nspend resources on R&D. We only brieﬂy comment on this work at the end, in Section 3.3,\nand instead focus this section on the papers that took the more fundamental approach to\nmodel the production of new ideas.\nRomer (1987a) ﬁrst laid out a framework for new product development where growth\nwas generated as a by-product of capital accumulation, but where an ever-expanding variety\nof intermediate goods prevented the returns on capital from falling to zero. In 1990, he\nshowed how a close relative of the 1987 framework could be used to model R&D decisions in\na decentralized market economy. This paper, Romer (1990), was a watershed. We introduce\nthe discussion of Romer’s watershed model with a brief description of the 1987 paper.",
+      "start": 32479,
+      "end": 34674,
+      "sha256": "6c7624e7968385f35d3f64c76713f7e8152a23c22a262fcda1af272ea1943a80"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "s1_boston_mortgage_labor",
+  "requested_url": "https://www.bostonfed.org/publications/research-department-working-paper/2021/how-resilient-is-mortgage-credit-supply-evidence-from-the-covid-19-pandemic.aspx",
+  "retrieved_url": "https://www.bostonfed.org/publications/research-department-working-paper/2021/how-resilient-is-mortgage-credit-supply-evidence-from-the-covid-19-pandemic.aspx",
+  "retrieved_at": "2026-10-13T23:51:06.346076+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 5512,
+  "content_sha256": "6192262dc0c5f8222f9f7e4cd4dc39bfb8942b088e6f6f9ccfca2604c567aa11",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

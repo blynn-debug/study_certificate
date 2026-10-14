@@ -1,0 +1,19 @@
+{
+  "id": "governance_supervision",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285614&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2100000285614&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T00:00:13.559178+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 20625,
+  "content_sha256": "7c5398b205dad7ba6c93be39d51edf48e4fcfdf946f2240c994f71dde7e5ef35",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2026",
+      "10",
+      "2"
+    ]
+  ],
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "s2_fidelity_macd",
+  "requested_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/macd",
+  "retrieved_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/macd",
+  "retrieved_at": "2026-10-13T16:24:45.098203+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": false,
+  "capture_method": "web.run rendered main-content excerpt",
+  "content_sha256": "63ae862d4dadc2c4cb2d1954e9efc55e0694810943c89de99934353489c674dc",
+  "text_sha256": "63ae862d4dadc2c4cb2d1954e9efc55e0694810943c89de99934353489c674dc",
+  "status": "retrieved_not_claim_verified"
+}

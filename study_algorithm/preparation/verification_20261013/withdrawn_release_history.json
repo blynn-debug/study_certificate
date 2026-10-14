@@ -1,0 +1,724 @@
+{
+  "items": [
+    {
+      "id": "MOCK-1-Q049",
+      "withdrawn_at": "2026-10-13T23:59:41.511036+00:00",
+      "reason": "원문 다의 모수방법 바람직성은 분포족·표본·측정목표 조건 없이 참거짓 확정 불가. BIS는 베타 모수모형을 제시하므로 출판사 비정규→모수불가 논증은 오류. 가·나만 틀린 조합도 보기에 없다. 기존 Bernoulli 대체문항은 원문 근거가 아니므로 active에서 제외.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "신용손실 L은99% 확률로0,1% 확률로100이다. 틀린 항목은? 가.E[L]=0이다. 나.평균1을 중심으로 좌우대칭이다. 다.비정규이므로 모수적 분포를 지정할 수 없다. ①없음 ②가 ③나 ④가·나·다",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "MOCK:14",
+          "concept:MOCK-1-Q049"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "평균=.01×100=1이다.0과100의 확률이 다르며 평균으로부터 거리도 달라 대칭이 아니다. 이미 p=.01,C=100인 모수적 베르누이 손실분포를 지정했으므로 다도 거짓이다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "745d693f088935e659b515eb96a8061ab9518332d212ca2c68dd1feb563f32b5",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "평균=.01×100=1이다.0과100의 확률이 다르며 평균으로부터 거리도 달라 대칭이 아니다. 이미 p=.01,C=100인 모수적 베르누이 손실분포를 지정했으므로 다도 거짓이다.",
+          "assumptions": "단일기간·고정 노출액과 회수율로 정의된 두 점 손실모형이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "fe6180e9487c5105dcdfc6e00eab9c32249d7ccd77e49ddd08fba09f181d0b14",
+        "reviewed_prompt_sha256": "88735caf7e5e4809c192d18823bbbff806cea3f3d8000bd5f0b8f43fdc2783fc",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-MOCK-1-Q049": {
+            "reviewed_correction_sha256": "b72ee98cd6f88dc7ecd189d7b94aada35e25491daf68e4cc4e8ec0f3d073deb4",
+            "resolution_note": "평균=.01×100=1이다.0과100의 확률이 다르며 평균으로부터 거리도 달라 대칭이 아니다. 이미 p=.01,C=100인 모수적 베르누이 손실분포를 지정했으므로 다도 거짓이다."
+          }
+        },
+        "corrected_variant_sha256": "88735caf7e5e4809c192d18823bbbff806cea3f3d8000bd5f0b8f43fdc2783fc"
+      }
+    },
+    {
+      "id": "S2C1T09-CORE",
+      "withdrawn_at": "2026-10-13T23:59:41.511036+00:00",
+      "reason": "원문① 발표정보만 의존의 범위,②③ 현금합병과 고정비율 주식교환의 포지션 구별,④ 오직 이벤트위험이라는 절대주장이 혼재. 지급함수 계산만으로 원문 전체 진술을 검증할 수 없다. 원래 의미를 유지하는 최소교정 및 정보범위 공식근거가 더 필요하여 기존 지급함수 대체문항을 active에서 제외.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "고정 현금합병은 완료 시 대상1주당 K를 지급하고 고정 주식교환합병은 대상1주를 인수기업 r주로 교환한다. 틀린 것은? ① 현금합병 완료대가는 K다. ② 주식교환 완료대가는 rP_A다. ③ 주식교환에서 대상1주 매수와 인수기업 r주 매도는 완료 시 rP_A를 상쇄한다. ④ 헤지하지 않은 주식교환 완료대가는 P_A와 무관한 고정현금이다.",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:253",
+          "concept:S2C1T09-CORE"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "주식교환 대가 rP_A는 인수기업 주가 P_A에 따라 변하므로④가 틀리다. 현금대가 K와 구별한다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "036381d54e9b86e146de875532487b9e0784d572d8b79d0992621cbb75ec85ac",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "주식교환 대가 rP_A는 인수기업 주가 P_A에 따라 변하므로④가 틀리다. 현금대가 K와 구별한다.",
+          "assumptions": "K,r는 계약상 고정, 완료·이행을 가정하며 배당·대차·거래비용은 제외한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "8e324d21ddec9ea379f65e84010da2516e0d614dcd6a9a7bc22e852636231cf5",
+        "reviewed_prompt_sha256": "65ce8efdf3b85cfe58e2f99b9d27089d8095293f9c3fe9bfcbde7f6108b64514",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S2C1T09-CORE": {
+            "reviewed_correction_sha256": "a785f1144a259cf04b1d05efbb17c7b33c99ee1ae5a44fd75b1d8a01e5000ce3",
+            "resolution_note": "주식교환 대가 rP_A는 인수기업 주가 P_A에 따라 변하므로④가 틀리다. 현금대가 K와 구별한다."
+          }
+        },
+        "corrected_variant_sha256": "65ce8efdf3b85cfe58e2f99b9d27089d8095293f9c3fe9bfcbde7f6108b64514"
+      }
+    },
+    {
+      "id": "NOTE-S2C4-Q016",
+      "withdrawn_at": "2026-10-13T23:59:41.511036+00:00",
+      "reason": "기하브라운운동을 몬테카를로에 사용할 수 있다는 수학적 사실은 가장 흔히 사용된다는 원문 경험적 빈도명제를 입증하지 않는다. 출판사 해설의 대표적 예와 발문의 최다사용을 구별하고 사용빈도 출처 확보 전 원문 승인 보류. 기존 가능성만의 대체문항은 history 보존.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "몬테카를로 주가모형의 한 예로 S(t)=S(0)exp[(μ-σ²/2)t+σ√t Z], Z~N(0,1), S(0)>0를 사용할 수 있다. 이는 주가가 양수인 기하브라운운동 모형이다. O/X?",
+        "answer": "O",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "NOTE:33",
+          "concept:NOTE-S2C4-Q016"
+        ],
+        "original_publisher_answer": "O",
+        "review_note": "지수함수는 모든 실수 입력에서 양수다. dS=μSdt+σSdW의 해가 주어진 식이므로 기하브라운운동의 시점별 표본생성식이다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "6c028a78b250906926505ea2887863cb0833b87f73a49419af57c79893d40928",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "지수함수는 모든 실수 입력에서 양수다. dS=μSdt+σSdW의 해가 주어진 식이므로 기하브라운운동의 시점별 표본생성식이다.",
+          "assumptions": "μ·σ가 상수이고 시간단위가 일치한다. 실제 수익률 분포에 대한 사실 주장이 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "5818170edcb553ef5f33735623fa265a64241b15b96ec83baceccf8a666819a0",
+        "reviewed_prompt_sha256": "eba7cdfb8cfdd08e72246c410b6092129143dd22c24777fd90514829eaf5585f",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-NOTE-S2C4-Q016": {
+            "reviewed_correction_sha256": "ea979e662f48cd1b1e76b9c259776c97c7d8cfed99522b6e7adf0741a5d62370",
+            "resolution_note": "지수함수는 모든 실수 입력에서 양수다. dS=μSdt+σSdW의 해가 주어진 식이므로 기하브라운운동의 시점별 표본생성식이다."
+          }
+        },
+        "corrected_variant_sha256": "eba7cdfb8cfdd08e72246c410b6092129143dd22c24777fd90514829eaf5585f"
+      }
+    },
+    {
+      "id": "S2C3T14-SUP-03",
+      "withdrawn_at": "2026-10-13T23:59:41.511036+00:00",
+      "reason": "원문 네 선택지는 정배열 추세해석·데드크로스·평활성·평균회귀 경향을 함께 요구한다. SMA 민감도 1/n 유도만으로 정배열 명칭과 평균회귀 경험적 경향까지 입증되지 않는다. 원래 기술적 분석 규칙의 명시적 출처 확보 필요. 기존 단일 민감도 대체문항은 history 보존.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "n일 단순이동평균 MA_n=최근 n개 종가의 평균이다. 과거 종가를 고정하고 오늘 종가만1원 높일 때 n이 짧은 평균과 긴 평균 중 어느 쪽이 더 많이 변하는가?",
+        "answer": "짧은 기간의 이동평균이 최근 가격 변화에 더 민감하다",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:351",
+          "concept:S2C3T14-SUP-03"
+        ],
+        "original_publisher_answer": "③",
+        "review_note": "오늘 종가의 가중치는1/n이므로 1원 충격에 MA가1/n원 변한다. 작은 n에서 더 큰 반응이다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "b32cf431b0a04978d29250ae51c1b9c8d43b11b73ed5a8e466ca40f754bfe008",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "오늘 종가의 가중치는1/n이므로 1원 충격에 MA가1/n원 변한다. 작은 n에서 더 큰 반응이다.",
+          "assumptions": "단순이동평균, 과거 가격 고정·현재 가격만의 충격을 비교한다. 임의 시계열의 모든 구간에서 긴 평균 기울기가 더 작다는 뜻은 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "fd0290ebb6335538689229f5ac99879bcadaca17e32436bfdfd02ed98a793633",
+        "reviewed_prompt_sha256": "31448036826fc0ecff839db88f2788e1130e27c7cc96a8742a84b85523b50b4f",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S2C3T14-SUP-03": {
+            "reviewed_correction_sha256": "f4a9a00c3dc9c1d70d9c39a60e0e5f71641792f7650aa855fda167b1b235adf1",
+            "resolution_note": "오늘 종가의 가중치는1/n이므로 1원 충격에 MA가1/n원 변한다. 작은 n에서 더 큰 반응이다."
+          }
+        },
+        "corrected_variant_sha256": "31448036826fc0ecff839db88f2788e1130e27c7cc96a8742a84b85523b50b4f"
+      }
+    },
+    {
+      "id": "S3C7T05-CORE",
+      "withdrawn_at": "2026-10-14T00:12:26.058799+00:00",
+      "reason": "원문② 벤치마크로 상대성과를 평가한다는 명제는 CFA 근거에 부합한다. 원답②를 유지하려 ②를 반대문장으로 바꾼 이전안은 원문 검증이 아니다.④ 정상포트폴리오의 정의·투자가능성 전제를 입증할 세부근거도 부족해 원래 전보기에서 유일한 오답 확정 불가.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "벤치마크 설명 중 틀린 것은? ① 운용전략의 지침·비교기준으로 쓸 수 있다. ② 벤치마크 대비 초과수익은 기준과 비교하는 상대성과가 아니다. ③ 평가 전에 정하고 전략 적합성을 확인한다. ④ 명확하고 측정·복제투자가 가능한 기준을 지향한다.",
+        "answer": "②",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:379",
+          "L326"
+        ],
+        "original_publisher_answer": "②",
+        "review_note": "벤치마크와의 차이인 초과수익은 상대성과다. 따라서 이를 부정한②가 틀리다.",
+        "reviewed_claim_sha256": {
+          "L326": "67ceb93f0ab8bbd3f00d61574361a9745a1ee83c442f48d8b3cd11d3afc19c75"
+        },
+        "reviewed_packet_sha256": "cd462af961dddeec48aa2760fde389585a59741d7f0873fd5f462740652e54ed",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C7T05-CORE": {
+            "reviewed_correction_sha256": "ff0d08d70ce7081d708995df0a25090dcafa5f28670c58813f053a010afda438",
+            "resolution_note": "벤치마크와의 차이인 초과수익은 상대성과다. 따라서 이를 부정한②가 틀리다."
+          }
+        },
+        "corrected_variant_sha256": "0502cc5aade3993f2dad940944cfe69a285e5373841fc15896b7e3acc937a951"
+      }
+    },
+    {
+      "id": "S3C7T05-SUP-01",
+      "withdrawn_at": "2026-10-14T00:12:26.058799+00:00",
+      "reason": "원문④ 정상포트폴리오와 맞춤형포트폴리오의 구분은 해당 용어 정의·투자가능성 설명 근거가 필요하다. CFA 일반 벤치마크 적합성 요건만으로 양자 구분과 원답④를 입증할 수 없으며 아무 시장지수나 적합하다는 전혀 다른 문장으로 바꾼 이전안 철회.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "벤치마크 선택 설명 중 틀린 것은? ① 광범위 시장 운용에는 해당 시장지수를 검토할 수 있다. ② 특정 섹터·스타일 운용에는 그 노출을 반영한 지수를 검토한다. ③ 혼합 운용에는 사전가중·산식이 분명한 복합기준을 검토할 수 있다. ④ 특수 제약이 있는 펀드도 제약을 무시한 아무 시장지수나 반드시 적합하다.",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:380",
+          "L326"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "벤치마크의 전략 적합성 요건에 반하는④가 틀리다. 제약에 맞춘 명확한 기준을 별도로 검토해야 한다.",
+        "reviewed_claim_sha256": {
+          "L326": "67ceb93f0ab8bbd3f00d61574361a9745a1ee83c442f48d8b3cd11d3afc19c75"
+        },
+        "reviewed_packet_sha256": "4e27dabcabf5be256c1706e49f6ba0239ad8cc5c886db83f254353cfeff67526",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C7T05-SUP-01": {
+            "reviewed_correction_sha256": "0830a8938531c7469831fc82800ac42d4c847ee989bef7ae4f6416cf71919515",
+            "resolution_note": "벤치마크의 전략 적합성 요건에 반하는④가 틀리다. 제약에 맞춘 명확한 기준을 별도로 검토해야 한다."
+          }
+        },
+        "corrected_variant_sha256": "1979d7d5f2e5948e8c72e5fce3f48070c59f2dca27d2d487dddd09bd3a78b62d"
+      }
+    },
+    {
+      "id": "MOCK-2-Q091",
+      "withdrawn_at": "2026-10-14T00:12:26.058799+00:00",
+      "reason": "실제 MOCK52쪽④는 집중포트폴리오의 샤프순위가 높아도 트레이너순위는 낮을 수 있다는 가능성이다. A 초과.1 β2 σ.3,B 초과.05 β.5 σ.2는 실제로 샤프A>B·트레이너A<B여서④가 참인 반례다. 원해설은 서로 단위가 다른 위험수치를 비교해 오류.④를 두순위 항상같다로 바꿔 원답을 유지하는 것은 최소교정이 아니므로 원문 유일오답 확정 보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "같은 시장·기간에서 초과수익이 양수인 포트폴리오를 비교한다. 틀린 것은? ①샤프는 초과수익/총표준편차다. ②트레이너는 초과수익/베타다. ③양의베타·잔차위험0이면 샤프는 트레이너를 공통 시장표준편차로 나눈 값이다. ④잔차위험이 다른 포트폴리오도 두 지표의 순위는 반드시 같다.",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "MOCK:52",
+          "concept:MOCK-2-Q091"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "A 초과수익.10,β2,σ.30이면 샤프.333·트레이너.05; B 초과수익.05,β.5,σ.20이면 샤프.25·트레이너.10으로 순위가 반대다. 따라서④가 틀리다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "700349c0bc37a0e8cf45a51e2b851210670f280e5abd5f2f182d3c31c72bc0b5",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "A 초과수익.10,β2,σ.30이면 샤프.333·트레이너.05; B 초과수익.05,β.5,σ.20이면 샤프.25·트레이너.10으로 순위가 반대다. 따라서④가 틀리다.",
+          "assumptions": "MOCK52쪽. 양의분모·동일시장σ=.1로 두 조합의 비음수 잔차분산이 가능하다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "1c76186bc151afb6861281e156f291e9442123108dbbcbf5a4672254230cd592",
+        "reviewed_prompt_sha256": "c81de3cb0da419285dcdddf1435f9830133627eef20aec5b4d4ea9edc5730533",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-MOCK-2-Q091": {
+            "reviewed_correction_sha256": "1c33cfeae54c6bd5253864223158c1330fe0626a108d81b1fecbb8884b28f716",
+            "resolution_note": "A 초과수익.10,β2,σ.30이면 샤프.333·트레이너.05; B 초과수익.05,β.5,σ.20이면 샤프.25·트레이너.10으로 순위가 반대다. 따라서④가 틀리다."
+          }
+        },
+        "corrected_variant_sha256": "c81de3cb0da419285dcdddf1435f9830133627eef20aec5b4d4ea9edc5730533"
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q022",
+      "withdrawn_at": "2026-10-14T00:12:26.058799+00:00",
+      "reason": "정상포트폴리오라는 명칭만으로 명확성·측정가능성이 언제나 낮아진다는 원문 명제 근거 부족. 구성가중치가 불명확하다는 조건을 새로 넣으면 명확성 결여는 자명하지만 원래 명제의 검증은 아니다. 용어범위 및 원분류표 근거 필요.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "벤치마크를 정상포트폴리오라는 이름으로 제시했지만 구성자산과 가중치가 명시되지 않았다. 무엇으로 이루어졌는지 분명해야 한다는 어떤 속성이 직접 부족한가?",
+        "answer": "명확성",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "NOTE:77",
+          "L326"
+        ],
+        "original_publisher_answer": "22 명확성",
+        "review_note": "구성·비중의 불명확성은 벤치마크 명확성 요건 위반이다. 정상포트폴리오라는 명칭 자체가 언제나 이 요건을 위반하는 것은 아니다.",
+        "reviewed_claim_sha256": {
+          "L326": "67ceb93f0ab8bbd3f00d61574361a9745a1ee83c442f48d8b3cd11d3afc19c75"
+        },
+        "reviewed_packet_sha256": "fa969ac8e13d5e20a680897a1a81ef579601ca18e66dbc70cb9f4323a91a032c",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-NOTE-S3C7-Q022": {
+            "reviewed_correction_sha256": "275798f49fe2b09418ade22e536e32c9880c3727368651ccb1cc128fec8e25c9",
+            "resolution_note": "구성·비중의 불명확성은 벤치마크 명확성 요건 위반이다. 정상포트폴리오라는 명칭 자체가 언제나 이 요건을 위반하는 것은 아니다."
+          }
+        },
+        "corrected_variant_sha256": "f4ea19ddde4955b234c5f805154b766feb547e290ab7d0e013dcf4922b7f309c"
+      }
+    },
+    {
+      "id": "NOTE-S3C7-Q030",
+      "withdrawn_at": "2026-10-14T00:12:26.058799+00:00",
+      "reason": "원문 Jensen·Treynor-Mazuy·Henriksson-Merton·가상포트폴리오 네 빈칸 중 마지막 방식의 구체적 정의/성과기여 측정 산식 근거 부족. P3 390쪽 설명만으로 회귀모형은 기여크기 측정불가라는 단정을 검증할 수 없다. TM모형 이름 하나만 묻던 대체안을 원문완료로 취급하지 않고 철회.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "시장초과수익x의 선형항과 제곱항을 넣은 Rp-rf=α+βx+γx²+ε 모형의 이름은? γ의 부호만 보고 실력을 확정해도 되는가?",
+        "answer": "Treynor-Mazuy, 계수와 추정불확실성을 함께 평가",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "NOTE:78",
+          "L328"
+        ],
+        "original_publisher_answer": "30  젠센의 알파 / 트레이너-마주이모형, 헨릭슨-머튼 모형 / 가상포트폴리오방식",
+        "review_note": "Treynor-Mazuy 모형이며 γ는 곡률을 추정한다. 그 크기·표준오차·모형설정 등을 함께 보아야 하므로 부호만으로 실력을 확정하지 않는다.",
+        "reviewed_claim_sha256": {
+          "L328": "db2339fe994579d607128bff33185de654f55b1260ab50048c313374a0c86bd7"
+        },
+        "reviewed_packet_sha256": "fb704f96d4b9bf4b5bdf36011fbf336183f1b504fc5c162a6d4ae8f58c5459a1",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-NOTE-S3C7-Q030": {
+            "reviewed_correction_sha256": "e8632c79b0fbdc4b132d8302aa01409bd22a1e368968eca28174210f2f79e1ee",
+            "resolution_note": "Treynor-Mazuy 모형이며 γ는 곡률을 추정한다. 그 크기·표준오차·모형설정 등을 함께 보아야 하므로 부호만으로 실력을 확정하지 않는다."
+          }
+        },
+        "corrected_variant_sha256": "fcabe932d64a8be831592d1a7e928aef183f2f17243b58efda6cab6f907f3961"
+      }
+    },
+    {
+      "id": "S1C3T07-SUP-03",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "불황 속 우량입지의 안정적 업황이라는 예시를 교재가 안정국면이라 부르는 것은 확인했다. 그러나 원문의 부동산 경기에만 나타난다는 배타성 및4국면 분류에 안정국면을 넣는 체계는 별도 독립근거를 확인하지 못했다. 그 두 주장 삭제 후 안정이라는 단어 맞추기만으로 원문완료 처리하지 않는다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "교재가 입지 경쟁력이 높은 일부 물건이 침체기에도 비교적 안정된 수요·가격을 유지하는 상태를 별도 명칭으로 구분한다. 알맞은 명칭은? ① 회복국면 ② 호황국면 ③ 후퇴국면 ④ 안정국면",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:190",
+          "concept:S1C3T07-SUP-03"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "반등이나 상승·하락 추세가 아니라 안정적 상태 자체를 묘사하므로 안정국면이다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "47f0ebf115c89cd917d27ce01d1d31741cf5fcbad5955e603e90f87f921ab103",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "반등이나 상승·하락 추세가 아니라 안정적 상태 자체를 묘사하므로 안정국면이다.",
+          "assumptions": "교재의 추가 분류명에 한정한다. 모든 우량 물건의 가격 보장이나 부동산에만 안정기가 존재한다는 명제는 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "42ec66c07a97e0f6d1c700f6f597d2740945c61d2022f6daeeb7196843947fc4",
+        "reviewed_prompt_sha256": "10a20595be670defaf84305cdc70dd36d124e1b7feade4435acae7b2eff421e1",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S1C3T07-SUP-03": {
+            "reviewed_correction_sha256": "d474a0ed4adcbc6873ee7d91a8d1ec5b6261412d5045df04b05efad2b869c422",
+            "resolution_note": "반등이나 상승·하락 추세가 아니라 안정적 상태 자체를 묘사하므로 안정국면이다."
+          }
+        },
+        "corrected_variant_sha256": "10a20595be670defaf84305cdc70dd36d124e1b7feade4435acae7b2eff421e1"
+      }
+    },
+    {
+      "id": "S1C2T34-SUP-01",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "④조기상환의 재투자위험은SEC원문으로 확인했고①만기구조는 여러tranche로 달라질 수 있다.②국채·회사채보다 수익률이 높다는 무조건 비교 및③회사채보다 신용도가 높다는 단정은 기준등급·통화·듀레이션·시점이 없다. 연준2011연구는 MBS/Treasury spread의 위험보상과 국면변동을 보일 뿐 모든회사채 대비 우열까지 입증하지 않는다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "고정금리 주택대출의 조기상환 현금이 MBS 투자자에게 이전되는 구조에서 틀린 것은? ① 실제 원금 회수 시점은 예정 만기와 다를 수 있다. ② 조기상환은 미래 현금흐름을 바꾼다. ③ 금리하락 시 재투자 수익률이 낮아질 위험이 있다. ④ 조기상환이 빠를수록 모든 투자자에게 항상 유리하다.",
+        "answer": "④",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:159",
+          "concept:S1C2T34-SUP-01"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "금리하락 때 원금이 조기 반환되면 이전의 높은 쿠폰을 계속 얻지 못하고 낮은 금리로 재투자할 수 있다. 따라서 ④의 항상 유리 주장은 반례로 기각된다. SEC Investor.gov의 MBS/CMO 조기상환위험 설명을 대조했다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "8af1194e3b463665141d2aed4d86592393094ee7d5e55bf2c00bc3f41f1ad6f7",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "금리하락 때 원금이 조기 반환되면 이전의 높은 쿠폰을 계속 얻지 못하고 낮은 금리로 재투자할 수 있다. 따라서 ④의 항상 유리 주장은 반례로 기각된다. SEC Investor.gov의 MBS/CMO 조기상환위험 설명을 대조했다.",
+          "assumptions": "패스스루 또는 조기상환 영향이 해당 트랜치에 전달되는 구조다. 실제 수익률·신용등급은 제시하지 않는다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "25fa799dec048ac0b94edb7a8aa1ebf79acfa3cdb77c7379304fdbfb1346393b",
+        "reviewed_prompt_sha256": "4174561b65019285f059a356d9ca997a25dc7c176bee6e93dc08ccf02f9592af",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S1C2T34-SUP-01": {
+            "reviewed_correction_sha256": "4542017d0b6010162f44773853188118388e339123040a2de91a13d143d1e07b",
+            "resolution_note": "금리하락 때 원금이 조기 반환되면 이전의 높은 쿠폰을 계속 얻지 못하고 낮은 금리로 재투자할 수 있다. 따라서 ④의 항상 유리 주장은 반례로 기각된다. SEC Investor.gov의 MBS/CMO 조기상환위험 설명을 대조했다."
+          }
+        },
+        "corrected_variant_sha256": "4174561b65019285f059a356d9ca997a25dc7c176bee6e93dc08ccf02f9592af"
+      }
+    },
+    {
+      "id": "S1C3T16-SUP-02",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "③분산후에도 남는 체계적위험이라는 핵심은 이론적으로 확인했다.①낮은 주식·채권상관,②유형·지역분산 동시적용시 언제나 더큰 감소,④미국2000년대 집중투자 심화 및 주목적 고수익이라는 실증·인과 단정을 뒷받침할 표본·기간·통계가 없다. 조건부 분산수식만으로 원문 역사적보기까지 완료 처리할 수 없다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "공통시장요인과 상호독립인 개별요인으로 수익률이 결정되고 균등투자하는 모형이다. 틀린 것은? ① 낮은 상관관계는 다른 조건이 같으면 분산 감소에 도움이 된다. ② 독립 개별요인 위험은 종목수 증가로 감소한다. ③ 분산투자 후 남는 공통시장요인 위험은 비체계적 위험이다. ④ 공통요인 노출을 그대로 유지하면 그 위험은 종목수만으로 제거되지 않는다.",
+        "answer": "③",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:214",
+          "concept:S1C3T16-SUP-02"
+        ],
+        "original_publisher_answer": "③",
+        "review_note": "분산식의 교차항은 상관계수에 비례한다. 독립 잔차의 균등가중 분산은1/n에 비례하고 공통요인 분산은 남아 체계적 위험이다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "9a4cd30cae16d6e9ad521e5af26a2c7f4626bdfe06c5bae03e661e18bf787354",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "derivation": "분산식의 교차항은 상관계수에 비례한다. 독립 잔차의 균등가중 분산은1/n에 비례하고 공통요인 분산은 남아 체계적 위험이다.",
+          "assumptions": "개별요인은 유한한 동일분산을 가지며 공통요인과 무상관이다. 자산별 공통요인 노출은 동일하다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        },
+        "reviewed_concept_sha256": "db70156c99c35d120fb661e24c790471c0bb60d5bbf9e30808a56497e342e53d",
+        "reviewed_prompt_sha256": "8d056c0e46bd65ee7b59e3c4d1938735733b2207221d08bc893b54cf77a0301f",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S1C3T16-SUP-02": {
+            "reviewed_correction_sha256": "e70f285b6663c422c9e5fab31e4fea7e34eb988198c9ecb046fbed6d6d16d4a7",
+            "resolution_note": "분산식의 교차항은 상관계수에 비례한다. 독립 잔차의 균등가중 분산은1/n에 비례하고 공통요인 분산은 남아 체계적 위험이다."
+          }
+        },
+        "corrected_variant_sha256": "8d056c0e46bd65ee7b59e3c4d1938735733b2207221d08bc893b54cf77a0301f"
+      }
+    },
+    {
+      "id": "S1C2T33-SUP-03",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "①회사채CBO와대출CLO 구분 및③조달다양화는 확인했다.②pass-through/pay-through라는 지급형태만으로 부외효과를 자동결정한다는 해설은 위험보상·통제·연결판단을 생략한다.④신용보강 때문에 동급회사채보다 높은 수익을 얻는다는 인과도 일반적으로 확인되지 않았다. IFRS9PDF URL 응답은 표준본문이 아닌 탐색·로그인페이지였으므로 근거에서 제외했다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "유동화 구조에 관한 틀린 것은? ① CLO는 기업대출이 아니라 반드시 회사채만을 기초로 한다. ② 채권풀의 후순위는 선순위보다 먼저 손실을 부담하는 구조로 설계할 수 있다. ③ 자산유동화는 보유자산을 활용한 자금조달 수단이 될 수 있다. ④ 구조보강이 있어도 기초자산·보증인·유동성 위험을 따져야 한다.",
+        "answer": "①",
+        "answer_kind": "multiple_choice",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P12:155",
+          "S1L034",
+          "L225"
+        ],
+        "original_publisher_answer": "①",
+        "review_note": "원문 선택지와 연준의CLO·신용보강 설명을 대조했다. CLO는 기업대출의 유동화다.",
+        "reviewed_claim_sha256": {
+          "S1L034": "1e89cea098b34e14ab4f2804de44683a419bdc892be7753cdccaaa6fa1e1dd27",
+          "L225": "a3927f0b3a1f38906e9e40e028a3ff5ceafb8ae2e443c6a8dcca661bf7c44478"
+        },
+        "reviewed_packet_sha256": "a7dd0577dd16d556a6968ab35e0e50a69e2b1e8e530418356cd192d0e1f1ff0d",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S1C2T33-SUP-03": {
+            "reviewed_correction_sha256": "72c4d74f6a350be89a3949255a6d9e5509246a1713fe34ce6e4e8b183baab11f",
+            "resolution_note": "원문 선택지와 연준의CLO·신용보강 설명을 대조했다. CLO는 기업대출의 유동화다."
+          }
+        },
+        "corrected_variant_sha256": "d80977825041a49a075960fc41c8620e84d34f3e8ed32a196cb2aa8a702ee66a"
+      }
+    },
+    {
+      "id": "S3C2T08-SUP-02",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "P3:80원문②이익준비금은기초자기자본에반영되는항목이지규정3-12조별도순자본가산항목으로열거되지않는다.④선급금만가산항목아님이라는출판단일정답불안정.②를다른가산항목으로바꾸는것은보기내용대체이므로기존선급금단문을철회하고원문보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "금융투자업규정상 일반 선급금은 영업용순자본 가산항목인가 차감항목인가? 이자부 증권 매입시의 선급경과이자는 제외한다.",
+        "answer": "차감항목",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:80",
+          "S3L046"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "제3-14조제1항제2호의 선급금과 법정 예외를 대조했다.",
+        "reviewed_claim_sha256": {
+          "S3L046": "88f7d920e650211da97d014d2f9ba8ac9b0888e1436b080578d6bded969500ce"
+        },
+        "reviewed_packet_sha256": "54cb72de066fdc4d46cc2a69be36f7e255082e8400b40ed9969262927ccbfa8a",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C2T08-SUP-02": {
+            "reviewed_correction_sha256": "899415e874ae51f5edd864595af03bc30293c176abfc41fc03f597fd5cb427b9",
+            "resolution_note": "제3-14조제1항제2호의 선급금과 법정 예외를 대조했다."
+          }
+        },
+        "corrected_variant_sha256": "dd35b4c25c325427be839ae0c1f066a954a8f3e656245663b84db71fa2a23057"
+      }
+    },
+    {
+      "id": "S3C2T09-SUP-03",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "P3:83원문①부실자산처분은규정3-27조2항8호가권고사항을포함하므로요구단계에서도가능.②점포폐쇄·③조직축소·④자회사정리까지네보기모두요구조치여서정답없음.기존OX파생문항철회,원문정답오류보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "부실자산 처분은 권고 조치에 있으므로 경영개선요구 단계에서는 할 수 없다. O/X",
+        "answer": "X",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:83",
+          "S3L047"
+        ],
+        "original_publisher_answer": "①",
+        "review_note": "제3-27조제2항제8호가 제3-26조제2항의 권고사항을 요구조치에 포함한다.",
+        "reviewed_claim_sha256": {
+          "S3L047": "431ffcf9e94b53b4ff32a8a19530151b704adf2989d9830fcfb68ab341a556e8"
+        },
+        "reviewed_packet_sha256": "68a006cdafe16320f3f397e472930cb9255c7d707aeb86ff947a251458be163c",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C2T09-SUP-03": {
+            "reviewed_correction_sha256": "fdb75580897c9912b8ee438283f70e411bd74f32615b2d7d4060377b80850dad",
+            "resolution_note": "제3-27조제2항제8호가 제3-26조제2항의 권고사항을 요구조치에 포함한다."
+          }
+        },
+        "corrected_variant_sha256": "094e264f0795e5e64cd5ae51af4a87f295d9c51ac0fe561230270a2a5b033517"
+      }
+    },
+    {
+      "id": "S3C2T02-SUP-03",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "P3:63원문④불공정거래조사는금감원업무가아니라는정답은법426조1항의금감원장조사수행과충돌한다.금융위설치법19조법정소관위원회를묻는질문으로바꾸면보기전체와기관업무판정범위가달라지므로기존파생문항을철회하고원문복수의미보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "금융위원회 설치법 제19조가 자본시장의 불공정거래 조사를 담당하도록 명시한 위원회는?",
+        "answer": "증권선물위원회",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:63",
+          "S3L039"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "원문에서 법정 소관기관을 묻는 쟁점을 제19조 문언에 맞추었다.",
+        "reviewed_claim_sha256": {
+          "S3L039": "352bac6bebd8c5cd82376ad31c6fd45d4bafbadba2b2b062387b85b2e8f7a60b"
+        },
+        "reviewed_packet_sha256": "116558517aebe2167c8565165e7ae0def515f707e20f6a9291b1c19facd7e60e",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C2T02-SUP-03": {
+            "reviewed_correction_sha256": "4a3d9a35e579ee7bb4a67f4bbfbec12b28212fbabb35ab6e6a053e9e72a9819f",
+            "resolution_note": "원문에서 법정 소관기관을 묻는 쟁점을 제19조 문언에 맞추었다."
+          }
+        },
+        "corrected_variant_sha256": "e46743db651b53c04df951a25e7f29f04918413e4e455409e7523c9527605600"
+      }
+    },
+    {
+      "id": "S3C1-ADD-10",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "P3:56원문기관제재연결은④의직원면직·정직을금융위가직접하는지조치요구인지구분누락,③은법본문권한과위임권한범위구분필요,①협회회원·직원제재권한전체규정근거추가필요.기존420조주체빈칸은원문전체범위가아니므로철회하고보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "자본시장법 제420조제3항 본문이 금융투자업자의 위법행위에 대한 시정명령 또는 중지명령의 주체로 정한 기관은?",
+        "answer": "금융위원회",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:56",
+          "S3L031"
+        ],
+        "original_publisher_answer": "③",
+        "review_note": "제419조 금융감독원장 검사권과 제420조 금융위 조치권을 구별했다.",
+        "reviewed_claim_sha256": {
+          "S3L031": "51832d97de00abe89c24b3d721545af88880a62a3dab0ec4aa2ee965e04fd1c5"
+        },
+        "reviewed_packet_sha256": "9ab6c9331e37f5ac2d944c63a8e8af85abd46c947943d734e23476ef0d726ed2",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C1-ADD-10": {
+            "reviewed_correction_sha256": "0471a0b09fcf68de16f4a57355d441c7819f8743241462163adffd0e4f92d66f",
+            "resolution_note": "제419조 금융감독원장 검사권과 제420조 금융위 조치권을 구별했다."
+          }
+        },
+        "corrected_variant_sha256": "f1a29269749e45c864c6ab23f81004dfdc0a6eb5667dde8fcf9c88346771a748"
+      }
+    },
+    {
+      "id": "S3C1T09-CORE",
+      "withdrawn_at": "2026-10-14T00:29:46.085679+00:00",
+      "reason": "P3:33원문②법규를모르면언제나제재라는일반화는책임요건·위법성착오등을누락하고①무보수외부인의범위·④법정신의명시근거도표준윤리준칙3조단독으로확정불가.기존관련규정포함여부한명제는원문4보기와다르므로철회하고전보기근거보류.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "표준윤리준칙 제3조상 법규준수는 직접 업무에 관련된 법률 조문만 준수하면 되고 관련 협회규정·회사규정은 제외한다는 뜻인가?",
+        "answer": "아니다. 관련 법령과 제 규정도 이해하고 준수해야 한다.",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:33",
+          "S3L022"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "윤리준칙 제3조 및 내부통제기준 제3조제2항의 관계법령등 범위를 확인했다.",
+        "reviewed_claim_sha256": {
+          "S3L022": "b26ce4b84a78f99367c3c0e87141fc0bffe1b18c475e8a6056fdffa24a9e9215"
+        },
+        "reviewed_packet_sha256": "81420daf6340ba69d849fcf485dbf801c7b01bc083a6d093525bac9f54c12033",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C1T09-CORE": {
+            "reviewed_correction_sha256": "2ec8919df7caf94cb3c63cc9be82431cf121dcc4c35ea76d5d12e79d0c2992ee",
+            "resolution_note": "윤리준칙 제3조 및 내부통제기준 제3조제2항의 관계법령등 범위를 확인했다."
+          }
+        },
+        "corrected_variant_sha256": "e0647a6a283ce3e5141bf93e00c56e42609b79dbeb4b4610f17f053ff11293d1"
+      }
+    },
+    {
+      "id": "S3C7T07-SUP-02",
+      "withdrawn_at": "2026-10-14T00:31:53.160613+00:00",
+      "reason": "원문 ④ 소티노비율이 샤프보다 널리 사용된다는 현행 경험적 빈도 주장을 부정할 비교조사 근거가 없다. ② 높은 비율이면 큰 손실확률이 낮다는 단정도 정의에서 도출되지 않는다. ③ 비정규분포에 무조건 더 적합하다는 판단 역시 목적·손실함수에 의존한다. 공식만 승인한 기존 검토는 원문 네 보기 완료가 아니다. 다른 개념보기로 ④를 바꾸면 원문 의도가 달라져 보류한다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "평균수익률 R, 최소수용가능수익률 MAR, 하락편차 DD로 표현하는 소티노비율 공식은?",
+        "answer": "(R-MAR)/DD",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:388",
+          "concept:S3C7T07-SUP-02"
+        ],
+        "original_publisher_answer": "④",
+        "review_note": "목표 대비 초과수익률을 목표 미달위험으로 정규화한다. 동일 DD라면 분자 증가만으로도 비율이 커지므로 높은 비율이 큰 손실의 낮은 확률을 반드시 보장하지 않는다.",
+        "reviewed_claim_sha256": {},
+        "reviewed_packet_sha256": "aef1007f5766519e9287d6cf22493e9794ba2b1bb67447567c984bd8f1abfb9a",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "concept_review": {
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false,
+          "derivation": "목표 대비 초과수익률을 목표 미달위험으로 정규화한다. 동일 DD라면 분자 증가만으로도 비율이 커지므로 높은 비율이 큰 손실의 낮은 확률을 반드시 보장하지 않는다.",
+          "assumptions": "DD>0, MAR와 수익률의 기간 일치."
+        },
+        "reviewed_concept_sha256": "c8e9bd6acacdcb1b72a45702418826cd54bdab49eeff8a83ff8b81bfb502f9f4",
+        "reviewed_prompt_sha256": "bc6dcdd84ea56aa417d12fb0ae4fd420d9a88935fc48c05b8c527c266aa4efd8",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C7T07-SUP-02": {
+            "reviewed_correction_sha256": "0a1e6631cde9ab6d859f44bf695082a83d1804073b81c86638bf60b70b86cf63",
+            "resolution_note": "목표 대비 초과수익률을 목표 미달위험으로 정규화한다. 동일 DD라면 분자 증가만으로도 비율이 커지므로 높은 비율이 큰 손실의 낮은 확률을 반드시 보장하지 않는다."
+          }
+        },
+        "corrected_variant_sha256": "bc6dcdd84ea56aa417d12fb0ae4fd420d9a88935fc48c05b8c527c266aa4efd8"
+      }
+    },
+    {
+      "id": "S3C1T10-SUP-05",
+      "withdrawn_at": "2026-10-14T00:31:53.160613+00:00",
+      "reason": "표준윤리준칙15조 실제 문언은 퇴직 시 업무자료 반납 등 후속조치와 퇴직 후 회사·고객 이익침해 금지다. 원문 ① 장기간 vs 합리적 기간,② 어떠한 경우라도 회사 상표 사용금지,③④ 고용 중 생산한 모든 지적재산의 회사소유·사용권은 이 조문에서 직접 도출되지 않는다. 기존 3년 상한 없음 질문만으로 네 보기 원문을 승인할 수 없다. 고용계약·저작권/직무발명·상표사용 허락 조건을 확인하지 않고 별개 보기로 대체하지 않는다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "2026-10-13 표준윤리준칙 제15조는 퇴직 후 회사·고객 이익을 해하는 행위를 금지한다. 이 조문 자체에 모든 의무가 3년이면 끝난다는 상한이 있는가?",
+        "answer": "없다.",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:41",
+          "S3L003"
+        ],
+        "original_publisher_answer": "①",
+        "review_note": "제15조는 자료반납 등 후속조치와 퇴직 후 이익침해 금지를 규정하며 3년이라는 수치를 두지 않는다. 별도 계약의 유효성은 내용과 법정 기준에 따라 판단한다.",
+        "reviewed_claim_sha256": {
+          "S3L003": "0e393b4ef0fd6ac7a96db24a2575c4da2e1bbba59f77dcee1fdac5d3fb61f1b7"
+        },
+        "reviewed_packet_sha256": "dd6585c942e88cf56bc8a2b1b095189560367529b3f8bff04d3054d4a3fe92ab",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page.",
+        "prompt_variant": "corrected_reviewed_prompt",
+        "correction_resolution": {
+          "R-S3C1T10-SUP-05": {
+            "reviewed_correction_sha256": "b246da9edccb681269ee7e1fd59edc5d94107921d559858b01cec40c2dec506e",
+            "resolution_note": "제15조는 자료반납 등 후속조치와 퇴직 후 이익침해 금지를 규정하며 3년이라는 수치를 두지 않는다. 별도 계약의 유효성은 내용과 법정 기준에 따라 판단한다."
+          }
+        },
+        "corrected_variant_sha256": "fe8ebd9691cae858d1429a8be187812837fa336de13ca0f8ec27b57f3e069312"
+      }
+    },
+    {
+      "id": "S3C1T10-SUP-04",
+      "withdrawn_at": "2026-10-14T00:31:53.160613+00:00",
+      "reason": "표준윤리준칙12조는 위반 발견 또는 가능성 인지 시 정해진 절차의 즉시보고를 요구한다. 내부통제기준26조는 제보자 비밀보장·불이익금지·시정요구·우수자 포상요청을 확인하지만 원문① 육하원칙에 따른 사실만이라는 제한 및② 제보사실 자체도 모두 비밀이라는 범위는 이 조문에서 정확하게 확인되지 않는다. 제보사실 공개 여부를 핵심으로 삼은 정답②를 다른 질문으로 바꾸지 않고 보류한다. ③④는 조건부 시정·포상 규정으로 확인했다.",
+      "release": {
+        "state": "adjudicated_current",
+        "as_of": "2026-10-13",
+        "clean_prompt": "표준내부통제기준 제26조의 내부고발자가 고발을 이유로 인사상 불이익을 받은 경우 준법감시인이 할 수 있는 조치와 회사의 의무는?",
+        "answer": "준법감시인은 시정을 요구할 수 있고 회사는 정당한 사유가 없는 한 응해야 한다.",
+        "answer_kind": "text",
+        "prompt_correspondence_reviewed": true,
+        "evidence": [
+          "P3:40",
+          "S3L008"
+        ],
+        "original_publisher_answer": "②",
+        "review_note": "제26조제3항의 시정요구권 및 회사의 대응의무를 확인했다. 제2항의 비밀보장·불이익 금지와 연결된다.",
+        "reviewed_claim_sha256": {
+          "S3L008": "7d86eb87568ad5e6da8e0e2787087999e1a65bc432624059b95502ff0f14680a"
+        },
+        "reviewed_packet_sha256": "8f92276a90bd3971371ad582944d04a03e9ddf6645b51b51f14c9bdd781efb15",
+        "scope": "Only this explicitly worded prompt; not every statement on its source page."
+      }
+    }
+  ]
+}

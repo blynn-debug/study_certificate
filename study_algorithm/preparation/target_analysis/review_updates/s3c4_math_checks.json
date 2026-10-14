@@ -1,0 +1,99 @@
+{
+  "scope": "독립 산술·반례 확인;투자권유나 모형 전체검증 아님",
+  "CPPI_main": {
+    "floor": 98.0392156862745,
+    "cushion": 11.960784313725497,
+    "exposure": 35.88235294117649,
+    "safe": 74.11764705882351
+  },
+  "CPPI_embedded": {
+    "floor": 86.53846153846153,
+    "cushion": 13.461538461538467,
+    "exposure": 26.923076923076934,
+    "safe": 73.07692307692307
+  },
+  "OBPI": {
+    "total": 100,
+    "underlying": 96,
+    "put_delta": -0.3,
+    "equity": 67.19999999999999,
+    "bond": 32.80000000000001,
+    "equity_weight": 0.6719999999999999
+  },
+  "constant_fee_tracking_error_counterexample": {
+    "benchmark": [
+      -0.1,
+      0,
+      0.1
+    ],
+    "portfolio": [
+      -0.11,
+      -0.01,
+      0.09000000000000001
+    ],
+    "mean_active_return": -0.009999999999999997,
+    "tracking_error": 0.0
+  },
+  "volatility_delta_counterexamples": [
+    {
+      "S": 50,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.1,
+      "call_delta": 1.1827705481692874e-11
+    },
+    {
+      "S": 50,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.3,
+      "call_delta": 0.018137833583927343
+    },
+    {
+      "S": 100,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.1,
+      "call_delta": 0.5987063256829237
+    },
+    {
+      "S": 100,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.3,
+      "call_delta": 0.5857659364695248
+    },
+    {
+      "S": 150,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.1,
+      "call_delta": 0.999991637543834
+    },
+    {
+      "S": 150,
+      "K": 100,
+      "r": 0.02,
+      "T": 1,
+      "sigma": 0.3,
+      "call_delta": 0.9415847539932162
+    }
+  ],
+  "gap_risk_example": {
+    "V": 100,
+    "F": 90,
+    "m": 3,
+    "equity": 30,
+    "safe": 70,
+    "risky_gap_return": -0.5,
+    "V_after_gap": 85,
+    "below_floor": true
+  },
+  "variance_decomposition": "Var(Rp)=beta^2 Var(Rb)+Var(e), Cov(Rb,e)=0; TE^2=(beta-1)^2 Var(Rb)+Var(e)",
+  "sharpe_boundary": 0.7
+}

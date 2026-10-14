@@ -1,0 +1,11 @@
+{
+  "id": "fd_occ_styles",
+  "requested_url": "https://www.optionseducation.org/news/what-is-the-difference-between-american-style-and",
+  "retrieved_url": "https://www.optionseducation.org/news/what-is-the-difference-between-american-style-and",
+  "retrieved_at": "2026-10-14T00:07:41.555633+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "ba20cb370d9924be2c7675cea4fec6629fb5218d4693e5400f77d5c75d248a4b",
+  "text_sha256": "23df40af4a0e985de0dfe13e254eac56340e16af940356b0e3ffee79165a81c3",
+  "status": "retrieved_not_claim_verified"
+}

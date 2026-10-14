@@ -1,0 +1,1096 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+ <head></head>
+ <body>
+  <input type="hidden" id="lsNm" name="lsNm" value="외국환거래법" /> 
+  <input type="hidden" id="lsId" name="lsId" value="001525" /> 
+  <input type="hidden" id="lsiSeq" name="lsiSeq" value="276137" /> 
+  <input type="hidden" id="ancYd" name="ancYd" value="20251001" /> 
+  <input type="hidden" id="efYd" name="efYd" value="20260102" /> 
+  <input type="hidden" id="ancNo" name="ancNo" value="21065" /> 
+  <input type="hidden" id="lsBdyChrCls" name="lsBdyChrCls" value="010202" /> 
+  <input type="hidden" id="lumIsConOrdin" value="" /> 
+  <input type="hidden" id="nwYnValue" value="Y" /> 
+  <input type="hidden" id="hstLnkDpYn" value="0" /> 
+  <style>
+.byl_pop ul li {
+	padding: 7px;
+	margin-left: 10px;
+}
+</style> 
+  <script type="text/javascript">
+$(document).ready(function(){
+	customResizePop(); // 본문 리사이즈
+	initEDotXPress('\uC678\uAD6D\uD658\uAC70\uB798\uBC95');
+});
+
+function customResizePop() {
+		// 본문 버튼 높이 만큼 제공한다. 13은 패딩값
+		var $contentHeight = $("#center").height() - ($('.body_top_area').height() + 13);
+		var $conTopHeight = $('#conTop').height() + 35;
+
+		var bdyValue = lsVO.bdyUpdValue.updateContentNm || 'lsBdy';
+		
+        //lsInfoP 가 열릴 때 본문은 무조건 조회 하기 때문에 조건문 밖에 위치 하도록 변경.
+		$('#viewwrapCenter').css('overflow-y', 'hidden');
+        $('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+        $('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+        
+        if (bdyValue == 'lsBdy') {
+			/* 본문에서는 법령명 고정 때문에 hidden 처리*/
+			$('#viewwrapCenter').css('overflow-y', 'hidden');
+			$('#bodyContentTOP > #viewwrapCenter').height($contentHeight);
+			if($('#viewwrapCenter2').height() != null || $('#viewwrapCenter2').height() == 0){
+				$('#bodyContentTOP > #viewwrapCenter2').height($contentHeight);
+				$('#conScroll').height($('#viewwrapCenter2').height() - $conTopHeight);
+				$('#viewwrapCenter2').css('overflow', 'hidden');
+			}
+			$('#bodyContent').css('width', 'inherit');
+		} else if (bdyValue == 'lsPtnThdCmp') {
+			lspttnThdCmpResize();
+		} else if (bdyValue == 'lumThdCmp') {
+			thdCmpNewScPResize();
+		} else if (bdyValue == 'lumThdCmpSc') {
+
+		} else if (bdyValue == 'thdCmpNew') {
+
+		} else if (bdyValue == 'lsOldAndNew') {				
+			// 신구법은 이전 이후 버튼 높이까지 마이너스 한다. 
+			$('#bodySideContent > #oldAndNewDiv').height(($contentHeight + $('#tmpWidth').height()-114));
+		} else if (bdyValue == 'lsRvsDocInfoR') {
+
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+			$('#conScroll').height($('#viewwrapCenter').height() - $conTopHeight);
+			$('#conTop').height($('.cont_top').height());
+			$('#rvsConScroll').height($('#viewwrapCenter').height() - $('#rvsConTop').height());
+			
+		} else {
+			$('#bodySideContent > #viewwrapCenter').height($contentHeight);
+		}
+}
+
+function fileLayer(temp){
+	var tempStr = $("#hwptext"+temp).attr("value");
+	if(tempStr.length > 32){
+ 		$("#hwptext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#hwpxtext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 		$("#pdftext"+temp).css("width", "80%").css("text-overflow", "ellipsis").css("overflow","hidden").css("white-space","nowrap");
+ 	}
+
+ 	$(".byl_pop").css("display","none");
+
+ 	//레이어높이값
+ 	var height = $("#fileSaveLayer"+temp).height();
+ 	//본문 제일 하단 위치값 
+	var pagePos = document.querySelector('#center');
+	pagePos = pagePos.getBoundingClientRect().bottom;
+	//레이어버튼위치값
+	var layPos =document.querySelector('#imgPos'+temp);
+	layPos = layPos.getBoundingClientRect().bottom;
+	var lay_pop = $('#fileSaveLayer'+temp);
+	var pos = $('#imgPos'+temp).position();
+	
+	if(pagePos > height+layPos){ //레이어가 잘리지 않을 때 
+		lay_pop.css('top', (pos.top)+25 + 'px');
+		lay_pop.css('left', '250px')
+	}else{ //레이어가 잘릴 때
+		lay_pop.css('top', ((pos.top)-height)+ 'px');
+		lay_pop.css('left', (pos.left)+25+'px');
+	}
+	document.getElementById("fileSaveLayer"+temp).style.display="block";
+}
+
+function copyToClipBoard(temp2){
+	var content = document.getElementById('textarea'+temp2);
+	content.select();
+	document.execCommand('copy');
+	alert("주소가 클립보드에 저장되었습니다.");
+	content.setSelectionRange(0,0);
+}
+
+function delLayer(temp){
+	document.getElementById("fileSaveLayer"+temp).style.display="none";
+}
+
+</script> 
+  <div id="contentBody" class="scr_ctrl"> 
+   <div id="sideCenter" class="cont_area"> 
+    <ul class="cont_icon"> 
+     <li><a><img alt="판" src="/LSW/images/button/btn_jostmdico.gif" />판례</a></li> 
+     <li><a><img alt="연" src="/LSW/images/button/btn_year3.gif" />연혁</a></li> 
+     <li><a><img alt="행" src="/LSW/images/button/btn_entrust3_2.gif" />위임행정규칙</a></li> 
+     <li><a><img alt="규" src="/LSW/images/button/btn_entrust4_2.gif" />규제</a></li> 
+     <li><a><img alt="한" src="/LSW/images/button/btn_oneviewIcon.gif" />한눈보기</a></li> 
+    </ul> 
+    <!-- 연혁법령 안내문구 --> 
+    <!-- 법령명 --> 
+    <div id="conTop" class="cont_top"> 
+     <a id="top"></a> 
+     <!-- 국민신문고 연결배너 출력 --> 
+     <h2> 외국환거래법 </h2> 
+     <div class="ct_sub"> 
+      <span>[시행 2026. 1. 2.] [법률 제21065호, 2025. 10. 1., 타법개정]</span> 
+     </div> 
+    </div> 
+    <!-- 소관부처 --> 
+    <div id="conScroll" class="scr_area" style="overflow-y: auto;"> 
+     <div class="cont_subtit"> 
+      <p> <a title="팝업으로 이동" onclick="javascript:cptOfiPop('https://www.moef.go.kr/main.do'); return false;" href="#AJAX" target="_blank"> <span title="https://www.moef.go.kr/main.do" style="cursor: pointer;">재정경제부</span> (<span title="" style="cursor: pointer;">외환제도과</span>), 044-215-4753, 4756 </a> </p> 
+     </div> 
+     <!-- 조문정보 --> 
+     <a name="pjuk:94730175" id="pjuk:94730175"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="000100" data-joseq="94730175">         제1장 총칙 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J1:0" id="J1:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0001', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730177', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="1:0:000100:94730177" /> <span class="bl"><label for="Y000100"> 제1조(목적) </label> </span> 이 법은 외국환거래와 그 밖의 대외거래의 자유를 보장하고 시장기능을 활성화하여 대외거래의 원활화 및 국제수지의 균형과 통화가치의 안정을 도모함으로써 국민경제의 건전한 발전에 이바지함을 목적으로 한다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J2:0" id="J2:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0002', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730179', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="2:0:000200:94730179" /> <span class="bl"><label for="Y000200"> 제2조(적용 대상) </label> </span> ① 이 법은 다음 각 호의 어느 하나에 해당하는 경우에 적용한다. </p>
+       <p class="pty1_de2h">1. 대한민국에서의 외국환과 대한민국에서 하는 외국환거래 및 그 밖에 이와 관련되는 행위 </p> 
+       <p class="pty1_de2h">2. 대한민국과 외국 간의 거래 또는 지급ㆍ수령, 그 밖에 이와 관련되는 행위(외국에서 하는 행위로서 대한민국에서 그 효과가 발생하는 것을 포함한다) </p> 
+       <p class="pty1_de2h">3. 외국에 주소 또는 거소를 둔 개인과 외국에 주된 사무소를 둔 법인이 하는 거래로서 대한민국 통화(通貨)로 표시되거나 지급받을 수 있는 거래와 그 밖에 이와 관련되는 행위 </p> 
+       <p class="pty1_de2h">4. 대한민국에 주소 또는 거소를 둔 개인 또는 그 대리인, 사용인, 그 밖의 종업원이 외국에서 그 개인의 재산 또는 업무에 관하여 한 행위 </p> 
+       <p class="pty1_de2h">5. 대한민국에 주된 사무소를 둔 법인의 대표자, 대리인, 사용인, 그 밖의 종업원이 외국에서 그 법인의 재산 또는 업무에 관하여 한 행위 </p> 
+       <p class="pty1_de2_1">② 제1항제1호부터 제3호까지의 규정에 따른 “그 밖에 이와 관련되는 행위”의 범위는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127453');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J3:0" id="J3:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0003', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730181', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="3:0:000300:94730181" /> <span class="bl"><label for="Y000300"> 제3조(정의) </label> </span> ① 이 법에서 사용하는 용어의 뜻은 다음과 같다. <span class="sfon">&lt;개정 2011. 4. 30., 2012. 3. 21., 2025. 3. 18.&gt;</span> </p>
+       <p class="pty1_de2h">1. “내국통화”란 대한민국의 법정통화인 원화(貨)를 말한다. </p> 
+       <p class="pty1_de2h">2. “외국통화”란 내국통화 외의 통화를 말한다. </p> 
+       <p class="pty1_de2h">3. “지급수단”이란 다음 각 목의 어느 하나에 해당하는 것을 말한다. </p> 
+       <p class="pty1_de3">가. 정부지폐ㆍ은행권ㆍ주화ㆍ수표ㆍ우편환ㆍ신용장 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127454');" href="javascript:;">대통령령</a>으로 정하는 환어음, 약속어음, 그 밖의 지급지시 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 증표, 플라스틱카드 또는 그 밖의 물건에 전자 또는 자기적 방법으로 재산적 가치가 입력되어 불특정 다수인 간에 지급을 위하여 통화를 갈음하여 사용할 수 있는 것으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127455');" href="javascript:;">대통령령</a>으로 정하는 것 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">4. “대외지급수단”이란 외국통화, 외국통화로 표시된 지급수단, 그 밖에 표시통화에 관계없이 외국에서 사용할 수 있는 지급수단을 말한다. </p> 
+       <p class="pty1_de2h">5. “내국지급수단”이란 대외지급수단 외의 지급수단을 말한다. </p> 
+       <p class="pty1_de2h">6. “귀금속”이란 금, 금합금의 지금(地金), 유통되지 아니하는 금화, 그 밖에 금을 주재료로 하는 제품 및 가공품을 말한다. </p> 
+       <p class="pty1_de2h">7. “증권”이란 제3호에 해당하지 아니하는 것으로서 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737811','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737817','JO','');" href="javascript:;">제4조</a>에 따른 증권과 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127456');" href="javascript:;">대통령령</a>으로 정하는 것을 말한다. </p> 
+       <p class="pty1_de2h">8. “외화증권”이란 외국통화로 표시된 증권 또는 외국에서 지급받을 수 있는 증권을 말한다. </p> 
+       <p class="pty1_de2h">9. “파생상품”이란 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737819','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737809','JO','');" href="javascript:;">제5조</a>에 따른 파생상품과 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127457');" href="javascript:;">대통령령</a>으로 정하는 것을 말한다. </p> 
+       <p class="pty1_de2h">10. “외화파생상품”이란 외국통화로 표시된 파생상품 또는 외국에서 지급받을 수 있는 파생상품을 말한다. </p> 
+       <p class="pty1_de2h">11. “채권”이란 모든 종류의 예금ㆍ신탁ㆍ보증ㆍ대차(貸借) 등으로 생기는 금전 등의 지급을 청구할 수 있는 권리로서 제1호부터 제10호까지의 규정에 해당되지 아니하는 것을 말한다. </p> 
+       <p class="pty1_de2h">12. “외화채권”이란 외국통화로 표시된 채권 또는 외국에서 지급받을 수 있는 채권을 말한다. </p> 
+       <p class="pty1_de2h">13. “외국환”이란 대외지급수단, 외화증권, 외화파생상품 및 외화채권을 말한다. </p> 
+       <p class="pty1_de2h">14. “거주자”란 대한민국에 주소 또는 거소를 둔 개인과 대한민국에 주된 사무소를 둔 법인을 말한다. </p> 
+       <p class="pty1_de2h">15. “비거주자”란 거주자 외의 개인 및 법인을 말한다. 다만, 비거주자의 대한민국에 있는 지점, 출장소, 그 밖의 사무소는 법률상 대리권의 유무에 상관없이 거주자로 본다. </p> 
+       <p class="pty1_de2h">16. “외국환업무”란 다음 각 목의 어느 하나에 해당하는 것을 말한다. </p> 
+       <p class="pty1_de3">가. 외국환의 발행 또는 매매 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 대한민국과 외국 간의 지급ㆍ추심(推尋) 및 수령 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 외국통화로 표시되거나 지급되는 거주자와의 예금, 금전의 대차 또는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. 비거주자와의 예금, 금전의 대차 또는 보증 <span class="sfon"></span></p> 
+       <p class="pty1_de3">마. 그 밖에 가목부터 라목까지의 규정과 유사한 업무로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127458');" href="javascript:;">대통령령</a>으로 정하는 업무 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">16의2. “외국환중개업무”란 다음 각 목의 어느 하나에 해당하는 것을 말한다. </p> 
+       <p class="pty1_de3">가. 외국통화의 매매ㆍ교환ㆍ대여의 중개 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 외국통화를 기초자산으로 하는 파생상품거래의 중개 <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 그 밖에 가목 및 나목과 관련된 업무 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">17. “금융회사등”이란 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737815','ALLJO','');" href="javascript:;">「금융위원회의 설치 등에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737813','JO','');" href="javascript:;">제38조</a>(제9호 및 제10호는 제외한다)에 따른 기관과 그 밖에 금융업 및 금융 관련 업무를 하는 자로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127459');" href="javascript:;">대통령령</a>으로 정하는 자를 말한다. </p> 
+       <p class="pty1_de2h">18. “해외직접투자”란 거주자가 하는 다음 각 목의 어느 하나에 해당하는 거래ㆍ행위 또는 지급을 말한다. </p> 
+       <p class="pty1_de3">가. 외국법령에 따라 설립된 법인(설립 중인 법인을 포함한다)이 발행한 증권을 취득하거나 그 법인에 대한 금전의 대여 등을 통하여 그 법인과 지속적인 경제관계를 맺기 위하여 하는 거래 또는 행위로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127460');" href="javascript:;">대통령령</a>으로 정하는 것 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 외국에서 영업소를 설치ㆍ확장ㆍ운영하거나 해외사업 활동을 하기 위하여 자금을 지급하는 행위로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127461');" href="javascript:;">대통령령</a>으로 정하는 것 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">19. “자본거래”란 다음 각 목의 어느 하나에 해당하는 거래 또는 행위를 말한다. </p> 
+       <p class="pty1_de3">가. 예금계약, 신탁계약, 금전대차계약, 채무보증계약, 대외지급수단ㆍ채권 등의 매매계약(다목에 해당하는 경우는 제외한다)에 따른 채권의 발생ㆍ변경 또는 소멸에 관한 거래(거주자 간 거래는 외국환과 관련된 경우로 한정한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 증권의 발행ㆍ모집, 증권 또는 이에 관한 권리의 취득(다목에 해당하는 경우는 제외하며, 거주자 간 거래는 외국환과 관련된 경우로 한정한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">다. 파생상품거래(거주자 간의 파생상품거래는 외국환과 관련된 경우로 한정한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">라. 거주자에 의한 외국에 있는 부동산이나 이에 관한 권리의 취득 또는 비거주자에 의한 국내에 있는 부동산이나 이에 관한 권리의 취득 <span class="sfon"></span></p> 
+       <p class="pty1_de3">마. 가목의 경우를 제외하고 법인의 국내에 있는 본점, 지점, 출장소, 그 밖의 사무소(이하 이 목에서 “사무소”라 한다)와 외국에 있는 사무소 사이에 이루어지는 사무소의 설치ㆍ확장 또는 운영 등과 관련된 행위와 그에 따른 자금의 수수(授受)(사무소를 유지하는 데에 필요한 경비나 경상적 거래와 관련된 자금의 수수로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127462');" href="javascript:;">대통령령</a>으로 정하는 것은 제외한다) <span class="sfon"></span></p> 
+       <p class="pty1_de3">바. 그 밖에 가목부터 마목까지의 규정과 유사한 형태로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127463');" href="javascript:;">대통령령</a>으로 정하는 거래 또는 행위 <span class="sfon"></span></p> 
+       <p class="pty1_de2h">20. “비예금성외화부채등”이란 금융회사등의 외국통화표시 부채(외화예수금은 제외한다) 및 이와 유사한 것으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127464');" href="javascript:;">대통령령</a>으로 정하는 것을 말한다. </p> 
+       <p class="pty1_de2_1">② 제1항제14호 및 제15호에 따른 거주자와 비거주자의 구분이 명백하지 아니한 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127465');" href="javascript:;">대통령령</a>으로 정하는 바에 따른다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J4:0" id="J4:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0004', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730183', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="4:0:000400:94730183" /> <span class="bl"><label for="Y000400"> 제4조(대외거래의 원활화 촉진 등) </label> </span> ① 재정경제부장관은 이 법에 따른 제한을 필요한 최소한의 범위에서 함으로써 외국환거래나 그 밖의 대외거래가 원활하게 이루어질 수 있도록 노력하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 안정적인 외국환수급(需給)의 기반 조성과 외환시장의 안정을 위하여 노력하여야 하며, 이를 위한 시책을 마련하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J5:0" id="J5:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0005', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730185', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0005', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="5:0:000500:94730185" /> <span class="bl"><label for="Y000500"> 제5조(환율) </label> </span> ① 재정경제부장관은 원활하고 질서 있는 외국환거래를 위하여 필요하면 외국환거래에 관한 기준환율, 외국환의 매도율ㆍ매입률 및 재정환율(이하 “기준환율등”이라 한다)을 정할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 거주자와 비거주자는 제1항에 따라 재정경제부장관이 기준환율등을 정한 경우에는 그 기준환율등에 따라 거래하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J6:0" id="J6:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0006', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730187', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0006', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="6:0:000600:94730187" /> <span class="bl"><label for="Y000600"> 제6조(외국환거래의 정지 등) </label> </span> ① 재정경제부장관은 천재지변, 전시ㆍ사변, 국내외 경제사정의 중대하고도 급격한 변동, 그 밖에 이에 준하는 사태가 발생하여 부득이 하다고 인정되는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127466');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 다음 각 호의 어느 하나에 해당하는 조치를 할 수 있다. <span class="sfon">&lt;개정 2011. 4. 30., 2017. 1. 17., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2h">1. 이 법을 적용받는 지급 또는 수령, 거래의 전부 또는 일부에 대한 일시 정지 </p> 
+       <p class="pty1_de2h">2. 지급수단 또는 귀금속을 한국은행ㆍ정부기관ㆍ외국환평형기금ㆍ금융회사등에 보관ㆍ예치 또는 매각하도록 하는 의무의 부과 </p> 
+       <p class="pty1_de2h">3. 비거주자에 대한 채권을 보유하고 있는 거주자로 하여금 그 채권을 추심하여 국내로 회수하도록 하는 의무의 부과 </p> 
+       <p class="pty1_de2_1">② 재정경제부장관은 다음 각 호의 어느 하나에 해당된다고 인정되는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127467');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 자본거래를 하려는 자에게 허가를 받도록 하는 의무를 부과하거나, 자본거래를 하는 자에게 그 거래와 관련하여 취득하는 지급수단의 일부를 한국은행ㆍ외국환평형기금 또는 금융회사등에 예치하도록 하는 의무를 부과하는 조치를 할 수 있다. <span class="sfon">&lt;개정 2011. 4. 30., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 국제수지 및 국제금융상 심각한 어려움에 처하거나 처할 우려가 있는 경우 </p> 
+       <p class="pty1_de2h">2. 대한민국과 외국 간의 자본 이동으로 통화정책, 환율정책, 그 밖의 거시경제정책을 수행하는 데에 심각한 지장을 주거나 줄 우려가 있는 경우 </p> 
+       <p class="pty1_de2_1">③ 제1항과 제2항에 따른 조치는 특별한 사유가 없으면 6개월의 범위에서 할 수 있으며, 그 조치 사유가 소멸된 경우에는 그 조치를 즉시 해제하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 제1항부터 제3항까지의 규정에 따른 조치는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737827','ALLJO','');" href="javascript:;">「외국인투자 촉진법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737829','JO','');" href="javascript:;">제2조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737831','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737833','JO','');" href="javascript:;">제4호</a>에 따른 외국인투자에 대하여 적용하지 아니한다. <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 재정경제부장관은 제1항제3호의 조치를 하기 위하여 필요한 경우 해당 거주자의 관할 세무관서의 장에게 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737821','ALLJO','');" href="javascript:;">「국제조세조정에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737823','JO','');" href="javascript:;">제52조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737825','JO','');" href="javascript:;">제3호</a>에 따른 해외금융계좌정보의 제공을 요청할 수 있다. 이 경우 해외금융계좌정보의 제공을 요청받은 관할 세무관서의 장은 특별한 사정이 없으면 그 요청에 따라야 한다. <span class="sfon">&lt;신설 2017. 1. 17., 2020. 12. 22., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J7:0" id="J7:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0007', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730189', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="7:0:000700:94730189" /> <span class="bl"><label for="Y000700"> 제7조 </label> </span> <input type="hidden" id="delJo94730189" value="삭제" /> 삭제 <span class="sfon">&lt;2017. 1. 17.&gt;</span> </p> 
+      </div> 
+     </div> 
+     <a name="pjuk:94730191" id="pjuk:94730191"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="000800" data-joseq="94730191">         제2장 외국환업무취급기관 등 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J8:0" id="J8:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0008', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730193', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('276137', '0008', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0008', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="8:0:000800:94730193" /> <span class="bl"><label for="Y000800"> 제8조(외국환업무의 등록 등) </label> </span> ① 외국환업무를 업으로 하려는 자는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127469');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 외국환업무를 하는 데에 충분한 자본ㆍ시설 및 전문인력을 갖추어 미리 재정경제부장관에게 등록하여야 한다. 다만, 재정경제부장관이 업무의 내용을 고려하여 등록이 필요하지 아니하다고 인정하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127470');" href="javascript:;">대통령령</a>으로 정하는 금융회사등은 그러하지 아니하다. <span class="sfon">&lt;개정 2011. 4. 30., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 외국환업무는 금융회사등만 할 수 있으며, 외국환업무를 하는 금융회사등은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127471');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 그 금융회사등의 업무와 직접 관련되는 범위에서 외국환업무를 할 수 있다. <span class="sfon">&lt;개정 2011. 4. 30.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제1항 및 제2항에도 불구하고 금융회사등이 아닌 자가 다음 각 호의 어느 하나에 해당하는 외국환업무를 업으로 하려는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127472');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 해당 업무에 필요한 자본ㆍ시설 및 전문인력 등 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('142081');" href="javascript:;">대통령령</a>으로 정하는 요건을 갖추어 미리 재정경제부장관에게 등록하여야 한다. 이 경우 제1호 및 제2호의 외국환업무의 규모, 방식 등 구체적인 범위 및 안전성 확보를 위한 기준은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('142082');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 외국통화의 매입 또는 매도, 외국에서 발행한 여행자수표의 매입 </p> 
+       <p class="pty1_de2h">2. 대한민국과 외국 간의 지급 및 수령과 이에 수반되는 외국통화의 매입 또는 매도 </p> 
+       <p class="pty1_de2h">3. 그 밖에 외국환거래의 편의 증진을 위하여 필요하다고 인정하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('142083');" href="javascript:;">대통령령</a>으로 정하는 외국환업무 </p> 
+       <p class="pty1_de2_1">④ 제1항 본문에 따라 외국환업무의 등록을 한 금융회사등과 제3항에 따라 외국환업무의 등록을 한 자(이하 “전문외국환업무취급업자”라 한다)가 그 등록사항 중 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127473');" href="javascript:;">대통령령</a>으로 정하는 사항을 변경하려 하거나 외국환업무를 폐지하려는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127474');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 재정경제부장관에게 미리 그 사실을 신고하여야 한다. <span class="sfon">&lt;개정 2011. 4. 30., 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 제1항에 따라 외국환업무의 등록을 한 금융회사등(제1항 단서에 따른 금융회사등을 포함한다. 이하 “외국환업무취급기관”이라 한다)은 국민경제의 건전한 발전, 국제 평화와 안전의 유지 등을 위하여 필요하다고 인정하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127475');" href="javascript:;">대통령령</a>으로 정하는 경우에는 이 법을 적용받는 업무에 관하여 외국금융기관과 계약을 체결할 때 재정경제부장관의 인가를 받아야 한다. <span class="sfon">&lt;개정 2011. 4. 30., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 외국환업무취급기관 및 전문외국환업무취급업자의 업무 수행에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127476');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑦ 재정경제부장관은 외국환업무의 성실한 이행을 위하여 제3항에 따라 등록한 자에게 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('276137','0008','00','010102','DEG','재정경제부장관이 지정하는','8173');">재정경제부장관이 지정하는</a> 기관에 보증금을 예탁하게 하거나 보험 또는 공제에 가입하게 하는 등 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('142086');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 필요한 조치를 할 수 있다. <span class="sfon">&lt;신설 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('000800', '276137', '0008', '00', '010102')"><img id="delegatedAdmRul_img_000800" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_000800" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J9:0" id="J9:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0009', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730195', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0009', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y000900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="9:0:000900:94730195" /> <span class="bl"><label for="Y000900"> 제9조(외국환중개업무 등) </label> </span> ① 외국환중개업무를 업으로 하려는 자는 다음 각 호의 구분에 따른 업종별로 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127477');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 자본ㆍ시설 및 전문인력을 갖추어 재정경제부장관의 인가를 받아야 한다. 이 경우 인가를 받은 사항 중 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127478');" href="javascript:;">대통령령</a>으로 정하는 중요 사항을 변경하려면 재정경제부장관에게 신고하여야 한다. <span class="sfon">&lt;개정 2025. 3. 18., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2h">1. 일반외국환중개업: 외국환거래 관련 전문성을 갖춘 금융회사등 및 관련 기관으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('196201');" href="javascript:;">대통령령</a>으로 정하는 자(이하 이 조에서 “전문금융기관등”이라 한다) 간의 외국환중개업무에 관한 영업 </p> 
+       <p class="pty1_de2h">2. 대(對)고객외국환중개업: 전문금융기관등과 전문금융기관등에 속하지 아니한 외국환거래 상대방으로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('196203');" href="javascript:;">대통령령</a>으로 정하는 자 간의 외국환중개업무에 관한 영업 </p> 
+       <p class="pty1_de2_1">② 제1항에 따라 인가받은 자(이하 “외국환중개회사”라 한다)는 같은 항 각 호의 구분에 따른 업종별로 해당 호에서 정하는 자를 상대로 외국환중개업무를 하여야 한다. <span class="sfon">&lt;개정 2025. 3. 18.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 외국환중개회사가 다음 각 호의 어느 하나에 해당하는 행위를 하려는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127480');" href="javascript:;">대통령령</a>으로 정하는 구분에 따라 재정경제부장관의 인가를 받거나 재정경제부장관에게 신고하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 합병 또는 해산 </p> 
+       <p class="pty1_de2h">2. 영업의 전부 또는 일부의 폐지ㆍ양도ㆍ양수 </p> 
+       <p class="pty1_de2_1">④ 재정경제부장관은 외국환중개업무의 성실한 이행을 위하여 외국환중개회사에 대하여 재정경제부장관이 지정하는 기관에 보증금을 예탁하게 하거나 보험 또는 공제에 가입하게 하는 등 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127481');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 필요한 조치를 할 수 있다. <span class="sfon">&lt;개정 2025. 3. 18., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 외국환중개회사가 외국에서 외국환중개업무를 하려는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127482');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 재정경제부장관의 인가를 받아야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 이 법에 따른 외국환중개업무에 관하여는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737873','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> 및 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737875','ALLJO','');" href="javascript:;">「금융소비자 보호에 관한 법률」</a>을 적용하지 아니한다. 다만, 외국환중개회사의 거래상대방 보호를 위하여 다음 각 호의 구분에 따른 규정을 준용하며, 이 경우 “금융투자업자” 또는 “금융상품판매업자”는 각각 “외국환중개회사”로, “금융투자업” 또는 “금융상품판매업”은 각각 “외국환중개업무”로, “투자자” 또는 “금융소비자”는 각각 “외국환중개회사의 거래상대방”으로 본다. <span class="sfon">&lt;개정 2025. 3. 18.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 일반외국환중개업의 경우: <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737857','ALLJO','');" href="javascript:;">「자본시장과 금융투자업에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737859','JO','');" href="javascript:;">제37조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737887','JO','');" href="javascript:;">제38조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737889','JO','');" href="javascript:;">제1항</a>(이 경우 “금융투자”는 “외국환중개”로 본다), <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737855','JO','');" href="javascript:;">제39조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737899','JO','');" href="javascript:;">제44조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737891','JO','');" href="javascript:;">제54조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737861','JO','');" href="javascript:;">제55조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737845','JO','');" href="javascript:;">제71조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737883','JO','');" href="javascript:;">제428조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737885','JO','');" href="javascript:;">제4항</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737853','JO','');" href="javascript:;">제430조부터 제434조</a>까지, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737877','JO','');" href="javascript:;">제434조의2부터 제434조의4</a>까지, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737863','JO','');" href="javascript:;">제444조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737865','JO','');" href="javascript:;">제6호의2</a>ㆍ제8호, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737895','JO','');" href="javascript:;">제445조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737897','JO','');" href="javascript:;">제3호</a>ㆍ제9호ㆍ제10호, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737867','JO','');" href="javascript:;">제446조</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737869','JO','');" href="javascript:;">제3호</a>(이 경우 “금융투자”는 “외국환중개”로 본다), <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737903','JO','');" href="javascript:;">제447조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737905','JO','');" href="javascript:;">제2항</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737907','JO','');" href="javascript:;">제449조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737909','JO','');" href="javascript:;">제1항</a>(제29호 중 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737845','JO','');" href="javascript:;">제71조</a>를 위반한 자에 한정한다)ㆍ제4항 </p> 
+       <p class="pty1_de2h">2. 대고객외국환중개업의 경우: 다음 각 목의 구분에 따른 규정 </p> 
+       <p class="pty1_de3">가. 전문금융기관등과 외국환중개회사 간의 거래: 제1호에 따른 규정 <span class="sfon"></span></p> 
+       <p class="pty1_de3">나. 전문금융기관등에 속하지 아니한 자와 외국환중개회사 간의 거래: 제1호에 따른 규정과 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737849','ALLJO','');" href="javascript:;">「금융소비자 보호에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737851','JO','');" href="javascript:;">제14조부터 제16조</a>까지, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737843','JO','');" href="javascript:;">제17조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737879','JO','');" href="javascript:;">제19조부터 제21조</a>까지, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737881','JO','');" href="javascript:;">제22조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737847','JO','');" href="javascript:;">제28조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737893','JO','');" href="javascript:;">제44조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737837','JO','');" href="javascript:;">제47조</a>(제1항 중 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737835','JO','');" href="javascript:;">제18조</a>에 관한 부분은 제외한다), <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737871','JO','');" href="javascript:;">제57조</a>(제3항은 제외하며, 이 경우 “금융상품직접판매업자”는 “외국환중개회사”로 본다)부터 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737901','JO','');" href="javascript:;">제64조</a>까지 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737839','JO','');" href="javascript:;">제69조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737841','JO','');" href="javascript:;">제1항</a>(제1호부터 제5호까지 및 제12호에 한정한다)ㆍ제2항(제1호 및 제2호에 한정한다)ㆍ제5항 <span class="sfon"></span></p> 
+       <p class="pty1_de2_1">⑦ 제1항부터 제6항까지에서 규정한 사항 외에 외국환중개회사의 업무 수행에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127484');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:0" id="J10:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0010', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730197', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0010', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:0:001000:94730197" /> <span class="bl"><label for="Y001000"> 제10조(업무상의 의무) </label> </span> ① 외국환업무취급기관, 전문외국환업무취급업자 및 외국환중개회사(이하 “외국환업무취급기관등”이라 한다)는 그 고객과 이 법을 적용받는 거래를 할 때에는 고객의 거래나 지급 또는 수령이 이 법에 따른 허가를 받았거나 신고를 한 것인지를 확인하여야 한다. 다만, 외국환수급 안정과 대외거래 원활화를 위하여 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('276137','0010','00','010102','NOT','재정경제부장관이 정하여 고시하는','32025');">재정경제부장관이 정하여 고시하는</a> 경우에는 그러하지 아니하다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 외국환업무취급기관등은 외국환업무와 관련하여 부당한 이익을 얻거나 제3자에게 부당한 이익을 얻게 할 목적으로 다음 각 호의 어느 하나에 해당하는 행위를 하여서는 아니 된다. <span class="sfon">&lt;신설 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 외국환의 시세를 변동 또는 고정시키는 행위 </p> 
+       <p class="pty1_de2h">2. 제1호의 행위와 유사한 행위로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('142084');" href="javascript:;">대통령령</a>으로 정하는 건전한 거래질서를 해치는 행위 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]<br />[제목개정 2017. 1. 17.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J10:2" id="J10:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0010', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001002" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="10:2:001002:94730199" /> <span class="bl"><label for="Y001002"> 제10조의2(외국환업무에 필요한 일부 사무의 위탁) </label> </span> ① 외국환업무취급기관등(이하 이 조에서 “위탁기관”이라 한다)은 외국환 매매 또는 지급ㆍ수령 등의 업무 수행에 필요한 일부 사무로서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('170539');" href="javascript:;">대통령령</a>으로 정하는 사무를 다른 외국환업무취급기관등 또는 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('170541');" href="javascript:;">대통령령</a>으로 정하는 자(이하 이 조에서 “수탁기관”이라 한다)에게 위탁할 수 있다. 이 경우 수탁기관은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737797','JO','');" href="javascript:;">제10조</a>에 따른 업무상의 의무를 준수하여야 하며, 위탁기관은 이를 감독하여야 한다. </p>
+       <p class="pty1_de2_1">② 수탁기관이 위탁받은 사무를 처리하는 과정에서 그 사무와 관련한 법률의 규정을 위반하여 발생한 손해배상책임에 대하여는 수탁기관을 위탁기관의 소속 직원으로 본다. </p> 
+       <p class="pty1_de2_1">③ 그 밖에 위탁 방법ㆍ절차 및 수탁기관의 자격 등 사무 위탁에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('170543');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2021. 6. 15.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:0" id="J11:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0011', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730201', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0011', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:0:001100:94730201" /> <span class="bl"><label for="Y001100"> 제11조(업무의 감독과 건전성 규제 등) </label> </span> ① 재정경제부장관은 외국환업무취급기관등(외국환업무취급기관등의 외국에 있는 영업소를 포함한다. 이하 이 조에서 같다)의 업무를 감독하고 감독상 필요한 명령을 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 외환시장의 안정과 외국환업무취급기관등의 건전성을 유지하기 위하여 필요하다고 인정되는 경우에는 외국환업무취급기관등의 외국통화 자산ㆍ부채비율을 정하는 등 외국통화의 조달ㆍ운용에 필요한 제한을 할 수 있다. 이 경우 제한의 구체적인 기준은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127485');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:2" id="J11:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0011', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730203', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('276137', '0011', '02', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0011', '02');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001102" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:2:001102:94730203" /> <span class="bl"><label for="Y001102"> 제11조의2(외환건전성부담금) </label> </span> ① 재정경제부장관은 외화자금의 급격한 유입ㆍ유출에 따른 금융시장의 불안을 최소화하고 국민경제의 건전한 발전을 위하여 금융시장에서의 역할, 취급 외국환업무 및 외국통화 표시 부채의 규모 등을 종합적으로 고려하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127486');" href="javascript:;">대통령령</a>으로 정하는 금융회사등에 외환건전성부담금(이하 이 조 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737911','JO','');" href="javascript:;">제11조의3</a>에서 “부담금”이라 한다)을 부과ㆍ징수할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항에 따라 부과ㆍ징수하는 부담금은 비예금성외화부채등의 잔액에 1천분의 5 이내의 범위에서 금융회사등의 영업구역, 비예금성외화부채등의 만기 등을 고려하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127487');" href="javascript:;">대통령령</a>으로 정하는 부과요율을 곱하여 계산한 금액으로 한다. </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 제2항에도 불구하고 국제금융시장의 불안정, 외화자금의 급격한 유출ㆍ유입 등으로 금융시장과 국민경제의 안정을 현저히 해칠 우려가 있다고 인정되는 경우에는 6개월 이내의 기간을 정하여 다음 각 호의 어느 하나에 해당하는 금액을 부담금으로 부과ㆍ징수할 수 있다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 해당 기간의 비예금성외화부채등 잔액에 대하여 제2항에 따른 부과요율 대신에 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('276137','0011','02','010102','DEG','재정경제부장관이 하향하여 고시하는','61115');">재정경제부장관이 하향하여 고시하는</a> 부과요율을 곱하여 계산한 금액 </p> 
+       <p class="pty1_de2h">2. 해당 기간의 비예금성외화부채등 잔액 증가분에 대하여 재정경제부장관이 제2항에 따른 부과요율보다 상향하여 고시하는 부과요율(이하 이 호에서 “추가부과요율”이라 한다)을 적용하여 계산한 금액을 제2항에 따라 산정한 부담금 금액에 더한 금액. 이 경우 추가부과요율은 제2항에 따른 부과요율을 더하여 1천분의 10을 넘지 아니하도록 하여야 한다. </p> 
+       <p class="pty1_de2_1">④ 제1항에 따라 징수한 부담금은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737913','JO','');" href="javascript:;">제13조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737915','JO','');" href="javascript:;">제1항</a>에 따른 외국환평형기금에 귀속된다. </p> 
+       <p class="pty1_de2_1">⑤ 제2항의 비예금성외화부채등의 잔액과 제3항의 비예금성외화부채등 잔액의 증가분의 산정방법 및 그 밖에 부담금의 부과에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127488');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 4. 30.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('001102', '276137', '0011', '02', '010102')"><img id="delegatedAdmRul_img_001102" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_001102" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J11:3" id="J11:3"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0011', '03' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730205', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001103" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="11:3:001103:94730205" /> <span class="bl"><label for="Y001103"> 제11조의3(부담금의 징수 및 이의신청) </label> </span> ① 재정경제부장관은 금융회사등이 내야 하는 부담금을 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127489');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 나누어 내게 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 금융회사등이 부담금을 납부기한까지 내지 아니하면 납부기한이 지난 후 10일 이내에 10일 이상의 기간을 정하여 독촉장을 발급하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 체납된 부담금에 대하여는 100분의 10 이내의 범위에서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127490');" href="javascript:;">대통령령</a>으로 정하는 가산금을 징수할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 재정경제부장관은 제2항에 따라 독촉장을 받은 금융회사등이 정하여진 기한까지 납부하지 아니할 때에는 국세 체납처분의 예에 따라 부담금과 가산금을 징수한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 재정경제부장관은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737917','JO','');" href="javascript:;">제11조의2</a>에 따른 부담금의 부과ㆍ징수를 위하여 필요하다고 인정되는 경우에는 해당 금융회사등에 관련 자료의 제출을 요구할 수 있다. 이 경우 자료의 제출을 요구받은 금융회사등은 특별한 사유가 없으면 요구에 따라야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737919','JO','');" href="javascript:;">제11조의2</a>에 따라 부담금을 부과받은 금융회사등이 부과받은 사항에 대하여 이의가 있는 경우에는 재정경제부장관에게 이의를 신청할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑦ 그 밖에 부담금의 징수 및 이의신청 등에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127491');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2011. 4. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J12:0" id="J12:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0012', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730207', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:0:001200:94730207" /> <span class="bl"><label for="Y001200"> 제12조(인가의 취소 등) </label> </span> ① 재정경제부장관은 외국환업무취급기관등이 다음 각 호의 어느 하나에 해당하는 경우에는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737979','JO','');" href="javascript:;">제8조</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737981','JO','');" href="javascript:;">제9조</a>에 따른 등록 또는 인가를 취소하거나 6개월 이내의 기간을 정하여 외국환업무취급기관등(영업소를 포함한다)의 업무를 제한하거나 업무의 전부 또는 일부를 정지할 수 있다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 3. 18., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2h">1. 거짓이나 그 밖의 부정한 방법으로 등록을 하거나 인가를 받은 경우 </p> 
+       <p class="pty1_de2h">2. 업무의 제한 또는 정지 기간에 그 업무를 한 경우 </p> 
+       <p class="pty1_de2h">3. 등록 또는 인가의 내용이나 조건을 위반한 경우 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737931','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737933','JO','');" href="javascript:;">제2항</a>을 위반하여 외국환업무를 한 경우 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737935','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737937','JO','');" href="javascript:;">제4항</a> 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737939','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737941','JO','');" href="javascript:;">제3항</a>에 따른 인가를 받지 아니한 경우 또는 신고를 하지 아니하거나 거짓으로 신고를 한 경우 </p> 
+       <p class="pty1_de2h">5의2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737975','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737977','JO','');" href="javascript:;">제6항</a>에 따른 외국환업무취급기관 및 전문외국환업무취급업자의 업무 수행에 필요한 사항을 따르지 아니한 경우 </p> 
+       <p class="pty1_de2h">5의3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737927','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737929','JO','');" href="javascript:;">제7항</a>에 따른 보증금 예탁 등 필요한 조치를 따르지 아니한 경우 </p> 
+       <p class="pty1_de2h">5의4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737959','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737961','JO','');" href="javascript:;">제7항</a>에 따른 조치에도 불구하고 전문외국환업무취급업자의 파산 또는 지급불능 우려 사유가 발생한 경우 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737943','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737945','JO','');" href="javascript:;">제2항</a>을 위반하여 외국환중개업무를 한 경우 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737963','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737965','JO','');" href="javascript:;">제4항</a>에 따른 보증금 예탁 등 필요한 조치를 따르지 아니한 경우 </p> 
+       <p class="pty1_de2h">7. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737925','JO','');" href="javascript:;">제10조</a>에 따른 의무를 위반한 경우 </p> 
+       <p class="pty1_de2h">8. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738003','JO','');" href="javascript:;">제11조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738005','JO','');" href="javascript:;">제1항</a>에 따른 감독상의 명령 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737983','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737985','JO','');" href="javascript:;">제2항</a>에 따른 업무상 제한을 위반한 경우 </p> 
+       <p class="pty1_de2h">9. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737947','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737949','JO','');" href="javascript:;">제1항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737951','JO','');" href="javascript:;">제2항</a>에 따른 보고 또는 자료ㆍ정보 제출을 하지 아니하거나 거짓 보고 또는 거짓 자료ㆍ정보를 제출한 경우 </p> 
+       <p class="pty1_de2h">10. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737997','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737999','JO','');" href="javascript:;">제3항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738001','JO','');" href="javascript:;">제6항</a>에 따른 검사에 응하지 아니하거나 이 검사를 거부ㆍ방해 또는 기피한 경우 </p> 
+       <p class="pty1_de2h">11. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737967','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737969','JO','');" href="javascript:;">제4항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737971','JO','');" href="javascript:;">제6항</a>에 따른 자료의 제출을 거부하거나 거짓 자료를 제출한 경우 </p> 
+       <p class="pty1_de2h">12. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737953','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737955','JO','');" href="javascript:;">제5항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737957','JO','');" href="javascript:;">제6항</a>에 따른 시정명령에 따르지 아니한 경우 </p> 
+       <p class="pty1_de2h">13. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737973','JO','');" href="javascript:;">제21조</a>에 따른 재정경제부장관의 명령을 위반하여 통보 또는 제공을 하지 아니하거나 거짓으로 통보 또는 제공한 경우 </p> 
+       <p class="pty1_de2h">14. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737921','JO','');" href="javascript:;">제24조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737923','JO','');" href="javascript:;">제2항</a>에 따른 재정경제부장관의 명령을 위반하여 신고, 신청, 보고, 자료의 통보 및 제출을 전자문서의 방법으로 하지 아니한 경우 </p> 
+       <p class="pty1_de2_1">② 삭제 <span class="sfon">&lt;2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 제1항에 따라 등록 또는 인가를 취소하려는 경우에는 청문을 하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 제1항에 따라 등록 또는 인가가 취소된 자(제1항에 따라 등록 또는 인가가 취소된 자의 임직원이었던 자로서 그 취소 사유의 발생에 직접 또는 이에 상응하는 책임이 있는 자를 포함한다)는 등록 또는 인가가 취소된 날부터 3년이 경과하지 아니한 경우에는 해당 외국환업무를 다시 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737991','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737993','JO','');" href="javascript:;">제1항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737995','JO','');" href="javascript:;">제3항</a>에 따라 등록하거나 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737987','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737989','JO','');" href="javascript:;">제1항</a>에 따라 인가받을 수 없다. <span class="sfon">&lt;신설 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 제1항에 따른 처분의 구체적인 기준은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127492');" href="javascript:;">대통령령</a>으로 정한다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J12:2" id="J12:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0012', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730209', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001202" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="12:2:001202:94730209" /> <span class="bl"><label for="Y001202"> 제12조의2(과징금) </label> </span> ① 재정경제부장관은 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738007','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738009','JO','');" href="javascript:;">제1항</a> 각 호의 어느 하나에 해당하는 위반행위를 한 자에 대하여 업무를 제한하거나 업무의 전부 또는 일부를 정지할 수 있는 경우에는 이를 갈음하여 그 위반행위로 취득한 이익의 범위에서 과징금을 부과할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항에 따라 과징금을 부과하는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127493');" href="javascript:;">대통령령</a>으로 정하는 기준에 따라 다음 각 호의 사항을 고려하여야 한다. </p> 
+       <p class="pty1_de2h">1. 위반행위의 내용 및 정도 </p> 
+       <p class="pty1_de2h">2. 위반행위의 기간 및 횟수 </p> 
+       <p class="pty1_de2h">3. 위반행위로 취득한 이익의 규모 </p> 
+       <p class="pty1_de2_1">③ 과징금의 부과, 과징금 납부기한의 연장, 분할납부, 담보, 그 밖에 과징금의 징수에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127494');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2_1">④ 재정경제부장관은 과징금 납부 의무자가 납부기한까지 과징금을 납부하지 아니한 경우에는 국세 체납처분의 예에 따라 징수할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:94730211" id="pjuk:94730211"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="001300" data-joseq="94730211">         제3장 외국환평형기금 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J13:0" id="J13:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0013', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730213', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="13:0:001300:94730213" /> <span class="bl"><label for="Y001300"> 제13조(외국환평형기금) </label> </span> ① 외국환거래를 원활하게 하기 위하여 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031738031','ALLJO','');" href="javascript:;">「국가재정법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738033','JO','');" href="javascript:;">제5조</a>에 따른 기금으로서 외국환평형기금을 설치한다. </p>
+       <p class="pty1_de2_1">② 외국환평형기금은 다음 각 호의 재원(財源)으로 조성한다. <span class="sfon">&lt;개정 2011. 4. 30.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 정부로부터의 출연금 및 예수금 </p> 
+       <p class="pty1_de2h">2. 외국환평형기금 채권의 발행으로 조성된 자금 </p> 
+       <p class="pty1_de2h">3. 외국정부, 외국중앙은행, 그 밖의 거주자 또는 비거주자로부터의 예수금 또는 일시차입금 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738021','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738023','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031738025','JO','');" href="javascript:;">제2호</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738017','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738019','JO','');" href="javascript:;">제2항</a>에 따른 예수금 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738015','JO','');" href="javascript:;">제11조의2</a>에 따른 외환건전성부담금 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738011','JO','');" href="javascript:;">제11조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738013','JO','');" href="javascript:;">제3항</a>에 따른 가산금 </p> 
+       <p class="pty1_de2h">6. 그 밖에 외국환거래의 원활화를 위하여 필요한 자금 등 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127495');" href="javascript:;">대통령령</a>으로 정하는 자금 </p> 
+       <p class="pty1_de2_1">③ 외국환평형기금은 다음 각 호의 방법으로 운용한다. 다만, 제2항제5호에 따른 외환건전성부담금 및 가산금으로 조성된 외국환평형기금의 경우에는 제2호의 방법 또는 제4호 중 금융회사등에 대한 외화유동성 공급을 위한 거래에 한하여 운용한다. <span class="sfon">&lt;개정 2011. 4. 30.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 외국환의 매매 </p> 
+       <p class="pty1_de2h">2. 한국은행ㆍ외국정부ㆍ외국중앙은행 또는 국내외 금융회사등에의 예치ㆍ예탁 또는 대여 </p> 
+       <p class="pty1_de2h">3. 외국환업무취급기관의 외화채무로서 국가가 보증한 채무를 상환하기 위하여 국가가 예비비 또는 추가경정예산으로 지급하기 전까지 국가를 대신하여 일시적으로 하는 지급 </p> 
+       <p class="pty1_de2h">4. 그 밖에 외국환거래의 원활화를 위하여 필요하다고 인정되어 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127496');" href="javascript:;">대통령령</a>으로 정하는 방법 </p> 
+       <p class="pty1_de2_1">④ 제3항제3호에 따라 외국환평형기금에서 채무를 대신 지급한 경우 정부는 이를 보전(補塡)하는 조치를 하여야 한다. </p> 
+       <p class="pty1_de2_1">⑤ 제2항과 제3항에 따른 외국환평형기금의 조성 및 운용은 내국지급수단 또는 대외지급수단으로 할 수 있다. </p> 
+       <p class="pty1_de2_1">⑥ 외국환평형기금은 재정경제부장관이 운용ㆍ관리한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑦ 재정경제부장관은 외국환평형기금 채권을 발행할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑧ 외국환평형기금의 운용ㆍ관리, 예수금의 지급이자 및 외국환평형기금 채권의 발행 등에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127497');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2_1">⑨ 재정경제부장관은 제2항에 따라 외국환평형기금에 예치된 자금에 대하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127498');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 예치증서를 발행할 수 있다. 이 경우 재정경제부장관은 그 예치증서의 사용 용도를 정할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑩ 제2항제2호에 따른 외국환평형기금 채권을 발행하는 경우에는 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031738027','ALLJO','');" href="javascript:;">「국채법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738029','JO','');" href="javascript:;">제4조</a>를 적용하지 아니한다. </p> 
+       <p class="pty1_de2_1">⑪ 재정경제부장관은 외국통화로 표시하는 외국환평형기금 채권 발행액의 변경 범위가 해당 회계연도의 외국환평형기금 기금운용계획에 따른 외국통화 표시 외국환평형기금 채권 발행액의 10분의 2를 초과한 경우에는 변경명세서를 국회 소관 상임위원회 및 예산결산특별위원회에 제출하여야 한다. 이 경우 변경명세서에는 외국환평형기금 채권의 발행 및 상환 내역과 변경 사유 등이 포함되어야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑫ 재정경제부장관은 외국환평형기금의 재원 중 제2항제5호에 따른 외환건전성부담금 및 가산금을 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127499');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 다른 재원과 구분하여 별도로 관리하여야 한다. <span class="sfon">&lt;신설 2011. 4. 30., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J14:0" id="J14:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0014', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730215', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="14:0:001400:94730215" /> <span class="bl"><label for="Y001400"> 제14조(외국환평형기금 채권의 원리금 상환) </label> </span> ① 외국환평형기금 채권의 발행으로 인한 원리금은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737667','ALLJO','');" href="javascript:;">「국가재정법」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737669','JO','');" href="javascript:;">제90조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737671','JO','');" href="javascript:;">제6항</a>에 따른 절차에 따라 일반회계 세계잉여금으로 상환할 수 있다. </p>
+       <p class="pty1_de2_1">② 제1항에 따라 일반회계 세계잉여금으로 상환할 수 있는 금액은 외국환평형기금 채권의 이자에 그 이자 외의 외국환평형기금 운용손익을 더하거나 뺀 금액으로 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:94730217" id="pjuk:94730217"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="001500" data-joseq="94730217">         제4장 지급과 거래 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J15:0" id="J15:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0015', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730219', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0015', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="15:0:001500:94730219" /> <span class="bl"><label for="Y001500"> 제15조(지급절차 등) </label> </span> ① 재정경제부장관은 이 법을 적용받는 지급 또는 수령과 관련하여 환전절차, 송금절차, 재산반출절차 등 필요한 사항을 정할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 다음 각 호의 어느 하나에 해당한다고 인정되는 경우에는 국내로부터 외국에 지급하려는 거주자ㆍ비거주자, 비거주자에게 지급하거나 비거주자로부터 수령하려는 거주자에게 그 지급 또는 수령을 할 때 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127500');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 허가를 받도록 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 우리나라가 체결한 조약 및 일반적으로 승인된 국제법규를 성실하게 이행하기 위하여 불가피한 경우 </p> 
+       <p class="pty1_de2h">2. 국제 평화 및 안전을 유지하기 위한 국제적 노력에 특히 기여할 필요가 있는 경우 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J16:0" id="J16:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0016', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730221', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0016', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="16:0:001600:94730221" /> <span class="bl"><label for="Y001600"> 제16조(지급 또는 수령의 방법의 신고) </label> </span> 거주자 간, 거주자와 비거주자 간 또는 비거주자 상호 간의 거래나 행위에 따른 채권ㆍ채무를 결제할 때 거주자가 다음 각 호의 어느 하나에 해당하면(<a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738035','JO','');" href="javascript:;">제18조</a>에 따라 신고를 한 자가 그 신고된 방법으로 지급 또는 수령을 하는 경우는 제외한다) <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127501');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 그 지급 또는 수령의 방법을 재정경제부장관에게 미리 신고하여야 한다. 다만, 외국환수급 안정과 대외거래 원활화를 위하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127502');" href="javascript:;">대통령령</a>으로 정하는 거래의 경우에는 사후에 보고하거나 신고하지 아니할 수 있다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1"> </p> 
+       <p class="pty1_de2h">1. 상계 등의 방법으로 채권ㆍ채무를 소멸시키거나 상쇄시키는 방법으로 결제하는 경우 </p> 
+       <p class="pty1_de2h">2. <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link_not" onclick="javascript:joDelegatePop('276137','0016','00','010102','NOT','재정경제부장관이 정하는','32029');">재정경제부장관이 정하는</a> 기간을 넘겨 결제하는 경우 </p> 
+       <p class="pty1_de2h">3. 거주자가 해당 거래의 당사자가 아닌 자와 지급 또는 수령을 하거나 해당 거래의 당사자가 아닌 거주자가 그 거래의 당사자인 비거주자와 지급 또는 수령을 하는 경우 </p> 
+       <p class="pty1_de2h">4. 외국환업무취급기관등을 통하지 아니하고 지급 또는 수령을 하는 경우 </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J17:0" id="J17:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0017', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730223', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0017', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="17:0:001700:94730223" /> <span class="bl"><label for="Y001700"> 제17조(지급수단 등의 수출입 신고) </label> </span> 재정경제부장관은 이 법의 실효성을 확보하기 위하여 필요하다고 인정되어 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127503');" href="javascript:;">대통령령</a>으로 정하는 경우에는 지급수단 또는 증권을 수출 또는 수입하려는 거주자나 비거주자로 하여금 그 지급수단 또는 증권을 수출 또는 수입할 때 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127504');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 신고하게 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J18:0" id="J18:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0018', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730225', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0018', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="18:0:001800:94730225" /> <span class="bl"><label for="Y001800"> 제18조(자본거래의 신고 등) </label> </span> ① 자본거래를 하려는 자는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127505');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 재정경제부장관에게 신고하여야 한다. 다만, 외국환수급 안정과 대외거래 원활화를 위하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127506');" href="javascript:;">대통령령</a>으로 정하는 자본거래는 사후에 보고하거나 신고하지 아니할 수 있다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항의 신고와 제3항의 신고수리(申告受理)는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738037','JO','');" href="javascript:;">제15조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738039','JO','');" href="javascript:;">제1항</a>에 따른 절차 이전에 완료하여야 한다. </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 제1항에 따라 신고하도록 정한 사항 중 거주자의 해외직접투자와 해외부동산 또는 이에 관한 권리의 취득의 경우에는 투자자 적격성 여부, 투자가격 적정성 여부 등의 타당성을 검토하여 신고수리 여부를 결정할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 재정경제부장관은 제3항에 따른 신고에 대하여 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127507');" href="javascript:;">대통령령</a>으로 정하는 처리기간에 다음 각 호의 어느 하나에 해당하는 결정을 하여 신고인에게 통지하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. 신고의 수리 </p> 
+       <p class="pty1_de2h">2. 신고의 수리 거부 </p> 
+       <p class="pty1_de2h">3. 거래 내용의 변경 권고 </p> 
+       <p class="pty1_de2_1">⑤ 재정경제부장관이 제4항제2호의 결정을 한 경우 그 신고를 한 거주자는 해당 거래를 하여서는 아니 된다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 제4항제3호에 해당하는 통지를 받은 자가 해당 권고를 수락한 경우에는 그 수락한 바에 따라 그 거래를 할 수 있으며, 수락하지 아니한 경우에는 그 거래를 하여서는 아니 된다. </p> 
+       <p class="pty1_de2_1">⑦ 제4항에 따른 처리기간에 재정경제부장관의 통지가 없으면 그 기간이 지난 날에 해당 신고가 수리된 것으로 본다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:94730227" id="pjuk:94730227"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="001900" data-joseq="94730227">         제5장 보칙 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J19:0" id="J19:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0019', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730229', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0019', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y001900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="19:0:001900:94730229" /> <span class="bl"><label for="Y001900"> 제19조(경고 및 거래정지 등) </label> </span> ① 재정경제부장관은 이 법을 적용받는 자가 다음 각 호의 어느 하나에 해당하는 경우에는 경고를 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738041','JO','');" href="javascript:;">제15조부터 제18조</a>까지의 규정에 따라 허가를 받거나 신고를 한 경우 허가사항 또는 신고사항에 정하여진 기한이 지난 후에 거래 또는 행위를 한 경우 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127508');" href="javascript:;">대통령령</a>으로 정하는 금액(거래 또는 행위 유형에 따라 금액을 달리 정할 수 있다) 이하의 거래 또는 행위로서 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738045','JO','');" href="javascript:;">제15조부터 제18조</a>까지의 규정에 따른 절차 준수, 허가 또는 신고(이하 “신고등”이라 한다)의 의무를 위반하여 거래 또는 행위를 한 경우 </p> 
+       <p class="pty1_de2_1">② 재정경제부장관은 이 법을 적용받는 자의 거래 또는 행위가 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738043','JO','');" href="javascript:;">제15조부터 제18조</a>까지의 규정에 따른 신고등의 의무를 5년 이내에 2회 이상 위반한 경우에는 각각의 위반행위에 대하여 1년 이내의 범위에서 관련 외국환거래 또는 행위를 정지ㆍ제한하거나 허가를 취소할 수 있다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 제2항에 따른 처분을 하려는 경우에는 청문을 하여야 한다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 제1항 또는 제2항에 따른 처분에 필요한 사항은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127509');" href="javascript:;">대통령령</a>으로 정한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J20:0" id="J20:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0020', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730231', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0020', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="20:0:002000:94730231" /> <span class="bl"><label for="Y002000"> 제20조(보고ㆍ검사) </label> </span> ① 재정경제부장관은 이 법의 실효성을 확보하기 위하여 거래 당사자 또는 관계인으로 하여금 필요한 보고를 하게 할 수 있으며, 비거주자에 대한 채권을 보유하고 있는 거주자로 하여금 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127510');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 그 보유 채권의 현황을 재정경제부장관에게 보고하게 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 이 법을 시행하기 위하여 필요하다고 인정되는 경우에는 국세청, 한국은행, 금융감독원, 외국환업무취급기관등 이 법을 적용받는 관계 기관의 장에게 관련 자료 또는 정보의 제출을 요구할 수 있다. 이 경우 관계 기관의 장은 특별한 사유가 없으면 그 요구에 따라야 한다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 재정경제부장관은 이 법을 시행하기 위하여 필요하다고 인정되는 경우에는 소속 공무원으로 하여금 외국환업무취급기관등이나 그 밖에 이 법을 적용받는 거래 당사자 또는 관계인의 업무에 관하여 검사하게 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">④ 재정경제부장관은 효율적인 검사를 위하여 필요하다고 인정되는 경우에는 외국환업무취급기관등이나 그 밖에 이 법을 적용받는 거래 당사자 또는 관계인의 업무와 재산에 관한 자료의 제출을 요구할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑤ 재정경제부장관은 제3항에 따른 검사 결과 위법한 사실을 발견하였을 때에는 그 시정을 명하거나 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('170537');" href="javascript:;">대통령령</a>으로 정하는 필요한 조치를 할 수 있다. <span class="sfon">&lt;개정 2021. 6. 15., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑥ 재정경제부장관은 필요하다고 인정되는 경우에는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127511');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 한국은행총재, 금융감독원장, 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127512');" href="javascript:;">대통령령</a>으로 정하는 자에게 위탁하여 그 소속 직원으로 하여금 제3항부터 제5항까지의 규정에 따른 업무를 수행하게 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2_1">⑦ 제3항이나 제6항에 따라 검사를 하는 사람은 그 권한을 표시하는 증표를 지니고 이를 관계인에게 내보여야 한다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J21:0" id="J21:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0021', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730233', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0021', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="21:0:002100:94730233" /> <span class="bl"><label for="Y002100"> 제21조(국세청장 등에게의 통보 등) </label> </span> ① 다른 법률에도 불구하고 재정경제부장관은 이 법을 적용받는 거래, 지급, 수령, 자금의 이동 등에 관한 자료를 국세청장, 관세청장, 금융감독원장 또는 한국수출입은행장에게 직접 통보하거나 한국은행총재, 외국환업무취급기관등의 장, 세관의 장, 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127513');" href="javascript:;">대통령령</a>으로 정하는 자로 하여금 국세청장, 관세청장, 금융감독원장 또는 한국수출입은행장에게 통보하도록 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127514');" href="javascript:;">대통령령</a>으로 정하는 자에게 이 법을 적용받는 거래, 지급, 수령, 자금의 이동 등에 관한 자료를 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031738047','ALLJO','');" href="javascript:;">「신용정보의 이용 및 보호에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738049','JO','');" href="javascript:;">제25조</a>에 따른 신용정보집중기관에 제공하도록 할 수 있다. <span class="sfon">&lt;개정 2009. 4. 1., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J22:0" id="J22:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0022', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730235', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0022', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="22:0:002200:94730235" /> <span class="bl"><label for="Y002200"> 제22조(외국환거래의 비밀보장) </label> </span> 이 법에 따른 허가ㆍ인가ㆍ등록ㆍ신고ㆍ보고ㆍ통보ㆍ중개(仲介)ㆍ중계(中繼)ㆍ집중(集中)ㆍ교환 등의 업무에 종사하는 사람은 그 업무와 관련하여 알게 된 정보를 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737675','ALLJO','');" href="javascript:;">「금융실명거래 및 비밀보장에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737673','JO','');" href="javascript:;">제4조</a>에서 정하는 경우를 제외하고는 이 법에서 정하는 용도가 아닌 용도로 사용하거나 다른 사람에게 누설하여서는 아니 된다. </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J23:0" id="J23:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0023', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730237', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0023', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002300" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="23:0:002300:94730237" /> <span class="bl"><label for="Y002300"> 제23조(권한의 위임ㆍ위탁 등) </label> </span> ① 재정경제부장관은 이 법에 따른 권한의 일부를 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127515');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 금융위원회, 증권선물위원회, 관계 행정기관의 장, 한국은행총재, 금융감독원장, 외국환업무취급기관등의 장, 그 밖에 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127516');" href="javascript:;">대통령령</a>으로 정하는 자에게 위임하거나 위탁할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 제1항 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738053','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738055','JO','');" href="javascript:;">제6항</a>에 따른 업무를 담당하는 사람과 그 소속 임원 및 직원(공무원 및 다른 법률에서 공무원으로 보도록 하는 사람은 제외한다)은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031738051','ALLJO','');" href="javascript:;">「형법」</a>이나 그 밖의 법률에 따른 벌칙을 적용할 때에는 공무원으로 본다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J24:0" id="J24:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0024', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730239', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0024', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002400" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="24:0:002400:94730239" /> <span class="bl"><label for="Y002400"> 제24조(전자문서에 의한 허가 등) </label> </span> ① 재정경제부장관은 이 법에 따른 허가ㆍ인가ㆍ통지ㆍ통보를 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127517');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 전자문서(전산망 또는 전산처리설비를 이용한 자료의 제출을 포함한다. 이하 이 조에서 같다)의 방법으로 할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 이 법의 실효성을 확보하기 위하여 필요하다고 인정되는 경우에는 외국환업무취급기관등이나 그 밖에 이 법을 적용받는 거래 당사자 또는 관계인으로 하여금 신고, 신청, 보고, 자료의 통보 및 제출을 전자문서의 방법으로 하도록 명할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J25:0" id="J25:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0025', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730241', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:joDelegatePop('276137', '0025', '00', '010102');return false; " style="text-decoration: none;" title="위임행정규칙 팝업으로 이동"> <img src="images/button/btn_entrust3_2.gif" alt="위임행정규칙버튼" /> </a></li> 
+       <li><a href="javascript:;" onclick="javascript:openCtlInfoList('276137', '001525', '0025', '00');return false;" style="text-decoration: none;" title="관련규정 팝업으로 이동"> <img src="images/button/btn_entrust4_2.gif" alt="관련규제버튼" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002500" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="25:0:002500:94730241" /> <span class="bl"><label for="Y002500"> 제25조(사무처리 등) </label> </span> ① 재정경제부장관은 이 법의 효율적인 운영과 실효성 확보를 위하여 필요하다고 인정되는 경우에는 사무처리나 지급 또는 수령의 절차와 그 밖에 필요한 사항을 <a href="#AJAX" title="팝업으로 이동" class="delegatedAdmRul_link" onclick="javascript:joDelegatePop('276137','0025','00','010102','DEG','정할 수 있다','1197');">정할 수 있다</a>. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p>
+       <p class="pty1_de2_1">② 재정경제부장관은 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127518');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 외국환업무와 관련이 있거나 전문성을 갖춘 법인 또는 단체 중에서 하나 이상의 법인 또는 단체를 지정하여 외국환거래, 지급 또는 수령에 관한 자료를 중계ㆍ집중ㆍ교환 또는 분석하는 기관으로 운영할 수 있다. <span class="sfon">&lt;개정 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <div class="rule_area"> 
+        <div class="btn_rule"> 
+         <a href="javascript:viewDelegatedAdmRul('002500', '276137', '0025', '00', '010102')"><img id="delegatedAdmRul_img_002500" src="images/common/btn_rule_view.gif" title="위임행정규칙" alt="위임행정규칙" /></a> 
+        </div> 
+        <div id="delegated_002500" class="rule_box" style="display: none;"></div> 
+       </div> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J26:0" id="J26:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0026', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730243', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002600" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="26:0:002600:94730243" /> <span class="bl"><label for="Y002600"> 제26조(다른 법률과의 관계) </label> </span> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737681','JO','');" href="javascript:;">제11조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737683','JO','');" href="javascript:;">제5항</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737693','JO','');" href="javascript:;">제20조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737685','JO','');" href="javascript:;">제23조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737691','JO','');" href="javascript:;">제24조</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737687','JO','');" href="javascript:;">제25조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737689','JO','');" href="javascript:;">제2항</a>은 <a title="팝업으로 이동" class="link sfon1" onclick="javascript:fncLsLawPop('1031737677','ALLJO','');" href="javascript:;">「금융실명거래 및 비밀보장에 관한 법률」</a> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737679','JO','');" href="javascript:;">제4조</a>에 우선하여 적용된다. <span class="sfon">&lt;개정 2011. 4. 30.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="pjuk:94730245" id="pjuk:94730245"></a> 
+     <div class="pgroup" style="padding-bottom: 0px; margin-bottom: 5px;"> 
+      <p class="gtit" style="padding-top: 5px; margin-bottom: 0px;" data-joidfull="002700" data-joseq="94730245">         제6장 벌칙 <span class="sfon">&lt;개정 2009. 1. 30.&gt;</span> </p> 
+     </div> 
+     <a name="J27:0" id="J27:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0027', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730247', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002700" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="27:0:002700:94730247" /> <span class="bl"><label for="Y002700"> 제27조(벌칙) </label> </span> ① 다음 각 호의 어느 하나에 해당하는 자는 5년 이하의 징역 또는 5억원 이하의 벌금에 처한다. 다만, 위반행위의 목적물 가액(價額)의 3배가 5억원을 초과하는 경우에는 그 벌금을 목적물 가액의 3배 이하로 한다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737719','JO','');" href="javascript:;">제5조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737721','JO','');" href="javascript:;">제2항</a>을 위반하여 기준환율등에 따르지 아니하고 거래한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737705','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737707','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737709','JO','');" href="javascript:;">제1호</a>의 조치를 위반하여 지급 또는 수령이나 거래를 한 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737695','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737697','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737723','JO','');" href="javascript:;">제2호</a>의 조치에 따른 보관ㆍ예치 또는 매각 의무를 위반한 자 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737701','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737703','JO','');" href="javascript:;">제1항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031737699','JO','');" href="javascript:;">제3호</a>의 조치에 따른 회수의무를 위반한 자 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737715','JO','');" href="javascript:;">제6조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737717','JO','');" href="javascript:;">제2항</a>의 조치에 따른 허가를 받지 아니하거나, 거짓이나 그 밖의 부정한 방법으로 허가를 받고 자본거래를 한 자 또는 예치의무를 위반한 자 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737711','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737713','JO','');" href="javascript:;">제2항</a>을 위반하여 외국환업무를 한 자 </p> 
+       <p class="pty1_de2_1">② 제1항의 징역과 벌금은 병과(倂科)할 수 있다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J27:2" id="J27:2"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0027', '02' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730249', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002702" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="27:2:002702:94730249" /> <span class="bl"><label for="Y002702"> 제27조의2(벌칙) </label> </span> ① 다음 각 호의 어느 하나에 해당하는 자는 3년 이하의 징역 또는 3억원 이하의 벌금에 처한다. 다만, 위반행위의 목적물 가액의 3배가 3억원을 초과하는 경우에는 그 벌금을 목적물 가액의 3배 이하로 한다. </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737747','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737749','JO','');" href="javascript:;">제1항</a> 본문 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737805','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737807','JO','');" href="javascript:;">제3항</a>에 따른 등록을 하지 아니하거나, 거짓이나 그 밖의 부정한 방법으로 등록을 하고 외국환업무를 한 자(<a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737739','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737727','JO','');" href="javascript:;">제4항</a>에 따른 폐지신고를 거짓으로 하고 외국환업무를 한 자 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737733','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737735','JO','');" href="javascript:;">제1항</a>에 따른 처분을 위반하여 외국환업무를 한 자를 포함한다) </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737751','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737745','JO','');" href="javascript:;">제1항</a> 전단, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737801','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737803','JO','');" href="javascript:;">제3항</a> 또는 제5항에 따른 인가를 받지 아니하거나, 거짓이나 그 밖의 부정한 방법으로 인가를 받고 외국환중개업무를 한 자(<a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737725','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737737','JO','');" href="javascript:;">제3항</a>에 따른 신고를 거짓으로 하고 외국환중개업무를 한 자 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737729','JO','');" href="javascript:;">제12조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737731','JO','');" href="javascript:;">제1항</a>에 따른 처분을 위반하여 외국환중개업무를 한 자를 포함한다) </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737741','JO','');" href="javascript:;">제15조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737743','JO','');" href="javascript:;">제2항</a>에 따른 허가를 받지 아니하거나, 거짓이나 그 밖의 부정한 방법으로 허가를 받고 지급 또는 수령을 한 자 </p> 
+       <p class="pty1_de2_1">② 제1항의 징역과 벌금은 병과할 수 있다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[본조신설 2017. 1. 17.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J28:0" id="J28:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0028', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730251', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002800" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="28:0:002800:94730251" /> <span class="bl"><label for="Y002800"> 제28조(벌칙) </label> </span> ① <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737753','JO','');" href="javascript:;">제22조</a>를 위반하여 정보를 이 법에서 정하는 용도가 아닌 용도로 사용하거나 다른 사람에게 누설한 사람은 2년 이하의 징역 또는 2억원 이하의 벌금에 처한다. </p>
+       <p class="pty1_de2_1">② 제1항의 징역과 벌금은 병과할 수 있다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J29:0" id="J29:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0029', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730253', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y002900" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="29:0:002900:94730253" /> <span class="bl"><label for="Y002900"> 제29조(벌칙) </label> </span> ① 다음 각 호의 어느 하나에 해당하는 자는 1년 이하의 징역 또는 1억원 이하의 벌금에 처한다. 다만, 위반행위의 목적물 가액의 3배가 1억원을 초과하는 경우에는 그 벌금을 목적물 가액의 3배 이하로 한다. <span class="sfon">&lt;개정 2016. 3. 2., 2017. 1. 17.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737767','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737769','JO','');" href="javascript:;">제5항</a>에 따른 인가를 받지 아니하거나, 거짓이나 그 밖의 부정한 방법으로 인가를 받고 계약을 체결한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737755','JO','');" href="javascript:;">제10조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737775','JO','');" href="javascript:;">제1항</a>을 위반하여 확인하지 아니한 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737771','JO','');" href="javascript:;">제16조</a> 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737773','JO','');" href="javascript:;">제18조</a>에 따른 신고의무를 위반한 금액이 5억원 이상의 범위에서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127519');" href="javascript:;">대통령령</a>으로 정하는 금액을 초과하는 자 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737761','JO','');" href="javascript:;">제17조</a>에 따른 신고를 하지 아니하거나 거짓으로 신고를 하고 지급수단 또는 증권을 수출하거나 수입한 자(<a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737761','JO','');" href="javascript:;">제17조</a>에 따른 신고의무를 위반한 금액이 미화 2만달러 이상의 범위에서 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127520');" href="javascript:;">대통령령</a>으로 정하는 금액을 초과하는 경우로 한정한다) </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737757','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737759','JO','');" href="javascript:;">제2항</a>에 따른 거래 또는 행위의 정지ㆍ제한을 위반하여 거래 또는 행위를 한 자 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737763','JO','');" href="javascript:;">제32조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737765','JO','');" href="javascript:;">제1항</a>에 따른 과태료 처분을 받은 자가 해당 처분을 받은 날부터 2년 이내에 다시 같은 항에 따른 위반행위를 한 경우 </p> 
+       <p class="pty1_de2_1">② 제1항제4호의 미수범은 처벌한다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2_1">③ 제1항의 징역과 벌금은 병과할 수 있다. </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J30:0" id="J30:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0030', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730255', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003000" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="30:0:003000:94730255" /> <span class="bl"><label for="Y003000"> 제30조(몰수ㆍ추징) </label> </span> <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737787','JO','');" href="javascript:;">제27조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737781','JO','');" href="javascript:;">제1항</a> 각 호, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737783','JO','');" href="javascript:;">제27조의2</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737785','JO','');" href="javascript:;">제1항</a> 각 호 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737777','JO','');" href="javascript:;">제29조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031737779','JO','');" href="javascript:;">제1항</a> 각 호의 어느 하나에 해당하는 자가 해당 행위를 하여 취득한 외국환이나 그 밖에 증권, 귀금속, 부동산 및 내국지급수단은 몰수하며, 몰수할 수 없는 경우에는 그 가액을 추징한다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J31:0" id="J31:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0031', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730257', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003100" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="31:0:003100:94730257" /> <span class="bl"><label for="Y003100"> 제31조(양벌규정) </label> </span> 법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 재산 또는 업무에 관하여 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737793','JO','');" href="javascript:;">제27조</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737789','JO','');" href="javascript:;">제27조의2</a>, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737795','JO','');" href="javascript:;">제28조</a> 및 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031737791','JO','');" href="javascript:;">제29조</a>의 어느 하나에 해당하는 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 재산 또는 업무에 관하여 상당한 주의와 감독을 게을리하지 아니한 경우에는 그러하지 아니하다. <span class="sfon">&lt;개정 2017. 1. 17.&gt;</span> </p>
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <a name="J32:0" id="J32:0"></a> 
+     <div class="pgroup"> 
+      <ul class="lawico01"> 
+       <li><a title="조문체계도 팝업으로 이동" style="text-decoration: none;" onclick="javascript:joStmdPop('276137', '0032', '00' );return false; " href="#AJAX"> <img alt="조문체계도버튼" src="/LSW/images/button/btn_jostmdico.gif" /> </a></li> 
+       <li><a title="연혁 팝업으로 이동" style="text-decoration: none;" onclick="javascript:fJoHstShow(this, '001525', '276137', '94730259', '010202');return false;" href="#AJAX"> <img alt="연혁" src="/LSW/images/button/btn_year3.gif" /> </a></li> 
+      </ul> 
+      <div class="lawcon"> 
+       <p class="pty1_p4"> <input name="joNoList" id="Y003200" style="vertical-align: middle;" onclick="javascript:getJoSelectLayer(this,'');" type="checkbox" value="32:0:003200:94730259" /> <span class="bl"><label for="Y003200"> 제32조(과태료) </label> </span> ① 다음 각 호의 어느 하나에 해당하는 자에게는 1억원 이하의 과태료를 부과한다. 다만, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738143','JO','');" href="javascript:;">제29조</a>에 해당하는 경우는 제외한다. <span class="sfon">&lt;개정 2011. 4. 30., 2016. 3. 2., 2017. 1. 17., 2025. 3. 18.&gt;</span> </p>
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738079','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738081','JO','');" href="javascript:;">제4항</a>에 따른 변경신고를 하지 아니하거나 거짓으로 변경신고를 하고 외국환업무를 한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738109','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738111','JO','');" href="javascript:;">제1항</a> 후단에 따른 변경신고를 하지 아니하거나 거짓으로 변경신고를 하고 외국환중개업무를 한 자 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738087','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738089','JO','');" href="javascript:;">제2항</a>을 위반하여 외국환중개업무를 한 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738069','JO','');" href="javascript:;">제16조</a>에 따른 신고를 하지 아니하거나 거짓으로 신고를 하고 지급 또는 수령을 한 자 </p> 
+       <p class="pty1_de2h">3의2. 삭제 <span class="sfon">&lt;2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738065','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738067','JO','');" href="javascript:;">제1항</a>에 따른 신고를 하지 아니하거나 거짓으로 신고를 하고 자본거래를 한 자 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738145','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738147','JO','');" href="javascript:;">제5항</a>을 위반하여 신고수리가 거부되었음에도 그 신고에 해당하는 자본거래를 한 자 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738091','JO','');" href="javascript:;">제18조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738093','JO','');" href="javascript:;">제6항</a>을 위반하여 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738137','JO','');" href="javascript:;">같은 조</a> <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738139','JO','');" href="javascript:;">제4항</a><a title="팝업으로 이동" class="link sfon4" onclick="javascript:fncLsLawPop('1031738141','JO','');" href="javascript:;">제3호</a>의 권고내용과 달리 자본거래를 한 자 </p> 
+       <p class="pty1_de2_1">② 다음 각 호의 어느 하나에 해당하는 자에게는 5천만원 이하의 과태료를 부과한다. 다만, <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738095','JO','');" href="javascript:;">제29조</a>에 해당하는 경우는 제외한다. <span class="sfon">&lt;신설 2017. 1. 17.&gt;</span> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738071','JO','');" href="javascript:;">제11조의3</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738073','JO','');" href="javascript:;">제5항</a>에 따른 자료를 제출하지 아니하거나 거짓으로 제출한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738057','JO','');" href="javascript:;">제15조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738059','JO','');" href="javascript:;">제1항</a>에 따른 지급절차 등을 위반하여 지급ㆍ수령을 하거나 자금을 이동시킨 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738119','JO','');" href="javascript:;">제17조</a>에 따른 신고를 하지 아니하거나 거짓으로 신고를 하고 지급수단 또는 증권을 수출입하거나 수출입하려 한 자 </p> 
+       <p class="pty1_de2_1">③ 다음 각 호의 어느 하나에 해당하는 자에게는 3천만원 이하의 과태료를 부과한다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738083','JO','');" href="javascript:;">제16조</a> 또는 <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738085','JO','');" href="javascript:;">제18조</a>를 위반하여 신고를 갈음하는 사후 보고를 하지 아니하거나 거짓으로 사후 보고를 한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738103','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738105','JO','');" href="javascript:;">제3항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738107','JO','');" href="javascript:;">제6항</a>에 따른 검사에 응하지 아니하거나 검사를 거부ㆍ방해 또는 기피한 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738131','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738133','JO','');" href="javascript:;">제5항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738135','JO','');" href="javascript:;">제6항</a>에 따른 시정명령에 따르지 아니한 자 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738101','JO','');" href="javascript:;">제21조</a>에 따른 재정경제부장관의 명령을 위반하여 통보 또는 제공을 하지 아니하거나 거짓으로 통보 또는 제공한 자 </p> 
+       <p class="pty1_de2_1">④ 다음 각 호의 어느 하나에 해당하는 자에게는 1천만원 이하의 과태료를 부과한다. <span class="sfon">&lt;신설 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2h">1. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738097','JO','');" href="javascript:;">제8조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738099','JO','');" href="javascript:;">제4항</a>에 따른 폐지신고를 하지 아니한 자 </p> 
+       <p class="pty1_de2h">2. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738075','JO','');" href="javascript:;">제9조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738077','JO','');" href="javascript:;">제3항</a>에 따른 신고를 하지 아니한 자 </p> 
+       <p class="pty1_de2h">3. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738061','JO','');" href="javascript:;">제19조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738063','JO','');" href="javascript:;">제1항</a>에 따른 경고를 받고 2년 이내에 경고 사유에 해당하는 위반행위를 한 자 </p> 
+       <p class="pty1_de2h">4. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738125','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738127','JO','');" href="javascript:;">제1항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738129','JO','');" href="javascript:;">제2항</a>에 따른 보고 또는 자료 제출을 하지 아니하거나 거짓으로 보고 또는 자료 제출을 한 자 </p> 
+       <p class="pty1_de2h">5. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738113','JO','');" href="javascript:;">제20조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738115','JO','');" href="javascript:;">제4항</a> 또는 <a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738117','JO','');" href="javascript:;">제6항</a>에 따른 자료를 제출하지 아니하거나 거짓으로 자료 제출을 한 자 </p> 
+       <p class="pty1_de2h">6. <a title="팝업으로 이동" class="link sfon2" onclick="javascript:fncLsLawPop('1031738121','JO','');" href="javascript:;">제24조</a><a title="팝업으로 이동" class="link sfon3" onclick="javascript:fncLsLawPop('1031738123','JO','');" href="javascript:;">제2항</a>에 따른 재정경제부장관의 명령을 위반하여 신고, 신청, 보고, 자료의 통보 및 제출을 전자문서의 방법으로 하지 아니한 자 </p> 
+       <p class="pty1_de2_1">⑤ 제1항부터 제4항까지의 규정에 따른 과태료는 <a title="팝업으로 이동" class="link" onclick="javascript:fncLsPttnLinkPop('127521');" href="javascript:;">대통령령</a>으로 정하는 바에 따라 재정경제부장관이 부과ㆍ징수한다. <span class="sfon">&lt;개정 2017. 1. 17., 2025. 10. 1.&gt;</span> </p> 
+       <p class="pty1_de2"> <span class="sfon">[전문개정 2009. 1. 30.]</span> </p> 
+       <p></p> 
+      </div> 
+     </div> 
+     <!-- 조문정보 --> 
+     <!-- 부칙 영역 끝 --> 
+     <br /> 
+     <div id="arDivArea"> 
+      <a name="arArea"></a> 
+      <a name="J12021647" id="J12021647"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021647','<법률 제5550호, 1998. 9. 16.>'); return false;" href="#AJAX"> <img id="ar12021647btn" style="vertical-align: middle;" alt="부칙 <법률 제5550호, 1998. 9. 16.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021647" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제5550호, 1998. 9. 16.>체크박스 " value="12021647" /> <a class="nun" onclick="javascript:arView('ar12021647','<법률 제5550호, 1998. 9. 16.>'); return false;" href="#AJAX"> <label for="chk12021647"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제5550호, 1998. 9. 16.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12021647','<법률 제5550호, 1998. 9. 16.>');return false;" href="#AJAX"> <img id="ar12021647MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제5550호, 1998. 9. 16.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조 (시행일)</span> 이 법은 1999년 4월 1일부터 시행한다.</p>
+       <div id="ar12021647">
+        <p class="pty3_dep1"><span class="bl">제2조 (자본거래 허가제 등의 적용시한)</span> 제18조제2항 및 제3항의 규정은 2005년 12월 31일까지 효력을 가진다. <span class="sfon">&lt;개정 2000. 10. 23.&gt;</span></p>
+        <p class="pty3_dep1"><span class="bl">제3조 (폐지법률)</span> 외국환관리법은 이를 폐지한다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조 (인가등에 관한 경과조치)</span> 이 법 시행전에 종전의 외국환관리법의 규정에 의하여 인가ㆍ허가를 받았거나 신고ㆍ등록등을 한 경우(인가를 받은 것으로 보는 경우를 포함한다)에는 이 법에 의하여 인가ㆍ허가를 받았거나 신고ㆍ등록 등을 한 것으로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제5조 (벌칙등에 관한 경과조치)</span> 이 법 시행전의 행위에 대한 벌칙 및 과태료의 적용에 있어서는 종전의 외국환관리법의 규정에 의한다.</p>
+        <p class="pty3_dep1"><span class="bl">제6조 (다른 법령과의 관계)</span> 이 법 시행당시 다른 법령에서 종전의 외국환관리법 또는 그 규정을 인용하고 있는 경우 이 법중 그에 해당하는 규정이 있는 때에는 종전의 규정에 갈음하여 이 법 또는 이 법의 해당규정을 인용한 것으로 본다. 이 경우 종전의 외국환관리법에 의한 외국환은행 또는 외국환업무지정기관은 외국환업무취급기관으로, 환전상은 환전영업자로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12021649" id="J12021649"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12021649btn" style="vertical-align: middle;" alt="부칙<법률 제6277호, 2000. 10. 23.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12021649" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제6277호, 2000. 10. 23.>체크박스 " value="12021649" /> <a class="nun" onclick="javascript:arView('ar12021649','<법률 제6277호, 2000. 10. 23.>'); return false;" href="#AJAX"> <label for="chk12021649"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제6277호, 2000. 10. 23.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">①(시행일) 이 법은 2001년 1월 1일부터 시행하되, 부칙 제2조의 개정규정은 2000년 12월 31일부터 시행한다.</p>
+       <p class="pty3_dep1">②(벌칙에 관한 경과조치) 이 법 시행전의 행위에 대한 벌칙의 적용에 있어서는 종전의 규정에 의한다.</p> 
+      </div> 
+      <a name="J12021651" id="J12021651"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021651','<법률 제6316호, 2000. 12. 29.>'); return false;" href="#AJAX"> <img id="ar12021651btn" style="vertical-align: middle;" alt="부칙 <법률 제6316호, 2000. 12. 29.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021651" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제6316호, 2000. 12. 29.>체크박스 " value="12021651" /> <a class="nun" onclick="javascript:arView('ar12021651','<법률 제6316호, 2000. 12. 29.>'); return false;" href="#AJAX"> <label for="chk12021651"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제6316호, 2000. 12. 29.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('대외무역법', '20001229', '06316');" href="#AJAX"> <span class="sfon">(대외무역법) </span> </a> <a class="nun" onclick="javascript:arView('ar12021651','<법률 제6316호, 2000. 12. 29.>');return false;" href="#AJAX"> <img id="ar12021651MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제6316호, 2000. 12. 29.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조 (시행일)</span> 이 법은 공포후 3월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021651">
+        <p class="pty3_dep1"><span class="bl">제2조 (다른 법률의 개정)</span> ①내지 ⑤생략</p>
+        <p class="pty3_dep2"> ⑥외국환거래법중 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제15조제2항제2호중 “물품”을 “물품등”으로 한다.</p>
+        <p class="pty3_dep2"> ⑦생략</p>
+       </div> 
+      </div> 
+      <a name="J12021653" id="J12021653"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12021653btn" style="vertical-align: middle;" alt="부칙<법률 제7716호, 2005. 12. 14.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12021653" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제7716호, 2005. 12. 14.>체크박스 " value="12021653" /> <a class="nun" onclick="javascript:arView('ar12021653','<법률 제7716호, 2005. 12. 14.>'); return false;" href="#AJAX"> <label for="chk12021653"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제7716호, 2005. 12. 14.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12021655" id="J12021655"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021655','<법률 제8050호, 2006. 10. 4.>'); return false;" href="#AJAX"> <img id="ar12021655btn" style="vertical-align: middle;" alt="부칙 <법률 제8050호, 2006. 10. 4.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021655" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8050호, 2006. 10. 4.>체크박스 " value="12021655" /> <a class="nun" onclick="javascript:arView('ar12021655','<법률 제8050호, 2006. 10. 4.>'); return false;" href="#AJAX"> <label for="chk12021655"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8050호, 2006. 10. 4.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국가재정법', '20061004', '08050');" href="#AJAX"> <span class="sfon">(국가재정법) </span> </a> <a class="nun" onclick="javascript:arView('ar12021655','<법률 제8050호, 2006. 10. 4.>');return false;" href="#AJAX"> <img id="ar12021655MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제8050호, 2006. 10. 4.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조 (시행일)</span> 이 법은 2007년 1월 1일부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021655">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 내지 제10조 생략</p>
+        <p class="pty3_dep1"><span class="bl">제11조 (다른 법률의 개정)</span> ①내지 ㊷생략</p>
+        <p class="pty3_dep2"> ㊸외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제13조제1항 중 “예산회계법 제7조”를 “「국가재정법」 제5조”로 한다.</p>
+        <p class="pty3_dep2"> 제14조제1항 중 “예산회계법 제47조제2항”을 “「국가재정법」 제90조제5항”으로 한다.</p>
+        <p class="pty3_dep2"> ㊹내지 &lt;59&gt;생략</p>
+        <p class="pty3_dep1"><span class="bl">제12조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021657" id="J12021657"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12021657btn" style="vertical-align: middle;" alt="부칙<법률 제8266호, 2007. 1. 26.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12021657" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8266호, 2007. 1. 26.>체크박스 " value="12021657" /> <a class="nun" onclick="javascript:arView('ar12021657','<법률 제8266호, 2007. 1. 26.>'); return false;" href="#AJAX"> <label for="chk12021657"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8266호, 2007. 1. 26.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12021659" id="J12021659"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021659','<법률 제8635호, 2007. 8. 3.>'); return false;" href="#AJAX"> <img id="ar12021659btn" style="vertical-align: middle;" alt="부칙 <법률 제8635호, 2007. 8. 3.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021659" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8635호, 2007. 8. 3.>체크박스 " value="12021659" /> <a class="nun" onclick="javascript:arView('ar12021659','<법률 제8635호, 2007. 8. 3.>'); return false;" href="#AJAX"> <label for="chk12021659"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8635호, 2007. 8. 3.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('자본시장과 금융투자업에 관한 법률', '20070803', '08635');" href="#AJAX"> <span class="sfon">(자본시장과 금융투자업에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021659','<법률 제8635호, 2007. 8. 3.>');return false;" href="#AJAX"> <img id="ar12021659MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제8635호, 2007. 8. 3.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조 (시행일)</span> 이 법은 공포 후 1년 6개월이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021659">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제41조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제42조 (다른 법률의 개정)</span> ① 부터 ㉒ 까지 생략</p>
+        <p class="pty3_dep2"> ㉓ 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제18조제3항제2호 중 “선물거래법에 의한 선물업자”를 “「자본시장과 금융투자업에 관한 법률」에 따른 투자매매업자ㆍ투자중개업자”로 하고, 같은 항 제4호 중 “증권거래법에 의한 증권회사 또는 증권투자신탁업법에 의한 위탁회사”를 “「자본시장과 금융투자업에 관한 법률」에 따른 투자매매업자ㆍ투자중개업자 또는 집합투자업자”로 한다.</p>
+        <p class="pty3_dep2"> ㉔ 부터 &lt;67&gt; 까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제43조</span> 및 제44조 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021661" id="J12021661"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021661','<법률 제8863호, 2008. 2. 29.>'); return false;" href="#AJAX"> <img id="ar12021661btn" style="vertical-align: middle;" alt="부칙 <법률 제8863호, 2008. 2. 29.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021661" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제8863호, 2008. 2. 29.>체크박스 " value="12021661" /> <a class="nun" onclick="javascript:arView('ar12021661','<법률 제8863호, 2008. 2. 29.>'); return false;" href="#AJAX"> <label for="chk12021661"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제8863호, 2008. 2. 29.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('금융위원회의 설치 등에 관한 법률', '20080229', '08863');" href="#AJAX"> <span class="sfon">(금융위원회의 설치 등에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021661','<법률 제8863호, 2008. 2. 29.>');return false;" href="#AJAX"> <img id="ar12021661MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제8863호, 2008. 2. 29.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다.</p>
+       <div id="ar12021661">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제4조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제5조(다른 법률의 개정)</span> ① 부터 ⑰ 까지 생략</p>
+        <p class="pty3_dep2"> ⑱ 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제1항제15호 중 “금융감독기구의설치등에관한법률”을 “금융위원회의 설치 등에 관한 법률”로 한다.</p>
+        <p class="pty3_dep2"> 제4조제1항ㆍ제2항, 제5조제1항ㆍ제2항, 제6조제1항 각 호 외의 부분, 같은 조 제2항 각 호 외의 부분, 제7조제1항, 제8조제1항, 같은 조 제3항부터 제5항까지, 제9조제1항부터 제4항까지, 제10조 본문, 제11조제1항ㆍ제2항, 제13조제6항ㆍ제7항, 같은 조 제9항 전단ㆍ후단, 제15조제1항 각 호 외의 부분, 제16조 각 호 외의 부분 본문ㆍ단서, 같은 조 제2호, 제17조, 제18조제1항 본문ㆍ단서, 같은 조 제2항 각 호 외의 부분, 같은 조 제3항제1호ㆍ제5호, 같은 조 제4항, 같은 조 제5항 각 호 외의 부분, 같은 조 제6항ㆍ제8항, 제20조제1항부터 제6항까지, 제21조 각 호 외의 부분, 같은 조 제5호, 제23조제1항, 제24조제1항ㆍ제2항, 제25조제1항ㆍ제2항, 제32조제1항제6호ㆍ제7호 및 같은 조 제2항부터 제4항까지 중 “재정경제부장관”을 각각 “기획재정부장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제12조제1항, 같은 조 제2항 본문, 같은 항 제8호ㆍ제9호, 같은 조 제3항, 제19조제1항 각 호 외의 부분 및 제2항 각 호 외의 부분 중 “재정경제부장관”을 각각 “기획재정부장관”으로 한다.</p>
+        <p class="pty3_dep2"> 제23조제1항 중 “금융감독위원회”를 “금융위원회”로 한다.</p>
+        <p class="pty3_dep2"> ⑲ 부터 &lt;85&gt; 까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021663" id="J12021663"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12021663btn" style="vertical-align: middle;" alt="부칙<법률 제9351호, 2009. 1. 30.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12021663" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제9351호, 2009. 1. 30.>체크박스 " value="12021663" /> <a class="nun" onclick="javascript:arView('ar12021663','<법률 제9351호, 2009. 1. 30.>'); return false;" href="#AJAX"> <label for="chk12021663"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제9351호, 2009. 1. 30.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">①(시행일) 이 법은 2009년 2월 4일부터 시행한다.</p>
+       <p class="pty3_dep1">②(과징금 부과에 관한 적용례) 제12조의2의 개정규정은 이 법 시행 후 최초로 제12조제1항 각 호의 어느 하나에 해당하는 행위를 하는 자부터 적용한다.</p>
+       <p class="pty3_dep1">③(벌칙 등에 관한 경과조치) 이 법 시행 전의 행위에 대한 처분, 벌칙 및 과태료의 적용은 종전의 규정에 따른다.</p> 
+      </div> 
+      <a name="J12021665" id="J12021665"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021665','<법률 제9374호,  2009. 1. 30.>'); return false;" href="#AJAX"> <img id="ar12021665btn" style="vertical-align: middle;" alt="부칙 <법률 제9374호,  2009. 1. 30.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021665" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제9374호,  2009. 1. 30.>체크박스 " value="12021665" /> <a class="nun" onclick="javascript:arView('ar12021665','<법률 제9374호,  2009. 1. 30.>'); return false;" href="#AJAX"> <label for="chk12021665"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제9374호, 2009. 1. 30.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('외국인투자 촉진법', '20090130', '09374');" href="#AJAX"> <span class="sfon">(외국인투자 촉진법) </span> </a> <a class="nun" onclick="javascript:arView('ar12021665','<법률 제9374호,  2009. 1. 30.>');return false;" href="#AJAX"> <img id="ar12021665MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제9374호,  2009. 1. 30.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021665">
+        <p class="pty3_dep1"><span class="bl">제2조(다른 법률의 개정)</span> ① 생략</p>
+        <p class="pty3_dep2"> ② 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제4항 중 “「외국인투자촉진법」 제2조제4호”를 “「외국인투자 촉진법」 제2조제1항제4호”로 한다.</p>
+        <p class="pty3_dep2"> ③ 및 ④ 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021667" id="J12021667"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021667','<법률 제9617호,  2009. 4. 1.>'); return false;" href="#AJAX"> <img id="ar12021667btn" style="vertical-align: middle;" alt="부칙 <법률 제9617호,  2009. 4. 1.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021667" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제9617호,  2009. 4. 1.>체크박스 " value="12021667" /> <a class="nun" onclick="javascript:arView('ar12021667','<법률 제9617호,  2009. 4. 1.>'); return false;" href="#AJAX"> <label for="chk12021667"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제9617호, 2009. 4. 1.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('신용정보의 이용 및 보호에 관한 법률', '20090401', '09617');" href="#AJAX"> <span class="sfon">(신용정보의 이용 및 보호에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021667','<법률 제9617호,  2009. 4. 1.>');return false;" href="#AJAX"> <img id="ar12021667MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제9617호,  2009. 4. 1.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021667">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제11조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제12조(다른 법률의 개정)</span> ① 부터 ⑯ 까지 생략</p>
+        <p class="pty3_dep2"> ⑰ 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제21조제2항 중 “「신용정보의 이용 및 보호에 관한 법률」 제17조에 따른”을 “「신용정보의 이용 및 보호에 관한 법률」 제25조에 따른”으로 한다.</p>
+        <p class="pty3_dep2"> ⑱ 부터 ㉔ 까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제13조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021669" id="J12021669"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <img id="ar12021669btn" style="vertical-align: middle;" alt="부칙<법률 제10618호, 2011. 4. 30.>조문목록 없음" src="/LSW/images/button/btn_dot.gif" /> <input name="arInf" id="chk12021669" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제10618호, 2011. 4. 30.>체크박스 " value="12021669" /> <a class="nun" onclick="javascript:arView('ar12021669','<법률 제10618호, 2011. 4. 30.>'); return false;" href="#AJAX"> <label for="chk12021669"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제10618호, 2011. 4. 30.&gt;</span> </a> </p> 
+       <p class="pty3_dep1">이 법은 공포 후 3개월이 경과한 날부터 시행한다.</p> 
+      </div> 
+      <a name="J12021671" id="J12021671"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021671','<법률 제11407호,  2012. 3. 21.>'); return false;" href="#AJAX"> <img id="ar12021671btn" style="vertical-align: middle;" alt="부칙 <법률 제11407호,  2012. 3. 21.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021671" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제11407호,  2012. 3. 21.>체크박스 " value="12021671" /> <a class="nun" onclick="javascript:arView('ar12021671','<법률 제11407호,  2012. 3. 21.>'); return false;" href="#AJAX"> <label for="chk12021671"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제11407호, 2012. 3. 21.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('금융위원회의 설치 등에 관한 법률', '20120321', '11407');" href="#AJAX"> <span class="sfon">(금융위원회의 설치 등에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021671','<법률 제11407호,  2012. 3. 21.>');return false;" href="#AJAX"> <img id="ar12021671MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제11407호,  2012. 3. 21.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021671">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 생략</p>
+        <p class="pty3_dep1"><span class="bl">제3조(다른 법률의 개정)</span> ① 생략</p>
+        <p class="pty3_dep2"> ② 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제3조제1항제17호 중 “「금융위원회의 설치 등에 관한 법률」 제38조(제14호 및 제15호는 제외한다)”를 “「금융위원회의 설치 등에 관한 법률」 제38조(제9호 및 제10호는 제외한다)”로 한다.</p>
+        <p class="pty3_dep2"> ③ 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021673" id="J12021673"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021673','<법률 제14047호, 2016. 3. 2.>'); return false;" href="#AJAX"> <img id="ar12021673btn" style="vertical-align: middle;" alt="부칙 <법률 제14047호, 2016. 3. 2.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021673" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제14047호, 2016. 3. 2.>체크박스 " value="12021673" /> <a class="nun" onclick="javascript:arView('ar12021673','<법률 제14047호, 2016. 3. 2.>'); return false;" href="#AJAX"> <label for="chk12021673"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제14047호, 2016. 3. 2.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12021673','<법률 제14047호, 2016. 3. 2.>');return false;" href="#AJAX"> <img id="ar12021673MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제14047호, 2016. 3. 2.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 3개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021673">
+        <p class="pty3_dep1"><span class="bl">제2조(벌칙의 과태료 전환에 관한 경과조치)</span> 이 법 시행 전의 행위에 대하여 벌칙 및 과태료를 적용할 때에는 제29조제1항제7호 및 제32조제1항제3호의2의 개정규정에도 불구하고 종전의 규정에 따른다.</p>
+       </div> 
+      </div> 
+      <a name="J12021675" id="J12021675"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021675','<법률 제14525호, 2017. 1. 17.>'); return false;" href="#AJAX"> <img id="ar12021675btn" style="vertical-align: middle;" alt="부칙 <법률 제14525호, 2017. 1. 17.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021675" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제14525호, 2017. 1. 17.>체크박스 " value="12021675" /> <a class="nun" onclick="javascript:arView('ar12021675','<법률 제14525호, 2017. 1. 17.>'); return false;" href="#AJAX"> <label for="chk12021675"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제14525호, 2017. 1. 17.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12021675','<법률 제14525호, 2017. 1. 17.>');return false;" href="#AJAX"> <img id="ar12021675MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제14525호, 2017. 1. 17.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021675">
+        <p class="pty3_dep1"><span class="bl">제2조(채권의 회수의무 부과 조치 등에 관한 적용례)</span> 제6조제1항제3호, 같은 조 제5항 및 제7조의 개정규정은 이 법 시행 전에 발생한 채권에 대해서도 적용한다.</p>
+        <p class="pty3_dep1"><span class="bl">제3조(업무의 제한 등에 관한 적용례)</span> 제12조제1항제5호의2의 개정규정은 이 법 시행 이후 발생한 위반행위부터 적용한다.</p>
+        <p class="pty3_dep1"><span class="bl">제4조(등록 등의 취소에 관한 적용례)</span> 제12조제4항의 개정규정은 이 법 시행 이후 등록 또는 인가가 취소된 경우부터 적용한다.</p>
+        <p class="pty3_dep1"><span class="bl">제5조(환전업무의 등록에 관한 경과조치)</span> ① 이 법 시행 당시 종전의 제8조제3항에 따라 환전업무를 등록한 금융회사등은 제8조제1항에 따라 외국환업무를 등록한 것으로 본다.</p>
+        <p class="pty3_dep2"> ② 이 법 시행 당시 종전의 제8조제3항에 따라 환전업무를 등록한 자로서 금융회사등이 아닌 자는 제8조제3항제1호의 개정규정에 한정하여 외국환업무를 등록한 것으로 본다.</p>
+        <p class="pty3_dep1"><span class="bl">제6조(행정처분 기준적용에 관한 경과조치)</span> ① 이 법 시행 전의 제15조부터 제18조까지의 규정에 따른 신고등의 의무위반행위에 대하여 행정처분을 할 때에는 제19조제2항의 개정규정에도 불구하고 종전의 규정에 따른다.</p>
+        <p class="pty3_dep2"> ② 이 법 시행 전의 제15조부터 제18조까지의 규정에 따른 신고등의 의무위반행위는 제19조제2항의 개정규정에도 불구하고 이 법 시행 이후의 의무위반행위부터 과거 2년 이내에 한 경우에 한정하여 제19조제2항의 개정규정에 따른 의무위반행위의 횟수 산정에 포함한다.</p>
+        <p class="pty3_dep1"><span class="bl">제7조(벌칙 및 과태료에 관한 경과조치)</span> 이 법 시행 전의 위반행위에 대하여 벌칙 및 과태료를 적용할 때에는 종전의 규정에 따른다.</p>
+        <p class="pty3_dep1"><span class="bl">제8조(다른 법률의 개정)</span> 관광진흥법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제18조제1항제4호를 다음과 같이 한다.</p>
+        <p class="pty3_dep2"> 4. 「외국환거래법」 제8조제3항제1호에 따른 외국환업무의 등록</p>
+       </div> 
+      </div> 
+      <a name="J12021677" id="J12021677"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021677','<법률 제17112호,  2020. 3. 24.>'); return false;" href="#AJAX"> <img id="ar12021677btn" style="vertical-align: middle;" alt="부칙 <법률 제17112호,  2020. 3. 24.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021677" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제17112호,  2020. 3. 24.>체크박스 " value="12021677" /> <a class="nun" onclick="javascript:arView('ar12021677','<법률 제17112호,  2020. 3. 24.>'); return false;" href="#AJAX"> <label for="chk12021677"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제17112호, 2020. 3. 24.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('금융소비자 보호에 관한 법률', '20200324', '17112');" href="#AJAX"> <span class="sfon">(금융소비자 보호에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021677','<법률 제17112호,  2020. 3. 24.>');return false;" href="#AJAX"> <img id="ar12021677MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제17112호,  2020. 3. 24.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 1년이 경과한 날부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021677">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제12조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제13조(다른 법률의 개정)</span> ①부터 ⑬까지 생략</p>
+        <p class="pty3_dep2"> ⑭ 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제9조제6항 본문 중 “「자본시장과 금융투자업에 관한 법률」”을 “「자본시장과 금융투자업에 관한 법률」 및 「금융소비자 보호에 관한 법률」”로 하고, 같은 항 단서 중 “같은 법 제37조”를 “「자본시장과 금융투자업에 관한 법률」 제37조”로 한다.</p>
+        <p class="pty3_dep2"> ⑮부터 ⑲까지 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021679" id="J12021679"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021679','<법률 제17651호,  2020. 12. 22.>'); return false;" href="#AJAX"> <img id="ar12021679btn" style="vertical-align: middle;" alt="부칙 <법률 제17651호,  2020. 12. 22.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021679" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제17651호,  2020. 12. 22.>체크박스 " value="12021679" /> <a class="nun" onclick="javascript:arView('ar12021679','<법률 제17651호,  2020. 12. 22.>'); return false;" href="#AJAX"> <label for="chk12021679"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제17651호, 2020. 12. 22.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('국제조세조정에 관한 법률', '20201222', '17651');" href="#AJAX"> <span class="sfon">(국제조세조정에 관한 법률) </span> </a> <a class="nun" onclick="javascript:arView('ar12021679','<법률 제17651호,  2020. 12. 22.>');return false;" href="#AJAX"> <img id="ar12021679MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제17651호,  2020. 12. 22.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 2021년 1월 1일부터 시행한다. &lt;단서 생략&gt;</p>
+       <div id="ar12021679">
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제30조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제31조(다른 법률의 개정)</span> ① 생략</p>
+        <p class="pty3_dep2"> ② 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제6조제5항 전단 중 “「국제조세조정에 관한 법률」 제34조”를 “「국제조세조정에 관한 법률」 제52조제3호”로 한다.</p>
+        <p class="pty3_dep2"> ③부터 ⑦까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제32조</span> 생략</p>
+       </div> 
+      </div> 
+      <a name="J12021681" id="J12021681"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021681','<법률 제18244호,  2021. 6. 15.>'); return false;" href="#AJAX"> <img id="ar12021681btn" style="vertical-align: middle;" alt="부칙 <법률 제18244호,  2021. 6. 15.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021681" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제18244호,  2021. 6. 15.>체크박스 " value="12021681" /> <a class="nun" onclick="javascript:arView('ar12021681','<법률 제18244호,  2021. 6. 15.>'); return false;" href="#AJAX"> <label for="chk12021681"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제18244호, 2021. 6. 15.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12021681','<법률 제18244호,  2021. 6. 15.>');return false;" href="#AJAX"> <img id="ar12021681MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제18244호,  2021. 6. 15.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 3개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021681">
+        <p class="pty3_dep1"><span class="bl">제2조(위탁기관의 손해배상책임에 관한 적용례)</span> 제10조의2제2항의 개정규정은 수탁기관이 위탁받은 업무와 관련한 법률의 규정을 이 법 시행 이후 위반한 경우부터 적용한다.</p>
+       </div> 
+      </div> 
+      <a name="J12021683" id="J12021683"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021683','<법률 제20781호,  2025. 3. 18.>'); return false;" href="#AJAX"> <img id="ar12021683btn" style="vertical-align: middle;" alt="부칙 <법률 제20781호,  2025. 3. 18.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021683" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제20781호,  2025. 3. 18.>체크박스 " value="12021683" /> <a class="nun" onclick="javascript:arView('ar12021683','<법률 제20781호,  2025. 3. 18.>'); return false;" href="#AJAX"> <label for="chk12021683"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제20781호, 2025. 3. 18.&gt;</span> </a> <a class="nun" onclick="javascript:arView('ar12021683','<법률 제20781호,  2025. 3. 18.>');return false;" href="#AJAX"> <img id="ar12021683MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제20781호,  2025. 3. 18.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포 후 6개월이 경과한 날부터 시행한다.</p>
+       <div id="ar12021683">
+        <p class="pty3_dep1"><span class="bl">제2조(외국환중개업무 인가에 관한 경과조치)</span> 이 법 시행 전에 종전의 제9조제1항에 따라 외국환중개업무의 인가를 받은 자는 제9조제1항제1호의 개정규정에 따른 일반외국환중개업의 인가를 받은 것으로 본다.</p>
+       </div> 
+      </div> 
+      <a name="J12021685" id="J12021685"></a> 
+      <div class="pgroup"> 
+       <p class="pty3" style="margin-bottom: -1px;"> <a class="nun" onclick="javascript:arView('ar12021685','<법률 제21065호,  2025. 10. 1.>'); return false;" href="#AJAX"> <img id="ar12021685btn" style="vertical-align: middle;" alt="부칙 <법률 제21065호,  2025. 10. 1.>조문목록 접기" src="/LSW/images/button/btn_cocl.gif" /> </a> <input name="arInf" id="chk12021685" style="vertical-align: middle;" type="checkbox" alt="부칙 <법률 제21065호,  2025. 10. 1.>체크박스 " value="12021685" /> <a class="nun" onclick="javascript:arView('ar12021685','<법률 제21065호,  2025. 10. 1.>'); return false;" href="#AJAX"> <label for="chk12021685"> <span class="bl"> 부      칙</span> </label> <span class="sfon">&lt;법률 제21065호, 2025. 10. 1.&gt;</span> </a> <a class="nun" onclick="javascript:fncArLawPop('정부조직법', '20251001', '21065');" href="#AJAX"> <span class="sfon">(정부조직법) </span> </a> <a class="nun" onclick="javascript:arView('ar12021685','<법률 제21065호,  2025. 10. 1.>');return false;" href="#AJAX"> <img id="ar12021685MrBtn" style="vertical-align: middle;" alt="부칙 <법률 제21065호,  2025. 10. 1.>보기" src="/LSW/images/button/btn_more_bu.gif" /> </a> </p> 
+       <p class="pty3_dep1"><span class="bl">제1조(시행일)</span> 이 법은 공포한 날부터 시행한다. 다만, 부칙 제7조에 따라 개정되는 법률 중 이 법 시행 전에 공포되었으나 시행일이 도래하지 아니한 법률을 개정한 부분은 각각 해당 법률의 시행일부터 시행하고, 다음 각 호의 개정규정은 해당 호에서 정하는 날부터 시행한다.</p>
+       <div id="ar12021685">
+        <p class="pty3_dep2"> 1. 다음 각 목의 개정규정은 2026년 1월 2일부터 시행한다. 다만, 부칙 제7조에 따라 개정되는 법률(가목 및 나목의 개정규정과 관련되는 부분으로 한정한다) 중 본문에 따른 시행일 전에 공포되었으나 본문에 따른 시행일이 도래하지 아니한 법률을 개정한 부분은 각각 해당 법률의 시행일부터 시행한다.</p>
+        <p class="pty3_dep2"> 가. 제19조제4항, 제23조, 제29조제1항제1호 및 제30조의 개정규정</p>
+        <p class="pty3_dep2"> 나. 제12조제2항, 제19조제3항, 제22조 및 제29조제2항 단서의 개정규정(재정경제부장관 및 재정경제부에 관한 부분으로 한정한다)</p>
+        <p class="pty3_dep2"> 다. 부칙 제7조에 따라 개정되는 법률(가목 및 나목의 개정규정과 관련되는 부분으로 한정한다)</p>
+        <p class="pty3_dep2"> 2. 생략</p>
+        <p class="pty3_dep1"><span class="bl">제2조</span> 부터 제6조까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제7조(다른 법률의 개정)</span> ①부터 ㊸까지 생략</p>
+        <p class="pty3_dep2"> ㊹ 외국환거래법 일부를 다음과 같이 개정한다.</p>
+        <p class="pty3_dep2"> 제4조제1항ㆍ제2항, 제5조제1항ㆍ제2항, 제6조제1항 각 호 외의 부분, 같은 조 제2항 각 호 외의 부분, 같은 조 제5항 전단, 제8조제1항 본문ㆍ단서, 같은 조 제3항 각 호 외의 부분 전단, 같은 조 제4항ㆍ제5항ㆍ제7항, 제9조제1항 각 호 외의 부분 전단ㆍ후단, 같은 조 제3항 각 호 외의 부분, 같은 조 제4항ㆍ제5항, 제10조제1항 단서, 제11조제1항, 같은 조 제2항 전단, 제11조의2제1항, 같은 조 제3항 각 호 외의 부분, 같은 항 제1호, 같은 항 제2호 전단, 제11조의3제1항부터 제4항까지, 같은 조 제5항 전단, 같은 조 제6항, 제12조제1항 각 호 외의 부분, 같은 항 제13호ㆍ제14호, 같은 조 제3항, 제12조의2제1항ㆍ제4항, 제13조제6항ㆍ제7항, 같은 조 제9항 전단ㆍ후단, 같은 조 제11항 전단, 같은 조 제12항, 제15조제1항, 같은 조 제2항 각 호 외의 부분, 제16조 각 호 외의 부분 본문, 같은 조 제2호, 제17조, 제18조제1항 본문, 같은 조 제3항, 같은 조 제4항 각 호 외의 부분, 같은 조 제5항ㆍ제7항, 제19조제1항 각 호 외의 부분, 같은 조 제2항ㆍ제3항, 제20조제1항, 같은 조 제2항 전단, 같은 조 제3항부터 제6항까지, 제21조제1항ㆍ제2항, 제23조제1항, 제24조제1항ㆍ제2항, 제25조제1항ㆍ제2항, 제32조제3항제4호, 같은 조 제4항제6호 및 같은 조 제5항 중 “기획재정부장관”을 각각 “재정경제부장관”으로 한다.</p>
+        <p class="pty3_dep2"> ㊺부터 &lt;626&gt;까지 생략</p>
+        <p class="pty3_dep1"><span class="bl">제8조</span> 생략</p>
+       </div> 
+      </div> 
+     </div> 
+     <!-- 부칙 영역 끝 --> 
+     <!-- 별표 서식 시작 --> 
+     <!-- 별표 서식 끝 --> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

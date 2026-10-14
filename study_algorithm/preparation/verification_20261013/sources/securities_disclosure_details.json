@@ -1,0 +1,18 @@
+{
+  "id": "securities_disclosure_details",
+  "requested_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000107389&chrClsCd=010201",
+  "retrieved_url": "https://www.law.go.kr/LSW//admRulLsInfoR.do?admRulSeq=2200000107389&chrClsCd=010201",
+  "retrieved_at": "2026-10-13T01:52:44.167919+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 9476,
+  "content_sha256": "dd8c7555400696c44bef46bc8d2bc1a46b093c5de8378beec04e815503ce1d01",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2025",
+      "6",
+      "2"
+    ]
+  ]
+}

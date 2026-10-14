@@ -1,0 +1,20 @@
+{
+  "id": "s3_nikkei225",
+  "name": "Nikkei Stock Average Index Guidebook GB-101-E-20261001",
+  "requested_url": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_guidebook_en.pdf",
+  "retrieved_url": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_guidebook_en.pdf",
+  "retrieved_at": "2026-10-13T23:47:07.938502+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 40696,
+  "content_sha256": "04d2fbdccd8ae5aeac486ad21aec63efea9af3120020b4d7ead9d452646bd7ef",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    "2026-10-01"
+  ],
+  "retrieval_method": "urllib HTTPS full PDF response; 23 pages extracted with PyMuPDF",
+  "version_selection": "Guidebook created 2026-10-01, preceding as_of 2026-10-13",
+  "http_status": 200,
+  "bytes": 305719,
+  "binary_sha256": "51bd05a2683365a4abde1e92f1d2953cd1c7bb151424b8546c4ce7dc589fd2ca"
+}

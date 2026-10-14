@@ -1,0 +1,2230 @@
+[PDF page 1]
+ 
+ 
+ 
+ 
+ADBI Working Paper Series 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Regional Settlement Infrastructure 
+and Currency Internationalization:  
+The Case of Asia and the Renminbi 
+ 
+Changyong Rhee and 
+Lea Sumulong 
+No. 457 
+February 2014 
+Asian Development Bank Institute 
+
+
+[PDF page 2]
+ 
+ 
+ 
+ 
+ 
+ 
+The Working Paper series is a continuation of the formerly named Discussion Paper series; 
+the numbering of the papers continued without interruption or change. ADBI’s working 
+papers reflect initial ideas on a topic and are posted online for discussion. ADBI encourages 
+readers to post their comments on the main page for each working paper (given in the 
+citation below). Some working papers may develop into other forms of publication. 
+ 
+Suggested citation: 
+Rhee, C., and L. Sumulong. 2014. Regional Settlement Infrastructure and Currency 
+Internationalization: The Case of Asia and the Renminbi. ADBI Working Paper 457. Tokyo: 
+Asian Development Bank Institute. Available: http://www.adbi.org/working-
+paper/2014/02/05/6130.regional.settlement.currency.internationalization/ 
+ 
+Please contact the authors for information about this paper. 
+Email: crhee@adb.org; lsumulong@adb.org 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Changyong Rhee is former Chief Economist and Lea Sumulong is Senior Economics 
+Officer at the Asian Development Bank. The authors thank Ryan Jacildo for excellent 
+research assistance. 
+The views expressed in this paper are the views of the authors and do not necessarily 
+reflect the views or policies of ADBI, the ADB, its Board of Directors, or the governments 
+they represent. ADBI does not guarantee the accuracy of the data included in this paper 
+and accepts no responsibility for any consequences of their use. Terminology used may 
+not necessarily be consistent with ADB official terms. 
+Asian Development Bank Institute 
+Kasumigaseki Building 8F 
+3-2-5 Kasumigaseki, Chiyoda-ku  
+Tokyo 100-6008, Japan 
+ 
+Tel:  
++81-3-3593-5500 
+Fax:  
++81-3-3593-5571 
+URL:  
+www.adbi.org 
+E-mail:  info@adbi.org 
+ 
+© 2014 Asian Development Bank Institute 
+
+
+[PDF page 3]
+ADBI Working Paper 457 
+ 
+ 
+           
+       
+ 
+      Rhee and Sumulong 
+ 
+ 
+Abstract 
+ 
+The squeeze in United States dollar liquidity that emerged with the global financial crisis 
+highlighted the risks inherent in the current global financial system. Asia was adversely affected 
+by the crisis not only because of its dependence on trade, but also because of its heavy 
+reliance on the US dollar for regional and international transactions. As Asia’s role in the global 
+economy continues to expand, its dependence on the US dollar is bound to increase, raising 
+further its vulnerability to future liquidity shocks. The use of regional currencies for bilateral 
+trade settlement could reduce such vulnerability. As demonstrated by the renminbi trade 
+settlement scheme piloted between the People’s Republic of China; Hong Kong, China; and 
+Macao, China, the existence of appropriate financial infrastructure could reduce the relatively 
+larger costs of bilateral currency transactions compared with triangular transactions through the 
+United States dollar. As most central banks are securities depositories of government bonds, 
+combining trade settlement with government bond securities settlement could also have large 
+synergy effects without substantial extra costs. This proposal does not require full liberalization 
+of the capital account or full deregulation of capital markets, and is more politically feasible in 
+transition. As such, extending the trade settlement scheme to the rest of Asia and appending a 
+government bond payment and securities settlement system could be a practical solution to 
+international monetary system reform and the diversification of settlement currencies. 
+ 
+JEL Classification: F33, F34, F42 
+
+
+[PDF page 4]
+ADBI Working Paper 457 
+ 
+ 
+           
+       
+ 
+      Rhee and Sumulong 
+ 
+ 
+Contents 
+ 
+ 
+1. 
+Introduction .................................................................................................................... 3 
+2. 
+The Renminbi Trade Settlement System ....................................................................... 5 
+2.1 
+Background ........................................................................................................ 5 
+2.2 
+The Trade Settlement Framework ...................................................................... 6 
+2.3 
+The Ensuing Results of the Renminbi Trade Settlement Scheme ...................... 8 
+2.4 
+Lessons Learned ............................................................................................. 14 
+3. 
+Expanding and Deepening the Regional Currency Settlement System ........................ 16 
+3.1 
+Expansion of the Bilateral Trade Settlement System ........................................ 16 
+3.2 
+Combining the Regional Trade and Government Bonds Settlement Systems .. 19 
+4. 
+Relations with other Initiatives...................................................................................... 24 
+4.1 
+Background ...................................................................................................... 24 
+4.2 
+ABMI and RSI .................................................................................................. 25 
+4.3 
+ASEAN+3 Local Currency Trading System ...................................................... 26 
+4.4 
+Bilateral Swaps and Regional Financial Safety Nets ........................................ 27 
+5. 
+Conclusion ................................................................................................................... 28 
+References ............................................................................................................................. 29 
+ 
+ 
+
+
+[PDF page 5]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+3 
+ 
+1. INTRODUCTION 
+Notwithstanding its success over the last decades, the international monetary system 
+(IMS) has shown symptoms of fragility. Persistent and recurrent crises, global 
+imbalances, volatility in exchange rates and capital flows, as well as the accumulation 
+of large foreign exchange reserves are often cited as manifestations of such 
+weaknesses. Indeed, the global financial crisis of 2008–2009 revealed vulnerabilities in 
+the IMS that led to the instability of world financial markets and the subsequent 
+contraction of the world economy. Possible reforms to strengthen the IMS are being 
+discussed more widely, therefore, not only in academia, but also in political circles. 
+One proposal is to build a global safety net.1
+Two other popular options that have emerged are the shift to a system based on 
+special drawing rights (SDRs) and the move to a multiple currency system. However, 
+markets seem skeptical about the feasibility of these options. There are currently 
+political constraints in raising the allocation of SDRs. But even if allocations were 
+allowed to increase, it would take some time before the SDR can be widely used in 
+private markets. Also, under existing conditions, high transaction costs between non-
+United States (US) dollar currencies are the prime reason for a triangular transaction of 
+non-US dollar currencies through the US dollar. Therefore, considering the high 
+transaction costs, it is hard to imagine that some other currency, including SDRs, could 
+replace the role of the US dollar as global reserve currency in the near future. 
+ However, while this would help, it would 
+not solve the problem. Despite significant efforts by the International Monetary Fund 
+(IMF), it is manifest that the available resources will not be sufficient to address a crisis 
+of similar magnitude to the global financial crisis. The stigma effect also constrains the 
+effectiveness of the IMF crisis-prevention toolkit and as such countries are likely to 
+continue to self-insure by accumulating foreign exchange reserves. This is not good for 
+the global economy as it aggravates the global imbalance problem. 
+Establishing regional settlement infrastructure for regional currencies could be an 
+interim solution. It can actually make a practical contribution to the IMS reform agenda. 
+Using regional currencies to settle intra-regional transactions does not mean that some 
+Asian currencies will become international reserve currencies soon. Rather, the use of 
+Asian currencies for regional trade and investment could be gradually promoted by 
+providing proper infrastructure, even before they become reserve currencies with full 
+convertibility.  
+The best example is the renminbi (RMB) trade settlement scheme initiated by the 
+People’s Republic of China (PRC). The pilot scheme, launched in July 2009, allowed 
+the settlement in RMB of trade transactions between five cities in the PRC and 
+selected trade partners. It also permitted banks in PRC partner locations to provide 
+RMB services, such as deposit-taking, currency exchange, remittance, trade finance, 
+and check issuance, to enterprises choosing to settle trade transactions in RMB. The 
+scheme was promoted by the PRC monetary authorities in the expectation that it would 
+benefit the PRC economy by reducing exchange rate risks, shrinking trade transaction 
+costs, improving the funding efficiency of financial institutions, and diminishing the need 
+to hold the US dollar as a medium of exchange and store of value. The logic is that the 
+increase in import settlement denominated in RMB, coupled with policies that 
+                                               
+1 The IMF defines global financial safety net as “a set of crisis prevention and resolution instruments, 
+encompassing self-insurance (reserves); bilateral arrangements (e.g., swap lines between central banks 
+during periods of stress); regional arrangements such as those in Asia, Europe, and Latin America; and 
+multilateral arrangements with the IMF at their center” (IMF 2011). 
+
+
+[PDF page 6]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+4 
+ 
+encourage RMB recycling, would result in larger cross-border RMB flows and a larger 
+stock of RMB held by non-residents (Yu 2012b). 
+Indeed, the value of RMB trade settlement transactions has massively increased, from 
+just CNY3.6 billion in the second half of 2009 to nearly CNY1.3 trillion in the first half of 
+2012 and over CNY2.0 trillion in the first half of 2013 (PBoC 2011a, 2012b, 2013c). 
+Non-trade transactions have also risen tremendously. RMB deposits had swelled from 
+CNY62.7 billion at end-2009 to CNY730.0 billion by end-September 2013 (HKMA 
+2013b). According to Bloomberg data, RMB-denominated bond issuance has grown 
+from only CNY10 billion in 2007 to CNY281.9 billion in 2012. “Dim sum bond” issuance 
+is projected to grow even bigger this year, as the value of these bonds issued reached 
+CNY305.4 billion in the first 10 months of 2013.2
+This rapid expansion demonstrates that the issue of the relatively larger costs of 
+bilateral currency transactions compared with triangular transactions is a “chicken and 
+egg” question: building infrastructure can make a difference. Transaction costs of using 
+non-US dollar currencies are high since adequate infrastructure has not been built. But 
+these costs could be significantly reduced if proper infrastructure is set up. This 
+experience also shows that full liberalization of the capital account or full deregulation 
+of capital markets is not required to build necessary infrastructure. Expanding the local 
+currency trade settlement scheme into a regional trade settlement system does not 
+need to be led by the PRC alone. As a practical solution for IMS reform, Asian 
+economies could introduce a bilateral or multilateral trade-related payment settlement 
+scheme. This does not imply that all regional currencies will be internationalized or 
+used for settlement of trade transactions. As Deng Xiaoping once famously said, “It 
+doesn't matter whether a cat is black or white as long as it catches mice.” Markets are 
+likely to determine which currencies will be more widely used for trade settlements. But 
+irrespective of the markets’ choice, the emergence of regional currencies as trade 
+settlement currencies will reduce Asia’s dependence on the US dollar, and contribute 
+to the diversification of international settlement currencies. 
+  
+To expedite this process, building efficient payments and securities settlements 
+together is the key to success. There would have been lower incentives to hold RMB 
+deposits in Hong Kong, China had depositors not been able to find diverse 
+opportunities to manage their RMB-denominated assets. The availability of other 
+investment opportunities for RMB—such as bonds, and investment and asset 
+management products—is an important aspect of the system that promoted the wider 
+use of the RMB. This investment opportunity would not have developed so quickly had 
+a securities settlement system not been in place. Thus, the expansion of the offshore 
+RMB market is largely due to the efficient securities trading and settlement system in 
+Hong Kong, China, where infrastructure for payment vs. payment was available 
+together with infrastructure for delivery vs. payment for RMB securities. 
+This paper proposes the promotion of more bilateral trade settlement systems or a 
+multilateral trade settlement system in Asia, together with a government securities 
+settlement scheme. As most central banks are securities depositories of government 
+bonds anyway, combining trade settlement with government securities settlement could 
+have large synergy effects without substantial extra costs. It would also help to promote 
+the development of local currency bond markets in Asia, as envisioned by the 
+                                               
+2 Needless to say, this unprecedented increase in trade settlement values and the expansion of the 
+offshore capital market in Hong Kong, China is partly due to RMB exchange rate appreciation 
+expectations (Li, Wu, and Pei 2012; Yu 2012a). But the persistent hike in RMB trade settlement 
+transactions shows that this trend will continue despite the recent moderation in exchange rate 
+appreciation expectations (He 2012). 
+
+
+[PDF page 7]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+5 
+ 
+Association of Southeast Asian Nations (ASEAN)+33
+The rest of this paper is organized as follows: Section 2 looks at the existing RMB trade 
+settlement scheme involving the PRC; Hong Kong, China; and Macao, China, focusing 
+on the system, progress, impacts on the offshore RMB market, and prospects. Section 
+3 presents a proposal to expand the current bilateral systems to other economies and 
+deepen the scheme by combining the trade settlement system with government bond 
+settlement systems. Such a system would help solve the “third time zone problem” and 
+develop financial markets in Asia. Section 4 discusses the relationship of this proposal 
+with other regional initiatives such as the ABMI, in particular the issues of building a 
+Regional Settlement Intermediary (RSI) and strengthening the regional financial safety 
+net. Section 5 concludes. 
+ members’ Asian Bond Markets 
+Initiative (ABMI) after the Asian financial crisis in 1997 (ASEAN Secretariat 2003). 
+2. THE RENMINBI TRADE SETTLEMENT SYSTEM 
+2.1 Background 
+On 6 July 2009, the People’s Bank of China (PBoC) launched a pilot scheme for the 
+cross-border settlement in RMB of trade involving approved areas in the PRC and 
+selected areas outside the PRC, marking a significant milestone in the development of 
+offshore RMB business. Yu (2012b) succinctly summarized the main objectives of this 
+new initiative—promoting RMB internationalization; reducing exchange rate risks; 
+shrinking trade transaction costs; improving the funding efficiency of financial 
+institutions; and diminishing the need to hold the US dollar as a medium of exchange 
+and store of value. Ma, Liu, and Miao (2012) identified other benefits from RMB 
+internationalization, including raising seigniorage income, decreasing the PRC’s 
+vulnerability to changes in US macroeconomic policies, and enhancing the PRC’s 
+influence in reforming the international financial system. The pilot scheme initially 
+allowed the settlement in RMB of trade transactions between five cities in the PRC 
+(Shanghai, Guangzhou, Shenzhen, Dongguan, and Zhuhai) and selected partners (i.e., 
+Hong Kong, China; Macao, China; and ASEAN members).  
+To gain eligibility, enterprises in the PRC needed to secure endorsement from 
+provincial authorities and approval from central authorities. Commercial banks in 
+selected PRC partner locations were permitted to provide RMB-related services to 
+enterprises choosing to settle trade in RMB. Specifically, commercial banks could 
+engage in deposit-taking, currency exchange, remittance, trade finance, and check 
+issuance. These transactions are facilitated by the relevant clearing and settlement 
+services. Participating banks outside the PRC, on the other hand, can engage banks in 
+the PRC as correspondent banks or the clearing bank, or both, for RMB business in 
+Hong Kong, China and Macao, China to handle the associated settlement of RMB 
+funds at the wholesale level. This implies that these banks can get RMB funding 
+through the clearing bank, PRC correspondent banks, other participating banks outside 
+the PRC, or RMB deposits (HKMA 2009).  
+On 22 June 2010, the pilot scheme was expanded to cover a larger number of 
+provinces and cities in the PRC (i.e., 18 provinces and cities plus Guangdong and 
+Shanghai), and the trade partners were no longer limited to Hong Kong, China; Macao, 
+                                               
+3 The 10 members of ASEAN—Brunei Darussalam, Cambodia, Indonesia, the Lao People’s Democratic 
+Republic, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Viet Nam—plus the PRC, 
+Japan, and the Republic of Korea. 
+
+
+[PDF page 8]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+6 
+ 
+China; and ASEAN members. The scheme was in effect extended to all trading 
+partners of the selected 20 PRC provinces and cities. In addition, the scope of the 
+settlement scheme was enlarged to include services and other current account 
+transactions. A further expansion of the RMB trade settlement scheme was 
+implemented in August 2011, making coverage nationwide. Eligibility to settle trade in 
+RMB was also offered to all licensed importers and exporters in good standing in 
+March 2012. This basically repealed the system of having to enlist as a mainland 
+designated enterprise before getting access to the platform. 
+Moreover, the PRC authorities relaxed the country’s capital restrictions. In October 
+2011, RMB-denominated foreign direct investment (FDI) had been allowed from 
+Macao, China and Taipei,China to the PRC. In particular, enterprises in the two 
+economies were permitted to use offshore RMB proceeds for onshore FDI subject to 
+certain restrictions. 4
+The introduction of the RMB trade settlement pilot scheme and its subsequent 
+expansion has led to the establishment of an offshore RMB market in Hong Kong, 
+China and to a lesser extent in Macao, China. While the original intent of the pilot 
+scheme had been to promote trade settlement, the legal, regulatory, and financial 
+infrastructure in Hong Kong, China also significantly encouraged non-trade related 
+financial transactions. 
+ Qualified foreign institutional investors (QFIIs), using offshore 
+RMB, were likewise allowed to invest in PRC stock markets in December 2011. 
+Although equity inflows were initially capped at CNY20 billion, this was raised to 
+CNY70 billion in April 2012 (de Silva and Tan 2012). To provide a support mechanism 
+to the build-up of RMB capital overseas, the PRC government has likewise 
+aggressively negotiated swap agreements with a number of central banks. As of 
+October 2013, active RMB swap lines with 21 partners totaled about CNY2.5 trillion 
+(US$410 billion).  
+The growing international acceptance of the RMB, coupled with recent liberalization 
+measures, have inspired other financial centers—such as London, Singapore, and 
+Taipei,China—to develop offshore RMB capabilities as well. Paris has also expressed 
+its desire to catch up with the other financial centers. In addition, a number of central 
+banks have showed interest to include RMB in the composition of their foreign reserves 
+(BBVA 2013). 
+2.2 The Trade Settlement Framework 
+An overview of the RMB trade settlement scheme platform in Hong Kong, China is 
+provided in Figure 1. Initially, the system required participating enterprises to be 
+accredited by the PBoC and the Hong Kong Monetary Authority (HKMA) in their 
+respective jurisdictions.5
+                                               
+4 RMB FDI applications valued at a minimum of CNY300 million must be approved by the Ministry of 
+Commerce. Placement of cross-border RMB direct investment in securities, derivatives, and entrusted 
+loans within the PRC is still not permitted. However, legitimately acquired offshore RMB funds can be 
+utilized to assign or transfer stocks of PRC-listed companies subject to approval by the Ministry of 
+Commerce (MOFCOM). Moreover, if inward RMB funds are intended to finance mergers and 
+acquisitions (M&As) or related purposes, an application for a special RMB mergers and acquisitions 
+(M&A) account will have to be submitted. Any FDI funds received by the foreign invested enterprise’s 
+onshore entity thereafter will also be subjected to the aforementioned MOFCOM approval/registration 
+guidelines (MOFCOM 2011, HSBC 2011). 
+ But the scope of the framework now includes all trading firms 
+that import to and export from the PRC regardless of the location. Once an RMB-based 
+5 The Monetary Authority of Macao, in the case of Macao, China. 
+
+
+[PDF page 9]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+7 
+ 
+transaction between onshore and offshore parties has been agreed, there are two 
+possible alternatives for making cross-border payments.  
+Figure 1: The PRC–Hong Kong, China Renminbi Settlement Scheme 
+ 
+Acct = account; Gov’t = government; HKG = Hong Kong, China; HKMA = Hong Kong Monetary Authority; 
+PBoC = People’s Bank of China; PRC = People’s Republic of China; QDII = qualified domestic institutional 
+investors; QFII = qualified foreign institutional investors; RMB = renminbi.  
+Source: Authors. 
+Take the case of an offshore importer. One way to move funds is by coursing the 
+payment through an authorized participating overseas bank that will then have to 
+transmit it to the designated offshore clearing bank. If the cash transaction poses no 
+concerns based on the regulations of PBoC and HKMA, the offshore clearing bank will 
+have to channel the funds to the onshore settlement bank before it reaches the 
+onshore exporter’s RMB account. The other way is by having a domestic commercial 
+bank functioning as an agent of the overseas participating bank by virtue of a binding 
+agreement. In this case, the former will have to open an onshore inter-bank RMB fund 
+transfer account for the latter. The domestic agent bank will also be the one to settle 
+the cross-border transaction and will have to report transaction details to the local 
+PBoC office.  
+Notably, overseas participating banks, onshore settlement banks, and domestic agent 
+banks have to be approved by HKMA (offshore) and PBoC (onshore) to gain eligibility 
+in mediating RMB cross-border trade settlements. Offshore banks are given the option 
+to either participate directly in the platform or conduct business indirectly via their 
+subsidiaries in Hong Kong, China. Moreover, the scheme allows any bank outside the 
+PRC to take part in the system (i.e., participation is not confined to banks based in 
+Hong Kong, China). As of March 2013, a total of 208 banks were participating in the 
+scheme in Hong Kong, China alone, which form a network covering over 30 countries 
+and six continents. HKMA also estimates that these participating banks handle over 
+1,500 RMB correspondent accounts (HKMA 2013a).  
+PRC
+HKG
+PBoC
+Currency Swap
+Domestic Agent Bank
+Domestic Settlement 
+Bank
+Asset 
+Management
+goods & services
+goods & services
+Import Companies
+Export Companies
+Option 1
+RMB Account
+Agency Agreement
+Import Companies
+Inter-bank RMB Acct
+Option 2
+Export Companies
+RMB supply
+HKMA
+Offshore Clearing 
+Bank
+Overseas 
+Participating Bank
+RMB Account
+QDII/QFII
+RMB bond issuance
+RMB Deposit Market
+Business customers
+Individual customers
+RMB bonds market
+PRC Gov't
+
+
+[PDF page 10]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+8 
+ 
+RMB trade settlement in Macao, China practically follows the same model, with the 
+Monetary Authority of Macao as the supervising institution. The Bank of China (Hong 
+Kong) Limited (BOCHK) and the Bank of China Macau Branch were designated as the 
+offshore clearing banks in Hong Kong, China and Macao, China, respectively. 6
+One noteworthy change arising from the inception of the RMB trade settlement scheme 
+infrastructure is that offshore parties that agree to settle trade transactions with PRC 
+firms in RMB now have the facility to convert RMB to other major currencies with 
+relative ease if the need arises. That significantly contributed to the increase in the 
+demand for RMB deposits in Hong Kong, China and consequently in the rise of non-
+trade related financial transactions such as RMB-denominated bond issuance and 
+asset management. This trend is helped by the efficient payment and securities 
+settlement systems in Hong Kong, China, including its multicurrency Real Time Gross 
+Settlement (RTGS) system (something which Macao, China still does not have
+ 
+Essentially, the two aforementioned Bank of China affiliates were authorized to convert 
+foreign currencies into RMB and to utilize credit lines with the inter-bank foreign 
+exchange and inter-bank borrowing market in the PRC in accordance with the 
+parameters set by the PBoC (PBoC 2009). In addition to the onshore credit sources of 
+the clearing bank, the swap line between the PRC and Hong Kong, China (which 
+currently amounts to CNY400 billion), also stands ready to lend offshore RMB liquidity 
+support. 
+7
+2.3 The Ensuing Results of the Renminbi Trade Settlement 
+Scheme 
+). Thus, 
+the aversion to conducting trade business in RMB, which had previously been strongly 
+underpinned by difficulties due to convertibility, has been reversed in recent years. 
+Increases in RMB trade transactions resulting from the pilot scheme have led to a 
+tremendous growth in offshore RMB deposits, which in turn fed the development of the 
+offshore RMB bond and asset management market. 
+From an initial 365 mainland designated enterprises approved to take part in the pilot 
+RMB trade settlement scheme during its inception in 2009, the number had soared to 
+over 67,000 by the end of 2011 (AHK Greater China 2011). Since March 2012, 
+however, registration as a mainland designated enterprise has no longer been 
+necessary. Monthly cross-border RMB trade settlements (RTS) rose from an average 
+of CNY42.2 billion in 2010 to CNY244.8 billion in 2012, while the RTS share of total 
+PRC trade with the world nearly quintupled from 2.5% to 12.0%. During the first 9 
+months of 2013, the RTS value further increased to an average of CNY351.1 billion, 
+raising the RTS share of total PRC trade to 16.6% (Table 1).  
+In terms of the PRC’s trade with Hong Kong, China, RTS facilitated by the BOCHK 
+accounted for just 22.2% in 2010. Since 2011, however, the share has exceeded 
+100%, implying that some of the PRC’s trade with other economies has also been 
+settled in RMB that was cleared through Hong Kong, China. Indeed, the Philippines; 
+the Gulf Cooperation Countries; Singapore; Taipei,China; the Republic of Korea; 
+France; the United Kingdom; Thailand; Italy; and the Russian Federation have recently 
+seen a strong uptake in the use of RMB for trade payments (Swift 2013b). Swift 
+(2013b) also noted that of the 160 countries that settled payments with the PRC and 
+                                               
+6 The Clearing Agreement between the PBoC and the Bank of China affiliates in relation to RMB business 
+was signed in July 2009.  
+7 Macao, China launched its RTGS for the Macao pataca and US dollar in March 2013, but authorities are 
+also looking to extend the facility to the PRC RMB (Swift 2013c). 
+
+
+[PDF page 11]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+9 
+ 
+Hong Kong, China in April 2013, 47 had used RMB as the settlement currency for at 
+least 10% of their total payments. 
+Activity in Hong Kong, China currently dwarfs the turnover in Macao, China. Based on 
+data for the first 9 months of 2013, RTS in Macao, China is just about 4.2% of the 
+business in Hong Kong, China. One obvious reason is that when the pilot platform was 
+launched, Hong Kong, China already had a substantially deeper financial market, a 
+more sophisticated infrastructure, and a much broader international linkage. But 
+looking at the growth of the RTS and the ratio of RTS to bilateral trade, Macao, China 
+undoubtedly shows a promising potential. Between 2010 and 2012, RTS in Macao, 
+China rose by more than 16 times and is likely to register a growth rate of about 50% in 
+2013. RTS from January to September 2013 stood at CNY108.9 billion, 60% higher 
+than the CNY68.0 billion recorded in the first 9 months of 2012. The RTS ratio to 
+bilateral trade of Macao, China and the PRC had likewise ballooned to over 700% by 
+the end of September 2013 from less than 40% in 2010, also suggesting clearing 
+through Macao, China of PRC’s trade with other partners. 
+Table 1: Cross-Border Renminbi Trade Settlement 
+Period 
+Total RTS,  
+CNY Bn 
+HKG 
+RTS 
+CNY Bn 
+MAC RTS 
+CNY Bn 
+Total RTS, Mo. 
+Ave, CNY Bn 
+HKG RTS, Mo. 
+Ave, CNY Bn 
+MAC RTS, Mo. 
+Ave, CNY Bn 
+Jul–Dec 2009 
+3.6 
+  
+ 
+0.6 
+  
+Jan–Dec 2010 
+506.3 
+342.1 
+6.0 
+42.2 
+28.5 
+0.5 
+Jan–Dec 2011 
+2,080.8 
+1,914.5 
+62.8 
+173.4 
+159.5 
+5.2 
+Jan–-Dec 2012 
+2,938.2 
+2,632.5 
+97.2 
+244.8 
+219.4 
+8.1 
+Jan–-Sep 2013 
+3,160.0 
+2,616.6 
+108.9 
+351.1 
+290.7 
+12.1 
+Period 
+HKG RTS,  
+% of Total 
+RTS 
+MAC 
+RTS,  
+% of 
+Total 
+RTS 
+Residual 
+RTS,  
+% of Total 
+RTS 
+Total RTS,  
+% of PRC Total 
+Trade 
+HKG RTS,  
+% of PRC trade 
+with HKG 
+MAC RTS,  
+% of PRC trade 
+with MAC 
+Jul–Dec 2009 
+  
+  
+  
+0.04 
+  
+  
+Jan–Dec 2010 
+67.6 
+1.2 
+31.2 
+2.5 
+22.2 
+39.3 
+Jan–Dec 2011 
+92.0 
+3.0 
+5.0 
+8.8 
+104.5 
+386.8 
+Jan–Dec 2012 
+89.6 
+3.3 
+7.1 
+12.0 
+122.1 
+516.1 
+Jan–Sep 2013 
+82.8 
+3.4 
+13.8 
+16.6 
+156.2 
+741.4 
+Ave = average; Bn = billion; CNY = yuan; HKG = Hong Kong, China; MAC = Macao, China; Mo. = monthly; 
+PRC = People’s Republic of China; RMB = renminbi; RTS = RMB trade settlement. 
+Note: RTS covers goods and services trade, while total trade refers to merchandise trade only. For 
+consistency, all trade data were sourced from the PRC statistics. 
+Sources: CEIC, PBoC, HKMA, Monetary Authority of Macao, and authors' calculations. 
+Initially, trade settlements had been largely import-oriented (i.e., RMB flows were 
+biased in favor of settling PRC imports as opposed to invoicing PRC exports). The 
+receipt-to-payment ratio by the end of 2010 was 1:5.5 (PBoC 2012a). But gradually, the 
+ratio seems headed toward a more balanced RMB flow. In 2011, the ratio improved to 
+1:1.7, while as of end-2012 it stood at 1:1.2 (PBoC 2013a). 
+This trend is inevitably related to market expectations of RMB appreciation and 
+arbitrage opportunities between the onshore RMB (CNY) and offshore RMB (CNH) 
+markets. Zhang and Xu (2011) show that the RMB receipt-to-payment ratio is highly 
+correlated with the CNH–CNY spread. But despite the recent narrowing of the CNH–
+CNY spread, the growth in RTS has remained robust. RTS in 2012 still grew year-on-
+year by 41.2% (and in the first 9 months of 2013 by 54.4%), albeit substantially slower 
+than the 311% year-on-year expansion registered in 2011. Certainly, the absence of a 
+
+
+[PDF page 12]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+10 
+ 
+reversal in the RTS growth path and receipt-to-payment ratio in light of the generally 
+weaker RMB appreciation expectations and the tapering cross-RMB market arbitrage 
+opportunities indicates that growing RMB utilization is not only due to currency 
+speculations.8
+One immediate result of the expansion of RMB-based cross-border trade settlement is 
+the swelling of RMB deposits in Hong Kong, China and Macao, China. As traders are 
+secure in their ability to convert their RMB deposits into reserve currencies, whenever 
+they want to or need to they have an incentive to increase their holdings of offshore 
+RMB deposits. This expedites the growth of RMB-denominated financial products, 
+which in turn increases RMB-denominated lending and borrowing to offshore investors 
+who have no trade linkages with PRC corporations.  
+ 
+From about CNY62.7 billion at end-2009, the total RMB deposit value in Hong Kong, 
+China had ballooned to CNY603.0 billion at end-2012, and further to CNY730.0 billion 
+by end-September 2013 (Figure 2). Overseas banks’ RMB correspondent accounts 
+increased more than five times over 12 months—from 187 in 2010 to 968 the following 
+year before breaching the 1,500 mark in March 2013. RMB amounts due to and from 
+overseas banks (banks based outside the PRC and Hong Kong, China) rose 
+considerably, from CNY30.5 billion at the start of 2011 to CNY216 billion 2 years later 
+(Chan 2013). And the number of institutions authorized to conduct RMB business 
+(deposit-taking, remittances, and cross-border trade settlement) in Hong Kong, China 
+had risen from 49 at the end of July 2009 (Sekine 2011) (right after the RMB trade 
+settlement scheme was put in place) to 187 at the end of 2011 (KPMG 2012) to 208 at 
+the end of the first quarter of 2013 (HKMA 2013a). 
+Similarly, in Macao, China, RMB deposits increased by a factor of over 700 in less than 
+9 years—from CNY82 million at the end of 2004, they swelled to almost CNY62.3 
+billion 9 months into 2013. Accordingly, RMB deposit share of total deposits in Macao, 
+China has risen dramatically from 0.06% in 2004 to 12.3%, based on the most recent 
+data. A majority of the 29 banks in Macao, China have signed clearing agreements with 
+the clearing bank for relevant RMB businesses. 
+ 
+ 
+                                               
+8 He (2012) concludes that as the PRC’s economic power continues to grow, non-PRC residents will have 
+an incentive to increase their exposure to RMB assets and liabilities. Such an incentive is likely to remain 
+strong and not easily reversed by the cyclicality of RMB exchange rate expectations. 
+
+
+[PDF page 13]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+11 
+ 
+Figure 2: Outstanding Renminbi Deposits in Hong Kong, China 
+ 
+ 
+CNY = yuan, RMB = renminbi. 
+Sources: CEIC, HKMA, and Monetary Authority of Macao. 
+The rapid expansion of RMB trade settlement and the accompanying measures that 
+recalibrated other capital flow policy regulations, such as the circulars relaxing FDI9, 10 
+and equity investment regulations,11, 12 have bolstered the growth of the RMB bond 
+market in Hong Kong, China (also known as the dim sum bond market). From only 
+CNY10 billion in 2007—the year when the first dim sum bond was issued—RMB-
+denominated bond issuance in Hong Kong, China increased significantly to CNY189.5 
+billion in 2011 and CNY281.9 billion in 2012 (Figure 3).13 In the first 10 months of 2013, 
+bond issuance swelled to CNY305.4 billion. The number of bond issuances has 
+likewise climbed steeply from just five in 2007 to 417 in 2011 and to 891 as of end-
+201214
+ 
+ 
+ while the number of bond issuers increased from just three in 2007 to 107 by 
+the end of 2011, and 124 in 2012. From January–October 2013, 943 bonds were 
+issued by 111 issuers. 
+                                               
+9 MOFCOM (2011), which became effective on 12 October 2011. 
+10 PBoC (2011b), which became effective on 13 October 2011. 
+11The renminbi qualified foreign institutional investor scheme is governed by the Pilot Scheme for Domestic 
+Securities Investment. 
+12 Previously, a foreign company could only participate in the PRC’s securities market via the qualified 
+foreign institutional investor program whereby the company can convert foreign currency to RMB to take 
+part in the trading. The [People’s Republic of] China Securities Regulatory Commission has to approve 
+the application while the State Administration of Foreign Exchange determines the allocation of quota.  
+13 Initially, bond issuers were limited to sovereign entities and PRC banks, but these have expanded to 
+include multinational corporations (such as Caterpillar, McDonald’s, Tesco, Unilever, and Volkswagen) 
+and multilateral organizations (such as the Asian Development Bank, the World Bank, and the 
+International Finance Corporation). 
+14 In May 2012, the National Development and Reform Committee decided to allow non-financial 
+corporations in the mainland to issue RMB bonds in Hong Kong, China (ANZ Research 2012). 
+0% 
+5% 
+10% 
+15% 
+20% 
+25% 
+0 
+100 
+200 
+300 
+400 
+500 
+600 
+700 
+800 
+900 
+1,000 
+Hong Kong, China 
+CNY bn (left scale) 
+% of total deposits (right scale) 
+% of foreign currency deposits (right scale) 
+0% 
+2% 
+4% 
+6% 
+8% 
+10% 
+12% 
+14% 
+16% 
+18% 
+20% 
+0 
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+Macao, China 
+CNY bn (left scale) 
+% of total deposits (right scale) 
+% of foreign currency deposits (right scale) 
+
+
+[PDF page 14]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+12 
+ 
+Figure 3: Renminbi Bond Issuance in Hong Kong, China 
+  
+CNY = yuan; HKG = Hong Kong, China; PRC = People’s Republic of China; RMB = renminbi; US = United 
+States. 
+Source: Authors’ calculations from Bloomberg data. 
+The RMB capital market in Hong Kong, China also saw sizable corrections in key 
+indices due to the gradual opening of the PRC’s capital account. For instance, 
+sovereign yield spreads15 (CNY–CNH) narrowed from a range of 1.9–3.8 percentage 
+points in June 2011, to less than half a percentage point in October 2012 (on average) 
+before settling around 1 percentage point beginning in June 2013. Deposit rate spreads 
+(CNY–CNH) swung from a positive margin of 2–3 percentage points in June 2011 to 
+below zero in June 2013, but turned positive again (at around 1 percentage point) at 
+the end of August 2013. Similarly, the Hang Seng China AH Premium Index,16 which 
+had been trading at a premium of over 100%, favoring stock prices of PRC companies’ 
+A-shares at one point in 2008, declined considerably from mid-2010 (i.e., the prices of 
+H-shares caught up with the prices of A-shares and even exceeded the latter on some 
+trading days).17
+In Macao, China, the resulting business synergies are not as pronounced as in Hong 
+Kong, China despite the phenomenal growth in RTS and RMB deposits. Nevertheless, 
+local authorities are looking to up the ante in the years ahead by re-packaging their 
+ With the increase in offshore liquidity, RMB clearing transactions also 
+surged, from CNY39.3 billion in 2009 to CNY43.2 trillion in 2012, while the cumulative 
+value as of September 2013 was already about CNY57.6 trillion, indicating favorable 
+conditions for RMB businesses offshore. 
+                                               
+15 This refers to the differential of yuan government Bloomberg Fair Value curve and offshore yuan 
+[People’s Republic of] China Government Bond curve (per Bloomberg’s definition). 
+16 Some companies trade both in the stock market in Shanghai and Hong Kong, China. A-shares refer to 
+the stock price of the company in Shanghai, while H-shares refer to the stock price of the same company 
+in Hong Kong, China. The Hang Seng China AH Premium Index (“HSAHP”) measures the absolute price 
+premium (or discount) of A-shares over H-shares for the largest and most liquid PRC companies with 
+both A-share and H-share listings (Hang Seng Indexes, http://www.hsi.com.hk/HSI-Net/HSI-Net). 
+17 The index spiked briefly starting end-September 2011, when there were speculations about Asia’s ability 
+to absorb external weakness, but the differential in the stock prices quickly declined in the next 2–3 
+weeks. 
+0 
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+0 
+100 
+200 
+300 
+400 
+500 
+600 
+700 
+800 
+900 
+1000 
+2007 
+2008 
+2009 
+2010 
+2011 
+2012 Oct-13 
+Number of dim sum bond issuers and 
+issuances 
+No. of issuances (left scale) 
+No. of issuers (right scale) 
+0 
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+2007 
+2008 
+2009 
+2010 
+2011 
+2012 
+Oct-13 
+Dim sum bond issuance by issuer,  
+CNY billion 
+PRC 
+HKG 
+Other Asia-Pacific Countries 
+US 
+Europe 
+Supra-national 
+Others 
+
+
+[PDF page 15]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+13 
+ 
+RMB hub as the gateway for Portuguese-speaking trading partners of the PRC. The 
+target markets include Angola, Brazil, Cape Verde, East Timor, Guinea-Bissau, 
+Mozambique, Portugal, and São Tomé and Príncipe (Teng 2013). The Chairman of the 
+Monetary Authority of Macao has noted the increasing economic ties between the PRC 
+and the Lusophone (i.e., Portuguese-speaking) countries over the years. Evidently, 
+based on the IMF Direction of Trade Statistics, bilateral trade growth between the two 
+blocs averaged 39.4% annually from 2000 to 2012. 
+Recent developments suggest that the interest in RMB business is gaining headway 
+outside of the two pioneer offshore RMB locations. In the first half of 2013, 
+Taipei,China and Singapore were permitted to operate their own RMB hubs after 
+successfully negotiating clearing agreements with the PRC. The local branch of the 
+Bank of China and the Industrial and Commercial Bank of China (ICBC) were 
+designated as clearing banks in Taipei,China and Singapore, respectively (PBoC 
+2013b). This decision makes business sense since these two economies occupied the 
+second and third spots in the list of the biggest RMB remitters to the PRC and Hong 
+Kong, China as of April 2013 (Swift 2013a). 
+Taipei,China’s participation in the PRC’s efforts to promote the RMB overseas could be 
+traced back to the signing of the Cross-Straits Banking Supervision Memorandum of 
+Understanding in November 2009 (Subacchi and Huang 2013). Notably, the PRC 
+presently accounts for close to a quarter of Taipei,China’s total trade, making it the 
+economy’s biggest trading partner. While Taipei,China does not appear to be 
+interested in challenging Hong Kong, China’s primordial role in the region in terms of 
+RMB business, it has aspirations of making it big as an intermediary (Subacchi and 
+Huang 2013).  
+Within around 4 months of the RMB platform being formalized in Taipei,China, RTS 
+had risen to CNY240 billion, as reported by the Bank of China (2013). RMB clearing in 
+Taipei,China had been participated in by 64 agent banks, which had processed 36,000 
+RMB settlement and clearing transactions as of 5 July 2013. Moreover, members of the 
+local financial circles saw the commencement of Taipei,China’s version of dim sum 
+bonds. The first RMB bonds in Taipei,China—locally known as the “bao dao” or 
+“Formosa” bonds—were issued by Chinatrust Financial Holding on 25 February 2013. 
+The notes had a 3-year tenor worth CNY1 billion at a yield of 2.9%. Deutsche Bank 
+became the first foreign institution to tap Taipei,China’s RMB bond market after 
+completing a CNY1.1 billion debt sale on 5 June 2013. The fund-raising was comprised 
+of CNY1 billion 3-year bonds at 2.45% and CNY100 million 5-year non-call one bonds 
+at 2.65%. After a series of successful tenders (five in all, totaling CNY3.9 billion as of 
+June 2013),18 some of the well-known brands in finance (e.g., China Development 
+Bank, ICBC, Barclays, HSBC, and Standard Chartered) were seen to be following suit 
+(Wong 2013). Outstanding RMB deposits in Taipei,China stood at CNY98.7 billion at 
+end-September 2013 from practically nil when local banks started accepting RMB 
+deposits 7 months earlier.19
+Singapore aims to corner the growing PRC transaction volume of Southeast Asian 
+countries, which to a certain extent would put it toe-to-toe with Hong Kong, China. The 
+market did not disappoint when Singapore opened its bid to challenge Hong Kong, 
+ 
+                                               
+18 Based on data from Bloomberg. 
+19 Based on the media release of the Bank of China (2013), 64 banks are currently taking part in RMB 
+intermediation in Taipei,China. This indicates that nine in every 10 banks in Taipei,China offer RMB 
+facilities. According to the statistics posted on the website of the central bank of Taipei,China, there are a 
+total of 69 banking institutions in Taipei,China, of which 41 are domestic and 28 are foreign bank 
+affiliates based in Taipei,China. 
+
+
+[PDF page 16]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+14 
+ 
+China’s dominance in facilitating RMB dealings. Two business days after the release of 
+the circular regarding the conduct of RMB business in Singapore, HSBC and Standard 
+Chartered issued the first “Lion City” RMB bonds totaling CNY1.5 billion. Standard 
+Chartered rolled out a 3-year CNY1 billion bond at 2.62%, which was three times 
+oversubscribed. HSBC, on the other hand, floated CNY500 million worth of debt papers 
+yielding 2.25%. RMB deposits in Singapore have built up to over CNY60 billion a 
+month after the RMB platform began to function—about the same RTS value recorded 
+by ICBC during the period.20
+In Europe, the City of London, with the support of some of the biggest banks in the 
+world (collectively subsumed under the group “City of London Initiative”),
+   
+21 has also 
+been campaigning quite strongly to have its own clearing bank and to effectively 
+become the RMB corridor of the continent. According to the Swift RMB tracker (2013a), 
+the United Kingdom (UK) is the largest RMB remitter to the PRC and Hong Kong, 
+China. Thus, it makes sense for the City to lobby for its own platform. With the PRC 
+trying to ramp up its business interests outside Asia, the wide-ranging London financial 
+sector stands to capitalize on the massive potential of RMB-based international flows.22 
+In October 2013, the UK and the PRC reached an agreement granting London-based 
+institutional investors a CNY80 billion quota to invest in PRC domestic securities 
+through the renminbi qualified foreign institutional investor scheme. The following 
+month London also played host to the first RMB bond issuance of a PRC institution 
+outside of PRC juridical territory when ICBC successfully negotiated CNY2 billion worth 
+of debt notes with investors based in the English capital, cementing London’s stature 
+as Europe’s leading RMB hub.23
+Indeed, with the establishment of RTS and the implementation of the associated 
+deregulation measures, offshore liquidity circulation and competition have improved, 
+the gaps between the fundamental onshore market indices and their offshore 
+counterparts have narrowed, and offshore RMB-related business has flourished.
+  
+24
+2.4 Lessons Learned 
+ 
+The pilot RMB trade settlement scheme provides a few lessons for Asia concerning its 
+role in reforming the IMS. 
+First, it shows that building the necessary monetary and financial infrastructure can 
+make a difference. Lack of infrastructure and high transaction costs between non-US 
+                                               
+20 There are presently some 50 banks participating in the RMB business in Singapore, according to 
+information provided by the Monetary Authority of Singapore (MAS) to the authors. This number 
+represents roughly a quarter of the total number of banking institutions in the country, However, it is only 
+reasonable to expect that involvement of banks in the new market will broaden in the coming years as 
+RMB liquidity increases. There are generally no restrictions on banks conducting RMB business and any 
+bank may opt to conduct RMB business as long it complies with existing regulations (MAS 2013). 
+21 The list of banks includes Bank of China, Barclays, China Construction Bank, Citi, Deutsche Bank, 
+HSBC, ICBC, JP Morgan, Royal Bank of Scotland, and Standard Chartered. 
+22 In addition to London, Frankfurt and Sydney are also reportedly crafting strong cases to become RMB 
+hubs. 
+23 The first RMB bond issuance in London was done by HSBC Holdings in April 2012. The bond offer raked 
+in CNY2 billion. This was followed by a bond tender by the Australia and New Zealand Banking Group 
+Limited amounting to CNY1 billion in August 2012 (City of London 2012). 
+24 Eichengreen (2012) argues that the PRC’s plan for the RMB to rival the US dollar depends on how it 
+addresses the following challenges in the long run: (i) building more liquid financial markets; (ii) opening 
+the capital account; (iii) handling the growth slowdown; and (iv) making credible commitments to develop 
+deep and liquid financial markets. 
+
+
+[PDF page 17]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+15 
+ 
+dollar currencies are the prime reasons for the triangular transaction of non-US dollar 
+currencies through the US dollar and the skepticism that no currency can replace the 
+role of the US dollar as global reserve currency in the near future. But the RMB trade 
+settlement scheme shows that this can be a “chicken and egg” question. It is a good 
+example of how proper infrastructure can facilitate trade transactions and generate new 
+demand. This experience implies that, rather than focusing on what the new global 
+reserve currency should be, building the necessary monetary and financial 
+infrastructure and letting markets determine the winner may be an appropriate 
+approach in reforming the IMS. It is true that markets, not governments, determine 
+settlement currencies, but policy also plays a role. Asia’s development experience in 
+particular demonstrates that governments can build infrastructure to affect markets’ 
+choice. Asia has not yet invested in cross-border financial infrastructure and if Asia 
+continues to avoid doing so, high transaction costs and risks will remain.  
+Second, another important implication from this experience is that full liberalization of 
+the capital account or full deregulation of capital markets is not required for a currency 
+to be internationalized. To be a reserve currency, full convertibility may be necessary, 
+but establishing regional settlement currencies may not require full liberalization. The 
+cases of the Japanese yen and the former German mark demonstrate that a currency 
+can be used for settlement and reserve holdings while remaining subject to certain 
+capital controls. Similarly, the RMB trade settlement scheme is a highly restrictive and 
+controlled system but it can still contribute to reducing US dollar dependence and 
+diversification of international settlement currencies in the medium term. The fear of 
+risks involved in capital market liberalization and deregulation cannot be an argument 
+against the internationalization of local currencies. One can argue that the RMB trade 
+settlement scheme can cause more speculation and volatility as it contributes to 
+increased offshore activities (Yu 2012b; Mallaby and Wethington 2011). However, this 
+view is somewhat exaggerated. Even without the RMB trade settlement scheme, the 
+non-deliverable forward (NDF) market can flourish and affect domestic monetary policy 
+management and volatility in a similar way to the RMB trade settlement scheme. The 
+recent experience of the Republic of Korea’s won NDF market is a case in point. Other 
+examples include the Australian dollar and the Mexican peso, where offshore capital 
+market developments preceded local markets. It is true that the RMB trade settlement 
+scheme can increase offshore deposits and thereby offshore RMB borrowings, which 
+can be used for leveraged speculative attacks. However, the beauty of the current 
+system is that the PRC government is liable only up to some multiple value of 
+settlement of trade-related payments, limiting the possibility of speculative attacks. On 
+the other hand, it spurs the development of selected capital market instruments in 
+offshore markets. Compared with its long-term benefits, such as local currency 
+denominated offshore capital market development and a gradual learning experience 
+for managing capital market opening, the cost does not seem large. This is even more 
+accurate if we consider that the NDF market for the RMB would have developed much 
+faster anyway. 
+Third, to be effective, payments and securities settlement systems should go hand in 
+hand. People would not own RMB deposits if the opportunities for managing their 
+assets were limited. In other words, the availability of other investment opportunities for 
+RMB, such as RMB bonds and RMB investment and asset management products, is 
+an important aspect of the system that has promoted the wider use of the RMB. This 
+investment opportunity would not have arisen had a securities settlement system not 
+been in place. The early success of the RMB trade settlement system is partly due to 
+the efficient securities trading and settlement system in Hong Kong, China, where 
+infrastructure for payment vs. payment is available together with infrastructure for 
+delivery vs. payment for RMB securities. A joint payments settlement and securities 
+
+
+[PDF page 18]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+16 
+ 
+settlement infrastructure can also solve the cross-border securities settlement risks, the 
+so-called third time zone problem, as will be discussed in the next section.  
+3. EXPANDING AND DEEPENING THE REGIONAL 
+CURRENCY SETTLEMENT SYSTEM 
+3.1 Expansion of the Bilateral Trade Settlement System 
+Considering the initial success of the RMB trade settlement system, one can think of 
+two options for further promotion of RMB internationalization. One is to expedite capital 
+market liberalization and allow more repatriation of the RMB in overseas markets to the 
+PRC (Ma, Liu, and Miao 2012). An alternative approach would be further expansion of 
+the trade settlement scheme to neighboring economies. Unlike during the first phase of 
+yen internationalization, 25 both options are consistent with the apparent policy 
+willingness of the PRC authorities to push the RMB up the reserve currency ladder in 
+the long run.26
+With the volume of offshore RMB deposits increasing, there has been and will be more 
+outside pressure on the PRC to allow the deregulation of capital markets through the 
+repatriation of RMB offshore to the PRC. Allowing more repatriation and capital market 
+liberalization will definitely accelerate the internationalization of the RMB and be 
+inevitable in the long run. But deregulation will complicate exchange rate and monetary 
+policy management as well as pose risks of capital volatility in the short run. Even 
+though more deregulation is called for, the PRC government needs to carefully 
+delineate between the policy objective of ensuring an orderly capital market 
+deregulation and the objective of developing offshore capital markets and promoting 
+RMB internationalization. As such, it may need to consider first expanding the current 
+trade settlement scheme to other regional economies such as Japan, ASEAN, and the 
+Republic of Korea. This way the PRC can continue with its RMB internationalization 
+plan while gradually deregulating and deepening RMB-denominated financial markets. 
+ 
+In fact, expanding the local currency trade settlement scheme into a regional trade 
+settlement system does not need to be led by the PRC alone. As a practical solution for 
+IMS reform, Asian economies could introduce a bilateral or multilateral trade-related 
+payment settlement scheme such as that between the PRC and the current offshore 
+hubs. Extending the trade settlement scheme to regional economies does not imply 
+that all regional currencies will be internationalized or used for settlement of trade 
+transactions. Markets will determine which currencies will be more widely used for 
+trade settlements, and the RMB will most likely dominate. But irrespective of which 
+currency will be used more often or chosen by the market, the emergence of regional 
+currencies as trade settlement currencies will reduce developing Asia’s dependence on 
+the US dollar and contribute to the diversification of international settlement currencies. 
+Indeed, these agreements do not even have to be limited to Asian economies. Trade 
+                                               
+25 The proceedings in the internationalization of the yen can be divided into two phases. The first phase is 
+from the 1970s to the mid-1980s when the international use of the yen was a popular market strategy but 
+not a popular government policy. The second phase started sometime in the mid-1990s when the 
+government’s perception about the supposed international status of the yen changed but the market was 
+no longer as willing as it had been to accommodate the yen as a portfolio currency in the face of less 
+rosy prospects for the Japanese economy (Frankel 2011; Maziad and Kang 2012).  
+26 Mallaby and Wethington (2011) discuss the political economy behind the unorthodox sequencing of RMB 
+internationalization. 
+
+
+[PDF page 19]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+17 
+ 
+among emerging economies is on the rise, and local currency trade settlements could 
+facilitate the integration of interregional emerging markets more broadly.  
+Intra-regional trade has grown tremendously over the past 3 decades. In 1990, annual 
+trade within developing Asia was only $284 billion. By 2012, intra-Asian trade had risen 
+to $4,371 billion (equivalent to an average annual growth rate of 12.4%). Considering 
+the rising middle income class in Asia and the protracted slowdown in advanced 
+economies, Asian traders are likely to look further to their neighbors as alternative 
+destinations of the goods they produce. If regional traders continue to use the US dollar 
+to settle transactions, the vulnerability of Asian economies will increase. 
+As noted above, RMB cross-border trade settlement in Hong Kong, China and Macao, 
+China has already exceeded 100% of their bilateral trade with the PRC. If we assume 
+that all intra-regional trade within developing Asia is settled in local currencies, the use 
+of the US dollar for trade transactions could potentially be reduced by over $4 trillion 
+per year. 
+Data from the Hong Kong Interbank Clearing System suggest that RMB clearing 
+transactions have also risen very strongly. When it started operations in 2006, the 
+monthly average transaction value was only CNY352 million. In the first 10 months of 
+2013, average RMB clearing transactions in Hong Kong, China reached CNY6,326 
+billion. This is more than 21 times the monthly average PRC trade settled in RMB due 
+to the rapid rise in non-trade related RMB transactions. This factor of 21 demonstrates 
+the huge potential of reducing US dollar usage in developing Asia through local 
+currency intra-regional clearing transactions.27
+The PRC can learn from the experience of the US during the early part of the 20th 
+century. The prime position of the US dollar in the international monetary system today 
+was achieved mainly as a result of a combination of timely circumstances.
+ 
+28 Of 
+particular importance was the development of the US dollar-denominated trade 
+acceptances market resulting from the passage of the Federal Reserve Act (FRA) of 
+1913 and the subsequent supporting measures of the Federal Reserve (the Fed). The 
+dramatic expansion of US dollar-denominated trade acceptances proved to be a pivotal 
+factor that underpinned the transformation of the US dollar from a marginal currency to 
+the most dominant unit of money in the world. Until then, despite the US’s enormous 
+trade linkages, US traders, along with most traders in other countries, had been heavily 
+reliant on the London market to finance their trade negotiations, albeit at a higher 
+cost.29
+In essence, the FRA gave the US domestic financial market much needed stability with 
+the creation of the Fed as the central monetary regulator and as a lender of last resort. 
+ 
+                                               
+27 To illustrate, if 100% of intra-regional trade transactions in developing Asia is settled in local currency, 
+US dollar usage could be reduced by over $4 trillion per year. If local currency intra-regional clearing 
+transactions could amount to 21 times this value, it would run up to over US$90 trillion per year, which is 
+a significant improvement but still only a small fraction of the over US$200 quadrillion annual (or more 
+than US$800 billion a day) over-the-counter foreign exchange turnover in US dollars in the 10 Asian 
+economies (i.e., the PRC; Hong Kong, China; India; Indonesia; the Republic of Korea; Malaysia; the 
+Philippines; Singapore; Taipei,China; and Thailand) included in the BIS Triennial Central Bank Survey 
+(BIS 2013). As such, the proposal in this paper should be regarded as a first small step toward regional 
+settlement currencies. 
+28 These include a dramatic growth in the global economic reach of the US beginning the mid-1800s, well-
+grounded forward-looking domestic regulations following a series of financial crises by the turn of the 
+century, and the unfortunate turn of events that hobbled its European rivals in the first half of 1900s.  
+29 The US surpassed the economic size of the United Kingdom (UK) in 1870 and the value of US 
+merchandise exports exceeded the UK’s in 1912 (Eichengreen 2011). 
+
+
+[PDF page 20]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+18 
+ 
+Having such an institution lessened market volatilities and improved the investment 
+climate. The FRA also did away with restrictions on foreign bank branching as well as 
+trade financing and provided a structure for US banks to expand their overseas 
+operations, especially the promotion of US dollar-denominated trade credits. 30
+With the trade acceptances market in place, the unfolding of World War I provided an 
+important avenue for the US to elevate the US dollar’s international position.
+ 
+Authorities initially viewed the promotion of US dollar trade acceptances overseas as a 
+way to smoothen “interest rate spikes and market seizures” (Eichengreen 2011). 
+31 The war, 
+which disjointed both the flow of commodity and trade financing in Europe, resulted in 
+increased international demand for US commodities and US dollar trade credit. After 
+the war, no country in Europe was in a position to compete with the US economically or 
+financially. Rather, post-war reconstruction broadened the trade and financial 
+dependence of Europe on the US, and placed the US dollar much more firmly at the 
+center of the international monetary system. At some point in the mid-1920s, even 
+imports and exports between countries that neither touched the US shores nor involved 
+US enterprises already made use of US dollar trade acceptances.32
+Expansion of the RMB trade settlement scheme into a multilateral system could be 
+based on the settlement system that was initially put in place when the euro was 
+launched. Before the introduction of the euro, eurozone member countries had their 
+own independent real time gross settlement (RTGS) systems for their national 
+currencies. With their adoption of the single currency in 1999, these independent 
+systems were linked together via the Trans-European Automated Real-Time Gross 
+Settlement Express Transfer (TARGET) system following the definition of harmonized 
+ 
+                                               
+30 The National Bank Act of 1863 that preceded the Federal Reserve Bank Act of 1913 had strict branching 
+restrictions. National banks were not allowed to have branches in other countries, nor at times even in 
+other states. National banks were also prohibited from entering into trade credit transactions. The only 
+national bank not covered by the regulation was the International Banking Corporation—a specialized 
+institution created to focus on overseas banking, but which was not allowed to deliver banking services 
+domestically on antitrust grounds. Although trust companies were permitted to branch out overseas, only 
+a handful of institutions did erect branches on foreign soil. Some big US private banks that were outside 
+the scope of national regulations and had overseas offices could have easily entertained trade credit 
+transactions. But incentives to do so were low. They were largely hampered by their cost disadvantage 
+compared with their European counterparts. The US, in the absence of a central financial market 
+regulator and a lender of last resort, constantly succumbed to highly volatile market swings, making 
+investment activities (even reserve placement) very risky. The US at that time also had an 
+underdeveloped financial market that made it difficult to re-sell the acceptances. 
+31 A shallow investor pool, a lack of familiarity of US-based creditors with the trade acceptances, and the 
+difficulty of liquidating the instruments initially hampered full-blown development of trade financing 
+business in the US. But the Fed responded by directing its regional offices to take on the trade financing 
+responsibilities in their own accounts, which lowered the discount rates on trade acceptances. The Fed’s 
+actions organized the trade acceptances credit flow and gave credibility to such notes with its regional 
+branches serving as the primary counterparty that made them easier to trade. The resulting ease with 
+which US dollar trade acceptances could be intermediated provided an incentive for its usage. 
+Subsequently, the US dollar trade acceptances market begun to attract more investors, not just 
+domestically but also foreign central banks surpluses in the US, thus paving the way for the considerable 
+expansion of the instrument’s utilization. 
+32 The increasing role of the US dollar in international trade finance spilled over to other financing 
+arrangements. The stability in the value of the US currency owing to a much stronger domestic financial 
+market made it an attractive vehicle to do business and move money across borders. It was not just a 
+case of Europeans reaching out to the US markets; the US authorities also aggressively promoted US 
+dollar financing in Europe. By contrast, the war undermined the international standing of the then 
+reigning de facto global currency—the UK’s pound sterling—as a result of a deterioration in the UK’s 
+public finances. Internal disruptions affecting the UK’s production lines added to the growing loss of 
+confidence in the UK currency.   
+
+
+[PDF page 21]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+19 
+ 
+standards for cross-border sending and receiving of payments. Central banks 
+continued to handle the settlement of payments for their domestic banking community. 
+At that time, transaction fees were not harmonized and were individually set by each 
+central bank. The decentralized nature of the system also multiplied the costs. To 
+better harmonize service and cost, as well as to improve cost-efficiency (since 
+revenues were insufficient to cover costs), the Governing Council of the European 
+Central Bank agreed in 2002 to establish the second generation TARGET system, i.e., 
+TARGET2. The new system offers harmonized services delivered on a single technical 
+platform—the “Single Shared Platform”—at uniform cost. Fees were set at levels that 
+allow the system to fully recover costs. TARGET2 went live in November 2007, but 
+replaced the first generation system only in May 2008. 
+In general, TARGET2 facilitates the settlement of euro payments in central bank 
+money with immediate finality. Currently, TARGET2 is considered to be one of the top 
+three global wholesale payment systems and settles transactions the size of the annual 
+eurozone gross domestic product (GDP) in just over three days. At the local level, the 
+decentralized nature of TARGET2 is maintained, and the relationship between central 
+banks and their counterparties is preserved, including those for monetary policy and 
+lender of last resort. 
+3.2 Combining the Regional Trade and Government Bonds 
+Settlement Systems 
+One lesson from the RMB trade settlement scheme experience of Hong Kong, China is 
+that having an efficient payments and securities settlement system could 
+simultaneously have strong synergy effects in terms of promoting internationalization of 
+regional currencies. As such, the regional trade payment settlement system could be 
+combined with a government securities settlement scheme. This could be an effective 
+way to both reduce US dollar dependence and promote local currency denominated 
+bond markets in Asia.  
+After the Asian financial crisis in 1997, the ASEAN+3 economies tried hard to promote 
+the development of local currency denominated bond markets. There was a strong 
+realization that the underdevelopment of bond markets in the region greatly 
+exacerbated, or perhaps even caused, the crisis. The idea of regional bond markets 
+was promoted as a means of overcoming the double mismatch problem that most 
+Asian borrowers face when they try to raise funds abroad. The double mismatch refers 
+to the currency mismatch and the maturity mismatch, and it is also considered to be the 
+root cause of the 1997 Asian financial crisis.  
+Supported by these policy initiatives, local currency bond market issuance in 
+developing Asia has expanded rapidly since the Asian financial crisis. From only 
+US$126 billion by the end of 1995, outstanding local currency bonds in Asia had 
+ballooned to US$6,532 billion by end-2012, and US$6,762 billion by June 2013 (Figure 
+4). While corporate bond issuance has likewise increased, government bonds still 
+account for close to two-thirds of this amount. It is worth noting that cross-border 
+holdings of portfolio securities among ASEAN+3 economies have sharply increased as 
+well. Intra-ASEAN+3 cross-border holdings of debt securities were US$29 billion in 
+2001 and amounted to US$130 billion at end-2012 (Figure 5). Since bonds originating 
+from Asia are predominantly government securities, these cross-border holdings are 
+perhaps mostly government bonds too. This implies that there are tremendous new 
+business opportunities for cross-border trading and settlement of government bonds in 
+
+
+[PDF page 22]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+20 
+ 
+Asia. So combining the regional trade payment settlement system with a government 
+securities settlement scheme could make good business sense as well. 
+Figure 4: Local Currency Bonds Outstanding in Asia, US$ trillion 
+ 
+Source: AsianBondsOnline. 
+Figure 5: Intra-ASEAN+3 Cross-Border Holdings of Debt Securities, US$ billion 
+ 
+ASEAN+3 = Association of Southeast Asian Nations (Brunei Darussalam, Cambodia, Indonesia, the Lao 
+People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Viet Nam) plus 
+the People’s Republic of China, Japan, and the Republic of Korea. 
+Source: IMF Coordinated Portfolio Investment Survey. 
+0 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 June 
+2013 
+US$ trillion 
+Corporate 
+Government 
+24 
+29 
+23 
+27 
+35 
+40 
+45 
+69 
+60 
+92 
+105 
+133 
+130 
+0 
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1997 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 
+US$ billion 
+
+
+[PDF page 23]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+21 
+ 
+In fact, as a part of the ASEAN+3 Asian Bond Markets Initiative (ABMI), discussions 
+are currently underway to set up a Regional Settlement Intermediary (RSI) for 
+securities, in particular cross-border bond transactions (ADB 2010). This is a very 
+important initiative and some limited progress has been made. Building a full business 
+model for securities settlement would require large fixed costs and full liberalization of 
+capital markets. Progress with the realization of this initiative has slowed after the 
+global financial crisis partly due to the increasing unwillingness of regional 
+governments to expedite capital market liberalization.  
+For the time being, instead of trying to develop a full-scale RSI with full capital market 
+liberalization, it may be better to focus on a government bond trading and settlement 
+system together with a trade-related payment settlement system. This proposal is 
+presented schematically in Figure 6.  
+Figure 6: The Proposed System 
+ 
+- - - = potential future additions, CLS = continuous linked settlement, CSD = central securities depository, ECB 
+= European Central Bank, RTGS = real time gross settlement, USD = United States dollar. 
+Source: Authors. 
+Similar to the RMB trade settlement scheme between the PRC and Hong Kong, China, 
+Asian central banks could enter into bilateral agreements with other regional central 
+banks (i.e., just like the one between PBoC and HKMA) to allow the settlement of trade 
+transactions in regional currencies. In addition, using the same platform, trading and 
+settlement of government bonds could be included in these bilateral trade settlement 
+agreements. Having an efficient payments and securities settlement system 
+simultaneously could have strong synergies in promoting internationalization of 
+regional currencies as demonstrated by the RMB trade settlement scheme in Hong 
+Kong, China. To make this proposal work, central banks need to ensure that there is 
+sufficient supply of their local currencies in partner countries to facilitate payment of 
+trade as well as government bond transactions. In other words, as long as traders are 
+able to provide evidence that their holdings of regional currencies result from trade or 
+government bond transactions, central banks could guarantee the convertibility of 
+Future Asian
+Payments
+Bank
+RTGS
+Asian 
+currency B
+Member
+bank
+Member
+bank
+CLS Bank
+RTGS 
+Asian 
+currency A
+Central 
+Bank A
+Central 
+Bank B
+Investor
+PvP settlement bridge
+PvP settlement links
+Investor
+RTGS
+Euro (ECB)
+RTGS
+USD (Fed)
+"Asian time"
+USD
+Euro
+CSD A
+CSD B
+Investor
+Investor
+
+
+[PDF page 24]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+22 
+ 
+these regional currencies into international currencies anytime. Opening of bilateral 
+currency swap lines is thus vital to address these liquidity considerations inasmuch as 
+trade and government bond transactions are concerned. 
+However, unlike in trade transactions where actual delivery of goods is outside the 
+scope of the settlement infrastructure, bond transactions require an additional 
+dimension in terms of custodians and central securities depositories, which can be 
+provided by central banks either directly or indirectly.  
+Fortunately, most central banks in Asia function as government bond securities 
+depositories and settlement institutions anyway, as summarized in Table 2.33
+Table 2: Clearing and Settlement Institutions for Government Bonds in Asia 
+ Since 
+expanding the bilateral trade payment settlement system regionally requires linkages 
+between central banks, adding a government bond settlement system with securities 
+depositories will not cost a large amount of new fixed investment. Yet it will promote 
+additional business and expedite the internationalization of currencies. Once this model 
+has generated sufficient business, it can be privatized later as the RSI and expanded 
+for other securities such as corporate bonds or equity depository and settlement. 
+Economy 
+Clearing 
+Securities Settlement 
+Deposits 
+Payment Settlement 
+Australia 
+Austraclear 
+Austraclear 
+Austraclear 
+RBA 
+New Zealand 
+NZClear 
+NZClear 
+NZCSD 
+RBNZ 
+Hong Kong, China 
+CMU 
+CMU 
+CMU 
+HKMA 
+Indonesia 
+KPEI 
+BI-SSSS 
+BI-SSSS 
+BI 
+Malaysia 
+SSDS 
+SSDS 
+SSDS 
+BNM 
+Thailand 
+BOT 
+TSD 
+TSD 
+BOT 
+Philippines 
+BTr 
+BTr 
+BTr 
+BSP 
+Japan 
+JGBCC 
+BOJ 
+BOJ 
+BOJ 
+Republic of Korea 
+KRX 
+KSD 
+KSD 
+BOK 
+PRC 
+CGSDTC 
+CGSDTC 
+CGSDTC 
+  
+Taipei,China 
+CBC 
+TSCD 
+TSCD 
+CBC 
+Singapore 
+MAS 
+MAS 
+CDP 
+  
+India 
+CCIL 
+RBI 
+RBI 
+ NDS/SSS 
+Pakistan 
+The State Bank of Pakistan 
+BI = Bank Indonesia, BNM = Bank Negara Malaysia, BOJ = Bank of Japan, BOK = Bank of Korea, BOT = 
+Bank of Thailand, BSP = Bangko Sentral ng Pilipinas, BTr = Bureau of the Treasury, CBC = Central Bank of 
+China, CCIL = Clearing Corporation of India Limited, CDP = Central Depository Pte Ltd, CGSDTC = China 
+Government Securities Depository Trust and Clearing Co. Ltd, CMU = Central Moneymarkets Unit, HKMA = 
+Hong Kong Monetary Authority, JGBCC = Japan Government Bond Clearing Corporation; KPEI = PT Kliring 
+Penjaminan Efek Indonesia (Securities Underwriting Clearing Indonesia), KRX = Korea Exchange, KSD = 
+Korea Securities Depository, MAS = Monetary Authority of Singapore, NDS/SSS = Negotiated Dealing 
+System/Securities Settlement System, NSDL = National Securities Depository Limited, NZCSD = New 
+Zealand Central Securities Depository Limited, PRC = People’s Republic of China, RBA = Reserve Bank of 
+Australia, RBNZ = Reserve Bank of New Zealand, SSDS = Scripless Securities Depository System, SSSS = 
+Scripless Securities Settlement System, TSCD = [Taipei,China] Securities Central Depository Co., Ltd., TSD = 
+Thailand Securities Depository. 
+Sources: BIS (2011, 2012), EMEAP (2012). 
+                                               
+33 Starting with a government bond settlement scheme makes sense from business feasibility perspectives, 
+too. After the launch of ABMI, there has been significant progress in the development of government 
+bond markets in the region, but less so in corporate bonds. At the start of 2003, the value of outstanding 
+government bonds in developing Asia was only US$711 billion, and corporate bonds US$456 billion. By 
+June 2013, the size of outstanding government bonds had risen more than six times, but that of 
+corporate bonds by just over five times. 
+
+
+[PDF page 25]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+23 
+ 
+Although not entirely comparable, with respect to financial feasibility the experience of 
+Euroclear and Clearstream in intermediating stateless Eurobond issuances beginning 
+in the late 1960s34 indicates that defragmenting clearing and settlement of securities 
+presents a high-potential business.35, 36
+However, if the securities settlement system in the eurozone is any indication, 
+integrating securities infrastructure may take much more time. In 2006, the TARGET2–
+Securities (T2S) project was introduced to integrate euro securities infrastructure, but 
+progress has not been as fast as with TARGET2. The T2S aims to provide a single 
+pan-European platform for securities settlement in central bank money at low cost. Just 
+like TARGET2, uniform rules, standards, and tariffs will apply to all transactions in all 
+T2S markets when it begins operation in June 2015. 
+ Moreover, it was also seen in the case of 
+Eurobonds that the existence of a centralized interface for multiple issuances available 
+in multiple markets lowered the cost of intermediation, and thus encouraged greater 
+transaction volume. 
+In any case, a combined trade settlement and securities settlement system would 
+create various synergies across the financial market. First, government bonds 
+deposited in central banks could be used as collateral which could efficiently reduce 
+risks in trade and non-trade related cross-border securities transactions. Indeed, the 
+system in Europe also provides collateral management services, in which eligible 
+counterparties mobilize collateral for use in credit operations. But one of the most 
+important benefits of this joint payments and securities settlement infrastructure is to 
+alleviate “the third time zone” problem (Park and Rhee 2006). 
+Due to the lack of an Asian securities settlement system, Asian investors lose liquidity 
+or pay more transaction costs even though they can settle their payment transactions 
+with each other in the same time zone. Currently, when Asian investors trade securities 
+with each other, payment transactions can be made instantly or nearly instantly as the 
+business hours of most central banks in Asia are in a similar time zone. But securities 
+                                               
+34 In July 1963, the very first Eurobond issuance by the Italian firm Autostrade was offered to European 
+investors and it was received warmly with strong participation from the “Belgian Dentist” (a collective 
+term that refers to European investors who finally managed to set aside some savings during post-war 
+reconstruction). One factor considered in the Autostrade issuance is the size of the offshore dollar pool 
+that European countries had accumulated since the late 1800s. Another factor that resulted in essentially 
+the second expansionary phase of the offshore dollar bond market was the levy slapped by the US 
+government on bond issuance of foreign companies in the US, i.e., the interest equalization tax (IET) 
+imposed in July 1963. US authorities at that time were worried about the strain on the US balance of 
+payments position brought about by its war spending on the Korean and the Viet Nam wars. The IET, 
+which was approved by Congress the following year with retroactive effect from the President’s 
+announcement, imposed a 15% tax on the cost of foreign shares bought by US citizens and a graduated 
+tax on foreign bonds of between 2.75% for those with a maturity of less than 3.5 years and 15% on long-
+dated bonds (Norman 2007).  
+35 A pilot securities settlement scheme, spearheaded by US banking giant Morgan Guaranty Trust 
+Company (MGTC) and launched on 21 July 1967, largely as a response to the burgeoning Eurobond 
+market, facilitated the establishment of European international central securities depositories (ICSDs). 
+Euro-clear (hyphen dropped in 1989) was launched by MGTC on 2 December 1968. It is the first ICSD to 
+break ground with a client list comprised of more than 50 banks and dealers at its start. In 1 year its 
+client base increased to 150. Euro-clear quickly made a hefty fortune—both from the value of services 
+and from their investments funded by the huge deposits in the cash accounts of their clients. Much of the 
+business is anchored on the market’s appreciation of the delivery versus payment capability of the 
+infrastructure. The establishment of Euro-clear also prevented the Eurobond market from seizing up. But 
+at this early stage, a sense of the necessity to break away from the flagship US bank Morgan Guaranty, 
+whether because of technical or political reasons, was already budding. 
+36 On 28 September 1970, Centrale de Livraison de Valeurs Mobilières (Cedel), a company which is co-
+owned by 71 banks from 11 countries was inaugurated. It had an initial capital of US$1.15 million. Cedel 
+was later bought by Deutsche Börse Clearing and is presently known as Clearstream. 
+
+
+[PDF page 26]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+24 
+ 
+settlement has to wait until the settlement hours in the US or Europe as most of the 
+international securities are deposited in Europe and US with time zones quite different 
+from Asia. By having payment and settlement systems in the same Asian time zone, 
+this third time zone problem could be solved.  
+To illustrate the third time zone problem, consider the settlement process of an Asian 
+bond that is denominated in Hong Kong dollars. Hong Kong, China is 7 hours ahead of 
+Brussels, where Euroclear is located. Assume that the settlement date of the bond is 2 
+October in Brussels. In order to finalize the settlement by that date, Euroclear currently 
+mandates that a buyer and a seller deposit money and security in a common 
+depository of Euroclear in Hong Kong, China—HSBC bank—by 1 October, which is a 
+day before the settlement date. After getting notification from HSBC overnight, 
+Euroclear Bank in Brussels completes the security settlement by 9 a.m. on 2 October 
+(4 p.m. in Hong Kong, China), after which the seller in Hong Kong, China can withdraw 
+Hong Kong dollars, and the settlement could be finished by 2 October. 
+Instead of depositing money and securities a day before the settlement date, if the 
+buyer and seller want to settle securities by using the RTGS system on 2 October 
+Belgium time, the seller may not be able to withdraw money by 2 October. For 
+example, by the time the RTGS settlement is completed by 3 p.m. on 2 October, it is 
+already 10 p.m. in Hong Kong, China and the bond seller would have to wait until the 
+next day to withdraw his/her money. This is one reason why Euroclear mandates that 
+traders deposit money and securities a day in advance of settling bonds that are 
+denominated in Asian currencies. Otherwise, it cannot secure a settlement date.  
+If bonds are denominated in European currencies or US dollar, security and payment 
+settlement could be completed on the same day through the RTGS system as the time 
+difference between Europe and the Americas works in favor of the security settlement 
+and payment settlement. The third time zone problem implies that investors have to 
+bear the extra cost of losing liquidity for a day when trading Asian currency-
+denominated bonds. If there is a regional securities depository within Asia, investors 
+would not face this extra cost. The benefit of solving the third time zone problem could 
+be significant considering that major investors for Asian currency-denominated bonds 
+are institutional investors located in Asia. 
+In addition to the time difference problem, establishing a combined trade and 
+government bond settlement system through the cooperation of Asian central banks 
+could be a catalyst for the gradual opening of domestic markets and regulatory 
+harmonization across the region. Existing international central securities depositories 
+(ICSDs) such as Euroclear and Clearstream are private entities, and it would be hard 
+for Asian governments to provide incentives to ease regulations to increase business 
+flows for them unless doing so would benefit their national interests. On the other hand, 
+the central banks’ network of trade and government bond settlement systems would 
+encourage them to discuss greater financial policy coordination among Asian 
+governments. It would also promote government bond market dealers, custodians, 
+pricing agencies, which are all necessary infrastructure for the development for a full-
+fledged local currency capital market in Asia. 
+4. RELATIONS WITH OTHER INITIATIVES 
+4.1 Background 
+Over the years, several initiatives were created to build infrastructure for local bond 
+markets on the back of calls for greater regional integration. The idea to establish a 
+
+
+[PDF page 27]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+25 
+ 
+regional currency denominated bond market and a regional central securities 
+depository (CSD) was first put forward in the early 1990s. However, as described by 
+Oh et al. (2003), the early initiatives advocating such propositions were “merely talk 
+without action.” Factors that were cited for non-action of most stakeholders include 
+reluctance to liberalize local capital markets and the absence of the requisite 
+institutions.  
+Following their debilitating experience during the 1997 Asian financial crisis, most 
+Asian countries focused on strengthening their balance of payments positions and 
+started piling up foreign exchange reserves. The rising reserves impelled national 
+authorities to renew discussions concerning regional bond market development to 
+recycle their savings within the region and simultaneously reduce their foreign currency 
+exposure. One of the major movements spearheading the creation of the regional bond 
+market infrastructure is the ABMI. The planning stage of ABMI began in November 
+2002 before it was formally launched during the ASEAN+3 Finance Ministers Meeting 
+in Manila in August 2003. ABMI came after the Chiang Mai Initiative was formalized in 
+May 2000, also by the ASEAN+3 group, and was later complemented by the 
+Executives’ Meeting of East Asia Pacific Central Banks37 with the launch of the Asia 
+Bond Fund initiative in June 2003 and the Asia Bond Fund 2 initiative in December 
+2004.38
+4.2 ABMI and RSI
+ 
+39
+Under ABMI, ASEAN+3 initially launched six working groups to study various aspects 
+of regional bond markets including securitization, regional credit rating agencies, 
+regional clearing and settlement systems, and regional credit guarantee agencies. 
+Regarding the clearing and settlement infrastructure component of ABMI, two studies 
+were undertaken to examine the relevant factors and dimensions. The first of these 
+studies is the “Bond Market Settlements and Emerging Linkages among Selected 
+ASEAN+3 Countries” report, published in 2005. Essentially, the paper pointed out that 
+over-the-counter securities trading in many Asian countries mostly utilizes central bank-
+operated settlement systems that are not linked with a clearing company or a central 
+counterparty. While European ICSDs extended linkages to some economies in Asia for 
+cross-border issuances, the differences in settlement cycles and time zones naturally 
+bring with them inefficiency costs and risks. The study, however, noted that as in the 
+cases of Clearstream and Euroclear, it may take some time before such regional 
+settlement infrastructure has fully developed. Instead, in the interim, it proposed to 
+focus on improvements in fundamental matters such as individual markets’ compliance 
+with international standards to have better links with the global settlement system, 
+especially in terms of legal certainty, delivery versus payment facility, etc. 
+ 
+The follow-up study titled “Minimizing Foreign Exchange Settlement Risk in ASEAN+3 
+Region,” released in 2007, is the second research cycle on bond market infrastructure 
+under ABMI. It assessed the settlement costs and risks accompanying the settlement 
+systems in the region in greater detail. It proposed to establish the RSI and suggested 
+                                               
+37 The Executives’ Meeting of East Asia Pacific Central Banks is composed of the Reserve Bank of 
+Australia, the People's Bank of China, the Hong Kong Monetary Authority, Bank Indonesia, the Bank of 
+Japan, the Bank of Korea, Bank Negara Malaysia, the Reserve Bank of New Zealand, Bangko Sentral 
+ng Pilipinas, the Monetary Authority of Singapore, and the Bank of Thailand. 
+38 The primary goal of Asia Bond Fund and Asia Bond Fund 2 is to boost the demand for local currency 
+bonds (Hyun and Jang 2008). 
+39 This subsection draws heavily from Park and Rhee (2006). 
+
+
+[PDF page 28]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+26 
+ 
+its possible architecture. As one of the rationales for establishing the RSI, the paper 
+addressed how the lack of regional infrastructure can exacerbate the foreign exchange 
+settlement risks—the “third time zone” problem—as explained in the previous section. 
+The suggested types of RSI architecture include the Asia ICSD model, the Pan-Asia 
+CSD model, the Asian Payment Bank model, and the CSD Linkage option.40
+Building on the findings of the two aforementioned studies, the ABMI Group of Experts 
+(GoE) with representation from ASEAN+3 members was formed in April 2008 to 
+evaluate the financial and legal viability of designs of the Asian RSI previously 
+proposed. In the GoE report, only the Asian ICSD model and the CSD linkage model 
+were assessed in terms of operational and legal feasibility for reasons of “practicality.” 
+In a nutshell, the report is geared toward supporting the creation of an Asian ICSD 
+model over the CSD linkage model, but it clearly pointed out daunting and bigger tasks 
+of trimming down legal and regulatory barriers in most Asian economies for the Asian 
+ICSD model than for the CSD linkage model. 
+  
+Needless to say, the proposal put forward in this paper to build bilateral trade and 
+government bond settlement infrastructure is closer to, or a sub-set of, the CSD linkage 
+model. Theoretically, creating a multilateral RSI would be the first best option as 
+pointed out by the GoE report. However, the observation of the GoE report that 
+regulatory controls and legal barriers need to be trimmed down significantly for the RSI 
+to take form does not seem to bode well currently with a number of sovereign monetary 
+authorities—particularly after the global financial crisis. That is why although RSI is 
+arguably the best option to remedy the infrastructure limitations in the region, perhaps it 
+would be more pragmatic to just harness the current trade settlement scheme between 
+Hong Kong, China and the PRC and extend its coverage to government bonds, as 
+mentioned in the previous section. Financial viability may be a concern too in the short 
+term in building regional settlement infrastructure. Euroclear and Clearstream also did 
+not make money at first. Similar to Asia’s growth story, infrastructure was built first to 
+attract private investors. The same logic should apply to the development of regional 
+capital markets in Asia. 
+4.3 ASEAN+3 Local Currency Trading System 
+The push for a more extensive cross-border local currency-based trading system has 
+been further boosted following the conclusion of the 15th ASEAN+3 Finance Ministers 
+and Central Bank Governors’ Meeting in Manila on 3 May 2012. Recognizing the need 
+to advance the agenda of regional financial integration to a higher level, the caucus has 
+called for ABMI to undertake further study on the use of local currencies for regional 
+trade settlement, and put forward concrete policy recommendations. Such an 
+endorsement shows the political will of ASEAN+3 members to reduce the region’s 
+heavy reliance on the US dollar for trade settlement. The proposal set forth in this 
+paper—combining the expanded trade settlement scheme with a government bond 
+                                               
+40 The Asian ICSD model proposes a similar platform to the European ICSDs (e.g., Clearstream and 
+Euroclear) with direct linkages to local central securities depositories (CSDs) as well as to the other 
+ICSDs. The Pan-Asian CSD model indicates that a regional depository for ASEAN+3 debt securities 
+shall be established—the Pan Asian CSD, where all national CSDs could be sub-depositories. A link 
+between the Pan-Asian CSD and other ICSDs will be created while settlement will be in central bank 
+money. The Asian Payment Bank model proposes to have a multilateral payments bank supported by 
+Asian countries. It envisions having a payment vs. payment linkage to the national payments systems 
+and the Continuous Link Settlement (CLS) Bank in Europe while final settlement will be based on the 
+Asian time zone. Finally, the CSD linkage model suggests that instead of creating a central body, it 
+would be easier to just link the national CSDs patterned after the Link Up Markets initiative that was 
+originally participated in by seven European CSDs. 
+
+
+[PDF page 29]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+27 
+ 
+payment and settlement scheme—could be one option to achieve this end. So far, 
+Asian policymakers have continued to complain about rising financial vulnerabilities of 
+their economies resulting from greater interconnectedness of the global economy. To 
+help the region reduce the risks from these vulnerabilities without requiring substantial 
+start-up costs, authorities should show strong political will in establishing central banks’ 
+linkages for trade and government bond settlement. 
+4.4 Bilateral Swaps and Regional Financial Safety Nets 
+As part of regional safety nets, many Asian economies are entering into bilateral swap 
+agreements with other countries to guard against liquidity crises. Indeed, it is ironic that 
+during the 2008 global financial crisis, which started from the financial crisis in the US, 
+it was its currency swap with the US Federal Reserve that helped the Republic of 
+Korea overcome its liquidity constraints. Although bilateral swaps of Asian central 
+banks with the US Federal Reserve have been valuable in mitigating the impacts of 
+past financial crises, it is simply not politically sustainable, and these swaps are not 
+provided on a regular basis. Hence, it is vital for Asian economies to expand intra-
+regional swap lines to strengthen the regional insurance mechanism and increase their 
+capabilities to appropriately address crisis scenarios in the future. The PRC, for 
+example, had 21 active local currency bilateral swap agreements as of October 2013, 
+with a total size of about CNY2.5 trillion. 
+Another safety net is the Chiang Mai Initiative. It was introduced in 2000 as a series of 
+bilateral swap agreements to manage the region’s short-term liquidity problems. In 
+2007, the ASEAN+3 members agreed to improve it and turn it into a multilateral 
+agreement, the Chiang Mai Initiative Multilateralization (CMIM). When the global 
+financial crisis erupted in 2008, the massive contraction in global liquidity underscored 
+the urgent need to strengthen the CMIM as a regional financial safety net and the total 
+fund has recently been doubled to $240 billion. The IMF de-linked portion was also 
+increased, to 30% in 2012, and targeted to be further raised to 40% in 2014. Following 
+the IMF’s crisis-prevention tool kits, a crisis prevention facility called the CMIM 
+Precautionary Line was introduced as well. 
+While ASEAN+3 countries have made significant progress in building these bilateral 
+and multilateral safety nets, much more still needs to be done. In particular, the 
+committed funds under CMIM continue to remain in each individual country’s coffer, 
+and the mechanism for funds disbursement remains unclear. In addition, a well-
+functioning independent surveillance unit needs to be put in place to monitor and 
+assess the vulnerability of each country so that remedial action can be implemented 
+swiftly. This task has been assigned to the ASEAN+3 Macroeconomic Research Office 
+(AMRO), with inputs from each country’s central bank. However, building AMRO’s 
+surveillance capacity will take a lot of time and effort.  
+The IMF conditionality connection is a disincentive for countries in securing assistance. 
+There is a need to design programs in such a way that it reduces the stigma effect of 
+obtaining CMIM funds. Several ideas have been put forward to address this stigma 
+effect, including simultaneous offering of programs to a group of countries with similar 
+macroeconomic indicators, rather than to just a single country, and setting pre-
+qualification criteria for program eligibility. One could consider implementing a clear, 
+rules-based, and automated pre-qualification process via a set of transparent 
+“Maastricht-like” criteria, and having offers of liquidity extended simultaneously to all 
+qualified countries, which could possibly reduce the stigma effect. 
+The existence of bilateral and regional safety nets does not make the proposed trade 
+and securities settlement system unnecessary. The latter is a mechanism to reduce US 
+
+
+[PDF page 30]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+28 
+ 
+dollar dependence. The former is an insurance mechanism. The existing bilateral and 
+regional safety net mechanisms can supplement the proposed combined trade and 
+government bond settlement system. For example, CMIM funds may be used as credit 
+guarantee for the trade settlement transactions of countries with lower credit ratings to 
+expedite the bilateral linkages among Asian central banks.  
+5. CONCLUSION 
+The global financial crisis has once again stimulated discussion about reform of the 
+international financial architecture. In this paper, we argue that establishment of 
+regional settlement currencies can contribute positively to this reform agenda. In 
+particular, extending the local currency trade settlement schemes such as the RMB 
+trade settlement scheme between the PRC and Hong Kong, China to the rest of Asia, 
+and combining it with a government securities payment and settlement scheme, can be 
+a practical solution.  
+The proposal is based on the idea that building proper infrastructure first can make a 
+big difference. Bilateral transactions between non-US dollar currencies are less 
+common since adequate infrastructure has not been built. With proper infrastructure, 
+these transactions could be facilitated and costs could be significantly reduced. Proper 
+infrastructure could also bring new demand for business. The role of Asian 
+governments in helping to put this proposal into practice is extremely important. As 
+Eichengreen (2011) noted, in the early 20th century US policymakers undertook 
+domestic financial reforms to encourage the internationalization of the US dollar. Part 
+of these reforms is the establishment of the Federal Reserve System and building 
+infrastructure for overseas US dollar transactions, which was influenced by pressure 
+from domestic financial firms seeking denomination rents and exporters seeking to 
+reduce transaction costs (Broz 1997). Without this effort to build new infrastructure, the 
+US dollar would not have been able to dethrone the UK pound sterling as the key 
+international currency. The legal framework that established the Eurosystem also 
+facilitated the links among eurozone central banks that enabled euro settlement. 
+Asian policymakers could follow this path. Building proper settlement infrastructure 
+should be the first step. This strategy is consistent with the Asian development 
+experience in the last half century—which underlines the importance of building 
+infrastructure—and it could be a practical way of reducing US dollar dependence 
+without the risks associated with rapid capital market opening. It would also contribute 
+to capital market development in Asia. 
+ 
+ 
+
+
+[PDF page 31]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+29 
+ 
+REFERENCES 
+AHK Greater China. 2011. The Long March of the Renminbi: Internationalization of 
+China’s Currency via Hong Kong. Gc.comm. May. 
+ANZ Research. 2012. CNH Market Monitor. 9 May. 
+ASEAN Secretariat. 2003. Chairman’s Press Release on the Asian Bond Markets 
+Initiative. Available: http://www.aseansec.org/15030.htm. 
+———. 2012. The Joint Statement of the 15th ASEAN+3 Finance Ministers and Central 
+Bank Governors’ Meeting. 3 May. Manila. 
+Asian Development Bank (ADB). 2010. ABMI Group of Experts Final Report Part II: 
+Evaluation of the Feasibility of Regional Settlement Intermediary Options for the 
+ASEAN+3. June. Manila: ADB. 
+Bank for International Settlements (BIS). 2011. Payment, Clearing and Settlement 
+Systems in the CPSS Countries. Volume 1. Basel, Switzerland: BIS. 
+———. 2012. Payment, Clearing and Settlement Systems in the CPSS Countries. 
+Volume 2. Basel, Switzerland: BIS. 
+———. 2013. Triennial Central Bank Survey 2013. Basel, Switzerland: BIS. 
+Bank of China. 2013. http://www.boc.cn/en/bocinfo/bi1/201307/ 
+t20130707_2349061.html. 
+Banco Bilbao Vizcaya Argentaria (BBVA). 2013. RMB Internationalization Gains 
+Momentum from Liberalization Steps. 19 November. 
+Broz, J. L. 1997. The International Origins of the Federal Reserve System. Ithaca, NY: 
+Cornell University Press. 
+Chan, N. T. L. 2013. Development of Offshore Renminbi Business in Hong Kong: 
+Review and Outlook. 21 February. http://www.hkma.gov.hk/eng/key-
+information/insight/20130221.shtml. 
+City of London. 2012. FAQs: City of London Renminbi Series. 28 November. 
+http://www.cityoflondon.gov.uk/business/support-promotion-and-
+advice/promoting-the-city-internationally/china/Documents/ 
+20121128RMB_FAQs.pdf. 
+de Silva, A., and P.-R. Tan. 2012. China Bonds: Increase in QFII and RQFII Quotas. 
+HSBC Global Research flash note. April. 
+Eichengreen, B. 2011. Exorbitant Privilege: The Rise and Fall of the Dollar and the 
+Future of the International Monetary System. London, UK: Oxford University 
+Press. 
+———. 2012. The Renminbi Challenge. Project Syndicate. 9 October. 
+Executives’ Meeting of East Asia Pacific Central Banks (EMEAP). 2012. Payment, 
+Clearing and Settlement Systems in EMEAP Economies. 
+http://www.emeap.org/emeapdb/upload/Publications/Payment,_Clearing_and_S
+ettlement_Systems_in_EMEAP_Economies_(August_2012)_.pdf. 
+Frankel, J. 2011. Historical Precedents for Internationalization of the RMB. New York, 
+NY: Council on Foreign Relations.  
+Group of Twenty (G20). 2010. The G20 Seoul Summit Declaration. 11–12 November. 
+
+
+[PDF page 32]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+30 
+ 
+———. 2011a. Communiqué: Meeting of Finance Ministers and Central Bank 
+Governors. Washington, DC. 14–15 April. 
+———. 2011b. G20 Coherent Conclusions for the Management of Capital Flows 
+Drawing on Country Experiences (as endorsed by G20 Finance Ministers and 
+Central Bank Governors). 15 October. 
+Gallagher, K. P., S. Griffith-Jones, and J. A. Ocampo. 2011. Capital Account 
+Regulations for Stability and Development: A New Approach. Issues in Brief 22. 
+Boston University: The Frederick S. Pardee Center for the Study of the Longer-
+Range Future. 
+Gourinchas, P.-O., and H. Rey. 2007. From World Banker to World Venture Capitalist: 
+U.S. External Adjustment and the Exorbitant Privilege. In G7 Current Account 
+Imbalances, edited by R. Clarida. Chicago, IL: University of Chicago Press. 
+Hang Seng Indexes Company Limited (Hang Seng Indexes). 
+http://www.hsi.com.hk/HSI-Net/HSI-Net. 
+He, D. 2012. Renminbi Internationalisation: A Primer. Hong Kong, China: Hong Kong 
+Institute for Monetary Research. 
+Hong Kong Monetary Authority (HKMA). 2009. Renminbi Trade Settlement Pilot 
+Scheme. HKMA Quarterly Bulletin. September. 
+_____. 2013a. Hong Kong: The Premier Offshore Renminbi Business Centre. Hong 
+Kong, China: HKMA. 
+———. 2013b. Monthly Statistics. Hong Kong, China: HKMA. 
+HSBC. 2011. RMB FDI Formalization: A Structural Boost for CNH Market. 14 October. 
+Hyun, S., and H.B. Jang. 2008. Bond Market Development in Asia. Manuscript. 
+International Monetary Fund (IMF). 2010. IMF Enhances Crisis Prevention Toolkit. 
+Press Release No. 10/321. 30 August. 
+_____. 2011. Global Financial Safety Nets: How Can Countries Cooperate to Mitigate 
+Contagion and Limit the Spread of Crises? Reforming the International 
+Monetary System. 7 November. 
+_____. 2013. The IMF’s Precautionary and Liquidity Line. 1 October. 
+Jeanne, O., A. Subramanian, and J. Williamson. 2012. Who Needs to Open the Capital 
+Account. Washington, DC: Peterson Institute for International Economics. 
+Kenen, P. 2010. Revisiting the Substitution Account. International Finance 13(1): 1–23. 
+KPMG. 2012. Hong Kong Banking Survey 2012. Hong Kong, China: KPMG. 
+Lee, H., and C. Rhee. 2012. Lessons from the 1997 and the 2008 Crises in Korea. 
+Asian Economic Policy Review 7(1): 47–64. 
+Li, B, G. Wu, and C. Pei. 2012. What Drives RMB Trade Settlement? Manuscript. 
+Beijing. 
+Ma, J., L. Liu, and H. Miao. 2012. Roadmap for RMB Internationalization. Hong Kong, 
+China: Deutsche Bank Global Market Research. 
+Mallaby, S., and O. Wethington. 2011. The Future of the Yuan. New York, NY: Foreign 
+Affairs, Council on Foreign Relations. 
+
+
+[PDF page 33]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+31 
+ 
+Maziad, S., and J. S. Kang. 2012. RMB Internationalization: Onshore/Offshore Links. 
+International Monetary Fund Working Paper. WP/12/133. Washington, DC: 
+International Monetary Fund. 
+Ministry of Commerce (MOFCOM). 2011. Circular 2011–889. Circular on Issues 
+Concerning Cross-Border RMB Direct Investment. Beijing. 
+Monetary Authority of Singapore (MAS). 2013. Conduct of Renminbi (“RMB”) Business 
+in Singapore. FSG Circular No. BD 04/2013. 23 May. 
+Norman, P. 2007. Plumbers and Visionaries Securities Settlement and Europe’s 
+Financial Market. Chichester, UK: John Wiley & Sons. 
+Oh, G., D. Park, J. Park, and C. Rhee. 2003. Building a Settlement Infrastructure for 
+the Asian Bond Markets: Asiasettle. Paper prepared for the Workshop on East 
+Asia’s Strategy for Regional and Global Financial Cooperation hosted by the 
+Asia Pacific School of Economics and Government at Australian National 
+University and the Northeast Asian Institute of Business and Economic 
+Research at Korea University. 11 October. 
+Ostry, J. 2012. Managing Capital Flows: What Tools to Use? Asian Development 
+Review 29(1): 82−88. 
+Ostry, J., A. Ghosh, K. Habermeier, M. Chamon, M.S. Qureshi, and D.B.S. Reinhardt. 
+2010. Capital Inflows: The Role of Controls. IMF Staff Position Note SPN/10/04. 
+Washington, DC. 
+Ostry, J., A. Ghosh, K. Habermeier, L. Laeven, M. Chamon, M.S. Qureshi, and A. 
+Kokenyne. 2011. Managing Capital Inflows: What Tools to Use? IMF Staff 
+Discussion Note, SDN/11/06. Washington, DC. 
+Park, D., and C. Rhee. 2006. Building Infrastructure for Asian Bond Markets: 
+Settlement and Credit Rating. BIS Papers. No. 30. 
+People’s Bank of China (PBoC). 2009. Administrative Rules on Pilot Program of 
+Renminbi Settlement of Cross-Border Trade Transactions. 2 July. 
+———. 2011a. The People’s Bank of China Annual Report 2010. Beijing. 
+———. 2011b. Document No. 23. Administrative Measures on Renminbi Settlement for 
+Foreign Direct Investment. 
+———. 2012a. China Monetary Policy Quarter 4 – 2011. Beijing. 15 February. 
+———. 2012b. RMB Financial Statistics, H12012. Beijing. 19 July. 
+———. 2013a. China Monetary Policy Quarter 4 – 2012. Beijing. 6 February. 
+_____. 2013b. The PBC Signed an RMB Clearing Agreement with the Singapore 
+Branch of Industrial and Commercial Bank of China. 8 April. 
+_____. 2013c. RMB Financial Statistics, H12013. Beijing. 18 July. 
+Qiu, T., and L. Kuijs. 2013. Offshore RMB Markets: What Happened in Recent Months. 
+RBS. 4 July. 
+Rueff, J. 1971. The Monetary Sin of the West. New York, NY: MacMillan. 
+Sekine, E. 2011. Renminbi Trade Settlement as a Catalyst to Hong Kong’s 
+Development as an Offshore Renminbi Center. Nomura Journal of Capital 
+Markets Summer 3(1): 1–14. 
+
+
+[PDF page 34]
+ADBI Working Paper 457         
+ 
+ 
+ 
+        
+     Rhee and Sumulong 
+ 
+32 
+ 
+Society for Worldwide Interbank Financial Telecommunication (SWIFT). 2013a. RMB 
+Swift Tracker. April. 
+_____. 2013b. RMB Swift Tracker. May.  
+———. 2013c. http://www.swift.com/about_swift/archived_news?year=2013. 25 March. 
+Subacchi, P., and H. Huang. 2013. Briefing Paper IE BP 2013/01. International 
+Economics. Chatham House. June. 
+Teng, A. 2013. Internationalization of the RMB and the Role of Macao as a Financial 
+Platform. Speech. 2013 Internationalization of RMB Global Forum. Shanghai. 
+26 May. 
+United Nations. 2009. Preliminary Report of the Commission of Experts on Reforms of 
+the International Monetary and Financial System. New York: United Nations. 
+Wong, N. 2013. Heavyweight Issuers Target Bao Dao Bonds. International Financing 
+Review. 11 July. 
+Yu, Y. 2012a. Rattling the Renminbi. Project Syndicate. 30 January. 
+———. 2012b. Revisiting the Internationalization of the Yuan. ADBI Working Paper 
+366. Tokyo: Asian Development Bank Institute. 
+Zhang, B., and Q. Xu. 2011. RMB Internationalization in the Context of Exchange Rate 
+and Capital Account Control. Unpublished (in Chinese). 
+Zhou, X. 2009. Reform the International Monetary System. Speech of the Governor of 
+the People’s Bank of China. 23 March. 
+ 

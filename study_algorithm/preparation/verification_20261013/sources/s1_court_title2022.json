@@ -1,0 +1,12 @@
+{
+  "id": "s1_court_title2022",
+  "requested_url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=231763",
+  "retrieved_url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=231763",
+  "retrieved_at": "2026-10-13T16:22:08.644131+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 31324,
+  "content_sha256": "04d303c328abb7e02abf022204f2ddf625f029702718d67b3e100d357195b58f",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

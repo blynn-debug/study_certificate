@@ -1,0 +1,12 @@
+{
+  "id": "bok_bsi2016",
+  "requested_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200559&nttId=219821",
+  "retrieved_url": "https://www.bok.or.kr/portal/bbs/P0000795/view.do?menuNo=200559&nttId=219821",
+  "retrieved_at": "2026-10-13T16:26:52.490637+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7767,
+  "content_sha256": "3ae346ce7fe3fa75dc5d7f2a83bf37f80e9273dd3fcfd82ef827c27c7acb7163",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

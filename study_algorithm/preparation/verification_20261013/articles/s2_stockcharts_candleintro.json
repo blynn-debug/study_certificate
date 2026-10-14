@@ -1,0 +1,29 @@
+{
+  "source_id": "s2_stockcharts_candleintro",
+  "source_metadata": {
+    "id": "s2_stockcharts_candleintro",
+    "requested_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks",
+    "retrieved_url": "https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks",
+    "retrieved_at": "2026-10-13T16:45:33.826059+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "5e76b227f7cded099a6dc3d59cbbf9aefd09a1766ad6e9d9c575b3faf0582bd5",
+    "text_sha256": "b33e2552d809bcb897f8e471f95dee7774b965bf20e03ec75dbcb84fce9ef7b3",
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_stockcharts_candleintro:Classification",
+      "source_id": "s2_stockcharts_candleintro",
+      "article": "Classification",
+      "heading": "Classification",
+      "text": "The Hammer and Inverted Hammer form after a decline and are bullish reversal patterns, while the Shooting Star and Hanging Man form after an advance and are bearish reversal patterns.",
+      "start": 19327,
+      "end": 19511,
+      "sha256": "dcc6b3e729d73fc353150473c74b8767677f46070c4eba3f4e6851d52aecd1c3"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

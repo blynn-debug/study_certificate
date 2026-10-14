@@ -1,0 +1,548 @@
+{
+  "items": [
+    {
+      "id": "S2C2T02-CORE",
+      "reason": "Parent requested removal from active REVIEWS to preserve initial505 approved baseline. Alternate corrected prompt retained as history and correspondence audit.",
+      "moved_at": "2026-10-13T16:11:53.223699+00:00",
+      "review": {
+        "id": "S2C2T02-CORE",
+        "answer": "③",
+        "clean_prompt": "2026-10-13 기준 MSCI GIMI 기본방법론과 한국지수에 관한 설명 중 틀린 것은? ① MSCI World는 선진시장 분류를 묶은 지수다. ② MSCI Korea에는 USD와 KRW 표시 버전이 있다. ③ GIMI 기본 가중방식은 유동주식 조정을 하지 않는 전체 시가총액 가중이다. ④ 한국 주식시장은 MSCI 신흥시장 분류다.",
+        "claim_ids": [
+          "L121",
+          "L125"
+        ],
+        "review_note": "GIMI2026-08 방법론13·33쪽,2026-06 접근성보고서16쪽 및 한국지수 두 통화 팩트시트를 직접 읽었다. 기본방식은 free float-adjusted capitalization weighting이다.",
+        "source_finding": "유동주식 가중과 시가총액 가중이 배타적이라는 원문 오류를 수정했다. MSCI 지수종류100개 단정 및 USD만 있다는 표현도 제거했다.",
+        "answer_kind": "multiple_choice"
+      }
+    },
+    {
+      "id": "NOTE-S2C4-Q024",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "NOTE-S2C4-Q024",
+        "answer": "O",
+        "clean_prompt": "부도지시변수 I~Bernoulli(p), 고정 부도손실 C>0에 대해 L=CI인 신용손실모형은 비정규분포지만 모수 p,C를 이용하여 평균·분산을 계산할 수 있다. O/X?",
+        "claim_ids": [],
+        "review_note": "E[L]=Cp, Var(L)=C²p(1-p)다. 이산 비정규분포도 모수모형이므로 정규분포가 아니면 모수적 측정이 불가하다는 주장은 틀리다.",
+        "source_finding": "교재의 비정규이므로 모수적 측정 불가라는 X 해설은 오류다. 명시한 베르누이 반례 문항은 O다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "E[L]=Cp, Var(L)=C²p(1-p)다. 이산 비정규분포도 모수모형이므로 정규분포가 아니면 모수적 측정이 불가하다는 주장은 틀리다.",
+          "assumptions": "0<p<1, EAD와 LGD의 곱 C가 고정된 한 기간 단일차주 손실이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C3T06-CORE",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C3T06-CORE",
+        "answer": "③",
+        "clean_prompt": "매출 S, 변동비 vS, 고정영업비 F>0, 이자 I>0이며 (1-v)S>F+I다. 세율·주식수 고정이다. 틀린 것은? ① F=0이면 DOL=1이다. ②DFL=EBIT/(EBIT-I)다. ③EPS 변화율/EBIT 변화율은 DOL이다. ④DCL=(1-v)S/[(1-v)S-F-I]>1이다.",
+        "claim_ids": [],
+        "review_note": "EBIT=(1-v)S-F, EPS=(EBIT-I)(1-t)/n. 로그미분으로 DOL=(1-v)S/EBIT, DFL=EBIT/(EBIT-I), DCL=DOL×DFL이다.③의 비율은 DFL이다.",
+        "source_finding": "고정비·이자만 존재하면 적자에서도 DCL>1이라는 원문 오류를 양의 이익조건으로 수정했다. 요구수익률의 무조건 상승 주장은 제외했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "EBIT=(1-v)S-F, EPS=(EBIT-I)(1-t)/n. 로그미분으로 DOL=(1-v)S/EBIT, DFL=EBIT/(EBIT-I), DCL=DOL×DFL이다.③의 비율은 DFL이다.",
+          "assumptions": "0≤v<1,0≤t<1,n>0 고정. 영업·이자 차감 후 이익이 양수인 영역이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T12-CORE",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4T12-CORE",
+        "answer": "③",
+        "clean_prompt": "위험요인 충격 h의 분포를 동일하게 고정하고 가격함수가 f(x)=a+bx인 경우를 생각한다. 틀린 것은? ① 분포를 잘못 추정하면 VaR도 달라질 수 있다. ② 자료부족은 추정을 제약한다. ③ 선형함수에서도 델타가격근사는 반드시 비영의 절단오차가 생긴다. ④ 보유기간을 바꾸면 충격분포도 재검토해야 한다.",
+        "claim_ids": [],
+        "review_note": "선형 f의 변화는 f(x+h)-f(x)=bh=f'(x)h로 정확하다. 따라서③의 반드시 비영오차 주장은 틀리다. 분포추정 오류와 가격근사 오류는 별개다.",
+        "source_finding": "선형과 비선형 중 언제나 특정 쪽 VaR모형 차이가 크다는 원문 비교를 정확한 선형함수 항등식으로 한정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "선형 f의 변화는 f(x+h)-f(x)=bh=f'(x)h로 정확하다. 따라서③의 반드시 비영오차 주장은 틀리다. 분포추정 오류와 가격근사 오류는 별개다.",
+          "assumptions": "상수 a,b, 동일충격분포를 사용하는 가격근사의 비교다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C1T14-CORE",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C1T14-CORE",
+        "answer": "③",
+        "clean_prompt": "자산풀 손실 L을 에퀴티0~10, 메자닌10~30, 선순위30~100 순으로 흡수하는 계약이다. 틀린 것은? ①L=5이면 에퀴티 손실5다. ②L=20이면 에퀴티10·메자닌10이다. ③L=5에서 선순위가 가장 먼저5를 잃는다. ④선순위 손실은 L>30일 때 시작된다.",
+        "claim_ids": [],
+        "review_note": "각 구간 손실은 min(max(L-a,0),b-a)다. 선순위 a=30이므로 L=5에서는0이고 에퀴티가5를 흡수한다.",
+        "source_finding": "최초손실 순위와 실제 기대수익률을 구별했다. CDS는 반드시 단일자산만 다룬다는 원문 일반화도 제외했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "각 구간 손실은 min(max(L-a,0),b-a)다. 선순위 a=30이므로 L=5에서는0이고 에퀴티가5를 흡수한다.",
+          "assumptions": "0≤L≤100, 고정 손실흡수순위. 조기상환·초과스프레드·동적 신용보강은 없다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T11-CORE",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4T11-CORE",
+        "answer": "②",
+        "clean_prompt": "같은 투자금·기대수익을 갖는 A,B를 기존 포트폴리오에 각각 추가한다. VaR 증분은 A20, B30이다. 틀린 것은? ① VaR에는 신뢰수준·기간을 명시한다. ② 오직 VaR증분 최소화를 목표로 하면 B가 우수하다. ③ 이 기준이면 A를 고른다. ④ 순수익/VaR 비율을 쓰려면 기간·단위를 맞춰야 한다.",
+        "claim_ids": [],
+        "review_note": "동일 기대수익하에서 제시한 목적함수는 min(20,30)=20이므로 A다.②만 반대다.",
+        "source_finding": "유한 추가의 증분VaR와 한계미분VaR를 구별하고, VaR가 항상 부서합보다 작다는 거짓 일반화를 제거했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "동일 기대수익하에서 제시한 목적함수는 min(20,30)=20이므로 A다.②만 반대다.",
+          "assumptions": "양의 VaR와 동일한 측정모형·신뢰수준·기간. 목적함수는 VaR증분 최소화로 한정한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S2C3-Q051",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "NOTE-S2C3-Q051",
+        "answer": "X",
+        "clean_prompt": "동일한 가격·거래량 시계열로 계산한 두 OBV가 초기값만 다르다. 초기값 차이 때문에 두 OBV의 일별 증감 전환일이 달라진다. O/X?",
+        "claim_ids": [],
+        "review_note": "두 점화식의 같은 증분을 빼면 OBV^A_t-OBV^B_t=C로 일정하다. 일별 차분도 같으므로 증감 전환일은 동일하다.",
+        "source_finding": "기산일이 활황이면 OBV 신호가 반드시 지연된다는 원문 O를 초기값 불변성 문제로 교정했다. 분석구간·임계치 변경 효과는 별도다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "두 점화식의 같은 증분을 빼면 OBV^A_t-OBV^B_t=C로 일정하다. 일별 차분도 같으므로 증감 전환일은 동일하다.",
+          "assumptions": "같은 관측구간·계산규칙이며 고정 절대수준 임계치 신호는 비교하지 않는다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S2C3-Q035",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "NOTE-S2C3-Q035",
+        "answer": "O",
+        "clean_prompt": "동일가중 n일 단순이동평균에서 다른 관측치를 고정하고 오늘 가격만1원 올리면 평균은1/n원 오른다. 따라서 n이 클수록 오늘 가격 충격에 대한 민감도는 작다. O/X?",
+        "claim_ids": [],
+        "review_note": "MA_n=(P_t+…+P_(t-n+1))/n이므로 ∂MA_n/∂P_t=1/n이다.",
+        "source_finding": "모든 시간경로에서 장기평균이 반드시 더 완만하다는 표현을 단일관측 충격 민감도로 한정했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "MA_n=(P_t+…+P_(t-n+1))/n이므로 ∂MA_n/∂P_t=1/n이다.",
+          "assumptions": "단순 동일가중 평균의 한 관측값 변화에 대한 비교다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "MOCK-2-Q050",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "MOCK-2-Q050",
+        "answer": "④",
+        "clean_prompt": "기본모형은 L=CI,I~Bernoulli(p)이고 확장모형은 비부도 신용등급변경에 따른 가치변화도 계산한다. 틀린 것은? ①기본손실은 두 점 분포다. ②베르누이 변수는 부도여부 I다. ③확장모형은 비부도에서도 평가손실이 가능하다. ④확장모형은 정의상 부도 때만 손실을 허용한다.",
+        "claim_ids": [],
+        "review_note": "발문에서 확장모형에 비부도등급의 가치변화를 포함했으므로④는 모형의 정의와 모순된다. 기본모형에서 p는 확률모수이고 무작위 변수는 I다.",
+        "source_finding": "부도율 자체가 Bernoulli라는 오류와 EDF만 정규가정을 쓴다는 오해를 제거하고 손실인식 범위로 구별했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "발문에서 확장모형에 비부도등급의 가치변화를 포함했으므로④는 모형의 정의와 모순된다. 기본모형에서 p는 확률모수이고 무작위 변수는 I다.",
+          "assumptions": "기본모형 EAD·LGD 고정. 확장모형은 등급별 가격이 다를 수 있다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T13-SUP-03",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4T13-SUP-03",
+        "answer": "④",
+        "clean_prompt": "부도거리 DD를 구한 후 정규모형 확률 또는 경험적 빈도로 부도가능성을 추정한다. 틀린 것은? ① Φ(-DD)는 표준정규 하방확률이다. ② 경험적 빈도는 관측 부도수/관측대상수로 구할 수 있다. ③ DD구간별 경험적 대응표를 만들 수 있다. ④ 표본빈도는 언제나 Φ(-DD)와 정확히 일치한다.",
+        "claim_ids": [],
+        "review_note": "DD=3일 때 Φ(-3)≈0.00135다. 표본1000개 중10개 부도는0.01이므로④의 필연적 일치는 성립하지 않는다.",
+        "source_finding": "패킷이 앞 문항 해설을 잘못 포함했으므로 P12 435쪽의03번을 읽어 복구했다. 정답은④이며 단기부채+장기부채50%를 보편적 필수규칙으로 확정하지 않는다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "DD=3일 때 Φ(-3)≈0.00135다. 표본1000개 중10개 부도는0.01이므로④의 필연적 일치는 성립하지 않는다.",
+          "assumptions": "동일기간·동일 DD구간의 비교다. 표본선정이나 실제 상용모형 보정 규칙은 별도다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S2C4-Q025",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "NOTE-S2C4-Q025",
+        "answer": "둘 다 가능",
+        "clean_prompt": "서로 독립인 동일차주 n명에 총대출액을 균등분산하고, 각 차주 부도확률 p와 손실률 g를 고정한다. 부도만 반영하는 모형도 n을 줄여 집중시키면 손실분산이 증가함을 측정할 수 있는가? Default Mode만으로 가능/MTM Mode만 가능/둘 다 가능 중 선택하라.",
+        "claim_ids": [],
+        "review_note": "총대출 A에서 각 손실은(A/n)gI_i이므로 Var(총손실)=A²g²p(1-p)/n이다. 부도모형 자체가 집중효과를 포착할 수 있고 여기에 신용등급별 평가를 추가한 MTM모형도 가능하다.",
+        "source_finding": "집중위험은 MTM만 다룰 수 있다는 원문 양자택일을 교정했다. 기본 부도모형의 손실합 분산으로 반례를 보였다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "총대출 A에서 각 손실은(A/n)gI_i이므로 Var(총손실)=A²g²p(1-p)/n이다. 부도모형 자체가 집중효과를 포착할 수 있고 여기에 신용등급별 평가를 추가한 MTM모형도 가능하다.",
+          "assumptions": "차주 간 독립, 동일 p와 고정 LGD, 총EAD 고정. '둘 다'는 기본모형 및 이를 포함하는 확장모형을 말한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4-ADD-04",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4-ADD-04",
+        "answer": "①",
+        "clean_prompt": "위험요인 자체 가격변화에 대한 테일러1차 가격근사의 절단오차만 비교한다. 가격함수가 정확히 선형인 것은? ①주가 S를 위험요인으로 둔1주 현물가치 V=S ②수익률 y의 함수인 할인채 V=100/(1+y) ③V=S² ④V=exp(S)",
+        "claim_ids": [],
+        "review_note": "①에서 V(S+h)-V(S)=h=V'(S)h로 잔차0이다. 나머지는 일반적으로2차 이상 항이 존재한다.",
+        "source_finding": "실제위험 오차가 항상 주식에서 최소라는 원문을 선형 가격근사의 절단오차로 한정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "①에서 V(S+h)-V(S)=h=V'(S)h로 잔차0이다. 나머지는 일반적으로2차 이상 항이 존재한다.",
+          "assumptions": "①의 분포모형 오차와 추정오차까지0이라는 뜻이 아니다. 분모가 양수인 정의역과 국소충격을 가정한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4-ADD-14",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4-ADD-14",
+        "answer": "③",
+        "clean_prompt": "만기에 기업자산 V로 고정채무 D부터 갚고 주주는 잔여만 받는다. I~Bernoulli(p), L=CI는 별도 고정손실 부도모형이다. 틀린 것은? ①주주 만기지급액은 max(V-D,0)다. ②L은0과C의 두 값을 가진다. ③p는0 또는1만 갖는 베르누이 확률변수다. ④E[L]=Cp다.",
+        "claim_ids": [],
+        "review_note": "베르누이 확률변수는 I이고 p∈[0,1]는 그 분포의 모수다. 주주 잔여지급액은 채무 우선상환과 유한책임에서 max(V-D,0)다.",
+        "source_finding": "상용 KMV·Credit VaR 이름만으로 손실분포를 단정하는 원문 대신 옵션형 잔여지급과 부도모수의 구별을 검증했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "베르누이 확률변수는 I이고 p∈[0,1]는 그 분포의 모수다. 주주 잔여지급액은 채무 우선상환과 유한책임에서 max(V-D,0)다.",
+          "assumptions": "부채1종·고정만기·파산비용0의 단순지급모형. 주가의 오늘 가격과 만기지급액을 구별한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T09-CORE",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C4T09-CORE",
+        "answer": "③",
+        "clean_prompt": "분석자가 지정한 불리한 가상충격을 가격모형에 넣어 손익을 계산한다. 이 스트레스 시나리오 절차에서 틀린 것은? ① 시나리오 분석이다. ② 과거에 없던 가상충격도 입력할 수 있다. ③ 입력 충격이 과거에 실제 발생한 기록이 있어야만 계산 가능하다. ④ 시나리오 확률을 정하지 않은 손실값은 그 자체로95% VaR가 아니다.",
+        "claim_ids": [],
+        "review_note": "주어진 함수 f(x+h)는 h가 관측 이력이 없어도 정의역 안이면 계산할 수 있다. 그러나 임의 시나리오의 손실을 확률분위수로 바꾸려면 확률정보가 추가로 필요하다.",
+        "source_finding": "원문의 일률20% 기준과 비과학적이라는 표현을 제거하고 시나리오 손실·확률적 VaR를 구분했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "주어진 함수 f(x+h)는 h가 관측 이력이 없어도 정의역 안이면 계산할 수 있다. 그러나 임의 시나리오의 손실을 확률분위수로 바꾸려면 확률정보가 추가로 필요하다.",
+          "assumptions": "충격 시나리오와 평가모형이 주어졌고 모형은 그 입력영역에서 유효하다고 가정한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S2C2-Q016",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "NOTE-S2C2-Q016",
+        "answer": "X",
+        "clean_prompt": "벤치마크 모든 구성종목·비중을 그대로 보유하는 완전복제에서, 비용 전 수익률이 지수와 같고 재조정 거래비용 c>0가 발생한다. 이 비용을 반영해도 지수와 반드시 같은 순수익률을 얻는다. O/X?",
+        "claim_ids": [],
+        "review_note": "순수익률=지수수익률-c이므로 c>0에서 정확히 같지 않다.",
+        "source_finding": "완전복제가 다른 모든 전략보다 비용이 높다는 단정 대신 명시된 양의 거래비용 효과를 묻는다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "순수익률=지수수익률-c이므로 c>0에서 정확히 같지 않다.",
+          "assumptions": "동일 평가기간·현금흐름 기준이며 세금·대차수익 등 다른 차이는 없다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C3T09-SUP-02",
+      "reason": "TARGET correspondence re-audit: original options and scope restored with explicitly documented minimum corrections",
+      "moved_at": "2026-10-13T23:51:38.589992+00:00",
+      "review": {
+        "id": "S2C3T09-SUP-02",
+        "answer": "④",
+        "clean_prompt": "시가총액 M, 순이익 N, 장부자본 B가 모두 양수다. PER=M/N, ROE=N/B, PBR=M/B로 정의한다. 틀린 것은? ①PBR=ROE×PER ②동일 M에서 B가 작아지면 PBR은 커진다. ③동일 B에서 M이 커지면 PBR은 커진다. ④동일 M에서 B가 작아지면 PBR은 작아진다.",
+        "claim_ids": [],
+        "review_note": "(N/B)(M/N)=M/B다. ∂(M/B)/∂B=-M/B²<0이므로 B 감소는 PBR 증가다.",
+        "source_finding": "특정 벤처기업의 PBR이 항상 크거나 작다는 경험명제를 동일시가총액의 분모효과로 바꿨다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "(N/B)(M/N)=M/B다. ∂(M/B)/∂B=-M/B²<0이므로 B 감소는 PBR 증가다.",
+          "assumptions": "분모의 이익·자본은 같은 시점기준과 회계범위를 사용한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C2-ADD-03",
+      "reason": "Original TARGET full-option correspondence restored with minimum explicit correction.",
+      "moved_at": "2026-10-13T23:55:47.095181+00:00",
+      "review": {
+        "id": "S2C2-ADD-03",
+        "answer": "①",
+        "clean_prompt": "2026-10-13 기준 틀린 것은? ① 한국 주식시장은 MSCI World의 선진시장 분류에 속한다. ② FTSE는 한국을 선진시장에 분류한다. ③ MSCI GIMI 기본방법론은 유동주식 조정 시가총액 가중을 사용한다. ④ MSCI Korea는 KRW와 USD 표시 버전을 제공한다.",
+        "claim_ids": [
+          "L121",
+          "L125"
+        ],
+        "review_note": "한국은 MSCI 신흥시장이고 World는 선진시장을 묶는다. 다른 세 선지는 공식 분류·방법론·팩트시트로 확인했다.",
+        "source_finding": "본문2026/해설2024 시점 불일치를2026-10-13으로 통일했다. 환산지수하락 조건 대신 공식 두 통화판본을 명시했다.",
+        "answer_kind": "multiple_choice"
+      }
+    },
+    {
+      "id": "S2C2T02-SUP-01",
+      "reason": "Original TARGET full-option correspondence restored with minimum explicit correction.",
+      "moved_at": "2026-10-13T23:55:47.095181+00:00",
+      "review": {
+        "id": "S2C2T02-SUP-01",
+        "answer": "②",
+        "clean_prompt": "2026-10-13 공식 주식시장 분류와 지수방법론 중 틀린 것은? ① MSCI는 한국을 신흥시장에 분류한다. ② MSCI와 FTSE는 한국을 모두 선진시장에 분류한다. ③ MSCI Korea의 USD와 KRW 표시 버전이 있다. ④ MSCI World는 선진시장 지수이며 ACWI와 범위가 같지 않다.",
+        "claim_ids": [
+          "L121",
+          "L125"
+        ],
+        "review_note": "FTSE2026-10-06 발표4쪽은 South Korea Developed, MSCI2026-06 보고서16쪽은 Emerging Markets 아래 Korea를 다룬다. GIMI33쪽 World와 All Countries의 범위를 확인했다.",
+        "source_finding": "MSCI는 Developed Markets 용어를 쓰지 않는다는 교재 주석은 잘못이다. 최다사용 여부와 FTSE100 별도근거가 필요한 선지를 검증된 지수범위로 교체했다.",
+        "answer_kind": "multiple_choice"
+      }
+    },
+    {
+      "id": "S2C4T08-CORE",
+      "reason": "Original TARGET full-option correspondence restored with minimum explicit correction.",
+      "moved_at": "2026-10-13T23:55:47.095181+00:00",
+      "review": {
+        "id": "S2C4T08-CORE",
+        "answer": "①",
+        "clean_prompt": "정해진 확률모형에서 충격을 난수 생성해 각 시나리오를 가격함수로 완전 재평가하는 몬테카를로 절차다. 틀린 것은? ① 1차미분만 쓰는 부분평가다. ② 가치변동을 계산하는 평가함수가 필요하다. ③ 시나리오 수 증가로 계산량이 커질 수 있다. ④ 충격은 지정한 확률모형에서 생성한다.",
+        "claim_ids": [],
+        "review_note": "직접 재평가 f(x+h)-f(x)를 수행하므로①의 1차근사와 다르다. 표본수를 늘리면 시뮬레이션 오차는 줄일 수 있어도 틀린 확률·가격모형 자체는 고쳐지지 않는다.",
+        "source_finding": "원문의 모든 경우 측정가능·가장 정교하다는 과장을 한정하고 비정규이므로 모수추정 불필요라는 본문 설명을 사용하지 않았다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "직접 재평가 f(x+h)-f(x)를 수행하므로①의 1차근사와 다르다. 표본수를 늘리면 시뮬레이션 오차는 줄일 수 있어도 틀린 확률·가격모형 자체는 고쳐지지 않는다.",
+          "assumptions": "충격모형·모수가 주어지고 샘플링 가능하다. 모든 문제에서 최상 정확도를 보장하지 않는다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T10-CORE",
+      "reason": "Original TARGET full-option correspondence restored with minimum explicit correction.",
+      "moved_at": "2026-10-13T23:55:47.095181+00:00",
+      "review": {
+        "id": "S2C4T10-CORE",
+        "answer": "④",
+        "clean_prompt": "다음 세 절차의 이름에 들어가지 않는 것은? (가)f'(x)h의 정규 선형근사, (나)확률모형에서 충격 난수 생성 후 재평가, (다)과거 동시충격으로 재평가. ① 델타노말 ② 역사적시뮬레이션 ③ 몬테카를로시뮬레이션 ④ 지정 스트레스 시나리오",
+        "claim_ids": [],
+        "review_note": "가=①, 나=③, 다=②로 충격의 생성원과 가치평가식을 일대일 대응시킨다. 지정 스트레스 시나리오는 셋에 없다.",
+        "source_finding": "원문의 가장 권장·어떤 경우도 가능·가장 정교 등 비교단정을 계산 절차 식별 문제로 한정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "가=①, 나=③, 다=②로 충격의 생성원과 가치평가식을 일대일 대응시킨다. 지정 스트레스 시나리오는 셋에 없다.",
+          "assumptions": "명시한 계산 절차의 구별이며 보편적인 비용·정확도·권장순위를 주장하지 않는다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C4T13-SUP-01",
+      "reason": "Original TARGET full-option correspondence restored with minimum explicit correction.",
+      "moved_at": "2026-10-13T23:55:47.095181+00:00",
+      "review": {
+        "id": "S2C4T13-SUP-01",
+        "answer": "①",
+        "clean_prompt": "신용손실 L은 확률0.99로0,0.01로100이다. 이 문제에서 UL은 손실표준편차로 정의한다. 옳은 항목은? 가. UL=√99다. 나. 평균 기준으로 비대칭인 분포다. 다. 비정규이므로 모수0.01과100을 이용한 평균·분산 계산이 불가능하다. ①가·나 ②나·다 ③가·다 ④모두",
+        "claim_ids": [],
+        "review_note": "E[L]=1, E[L²]=100, Var=99이므로 UL=√99다. 서로 다른 확률질량0.99와0.01은 대칭이 아니다. 모수로 직접 모멘트를 계산했으므로 다는 틀리다.",
+        "source_finding": "신용손실이 언제나 긴 꼬리라는 주장과 비모수만 가능하다는 오류를 구체적 비정규 모수모형으로 교정했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "E[L]=1, E[L²]=100, Var=99이므로 UL=√99다. 서로 다른 확률질량0.99와0.01은 대칭이 아니다. 모수로 직접 모멘트를 계산했으므로 다는 틀리다.",
+          "assumptions": "한 기간 단일차주 고정손실의 명시적 두 점 분포. UL 정의는 문항 내 표준편차 기준이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C1-ADD-01",
+      "reason": "Original TARGET full-option correspondence restored using primary legal and ILPA evidence.",
+      "moved_at": "2026-10-13T23:57:38.065533+00:00",
+      "review": {
+        "id": "S2C1-ADD-01",
+        "answer": "①",
+        "clean_prompt": "투자계약은 commitment를 최대 출자약정, capital call을 약정범위 내 납입요청으로 정한다. 약정100 중 첫 납입요청20을 이행했다. 틀린 것은? ①처음 납입한20만 전체 commitment다. ②전체약정은100이다. ③현재 납입액은20이다. ④추가약정 없이 미납약정은80이다.",
+        "claim_ids": [],
+        "review_note": "약정100=기납입20+미납80이다. 납입요청에 따른 실제20 지급과 총약정100은 구별된다.",
+        "source_finding": "재투자 불가 및 핵심인력이 회사를 떠날 수 없다는 원문 일반화는 계약마다 달라 제거하고 출자약정과 납입 구별에 집중했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "약정100=기납입20+미납80이다. 납입요청에 따른 실제20 지급과 총약정100은 구별된다.",
+          "assumptions": "약정변경·약정재활용·분배금 재납입은 없는 단순 계약이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C1T04-CORE",
+      "reason": "Original TARGET full-option correspondence restored using primary legal and ILPA evidence.",
+      "moved_at": "2026-10-13T23:57:38.065533+00:00",
+      "review": {
+        "id": "S2C1T04-CORE",
+        "answer": "②",
+        "clean_prompt": "2026-10-13 기관전용 사모집합투자기구 설명 중 틀린 것은? ① GP·LP가 각각1인 이상이고 법정 산정 사원총수는100인 이하다. ② GP와 LP의 내역은 제249조의10제2항의 사원 등기사항에 모두 들어간다. ③ 출자는 금전이 원칙이며 증권출자에는 법정 평가·이익보호·전원동의 조건이 있다. ④ 업무집행사원은 GP 중1인 이상을 정관으로 정한다.",
+        "claim_ids": [
+          "S2L001",
+          "S2L002"
+        ],
+        "review_note": "사원구성·등기·출자·업무집행 선지를 제249조의10·11·14에 각각 대조했다. ②는 정관기재와 법정등기를 혼동한다.",
+        "source_finding": "원문의 GP전용 clawback 일반화와 은행·보험의 참여관행 선지를 법령에서 직접 확인한 출자·업무집행 요건으로 교체했다.",
+        "answer_kind": "multiple_choice"
+      }
+    },
+    {
+      "id": "S2C1T05-CORE",
+      "reason": "Original TARGET full-option correspondence restored using primary legal and ILPA evidence.",
+      "moved_at": "2026-10-13T23:57:38.065533+00:00",
+      "review": {
+        "id": "S2C1T05-CORE",
+        "answer": "①",
+        "clean_prompt": "2026-10-13 사모집합투자기구 재산운용의 법률상 구조로 틀린 것은? ① 기관전용은 언제나 재산50% 이상을 경영권 참여에 투자해야 한다. ② 일반사모도 법 제249조의7제5항의 경영참여 목적 지분투자 규율 대상이 될 수 있다. ③ 제249조의7제1항 본문은 파생위험·보증담보·차입·실질차입 합산액에 순자산400% 이내 대통령령상 비율을 적용한다. ④ 기관전용에는 제249조의7 중 제3항·제6항을 제외하고 준용한다.",
+        "claim_ids": [
+          "S2L004"
+        ],
+        "review_note": "기관전용의 운용은 제249조의12의 준용구조이며 원문의 일률50% 경영참여 의무는 현행 조문에 없다.",
+        "source_finding": "독립적 차입한도400%처럼 읽히는 선지를 법률상 합산규제로 교정했다. 공동투자 세부요건은 시행령 검증 없이 확정하지 않는다.",
+        "answer_kind": "multiple_choice"
+      }
+    },
+    {
+      "id": "MOCK-1-Q049",
+      "reason": "원문 다의 모수방법 바람직성은 분포족·표본·측정목표 조건 없이 참거짓 확정 불가. BIS는 베타 모수모형을 제시하므로 출판사 비정규→모수불가 논증은 오류. 가·나만 틀린 조합도 보기에 없다. 기존 Bernoulli 대체문항은 원문 근거가 아니므로 active에서 제외.",
+      "moved_at": "2026-10-13T23:58:23.770589+00:00",
+      "review": {
+        "id": "MOCK-1-Q049",
+        "answer": "④",
+        "clean_prompt": "신용손실 L은99% 확률로0,1% 확률로100이다. 틀린 항목은? 가.E[L]=0이다. 나.평균1을 중심으로 좌우대칭이다. 다.비정규이므로 모수적 분포를 지정할 수 없다. ①없음 ②가 ③나 ④가·나·다",
+        "claim_ids": [],
+        "review_note": "평균=.01×100=1이다.0과100의 확률이 다르며 평균으로부터 거리도 달라 대칭이 아니다. 이미 p=.01,C=100인 모수적 베르누이 손실분포를 지정했으므로 다도 거짓이다.",
+        "source_finding": "정규가 아니면 모수적 측정불가라는 교재 오류를 명시적 반례로 교정했다. 신용위험 전체를 UL만으로 정의하지 않는다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "평균=.01×100=1이다.0과100의 확률이 다르며 평균으로부터 거리도 달라 대칭이 아니다. 이미 p=.01,C=100인 모수적 베르누이 손실분포를 지정했으므로 다도 거짓이다.",
+          "assumptions": "단일기간·고정 노출액과 회수율로 정의된 두 점 손실모형이다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C1T09-CORE",
+      "reason": "원문① 발표정보만 의존의 범위,②③ 현금합병과 고정비율 주식교환의 포지션 구별,④ 오직 이벤트위험이라는 절대주장이 혼재. 지급함수 계산만으로 원문 전체 진술을 검증할 수 없다. 원래 의미를 유지하는 최소교정 및 정보범위 공식근거가 더 필요하여 기존 지급함수 대체문항을 active에서 제외.",
+      "moved_at": "2026-10-13T23:58:23.770589+00:00",
+      "review": {
+        "id": "S2C1T09-CORE",
+        "answer": "④",
+        "clean_prompt": "고정 현금합병은 완료 시 대상1주당 K를 지급하고 고정 주식교환합병은 대상1주를 인수기업 r주로 교환한다. 틀린 것은? ① 현금합병 완료대가는 K다. ② 주식교환 완료대가는 rP_A다. ③ 주식교환에서 대상1주 매수와 인수기업 r주 매도는 완료 시 rP_A를 상쇄한다. ④ 헤지하지 않은 주식교환 완료대가는 P_A와 무관한 고정현금이다.",
+        "claim_ids": [],
+        "review_note": "주식교환 대가 rP_A는 인수기업 주가 P_A에 따라 변하므로④가 틀리다. 현금대가 K와 구별한다.",
+        "source_finding": "추측정보가 모두 불법이라는 해설 및 현금합병에는 이벤트위험밖에 없다는 과장을 제거했다. 주식수 교환비율을 명시했다.",
+        "answer_kind": "multiple_choice",
+        "concept_review": {
+          "derivation": "주식교환 대가 rP_A는 인수기업 주가 P_A에 따라 변하므로④가 틀리다. 현금대가 K와 구별한다.",
+          "assumptions": "K,r는 계약상 고정, 완료·이행을 가정하며 배당·대차·거래비용은 제외한다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "NOTE-S2C4-Q016",
+      "reason": "기하브라운운동을 몬테카를로에 사용할 수 있다는 수학적 사실은 가장 흔히 사용된다는 원문 경험적 빈도명제를 입증하지 않는다. 출판사 해설의 대표적 예와 발문의 최다사용을 구별하고 사용빈도 출처 확보 전 원문 승인 보류. 기존 가능성만의 대체문항은 history 보존.",
+      "moved_at": "2026-10-13T23:58:23.770589+00:00",
+      "review": {
+        "id": "NOTE-S2C4-Q016",
+        "answer": "O",
+        "clean_prompt": "몬테카를로 주가모형의 한 예로 S(t)=S(0)exp[(μ-σ²/2)t+σ√t Z], Z~N(0,1), S(0)>0를 사용할 수 있다. 이는 주가가 양수인 기하브라운운동 모형이다. O/X?",
+        "claim_ids": [],
+        "review_note": "지수함수는 모든 실수 입력에서 양수다. dS=μSdt+σSdW의 해가 주어진 식이므로 기하브라운운동의 시점별 표본생성식이다.",
+        "source_finding": "가장 흔히 쓰인다는 빈도주장을 검증 가능한 모형 예시로 한정했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "지수함수는 모든 실수 입력에서 양수다. dS=μSdt+σSdW의 해가 주어진 식이므로 기하브라운운동의 시점별 표본생성식이다.",
+          "assumptions": "μ·σ가 상수이고 시간단위가 일치한다. 실제 수익률 분포에 대한 사실 주장이 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    },
+    {
+      "id": "S2C3T14-SUP-03",
+      "reason": "원문 네 선택지는 정배열 추세해석·데드크로스·평활성·평균회귀 경향을 함께 요구한다. SMA 민감도 1/n 유도만으로 정배열 명칭과 평균회귀 경험적 경향까지 입증되지 않는다. 원래 기술적 분석 규칙의 명시적 출처 확보 필요. 기존 단일 민감도 대체문항은 history 보존.",
+      "moved_at": "2026-10-13T23:58:23.770589+00:00",
+      "review": {
+        "id": "S2C3T14-SUP-03",
+        "answer": "짧은 기간의 이동평균이 최근 가격 변화에 더 민감하다",
+        "clean_prompt": "n일 단순이동평균 MA_n=최근 n개 종가의 평균이다. 과거 종가를 고정하고 오늘 종가만1원 높일 때 n이 짧은 평균과 긴 평균 중 어느 쪽이 더 많이 변하는가?",
+        "claim_ids": [],
+        "review_note": "오늘 종가의 가중치는1/n이므로 1원 충격에 MA가1/n원 변한다. 작은 n에서 더 큰 반응이다.",
+        "source_finding": "원문의 일반 평활화 성향을 증명 가능한 오늘가격 한 단위 충격의 민감도로 한정했다.",
+        "answer_kind": "text",
+        "concept_review": {
+          "derivation": "오늘 종가의 가중치는1/n이므로 1원 충격에 MA가1/n원 변한다. 작은 n에서 더 큰 반응이다.",
+          "assumptions": "단순이동평균, 과거 가격 고정·현재 가격만의 충격을 비교한다. 임의 시계열의 모든 구간에서 긴 평균 기울기가 더 작다는 뜻은 아니다.",
+          "basis": "explicit_conditions_and_independent_reasoning",
+          "current_law_claim": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6542 @@
+{
+  "count": 383,
+  "unit": "evidence_group_not_individual_question",
+  "review_basis": "../target_analysis/omission_audit.json and source_page_index.json; prior full-page review carried forward",
+  "items": [
+    {
+      "id": "S1C1-INLINE-P017",
+      "document": "P12",
+      "pages": [
+        17
+      ],
+      "topic_ids": [
+        "S1C1T01"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P019",
+      "document": "P12",
+      "pages": [
+        19
+      ],
+      "topic_ids": [
+        "S1C1T02"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P021",
+      "document": "P12",
+      "pages": [
+        21
+      ],
+      "topic_ids": [
+        "S1C1T02"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P022",
+      "document": "P12",
+      "pages": [
+        22
+      ],
+      "topic_ids": [
+        "S1C1T02"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P023",
+      "document": "P12",
+      "pages": [
+        23
+      ],
+      "topic_ids": [
+        "S1C1T03"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P025",
+      "document": "P12",
+      "pages": [
+        25
+      ],
+      "topic_ids": [
+        "S1C1T03"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P027",
+      "document": "P12",
+      "pages": [
+        27
+      ],
+      "topic_ids": [
+        "S1C1T04"
+      ],
+      "description": "전자송달 신청 주체·기한, 상속 성립, 기간 예외와 중단, 경정청구, 불복기관, 거주자·납세지",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P029",
+      "document": "P12",
+      "pages": [
+        29
+      ],
+      "topic_ids": [
+        "S1C1T05"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P032",
+      "document": "P12",
+      "pages": [
+        32
+      ],
+      "topic_ids": [
+        "S1C1T06"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P033",
+      "document": "P12",
+      "pages": [
+        33
+      ],
+      "topic_ids": [
+        "S1C1T06"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P035",
+      "document": "P12",
+      "pages": [
+        35
+      ],
+      "topic_ids": [
+        "S1C1T07"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P040",
+      "document": "P12",
+      "pages": [
+        40
+      ],
+      "topic_ids": [
+        "S1C1T08"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P045",
+      "document": "P12",
+      "pages": [
+        45
+      ],
+      "topic_ids": [
+        "S1C1T10"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P048",
+      "document": "P12",
+      "pages": [
+        48
+      ],
+      "topic_ids": [
+        "S1C1T11"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P049",
+      "document": "P12",
+      "pages": [
+        49
+      ],
+      "topic_ids": [
+        "S1C1T11"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C1-INLINE-P050",
+      "document": "P12",
+      "pages": [
+        50
+      ],
+      "topic_ids": [
+        "S1C1T12"
+      ],
+      "description": "선택적 분리과세, 펀드 수입시기·공제회 소득, 분할합병, 비거주자 파생상품, 지수 파생상품, 유상이전·공제·소비대차",
+      "provenance": "existing_chapter_review",
+      "description_scope": "shared summary of several pages; open the specified page for the individual check",
+      "eval_topic_refs": [
+        "S1C1T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T05-INLINE-001",
+      "document": "P12",
+      "pages": [
+        74
+      ],
+      "topic_ids": [
+        "S1C2T05"
+      ],
+      "description": "만기보유 RP: 일수/365와 약정금리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T05-INLINE-002",
+      "document": "P12",
+      "pages": [
+        74
+      ],
+      "topic_ids": [
+        "S1C2T05"
+      ],
+      "description": "중도환매 RP: 약정 전 금리로 전 기간 계산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T05-INLINE-003",
+      "document": "P12",
+      "pages": [
+        74
+      ],
+      "topic_ids": [
+        "S1C2T05"
+      ],
+      "description": "만기 후 RP: 약정기간과 이후 기간의 금리 분리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T13-INLINE-001",
+      "document": "P12",
+      "pages": [
+        103
+      ],
+      "topic_ids": [
+        "S1C2T13"
+      ],
+      "description": "피보험자 2인 이상의 연생보험과 단체취급보험 대비",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T14-INLINE-001",
+      "document": "P12",
+      "pages": [
+        104
+      ],
+      "topic_ids": [
+        "S1C2T14"
+      ],
+      "description": "복수 보험사의 보험가입금액 합계와 실제 손해액 상한",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T14-INLINE-002",
+      "document": "P12",
+      "pages": [
+        105
+      ],
+      "topic_ids": [
+        "S1C2T14"
+      ],
+      "description": "건물 전손 후 잔존물 대위",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T15-INLINE-001",
+      "document": "P12",
+      "pages": [
+        107
+      ],
+      "topic_ids": [
+        "S1C2T15"
+      ],
+      "description": "비재고자산 보험가액 10억·가입 8억·손해 6억의 전액 보상",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T15-INLINE-002",
+      "document": "P12",
+      "pages": [
+        107
+      ],
+      "topic_ids": [
+        "S1C2T15"
+      ],
+      "description": "재고자산 가액 10억·가입 8억·손해 5억의 4억 보상",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T18-INLINE-001",
+      "document": "P12",
+      "pages": [
+        114
+      ],
+      "topic_ids": [
+        "S1C2T18"
+      ],
+      "description": "투자자별 운용 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T18-INLINE-002",
+      "document": "P12",
+      "pages": [
+        115
+      ],
+      "topic_ids": [
+        "S1C2T18"
+      ],
+      "description": "정의의 인원·풀링·귀속 세 가지 변형",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T20-INLINE-001",
+      "document": "P12",
+      "pages": [
+        119
+      ],
+      "topic_ids": [
+        "S1C2T20"
+      ],
+      "description": "주식 편입한도 30% 위반 사례",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T20"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T20-INLINE-002",
+      "document": "P12",
+      "pages": [
+        119
+      ],
+      "topic_ids": [
+        "S1C2T20"
+      ],
+      "description": "의결권 행사 주체 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T20"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T21-INLINE-001",
+      "document": "P12",
+      "pages": [
+        121
+      ],
+      "topic_ids": [
+        "S1C2T21"
+      ],
+      "description": "수익자명부 작성 위탁 주체·수탁 기관 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T21"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T24-INLINE-001",
+      "document": "P12",
+      "pages": [
+        127
+      ],
+      "topic_ids": [
+        "S1C2T24"
+      ],
+      "description": "CD 잔존만기, 타 펀드 투자, RP매도 및 증권대차 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T24-INLINE-002",
+      "document": "P12",
+      "pages": [
+        129
+      ],
+      "topic_ids": [
+        "S1C2T24"
+      ],
+      "description": "예외 신용평가의 판단 주체 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T25-INLINE-001",
+      "document": "P12",
+      "pages": [
+        130
+      ],
+      "topic_ids": [
+        "S1C2T25"
+      ],
+      "description": "비유동자산 10%와 20%의 서로 다른 효과",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T25"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T25-INLINE-002",
+      "document": "P12",
+      "pages": [
+        133
+      ],
+      "topic_ids": [
+        "S1C2T25"
+      ],
+      "description": "모자형 공모 대상 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T25"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T26-INLINE-001",
+      "document": "P12",
+      "pages": [
+        136
+      ],
+      "topic_ids": [
+        "S1C2T26"
+      ],
+      "description": "청구 주체와 고유재산 지급 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T26-INLINE-002",
+      "document": "P12",
+      "pages": [
+        137
+      ],
+      "topic_ids": [
+        "S1C2T26"
+      ],
+      "description": "환매연기 총회 기간 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T26-INLINE-003",
+      "document": "P12",
+      "pages": [
+        137
+      ],
+      "topic_ids": [
+        "S1C2T26"
+      ],
+      "description": "3개월 내 환매수수료 예시와 판매수수료·보수 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T27-INLINE-001",
+      "document": "P12",
+      "pages": [
+        141
+      ],
+      "topic_ids": [
+        "S1C2T27"
+      ],
+      "description": "+400/+600 및 -200/+600 비교표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T27"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T27-INLINE-002",
+      "document": "P12",
+      "pages": [
+        141
+      ],
+      "topic_ids": [
+        "S1C2T27"
+      ],
+      "description": "과표기준가격 상한 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T27"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T28-INLINE-001",
+      "document": "P12",
+      "pages": [
+        142
+      ],
+      "topic_ids": [
+        "S1C2T28"
+      ],
+      "description": "MMF 초과분배와 유보 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T28"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T29-INLINE-001",
+      "document": "P12",
+      "pages": [
+        144
+      ],
+      "topic_ids": [
+        "S1C2T29"
+      ],
+      "description": "기준가격 검증 주체 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T29"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T32-INLINE-001",
+      "document": "P12",
+      "pages": [
+        150
+      ],
+      "topic_ids": [
+        "S1C2T32"
+      ],
+      "description": "계산전문인력과 평가전문인력의 요구 회사 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T32"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T33-INLINE-001",
+      "document": "P12",
+      "pages": [
+        154
+      ],
+      "topic_ids": [
+        "S1C2T33"
+      ],
+      "description": "후순위증권이 외부보강인지 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T33"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T34-INLINE-001",
+      "document": "P12",
+      "pages": [
+        157
+      ],
+      "topic_ids": [
+        "S1C2T34"
+      ],
+      "description": "원리금균등의 원금/이자 구성 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T34"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T34-INLINE-002",
+      "document": "P12",
+      "pages": [
+        158
+      ],
+      "topic_ids": [
+        "S1C2T34"
+      ],
+      "description": "MBB 부도위험 귀속 OX, CMO 목적 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T34"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T34-INLINE-003",
+      "document": "P12",
+      "pages": [
+        159
+      ],
+      "topic_ids": [
+        "S1C2T34"
+      ],
+      "description": "MBS 장기/단기 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T34"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C2T35-INLINE-001",
+      "document": "P12",
+      "pages": [
+        162
+      ],
+      "topic_ids": [
+        "S1C2T35"
+      ],
+      "description": "연금계리 필요 여부 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C2T35"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T04-INLINE-001",
+      "document": "P12",
+      "pages": [
+        183
+      ],
+      "topic_ids": [
+        "S1C3T04"
+      ],
+      "description": "지상권과 지역권 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T10-INLINE-001",
+      "document": "P12",
+      "pages": [
+        200
+      ],
+      "topic_ids": [
+        "S1C3T10"
+      ],
+      "description": "대지200·건축100·지상800·지하200·지상주차100의 예시; 주차 포함 여부 모호성 기록",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T11-INLINE-001",
+      "document": "P12",
+      "pages": [
+        203
+      ],
+      "topic_ids": [
+        "S1C3T11"
+      ],
+      "description": "형질변경 허가 예외 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T12-INLINE-001",
+      "document": "P12",
+      "pages": [
+        204
+      ],
+      "topic_ids": [
+        "S1C3T12"
+      ],
+      "description": "건축 종류 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T14-INLINE-001",
+      "document": "P12",
+      "pages": [
+        209
+      ],
+      "topic_ids": [
+        "S1C3T14"
+      ],
+      "description": "현물출자 설립 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T15-INLINE-001",
+      "document": "P12",
+      "pages": [
+        211
+      ],
+      "topic_ids": [
+        "S1C3T15"
+      ],
+      "description": "출자자나 차주에 대한 상환청구 OX; 문구 충돌 기록",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T16-INLINE-001",
+      "document": "P12",
+      "pages": [
+        213
+      ],
+      "topic_ids": [
+        "S1C3T16"
+      ],
+      "description": "고유위험의 분류 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T19-INLINE-001",
+      "document": "P12",
+      "pages": [
+        220
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "description": "㎡당800만 원×100㎡=8억, 정상가의80%이므로 정상가10억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T19-INLINE-002",
+      "document": "P12",
+      "pages": [
+        220
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "description": "시점수정 지수150/100=1.5",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T19-INLINE-003",
+      "document": "P12",
+      "pages": [
+        221
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "description": "NOI 직접환원의 접근법 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T19-INLINE-004",
+      "document": "P12",
+      "pages": [
+        222
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "description": "순영업소득6억/환원율10%=60억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S1C3T19-INLINE-005",
+      "document": "P12",
+      "pages": [
+        224
+      ],
+      "topic_ids": [
+        "S1C3T19"
+      ],
+      "description": "직접환원법과 DCF 선택 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S1C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T01-INLINE-001",
+      "document": "P12",
+      "pages": [
+        234
+      ],
+      "topic_ids": [
+        "S2C1T01"
+      ],
+      "description": "MMF 포함 여부 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T02-INLINE-001",
+      "document": "P12",
+      "pages": [
+        236
+      ],
+      "topic_ids": [
+        "S2C1T02"
+      ],
+      "description": "NOI10/가격100=환원율10%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T02-INLINE-002",
+      "document": "P12",
+      "pages": [
+        237
+      ],
+      "topic_ids": [
+        "S2C1T02"
+      ],
+      "description": "DCR 1 미만의 해석과 역수 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T04-INLINE-001",
+      "document": "P12",
+      "pages": [
+        242
+      ],
+      "topic_ids": [
+        "S2C1T04"
+      ],
+      "description": "LP 공개 여부·의결권 OX와 commitment 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T05-INLINE-001",
+      "document": "P12",
+      "pages": [
+        244
+      ],
+      "topic_ids": [
+        "S2C1T05"
+      ],
+      "description": "복수 PEF 공동 10% 예시; 규정 검증 필요",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T06-INLINE-001",
+      "document": "P12",
+      "pages": [
+        247
+      ],
+      "topic_ids": [
+        "S2C1T06"
+      ],
+      "description": "다른 PEF에 매각 가능 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T07-INLINE-001",
+      "document": "P12",
+      "pages": [
+        248
+      ],
+      "topic_ids": [
+        "S2C1T07"
+      ],
+      "description": "글로벌 매크로 Bottom-up OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T08-INLINE-001",
+      "document": "P12",
+      "pages": [
+        250
+      ],
+      "topic_ids": [
+        "S2C1T08"
+      ],
+      "description": "시장20% 상승 시 상대수익 +4억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T08-INLINE-002",
+      "document": "P12",
+      "pages": [
+        251
+      ],
+      "topic_ids": [
+        "S2C1T08"
+      ],
+      "description": "시장20% 하락 시 상대수익 +4억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T08-INLINE-003",
+      "document": "P12",
+      "pages": [
+        251
+      ],
+      "topic_ids": [
+        "S2C1T08"
+      ],
+      "description": "L60·S40·자본100에서 순노출20%, 비율1.5, 교재 총노출5",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T09-INLINE-001",
+      "document": "P12",
+      "pages": [
+        253
+      ],
+      "topic_ids": [
+        "S2C1T09"
+      ],
+      "description": "제안가격5만-시장4.5만=총스프레드5000",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T09-INLINE-002",
+      "document": "P12",
+      "pages": [
+        254
+      ],
+      "topic_ids": [
+        "S2C1T09"
+      ],
+      "description": "현금대가10만-매입8만-비용5000=완료 시 15000",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T10-INLINE-001",
+      "document": "P12",
+      "pages": [
+        256
+      ],
+      "topic_ids": [
+        "S2C1T10"
+      ],
+      "description": "델타0.5로 정규화한 CB2단위·주식1단위",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T10-INLINE-002",
+      "document": "P12",
+      "pages": [
+        256
+      ],
+      "topic_ids": [
+        "S2C1T10"
+      ],
+      "description": "Cash Flow Arbitrage와 Balanced Convertible 구별",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T11-INLINE-001",
+      "document": "P12",
+      "pages": [
+        258
+      ],
+      "topic_ids": [
+        "S2C1T11"
+      ],
+      "description": "명목4%-실질2%=BEI2%, 물가5% 가정한 1억 포지션의 단순 현금흐름차310만원",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T11-INLINE-002",
+      "document": "P12",
+      "pages": [
+        259
+      ],
+      "topic_ids": [
+        "S2C1T11"
+      ],
+      "description": "무상증자 후 이론권리락 가격과 추가15% 상승을 가정한 예",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T12-INLINE-001",
+      "document": "P12",
+      "pages": [
+        261
+      ],
+      "topic_ids": [
+        "S2C1T12"
+      ],
+      "description": "Contango에서 롱 롤오버 비용 도식; 이미지 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T13-INLINE-001",
+      "document": "P12",
+      "pages": [
+        263
+      ],
+      "topic_ids": [
+        "S2C1T13"
+      ],
+      "description": "CDS 지급방향 OX와 100-30=70 보장",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T13-INLINE-002",
+      "document": "P12",
+      "pages": [
+        264
+      ],
+      "topic_ids": [
+        "S2C1T13"
+      ],
+      "description": "TRS 100→70/150 손실30·이익50 방향과 기준금리+spread",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T13-INLINE-003",
+      "document": "P12",
+      "pages": [
+        265
+      ],
+      "topic_ids": [
+        "S2C1T13"
+      ],
+      "description": "Credit CLN 투자자=보장매도자",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T14-INLINE-001",
+      "document": "P12",
+      "pages": [
+        267
+      ],
+      "topic_ids": [
+        "S2C1T14"
+      ],
+      "description": "동일규모10채권 중1·3부도, 0~20/20~50/50~100% 손실구간",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C1T14-INLINE-002",
+      "document": "P12",
+      "pages": [
+        268
+      ],
+      "topic_ids": [
+        "S2C1T14"
+      ],
+      "description": "현금·CLN·합성 구조 및 credit spread delta/gamma와 correlation rho",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C1T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T01-INLINE-001",
+      "document": "P12",
+      "pages": [
+        278
+      ],
+      "topic_ids": [
+        "S2C2T01"
+      ],
+      "description": "자동차기업끼리와 다른 산업기업의 교재상 상관 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T01-INLINE-002",
+      "document": "P12",
+      "pages": [
+        279
+      ],
+      "topic_ids": [
+        "S2C2T01"
+      ],
+      "description": "국내 체계적위험의 일부 분산·개별위험·높은 상관 OX3개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T03-INLINE-001",
+      "document": "P12",
+      "pages": [
+        284
+      ],
+      "topic_ids": [
+        "S2C2T03"
+      ],
+      "description": "국제투자 논리와 수출가격경쟁력 논리의 부호; 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T04-INLINE-001",
+      "document": "P12",
+      "pages": [
+        286
+      ],
+      "topic_ids": [
+        "S2C2T04"
+      ],
+      "description": "롤링헤지 빈칸2개·주가지수선물 증거금 사례",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T04-INLINE-002",
+      "document": "P12",
+      "pages": [
+        287
+      ],
+      "topic_ids": [
+        "S2C2T04"
+      ],
+      "description": "내재적헤지·달러가치 하락기의 환차익·별도 헤지상품 비용 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T05-INLINE-001",
+      "document": "P12",
+      "pages": [
+        289
+      ],
+      "topic_ids": [
+        "S2C2T05"
+      ],
+      "description": "거래행태와 보유동기가 거래량에 영향을 주는지 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T07-INLINE-001",
+      "document": "P12",
+      "pages": [
+        292
+      ],
+      "topic_ids": [
+        "S2C2T07"
+      ],
+      "description": "연간차익2000만원의 세액385만원; 세액공제 없다는 가정",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T08-INLINE-001",
+      "document": "P12",
+      "pages": [
+        295
+      ],
+      "topic_ids": [
+        "S2C2T08"
+      ],
+      "description": "T-Bill 할인채·T-Note 이표채 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C2T09-INLINE-001",
+      "document": "P12",
+      "pages": [
+        298
+      ],
+      "topic_ids": [
+        "S2C2T09"
+      ],
+      "description": "완전복제와 비용 절감 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C2T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T01-INLINE-001",
+      "document": "P12",
+      "pages": [
+        306
+      ],
+      "topic_ids": [
+        "S2C3T01"
+      ],
+      "description": "감가상각 절세효과 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T01-INLINE-002",
+      "document": "P12",
+      "pages": [
+        307
+      ],
+      "topic_ids": [
+        "S2C3T01"
+      ],
+      "description": "유입 손익계산서/유출 재무상태표 빈칸과 자금운용/조달 관점",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T02-INLINE-001",
+      "document": "P12",
+      "pages": [
+        309
+      ],
+      "topic_ids": [
+        "S2C3T02"
+      ],
+      "description": "상관계수 분모 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T02-INLINE-002",
+      "document": "P12",
+      "pages": [
+        309
+      ],
+      "topic_ids": [
+        "S2C3T02"
+      ],
+      "description": "-15,-9,-7,-2,3,4,7,7,15의 네 통계량",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T02-INLINE-003",
+      "document": "P12",
+      "pages": [
+        309
+      ],
+      "topic_ids": [
+        "S2C3T02"
+      ],
+      "description": "짝수 관찰치 중앙 두 값의 평균",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T03-INLINE-001",
+      "document": "P12",
+      "pages": [
+        310
+      ],
+      "topic_ids": [
+        "S2C3T03"
+      ],
+      "description": "DCF와 연금현가 방식의 동치",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T03-INLINE-002",
+      "document": "P12",
+      "pages": [
+        311
+      ],
+      "topic_ids": [
+        "S2C3T03"
+      ],
+      "description": "영구채와 고정배당 우선주 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T04-INLINE-001",
+      "document": "P12",
+      "pages": [
+        313
+      ],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "description": "고정배당1000/10%=10000 및2000/10%=20000",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T04-INLINE-002",
+      "document": "P12",
+      "pages": [
+        313,
+        314
+      ],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "description": "D0=2000·초기3년12%·이후6%·k15% 다단계 예시",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T04-INLINE-003",
+      "document": "P12",
+      "pages": [
+        314
+      ],
+      "topic_ids": [
+        "S2C3T04"
+      ],
+      "description": "배당수익률·성향·성장률·요구수익률 관계",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T05-INLINE-001",
+      "document": "P12",
+      "pages": [
+        319
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "description": "유동비율 높고 당좌 낮음 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T05-INLINE-002",
+      "document": "P12",
+      "pages": [
+        320
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "description": "회전율 급증과 덤핑/채권할인 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T05-INLINE-003",
+      "document": "P12",
+      "pages": [
+        322
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "description": "마진20%×회전2=ROA40%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T05-INLINE-004",
+      "document": "P12",
+      "pages": [
+        323
+      ],
+      "topic_ids": [
+        "S2C3T05"
+      ],
+      "description": "ROA3%/10% 비교와 ROE7.5% 듀퐁",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T06-INLINE-001",
+      "document": "P12",
+      "pages": [
+        324
+      ],
+      "topic_ids": [
+        "S2C3T06"
+      ],
+      "description": "DFL 역수·DCL 합산·부채 의존도 OX3개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T06-INLINE-002",
+      "document": "P12",
+      "pages": [
+        326
+      ],
+      "topic_ids": [
+        "S2C3T06"
+      ],
+      "description": "1% 매출변화와4%/6.4% 이익변화 해석",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T07-INLINE-001",
+      "document": "P12",
+      "pages": [
+        328
+      ],
+      "topic_ids": [
+        "S2C3T07"
+      ],
+      "description": "70+40-10=100의 간접법 도식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T07-INLINE-002",
+      "document": "P12",
+      "pages": [
+        328
+      ],
+      "topic_ids": [
+        "S2C3T07"
+      ],
+      "description": "차입=재무·설비=투자 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T08-INLINE-001",
+      "document": "P12",
+      "pages": [
+        330
+      ],
+      "topic_ids": [
+        "S2C3T08"
+      ],
+      "description": "시설·운전자본 증감의 양방향 도식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T09-INLINE-001",
+      "document": "P12",
+      "pages": [
+        332
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "description": "ROE>k와 배당성향/PER 관계 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T09-INLINE-002",
+      "document": "P12",
+      "pages": [
+        332
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "description": "토빈Q1.4/0.7 예시; 범위 제한",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T09-INLINE-003",
+      "document": "P12",
+      "pages": [
+        333
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "description": "k=ROE이면 양의 배당성향에서 PER=1/k",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T09-INLINE-004",
+      "document": "P12",
+      "pages": [
+        335
+      ],
+      "topic_ids": [
+        "S2C3T09"
+      ],
+      "description": "EV/EBITDA와 EVA의 목적 비교 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T10-INLINE-001",
+      "document": "P12",
+      "pages": [
+        337
+      ],
+      "topic_ids": [
+        "S2C3T10"
+      ],
+      "description": "IC+MVA와 비사업자산 별도 가산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T10-INLINE-002",
+      "document": "P12",
+      "pages": [
+        340
+      ],
+      "topic_ids": [
+        "S2C3T10"
+      ],
+      "description": "영구 일정 NOPLAT·투하자본 등 가정하 가치=NOPLAT/k 단축식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T12-INLINE-001",
+      "document": "P12",
+      "pages": [
+        344
+      ],
+      "topic_ids": [
+        "S2C3T12"
+      ],
+      "description": "전문가/일반인 심리 및 행동6국면 표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T13-INLINE-001",
+      "document": "P12",
+      "pages": [
+        346
+      ],
+      "topic_ids": [
+        "S2C3T13"
+      ],
+      "description": "추세선 신뢰도 OX와3형태 그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T13-INLINE-002",
+      "document": "P12",
+      "pages": [
+        347
+      ],
+      "topic_ids": [
+        "S2C3T13"
+      ],
+      "description": "추세곡선·부채형 원본 그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T14-INLINE-001",
+      "document": "P12",
+      "pages": [
+        348
+      ],
+      "topic_ids": [
+        "S2C3T14"
+      ],
+      "description": "약세의 일시 상향돌파 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T14-INLINE-002",
+      "document": "P12",
+      "pages": [
+        349
+      ],
+      "topic_ids": [
+        "S2C3T14"
+      ],
+      "description": "데드/골든 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T14-INLINE-003",
+      "document": "P12",
+      "pages": [
+        350
+      ],
+      "topic_ids": [
+        "S2C3T14"
+      ],
+      "description": "상승·하락 추세와 거래량 그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T15-INLINE-001",
+      "document": "P12",
+      "pages": [
+        352
+      ],
+      "topic_ids": [
+        "S2C3T15"
+      ],
+      "description": "매수4그림 전체",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T15-INLINE-002",
+      "document": "P12",
+      "pages": [
+        353
+      ],
+      "topic_ids": [
+        "S2C3T15"
+      ],
+      "description": "매도4그림 전체·매수2와 교차규칙 차이",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T16-INLINE-001",
+      "document": "P12",
+      "pages": [
+        355
+      ],
+      "topic_ids": [
+        "S2C3T16"
+      ],
+      "description": "마크업/3파·가속·중간목표·단기/장기 지속의 예시4개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T17-INLINE-001",
+      "document": "P12",
+      "pages": [
+        357
+      ],
+      "topic_ids": [
+        "S2C3T17"
+      ],
+      "description": "원형바닥 방향 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T17-INLINE-002",
+      "document": "P12",
+      "pages": [
+        358
+      ],
+      "topic_ids": [
+        "S2C3T17"
+      ],
+      "description": "원형 천장/바닥·확대형3그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T17-INLINE-003",
+      "document": "P12",
+      "pages": [
+        359
+      ],
+      "topic_ids": [
+        "S2C3T17"
+      ],
+      "description": "삼각·깃발·쐐기2개·사각·다이아몬드6그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T17-INLINE-004",
+      "document": "P12",
+      "pages": [
+        359
+      ],
+      "topic_ids": [
+        "S2C3T17"
+      ],
+      "description": "등락횟수와 혼합패턴 빈칸2개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T18-INLINE-001",
+      "document": "P12",
+      "pages": [
+        362
+      ],
+      "topic_ids": [
+        "S2C3T18"
+      ],
+      "description": "망치·교수·상하 장악형4그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T18-INLINE-002",
+      "document": "P12",
+      "pages": [
+        363
+      ],
+      "topic_ids": [
+        "S2C3T18"
+      ],
+      "description": "샛별·석별2그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T19-INLINE-001",
+      "document": "P12",
+      "pages": [
+        364
+      ],
+      "topic_ids": [
+        "S2C3T19"
+      ],
+      "description": "8파와 소파동 전체 그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T19-INLINE-002",
+      "document": "P12",
+      "pages": [
+        365
+      ],
+      "topic_ids": [
+        "S2C3T19"
+      ],
+      "description": "금지형태3개 그림·2파가 최장 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T20-INLINE-001",
+      "document": "P12",
+      "pages": [
+        367
+      ],
+      "topic_ids": [
+        "S2C3T20"
+      ],
+      "description": "VR100%면 매수 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T20"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T20-INLINE-002",
+      "document": "P12",
+      "pages": [
+        368
+      ],
+      "topic_ids": [
+        "S2C3T20"
+      ],
+      "description": "OBV 나눗셈 OX·역시계 원본 그림",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T20"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T21-INLINE-001",
+      "document": "P12",
+      "pages": [
+        370
+      ],
+      "topic_ids": [
+        "S2C3T21"
+      ],
+      "description": "MAO 정의 빈칸 및 MACD/signal와%K/%D 대응표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T21"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T22-INLINE-001",
+      "document": "P12",
+      "pages": [
+        373
+      ],
+      "topic_ids": [
+        "S2C3T22"
+      ],
+      "description": "원본 Stochastic 전체 곡선과20/80% 기준",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T22"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T24-INLINE-001",
+      "document": "P12",
+      "pages": [
+        376
+      ],
+      "topic_ids": [
+        "S2C3T24"
+      ],
+      "description": "산업 A 확대·B/C 축소·D 퇴출·E 신규진입 도식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T24-INLINE-002",
+      "document": "P12",
+      "pages": [
+        377
+      ],
+      "topic_ids": [
+        "S2C3T24"
+      ],
+      "description": "신무역이론 완전경쟁 가정 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T25-INLINE-001",
+      "document": "P12",
+      "pages": [
+        379
+      ],
+      "topic_ids": [
+        "S2C3T25"
+      ],
+      "description": "단순/고급요소 변화 OX2개와 곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T25"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T25-INLINE-002",
+      "document": "P12",
+      "pages": [
+        380
+      ],
+      "topic_ids": [
+        "S2C3T25"
+      ],
+      "description": "한국 자동차·호주 쇠고기, 갤럭시·아이폰 교역 예시",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T25"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T26-INLINE-001",
+      "document": "P12",
+      "pages": [
+        382
+      ],
+      "topic_ids": [
+        "S2C3T26"
+      ],
+      "description": "2012 산업연관표의 모든 행·열 및 세금·잔폐물 조정 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T26-INLINE-002",
+      "document": "P12",
+      "pages": [
+        383
+      ],
+      "topic_ids": [
+        "S2C3T26"
+      ],
+      "description": "우유→제과/제빵의 전방, 자동차→납품산업의 후방 예시",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T28-INLINE-001",
+      "document": "P12",
+      "pages": [
+        387
+      ],
+      "topic_ids": [
+        "S2C3T28"
+      ],
+      "description": "기술력·인적/물적자본·인프라·수요조건·국가경쟁력, 시장구조와 성과 전체 도식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T28"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T28-INLINE-002",
+      "document": "P12",
+      "pages": [
+        388
+      ],
+      "topic_ids": [
+        "S2C3T28"
+      ],
+      "description": "정부규제 분류 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T28"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T30-INLINE-001",
+      "document": "P12",
+      "pages": [
+        391
+      ],
+      "topic_ids": [
+        "S2C3T30"
+      ],
+      "description": "CRk 같으면 HHI도 같은가 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T30"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C3T30-INLINE-002",
+      "document": "P12",
+      "pages": [
+        392
+      ],
+      "topic_ids": [
+        "S2C3T30"
+      ],
+      "description": "HHI0.5→동등2,0.2→동등5, N무한대 극한 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C3T30"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T01-INLINE-001",
+      "document": "P12",
+      "pages": [
+        406
+      ],
+      "topic_ids": [
+        "S2C4T01"
+      ],
+      "description": "거래상대방 미지불 빈칸·운영위험은 시장위험인가 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T02-INLINE-001",
+      "document": "P12",
+      "pages": [
+        407
+      ],
+      "topic_ids": [
+        "S2C4T02"
+      ],
+      "description": "내부통제 실패의 위험유형 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T02-INLINE-002",
+      "document": "P12",
+      "pages": [
+        408
+      ],
+      "topic_ids": [
+        "S2C4T02"
+      ],
+      "description": "숏스트래들 손익 원본도표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T02-INLINE-003",
+      "document": "P12",
+      "pages": [
+        409
+      ],
+      "topic_ids": [
+        "S2C4T02"
+      ],
+      "description": "콘탱고 롤도표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T02-INLINE-004",
+      "document": "P12",
+      "pages": [
+        410
+      ],
+      "topic_ids": [
+        "S2C4T02"
+      ],
+      "description": "RP단기조달·채권장기운용 도식과 LTCM 참고사례",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T03-INLINE-001",
+      "document": "P12",
+      "pages": [
+        413
+      ],
+      "topic_ids": [
+        "S2C4T03"
+      ],
+      "description": "99% VaR 초과확률 빈칸·손익분포 도표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T04-INLINE-001",
+      "document": "P12",
+      "pages": [
+        414
+      ],
+      "topic_ids": [
+        "S2C4T04"
+      ],
+      "description": "Taylor전개 도식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T04-INLINE-002",
+      "document": "P12",
+      "pages": [
+        415
+      ],
+      "topic_ids": [
+        "S2C4T04"
+      ],
+      "description": "채권가격/금리 곡선과 접선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T04-INLINE-003",
+      "document": "P12",
+      "pages": [
+        416
+      ],
+      "topic_ids": [
+        "S2C4T04"
+      ],
+      "description": "옵션 델타평가 정확성 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T09-INLINE-001",
+      "document": "P12",
+      "pages": [
+        426
+      ],
+      "topic_ids": [
+        "S2C4T09"
+      ],
+      "description": "대체가능성·다중요인 적합성 OX; 후자는 교재 제한으로 보류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T10-INLINE-001",
+      "document": "P12",
+      "pages": [
+        428
+      ],
+      "topic_ids": [
+        "S2C4T10"
+      ],
+      "description": "옵션 요인S/X/T/σ/r와 델타·감마·세타·베가·로 표; 숏스트래들 민감도",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T11-INLINE-001",
+      "document": "P12",
+      "pages": [
+        429
+      ],
+      "topic_ids": [
+        "S2C4T11"
+      ],
+      "description": "A투자100·수익8·VaR20→40%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T11-INLINE-002",
+      "document": "P12",
+      "pages": [
+        430
+      ],
+      "topic_ids": [
+        "S2C4T11"
+      ],
+      "description": "B수익14·VaR50→28%,위험조정 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S2C4T13-INLINE-001",
+      "document": "P12",
+      "pages": [
+        434
+      ],
+      "topic_ids": [
+        "S2C4T13"
+      ],
+      "description": "100·p0.1·LGD0.3→σ9억 및 Bernoulli 설명",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S2C4T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        5
+      ],
+      "topic_ids": [
+        "S3C1T01"
+      ],
+      "description": "법·윤리 교집합 그림 원본 확인; 교집합 전체가 회색지대라는 정의로 암기하지 않음",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        12
+      ],
+      "topic_ids": [
+        "S3C1T05"
+      ],
+      "description": "소비자↔회사 신임관계와 법제화 화살표 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        15
+      ],
+      "topic_ids": [
+        "S3C1T06"
+      ],
+      "description": "고객매도·회사매수 이해상충 그림과 ATS 예외 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T06-INLINE-002",
+      "document": "P3",
+      "pages": [
+        17
+      ],
+      "topic_ids": [
+        "S3C1T06"
+      ],
+      "description": "ATS 자기거래 예외 및 소비자 동의 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        18
+      ],
+      "topic_ids": [
+        "S3C1T07"
+      ],
+      "description": "전체 내부통제 조직도 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        20
+      ],
+      "topic_ids": [
+        "S3C1T07"
+      ],
+      "description": "CCO 위험관리규정 제정 여부 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        22
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "상품별 자격표·권유분기 흐름도·KYC 확인/제공 OX 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-002",
+      "document": "P3",
+      "pages": [
+        23
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "일반사모펀드 원칙적 제외와 일반적격투자자 요청 예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-003",
+      "document": "P3",
+      "pages": [
+        24
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "철회 발송·환급·벌칙 구별",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-004",
+      "document": "P3",
+      "pages": [
+        25
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "전문고객에도 적용되는 부당권유/불공정영업, 열람 거절 사유",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-005",
+      "document": "P3",
+      "pages": [
+        27
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "서면 등·서명 등 방법 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-006",
+      "document": "P3",
+      "pages": [
+        28
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "전문소비자 보호 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T08-INLINE-007",
+      "document": "P3",
+      "pages": [
+        32
+      ],
+      "topic_ids": [
+        "S3C1T08"
+      ],
+      "description": "해지 두 시계와 회신기한 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T10-INLINE-001",
+      "document": "P3",
+      "pages": [
+        37
+      ],
+      "topic_ids": [
+        "S3C1T10"
+      ],
+      "description": "연간 성희롱 예방교육·협력",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T10-INLINE-002",
+      "document": "P3",
+      "pages": [
+        38
+      ],
+      "topic_ids": [
+        "S3C1T10"
+      ],
+      "description": "회사재산·비밀정보·내부신고·퇴직 및 외부활동 설명",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T10-INLINE-003",
+      "document": "P3",
+      "pages": [
+        41
+      ],
+      "topic_ids": [
+        "S3C1T10"
+      ],
+      "description": "퇴직 후 제한기간과 지식재산 귀속은 개별 법적 조건 확인 필요",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T12-INLINE-001",
+      "document": "P3",
+      "pages": [
+        45
+      ],
+      "topic_ids": [
+        "S3C1T12"
+      ],
+      "description": "이사회·대표·준법·영업점·직원 역할",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T12-INLINE-002",
+      "document": "P3",
+      "pages": [
+        46
+      ],
+      "topic_ids": [
+        "S3C1T12"
+      ],
+      "description": "내부제보·명령휴가·직무분리·교육, 성과보상 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T12-INLINE-003",
+      "document": "P3",
+      "pages": [
+        48
+      ],
+      "topic_ids": [
+        "S3C1T12"
+      ],
+      "description": "금융위 임면보고 기한 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C1T13-INLINE-001",
+      "document": "P3",
+      "pages": [
+        51
+      ],
+      "topic_ids": [
+        "S3C1T13"
+      ],
+      "description": "직원 제재 OX와 무효·취소·해제·해지 표; 법적 효과의 조건은 별도 검증",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C1T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        61
+      ],
+      "topic_ids": [
+        "S3C2T01"
+      ],
+      "description": "은행/증권사 펀드판매 규제차익 비교도·부수업무 Negative System",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        65
+      ],
+      "topic_ids": [
+        "S3C2T03"
+      ],
+      "description": "분기그림 원본 확인; 교재 비용사례1000+200-100-30=1070만원",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T03-INLINE-002",
+      "document": "P3",
+      "pages": [
+        66
+      ],
+      "topic_ids": [
+        "S3C2T03"
+      ],
+      "description": "선도 인도·옵션 권리·스왑 교환; 무한책임 지분 제외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T03-INLINE-003",
+      "document": "P3",
+      "pages": [
+        67
+      ],
+      "topic_ids": [
+        "S3C2T03"
+      ],
+      "description": "투자계약 타인·손익 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        69
+      ],
+      "topic_ids": [
+        "S3C2T04"
+      ],
+      "description": "종합금융투자사업자 지정3조·온라인등록5억·광고/청약 제한",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T04-INLINE-002",
+      "document": "P3",
+      "pages": [
+        70
+      ],
+      "topic_ids": [
+        "S3C2T04"
+      ],
+      "description": "중앙은행·거래소·대행인·일시주문재량·담보부사채 등 배제 목록",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T04-INLINE-003",
+      "document": "P3",
+      "pages": [
+        71
+      ],
+      "topic_ids": [
+        "S3C2T04"
+      ],
+      "description": "교재 온라인투자한도 일반500/1000만원·적격1000/2000만원, 상대방 단위 현행확인 필요",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        72
+      ],
+      "topic_ids": [
+        "S3C2T05"
+      ],
+      "description": "법인100억/외감50억·개인5000만원·소득1억/부부1.5억·순자산5억 등 교재 수치표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        75
+      ],
+      "topic_ids": [
+        "S3C2T06"
+      ],
+      "description": "7인가요건·등록인력1/2인·대주주·첫회계연도 유지예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T06-INLINE-002",
+      "document": "P3",
+      "pages": [
+        76
+      ],
+      "topic_ids": [
+        "S3C2T06"
+      ],
+      "description": "업종 최대최저자본 예시900/200/80/250/2.5/15억과 합산530억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        77
+      ],
+      "topic_ids": [
+        "S3C2T07"
+      ],
+      "description": "100×75%-50=25억",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        78
+      ],
+      "topic_ids": [
+        "S3C2T07"
+      ],
+      "description": "고정이하 선택지·분류표 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        80
+      ],
+      "topic_ids": [
+        "S3C2T08"
+      ],
+      "description": "옛 공식·가산차감표 원본 확인; 일별산정·월말후1개월 보고·100미만 지체없이 보고",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        82
+      ],
+      "topic_ids": [
+        "S3C2T09"
+      ],
+      "description": "자산100/자본20=레버리지500%, 부채/자본400% 비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T09-INLINE-002",
+      "document": "P3",
+      "pages": [
+        82
+      ],
+      "topic_ids": [
+        "S3C2T09"
+      ],
+      "description": "정상보고와 회복시까지익월20일·계획2개월·분기실적10일·긴급사유",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T09-INLINE-003",
+      "document": "P3",
+      "pages": [
+        83
+      ],
+      "topic_ids": [
+        "S3C2T09"
+      ],
+      "description": "평가4등급=명령 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T10-INLINE-001",
+      "document": "P3",
+      "pages": [
+        84
+      ],
+      "topic_ids": [
+        "S3C2T10"
+      ],
+      "description": "교재 80/90/100 표 확인; 현행 공식 별표15와 대조해 1개월 90% 동일시 및 이전 분석의 분모 복원은 철회. L069 참조.",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        87
+      ],
+      "topic_ids": [
+        "S3C2T11"
+      ],
+      "description": "금융사고5억 공시 OX·회계기간변경 및 비상장 중대변경",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T12-INLINE-001",
+      "document": "P3",
+      "pages": [
+        89
+      ],
+      "topic_ids": [
+        "S3C2T12"
+      ],
+      "description": "차단정보3종과 내부기준/공시 예외·폐지30일 공고",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T13-INLINE-001",
+      "document": "P3",
+      "pages": [
+        92
+      ],
+      "topic_ids": [
+        "S3C2T13"
+      ],
+      "description": "선행매매·분석보수·백지어음 등 금지와 신용가능증권/제한종목",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T14-INLINE-001",
+      "document": "P3",
+      "pages": [
+        94
+      ],
+      "topic_ids": [
+        "S3C2T14"
+      ],
+      "description": "예치와우선지급 흐름도 원본확인·회사소유OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T14-INLINE-002",
+      "document": "P3",
+      "pages": [
+        95
+      ],
+      "topic_ids": [
+        "S3C2T14"
+      ],
+      "description": "상계압류금지·양도담보예외·교재2개월공고",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T15-INLINE-001",
+      "document": "P3",
+      "pages": [
+        97
+      ],
+      "topic_ids": [
+        "S3C2T15"
+      ],
+      "description": "비교표 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T15-INLINE-002",
+      "document": "P3",
+      "pages": [
+        98
+      ],
+      "topic_ids": [
+        "S3C2T15"
+      ],
+      "description": "운용·트레이딩 겸직 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T16-INLINE-001",
+      "document": "P3",
+      "pages": [
+        102
+      ],
+      "topic_ids": [
+        "S3C2T16"
+      ],
+      "description": "단일20/동일운용사50·재재간접 제한 그림 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T16-INLINE-002",
+      "document": "P3",
+      "pages": [
+        99
+      ],
+      "topic_ids": [
+        "S3C2T16"
+      ],
+      "description": "ETF·국채·부동산/SOC·부동산국내1년/해외규약 예외목록",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T17-INLINE-001",
+      "document": "P3",
+      "pages": [
+        103
+      ],
+      "topic_ids": [
+        "S3C2T17"
+      ],
+      "description": "금전대여 원칙금지·금융기관30일이내 단기대출예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T18-INLINE-001",
+      "document": "P3",
+      "pages": [
+        105
+      ],
+      "topic_ids": [
+        "S3C2T18"
+      ],
+      "description": "계열사배우자 포함 OX·허용거래 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T19-INLINE-001",
+      "document": "P3",
+      "pages": [
+        107
+      ],
+      "topic_ids": [
+        "S3C2T19"
+      ],
+      "description": "성과보수상한 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T21-INLINE-001",
+      "document": "P3",
+      "pages": [
+        109
+      ],
+      "topic_ids": [
+        "S3C2T21"
+      ],
+      "description": "서면등거부·잔고10만원이하규약·MMF월공시·ETF분기공시 교부예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T21"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T22-INLINE-001",
+      "document": "P3",
+      "pages": [
+        111
+      ],
+      "topic_ids": [
+        "S3C2T22"
+      ],
+      "description": "수탁가능 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T22"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T22-INLINE-002",
+      "document": "P3",
+      "pages": [
+        112
+      ],
+      "topic_ids": [
+        "S3C2T22"
+      ],
+      "description": "10개금지행위와 주식매수청구/유상증자/공개매수 예외·의결권OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T22"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T22-INLINE-003",
+      "document": "P3",
+      "pages": [
+        113
+      ],
+      "topic_ids": [
+        "S3C2T22"
+      ],
+      "description": "어떠한경우에도인출불가 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T22"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T23-INLINE-001",
+      "document": "P3",
+      "pages": [
+        115
+      ],
+      "topic_ids": [
+        "S3C2T23"
+      ],
+      "description": "핵심④원본오류 시각확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T23"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T23-INLINE-002",
+      "document": "P3",
+      "pages": [
+        116
+      ],
+      "topic_ids": [
+        "S3C2T23"
+      ],
+      "description": "발행인/주관회사 OX·일괄/정정/철회·매출설명",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T23"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T24-INLINE-001",
+      "document": "P3",
+      "pages": [
+        117
+      ],
+      "topic_ids": [
+        "S3C2T24"
+      ],
+      "description": "시간축 원본확인·도식의 단순합산표현은 정정",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T24-INLINE-002",
+      "document": "P3",
+      "pages": [
+        118
+      ],
+      "topic_ids": [
+        "S3C2T24"
+      ],
+      "description": "전매가능성/차단조치 대응표 원본확인·CP365일·단기사채3개월 사례",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T24"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T25-INLINE-001",
+      "document": "P3",
+      "pages": [
+        120
+      ],
+      "topic_ids": [
+        "S3C2T25"
+      ],
+      "description": "일반투자자거부시에도필수교부 OX; 보충02 선택지구조결함은격리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T25"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T26-INLINE-001",
+      "document": "P3",
+      "pages": [
+        122
+      ],
+      "topic_ids": [
+        "S3C2T26"
+      ],
+      "description": "직접3/공통5/임원1 관계도 원본확인. 쌍방출자표현은 NOTE49 Q76과교차확인, 현행조건은별도검증.",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T26"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T29-INLINE-001",
+      "document": "P3",
+      "pages": [
+        127
+      ],
+      "topic_ids": [
+        "S3C2T29"
+      ],
+      "description": "특수관계1000주미만 등 제외조건·보유와소유",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T29"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T29-INLINE-002",
+      "document": "P3",
+      "pages": [
+        128
+      ],
+      "topic_ids": [
+        "S3C2T29"
+      ],
+      "description": "공고·신고·설명·별도매수금지·균일가격·조건부전부매수·철회/면제/결과보고·처분6개월",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T29"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T30-INLINE-001",
+      "document": "P3",
+      "pages": [
+        130
+      ],
+      "topic_ids": [
+        "S3C2T30"
+      ],
+      "description": "기한표 원본확인: 경영목적 신규/변동5일, 일반목적 일반신규5/변동10일·특례월, 단순 일반신규5/변동월·특례분기, 변경5일이라는 교재표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T30"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T30-INLINE-002",
+      "document": "P3",
+      "pages": [
+        131
+      ],
+      "topic_ids": [
+        "S3C2T30"
+      ],
+      "description": "월/분기 다음달10일·5/10일영업일·냉각시간축 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T30"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T31-INLINE-001",
+      "document": "P3",
+      "pages": [
+        133
+      ],
+      "topic_ids": [
+        "S3C2T31"
+      ],
+      "description": "한전유일이라는2026교재주장은 별도현행확인대기",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T31"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T33-INLINE-001",
+      "document": "P3",
+      "pages": [
+        138
+      ],
+      "topic_ids": [
+        "S3C2T33"
+      ],
+      "description": "공개전자3/6시간 OX·임직원범위·계좌합산·인수계약후3개월거래/6개월청산·권리행사예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T33"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T34-INLINE-001",
+      "document": "P3",
+      "pages": [
+        140
+      ],
+      "topic_ids": [
+        "S3C2T34"
+      ],
+      "description": "교재형사1년이상·이익3~5배/상한5억 수치검증대기",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T34"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T34-INLINE-002",
+      "document": "P3",
+      "pages": [
+        141
+      ],
+      "topic_ids": [
+        "S3C2T34"
+      ],
+      "description": "시간축원본확인·교란과징금5억/1.5배 교재수치검증대기",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T34"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T35-INLINE-001",
+      "document": "P3",
+      "pages": [
+        143
+      ],
+      "topic_ids": [
+        "S3C2T35"
+      ],
+      "description": "사전통지·명백히이유없는신청기각 OX 두개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T35"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T36-INLINE-001",
+      "document": "P3",
+      "pages": [
+        145
+      ],
+      "topic_ids": [
+        "S3C2T36"
+      ],
+      "description": "과태료불가 OX·증권발행제한1년이내 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T36"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T37-INLINE-001",
+      "document": "P3",
+      "pages": [
+        146
+      ],
+      "topic_ids": [
+        "S3C2T37"
+      ],
+      "description": "기능별4×3표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T37"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T37-INLINE-002",
+      "document": "P3",
+      "pages": [
+        147
+      ],
+      "topic_ids": [
+        "S3C2T37"
+      ],
+      "description": "철회·분쟁소송중지·열람·독립자문·입증책임·책임강화",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T37"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C2T37-INLINE-003",
+      "document": "P3",
+      "pages": [
+        149
+      ],
+      "topic_ids": [
+        "S3C2T37"
+      ],
+      "description": "불공정영업 조문인용은 중도상환수수료 등 예외누락에주의",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C2T37"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        164
+      ],
+      "topic_ids": [
+        "S3C3T02"
+      ],
+      "description": "손실조건·조기상환·공정가액·신용등급 고지와 첫거래 교육예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T02-INLINE-002",
+      "document": "P3",
+      "pages": [
+        166
+      ],
+      "topic_ids": [
+        "S3C3T02"
+      ],
+      "description": "시스템매매 입력조건과 자동화의 의미",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        168
+      ],
+      "topic_ids": [
+        "S3C3T03"
+      ],
+      "description": "비임직원 수취·무자격 판매·복합상품 대행인 판매 OX 세 문장",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        171
+      ],
+      "topic_ids": [
+        "S3C3T05"
+      ],
+      "description": "제3자 자료는 성명 표시 후 공표 가능 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        174
+      ],
+      "topic_ids": [
+        "S3C3T06"
+      ],
+      "description": "M&A 양 법인과 공개입찰 매각·매입 법인 그림 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        178
+      ],
+      "topic_ids": [
+        "S3C3T08"
+      ],
+      "description": "24시간 금지→7일까지 방향제한 그림 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        184
+      ],
+      "topic_ids": [
+        "S3C3T11"
+      ],
+      "description": "공동접대 상대방 점유비율 OX와 이사회/5년 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T13-INLINE-001",
+      "document": "P3",
+      "pages": [
+        187
+      ],
+      "topic_ids": [
+        "S3C3T13"
+      ],
+      "description": "증거금 역사비교 표 원본 확인;10배 이상은 부등호 오류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T13-INLINE-002",
+      "document": "P3",
+      "pages": [
+        188
+      ],
+      "topic_ids": [
+        "S3C3T13"
+      ],
+      "description": "투자자명의 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T14-INLINE-001",
+      "document": "P3",
+      "pages": [
+        191
+      ],
+      "topic_ids": [
+        "S3C3T14"
+      ],
+      "description": "자산별5분류 표와 해외자원/일반사모 예시2개 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T15-INLINE-001",
+      "document": "P3",
+      "pages": [
+        193
+      ],
+      "topic_ids": [
+        "S3C3T15"
+      ],
+      "description": "협회신고/금융위신고 OX;수요예측 의무폐지와 환매청구권 조건",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T15-INLINE-002",
+      "document": "P3",
+      "pages": [
+        194
+      ],
+      "topic_ids": [
+        "S3C3T15"
+      ],
+      "description": "초과배정 시장매수가격80%·무보증사채2개평가/100억미만 수요예측 예외",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C3T16-INLINE-001",
+      "document": "P3",
+      "pages": [
+        197
+      ],
+      "topic_ids": [
+        "S3C3T16"
+      ],
+      "description": "표준약관 제정주체 금융위 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C3T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        207
+      ],
+      "topic_ids": [
+        "S3C4T02"
+      ],
+      "description": "세 정보집합 포함관계 원본 그림 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        210
+      ],
+      "topic_ids": [
+        "S3C4T04"
+      ],
+      "description": "원본 공식은 곱셈점.텍스트의 대시 추출 오류 해소",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        212
+      ],
+      "topic_ids": [
+        "S3C4T05"
+      ],
+      "description": "PER5→이익수익률20%,PER20→5%;GARCH OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T05-INLINE-002",
+      "document": "P3",
+      "pages": [
+        213
+      ],
+      "topic_ids": [
+        "S3C4T05"
+      ],
+      "description": "과거자료+펀더멘털 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        215
+      ],
+      "topic_ids": [
+        "S3C4T06"
+      ],
+      "description": "위험-기대수익 A/B/C/C′/D/E 좌표 원본 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        218
+      ],
+      "topic_ids": [
+        "S3C4T08"
+      ],
+      "description": "과잉반응 매수·매도와 상승하는 내재가치 원본그림 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        219
+      ],
+      "topic_ids": [
+        "S3C4T09"
+      ],
+      "description": "채권:주식70:30~30:70 정률도 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T09-INLINE-002",
+      "document": "P3",
+      "pages": [
+        221
+      ],
+      "topic_ids": [
+        "S3C4T09"
+      ],
+      "description": "수익률-주가 곡선 원본확인;축단위주의",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T10-INLINE-001",
+      "document": "P3",
+      "pages": [
+        222
+      ],
+      "topic_ids": [
+        "S3C4T10"
+      ],
+      "description": "보호적풋 만기구조 max(S,K)와 보험료도 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T10-INLINE-002",
+      "document": "P3",
+      "pages": [
+        223
+      ],
+      "topic_ids": [
+        "S3C4T10"
+      ],
+      "description": "상승증가·하락감소 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        224
+      ],
+      "topic_ids": [
+        "S3C4T11"
+      ],
+      "description": "96+4=100,−0.3델타 실행예시",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T11-INLINE-002",
+      "document": "P3",
+      "pages": [
+        225
+      ],
+      "topic_ids": [
+        "S3C4T11"
+      ],
+      "description": "변동성 표 원본 확인;조건부관계와 일반화오류 분리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T12-INLINE-001",
+      "document": "P3",
+      "pages": [
+        227
+      ],
+      "topic_ids": [
+        "S3C4T12"
+      ],
+      "description": "선물매도로 비용완화와 롤오버·베이시스위험;실제보험보장과 분리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T14-INLINE-001",
+      "document": "P3",
+      "pages": [
+        231
+      ],
+      "topic_ids": [
+        "S3C4T14"
+      ],
+      "description": "최적화 잔차위험 허용수준이하 OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T14-INLINE-002",
+      "document": "P3",
+      "pages": [
+        232
+      ],
+      "topic_ids": [
+        "S3C4T14"
+      ],
+      "description": "세지수 표와 Nikkei OX 원본 확인;실제지수방법은 기준일검증",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T15-INLINE-001",
+      "document": "P3",
+      "pages": [
+        233
+      ],
+      "topic_ids": [
+        "S3C4T15"
+      ],
+      "description": "가치/성장과 규모 분류그림 원본확인;베타의 고정관계로 사용하지 않음",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T15-INLINE-002",
+      "document": "P3",
+      "pages": [
+        234
+      ],
+      "topic_ids": [
+        "S3C4T15"
+      ],
+      "description": "SRI배제기준과 편향가능성",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T17-INLINE-001",
+      "document": "P3",
+      "pages": [
+        239
+      ],
+      "topic_ids": [
+        "S3C4T17"
+      ],
+      "description": "소형/저PER/저베타 그룹 빈칸과 상향식 내재가치 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C4T19-INLINE-001",
+      "document": "P3",
+      "pages": [
+        242
+      ],
+      "topic_ids": [
+        "S3C4T19"
+      ],
+      "description": "총변동과 잔차위험의 서로다른 두 산점도 원본확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C4T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        254
+      ],
+      "topic_ids": [
+        "S3C5T02"
+      ],
+      "description": "연복리·분기복리 만기액",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T02-INLINE-002",
+      "document": "P3",
+      "pages": [
+        255
+      ],
+      "topic_ids": [
+        "S3C5T02"
+      ],
+      "description": "단리·할인·쿠폰 시간선과 재투자 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        261
+      ],
+      "topic_ids": [
+        "S3C5T04"
+      ],
+      "description": "전환대상비율50% 주수 역산·OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        263
+      ],
+      "topic_ids": [
+        "S3C5T05"
+      ],
+      "description": "옵션 행사자·가격 그래프·빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        266
+      ],
+      "topic_ids": [
+        "S3C5T06"
+      ],
+      "description": "응찰 누적표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        270
+      ],
+      "topic_ids": [
+        "S3C5T08"
+      ],
+      "description": "91일·1년91일 할인채",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T08-INLINE-002",
+      "document": "P3",
+      "pages": [
+        271
+      ],
+      "topic_ids": [
+        "S3C5T08"
+      ],
+      "description": "이표채 현재가치",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        272
+      ],
+      "topic_ids": [
+        "S3C5T09"
+      ],
+      "description": "실효수익률·조기상환수익률",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        276
+      ],
+      "topic_ids": [
+        "S3C5T11"
+      ],
+      "description": "600·600·10600 현금흐름 가중치",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T12-INLINE-001",
+      "document": "P3",
+      "pages": [
+        279
+      ],
+      "topic_ids": [
+        "S3C5T12"
+      ],
+      "description": "분기복리 수정D·선물55계약의 단순화",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T13-INLINE-001",
+      "document": "P3",
+      "pages": [
+        281
+      ],
+      "topic_ids": [
+        "S3C5T13"
+      ],
+      "description": "A·B곡선과 C접선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T13-INLINE-002",
+      "document": "P3",
+      "pages": [
+        284
+      ],
+      "topic_ids": [
+        "S3C5T13"
+      ],
+      "description": "C8.94·역산C42",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T13-INLINE-003",
+      "document": "P3",
+      "pages": [
+        285
+      ],
+      "topic_ids": [
+        "S3C5T13"
+      ],
+      "description": "C 기여분 .0447%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T15-INLINE-001",
+      "document": "P3",
+      "pages": [
+        291
+      ],
+      "topic_ids": [
+        "S3C5T15"
+      ],
+      "description": "쿠폰채에서 현물·선도 부트스트랩",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T16-INLINE-001",
+      "document": "P3",
+      "pages": [
+        293
+      ],
+      "topic_ids": [
+        "S3C5T16"
+      ],
+      "description": "기대와 프리미엄 곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T16-INLINE-002",
+      "document": "P3",
+      "pages": [
+        294
+      ],
+      "topic_ids": [
+        "S3C5T16"
+      ],
+      "description": "현물금리 역산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T17-INLINE-001",
+      "document": "P3",
+      "pages": [
+        298
+      ],
+      "topic_ids": [
+        "S3C5T17"
+      ],
+      "description": "롤링·숄더 곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T17-INLINE-002",
+      "document": "P3",
+      "pages": [
+        300
+      ],
+      "topic_ids": [
+        "S3C5T17"
+      ],
+      "description": "바벨·불릿 만기별 가격 변화 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C5T18-INLINE-001",
+      "document": "P3",
+      "pages": [
+        303
+      ],
+      "topic_ids": [
+        "S3C5T18"
+      ],
+      "description": "A100 L60 DL5의 DA3",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C5T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        311
+      ],
+      "topic_ids": [
+        "S3C6T01"
+      ],
+      "description": "5대위험 거래장소표·OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        313
+      ],
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "description": "배추가격7000 손익그래프",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        314
+      ],
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "description": "개시1500·유지1000·잔액600",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T03-INLINE-002",
+      "document": "P3",
+      "pages": [
+        315
+      ],
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "description": "OI2×2표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        318
+      ],
+      "topic_ids": [
+        "S3C6T04"
+      ],
+      "description": "콘탱고OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        320
+      ],
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "description": "달러예금·선도매도 현금흐름",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        321
+      ],
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "description": "청산매매 용어표 오배치",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T06-INLINE-002",
+      "document": "P3",
+      "pages": [
+        322
+      ],
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "description": "베이시스 그래프",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T06-INLINE-003",
+      "document": "P3",
+      "pages": [
+        323
+      ],
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "description": "단순100·베타80·최소분산h1",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        325
+      ],
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "description": "콘탱고이면차익OX 오류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        326
+      ],
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "description": "베이시스와 합성채권",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        327
+      ],
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "description": "수평·수직 그래프와 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T08-INLINE-002",
+      "document": "P3",
+      "pages": [
+        328
+      ],
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "description": "확대손익3",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        330
+      ],
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "description": "4개 기본포지션",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T09-INLINE-002",
+      "document": "P3",
+      "pages": [
+        331
+      ],
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "description": "콜양측 손익",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T10-INLINE-001",
+      "document": "P3",
+      "pages": [
+        334
+      ],
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "description": "S80/100/120 가격·시간가치",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        338
+      ],
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "description": "수직·수평·대각·예시4개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T11-INLINE-002",
+      "document": "P3",
+      "pages": [
+        342
+      ],
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "description": "강세콜+4 추가예시",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T12-INLINE-001",
+      "document": "P3",
+      "pages": [
+        343
+      ],
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "description": "스트래들·스트랭글·버터플라이·콘도르 매도/매수8곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T12-INLINE-002",
+      "document": "P3",
+      "pages": [
+        344
+      ],
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "description": "숏스트래들90~110·OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T13-INLINE-001",
+      "document": "P3",
+      "pages": [
+        346
+      ],
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "description": "패리티 양측 만기가치 증명",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T13-INLINE-002",
+      "document": "P3",
+      "pages": [
+        347
+      ],
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "description": "합성콜 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T13"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T14-INLINE-001",
+      "document": "P3",
+      "pages": [
+        348
+      ],
+      "topic_ids": [
+        "S3C6T14"
+      ],
+      "description": "컨버전3개 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T14"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T15-INLINE-001",
+      "document": "P3",
+      "pages": [
+        349
+      ],
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "description": "주식100·선물매도60 복제",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T15"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T16-INLINE-001",
+      "document": "P3",
+      "pages": [
+        351
+      ],
+      "topic_ids": [
+        "S3C6T16"
+      ],
+      "description": "이항 복제 트리",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T16-INLINE-002",
+      "document": "P3",
+      "pages": [
+        352
+      ],
+      "topic_ids": [
+        "S3C6T16"
+      ],
+      "description": "위험중립 확률 도출",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T17-INLINE-001",
+      "document": "P3",
+      "pages": [
+        354
+      ],
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "description": "콜.7·풋−.3",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T18-INLINE-001",
+      "document": "P3",
+      "pages": [
+        356
+      ],
+      "topic_ids": [
+        "S3C6T18"
+      ],
+      "description": "K/S축 방향 확인",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T18"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T19-INLINE-001",
+      "document": "P3",
+      "pages": [
+        358
+      ],
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "description": "구간 델타.3",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T19-INLINE-002",
+      "document": "P3",
+      "pages": [
+        359
+      ],
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "description": "감마곡선 만기비교",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C6T19-INLINE-003",
+      "document": "P3",
+      "pages": [
+        360
+      ],
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "description": "5개Greeks·스트래들·강세콜 민감도",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C6T19"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        370
+      ],
+      "topic_ids": [
+        "S3C7T01"
+      ],
+      "description": "7단계 흐름도",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        374
+      ],
+      "topic_ids": [
+        "S3C7T03"
+      ],
+      "description": "3개월4% 연율단리·복리·TWR/MWR",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        376
+      ],
+      "topic_ids": [
+        "S3C7T04"
+      ],
+      "description": "절대/상대위험표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T04-INLINE-002",
+      "document": "P3",
+      "pages": [
+        378
+      ],
+      "topic_ids": [
+        "S3C7T04"
+      ],
+      "description": "DD 분모n−1 표본관례",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        382
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "description": "효율적곡선 A B C D",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T06-INLINE-002",
+      "document": "P3",
+      "pages": [
+        383
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "description": "β2 단위 오류와 집중투자OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        386
+      ],
+      "topic_ids": [
+        "S3C7T07"
+      ],
+      "description": "IR·appraisal 등식 조건",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        387
+      ],
+      "topic_ids": [
+        "S3C7T07"
+      ],
+      "description": "MAR와하방편차",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        390
+      ],
+      "topic_ids": [
+        "S3C7T08"
+      ],
+      "description": "TM/HM 수식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        392
+      ],
+      "topic_ids": [
+        "S3C7T09"
+      ],
+      "description": "RBSA 설명의 표 열 배치 오류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C7T11-INLINE-001",
+      "document": "P3",
+      "pages": [
+        396
+      ],
+      "topic_ids": [
+        "S3C7T11"
+      ],
+      "description": "14개 GIPS항목",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C7T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        402
+      ],
+      "topic_ids": [
+        "S3C8T01"
+      ],
+      "description": "균형복귀 가격경로",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T01-INLINE-002",
+      "document": "P3",
+      "pages": [
+        403
+      ],
+      "topic_ids": [
+        "S3C8T01"
+      ],
+      "description": "AD-AS·IS-LM 축",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        404
+      ],
+      "topic_ids": [
+        "S3C8T02"
+      ],
+      "description": "곡선상 이동",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T02-INLINE-002",
+      "document": "P3",
+      "pages": [
+        405
+      ],
+      "topic_ids": [
+        "S3C8T02"
+      ],
+      "description": "균형과외생변수",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        407
+      ],
+      "topic_ids": [
+        "S3C8T03"
+      ],
+      "description": "a→c 가상·a→b 실제 구축폭",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T03-INLINE-002",
+      "document": "P3",
+      "pages": [
+        408
+      ],
+      "topic_ids": [
+        "S3C8T03"
+      ],
+      "description": "3종 구축효과",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        409
+      ],
+      "topic_ids": [
+        "S3C8T04"
+      ],
+      "description": "수평·무구축 빈칸",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T04-INLINE-002",
+      "document": "P3",
+      "pages": [
+        410
+      ],
+      "topic_ids": [
+        "S3C8T04"
+      ],
+      "description": "물가하락 OX·함정탈출",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T04-INLINE-003",
+      "document": "P3",
+      "pages": [
+        411
+      ],
+      "topic_ids": [
+        "S3C8T04"
+      ],
+      "description": "예상못한정책 반복OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        413
+      ],
+      "topic_ids": [
+        "S3C8T05"
+      ],
+      "description": "금리결정 두 시장·피셔5−2",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T05-INLINE-002",
+      "document": "P3",
+      "pages": [
+        414
+      ],
+      "topic_ids": [
+        "S3C8T05"
+      ],
+      "description": "피셔효과 도표",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        415
+      ],
+      "topic_ids": [
+        "S3C8T06"
+      ],
+      "description": "프리미엄과시장단절 곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        417
+      ],
+      "topic_ids": [
+        "S3C8T07"
+      ],
+      "description": "a b c d 그래프",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        418
+      ],
+      "topic_ids": [
+        "S3C8T07"
+      ],
+      "description": "경상흑자빈칸·환율양방향",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        419
+      ],
+      "topic_ids": [
+        "S3C8T08"
+      ],
+      "description": "GDP→GDI→GNI",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T08-INLINE-002",
+      "document": "P3",
+      "pages": [
+        420
+      ],
+      "topic_ids": [
+        "S3C8T08"
+      ],
+      "description": "실업률25%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T08-INLINE-003",
+      "document": "P3",
+      "pages": [
+        421
+      ],
+      "topic_ids": [
+        "S3C8T08"
+      ],
+      "description": "인구분류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        422
+      ],
+      "topic_ids": [
+        "S3C8T09"
+      ],
+      "description": "선동후7·7·5와디플레이터OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T09-INLINE-002",
+      "document": "P3",
+      "pages": [
+        423
+      ],
+      "topic_ids": [
+        "S3C8T09"
+      ],
+      "description": "V.7·증가율근사5%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T10-INLINE-001",
+      "document": "P3",
+      "pages": [
+        424
+      ],
+      "topic_ids": [
+        "S3C8T10"
+      ],
+      "description": "주기·진폭도표·OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T10-INLINE-002",
+      "document": "P3",
+      "pages": [
+        425
+      ],
+      "topic_ids": [
+        "S3C8T10"
+      ],
+      "description": "DI90→60·BSI140·ARIMA",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C8T10-INLINE-003",
+      "document": "P3",
+      "pages": [
+        426
+      ],
+      "topic_ids": [
+        "S3C8T10"
+      ],
+      "description": "DI·CI 증감OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C8T10"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T01-INLINE-001",
+      "document": "P3",
+      "pages": [
+        434
+      ],
+      "topic_ids": [
+        "S3C9T01"
+      ],
+      "description": "개별기대·분산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T01-INLINE-002",
+      "document": "P3",
+      "pages": [
+        435
+      ],
+      "topic_ids": [
+        "S3C9T01"
+      ],
+      "description": "상관.6 가정과원표충돌·분산식",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T01"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T02-INLINE-001",
+      "document": "P3",
+      "pages": [
+        437
+      ],
+      "topic_ids": [
+        "S3C9T02"
+      ],
+      "description": "상관3개특수경우",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T02-INLINE-002",
+      "document": "P3",
+      "pages": [
+        438
+      ],
+      "topic_ids": [
+        "S3C9T02"
+      ],
+      "description": "GMVP60%·종목수",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T02-INLINE-003",
+      "document": "P3",
+      "pages": [
+        439
+      ],
+      "topic_ids": [
+        "S3C9T02"
+      ],
+      "description": "ρ0·w61% 추가예시·시장위험OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T02"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T03-INLINE-001",
+      "document": "P3",
+      "pages": [
+        440
+      ],
+      "topic_ids": [
+        "S3C9T03"
+      ],
+      "description": "지배예시2개",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T03-INLINE-002",
+      "document": "P3",
+      "pages": [
+        441
+      ],
+      "topic_ids": [
+        "S3C9T03"
+      ],
+      "description": "w69.84%·효용곡선",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T03-INLINE-003",
+      "document": "P3",
+      "pages": [
+        442
+      ],
+      "topic_ids": [
+        "S3C9T03"
+      ],
+      "description": "Pd Pe접점",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T03-INLINE-004",
+      "document": "P3",
+      "pages": [
+        443
+      ],
+      "topic_ids": [
+        "S3C9T03"
+      ],
+      "description": "sqrt와제곱함수",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T03"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T04-INLINE-001",
+      "document": "P3",
+      "pages": [
+        444
+      ],
+      "topic_ids": [
+        "S3C9T04"
+      ],
+      "description": "CML.7143",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T04-INLINE-002",
+      "document": "P3",
+      "pages": [
+        445
+      ],
+      "topic_ids": [
+        "S3C9T04"
+      ],
+      "description": "총위험분해오류",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T04-INLINE-003",
+      "document": "P3",
+      "pages": [
+        446
+      ],
+      "topic_ids": [
+        "S3C9T04"
+      ],
+      "description": "대출·차입OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T05-INLINE-001",
+      "document": "P3",
+      "pages": [
+        448
+      ],
+      "topic_ids": [
+        "S3C9T05"
+      ],
+      "description": "CAPM동질기대OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T05-INLINE-002",
+      "document": "P3",
+      "pages": [
+        449
+      ],
+      "topic_ids": [
+        "S3C9T05"
+      ],
+      "description": "서로다른축의 CML/SML",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T05-INLINE-003",
+      "document": "P3",
+      "pages": [
+        450
+      ],
+      "topic_ids": [
+        "S3C9T05"
+      ],
+      "description": "저평가수직차",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T06-INLINE-001",
+      "document": "P3",
+      "pages": [
+        453
+      ],
+      "topic_ids": [
+        "S3C9T06"
+      ],
+      "description": "회귀분산·정보수",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T06-INLINE-002",
+      "document": "P3",
+      "pages": [
+        454
+      ],
+      "topic_ids": [
+        "S3C9T06"
+      ],
+      "description": "동일비중β.8",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T07-INLINE-001",
+      "document": "P3",
+      "pages": [
+        455
+      ],
+      "topic_ids": [
+        "S3C9T07"
+      ],
+      "description": "1요인수익·분산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T07-INLINE-002",
+      "document": "P3",
+      "pages": [
+        456
+      ],
+      "topic_ids": [
+        "S3C9T07"
+      ],
+      "description": "2요인·β동일차익300만원",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T07"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T08-INLINE-001",
+      "document": "P3",
+      "pages": [
+        459
+      ],
+      "topic_ids": [
+        "S3C9T08"
+      ],
+      "description": "50/30/20 비중복원",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T08-INLINE-002",
+      "document": "P3",
+      "pages": [
+        460
+      ],
+      "topic_ids": [
+        "S3C9T08"
+      ],
+      "description": "TB0.8/−.5/.3 점수와OX",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T08"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T09-INLINE-001",
+      "document": "P3",
+      "pages": [
+        461
+      ],
+      "topic_ids": [
+        "S3C9T09"
+      ],
+      "description": "보유기간15%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T09-INLINE-002",
+      "document": "P3",
+      "pages": [
+        462
+      ],
+      "topic_ids": [
+        "S3C9T09"
+      ],
+      "description": "산술30·기하28.4523%",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "S3C9T09-INLINE-003",
+      "document": "P3",
+      "pages": [
+        463
+      ],
+      "topic_ids": [
+        "S3C9T09"
+      ],
+      "description": "2주·1주 수익률동일 검산",
+      "provenance": "existing_topic_review",
+      "relation": "page-based review note; may cover multiple small prompts",
+      "eval_topic_refs": [
+        "S3C9T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-001",
+      "provenance": "omission_recheck",
+      "document": "P12",
+      "pages": [
+        93,
+        94
+      ],
+      "topic_ids": [
+        "S1C2T09"
+      ],
+      "description": "ELW 손익분기율과 자본지지점의 비교 질문",
+      "teaching_point": "자본지지점 6%는 기초자산의 연간 상승률에 관한 비교 기준이다. 94쪽의 'ELW가 6%만 상승'이라는 설명은 93쪽 정의와 다르므로 그대로 가르치지 않는다.",
+      "relation": "existing supplementary Q5 explanation; not a new standalone stem",
+      "eval_topic_refs": [
+        "S1C2T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-002",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        100
+      ],
+      "topic_ids": [
+        "S3C2T16"
+      ],
+      "description": "동일 법인 지분증권의 투자한도를 두는 이유",
+      "teaching_point": "분산투자와 고객재산을 이용한 지배 문제를 구별해 설명한다. 실제 한도 수치는 적용 대상·예외·시점을 별도로 확인한다.",
+      "relation": "embedded explanatory question",
+      "eval_topic_refs": [
+        "S3C2T16"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-003",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        238
+      ],
+      "topic_ids": [
+        "S3C4T17"
+      ],
+      "description": "보유 종목 수가 많으면 인덱스펀드인지, 관리가 어려운지 묻는 두 질문",
+      "teaching_point": "운용 목표·비중 결정 규칙과 종목 개수를 분리한다. 종목 수만으로 패시브 여부를 정하지 않으며 관리 부담은 시스템·비용에 따라 달라진다.",
+      "relation": "two rhetorical checks in one explanatory block",
+      "eval_topic_refs": [
+        "S3C4T17"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-004",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        273
+      ],
+      "topic_ids": [
+        "S3C5T09"
+      ],
+      "description": "연 표면금리 8%, 분기 복리의 실효 연수익률",
+      "teaching_point": "(1+0.08/4)^4−1=0.08243216, 약 8.24%. 기간 이율과 연 복리 횟수를 분리한다.",
+      "relation": "embedded worked example",
+      "eval_topic_refs": [
+        "S3C5T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-005",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        277
+      ],
+      "topic_ids": [
+        "S3C5T11"
+      ],
+      "description": "3년 이표채의 듀레이션과 쿠폰 6%→4% 변경 비교",
+      "teaching_point": "액면 10000, YTM 4%, 연 쿠폰 600이면 가격10555.0182원, PV 가중평균 기간은 약2.8381년이다. 쿠폰400이면 약2.8861년으로 커진다. 그림의 초기지급액10600원은 주어진 YTM으로 계산한 가격과 일치하지 않는다. 2.83은 절삭값, 소수둘째자리 반올림은2.84로 구분한다.",
+      "relation": "two embedded calculation/comparison prompts",
+      "eval_topic_refs": [
+        "S3C5T11"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-006",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        280
+      ],
+      "topic_ids": [
+        "S3C5T12"
+      ],
+      "description": "채권 포트폴리오의 듀레이션 헤지 55계약 예시",
+      "teaching_point": "교재의 단순화된 조건에서 (100억×5.5)/(1억×10)=55계약 매도. 계약금액·민감도 단위가 일치해야 하며 실제 선물 가격·전환계수 등 조건 없이 액면만으로 일반화하지 않는다.",
+      "relation": "embedded worked example",
+      "eval_topic_refs": [
+        "S3C5T12"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-007",
+      "provenance": "omission_recheck",
+      "document": "P3",
+      "pages": [
+        385
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "description": "Rf 3%, Rp 8%, Rm 6%, β 1.2의 젠센 알파",
+      "teaching_point": "8%−[3%+1.2×(6%−3%)]=1.4%포인트. 시장수익률을 단순히 뺀 2%포인트와 구별한다.",
+      "relation": "embedded worked example",
+      "eval_topic_refs": [
+        "S3C7T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-008",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        1
+      ],
+      "topic_ids": [
+        "S3C8T09"
+      ],
+      "description": "표지의 MV=PY 및 통화유통속도 OX 예시",
+      "teaching_point": "V=명목GDP/통화량=PY/M. 명목GDP를 실질GDP로 나누면 물가 수준에 관한 비율이므로 표지의 해당 진술은 X. 표지의 적중 효과·기출 회차는 출판사 주장으로만 보존한다.",
+      "relation": "cover illustration of calculation and OX; not an additional numbered problem",
+      "eval_topic_refs": [
+        "S3C8T09"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-009",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        8
+      ],
+      "topic_ids": [
+        "S1C2T35"
+      ],
+      "description": "IRP 1억원의 첫해 연금수령한도 해설 반복",
+      "teaching_point": "해당 교재의 조건에서 1억/(11−1)×120%=1200만원. 동일 입력의 기존 CALC-04 해설 반복으로 표시하고 연도별 법령 적용은 별도 확인한다.",
+      "relation": "duplicate explanation of CALC-04",
+      "represented_by_question_ids": [
+        "CALC-04"
+      ],
+      "eval_topic_refs": [
+        "S1C2T35"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-010",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        37
+      ],
+      "topic_ids": [
+        "S2C4T05"
+      ],
+      "description": "95%·1일 VaR 1억원 → 99%·25일 VaR 예시",
+      "teaching_point": "정규분포·독립 동일분포·일정 변동성 등 제곱근 시간확대 조건에서 1×(2.33/1.65)×√25≈7.0606억원.",
+      "relation": "embedded variation separate from CALC-25 input",
+      "eval_topic_refs": [
+        "S2C4T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-011",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        37
+      ],
+      "topic_ids": [
+        "S2C4T05"
+      ],
+      "description": "99%·1일 VaR 1억원 → 95%·25일 VaR 예시",
+      "teaching_point": "동일 모형 조건에서 1×(1.65/2.33)×√25≈3.5408억원. 신뢰수준 비율의 분자·분모를 반대로 넣지 않는다.",
+      "relation": "embedded variation separate from preceding input",
+      "eval_topic_refs": [
+        "S2C4T05"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-012",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        49
+      ],
+      "topic_ids": [
+        "S3C5T04"
+      ],
+      "description": "전환비율 100%의 의미를 묻는 해설 질문",
+      "teaching_point": "전환주수 계산에서 채권액면 중 전환되는 비율과 주식수·패리티를 구별한다. 패리티 계산에 사용하지 않는 전환사채 시장가격을 섞지 않는다.",
+      "relation": "definition check within CALC-36 explanation",
+      "represented_by_question_ids": [
+        "CALC-36"
+      ],
+      "eval_topic_refs": [
+        "S3C5T04"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    },
+    {
+      "id": "OMISSION-INLINE-013",
+      "provenance": "omission_recheck",
+      "document": "CALC",
+      "pages": [
+        81
+      ],
+      "topic_ids": [
+        "S3C7T06"
+      ],
+      "description": "실제 수익률이 균형 요구수익률을 얼마나 초과했는지 묻는 해설 질문",
+      "teaching_point": "젠센 알파의 비교 대상은 같은 β에 해당하는 CAPM 요구수익률이다. 시장수익률 자체와의 차이로 바꾸지 않는다.",
+      "relation": "conceptual question within CALC-55 explanation",
+      "represented_by_question_ids": [
+        "CALC-55"
+      ],
+      "eval_topic_refs": [
+        "S3C7T06"
+      ],
+      "release_policy": "개별 OX·예제의 원문 조건·답을 추출 검토한 뒤 평가 문항으로 사용"
+    }
+  ]
+}

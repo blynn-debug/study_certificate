@@ -1,0 +1,24 @@
+{
+  "id": "kofia_fx",
+  "requested_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1720&seq=134",
+  "retrieved_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=1720&seq=134",
+  "retrieved_at": "2026-10-13T00:01:47.305048+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 7858,
+  "content_sha256": "b70fd0f6b2f82675e650cd34221dcbbf7a93a12792238b066642575b2c5549cc",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2025",
+      "5",
+      "13"
+    ]
+  ],
+  "name": "유사해외통화선물(FX Margin Trading) 거래 약관",
+  "kofia_seq": "134",
+  "history_seq": "1720",
+  "version_selection": "official_current_law_tree; effective clauses require review",
+  "version_selection_source": "sources/kofia_tree.html",
+  "text_extractor_version": "2_preserve_statutory_image_alt"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "s2_gips_verification",
+  "requested_url": "https://www.gipsstandards.org/wp-content/uploads/2021/04/gips-standards-handbook-firms.pdf",
+  "retrieved_url": "https://www.gipsstandards.org/wp-content/uploads/2021/04/gips-standards-handbook-firms.pdf",
+  "retrieved_at": "2026-10-14T00:02:23.947630+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "6984e2f6502b211f51ab5b458ed51772dd840a8b92f93050305f9e63e7071001",
+  "binary_sha256": "6984e2f6502b211f51ab5b458ed51772dd840a8b92f93050305f9e63e7071001",
+  "text_sha256": "9fbd95a4f1c340313dd03519abb04e1c27f1ef36a615abd6845f5e9a50bacccb",
+  "pages": 566,
+  "characters": 1403493,
+  "status": "retrieved_not_claim_verified"
+}

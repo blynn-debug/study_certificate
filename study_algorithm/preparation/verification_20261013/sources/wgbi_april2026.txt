@@ -1,0 +1,1452 @@
+[PDF page 1]
+ 
+ 
+ 
+April 2026 
+FTSE Classification of Fixed Income Markets –  
+FTSE Fixed Income Country Classification 
+March 2026 Results Announcement 
+Published: 07 April 2026 
+The inclusion of nominal and inflation-linked local currency government bond markets in global FTSE fixed income 
+indices is governed by the FTSE Fixed Income Country Classification Framework.  
+A core feature of this framework is the assignment of Market Accessibility Levels, which are reviewed on a semi-annual 
+basis. The transparent nature of the Market Accessibility Levels allows FTSE Russell to seek feedback from 
+international investors on their practical investment experiences and to engage with relevant authorities in markets 
+which are under review for potential reclassification. Index inclusion changes due to market size and credit rating are 
+also assessed as part of the FTSE Fixed Income Country Classification process.  
+FTSE Russell also considers changes to the methodology for the FTSE global fixed income indices that include the 
+markets for these bonds as part of its semi-annual external advisory committee meetings.  
+The results of the March 2026 FTSE Fixed Income Country Classification Review can be found in the remainder of this 
+announcement. 
+ 
+
+[PDF page 2]
+FTSE Fixed Income Country Classification – Semi-Annual Announcement – April 2026 
+FTSE Russell  
+2 of 7 
+1. 
+Inclusion of South Korea in the FTSE World Government Bond 
+Index (WGBI) Commenced on 01 April 2026 
+South Korea 
+In October 2024, FTSE Russell announced the reclassification of the Market Accessibility Level for South Korea from 1 
+to 2 and the inclusion of South Korean fixed-rate, local currency government bonds in the FTSE World Government 
+Bond Index (WGBI). FTSE Russell’s assessment that South Korea met the criteria for Market Accessibility Level 2 was 
+reflective of a number of welcomed initiatives implemented by the South Korean market authorities to improve the 
+accessibility of South Korean government bonds for international investors.  
+As previously announced, the first tranche of inclusion of South Korea in the FTSE WGBI has commenced as of March 
+2026 month-end, effective with April 2026 index profiles. Inclusion will be phased-in over an eight-month period, in eight 
+equal monthly tranches and completed with November 2026 index profiles. Over the eight-month period, for each 
+month, N, a fraction N/8 of the current amount outstanding of each eligible bond as of the Fixing Date will be included in 
+the index. 
+Index Implementation Details and Impact Analysis 
+Local currency, fixed-rate South Korean government bonds with an original tenor of 30-years or less are eligible for the 
+WGBI and indices that derive their membership from it. South Korea is classified as a Developed Market within FTSE 
+fixed income indices and has also been included in the FTSE World Government Bond Index – Developed Markets 
+(WGBI-DM). In advance of the start of inclusion, FTSE Russell announced that the price source for South Korean 
+government bonds has been changed to Korean Asset Pricing (KAP). The price quote convention reflects a 4:00 p.m. 
+(Tokyo) snap time and a bid-side quote convention.1 
+As of the April 2026 index profiles, 65 KRW-denominated South Korean government bonds (USD 685.1 billion in par 
+amount outstanding) are eligible for the FTSE WGBI, representing 1.75% of the index on a market value weighted basis 
+once fully phased-in. Once fully phased-in, South Korea is projected to represent 1.91% of the FTSE WGBI ex Japan 
+and 2.18% of the WGBI ex Japan ex China on a market value weighted basis. Further details on the impact are 
+provided in Figures 1, 2 and 3.  
+Figure 1: Impact of the Inclusion of South Korean Government Bonds in the WGBI 
+ 
+WGBI 
+WGBI + South Korea 
+Difference 
+ 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+United States 
+293 
+14,398.7 
+42.15 
+293 
+14,398.7 
+41.41 
+- 
+- 
+-0.74 
+Japan 
+275 
+2,907.9 
+8.51 
+275 
+2,907.9 
+8.36 
+- 
+- 
+-0.15 
+China 
+90 
+3,873.2 
+11.34 
+90 
+3,873.2 
+11.14 
+- 
+- 
+-0.20 
+France 
+52 
+2,222.1 
+6.50 
+52 
+2,222.1 
+6.39 
+- 
+- 
+-0.11 
+Italy 
+94 
+2,025.2 
+5.93 
+94 
+2,025.2 
+5.82 
+- 
+- 
+-0.10 
+Germany 
+68 
+1,763.9 
+5.16 
+68 
+1,763.9 
+5.07 
+- 
+- 
+-0.09 
+United Kingdom 
+65 
+1,730.6 
+5.07 
+65 
+1,730.6 
+4.98 
+- 
+- 
+-0.09 
+Spain 
+54 
+1,340.5 
+3.92 
+54 
+1,340.5 
+3.85 
+- 
+- 
+-0.07 
+South Korea 
+- 
+- 
+- 
+65 
+609.7 
+1.75 
+65 
+609.7 
+1.75 
+Canada 
+43 
+656.6 
+1.92 
+43 
+656.6 
+1.89 
+- 
+- 
+-0.03 
+Belgium 
+36 
+473.1 
+1.38 
+36 
+473.1 
+1.36 
+- 
+- 
+-0.02 
+Netherlands 
+24 
+378.4 
+1.11 
+24 
+378.4 
+1.09 
+- 
+- 
+-0.02 
+Australia 
+28 
+407.6 
+1.19 
+28 
+407.6 
+1.17 
+- 
+- 
+-0.02 
+Austria 
+32 
+339.8 
+0.99 
+32 
+339.8 
+0.98 
+- 
+- 
+-0.02 
+Mexico 
+17 
+270.7 
+0.79 
+17 
+270.7 
+0.78 
+- 
+- 
+-0.01 
+Portugal 
+21 
+185.0 
+0.54 
+21 
+185.0 
+0.53 
+- 
+- 
+-0.01 
+Poland 
+16 
+226.1 
+0.66 
+16 
+226.1 
+0.65 
+- 
+- 
+-0.01 
+ 
+1 For further details on the KAP End of Day pricing methodology, please see: https://www.koreaap.com/eng/valuation02_01.html  
+
+[PDF page 3]
+FTSE Fixed Income Country Classification – Semi-Annual Announcement – April 2026 
+FTSE Russell  
+3 of 7 
+Malaysia 
+30 
+160.4 
+0.47 
+30 
+160.4 
+0.46 
+- 
+- 
+-0.01 
+Finland 
+26 
+162.7 
+0.48 
+26 
+162.7 
+0.47 
+- 
+- 
+-0.01 
+Ireland 
+18 
+135.2 
+0.40 
+18 
+135.2 
+0.39 
+- 
+- 
+-0.01 
+Singapore 
+21 
+110.9 
+0.32 
+21 
+110.9 
+0.32 
+- 
+- 
+-0.01 
+Israel 
+15 
+134.3 
+0.39 
+15 
+134.3 
+0.39 
+- 
+- 
+-0.01 
+Denmark 
+7 
+60.1 
+0.18 
+7 
+60.1 
+0.17 
+- 
+- 
+0.00 
+New Zealand 
+14 
+94.2 
+0.28 
+14 
+94.2 
+0.27 
+- 
+- 
+0.00 
+Sweden 
+8 
+55.8 
+0.16 
+8 
+55.8 
+0.16 
+- 
+- 
+0.00 
+Norway 
+11 
+51.3 
+0.15 
+11 
+51.3 
+0.15 
+- 
+- 
+0.00 
+Total 
+1,358 
+34,164.3 
+100.00 
+1,423 
+34,774.0 
+100.00 
+65 
+609.7 
+0.00 
+*Market value shown in USD billions. Source: FTSE Russell, data as of 31 March 2026. 
+ 
+ 
+Figure 2: Impact of the Inclusion of South Korean Government Bonds in the WGBI ex Japan 
+ 
+WGBI ex Japan 
+WGBI ex Japan + South Korea 
+Difference 
+ 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+United States 
+293 
+14,398.7 
+46.07 
+293 
+14,398.7 
+45.19 
+- 
+- 
+-0.88 
+China 
+90 
+3,873.2 
+12.39 
+90 
+3,873.2 
+12.15 
+- 
+- 
+-0.24 
+France 
+52 
+2,222.1 
+7.11 
+52 
+2,222.1 
+6.97 
+- 
+- 
+-0.14 
+Italy 
+94 
+2,025.2 
+6.48 
+94 
+2,025.2 
+6.36 
+- 
+- 
+-0.12 
+Germany 
+68 
+1,763.9 
+5.64 
+68 
+1,763.9 
+5.54 
+- 
+- 
+-0.11 
+United Kingdom 
+65 
+1,730.6 
+5.54 
+65 
+1,730.6 
+5.43 
+- 
+- 
+-0.11 
+Spain 
+54 
+1,340.5 
+4.29 
+54 
+1,340.5 
+4.21 
+- 
+- 
+-0.08 
+South Korea 
+- 
+- 
+- 
+65 
+609.7 
+1.91 
+65 
+609.7 
+1.91 
+Canada 
+43 
+656.6 
+2.10 
+43 
+656.6 
+2.06 
+- 
+- 
+-0.04 
+Belgium 
+36 
+473.1 
+1.51 
+36 
+473.1 
+1.48 
+- 
+- 
+-0.03 
+Netherlands 
+24 
+378.4 
+1.21 
+24 
+378.4 
+1.19 
+- 
+- 
+-0.02 
+Australia 
+28 
+407.6 
+1.30 
+28 
+407.6 
+1.28 
+- 
+- 
+-0.02 
+Austria 
+32 
+339.8 
+1.09 
+32 
+339.8 
+1.07 
+- 
+- 
+-0.02 
+Mexico 
+17 
+270.7 
+0.87 
+17 
+270.7 
+0.85 
+- 
+- 
+-0.02 
+Portugal 
+21 
+185.0 
+0.59 
+21 
+185.0 
+0.58 
+- 
+- 
+-0.01 
+Poland 
+16 
+226.1 
+0.72 
+16 
+226.1 
+0.71 
+- 
+- 
+-0.01 
+Malaysia 
+30 
+160.4 
+0.51 
+30 
+160.4 
+0.50 
+- 
+- 
+-0.01 
+Finland 
+26 
+162.7 
+0.52 
+26 
+162.7 
+0.51 
+- 
+- 
+-0.01 
+Ireland 
+18 
+135.2 
+0.43 
+18 
+135.2 
+0.42 
+- 
+- 
+-0.01 
+Singapore 
+21 
+110.9 
+0.35 
+21 
+110.9 
+0.35 
+- 
+- 
+-0.01 
+Israel 
+15 
+134.3 
+0.43 
+15 
+134.3 
+0.42 
+- 
+- 
+-0.01 
+New Zealand 
+14 
+94.2 
+0.30 
+14 
+94.2 
+0.30 
+- 
+- 
+-0.01 
+Denmark 
+7 
+60.1 
+0.19 
+7 
+60.1 
+0.19 
+- 
+- 
+0.00 
+Sweden 
+8 
+55.8 
+0.18 
+8 
+55.8 
+0.18 
+- 
+- 
+0.00 
+Norway 
+11 
+51.3 
+0.16 
+11 
+51.3 
+0.16 
+- 
+- 
+0.00 
+Total 
+1,083 
+31,256.4 
+100.00 
+1,148 
+31,866.1 
+100.00 
+65 
+609.7 
+0.00 
+*Market value shown in USD billions. Source: FTSE Russell, data as of 31 March 2026. 
+ 
+ 
+
+[PDF page 4]
+FTSE Fixed Income Country Classification – Semi-Annual Announcement – April 2026 
+FTSE Russell  
+4 of 7 
+Figure 3: Projected Impact of the Inclusion of South Korean Government Bonds in the WGBI ex Japan ex China 
+ 
+WGBI ex Japan ex China 
+WGBI ex Japan ex China + South 
+Korea 
+Difference 
+ 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+United States 
+293 
+14,398.7  
+52.58 
+293 
+14,398.7  
+51.44 
+- 
+- 
+-1.15 
+France 
+52 
+2,222.1  
+8.11 
+52 
+2,222.1  
+7.94 
+- 
+- 
+-0.18 
+Italy 
+94 
+2,025.2  
+7.40 
+94 
+2,025.2  
+7.23 
+- 
+- 
+-0.16 
+Germany 
+68 
+1,763.9  
+6.44 
+68 
+1,763.9  
+6.30 
+- 
+- 
+-0.14 
+United Kingdom 
+65 
+1,730.6  
+6.32 
+65 
+1,730.6  
+6.18 
+- 
+- 
+-0.14 
+Spain 
+54 
+1,340.5  
+4.90 
+54 
+1,340.5  
+4.79 
+- 
+- 
+-0.11 
+South Korea 
+- 
+- 
+- 
+65  
+609.7  
+2.18  
+65 
+609.7  
+2.18 
+Canada 
+43 
+656.6  
+2.40 
+43 
+656.6  
+2.35 
+- 
+- 
+-0.05 
+Belgium 
+36 
+473.1  
+1.73 
+36 
+473.1  
+1.69 
+- 
+- 
+-0.04 
+Netherlands 
+24 
+378.4  
+1.38 
+24 
+378.4  
+1.35 
+- 
+- 
+-0.03 
+Australia 
+28 
+407.6  
+1.49 
+28 
+407.6  
+1.46 
+- 
+- 
+-0.03 
+Austria 
+32 
+339.8  
+1.24 
+32 
+339.8  
+1.21 
+- 
+- 
+-0.03 
+Mexico 
+17 
+270.7  
+0.99 
+17 
+270.7  
+0.97 
+- 
+- 
+-0.02 
+Portugal 
+21 
+185.0  
+0.68 
+21 
+185.0  
+0.66 
+- 
+- 
+-0.01 
+Poland 
+16 
+226.1  
+0.83 
+16 
+226.1  
+0.81 
+- 
+- 
+-0.02 
+Malaysia 
+30 
+160.4  
+0.59 
+30 
+160.4  
+0.57 
+- 
+- 
+-0.01 
+Finland 
+26 
+162.7  
+0.59 
+26 
+162.7  
+0.58 
+- 
+- 
+-0.01 
+Ireland 
+18 
+135.2  
+0.49 
+18 
+135.2  
+0.48 
+- 
+- 
+-0.01 
+Singapore 
+21 
+110.9  
+0.41 
+21 
+110.9  
+0.40 
+- 
+- 
+-0.01 
+Israel 
+15 
+134.3  
+0.49 
+15 
+134.3  
+0.48 
+- 
+- 
+-0.01 
+Denmark 
+7 
+60.1  
+0.22 
+7 
+60.1  
+0.21 
+- 
+- 
+0.00 
+New Zealand 
+14 
+94.2  
+0.34 
+14 
+94.2  
+0.34 
+- 
+- 
+-0.01 
+Sweden 
+8 
+55.8  
+0.20 
+8 
+55.8  
+0.20 
+- 
+- 
+0.00 
+Norway 
+11 
+51.3  
+0.19 
+11 
+51.3  
+0.18 
+- 
+- 
+0.00 
+Total 
+993 
+27,383.2  
+100.00 
+1,058 
+27,992.9  
+100.00 
+65 
+609.7 
+0.00 
+*Market value shown in USD billions. Source: FTSE Russell, data as of 31 March 2026. 
+2. 
+Upcoming Addition of Slovakia to the FTSE World Government 
+Bond Index 
+Market size and credit rating for local currency government bond markets, which are criteria for local market inclusion 
+in FTSE global fixed income indices, are assessed as part of the FTSE Fixed Income Country Classification process. 
+Having met the market size inclusion criteria as part of the September 2025 FTSE Fixed Income Country Classification 
+Review, the Slovak government bond market was deemed to meet all three index eligibility criteria (market size, credit 
+rating and Market Accessibility Level of “2”) for the FTSE World Government Bond Index (WGBI). The addition of 
+Slovakia was announced as effective with June 2026 index profiles. Slovakia is classified as a Developed Market within 
+FTSE fixed income indices and will also be included in the FTSE World Government Bond Index – Developed Markets 
+(WGBI-DM).  
+To ensure consistency in pricing inputs across Eurozone markets within the WGBI, prices for Slovak government 
+bonds will be sourced from Tradeweb FTSE European Government Bond Benchmark Closing Prices.2 The price quote 
+convention will reflect a snap time of 4:15 p.m. (London) and reflect a bid-side quote convention. 
+ 
+ 
+ 
+2 FTSE Russell announced that coverage for Slovak government bonds was added to the Tradeweb FTSE European Government Bond Benchmark Closing Prices effective 09 March 
+2026. Additionally, FTSE Russell announced that the price source for Slovak government bonds in FTSE fixed income indices, which are currently eligible for the FTSE EMU Broad 
+Government Bond Index, will be changed effective 24 April 2026, in advance of the addition of these bonds to the WGBI in June 2026. 
+
+[PDF page 5]
+FTSE Fixed Income Country Classification – Semi-Annual Announcement – April 2026 
+FTSE Russell  
+5 of 7 
+Projected Index Impact Analysis 
+As of the April 2026 index profiles, 17 EUR-denominated Slovak government bonds (EUR 58.5 billion in par amount 
+outstanding) are projected to be eligible for the WGBI, representing 0.18% of the index on a market value weighted 
+basis. Further details on the projected impact are provided in Figure 4. 
+Figure 4: Projected impact of the inclusion of Slovak Government Bonds in the WGBI 
+ 
+WGBI 
+WGBI + Slovakia 
+Difference 
+ 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+United States 
+293 
+14,398.7 
+41.41 
+293 
+14,398.7 
+41.33 
+- 
+- 
+-0.07 
+Japan 
+275 
+2,907.9 
+8.36 
+275 
+2,907.9 
+8.35 
+- 
+- 
+-0.01 
+China 
+90 
+3,873.2 
+11.14 
+90 
+3,873.2 
+11.12 
+- 
+- 
+-0.02 
+France 
+52 
+2,222.1 
+6.39 
+52 
+2,222.1 
+6.38 
+- 
+- 
+-0.01 
+Italy 
+94 
+2,025.2 
+5.82 
+94 
+2,025.2 
+5.81 
+- 
+- 
+-0.01 
+Germany 
+68 
+1,763.9 
+5.07 
+68 
+1,763.9 
+5.06 
+- 
+- 
+-0.01 
+United Kingdom 
+65 
+1,730.6 
+4.98 
+65 
+1,730.6 
+4.97 
+- 
+- 
+-0.01 
+Spain 
+54 
+1,340.5 
+3.85 
+54 
+1,340.5 
+3.85 
+- 
+- 
+-0.01 
+South Korea* 
+65 
+609.7 
+1.75 
+65 
+609.7 
+1.75 
+- 
+- 
+0.00 
+Canada 
+43 
+656.6 
+1.89 
+43 
+656.6 
+1.88 
+- 
+- 
+0.00 
+Belgium 
+36 
+473.1 
+1.36 
+36 
+473.1 
+1.36 
+- 
+- 
+0.00 
+Netherlands 
+24 
+378.4 
+1.09 
+24 
+378.4 
+1.09 
+- 
+- 
+0.00 
+Australia 
+28 
+407.6 
+1.17 
+28 
+407.6 
+1.17 
+- 
+- 
+0.00 
+Austria 
+32 
+339.8 
+0.98 
+32 
+339.8 
+0.98 
+- 
+- 
+0.00 
+Mexico 
+17 
+270.7 
+0.78 
+17 
+270.7 
+0.78 
+- 
+- 
+0.00 
+Portugal 
+21 
+185.0 
+0.53 
+21 
+185.0 
+0.53 
+- 
+- 
+0.00 
+Poland 
+16 
+226.1 
+0.65 
+16 
+226.1 
+0.65 
+- 
+- 
+0.00 
+Malaysia 
+30 
+160.4 
+0.46 
+30 
+160.4 
+0.46 
+- 
+- 
+0.00 
+Finland 
+26 
+162.7 
+0.47 
+26 
+162.7 
+0.47 
+- 
+- 
+0.00 
+Ireland 
+18 
+135.2 
+0.39 
+18 
+135.2 
+0.39 
+- 
+- 
+0.00 
+Singapore 
+21 
+110.9 
+0.32 
+21 
+110.9 
+0.32 
+- 
+- 
+0.00 
+Israel 
+15 
+134.3 
+0.39 
+15 
+134.3 
+0.39 
+- 
+- 
+0.00 
+Denmark 
+7 
+60.1 
+0.17 
+7 
+60.1 
+0.17 
+- 
+- 
+0.00 
+New Zealand 
+14 
+94.2 
+0.27 
+14 
+94.2 
+0.27 
+- 
+- 
+0.00 
+Slovakia 
+- 
+- 
+- 
+17 
+61.3 
+0.18 
+17 
+61.3 
+0.18 
+Sweden 
+8 
+55.8 
+0.16 
+8 
+55.8 
+0.16 
+- 
+- 
+0.00 
+Norway 
+11 
+51.3 
+0.15 
+11 
+51.3 
+0.15 
+- 
+- 
+0.00 
+Total 
+1,423 
+34,774.0 
+100.00 
+1,440 
+34,835.3 
+100.00 
+17 
+61.3 
+0.00 
+*Market value shown in USD billions. South Korea was included in the WGBI effective with April 2026 index profiles and phased-in over an eight-
+month period, on a monthly basis. Source: FTSE Russell, data as of 31 March 2026. 
+ 
+The FTSE EMU Government Bond Index (EGBI) consists of the Eurozone-participating countries that meet the WGBI 
+criteria. Only those that satisfy the WGBI criteria for market inclusion are included in the EGBI. As of the April 2026 
+index profiles, 17 EUR-denominated Slovak government bonds (EUR 58.5 billion in par amount outstanding) are 
+projected to be eligible for the EGBI, representing 0.67% of the index on a market value weighted basis. Further details 
+on the projected impact are provided in Figure 5.  
+ 
+ 
+
+[PDF page 6]
+FTSE Fixed Income Country Classification – Semi-Annual Announcement – April 2026 
+FTSE Russell  
+6 of 7 
+Figure 5: Projected impact of the inclusion of Slovak Government Bonds in the EGBI 
+ 
+EGBI 
+EGBI + Slovakia 
+Difference 
+ 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+Count 
+Market 
+Value* 
+MV% 
+France 
+52 
+1,928.6 
+24.62 
+52 
+1,928.6 
+24.45 
+- 
+- 
+-0.17 
+Italy 
+94 
+1,757.7 
+22.44 
+94 
+1,757.7 
+22.29 
+- 
+- 
+-0.15 
+Germany 
+68 
+1,530.9 
+19.54 
+68 
+1,530.9 
+19.41 
+- 
+- 
+-0.13 
+Spain 
+54 
+1,163.4 
+14.85 
+54 
+1,163.4 
+14.75 
+- 
+- 
+-0.10 
+Belgium 
+36 
+410.6 
+5.24 
+36 
+410.6 
+5.21 
+- 
+- 
+-0.04 
+Netherlands 
+24 
+328.4 
+4.19 
+24 
+328.4 
+4.16 
+- 
+- 
+-0.03 
+Austria 
+32 
+294.9 
+3.76 
+32 
+294.9 
+3.74 
+- 
+- 
+-0.03 
+Portugal 
+21 
+160.6 
+2.05 
+21 
+160.6 
+2.04 
+- 
+- 
+-0.01 
+Finland 
+26 
+141.2 
+1.80 
+26 
+141.2 
+1.79 
+- 
+- 
+-0.01 
+Ireland 
+18 
+117.3 
+1.50 
+18 
+117.3 
+1.49 
+- 
+- 
+-0.01 
+Slovakia 
+- 
+- 
+- 
+17 
+53.2 
+0.67 
+17 
+53.2 
+0.67 
+Total 
+425 
+7,833.5 
+100.00 
+442 
+7,886.7 
+100.00 
+17 
+53.2 
+0 
+*Market value shown in EUR billions. Source: FTSE Russell, data as of 31 March 2026.  
+3. 
+Date of Next Announcement  
+The next semi-annual announcement will be published on Tuesday 06 October 2026.  
+ 
+
+[PDF page 7]
+ 
+ 
+ 
+ 
+ 
+ 
+7 of 7 
+ABOUT FTSE RUSSELL 
+FTSE Russell is a leading global provider of index and benchmark solutions, spanning diverse asset classes and investment 
+objectives. As a trusted investment partner we help investors make better-informed investment decisions, manage risk, and seize 
+opportunities. 
+Market participants look to us for our expertise in developing and managing global index solutions across asset classes. Asset 
+owners, asset managers, ETF providers and investment banks choose FTSE Russell solutions to benchmark their investment 
+performance and create investment funds, ETFs, structured products, and index-based derivatives. Our clients use our solutions for 
+asset allocation, investment strategy analysis and risk management, and value us for our robust governance process and 
+operational integrity. 
+For over 35 years we have been at the forefront of driving change for the investor, always innovating to shape the next generation of 
+benchmarks and investment solutions that open up new opportunities for the global investment community. 
+ 
+CONTACT US 
+To learn more, visit lseg.com/ftse-russell; email info@ftserussell.com; or call your regional Client Service team office: 
+EMEA +44 (0) 20 7866 1810 
+North America +1 877 503 6437 
+Asia-Pacific 
+Hong Kong +852 2164 3333 
+Tokyo +81 3 6441 1430 
+Sydney +61 (0) 2 7228 5659 
+ 
+ 
+ 
+ 
+ 
+Disclaimer 
+© 2026 London Stock Exchange Group plc and its applicable group undertakings (“LSEG”). LSEG includes (1) FTSE International 
+Limited (“FTSE”), (2) Frank Russell Company (“Russell”), (3) FTSE Global Debt Capital Markets Inc. “FTSE Canada”, (4) FTSE Fixed 
+Income LLC (“FTSE FI”), (5) FTSE (Beijing) Consulting Limited (“WOFE”), FTSE EU SAS ("FES"). All rights reserved.  
+FTSE Russell® is a trading name of FTSE, Russell, FTSE Canada, FTSE FI, WOFE, FES and other LSEG entities providing LSEG 
+Benchmark and Index services. “FTSE®”, “Russell®”, “FTSE Russell®”, “FTSE4Good®”, “ICB®”, “Refinitiv”, “WMR™”, “FR™” and all 
+other trademarks and service marks used herein (whether registered or unregistered) are trademarks and/or service marks owned or 
+licensed by the applicable member of LSEG or their respective licensors.  
+FTSE International Limited is authorised is authorised as a Benchmark Administrator and regulated in the United Kingdom (UK) by 
+the Financial Conduct Authority ("FCA") according to the UK Benchmark Regulation, FCA Reference Number 796803. FTSE EU SAS 
+is authorised as Benchmark Administrator and regulated in the European Union (EU) by the Autoritée des Marches Financiers (“AMF”) 
+according to the EU Benchmark Regulation.  
+All information is provided for information purposes only. Every effort is made to ensure that all information given in this publication is 
+accurate, but no responsibility or liability can be accepted by any member of LSEG nor their respective directors, officers, employees, 
+partners or licensors for any inaccuracies or for any loss from use of this publication or any of the information or data contained herein. 
+No member of LSEG nor their respective directors, officers, employees, partners or licensors make any claim, prediction, warranty or 
+representation whatsoever, expressly or impliedly, either as to the results to be obtained from the use of FTSE Russell indexes or 
+rates or the fitness or suitability of the FTSE Russell indexes or rates for any particular purpose to which it might be put.  
+No member of LSEG nor their respective directors, officers, employees, partners or licensors provide investment advice and nothing 
+in this document should be taken as constituting financial or investment advice. No member of LSEG nor their respective directors, 
+officers, employees, partners or licensors make any representation regarding the advisability of investing in any asset or whether such 
+investment creates any legal or compliance risks for the investor. A decision to invest in any such asset should not be made in reliance 
+on any information herein. Indices and rates cannot be invested in directly. Inclusion of an asset in an index or rate is not a 
+recommendation to buy, sell or hold that asset nor confirmation that any particular investor may lawfully buy, sell or hold the asset or 
+an index or a rate containing the asset. The general information contained in this publication should not be acted upon without obtaining 
+specific legal, tax, and investment advice from a licensed professional. 
+No part of this information may be reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic, 
+mechanical, photocopying, recording or otherwise, without prior written permission of the applicable member of LSEG. Use and 
+distribution of LSEG index or rate data for any purposes, including to create financial products, requires a licence from FTSE 
+Russell. 

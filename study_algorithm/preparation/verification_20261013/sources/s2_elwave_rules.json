@@ -1,0 +1,11 @@
+{
+  "id": "s2_elwave_rules",
+  "requested_url": "https://www.elwave.com/elwave/faq/principle/principle2.html",
+  "retrieved_url": "https://www.elwave.com/elwave/faq/principle/principle2.html",
+  "retrieved_at": "2026-10-13T17:12:06.083030+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "7b0415fbfe8628a375a6902ef6566fba1c04c8c6502efe120d5dca163d6e4ddf",
+  "text_sha256": "f13d7d68ce1bb404c4694de4e452a68b47df359a37f5c5cf8121a1f534c3b39e",
+  "status": "retrieved_not_claim_verified"
+}

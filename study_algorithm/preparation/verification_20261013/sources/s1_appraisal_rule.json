@@ -1,0 +1,18 @@
+{
+  "id": "s1_appraisal_rule",
+  "requested_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=254883&chrClsCd=010202&urlMode=lsInfoP&efYd=20230914&ancYnChk=0",
+  "retrieved_url": "https://www.law.go.kr/LSW//lsInfoR.do?lsiSeq=254883&chrClsCd=010202&urlMode=lsInfoP&efYd=20230914&ancYnChk=0",
+  "retrieved_at": "2026-10-13T15:41:35.101111+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 13626,
+  "content_sha256": "92a2704cb7cdb7b0783fdb6ef183feb713b23cd375d44593056865f354f01912",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": [
+    [
+      "2023",
+      "9",
+      "14"
+    ]
+  ]
+}

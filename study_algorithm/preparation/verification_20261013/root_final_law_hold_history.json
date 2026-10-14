@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "MOCK-2-Q065",
+      "reason": "MOCK45 원문은 공개매수대상이면서 동시에 미공개정보 제공금지와 거리가 먼 것이라는 결합발문인데 PB는 공개매수 제외지만 미공개정보 규제에는 포함된다. 교환사채도 교환대상 조건에 따라 범위가 달라진다. 원해설의 한쪽만 제외를 결합발문 정답으로 확정하기 전 출제의도·보기조건 교정이 필요하다.",
+      "evidence_checked": [
+        "MOCK:45",
+        "capital:제133조",
+        "capital_decree:제139조",
+        "capital:제174조"
+      ],
+      "resolution": "RFL005 statutory scope and original alternatives restored"
+    }
+  ]
+}

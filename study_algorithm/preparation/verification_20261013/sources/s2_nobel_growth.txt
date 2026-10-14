@@ -1,0 +1,2315 @@
+[PDF page 1]
+8 OCTOBER 2018
+Scientific Background on the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2018
+ECONOMIC GROWTH, TECHNOLOGICAL CHANGE, 
+AND CLIMATE CHANGE
+The Committee for the Prize in Economic Sciences in Memory of Alfred Nobel
+BOX 50005 (LILLA FRESCATIVÄGEN 4 A), SE-104 05 STOCKHOLM, SWEDEN 
+TEL +46 8 673 95 00, KVA@KVA.SE  WWW.KVA.SE
+THE ROYAL SWEDISH ACADEMY OF SCIENCES has as its aim to promote the sciences and strengthen their influence in society.
+
+
+[PDF page 2]
+
+
+[PDF page 3]
+Economic Growth,
+Technological Change, and Climate Change
+October 8, 2018
+1
+Introduction
+This year’s prize rewards the design of models and methods to address some of the most
+fundamental and pressing questions of our time, involving the long-run development of the
+global economy and the welfare of its citizens. Paul M. Romer has given us new tools for
+understanding how long-run technological change is determined in a market economy, while
+William D. Nordhaus has pioneered a framework for understanding how the economy and
+climate of our planet are mutually dependent on each other.
+In his focus on the fundamental endogeneity of technological change, Romer has em-
+phasized how the economy can expand the boundaries – and thus the possibilities – of its
+future activities. In his focus on the fundamental challenges of climate change, Nordhaus
+has stressed important negative side eﬀects – and thus the restrictions – of the endeavors
+to bring about future prosperity. Both Romer and Nordhaus emphasize that the market
+economy, while a powerful engine of human development, has important imperfections and
+their contributions have thus oﬀered insights into how government policy could potentially
+enhance our long-run welfare.
+Expanding the domain of economics: knowledge and nature
+In central ways, the
+work by both Laureates draws on and overlaps with other sciences. Whereas advances of
+technology and engineering – broadly speaking, technical knowledge – had usually been taken
+as given by economists, Romer saw the frontiers of knowledge as also having central economic
+determinants. Similarly, Nordhaus recognized that the global climate – broadly speaking,
+nature – is not just an important determinant of human activity, but is simultaneously
+aﬀecting society and aﬀected by its economic activity. Thus, the two laureates have brought
+knowledge and nature into the realm of economic analysis and made them an integral part
+of the endeavour.
+1
+
+
+[PDF page 4]
+Long-run issues
+Romer’s and Nordhaus’s prize-winning contributions belong to the ﬁeld
+of long-run macroeconomics. In textbooks, macroeconomic analysis is usually deﬁned over
+diﬀerent time horizons. Most well-known is the short-run perspective on the macroeconomy:
+the study of business cycles – the ups and downs of output over, say, a 10-year horizon. In
+the midst of such ups and downs, it is easy to forget the long-run perspective: the study of
+economic growth – the development of output, and more broadly human welfare, over decades
+or even centuries. Even small year-to-year diﬀerences in growth rates, which may seem tiny
+in a short-run perspective, cumulate. If such diﬀerences are systematic over decades, they
+build up to signiﬁcant changes in living standards. Long-run macroeconomic performance is
+thus a dominant driver of the welfare enjoyed by current and future generations.
+Market failures
+Romer’s and Nordhaus’s ﬁndings regarding the possibilities for, and re-
+strictions on, future long-run welfare each put the spotlight on a speciﬁc market failure.
+Both laureates thus point to fundamental externalities that – absent well-designed govern-
+ment intervention – will lead to suboptimal outcomes. In Romer’s work, these externalities
+are predominantly positive through knowledge spillovers. New ideas can be used by others
+to produce new goods and other ideas.1 In Nordhaus’s work, they are predominantly nega-
+tive through greenhouse-gas emissions that adversely change the climate. In both cases, the
+externalities are not properly taken into account by the individual innovator or polluter, ab-
+sent policy interventions such as subsidies/support for knowledge creation or taxes/quotas
+on emissions. Qualitatively, this conclusion goes back to Pigou (1920), but to devise the
+right dose of the right medicine requires models of the sort that the laureates pioneered.
+Global issues
+In both cases, these externalities – and the resulting case for policy inter-
+ventions – are global in nature and long-run in scope. Wherever its origin, an additional idea
+(blueprint) for a new technology can, in principle, be used anywhere else for the production
+of new goods and other ideas, contemporaneously or in the future. Similarly, an additional
+unit of carbon-dioxide emission, wherever its origin, quickly spreads in the entire atmosphere
+and roughly half of it will stay there hundreds of years and a substantial share much longer,
+contributing to global warming. In this sense, both prize-winning contributions deal with
+long-run, global, and sustainable growth.
+A common stepping stone
+Moreover, the contributions by both laureates take a common
+starting point in the neoclassical growth theory for which Robert Solow was awarded the 1987
+Economics Prize. Each of them extends this framework further in a signiﬁcant and fruitful
+direction. Put succinctly, Romer provides the necessary add-ons – a set of knowledge-creation
+drivers – for understanding the determinants of long-run GDP growth, while Nordhaus
+incorporates the necessary add-ons – a set of natural-science mechanisms – for understanding
+how the global economy and the global climate interact.
+1That the spillover is positive is not meant to say that all new ideas and products in reality are beneﬁcial
+to mankind. The reader can probably come up with examples of welfare-reducing ideas.
+2
+
+
+[PDF page 5]
+Romer and Nordhaus thus highlight the strengths of Solow’s original framework, namely
+its applicability to a host of important issues. But their research also rectiﬁes two important
+shortcomings of his framework.
+Endogenizing technological change
+In his approach to understanding economic growth
+over decades and centuries, Solow assumed an exogenous steady path for technology – the
+ultimate source of economic growth and well-being. In this sense, he did not address the
+very root of long-run growth. Romer, instead, focused precisely on the crux of how market
+economies might develop new technologies through proﬁt-oriented research-and-development
+(R&D) eﬀorts.2 His solution laid the foundation of what is now ubiquitously referred to as
+endogenous growth theory. This theory argues that “ideas” are crucial for economic growth,
+and elaborates on the preconditions for the production of ideas.
+New ideas, Romer argued, are very diﬀerent than most economic goods by being non-
+rival: one person’s use of an idea does not preclude others from using the same idea. But he
+also went on to emphasize another aspect of ideas: the extent to which they are excludable.
+Even if an idea can be used by two ﬁrms at the same time, it may be possible to exclude one
+of them from this use, either by regulation/patent law or by means of technical protection
+(e.g., via encryption). Excludability is critical for ideas to be produced in the marketplace,
+Romer reasoned, and not all ideas allow it. For instance, some forms of basic research do
+not fall in this category and may, hence, best be produced in universities.3
+Next, Romer argued, the production of ideas typically entails increasing returns to scale,
+with large initial costs for the blueprint and low, arguably constant marginal costs for later
+replication. Romer thus emphasized that ideas and market power go hand in hand: mar-
+ket power is the typical way in which higher-than-marginal cost prices can be guaranteed,
+allowing ﬁrms to recoup the ﬁxed costs of blueprints. In this sense, monopoly proﬁts is the
+engine of market R&D. However, the fundamental non-rivalrousness of a productive idea
+can be regarded as a (potential) positive spillover – a positive externality. As the market
+solution involves both a degree of monopoly power and an externality, it typically generates
+an ineﬃcient outcome. In summary, unregulated markets will produce technological change,
+but will not do so eﬃciently. This points to a potentially important role for economic policy,
+not just within each country but worldwide.
+Endogenizing climate change
+Solow’s original framework also did not consider any
+limits or obstacles to growth along a path of continuous economic development. Nordhaus
+has a long-standing interest in such growth obstacles at the global level, e.g., the ﬁniteness of
+natural resources.4 However, his deepest and broadest contribution concerned the obstacles
+2Romer can perhaps be said to have developed and formalized the idea put forth by 1993 Economics
+Laureate Douglass North (1981) that market R&D has been crucial for the technological take-oﬀof the
+developed economies into the modern growth era.
+3Whether universities are ﬁnanced publicly or privately is not central for this argument. Aghion, Dewa-
+tripont and Stein (2008) discuss the relative advantages and disadvantages of academic and private-sector
+research.
+4See, for example, Nordhaus (1974).
+3
+
+
+[PDF page 6]
+due to climate change, which drew heavily on insights from diﬀerent ﬁelds of natural science.
+In this realm, Nordhaus extended Solow’s model with three important mechanisms: (i) how
+carbon concentration in the atmosphere depends on economic activity via carbon emissions,
+(ii) how global temperature depends on atmospheric carbon concentrations via increased
+radiation, and (iii) how economic activity and human welfare depend on global temperature
+via damages of many diﬀerent sorts and strengths.
+In this interdisciplinary fashion, Nordhaus developed Integrated Assessment Models (IAMs),
+the ﬁrst generation of which is the Dynamic Integrated Climate Economy (DICE) model.
+IAMs allow us to assess diﬀerent economic growth paths and their implications for the climate
+and, ultimately, the well-being of future generations. In these dynamic models, emissions
+reﬂect the burning of fossil fuels for economic use, and shape future well-being via the logi-
+cal chain: carbon emissions ⇒higher atmospheric carbon concentration ⇒global warming
+⇒economic damages. In the same way as for R&D and knowledge creation, the market
+economy generates ineﬃcient future outcomes at the global level. The Stern Review (2007)
+expresses this idea in a sharp way:
+“Climate change is a result of the greatest market failure the world has seen.”
+These market failures suggest that government interventions, via policies such as carbon
+taxes or emission quotas with a global reach, could be very valuable. The IAMs constructed
+by Nordhaus – and others who have followed in his footsteps – allow us to numerically
+compare diﬀerent paths for future growth and well-being for diﬀerent paths of policies.
+The need for further research
+While Romer’s and Nordhaus’s research constitute criti-
+cal steps forward, they do not provide ﬁnal answers. But their methodological breakthroughs
+have paved the way for a great deal of further research (by themselves and by others) on
+global, long-run issues. Their analyses have laid bare a number of key areas where our knowl-
+edge is particularly weak. The frameworks they have built provide a structure to guide future
+research that may close these knowledge gaps. Follow-up research on technological change
+and the climate-economy nexus is very much an ongoing endeavor that has already led to
+important ﬁndings. But much more remains to be done.
+The agenda on climate change and growth
+Nordhaus’s methods show us the principles
+of how to analyze growth and climate change from a cost-beneﬁt perspective. However, his
+analysis also shows the importance of measuring the damages of climate change and the
+uncertainty surrounding these damages. Research on these measurement tasks is still in its
+infancy. A ﬁrst task, which is as daunting as it is necessary, is to “cover the map of climate
+damages” due to the vast heterogeneity and uncertainty about how – and through which
+channels – a changing climate aﬀects diﬀerent regions of the world.
+A related task concerns “adaptation”: how will human populations and their societies
+adapt to diﬀerent climates, e.g., through migration? Technological change is another impor-
+tant adaptation channel. As Romer has taught us, such change reﬂects purposeful economic
+activity. Models built on his basic tenets can therefore help us analyze the incentives for
+4
+
+
+[PDF page 7]
+developing technologies to facilitate adaptation and how policy might help redirect techno-
+logical change.
+Nordhaus’s analysis also points to the importance of other concerns. Given the large
+uncertainties about future climates, thinking about appropriate policies involves – explicitly
+or implicitly – taking a stance on risk and uncertainty. Likewise, any policy considerations
+involve taking a stance on discounting. Since the eﬀects of carbon emissions are much more
+long-lived than humans, it becomes critical to value the welfare of future generations. On
+both accounts, moral values may be necessary to complement scientiﬁc measurements. What
+models can do is to translate diﬀerent value judgments into diﬀerent paths for policy.
+The agenda on technological change and growth
+Romer’s early work had an enor-
+mous impact on research about economic growth, by pointing to shortcomings of the frame-
+works available in the late 1980s. Thus, his work set oﬀa large number of theoretical and
+empirical studies aimed at understanding observed growth experiences.
+While Romer’s key breakthrough (Romer, 1990) envisioned innovation that expanded
+the variety of goods, other researchers (e.g., Aghion and Howitt, 1992, and Grossman and
+Helpman, 1991a) applied similar insights to the gradual improvements of a ﬁxed set of
+goods. This alternative creative-destruction approach is very important in its own right,
+and emphasizes how an innovating ﬁrm can replace an existing ﬁrm by producing a given
+good at lower cost. Another important theory, building directly on Romer’s ideas, concerns
+directed technical change, where resources spent on diﬀerent kinds of R&D reﬂect market
+forces. One inﬂuential study (Acemoglu, 1998) shows how large cohorts of college-educated
+workers in the United States triggered research into technologies complementary with high-
+skill workers.
+This line of work helps us understand the rising wage inequality in some
+economies.
+Diﬀerences in growth rates across countries and time periods was a central motivation
+behind Romer’s key contributions. Because the central convergence prediction from Solow’s
+basic framework seemed absent in the data, Romer’s work marked the starting point of an
+increasingly vibrant literature that examined the data more carefully to contrast diﬀerent
+theories of long-run growth. This empirical literature saw several waves based on diﬀerent
+methods, including “growth regressions” focusing on convergence, structural assessments
+based on “development accounting,” and approaches based on “natural experiments” to
+identify causal drivers of relative growth.
+Romer’s initial hunch was to see relative (long-run) growth rates of individual countries
+as endogenous to their own institutions and policy choices. Subsequent empirical research
+has stressed endogenous relative levels in the cross-section of national incomes. This em-
+pirical research is very much ongoing, and focuses on relative technological adaptation and
+innovation, human capital improvements, physical capital accumulation, and institutional
+conditions in general. Arguably, there is no commonly accepted “magic bullet”. Just as
+short-run ﬂuctuations can be spurred by diﬀerent events at diﬀerent points in time, long-run
+level or growth diﬀerences can have diﬀerent explanations in diﬀerent contexts. The inter-
+national growth puzzle will perhaps never be fully solved, but it is much better understood
+5
+
+
+[PDF page 8]
+today than it was in the early 1990s.
+Organization of this overview
+Since both laureates start out from the neoclassical
+growth model, we begin (Section 2), with a brief reminder of its original components, along
+with the savings theory that dominates current macroeconomics. Against this common back-
+ground, we ﬁrst cover Romer’s main contributions towards endogenizing the creation of ideas
+for new technology (Section 3), and then Nordhaus’s main contributions towards combin-
+ing growth and natural-science mechanisms into integrated assessment models (Section 4).
+Section 5 concludes.
+2
+Solow’s Neoclassical Growth Model
+The macroeconomic setting involves four key components: (i) a resource constraint, closely
+related to our system of national accounts whereby output (GDP) is allocated to its diﬀer-
+ent uses, notably consumption and investment; (ii) a production function, describing how
+GDP is produced from its basic determinants, capital and labor; (iii) an equation describing
+the accumulation of capital; and (iv) a speciﬁcation of how much of GDP is used toward
+investment and, hence capital accumulation. These four elements are presented ﬁrst in the
+section. Romer and Nordhaus also include a model of saving behavior that goes beyond the
+one used by Solow; this model is presented next.
+2.1
+The Growth Model
+The Solow model (Solow, 1956, and Swan, 1956) stays close to the national income and
+product accounts by ﬁrst specifying a resource constraint. It assumes that the economy has
+only one good and tracks the production and use of this good over time. The model has
+been developed in a number of directions (allowing diﬀerent goods, types of capital, and so
+on) and its main conclusions are, broadly speaking, robust to these extensions. Here, we
+focus on the basic version, partly to simplify the presentation, partly to follow Romer and
+Nordhaus who both employed that setting.
+The resource constraint
+The resource constraint in year t reads
+ct + it = yt,
+where c is consumption, i investment, and y output. This constraint simply expresses how
+GDP is spent on these two components. Here, we will also think of it as an accounting
+equation for a single, economy-wide good, which can be used either for consumption or
+investment. The national accounts also include other components: government spending and
+net exports. Government spending can be thought of as subsumed in c and i. Net exports are
+relevant if one considers one of many economies in an international context. Solow’s instead
+considered a “closed” economy, i.e., one that does not interact with the outside world. This
+6
+
+
+[PDF page 9]
+view may seem wholly inappropriate when modeling individual countries today, given the
+existing amount of intertemporal and intratemporal trade. But it is a natural ﬁrst step in
+Nordhaus’s work, as the domain of his study is the world as a whole. We can also think of
+Romer’s work as especially pertinent to a global analysis.
+The production function
+Production of the single good is assumed to take place ac-
+cording to an aggregate production function F of capital and labor input:
+yt = F(kt, lt, t).
+Here, k is capital and l labor input, and the third argument in the function is time, repre-
+senting changes in production possibilities – especially improvements due to technological
+change – over time. The production function is strictly increasing in capital, Fk > 0 and
+labor, Fl > 0, and has decreasing marginal products of each factor: Fkk < 0 and Fll < 0.
+Moreover, F has constant returns to scale in k and l – i.e., if k and l are multiplied by the
+same number λ, output rises by exactly λ. Solow, ﬁnally, assumed that production possi-
+bilities improve through labor-augmenting technical change: F(kt, lt, t) = F(kt, (1 + γ)tlt),
+where γ > 0 is the exogenous rate of technical progress.
+Capital accumulation and constant savings
+The capital-accumulation equation is
+straightforward:
+kt+1 = (1 −δ)kt + it,
+where k is the capital stock and δ the annual rate of physical depreciation of this stock.
+Finally, we need an assumption about how the investment, or saving, rate is determined.
+The Solow model assumes that it = syt, where s is the (exogenous and constant) rate of
+saving. Solow considered a constant rate of population growth. Under these assumptions,
+Solow showed that one obtains balanced growth asymptotically – i.e., the growth rates of c,
+y, and k converge to a common value.5 Under a constant population this common growth
+rate is γ. In other words, if the stock of labor-augmenting technology grows exogenously at
+rate γ, so will the macroeconomic variables in the long run.6
+2.2
+Savings and Model Solution
+The core model of saving in economics assumes that consumers save in a forward-looking,
+rational manner.
+Much of current macroeconomic analysis uses this approach, too, but
+there are a number of ways to summarize consumption behavior.7 One concerns the extent
+of consumer heterogeneity in the population; another concerns the preferences over time and
+towards one’s oﬀspring. We will use the same assumption as in Romer’s and Nordhaus’s
+5For this result, Fk has to be high enough for low values of k and low enough for high values of k.
+6Given the long U.S. history of remarkable, stable and balanced growth at around 2% per year, this
+matched the U.S. data rather well. Reliable data for the world as a whole does not allow a long time series,
+but the available data is broadly in line with that of the U.S.
+7For a background, see, e.g., Royal Swedish Academy of Sciences (2004).
+7
+
+
+[PDF page 10]
+models, which is also the most common one. This is to consider aggregate consumption as
+if it was made by a “representative consumer” who acts as a dynasty – i.e., she values the
+welfare of her oﬀspring and does so in a manner consistent with how this oﬀspring values
+her own welfare. Alternative assumptions can be entertained as well, without changing the
+analysis in a fundamental way. We now describe the details.
+Optimal savings
+The literature following Solow’s seminal work considered the optimal
+choice of saving from the perspective of maximizing consumer welfare. As mentioned above,
+we will consider a dynasty, meaning a family tree where ct represents the total amount that
+the dynasty – with its diﬀerent members – consumes at date t. The dynasty’s utility function
+is given by
+∞
+X
+t=0
+βtu(ct),
+where u is an increasing and strictly concave power function.8
+The discount factor β is
+assumed to be less than one and represents the constant rate at which future utility ﬂows
+– for oneself and one’s oﬀspring – are down-weighted on an annual basis. In the dynasty
+context, one can interpret β < 1 as impatience, in the sense that a given person puts higher
+weight on current than on future utility ﬂows, but also that members of the current generation
+put lower utility weights on future generations (in its own dynasty) than on themselves.
+It is possible to show that if one chooses the sequences of consumption, investment, cap-
+ital, and output optimally subject to the resource constraint and the capital-accumulation
+equation, then the rates of growth of c, y, and k converge to γ, and the saving rate,
+st ≡1 −ct/yt, which is now endogenous and time-dependent, converges to a constant.
+In other words, Solow’s assumption that the savings rate is constant rate follows from util-
+ity maximization. The optimization version of Solow’s model is often referred to as the
+optimal-savings problem.9
+Solving the model with optimal savings
+The more recent literature recognized that the
+optimal-growth outcomes – the paths for the macroeconomics variables – were derived from
+a model without frictions, such as externalities, or other reasons why the price mechanism
+might fail. Hence it became straightforward to present a market-based version of the growth
+model with endogenous saving, a dynamic competitive equilibrium, that delivered the exact
+same paths for macroeconomic variables as those chosen by a “benevolent social planner”.
+In such a model, for example, a consumer would work for a ﬁrm, receive a wage income,
+and then optimally – from her dynasty’s perspective – divide this income into consumption
+and saving on a market for borrowing and lending, where the interest rate is beyond the
+8Such a utility function u – e.g., c1−σ−1
+1−σ
+for σ > 0 (the case σ = 1 can be interpreted as log c) – captures
+the idea that consumers strictly prefer more over less consumption. It also assumes that they enjoy each
+additional consumption unit less and less: marginal utility uc is decreasing.
+9The optimal-savings problem goes all the way back to Ramsey (1928), who was the ﬁrst to study a
+dynamic optimization problem for saving, and the two papers ﬁrst applying this principle for the neoclassical
+growth model: Cass (1965) and Koopmans (1965). Koopmans was awarded the Economics Prize in 1975.
+8
+
+
+[PDF page 11]
+consumer’s control. Demands for capital and labor come from ﬁrms buying inputs in perfectly
+competitive input markets; they would also sell their output under perfect competition.
+Prices, i.e., the wage and the interest rate, can then be determined in each time period so
+that markets (for ﬁnal output, labor, and capital, respectively) clear.10
+Further, it is commonly assumed in macroeconomic analysis that the production function
+takes a speciﬁc form: F(kt, Atl) = kα
+t (Atl)1−α, where α ∈(0, 1) and At is shorthand for the
+current level of labor-augmenting productivity, i.e., At = (1 + γ)t at time t. This so-called
+Cobb-Douglas production function is not only a mathematically convenient way of embed-
+ding the above-mentioned assumptions. It also delivers a property that is approximately
+satisﬁed in historical data for the United States (and many other countries), namely that
+labor’s marginal product times its total amount (labor’s total real income if the wage is equal
+to its marginal product as it is under perfect competition) is a constant fraction 1 −α of
+output regardless of the speciﬁc values of capital and labor.
+Let us assume a Cobb-Douglas production function and a utility function
+u(ct) = c1−σ
+t
+−1
+1 −σ ,
+which features a constant elasticity of intertemporal substitution given by
+1
+σ.11 Then, we
+can summarize the predictions of the Solow model with endogenous saving as the solution
+to the following problem:
+max
+{ct,kt+1}∞
+t=0
+∞
+X
+t=0
+βtc1−σ
+t
+−1
+1 −σ
+(1)
+subject to
+ct + kt+1 −(1 −δ)kt = kα
+t
+
+(1 + γ)tl
+1−α
+∀t = 0, 1, . . . .
+Romer and Nordhaus augmented this framework in fundamental ways. We now turn to
+their contributions.
+3
+Endogenous Technical Change
+Solow’s growth model was designed to capture three key aspects of long-run growth in the
+United States and elsewhere. Though systematic long-run data on macroeconomic aggregates
+were scarce at the time, some “stylized” facts were available. These facts were, in particular,
+(i) a rather stable output growth (yt+1/yt) , (ii) a stable capital-output ratio (kt/yt), and
+(iii) a stable ratio of consumption (or investment) to output (ct/yt).12 Solow’s theory had
+the convergence property, i.e., under the assumptions described above, no matter what the
+initial capital stock is, properties (i)–(iii) characterize the economy’s long-run growth path.
+10Labor supply is assumed to be exogenously ﬁxed at l – i.e., a constant labor force with a constant
+utilization rate. It is straightforward to endogenize labor supply.
+11The elasticity of intertemporal substitution is deﬁned as −u′(c)
+u′′(c)c. This quantity must be constant for
+the model to be consistent with the observation that there is no long-run trend in the return to saving.
+12These are part of Kaldor’s “stylized growth facts” – see Kaldor (1957).
+9
+
+
+[PDF page 12]
+Thus, from the perspective of Solow’s theory it was not a coincidence that the economy had
+these features. Moreover, the speciﬁc values for the growth rate and the ratios to which the
+economy converged were easy to derive as a function of the model parameters. The growth
+rate, in particular, was simply equal to the exogenous parameter γ.
+However, the Solow model also predicted that ceteris paribus poorer countries should grow
+faster and catch up with richer ones quite quickly. This prediction of absolute convergence
+across countries reﬂects rapidly falling returns to capital, when parameter α is set low enough
+to be consistent with properties (i)–(iii) – see further discussion below. Of course, the model
+could accommodate persistent growth-rate diﬀerences, if γ – the rate of technological progress
+– diﬀers across economies. But these diﬀerences would simply be assumed, not explained,
+as technological change arrives exogenously from a black box.
+The empirical starting point
+Romer’s work was motivated by the data on macroeco-
+nomic aggregates and a more comprehensive cross-country data set which had just become
+available (Summers and Heston, 1984). Romer noted and emphasized that this data showed
+very persistent diﬀerences between countries, not just in their output per capita but also
+in their growth rates. Moreover, there was no evidence that poorer countries grew faster
+than richer ones. These properties are clearly visible Figure 1, which is drawn from Romer
+(1987b), and shows data for 1960 income (output) levels (relative to the U.S.) and subsequent
+1960-1981 average growth rates for 115 countries.13 Thus the absolute-convergence predic-
+tion from the Solow model was violated in a broader cross-section of countries. Prolonged
+periods of persistently diﬀerent growth rates in output imply massive changes in relative
+prosperity across the world economy – clearly a ﬁrst-order question in economics and, more
+broadly, for the modern world. Romer set the goal to develop new theory that could address
+the prolonged periods of diﬀerent growth across countries.
+13The pattern in Figure 1 is present also if the time period is extended to today.
+10
+
+
+[PDF page 13]
+ 
+Figure 1: Growth in GDP per capita as a function of initial GDP per capita
+Endogenous technology
+Romer’s approach was to think about the determinants of γ in
+the framework just described. How might technology growth reﬂect conscious decisions to
+accumulate knowledge by agents acting on a market? Will it be constant over time or will
+it vary? How does it respond to incentives and economic policy, and should policy attempt
+to aﬀect it?
+This line of attack on the problem posed formidable diﬃculties.
+One can
+formulate a social-planning problem where A, the level of technology, is chosen jointly with
+other inputs.14 However, such a setting would be hard to study in a market context, at least
+under the typical assumption of perfect competition. The production function has increasing
+returns to scale if A is chosen as well. And an increasing-returns-to-scale production function
+is not compatible with perfect competition.
+Romer’s analysis of technology production, and conditions for it to occur in the market-
+place, relied on thinking about knowledge creation at a more abstract level. He argued that
+“ideas”, though produced with capital and labor inputs, are diﬀerent than ordinary goods
+and services along two dimensions: the extent to which they are rivalrous – whether they
+can be used by more than one actor at once – and excludable – how easy it is to prevent
+others from using them. Romer emphasized that ideas are non-rivalrous and, to a varying
+degree, excludable. We will return to this point below, as it is of conceptual importance.
+Romer also asserted that ideas go hand in hand with increasing returns to scale. They
+involve initially high costs, e.g., signiﬁcant work for producing the blueprint (ﬁrst copy) of
+a new product, but a more typical cost structure of (approximately) constant returns to
+scale for producing further copies. Hence, the overall production function is convex with
+14Such an approach had been explored in the literature (see Shell, 1967).
+11
+
+
+[PDF page 14]
+falling marginal costs and one must therefore consider a departure from perfect competition.
+A key precondition for monopoly power is that the idea, or its use, must be excludable
+enough that a single ﬁrm can be the sole provider of the idea. Romer’s most celebrated
+paper (Romer, 1990) worked these insights into a setting that contained the key elements –
+including monopolistic competition and increasing returns to scale – and built directly on
+Solow’s workhorse model.
+Sustained long-run growth
+Romer’s 1990 formulation, and his papers more gener-
+ally, emphasized the endogeneity of the long-run growth rate. To arrive at a technology-
+production model with this property, Romer not only incorporated the fundamental features
+of ideas discussed above. He also came up with a more technical, though highly inﬂuential,
+insight: the return to accumulated factors, such as capital, must remain strictly positive
+for the model to deliver sustained growth. For the equilibrium growth rate to be constant
+in the long run when growth comes from endogenous accumulation of a production factor,
+the accumulation technology has to be linear. This point is readily illustrated by the Solow
+model, where growth will peter out with decreasing returns to scale α < 1, but will continue
+at a constant rate with α = 1.
+This technical point – which helped others produce endogenous-growth models of many
+varieties – is clearly worked out in Romer’s ﬁrst journal publication on growth (Romer,
+1986). If the only change to the model is to make the production function linear in capital
+(say, by simply setting α = 1 in the Solow model), however, it simultaneously makes non-
+accumulated factors, such as labor, less important. In his 1986 paper, Romer remedied this
+shortcoming by introducing a spillover eﬀect of capital formation. As a result, growth came
+about as a by-product of regular capital accumulation, but with no explicit decisions to
+spend resources on R&D. We only brieﬂy comment on this work at the end, in Section 3.3,
+and instead focus this section on the papers that took the more fundamental approach to
+model the production of new ideas.
+Romer (1987a) ﬁrst laid out a framework for new product development where growth
+was generated as a by-product of capital accumulation, but where an ever-expanding variety
+of intermediate goods prevented the returns on capital from falling to zero. In 1990, he
+showed how a close relative of the 1987 framework could be used to model R&D decisions in
+a decentralized market economy. This paper, Romer (1990), was a watershed. We introduce
+the discussion of Romer’s watershed model with a brief description of the 1987 paper.
+3.1
+New Products and Capital Returns
+Let us ﬁrst try to understand why Solow needed to assume that growth ultimately came
+from technology growth, and the assumption that γ > 0. To see why capital accumulation
+could not lead to sustainable output growth by itself, let us consider the marginal product
+of a unit of capital: Fk. Even though the argument is more general, it is convenient to use
+the Cobb-Douglas production function for illustration. With this production function, we
+obtain Fk(kt, (1 + γ)tl) = αkα−1 ((1 + γ)tl)1−α. If γ = 0, Fk necessarily falls toward zero as
+12
+
+
+[PDF page 15]
+the capital stock rises, making sustained growth impossible without technical change: even
+with a saving rate of unity, the long-run output of the economy could not exceed the ﬁnite
+value δ
+−α
+1−αl if γ = 0.15 Intuitively, growth stops because of the decreasing marginal product
+of capital, which is a cornerstone of Solow’s neoclassical theory. Further capital accumulation
+gives less and less and eventually capital depreciation exceeds its addition to production. By
+contrast, when the amount of labor in “eﬃciency units” rises, as it does when γ > 0, then
+the returns to capital accumulation are prevented from going to zero.
+Love for variety
+Romer’s idea was to think about how the returns to capital might
+be prevented from going to zero when capital grows without bound. In his 1987 paper,
+Romer thus presented the following alternative model to Solow’s, where a “love for variety”
+and specialization allowed capital to earn a sustained positive return. Instead of having
+a homogeneous capital stock as an input, production comes about from (labor and) an
+interval of intermediate capital goods indexed by i: x(i) is the amount of good i, and A is
+the endogenously determined length of this interval (which starts at 0). Total output is thus
+y =
+ Z A
+0 x(i)αdi
+!
+l1−α,
+(2)
+where α ∈(0, 1). In addition, assume that the length of variety interval (A) and the amount
+of each specialized capital good are determined by the existing amount of the standard
+(homogeneous) capital good at each point in time. The costs, in terms of homogeneous
+capital, of producing x units of a specialized capital good are convex and involve a ﬁxed cost
+– they equal (1 + x2)/2. Then, maximizing
+R A
+0 x(i)αdi over A and x (i) given some available
+capital k implies that A = (2 −α)k and x(i) =
+q
+α
+2−α ≡¯x for all i ∈[0, A] and x(i) = 0
+otherwise.
+Quite intuitively, the presence of the ﬁxed cost makes it optimal to choose a ﬁnite interval
+of length proportional to k. Due to the convex costs and the decreasing returns to each x(i),
+it is optimal to assign an identical positive level of supply for each x(i) in use. Inserting
+A = (2 −α)k and x(i) = ¯x into (2) yields
+y = (2 −α)k¯xαl1−α,
+where we recall that α, ¯x, and l are exogenous constants. That is, after maximizing over
+x (i) and A, whatever the level of capital k available, output is linear in this level. This
+means that as capital is accumulated, its marginal product does not go to zero – it will in
+fact be constant at all times. As more capital is accumulated, the number of specialized
+capital varieties keeps going up, while each unit is used at the same level.
+Allowing persistent growth
+The idea that variety expansion/specialization can allow
+capital to maintain its marginal product despite capital deepening allows growth to persist.
+15To see this, note that with a saving rate of one, we obtain kt+1 = (1−δ)kt +kα
+t l1−α. It is straightforward
+to plot this function and see that with α, δ ∈(0, 1) it converges monotonically to the stated value.
+13
+
+
+[PDF page 16]
+If we set investment to sy as in the original Solow model, the present setup delivers
+kt+1 = (1 −δ)kt + s(2 −α)¯xαl1−αkt.
+Clearly, capital – and output – will grow at a positive rate at all times as long as s(2 −
+α)¯xαl1−α > δ; the economy’s growth rate is the diﬀerence between these two expressions.
+The growth rate is thus endogenous: it depends nontrivially on the primitives of the model,
+including the savings rate.
+This simple analysis shows how Romer managed to come up with an economic mecha-
+nism whereby capital accumulation, by its transformation into an ever-increasing variety of
+specialized capital goods, does not exhibit decreasing returns. At the same time, the analysis
+does not portray purposeful technology development. A slightly diﬀerent version of the same
+model turned out to accommodate that interpretation, however.
+3.2
+The Production of Ideas
+In his 1990 paper, Romer suggested that the following ﬁve properties would be desirable of
+a model of long-run economic growth.
+1. The accumulation of ideas is the source of long-run economic growth.
+2. Ideas are non-rival.
+3. A larger stock of ideas makes it easier to ﬁnd new ideas.
+4. Ideas are created in a costly but purposeful activity.
+5. Ideas can be owned and the owner can sell the rights to use the ideas at a market price.
+As we have already seen, Romer emphasized the second and ﬁfth properties:
+non-
+rivalrousness (which implies a form of positive externality) and partial excludability (which
+implies a monopoly distortion when implemented in a market economy). In Romer (1993),
+he described examples of products/services in these two dimensions with the diagram repro-
+duced in Figure 2 below.
+Clearly, not all ideas are excludable enough that a market solution would work – hence
+the need for a diﬀerent form of ideas production (such as at universities). Romer did not
+fully explore the boundaries implied by this diagram – i.e., he did not formulate a theory
+(or test hypotheses empirically) regarding which ideas would be provided by markets and
+which would not. This remains an interesting research topic, in particular as one can imagine
+valuable ideas that are neither produced in the marketplace nor anywhere else.
+14
+
+
+[PDF page 17]
+Figure 2: Goods and services: are they rivalrous and/or excludable?
+Modeling ideas for new varieties
+Let us return to Romer’s framework in Section 3.1,
+but incorporate the missing pieces. Let an idea in the model be a new variety i that cannot
+be used until it has been developed. It is developed in a costly process, which now uses labor
+(as opposed to capital in Section 3.1) as an input. In other words, labor can now be used
+in two ways. As before, it can be used to produce ﬁnal output. But labor can also be used
+to produce new ideas, in which case we can think of labor inputs as research eﬀorts. Let us
+assume that the cost of producing an idea is 1/(ξAt) units of labor. Denoting the number
+of researchers at time t by lR
+t , the number of new ideas – the variety expansion – is given by
+At+1 −At = ξAtlR
+t .
+The fact that the productivity of researchers is proportional to the stock of existing ideas At
+is a simple way to incorporate Property 3 above in the model. This modeling feature also
+satisﬁes the linearity necessary for generating a constant long-run growth rate.
+In the modiﬁed framework, a research idea i put to use is simply an amount produced
+of x(i) – i.e., the specialized capital good. As before x(i) is produced from a general capital
+good, but with a simpler – linear – production structure: to produce one unit of x(i), η
+units of general capital are needed. With this assumption, we obtain the capital resource
+constraint
+Z At
+0
+ηxt(i)di = kt.
+Given that each x(i) has decreasing returns in ﬁnal production, it is optimal to spread the
+general capital equally among the specialized goods: xt(i) = kt/(ηAt) for all i.
+In this setting, all ideas are equally good from a production perspective and their unit
+costs of production are also identical. In terms of Figure 2, Romer focused on a simple,
+symmetric setup that captured ideas that belong to the upper-right quadrant.
+15
+
+
+[PDF page 18]
+The planner’s problem
+We can now state all the key equations determining quantities
+in this model. In particular, a benevolent social planner would solve the following problem:
+max
+{ct,kt+1,At+1,lR
+t }
+∞
+t=0
+∞
+X
+t=0
+βtc1−σ
+t
+−1
+1 −σ ,
+subject to
+ct + kt+1 −(1 −δ)kt = At
+ kt
+ηAt
+!α 
+l −lR
+t
+1−α
+and
+At+1 −At = ξAtlR
+t
+for all t = 0, 1, . . ..
+The production function can be written as proportional to kα
+t
+
+AtlF
+t
+1−α, where lF ≡l−lR
+is the amount of labor used in ﬁnal-good production.16 Hence, the growth rate of A, namely
+ξlR
+t , is analogous to the exogenous rate γ in Solow’s model, but here lR
+t is endogenous: it is
+the result of a choice that trades oﬀthe use of workers in ﬁnal-output production against
+their use in research/ideas production.
+Market R&D
+To see how markets may supply R&D, consider the producer of each spe-
+cialized capital good i. Romer assumed that, in order for ideas to have value, they have to
+be granted patent rights. Thus, the production of good i requires a patent, which initially
+is bought from the inventor. In the simplest case, suppose patent rights are eternal. Then
+it is in the interest of the patent holder to be the sole producer, and it is in the interest of
+the inventor to sell the patent to only one producer. Hence Romer considered a monopoly
+producer of each good i.
+However, since there are many competing capital goods and these are imperfect sub-
+stitutes in production (perfect substitutes is the case when α = 1), one can consider a
+framework with monopolistic competition, as in Dixit and Stiglitz (1977). To derive the
+demand function for each product i against which the monopolist will maximize proﬁts,
+consider the ﬁnal-good ﬁrms, which are assumed to operate in perfect competition. They
+maximize their proﬁts, which can be expressed as follows.
+max
+(xt(i))i,lF
+t
+ Z At
+0
+xα
+t (i)di
+!
+(lF
+t )1−α −wtlF
+t −
+Z At
+0
+qt(i)xt(i)di.
+Here, w is the wage and q(i) the price of specialized capital good i. Notice that the ﬁrm’s
+problem is static and that wt and the qt(i)s are taken as given. The ﬁrst-order conditions
+from this problem are
+wt = (1 −α)(lF
+t )−α
+Z At
+0
+xα
+t (i)di
+(3)
+qt(i) = α(lF
+t )1−αxα−1
+t
+(i).
+(4)
+16The constant of proportionality is η−α.
+16
+
+
+[PDF page 19]
+Equation (4) can be interpreted as the inverse demand function for good i.
+All other
+relevant prices are also taken as given, including the rental rate rt paid for the capi-
+tal that is rented from consumers. Then the owner of patent i obtains maximum proﬁts
+πt (i) = maxkt(i) {qt(i)xt(i) −rtkt(i)} or, substituting from (4) and x(i)η = kt(i),
+πt (i) = max
+kt(i)
+(
+α(lF
+t )1−α
+ kt(i)
+η
+!α
+−rtkt(i)
+)
+.
+(5)
+The ﬁrst-order condition for this problem is
+α2(lF
+t )1−αη−αkt(i)α−1 = rt.
+(6)
+Observe that π (i) > 0 is admissible: the ﬁrm owns a patent and obtains a rent from it,
+which makes the patent valuable.
+The patent is produced by “R&D ﬁrms” in perfect competition. Let pP
+t denote the price
+of a patent at time t. Then ideas producers solve
+max
+At+1,lR
+t
+pP
+t (At+1 −At) −wtlR
+t
+(7)
+s.t. At+1 −At
+=
+lR
+t ξAt.
+(8)
+As Romer assumed free entry in the ideas industry, the equilibrium proﬁts from engaging
+in research and development must be zero. Notice that this formulation has an implicit
+dynamic externality, sometimes labeled “standing on the shoulders of giants”. The decision
+involving the change, At+1 −At, raises the production of new ideas at all future periods,
+t + j, for j ≥1, via the term ξAt+j′ for all j′ ∈{1, . . . , j} in the equation of motion for A.
+But this positive spillover eﬀect is not beneﬁtting the ﬁrm who chooses to change A. This
+dynamic spillover is the second reason why the planner’s and the decentralized problems will
+have diﬀerent solutions.17
+The zero-proﬁt condition in the ideas industry requires that the price pP
+t be determined
+from the ﬁrst-order condition
+pP
+t ξAt = wt,
+(9)
+where wt is the same as in the market for ﬁnal goods: workers must be indiﬀerent between
+which activity to join (research or ﬁnal-goods production).18
+Let pC
+t denote the relative price of consumption (ﬁnal) goods at t (in terms of consumption
+goods at time 0). Then free entry implies that
+pP
+t pC
+t =
+∞
+X
+s=t+1
+πs (i) pC
+s .
+(10)
+bb
+As a result of the equation just stated, no pure proﬁts are generated in equilibrium.
+However, inventors of new patents appropriate the extraordinary rents that intermediate-
+goods producers will obtain from purchasing the rights on the invention.
+17Recall that the patented goods are undersupplied due to the monopoly element.
+18We consider one type of labor here for illustration purposes only. It would be more realistic to consider
+heterogeneity in worker skills, such that all workers do not have the option to become inventors.
+17
+
+
+[PDF page 20]
+Closing the market model
+Describing the consumer’s problem in this economy is also
+straightforward. Consumers take the prices as given and are the ultimate owners of ﬁrms.
+They obtain proﬁt incomes for the ﬁrms that have patents at time 0, but no net incomes
+for all ﬁrms created at time 0 and later. Consumers also accumulate capital and sell/rent it
+to the monopolistic ﬁrms. They also receive wage income from both ﬁnal-goods ﬁrms and
+R&D ﬁrms. An equilibrium can then be fully deﬁned to include all the conditions stated
+above.
+It is instructive to combine the equilibrium conditions to a set of equations and compare
+them to the equations resulting from the solution of the planning problem. Such a compar-
+ison reveals that the market equilibrium has too little research and capital accumulation in
+equilibrium – compared to the eﬃcient, planner-based allocation. Consequently, the equi-
+librium growth rate is too low, even though the existence of inﬁnite-length patents provide
+incentives to do research in the market. Well-designed government policy, like subsidies to
+research, are necessary to rectify this market failure.
+3.3
+Romer’s Capital Externality Model
+As already mentioned at the outset of this section, Romer’s 1986 ﬁrst paper was the ﬁrst
+in which the long-run growth rate is nontrivially determined and – at the same time – the
+equilibrium outcomes agree with a set of historical growth facts for the U.S. economy.
+To see the contribution in Romer (1986), note that the simple so-called Ak version of
+Solow’s model delivers an endogenous long-run growth rate. In this version, the production
+function is linear in capital, with no role for labor inputs. Linear production yt = Akt and
+capital accumulation kt+1 = (1 −δ)kt + syt gives a (short- and) long-run growth rate for
+both capital and output equal to sA −δ, where A is a constant and s is the saving rate.
+Hence, if sA > δ, this economy exhibits positive, and constant, long-run growth without any
+technological change. The reason is that the the marginal product of capital is not decreasing
+but constant at A. However, the model predictions ﬂy in the face of other historical facts:
+not only does labor command a roughly constant share of ﬁrms’ costs, but this share –
+around two-thirds – is considerable.
+What Romer (1986) did was to formulate a simple model that had the Ak feature and
+hence an endogenous long-run growth rate, but was still consistent with the key historical
+growth facts. At the individual ﬁrm level, Romer assumes that yt = kα
+t (Atl)1−α, where At is
+assumed to be equal to ¯kt, capital used by one ﬁrm creates a positive spillover to all other
+ﬁrms. In equilibrium, we have kt = ¯kt and yt = ¯ktl1−α.. As output is linear in capital, we
+have sustained growth. At the same time, the aggregate spillover comes for free and each
+individual ﬁrm only pays for the capital and labor they employ. As a result, the capital and
+labor shares of ﬁrm-level as well as aggregate costs accord with data – of α = 1/3, these
+shares are one-third and two-thirds, respectively.
+The key component in Romer (1986) was thus an Ak model with a positive labor share,
+derived in a decentralized equilibrium with externalities.
+18
+
+
+[PDF page 21]
+3.4
+Subsequent Developments
+Romer’s early work had a deep and long-lasting impact on economic growth as an area
+within macroeconomics. As a testament to this fact, essentially all big-selling undergraduate
+textbooks used to be exclusively focused on business cycles up to the 1990s. Nowadays, they
+have much more contents on the topic of growth and some of these books even start out with
+long-run macroeconomics. In these textbook treatments, Romer’s focus on idea production
+and the causes of technological change is now ﬁrmly established.
+In the subsequent research literature, two distinct strands of work stand out. A very
+large set of research articles further theorize around the driving forces behind technological
+change and growth. This theoretical literature very clearly built directly upon Romer’s work
+and developed it further in a number of directions. We discuss some of the most important
+developments in this subsection. Another, equally large literature is the empirical treatment
+of growth in a cross-country context.
+This empirical literature built only indirectly on
+Romer’s work, although it was clearly inspired by it. We discuss this research more brieﬂy
+in the next subsection.
+Alternative drivers of endogenous growth
+Diﬀerent theoretical follow-ups were pur-
+sued. One direction of research was inspired by Romer’s discussions of decreasing returns
+to capital as an obstacle to long-run growth in the absence of technological change. For
+example, Rebelo (1991) presents a framework where capital goods – aggregate investment
+– is produced in a highly capital-intensive fashion. In particular, labor is not used at all in
+the capital-goods sector, and the production of new investment goods is hence linear in the
+capital stock employed there. By contrast, the consumption-goods sector has the standard
+form with a labor share of two thirds. Rebelo shows that such an economy will display
+long-run growth without technological change because the accumulable factor, capital, is
+produced without decreasing returns. His research can be viewed as a follow-up on Romer
+(1986).
+A similar extension is to consider other accumulable factors in production. If the ac-
+cumulable factors, jointly, can be reproduced linearly, the economy also displays perpetual
+growth without technological change. Such an approach was pursued independently and
+concurrently with Romer’s early work by Robert E. Lucas, Romer’s dissertation advisor and
+1995 Economics Laureate. He developed a theory of human capital as the driver of growth,
+along with physical capital accumulation (Lucas, 1988). The continuous and endogenous
+building up of human capital – essentially augmenting the labor input in Solow’s framework
+– prevents the returns from capital from falling, thus allowing continuous accumulation of
+physical capital as well. Lucas’s work is not based on Romer’s, but it shares the endogenous-
+growth feature.
+Stokey and Rebelo’s (1995) paper displays a very tractable version of the two-factor
+growth model, which is similar in spirit to both Rebelo (1991) and Lucas (1988). In other
+work along the same line, infrastructure appears as a separate input into production. This
+is treated as a government-provided good, largely because of its nature: a public good with
+the government as a natural producer. Here, there is perpetual growth at a constant rate
+19
+
+
+[PDF page 22]
+if the joint return to infrastructure and regular capital is linear (the production function is
+homogeneous of degree one in the vector of these two stocks).19
+Alternative R&D settings
+Another line of work provides alternatives to the speciﬁc
+R&D process that Romer (1990) laid out. The most inﬂuential contribution is the one in
+Aghion and Howitt (1992). Like Segerstr¨om, Anant and Dinopoulos (1990), they assume
+that new products replace old ones as perfect substitutes in use but at a lower production
+cost per unit. This mechanism is embedded in a growth model. The possibility to replace old
+goods implies that an innovator may “steal business” from a pre-existing ﬁrm and compete
+it out of the market. Also called creative destruction, this process is reminiscent of the one
+elaborated on at length by Joseph Schumpeter (1942), and it is clearly an important part
+of the driver of technological change. Aghion and Howitt (1992) shows that the existence of
+business-stealing has a very important implication: R&D and growth rates can be too high,
+since business stealing amounts to a negative spillover on existing ﬁrms.
+A large literature on endogenous growth with creative destruction has followed Aghion
+and Howitt (1992) – for a general graduate-textbook treatment, see Aghion and Howitt
+(1998). Another key step in extending the theory was taken by Grossman and Helpman
+(1991a), who marry together insights from new growth theory with insights from new trade
+theory to analyze the relations between trade, innovation, and growth. Grossman and Help-
+man (1991b) provide a broad treatment of growth and innovation in a realistic setting where
+countries are part of a global economy.
+In the wake of creative destruction, growth models have a rich set of predictions in the
+domains of industrial organization, exit and entry, competition and market structure, as well
+as for trade. These predictions have been pursued in a new wave of empirical research on
+innovation and growth, which often draws on microdata for individual ﬁrms.
+A broad perspective on innovation recognizes that some innovations complement existing
+varieties (and not just substitute for them), whereas some substitute existing varieties by
+new, more eﬃcient versions.
+A key factor is the degree of substitutability between old
+and new products. Moreover, pre-existing products may or may not be produced by the
+same ﬁrms that innovate. Whether the technology links are internalized thus depends on
+the precise market structure. A recent study by Garcia-Macia, Hsieh, and Klenow (2016),
+begins to try and assess quantitatively ow aggregate U.S. innovation can be accounted for
+by these diﬀerent types of innovation.
+Yet another path in the literature has been to consider decreasing returns to research,
+as an alternative to Romer’s linear formulation. So-called semi-endogenous-growth models
+(see, in particular, Jones, 1995a, and Kortum, 1997), incorporate decreasing returns, but
+allow these to be counteracted by an increasing population. Hence, the long-run rate of
+technology growth becomes tied to the rate of population growth.
+Directed technical change
+A separate theoretical extension considers how technological
+change is directed toward diﬀerent uses. Acemoglu (1998, 2002), in particular, models how
+19Barro (1990) has a similar model, where the ﬂow of public expenditures acts as an input into production.
+20
+
+
+[PDF page 23]
+resources spent on diﬀerent kinds of research are guided by market forces. These inﬂuential
+studies stress how large cohorts of college-graduated workers in the United States attracted
+research into technologies that are complementary with high-skill workers. This may have
+raised high-skill wages, despite the higher number of college graduates. What happens to the
+overall share of wages depends on the degree of substitutability between high- and low-skilled
+labor in production. Acemoglu argues that the substitutability is high enough to help us
+understand the rising wage inequality in most economies. This is an example of research on
+endogenous technology that builds directly on Romer’s ideas. Some of the papers on directed
+technical change use the expanding-variety model of Romer (1990), while others employ the
+creative-destruction model of Aghion and Howitt (1992).
+In more recent work, Acemoglu et al. (2012) apply the idea of directed technical change
+to an important topic in climate change, namely how much of R&D is devoted to technology
+research aimed at improving “green” (as opposed to “dirty”) technologies. Here, Romer’s
+techniques and insights are also used to conclude that subsidies to the development of green
+technology may help mitigate climate change by reducing the reliance on fossil fuel. More-
+over, even a temporary policy could have a very powerful role, via the kind of permanent
+eﬀects inherent in Romer’s setting. That regulation may be required to direct market-based
+R&D towards developing ideas that are beneﬁcial for welfare is a general conclusion. The
+notion of directed, endogenous technological change has been applied in other contexts as
+well, such as in trade theory.
+3.5
+Quantitative Evaluations
+As argued at the outset of this section, Romer was motivated by the challenge to explain
+the available cross-country and time-series data on output growth, as illustrated in Figure
+1. Displaying these data and pointing to the obvious – that the world economies seemed far
+from converging to a common level of output per capita – and showing how basic growth
+theory could be amended to account for the empirical patterns was a powerful ignition for
+empirical research. These kinds of data and the theorizing Romer put forth had not, for
+a long time, been central in economic research or in the teaching of macroeconomics. The
+situation today is very diﬀerent, as a result of decades of empirical work on economic growth.
+What has the empirical literature found?
+Growth redux
+As perhaps could have been expected, the empirical literature has not
+oﬀered conclusive evidence on “the top drivers” of growth among countries. It has, however,
+generated many insights and reached considerable maturity. In the very brief discussion that
+follows, we emphasize our understanding of the current consensus on some ﬁrst-order issues.
+When it comes to relative growth performances, the consensus appears to be somewhere
+in between Solow’s convergence-based theory and endogenous-growth theory. Conditional
+convergence appears to be a fact – i.e., countries with similar traits and policies tend to
+converge to a similar level of GDP per capita. Robert Barro is a key contributor towards
+establishing this consensus – see Barro (2015) for a recent summary.
+21
+
+
+[PDF page 24]
+However, convergence is much slower than implied by a straightforward calibration of
+Solow’s model, where α is usually argued to be around 1/3.20 In other words, consistently
+with Figure 1, a country’s relative position can be drastically and persistently inﬂuenced
+by policy or other factors that make its growth rate depart signiﬁcantly from the world
+average for quite some time. The consensus view also holds that sooner or later a country’s
+growth rate will slow down to the world average: it is not possible to grow at a higher rate
+than the rest of the world for a very long time. Thus, going back to the Solow model and
+its parameters, the value of α appears much higher than previously believed, but less than
+1. Furthermore, countries can inﬂuence their relative values of A and thus their position
+relative to the world frontier. Early research papers to emphasize elements of such a model
+economy were Mankiw, Romer, and Weil (1992) and Parente and Prescott (1994). Jones’s
+inﬂuential undergraduate textbook in economic growth (Jones, 1998) is another example.
+The notion here is that the growth rate of the average A in the world, or of the As of the
+leading countries, is an endogenous function of world-wide investments in technology and
+knowledge creation.21
+Put diﬀerently, the consensus view is that GDP per capita across countries has a rather
+stable overall distribution in relative terms, where (i) mean GDP per capita keeps growing at
+a stable rate, but (ii) the relative positions in the distribution are substantially reshuﬄed over
+time. In other words, we keep observing growth miracles along with growth disasters: long-
+lasting and large changes in relative positions, upwards as well as downwards. There is less
+consensus on what drives these miracles or disasters. Institutional factors, human-capital
+accumulation, and openness to trade, are often mentioned as prime candidates, although
+case-based analyses suggest that the relative importance of these factors diﬀer widely across
+miracles and disasters.
+Empirical tests of growth theory
+Empirical research on growth from a more global
+perspective has also been conducted, but is rare. Kremer (1993) examines a key implication
+of Romer’s theory, namely increasing returns: societies with more people should produce
+higher growth rates. The hypothesis is hard to test since countries, for a long time, have
+been connected through trade and ideas exchange, so the unit of analysis can hardly be that
+of a country. Kremer therefore goes very far back in time and looking at isolated societies he
+ﬁnds support for Romer’s theory. Jones (1997) works out the implications of the hypothesis
+that population size is key for long-run growth rates. More generally, a series of papers
+by Jones (1995a,b, 1999) evaluates the performance of endogenous-growth theories from an
+empirical perspective. More recent work by Bloom, Jones, van Reenen, and Webb (2017)
+documents, in particular, a signiﬁcant extent of decreasing productivity of research, viewed
+from the perspective of the world-technology frontier.
+An empirical challenge in assessing theories of technological change is the diﬃculty to
+20Under perfect competition, this value is equal to capital’s share of income.
+21An early theoretical paper emphasizing the world determination of both these investment decisions and
+international spillovers of knowledge is Rivera-Bat´ız and Romer (1991), which studies a two-country model
+and shows the potential importance of trade for the world growth rate.
+22
+
+
+[PDF page 25]
+measure the number, and economic values, of innovations. Recently, microeconomic data
+sets for patents and patent holders have become available and there is now a vibrant lit-
+erature testing diﬀerent versions of endogenous-growth theory. Similarly, increasing access
+to census and register data for individuals makes it possible to identify “innovators” and
+“entrepreneurs”, making it possible to test the speciﬁc microfoundations for diﬀerent mod-
+ules of R&D models. This important endeavor is a very active research area today. It has
+also become an important input into the discussion of the determinants of inequality – since
+much of the new riches are associated with returns to innovation and the associated en-
+trepreneurship, also touching on the role of policy both from an innovation and inequality
+perspective.22
+4
+Integrated Assessment Models
+Nordhaus laid the foundations for extending the Solow model to capture the long-run in-
+teractions between society and climate. His interest in these interactions goes back to the
+1970s. At that time, natural scientists were paying increasing attention to the practical
+importance of a theoretical possibility: that the burning of fossil fuels to produce energy for
+production or consumption may signiﬁcantly warm the world.23 Moreover, they warned that
+a warmer climate could be detrimental in a variety of ways. Nordhaus closely followed these
+discussions and took on a task that was both daunting and pioneering, namely to model the
+interactions between economic growth and climate change.
+General approach
+His over-arching idea was to consider how output and – more generally
+– human welfare would be constrained by changes in the climate due to the use of fossil fuels.
+Nordhaus argued that in order to analyze how the economy inﬂuences the climate, how the
+climate inﬂuences the economy, and how diﬀerent policies inﬂuence the outcomes of interest,
+one must incorporate knowledge from the natural sciences into a suitable model of long-run
+growth.
+To satisfy these requirements, a climate-economy model must be dynamic and include
+three interacting sub-models:
+1. a carbon-circulation model that maps emissions of fossil carbon to a path for atmo-
+spheric carbon-dioxide (CO2) concentration
+2. a climate model that describes the evolution of the climate over time depending on the
+path of CO2 concentration
+22See, e.g., Akcigit, Celik, and Greenwood (2016), Acemoglu, Robinson, and Verdier (2017), or Aghion,
+Akcigit, Bergeaud, Blundell, and Hemous (2018).
+231903 Chemistry Laureate Svante Arrhenius had provided the ﬁrst analysis of whether ﬂuctuations in
+atmospheric CO2 concentration are important enough to explain ﬂuctuations in observed temperatures
+(Arrhenius, 1896). See further discussion below.
+23
+
+
+[PDF page 26]
+3. an economic model that describes how the economy and the society is aﬀected by
+climate change over time, and – closing the loop – how the path of economic activity
+leads to emissions of fossil carbon.
+Nordhaus showed how these very diﬀerent sub-models could be integrated into one frame-
+work. We nowadays ubiquitously refer to such frameworks as integrated assessment models
+(IAMs). An IAM can make consistent projections. For example, it will simulate the future
+climate based on fossil-fuel emission paths produced from a global economic model that takes
+these same climate simulations as inputs. Consistency of the simulations is obviously not a
+guarantee for accurate forecasts. But it is nevertheless a desirable feature, especially if one
+wants to examine the eﬀects of policy, since the policy eﬀects involve a feedback from the
+economy, via the climate, back to the economy.
+As noted in Sections 1 and 2, Nordhaus builds on the neoclassical growth framework
+– in a version parameterized to match historical macroeconomic data – with endogenous
+saving and explicit welfare functions. Given these welfare functions, the models can answer
+normative questions, e.g., about the desirable time path for a global carbon tax. Obviously,
+any normative conclusion reﬂects normative assumptions, such as welfare weights attached
+to people at diﬀerent points in time and space. Given a set of welfare weights, the model can
+readily be used to identify “optimal” policy. When we speak about optimal policy below,
+we thus refer to using the model in that way, namely to quantify how (diﬀerent) normative
+assumptions shape variables like carbon taxes, temperature limits, and emission paths.
+Why such a simpliﬁed model?
+Nordhaus’s approach was to condense and simplify
+state-of-the-art knowledge about global carbon circulation and the climate system into a set
+of (close-to) linear equations that was tractable enough to handle in an economic model. To
+understand the need for drastic simpliﬁcations of the natural-science elements of the IAM,
+note that the economic model assumes that agents are forward-looking. Indeed, people’s
+concern with climate change is in itself evidence of the forward-looking capacity of humans.
+Like Romer, Nordhaus assumes rationality as a benchmark. Under rational forward-looking
+behavior, the optimality conditions that pin down the laws of motion for endogenous variables
+(including fuel prices and interest rates) imply that current variables like consumption depend
+on the entire path of future endogenous and exogenous variables.24
+A key step in economic model building is therefore to solve the model. To do so, one needs
+to ﬁnd a mapping from the “state”, i.e., the predetermined variables (e.g., the capital stock
+and the level of technology at the beginning of a certain time period), to the endogenous
+variables (e.g., consumption) that satisﬁes the forward-looking conditions. This step is absent
+in models of climate and carbon circulation, as the diﬀerential equations that determine the
+model dynamics are recursive: they have no forward-looking components. That is to say,
+particles in natural-science models – unlike humans in economic models – do not choose
+24For the arguments here to be valid, full rationality in forward-looking behavior is not essential. As
+long as agents are to some degree forward-looking, solving a dynamic economic model involves a ﬁxed-point
+problem, the complexity of which rises very quickly with the number of state variables.
+24
+
+
+[PDF page 27]
+their paths based on expectations about future events (including how other particles will
+act, today as well as in the future).
+This fundamental diﬀerence makes the standard large-scale models of climate and carbon
+circulation incompatible with economic models. Just joining a set of standard (sub)models,
+would yield a model much too complicated to solve, given the large state space of conventional
+natural-science models.
+The incompatibility is reinforced when models are used to ﬁnd
+optimal policy, since the set of possible policies to consider and compare is very hard to reduce
+to a manageable size. For this reason, Nordhaus’s demonstration that a compact and easy-
+to-analyze climate and carbon circulation system could be made compatible with a forward-
+looking economic model is a fundamental contribution. Obviously, the simpliﬁcations on
+the natural-science side have some costs. As nature is complex and non-linear, one must
+take care to avoid simpliﬁcations that lead to unwarranted conclusions. This is something
+Nordhaus has kept emphasizing ever since he started his research in the area.25
+In what follows, we describe the key IAM models Nordhaus has built, their uses, and
+their further developments. However, we begin in Subsection 4.1 by brieﬂy describing a
+precursor to his main achievement described in Subsection 4.2.
+4.1
+The 1975/1977 Provisional Model
+We now summarize the model in Nordhaus (1975, 1977). This is not a full-ﬂedged interacting
+IAM, as it lacks a climate model and an explicit formulation of economic damages from
+climate change. However, it is an important precursor of Nordhaus’s later work. Its aim
+was to specify how the atmospheric CO2-concentration – and thus climate change – could
+be kept at a tolerable level, at the lowest possible cost. Such an analysis remains valuable
+today when political goals have been set for climate change in the 2015 Paris Agreement
+under the United Nations Framework Convention on Climate Change to keep the increase
+in the global mean temperature below 2 degrees Celsius (2◦C).
+Carbon circulation
+A tractable description of how a path of CO2 emissions translates
+into a path of atmospheric CO2 concentrations is a necessary ingredient in an integrated
+climate-economy model.
+Modeling the relation between emissions and concentrations in
+turn requires an understanding of many complicated physical and biological processes, such
+as the photosynthesis, the gas exchange between atmosphere and ocean, and the mixing
+of diﬀerent ocean layers. Nordhaus (1975) builds on Machta (1972), a paper presented at
+the 20th Nobel symposium “The Changing Chemistry of the Oceans”. He thus constructs
+a model with seven diﬀerent reservoirs of carbon, namely: (i) the troposphere (<≃10
+kilometers), (ii) the stratosphere, (iii) the upper layers of the ocean (0–60 meters), (iv) the
+deep ocean (> 60 meters), (v) the short-term biosphere, (vi) the long-term biosphere, and
+(vii) the marine biosphere. Based on ﬁndings from the natural sciences, Nordhaus argues that
+25Of course, Romer’s models of growth share these features: they are, in general, demanding to solve as
+they are dynamic and forward-looking. We emphasize the diﬃculties here, as they contrast with natural-
+science models and place restrictions on the climate and carbon-cycle modules of the IAMs.
+25
+
+
+[PDF page 28]
+the gross ﬂows between these reservoirs can be approximated as proportional to their source
+reservoirs. For example, in Nordhaus’s calibration, 11% of the carbon in the troposphere
+ﬂows each year into the upper ocean and 9% of the carbon in the upper ocean ﬂows in the
+other direction.
+Given these assumptions, the carbon circulation can be modeled as a linear ﬁrst-order
+system with a time step of one year
+Mt+1 = D · Mt + Et,
+(11)
+where Mt is a seven-element vector encompassing the sizes of the seven carbon reservoirs.
+D is a 7 × 7 matrix of ﬂow coeﬃcients where, e.g., the ﬁrst element in the third row gives
+the yearly 9% ﬂow from the upper ocean to the troposphere. The diagonal of D tells us how
+much carbon in each reservoir stays in that reservoir. The elements in each column sum to
+unity: no carbon is lost in the system. Finally, Et represents emissions. Since all emissions
+go to the troposphere, Et is a seven-element vector where only the ﬁrst element is non-zero.
+Using this model, one can describe the evolution of atmospheric CO2 concentration (as
+well as the amount of carbon in the other reservoirs) for any emission scenario.
+The economy
+The economic part of an integrated model should, at a minimum, predict a
+path for emissions and describe how diﬀerent policies inﬂuence these emissions. To conduct
+a normative analysis – to rank diﬀerent policies according to their desirability – the model
+must include some welfare measure. Nordhaus (1975) is a quite detailed framework for global
+energy demand. In contrast to his later work, it is formulated as a partial equilibrium model
+that takes the path of global GDP as given and uses this path as an input into the demand
+for energy. Energy is demanded for four diﬀerent purposes: electricity, industry, residential,
+and transportation in two regions (the U.S. and the rest of the world). It is supplied from 6
+diﬀerent natural resources: petroleum, natural gas, coal, shales, and two types of uranium
+(U235 and U238). The cost of extraction, conversion, and transportation, as well as geological
+availability, are taken into account.
+Nordhaus later made signiﬁcant eﬀorts at estimating the damages (and gains) to society
+of climate change. At the time, however, aggregate summaries of such eﬀects did not exist.
+Nordhaus (1975) therefore argued that a reasonable ﬁrst step is to analyze how a constraint
+for atmospheric CO2 concentration can be achieved at minimum cost. He careful notes that
+this exercise is not meant to describe how much climate change should be allowed. But the
+paper discusses likely consequences of diﬀerent paths of CO2 concentrations, including the
+eﬀects on temperatures and sea levels, by using simpliﬁed climate models integrated with the
+rest of the model. In the absence of economic cost estimates, the model is used to calculate
+the economic costs of satisfying diﬀerent scenarios for CO2 concentrations.
+4.2
+The First Complete Model
+Nordhaus’s ﬁrst fundamental, quantitative contribution was the construction of the DICE
+model (Dynamic Integrated model of Climate and the Economy). Published in Nordhaus
+26
+
+
+[PDF page 29]
+(1994a), this model lays the foundations for the IAMs still used today by, e.g., the Inter-
+governmental Panel on Climate Change (IPCC).26 The ﬁrst vintage of DICE used the latest
+knowledge from the natural sciences to construct a dynamic carbon-circulation system as
+well as a dynamic relation between changes in the global-energy balance and the global-mean
+temperature. These relations were on a form simple enough to be combined with a Solow
+model of economic growth, where the production of output uses fossil fuel, in addition to
+capital and labor, as in Dasgupta and Heal (1974).
+Two years later, Nordhaus presented a modiﬁed model with a number of regions (Nord-
+haus and Yang, 1996), labeled RICE (Regional dynamic Integrated model of Climate and
+the Economy). Both DICE and RICE were adapted to the numerical program packages
+GAMS and EXCEL, so as to make the models transparent and easy to work with also for
+other researchers. Ever since their original versions, both RICE and DICE have been con-
+tinuously developed and reﬁned, by both Nordhaus and other scientists. They still remain
+the workhorse models for climate economics all over the world.
+Next, we discuss the diﬀerent components of DICE and RICE in more detail, beginning
+with the natural-science elements and going on to the economic elements.27 First, we discuss
+how Nordhaus incorporates a climate model into the analysis – this part takes a path of
+atmospheric carbon concentration as input and generates a path of climate (global mean
+temperatures) as output.
+Second, we show the carbon-circulation model – a simpliﬁed
+version of the one described in the previous subsection.
+Third, we describe the explicit
+consideration of economic “damages”, an addition to the model which is necessary to allow
+for explicit cost-beneﬁt analysis. Fourth, we discuss the remaining features of the economic
+model, whose core (the Solow model) we have already described. Finally, we dwell on how
+to calibrate the model’s parameters and solve the model, before putting it to use.
+Climate
+For over 100 years, it has been known that CO2 is a greenhouse gas that changes
+the energy budget between incoming sunlight and outgoing long-wave heat radiation. In fact,
+1903 Chemistry Laureate Svante Arrhenius described the direct eﬀect of CO2 concentrations
+on the energy budget by the famous and still heavily used formula:
+Ft =
+η
+ln 2 ln Mt
+M0
+.
+(12)
+Arrhenius’s formula says that the change in the energy budget F, measured in power per
+area, is proportional to the natural logarithm of the ratio between actual and baseline atmo-
+spheric CO2 concentration, denoted by Mt and M0. Parameter η measures how the energy
+budget changes with a doubled CO2 concentration. With this simpliﬁed representation of
+the greenhouse eﬀect, Nordhaus formulated a system of diﬀerence equations for global mean
+(surface) temperature Tt and ocean temperature T O
+t , both expressed as deviations from their
+pre-industrial levels. These equations should be thought of as linear approximations around
+26This organization was awarded the 2007 Nobel Peace Prize.
+27The description below is based on DICE and RICE in Nordhaus and Boyer (2000). The minor diﬀerences
+from the original DICE and RICE models are pointed out below.
+27
+
+
+[PDF page 30]
+the pre-industrial steady state of a non-linear system based on the law of nature that energy
+does not disappear. We can label the system a global energy budget and the DICE energy
+budget is
+Tt −Tt−1
+=
+σ1
+
+(Ft + Ot −κTt) −σ2
+
+Tt−1 −T O
+t−1
+
+(13)
+T O
+t −T O
+t−1
+=
+σ3
+
+Tt−1 −T O
+t−1
+
+,
+with a decadal time step.
+The term (Ft + Ot −κTt)−σ2(Tt−1−T O
+t−1) describes the energy budget of the atmosphere
+and the upper layer of the oceans. Here, Ft measures the additions of energy ﬂows due to the
+CO2 greenhouse eﬀect, Ot includes other man-made additions, including methane and aerosol
+emissions, while κTt quantiﬁes the fact that a warmer body radiates more energy. In this
+case, the so called Planck feedback, implies that a warmer earth, all else equal, radiates more
+energy into space in the form of infrared light. The term σ2(Tt−1 −T O
+t−1) reﬂects energy ﬂows
+from the atmosphere to the deep oceans, which is a function of the temperature diﬀerence
+and enters with a negative sign in the energy budget of the atmosphere. If the overall energy
+budget of the atmosphere and upper ocean is in surplus, the atmospheric temperature will
+rise: Tt −Tt−1 > 0. For a given surplus, the speed of the temperature increase is determined
+by the heat capacity of the atmosphere and the upper ocean, parameterized by σ1.28
+The energy budget of the deep ocean is simpler, and only contains the energy ﬂow from
+the atmosphere and upper ocean layer. If it is in surplus, i.e., net energy ﬂows are downwards,
+Tt−1 −T O
+t−1 > 0, the oceans become warmer at a speed determined by σ3.
+It is straightforward to see that, if CO2 concentration stabilizes at twice the pre-industrial
+level ( Mt
+M0 = 2), the addition to the energy budget is η. Disregarding other exogenous addi-
+tions to the energy budget (Ot = 0), a new steady state will then eventually materialize in
+which the two temperatures are constant. For this to be possible, the atmospheric temper-
+ature must increase so as to balance the greenhouse eﬀect:
+T = η
+κ.
+The ratio
+η
+κ is often labeled the equilibrium climate sensitivity.
+Equilibrium here refers
+to to the long-run steady state response. The response over short horizons is called the
+transient climate sensitivity, speciﬁed for a particular horizon. Because many, more or less
+well-understood, feed-back mechanisms operate in reality, there is substantial uncertainty
+about this number. For example, the ﬁfth IPCC report asserts that the equilibrium climate
+sensitivity is “likely in the range 1.5 to 4.5◦C”. In 1999, Nordhaus chose a value of 2.9 for η
+κ
+in DICE and RICE.
+Carbon circulation
+The carbon-circulation model in DICE and RICE describes the dy-
+namic evolution of the emitted CO2 – thus it is closely related to the system in Nordhaus
+28The heat capacity of the atmosphere alone is very low relative to that of the oceans, implying a rapid
+equalization of its own energy budget, had it been speciﬁed explicitly.
+28
+
+
+[PDF page 31]
+(1975) described in Subsection 4.1. It has only three reservoirs: the atmosphere (Mt), the
+biosphere and upper layers of the ocean (M U
+t ), and the deep oceans (M L
+t ). Here, the variables
+Mt, M U
+t , and M L
+t measure the mass of carbon in the respective reservoirs.29
+Simplifying (11) into these three components – and exploiting the properties that carbon
+cannot vanish and that the inﬂows from one reservoir must be identical to the outﬂows from
+another – we can rewrite the carbon-circulation system as:
+Mt −Mt−1
+=
+−φ12Mt−1 + φ21M U
+t−1 + Et−1,
+(14)
+M U
+t −M U
+t−1
+=
+φ12Mt−1 −(φ21 + φ23) M U
+t−1 + φ32M L
+t−1,
+M L
+t −M L
+t−1
+=
+φ23M U
+t−1 −φ32M L
+t−1.
+Here, φ12Mt−1 −φ21M U
+t−1 represents the net carbon ﬂow from the atmosphere to the upper
+reservoir M U
+t , which is subtracted in the ﬁrst equation and added in the second. Analogously,
+φ23M U
+t−1−φ32M L
+t−1, is the net the ﬂow to the deep ocean from the biosphere and upper layers
+of the ocean, being subtracted in the second equation and added in the third.30
+Having speciﬁed the dynamic model of carbon circulation, Nordhaus calibrated its pa-
+rameters to make it behave in line with state-of-the-art carbon circulation models.31
+Damages
+A key innovation in DICE and RICE over Nordhaus (1975) was the addition of
+a damage function mapping global-mean temperatures into economic damages. Nordhaus
+(1994a) pioneered the “bottom-up” approach to damage aggregation. His idea was to compile
+a large number of microeconomic studies on various consequences of climate change – e.g.,
+the damages to agriculture, coastal regions, amenity values, biodiversity, and human health.
+Of particular interest is the “Ricardian” approach used by Mendelsohn, Nordhaus, and Shaw
+(1994), who use the relation between temperature and market prices of farm land across 3000
+U.S. counties to infer the consequences of climate change, an approach that controls for many
+aspects of underlying institutions.
+Nordhaus realized that such a bottom-up approach to measuring damages abstracted
+from some damages, in particular extreme outcomes with low probability. In the words of
+Nordhaus (1994b), “we have only ‘best guess’ scenarios for climatic change and the social
+reactions it might cause”. He argued that very misleading policy implications could arise
+from a model that disregarded such best guesses of damages associated with climate change,
+even though little hard evidence for them could be presented.
+As a partial remedy, he
+conducted a survey among a carefully selected panel of scientists with particular expertise
+in climate change and its consequences.32 This survey solicited assessments of potentially
+damaging consequences of climate change and their associated probabilities. The survey
+29Since the ratio of current atmospheric concentration to the preindustrial level is equal to ratio measured
+in carbon mass, the Arrhenius law in (12) is the same for both variable deﬁnitions.
+30Some ﬂows, e.g., respiration and photosynthesis can be deﬁned as gross ﬂows, while others like the gas
+exchange between the atmosphere and ocean surface cannot.
+31In particular, he used the BERN carbon circulation model also used by IPCC (1996).
+32The names of the panel members are given in Nordhaus (1994b).
+29
+
+
+[PDF page 32]
+results were condensed into a “catastrophic-impact” component, including a risk premium
+(depending on what individuals are willing to pay over the expected value to reduce a risk).
+Finally, Nordhaus speciﬁed a function
+Ω(Tt) ≡
+1
+1 + θ1Tt + θ2T 2
+t
+(15)
+to represent the share of GDP left after climate damages (regional for RICE and global for
+DICE). He chose parameters θ1 and θ2 to make this overall damage function approximate
+the sum of the underlying mechanism-speciﬁc damage functions, including the catastrophic
+impact component. The damage function describes how much society loses as a result of
+global warming, with less resources for consumption and investment.33
+This damage function is part of the economic part of the model, which we now discuss
+in somewhat more detail.
+The economic model
+As already mentioned, the economic models in DICE and RICE are
+based on the Solow model with optimal savings. As such, they include agents with an explicit
+utility function. In RICE, the world consists of eight regions: U.S., OECD-Europe, Other
+high income, Russia and Eastern Europe, Middle income, Lower middle income, China, and
+Low income. Consumers maximize their utility by choosing how much to save and consume
+taking prices as given. Speciﬁcally, in region j, consumer welfare is
+∞
+X
+t=0
+βtLj,t
+c1−σ
+j,t
+−1
+1 −σ ,
+(16)
+where Lj,t is the region’s population in period t and cj,t is its per-capita consumption analo-
+gously to (1). Lj,t increases initially in line with observed population growth, but population
+growth is assumed to fall over time, eventually leading to a stable global population. Often,
+the calibration of σ is unity implying a logarithmic utility function. As in the dynasty model
+discussed in Section 2, the inﬁnite sum in the welfare expression reﬂects the assumption that
+individuals are altruistic across generations, eﬀectively creating inﬁnitely lived dynasties.
+Firms maximize the discounted sum of proﬁts also taking prices as given. They produce
+the ﬁnal good and hire labor, capital and energy on competitive markets. As in the Solow
+model, they are assumed to use a Cobb-Douglas production function, where output of the
+ﬁnal good in region j and period t is
+Ωj (Tt) Aj,tkα
+j,tl
+1−α−γj
+j,t
+es
+γj
+j,t.
+(17)
+The inclusion of a ﬁnite resource – fossil-based energy services, es – extends the basic
+Solow model as in Dasgupta and Heal (1974). Total-factor productivity Ωj (Tt) Aj,t has two
+terms. One is Ωj (Tt) , the net-of-damage function described in the previous section. This
+33Some of the damages incorporated in Ωare not literally output losses, but loss of life, loss of amenity
+values, etc. Thus, Nordhaus’s approach is to translate them into equivalent output losses.
+30
+
+
+[PDF page 33]
+gives rise to a negative externality, as no individual economic actor factors in how her indi-
+vidual decisions aﬀect global temperatures. The second term is Aj,t, a technology parameter,
+which increases exogenously over time just as in the original Solow model (Nordhaus did not
+incorporate Romer’s endogenous-technology mechanism). The amount of energy services
+per unit of carbon emissions are: esj,t = ξj,tej,t, where ej,t is fossil energy use and ξj,t is the
+inverse of fossil intensity.
+The price of fossil energy net of transportation costs and regional taxes is assumed to be
+equalized across regions. But gross prices can diﬀer depending on region-speciﬁc markups,
+including transportation costs and energy taxes. Over time, the fossil intensity 1/ξj,t falls,
+reducing the amount of carbon required per unit of carbon energy service. Fossil fuel is
+exhaustible and the cost of its production increases in cumulated historic extraction. Specif-
+ically, the model assumes that the cost of extracting fossil fuel increases sharply when cu-
+mulated extraction reaches a critical level CumC. Fossil production costs are thus speciﬁed
+as
+qt = χ1 + χ2
+ Pt
+s=1995 Es
+CumC
+!4
+,
+where qt is the cost of producing fossil fuel in period t and Et = P
+j ej,t is global fossil fuel
+use in period t. Parameters χ1, χ2 and CumC are chosen so that supply is quite elastic
+initially, but very inelastic when cumulated extraction approaches CumC. Since agents are
+forward-looking, this implies that the price of fossil fuel includes a so-called Hotelling term
+representing the increase in future extraction costs from a marginal unit of fossil fuel use
+(Hotelling, 1931).
+Finally, aggregate fossil fuel use Et enters as the emission term in (14), which closes the
+model. Emission of fossil carbon into the atmosphere enters the carbon-circulation system,
+driving atmospheric carbon concentration. Through the greenhouse eﬀect, this raises global-
+mean temperature Tt which reduces outputs via Ωj (Tt) , the regional damage functions.
+Since any emitting ﬁrm is small and the damages are spread across the whole world, the
+eﬀect of the ﬁrm’s emissions on its own productivity is negligible and the ﬁrm does not
+internalize it. However, the aggregate eﬀect of all emissions in the world is certainly not
+negligible, thus creating a failure of unregulated markets.
+Model calibration and welfare calculations
+A basic principle behind Nordhaus’s mod-
+eling is that the models should be given a positive interpretation – i.e., they should be consis-
+tent with the relevant observations in reality. When it comes to the science components that
+describe climate and carbon circulation this is the only reasonable approach – one should
+chose parameters and other model characteristics to make the model reasonably consistent
+with historic data, and use the available theory for projections into the future.
+Nordhaus argues that one should chose the details of the economic model in the same
+manner. In this sense, he follows the approach in modern macroeconomics, where historical
+data as well as microeconomic information are used to calibrate diﬀerent parameters (see,
+e.g., Royal Swedish Academy of Sciences, 2004).
+31
+
+
+[PDF page 34]
+However, some economic parameters also enter into normative judgments. Take the dis-
+count rate β, which captures the relative weight placed on future generations. This parameter
+can be calibrated to match how much households save and bequeath.34 This reﬂects a posi-
+tive element of modeling. But one can also see the discount factor as a normative parameter,
+reﬂecting how much weight to put on the future in the welfare calculations. The modeler
+using the IAM thus has a choice. Should she base the welfare calculations on a discount
+rate in line with empirical observations or on ethical considerations? Here, it is important to
+note that Nordhaus’s models can consider one discount rate when modeling individual deci-
+sions by households and another discount rate when evaluating aggregate welfare. Although
+the most common choice in economics is to use the same discount rate in the two cases, a
+strong case can be made that climate economics is diﬀerent since it is concerned with much
+longer time perspectives than in most other applications. However, if one uses a diﬀerent
+discount rate for aggregating welfare than the one calibrated for individual decisions, this
+does not only change the optimal tax rate. Typically, other policies, like subsidies to saving
+and investments would be called for if individuals use a higher discount rate than the one
+considered ethically justiﬁed when aggregating welfare.
+Analogously, because gifts across (rather than within) dynasties play a quantitatively
+minor role in actual economies, Nordhaus assumes households in the model not to derive
+utility from the welfare of other households (e.g., people in other regions in the world).
+However, a modeler can assign any weights across regions when forming a social welfare
+function. One possible set of weights is the one which generates the current world distribution
+of consumption, but whether these are the proper welfare weights is, again, an ethical issue.
+Again, if more weight is put on the welfare of poor people, this has implications not only for
+optimal carbon taxes but also for international transfer systems.
+However, some questions can be answered in economic models – including IAMs – without
+imposing any welfare weights. In particular, one can seek to identify policies that result in
+Pareto-optimal allocations. These have the property that no individual can be made better
+oﬀ, without at least someone made worse oﬀ. A policy that implements such an allocation,
+is often labelled “optimal”. Intuitively, this concept maximizes the “size of the pie” but
+remains silent on how the pie should be divided.
+In what follows, we (mostly) use the word optimal in the same way Nordhaus does – i.e.,
+to reﬂect the welfare weights that govern the behavior of the model’s households.
+Model solution
+When parameters have been speciﬁed, the model must be solved. Con-
+cretely, this means ﬁnding the decision rules of the agents in the model. The approach for
+solving RICE and DICE diﬀers across applications and numerical program packages, but all
+models are fully consistent general-equilibrium models.
+As already mentioned, private agents in the economy (ﬁrms and households) do not take
+any externalities into account. Thus, in the market equilibrium, agents ignore the eﬀects
+of their own fossil fuel use on current and future factor productivities. Ωj (Tt) Aj,t. Under
+34The model’s implications for interest rates is tied to the discount factor, and observations of the interest
+rate are thus used to measure the discount factor.
+32
+
+
+[PDF page 35]
+this assumption, the economic model can be solved with standard methods according to
+the market-equilibrium approach. For example, energy use is determined from equilibrium
+in the energy market, which requires the marginal product of energy derived from (17) to
+equal the price of fuel determined from costs, markups, and the Hotelling term. When using
+the market-equilibrium approach to solve the model, any optimal tax is calculated from the
+Pigou principle – it is set equal to the present discounted value of the eﬀects on current and
+future output of a marginal unit of emissions.
+The optimal solution can also be found directly as a central-planning solution. In this
+case, the path of all endogenous variables (consumption, capital and fuel) are chosen to max-
+imize a weighted sum of regional welfare (16) subject to the constraints given by production
+functions, factor supply, carbon circulation, and the climate model. The so-called Negishi
+weights used to aggregated regional welfare are picked to make the allocation consistent with
+the actual distribution of consumption across the world’s regions. The solution to the model
+(the path of endogenous variables) now coincides with the equilibrium allocation that would
+arise in a market economy at a particular set of prices. When the central planner’s maxi-
+mization takes full account of the eﬀects of fossil emissions on productivity, the allocation
+requires fossil-fuel taxes or emission permits to be implemented as a market equilibrium.
+The required taxes – or, equivalently, the market prices of emission permits – follow from
+this maximization and are thus optimal, given the model and its parameters.
+The planning solution is also conveniently used when ﬁnding the non-cooperative solution
+to RICE (Nordhaus and Yang, 1996). Then, one assumes that each region maximizes its own
+welfare given by (16), while taking the behavior of other regions as given. Since regions are
+relatively large, their chosen emissions do have a non-negligible impact on their own regional
+productivity and welfare. However, since this impact is much smaller than the global impact,
+emission mitigation is much too low from a global welfare perspective.
+By manipulating the damage function, scenarios like limits on the amount of acceptable
+climate change can be studied by a maximization approach. For example, by making the
+damage function highly convex at a 2 ◦C threshold, one can ﬁnd the optimal allocation
+conditional on remaining below the threshold. This is far from a trivial exercise, since many
+policies can satisfy the temperature constraint.
+It is then important to analyze if these
+policies diﬀer in their welfare implications and, if so, ﬁnd the one that fulﬁlls the constraint
+at the lowest possible cost.
+4.3
+Putting the Model to Use
+IAMs have been developed in various dimensions and we discuss these in Section 4.4 below.
+However, the basic structure of the latest versions of Nordhaus’s own DICE and RICE models
+as well as models like CETA (Peck and Teisberg, 1992), MERGE (Manne et al., 1995),
+WITCH (Bosetti et al., 2006), and Golosov et al. (2014) is quite similar to Nordhaus’s ﬁrst
+models.35 These models are used to assess the consequences of various policy alternatives and
+35Another modeling approach rooted in engineering and the natural sciences also exists. Here, a more
+detailed description of the energy sector and the physical eﬀects of climate change are modelled.
+This
+33
+
+
+[PDF page 36]
+to consistently simulate global warming. Nordhaus (2014) lists a number of key applications
+of IAMs:
+• making projections with consistent inputs and outputs of the diﬀerent model compo-
+nents
+• calculating how alternative assumptions shape important variables such as output,
+emissions, temperature change, and damages
+• tracing out the eﬀects of alternative policies in a consistent way, and estimating the
+costs and beneﬁts of alternative strategies
+• estimating the uncertainties associated with alternative variables and strategies
+• calculating the eﬀects of reduced uncertainties about key parameters or variables, as
+well as estimating the value of research and new technologies.
+In this section, we discuss some of these applications, including their quantitative con-
+tents.
+Deﬁning and analyzing scenarios
+Applications often call for an IAM to be run with
+diﬀerent sets of assumptions. Diﬀerent scenarios can, e.g., represent diﬀerent assumptions
+about how policy will be undertaken in the future. But they can also check the sensitivity
+to uncertain parameters, e.g., climate and damage sensitivities. The model produces logi-
+cally coherent predictions, conditional on the assumptions in diﬀerent scenarios, but cannot
+itself produce estimates of their likelihood. Nevertheless, these conditional predictions are
+important, not least in policy discussion. For example, some uncertainties may be diﬃcult
+– or even impossible – to quantify, given current knowledge. Then, it becomes valuable to
+analyze optimal policies conditional on exogenous constraints on policy, e.g., the requirement
+to stay below a certain amount of warming.
+Because optimal policies, as deﬁned here, ﬁnd Pareto-eﬃcient solutions based on given
+(sets of) welfare weights, their practical use relies on being able to compensate potential losers
+from policy changes. In practice, the lack of a global system for redistribution may make it
+politically impossible to make everyone – or even a majority – agree to the implementation
+of a particular policy. Thus, it is of great interest to analyze not only “ﬁrst-best” policies
+but also second-best policies that fulﬁll some distributional constraints. The DICE/RICE
+models – and subsequently developed IAMs – are highly suitable for such analyses.
+A very large number of scenarios have been analyzed over the years since Nordhaus con-
+structed the ﬁrst IAM. As an example, we present the result from a recent study (Nordhaus,
+modeling is complex and, given available computer technology and numerical techniques, not possible to
+combine with explicit modeling of markets with forward-looking agents in a neoclassic growth framework.
+These models are complementary to IAMs following the tradition of Nordhaus, by answering other types
+of questions – e.g., how diﬀerent mitigation scenarios translate into needs for speciﬁc investments and fuel
+substitution. See Weyant (2017) for a recent overview.
+34
+
+
+[PDF page 37]
+2017). This study solves and simulates the latest vintage of the DICE model (DICE-2016)
+for four scenarios:
+1. Baseline: no climate-change policies are adopted, over and above the limited policies
+already adopted in 2015.36
+2. Optimal: paths for climate-change policies are chosen to maximize aggregate (weighted)
+welfare within the model from 2015 forward.
+3. Temperature-limited: optimal policy paths are chosen, subject to the further con-
+straint that the global temperature does not exceed 2.5 ◦C above the 1900 average.
+4. Stern discounting:
+optimal policy paths are chosen for a subjective discount rate
+set to 0.1% per year, as suggested in the inﬂuential Stern Review (Stern 2007).
+Due to the large uncertainty about many of the model’s parameter values, Nordhaus
+(2017) solves the model for a large set of parameters. Figures 3 and 4 presents model outputs
+for median (best-guess) values of the parameters. Figure 3 shows the path of emissions and
+Figure 4 the simulated temperatures in these four scenarios.
+Figure 3: Emissions of CO2 in four scenarios. Predictions from DICE-2016R2.
+As Figure 3 illustrates, emissions are quite diﬀerent in the four scenarios. The baseline
+scenario implies continuously increasing emissions. Instead, the temperature-limited and
+Stern discounting optimal scenarios both have radical and immediate reductions in emissions.
+The optimal scenario, for Nordhaus’s own best guess of parameters, entails a small rise in
+emissions, followed by falling emissions from the middle of the century.
+36Nordhaus estimates these policies to be equivalent of a carbon tax of USD 2/metric ton CO2.
+35
+
+
+[PDF page 38]
+Figure 4: Increases in the global mean temperature. Predictions from DICE-2016R2.
+Figure 4 shows how global mean temperature evolves in the four scenarios. Due to the
+inertia in the earth system, the diﬀerences are not very large until the second half of the
+century. Towards the end of century, however, the max-min range is close to 2◦C.
+The social cost of carbon
+Another central use of the DICE and RICE models is to
+calculate the social cost of carbon. This is deﬁned as the present value of the damage stream
+resulting from a marginal unit of fossil-fuel emissions. Absent any interactions with other
+market failures, the social cost of carbon coincides with the optimal tax. To calculate the
+social cost of carbon, requires the full IAM. Speciﬁcally, (i) the carbon-cycle module is
+needed to predict how a unit of carbon emissions aﬀects the path of future atmospheric
+CO2 concentration, (ii) the climate module is needed to predict how a changed path of
+CO2 concentration alters the climate (global temperatures), and (iii) the economic model is
+needed to value the economic and social damages.
+In Table 1, the ﬁrst row gives the social cost of carbon – i.e., the model’s optimal carbon
+tax per metric ton CO2, given Nordhaus’s best-guess parameters. The second row provides
+the tax necessary to limit the warming to 2.5◦C in the most eﬃcient way. The third row
+is the optimal tax, given the low discount rate of 0.1% per year suggested in Stern (2007).
+Clearly, the policies are very diﬀerent, the two scenarios with sharp immediate emissions
+reductions in Figure 3 requiring 5-10 times higher tax rates than the model’s social cost
+of carbon. As the table shows, all three proﬁles rise over time – the upward slope mainly
+reﬂects the growth of GDP and real wages.
+36
+
+
+[PDF page 39]
+Table 1 Carbon taxes 2010 US Dollars
+2015
+2020
+2025
+2030
+2050
+Optimal (Nordhaus’s best parameter guess)
+29.5
+35.3
+49.1
+64.0
+153.5
+Optimal (Temperature Limit <2.5◦C)
+184.1
+229.0
+284.0
+351.0
+1008.4
+Optimal (Stern discounting at 0.1%)
+256.5
+299.6
+340.7
+381.7
+615.6
+Parameter uncertainty
+As discussed above, some model parameters are highly uncer-
+tain. How reliable are the predictions from the model based on the best-guess set of parame-
+ters? One way of addressing this question is to specify a distribution for the unknown param-
+eters and solve the model for each parameter combination. This procedure is straightforward
+to implement in IAMs such as DICE/RICE and allows the user to assess the robustness of
+the model’s key predictions in diﬀerent dimensions.
+Nordhaus (2017) provides such a sensitivity analysis, for ﬁve key uncertain parameters:
+(i) the coeﬃcient on squared temperature in the damage function, (ii) the growth rate of
+aggregate productivity, (iii) the speed at which the economy decarbonizes through technical
+change, (iv) the climate sensitivity, and (v) the capacity of the intermediate carbon reservoir
+M U to store carbon. For each of these, 5 quintile variables are speciﬁed, producing 55 = 3, 125
+possible parameter combinations. The model is solved for each of these combinations, both
+for the optimal solution and business as usual.
+This produces distributions for the key
+variables of interest. For example, the optimal tax at the start of the simulation period
+(2015) is distributed with a mean of 32.5USD/ton CO2 and a standard deviation of 28.6.
+Without any further climate policy, the temperature in 2100 has a mean increase of 4.2◦C
+with a standard deviation of 1.12◦C. Under the optimal tax, both the level and the variability
+is lower, at 3.5◦C and 0.75◦C, respectively.
+The reason for the lower variability is that
+parameter uncertainty is counteracted by variations in the optimal tax rate. For example, if
+climate sensitivity is high, this calls for higher taxes.37
+The model’s robustness features can be illustrated with box plots. Figure 5 shows such a
+box plot for the optimal tax. The dot is the mean over the 3,125 simulations, the box shows
+the middle 50% of the realizations, and the bars contain 99% of the realizations (for a normal
+distribution). Clearly, uncertainty about parameters leads to large policy uncertainty. This
+ﬁnding calls for caution and for combining predictions based on best-guess parameters with
+robustness analyses of this kind.38
+Real-world policymaking
+How should climate policy be conducted in practice? How
+has it been conducted to date? We brieﬂy discuss these issues with particular emphasis on
+how actual policy relates to the policies proposed in Nordhaus’s research.
+In RICE and DICE, a decentralized market equilibrium, where the external collective
+climate damages of carbon emissions balance the private beneﬁts of carbon use, requires that
+37An issue about learning arises. Realistically, policy needs to be decided before the uncertainty about
+parameters is resolved. This creates a precautionary motive for stringent policy. We discuss this issue in the
+next section.
+38Gillingham et al. (2018) extend the analysis of uncertainty to cover model uncertainty, ﬁnding that
+parameter uncertainty is more important than model uncertainty given the existing set of models.
+37
+
+
+[PDF page 40]
+Figure 5: Box plot for optimal tax 2010$/tCO2.
+emitters face the right marginal cost of emitting. However, the model is silent on whether this
+principle should be implemented using carbon taxes or tradable emissions permits. Although
+there may be practical advantages of using a tax, emission-trading systems are used at least
+as much in practice.39 In both cases, carbon emissions are costly for the emitter, and when
+the price of the permit equals the tax, the two interventions are equivalent. The World Bank
+produces an annual report on systems to price carbon emissions (World Bank, 2018). The
+data in that report shows that the number of carbon-pricing schemes is increasing over time
+at quite a rapid rate. The revenues from carbon-pricing schemes thus increased from USD 52
+billion in 2017 to USD 82 billion in 2018 (World Bank, 2018). The carbon-pricing schemes
+currently in place, or scheduled to be put in place, cover about 20% of global emissions.
+This is far from the full global coverage that Nordhaus, and climate-economy research more
+generally, prescribes.
+The emission trading system in the EU (“EU ETS”), is the largest among the imple-
+mented carbon-pricing systems, covering around 45% of EU emissions. A problem with this
+system has been a low price of emission rights, relative to the estimated social cost of carbon.
+Recent reforms of the system have attempted to reduce the supply of unused emission rights,
+and prices have since approached the optimal taxes prescribed by the best-guess version of
+DICE-2016. The scheduled national emission trading system in China will be of a similar
+size as EU ETS (World Bank, 2018).
+A monetized value of the damages from carbon emissions is also useful for other domains
+39With uncertainty, a tax gives the policy maker better control over the price of emissions while emission
+trading increases control over the quantity. See Weitzman (1974) for an early and general treatment of the
+issue of using prices or quantities as the control variable.
+38
+
+
+[PDF page 41]
+of policymaking. For example, the U.S. Environmental Protection Agency (EPA), in col-
+laboration with other agencies, has produced estimates of the social cost of carbon (SCC)
+to be used in cost-beneﬁt analyses of federal initiatives and regulations. According to the
+EPA, the purpose of producing these estimates is “to allow agencies to incorporate the social
+beneﬁts of reducing carbon dioxide (CO2) emissions into cost-beneﬁt analyses of regulatory
+actions” (EPA 2016). Nordhaus’s DICE model was a key input in the analysis. As discussed
+above, the SCC depends on the discount rate used – a parameter with an important ethical
+component. Therefore, the published work of EPA gave diﬀerent values for the SCC for
+diﬀerent discount rates. The latest update, from August 2016, stated the current SCC at
+USD 36 and 56 per ton CO2 at discount rates of 3 and 2.5% per year, respectively.40 The
+EPA also provided a quantiﬁcation of the uncertainty embodied in the SCC – e.g., the 95th
+percentile of the SCC at 3% discounting is 105 USD/metric ton CO2. Since 2018, however,
+the EPA no longer provides estimates of the SCC.
+4.4
+Extensions and Model Developments
+Our understanding of the processes behind climate change, and how climate change aﬀects
+the economy and society, is rapidly evolving. This subsection discusses a number of impor-
+tant extensions and model developments.
+Parameter updates
+Nordhaus’s DICE and RICE models have been easily adapted to the
+steady ﬂow of new knowledge from the natural-science and economics communities. These
+models are open-source and available in transparent and user-friendly spreadsheet versions.
+It is straightforward for users to change model parameters, e.g., those in the damage function.
+Nordhaus himself has continuously updated his models and documented their evolution.
+A very recent example is Nordhaus (2018), where several new features appear, including
+an explicit representation of sea-level rise – a consequence of the melting of ice sheets and
+thermal expansion – and its economic costs. Another important example is the re-calibration
+of the carbon-circulation parameters, adapted to a weaker ability of the oceans to absorb
+atmospheric carbon. Damage estimates, as discussed more below, have also been updated.
+Together, these updates have substantially raised the estimated SCC and, thus, the
+optimal carbon tax. Over 25 years of revisions, the SCC in Nordhaus’s models has increased
+from USD 5 to USD 31 per ton of CO2. Nordhaus notes: “While this large a change is
+unsettling, it must be recognized that there is a large estimated error in the SCC. The
+estimated (5%, 95%) uncertainty band for the SCC in the 2016R model is (USD6-USD93)
+per ton of CO2.
+This wide band reﬂects the compounding uncertainties of temperature
+sensitivity, output growth, damage function, and other factors” (Nordhaus, 2017).
+We now discuss the developments underlying the parameter updates in more detail.
+40It should be noted that these numbers represent the global damages associated with marginal emissions.
+EPA also provided estimates where only damages in the U.S. are included. These are an order of magnitude
+smaller, pointing to the large coordination problem involved in implementing globally appropriate policies.
+39
+
+
+[PDF page 42]
+Damage estimates
+The bottom-up approach underlying the damage functions in Nord-
+haus’s IAMs has been complemented by other approaches pursued by economists. An alter-
+native and complementary way of estimating the aggregate eﬀects of climate on economic
+activity is to use reduced-form relations in data on economic outcomes and temperature.
+Here, both time variation and regional variation have been used to infer the eﬀects of cli-
+mate change. Regarding the former, Dell et al. (2014) summarizes a literature that studies
+how natural variation in temperature and climate characteristics aﬀect economic outcomes.
+They conclude that, in poor countries, losses for output, labor productivity, and economic
+growth may be on the order of 1–2% per degree Celsius. These eﬀects are identiﬁed using
+temporary changes in temperature and are arguably well identiﬁed short-run causal eﬀects.
+However, the authors caution against inferring permanent eﬀects from these estimates.
+There is also a systematic relation between geographic variation in temperature and
+economic output. Nordhaus (2006) uses output data for 25,000 1-by-1 degree terrestrial
+grid cells to show a hump-shaped pattern between temperature and output. The peak of
+the hump, with the highest average output per square kilometer, is found at approximately
+12◦C.41 Under the assumption that the cross-sectional relation between temperature and
+output is invariant, we can use it to infer the eﬀects of climate change on global GDP.
+The estimates in Nordhaus (2006) indicate losses on the order of a few percent of global
+GDP if global-mean temperature increases by 3◦C. While these estimates rely on strong
+assumptions, they do not suﬀer from being identiﬁed from short-run variations and are
+therefore complementary to time-series approaches.
+The measurement of damages also involves taking into account the costs and beneﬁts of
+various ways of adapting to climate change. In some cases, it is straightforward to calculate
+the costs of adaptation. For example, the cost of increased reliance on air conditioning can
+be calculated with reasonable accuracy. However, it is much more diﬃcult to assess other
+forms of adaptation, such as migration. Since climate change aﬀects diﬀerent regions very
+diﬀerently, it will likely create large migration pressures. Migration has been a powerful
+adaptation mechanism helping humanity deal with historical climate changes and it has the
+potential to help in the future as well. At the same time, migration can lead to conﬂicts
+within and between countries, and such costs are very diﬃcult to pin down.42
+Thresholds and tipping points
+The damage function (15) as well as the climate (13) and
+the carbon-cycle modules (14) are smooth functions of their driving variables. The damage
+function (15) features limited convexity, implying that the SCC is not very sensitive to the
+amount of emissions. Clearly, these assumptions may prove inaccurate. For example, the
+damage function may become much more convex outside the range where it can be calibrated
+to historical data. Recent versions of RICE and DICE have included this possibility, by
+allowing highly convex damages when global-mean temperature reaches some critical level.
+The climate and the carbon-cycle may include thresholds beyond which climate dynamics
+41However, the (average) relation between output per person and temperature is monotone and negative.
+42For studies of climate-related migration, see, e.g., Desmet and Rossi-Hansberg (2015), Feng, Krueger,
+and Oppenheimer (2010), and Harari and la Ferrara (2018).
+40
+
+
+[PDF page 43]
+change abruptly. For example, climate sensitivity can rise sharply due to stronger feedback
+eﬀects in the climate system when a global temperature threshold is passed. An altered
+climate can change the dynamics of the carbon cycle by making reservoirs release, rather
+than absorb, atmospheric carbon beyond a certain point. As nonlinearities of these kinds
+can be many and interact with each other, the overall dynamics of the earth system becomes
+very hard to forecast.43 In a series of articles, Weitzman argues (Weitzman, 2009, 2014,
+and Wagner and Weitzman, 2015) that low-probability catastrophic events should be the
+main policy concern and motivate a substantially stricter climate policy than the most
+likely events.
+Climate policy becomes an insurance policy that reduces the risk of low-
+probability catastrophic events for an acceptably low insurance premium. How nonlinearities
+in biophysical, as well as economic, systems may interact to generate thresholds and multiple
+steady states is also the focus of an expanding literature on the resilience of our global system
+(e.g., Folke, 2006, and Steﬀen et al., 2015). Alley et al. (2003) provide an early account of
+policy implications once we allow for the possibility of abrupt climate change.
+A fundamental problem in this context is that the diﬃculty of judging the likelihood of
+such low-probability contingencies. It is nevertheless informative to use an IAM to assess
+the consequences of these contingencies, were they to occur. To this end, Nordhaus (2013)
+considers two extreme parameter values, one in the natural-science domain and one in the
+economic domain. Speciﬁcally, he considers a climate sensitivity of 10, and a damage thresh-
+old of 3◦C above which the temperature coeﬃcient in the damage function increases from
+2 to 6. These values, in combination, increase the optimal carbon tax by a factor of eight.
+In the absence of policy, moreover, the outcome is catastrophic: the social cost of carbon in
+a business-as-usual scenario increases by a factor of over 100 and the economy “collapses”,
+with ﬂow damages rising to 96% of global GDP.
+Even though science has not yet ﬁrmly concluded how much global temperatures can rise
+before triggering important tipping points, it is important to include such features in models
+that attempt to quantify the social cost of carbon and optimal policy. The DICE/RICE
+framework has proven capable of including abrupt changes in, e.g., the carbon-cycle and the
+climate modules, even if sometimes a more sophisticated solution mechanism must be used.
+Lemoine and Traeger (2016) extend a version of DICE by allowing tipping points in all three
+sub-modules of the model. Their conclusion is that these tipping points double the social
+cost of carbon. Lontzek, Cai, Judd, and Lenton (2016) add a number of tipping events to
+DICE, including an irreversible melt of the Greenland Ice Sheet, a dieback of the Amazon
+rainforest, and a larger amplitude of the El Ni˜no Southern Oscillation. These tipping events
+are stochastic, and their probability is assumed to increase in global-mean temperature.
+Furthermore, the impact is allowed to accumulate slowly, but irreversibly. The inclusion of
+these events raises the SCC by around 50%.44
+43See Lenton et al. (2008) for an overview.
+44There is now a fairly large literature considering thresholds and tipping points in IAM’s. Examples
+include Gjerde, Grepperud, and Kverndokk (1999), Castelnuovo, Moretto, and Vergalli (2003), and van der
+Ploeg and de Zeeuw (2015).
+41
+
+
+[PDF page 44]
+Discounting
+The Stern Review (2007) was commissioned by U.K. ﬁnance minister Gordon
+Brown to provide guidelines in climate policy. The review had enormous impact in policy
+circles and one of its key inputs was Nordhaus’s work, though the review also used other
+assessment models and imposed its own diﬀerent parameter choices. In particular, the Stern
+Review argues that it is inappropriate to discount the welfare of future generations and calls
+for a very low discount rate to be used when calculating the SCC. The report uses a discount
+rate for welfare of 0.1%, per year in contrast to DICE/RICE, which assumes a discount rate
+at around 1.5%.
+As pointed out above, one can use an ethical argument against (high) discount rates
+on future welfare.
+On the other hand – and more in line with Nordhaus’s approach –
+when market prices are used to infer how households themselves discount future welfare,
+one typically ﬁnds a welfare discount rate of a percent or so per year. Furthermore, market
+returns provide information on alternative ways of transferring resources to the future. If
+current generations want to engage in such transfers, one could argue that they should do so
+in the most eﬃcient way – mitigating climate change is only one possibility. Nevertheless,
+which welfare discount rates to use has always been discussed in cost-beneﬁt analyses of large
+infrastructure projects. These issues are highly salient and of large quantitative importance
+in the area of climate economics, where the time horizon is particularly long.
+Since carbon emitted into the atmosphere remains there for a very long time (a substantial
+share remains after thousands of years), current emissions can cause damages very far out in
+the future. A discount rate of 0.1% implies that the weight on welfare 500 years from now
+is 0.60. A discount rate of 1.5% per year instead implies a weight of 0.0005. Given this, it is
+not diﬃcult to understand that the lower discount rate produces a much higher social cost
+of carbon, all else equal. To illustrate this point within the IAM framework, assume that the
+damage per unit of excess carbon in the atmosphere is a constant share of GDP (which is
+approximately the case in DICE/RICE), the utility of consumption is logarithmic, and the
+saving rate is constant. Then, it is straightforward to show that the SCC is proportional to
+the carbon duration with welfare discount rate weights, deﬁned as
+D (ρ) =
+Z ∞
+0
+(1 −ds) e−ρsds,
+where 1 −ds is the share of carbon that remains in the atmosphere s periods after emission
+and ρ = 1 −β is the welfare discount rate.45 Figure 7 shows the function D (ρ) for standard
+assumptions about carbon depreciation from IPCC (2007).46
+45Generally, the social cost of carbon in period t is
+Z ∞
+0
+e−ρs uc (ct+s)
+uc (ct)
+∂Yt+s
+∂St+s
+∂Yt+s
+∂Et
+ds,
+with logarithmic utility, an (approximately) constant savings rate, and under the assumption ∂Yt+s
+∂St+s = γYt+s
+this reduces to γYtD (ρ).
+461 −d (s) = a0 + P3
+i=1
+
+aie−s
+τi
+
+, with a0 = 0.217, a1 = 0.259, a2 = 0.338, a3 = 0.186, τ1 = 172.9,
+τ2 = 18.51, and τ3 = 1.186, for s measured in years.
+42
+
+
+[PDF page 45]
+Figure 6: Proportionality factor in the formula for the optimal tax with logarithmic utility
+and constant saving.
+All else equal, the social cost of carbon is 8.2 times higher at a utility discount rate of
+0.1% rather than 1.5% per year. Thus, IAMs suggest a very high sensitivity of the SCC
+to the discount rate. This is an important result. The “all else equal” is an important
+qualiﬁcation, however. If we still require that the model generate realistic capital returns,
+a reduction of the welfare discount rate requires a reduction in the intertemporal elasticity
+of substitution. Then, the eﬀect of reducing the welfare discount rate on the optimal tax is
+largely muted (Nordhaus, 2014).
+Another possibility is that – on normative grounds – we genuinely believe that people
+on average put too little weight on the future and therefore save (and invest) too little.
+Then, the optimal path of carbon taxes calculated at a low discount rate will have to be
+accompanied by a (global) subsidy to savings in order to implement the equilibrium solution
+associated with these taxes.
+Technology
+Technological change is of ﬁrst-order importance for the economy’s reaction to
+climate change and for the policy instruments used to deal with it. The original RICE/DICE
+models are built on the Solow exogenous growth model, but later developments have followed
+the spirit of Romer and endogenized technological improvements. A prominent example is
+the WITCH-model (World Induced Technical Change Hybrid Model, Bosetti et al., 2006).
+This starts out from the basic structure of RICE, but adds a more detailed description of the
+energy sector and the possibility of carbon sequestration. Technological change that reduces
+the cost of supplying energy, both fossil and green, is modelled according to two endogenous
+processes. One process is learning-by-doing, where the production cost depends on the global
+43
+
+
+[PDF page 46]
+installed capacity. As in Romer (1986), this creates an externality and too slow adoption
+of new technologies in an unregulated economy. The other process is purposeful R&D as in
+Romer (1990) directed into energy eﬃciency and the production of biofuel, which also creates
+a spillover: ideas created by R&D in one region, can be used in other regions albeit with
+a lag. Other examples of models building on RICE/DICE with endogenous technological
+change are those based on directed technical change, and mentioned already in Section 3.4.
+Political economy
+The standard IAM considers policy as an exogenous choice: it has
+no “political-economy” elements. Yet, implementation constraints can be crucial for such
+policies. One reason is that the policy scope is global and thus involves many regions and
+countries.
+Related to this global compensation schemes may be necessary to implement
+optimal carbon pricing. Yet another reason is that the very long policy horizon may collide
+with short-run political horizons.
+IAMs can still be useful for positive analyses of policy. For example, Nordhaus and Yang
+(1996) use the DICE model to compare the optimal fossil carbon tax to the tax that would
+result in a Nash equilibrium without international cooperation. Their results suggest that
+global cooperation is of key importance. Without cooperation, equilibrium policy would
+entail an average tax rate, which is only 1/25th of the global optimal tax. The political-
+economy literature on climate change is an active and important new research area. For an
+early survey, see Kolstad and Toman (2005), and for a recent contribution to the theoretical
+literature on climate agreements, see Battaglini and Harstad (2016).
+44
+
+
+[PDF page 47]
+5
+Concluding Remarks
+Paul M. Romer and William D. Nordhaus have devised new tools for analyzing long-run
+development. From a long-run global perspective, technological change and climate change
+are key aspects of sustained and sustainable long-run economic growth. The two scholars
+have been highly inﬂuential within a broad research community. Both of them have taken
+the same starting point, namely the neoclassical growth model, and amended it with key
+drivers of long-run economic activity – technological developments and climate – that had
+been highlighted by economic historians, but treated as exogenous by most economists. Both
+of them have emphasized externalities in their analysis of desirable long-run outcomes, thus
+pointing to a potentially important role for economic policy and oﬀering new guidance for
+its design.
+Looking forward, the combined work by the Laureates oﬀers the research community
+an opportunity to address long-run issues around climate, energy supply and sustainability,
+by studying government policy together with endogenous technological change in the global
+market economy.
+The Royal Swedish Academy of Sciences has decided to award the Sveriges Riksbank
+Prize in Economic Sciences for 2018 to be shared equallly between William D. Nordhaus,
+Yale University,
+for integrating climate change into long-run macroeconomic analysis
+and Paul M. Romer, New York University,
+for integrating technological innovations into long-run macroeconomic analysis.
+6
+References
+Acemoglu, D. (1998), “Why Do New Technologies Complement Skills? Directed Techni-
+cal Change and Wage Inequality”, Quarterly Journal of Economics, 113(4), 1055–1089.
+Acemoglu, D. (2002), “Directed Technical Change”, Review of Economic Studies, 69(4),
+781–809.
+Acemoglu, D., J.A. Robinson, and T. Verdier, (2017), “Asymmetric Growth and Institu-
+tions in an Interdependent World”, Journal of Political Economy, 125(5), 1245–1305.
+Acemoglu, D., P. Aghion, L. Bursztyn, and D. Hemous (2012), “The Environment and
+Directed Technical Change”, American Economic Review, 102(1), 131-166.
+Aghion, P., U. Akcigit, A. Bergeaud, R. Blundell, and D. Hemous (2018), “Innovation
+and Top-Income Inequality”, forthcoming in Review of Economic Studies.
+Aghion, P., M. Dewatripont, and J. Stein (2008), “Academic Freedom, Private-Sector
+Focus, and the Process of Innovation”, Rand Journal of Economics, 39(3), 617–635.
+Aghion, P. and P. Howitt (1992), “A Model of Growth Through Creative Destruction”,
+Econometrica, 60(2), 323–351.
+Aghion, P. and P. Howitt (1998), Endogenous Growth Theory, Cambridge, MA: MIT
+Press.
+45
+
+
+[PDF page 48]
+Akcigit, U., M.A. Celik, and J. Greenwood (2016), “Buy, Keep or Sell: Economic Growth
+and the Market for Ideas”, Econometrica, 84(3), 943-984.
+Alley, R.B., J. Marotzke, W.D. Nordhaus, J.T. Overpeck, D.M. Peteet, R.A. Pielke
+Jr., R.T. Pierrehumbert, P.B. Rhines, T.F. Stocker, L.D. Talley, and J.M. Wallace (2003),
+“Abrupt Climate Change”, Science, 299(5615), 2005-2010.
+Arrhenius, S. (1896), “On the Inﬂuence of Carbonic Acid in the Air upon the Temperature
+of the Ground”, London, Edinburgh, and Dublin Philosophical Magazine and Journal of
+Science, 41, 237-275
+Barro, R. (1990), “Government Spending in a Simple Model of Endogenous Growth”,
+Journal of Political Economy, 98(5), 103–125.
+Barro, R. (2015), “Convergence and Modernisation”, Economic Journal, 125(585), 911–
+942.
+Battaglini, M. and B. Harstad (2016), “Participation and Duration of Environmental
+Agreements,” Journal of Political Economy, 124(1), 160-204.
+Bloom, N., C. I., Jones, J. Van Reenen, and M. Webb (2017), “Are Ideas Getting Harder
+to Find?”, NBER Working Paper 23782.
+Bosetti V., C. Carraro, M. Galeotti, E. Massetti, and M. Tavoniet (2006), “WITCH A
+World Induced Technical Change Hybrid Model”, The Energy Journal, 27(1), 13-37.
+Cass, D. (1965), “Optimum Growth in an Aggregative Model of Capital Accumulation”,
+Review of Economic Studies, 32(3), 233-240.
+Castelnuovo, E., M. Moretto, and S. Vergalli (2003), “Global Warming, Uncertainty and
+Endogenous Technical Change”, Environ. Model. Assess, 8(4), 291-301.
+Dasgupta, P. and G. Heal (1974), “The Optimal Depletion of Exhaustible Resources”,
+Review of Economic Studies, 41(5), 3-28.
+Dell, M., B. Jones, and B. Olken (2014), “What Do We Learn from the Weather? The
+New Climate–Economy Literature”, Journal of Economic Literature, 52(3), 740-798.
+Desmet, K. and E. Rossi-Hansberg (2015), “On the Spatial Economic Impact of Global
+Warming”, Journal of Urban Economics, 88, 16-37.
+Dixit, A.K. and J.E. Stiglitz (1977), “Monopolistic Competition and Optimum Product
+Diversity”, American Economic Review, 67(3), 297-308.
+EPA (2016), EPA homepage January, 2017,
+https://19january2017snapshot.epa.gov/climatechange/social-cost-carbon .html
+Feng, S., A. Krueger, and M. Oppenheimer (2010), “Linkages among Climate Change,
+Crop Yields and Mexico-US Cross-border Migration”, Proceedings from the National Academy
+of Sciences, 107(32), 14257-14262.
+Folke, C. (2006), “Resilience: The Emergence of a Perspective for Social-Ecological Sys-
+tems Analyses”, Global Environmental Change, 16(3), 253-267.
+Garcia-Macia, D., C-T. Hsieh, and P.J. Klenow (2016), “How Destructive is Innovation?”
+NBER Working Paper 22953.
+Gillingham, K., W.D. Nordhaus, D. Anthoﬀ, V. Bosetti, H. McJeon, G. Blanford, P.
+Christensen, J. Reilly, and P. Sztorc (2018), “Modeling Uncertainty in Integrated Assess-
+ment of Climate Change: A Multimodel Comparison”, Journal of the Association of Envi-
+46
+
+
+[PDF page 49]
+ronmental and Resource Economists 5(4), 791-826.
+Gjerde, J., S. Grepperud, and S. Kverndokk (1999), “Optimal Climate Policy under the
+Possibility of a Catastrophe”, Resour. Energy Econ. 21, 289-317.
+Golosov, M., J. Hassler, P. Krusell, and A. Tsyvinski (2014), “Optimal Taxes on Fossil
+Fuel in General Equilibrium”, Econometrica, 82(1), 41-88.
+Grossman, G.M. and E. Helpman (1991a), “Quality Ladders in the Theory of Growth”,
+Review of Economic Studies, 58(1), 43-61.
+Grossman, G.M. and E. Helpman (1991b), Innovation and Growth in the Global Economy,
+Cambridge, MA: MIT Press.
+Harari, M. and E. La Ferrara (2018), “Conﬂict, Climate, and Cells: A Disaggregated
+Analysis” Review of Economics and Statistics, forthcoming.
+Hotelling, H. (1931), “The Economics of Exhaustible Resources”, Journal of Political
+Economy, 39(2), 137-175.
+IPCC (1996), Intergovernmental Panel on Climate Change, The Science of Climate
+Change. The Contribution of Working Group I to the Second Assessment eport of the Inter-
+governmental Panel on Climate Change, J.P. Houghton, L.G. Meira Filho, B.A. Callendar,
+A. Kattenberg, and K. Maskell, (eds.), Cambridge, UK: Cambridge University Press.
+Jones, C.I. (1995a), “R&D-based Models of Economic Growth”, Journal of Political
+Economy, 103(4), 759-784.
+Jones, C.I. (1995b), “Time Series Tests of Endogenous Growth Models”,
+Quarterly
+Journal of Economics, 110(2), 495-525.
+Jones, C.I. (1997), “Population and Ideas: A Theory of Endogenous Growth”, NBER
+Working Paper 6285.
+Jones, C.I. (1998), Introduction to Economic Growth, New York, NY: Norton.
+Jones, C.I. (1999), “Growth: With or Without Scale Eﬀects?”, American Economic
+Review Papers and Proceedings, 89(2), 139–144.
+Kaldor, N. (1957), “A Model of Economic Growth”, Economic Journal, 67(268), 591-624.
+Kolstad, C. and M. Toman (2005), “The Economics of Climate Policy”, in M¨aler K-G. and
+J.R. Vincent (eds.) Handbook of Environmental Economics vol. 3, 1562-1593, Amsterdam:
+Elsevier.
+Koopmans, T. (1965), “On the Concept of Optimal Economic Growth”, in The Economic
+Approach to Development Planning, 225-287, Chicago, IL: Rand McNally.
+Kortum, S. (1997), “Research, Patenting, and Technological Change,” Econometrica,
+65(6), 1389-1420.
+Kremer, M. (1993), “Population Growth and Technological Change: One Million B.C.
+to 1990”, Quarterly Journal of Economics, 108(3), 681–716.
+Lemoine, D. and C.P. Traeger (2016), “Ecomnomics of Tipping the Climate Dominoes”,
+Nature Climate Change, 6(5), 514-519.
+Lenton, T. M., H. Held, E. Kriegler, J. Hall, W. Lucht, S. Rahmstorf, and H.J. Schnellnhu-
+ber (2008), “Tipping Elements in the Earth’s Climate System”, Proceedings of the National
+Academy of Sciences, 105(6), 1786-1793.
+Lucas, R. (1988), “On the Mechanics of Economic Development”, Journal of Monetary
+47
+
+
+[PDF page 50]
+Economics, 22(1), 3-42.
+Lontzek, T., Y. Cai, K.L. Judd, and T.M. Lenton (2015), “Stochastic Integrated As-
+sessment of Climate Tipping Points Indicates the Need for Strict Climate Policy”, Nature
+Climate Change 5, 441-444.
+Mankiw, N.G., D. Romer, and D.N. Weil (1992), “A Contribution to the Empirics of
+Economic Growth”, Quarterly Journal of Economics, 107(2), 407-437.
+Manne, A., R. Mendelsohn, and R. Richels (1995), “MERGE: A Model for Evaluating
+Regional and Global Eﬀects of GHG Reduction Policies”, Energy Policy, 23(1), 17-34.
+Mendelsohn, R, W.D. Nordhaus, and D. Shaw (1994), “The Impact of Global Warming
+on Agriculture: A Ricardian Analysis”, American Economic Review, 84(4), 753-771.
+Nordhaus, W.D. (1974), “Resources as a Constraint on Growth”, American Economic
+Review, 64(2), 22-26.
+Nordhaus, W.D. (1975), “Can We Control Carbon Dioxide?” IIASA Working Paper,
+75-63, Vienna, Austria.
+Nordhaus, W.D. (1977), “Economic Growth and Climate: The Case of Carbon Dioxide”,
+American Economic Review, 67(1), 341–346.
+Nordhaus, W.D. (1994a), Managing the Global Commons: The Economics of Climate
+Change, Cambridge, MA: MIT Press.
+Nordhaus, W.D. (1994b), “Expert Opinion on Climate Change”, American Scientist 82,
+920-937.
+Nordhaus, W. D. (2013), “Integrated Economic and Climate Modeling”, Chap 16, Hand-
+book of CGE Modeling - Vol. 1, Amsterdam: Elsevier.
+Nordhaus, W.D. (2014), “Estimates of the Social Cost of Carbon: Concepts and Results
+from the DICE-2013R Model and Alternative Approaches”, Journal of the Association of
+Environmental and Resource Economists, 1, 273-312.
+Nordhaus, W.D. (2017), “Projections and Uncertainties about Climate Change in an Era
+of Minimal Climate Policies”, NBER Working Paper 22933.
+Nordhaus, W D. (2018), “Evolution of Modeling of the Economics of Global Warming:
+Changes in the DICE model, 1992-2017”, NBER Working Paper 23319.
+Nordhaus W.D. and J. Boyer (2000), Warming the World: Economic Models of Global
+Warming, Cambridge, MA: MIT Press.
+Nordhaus, W.D. and Z. Yang (1996), “A Regional Dynamic General-Equilibrium Model
+of Alternative Climate-Change Strategies”, American Economic Review, 86(4), 741-765.
+North, D. (1981), Structure and Change in Economic History, Cambridge, UK: Cam-
+bridge University Press.
+Parente, S. and E.C. Prescott (1994), “Barriers to Technology Adoption and Develop-
+ment”, Journal of Political Economy, 102(2), 298-321.
+Peck, S.C. and T.J. Teisberg (1992), “CETA: A Model for Carbon Emissions Trajectory
+Assessment”, The Energy Journal, 13(1), 55-177.
+Pigou, A.C. (1920), The Economics of Welfare, London, UK: MacMillan and Co.
+Ramsey, A.S. (1928), “A Mathematical Theory of Saving”, Economic Journal, 38(152),
+543-559.
+48
+
+
+[PDF page 51]
+Rebelo, S. (1991), “Long-Run Policy Analysis and Long-Run Growth”, Journal of Polit-
+ical Economy, 99(3), 500-521.
+Rivera-Batiz, L.A. and P.M. Romer (1991), “Economic Integration and Endogenous
+Growth”, Quarterly Journal of Economics, 106(2), 531-555.
+Romer, P.M. (1986), “Increasing Returns and Long-Run Growth”, Journal of Political
+Economy, 94(5), 1002-1037.
+Romer, P.M. (1987a), “Growth Based on Increasing Returns Due to Specialization”,
+American Economic Review, Papers and Proceedings, 77(2), 56-62.
+Romer, P.M. (1987b), “Crazy Explanations for the Productivity Slowdown”, in Fischer,
+S. (ed.) NBER Macroeconomics Annual, 2, 163-210.
+Romer, P.M. (1990), “Endogenous Technological Change”, Journal of Political Economy,
+98(5), S71-S102.
+Romer, P.M. (1993), “Two Strategies for Economic Development: Using Ideas and Pro-
+ducing Ideas,” in Proceedings of the World Bank Annual Conference of Development Eco-
+nomics 1992, Washington, DC: World Bank.
+Royal Swedish Academy of Sciences (2004), “Advanced Information on the Bank of Swe-
+den Prize in Economic Sciences in Memory of Alfred Nobel: Finn Kydland and Edward
+Prescott’s Contribution to Dynamic Macroeconomics: The Time Consistency of Economic
+Policy and the Driving Forces Behind Business Cycles”.
+Schumpeter, J.A. (1942), Capitalism, Socialism and Democracy, New York, London:
+Harper & Brothers.
+Segerstr¨om, P., T.C.A. Anant, and E. Dinopoulos (1990), “A Schumpeterian Model of
+the Product Life Cycle”, American Economic Review, 80(5), 1077-1091.
+Shell, K. (1967), “A Model of Inventive Activity and Capital Accumulation”, in Shell K.
+(ed.), Essays on the Theory of Optimal Economic Growth, Cambridge, MA: MIT Press.
+Solow, R.M. (1956), “A Contribution to the Theory of Economic Growth,” Quarterly
+Journal of Economics, 70(1), 65-94.
+Steﬀen, W, K. Richardson, J. Rockstr¨om, S.E. Cornell, I. Fetzer, E. M. Bennett, R. Biggs,
+S.R. Carpenter, W. de Vries, C.A. de Wit, C. Folke, D. Gerten, J. Heinke, G.M. Mace, L.M.
+Persson, V. Ramanathan, B. Reyers, and S. S¨orlin (2015), “Planetary Boundaries: Guiding
+Human Development on a Changing Planet,” Science, 347(6223).
+Stern, N. (2007), The Economics of Climate Change: The Stern Review, London, UK:
+Cambridge University Press.
+Stokey, N.L. and S. Rebelo (1995), “Growth Eﬀects of Flat-Rate Taxes”, Journal of
+Political Economy, 103(3), 519-550.
+Summers, R. and A. Heston (1984), “Improved International Comparisons of Real Prod-
+uct and its Composition: 1950–1980”, Review of Income and Wealth. June, 207-262.
+Swan, T. (1956), “Economic Growth and Capital Accumulation”, Economic Record,
+32(2), 334-361.
+van der Ploeg, F. and A.J. de Zeeuw (2015), “Climate Tipping and Economic Growth:
+Precautionary Saving and the Social Cost of Carbon”, OxCarre Research Paper 118.
+Wagner G. and M. Weitzman (2015), Climate Shock, Princeton, NJ: Princeton University
+49
+
+
+[PDF page 52]
+Press.
+Weitzman, M. (1974), “Prices vs. Quantities”, Review of Economic Studies, 41(4), 477-
+491.
+Weitzman, M. (2009), “On Modeling and Interpreting the Economics of Catastrophic
+Climate Change”, Review of Economics and Statistics, 91(1), 1-19.
+Weitzman, M. (2014), “Fat Tails and the Social Cost of Carbon”, American Economic
+Review, Papers and Proceedings, 104(5), 544-546.
+Weyant, J. (2017), “Some Contributions of Integrated Assessment Models of Global Cli-
+mate Change”, Review of Environmental Economics and Policy, 11(1), 115-13.
+World Bank (2018), “State and Trends of Carbon Pricing 2018”, Washington, DC: World
+Bank Group.
+50

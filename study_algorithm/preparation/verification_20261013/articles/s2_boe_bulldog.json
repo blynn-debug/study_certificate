@@ -1,0 +1,32 @@
+{
+  "source_id": "s2_boe_bulldog",
+  "source_metadata": {
+    "id": "s2_boe_bulldog",
+    "requested_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1988/recent-developments-in-the-corporate-and-bulldog-sectors-of-the-sterling-bond-market.pdf",
+    "retrieved_url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/1988/recent-developments-in-the-corporate-and-bulldog-sectors-of-the-sterling-bond-market.pdf",
+    "retrieved_at": "2026-10-13T16:50:21.146512+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "19cc0ec5bfe1c2df8d77f78df65b5343a77f6d949719b226284d7812a6d22ffe",
+    "binary_sha256": "19cc0ec5bfe1c2df8d77f78df65b5343a77f6d949719b226284d7812a6d22ffe",
+    "text_sha256": "6bbb8213719ef1e1c7ee60fce3d4d5947b4d0b182d104ece9a3d1b736ff4c359",
+    "pages": 7,
+    "characters": 33725,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "s2_boe_bulldog:Definition",
+      "source_id": "s2_boe_bulldog",
+      "article": "Definition",
+      "heading": "Definition",
+      "text": "The period since 1980 \nhas, however, seen both a sustained revival of issues of \nfixed-rate sterling bonds by British companies and a \nreopening of the long-closed bulldog sector of the market, \nwhich comprises sterling bond issues by overseas \nborrowers.",
+      "start": 1307,
+      "end": 1563,
+      "sha256": "3efb351ee2f11ab01e7f30c3118bd39cf11d195f06f4647db986c37f547bd36d"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

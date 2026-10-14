@@ -1,0 +1,12 @@
+{
+  "id": "fb_krx_bond_market",
+  "requested_url": "https://open.krx.co.kr/contents/OPN/01/01020000/OPN01020000.jsp",
+  "retrieved_url": "https://open.krx.co.kr/contents/OPN/01/01020000/OPN01020000.jsp",
+  "retrieved_at": "2026-10-14T00:07:04.542371+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10692,
+  "content_sha256": "e43e583a26290cab8de370094a262cd3ee7dadad839ff386544c6d2caf71b4e1",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

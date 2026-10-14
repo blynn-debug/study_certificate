@@ -1,0 +1,2192 @@
+Median interest rate 
+sensitivity rose from 132 
+basis points in the first 
+quarter to 167 basis points 
+in the second quarter of 
+2004. The rise in sensitiv-
+ity for the thrift industry 
+was due to the increase in 
+interest rates in the second 
+quarter.   
+Both the median  pre–
+shock Net Portfolio Value 
+(NPV) ratio and the median 
+post-shock NPV ratios also 
+rose in the second quarter. 
+The number of thrifts with 
+post-shock NPV ratios be-
+low 4 percent fell to three 
+institutions, down from six 
+in the previous quarter.                               
+Interest Rate Sensitivity Rises in Second Quarter 
+Prepayment Risk and Collateralized Mortgage Obligations 
+     In the previous issue of 
+this publication, we dis-
+cussed the basics of asset 
+securitization. Asset securi-
+tization refers to the proc-
+ess where interests in the 
+cash flows associated with 
+loans and other receivables 
+are pooled, packaged, un-
+derwritten, and sold to in-
+vestors in the form of secu-
+rities. The cash flows asso-
+ciated with these loans and 
+other receivables serve as 
+the collateral for the issued 
+securities.  
+     The past three decades 
+have witnessed tremendous 
+growth in asset securitiza-
+tions in the United States, 
+starting with the first secu-
+ritizations of mortgage pools 
+back in the 1970s that were 
+undertaken to increase li-
+quidity in the residential 
+mortgage market.   
+     Securitized assets take 
+many forms in today’s fi-
+nancial markets and in-
+clude securities backed by 
+residential mortgages, com-
+mercial mortgages, home 
+equity loans, automobile 
+loans, and credit card re-
+ceivables. By far the most 
+popular form that asset se-
+curitizations take are the 
+agency residential mortgage 
+pass-through securities is-
+sued by Ginnie Mae, a U.S. 
+government agency, and 
+Fannie Mae and Freddie 
+Mac, two government-
+sponsored enterprises.  
+     For these pass-through 
+securities, pools of conven-
+tional residential mortgages 
+serve as the collateral. As 
+an illustration of the huge 
+popularity of these mort-
+gage-backed securities, in 
+1998, over 47 percent of 
+residential mortgages were 
+securitized, compared with 
+less than 15 percent in 
+1980.  
+     With mortgage pass-
+through securities, the 
+scheduled principal repay-
+ments and interest pay-
+ments, as well as any pre-
+payments, are passed 
+through to the investors on 
+a pro rata basis net of a 
+servicing spread and a 
+guarantor fee. Payments are 
+made to investors monthly.  
+     Mortgage pass-through 
+securities are attractive to 
+those investors who are 
+willing to hold securities 
+(Continued on page 2) 
+Office of Examinations, Supervision, and Consumer Protection 
+Economic Analysis Division 
+Volume 9, Issue 2 
+ 
+Second Quarter, 2004 
+The Quarterly Review 
+Of Interest Rate Risk 
+Special points of interest: 
+•
+30-yr mortgage rate rises 
+•
+Yield curve shifts upward in the second 
+quarter 
+•
+Second quarter median interest rate 
+sensitivity  rises 
+•
+Asset duration increases  
+•
+Comparative Regional Analysis  
+•
+Feature Article on Prepayment Risk and 
+Collateralized Mortgage Obligations  
+Charts in this issue: 
+Yield Curves 
+5 
+Mortgage Rates 
+5 
+Portfolio Mix 
+5 
+IRR & NPV Measures 
+6 
+TB13a S-Rating Matrix 
+7 
+Comparative  Trends in the Four 
+OTS Regions 
+8 
+Aggregate and Regional  Appendi-
+ces 
+9-13 
+(Continued on page 4) 
+Interest Rate Sensitivity Measure
+0
+50
+100
+150
+200
+250
+300
+350
+400
+Jun-02 Sep-02 Dec-02 Mar-03
+Jun-03 Sep-03 Dec-03 Mar-04
+Jun-04
+Basis Points
+90th Percentile
+Median
+10th Percentile
+
+(Continued from page 1) 
+with long and uncertain 
+investment horizons in 
+exchange for the high 
+yields and good credit 
+quality these securities 
+offer. In addition, mort-
+gage pass-through securi-
+ties are a much more 
+transactionally efficient 
+way to invest in mort-
+gages compared to invest-
+ing in individual mortgage 
+loans.    
+     The uncertain invest-
+ment horizon associated 
+with mortgage pass-
+through securities is the 
+direct result of the uncer-
+tainty surrounding the 
+prepayment behavior of 
+mortgagors. This uncer-
+tainty is known as pre-
+payment risk and arises 
+largely because interest 
+rate changes produce 
+changes in the rate at 
+which residential mort-
+gages are refinanced. 
+When interest rates fall, 
+prepayment speeds in-
+crease, whereas prepay-
+ment speeds decrease 
+when interest rates rise.  
+     Prepayment behavior 
+affects the expected aver-
+age life of mortgage pass-
+through securities and 
+their price performance 
+and duration. From the 
+point of view of a financial 
+institution, such as a sav-
+ings institution, it is im-
+portant to be able to ac-
+curately forecast the du-
+ration of its mortgage-
+related assets in order to 
+effectively manage inter-
+est rate risk by controlling 
+the duration gap between 
+assets and liabilities.  
+     In order to accommo-
+date the demands of in-
+vestors for mortgage-
+related products that offer 
+a better estimate of the 
+duration associated with 
+mortgage pass-through 
+securities, so-called de-
+rivative mortgage securi-
+ties were developed. These 
+securities allow for the 
+redistribution of the total 
+prepayment risk associ-
+ated with mortgages 
+among different classes of 
+bondholders, and they 
+can be issued against ei-
+ther whole mortgage loan 
+pools or mortgage pass-
+through securities.  
+     Derivative mortgage 
+securities–such as collat-
+eralized mortgage obliga-
+tions (CMOs) and stripped 
+mortgage-backed securi-
+ties, including interest-
+only securities (IOs) and 
+principal-only securities 
+(POs)–have emerged as 
+attractive alternative 
+mortgage-related invest-
+ments for institutional 
+investors such as banks,  
+life insurance companies, 
+and pension funds. With 
+these securities, investors 
+are better able to control 
+their prepayment risk ex-
+posure. 
+     In this issue, we dis-
+cuss the structure of col-
+lateralized mortgage obli-
+gations in detail and show 
+how this type of derivative 
+mortgage security can be 
+used to better manage in-
+terest rate risk. This is 
+possible because CMOs 
+provide investors with the 
+ability to more effectively 
+control their exposure to 
+prepayment risk.  
+     More specifically, 
+CMOs are better vehicles 
+for achieving asset-
+liability management 
+objectives than mortgage 
+pass-through securities 
+because investors can 
+choose the desired type 
+and amount of 
+prepayment risk. As a 
+result, there is less 
+uncertainty about the 
+duration or expected 
+average life of mortgage-
+related investments.  
+ 
+ 
+Prepayment Risk, Con-
+traction Risk, and Ex-
+tension Risk        
+ 
+     Prepayment risk arises 
+because mortgagors have 
+a call option on the mort-
+gage loans they take out 
+from banking institutions. 
+They will choose to exer-
+cise this option and pre-
+pay their mortgages as 
+interest rates fall suffi-
+ciently below the contract 
+mortgage coupon rates.  
+     As such, prepayments 
+are the most important 
+determinant of the dura-
+tions of these securities, 
+and of their price per-
+formance. This means 
+that investors must be 
+able to accurately predict 
+prepayments in order to 
+effectively manage their 
+interest rate risk exposure 
+in these financial prod-
+ucts. Unfortunately, it is 
+very difficult to model the 
+prepayment behavior of 
+mortgagors and to gener-
+ate accurate forecasts of 
+prepayment speeds. 
+     Several basic factors 
+affect mortgage prepay-
+ments. These factors are 
+the spread between the 
+prevailing market mort-
+gage rate and the contract 
+mortgage coupon rate; the 
+time path taken by the 
+market mortgage rate to 
+reach its current level; 
+characteristics of the un-
+derlying pool of mort-
+gages, such as LTV, fixed-
+rate vs. adjustable-rate, 
+FHA- and VA-insured vs. 
+conventional, and matur-
+ity; seasonal factors; and 
+general economic activity.       
+By far the most important 
+of these is the spread be-
+tween the prevailing mort-
+gage rate and the contract 
+mortgage coupon rate.      
+     The price of a residen-
+tial mortgage pass-
+through security is given 
+by the present value of 
+the expected cash flows 
+associated with the pool 
+of underlying mortgages. 
+These cash flows consist 
+of interest payments, 
+scheduled repayments of 
+principal, and any pre-
+payments. When interest 
+rates fall, prepayments 
+rise due to increased 
+mortgage refinancings, 
+and the present value of 
+expected mortgage cash 
+flows also rises.  
+     On the other hand, 
+when interest rates rise, 
+prepayments fall due to 
+decreased mortgage refi-
+nancings, and the present 
+value of expected mort-
+gage cash flows also falls.  
+     It is well known that 
+there is an inverse rela-
+tionship between the 
+prices of fixed-income fi-
+nancial instruments, 
+such mortgages and 
+mortgage pass-through 
+securities, and interest 
+rate changes. This inverse 
+relationship is known as 
+the “discount effect.” In-
+terest rate changes also 
+affect the prices of mort-
+gage-related products by 
+causing the expected pre-
+payments of principal to 
+either speedup or slow-
+down. This is known as 
+the “prepayment effect.”  
+     For example, as inter-
+est rates fall below mort-
+gage contract coupon 
+rates, borrowers prepay 
+their mortgages and refi-
+nance their mortgage debt 
+at lower rates. As a result, 
+investors in mortgage 
+pass-through securities 
+receive the entire princi-
+pal on the mortgage loans 
+(Continued on page 3) 
+Prepayment Risk and Collateralized Mortgage Obligations (continued) 
+Page 2 
+The Quarterly Review Of Interest Rate Risk 
+
+Page 3 
+(Continued from page 2) 
+ 
+early and forego the full 
+stream of interest pay-
+ments that mortgagors 
+were to make over what 
+had been the expected 
+average life of the loans.  
+This relationship, 
+whereby the rate of pre-
+payments increases as 
+rates fall (especially as 
+they fall below the con-
+tract rate), produces 
+negative convexity in the 
+price-yield curve for mort-
+gage pass-through securi-
+ties and leads to “price 
+compression.”  
+     Price compression re-
+fers to the fact that inter-
+est rate decreases do not 
+produce increases in the 
+prices of mortgage pass-
+through securities that 
+are as large as those of 
+option-free bonds. In ad-
+dition, investors in mort-
+gage pass-through securi-
+ties are forced to invest 
+the cash flows that are 
+prepaid at a lower rate of 
+interest.  
+     “Contraction risk” is 
+that part of prepayment 
+risk that derives from the 
+decrease in the duration 
+of mortgage pass-though 
+securities and the rein-
+vestment risk associated 
+with the speedup of pre-
+payments resulting from 
+a decline in interest rates 
+within the negatively con-
+vex region of the price-
+yield curve.  
+     Alternatively, when 
+interest rates rise above 
+mortgage contract coupon 
+rates, the speed of mort-
+gage prepayments by bor-
+rowers slows. This rate 
+increase produces an in-
+crease in the duration of 
+mortgage pass-through 
+securities and a steeper 
+decline in the price of 
+these securities than is 
+the case for option-free 
+bonds. This occurs be-
+cause investors in mort-
+gage pass-through securi-
+ties are not able to rein-
+vest the expected princi-
+pal cash flows at the 
+higher interest rate be-
+cause of slower actual  
+prepayments.  
+     “Extension risk” is 
+that part of prepayment 
+risk that derives from the 
+increase in the duration 
+of mortgage pass-through 
+securities and the rein-
+vestment risk associated 
+with a rise in interest 
+rates. The reinvestment 
+risk associated with inter-
+est rate increases high-
+lights the fact that pre-
+payment risk is not just 
+the risk that mortgages 
+will prepay, but rather the 
+variability, or uncertainty, 
+in the rate at which they 
+will prepay. 
+     Not all investors in 
+mortgage pass-through 
+securities have the same 
+preferences with regard to 
+contraction risk and ex-
+tension risk due to differ-
+ences in their overall bal-
+ance sheet profiles. For 
+example, thrifts typically 
+raise funds that are char-
+acterized by short dura-
+tions either through issu-
+ing short-term money 
+market debt or certifi-
+cates of deposit.  
+     Because fixed-rate 
+mortgage pass-through 
+securities have long ex-
+pected durations, a dura-
+tion mismatch between 
+assets and liabilities is 
+created when a typical 
+thrift purchases these 
+mortgage-related prod-
+ucts and puts them on its 
+books. In order to have a 
+better match between the 
+durations of assets and 
+liabilities, thrifts would 
+want to purchase mort-
+gage-related products 
+with shorter maturities.  
+     Thrifts using short-
+term funding should pre-
+fer contraction risk and 
+should generally like to 
+avoid extension risk as 
+much as possible. In con-
+trast, institutional inves-
+tors, such as life insur-
+ance companies and pen-
+sion funds, prefer exten-
+sion risk to contraction 
+risk given that their li-
+abilities have long-term 
+maturities.      
+ 
+ 
+Collateralized Mortgage 
+Obligations and Their 
+Basic Structure 
+ 
+     Collateralized mort-
+gage obligations are 
+multi-class securities that 
+were created in order to 
+accommodate the variety 
+of demands across differ-
+ent banking institutions 
+and institutional inves-
+tors for mortgage-related 
+securities that provide 
+protection from prepay-
+ment risk.  
+     These various de-
+mands are accommodated 
+through the CMO struc-
+ture by reallocating the 
+cash flows of the underly-
+ing mortgage collateral, 
+and therefore the prepay-
+ment risk, among inves-
+tors that want to reduce 
+their exposure to either 
+contraction risk or exten-
+sion risk.    
+     The first collateralized 
+mortgage obligation was 
+issued in 1983 by Freddie 
+Mac. It was a so-called 
+“plain vanilla,” or 
+“sequential-pay,” CMO 
+with three classes of 
+bonds, or “tranches.” 
+Mortgage pass-through 
+securities served as the 
+collateral for the issue. In 
+a sequential-pay CMO, 
+the principal cash flows 
+from the underlying pool 
+of whole mortgages (for 
+non-agency or private 
+CMOs), or mortgage pass-
+through securities (for 
+agency CMOs), are paid to 
+the tranches according to 
+some prioritized payment 
+scheme specified in the 
+prospectus. 
+     The sequential-pay 
+CMO has bond classes 
+with varying maturities, 
+and these classes can 
+also have coupons that 
+are not identical to that 
+on the underlying collat-
+eral. There are separate 
+rules given for the pay-
+ment of coupon interest 
+and the payment of prin-
+cipal. Principal payments 
+consist of both scheduled 
+principal payment and 
+any prepayments. 
+     In a sequential-pay 
+CMO, the principal pay-
+ments from the underly-
+ing mortgage collateral 
+are used to retire the vari-
+ous bond classes sequen-
+tially, going from the 
+bond class with the short-
+est maturity to the one 
+with the longest maturity.        
+     From an investor’s 
+perspective, purchasing 
+the bond classes with the 
+shorter-term maturities 
+will provide protection 
+against extension risk, 
+while purchasing the 
+bond classes with the 
+longer-term maturities 
+will provide protection 
+against contraction risk.  
+     Sequential-pay CMOs 
+frequently also include an 
+accrual tranche, or Z 
+bond. A Z bond receives 
+no interest payments un-
+til all earlier maturing 
+classes are retired. The 
+interest that is due the Z 
+bond accrues and is 
+added to its principal in-
+(Continued on page 4) 
+Volume 9, Issue 2 
+Prepayment Risk and Collateralized Mortgage Obligations (continued) 
+
+The Quarterly Review Of Interest Rate Risk 
+Page 4 
+(Continued from page 3) 
+ 
+stead.  
+     Inclusion of a Z bond 
+in a CMO produces 
+shorter maturities for the 
+earlier bond classes. This 
+occurs because the inter-
+est that would have been 
+paid to the accrual bond 
+class is used to pay down 
+the principal on the ear-
+lier classes faster.      
+     It is important to note 
+that CMOs do not elimi-
+nate the prepayment risk 
+associated with the un-
+derlying mortgage collat-
+eral. Indeed, the total pre-
+payment risk remains un-
+changed. Instead, CMOs 
+redistribute the contrac-
+tion and extension risk 
+that comprise prepayment 
+risk among the different 
+bond classes.  
+     The shorter-term 
+tranches provide protec-
+tion against contraction 
+risk to the longer-term 
+tranches because the 
+bond classes with the 
+shorter maturities are re-
+tired first. On the other 
+hand, the longer-term 
+tranches provide protec-
+tion against extension 
+risk to the shorter-term 
+tranches because the 
+bond classes with the 
+longer maturities are re-
+tired after the short-term 
+tranches. 
+     While sequential-pay 
+CMOs provide investors 
+with more protection 
+against prepayment risk 
+than is true for mortgage 
+pass-through securities, 
+there is still substantial 
+variation in the average 
+lives of the various bond 
+classes.  
+     Since 1983, several 
+innovations have been 
+made in structuring CMO 
+deals in order to address 
+this uncertainty. Included 
+among these are the 
+planned amortization 
+class (PAC) bond and the 
+support, or companion,
+class bond.  
+     A PAC bond  has a 
+principal repayment 
+schedule that must be 
+met. This produces 
+greater predictability of its 
+cash flows. PACs have up-
+per and lower bounds, 
+known as collars, for ex-
+pected prepayment 
+speeds on the underlying 
+collateral.   
+     Principal repayment is 
+made to these bond 
+classes as scheduled, de-
+spite variation in prepay-
+ment speeds between the 
+two bounds. In the event 
+that actual prepayment 
+speeds vary between the 
+upper and lower bounds, 
+the companion tranches 
+absorb the speedup or 
+slowdown in principal re-
+payments.  
+     As a result, PAC bonds 
+provide investors with 
+protection against both 
+contraction risk and ex-
+tension risk as long as 
+there remain enough sup-
+port bonds in the CMO to 
+absorb the prepayment 
+risk. The non-PAC sup-
+port bonds are the riski-
+est tranches in a CMO 
+with PAC classes.  
+     In the next issue, we will 
+focus on the structure of 
+stripped mortgage-backed 
+securities, such as IOs and 
+POs, and show how these 
+instruments can be used to 
+manage interest rate risk. 
+These derivative mortgage 
+securities have risk-return 
+profiles that make them 
+useful to financial 
+institutions for hedging.      
+     More specifically, the 
+convexity characteristics of 
+their price-yield curves 
+make IOs and POs attractive 
+for hedging the interest rate 
+risk exposure of mortgage 
+portfolios and mortgage 
+servicing rights.■ 
+ 
+ 
+ 
+Prepayment Risk and Collateralized Mortgage Obligations (continued) 
+Interest Rate Sensitivity Rises in Second Quarter (continued) 
+(Continued from page 1) 
+Treasury rates rose 
+for all maturities in the 
+second quarter. The yields 
+on medium-term maturi-
+ties between two years 
+and five years displayed 
+the largest increases.  
+The Freddie Mac con-
+tract interest rate on com-
+mitments for fixed-rate 
+30-year mortgages rose to 
+6.21 percent at the end of 
+the second quarter from 
+5.52 percent at the end of 
+the previous quarter.    
+Thrift profitability was 
+slightly lower in the sec-
+ond quarter. The average 
+return on assets (ROA) for 
+the industry fell  to 1.16 
+percent from 1.19 percent 
+in the prior quarter.  
+This decrease in ROA 
+for the thrift industry was 
+attributed to higher loan 
+loss provisions, lower 
+other non-interest in-
+come, and higher non-
+interest expense.   
+The second quarter 
+saw an average net inter-
+est margin of 291 basis 
+points, up from 288 basis 
+points in the first quarter. 
+This increase resulted 
+from a rise in interest in-
+come as loan portfolios 
+grew and a fall in interest 
+expense from the first 
+quarter.  
+Total thrift industry 
+earnings rose one percent 
+to $3.38 billion in the sec-
+ond quarter, from $3.34 
+billion in the prior quar-
+ter.   
+In the second quarter, 
+total fee income, which 
+includes mortgage loan 
+servicing fee income and 
+other fee income, rose to 
+1.06 percent of average 
+assets, up from 0.64 per-
+cent in the first quarter. 
+Other fee income rose to 
+1.08 percent of average 
+assets in the second 
+quarter, up from 0.90 
+percent in the prior quar-
+ter.  
+For the most part, fee 
+income has increased 
+over the past four years. 
+This growth has been due 
+to increases in retail 
+banking fees, growth in 
+trust assets, fees from 
+sales of mutual funds and 
+annuities, and loan ser-
+vicing income from non-
+mortgage loans. 
+Other non-interest 
+income fell to 0.62 per-
+cent of average assets 
+from 0.96 percent be-
+tween the first and sec-
+ond quarters. Other non-
+interest income can be 
+extremely volatile because 
+it includes gains and 
+losses on assets sold and 
+also reflects balance sheet 
+restructuring activities.  
+ The second quarter 
+saw the ARM share of to-
+tal thrift mortgage origi-
+(Continued on page 5) 
+
+Interest Rates
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+Jun-02 Sep-02 Dec-02 Mar-03 Jun-03 Sep-03 Dec-03 Mar-04 Jun-04
+Percent
+30 Year Mortgage
+10 Year CMT
+1 Year CMT
+CMT Yield Curves
+1.00
+2.00
+3.00
+4.00
+5.00
+6.00
+Maturity
+Percent
+December 31, 2003
+March 31, 2004
+June 30, 2004
+(Continued from page 4) 
+nations rise to 46 percent, 
+up from 44 percent in the 
+prior quarter.  
+Consistent with the 
+rise in the share of thrift 
+ARM originations, the ARM 
+share of total 1-4 family 
+mortgages held by thrifts 
+in their portfolios rose 
+slightly to 62.7 percent 
+from 60.4 percent in the 
+prior quarter.   
+     Second-quarter 1-4 
+family mortgage origina-
+tions by thrifts rose to 
+$180.4 billion, up from 
+$130.4 billion in the first 
+quarter.  
+       Total mortgage origi-
+nations in the second 
+quarter were $203.4 bil-
+lion, up sharply from  
+$148.9 billion in the first 
+quarter. Along with the rise  
+in total mortgage loan 
+origination volume, the vol-
+ume of mortgage refinanc-
+ing activity also increased 
+in the second quarter.   
+Thrifts’ share of all 1-4 
+family originations was 
+22.1 percent in the first 
+quarter, down from 25.9 
+percent in the fourth quar-
+ter.  
+The rate of U.S. home 
+ownership stood at 69.2 
+percent at the end of the 
+second quarter, up slightly 
+from 68.6 percent in the 
+first quarter.  
+Refinancing accounted 
+for 35.1 percent of thrift 
+originations of single-
+family mortgages in the 
+second quarter, down from 
+36.2 percent in the first 
+quarter.  
+This decrease is con-
+sistent with the refinancing 
+(Continued on page 6) 
+ARM Market Share of Originations
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+Jun-02 Sep-02 Dec-02 Mar-03 Jun-03 Sep-03 Dec-03 Mar-04 Jun-04
+Percent
+Thrifts
+All Lenders
+ARM Share of Thrift Mortgage Portfolios
+50%
+52%
+54%
+56%
+58%
+60%
+62%
+64%
+Jun-02 Sep-02 Dec-02 Mar-03 Jun-03 Sep-03 Dec-03 Mar-04 Jun-04
+Percent
+ARM Portfolio Percentage
+Interest Rates and ARM Market Share 
+Page 5 
+Volume 9, Issue 2 
+Interest Rate Sensitivity Rises in Second Quarter  (continued) 
+
+Median Pre- and Post-Shock NPV Ratios
+8.0
+9.0
+10.0
+11.0
+12.0
+13.0
+14.0
+Jun-02 Sep-02 Dec-02 Mar-03 Jun-03 Sep-03 Dec-03 Mar-04 Jun-04
+Percent
+Pre-Shock
+Post-Shock
+Median Effective Duration
+1.0
+1.2
+1.4
+1.6
+1.8
+2.0
+2.2
+Jun-02 Sep-02 Dec-02 Mar-03 Jun-03 Sep-03 Dec-03 Mar-04 Jun-04
+Duration
+Assets
+Liabilities
+Estimated Change in NPV:
+-100bp Rate Change
+17
+235
+524
+70
+7
+0
+0
+0
+200
+400
+600
+<-10%
+-10 to 0%
+0 to 10%
+10 to 20%
+20 to 30
+30 to 40%
+>40%
+Number
+Lose NPV
+Gain NPV
+Estimated Change in NPV:
++200bp Rate Change
+24
+75
+172
+260
+219
+84
+19
+0
+200
+400
+600
+<-40%
+-40 to -30% -30 to -20% -20 to -10%
+-10 to 0%
+0 to 10%
+>10%
+Number
+Lose NPV
+Gain NPV
+(Continued from page 5) 
+activity of all lenders, 
+where the rate declined to 
+49 percent from 53 percent 
+between the first and sec-
+ond quarters.  
+The industry’s effective 
+duration of assets rose 
+from 1.74 to 2.03 between 
+the first and second quar-
+ters. With the increase in 
+interest rates in the second 
+quarter, the NPV model 
+predicted a decrease in the 
+rate of prepayments of  
+mortgages held in portfolio.     
+This raised the duration of 
+mortgages and, therefore, 
+total assets duration.  
+The industry’s effective 
+duration of liabilities fell 
+slightly from 1.66 to 1.62 
+in the second quarter.  
+The changes in asset 
+and liability durations in 
+the second quarter pro-
+duced an increase in the 
+positive duration gap for 
+the thrift industry as a 
+whole. This reverses the 
+narrowing of the positive 
+duration gap for the indus-
+try in the prior quarter.  
+The median pre-shock 
+NPV ratio for the industry 
+rose during the second 
+quarter from 13.0 percent 
+to 13.5 percent.  
+Along with this rise in 
+the median pre-shock NPV 
+ratio, the median post-
+shock NPV ratio also rose, 
+moving from 11.5 percent 
+at the end of the first quar-
+ter to 11.7 percent at the 
+end of the second quarter.  
+The number of thrifts 
+with a post-shock NPV ra-
+tio below 4 percent fell to 
+three institutions from six 
+in the previous quarter.  
+(Continued on page 7) 
+Duration and NPV Sensitivity Measures 
+Page 6 
+The Quarterly Review Of Interest Rate Risk 
+Interest Rate Sensitivity Rises in Second Quarter (continued) 
+
+(Continued from page 6) 
+The percentage of 
+thrifts with a post-shock 
+NPV ratio over 6 percent 
+rose between the first and 
+second quarters. In the 
+first quarter, these thrifts 
+comprised 95.7 percent of 
+the industry, while they 
+comprised 96.7 percent in 
+the second quarter.  
+The number of thrifts 
+with a post-shock NPV ra-
+tio below 6 percent fell to 
+28 institutions in the sec-
+ond quarter, down from 37 
+in the prior quarter.  
+The percentage of 
+thrifts with a sensitivity of 
+200 basis points or less 
+decreased sharply in the 
+second quarter, falling to 
+57.1 percent from 69.1 
+percent in the prior quar-
+ter.  
+In addition, the per-
+centage of thrifts with over 
+400 basis points in sensi-
+tivity more than doubled to 
+7.9 percent in the second 
+quarter from 3.4 percent  
+in the prior quarter.  
+These results are con-
+sistent with the widening 
+in the industry’s positive 
+effective duration gap and 
+with the rise in its median 
+sensitivity in the second 
+quarter.■ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Minimal  
+Moderate  
+Significant  
+High 
+Thrifts with Post-Shock NPV Ratios
+Under 4 Percent
+7
+8
+3
+1
+3
+6
+5
+6
+3
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+Jun-02
+Sep-02 Dec-02 Mar-03
+Jun-03 Sep-03 Dec-03 Mar-04
+Jun-04
+Number
+Interest Rate Risk Measures 
+% Change 
+in NPV
+% Change 
+in NPV
+Mar-04
+Jun-04
+Mar-04
+Jun-04
++300
+7.87%
+8.40%
+-31%
+-30%
++200
+9.11%
+9.62%
+-18%
+-18%
++100
+10.12%
+10.61%
+-7%
+-8%
+Base
+10.80%
+11.36%
+0%
+0%
+-100
+10.92%
+11.56%
+2%
+3%
+-200
+N/A
+N/A
+N/A
+N/A
+-300
+ N/A
+ N/A
+N/A
+N/A
+NPV as % of PV of 
+Assets
+Interest Rate Risk Measures
+Industry Aggregates
+Last Two Quarters
+Under 
+100bp
+101-
+200bp
+201-
+400bp
+Over 
+400bp
+Total
+Over 
+10%
+258
+157
+141
+17
+573
+6% to 
+10%
+93
+79
+73
+8
+253
+4% to 
+6%
+3
+5
+21
+2
+31
+Below 
+4%
+0
+1
+3
+2
+6
+Total
+354
+242
+238
+29
+863
+Post-Shock NPV Ratio and
+Sensitivity Measure Matrix
+March 2004
+Minimal  
+Moderate  
+Significant  
+High 
+Under 
+100bp
+101-
+200bp
+201-
+400bp
+Over 
+400bp
+Total
+Over 
+10%
+226
+152
+174
+42
+594
+6% to 
+10%
+41
+64
+108
+18
+231
+4% to 
+6%
+4
+0
+16
+5
+25
+Below 
+4%
+0
+0
+1
+2
+3
+Total
+271
+216
+299
+67
+853
+Post-Shock NPV Ratio and
+Sensitivity Measure Matrix
+June 2004
+Page 7 
+Volume 9, Issue 2 
+Interest Rate Sensitivity Rises in Second Quarter (continued) 
+
+Comparative Trends in the Four OTS Regions 
+Page 8 
+The Quarterly Review Of Interest Rate Risk 
+Median Sensitivity by OTS Region
+0
+50
+100
+150
+200
+250
+Jun-03
+Sep-03
+Dec-03
+Mar-04
+Jun-04
+Basis Points
+All Thrifts
+Northeast
+Southeast
+Midwest
+West
+The Northeast Region 
+had the highest median 
+sensitivity, at 212 basis 
+points at the end of the 
+second quarter, while the 
+West Region had the low-
+est median sensitivity, at 
+120 basis points. 
+All OTS regions experi-
+enced an increase in their 
+interest rate sensitivity in 
+the second quarter. The 
+Midwest Region saw its 
+median sensitivity rise by 
+41.8 percent, the largest 
+relative increase of the four 
+regions. The Northeast, 
+Southeast, and West Re-
+gions saw their median 
+sensitivities rise by 26.9 
+percent, 25.6 percent, and 
+16.5 percent, respectively.  
+The Northeast Region 
+had the highest median 
+asset duration, at 2.31 at 
+the end of the second 
+quarter. All four OTS re-
+gions witnessed a rise in 
+their median asset dura-
+tions as a result of the in-
+crease in interest rates be-
+tween the first and second 
+quarters.  
+All OTS regions saw 
+their median pre-shock 
+NPV ratios rise in the sec-
+ond quarter. The Northeast 
+Region had the highest 
+pre-shock NPV ratio at 
+14.0 percent, while the 
+West Region had the low-
+est pre-shock NPV ratio at 
+12.6 percent. 
+Finally, median post-
+shock NPV ratios rose for 
+the Southeast, Midwest, 
+and West Regions, but fell 
+slightly for the Northeast 
+Region in the second  
+quarter.■ 
+ 
+Median Pre-Shock NPV Ratio by OTS Region
+10
+11
+12
+13
+14
+15
+Jun-03
+Sep-03
+Dec-03
+Mar-04
+Jun-04
+Percent
+All Thrifts
+Northeast
+Southeast
+Midwest
+West
+Median Post-Shock NPV Ratio by OTS Region
+10
+11
+12
+13
+14
+15
+Jun-03
+Sep-03
+Dec-03
+Mar-04
+Jun-04
+Percent
+All Thrifts
+Northeast
+Southeast
+Midwest
+West
+Median Assets Duration by OTS Region
+0
+0.5
+1
+1.5
+2
+2.5
+Jun-03
+Sep-03
+Dec-03
+Mar-04
+Jun-04
+Effective Duration
+All Thrifts
+Northeast
+Southeast
+Midwest
+West
+Regional Comparisons 
+
+Appendix A — All Thrifts 
+Post-Shock NPV Distribution
+All Thrifts
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 11.74
+Mean = 13.32
+Standard Deviation = 8.27
+Skewness = 5.32
+Kurtosis = 40.5
+Maximum = 97.22
+Minimum = -0.85
+Count = 853
+Liabilities Duration Distribution
+All Thrifts
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Median = 1.62
+Mean = 1.6
+Standard Deviation = 0.41
+Skewness = -0.26
+Kurtosis = 1.71
+Maximum = 3.5
+Minimum = 0.01
+Count = 853
+Descriptive Statistics
+Asset Duration Distribution
+All Thrifts
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 2.03
+Mean = 2
+Standard Deviation = 0.87
+Skewness = -0.33
+Kurtosis = 3.31
+Maximum = 5.33
+Minimum = -3.52
+Count = 853
+Pre-Shock NPV Ratio Distribution
+All Thrifts
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 13.5
+Mean = 15.22
+Standard Deviation = 8.2
+Skewness = 5.23
+Kurtosis = 39.12
+Maximum = 97.36
+Minimum = 5.9
+Count = 853
+Sensitivity Measure Distribution
+All Thrifts
+0
+15
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Basis Points
+Percent of Thrifts
+Des criptive Statis tics
+Median = 167
+Mean = 190
+Standard Deviation = 131
+Skewnes s = 0.87
+Kurtos is = 0.64
+Maxim um = 849
+Minim um = 0
+Count = 853
+Page 9 
+Volume 9, Issue 2 
+
+Appendix B — Northeast Region 
+Sensitivity Measure Distribution
+Northeast
+0
+15
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Basis Points
+Percent of Thrifts
+Median = 212
+Mean = 223
+Standard Deviation = 129
+Skewnes s = 0.73
+Kurtos is = 1.38
+Maxim um = 849
+Minim um = 0
+Count = 263
+Des criptive Statis tics
+Pre-Shock NPV Ratio Distribution
+Northeast
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 14.01
+Mean = 15.76
+Standard Deviation = 7.52
+Skewness = 4.28
+Kurtosis = 31.95
+Maximum = 86.65
+Minimum = 5.98
+Count = 263
+Post-Shock NPV Distribution
+Northeast
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 11.87
+Mean = 13.53
+Standard Deviation = 7.71
+Skewness = 4.25
+Kurtosis = 32.3
+Maximum = 86.48
+Minimum = -0.85
+Count = 263
+Asset Duration Distribution
+Northeast
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 2.31
+Mean = 2.26
+Standard Deviation = 0.88
+Skewness = -1.21
+Kurtosis = 6.87
+Maximum = 5.08
+Minimum = -3.52
+Count = 263
+Liabilities Duration Distribution
+Northeast
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.7
+Mean = 1.7
+Standard Deviation = 0.37
+Skewness = -1.08
+Kurtosis = 4.6
+Maximum = 2.87
+Minimum = 0.01
+Count = 263
+Page 10 
+The Quarterly Review Of Interest Rate Risk 
+
+Appendix C — Southeast Region 
+Sensitivity Measure Distribution
+Southeast
+0
+15
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Basis Points
+Percent of Thrifts
+Median = 167
+Mean = 191
+Standard Deviation = 132
+Skewnes s = 0.74
+Kurtos is = -0.14
+Maxim um = 628
+Minim um = 11
+Count = 300
+Des criptive Statis tics
+Pre-Shock NPV Ratio Distribution
+Southeast
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 13.41
+Mean = 14.94
+Standard Deviation = 7.14
+Skewness = 4.91
+Kurtosis = 39.91
+Maximum = 85.83
+Minimum = 5.9
+Count = 300
+Post-Shock NPV Distribution
+Southeast
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 11.96
+Mean = 13.03
+Standard Deviation = 7.19
+Skewness = 5
+Kurtosis = 41.32
+Maximum = 84.87
+Minimum = 3.58
+Count = 300
+Asset Duration Distribution
+Southeast
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 2.01
+Mean = 2
+Standard Deviation = 0.79
+Skewness = 0.3
+Kurtosis = -0.07
+Maximum = 4.8
+Minimum = 0.3
+Count = 300
+Liabilities Duration Distribution
+Southeast
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.56
+Mean = 1.56
+Standard Deviation = 0.36
+Skewness = 0.02
+Kurtosis = 0.65
+Maximum = 3.02
+Minimum = 0.46
+Count = 300
+Page 11 
+Volume 9, Issue 2 
+
+Appendix D — Midwest Region 
+Sensitivity Measure Distribution
+Midw est
+0
+15
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Basis Points
+Percent of Thrifts
+Median = 129
+Mean = 156
+Standard Deviation = 118
+Skewnes s = 1.25
+Kurtos is = 1.34
+Maxim um = 594
+Minim um = 16
+Count = 202
+Des criptive Statis tics
+Post-Shock NPV Distribution
+Midwest
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 11.94
+Mean = 13.37
+Standard Deviation = 7.42
+Skewness = 5.05
+Kurtosis = 37.3
+Maximum = 78.27
+Minimum = 4.54
+Count = 202
+Pre-Shock NPV Ratio Distribution
+Midwest
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 13.44
+Mean = 14.93
+Standard Deviation = 7.54
+Skewness = 4.89
+Kurtosis = 35.28
+Maximum = 79.83
+Minimum = 6.36
+Count = 202
+Asset Duration Distribution
+Midwest
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.66
+Mean = 1.72
+Standard Deviation = 0.82
+Skewness = -0.76
+Kurtosis = 6.74
+Maximum = 4.68
+Minimum = -3.31
+Count = 202
+Liabilities Duration Distribution
+Midwest
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.57
+Mean = 1.57
+Standard Deviation = 0.45
+Skewness = 0.45
+Kurtosis = 2.02
+Maximum = 3.5
+Minimum = 0.25
+Count = 202
+Page 12 
+The Quarterly Review Of Interest Rate Risk 
+
+Appendix E — West Region 
+Sensitivity Measure Distribution
+West
+0
+15
+30
+0
+100
+200
+300
+400
+500
+600
+700
+800
+Basis Points
+Percent of Thrifts
+Des criptive Statis tics
+Median = 120
+Mean = 162
+Standard Deviation = 138
+Skewnes s = 1.34
+Kurtos is = 1.88
+Maxim um = 614
+Minim um = 0
+Count = 92
+Post-Shock NPV Distribution
+West
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 11.1
+Mean = 14.13
+Standard Deviation = 14.39
+Skewness = 4.43
+Kurtosis = 20.02
+Maximum = 97.22
+Minimum = 4.01
+Count = 92
+Asset Duration Distribution
+West
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.71
+Mean = 1.83
+Standard Deviation = 0.96
+Skewness = 0.77
+Kurtosis = 1.28
+Maximum = 5.33
+Minimum = -0.03
+Count = 92
+Liabilities Duration Distribution
+West
+0
+20
+40
+60
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+6
+More
+Duration
+Percent of Thrifts
+Descriptive Statistics
+Median = 1.55
+Mean = 1.49
+Standard Deviation = 0.5
+Count = 263
+Kurtosis = 0.02
+Maximum = 2.38
+Minimum = 0.14
+Count = 92
+Pre-Shock NPV Ratio Distribution
+West
+0
+20
+40
+60
+0
+10
+20
+30
+40
+50
+60
+70
+80
+NPV Ratio (Percent)
+Percent of Thrifts
+Descriptive Statistics
+Median = 12.55
+Mean = 15.75
+Standard Deviation = 14.22
+Skewness = 4.4
+Kurtosis = 19.81
+Maximum = 97.36
+Minimum = 6.88
+Count = 92
+Page 13 
+Volume 9, Issue 2 
+
+Office of Thrift Supervision 
+1700 G Street, NW 
+Washington, DC 20552 
+ 
+ 
+David Malmquist, Director 
+Economic Analysis Division 
+Phone: 202-906-5639 
+Email:  david.malmquist@ots.treas.gov 
+ 
+Prepared by: 
+ 
+Jonathan D. Jones 
+Economic Analysis Division 
+Phone:  202-906-5729 
+Email:   jonathan.jones@ots.treas.gov 
+ 
+Robert Sutter, IT Specialist, assembled the data 
+reported in the Appendices.        
+Economic Analysis Division 
+We’re on the Web!  
+www.ots.treas.gov/statisticalreleases 
+Page 14 
+The Quarterly Review Of Interest Rate Risk 
+Duration:  A first-order approximation of the price 
+sensitivity of a financial instrument to changes in yield. 
+The higher the duration, the greater the instrument’s 
+price sensitivity. For example, an asset with a duration of 
+1.6 would be predicted to appreciate in value by about 
+1.6 percent for a 1 percent decline in yield. 
+ 
+Effective Duration: The average rate of price change 
+in a financial instrument over a given discrete range from 
+the current market interest rate (usually, +/-100 basis 
+points).  
+ 
+Estimated Change in NPV: The percentage change 
+in base case NPV caused by an interest rate shock. 
+ 
+Kurtosis: A statistical measure of the tendency of 
+data to be distributed toward the tails, or ends, of the 
+distribution. A normal distribution has a kurtosis statis-
+tic of three. 
+ 
+NPV Model:  Measures how six hypothetical changes 
+in interest rates (three successive 100 basis point in-
+creases and three successive 100 basis point decreases, 
+assuming a normal interest rate environment) affect the 
+estimated market value of a thrift’s net worth.  
+ 
+ 
+Post-Shock NPV Ratio: Equity-to-assets ratio, fol-
+lowing an adverse 200 basis point interest rate shock 
+(assuming a normal interest rate environment), ex-
+pressed in  present value terms (i.e., post-shock NPV di-
+vided by post-shock present value of assets). Also re-
+ferred to as the exposure ratio. 
+ 
+Pre-Shock NPV Ratio: Equity-to-assets expressed in 
+present value terms (i.e., base case NPV divided by base 
+case present value of assets). 
+ 
+Sensitivity Measure: The difference between Pre-
+shock and Post– shock NPV Ratios (expressed in basis 
+points). 
+ 
+Skewness: A statistical measure of the degree to 
+which a distribution is more spread out on one side than 
+the other. A distribution that is symmetric will have a 
+skewness statistic of zero. 
+ 
+ 
+Glossary 
+

@@ -1,0 +1,15 @@
+{
+  "id": "klia_life_2026",
+  "requested_url": "https://exam.insure.or.kr/upload/upfile/common/recent/varisu_lp_recent.pdf?dt=1771855305322",
+  "retrieved_url": "https://exam.insure.or.kr/upload/upfile/common/recent/varisu_lp_recent.pdf?dt=1771855305322",
+  "retrieved_at": "2026-10-13T04:05:46.461613+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "50e34dc035127271182a7756ae2bab706ef4ae71a0ca3f9198b9b00c870c6ba3",
+  "binary_sha256": "50e34dc035127271182a7756ae2bab706ef4ae71a0ca3f9198b9b00c870c6ba3",
+  "text_sha256": "7b4c81ca9de23b307b5c38aacfa39cf146cf241d8735df6c11dc9587be943a04",
+  "pages": 332,
+  "characters": 255967,
+  "status": "retrieved_not_claim_verified",
+  "retrieval_transport": "PowerShell Invoke-WebRequest with Windows TLS certificate verification"
+}

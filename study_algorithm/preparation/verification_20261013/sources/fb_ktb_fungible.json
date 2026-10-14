@@ -1,0 +1,12 @@
+{
+  "id": "fb_ktb_fungible",
+  "requested_url": "https://ktb.mofe.go.kr/ntndbtUnityIsu.do",
+  "retrieved_url": "https://ktb.mofe.go.kr/ntndbtUnityIsu.do",
+  "retrieved_at": "2026-10-14T00:08:04.251796+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 2922,
+  "content_sha256": "e6b1f1e7eef56ed37ca4f0b29d5dcb6cdeddbec15f1051014df90e1b5701c207",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

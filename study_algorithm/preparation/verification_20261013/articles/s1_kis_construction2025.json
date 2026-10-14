@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_kis_construction2025",
+  "source_metadata": {
+    "id": "s1_kis_construction2025",
+    "requested_url": "https://kisrating.com/fileDown.do?fileName=rs20250618-1.pdf&gubun=2&menuCd=R8",
+    "retrieved_url": "https://kisrating.com/fileDown.do?fileName=rs20250618-1.pdf&gubun=2&menuCd=R8",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "http_status": 200,
+    "downloaded_bytes": 795277,
+    "pdf_sha256": "0e32d8a6b9fbc0491c0518614b4a7e27060d266ef8ef72ed87fb6698fe4b2b61",
+    "content_sha256": "62e755541238786f8ea131ffb2d645fcb09b373f57aae8abe6119d966c871b93",
+    "page_count": 12,
+    "download_verification": "curl exit0 HTTP200 TLSverification0 size_download795277 equals saved PDF; digital text extracted with PyMuPDF",
+    "scope": "KIS 2025-06-18 Lotte Construction rating report; historic example of contractor PF obligations, not present financial condition"
+  },
+  "items": [
+    {
+      "id": "s1_kis_construction2025:시공사신용보강",
+      "source_id": "s1_kis_construction2025",
+      "article": "시공사신용보강",
+      "heading": "시공사신용보강",
+      "text": "여전히 과중한 PF우발채무 부담 \n2022년 말 6조원을 상회한 동사의 연결기준 PF보증 규모는 2023년 이후 기존 PF보증의 본PF 전환, \n관련 사업장 정리, 준공 이후 담보대출전환 등을 통한 점진적인 감축에도 2025년 3월 말 기준 \n3.6조원(정비사업 0.5조원 포함)으로 자기자본 및 보유 유동성 대비 여전히 과중한 PF우발채무 \n부담이 지속되고 있다. \n \n3.1조원의 도급사업 PF보증 가운데 미착공 현장에 대한 보증이 2.1조원으로 상당 부분을 차지하고 \n있으며, 지방 및 수도권 외곽지역 관련 0.9조원과 홈플러스 점포 개발사업 관련 보증 0.6조원 \n(2025년 내 폐점이 확정된 부천상동점 관련 보증 0.4조원 제외)의 경우 우발채무의 현실화 가능성에 \n대한 면밀한 모니터링이 필요한 상황이다.  \n \n주요 우발채무 현황 – 2025년 3월 말 연결기준 \n \n(단위: 억원) \n구분 \n금액 \n비고 \nPF보증(채무인수, 연대보증, 자금보충 등) \n31,486  \n정비사업 제외 \n재개발/재건축조합 사업비 대출 지급보증 등 \n4,859  \n \nSOC 관련 자금보충 등 \n250  \n \n수분양자 중도금 대출 지급보증 \n19,309  \n \n책임준공 미이행시 손해배상, 채무인수 \n90,765  \n \n기타 \n3,995  \n상호보증 및 이자지급보증 \n합계 \n150,664  \n \n주) 금액은 관련 차입금 잔액                                                                                                           자료: 공시 및 회사제시 \n \nPF보증 내역 – 2025년 3월 말 연결기준                                                                                                                                                                                                          (단위: 억원) \n \n주1) SOC 및 BTL 관련 보증 제외                                                               \n주2) 착공/기타는 민간임대, 복합개발, 분양 전 현장 관련 PF 포함                                                               자료: 회사 제시 \n \n홈플러스 개발사업(총 13개 점포) 관련 PF보증의 경우 동사는 후순위 PF차입금에 대한 보증을 \n제공하고 있으며, 폐점이 진행 중인 부천상동점과 개발계획이 확정된 동대문점을 제외하면 대부분의 \n점포가 구체적인 개발계획이 확정되지 않은 상황이다. 향후 홈플러스의 기업회생절차 과정에서 각 \n매장의 영업중단, 임대료 미납 등으로 인해 관련 매장의 임대차 계약 해지되고 PF차입금의 \n기한이익을 상실하여 공·경매 절차를 통해 자산이 처분될 경우 후순위 PF보증을 제공한 동사의 \n손실부담 가능성이 존재한다. \n \n동사는 본PF 및 담보대출 전환, 사업권 매각 등을 통해 PF보증 규모를 2025년 말 2.5조원 내외 \n(정비사업 포함)로 감축할 계획이다. 그러나, 지방 주택시장을 중심으로 장기화되는 분양경기 부진 \n하에서 관련 현장의 사업 추진 및 본PF 전환에 차질이 발생할 수 있으며, 미착공 현장의 사업 진행이 \n장기간 지연될 경우 금융비용 누적 등에 따른 사업성 저하로 PF차입금의 상환 부담이 동사로 전이될 \n수 있다. 또한 본PF 전환 등을 통해 PF보증 현장에서 제외되더라도 본PF 과정에서 시공사인 동사의 \n책임착공, 책임분양 약정 등이 포함된 경우 분양여건 및 실적에 따라 우발채무의 현실화 가능성을 \n배제할 수 없다. \n도급, \n31,486 , \n87%\n정비, 4,859 , \n13%\n착공/분양률75% 이상, \n460,  1%\n착공/분양률75% 미만, \n3,902  12%\n착공/기타*\n6,417, \n20%\n미착공, \n20,707, 66%\n도급사업관련PF보증구분\n수도권, \n4,675,\n23%\n수도권외곽, \n2,193, 11%\n지방광역시, \n7,240, \n35%\n홈플러스, \n6,599,\n32%\n\n롯데건설㈜ \n \n08",
+      "start": 10984,
+      "end": 13089,
+      "sha256": "0e964c5f30ab2ac1872bfb923ae853f5acef570675e02a8827d47ac75daa4aba"
+    }
+  ]
+}

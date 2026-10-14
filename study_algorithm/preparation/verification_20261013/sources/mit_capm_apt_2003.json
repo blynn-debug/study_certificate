@@ -1,0 +1,14 @@
+{
+  "id": "mit_capm_apt_2003",
+  "requested_url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf",
+  "retrieved_url": "https://ocw.mit.edu/courses/15-433-investments-spring-2003/df52f7f91f5a13fbfa988a0becb6334a_154336capm1.pdf",
+  "retrieved_at": "2026-10-13T15:38:44.149786+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "content_sha256": "e825305a07445fd10565d48f8eea5c8c8115014de537e711c38d1cca62251135",
+  "binary_sha256": "e825305a07445fd10565d48f8eea5c8c8115014de537e711c38d1cca62251135",
+  "text_sha256": "4104404e8f54341e53cee104d8de112c18cd50817af596bee8528c84c2ff34b8",
+  "pages": 20,
+  "characters": 11470,
+  "status": "retrieved_not_claim_verified"
+}

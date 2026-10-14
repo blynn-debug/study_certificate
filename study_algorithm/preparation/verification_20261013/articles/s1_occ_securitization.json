@@ -1,0 +1,29 @@
+{
+  "source_id": "s1_occ_securitization",
+  "source_metadata": {
+    "id": "s1_occ_securitization",
+    "requested_url": "https://occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf",
+    "retrieved_url": "https://occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-securitization/pub-ch-asset-securitization.pdf",
+    "http_complete": true,
+    "http_status": 200,
+    "http_content_length": "316436",
+    "downloaded_bytes": 316436,
+    "retrieved_at": "2026-10-13T23:54:41.315761+00:00",
+    "as_of": "2026-10-13",
+    "pdf_sha256": "7e5c6d176238451c94b2746710954dadbd4355a4dce246804f0dd6bb98329507",
+    "content_sha256": "79949680b2cde57b760b29f4611e3b61ba38a2a3bfb7bd5544560fc7c552c3b2",
+    "characters": 175097
+  },
+  "items": [
+    {
+      "id": "s1_occ_securitization:상환현금흐름",
+      "source_id": "s1_occ_securitization",
+      "article": "상환현금흐름",
+      "heading": "상환현금흐름",
+      "text": "The payment distribution for securities backed by installment loans is closely\ntied to the loans’ payment flows.  Interest is customarily paid monthly, and\nthe principal included in each payment will depend on the amortization\nschedule and prepayment rate of the underlying collateral. \nPay-Through Securities \nFor revolving asset types such as credit cards, trade receivables, and home\nequity lines, the cash flow has two phases: \n•\nThe revolving period; and \n•\nThe principal pay-down period (amortization phase).  \nDuring the revolving period, investors receive their pro rata share of the gross\nportfolio yield (see below) based on the principal amount of their certificates\nand the coupon rate.  The remaining portion of their share of the finance\ncharges above the coupon rate is available to pay the servicing fees and to\ncover any charge-offs, with residual amounts generally retained by the seller\nor credit enhancement provider as excess spread.  This distribution of cash is\noften referred to as the “cash flow waterfall.”\nThe cash flow waterfall for credit card securities may look like this\n(percentages based on investor’s pro rata share of outstanding receivables):\nRevenue  \nFinance Charges\n16.5%*\nAnnual Fees\n  1.5%\nLate Fees and Other Fees\n  0.7%\nInterchange\n  1.8%\n        Gross Portfolio Yield (finance charges)\n20.5%\n\nAsset Securitization\n              \n                                       Comptroller’s Handbook\n26\nExpenses\nInvestor Coupon\n 7.0%*\nServicing Expense\n 2.5%\nCharge-offs\n 5.0%\nTotal Expenses\n14.5%\nExcess Spread\n \n  6.0%\nDuring the revolving period, monthly principal collections are used to\npurchase new receivables generated in the designated accounts or to\npurchase a portion of the seller’s participation if there are no new receivables. \nIf the percentage of the seller’s interest falls below a prescribed level of\nprincipal outstanding because of a lack of new borrowings from the\ndesignated accounts, new accounts may be added. \nAfter this revolving period comes the amortization period.  During this phase,\nthe investors’ share of principal collections are no longer used to purchase\nreplacement receivables.  These proceeds are returned to investors as\nreceived.  This is the simplest form of principal repayment.  However,",
+      "start": 53833,
+      "end": 56101,
+      "sha256": "c242e6a8396c9e02cdb7cc8fac9bdf64ee1463210bda7c1f3965316fd55ef9cc"
+    }
+  ]
+}

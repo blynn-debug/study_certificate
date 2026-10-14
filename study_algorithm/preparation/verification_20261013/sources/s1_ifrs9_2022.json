@@ -1,0 +1,17 @@
+{
+  "id": "s1_ifrs9_2022",
+  "requested_url": "https://www.ifrs.org/content/dam/ifrs/publications/pdf-standards/english/2022/issued/part-a/ifrs-9-financial-instruments.pdf?bypass=on",
+  "retrieved_url": "https://www.ifrs.org/premium/",
+  "http_complete": true,
+  "http_status": 200,
+  "http_content_length": null,
+  "downloaded_bytes": 98143,
+  "retrieved_at": "2026-10-13T16:50:14.266158+00:00",
+  "as_of": "2026-10-13",
+  "pdf_sha256": "26ee7822a7a1641a611556658639374e41ec8b394651006ee225b859166f537f",
+  "content_sha256": "36c6766f715aa289b71b8d51f4d7f3eddf0c766b27112c33dd62ab2756592e4c",
+  "characters": 9668,
+  "semantic_content_valid": false,
+  "status": "retrieved_navigation_only_do_not_use_as_standard",
+  "review_note": "PDF response contains IFRS website navigation/sign-in material, not IFRS9 standard text. No article or claim created."
+}

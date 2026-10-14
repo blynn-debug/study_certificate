@@ -1,0 +1,30 @@
+{
+  "source_id": "fca_libor",
+  "source_metadata": {
+    "id": "fca_libor",
+    "requested_url": "https://www.fca.org.uk/markets/libor-transition",
+    "retrieved_url": "https://www.fca.org.uk/markets/libor-transition",
+    "retrieved_at": "2026-10-13T01:02:21.370565+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 13272,
+    "content_sha256": "99b4abed3a00538042534e260b5d8267d00bebab588f83e6acb7f14fd3527559",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "kind": "official_publication_selected_units",
+  "count": 1,
+  "items": [
+    {
+      "id": "fca_libor:Cessation",
+      "source_id": "fca_libor",
+      "article": "Cessation",
+      "heading": "Cessation",
+      "text": "All LIBOR panels have ended and all 35 LIBOR settings have now permanently ceased.\nFollowing the final publication of the 3-month synthetic sterling LIBOR setting on 28 March 2024, all sterling LIBOR settings permanently ceased.\nThe overnight and 12-month US dollar LIBOR settings permanently ceased at the end of June 2023.\nThe 1-month, 3-month and 6-month synthetic US dollar LIBOR settings were the final remaining LIBOR settings. These settings were published for the final time on 30 September 2024. This marked the end of LIBOR overall.",
+      "start": 4764,
+      "end": 5307,
+      "sha256": "864c98cf0f067f61f9877064cc344bdaade2db915ae6e0c83a7bd4ebf1025868"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

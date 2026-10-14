@@ -1,0 +1,42 @@
+{
+  "source_id": "kocw_joint_life_2015",
+  "source_metadata": {
+    "id": "kocw_joint_life_2015",
+    "requested_url": "http://contents.kocw.or.kr/KOCW/document/2015/hanyang_erica/shimhyunoo/11-2.pdf",
+    "retrieved_url": "http://contents.kocw.or.kr/KOCW/document/2015/hanyang_erica/shimhyunoo/11-2.pdf",
+    "retrieved_at": "2026-10-13T15:31:05.565617+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "content_sha256": "ab2f0feaed80f0b91e01cad6e446e5ded5ec4061cb75489edca01feff1bfa2d5",
+    "binary_sha256": "ab2f0feaed80f0b91e01cad6e446e5ded5ec4061cb75489edca01feff1bfa2d5",
+    "text_sha256": "9f2b5b86726daeb7bffbdc48635460830a8ffa4ca45fc5ba2faeb8063763b961",
+    "pages": 37,
+    "characters": 12806,
+    "status": "retrieved_not_claim_verified"
+  },
+  "kind": "official_publication_selected_units",
+  "count": 2,
+  "items": [
+    {
+      "id": "kocw_joint_life_2015:동시생존자급부",
+      "source_id": "kocw_joint_life_2015",
+      "article": "동시생존자급부",
+      "heading": "동시생존자급부",
+      "text": "[PDF page 2]\n8장. 연생모형\nI. 기초이론\n4. 동시생존자\n연생연금과\n연생보험\n5. 최종생존자\n연생연금과\n연생보험\n6. 조건부\n연생보험\n7. 유족연금\n(복귀연금)\n4. 동시생존자연생연금과연생보험\n4. 동시생존자연생연금과연생보험\n동시생존자의연금과보험의차이\n[\n연금: x,y 동시생존○→연금지급\n보험: x,y 동시생존× →보험금지급\n(1) 동시생존자연생연금\n 정기연금\naxy∶n\n=\nn\n∑\nt=1\nvt\ntpxy\n¨axy∶n\n=\nn−1\n∑\nt=0\nvt\ntpxy\nI. 기초이론(Hyunoo Shim)\n8장. 연생모형\n2 / 37",
+      "start": 153,
+      "end": 454,
+      "sha256": "962a0c914297a263457b96118c793731d66e235d02de8098807ce5e8308ec376"
+    },
+    {
+      "id": "kocw_joint_life_2015:최종생존자급부",
+      "source_id": "kocw_joint_life_2015",
+      "article": "최종생존자급부",
+      "heading": "최종생존자급부",
+      "text": "[PDF page 12]\n8장. 연생모형\nI. 기초이론\n4. 동시생존자\n연생연금과\n연생보험\n5. 최종생존자\n연생연금과\n연생보험\n6. 조건부\n연생보험\n7. 유족연금\n(복귀연금)\n5. 최종생존자연생연금과연생보험\n5. 최종생존자연생연금과연생보험\n최종생존자의연금과보험의차이\n[\n연금: x,y 최종생존자생존○→연금지급\n보험: x,y 최종생존자생존× →보험금지급\n최종생존자계산의중요원칙\n→동시생존자계산결과를이용하여계산한다\n[\ntpxy = tpx + tpy −tpxy →연금에적용\ntqxy = tqx + tqy −tqxy →보험에적용\n→기수가정의되어있지않다\nI. 기초이론(Hyunoo Shim)\n8장. 연생모형\n12 / 37",
+      "start": 3732,
+      "end": 4077,
+      "sha256": "b988f477ebec71d0fb5857f06006210ae6f9def35b7546eb548c0ec183f473ef"
+    }
+  ],
+  "warning": "These spans support only individually reviewed claims, not the whole publication."
+}

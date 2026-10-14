@@ -1,0 +1,14 @@
+{
+  "id": "s1_worldbank_green_pf",
+  "requested_url": "https://documents1.worldbank.org/curated/en/406791468339260446/pdf/806990PUB0Gree0379812B0Box00PUBLIC0.pdf",
+  "retrieved_url": "https://documents1.worldbank.org/curated/en/406791468339260446/pdf/806990PUB0Gree0379812B0Box00PUBLIC0.pdf",
+  "http_complete": true,
+  "http_status": 200,
+  "downloaded_bytes": 2204576,
+  "http_content_length": null,
+  "as_of": "2026-10-13",
+  "retrieved_at": "2026-10-13T16:24:30.151048+00:00",
+  "pdf_sha256": "e5e8c11b79d178129a599ac537928cbe0f55366429b1da72bebd116e055f5445",
+  "content_sha256": "111ec3ceb3d474ca9ceb60e7b9c97c029ba42502397a751e893a6ebdef6b8473",
+  "characters": 211539
+}

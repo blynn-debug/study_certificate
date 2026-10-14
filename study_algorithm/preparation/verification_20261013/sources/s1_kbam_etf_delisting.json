@@ -1,0 +1,12 @@
+{
+  "id": "s1_kbam_etf_delisting",
+  "requested_url": "https://kbam.co.kr/insights/guide/etf-delisting-guide-and-health-check",
+  "retrieved_url": "https://kbam.co.kr/insights/guide/etf-delisting-guide-and-health-check",
+  "retrieved_at": "2026-10-13T16:48:46.161266+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 10729,
+  "content_sha256": "d4a35ce184d34f02c2f6ffa1789eab9b0d7b6885d52c1399ed02cafefb081a85",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

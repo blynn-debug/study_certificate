@@ -1,0 +1,3897 @@
+{
+  "chapter_id": "S3C6",
+  "status": "pending_not_reviewed",
+  "count": 135,
+  "items": [
+    {
+      "id": "S3C6T01-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T01"
+      ],
+      "document": "P3",
+      "question_page": 310,
+      "demand": "기초위험별 장내·장외",
+      "publisher_answer": "④",
+      "explanation_text": "亜 파생상품으로 설계될 수 있는 '5대 기초자산주. 채. 통. 상. 신)' 중에서 신용위험관련 상품(CDS, CLN,\n\n                  TRS 등)은 표준화되기가 어려우므로(丁 상품구조 복잡) 상장이 어렵다. 따라서 신용파생상품은 장외로\n\n            만 존재한다(우리나라의 경우).\n\n            보중  5대 기초자산 모두 장외파생상품의 기초자산이 될 수 있으며 신용위험을 제외하고는 모두 장\n\n                내파생상품으로도 거래된다. 참고로 장내거래 규모가 가장 큰 것은 주가지수이고 장외거래\n\n                규모가 가장 큰 것은 금리(또는 채권)이다.",
+      "question_text": "T。이 C\n\n     파생상품의 개요 耳自目\n\n\n\n 핵심문제  다음의 기초자산 중에서 장내파생상품으로 거래되기가 가장 어려운 것은?   ••〇\n\n      ① 주가관련 자산\n\n      ② 금리관련 자산\n\n      ③ 통화관련 자산\n\n      ④ 신용위험관련 자산\n\n   亜 파생상품으로 설계될 수 있는 '5대 기초자산주. 채. 통. 상. 신)' 중에서 신용위험관련 상품(CDS, CLN,\n\n                  TRS 등)은 표준화되기가 어려우므로(丁 상품구조 복잡) 상장이 어렵다. 따라서 신용파생상품은 장외로\n\n            만 존재한다(우리나라의 경우).\n\n            보중  5대 기초자산 모두 장외파생상품의 기초자산이 될 수 있으며 신용위험을 제외하고는 모두 장\n\n                내파생상품으로도 거래된다. 참고로 장내거래 규모가 가장 큰 것은 주가지수이고 장외거래\n\n                규모가 가장 큰 것은 금리(또는 채권)이다.\n                                        已④",
+      "answer_pages": [
+        310
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        310,
+        311
+      ]
+    },
+    {
+      "id": "S3C6T01-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T01"
+      ],
+      "document": "P3",
+      "question_page": 311,
+      "demand": "통화선물 장내 구분",
+      "publisher_answer": "②",
+      "explanation_text": "EO 통화선물거래는 장내상품이다. 금리옵션은 장외옵션이며 스왑은 모두 장외거래이다(아직 상장된 상품이 없음).",
+      "question_text": "01  다음 중 장내파생상품 거래에 해당하는 것은?\n ••0 ①선물환거래              ②통화선물거래\n\n   ③ 금리캡옵션              ④ 스왑거래\n\n   EO 통화선물거래는 장내상품이다. 금리옵션은 장외옵션이며 스왑은 모두 장외거래이다(아직 상장된 상품이 없음).\n                                        目②",
+      "answer_pages": [
+        311
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        311
+      ]
+    },
+    {
+      "id": "S3C6T02-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "P3",
+      "question_page": 312,
+      "demand": "배추 선도손익",
+      "publisher_answer": "①",
+      "explanation_text": "이를 '사후적 제로섬이라 한다.\n\n   回 선도거래(Forward) 라 한다. 선도거래는 장외, 선물거래는 장내이다. 사후적 제로섬 게임(Ex-Post Zero\n\n                 Sum Game)은 장외거래에서는 신용위험이 존재함을 의미한다.",
+      "question_text": "TOPIC\n\n      선도(Forwar이거래 曲…\n\n\n\n 핵심문제  아래 그림과 같이 배추생산업자와 김치가공업자가 계약을 맺었다. 만일 3개월 후의 인수\n\n\n\n\n\n      ① 이러한 거래를 선물거래(Futures) 라 한다.\n\n      ② 사후적으로 김치가공업자는 포기당 2천 원의 이익을 보게 되었다.\n\n      ③ 사후적으로 손실을 보는 입장에서 채무불이행을 할 위험을 신용위험이라 한다.\n\n      ④ 배추생산업자와 김치가공업자가 사후적으로 거두게 되는 손익을 합하면 제로가 되는데,\n\n        이를 '사후적 제로섬이라 한다.\n\n   回 선도거래(Forward) 라 한다. 선도거래는 장외, 선물거래는 장내이다. 사후적 제로섬 게임(Ex-Post Zero\n\n                 Sum Game)은 장외거래에서는 신용위험이 존재함을 의미한다.\n                                        国①",
+      "answer_pages": [
+        312
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02"
+      ],
+      "ocr_recovery": {
+        "question_id": "S3C6T02-CORE",
+        "document": "P3",
+        "page": 312,
+        "recovered_prompt": "배추 선도계약 후 3개월 인수 시점 현물가격이 포기당 5000원일 때 잘못된 설명을 고른다.",
+        "necessary_visual_conditions": "배추 10000포기, 계약가격 포기당 3000원. 가공업자 계약손익 +2000원/포기. 교재 정답 ①. 제로섬과 신용위험을 동일시한 해설은 기존 검토 주의사항에 따라 수정한다.",
+        "verification": "original PDF image inspected"
+      },
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        312,
+        313
+      ]
+    },
+    {
+      "id": "S3C6T02-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "P3",
+      "question_page": 313,
+      "demand": "선도 특성과 결제방식 오류",
+      "publisher_answer": "③",
+      "explanation_text": "EQ 선도거래는 실물인수도가 대부분이다（선물거래는 현금결제가 대부분）.\n\n             선도거래를 포함한 장외파생상품은 경쟁매매로 거래한다. 叵E - X （경쟁매매는 장내파생상\n\n             품의 매매 방식이며, 장외파생상품은 상대매 매방식쥐으로 거래한다）\n\n                              * 주1    : 상대매매란 매수호가와 매도호가가 일치할 때 거래가 성사되는 방식이다（p.135, 자본시\n\n               장법 파트, 장외거래 핵심문제 참조）.",
+      "question_text": "01  선도거래의 특징이다. 가장 적절하지 않은 것은?\n ••• ① 장내파생상품과 달리 맞춤형 거래가 가능하다는 장점이 있다.\n\n   ② 장내파생상품에 비해 유동성이 부족하다는 단점이 있다.\n\n   ③ 실물인수도와 현금결제를 병행한다.\n\n   ④ 기업의 생산가격이나 원자재가격 위험으로부터 발생할 수 있는 파산위험을 감소시킨다.\n\n   EQ 선도거래는 실물인수도가 대부분이다（선물거래는 현금결제가 대부분）.\n\n             선도거래를 포함한 장외파생상품은 경쟁매매로 거래한다. 叵E - X （경쟁매매는 장내파생상\n\n             품의 매매 방식이며, 장외파생상품은 상대매 매방식쥐으로 거래한다）\n\n                              * 주1    : 상대매매란 매수호가와 매도호가가 일치할 때 거래가 성사되는 방식이다（p.135, 자본시\n\n               장법 파트, 장외거래 핵심문제 참조）.\n\n                                        国③",
+      "answer_pages": [
+        313
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        313
+      ]
+    },
+    {
+      "id": "S3C6T03-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "P3",
+      "question_page": 314,
+      "demand": "선물기제와 제로섬 오류",
+      "publisher_answer": "④",
+      "explanation_text": "亜 사후적 제로섬은 선도거래（Forward）에만 존재한다. 선물거래는 거래소가 청산소의 역할을 하므로 신용\n\n            위험이 없다.",
+      "question_text": "T。이 C\n\n     선물거래 메커니즘 皿\n\n\n\n匚핵심문제   선물（Futures） 거래의 특징이 아닌 것은?\n\n      ① 만기 결제 전에 언제든지 반대거래（청산거래）를 할 수 있다.\n\n      ② 포지션매입을 위해서는 증거금을 납부해야 한다.\n\n      ③ 경쟁매매방식이다.\n\n      ④  Long과 Short포지션이 사후적 제로섬 관계여서 신용위험이 존재한다.\n\n   亜 사후적 제로섬은 선도거래（Forward）에만 존재한다. 선물거래는 거래소가 청산소의 역할을 하므로 신용\n\n            위험이 없다.\n                                        目④",
+      "answer_pages": [
+        314
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-04"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        314,
+        315
+      ]
+    },
+    {
+      "id": "S3C6T03-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "P3",
+      "question_page": 315,
+      "demand": "명목금액·증거금",
+      "publisher_answer": "④",
+      "explanation_text": "참고\n\n             2022년 1월 현재 KOSPI200 지수선물의 위탁증거금율은 8.7%, 거래승수는 25만 원이다.\n\n                          • 거래승수는 파생상품시장의 거래활성화를 위해 거래승수를 종전 50만 원에서 25만 원으로 인하하였다\n\n                      (2017.3.13).",
+      "question_text": "01   KOSPI200 지수선물의 가격이 200Point이다. 거래소시장의 개시증거금율은 15%이고 유지증거\n•・。 금율은 10%이다(거래승수는 50만 원으로 가정함). 이 경우 다음 설명 중에서 잘못된 것은?\n\n   ① 지수선물 1계약을 매매하기 위한 총액은 억 원(200point X 50만 원)이다.\n\n   ② 지수선물 1계약을 매매하기 위한 최소한의 금액은 1,500만 원이다.\n\n   ③ 선물 1계약을 매수한 후에 지수가 하락하여 증거금율이 9%가 된다면 마진콜(Margin Call)이 발생\n\n       한다.\n\n    (4)마진콜이 발생하면 유지증거금 수준까지 증거금을 채워야 한다.\n\n      EIFI ① 200Point X 50만 원 = 1억 원(승수라 함은 '지수를 금액으로 바꾸는 단위이다).\n       ② 개시증거금율이 15%이므로 1.500만 원이면 1계약을 매매할 수 있다.\n\n       ③ 유지증거금은 일종의 임계점Trigger Point)이다 유지중거금을 밑돌게 되면 결제이행을 위한 제도로서 추\n\n          가증거금 요구(마진콜)를 하게 된다.\n\n       ④ 마진콜이 발생하면 유지증거금 수준이 아니라 개시증거금 수준으로 추가증거금을 납부해야 한다\n\n\n          참고\n\n             2022년 1월 현재 KOSPI200 지수선물의 위탁증거금율은 8.7%, 거래승수는 25만 원이다.\n\n                          • 거래승수는 파생상품시장의 거래활성화를 위해 거래승수를 종전 50만 원에서 25만 원으로 인하하였다\n\n                      (2017.3.13).\n\n                                        图④",
+      "answer_pages": [
+        315
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-04"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        315,
+        316
+      ]
+    },
+    {
+      "id": "S3C6T03-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "P3",
+      "question_page": 316,
+      "demand": "개시150 역산",
+      "publisher_answer": "④",
+      "explanation_text": "거금은 180원이다.\n\n   后囱 마진콜이 발생한 경우 개시증거금 수준까지 추가증거금을 납부해야 하므로 개시증거금은 150원이다.\n\n                      > 개시증거금（150） = 일일정산후 증거금（70） + 추가증거금（80）",
+      "question_text": "02  선물거래（futures）에 대한 설명으로 가장 적절하지 않은 것은?\n ••• ① 선물매수, 선물매도 모두 증거금이 있어야 거래가 가능하다.\n\n   ② 신용위험 없이 마음껏 거래할 수 있다.\n\n   ③ 반대매매（반대거래）를 통해 결제일 이전에 언제든지 포지션을 청산할 수 있다.\n\n   ④ 유지증거금이 100원이고 일일정산 후 증거금이 70원 추가로 납부한 증거금이 80원이라면 개시증\n\n     거금은 180원이다.\n\n   后囱 마진콜이 발생한 경우 개시증거금 수준까지 추가증거금을 납부해야 하므로 개시증거금은 150원이다.\n\n                      > 개시증거금（150） = 일일정산후 증거금（70） + 추가증거금（80）\n                                         圖④",
+      "answer_pages": [
+        316
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-04"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        316
+      ]
+    },
+    {
+      "id": "S3C6T03-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "P3",
+      "question_page": 316,
+      "demand": "미결제약정0",
+      "publisher_answer": "①",
+      "explanation_text": "ES 미결제약정은 청산되지 않고 있는 계약수를 의미한다. 문제에서 투자자 A,  B, C, D는 모두 청산하였으므로\n\n        미결제약정은 없다（아래 설명 참조）.\n\n           派 미결제약정의 변화\n\n            （3）신규매수 & 신규매도    : 미결제약정 +1\n        © 신규매수 & 전매도    : 미결제약정 변화 없음\n         © 환매수 & 신규매도   : 미결제약정 변화 없음\n\n         @ 환매수 & 전매도    : 미결제약정 -1",
+      "question_text": "03 아래의 경우 미결제약정은 몇 계약인가?（각 거래는 1계약 단위）\n • OO   ,—         ------ ...............    —   —                ...........         --       -------    —    —   —     —    .\n\n     O 투자자A 신규 매수 - 투자자B 신규 매도\n     © 투자자C 신규 매수 - 투자자A 전매도（청산 매도）\n     © 투자자6 환매수（청산 매수） - 투자자0 신규 매도\n     @ 투자자。환매수（청산 매수） - 투자;다C 전매도（청산 매도）\n\n\n   ① 〇계약                ② 1계약\n\n   ③ 2계약                ④ 3계약\n\n   ES 미결제약정은 청산되지 않고 있는 계약수를 의미한다. 문제에서 투자자 A,  B, C, D는 모두 청산하였으므로\n\n        미결제약정은 없다（아래 설명 참조）.\n\n           派 미결제약정의 변화\n\n            （3）신규매수 & 신규매도    : 미결제약정 +1\n        © 신규매수 & 전매도    : 미결제약정 변화 없음\n         © 환매수 & 신규매도   : 미결제약정 변화 없음\n\n         @ 환매수 & 전매도    : 미결제약정 -1\n                                        国①",
+      "answer_pages": [
+        316
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-04"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        316
+      ]
+    },
+    {
+      "id": "S3C6T04-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T04"
+      ],
+      "document": "P3",
+      "question_page": 317,
+      "demand": "기존 주식의 하락위험 헤지",
+      "publisher_answer": "①",
+      "explanation_text": "亜 위험헤지기능이다(파생상품 본연의 기능이라 할 수 있음).",
+      "question_text": "선물(Futures)거래의 경제적\n     기능\n\n\n 핵심문제  다음 설명은 선물거래의 경제적 기능 중 무엇에 해당하는가?           • •O\n\n\n                         • 투자자 B씨는 모 상장주식을 50억 원어치 보유하고 있다.\n\n                           • 향후 주식시장은 하락이 확실시 되어 평가손이 우려된다. 보유주식은 배당을 받기 위해 매\n\n         도할 수 없어서 30억 원 정도의 개별주식선물을 매도하기로 결정하였다.\n\n\n      ① 위험헤지기능           ② 가격발견기능\n\n      ③ 효율성 증대기능          ④ 거래비용 절감기눙\n\n   亜 위험헤지기능이다(파생상품 본연의 기능이라 할 수 있음).\n\n                                        9①",
+      "answer_pages": [
+        317
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        317,
+        318
+      ]
+    },
+    {
+      "id": "S3C6T04-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T04"
+      ],
+      "document": "P3",
+      "question_page": 318,
+      "demand": "수출 헤지·회계오류",
+      "publisher_answer": "②",
+      "explanation_text": "래사항만을 기록하는 부외거래로 처리하는 것이 일반적이다.\n\n   EÜ 수출업자의 경우 매도헤지, 수입업자의 경우 매수헤지가 적절하다. ①, ②는 위험전가기능, ③은 효율성 증대\n           기능, ④는 부외거래기능이다.",
+      "question_text": "01  선물거래의 경제적 기능에 대한 설명이다. 가장 거리가 먼 것은?\n **° ① 선물거래의 위험전가기능은 가격변동성이 큰 종목일수록 그 효과가 크다.\n\n   ② 장래에 달러 결제를 받는 수출기업의 경우 매수헤지가 적절하다.\n\n   ③ 선물시장이 존재하면 현물시장만 존재하는 경우에 비해 양 시장을 보다 효율적으로 만들 수 있다.\n\n   ④ 파생상품거래의 실제적인 자금이동은 계약의 만기에 일어나게 되므로 대차대조표상의 주석에 거\n\n     래사항만을 기록하는 부외거래로 처리하는 것이 일반적이다.\n\n   EÜ 수출업자의 경우 매도헤지, 수입업자의 경우 매수헤지가 적절하다. ①, ②는 위험전가기능, ③은 효율성 증대\n           기능, ④는 부외거래기능이다.\n                                        图②",
+      "answer_pages": [
+        318
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-05"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        318
+      ]
+    },
+    {
+      "id": "S3C6T04-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T04"
+      ],
+      "document": "P3",
+      "question_page": 318,
+      "demand": "차익거래 효율성",
+      "publisher_answer": "③",
+      "explanation_text": "E3 차익거래는 선물시장가격이 선물이론가격을 많이 벗어날 경우에 시도하여 이론가격에 근접할 때 청산되므로\n        효율성을 증대시키는 기능을 한다.\n      回 효율성    : 시장가격이 내재가치와 동일하게 움직인다면 '완전 효율적 시장’이라 한다.",
+      "question_text": "02 차익거래는 선물거래의 경제적 기능 중 무엇에 가장 부합하는가?\n *eo ①위험전가기능             ②가격발견기능\n\n   ③ 효율성 증대기능           ④ 거래비용 절감기능\n\n   E3 차익거래는 선물시장가격이 선물이론가격을 많이 벗어날 경우에 시도하여 이론가격에 근접할 때 청산되므로\n        효율성을 증대시키는 기능을 한다.\n      回 효율성    : 시장가격이 내재가치와 동일하게 움직인다면 '완전 효율적 시장’이라 한다.\n\n                                         同③",
+      "answer_pages": [
+        318
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-05"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        318
+      ]
+    },
+    {
+      "id": "S3C6T05-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "P3",
+      "question_page": 319,
+      "demand": "달러원 선도차익 방향",
+      "publisher_answer": "①",
+      "explanation_text": "亜 선물환의 균형가격식을 이용하여 차익거래포지션을 구축한다. 'Fo > F' - 선물 매도/현물 매수지 一\n\n            원화자금차입/달러자금운용'을 의미한다.\n\n                               * 주1  : '1$ = 1,200W'과 같은 '달러원환율' 표시하에서는 현물매수（현물환매수）는 *달러매수 의미한다.\n\n             주의  '원화차입/달러운용（24회 시험 정답지문）'은 '선물매도/원화차입/현물매수/달러예그29회 시\n\n                  험 정답지문）’과 같은 의미이다.\n\n                                              • '달러운용은 달러현물환을 매수하여 달러예금을 하고 달러이자를 받는 것을 말한다.",
+      "question_text": "선물거래의 균형가격 ­\n\n\n\n 핵심문제  다음의 경우 가장 적절한 차익거래포지션을 구축하면?             •••\n\n\n                           • 현물환율 1$ = 1,200W\n\n                           • 원화이자율%） = 연 4%\n\n                           •  달러이자율（n） = 연 2%\n           •   1 년 만기 선물환가격 1$ = 1,230W\n\n\n      ① 원화차입 - 달러운용\n\n      ② 달러차입 - 원화운용\n\n      ③ 원화차입 - 원화운용\n\n      ④ 달러차입 - 달러운용\n\n   亜 선물환의 균형가격식을 이용하여 차익거래포지션을 구축한다. 'Fo > F' - 선물 매도/현물 매수지 一\n\n            원화자금차입/달러자금운용'을 의미한다.\n\n                               * 주1  : '1$ = 1,200W'과 같은 '달러원환율' 표시하에서는 현물매수（현물환매수）는 *달러매수 의미한다.\n\n             주의  '원화차입/달러운용（24회 시험 정답지문）'은 '선물매도/원화차입/현물매수/달러예그29회 시\n\n                  험 정답지문）’과 같은 의미이다.\n\n                                              • '달러운용은 달러현물환을 매수하여 달러예금을 하고 달러이자를 받는 것을 말한다.\n\n                                        9①",
+      "answer_pages": [
+        319
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        319,
+        320
+      ]
+    },
+    {
+      "id": "S3C6T05-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "P3",
+      "question_page": 320,
+      "demand": "주가지수 이론가격101",
+      "publisher_answer": "②",
+      "explanation_text": "EO  F' = 100 [1 +（0.06 - 0.02） X        1 = 101 point. 식에서 黑이 정확한 식이나 근사치인 ・福 으로 계산한다.\n\n             즉, 잔존만기가 날짜로 주어지지 않으면 개월 수로 계산한다.",
+      "question_text": "01  시장의 정보가 다음과 같을 때 주가지수선물의 이론가격을 구하면?\n\n\n                                                                                                       ヽ\n                  , 현물가격（S）= lOOpoint                                • 이자율ひ） 二 연 6%\n                  • 배당률\"） : 연 2%             •잔존만기 （TT） = 3개월\n         V                                                                                          ____________ 丿\n\n   ① lOOpoint               ② lOlpoint\n\n   ③ 102point               ④ 104point\n\n   EO  F' = 100 [1 +（0.06 - 0.02） X        1 = 101 point. 식에서 黑이 정확한 식이나 근사치인 ・福 으로 계산한다.\n\n             즉, 잔존만기가 날짜로 주어지지 않으면 개월 수로 계산한다.\n                                        国②",
+      "answer_pages": [
+        320
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        320
+      ]
+    },
+    {
+      "id": "S3C6T06-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "P3",
+      "question_page": 321,
+      "demand": "선물10계약 투기손익",
+      "publisher_answer": "②",
+      "explanation_text": "TOPIC\n      선물거래전략TI)\n      투기거래, 헤지거래 皿 ­\n\n\n 핵심문제  다음 자료에 대한 설명으로 가장 적절하지 않은 것은?               • •O\n\n\n              KOSPI200 주가지수선물을 200P에 10계약을 매도(Short Position)하여 190P에 전량 매수\n\n         청산하였다(거래승수는 50만 원으로 가정함).\n\n\n      ① 이 거래에서 거둔 수익은 5천만 원이다.\n\n      ② 차익거래이다.\n\n      ③  신규매도(Short Position) 후 포지션을 청산(Short Covering)하였다,\n\n      @ 방향성전략이다.\n\n   亜 투기거래이다(Speculating). 이 거래에서 수익은 *10pt x 50만 원     - 10계약 = 5천만 원'인데, 50만 원\n\n            은 point를 금액으로 환산해 주는 승수이다.\n\n                                     〈선물매매용어〉\n\n\n                 구 분               매 수               매 도\n\n                 신규매매                 Long Position                 Short Position\n\n                  청산매매             Long Liquidation(전매도)        Short Covering(환매수)",
+      "question_text": "TOPIC\n      선물거래전략TI)\n      투기거래, 헤지거래 皿 ­\n\n\n 핵심문제  다음 자료에 대한 설명으로 가장 적절하지 않은 것은?               • •O\n\n\n              KOSPI200 주가지수선물을 200P에 10계약을 매도(Short Position)하여 190P에 전량 매수\n\n         청산하였다(거래승수는 50만 원으로 가정함).\n\n\n      ① 이 거래에서 거둔 수익은 5천만 원이다.\n\n      ② 차익거래이다.\n\n      ③  신규매도(Short Position) 후 포지션을 청산(Short Covering)하였다,\n\n      @ 방향성전략이다.\n\n   亜 투기거래이다(Speculating). 이 거래에서 수익은 *10pt x 50만 원     - 10계약 = 5천만 원'인데, 50만 원\n\n            은 point를 금액으로 환산해 주는 승수이다.\n\n                                     〈선물매매용어〉\n\n\n                 구 분               매 수               매 도\n\n                 신규매매                 Long Position                 Short Position\n\n                  청산매매             Long Liquidation(전매도)        Short Covering(환매수)\n\n                                        国②",
+      "answer_pages": [
+        321
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-07"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        321,
+        322,
+        323,
+        324
+      ]
+    },
+    {
+      "id": "S3C6T06-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "P3",
+      "question_page": 324,
+      "demand": "매수10계약 손익2500만원",
+      "publisher_answer": "③",
+      "explanation_text": "E圖  5Pt（매도-매수） X 50만 원（거래승수） X 10계약 = +2,500만 원 이처럼 매수한 경우를 Long Position이라\n\n           하며, 매수한 포지션을 청산하는 매도를 Long Liquidation（전매도）이라 한다.",
+      "question_text": "01  다음 거래를 통한 매매손익은?\n\n ••〇\n\n         KOSPI200 지수선물을 200Pt에 10계약을 매수해서 205Pt에 매도청산함（거래승수는 50만 원으로\n\n       가정함）\n\n\n   ① +500만 원              ② -500만 원\n\n   ③ +2,500만 원              ④ 一2,500만 원\n\n   E圖  5Pt（매도-매수） X 50만 원（거래승수） X 10계약 = +2,500만 원 이처럼 매수한 경우를 Long Position이라\n\n           하며, 매수한 포지션을 청산하는 매도를 Long Liquidation（전매도）이라 한다.\n                                        白③",
+      "answer_pages": [
+        324
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-08"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        324
+      ]
+    },
+    {
+      "id": "S3C6T06-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "P3",
+      "question_page": 324,
+      "demand": "랜덤베이시스 헤지",
+      "publisher_answer": "②",
+      "explanation_text": "02  '시장리스크를 회피하기 위하여 베이시스 리스크를 취하는 전략은?\n ••• ① 제로 베이시스 헤ス］（Zero Basis Hedge）\n\n   ② 랜덤 베이시스 헤ス］（Random Basis Hedge）\n\n   ③  베타헤지（Beta Hedge）\n\n             （  4）최소분산헤ス］ （Minimum Variance Hedge）\n\n   EO 헤지포지션을 임의의 시점에서 청산한다고 하여 ,랜덤 베이시스 헤지라 한다. 반면 '제로 베이시스 헤지는 만\n         기 시점에서 청산함으로써 베이시스의 변동으로 인한 손실위험에 노출되지 않는다（베이시스 리스크 제거）.",
+      "question_text": "02  '시장리스크를 회피하기 위하여 베이시스 리스크를 취하는 전략은?\n ••• ① 제로 베이시스 헤ス］（Zero Basis Hedge）\n\n   ② 랜덤 베이시스 헤ス］（Random Basis Hedge）\n\n   ③  베타헤지（Beta Hedge）\n\n             （  4）최소분산헤ス］ （Minimum Variance Hedge）\n\n   EO 헤지포지션을 임의의 시점에서 청산한다고 하여 ,랜덤 베이시스 헤지라 한다. 반면 '제로 베이시스 헤지는 만\n         기 시점에서 청산함으로써 베이시스의 변동으로 인한 손실위험에 노출되지 않는다（베이시스 리스크 제거）.\n                                         圖②",
+      "answer_pages": [
+        324
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-08"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        324
+      ]
+    },
+    {
+      "id": "S3C6T06-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "P3",
+      "question_page": 324,
+      "demand": "베타1.2·120계약매도",
+      "publisher_answer": "④",
+      "explanation_text": "EO 베타계수가 주어졌으므로 베타헤지를 하는 것이 적절하다.\n\n       즉 베타헤지    : h = 을）이3P = 01い 、 =7마 의 X 1.2 =120계약 즉 120계약을 매도하면 된다.\n                    F        200pointx50E! 원\n\n           派 현물보유는 곧 매수포지션이므로, 이에 대한 헤지는 매도헤지가 된다.",
+      "question_text": "03 현물포트폴리오 금액을 완전헤지하기로 한다. 보기의 내용을 가장 정확히 반영한 선물의 계약수\n ••〇 와 그 포지션은?\n\n\n         KOSPI200 지수선물의 가격이 200포인트（거래승수 50만 원 가정）, 현물포트폴리오 100억 원 현물\n\n     포트폴리오의 베타계수가 1.2이다.\n\n\n\n   ① 100계약 매수             ② 100계약 매도\n\n   ③ 120계약 매수             ④ 120계약 매도\n\n   EO 베타계수가 주어졌으므로 베타헤지를 하는 것이 적절하다.\n\n       즉 베타헤지    : h = 을）이3P = 01い 、 =7마 의 X 1.2 =120계약 즉 120계약을 매도하면 된다.\n                    F        200pointx50E! 원\n\n           派 현물보유는 곧 매수포지션이므로, 이에 대한 헤지는 매도헤지가 된다.\n                                         国④",
+      "answer_pages": [
+        324
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-08"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        324
+      ]
+    },
+    {
+      "id": "S3C6T07-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "document": "P3",
+      "question_page": 325,
+      "demand": "매수차익 조건의 잘못된 선택지",
+      "publisher_answer": "③",
+      "explanation_text": "g 매수차익거래는 '선물고평가/현물저평가'상황에서 가능하므로,  Ft > 冃, 4 ー 百 > 0, “ >0. 보유\n\n             비용 > 0, 콘탱고'의 요건이 매수차익거래 요건이 된다.\n\n\n                     '만기가 먼 원월물의 가격이 만기가 가까운 근월물의 가격보다 높을 때' 매수차익거래가\n                가능하다. 叵区! 一 〇 ('원월물 > 근월물'은 콘탱고상태鲁 말함)",
+      "question_text": "TOPIC\n\n       선물거래전략・(2) 차익거래 皿★パ07\n\n\n  핵심문제  다음 중 매수차익거래가 일어날 수 있는 경우는?\n\n       ① 선물가격이 현물가격보다 낮은 경우\n\n       @ 시장베이시스가 백워데이션인 경우\n\n       ③ 보유비용이 0보다 큰 경우\n\n       ④ 시장베이시스가 〇보다 작은 경우\n    g 매수차익거래는 '선물고평가/현물저평가'상황에서 가능하므로,  Ft > 冃, 4 ー 百 > 0, “ >0. 보유\n\n             비용 > 0, 콘탱고'의 요건이 매수차익거래 요건이 된다.\n\n\n                     '만기가 먼 원월물의 가격이 만기가 가까운 근월물의 가격보다 높을 때' 매수차익거래가\n                가능하다. 叵区! 一 〇 ('원월물 > 근월물'은 콘탱고상태鲁 말함)\n\n\n                                         3③",
+      "answer_pages": [
+        325
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-10"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        325,
+        326
+      ]
+    },
+    {
+      "id": "S3C6T07-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "document": "P3",
+      "question_page": 326,
+      "demand": "합성채권과 차익구성",
+      "publisher_answer": "③",
+      "explanation_text": "EO  2point（=Lー耳 = 102- 100）이다. 3point는 a 수익이다.",
+      "question_text": "01  차익거래에 대한 설명이다. 가장 적절하지 않은 것은?\n ••0 ① 우리나라에서는 배당률이 무시할 수 있는 수준이므로 1년 만기 주가지수선물의 이론가격은\n\n       6（1+『）이다（『    ： CD수익률）.\n\n   ② 선물시장가격이 선물이론가격보다 클 경우 매수차익거래가 가능하다.\n   ③ 매수차익거래의 최대이익규모가，금리 +。+ ダ라면, 頃 = 100,  Ft = 105, b・ = 102일 경우\n\n     금리수익에 해당하는 것은 3point이다.\n\n   ④ 합성채권 매수는 채권 매수보다 절세 면에서 유리하다.\n\n   EO  2point（=Lー耳 = 102- 100）이다. 3point는 a 수익이다.\n                                         圖③",
+      "answer_pages": [
+        326
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-10"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        326
+      ]
+    },
+    {
+      "id": "S3C6T07-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "document": "P3",
+      "question_page": 326,
+      "demand": "현물매수·선물매도",
+      "publisher_answer": "②",
+      "explanation_text": "由 선물고평가 一 선물 매도 & 현물 매수 — 매수차익거래（Cash & Carry전략가 된다",
+      "question_text": "02 선물시장의 시장가격이 이론가격（균형가격）보다 높아지면 차익거래가 어떻게 이루어져야 하는가?\n ••° ① 현물 매수 + 선물 매수         ② 현물 매수 + 선물 매도\n\n   ③ 현물 매도 + 선물 매도         ④ 현물 매도 + 선물 매수\n\n  由 선물고평가 一 선물 매도 & 현물 매수 — 매수차익거래（Cash & Carry전략가 된다\n                                        色②",
+      "answer_pages": [
+        326
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-10"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        326
+      ]
+    },
+    {
+      "id": "S3C6T08-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "document": "P3",
+      "question_page": 327,
+      "demand": "원월−근월 축소",
+      "publisher_answer": "②",
+      "explanation_text": "顛 스프레드가 좁혀질 것으로 예상하는 전략이므로 '근월물 매수 + 원월믈 매도'이다.",
+      "question_text": "선물거래 전략・(3) 스프레드거래 皿—\n\n\n\n 핵심문제  선물 근월물의 가격이 90point이고 원월물의 가격이 95point이다. 일반적으로 두 월물간\n       의 정상적인 스프레드가 2이다. 그렇다면 어떤 전략을 취하면 되겠는가?     •••\n\n      ① 근월물 매수 + 원월물 매수\n\n      ② 근월물 매수 + 원월물 매도\n\n      ③ 근월물 매도 + 원월물 매수\n\n      ④ 근월물 매도 + 원월물 매도\n\n   顛 스프레드가 좁혀질 것으로 예상하는 전략이므로 '근월물 매수 + 원월믈 매도'이다.\n                                        且②",
+      "answer_pages": [
+        327
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        327,
+        328
+      ]
+    },
+    {
+      "id": "S3C6T08-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "document": "P3",
+      "question_page": 328,
+      "demand": "근월 강세·스프레드 축소",
+      "publisher_answer": "④",
+      "explanation_text": "由 강세스프레드는 근월물이 원월물보다 더 많이 상승할 것으로 예상될 때（강세장의 경우）이므로 두 계약 간의\n\n        스프레드가 축소될 것으로 예상하고 구축하는 포지션이다（단 선물시장의 정상적인 상태인 콘탱고를 전제）.",
+      "question_text": "이  만기가 다른 두 개의 선물계약 간의 스프레드 전략 중 '강세스프레드에 대한 설명이다. 가장 적절\n ••• 하지 않은 것은?\n\n   ①  시간스프레드（Calendar Spread） 전략에 해당된다.\n\n   ② 강세시장에서는 근월물이 원월물보다 더 많이 상승할 것으로 예상할 때 사용한다.\n\n   ③ 약세시장에서는 근월물이 원월물보다 덜 하락할 것으로 예상할 때 사용한다.\n\n   ④ 선물시장이 콘탱고일 때 두 선물계약의 가격차이가 지금보다 더 벌어질 것이라고 얘상할 때 사용한다\n\n  由 강세스프레드는 근월물이 원월물보다 더 많이 상승할 것으로 예상될 때（강세장의 경우）이므로 두 계약 간의\n\n        스프레드가 축소될 것으로 예상하고 구축하는 포지션이다（단 선물시장의 정상적인 상태인 콘탱고를 전제）.\n                                        国④",
+      "answer_pages": [
+        328
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-11"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        328,
+        329
+      ]
+    },
+    {
+      "id": "S3C6T09-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "document": "P3",
+      "question_page": 330,
+      "demand": "미국형·유럽형 권리",
+      "publisher_answer": "②",
+      "explanation_text": "수 있는 권리\n\n\n      ①  기초자산(Underlying Asset)을 말하며, ‘주식-채권-통회一상품-신용이 5대 기초자산\n\n        으로 통용된다.\n\n      ② 만기 시점에 한 번 권리를 사용할 수 있는(행사할 수 있는) 것이 미국형 옵션이며 만기\n\n         이전 아무 때나 한 번 권리를 사용할 수 것이 유럽형 옵션이다.\n\n      ③ 미리 정한 가격이라 함은 행사가격(Strike Price or Exercise Price)을 의미한다.\n\n      ④ 매수할 권리가 있는 것이 콜옵션이고 매도하는 권리가 있는 것이 풋옵션이다.\n\n   顛 유럽형(만기에만 행사)과 미국형(만기 이전 아무 때나 행사)이 바뀌었다.",
+      "question_text": "TOPIC\n\n     옵션기초\n\n\n\n 핵심문제  다음 중 옵션의 정의에 대한 설명으로 틀린 것은?                 • •O\n\n\n       ① 주어진 자산을 ② 미래의 일정시점에서 ③ 미리 정한 가격으로 ④ 매수 혹은 매도를 할\n\n         수 있는 권리\n\n\n      ①  기초자산(Underlying Asset)을 말하며, ‘주식-채권-통회一상품-신용이 5대 기초자산\n\n        으로 통용된다.\n\n      ② 만기 시점에 한 번 권리를 사용할 수 있는(행사할 수 있는) 것이 미국형 옵션이며 만기\n\n         이전 아무 때나 한 번 권리를 사용할 수 것이 유럽형 옵션이다.\n\n      ③ 미리 정한 가격이라 함은 행사가격(Strike Price or Exercise Price)을 의미한다.\n\n      ④ 매수할 권리가 있는 것이 콜옵션이고 매도하는 권리가 있는 것이 풋옵션이다.\n\n   顛 유럽형(만기에만 행사)과 미국형(만기 이전 아무 때나 행사)이 바뀌었다.\n                                        理②",
+      "answer_pages": [
+        330
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        330,
+        331
+      ]
+    },
+    {
+      "id": "S3C6T09-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "document": "P3",
+      "question_page": 331,
+      "demand": "콜 매수·매도 위험",
+      "publisher_answer": "④",
+      "explanation_text": "E0 콜옵션 매수자는 ’위험한정（프리미엄 지불로 국한） - 기대수익은 무한대'이나 콜옵션 매도자는 '수익한정（프리\n        미엄 수입에 국한） - 위험무한대'이다. 즉, 옵션 매수자에게 일방적으로 유리한 거래이므로 옵션 매수자가 프리\n\n        미엄을 지불해야 거래가 성립한다.",
+      "question_text": "01  콜옵션의 매수, 매도에 대한 설명이다. 가장 적절하지 않은 것은?\n\n•・0 ① 콜옵션 매수자는 프리미엄을 지불하고 낙첨이 되면 프리미엄만큼 손실을 보나, 당첨이 되면 'S\n\n        - X - 프리미엄' 만큼의 이익을 본다.\n\n   ② 콜옵션 매도자는 프리미엄을 받고 거래를 하는데, 옵션이 당첨이 될 경우 'S - X' 만큼을 옵션\n\n     매수자에게 결제해야 한다.\n\n   ③ 옵션 매수자가 이익을 보면 반드시 옵션 매도자가 손실을 보게 되며 그 반대의 경우도 마찬가지인\n\n      데 이를 '제로섬（Zero-Sum）'관계라 한다.\n\n   ④ 옵션 매수자의 위험과 옵션 매도자의 위험은 동일하다.\n\n   E0 콜옵션 매수자는 ’위험한정（프리미엄 지불로 국한） - 기대수익은 무한대'이나 콜옵션 매도자는 '수익한정（프리\n        미엄 수입에 국한） - 위험무한대'이다. 즉, 옵션 매수자에게 일방적으로 유리한 거래이므로 옵션 매수자가 프리\n\n        미엄을 지불해야 거래가 성립한다.\n                                         色④",
+      "answer_pages": [
+        331
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        331,
+        332
+      ]
+    },
+    {
+      "id": "S3C6T09-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "document": "P3",
+      "question_page": 332,
+      "demand": "프리미엄과 증거금",
+      "publisher_answer": "③",
+      "explanation_text": "수수하는 옵션프리미엄보다 훨씬 많은 규모의 증거금을 계좌에서 징구한다.\n\n    EO 옵션 매수는 증거금이 필요 없다. 프리미엄을 지불하는 순간 더 이상의 위험이 발생하지 않기 때문이다.",
+      "question_text": "02 옵션 매수자와 옵션 매도자에 대한 설명이다. 틀린 것은?\n • ・〇\n    ① 옵션 매수자는 처음에 프리미엄을 지불함과 동시에 자신의 '의무'를 다하게 되고 만기에 가서\n\n      권리의 발생여부가 결정된다.\n\n    ② 옵션발행자（매도자）는 처음에 프리미엄을 받는 권리를 누리지만, 만기에 가서 당첨금을 지급하는\n\n     의무가 발생하는지의 여부가 결정된다.\n\n   ③ 거래소는 옵션의 매수자와 발행자에 모두 증거금을 징구하고 있다.\n\n   ④ 옵션 매수는 작은 금액으로도 얼마든지 할 수 있지만, 옵션의 발행은 잠재적 위험이 커지므로\n\n     수수하는 옵션프리미엄보다 훨씬 많은 규모의 증거금을 계좌에서 징구한다.\n\n    EO 옵션 매수는 증거금이 필요 없다. 프리미엄을 지불하는 순간 더 이상의 위험이 발생하지 않기 때문이다.\n                                         国③",
+      "answer_pages": [
+        332
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        332
+      ]
+    },
+    {
+      "id": "S3C6T09-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "document": "P3",
+      "question_page": 332,
+      "demand": "상승시 콜매도손실 그래프",
+      "publisher_answer": "②",
+      "explanation_text": "03 다음 중 시장이 지속적으로 상승할 경우 가장 위험한 옵션의 포지션은 무엇인가?\n •••\n\n\n\n\n\n   ES 차례대로 '콜옵션 매수 - 콜옵션 매도 - 풋옵션 매수 - 풋옵션 매도' 포지션이다. 콜옵션 매도는 시장이 지속적\n        으로 상승하면 무한대의 손실을 볼 수 있다.\n\n\n          심층이 해 옵션의 기본포지션 전략\n\n                        （1） 주가（기초자산가격）의 상승을 전제한 전략\n\n           구 분         콜옵션매수                풋옵션매도\n\n              전 략   주가가 강하게 상승할 것으로 예상   주가가 최소한 하락하지 않을 것으로 예상\n\n                최대손실은 프리미엄손실로 제한되나 큰 폭    프리미엄수입（최대수익）을 먼저            소 익\n                       수익이 가능            확보하지만, 큰 폭 손실이 가능\n\n\n\n                     （2） 주가（기초자산가격）의 하락을 전제한 전략\n\n           구 분         풋옵션매수                콜옵션매도\n\n              전 략   주가가 강하게 하락할 것으로 예상   주가가 최소한 상승하지 않을 것으로 예상\n\n                최대손실은 프리미엄손실로 제한되나 큰 폭    프리미엄수입（최대수익）을 먼저\n            소 익\n                       수익이 가능            확보하지만, 큰 폭 손실이 가능",
+      "question_text": "03 다음 중 시장이 지속적으로 상승할 경우 가장 위험한 옵션의 포지션은 무엇인가?\n •••\n\n\n\n\n\n   ES 차례대로 '콜옵션 매수 - 콜옵션 매도 - 풋옵션 매수 - 풋옵션 매도' 포지션이다. 콜옵션 매도는 시장이 지속적\n        으로 상승하면 무한대의 손실을 볼 수 있다.\n\n\n          심층이 해 옵션의 기본포지션 전략\n\n                        （1） 주가（기초자산가격）의 상승을 전제한 전략\n\n           구 분         콜옵션매수                풋옵션매도\n\n              전 략   주가가 강하게 상승할 것으로 예상   주가가 최소한 하락하지 않을 것으로 예상\n\n                최대손실은 프리미엄손실로 제한되나 큰 폭    프리미엄수입（최대수익）을 먼저            소 익\n                       수익이 가능            확보하지만, 큰 폭 손실이 가능\n\n\n\n                     （2） 주가（기초자산가격）의 하락을 전제한 전략\n\n           구 분         풋옵션매수                콜옵션매도\n\n              전 략   주가가 강하게 하락할 것으로 예상   주가가 최소한 상승하지 않을 것으로 예상\n\n                최대손실은 프리미엄손실로 제한되나 큰 폭    프리미엄수입（최대수익）을 먼저\n            소 익\n                       수익이 가능            확보하지만, 큰 폭 손실이 가능\n\n\n                                        9②",
+      "answer_pages": [
+        332
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        332
+      ]
+    },
+    {
+      "id": "S3C6T10-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 333,
+      "demand": "콜20·풋0의 내재가치",
+      "publisher_answer": "②",
+      "explanation_text": "酗 풋옵션의 내재가치(y) = Max(0, X - Sr)이다. 즉 y = Max(0, 100 - 120)이므로 ,〇'이 된다. 옵션의 수익\n\n            구조는 복권의 구조와 유사한데, 복권에서 낙첨되었다고 해서 손실을 지급하지 않는다('복권구입비 二\n\n            옵션가격 = 옵션프리미엄'만 잃는 것으로 끝이다).",
+      "question_text": "옵션내재가치와 옵션가격 皿10\n\n\n 핵심문제  다음 자료에 대한 설명으로 옳지 않은 것은?(옵션의 내재가치 식에서 편의상 옵션프리미\n       엄은 없다고 가정함)                                   • •O\n\n\n                             • 주가지수옵션이고 행사가격이 100이고 기초자산 가격이 120이다.\n                             • 콜옵션의 내재가치(y) = Max(0, St - X)\n                           ・ 풋옵션의 내재가치(y) = Max(0, X - St)\n\n\n      ① 콜옵션이라면 내재가치는 20이다.\n\n      ② 풋옵션이라면 내재가치는 -20이다.\n\n      ③ 위의 조건에서 콜옵션은 당첨상태이다.\n\n      ④ 위의 조건에서 풋옵션은 낙첨상태이다.\n\n   酗 풋옵션의 내재가치(y) = Max(0, X - Sr)이다. 즉 y = Max(0, 100 - 120)이므로 ,〇'이 된다. 옵션의 수익\n\n            구조는 복권의 구조와 유사한데, 복권에서 낙첨되었다고 해서 손실을 지급하지 않는다('복권구입비 二\n\n            옵션가격 = 옵션프리미엄'만 잃는 것으로 끝이다).\n\n                                        且②",
+      "answer_pages": [
+        333
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        333,
+        334,
+        335
+      ]
+    },
+    {
+      "id": "S3C6T10-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 335,
+      "demand": "콜 내재가치",
+      "publisher_answer": "②",
+      "explanation_text": "태라 한다.\n\n   EO  y = Max(o, St - X)에서 'St < X'일 때는 내재가치가 마이너스㈠가 아니라 〇이다. 정확한 수익구조는  y\n            = Max(O, St - X) - ゼ인데 편의상 콜옵션 매수비용(c)을 생략한다.\n           冰 콜옵션의 내재가치   : y = Max(O, St - X), 즉 콜옵션의 내재가치는 기초자산의 가격이 높올수록, 행사가격이\n         낮을수록 커진다.\n       固 풋옵션의 경우｛y = Max(O, X - St)｝는 정확히 콜옵션과 반대로 해석하면 된다.",
+      "question_text": "01  ’콜옵션의 내재가치(y) = Max(o, St - xy에 대한 설명이다. 틀린 것은?\n**° ① 행사가격이 80이고 만기 시 기초자산의 가격이 100이면 콜옵션의 내재가치는 20이다.\n\n   ② 행사가격이 80이고 만기 시 기초자산의 가격이 60이면 콜옵션의 내재가치는 -20이다.\n\n   ③ 콜옵션의 내재가치는 기초자산가격이 행사가격보다 높을수록 커진다,\n\n   ④ 만기시점의 기초자산가격이 행사가격보다 높으면 당첨상태라 하고, 행사가격보다 낮으면 낙첨상\n\n     태라 한다.\n\n   EO  y = Max(o, St - X)에서 'St < X'일 때는 내재가치가 마이너스㈠가 아니라 〇이다. 정확한 수익구조는  y\n            = Max(O, St - X) - ゼ인데 편의상 콜옵션 매수비용(c)을 생략한다.\n           冰 콜옵션의 내재가치   : y = Max(O, St - X), 즉 콜옵션의 내재가치는 기초자산의 가격이 높올수록, 행사가격이\n         낮을수록 커진다.\n       固 풋옵션의 경우｛y = Max(O, X - St)｝는 정확히 콜옵션과 반대로 해석하면 된다.\n                                       目②",
+      "answer_pages": [
+        335
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        335
+      ]
+    },
+    {
+      "id": "S3C6T10-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 335,
+      "demand": "콜 시간가치.5",
+      "publisher_answer": "②",
+      "explanation_text": "EO 옵션가격(프리미엄) = 내재가치 + 시간가치. 콜옵션의 내재가치는 V = Max(0, St - X)이다. 즉\n            S - X = 103 - 100 = 3이다♦ 따라서 3.5 : 3.0 + 시간가치, 시간가치 = 0.5이다.\n\n         주의   29회 시험에서는 동 문항과 거의 동일한 형태에서 콜옵션의 내재가치를 물어보는 것으로 출제되었\n\n                다(동 문항에서 내재가치는 3.0).",
+      "question_text": "02 주가지수옵션에서 행사가격이 100인 콜옵션의 현재가격은 3.5이다. 현재 기초자산의 가격\n•••  (KOSPI200)0| 103이라면 이 옵션의 시간가치는 얼마인가?(단위   ： point)\n\n    ①0.3                         ②0.5\n\n   ③1                    ④3\n\n   EO 옵션가격(프리미엄) = 내재가치 + 시간가치. 콜옵션의 내재가치는 V = Max(0, St - X)이다. 즉\n            S - X = 103 - 100 = 3이다♦ 따라서 3.5 : 3.0 + 시간가치, 시간가치 = 0.5이다.\n\n         주의   29회 시험에서는 동 문항과 거의 동일한 형태에서 콜옵션의 내재가치를 물어보는 것으로 출제되었\n\n                다(동 문항에서 내재가치는 3.0).\n                                        图②",
+      "answer_pages": [
+        335
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        335
+      ]
+    },
+    {
+      "id": "S3C6T10-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 335,
+      "demand": "OTM콜 가격·증거금",
+      "publisher_answer": "④",
+      "explanation_text": "EO ① C(80)은 S(기초자산)가 80일 때 등가격(ATM), S > 80이면 내가격(ITM, 당첨상태), S < 80이면 외가격\n                 (OTM, 낙첨상태)이다.\n       ② '옵션가격(0.8) = 내재가치(0) + 시간가치(0.8)'이다.\n       ③C = S- X 이므로 S 가 올라갈수록, X가 내려갈수록 C 의 가치는 상승한다.\n       ④ 옵션 매수자는 옵션 매도자에게 프리미엄을 지불하면 거래가 성립한다. 옵션 매수자의 경우 최대손실이 프리미\n         엄이므로 증거금을 납부할 필요가 없으나, 옵션 매도자는 -8의 위험을 부담하므로 증거금을 납부해야 한다.",
+      "question_text": "03 기초자산가격이 70이며 행사가격이 80인 콜옵션에 대한 설명이다. 가장 거리가 먼 것은?\n••0 ① 이 옵션은 외가격 옵션이다.\n\n          (   2) 이 옵션의 프리미엄이 0.8이라면 시간가치가 0.8이다.\n\n   ③ 이 옵션의 가치는 기초자산의 가격이 올라 갈수록 커진다.\n\n   ④ 이 옵션을 매수하기 위해서는 증거금을 납부해야 한다.\n\n   EO ① C(80)은 S(기초자산)가 80일 때 등가격(ATM), S > 80이면 내가격(ITM, 당첨상태), S < 80이면 외가격\n                 (OTM, 낙첨상태)이다.\n       ② '옵션가격(0.8) = 내재가치(0) + 시간가치(0.8)'이다.\n       ③C = S- X 이므로 S 가 올라갈수록, X가 내려갈수록 C 의 가치는 상승한다.\n       ④ 옵션 매수자는 옵션 매도자에게 프리미엄을 지불하면 거래가 성립한다. 옵션 매수자의 경우 최대손실이 프리미\n         엄이므로 증거금을 납부할 필요가 없으나, 옵션 매도자는 -8의 위험을 부담하므로 증거금을 납부해야 한다.\n                                        目④",
+      "answer_pages": [
+        335
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        335,
+        336
+      ]
+    },
+    {
+      "id": "S3C6T10-SUP-04",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 336,
+      "demand": "콜BEP103",
+      "publisher_answer": "③",
+      "explanation_text": "콜 매수 손익분기점=행사가격100+프리미엄3=103. 정확히103에서는 손익0, 양의 이익은103 초과다.",
+      "question_text": "",
+      "answer_pages": [
+        336
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        336
+      ],
+      "fallback_pages": [
+        {
+          "page": 336,
+          "text": " 04 행사가격 100인 콜옵션을 프리미엄 3을 주고 매수했다. 이 경우 콜옵션 매수자의 손익분기점\n •••  (BEP)은 어디인가?\n\n   ① 97point                ② 100point\n\n   ③ 103point                                (4)106point\n\n   石旧 손익분기점(BEP   ； Break Even Point)은 행사가격에 프리미엄 지불비용을 더한 것이다. 즉 ,100 + 3 = 103,이\n\n              다. 기초자산가격이 103point 이상이 되어야 수익이 된다는 것이다,\n                                         国③\n\n\n\n\n\n 05 현재 주가지수옵션의 기초자산가격이 250일 때 시간가치가 가장 높은 옵션은?\n •・。\n   ① C(240)                ② C(250)\n\n   ③ 0(255)                ④ 0(280)\n\n   EO  등가격(ATM)일 때의 시간가치가 가장 높다.\n                                         9②\n\n\n\n\n\n 06  KOSPI200지수를 기초자산으로 하는 주가지수옵션에서, 기초자산가격이 253point이고 행사가\n    격이 250point인 풋옵션의 옵션프리미엄이 LOpoint이다. 이 경우 동 풋옵션의 시간가치는 얼마\n\n    인가?(단위   : point)\n\n    ①〇                     ②1\n\n    ③2                   @ 3\n\n   GO 풋옵션의 내재가치(Yp)는 'Max(0, X - St)'이므로 'Max(0, 250 - 253) = 〇’이다. 따라서 동 풋옵션의 옵션프리\n        미엄에는 시간가치만 존재한다.\n\n           派 P(250)의 옵션프리미엄(1.0) = 내재가치(0) + 시간가치(1.0)\n\n\n          학습안내 옵션의 시간가치를 묻는 문제는 자주 출제가 되는데, 콜옵션의 시간가치는 보충문제 2, 3번에\n\n               있는 바, 풋옵션의 시간가치 문제에 대비하는 차원에서 동 문항을 보강한다.\n\n\n                                        9②\n\n\n336 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등"
+        }
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T10-SUP-05",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 336,
+      "demand": "ATM 시간가치",
+      "publisher_answer": "②",
+      "explanation_text": "같은 다른 조건에서 교재는 등가격 C(250)의 시간가치를 가장 높게 본다.",
+      "question_text": "",
+      "answer_pages": [
+        336
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        336
+      ],
+      "fallback_pages": [
+        {
+          "page": 336,
+          "text": " 04 행사가격 100인 콜옵션을 프리미엄 3을 주고 매수했다. 이 경우 콜옵션 매수자의 손익분기점\n •••  (BEP)은 어디인가?\n\n   ① 97point                ② 100point\n\n   ③ 103point                                (4)106point\n\n   石旧 손익분기점(BEP   ； Break Even Point)은 행사가격에 프리미엄 지불비용을 더한 것이다. 즉 ,100 + 3 = 103,이\n\n              다. 기초자산가격이 103point 이상이 되어야 수익이 된다는 것이다,\n                                         国③\n\n\n\n\n\n 05 현재 주가지수옵션의 기초자산가격이 250일 때 시간가치가 가장 높은 옵션은?\n •・。\n   ① C(240)                ② C(250)\n\n   ③ 0(255)                ④ 0(280)\n\n   EO  등가격(ATM)일 때의 시간가치가 가장 높다.\n                                         9②\n\n\n\n\n\n 06  KOSPI200지수를 기초자산으로 하는 주가지수옵션에서, 기초자산가격이 253point이고 행사가\n    격이 250point인 풋옵션의 옵션프리미엄이 LOpoint이다. 이 경우 동 풋옵션의 시간가치는 얼마\n\n    인가?(단위   : point)\n\n    ①〇                     ②1\n\n    ③2                   @ 3\n\n   GO 풋옵션의 내재가치(Yp)는 'Max(0, X - St)'이므로 'Max(0, 250 - 253) = 〇’이다. 따라서 동 풋옵션의 옵션프리\n        미엄에는 시간가치만 존재한다.\n\n           派 P(250)의 옵션프리미엄(1.0) = 내재가치(0) + 시간가치(1.0)\n\n\n          학습안내 옵션의 시간가치를 묻는 문제는 자주 출제가 되는데, 콜옵션의 시간가치는 보충문제 2, 3번에\n\n               있는 바, 풋옵션의 시간가치 문제에 대비하는 차원에서 동 문항을 보강한다.\n\n\n                                        9②\n\n\n336 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등"
+        }
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T10-SUP-06",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 336,
+      "demand": "풋 시간가치1",
+      "publisher_answer": "②",
+      "explanation_text": "풋 내재가치=max(250-253,0)=0, 시간가치=1.",
+      "question_text": "",
+      "answer_pages": [
+        336
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-12",
+        "S3C6-ISSUE-13"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        336
+      ],
+      "fallback_pages": [
+        {
+          "page": 336,
+          "text": " 04 행사가격 100인 콜옵션을 프리미엄 3을 주고 매수했다. 이 경우 콜옵션 매수자의 손익분기점\n •••  (BEP)은 어디인가?\n\n   ① 97point                ② 100point\n\n   ③ 103point                                (4)106point\n\n   石旧 손익분기점(BEP   ； Break Even Point)은 행사가격에 프리미엄 지불비용을 더한 것이다. 즉 ,100 + 3 = 103,이\n\n              다. 기초자산가격이 103point 이상이 되어야 수익이 된다는 것이다,\n                                         国③\n\n\n\n\n\n 05 현재 주가지수옵션의 기초자산가격이 250일 때 시간가치가 가장 높은 옵션은?\n •・。\n   ① C(240)                ② C(250)\n\n   ③ 0(255)                ④ 0(280)\n\n   EO  등가격(ATM)일 때의 시간가치가 가장 높다.\n                                         9②\n\n\n\n\n\n 06  KOSPI200지수를 기초자산으로 하는 주가지수옵션에서, 기초자산가격이 253point이고 행사가\n    격이 250point인 풋옵션의 옵션프리미엄이 LOpoint이다. 이 경우 동 풋옵션의 시간가치는 얼마\n\n    인가?(단위   : point)\n\n    ①〇                     ②1\n\n    ③2                   @ 3\n\n   GO 풋옵션의 내재가치(Yp)는 'Max(0, X - St)'이므로 'Max(0, 250 - 253) = 〇’이다. 따라서 동 풋옵션의 옵션프리\n        미엄에는 시간가치만 존재한다.\n\n           派 P(250)의 옵션프리미엄(1.0) = 내재가치(0) + 시간가치(1.0)\n\n\n          학습안내 옵션의 시간가치를 묻는 문제는 자주 출제가 되는데, 콜옵션의 시간가치는 보충문제 2, 3번에\n\n               있는 바, 풋옵션의 시간가치 문제에 대비하는 차원에서 동 문항을 보강한다.\n\n\n                                        9②\n\n\n336 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등"
+        }
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T11-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 337,
+      "demand": "방향성 vs 변동성",
+      "publisher_answer": "①",
+      "explanation_text": "강세스프레드는 방향성전략이다. 스트랭글매도를 변동성매수라고 쓴 해설은 잘못이며 변동성매도다.",
+      "question_text": "TOPIC\n      옵션합성전략・(1) 방향성전략 \"…11\n\n 핵심문제  다음 중 방향성전략에 해당하는 것은?                     •••\n\n      ① 강세 스프레드           ② 스트래늘 매수\n\n      ③ 스트랭글 매수                (4)스트랭글 매도\n\n   的 스프레드는 방향성전략에 속한다. ②, ③, ④는 모두 변동성매수전략에 속한다.\n\n                                        国①",
+      "answer_pages": [
+        337
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-14"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        337
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T11-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 339,
+      "demand": "하락시 풋매도 그래프",
+      "publisher_answer": "④",
+      "explanation_text": "01  다음 중 시장이 지속적으로 하락할 경우 가장 위험한 옵션의 포지션은?\n\n\n\n\n\n   EO 차례대로 ’콜옵션 매수 - 콜옵션 매도 - 풋옵션 매수 - 풋옵션 매도 포지션이다. 풋옵션 매도는 시장이 지속적\n       으로 하락하면 큰 폭의 손실을 볼 수 있다（이론상으로는 기초자산가격이 제로가 될 때 최대손실을 기록）.",
+      "question_text": "01  다음 중 시장이 지속적으로 하락할 경우 가장 위험한 옵션의 포지션은?\n\n\n\n\n\n   EO 차례대로 ’콜옵션 매수 - 콜옵션 매도 - 풋옵션 매수 - 풋옵션 매도 포지션이다. 풋옵션 매도는 시장이 지속적\n       으로 하락하면 큰 폭의 손실을 볼 수 있다（이론상으로는 기초자산가격이 제로가 될 때 최대손실을 기록）.\n                                        图④",
+      "answer_pages": [
+        339
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        339
+      ]
+    },
+    {
+      "id": "S3C6T11-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 339,
+      "demand": "강세콜·theta오류",
+      "publisher_answer": "①",
+      "explanation_text": "覇西 스프레드전략은 이익과 손실을 제한하는 보수적인 방향성 전략이다. 위의 전략은 기초자산가격이 80 이상으로\n\n       상승할 가능성이 크기는 하지만 그 상승폭이 제한적일 것으로 예상할 경우의 전략이다.",
+      "question_text": "02 다음 포지션에 대한 설명으로 틀린 것은?（콜옵션으로 구성됨）\n\n\n\n\n\n   ① 주가강세가 예상될 경우 사용하는 적극적인 방향성 전략이다.\n\n   ② 옵션 매수와 옵션 매도를 합성하여 시간가치 감소현상으로 부터 자유롭다.\n\n   ③ 행사가격이 낮은 콜옵션을 매수하고 행사가격이 높은 콜옵션을 매도하였으므로 콜 강세 스프레드\n\n      이다.\n\n   ④ 돈을 주고 시작한다.\n\n   覇西 스프레드전략은 이익과 손실을 제한하는 보수적인 방향성 전략이다. 위의 전략은 기초자산가격이 80 이상으로\n\n       상승할 가능성이 크기는 하지만 그 상승폭이 제한적일 것으로 예상할 경우의 전략이다.\n                                        目①",
+      "answer_pages": [
+        339
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        339,
+        340
+      ]
+    },
+    {
+      "id": "S3C6T11-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 340,
+      "demand": "콜베어 구성",
+      "publisher_answer": "③",
+      "explanation_text": "整整1 ① 콜 불스프레드, ② 풋 불스프레드, ③ 콜 베어스프레드, ④ 풋 베어스프레드\n\n           ※ 스프레드포지션의 약식 이해\n         ① C(100)매수 & C(110) 매도   : 행사가격이 낮은 콜옵션을 매수하고 행사가격이 높은 콜옵션을 매도하였\n\n               。므루, ‘콜강세스프레드(Call  Bull Spread)'이다,\n         ② P(100)매수 & P(110) 매도   : 콜강세스프레드(①)에서 C가 P로 바뀌었으므로 '풋강세스프레드(Put Bull\n\n                    Spread)'에 해당된다,\n        ③ C(100)매도 & C(110) 매수     : 콜강세스프레드(①)에서 매수와 매도가 바뀌었으므로 ,콜약세스프레드\n\n                           (Call Bear Spread)'에 해당된다.\n\n                         (4) P(100)매도 & P(110) 매수   : 콜강세스프레드(①)에서 C가 P로, 그리고 매수와 매도가 바뀌었으므로 .풋\n\n               약세스프레드(Put Bear Spread)'에 해당된다.",
+      "question_text": "03  다음 중 콜 베어스프레드는?\n\n **° ① C(100) 매수 1계약 + C(110) 매도 1계약\n\n   ② P(100) 매수 1계약 + P(110) 매도 1계약\n\n   ③ C(100) 매도 1계약 + 0(110) 매수 1계약\n\n   ④ P(100) 매도 1계약 + P(110) 매수 1계약\n\n     整整1 ① 콜 불스프레드, ② 풋 불스프레드, ③ 콜 베어스프레드, ④ 풋 베어스프레드\n\n           ※ 스프레드포지션의 약식 이해\n         ① C(100)매수 & C(110) 매도   : 행사가격이 낮은 콜옵션을 매수하고 행사가격이 높은 콜옵션을 매도하였\n\n               。므루, ‘콜강세스프레드(Call  Bull Spread)'이다,\n         ② P(100)매수 & P(110) 매도   : 콜강세스프레드(①)에서 C가 P로 바뀌었으므로 '풋강세스프레드(Put Bull\n\n                    Spread)'에 해당된다,\n        ③ C(100)매도 & C(110) 매수     : 콜강세스프레드(①)에서 매수와 매도가 바뀌었으므로 ,콜약세스프레드\n\n                           (Call Bear Spread)'에 해당된다.\n\n                         (4) P(100)매도 & P(110) 매수   : 콜강세스프레드(①)에서 C가 P로, 그리고 매수와 매도가 바뀌었으므로 .풋\n\n               약세스프레드(Put Bear Spread)'에 해당된다.\n                                        国③",
+      "answer_pages": [
+        340
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        340,
+        341
+      ]
+    },
+    {
+      "id": "S3C6T11-SUP-04",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 341,
+      "demand": "강세풋−1.5",
+      "publisher_answer": "④",
+      "explanation_text": "매수풋손익=-1.5,매도풋손익=-5+5=0,합계-1.5point.",
+      "question_text": "04 행사가격이 295인 풋옵션을 1.5포인트에 사고 행사가격이 300인 풋옵션을 5.0포인트에 매도하\n•••  였다. 옵션만기시점에 주가지수가 295에 끝났다면 이 포지션의 순손익규모를 옳게 표현한 것\n    은?(KOSPI200지수옵션, 1계약 매매, 단위는 Point)\n\n   ①  3.5포인트, 이익\n\n   ②  3.5포인트. 손실\n\n   ③  1.5포인트, 이익\n\n   ④  1.5포인트, 손실\n\n  团 스프레드포지션의 손익은 매수포지션과 매도포지션을 나누어서 차례로 계산한다.\n                    (1)   P(295) 매수포지션의 손익  : 차익 - 옵션프리미엄 = (295 - 295) - 1.5 = ㈠ 1.5pt\n        一 풋옵션매수는 매수가격으로부터 결제가격이 하락해야 수익이 나는데, 동 포지션에서는 매수가격과 같은\n\n           가격으로 마감하였으므로 차익은 없다. 따라서 지불한 옵션프리미엄(1.5\")만큼 손실이다.\n\n                  (2)   P(300) 매도포지션의 손익   ： - {(차익 - 옵션프리미엄)} = \" ((300 - 295) - 5.0} = 0\n        一 행사가격 300에서 매수한 포지션의 손익을 결제해야 하는 입장이므로, P(300) 매수포지션의 손익을 먼\n\n            저 계산하고, 그 반대를 적용하면 된다.\n\n        一 개념적으로 이해하면 다음과 같다. 풋옵션을 300에 매도하였는데 295에 마감하였으므로 상대방(풋옵션\n\n            매수자)에게 5P를 결제해야 한다(-5.0p). 그러나 옵션을 매도하면서 확보한 프리미엄수입이 +5.0p이므\n\n           로 손익은 제로이다.\n\n                   (3) 따라서 동 합성포지션(풋불스프레드)의 최종손익은 -1.5p이다.\n\n            정리\n\n               구분             S=290       S=295       S=297       S=300        S=310\n\n                   P(295)매수-1.5 point        +3.5           -1.5           -1.5            -1.5            -1.5\n\n                  P(300)매도+5.0 point      - 5.0            0            +2.0          +5.0          +5.0\n\n               손익합계               -1.5            -1.5          +0.5          +3.5          +3.5\n\n                                一최대손실  손익변동구간  최대이익一\n\n                        • 즉 동 포지션(풋불스프레드)에서는 S가 295 이하일 때 최대손실(7.5p), S가 300 이상일 때 최대이익(+3.5p)이\n\n           된다. 강세풋스프레드는 돈을 받고 시작하므로 프리미엄수입(+5.07.5 = +3.5)이 최대이익이 된다.\n     ノ 스프레드포지션 손익계산(그림으로 이해하기)\n\n                                                          * 최대이익: 프리미엄차이가 최대수익\n            손익\n                                 최대이익         이 된다(돈올 받고 시작하므로). 즉,\n                                                                                          P(295) 매입 시 지불한 ㈠ 1.5,\n                                                                                      P(300) 매도시 수취한(+)5.0\n                          P(295)매수 & P30〇)매도                                                                       ­,■ 최대이익   : (+)3.5포인트\n                一 강세풋스프레드\n\n\n\n\n\n                                           기초자산가격\n\n\n\n                                           * 최대손실   : P(300)매도에서 잃을 수 있는\n                       최대손실      매매손실은 (一)5.0포인트, 여기서 포지\n                                 션구축 시 프리미엄수입이 (+)3.5포인트\n                                   를 합산하면 (一)1.5포인트가 된다.\n                                   최대손실   : (-)1.5포인트\n\n\n\n\n\n                                           제6장 파생상품투자운용/투자전략 341\n",
+      "answer_pages": [
+        341
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-16"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        341
+      ],
+      "fallback_pages": [
+        {
+          "page": 341,
+          "text": "04 행사가격이 295인 풋옵션을 1.5포인트에 사고 행사가격이 300인 풋옵션을 5.0포인트에 매도하\n•••  였다. 옵션만기시점에 주가지수가 295에 끝났다면 이 포지션의 순손익규모를 옳게 표현한 것\n    은?(KOSPI200지수옵션, 1계약 매매, 단위는 Point)\n\n   ①  3.5포인트, 이익\n\n   ②  3.5포인트. 손실\n\n   ③  1.5포인트, 이익\n\n   ④  1.5포인트, 손실\n\n  团 스프레드포지션의 손익은 매수포지션과 매도포지션을 나누어서 차례로 계산한다.\n                    (1)   P(295) 매수포지션의 손익  : 차익 - 옵션프리미엄 = (295 - 295) - 1.5 = ㈠ 1.5pt\n        一 풋옵션매수는 매수가격으로부터 결제가격이 하락해야 수익이 나는데, 동 포지션에서는 매수가격과 같은\n\n           가격으로 마감하였으므로 차익은 없다. 따라서 지불한 옵션프리미엄(1.5\")만큼 손실이다.\n\n                  (2)   P(300) 매도포지션의 손익   ： - {(차익 - 옵션프리미엄)} = \" ((300 - 295) - 5.0} = 0\n        一 행사가격 300에서 매수한 포지션의 손익을 결제해야 하는 입장이므로, P(300) 매수포지션의 손익을 먼\n\n            저 계산하고, 그 반대를 적용하면 된다.\n\n        一 개념적으로 이해하면 다음과 같다. 풋옵션을 300에 매도하였는데 295에 마감하였으므로 상대방(풋옵션\n\n            매수자)에게 5P를 결제해야 한다(-5.0p). 그러나 옵션을 매도하면서 확보한 프리미엄수입이 +5.0p이므\n\n           로 손익은 제로이다.\n\n                   (3) 따라서 동 합성포지션(풋불스프레드)의 최종손익은 -1.5p이다.\n\n            정리\n\n               구분             S=290       S=295       S=297       S=300        S=310\n\n                   P(295)매수-1.5 point        +3.5           -1.5           -1.5            -1.5            -1.5\n\n                  P(300)매도+5.0 point      - 5.0            0            +2.0          +5.0          +5.0\n\n               손익합계               -1.5            -1.5          +0.5          +3.5          +3.5\n\n                                一최대손실  손익변동구간  최대이익一\n\n                        • 즉 동 포지션(풋불스프레드)에서는 S가 295 이하일 때 최대손실(7.5p), S가 300 이상일 때 최대이익(+3.5p)이\n\n           된다. 강세풋스프레드는 돈을 받고 시작하므로 프리미엄수입(+5.07.5 = +3.5)이 최대이익이 된다.\n     ノ 스프레드포지션 손익계산(그림으로 이해하기)\n\n                                                          * 최대이익: 프리미엄차이가 최대수익\n            손익\n                                 최대이익         이 된다(돈올 받고 시작하므로). 즉,\n                                                                                          P(295) 매입 시 지불한 ㈠ 1.5,\n                                                                                      P(300) 매도시 수취한(+)5.0\n                          P(295)매수 & P30〇)매도                                                                       ­,■ 최대이익   : (+)3.5포인트\n                一 강세풋스프레드\n\n\n\n\n\n                                           기초자산가격\n\n\n\n                                           * 최대손실   : P(300)매도에서 잃을 수 있는\n                       최대손실      매매손실은 (一)5.0포인트, 여기서 포지\n                                 션구축 시 프리미엄수입이 (+)3.5포인트\n                                   를 합산하면 (一)1.5포인트가 된다.\n                                   최대손실   : (-)1.5포인트\n\n\n\n\n\n                                           제6장 파생상품투자운용/투자전략 341"
+        },
+        {
+          "page": 342,
+          "text": " 05 행사가격이 300P인 풋옵션을 계약 매도(프리미엄 5point)하고, 행사가격이 290p인 풋옵션을\n ••• 1계약 매수(프리미엄 1.5point)하였다. 만기시점에 청산된 기초자산가격이 295P라고 할 때, 이\n\n    스프레드포지션의 손익은 얼마인가?\n\n   ① 1.5포인트 손실            ② 1.5포인트 이익\n\n   ③ 3.5포인트 손실            ④ 3.5포인트 이익\n\n   EO 옵션스프레드 포지션의 손익은 매수포지션과 매도포지션으로 나누어 차례로 계산한다(아래 풀이).\n\n           浓 옵션스프레드 손익계산오리지널 방식)\n                           (1) 풋옵션 매수포지션의 손익     : 290P에 매수하고 295P에 종료되었으므로, 손익은 'Max(290-295, 0) -\n                          1.5 = 0 - 1,5 = (-)1.5 point'이다.\n\n                                    • 풋옵션매수는 매수 후 기초자산가격이 하락해야 수익이 나는데 동 문항에서는 상승하였으므로, 프리\n\n            미엄손실만 발생하였음\n\n                        (2) 풋옵션 매도포지션의 손익   : 300p에 매도하고 295P에 종료되었으므로 풋옵션매수자의 수익 +5.0point\n\n           를 결제를 해주어야 하는 입장이다. 따라서 손익은 1- {Max(300-295. 0)} + 5.0 = -5.0 + 5.0 = 0\n\n                     point'이다.\n\n                                    • 옵션매도자는 옵션매수자에게 수익발생 시 결제해야 할 의무가 생기므로, 옵션매수자의 손익을 먼저\n\n            계산하고 반대㈠로 적용하면 된다.\n\n                       (3) 따라서 동 포지션(풋불스프레드)의 최종손익은 (-)1.5point이다.\n\n                        ► 약식풀이 1('돈을 받고 시작하^' 포지션은 최대이익이 먼저 결정되고 만기시점의 청산가격에 따라 최종손\n\n                                                      익이 결정된다)  ________________\n\n                            (1) 최대이 익(옵션프리미엄 순수취수익)  日 2) 촤종손익(옵션프리미엄 순수차수익 - 만기정산손악쥐)\n\n\n                             +5.0 너.5 = (+)3,5                           +3.5 -5.0 = (-)1.5\n\n                          * 주1    : 풋옵션을 300에 매도하고 만기일에 295011 청산하므로, 만기정산손익이 -5.0포인트이다.\n\n                         » 약식풀이 2(프리미엄손익과 정산손익으로 나누어 계산하고 최종합산 한다)\n\n               만기 295 마감 시       ① 프리미엄손익        ② 정산손익\n\n                               P(290) 매수                        -1.5                           0\n\n                              P(300) 매도                     +5.0                         -5.0\n\n              ③ 최종손익                              +3.5 - 5,0 = (-)1.5\n\n\n         추가예시\n\n               C(100)을 3.0포인트에 매수하고 C(105)를 2포인트에 매도하였다(1계약씩). 만기일에 청산된 기초자산가격\n\n          이 105일 경우 동 스프레드포지션의 손익은?\n\n                        * 약식풀이 2   : 스프레드 손익은 +4.0이다.\n\n              만기 105 마감 시       ①프리미엄 손익        ② 정산손익\n\n                             C(100) 매수                      -3.0                         +5.0\n\n                      Cd 05) 매도                      +2.0                           0\n\n             ③ 최종손익                              -1.0+5,0 = (+)4,0\n\n\n\n          학습안내  '약식풀이 2’가 가장 간편한 측면이 있다(권장).\n\n                                        9①\n\n\n\n\n\n342 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등"
+        }
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T11-SUP-05",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 342,
+      "demand": "다른행사가 강세풋−1.5",
+      "publisher_answer": "①",
+      "explanation_text": "EO 옵션스프레드 포지션의 손익은 매수포지션과 매도포지션으로 나누어 차례로 계산한다(아래 풀이).\n\n           浓 옵션스프레드 손익계산오리지널 방식)\n                           (1) 풋옵션 매수포지션의 손익     : 290P에 매수하고 295P에 종료되었으므로, 손익은 'Max(290-295, 0) -\n                          1.5 = 0 - 1,5 = (-)1.5 point'이다.\n\n                                    • 풋옵션매수는 매수 후 기초자산가격이 하락해야 수익이 나는데 동 문항에서는 상승하였으므로, 프리\n\n            미엄손실만 발생하였음\n\n                        (2) 풋옵션 매도포지션의 손익   : 300p에 매도하고 295P에 종료되었으므로 풋옵션매수자의 수익 +5.0point\n\n           를 결제를 해주어야 하는 입장이다. 따라서 손익은 1- {Max(300-295. 0)} + 5.0 = -5.0 + 5.0 = 0\n\n                     point'이다.\n\n                                    • 옵션매도자는 옵션매수자에게 수익발생 시 결제해야 할 의무가 생기므로, 옵션매수자의 손익을 먼저\n\n            계산하고 반대㈠로 적용하면 된다.\n\n                       (3) 따라서 동 포지션(풋불스프레드)의 최종손익은 (-)1.5point이다.\n\n                        ► 약식풀이 1('돈을 받고 시작하^' 포지션은 최대이익이 먼저 결정되고 만기시점의 청산가격에 따라 최종손\n\n                                                      익이 결정된다)  ________________\n\n                            (1) 최대이 익(옵션프리미엄 순수취수익)  日 2) 촤종손익(옵션프리미엄 순수차수익 - 만기정산손악쥐)\n\n\n                             +5.0 너.5 = (+)3,5                           +3.5 -5.0 = (-)1.5\n\n                          * 주1    : 풋옵션을 300에 매도하고 만기일에 295011 청산하므로, 만기정산손익이 -5.0포인트이다.\n\n                         » 약식풀이 2(프리미엄손익과 정산손익으로 나누어 계산하고 최종합산 한다)\n\n               만기 295 마감 시       ① 프리미엄손익        ② 정산손익\n\n                               P(290) 매수                        -1.5                           0\n\n                              P(300) 매도                     +5.0                         -5.0\n\n              ③ 최종손익                              +3.5 - 5,0 = (-)1.5\n\n\n         추가예시\n\n               C(100)을 3.0포인트에 매수하고 C(105)를 2포인트에 매도하였다(1계약씩). 만기일에 청산된 기초자산가격\n\n          이 105일 경우 동 스프레드포지션의 손익은?\n\n                        * 약식풀이 2   : 스프레드 손익은 +4.0이다.\n\n              만기 105 마감 시       ①프리미엄 손익        ② 정산손익\n\n                             C(100) 매수                      -3.0                         +5.0\n\n                      Cd 05) 매도                      +2.0                           0\n\n             ③ 최종손익                              -1.0+5,0 = (+)4,0\n\n\n\n          학습안내  '약식풀이 2’가 가장 간편한 측면이 있다(권장).",
+      "question_text": "05 행사가격이 300P인 풋옵션을 계약 매도(프리미엄 5point)하고, 행사가격이 290p인 풋옵션을\n ••• 1계약 매수(프리미엄 1.5point)하였다. 만기시점에 청산된 기초자산가격이 295P라고 할 때, 이\n\n    스프레드포지션의 손익은 얼마인가?\n\n   ① 1.5포인트 손실            ② 1.5포인트 이익\n\n   ③ 3.5포인트 손실            ④ 3.5포인트 이익\n\n   EO 옵션스프레드 포지션의 손익은 매수포지션과 매도포지션으로 나누어 차례로 계산한다(아래 풀이).\n\n           浓 옵션스프레드 손익계산오리지널 방식)\n                           (1) 풋옵션 매수포지션의 손익     : 290P에 매수하고 295P에 종료되었으므로, 손익은 'Max(290-295, 0) -\n                          1.5 = 0 - 1,5 = (-)1.5 point'이다.\n\n                                    • 풋옵션매수는 매수 후 기초자산가격이 하락해야 수익이 나는데 동 문항에서는 상승하였으므로, 프리\n\n            미엄손실만 발생하였음\n\n                        (2) 풋옵션 매도포지션의 손익   : 300p에 매도하고 295P에 종료되었으므로 풋옵션매수자의 수익 +5.0point\n\n           를 결제를 해주어야 하는 입장이다. 따라서 손익은 1- {Max(300-295. 0)} + 5.0 = -5.0 + 5.0 = 0\n\n                     point'이다.\n\n                                    • 옵션매도자는 옵션매수자에게 수익발생 시 결제해야 할 의무가 생기므로, 옵션매수자의 손익을 먼저\n\n            계산하고 반대㈠로 적용하면 된다.\n\n                       (3) 따라서 동 포지션(풋불스프레드)의 최종손익은 (-)1.5point이다.\n\n                        ► 약식풀이 1('돈을 받고 시작하^' 포지션은 최대이익이 먼저 결정되고 만기시점의 청산가격에 따라 최종손\n\n                                                      익이 결정된다)  ________________\n\n                            (1) 최대이 익(옵션프리미엄 순수취수익)  日 2) 촤종손익(옵션프리미엄 순수차수익 - 만기정산손악쥐)\n\n\n                             +5.0 너.5 = (+)3,5                           +3.5 -5.0 = (-)1.5\n\n                          * 주1    : 풋옵션을 300에 매도하고 만기일에 295011 청산하므로, 만기정산손익이 -5.0포인트이다.\n\n                         » 약식풀이 2(프리미엄손익과 정산손익으로 나누어 계산하고 최종합산 한다)\n\n               만기 295 마감 시       ① 프리미엄손익        ② 정산손익\n\n                               P(290) 매수                        -1.5                           0\n\n                              P(300) 매도                     +5.0                         -5.0\n\n              ③ 최종손익                              +3.5 - 5,0 = (-)1.5\n\n\n         추가예시\n\n               C(100)을 3.0포인트에 매수하고 C(105)를 2포인트에 매도하였다(1계약씩). 만기일에 청산된 기초자산가격\n\n          이 105일 경우 동 스프레드포지션의 손익은?\n\n                        * 약식풀이 2   : 스프레드 손익은 +4.0이다.\n\n              만기 105 마감 시       ①프리미엄 손익        ② 정산손익\n\n                             C(100) 매수                      -3.0                         +5.0\n\n                      Cd 05) 매도                      +2.0                           0\n\n             ③ 최종손익                              -1.0+5,0 = (+)4,0\n\n\n\n          학습안내  '약식풀이 2’가 가장 간편한 측면이 있다(권장).\n\n                                        9①",
+      "answer_pages": [
+        342
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-16"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        342
+      ]
+    },
+    {
+      "id": "S3C6T12-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "P3",
+      "question_page": 343,
+      "demand": "숏스트래들·스트랭글 비교 조건",
+      "publisher_answer": "①",
+      "explanation_text": "目図 스트래들 매도(Short Straddle)이다. 스트랭글 매도는 같은 변동성매도 전략이지만 스트래들 매도에 비\n\n            해서 기대수익과 위험이 낮은 포지션이다, 그리고 스프레드 전략은 변동성과 관계없는 방향성 전략이다.",
+      "question_text": "옵션합성전략・(2) 변동성전략\n\n\n\n\n 핵심문제  다음 중 변동성이 작을 때 가장 큰 수익이 나는 포지션은?\n\n      ① 스트래들 매도\n\n      ② 스트랭글 매도\n\n      ③ 콜불스프레드\n\n      ④ 풋베어스프레드\n\n\n       目図 스트래들 매도(Short Straddle)이다. 스트랭글 매도는 같은 변동성매도 전략이지만 스트래들 매도에 비\n\n            해서 기대수익과 위험이 낮은 포지션이다, 그리고 스프레드 전략은 변동성과 관계없는 방향성 전략이다.\n\n                                        9①",
+      "answer_pages": [
+        343
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-17"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        343,
+        344,
+        345
+      ]
+    },
+    {
+      "id": "S3C6T12-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "P3",
+      "question_page": 345,
+      "demand": "변동성매수 복수정답 가능",
+      "publisher_answer": "①",
+      "explanation_text": "스트래들 매수(Long Straddle)이다. 스트랭글 매수는 스트래들매수에 비해서 기대수익과 위험이 낮으며, 스트\n\n        래들 매도는 변동성이 작을수록 유리하고, 풋옵션매수는 변동성전략이 아닌 방향성 전략이다.",
+      "question_text": "01  다음 중 기초자산의 변동성이 클수록 포지션 수익률에 유리한 포지션은?\n••• ①金 래들매수            ②스트랭글매수\n\n   ③ 스트래들 매도            ④ 풋옵션배수\n\n\n        스트래들 매수(Long Straddle)이다. 스트랭글 매수는 스트래들매수에 비해서 기대수익과 위험이 낮으며, 스트\n\n        래들 매도는 변동성이 작을수록 유리하고, 풋옵션매수는 변동성전략이 아닌 방향성 전략이다.\n                                        目①",
+      "answer_pages": [
+        345
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-17"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        345
+      ]
+    },
+    {
+      "id": "S3C6T12-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "P3",
+      "question_page": 345,
+      "demand": "스트랭글 구성",
+      "publisher_answer": "④",
+      "explanation_text": "EO ① 강세 콜스프레드, ② 강세 풋스프레드, ③ 스트래들 매수 ④ 스트랭글 매수\n\n      目X 스트래들 매수전략은 등가격 옵션으로서 행사가격이 동일한 콜옵션과 풋옵션을 동시에 매수하\n            는 전략이다. 叵区］ ー 〇\n\n            스트랭글 매수전략은 외가격 옵션으로서 등가격보다 높은 콜옵션과 등가격보다 낮은 풋옵션을\n\n            동시에 매수하는 전략이다, 叵叵］ 一 0",
+      "question_text": "02 다음의 예시 중에서 스트랭글 매수 포지션에 해당하는 것은?\n\n••° ① C(100) 매수 1계약 + C(110) 매도 1계약\n\n   ② P(100) 매수 1계약 + P(110) 매도 1계약\n\n   ③ C(100) 매수 1계약 + P(100) 매수 1계약\n\n   ④ C(HO) 매수 1계약 + P(90) 매수 1계약\n\n   EO ① 강세 콜스프레드, ② 강세 풋스프레드, ③ 스트래들 매수 ④ 스트랭글 매수\n\n      目X 스트래들 매수전략은 등가격 옵션으로서 행사가격이 동일한 콜옵션과 풋옵션을 동시에 매수하\n            는 전략이다. 叵区］ ー 〇\n\n            스트랭글 매수전략은 외가격 옵션으로서 등가격보다 높은 콜옵션과 등가격보다 낮은 풋옵션을\n\n            동시에 매수하는 전략이다, 叵叵］ 一 0\n\n                                        党④",
+      "answer_pages": [
+        345
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-17"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        345
+      ]
+    },
+    {
+      "id": "S3C6T13-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "document": "P3",
+      "question_page": 346,
+      "demand": "풋가격2.0198",
+      "publisher_answer": "①",
+      "explanation_text": "풋・콜 패리티(Put・Call Parity)13\n\n\n 핵심문제  다음 자료에서 행사가격이 200Pt인 풋옵션의 프리미엄은 얼마인가?（관행적 복할인으로\n         계산）                                           • ••\n\n\n                           • KOSPI200 현물지수   ： 200pt\n\n                            • 이자율    : 연 4%\n\n                            • 잔존옵션만기    : 3개월\n\n                            • 행사가격이 200Pt인 유럽식 콜옵션의 프리미엄    : 4pt\n\n\n      ① 2.02point                                        (2) 2.56point\n\n      ③ 3.34point                             (4)4point\n\n\n                                           =p + 200       同国  c +(1 + アア T  = p + St - 4 +    1 + *0.04200 _\n\n           —4 + 198.02 = p + 200 - p = 2.02pt",
+      "question_text": "풋・콜 패리티(Put・Call Parity)13\n\n\n 핵심문제  다음 자료에서 행사가격이 200Pt인 풋옵션의 프리미엄은 얼마인가?（관행적 복할인으로\n         계산）                                           • ••\n\n\n                           • KOSPI200 현물지수   ： 200pt\n\n                            • 이자율    : 연 4%\n\n                            • 잔존옵션만기    : 3개월\n\n                            • 행사가격이 200Pt인 유럽식 콜옵션의 프리미엄    : 4pt\n\n\n      ① 2.02point                                        (2) 2.56point\n\n      ③ 3.34point                             (4)4point\n\n\n                                           =p + 200       同国  c +(1 + アア T  = p + St - 4 +    1 + *0.04200 _\n\n           —4 + 198.02 = p + 200 - p = 2.02pt\n                                        曾①",
+      "answer_pages": [
+        346
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-19"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        346,
+        347
+      ]
+    },
+    {
+      "id": "S3C6T13-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "document": "P3",
+      "question_page": 347,
+      "demand": "패리티 풋가격",
+      "publisher_answer": "②",
+      "explanation_text": "풋콜패리티 c+PV(K)=p+S를 p=c+PV(K)-S로 정리한다. PDF347 시각 대조 완료.",
+      "question_text": " 01  다음 중 블랙숄즈모형에서 풋옵션 가격으로 사용하는 것은?\n\n    ①P +\n                (l+r)7T\n\n    ②c +\n            (l+r)7i\n\n    ③C +\n         (1+「尸\n\n   ④ 정답 없음\n\n\n                                    X\n   EO 玉콜 패리티가 성립하므로 [c + -— E = P + SJ 포지션 사이의 동등성이 성립한다.\n                                                           (1 + ア)\n\n\n\n      Wi 풋콜패리티의 동등성으로 볼 때 콜옵션매수와 같은 것은  (\n           一 풋옵션매수 + 기초자산매수 + 채권발행\n\n                    X                     X       人五百产l P+1, c= p+s「万ブ-)\n\n\n\n\n\n                                      제6장파생상품투자운용/투자전략 347",
+      "answer_pages": [
+        347
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        347
+      ],
+      "fallback_pages": [
+        {
+          "page": 347,
+          "text": "   一 (•.­) Xe-MTW는 만기에 X가 되기 때문이다.\n\n © ©에 의해 ,Vt(A) = Vt(B)'이므로, 'Vt(A) = Vt(B)'가 성립해야 한다. 왜냐하면 현재시점에서 'Vt(A) 丰\n\n      Vt(B)'일 경우 차익거래가 유입되어 결국 현재시점에서도 ,Vt(A) = Vt(B)'가 되기 때문이다.\n\n③ 풋-콜 패리티의 활용\n\n O 풋-콜 패리티가 성립되지 않으면(양변 불일치 시) 차익거래 기회가 발생한다.\n\n © 블랙숄즈모형은 유럽형 콜옵션의 가격을 구하는 것인데, 풋옵션의 가격은 풋-콜 패리티를 통해서 구한\n\n    다.一»p = c + Bt-St\n © 포트폴리오보험전략으로 활용(c + 凡 ー 이자추출전략, P + & - 보호적 풋전략)\n\n④ 풋—콜 패리티의 변형(c + 民 = p + &의 식으로부터 변형)\n\n\n\n\n\n     « 民 = p + & - c(즉, 채권매수 = 콜옵션매도 + 풋옵션매수 + 주식매수)\n\n\n\n\n\n                       〉 합격률을 높이는 보충문제\n\n\n 01  다음 중 블랙숄즈모형에서 풋옵션 가격으로 사용하는 것은?\n\n    ①P +\n                (l+r)7T\n\n    ②c +\n            (l+r)7i\n\n    ③C +\n         (1+「尸\n\n   ④ 정답 없음\n\n\n                                    X\n   EO 玉콜 패리티가 성립하므로 [c + -— E = P + SJ 포지션 사이의 동등성이 성립한다.\n                                                           (1 + ア)\n\n\n\n      Wi 풋콜패리티의 동등성으로 볼 때 콜옵션매수와 같은 것은  (\n           一 풋옵션매수 + 기초자산매수 + 채권발행\n\n                    X                     X       人五百产l P+1, c= p+s「万ブ-)\n\n\n\n\n\n                                      제6장파생상품투자운용/투자전략 347"
+        }
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6T14-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T14"
+      ],
+      "document": "P3",
+      "question_page": 348,
+      "demand": "컨버전 매수차익",
+      "publisher_answer": "④",
+      "explanation_text": "■J 매수차익거래에 해당된다,",
+      "question_text": "T。이 C\n\n      풋■콜 패리티를 활용한 차익거래\n\n      （컨버전과 리버설）\n\n\n 핵심문제   컨버전（Conversion）과 거리가 먼 것은?\n\n      ① 옵션을 이용한 차익거래이다.     ② 콜옵션을 매도하고 풋옵션을 매수한다.\n\n      ③ 'c + B > p + S'의 상태이다.     ④ 매도차■익거래이다.\n\n       ■J 매수차익거래에 해당된다,\n                                        国④",
+      "answer_pages": [
+        348
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        348
+      ]
+    },
+    {
+      "id": "S3C6T14-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T14"
+      ],
+      "document": "P3",
+      "question_page": 348,
+      "demand": "리버설 구성",
+      "publisher_answer": "③",
+      "explanation_text": "EO ①은 컨버전, ③은 리버설이다.",
+      "question_text": "01  다음 중 리버설에 해당하는 것은?\n *** ① 주식 매수  + 풋옵션 매수 + 콜옵션 매도 + 채권 발행\n\n   ② 주식 매수 + 풋옵션 매수 + 콜옵션 매도 + 채권 매수\n\n   ③ 주식 매도 + 풋옵션 매도 + 콜옵션 매수 + 채권 매수\n\n   ④ 주식 매도 + 풋옵션 매도 + 콜옵션 매수 + 채권 발행\n\n   EO ①은 컨버전, ③은 리버설이다.\n                                         国③",
+      "answer_pages": [
+        348
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        348
+      ]
+    },
+    {
+      "id": "S3C6T15-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "P3",
+      "question_page": 349,
+      "demand": "이자추출과 보호적풋",
+      "publisher_answer": "②",
+      "explanation_text": "緬해 ②는 보호적 풋（Protective Put    ： 주식매수 + 풋옵션매수）이다.",
+      "question_text": "TOPIC\n\n      풋■콜 패리티와 포트폴리오보험 通\n\n\n\n 핵심문제  포트폴리오보험전략 중 이자추출전략과 가장 거리가 먼 것은?         •••\n\n      ① cz+ Bt\n      ②科+ 6\n\n      ③ 전환사채매입전략\n\n      ④ ELS（주가연계증권\n\n       緬해 ②는 보호적 풋（Protective Put    ： 주식매수 + 풋옵션매수）이다.\n                                        理②",
+      "answer_pages": [
+        349
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        349,
+        350
+      ]
+    },
+    {
+      "id": "S3C6T15-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "P3",
+      "question_page": 350,
+      "demand": "보호적풋",
+      "publisher_answer": "②",
+      "explanation_text": "ES 보호적풋전략의 내용이다. 옵션매수비용을 고려하지 않는다면 보호적 풋을 포함한 포트폴리오보험전략의 수\n        익구조는 Max(ST, X)이므로 포트폴리오의 가치는 만기시점에서  'St > X'이면 St가 되고 'St < X’이면 X가\n\n         된다(주가상승 시 상승한 S만큼 수익, 주가하락 시 풋옵션으로 X를 방어).",
+      "question_text": "01  다음의 내용은 포트폴리오보험전략 중 어떤 전략을 말하는가?\n ••• Z-------------------------------      S\n                   • 주식포트폴리오를 보유한 상태에서 보험을 드는 것과 비슷하게 풋옵션을 매입하는 전략이다,\n\n                  • 상당히 효과적으로 방어할 수 있지만, 풋옵션매입을 위한 프리미엄 지출규모가 크다는 것이 단점\n\n         이다.\n\n\n   ① 이자추출전략             ② 보호적풋전략\n\n    ③ 동적자산배분전략            ④ 동적헤징전략\n\n    ES 보호적풋전략의 내용이다. 옵션매수비용을 고려하지 않는다면 보호적 풋을 포함한 포트폴리오보험전략의 수\n        익구조는 Max(ST, X)이므로 포트폴리오의 가치는 만기시점에서  'St > X'이면 St가 되고 'St < X’이면 X가\n\n         된다(주가상승 시 상승한 S만큼 수익, 주가하락 시 풋옵션으로 X를 방어).\n                                        圖②",
+      "answer_pages": [
+        350
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        350
+      ]
+    },
+    {
+      "id": "S3C6T15-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "P3",
+      "question_page": 350,
+      "demand": "채권+콜",
+      "publisher_answer": "③",
+      "explanation_text": "亜 이자추출전략은 ③이다. 채권매수로서 floor를 방어하고 콜옵션매수로서 상승이익에 편승하는 전략이다. 그리\n\n        고 ①은 방어적 풋에 해당한다.",
+      "question_text": "02 다음 중 이자추출전략에 해당하는 합성포지션은 무엇인가?\n\n   ① 주식매수 + 풋옵션매수         ② 주식매수 + 콜옵션매수\n\n   ③ 채권매수 + 콜옵션매수         ④ 채권매수 + 콜옵션매도\n\n  亜 이자추출전략은 ③이다. 채권매수로서 floor를 방어하고 콜옵션매수로서 상승이익에 편승하는 전략이다. 그리\n\n        고 ①은 방어적 풋에 해당한다.\n                                         圖③",
+      "answer_pages": [
+        350
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        350
+      ]
+    },
+    {
+      "id": "S3C6T15-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "P3",
+      "question_page": 350,
+      "demand": "동적자산배분",
+      "publisher_answer": "③",
+      "explanation_text": "亜 동적자산배분전략에서는 '싸式St) + ws(St.) = 1'라는 수식이 성립한다. 주가가 올라가면 WB I, ws   I 이고, 주\n\n                                              dWc    仇如\n        가가 내려가면 Wß  I   , ws  I 이다. 즉「点 > 0, ネ끙 < 〇•이다.",
+      "question_text": "03 다음의 내용은 포트폴리오보험전략 중 어떤 전략을 말하는가?\n\n\n                  • 주식과 채권으로 자금을 운용함으로써 상승가능성과 하락방어라는 두 가지 목표를 동시에 달성하\n\n      고자 하는 전략이다.\n\n                  • 주식이 오르면 상승가능성을 극대화하기 위해 주식편입비율을 올려서 시장의 상승 추세를 쫓아가\n\n          고, 주가가 하락하면 채권비중을 올려서 자금의 가치를 방어한다.\n\n                 ・ 이를 수식으로 표현하면, wB(St) + ws(St.) = 1이다. [wB(St)   ： 채권편입비중, ws(St.)   ： 주식편입비중]\n\n\n\n   ① 이자추출전략             ② 보호적풋전략\n\n   ③ 동적자산배분전략           ④ 동적헤징전략\n\n  亜 동적자산배분전략에서는 '싸式St) + ws(St.) = 1'라는 수식이 성립한다. 주가가 올라가면 WB I, ws   I 이고, 주\n\n                                              dWc    仇如\n        가가 내려가면 Wß  I   , ws  I 이다. 즉「点 > 0, ネ끙 < 〇•이다.\n\n                                        图③",
+      "answer_pages": [
+        350
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        350
+      ]
+    },
+    {
+      "id": "S3C6T16-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T16"
+      ],
+      "document": "P3",
+      "question_page": 351,
+      "demand": "이항콜227.2727",
+      "publisher_answer": "②",
+      "explanation_text": "TOPIC\n\n      옵션가격결정・(1) 이항모형 曲★★★16\n\n\n 핵심문제  현재 1,000원인 무배당주식의 가격은 1년 후 1,400원 또는 600원이 된다. 이때 만기 1년,\n       행사가격 1,000원인 콜옵션의 가격은?(1년 무위험수익豊온 10%)        •••\n\n         ①200                ② 227.27\n         ③300                                (4)600\n\n    陋 단일기간 이항모형을 통해 콜옵션가격을 구한다. 그리고 콜옵션가격을 도층하는 것욘 위험중립확률을\n\n            통해서 계산하는 것이 좀 더 간편하다.",
+      "question_text": "TOPIC\n\n      옵션가격결정・(1) 이항모형 曲★★★16\n\n\n 핵심문제  현재 1,000원인 무배당주식의 가격은 1년 후 1,400원 또는 600원이 된다. 이때 만기 1년,\n       행사가격 1,000원인 콜옵션의 가격은?(1년 무위험수익豊온 10%)        •••\n\n         ①200                ② 227.27\n         ③300                                (4)600\n\n    陋 단일기간 이항모형을 통해 콜옵션가격을 구한다. 그리고 콜옵션가격을 도층하는 것욘 위험중립확률을\n\n            통해서 계산하는 것이 좀 더 간편하다.\n                                         图②",
+      "answer_pages": [
+        351
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-21"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        351,
+        352
+      ]
+    },
+    {
+      "id": "S3C6T16-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T16"
+      ],
+      "document": "P3",
+      "question_page": 352,
+      "demand": "이항Δ.6",
+      "publisher_answer": "②",
+      "explanation_text": "GO  0.6주이다(아래 풀이).\n                       1)  1,000원(주가)은 1년 후 1,300원 또는 800원, C(콜옵션) = 300원 또는 〇원\n                   2) 여기서 CCW(1,A)전략을 취하면, 1.000X - c = 1.300X - 300 또는 800X(厶 = X)\n                  3)  따라서, 1.300X - 300 = 800X, 500X = 300, X=0.6\n\n                  4)  즉, CCW(1,4)에서 ム(콜옵션 1개 매도에 대응하는 주식매입수)는 0.6이다.\n\n             야시게사    ・ 八 ー 옵션가격의 변화분  一  300  _\n         참고  1  rr계」,  一 주식가격의 변화분  - 5ÖÖ \" °-6\n\n         참고 2  CCW(1, A) 전략의 이해    : /구하기\n                                      (1)   1.000X - C   : CCW(1,X)는 콜옵션을 1개 매도하고 주식을 콜옵션의 X(델타)만큼 매입하는 것이므\n                        로, 초기포지션의 구축비용은 '1,000X - c'이다. -c를 하는 이유는 콜옵션매도 시 옵션프리미엄\n\n                          (c)이 유입되고 이만큼 구축비용이 절감되기 때문이다.\n                                (2)   1.300X - 300    ： 17| 후에 주가가 1,300으로 상승할 경우, 포지션의 결과는 エ300X - 300'이다.\n               여기서 -300을 하는 이유는 콜옵션매도포지션으로 300을 결제해 주어야 하기 때문이다.\n\n                               (3)  800X  : 17| 후에 주가가 800으로 하락할 경우, 포지션의 결과는 '800X'이다. 주가 1,000에서\n\n               매입하고 800원으로 하락하였으므로 콜옵션매도에서 결제할 것이 없다.\n                                (4)   CCW(1, X)는 중립포지션이므로 1300X - 300 = 800X'이어야 한다. 따라서 X = 0.6이다.",
+      "question_text": "01  현재 1,000원인 무배당주식의 가격은 1 년 후 1,300원 또는 800원이 된다. 이때 만기 1년, 행사가\n ••〇 격 1,000원인 CCW(1, ハ)전략을 구축할 때, 편입해야 할 주식수(厶)는?\n\n   ① 0.4주                 ② 0.6주\n\n   ③ 1주                  ④ 2주\n\n   GO  0.6주이다(아래 풀이).\n                       1)  1,000원(주가)은 1년 후 1,300원 또는 800원, C(콜옵션) = 300원 또는 〇원\n                   2) 여기서 CCW(1,A)전략을 취하면, 1.000X - c = 1.300X - 300 또는 800X(厶 = X)\n                  3)  따라서, 1.300X - 300 = 800X, 500X = 300, X=0.6\n\n                  4)  즉, CCW(1,4)에서 ム(콜옵션 1개 매도에 대응하는 주식매입수)는 0.6이다.\n\n             야시게사    ・ 八 ー 옵션가격의 변화분  一  300  _\n         참고  1  rr계」,  一 주식가격의 변화분  - 5ÖÖ \" °-6\n\n         참고 2  CCW(1, A) 전략의 이해    : /구하기\n                                      (1)   1.000X - C   : CCW(1,X)는 콜옵션을 1개 매도하고 주식을 콜옵션의 X(델타)만큼 매입하는 것이므\n                        로, 초기포지션의 구축비용은 '1,000X - c'이다. -c를 하는 이유는 콜옵션매도 시 옵션프리미엄\n\n                          (c)이 유입되고 이만큼 구축비용이 절감되기 때문이다.\n                                (2)   1.300X - 300    ： 17| 후에 주가가 1,300으로 상승할 경우, 포지션의 결과는 エ300X - 300'이다.\n               여기서 -300을 하는 이유는 콜옵션매도포지션으로 300을 결제해 주어야 하기 때문이다.\n\n                               (3)  800X  : 17| 후에 주가가 800으로 하락할 경우, 포지션의 결과는 '800X'이다. 주가 1,000에서\n\n               매입하고 800원으로 하락하였으므로 콜옵션매도에서 결제할 것이 없다.\n                                (4)   CCW(1, X)는 중립포지션이므로 1300X - 300 = 800X'이어야 한다. 따라서 X = 0.6이다.\n                                        色②",
+      "answer_pages": [
+        352
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        352,
+        353
+      ]
+    },
+    {
+      "id": "S3C6T16-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T16"
+      ],
+      "document": "P3",
+      "question_page": 353,
+      "demand": "위험중립p.75,C13.63",
+      "publisher_answer": "①",
+      "explanation_text": "02 현재 주가가 100이고 1기 후 주가가 120 또는 80이 된다고 가정한다. 위험중립확昼은 75%이고\n   무위험이자율이 10%일 때 행사가격이 100인 콜옵션의 가격은?（근사치, 단위는 포인트）\n\n   ① 13.63                ② 14.85\n\n   ③ 15.0                                   （4）27.27\n\n   EO      20 xP    20 X 0.75    1Q „„         c= in—= ^不ー=1363\n\n          ※ 위험중립적 확률모형으로 콜옵션가격 구하기\n\n        ⑴ 1단계   : 위험중립확률（P）구하기\n                    100 = 120p+；：（l-P）-40p + 80 = 110 - （.-.） p - 0 75\n\n\n                      （2）  2단계   : 콜옵션가격 구하기\n                               い”                                     ,、 c = 13,63         c=ーゼーいー——20p + 0（l-p）    c = —------------（.-.）20 X 0.75\n\n                     » 약식풀이    : 문항에서 위험중립확률을 0.75로 제시하였으므로 바로 2단계의 산식을 적용하여 콜옵션가격을\n\n         구하면 된다.\n                     20p + 0（l-p）        20 X 0.75     ...   やゆ               -c=--------- 丁］------ »c=---------------- （­ •） c = 13.63\n\n\n                                        20p + 0(1 — p)\n         학습안내 2단계 산식 c =         에서 두 가지 기층유형이 있는데, 첫째는 위험중립확■올\n\n              제시하고 콜옵션가격을 구하는 것（동 문항）, 둘째는 콜옵션가격을 제시하고 위험중립확号을\n\n              구하는 것이다.",
+      "question_text": "02 현재 주가가 100이고 1기 후 주가가 120 또는 80이 된다고 가정한다. 위험중립확昼은 75%이고\n   무위험이자율이 10%일 때 행사가격이 100인 콜옵션의 가격은?（근사치, 단위는 포인트）\n\n   ① 13.63                ② 14.85\n\n   ③ 15.0                                   （4）27.27\n\n   EO      20 xP    20 X 0.75    1Q „„         c= in—= ^不ー=1363\n\n          ※ 위험중립적 확률모형으로 콜옵션가격 구하기\n\n        ⑴ 1단계   : 위험중립확률（P）구하기\n                    100 = 120p+；：（l-P）-40p + 80 = 110 - （.-.） p - 0 75\n\n\n                      （2）  2단계   : 콜옵션가격 구하기\n                               い”                                     ,、 c = 13,63         c=ーゼーいー——20p + 0（l-p）    c = —------------（.-.）20 X 0.75\n\n                     » 약식풀이    : 문항에서 위험중립확률을 0.75로 제시하였으므로 바로 2단계의 산식을 적용하여 콜옵션가격을\n\n         구하면 된다.\n                     20p + 0（l-p）        20 X 0.75     ...   やゆ               -c=--------- 丁］------ »c=---------------- （­ •） c = 13.63\n\n\n                                        20p + 0(1 — p)\n         학습안내 2단계 산식 c =         에서 두 가지 기층유형이 있는데, 첫째는 위험중립확■올\n\n              제시하고 콜옵션가격을 구하는 것（동 문항）, 둘째는 콜옵션가격을 제시하고 위험중립확号을\n\n              구하는 것이다.\n\n\n                                        目①",
+      "answer_pages": [
+        353
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        353
+      ]
+    },
+    {
+      "id": "S3C6T17-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "P3",
+      "question_page": 354,
+      "demand": "N(d1)·N(d2)·풋델타",
+      "publisher_answer": "③",
+      "explanation_text": "值  N(di.t): 콜옵션의 델타 값 N(d2.1)   : 콜옵션이 당첨될 내가격으로 끝날 확률을 의미한다. 풋옵션의 델타값\n           은 N(-di), 혹은  '1 - N(이'으로 표시된다.\n\n             보중  블랙숄즈모형은 유럽식옵션을 전제로 하는데, 유럽식옵션은 만기에서만 권리행사를 하는 옵\n\n                  션이다(固 미국식옵션은 만기 중 아무 때나 행사가 가능함).",
+      "question_text": "T。미 C\n\n       옵션가격결정・(2) 블랙■숄즈모형17\n\n\n 핵심문제     ] 다음은 블랙숄즈모형에 의한 유럽식 콜옵션의 가치를 구하는 식이다. 이와 관련한 설명으\n       로 옳지 않은 것은?                              •••\n\n\n         유럽식 콜옵션의 가치((才 = StWdQ - BtN(d2,t)\n\n                      (Bt   : 옵션만기시점에서 X 만큼을 지급하는 채권의 현재 할인가仁 -・一^―-])\n                                                 (l+r)J\n\n\n      ① 기초자산가격(0)과 옵션만기시점에서 행사가격만큼을 지급하는 채권의 할인가(Bt)를 이\n\n         용하여 유럽식 콜옵션의 가치를 구하였다.\n      ② 평균이 〇이고 분산이 1인 표준정규분포에서 N(di’)은 콜옵션의 델타값을 의미한다.\n\n      ③ 평균이 〇이고 분산이 1인 표준정규분포에서 N(d2.J은 풋옵션의 델타값을 의미한다.\n      ④ 만기시점에서 B = X'가 된다.\n\n   值  N(di.t): 콜옵션의 델타 값 N(d2.1)   : 콜옵션이 당첨될 내가격으로 끝날 확률을 의미한다. 풋옵션의 델타값\n           은 N(-di), 혹은  '1 - N(이'으로 표시된다.\n\n             보중  블랙숄즈모형은 유럽식옵션을 전제로 하는데, 유럽식옵션은 만기에서만 권리행사를 하는 옵\n\n                  션이다(固 미국식옵션은 만기 중 아무 때나 행사가 가능함).\n\n                                        国③",
+      "answer_pages": [
+        354
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        354,
+        355
+      ]
+    },
+    {
+      "id": "S3C6T17-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "P3",
+      "question_page": 355,
+      "demand": "풋델타−.3",
+      "publisher_answer": "②",
+      "explanation_text": "01  콜옵션의 델타가 +0.7이라면 풋옵션의 델타는 얼마인가?\n•・0① +0.3                        ②-0.3\n\n    ③-0.7                                  （4）+0.7\n\n   EO '콜옵션의 델타 +     I 풋옵션의 델타    丨 = 1'이므로 I풋옵션의 델타|= 0.3이다. 그런데 풋옵션의 부호는（-）이므로\n              -0.301 된다.",
+      "question_text": "01  콜옵션의 델타가 +0.7이라면 풋옵션의 델타는 얼마인가?\n•・0① +0.3                        ②-0.3\n\n    ③-0.7                                  （4）+0.7\n\n   EO '콜옵션의 델타 +     I 풋옵션의 델타    丨 = 1'이므로 I풋옵션의 델타|= 0.3이다. 그런데 풋옵션의 부호는（-）이므로\n              -0.301 된다.\n                                        国②",
+      "answer_pages": [
+        355
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        355
+      ]
+    },
+    {
+      "id": "S3C6T17-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "P3",
+      "question_page": 355,
+      "demand": "μ와 원래만기 제외",
+      "publisher_answer": "②",
+      "explanation_text": "EO  '나, 다이다. 기초자산의 기대수익률이 아니라 기초자산의 현재가격（百）이며, 만기（7）가 아니라 잔존만기\n           （T-t 또는 力이다. A c = /（£ X,  r, T-t, c）",
+      "question_text": "02 블랙숄즈모형에서 콜옵션의 가격을 결정하는 요소를 잘못 나열한 것은?\n\n                                                                                                   ヽ\n\n         가. 행사가격                              나. 기초자산의 기대수익률\n\n         다. 발행시점에서의 만기                   라. 금리（무위험이자율）\n      X_                                                                                      __ ノ\n\n   ① 가, 나                ② 나, 다\n\n   ③ 다, 라                ④ 가, 라\n\n   EO  '나, 다이다. 기초자산의 기대수익률이 아니라 기초자산의 현재가격（百）이며, 만기（7）가 아니라 잔존만기\n           （T-t 또는 力이다. A c = /（£ X,  r, T-t, c）\n                                        国②",
+      "answer_pages": [
+        355
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        355
+      ]
+    },
+    {
+      "id": "S3C6T18-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T18"
+      ],
+      "document": "P3",
+      "question_page": 356,
+      "demand": "스큐 그래프와 역사 일반화 오류",
+      "publisher_answer": "②",
+      "explanation_text": "風専 변동성 스마일（②）은 변동성 스머크（①, ③ ④）와 달리 좌우동형으로 그려진다.",
+      "question_text": "TOPIC\n\n     기초자산의 변동성18\n\n 핵심문제  아래 그림에 대한 설명이다. 가장 거리가 먼 것은?（그림해석은 콜옵션기준）   •••\n\n\n\n\n\n      ① 내가격에서 외가격으로 갈수록 내재변동성이 커진다.\n\n         （2）내가격과 외가격의 내재변동성이 동일하다.\n\n      ③  1987년 블랙먼데이 이후의 현상이다.\n\n      ④ 변동성 스머크라 한다.\n\n       風専 변동성 스마일（②）은 변동성 스머크（①, ③ ④）와 달리 좌우동형으로 그려진다.\n                                        目②",
+      "answer_pages": [
+        356
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-27"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        356,
+        357
+      ]
+    },
+    {
+      "id": "S3C6T18-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T18"
+      ],
+      "document": "P3",
+      "question_page": 357,
+      "demand": "스마일 그래프",
+      "publisher_answer": "④",
+      "explanation_text": "EFI 변동성 스머크（④）는 좌우동형을 나타내는 변동성 스마일（①. ② ③과 달리 내가격에서 등가겨 외가격으로\n       갈수록 내재변동성이 높아진다.",
+      "question_text": "01  다음 그림에 대한 설명으로 옳지 않은 것은?（그림해석은 클옵션기준）\n\n\n\n\n\n   ① 변동성 스마일을 나타낸다.\n\n   ②  1987년 블랙먼데이 이전의 형태이다.\n\n   ③ 등가격옵션의 내재변동성이 가장 낮다.\n\n   ④ 내가격에서 외가격으로 갈수록 내재변동성이 높아진다.\n\n    EFI 변동성 스머크（④）는 좌우동형을 나타내는 변동성 스마일（①. ② ③과 달리 내가격에서 등가겨 외가격으로\n       갈수록 내재변동성이 높아진다.\n                                       目④",
+      "answer_pages": [
+        357
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-26"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        357
+      ]
+    },
+    {
+      "id": "S3C6T19-CORE",
+      "kind": "core",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 358,
+      "demand": "델타·감마·베가·세타·로 구분",
+      "publisher_answer": "②",
+      "explanation_text": "이다.\n\n   陋 기초자산의 변화에 대한 델타값의 변화의 비율을 나타내는 것은 '감마’이다.",
+      "question_text": "TOPIC\n\n     옵션의 민감도 지표 g-19\n\n\n 핵심문제  옵션민감도 지표에 대한 설명이다. 틀린 것은?                 •••\n\n      ① 베가는 기초자산의 변동성 변화에 따라 옵션가격이 얼마나 변하는가 하는 민감도를 보여\n\n         주는 지표이다.\n\n      ② 로우는 기초자산이 변화할 때 델타가 얼마나 변하는가 하는 민감도를 보여주는 지표이다.\n\n      ③ 쎄타는 시간의 경과에 따라 옵션가격이 얼마나 변하는가 하는 민감도를 보여주는 지표이다.\n\n      ④ 델타는 기초자산이 변화할 때 옵션가격이 얼마나 변하는가 하는 민감도를 보여주는 지표\n\n            이다.\n\n   陋 기초자산의 변화에 대한 델타값의 변화의 비율을 나타내는 것은 '감마’이다.\n\n                                        圖②",
+      "answer_pages": [
+        358
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-25",
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-32"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        358,
+        359,
+        360,
+        361
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-01",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 361,
+      "demand": "델타와 감마·국소중립",
+      "publisher_answer": "①",
+      "explanation_text": "EF1 ①은 감마를 말한다. 델타는 '기초자산이 변할 때 옵션가격이 얼마나 변하는가，측정하는 지표이다.",
+      "question_text": "이  옵션의 델타에 대한 설명 중 가장 거리가 먼 것은?\n\n••• ① 기초자산이 변할 때 델타가 얼마나 변하는가를 측정하는 지표이다.\n\n   ② 옵션가격곡선의 1차 미분礼 즉 기울기에 해당한다.\n\n   ③ 블랙숄즈이론에 의하면 N(dJ으로 표시된다.\n\n   ④ 주식을 1개 매수하고 콜옵션을 ラ만큼 매도하면 무위허포지션이 된다.\n\n\n     EF1 ①은 감마를 말한다. 델타는 '기초자산이 변할 때 옵션가격이 얼마나 변하는가，측정하는 지표이다.\n                                        9①",
+      "answer_pages": [
+        361
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-29",
+        "S3C6-ISSUE-32"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        361
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-02",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 361,
+      "demand": "1차·2차 미분",
+      "publisher_answer": "①",
+      "explanation_text": "EO  1차 미분치는 델타, 2차 미분치는 감마이다(채권의 경우 ’듀레이션-컨벡시티).",
+      "question_text": "02 옵션민감도 지표와 관련하여 빈칸을 옳게 연결한 것은?(순서대로)\n•••                                     -----------------\n\n                 • 옵션민감도 지표 중 기초자산에 대한 1차 미분치에 해당하는 것은  (   )이다\n\n                 • 옵션민감도 지표 중 기초자산에 대한 2차 미분치에 해당하는 것은  (    )이다.\n\n\n   ① 델타, 감마              ② 델타, 베가\n\n   ③ 감마 델타              ④ 듀레이션, 컨벡시티\n\n   EO  1차 미분치는 델타, 2차 미분치는 감마이다(채권의 경우 ’듀레이션-컨벡시티).\n                                        目①",
+      "answer_pages": [
+        361
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-29",
+        "S3C6-ISSUE-32"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        361
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-03",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 361,
+      "demand": "감마세타 상수 주장 오류",
+      "publisher_answer": "②",
+      "explanation_text": "EO 블랙숄즈 모형의 2차 편미분방정식에 의해 감마와 쎄타는 일정한 숫자를 유지하므로, 감마와 쎄타의 절대치는\n\n        항상 정의 관계를 가진다(レ 35회 신유형).\n\n         예시      (1) 감마(+6) + 쎄타(-4) = +2. (2) 감마(+8) + 쎄타(-6) = +2, 즉 (1 에서 ⑵로 변동할 때 감마는\n\n                +2, 쎄타의 절대치도 +2이다(정의 관계).",
+      "question_text": "03 옵션민감도 지표와 관련하여 빈칸을 옳게 연결한 것은?\n•••,------------------------------------------------------------------------------------------  ,\n\n                     (    )와  (    )의 민감도 부호는 반대이지만 그 절대치는 항상 정(뉘의 관계를 가진다\n\n\n   ① 델타, 로우              ② 감마, 쎄타\n\n   ③ 베가, 쎄타              ④ 감마, 베가\n\n   EO 블랙숄즈 모형의 2차 편미분방정식에 의해 감마와 쎄타는 일정한 숫자를 유지하므로, 감마와 쎄타의 절대치는\n\n        항상 정의 관계를 가진다(レ 35회 신유형).\n\n         예시      (1) 감마(+6) + 쎄타(-4) = +2. (2) 감마(+8) + 쎄타(-6) = +2, 즉 (1 에서 ⑵로 변동할 때 감마는\n\n                +2, 쎄타의 절대치도 +2이다(정의 관계).\n                                         圖②",
+      "answer_pages": [
+        361
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-29",
+        "S3C6-ISSUE-32"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        361,
+        362
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-04",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 362,
+      "demand": "ATM델타 근사",
+      "publisher_answer": "②",
+      "explanation_text": "GO ATM에서 델타 값은 0.5이다.",
+      "question_text": "04  ATM(등가격)과 가장 거리가 먼 것은?\n ••0 ① 시간가치가 가장 크다.\n\n   ② 델타 값이 1이다.\n\n   ③ 감마 값이 최대이다.\n\n   ④   'S = X'이다.\n\n   GO ATM에서 델타 값은 0.5이다.\n                                         国②",
+      "answer_pages": [
+        362
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-30"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        362
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-05",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 362,
+      "demand": "숏스트래들 민감도",
+      "publisher_answer": "②",
+      "explanation_text": "EO 숏스트래들의 민감도 부호는 .델타 二 〇, 감마 < 0, 베가 < 0, 쎄타 > 〇'이다. ① 델타 값은 약 0, ③ 베가\n        값은 음수, ④ 변동성매 도전략이므로 시장변동성이 작을수록 유리하다.",
+      "question_text": "05  숏스트래들(short strad에e)에 대한 설명이다. 옳은 것은?\n\n   ① 포지션 델타값은 약 1이다.\n\n   ② 포지션 쎄타값은 양수이다.\n\n   ③ 포지션 베가값은 양수이다.\n\n   ④ 시장변동성이 클수록 유리하다.\n\n   EO 숏스트래들의 민감도 부호는 .델타 二 〇, 감마 < 0, 베가 < 0, 쎄타 > 〇'이다. ① 델타 값은 약 0, ③ 베가\n        값은 음수, ④ 변동성매 도전략이므로 시장변동성이 작을수록 유리하다.\n                                         国②",
+      "answer_pages": [
+        362
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-30"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        362
+      ]
+    },
+    {
+      "id": "S3C6T19-SUP-06",
+      "kind": "supplement",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 362,
+      "demand": "합성포지션 민감도",
+      "publisher_answer": "④",
+      "explanation_text": "쎄타는 (-) 이다.\n\n   GO 90부근에서 포지션 델타는 (+), 포지션 쎄타는 (+)이다(p.360 본문해설 참조).\n       ① 민감도의 가법성(加法性)을 말한다(개별 민감도를 합산하여 구함).\n\n       ② 숏스트래들은 ATM에서 콜와 풋을 동시에 매도하는 것인데, 콜옵션매도의 델타는 ATM에서 약 +0.5이므로\n\n            (풋은 약 -0.5), 포지션 델타는 약 〇이다.\n       ③ 롱스트래들이므로 옵션매수포지션이다. 따라서 감마는 (+), 쎄타는 (一)이다.",
+      "question_text": "06 포지션 민감도에 대한 다음 설명 중 가장 거리가 먼 것은?\n ••° ① 포지션에 델타가 +0.6인 콜옵션이 2개, 델타가 -0.4인 풋옵션이 1개 있다면 포지션 델타 값은\n\n         +0.8 이다.\n\n   ② 숏스트래들의 포지션 델타는 약 〇이다.\n\n   ③ 롱스트래들의 포지션 감마는 (+)이고 포지션 쎄타는 (-)이다.\n\n   ④ 행사가격 80과 90의 강세 콜스프레드 포지션은 행사가격 90 부근에서 포지션 델타는 (-), 포지션\n\n     쎄타는 (-) 이다.\n\n   GO 90부근에서 포지션 델타는 (+), 포지션 쎄타는 (+)이다(p.360 본문해설 참조).\n       ① 민감도의 가법성(加法性)을 말한다(개별 민감도를 합산하여 구함).\n\n       ② 숏스트래들은 ATM에서 콜와 풋을 동시에 매도하는 것인데, 콜옵션매도의 델타는 ATM에서 약 +0.5이므로\n\n            (풋은 약 -0.5), 포지션 델타는 약 〇이다.\n       ③ 롱스트래들이므로 옵션매수포지션이다. 따라서 감마는 (+), 쎄타는 (一)이다.\n                                        色④",
+      "answer_pages": [
+        362
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_terminal_choice; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28",
+        "S3C6-ISSUE-30"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        362
+      ]
+    },
+    {
+      "id": "S3C6-ADD-01",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "P3",
+      "question_page": 363,
+      "demand": "선도 결제·청산",
+      "publisher_answer": "④",
+      "explanation_text": "01 ④ 반대매매를 자유롭게 할 수 있는 것은 선물거래（장내상품）이다.",
+      "question_text": "01  선도거래의 특징이다. 가장 거리가 먼 것은?\n… ① 장외거래이다.\n\n   ②  실물인수도（Physical Delivery） 방식의 거래이다.\n\n   ③ 사후적 제로섬（Ex-Post Zero Sum） 게임이라고 불린다.\n\n   ④ 반대매배를 자유롭게 할 수 있다.\n\n\n\n\n\n",
+      "answer_pages": [
+        363
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        363
+      ]
+    },
+    {
+      "id": "S3C6-ADD-02",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05",
+        "S3C6T07"
+      ],
+      "document": "P3",
+      "question_page": 363,
+      "demand": "저평가선도 달러차입",
+      "publisher_answer": "②",
+      "explanation_text": "02 ② 균형선물가격（1,224원）이 선물시장가격（1,150원）보다 크므로 선물환 시장가격이 저평가되어 있다. 즉, 이 경우\n      저평가된 선물환을 매수하고 고평가된 현물환을 매도하는 매도차익거래가 가능하다. 여기서 현물환매도는 '달\n\n       러차입-원화운용’을 의미한다.\n\n\n         참고  차익거래 메커니즘\n\n        달러차입 1$（1년 후 1.02$ 상환） 一 원화매입 1,200W（,.•현물환율 1$ = 1,200W） — 1년 후 1.248W 수취예정\n           （연 4%） - 1,248W으로 선물환 매수（1.08$） 一 만기에 차입한 달러 원리금 1.02$를 상환^, 1.08$ - 1.02$\n           = 0.06$의 차익이 발생함）\n\n\n\n                                           제6장 파생상품투자운용/투자전략 363",
+      "question_text": "02  다음 상황에서 가장 적절한 차익거래포지션은?（거래비용은 없다고 가정）\n\n\n                  • 현물환율 1$    : 1.200W\n\n                  • 원화이자율   : 연 4%\n\n                  • 달러이자율   : 연 2%\n\n                 ・  1년 만기 선물환 가격 1$   : 1,150 원\n\n\n\n   ① 원화차입-달러운용           ② 달러차입-원화운용\n\n   ③ 원화차입-달러차입           ④ 달러운용-원화운용\n\n\n\n\n\n 정답 및 해설\n\n",
+      "answer_pages": [
+        363
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        363
+      ]
+    },
+    {
+      "id": "S3C6-ADD-03",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "P3",
+      "question_page": 364,
+      "demand": "마진콜900",
+      "publisher_answer": "③",
+      "explanation_text": "03 ③900만 원仁 1,500만 원 - 600만 원）이다. 즉, 마진콜이 발생하면 개시증거금까지 채워야 한다.",
+      "question_text": "03  개시증거금이 1,500만 원이고, 유지증거금이 1,000만 원이다. 일일정산 후 증거금의 수준은 600\n•••  만 원이다. 이 때 마진콜이 발생하는데, 그렇다면 추가증거금 납부금액은 얼마인가?\n\n   ① 400만 원               ② 600만 원\n\n   ③ 900만 원               ④ 1,500만 원\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        364,
+        365
+      ]
+    },
+    {
+      "id": "S3C6-ADD-04",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "P3",
+      "question_page": 364,
+      "demand": "91일 보유비용",
+      "publisher_answer": "①",
+      "explanation_text": "04 ①   Ft.T = 100[1 + 0,04 - 0,02) X 91/365I = 100.50, 즉 현물(SRI 100point일 때 연율 5%, 연배당률 2%인 환경\n      에서의 선물이론 가격은 100.50이다.",
+      "question_text": "04    St = WOpoint,  r = 4%(연율), d = 2%(연율), 잔여만기 91일이라고 할 때 주가지수 선물가격을\n•・。  구하는 공식은 무엇인가?\n\n    ① Ft,T  = 100[1 +  (0,04 - 0,02) X 91/365]\n\n    ② Ft.T   = 100[1 +  (0,02 - 0,04) X 91/365]\n\n   ③ Ft.T   = 10이1 +  (0.01 -0,005) X (T - t)/365]\n\n    ④ Ft.T  = 10이1 +  (0.04 - 0.02) X 365/(T - t)]\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        364,
+        365
+      ]
+    },
+    {
+      "id": "S3C6-ADD-05",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "document": "P3",
+      "question_page": 364,
+      "demand": "콘탱고와 차익 동일시 오류",
+      "publisher_answer": "③",
+      "explanation_text": "05 ③   F) > F      ,  F, >  St,  B, > 0, 보유비용 > 0 - 매수차익거래",
+      "question_text": "05  다음 중 매수차익거래가 일어날 수 없는 상황은?\n… ① 선물가격이 현물가격보다 큰 경우\n\n   ② 콘탱고인 경우\n\n   ③ 보유비용이 〇보다 작을 경우\n\n   ④ 시장베이시스가 〇보다 클 경우\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        364,
+        365
+      ]
+    },
+    {
+      "id": "S3C6-ADD-06",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "P3",
+      "question_page": 364,
+      "demand": "금리차 근사1176",
+      "publisher_answer": "①",
+      "explanation_text": "교재의 금리차 근사1200×(1+0.02-0.04)=1176. 정확한 단리 IRP 비율식과 구별한다.",
+      "question_text": "06  달러원 현물환율은 '1$ = 1.200W', 달러이자율은 4%（연율）, 원화이자율은 2%（연율）이다. 이 경우\n••〇  이자율등가조건（Interest rate parity）에 의한 1년만기 달러원 선물환율은 얼마인가?\n\n   ① 1$ = 1,176W             ② 1$ = 1,200W\n\n   ③ 1$ = 1,224刑                      d）1$ = 1,248W\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        364,
+        365
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6-ADD-07",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "document": "P3",
+      "question_page": 364,
+      "demand": "스프레드 축소",
+      "publisher_answer": "②",
+      "explanation_text": "원월-근월 스프레드 축소를 예상하여 근월매수·원월매도.",
+      "question_text": "07  정상시장에서 근월물과 원월물의 스프레드가 좁아질 것으로 예상된다. 어떤 거래를 해야 이익을\n•••  얻을 수 있는가?\n\n   ① 근월물 매수 & 원월물 매수       ② 근월물 매수 & 원월물 매도\n\n   ③ 근월물 매도 & 원월물 매도       ④ 근월물 매도 & 원월물 매수\n\n\n364 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-09",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        364,
+        365
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6-ADD-08",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09",
+        "S3C6T10"
+      ],
+      "document": "P3",
+      "question_page": 365,
+      "demand": "BEP102·123 그래프",
+      "publisher_answer": "③",
+      "explanation_text": "콜매수 행사가100+지급2=102,콜매도 행사가120+수취3=123이 각 손익분기점이다.",
+      "question_text": "08  다음 두 포지션의 손익분기점이 되는 기초자산가격（s）은?\n\n\n\n\n\n   ① 98,  117                ② 98,  123\n\n          (3) 102, 123               ④ 102,  117\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        365
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "S3C6-ADD-09",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11",
+        "S3C6T12"
+      ],
+      "document": "P3",
+      "question_page": 365,
+      "demand": "합성전략 비교",
+      "publisher_answer": "③",
+      "explanation_text": "09 ③ 숏스트래들은 시장변동성이 작아야 이익이 커진다（시장변동이 클수록 유리한 것은 롱스트래들）.\n\n\n\n                                            제6장 파생상품투자운용/투자전략 365",
+      "question_text": "09  다음 설명 중 가장 적절하지 않은 것은?\n•・0 ① 콜불스프레드는 콜옵션 매수만 있는 포지션에 비해 초기비용이 적게 든다.\n\n   ② 콜불스프레드는 수직스프레드이다,\n\n   ③ 숏스트래들은 시장가격이 크게 하락해야만 수익이 나는 포지션이다.\n\n   ④ 스트랭글전략에서 대상이 되는 콜옵션과 풋옵션은 외가격 옵션이다.\n\n\n\n\n\n",
+      "answer_pages": [
+        365
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        365
+      ]
+    },
+    {
+      "id": "S3C6-ADD-10",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 366,
+      "demand": "강세콜 초기순지출",
+      "publisher_answer": "②",
+      "explanation_text": "10 ② 비싼 옵션을 매수하고 싼 옵션을 매도하므로 '돈을 내고' 시작한다.\n         ①, ③ 기초자산가격이 상승하면 수익이 나므로 강세 스프레드이고, 콜옵션으로 구성되어 있으므로 ‘콜 강세스\n\n          프레드'이다.\n\n      ④ 프리미엄 차이만큼 최대손실과 최대이익이 제한된다.",
+      "question_text": "10  아래 포지션에 대한 설명으로 가장 거리가 먼 것은?\n\n\n      행사가격이 90인 콜옵션을 매수하고 행사가격이 95인 콜옵션을 매도하였다.\n\n           [C(90) 매수 & C(95) 매도]\n\n\n   ① 콜 강세 스프레드 포지션이다.\n\n    ② 돈을 받고 시작하는 포지션이다.\n\n    ③ 기초자산가격이 상승하면 수익이 나는 포지션이다.\n\n",
+      "answer_pages": [
+        367
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        366,
+        367
+      ]
+    },
+    {
+      "id": "S3C6-ADD-11",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T14"
+      ],
+      "document": "P3",
+      "question_page": 366,
+      "demand": "컨버전 vs 리버설",
+      "publisher_answer": "④",
+      "explanation_text": "11 ④ - p - S + c + B = + (c + B) & - (p + S), 즉 'c + B < p + S'일 때의 차익거래이므로 '리버설에 해당한다.",
+      "question_text": "11    컨버전(Conversion)에 대한 설명이다. 가장 거리가 먼 것은?\n••• ① 풋-콜 패리티가 성립되지 않는 'c + B > p + S'일 경우의 차익거래전략이다.\n\n   ② 합성매도포지 션과 현물매수포지션을 병행하는 전략이다.\n\n   ③  Cash and Carry 전략에 해당한다,\n\n   ④ 풋옵션을 발행하여 콜옵션을 매수하고 공매도를 하여 조달한 자금으로 채권매입을 한다.\n\n\n\n\n\n",
+      "answer_pages": [
+        367
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        366,
+        367
+      ]
+    },
+    {
+      "id": "S3C6-ADD-12",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "P3",
+      "question_page": 366,
+      "demand": "동적비중·델타와 비중 혼동",
+      "publisher_answer": "③",
+      "explanation_text": "12 ③ 주식가격이 상승하면 주식비중이 증가한다(Positive Feedback전략). ④는 보호적 풋의 구조를 통해 이해할 수\n         있다, '주식 매수 + 풋옵션 매수 = 콜옵션 매수를 복제'",
+      "question_text": "12  동적 자산배분전략의 특징이다. 가장 거리가 먼 것은?\n••• ① 프리미엄을 따로 지불할 필요가 없다.\n\n   ② 편입비율을 상황에 따라 조정한다.\n\n   ③ 주식가격이 상승하면 채권비중이 증가한다.\n\n   ④ 콜옵션의 델타 값을 주식편입비율로 사용하므로 콜옵션 복제전략에 해당한다.\n\n\n\n\n\n",
+      "answer_pages": [
+        367
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        366,
+        367
+      ]
+    },
+    {
+      "id": "S3C6-ADD-13",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T16",
+        "S3C6T19"
+      ],
+      "document": "P3",
+      "question_page": 366,
+      "demand": "주식1에 콜2매도",
+      "publisher_answer": "④",
+      "explanation_text": "13 ④ CCWd, 0.5) 또는 CCW(2, 1)이다. ’콜옵션 2개 매도 - 주식 1주 매수를 나타낸다.",
+      "question_text": "13   CCW(1, /)전략을 구축하고자 한다. 콜옵션의 델타가 0.5인 주식 1주를 매입하였다면 콜옵션의\n••。  매매는 어떻게 해야 하는가?\n\n   ① 콜옵션 1계약 매수          ② 콜옵션 1계약 매도\n\n   ③ 콜옵션 2계약 매수          ④ 콜옵션 2계약 매도\n\n\n366 제3과목 직무윤리 및 법규/투자운용 및 전략  I 등",
+      "answer_pages": [
+        367
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        366,
+        367
+      ]
+    },
+    {
+      "id": "S3C6-ADD-14",
+      "kind": "additional",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "P3",
+      "question_page": 367,
+      "demand": "강세풋+3.5",
+      "publisher_answer": "①",
+      "explanation_text": "14 ① 옵션스프레드 전략에서 손익을 계산하는 문제이다(아래 '약식풀이 권장).\n      ⑴ 풋옵션 매도 포지션의 손익   : +5.0p(300p에 매도하였는데 300P에 마감하였으므로 손실이나 이익이 없다.\n\n        따라서 프리미엄수익만큼 이익을 봄)\n\n                (2) 풋옵션 매수 포지션의 손익    : 너.5P(295p에 매수하였으나 지수가 상승하여 마감하였으므로 프리미엄만큼\n\n         손실이다)\n\n               (3) 따라서 동 포지션(풋불스프레드)의 최종손익은 +3.5p이다,\n\n                      » 약식풀이('돈을 받고 시작하는' 포지션은 최대이익이 먼저 결정되고 만기시점의 청산가격에 따라 최종손\n\n         익이 결정된다)\n\n                          ⑵ 촤종손익(옵션프리미엄 순수취수익 - 만기정산손악쥐)                        (1) 최대이익(옵션프리미엄 순수취수익)\n\n                          +5.0 -1,5 = (+)3,5                           +3.5 -0 = (+)3,5\n\n                        * 주1    : 풋옵션을 300에 매도하고 만기일에 300에 청산하므로, 만기정산손익은 제로(0)이다.\n\n\n\n                                            제6장 파생상품투자운용/투자전략 367",
+      "question_text": "14  행사가격이 295인 풋옵션을 1.5포인트에 사고 행사가격이 300인 풋옵션을 5.0포인트에 매도하\n•••  였다. 옵션만기시점에 주가지수가 300으로 끝났다면 이 포지션의 순손익 규모를 옳게 표현한\n     것은?(KOSPI200지수옵션, 1계약 매매, 단위는 Point)\n\n   ①  3.5포인트, 이익\n\n   ②  3.5포인트, 손실\n\n   ③  1.5포인트, 이익\n\n   ④  1.5포인트, 손실\n\n\n\n\n\n 정답 및 해설\n\n",
+      "answer_pages": [
+        367
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_numbered_explanation; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20",
+        "S3C6-ISSUE-31"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        367
+      ]
+    },
+    {
+      "id": "MOCK-1-Q082",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "MOCK",
+      "question_page": 22,
+      "demand": "증거금900·OI",
+      "publisher_answer": "④",
+      "explanation_text": "82  사후적 제로섬은 선도거래에서는 신용위험이 있음을 뜻하는 말이다.",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        22,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q083",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "MOCK",
+      "question_page": 23,
+      "demand": "최소분산h2와 계약수 구분",
+      "publisher_answer": "④",
+      "explanation_text": "83    풀이\n                               COV^p   Pq厂 XOqXo\"           (Js    OF      1     ヽ\n    ⑴ 최소분산헤지비율(MVHR)    ： h = ­  ——=-------- 2----------=PwX ニー(丁 -y= —)\n                                             v F       ルヽ                 c/f      (jf  aF\n\n                                                                                                                       ： 0.5, (Jp  - 0.2)    ⑵ Ps, f X —으 = 0-8 X 0 ; = 2(。ド\n\n\n    ⑶ 즉, 선물 2계약을 매도하면 최소분산헤지가 달성된다.\n\n      ※ 최소분산헤지비율의 산식은 곧 CAPM이론상의 베타와 같다\"?= ザ).",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-08",
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        23,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q084",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11",
+        "S3C6T12"
+      ],
+      "document": "MOCK",
+      "question_page": 23,
+      "demand": "스트랭글 구성·theta 오류",
+      "publisher_answer": "④",
+      "explanation_text": "스트래들매수는 같은 행사가 콜·풋, 교재의 스트랭글매수는 외가격 콜·풋의 조합이다.",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-08",
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "boundary_review": "next_header_OCR_missing; adjacent_explanation_may_be_included",
+      "source_pages": [
+        23,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation"
+    },
+    {
+      "id": "MOCK-1-Q085",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "document": "MOCK",
+      "question_page": 23,
+      "demand": "S195·K195·C5·r1%반년 P4.02985",
+      "publisher_answer": "④",
+      "explanation_text": "p=5+195/(1+0.01×0.5)-195≈4.02985point.",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-08",
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        23,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation",
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation"
+    },
+    {
+      "id": "MOCK-1-Q086",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13",
+        "S3C6T15"
+      ],
+      "document": "MOCK",
+      "question_page": 23,
+      "demand": "covered call=S−C=B−P",
+      "publisher_answer": "③",
+      "explanation_text": "86   풋콜패리티(c + B = p + S)가 성립하므로, 풋콜패리티의 동등성를 활용하여 풀이한다.\n       즉, S - c = B - p가 된다. '주식 한주를 매수하고 콜옵션을 매도한 포트폴리오(S - c)'는 '채권을 매수하고 풋옵션을\n    매도한 포트폴리오(B ・ け와 같다.",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-08",
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        23,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-1-Q087",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "MOCK",
+      "question_page": 23,
+      "demand": "만기20일ATM 감마 조건",
+      "publisher_answer": "④",
+      "explanation_text": "87   감마값은 등가격에서 가장 크고(감마는 곡률이므로 등가격에서 최대), 또 잔존기간이 짧을수록 커진다｛잔존기간이 짧을\n    수록 곡률이 커지므로). 따라서 ④가 답이다.",
+      "question_text": "",
+      "answer_pages": [
+        64
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C5-ISSUE-24",
+        "S3C6-ISSUE-02",
+        "S3C6-ISSUE-08",
+        "S3C6-ISSUE-15"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        23,
+        64
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 55
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q082",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T01",
+        "S3C6T02"
+      ],
+      "document": "MOCK",
+      "question_page": 49,
+      "demand": "장내·장외·스왑",
+      "publisher_answer": "①",
+      "explanation_text": "82  스왑은 장외파생상품으로만 존재한다（현재 거래소에 상장된 스왑상품은 없음）.",
+      "question_text": "",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C4-ISSUE-21",
+        "S3C6-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        49,
+        74
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q083",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "MOCK",
+      "question_page": 49,
+      "demand": "V100억·β.6·가정승수50만원→60매도",
+      "publisher_answer": "②",
+      "explanation_text": "83  헤지거래에서 헤지계약수를 구하는 문제이다（민감도를 반영하지 않으면 단순헤지, 민감도가 반영되면 베타헤지가 된\n        다）. 문제에서 베타계수가 주어졌으므로 베타헤지를 하는 것이 적절하다.\n\n   즉 베타헤지     : h = ? X0 =  200p第; 嬴 원   X °-6 ; 船 계약\n\n\n    그러므로 60계약을 매도하면 된다,",
+      "question_text": "",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C4-ISSUE-21",
+        "S3C6-ISSUE-25"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        49,
+        74
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q084",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05",
+        "S3C6T07"
+      ],
+      "document": "MOCK",
+      "question_page": 50,
+      "demand": "F101>F*100.5 매수차익",
+      "publisher_answer": "①",
+      "explanation_text": "84     F* : 100[1 + （0,04 - 0,02） X   二10。X 1.005 = 100.50, 따라서 F（101p） > F*（100.50）, 즉 선물 고평가 一\n\n    선물매도/현물매수 一 매수차익거래（Cash & Carry）",
+      "question_text": "",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C4-ISSUE-21",
+        "S3C6-ISSUE-25",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        50,
+        74
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q085",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "MOCK",
+      "question_page": 50,
+      "demand": "N(d1),N(d2)",
+      "publisher_answer": "②",
+      "explanation_text": "85  M4）은 콜옵션의 델타이며, M&）는 콜옵션의 내가격확률이다.\n   固 풋옵션의 델타는 M—4）.풋옵션의 내가격확률은 M—4）이다.\n\n      X 블랙숄즈모형에 반영되는 변수\n     一 기초자산의 현재가격（S）, 행사가격（X）, 금리（r）, 잔존만기（TT）, 변동성（の, 무위험이자율（r）\n                • 변동성은 산식에는 보이지 않으나 M4）나 M&）에 내재되어 있다.\n\n\n\n\n\n74 부록 최종모의고사",
+      "question_text": "",
+      "answer_pages": [
+        74,
+        75
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C4-ISSUE-21",
+        "S3C6-ISSUE-25",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        50,
+        74,
+        75
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q086",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11",
+        "S3C6T12"
+      ],
+      "document": "MOCK",
+      "question_page": 50,
+      "demand": "상승전망과숏스트래들",
+      "publisher_answer": "④",
+      "explanation_text": "86   ①, ②, ③은 방향성전략（상승 시 수익）이고 ④는 변동성전략이다（특히 ④는 변동성매도전략으로서 시장의 변동성이\n\n    작을 때 수익이 난다）.",
+      "question_text": "",
+      "answer_pages": [
+        75
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        50,
+        75
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "MOCK-2-Q087",
+      "kind": "mock",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "MOCK",
+      "question_page": 50,
+      "demand": "만기와감마의 조건 누락",
+      "publisher_answer": "③",
+      "explanation_text": "87  옵션만기가 다가올수록 감마값은 상승한다.\n\n     잠고  감마는 콜옵션과 풋옵션 모두 기초자산과 정（+）의 관계임",
+      "question_text": "",
+      "answer_pages": [
+        75
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_mock_explanation; table_key_pending",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        50,
+        75
+      ],
+      "key_source": {
+        "document": "MOCK",
+        "page": 67
+      },
+      "key_review": "visual_table_checked_2026-10-13"
+    },
+    {
+      "id": "NOTE-S3C6-Q001",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T01"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "强1 이  선도  • 선물, 옵션, 스왑 / 장내파생상품, 장외파생상품",
+      "explanation_text": "强1 이  선도  • 선물, 옵션, 스왑 / 장내파생상품, 장외파생상품",
+      "question_text": "01 파생상품은 거래대상에 따라 (                  ),  (                   ),  (       )으로 분류하며, 거래장소에\n   따라  (                  ),   (       )으로 분류한다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q002",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T01"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "02  O »옵션은 장내옵션, 장외옵션이 모두 있지만 스왑은 장외만 있다.",
+      "explanation_text": "02  O »옵션은 장내옵션, 장외옵션이 모두 있지만 스왑은 장외만 있다.",
+      "question_text": "02 叵区 스왑은 장외파생상품으로만 존재한다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q003",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "03  O  ► 대부분 ,고객 一 웨어하우스(시장조성자). 간의 거래로 이루어진다(고객 간이 아님).",
+      "explanation_text": "03  O  ► 대부분 ,고객 一 웨어하우스(시장조성자). 간의 거래로 이루어진다(고객 간이 아님).",
+      "question_text": "03 向可 장외파생상품은 시장조성スト(Market maker 또는 Warehouse)와 고객 간의 일대일계약 형태로\n\n   일어나는 것이 대부분이다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q004",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "04 장외파생상품",
+      "explanation_text": "04 장외파생상품",
+      "question_text": "04   (        )은 맞춤형 거래가 가능하다는 장점이 있지만 반면 유동성이 부족하다는 단점이 있다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q006",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T02"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "06 차액결제선물환거래(NDF    ； Non-Deliverable Forward)",
+      "explanation_text": "06 차액결제선물환거래(NDF    ； Non-Deliverable Forward)",
+      "question_text": "06 선도거래는 실물인수도(Physical Delivery)를 하지만, 유일한 예외로 현물결제를 하는 선도거래는\n         (     )이다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q005",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "05 장내파생상품",
+      "explanation_text": "05 장내파생상품",
+      "question_text": "05    (        )은 유동성이 풍부하다는 장점이 있지만 맞춤형 거래를 할 수 없다는 단점이 있다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q007",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "07  〇",
+      "explanation_text": "07  〇",
+      "question_text": "07 亙호 선물(Futures)거래는 만기 결제 전에 언제든지 반대거래(청산거래)를 할 수 있다는 장점이 있\n\n   는데, 이를 위해 증거금을 납부하며 일일정산을 한다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q008",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T03"
+      ],
+      "document": "NOTE",
+      "question_page": 70,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "08  700만 원  ► 마진콜이 발생하면 개시증거금 수준까지 추가증거금을 납부해야 한다.",
+      "explanation_text": "08  700만 원  ► 마진콜이 발생하면 개시증거금 수준까지 추가증거금을 납부해야 한다.",
+      "question_text": "08 개시증거금은 1,500만 원, 유지증거금은 1,000만 원으로 가정한다. 현재 일일정산 후의 증거금이\n\n    800만 원이라면 추가증거금 납부액은 (20이간 원  / 700만 원)이다.",
+      "answer_pages": [
+        70
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-01",
+        "S3C6-ISSUE-03"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        70
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q009",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "1326원(교재 금리차 근사)",
+      "explanation_text": "1300×(1+0.04-0.02)=1326. 정확한 IRP1300×1.04/1.02와 구별한다.",
+      "question_text": "09 달러원 현물환율은 1$ = 1,300W, 달러이자율은 2%(연율), 원화이자율은 4%(연율)이다. 이 경우 이자\n   율둥가식(IRP) 조건에 따르는 1년 만기 선물환율의 균형가격은 '1$ =  ( )이다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "NOTE-S3C6-Q010",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T05"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "10 원화차입 / 달러운용  > 선물이론가격은 1.224원인데 시장가격이 1.230원이므로 ,선물환 고평가, 현물환 저평가,",
+      "explanation_text": "10 원화차입 / 달러운용  > 선물이론가격은 1.224원인데 시장가격이 1.230원이므로 ,선물환 고평가, 현물환 저평가,\n\n          이다. 즉 현물환매수이므로 달러매수(원화차입으로 달러운용)를 의미한다.",
+      "question_text": "10 '현물환율 1$ = l,200W, 원화이자율(Rd) = 연 4%, 달러이자율(Rf) = 연 2%, 1년 만기 선물환가격\n\n     1$ = 1,230W'의 경우, 적합한 차익거래포지션은 (   )과 동시에  (       )올 하는 것이다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q011",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "11  베이시스(Basis)   ► 선물시장가격-현물시장가격(\" = /■； -，) 은 시장베이시스. .선물이론가격-현물시장가격",
+      "explanation_text": "11  베이시스(Basis)   ► 선물시장가격-현물시장가격(\" = /■； -，) 은 시장베이시스. .선물이론가격-현물시장가격\n\n             (ガ =  /•,'  S).은 이론베이시스이다.",
+      "question_text": "11      (      )는 임의의 거래일에 있어서 선물가격과 현물가격의 차이를 말한다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q013",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T06"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "13 제로 베이시스 헤지，랜덤 베이시스 헤지는 임의의 시점에서 청산하기 때문에 베이시스 위험에 노출된다.",
+      "explanation_text": "13 제로 베이시스 헤지，랜덤 베이시스 헤지는 임의의 시점에서 청산하기 때문에 베이시스 위험에 노출된다.",
+      "question_text": "13 선물헤지 포지션을 만기 시점에서 청산함으로써 베이시스 위험에 노출되지 않는 것은 (랜덤 베이시스\n\n   헤지  / 제로 베이시스 헤지)이다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q012",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T04"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "12   Contango, 정상시장   » 반대의 경우  Backwardation. 역조시장이다,",
+      "explanation_text": "12   Contango, 정상시장   » 반대의 경우  Backwardation. 역조시장이다,",
+      "question_text": "12 선물의 시장가격이 현물의 시장가격보다 높은 상태를 (Contango / Backwardation) 또는 (정상시장\n\n      / 역조시장)이라 한다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q014",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T07"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "14  Contango - 매수차익거래   » F - S = B(시장베이시스) = 보유비용, B",
+      "explanation_text": "14  Contango - 매수차익거래   » F - S = B(시장베이시스) = 보유비용, B\n        매수 一 매수차익거래",
+      "question_text": "14  '선물(F)-현물(S)'을 시장베이시스라 하며, ‘시장베이시스 > 〇'일 경우 (Contango / Backwardation)\n  시장이라 하며, 이 경우 (매수차익거래  / 매도차익거래)가 가능하다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q015",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "15 확대 »스프레드 매수 二 롱스프레드 二 .비싼가격물 매수/싼가격물 매도     :",
+      "explanation_text": "15 확대 »스프레드 매수 二 롱스프레드 二 .비싼가격물 매수/싼가격물 매도     :",
+      "question_text": "15 근월물의 가격이 100이고 원월물의 가격이 103이다. 두 월물 간 스프레드가 향후 더 확대 / 축소)될\n\n   것으로 예상한다면 근월물을 매도하고 원월물을 매수한다.",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q016",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T08"
+      ],
+      "document": "NOTE",
+      "question_page": 71,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "16 축소  » 선물 스프레드에서는 근월물을 매수하는 것이 강세 스프레드인데. 근월물 매수전략은 스프레드 축소전략",
+      "explanation_text": "16 축소  » 선물 스프레드에서는 근월물을 매수하는 것이 강세 스프레드인데. 근월물 매수전략은 스프레드 축소전략\n\n        에 해당된다(,선, 강, 축'으로 암기).\n\n\n\n                                  제3과목 직무윤리 및 법규/투자운용 및 전략  I 등 71",
+      "question_text": "16 선물 스프레드전략에서 강세 스프레드전략은 스프레드 (확대  / 축소)전략에 해당된다.\n\n\n\n\n\n        09    1 326W   ►  /•'' =  .S'J 1- (r  , -  /- J           = 1.3()り｛  1 -          (",
+      "answer_pages": [
+        71
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-06",
+        "S3C6-ISSUE-09"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        71
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q017",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T09"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "풋옵션 매수, 풋옵션 매도",
+      "explanation_text": "기초자산의 하락 방향에 대한 기본 포지션 손익을 비교한다.",
+      "question_text": "17 옵션의 기본포지션 4개 중에서, 시장이 지속적으로 하락할 경우 가장 큰 이익을 얻는 포지션은\n          (    )이며, 가장 큰 손실을 보는 포지션은  (         )이다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "NOTE-S3C6-Q018",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "20, 0",
+      "explanation_text": "콜max(100-80,0)=20;풋max(80-100,0)=0.",
+      "question_text": "18 기초자산가격(S)이 100이고 행사가격(X)이 80이라면 콜옵션의 내재가치는 (       )이고, 풋옵션의\n   내재가치는  (       )이다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "NOTE-S3C6-Q019",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "6",
+      "explanation_text": "시간가치=프리미엄36-내재가치30=6.",
+      "question_text": "19 기초자산가격(S)이  150이고, 행사가격이  120인 콜옵션의 프리미엄이 36이라면, 시간가치는\n\n         (      )이다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "NOTE-S3C6-Q020",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T10"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "ITM(내가격)",
+      "explanation_text": "내재가치가 양수인 상태다.",
+      "question_text": "20 옵션의 Moneyness에서, 내재가치가 양(+)인 상태를 (OTM / ATM / ITM)이라 한다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "manual_source_recovery",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ],
+      "explanation_representation": "reviewer_paraphrase_of_publisher_explanation",
+      "key_review": "intended_answer_recovered_from_original_explanation; not_independent_gold_validation"
+    },
+    {
+      "id": "NOTE-S3C6-Q021",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "21 강세 콜 스프레드  ► 예 C80)매수 + C(100)매도는 콜 강세 스프레드이다. 비싼 옵션을 매수하고 싼 옵션을",
+      "explanation_text": "21 강세 콜 스프레드  ► 예 C80)매수 + C(100)매도는 콜 강세 스프레드이다. 비싼 옵션을 매수하고 싼 옵션을\n\n       매도하였으므로 스프레드 확대전략이며, 지수 상승 시 수익이 발생하므로 강세 스프레드, 콜옵션으로 구성되었으\n\n       므로 종합하여 콜 강세 스프레드이다.",
+      "question_text": "21 행사가격이 낮은 콜옵션을 매수하고 행사가격이 높은 콜옵션을 매도하면  (                   ) 포지션이 된다\n\n   (매수   : 매도 =  1    ：  1).",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q022",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "22 강세 풋 스프레드  ► 강세 콜 스프레드에서 ,콜과 풋•을 바꾸면 ,강세 풋 스프레드",
+      "explanation_text": "22 강세 풋 스프레드  ► 강세 콜 스프레드에서 ,콜과 풋•을 바꾸면 ,강세 풋 스프레드",
+      "question_text": "22 행사가격이낮은풋옵션을매수하고행사가격이높은풋옵션을매도하면(     )포지션이된다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q023",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "23  〇  » 스프레드 매매는 ,매수:매도 = 1：1•인데, 콜불은 비싼 옵션을 매수하고 싼 옵션을 매도하므로 ,초기순지출(돈",
+      "explanation_text": "23  〇  » 스프레드 매매는 ,매수:매도 = 1：1•인데, 콜불은 비싼 옵션을 매수하고 싼 옵션을 매도하므로 ,초기순지출(돈\n\n       을 내고 시작).이 되고 풋불은 싼 옵션을 매수하고 비싼 옵션을 매도하므로 ,초기순수입(돈을 받고 시작)'이 된다.",
+      "question_text": "23 叵区］ 포지션 구축 시 콜불스프레드 전략은 초기순지출, 풋불스프레드 전략은 초기순수입이 된다,",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q024",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T11"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "24 풋불스프레드",
+      "explanation_text": "24 풋불스프레드",
+      "question_text": "24  ’콜매도, 풋매수, 풋불스프레드, 콜베어스프레드' 중에서 주가상승 시의 전략에 적합한 것은\n\n         (        )이다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q025",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "NOTE",
+      "question_page": 72,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "25 스트래들 매수, 스트랭글 매수  ► 변동성매도전략은 .스트래들매도/스트랭글매도 이다.",
+      "explanation_text": "25 스트래들 매수, 스트랭글 매수  ► 변동성매도전략은 .스트래들매도/스트랭글매도 이다.",
+      "question_text": "25 변동성 매수전략에는  (                ),  (       )가 있다.",
+      "answer_pages": [
+        72
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        72
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q026",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "EH  26 스트래들 매수",
+      "explanation_text": "EH  26 스트래들 매수",
+      "question_text": "26 행사가격이 동일한 콜옵션과 풋옵션을 동시에 매수할 경우  (                  ) 포지션이 된다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q027",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "27  X   ► 스트랭글매수는 외가격 옵션을 매수함으로써 등가격을 매수하는 스트래들매수에 비해서 포지션비용이 적",
+      "explanation_text": "27  X   ► 스트랭글매수는 외가격 옵션을 매수함으로써 등가격을 매수하는 스트래들매수에 비해서 포지션비용이 적\n\n         게 들어간다.",
+      "question_text": "27 叵区］ 스트랭글 매수포지션 구축 시 지불하는 비용은 스트래들 매수포지션 구축 시 지불하는 비용보\n\n   다 크다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q028",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T12"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "28  〇   ► 스트래들매도포지션인데 상승방향으로는 '80 + 5 = 85'. 하락방향으로는 80 - 5 = 75,가 BEP가 되므로",
+      "explanation_text": "28  〇   ► 스트래들매도포지션인데 상승방향으로는 '80 + 5 = 85'. 하락방향으로는 80 - 5 = 75,가 BEP가 되므로\n\n           ，75~85.구간이 수익구간이 된다.",
+      "question_text": "28 叵叵］ 행사가격이 80인 콜옵션(프리미엄 3)과 풋옵션(프리미엄 2)올 동시에 매도하였을 경우, 동 포\n   지션의 손익구조상 수익이 발생하는 구간은 *75 < 기초자산가격 < 85'이다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q029",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "29 풋콜패리티",
+      "explanation_text": "29 풋콜패리티",
+      "question_text": "29 '+ハ:、テ=7=0+百는  (         )를 말한다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q030",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T13"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "30  콜매도, 풋매수, 주식매수  » 풋콜패리티식의 동등성 활용",
+      "explanation_text": "30  콜매도, 풋매수, 주식매수  » 풋콜패리티식의 동등성 활용",
+      "question_text": "30 풋콜패리티의 동등성에 의하면 채권매수는  '(           ) +  (             ) +  (     )'이다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q031",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T14"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "31  컨버전 »주식매수 + 풋옵션 매수 + 콜옵션 매도 + 채권 발행",
+      "explanation_text": "31  컨버전 »주식매수 + 풋옵션 매수 + 콜옵션 매도 + 채권 발행",
+      "question_text": "31  セ+ ハ:テス >p + S/의 경우 (컨버전 / 리버설)의 차익거래가 성립한다・\n             (1 +r 丿",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q032",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "32  이자추출전략(채권 매수 + 콜옵션 매수) / 보호적 풋전략(현물 매수 + 풋옵션 매수)",
+      "explanation_text": "32  이자추출전략(채권 매수 + 콜옵션 매수) / 보호적 풋전략(현물 매수 + 풋옵션 매수)",
+      "question_text": "32 풋콜패리티의항등식에서 'c+7>［、ア7=P + S의 좌변은 포트폴리오보험전략 중에서(                 ),\n                      U+rJ\n\n   우변은  (         )에 해당된다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q033",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T15"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "33 동적자산배분옵션복제전략)   ► 주식투자운용에서 학습한 OBPI 또는 CPP「가 해당된다.",
+      "explanation_text": "33 동적자산배분옵션복제전략)   ► 주식투자운용에서 학습한 OBPI 또는 CPP「가 해당된다.",
+      "question_text": "33 주식과 채권의 비중을 조절하면서 상승가능성과 하락방어의 두 가지 목표를 동시에 달성하고자 하는\n   전략은, 포트폴리오보험전략 중  (      )에 해당된다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q034",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "NOTE",
+      "question_page": 73,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "34 콜옵션의 델타값, 콜옵션의 내가격확률",
+      "explanation_text": "34 콜옵션의 델타값, 콜옵션의 내가격확률\n\n\n\n                                   제3과목 직무윤리 및 법규/투자운용 및 전략  I 등 73",
+      "question_text": "34 블랙숄즈모형 '(G)=SM4, J - &N电、カ에서 N(ム J은 (           )을, N〈d» 丿\n\n   는  (         )을 의미한다.",
+      "answer_pages": [
+        73
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-20"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        73
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q035",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T17"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "EP1  35  -0.4  »，: 콜옵션의 델타가 +0.7이라면 풋옵션의 델타는 -0.3이다.",
+      "explanation_text": "EP1  35  -0.4  »，: 콜옵션의 델타가 +0.7이라면 풋옵션의 델타는 -0.3이다.",
+      "question_text": "35 블랙숄즈모형에 따르면, 콜옵션의 델타가 +0.6이라면 풋옵션의 델타는  (      )이 다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q036",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T18"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "36 변동성 스머크",
+      "explanation_text": "36 변동성 스머크",
+      "question_text": "36 변동성이 내가격에서 등가격, 외가격으로 갈수록 커지는 것을 (변동성 스마일 / 변동성 스머크)라고\n\n   하며, 이는 1987년 블랙먼데이 이후의 현상이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q037",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "37  0.5 /  1 / 0",
+      "explanation_text": "37  0.5 /  1 / 0\n\n                              ーレ",
+      "question_text": "37 콜옵션의 델타는 ATM에서  (      )이며, ITM이 강화될수록  (      )에 가까워지며, OTM이 강화\n\n   될수록  (     )에 가까워진다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q038",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "38   0.1   ► 콜옵션의 델타",
+      "explanation_text": "38   0.1   ► 콜옵션의 델타\n                                      _\\S",
+      "question_text": "38 기초자산가격이 100에서 110으로 상승할 때, 옵션가격은 5에서 6으로 상승하였다. 이 경우 콜옵션의\n   델타는  ( )이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q039",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "39 O",
+      "explanation_text": "39 O",
+      "question_text": "39 叵区 콜옵션의 델타값은 〇에서 +1사이에 존재하고 풋옵션의 델타값은 -1 에서 0사이에 존재한다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q040",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "40 감마 7차 미분치는 델타. 2차 미분치는 감마이다.",
+      "explanation_text": "40 감마 7차 미분치는 델타. 2차 미분치는 감마이다.",
+      "question_text": "40 옵션민감도 지표 중에서 기초자산에 대한 옵션가격의 2차 미분치에 해당하는 것은  (     )이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q041",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "41 쎄타   ► Time Decayed 현상.으로부터 자유로운 매매전략은 스프레드전략이다.",
+      "explanation_text": "41 쎄타   ► Time Decayed 현상.으로부터 자유로운 매매전략은 스프레드전략이다.",
+      "question_text": "41 옵션의 시간가치 감소현상(Time Decayed)과 관련된 민감도지표는  (      )이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q042",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "42  - / + »珂 콜옵션 매수의 감마는 (+)이나 콜옵션 매도의 감마는 (一)이다.",
+      "explanation_text": "42  - / + »珂 콜옵션 매수의 감마는 (+)이나 콜옵션 매도의 감마는 (一)이다.",
+      "question_text": "42 옵션민감도의 부호에서, 콜옵션 매수의 쎄타는  (   )이나, 콜옵션 매도의 쎄타는  (   )이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q043",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "43  감마, 베가  » 쎄타는 모두 마이너스(一), 델타와 로우는 콜은 플러스, 풋은 마이너스이다.",
+      "explanation_text": "43  감마, 베가  » 쎄타는 모두 마이너스(一), 델타와 로우는 콜은 플러스, 풋은 마이너스이다.",
+      "question_text": "43 옵션민감도 부호에서, 콜옵션매수와 풋옵션매수 모두 플러스(+)를 보이는 것은(       ).  (   )이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    },
+    {
+      "id": "NOTE-S3C6-Q044",
+      "kind": "warmup",
+      "chapter_id": "S3C6",
+      "topic_ids": [
+        "S3C6T19"
+      ],
+      "document": "NOTE",
+      "question_page": 74,
+      "demand": "OX·빈칸·계산과 정답해설 대조",
+      "publisher_answer": "44  O  » 스트래들 매수는 콜  • 풋을 동시에 매수하는 것이므로 ,델타 = 0, 감마 > 0, 베가 > 0, 쎄타 < 〇•의 민감도",
+      "explanation_text": "44  O  » 스트래들 매수는 콜  • 풋을 동시에 매수하는 것이므로 ,델타 = 0, 감마 > 0, 베가 > 0, 쎄타 < 〇•의 민감도\n\n       를 보인다.",
+      "question_text": "44 叵区 스트래들 매수 포지션의 쎄타의 민감도 부호는 마이너스(-)이다.",
+      "answer_pages": [
+        74
+      ],
+      "review_status": "explanation_reviewed_for_eval; not_independent_gold_validation",
+      "locator_status": "heuristic_answer_sequence; requires_review",
+      "source_page_review_notes": [
+        "S3C6-ISSUE-15",
+        "S3C6-ISSUE-26",
+        "S3C6-ISSUE-28"
+      ],
+      "ocr_recovery": null,
+      "trusted_gold_status": "not_adjudicated",
+      "source_pages": [
+        74
+      ]
+    }
+  ],
+  "existing_holds": []
+}

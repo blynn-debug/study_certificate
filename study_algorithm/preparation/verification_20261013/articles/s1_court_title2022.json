@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_court_title2022",
+  "source_metadata": {
+    "id": "s1_court_title2022",
+    "requested_url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=231763",
+    "retrieved_url": "https://www.law.go.kr/LSW/precInfoP.do?precSeq=231763",
+    "retrieved_at": "2026-10-13T16:22:08.644131+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 31324,
+    "content_sha256": "04d303c328abb7e02abf022204f2ddf625f029702718d67b3e100d357195b58f",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_court_title2022:등기공신력",
+      "source_id": "s1_court_title2022",
+      "article": "등기공신력",
+      "heading": "등기공신력",
+      "text": "담보권의 실체적 하자는 담보권이 처음부터 유효하게 성립하지 않아 부존재하는 경우와 일단 유효하게 성립한 담보권이 변제나 담보권설정계약 해지 등과 같은 후발적인 사유로 소멸한 경우로 나누어 볼 수 있다. 이 사건 조항을 입법하는 과정에서는 이러한 사유에 대한 구별 없이 담보권에 실체적 하자가 있다면 전면적으로 경매의 공신력을 인정할 것인지가 논의되었다. 그 결과 임의경매를 개시하기 위해 담보권이 실체적으로 존재하는지 공적으로 확정하는 절차가 없고, 부동산등기에 공신력이 인정되지 않는 점과 진정한 소유자의 권리를 보호할 필요성 등을 고려하여 부분적으로만 경매의 공신력을 인정하는 취지로 이 사건 조항이 신설되었다.",
+      "start": 3949,
+      "end": 4293,
+      "sha256": "5d2b2a3320fc3037fc94e739ac7d3e5e9f3e206e59b9ee03a6e252831753bcf4"
+    }
+  ]
+}

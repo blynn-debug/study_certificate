@@ -1,0 +1,12 @@
+{
+  "id": "lseg_wgbi",
+  "requested_url": "https://www.lseg.com/en/ftse-russell/indices/world-government-bond-index",
+  "retrieved_url": "https://www.lseg.com/en/ftse-russell/indices/world-government-bond-index",
+  "retrieved_at": "2026-10-13T01:02:20.749512+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": true,
+  "characters": 11181,
+  "content_sha256": "f43b86234bca28a2ed1378e218852a4b6fdb5bc487bc37f9d299d2d3b3376078",
+  "status": "retrieved_not_claim_verified",
+  "effective_date_candidates": []
+}

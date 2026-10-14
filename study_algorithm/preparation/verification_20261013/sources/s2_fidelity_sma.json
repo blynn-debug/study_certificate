@@ -1,0 +1,12 @@
+{
+  "id": "s2_fidelity_sma",
+  "requested_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma",
+  "retrieved_url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma",
+  "retrieved_at": "2026-10-13T16:23:05.361974+00:00",
+  "as_of": "2026-10-13",
+  "http_complete": false,
+  "capture_method": "web.run rendered main-content excerpt; direct HTTP download returned 403",
+  "content_sha256": "cc79bb496d459abc20d5c2199505edb9c56ba5afd62a662bf9cb7e814786c7cc",
+  "text_sha256": "cc79bb496d459abc20d5c2199505edb9c56ba5afd62a662bf9cb7e814786c7cc",
+  "status": "retrieved_not_claim_verified"
+}

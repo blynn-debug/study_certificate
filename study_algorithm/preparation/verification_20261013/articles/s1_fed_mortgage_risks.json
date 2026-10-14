@@ -1,0 +1,27 @@
+{
+  "source_id": "s1_fed_mortgage_risks",
+  "source_metadata": {
+    "id": "s1_fed_mortgage_risks",
+    "requested_url": "https://www.federalreserve.gov/frrs/guidance/interagency-advisory-on-mortgage-banking.htm",
+    "retrieved_url": "https://www.federalreserve.gov/frrs/guidance/interagency-advisory-on-mortgage-banking.htm",
+    "retrieved_at": "2026-10-13T23:51:05.628741+00:00",
+    "as_of": "2026-10-13",
+    "http_complete": true,
+    "characters": 28238,
+    "content_sha256": "7c5b3beca01b1316d4f971c7fbbe8a028ccc881f502a4a1baa160ec8337ad142",
+    "status": "retrieved_not_claim_verified",
+    "effective_date_candidates": []
+  },
+  "items": [
+    {
+      "id": "s1_fed_mortgage_risks:금리유동성신용위험",
+      "source_id": "s1_fed_mortgage_risks",
+      "article": "금리유동성신용위험",
+      "heading": "금리유동성신용위험",
+      "text": "To help manage the interest-rate, liquidity, and credit risks inherent in mortgages, many institutions sell these loans into the secondary market (e.g., to the Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, the Federal Home Loan Banks, and private-sector issuers and investors). In such mortgage loan sales, institutions often retain the servicing and recognize MSAs, which are complex and volatile assets subject to interest-rate risk. MSAs can become impaired when interest rates fall and borrowers refinance or prepay their mortgage loans. This impairment can lead to earnings volatility and erosion of capital, if the risks inherent in the MSAs have not been properly hedged.",
+      "start": 8984,
+      "end": 9695,
+      "sha256": "0efe45c26e77ca205693220e8f927a15775aa7206829128f63244c80bb3c42b9"
+    }
+  ]
+}
